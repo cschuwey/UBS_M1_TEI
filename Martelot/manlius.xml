@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head> PERSONNAGES</head>
+            <castList>
+                <castItem xml:id="torquatus">
+                    
+                    <role>TORQUATUS</role> <roleDesc>, Consul Romain.</roleDesc>
+                </castItem>
+                <castItem xml:id="manlius"> 
+                    <role>MANLIUS</role> <roleDesc>, Fils du Consul.</roleDesc>
+                </castItem>
+                <castItem xml:id="camille">
+                    <role>CAMILLE</role> <roleDesc>, Veuve de Decius.</roleDesc>
+                </castItem>
+                
+                <castItem xml:id="omphale">
+                    <role>OMPHALE</role> <roleDesc>, Princesse d'Épire captive des Romains.</roleDesc>
+                </castItem>
+                
+                <castItem xml:id="junius">
+                    <role>JUNIUS</role> <roleDesc>, Ami de Torquatus.</roleDesc>
+                </castItem>
+                
+                <castItem xml:id="phénice">
+                    <role>PHÉNICE</role> <roleDesc>, Suivante d'Omphale.</roleDesc>
+                </castItem> 
+                
+                <castItem xml:id="pison">
+                    <role>PISON</role> <roleDesc>, Licteur.</roleDesc>
+                </castItem>
+                
+            </castList>
+            
+            <set><p>La Scène est au Camp des Romains devant les Tentes du Consul.</p></set>
+        </front>
+        
+        <body>
+         
+                <div1 type="act" n="2">
+                    <head>Act II</head>
+                    <div2 type="scene" n="5">
+                        <head>SCÈNE V.</head>
+                    
+                        <stage type="setting">Torquatus, Omphale</stage>
+                    
+                    
+                      <sp who="Torquatus">
+                        <speaker>TORQUATUS.</speaker>
+                    
+                    <l>Hé bien, belle inhumaine,</l>
+<l>Ne vous rendrez vous point à la grandeur Romaine ?</l>
+<l>Exécuterez-vous d'un coup d'oeil enchanté</l>
+<l>Ce que Mars et Bellone ont vainement tenté ? </l>
+<l>Ne puis-je voir cesser un si cruel marture,</l>
+<l>Et voyant à vos pieds un Consul qui soupire,</l>
+<l>Voulez-vous égaler par de cruels dédains</l>
+<l>Les maîtres de la Terre au reste des humains ?</l>
+                    
+                   
+                    </sp>
+                    
+                    <sp who="#omphale">
+                        <speaker>OMPHALE.</speaker>
+                    
+                    <l>N'insultez plus, Seigneur, à cette infortunée,</l>
+<l>Laissez borner aux fers ma triste destinée,</l>
+<l>Tant de discours flatteurs prononcés sans dessein,</l>
+<l>Sont des amusements indignes d'un Romain :</l>
+<l>Je sais le peu d'attraits dont le ciel m'a pourvue ;</l>
+<l>Et le sort m'a laissé du sens et de la vue.</l>
+                    
+                    </sp>
+                        <sp who="#torquatus">   
+                            <speaker>TORQUATUS.</speaker>
+                    
+                    <l>Quoi vous n'avez espoir qu'en un malheureux Roi,</l>
+<l>Que les arrêts du sort doivent à notre loi ?</l>
+<l>Et que peut de ses gens une faible poignée,</l>
+<l>Que par pitié Decie a sans doute épargnée,</l>
+<l>Contre un peuple vainqueur et qu'on voit aujourd'hui</l>
+<l>Traîner par l'univers la victoire après lui ?</l>
+<l>Opposez-vous plutôt à cette vaine audace,</l>
+<l>Servez-vous de vos yeux pour obtenir sa grâce,</l>
+<l>Du salut des vaincus tâchez d'être le prix,</l>
+<l>Vous le pouvez encore après tant de mépris.</l>
+<l>Ingrate, malgré moi je sens que je vous aime,</l>
+<l>Voyez ce que je puis, aimez-moi pour vous-même.</l>
+<l>Par un injuste orgueil ne poussez pas à bout,</l>
+<l>Un vainqueur amoureux, sur qui vous pouvez tout :</l>
+<l>Car je jure des Dieux la puissance adorable,</l>
+<l>Que si je vous retrouve encore inexorable,</l>
+<l>À la face du Ciel avant la fin du jour,</l>
+<l>Torquatus vengera sa gloire et son amour.</l>
+                    
+                        </sp>
+                    
+                        <stage>Il sort.</stage>
+                    </div2>
+                </div1>
+        </body>
+    </text>
+</TEI>
