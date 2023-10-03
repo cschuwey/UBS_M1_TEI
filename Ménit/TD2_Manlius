@@ -106,14 +106,14 @@
                 <head>Acte V</head>
                 <div2 type="scene" n="2">
                     <head>SCÈNE II</head>
-                    <stage type="setting">Torquartus, Omphale, Phénice, Pison.</stage>
+                    <stage type="setting">Torquartus, Omphale, Phénice, Pison</stage>
 
-                    <sp who="pison">
+                    <sp who="#pison">
                         <speaker>PISON</speaker>
                         <l>Seigneur.</l>
                     </sp>
 
-                    <sp>
+                    <sp who="#torquatus">
                         <speaker>TORQUATUS</speaker>
                         <l>Qu'on aille promptement</l>
                         <l>Exécuter…</l>
