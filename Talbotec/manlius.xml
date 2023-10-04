@@ -94,7 +94,7 @@
                                <head> SCÈNE II</head> 
                                <castList> 
                         <head> PERSONNAGES </head> 
-                    <stage:settings Torquartus, Omphale, Phénice, Pison. ></stage>
+                    <stage:type= "settings" Torquartus, Omphale, Phénice, Pison. > </stage>
                     <castItem xml:id="PHENICE"> 
                         <role rend="caps"> PHENICE </role>
                     </castItem>
