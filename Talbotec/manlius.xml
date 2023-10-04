@@ -88,8 +88,13 @@
                 
             </div2>
         </div1>
-                        <castList> 
+                      <div1 type="act" n="5">
+                          <head> Acte V </head>
+                           <div2 type="scene" n="2"> 
+                               <head> SCÈNE II</head> 
+                               <castList> 
                         <head> PERSONNAGES </head> 
+                    <stage:settings Torquartus, Omphale, Phénice, Pison. ></stage>
                     <castItem xml:id="PHENICE"> 
                         <role rend="caps"> PHENICE </role>
                     </castItem>
@@ -97,14 +102,7 @@
                             <role rend="caps"> PISON </role>  
                         </castItem>
                   </castList>
-                  </front>
-                        <body>
-                            <div1 type="act" n="5">
-                    <head> Acte V </head>
-                    <div2 type="scene" n="2"> 
-                    <head> SCÈNE II</head>
-                    
-                    <stage> Torquartus, Omphale, Phénice, Pison. </stage>
+                               
                     <sp>
                        <speaker> PISON </speaker>
                     <l> Seigneur </l>
