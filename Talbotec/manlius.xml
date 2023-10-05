@@ -115,7 +115,7 @@
                     <sp who="#OMPHALE"> 
                         <speaker> OMPHALE</speaker>
 
- <l> Hélas ! Différez un moment.</l>
+                        <l> Hélas ! Différez un moment.</l>
                         <l> Gardes, retirez-vous, je veux… mais, quoi ! Mon âme,</l>
                         <l> Quoi ? Voudrais-tu trahir Manlius et ta flamme ? </l>
                     </sp>
@@ -130,7 +130,7 @@
                     <sp who="#TORQUATUS">
                         <speaker> TORQUATUS </speaker>
 
- <l>Achevez.</l>
+                      <l>Achevez.</l>
                     </sp>
                     <sp who="#OMPHALE"> 
                         <speaker> OMPHALE </speaker>         
@@ -153,7 +153,7 @@
                     <sp who="#OMPHALE">
                         <speaker> OMPHALE </speaker>
 
- <l> Seigneur, ne précipitez rien ;</l>
+                        <l> Seigneur, ne précipitez rien ;</l>
                         <l> Fallut-il pour son sang vous donner tout le mien,</l>
                         <l> Si Manlius le veut, j'y consens avec joie :</l>
                         <l> Mais, pour m'en informer, souffrez que je le voie ;</l>
@@ -165,25 +165,25 @@
                     <sp who="#TORQUATUS">     
                         <speaker>TORQUATUS</speaker>
 
- <l>Je puis donc me flatter d'obtenir votre coeur : </l>
+                   <l>Je puis donc me flatter d'obtenir votre coeur : </l>
                     </sp>
                     <sp who="#OMPHALE"> 
                         <speaker> OMPHALE </speaker>
 
- <l>Je ne sais, mais au moins, je dirai, oui, Seigneur.</l>
+                        <l>Je ne sais, mais au moins, je dirai, oui, Seigneur.</l>
                         <l> Ne m'en demandez pas aujourd'hui davantage :</l>
                         <l> Il n'appartient qu'au temps d'achever cet ouvrage.</l>
                     </sp>
                     <sp who="#TORQUATUS">
 
- <speaker>TORQUATUS</speaker>
+ <                   speaker>TORQUATUS</speaker>
 
- <l> Ha ! Princesse, mon coeur à vos ordres soumis…</l>
+                    <l> Ha ! Princesse, mon coeur à vos ordres soumis…</l>
                     </sp>
                     <sp who="#OMPHALE"> 
                         <speaker> OMPHALE </speaker>
 
- <l> Et de grâce, Seigneur, songeons à votre fils ;</l>
+                        <l> Et de grâce, Seigneur, songeons à votre fils ;</l>
                         <l> Avec plus de loisir nous parlerons du reste,</l>
                         <l> Révoquez seulement un arrêt si funeste.</l>
                         <l> Qu'on cherche Manlius, qu'on le fasse venir :</l>
@@ -192,7 +192,7 @@
                     <sp who="#TORQUATUS"> 
                         <speaker> TORQUATUS </speaker>
 
- <l> Holà, quelqu'un, courez dans la tente prochaine</l>
+                        <l> Holà, quelqu'un, courez dans la tente prochaine</l>
                         <l> Où l'on garde mon fils, dire qu'on me l'amène.</l>
                         <l> Princesse, s'il consent aux plus doux de mes voeux,</l>
                         <l> Mon bonheur…</l>
@@ -200,7 +200,7 @@
                     <sp who="#OMPHALE"> 
                         <speaker> OMPHALE </speaker>
  
- <l> Hé, Seigneur, se peut-on croire heureux,</l>
+                        <l> Hé, Seigneur, se peut-on croire heureux,</l>
                         <l> Quand on doit la douceur d'un aveu favorable,</l>
                         <l> À la nécessité de sauver un coupable ?</l>
                         <l> Ha, non non, pour goûter de solides plaisirs,</l>
@@ -211,11 +211,9 @@
                         <l> Ce mot si désiré perd bien de ses appas ;</l>
                         <l> La liberté du choix d'elle même est si chère, </l>
                         <l> Que si sur un tel point je conseillais un frère,</l>
-
- <l>Je lui dirais, perdez la lumière du jour,</l> 
- <l> Plutôt que d'usurper le pouvoir de l'amour.</l>
- 
- <l>Mais voici Manlius, permettez-moi de grâce… </l>
+                        <l>Je lui dirais, perdez la lumière du jour,</l> 
+                        <l> Plutôt que d'usurper le pouvoir de l'amour.</l>
+                        <l>Mais voici Manlius, permettez-moi de grâce… </l>
                     </sp>
                     <sp who="#TORQUATUS"> 
                         <speaker> TORQUATUS </speaker>
