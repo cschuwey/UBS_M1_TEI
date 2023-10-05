@@ -88,72 +88,72 @@
                 
             </div2>
         </div1>
-                      <div1 type="act" n="5">
-                          <head> Acte V </head>
-                           <div2 type="scene" n="2"> 
-                               <head> SCÈNE II</head> 
-                               <castList> 
+            <div1 type="act" n="5">
+                <head> Acte V </head>
+                <div2 type="scene" n="2"> 
+                    <head> SCÈNE II</head> 
+                    <castList> 
                         <head> PERSONNAGES </head> 
-                    <stage:type= "settings" Torquartus, Omphale, Phénice, Pison. > </stage>
-                    <castItem xml:id="PHENICE"> 
-                        <role rend="caps"> PHENICE </role>
-                    </castItem>
-                        <castItem xml:id="PISON"> 
-                            <role rend="caps"> PISON </role>  
-                        </castItem>
-                  </castList>
-                               
-                    <sp>
-                       <speaker> PISON </speaker>
-                    <l> Seigneur </l>
+                        <stage type = "settings" >Torquartus, Omphale, Phénice, Pison. </stage>
+                            <castItem xml:id="PHENICE"> 
+                                <role rend="caps"> PHENICE </role>
+                            </castItem>
+                            <castItem xml:id="PISON"> 
+                                <role rend="caps"> PISON </role>  
+                            </castItem>
+                    </castList>
+                    
+                    <sp who="PISON">
+                        <speaker> PISON </speaker>
+                        <l> Seigneur </l>
                     </sp>
-                    <sp>
-                       <speaker> TORQUATUS </speaker>
+                    <sp who="#TORQUATUS">
+                        <speaker> TORQUATUS </speaker>
                         <l> Qu'on aille promptement</l>
                         <l> Exécuter…</l>
                     </sp> 
-                    <sp> 
+                    <sp who="#OMPHALE"> 
                         <speaker> OMPHALE</speaker>
-                    
-                        <l> Hélas ! Différez un moment.</l
+
+ <l> Hélas ! Différez un moment.</l>
                         <l> Gardes, retirez-vous, je veux… mais, quoi ! Mon âme,</l>
                         <l> Quoi ? Voudrais-tu trahir Manlius et ta flamme ? </l>
                     </sp>
-                    <sp> 
+                    <sp who="#TORQUATUS"> 
                         <speaker> TORQUATUS </speaker>
                         <l> Que voulez-vous ? </l>  
                     </sp>
-                   <sp> 
-                       <speaker> OMPHALE </speaker>
-                       <l> Je veux…</l>
+                    <sp who="#OMPHALE"> 
+                        <speaker> OMPHALE </speaker>
+                        <l> Je veux…</l>
                     </sp>
-                    <sp>
+                    <sp who="#TORQUATUS">
                         <speaker> TORQUATUS </speaker>
 
-                        <l> Achevez.</l>
+ <l>Achevez.</l>
                     </sp>
-                    <sp> 
+                    <sp who="#OMPHALE"> 
                         <speaker> OMPHALE </speaker>         
                         <l> Le sauver.</l>
                     </sp>
-                    <sp> 
+                    <sp who="#TORQUATUS"> 
                         <speaker> TORQUATUS </speaker>
                         <l> Et du reste ? </l>
                     </sp>
-                    <sp>
-                       <speaker> OMPHALE </speaker> 
+                    <sp who="#OMPHALE">
+                        <speaker> OMPHALE </speaker> 
                         <l> Seigneur, je voudrais y rêver.</l>
                     </sp>
-                    <sp> 
+                    <sp who="#TORQUATUS"> 
                         <speaker> TORQUATUS </speaker>
                         <l> Ha ! c'est trop écouter tant de discours frivoles,</l>
                         <l> Je ne me repais point de ces vaines paroles.</l>
                         <l> Hola, Gardes.</l>
                     </sp>
-                    <sp>
-                    <speaker> OMPHALE </speaker>
-                    
-                        <l> Seigneur, ne précipitez rien ;</l>
+                    <sp who="#OMPHALE">
+                        <speaker> OMPHALE </speaker>
+
+ <l> Seigneur, ne précipitez rien ;</l>
                         <l> Fallut-il pour son sang vous donner tout le mien,</l>
                         <l> Si Manlius le veut, j'y consens avec joie :</l>
                         <l> Mais, pour m'en informer, souffrez que je le voie ;</l>
@@ -162,45 +162,45 @@
                         <l> Pour contenter, Seigneur, votre pressante envie,</l>
                         <l> Quand avecque ma main il vous faudrait ma vie.</l>
                     </sp> 
-                    <sp>     
-                        <speaker>TORQUATUS</speaker>
-                    
-                        <l> Je puis donc me flatter d'obtenir votre coeur : </l>
-                    </sp>
-                    <sp> 
-                        <speaker> OMPHALE </speaker>
-                    
-                    <l>Je ne sais, mais au moins, je dirai, oui, Seigneur.</l>
-                        <l> Ne m'en demandez pas aujourd'hui davantage :</l>
-                        <l> Il n'appartient qu'au temps d'achever cet ouvrage.</l>
-                      	</sp>
-                    <sp>
-                        
+                    <sp who="#TORQUATUS">     
                         <speaker>TORQUATUS</speaker>
 
-                        <l> Ha ! Princesse, mon coeur à vos ordres soumis…</l>
+ <l>Je puis donc me flatter d'obtenir votre coeur : </l>
                     </sp>
-                    <sp> 
-                    <speaker> OMPHALE </speaker>
-                    
-                        <l> Et de grâce, Seigneur, songeons à votre fils ;</l>
+                    <sp who="#OMPHALE"> 
+                        <speaker> OMPHALE </speaker>
+
+ <l>Je ne sais, mais au moins, je dirai, oui, Seigneur.</l>
+                        <l> Ne m'en demandez pas aujourd'hui davantage :</l>
+                        <l> Il n'appartient qu'au temps d'achever cet ouvrage.</l>
+                    </sp>
+                    <sp who="#TORQUATUS">
+
+ <speaker>TORQUATUS</speaker>
+
+ <l> Ha ! Princesse, mon coeur à vos ordres soumis…</l>
+                    </sp>
+                    <sp who="#OMPHALE"> 
+                        <speaker> OMPHALE </speaker>
+
+ <l> Et de grâce, Seigneur, songeons à votre fils ;</l>
                         <l> Avec plus de loisir nous parlerons du reste,</l>
                         <l> Révoquez seulement un arrêt si funeste.</l>
                         <l> Qu'on cherche Manlius, qu'on le fasse venir :</l>
                         <l> Nous aurons trop de temps pour nous entretenir.</l>
                     </sp>
-                    <sp> 
+                    <sp who="#TORQUATUS"> 
                         <speaker> TORQUATUS </speaker>
-                    
-                        <l> Holà, quelqu'un, courez dans la tente prochaine</l>
+
+ <l> Holà, quelqu'un, courez dans la tente prochaine</l>
                         <l> Où l'on garde mon fils, dire qu'on me l'amène.</l>
                         <l> Princesse, s'il consent aux plus doux de mes voeux,</l>
                         <l> Mon bonheur…</l>
                     </sp>
-                    <sp> 
+                    <sp who="#OMPHALE"> 
                         <speaker> OMPHALE </speaker>
-                    
-                        <l> Hé, Seigneur, se peut-on croire heureux,</l>
+ 
+ <l> Hé, Seigneur, se peut-on croire heureux,</l>
                         <l> Quand on doit la douceur d'un aveu favorable,</l>
                         <l> À la nécessité de sauver un coupable ?</l>
                         <l> Ha, non non, pour goûter de solides plaisirs,</l>
@@ -210,25 +210,28 @@
                         <l> Quand on prononce un oui que le coeur ne dit pas,</l>
                         <l> Ce mot si désiré perd bien de ses appas ;</l>
                         <l> La liberté du choix d'elle même est si chère, </l>
-                      	<l> Que si sur un tel point je conseillais un frère,</l>
-                        <l> Je lui dirais, perdez la lumière du jour,</l>
-                        <l> Plutôt que d'usurper le pouvoir de l'amour.</l>
-                        <l> Mais voici Manlius, permettez-moi de grâce…</l>
+                        <l> Que si sur un tel point je conseillais un frère,</l>
+
+ <l>Je lui dirais, perdez la lumière du jour,</l> 
+ <l> Plutôt que d'usurper le pouvoir de l'amour.</l>
+ 
+ <l>Mais voici Manlius, permettez-moi de grâce… </l>
                     </sp>
-                    <sp> 
+                    <sp who="#TORQUATUS"> 
                         <speaker> TORQUATUS </speaker>
                         <l> Je vous entends Madame, et lui cède la place.</l>
                         <l> Gardes, retirez-vous.</l>
-                   	</sp>
-                    <sp> 
+                    </sp>
+                    <sp who="#OMPHALE"> 
                         <speaker> OMPHALE </speaker>
                         <l> Ciel, soyez mon secours.</l>
                     </sp>
-                    <sp> 
+                    <sp who="#TORQUATUS"> 
                         <speaker> TORQUATUS </speaker>
                         <l> Tâchons sans être vu, d'écouter leurs discours.</l>
                     </sp>
                 </div2>
-                </div1>
+            </div1>
         </body>
     </text>
+    
