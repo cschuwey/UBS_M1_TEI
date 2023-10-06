@@ -23,8 +23,8 @@
                       <castItem><role rend="caps">CAMILLE</role><roleDesc>, Veuve de Decius.</roleDesc></castItem>      
                       <castItem xml:id="omphale"><role rend="caps">OMPHALE</role><roleDesc>, Princesse d'Épire captive des Romains.</roleDesc></castItem>            
                       <castItem><role rend="caps">JUNIUS</role><roleDesc>, Ami de Torquatus.</roleDesc></castItem>           
-                      <castItem><role rend="caps">PHÉNICE</role><roleDesc>, Suivante d'Omphale.</roleDesc></castItem>            
-                      <castItem> <role rend="caps">PISON</role><roleDesc>, Licteur.</roleDesc></castItem></castList>  
+                      <castItem xml:id="phenice"><role rend="caps">PHÉNICE</role><roleDesc>, Suivante d'Omphale.</roleDesc></castItem>            
+                      <castItem xml:id="pison"><role rend="caps">PISON</role><roleDesc>, Licteur.</roleDesc></castItem></castList>  
             
             La Scène est au Camp des Romains devant les Tentes du Consul.
             <div1 type="act" n="2">
@@ -71,9 +71,145 @@
 <l>Que si je vous retrouve encore inexorable,</l>
 <l>À la face du Ciel avant la fin du jour,</l>
 <l>Torquatus vengera sa gloire et son amour.</l></sp>
+                       <stage type="exit">Il sort.</stage></div2>
                 
-                <stage type="exit">Il sort.</stage></div2>
+                    <div1 type="act" n="5">
+                            <head>Acte V</head>
+                        <div2 type="scene" n="2">
+                            <head>SCÈNE II.</head>
+                   <stage type="setting">Torquartus, Omphale, Phénice, Pison.</stage>
+                    <sp who="#pison"><speaker>PISON.</speaker>
+                                        Seigneur.</sp>
+                    
+                    <sp who="#torquatus>"><speaker>TORQUATUS.</speaker>
+                                        Qu'on aille promptement
+                    
+                    Exécuter…</sp>
+                    
+                    <sp who="#omphale"><speaker>OMPHALE.</speaker>
+                                        <l>Hélas ! Différez un moment.</l>
+                    
+                    Gardes, retirez-vous, je veux… mais, quoi ! Mon âme,</l>
+<l>Quoi ? Voudrais-tu trahir Manlius et ta flamme ?</sp>
+                    
+                    <sp who="#torquatus"><speaker>TORQUATUS.</speaker>
+                                       Que voulez-vous ?</sp>
+                    
+                    <sp who="#omphale"><speaker>OMPHALE.</speaker>
+                                        Je veux…</sp>
+                    <sp who="#torquatus"><speaker>TORQUATUS.</speaker>
+                                        Achevez.</sp>
+                    <sp who="#omphale"><speaker>OMPHALE.</speaker></sp>
+                                        Le sauver.
+                    <sp who="#torquatus"><speaker>TORQUATUS.</speaker>
+                                        Et du reste ?</sp>
+                    
+                    <sp who="#omphale"><speaker>OMPHALE.</speaker>
+                                        Seigneur, je voudrais y rêver.</sp>
+                    
+                    <sp who="#torquatus"><speaker>TORQUATUS.</speaker>
+                                        Ha ! c'est trop écouter tant de discours frivoles,
+                    
+                    Je ne me repais point de ces vaines paroles.
+                    
+                    Hola, Gardes.</sp>
+                    
+                    <sp who="#omphale"><speaker>OMPHALE.</speaker>
+                                        Seigneur, ne précipitez rien ;
+                    
+                    Fallut-il pour son sang vous donner tout le mien,
+                 
+                    Si Manlius le veut, j'y consens avec joie :
+                    
+                    Mais, pour m'en informer, souffrez que je le voie ;
+                    
+                    Que je puisse un moment lui parler sans témoins,
+                    
+                    Et j'atteste les Dieux d'employer tous mes soins
+                    
+                    Pour contenter, Seigneur, votre pressante envie,
+                 
+                    Quand avecque ma main il vous faudrait ma vie.</sp>
+                    
+                    <sp who="#torquatus"><speaker>TORQUATUS</speaker>.
+                                        Je puis donc me flatter d'obtenir votre coeur :</sp>
+                    
+                    <sp who="#omphale"><speaker>OMPHALE.</speaker>
+                                        Je ne sais, mais au moins, je dirai, oui, Seigneur.
+                    
+                    Ne m'en demandez pas aujourd'hui davantage :
+                    
+                    Il n'appartient qu'au temps d'achever cet ouvrage.</sp>
+                    <sp who="#torquatus"><speaker>TORQUATUS.</speaker>
+                                        Ha ! Princesse, mon coeur à vos ordres soumis…</sp>
+                    
+                    <sp who="#omphale"><speaker>OMPHALE.</speaker>
+                                        Et de grâce, Seigneur, songeons à votre fils ;
+                    
+                    Avec plus de loisir nous parlerons du reste,
+                    
+                    Révoquez seulement un arrêt si funeste.
+                    
+                    Qu'on cherche Manlius, qu'on le fasse venir :
+                    
+                    Nous aurons trop de temps pour nous entretenir.</sp>
+                    
+                    <sp who="#torquatus"><speaker>TORQUATUS.</speaker>
+                                        Holà, quelqu'un, courez dans la tente prochaine
+                    
+                    Où l'on garde mon fils, dire qu'on me l'amène.
+                    
+                    Princesse, s'il consent aux plus doux de mes voeux,
+                    
+                    Mon bonheur…</sp>
+                  
+                    <sp who="#omphale"><speaker>OMPHALE.</speaker>
+                                        Hé, Seigneur, se peut-on croire heureux,
+                    
+                    Quand on doit la douceur d'un aveu favorable,
+                    
+                    À la nécessité de sauver un coupable ?
+                    
+                    Ha, non non, pour goûter de solides plaisirs,
+                    
+                    Il faut devoir un coeur à ses propres désirs ;
+                    
+                    Et sa possession nous donne peu de joie,
+                     
+                    Lorsque, pour l'obtenir, on prend une autre voie.
+                    
+                    Quand on prononce un oui que le coeur ne dit pas,
+                    
+                    Ce mot si désiré perd bien de ses appas ;
+                    
+                    La liberté du choix d'elle même est si chère,
+                    
+                    Que si sur un tel point je conseillais un frère,
+                
+                    Je lui dirais, perdez la lumière du jour,
+                    
+                    Plutôt que d'usurper le pouvoir de l'amour.
+                    
+                    Mais voici Manlius, permettez-moi de grâce…</sp>
+                    
+                    <sp who="#torquatus"><speaker>TORQUATUS.</speaker>
+                    
+                    Je vous entends Madame, et lui cède la place.
+                    
+                    Gardes, retirez-vous.</sp>
+                    
+                    <sp who="#omphale"><speaker>OMPHALE.</speaker>
+                    
+                    Ciel, soyez mon secours.</sp>
+                    
+                    <sp who="#torquatus"><speaker>TORQUATUS.</speaker>
+                    
+                    Tâchons sans être vu, d'écouter leurs discours.</sp>
+                
+                   </div2>
             </div1>
         </body>
+    </text>
+</TEI>
     </text>
 </TEI>
