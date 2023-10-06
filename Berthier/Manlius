@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <castList>
+                <castItem>
+                    <role xml:id="torque">TORQUANTUS</role>
+                </castItem>
+                <castItem>
+                    <role xml:id="opha">OPHALE</role>
+                </castItem>
+                <castItem>
+                    <role xml:id="pison">PISON</role>
+                </castItem>
+                <castItem>
+                    <role xml:id="Phénice">PHENICE</role>
+                </castItem>
+            </castList>
+            <div1 type="act" n="2">
+                <head>Acte II</head>
+                <div2 type="scene" n="5">
+                    <head>SCÈNE V. </head>
+
+                    <stage type="characters">TORQUATUS, OPHALE</stage>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+
+                        <l>Hé bien, belle inhumaine,</l>
+                        <l>Ne vous rendrez vous point à la grandeur Romaine ?</l>
+                        <l>Exécuterez-vous d'un coup d'oeil enchanté</l>
+                        <l>Ce que Mars et Bellone ont vainement tenté ? </l>
+                        <l>Ne puis-je voir cesser un si cruel marture,</l>
+                        <l>Et voyant à vos pieds un Consul qui soupire,</l>
+                        <l>Voulez-vous égaler par de cruels dédains</l>
+                        <l>Les maîtres de la Terre au reste des humains ?</l>
+                    </sp>
+                    <sp who="#opha">
+                        <speaker>OMPHALE.</speaker>
+
+                        <l>N'insultez plus, Seigneur, à cette infortunée,</l>
+                        <l>Laissez borner aux fers ma triste destinée,</l>
+                        <l>Tant de discours flatteurs prononcés sans dessein,</l>
+                        <l>Sont des amusements indignes d'un Romain :</l>
+                        <l>Je sais le peu d'attraits dont le ciel m'a pourvue ;</l>
+                        <l>Et le sort m'a laissé du sens et de la vue.</l>
+
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Quoi vous n'avez espoir qu'en un malheureux Roi,</l>
+                        <l>Que les arrêts du sort doivent à notre loi ?</l>
+                        <l>Et que peut de ses gens une faible poignée,</l>
+                        <l>Que par pitié Decie a sans doute épargnée,</l>
+                        <l>Contre un peuple vainqueur et qu'on voit aujourd'hui</l>
+                        <l>Traîner par l'univers la victoire après lui ?</l>
+                        <l>Opposez-vous plutôt à cette vaine audace,</l>
+                        <l>Servez-vous de vos yeux pour obtenir sa grâce,</l>
+                        <l>Du salut des vaincus tâchez d'être le prix,</l>
+                        <l>Vous le pouvez encore après tant de mépris.</l>
+                        <l>Ingrate, malgré moi je sens que je vous aime,</l>
+                        <l>Voyez ce que je puis, aimez-moi pour vous-même.</l>
+                        <l>Par un injuste orgueil ne poussez pas à bout,</l>
+                        <l>Un vainqueur amoureux, sur qui vous pouvez tout :</l>
+                        <l>Car je jure des Dieux la puissance adorable,</l>
+                        <l>Que si je vous retrouve encore inexorable,</l>
+                        <l>À la face du Ciel avant la fin du jour,</l>
+                        <l>Torquatus vengera sa gloire et son amour.</l>
+                    </sp>
+                    <stage type="exit">Il sort.</stage>
+
+                </div2>
+            </div1>
+            <div3 type="act" n="5">
+                <head>Acte V</head>
+                <div4 type="scene" n="5">
+                    <head>SCÈNE II.</head>
+
+                    <stage type="characters">TORQUATUS, OMPHALE, PHENICE, PISON</stage>
+                    <sp who="#pison">
+                        <speaker>PISON.</speaker>
+                        <l>Seigneur.</l>
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Qu'on aille promptement</l>
+                        <l>Exécuter…</l>
+                    </sp>
+                    <sp who="#opha">
+                        <speaker>OMPHALE.</speaker>
+                        <l>Hélas ! Différez un moment.</l>
+                        <l>Gardes, retirez-vous, je veux… mais, quoi !</l>
+                        <l>Mon âme,Quoi ?</l>
+                        <l>Voudrais-tu trahir Manlius et ta flamme ?</l>
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Que voulez-vous ?</l>
+                    </sp>
+                    <sp who="#opha">
+                        <speaker>OMPHALE.</speaker>
+                        <l>Je veux…</l>
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Achevez.</l>
+                    </sp>
+                    <sp who="#opha">
+                        <speaker>OMPHALE.</speaker>
+                        <l>Le sauver.</l>
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Et du reste ?</l>
+                    </sp>
+                    <sp who="#opha">
+                        <speaker>OMPHALE.</speaker>
+                        <l>Seigneur, je voudrais y rêver.</l>
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Ha ! c'est trop écouter tant de discours frivoles,</l>
+                        <l>Je ne me repais point de ces vaines paroles.</l>
+                        <l>Hola, Gardes</l>
+                    </sp>
+                    <sp who="#opha">
+                        <speaker>OMPHALE.</speaker>
+                        <l>Seigneur, ne précipitez rien ;</l>
+                        <l>Fallut-il pour son sang vous donner tout le mien,</l>
+                        <l>Si Manlius le veut, j'y consens avec joie :</l>
+                        <l>Mais, pour m'en informer, souffrez que je le voie ;</l>
+                        <l>Que je puisse un moment lui parler sans témoins,</l>
+                        <l>Et j'atteste les Dieux d'employer tous mes soins</l>
+                        <l>Pour contenter, Seigneur, votre pressante envie,</l>
+                        <l>Quand avecque ma main il vous faudrait ma vie.</l>
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Je puis donc me flatter d'obtenir votre coeur :</l>
+                    </sp>
+                    <sp who="#opha">
+                        <speaker>OMPHALE.</speaker>
+                        <l>Je ne sais, mais au moins, je dirai, oui, Seigneur.</l>
+                        <l>Ne m'en demandez pas aujourd'hui davantage :</l>
+                        <l>Il n'appartient qu'au temps d'achever cet ouvrage.</l>
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Ha ! Princesse, mon coeur à vos ordres soumis…</l>
+                    </sp>
+                    <sp who="#opha">
+                        <speaker>OMPHALE.</speaker>
+                        <l>Et de grâce, Seigneur, songeons à votre fils ;</l>
+                        <l>Avec plus de loisir nous parlerons du reste,</l>
+                        <l>Révoquez seulement un arrêt si funeste.</l>
+                        <l>Qu'on cherche Manlius, qu'on le fasse venir :</l>
+                        <l>Nous aurons trop de temps pour nous entretenir.</l>
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Holà, quelqu'un, courez dans la tente prochaine</l>
+                        <l>Où l'on garde mon fils, dire qu'on me l'amène.</l>
+                        <l>Princesse, s'il consent aux plus doux de mes voeux,</l>
+                        <l>Mon bonheur…</l>
+                    </sp>
+                    <sp who="#opha">
+                        <speaker>OMPHALE.</speaker>
+                        <l>Hé, Seigneur, se peut-on croire heureux,</l>
+                        <l>Quand on doit la douceur d'un aveu favorable,</l>
+                        <l>À la nécessité de sauver un coupable ?</l>
+                        <l>Ha, non non, pour goûter de solides plaisirs,</l>
+                        <l>Il faut devoir un coeur à ses propres désirs ;</l>
+                        <l>Et sa possession nous donne peu de joie,</l>
+                        <l>Lorsque, pour l'obtenir, on prend une autre voie.</l>
+                        <l>Quand on prononce un oui que le coeur ne dit pas,</l>
+                        <l>Ce mot si désiré perd bien de ses appas ;</l>
+                        <l>La liberté du choix d'elle même est si chère,</l>
+                        <l>Que si sur un tel point je conseillais un frère,</l>
+                        <l>Je lui dirais, perdez la lumière du jour,</l>
+                        <l>Plutôt que d'usurper le pouvoir de l'amour.</l>
+                        <l>Mais voici Manlius, permettez-moi de grâce…</l>
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Je vous entends Madame, et lui cède la place.</l>
+                        <l>Gardes, retirez-vous.</l>
+                    </sp>
+                    <sp who="#opha">
+                        <speaker>OMPHALE.</speaker>
+                        <l>Ciel, soyez mon secours.</l>
+                    </sp>
+                    <sp who="#torque">
+                        <speaker>TORQUATUS.</speaker>
+                        <l>Tâchons sans être vu, d'écouter leurs discours.</l>
+                    </sp>
+                </div4>
+            </div3>
+        </body>
+    </text>
+</TEI>
