@@ -4,15 +4,53 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
+                <author>Marie-Catherine Desjardins</author>
+                <principal>Christophe Schuwey</principal>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>Marine Gautier</publisher>
+                <date when="2023-10-09">09 octobre 2023</date>
+                <distributor>Université Bretagne Sud</distributor>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <title>Manlius</title>
+                    <author>Marie-Catherine Desjardins</author>
+                    <date when="1662-04">mai 1662</date>
+                    <placeName>Paris</placeName>
+                </bibl>
+                <biblStruct>
+                    <monogr>
+                        <imprint>
+                            <date when="1662-04">mai 1662</date>
+                            <publisher>Edition</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                    <p>Poncuation modernisée</p>
+                </normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>Information de décor encodées dans un élément "set"</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
@@ -102,7 +140,7 @@
                 </div2>
             </div1>
 
-            <div3 type="act" n"5">
+            <div3 type="act" n="5">
                 <head>Acte V</head>
                 <div4 type="scene" n="2">
                     <head>SCENE II.</head>
@@ -120,7 +158,7 @@
                         <speaker>OMPHALE.</speaker>
                         <l>Hélas ! Différez un moment.</l>
                         <l>Gardes, retirez-vous, je veux… mais, quoi ! Mon âme,</l>
-                        <l>Quoi ? Voudrais-tu trahir Manlius et ta flamme ?  [ 7 ]</l>
+                        <l>Quoi ? Voudrais-tu trahir Manlius et ta flamme ? [ 7 ]</l>
                     </sp>
                     <sp who="#torquatus">
                         <speaker>TORQUATUS.</speaker>
