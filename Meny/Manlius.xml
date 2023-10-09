@@ -16,9 +16,6 @@
     </teiHeader>
     <text>
         <front>
-            <set>
-                <p>La Scène au Camp des Romains devant les Tentes du Consul.</p>
-            </set>
             <castlist>
                 <head>PERSONNAGES</head>
                 <castItem xml:id="torquatus">
@@ -50,6 +47,9 @@
                     <roleDesc>, Licteur.</roleDesc>
                 </castItem>                
             </castlist>
+            <set>
+                <p>La Scène au Camp des Romains devant les Tentes du Consul.</p>
+            </set>
         </front>
         <body>
             
