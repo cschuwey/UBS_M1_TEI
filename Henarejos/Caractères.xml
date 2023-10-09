@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères</title>
+                <author>Jean de la Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>GitHub</publisher>
+                <!--Il n'y a pas vraiment de publisher mais comme on doit le rendre sur GitHub, j'ai décidé d'utiliser le site comme publisher.-->
+                <authority>A.Henarejos</authority>
+                <date when-iso="2023-10-09">09/10/2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title type="main">Les caractères</title>
+                        <title type="sub">Les caractères de Théophraste traduits du grec avec les caractères ou les moeurs de ce siècle</title>
+                        <author>
+                            <forename>Jean</forename>
+                            <surname>de La Bruyère</surname>
+                        </author>
+                        <!--Je ne sais pas comment faire pour associer une édition spécifique (première édition, 2e édition, etc.) à un élément imprint-->
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Estienne Michallet</publisher>
+                            <date when="1691">1691</date>
+                        </imprint>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Estienne Michallet</publisher>
+                            <date>1694</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>projet pédagogique M1, UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Nous avons choisi de moderniser le texte</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Encodage du TEI header.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front> </front>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
