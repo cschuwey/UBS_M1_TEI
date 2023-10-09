@@ -5,7 +5,8 @@
             <titleStmt>
                 <title type="full">
                     <title type="main">Les Caractères de Théophraste</title>
-                    <title type="sub">traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
+                    <title type="sub">traduits du grec ; avec les caractères ou les moeurs de ce
+                        siècle</title>
                 </title>
                 <author>Jean de La Bruyère</author>
                 <principal>C. Schuwey</principal>
@@ -21,7 +22,8 @@
             <sourceDesc>
                 <bibl>
                     <author>Jean de La Bruyère</author>
-                    <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
+                    <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou
+                        les moeurs de ce siècle</title>
                     <publisher>Thomas Amaulry</publisher>
                     <placeName>
                         <address>
@@ -53,4 +55,11 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p/>
+            </div>
+        </body>
+    </text>
 </TEI>
