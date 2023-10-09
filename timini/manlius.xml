@@ -16,9 +16,7 @@
     </teiHeader>
     <text>
         <front>
-            <set>
-                <p>La Scène est au Camp des Romains devant les Tentes du Consul.</p>
-            </set>
+            
             <castlist>
                 <head>PERSONNAGES</head>
                 <castItem xml:id="torquatus">
@@ -50,6 +48,9 @@
                     <roleDesc>, Licteur.</roleDesc>
                 </catsItem>
             </castlist>
+            <set>
+                <p>La Scène est au Camp des Romains devant les Tentes du Consul.</p>
+            </set>
         </front>
         <body>
             <div1 type="act" n="2">
