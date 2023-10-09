@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>Jean de La Bruyère</author>
+                <principal>A. Poittevin</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>A. Poittevin</publisher>
+                <date/>
+                <distributor/>
+
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Jean de la Bruyère</author>
+                    <title>Les Caractères</title>
+                    <placeName/>
+                    <publisher/>
+                    <date/>
+                    <idno/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Ajout d'une partie des métadonnées du fichier.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
