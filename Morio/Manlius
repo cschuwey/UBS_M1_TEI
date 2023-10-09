@@ -7,26 +7,32 @@
                 <author>Marie-Catherine Desjardin</author>
                 <principal>C. Schuwey</principal>
             </titleStmt>
+            <editionStmt>
+                <p>Première édition</p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>Maëwenn Morio</publisher>
                 <date when="2023-10-09">09 octobre 2023</date>
                 <distributor>Université Bretagne Sud</distributor>
             </publicationStmt>
-            <sourceDesc> 
+            <sourceDesc>
                 <bibl>
                     <author>Marie-Catherine Desjardins</author>
                     <title>Manlius</title>
                     <placeName>Paris</placeName>
+                    <country>France</country>
                     <publisher>Barbin</publisher>
-                    <date>1662</date>
+                    <date when="1662">1662</date>
                     <idno>BNF YF-6856</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <normalization><p>Graphie modernisée</p></normalization>
-                <normalization><p>Ponctuation modernisée</p></normalization>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                    <p>Ponctuation modernisée</p>
+                </normalization>
             </editorialDecl>
             <editorialDecl>
                 <interpretation>
@@ -40,7 +46,11 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+            <listChange>
+                <change when="2023-10-03">Ajout et encodage de la scène V, Acte II. Ajout de la liste des personnages</change>
+                <change when="2023-10-06">Ajout et encodage de la scène II, Acte V</change>
+                <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+            </listChange>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -76,7 +86,7 @@
                     <roleDesc>Licteur.</roleDesc>
                 </castItem>
             </castList>
-            
+
             <set>
                 <p>La Scène est au Camp des Romains devant les Tentes du Consul.</p>
             </set>
