@@ -4,15 +4,75 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
+                <author>Marie-Catherine Desjardins</author>
+                <principal>C. Schuwey</principal>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher> Clémence </publisher>
+                <date when="2023-10-09">09 octobre 2023</date>
+                <distributor/>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <listBibl>
+                    <bibl>
+                        <author>Marie-Catherine Desjardins</author>
+                        <title>Manlius</title>
+                        <placeName>Paris</placeName>
+                        <publisher>Barbin</publisher>
+                        <date>1662</date>
+                    </bibl>
+                    <bibl>
+                        <author>Marie-Catherine Desjardins</author>
+                        <title>Manlius</title>
+                        <placeName>Paris</placeName>
+                        <publisher>Barbin</publisher>
+                        <date>1662</date>
+                    </bibl>
+                    <bibl>
+                        <author>Marie-Catherine Desjardins</author>
+                        <title>Manlius</title>
+                        <placeName>Paris</placeName>
+                        <publisher>Barbin</publisher>
+                        <date>1662</date>
+                    </bibl>
+
+                </listBibl>
+
+
             </sourceDesc>
         </fileDesc>
+
+        <encodingDesc>
+
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                    <p>Ponctuation modernisée</p>
+                </normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>Information de décor encodées dans un élément "set"</p>
+                </interpretation>
+            </editorialDecl>
+
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+                <language ident="">Anglais</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Ajout de méta-données du fichier</change>
+
+
+        </revisionDesc>
+
+
+
+
     </teiHeader>
     <text>
         <front>
@@ -46,8 +106,10 @@
                     <roleDesc>, Licteur</roleDesc>
                 </castItem>
             </castList>
-            
-            <set><p>La Scène est au Camp des Romains devant les Tentes du Consul</p></set>
+
+            <set>
+                <p>La Scène est au Camp des Romains devant les Tentes du Consul</p>
+            </set>
         </front>
 
 
