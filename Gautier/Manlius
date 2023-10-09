@@ -8,6 +8,9 @@
                 <author>Marie-Catherine Desjardins</author>
                 <principal>Christophe Schuwey</principal>
             </titleStmt>
+            <editionStmt>
+                <p>Première édition</p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>Marine Gautier</publisher>
                 <date when="2023-10-09">09 octobre 2023</date>
@@ -17,17 +20,12 @@
                 <bibl>
                     <title>Manlius</title>
                     <author>Marie-Catherine Desjardins</author>
-                    <date when="1662-04">mai 1662</date>
+                    <date when="1662">1662</date>
                     <placeName>Paris</placeName>
+                    <country>France</country>
+                    <idno>BNF YF-6856</idno>
+                    <publisher>Barbin</publisher>
                 </bibl>
-                <biblStruct>
-                    <monogr>
-                        <imprint>
-                            <date when="1662-04">mai 1662</date>
-                            <publisher>Edition</publisher>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -49,7 +47,11 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+            <listChange>
+                <change when="2023-10-03">Encodage de la scène V, acte II et de la scène II, acte V.
+                    Liste des personnages.</change>
+                <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+            </listChange>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -140,9 +142,9 @@
                 </div2>
             </div1>
 
-            <div3 type="act" n="5">
+            <div1 type="act" n="5">
                 <head>Acte V</head>
-                <div4 type="scene" n="2">
+                <div2 type="scene" n="2">
                     <head>SCENE II.</head>
                     <stage type="setting">Torquartus, Omphale, Phénice, Pison.</stage>
                     <sp who="#pison">
@@ -260,8 +262,8 @@
                         <speaker>TORQUATUS.</speaker>
                         <l>Tâchons sans être vu, d'écouter leurs discours.</l>
                     </sp>
-                </div4>
-            </div3>
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
