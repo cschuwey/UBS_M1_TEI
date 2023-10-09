@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Les caractères de Théophraste , traduits du grec, </title>
+                <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
+                <author>La Bruyère, Jean de</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Théo Baudry</publisher>
+                <authority>Théo Baudry</authority>
+                <date when-iso="2023-10-09">2023-10-09</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="edition_un">
+                    <monogr>
+                        <author>La Bruyère, Jean de</author>
+                        <title type="main">Les caractères de Théophraste , traduits du grec, </title>
+                        <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
+                        <edition>première édition</edition>
+                        <imprint>
+                            <publisher> E. Michallet </publisher>
+                            <pubPlace>Paris</pubPlace>
+                            <date when="1688">1688</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="edition_neuf">
+                    <monogr>
+                        <author>La Bruyère, Jean de</author>
+                        <title type="main">Les caractères ou les moeurs de ce siècle.</title>
+                        <title type="sub">précédé de Les caractères de Théophraste</title>
+                        <edition>neuvième édition</edition>
+                        <imprint>
+                            <publisher> chez Estienne Michallet</publisher>
+                            <pubPlace>A Paris</pubPlace>
+                            <date when="1696">1696</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>encodage dans le cadre du cours de XML/TEI</p>
+            </projectDesc>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">français</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when-iso="2023-10-09">début du fichier, encodage du header/des métadonnées</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
