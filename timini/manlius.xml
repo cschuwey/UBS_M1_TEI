@@ -6,13 +6,40 @@
             <titleStmt>
                 <title/>
             </titleStmt>
+            <title>Manlius</title>
+            <author>Marie-Catherine Desjardins</author>
+            <principal>C.Schuwey</principal>
             <publicationStmt>
-                <p/>
+                <publisher> L. TIMINI </publisher>
+                <date when="2023-10-09"> 10 octobre 2023 </date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author>Marie-catherine Desjardins</author>
+                    <title>Manlius</title> 
+                    <placeName>Paris</placeName>
+                    <publisher>Barbin</publisher>
+                    <date>1662</date></bibl>
+                    <idno>BNF YF-6856</idno>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization><p>Graphie modernisée</p></normalization>
+                <normalization><p>Ponctuation modernisée</p></normalization>
+            </editorialDecl>
+            <editorialDecl> 
+                <interpretation><p>Information de décor encodés dans un élément "set"</p></interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Ajout des métadonnées du fichier</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
