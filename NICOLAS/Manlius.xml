@@ -3,15 +3,62 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
+                <author>Marie-Catherine Desjardins</author>
+                <principal>J. Nicolas</principal>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>J. Nicolas</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <date when="2023-10-09">09 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <listBibl>
+                    <bibl>Marie-Catherine Desjardins, Manlius, Paris, Barbin, 1662, BNF
+                        YF-6856</bibl>
+                    <bibl>
+                        <author>Marie-Catherine Desjardins</author>
+                        <title>Manlius</title>
+                        <placeName>Paris</placeName>
+                        <publisher>Barbin</publisher>
+                        <date>1662</date>
+                        <idno>BNF YF-6856</idno>
+                    </bibl>
+                </listBibl>
+                <biblStruct>
+                    <monogr>
+                        <idno>BNF YF-6856</idno>
+                        <imprint>
+                            <date>1662</date>
+                            <publisher>Barbin</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                </normalization>
+                <normalization>
+                    <p>Ponctuation modernisée</p>
+                </normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>Information de décor encodées dans un élément "set"</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
@@ -220,7 +267,7 @@
                         <speaker>TORQUATUS.</speaker>
                         <l>Tâchons sans être vu, d'écouter leurs discours.</l>
                     </sp>
-                    </div2>
+                </div2>
             </div1>
         </body>
     </text>
