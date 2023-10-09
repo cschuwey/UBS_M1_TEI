@@ -3,15 +3,52 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
+                <author>Marie-Catherine Desjardins</author>
+                <principal>C. Shuwey</principal>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>Ambre Ménit</publisher>
+                <date when="2023-10-09">09/10/2023</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author>Marie-Catherine Desjardins</author>
+                    <title>Manlius</title>
+                </bibl>
+                <biblStruct>
+                    <monogr>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Barbin</publisher>
+                            <date>1662</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisé</p>
+                    <p>Ponctuation modernisée</p>
+                </normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>Information de décor encodées dans un élément "set"</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+                <language ident="eng">Anglais</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Ajout de méta-données du fichier.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
