@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>Jean de La Bruyère</author>
+                <principal>C. Schuwey</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Opale Launay</publisher>
+                <date when="2023-10-09">09 octobre 2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Les Caractères</title>
+                    <author>Jean de La Bruyère</author>
+                    <date>1688</date>
+                    <idno/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Création TeiHeader: métadonnées</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
