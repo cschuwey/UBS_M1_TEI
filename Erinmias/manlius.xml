@@ -3,15 +3,53 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
+                <editor>Édition critique établie par Hélène Canini dans le cadre d'un mémoire de
+                    master 1 sous la direction de Georges Forestier (2007-2008)</editor>
+                <author>DESJARDINS, Marie-Catherine</author>
+                <principal/>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>M. Erin</publisher>
+                <date when="2023-10-09">9 octobre 2023</date>
+                <distributor/>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+               <listBibl> <bibl><author>Marie-Catherine Desjardins</author>
+                    <title>Manlius</title>
+                    <placeName>Paris</placeName>
+                    <publisher>Barbin</publisher>
+                    <date>1662</date>
+                    <idno>BNF YF-6856</idno>
+               </bibl></listBibl>
+                <biblStruct>
+                    <monogr>
+                        <idno>BNF YF-6856</idno>
+                        <imprint>
+                            <date>1662</date>
+                            <publisher>Barbin</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization><p>graphie modernisée</p></normalization>
+                <normalization><p>ponctuation modernisée</p></normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation><p>information de décor encodées dans un élement "set"</p></interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+           <langUsage>
+               <language ident="fra">français</language>
+           </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
