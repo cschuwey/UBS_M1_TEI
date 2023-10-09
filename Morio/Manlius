@@ -3,15 +3,45 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
+                <author>Marie-Catherine Desjardin</author>
+                <principal>C. Schuwey</principal>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>Maëwenn Morio</publisher>
+                <date when="2023-10-09">09 octobre 2023</date>
+                <distributor>Université Bretagne Sud</distributor>
             </publicationStmt>
-            <sourceDesc>
-                <p/>
+            <sourceDesc> 
+                <bibl>
+                    <author>Marie-Catherine Desjardins</author>
+                    <title>Manlius</title>
+                    <placeName>Paris</placeName>
+                    <publisher>Barbin</publisher>
+                    <date>1662</date>
+                    <idno>BNF YF-6856</idno>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization><p>Graphie modernisée</p></normalization>
+                <normalization><p>Ponctuation modernisée</p></normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>Information de décor encodées dans un élément "set"</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
@@ -46,7 +76,7 @@
                     <roleDesc>Licteur.</roleDesc>
                 </castItem>
             </castList>
-
+            
             <set>
                 <p>La Scène est au Camp des Romains devant les Tentes du Consul.</p>
             </set>
