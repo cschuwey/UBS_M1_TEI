@@ -16,11 +16,7 @@
     <text>
         <front>
             <set>
-                <p>La Scène est au Camp des Romains devant les Tentes du Consul.</p>
-            </set>
-        </front>
-        <body>
-            <castList>
+                 <castList>
                 <head>Personnages</head>
                 <castItem xml:id="torquatus">
                     <role rend="caps">Torquatus</role>
@@ -39,6 +35,11 @@
                     <roleDesc>Licteur</roleDesc>
                 </castItem>
             </castList>
+                <p>La Scène est au Camp des Romains devant les Tentes du Consul.</p>
+            </set>
+        </front>
+        <body>
+    
             <div1 type="act" n="2">
                 <head>Acte II</head>
 
@@ -126,7 +127,7 @@
                          <l>Exécuter…</l>
                      </sp>
 
-                     <sp who="omphale">
+                     <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
                          
                         <l>Hélas ! Différez un moment.</l>
@@ -141,7 +142,7 @@
  	                    <l>Que voulez-vous ?</l>
                     </sp>    
                      
-                     <sp who="omphale">
+                     <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
 
                          <l>Je veux…</l>
@@ -153,7 +154,7 @@
                          <l>Achevez.</l>
                       </sp>
                      
-                     <sp who="omphale">
+                     <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
                          
  	                    <l>Le sauver.</l>
@@ -165,7 +166,7 @@
                          <l>Et du reste ?</l>
                       </sp>
                      
-                     <sp who="omphale">
+                     <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
                          
                         <l>Seigneur, je voudrais y rêver.</l>   
@@ -179,7 +180,7 @@
                          <l>Hola, Gardes.</l>    
                       </sp>
 
-                    <sp who="omphale">
+                    <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
 
                         <l>Seigneur, ne précipitez rien ;</l>
@@ -198,7 +199,7 @@
                          <l>Je puis donc me flatter d'obtenir votre coeur :</l>
                       </sp>
 
-                     <sp who="omphale">
+                     <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
                          
                         <l>Je ne sais, mais au moins, je dirai, oui, Seigneur.</l>
@@ -212,7 +213,7 @@
                          <l>Ha ! Princesse, mon coeur à vos ordres soumis…</l>
                       </sp>
 
-                     <sp who="omphale">
+                     <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
                          
                         <l>Et de grâce, Seigneur, songeons à votre fils ;</l>
@@ -231,7 +232,7 @@
                          <l>Mon bonheur…</l>
                       </sp>
 
-                     <sp who="omphale">
+                     <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
                          
                         <l>Hé, Seigneur, se peut-on croire heureux,</l>
@@ -257,7 +258,7 @@
                          <l>Gardes, retirez-vous.</l>
                       </sp>
 
-                     <sp who="omphale">
+                     <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
                          
  	                    <l>Ciel, soyez mon secours.</l>
