@@ -22,7 +22,7 @@
                         <role>TORQUATUS,</role>
                         <roleDesc>Consul Romain.</roleDesc>
                     </castItem>
-                    <castItem xml:id="malius">
+                    <castItem xml:id="manlius">
                         <role>MANLIUS,</role>
                         <roleDesc>Fils du Consul</roleDesc>
                     </castItem>
@@ -58,7 +58,7 @@
                 <div2 type="scene" n="5">
                     <head>SCÈNE V. </head>
                     <stage type="setting">Torquatus, Omphale</stage>
-                    <sp who="Torquatus">
+                    <sp who="#torquatus">
                         <speaker>TORQUATUS.</speaker>
 
                         <l>Hé bien, belle inhumaine,</l>
@@ -70,7 +70,7 @@
                         <l>Voulez-vous égaler par de cruels dédains</l>
                         <l>Les maîtres de la Terre au reste des humains ?</l>
                     </sp>
-                    <sp who="Omphale">
+                    <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
 
                         <l>N'insultez plus, Seigneur, à cette infortunée,</l>
@@ -80,7 +80,7 @@
                         <l>Je sais le peu d'attraits dont le ciel m'a pourvue ;</l>
                         <l>Et le sort m'a laissé du sens et de la vue.</l>
                     </sp>
-                    <sp who="Torquatus">
+                    <sp who="#torquatus">
                         <speaker>TORQUATUS.</speaker>
 
                         <l>Quoi vous n'avez espoir qu'en un malheureux Roi,</l>
