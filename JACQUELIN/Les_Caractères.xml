@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Les Caractères de Théophraste</title>
+                <title type="sub">Traduits du grec, Avec les Caractères ou les Moeurs de ce
+                    siècle</title>
+                <author>La Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <authority>Olivier Jacquelin</authority>
+                <date when-iso="2023-10-9">09/10/2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <!--Je ne savais pas si le publisher marqué sur Gallica était l'éditeur ou le publisher, et comme je souhaitais indiquer que le texte provenait de Gallica, je l'ai indiqué dans publisher étant donné que ce sont eux qui l'ont mit à disposition sur internet-->
+                <bibl xml:id="première_edition"><title>Les caractères de Théophraste, traduits du
+                        grec, avec Les caractères ou les moeurs de ce siècle</title>, <author>La
+                        Bruyère</author>, <editor>Estienne Michallet</editor>, <edition>Première
+                        édition</edition>, <date when="1688">1688</date>
+                    <publisher>Gallica</publisher>, <date when-iso="2007-10-15"
+                    >15/10/2007</date>*</bibl>
+                <bibl xml:id="neuvieme_edition"><title>Les caractères ou les moeurs de ce siècle.
+                        Précédé de Les caractères de Théophraste</title>, <author>La
+                        Bruyère</author>, <editor>Estienne Michallet</editor>, <edition>Neuvième
+                        édition</edition>, <date when="1696">1696</date>
+                    <publisher>Gallica</publisher>, <date when-iso="2007-10-15">15/10/2007</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique, M1, UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Ne ne prenons pas en compte les aspects matériels de l'original</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Encodage des métadonnées</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
