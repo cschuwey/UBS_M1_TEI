@@ -3,15 +3,40 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
+                <author>Marie-Catherine DesJardins</author>
+                <principal>C. Schuwey</principal>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>Opale Launay</publisher>
+                <date when="2023-10-09">09 octobre</date>
+                <distributor></distributor>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+              <bibl>
+                  <title>Malius</title>
+                  <author>Marie-Catherine DesJardins</author>
+                  <date>1662</date>
+              </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation><p>Information de décor encodée dans une élément "set"</p></interpretation>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                    <p>Ponctuation modernisée</p>
+                </normalization>
+             </editorialDecl>
+          </encodingDesc>
+        <profileDesc> 
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">ajout des métas données du fichier</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
