@@ -13,13 +13,11 @@
                 <date when-iso="2023-10-09">09/10/2023</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl><title>Manlius</title><author>Desjardins</author></bibl>
-               <biblStruct>
-                   <monogr>
-                       <title>Manlius</title>
-                       <imprint><publisher></publisher></imprint>
-                   </monogr>
-               </biblStruct>
+                <bibl><title>Manlius</title>
+                    <author>Desjardins</author>
+                    <idno>YF-6856</idno>
+                    <date when-iso="1662-12-12">1662</date>
+                </bibl>
             </sourceDesc>
         </fileDesc>
       
@@ -33,21 +31,10 @@
             <langUsage>
                 <language ident="FRA">Français</language>
             </langUsage>
-            <textDesc>
-                <channel></channel>
-                <constitution></constitution>
-                <derivation></derivation>
-                <domain></domain>
-                <factuality></factuality>
-                <interaction></interaction>
-                <preparedness></preparedness>
-                <purpose></purpose>
-            </textDesc>
         </profileDesc>
         
         <revisionDesc>
             <change when="2023-10-09">Encodage Acte V scène II</change>
-            <change when="2023-10-09">sert surtout pour les changements majeurs apportés au doc</change>
         </revisionDesc>
         
     </teiHeader>
