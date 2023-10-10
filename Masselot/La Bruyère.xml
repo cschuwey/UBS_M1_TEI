@@ -9,7 +9,7 @@
             </titleStmt>
             
             <publicationStmt>
-                <publisher></publisher>
+                <publisher>Camille Masselot</publisher>
                 <date when="2023-10-10">10 octobre 2023</date>
             </publicationStmt>
             
@@ -32,9 +32,10 @@
             </sourceDesc>
         </fileDesc>
         
-            <revisionDesc>
-                <change when ="2023-10-10">Ajout de deux éditions des "Caractères" grâce à l'élément "bibl"</change>
-            </revisionDesc>    
+        <revisionDesc>
+            <change when ="2023-10-10">Ajout de deux éditions des "Caractères" grâce à l'élément "bibl"</change>
+            <change when ="2023-10-10">Comme La Bruyère se sert juste des Caractères de Théophraste comme prétexte pour développer sa propre réflexion, seul La Bruyère est crédité dans la balise "author"</change>
+        </revisionDesc>    
     </teiHeader>
     <text>
         <body>
@@ -44,3 +45,4 @@
         </body>
     </text>
 </TEI>
+
