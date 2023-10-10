@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>Jean de la Bruyère</author> 
+            </titleStmt>
+            <publicationStmt>
+                <publisher>L.TIMINI</publisher>
+                <date when="2023-10-10">10 octobre 2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listbibl>
+                <bibl>
+                    <author>J. de la Bruyère</author>
+                    <title>les Caractères de Théophraste traduit du grec avec les Carctères ou les Moeurs de ce siècle</title>
+                    <placeName>Paris</placeName>
+                    <publisher>Etienne Michallet</publisher>
+                    <date>1692</date>
+                </bibl>
+                <bibl>
+                    <author>J. de la Bruyère</author>
+                    <title>les Caractères de Théophraste traduit du grec avec les Carctères ou les Moeurs de ce siècle</title>
+                    <placeName>Paris</placeName>
+                    <publisher>Etienne Michallet</publisher>
+                    <date>1694</date>
+                </bibl>
+                </listbibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization><p>Graphie modernisée</p></normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-10">création du TEI Header</change>
+        </revisionDesc>
+    </teiHeader>
+</TEI>
