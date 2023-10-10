@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères ou les Mœurs de ce siècle</title>
+                <author>Jean de La Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Gallica</publisher>
+                <authority>T.Bourge</authority>
+                <date when-iso="2023-10-10">10/10/2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle</title>
+                    <author>Jean de La Bruyère</author>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2</ref>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">1688</date>
+                    <biblScope unit="page">368</biblScope>
+                </bibl>
+                <bibl>
+                    <title> Les caractères de Théophraste traduits du grec ; avec les caractères ou
+                        les moeurs de ce siècle</title>
+                    <author>Jean de La Bruyère</author>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2">
+                        https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2</ref>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1691">1691</date>
+                    <biblScope unit="page">636</biblScope>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique M1 MLE de l'UBS</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution/>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-10">Encodage du teiHeader des Caractères de la Bruyère.</change>
+        </revisionDesc>
+    </teiHeader>
+</TEI>
