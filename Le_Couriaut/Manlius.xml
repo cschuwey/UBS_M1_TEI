@@ -20,15 +20,6 @@
                     <date>1662</date>
                     <idno>BNF YF-6856</idno>
                 </bibl>
-                <biblStruct>
-                    <monogr>
-                        <imprint>
-                            <date>1662</date>
-                            <pubPlace>Paris</pubPlace>
-                            <publisher>Barbin</publisher>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -41,6 +32,10 @@
             <editorialDecl>
                 <interpretation>
                     <p>Information de décor encodées dans un élément "set"</p>
+                    <p>Ajout de l'attribut "rend ="caps" à la balise "role" pour conserver la
+                        graphie originale dans les données</p>
+                    <p>Ponctuation de la liste de personnage conservée pour rester fidèle au texte
+                        source</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -51,6 +46,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-09"> Ajout des méta-données du fichier</change>
+            <change when="2023-10-10"> Ajout de nouvelles méta-données au fichier</change>
         </revisionDesc>
     </teiHeader>
     <text>
