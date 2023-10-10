@@ -14,9 +14,10 @@
                 <edition>
                     <name>1ère édition</name>
                     <date when="1688">M. DC. LXXXVIII</date>
+                    <objectType>monographie imprimée</objectType>
                 </edition>
             </editionStmt>
-            <extent>Sign. A-C, p. 53-360 ; in-12 ; 368 pages</extent>
+            <extent>368 pages</extent>
             <publicationStmt>
                 <distributor>Bibliothèque nationale de France,</distributor>
                 <date when-iso="2007-10-15">15/10/2007</date>
@@ -32,32 +33,32 @@
                 <note>établi dans le cadre d'un projet de M1</note>
             </notesStmt>
             <sourceDesc>
-                <biblStruct xml:lang="fr">
-                    <monogr>
-                        <author>Jean de La Bruyère</author>
-                        <title type="main">Les caractères de Théophraste , traduits du grec, avec
-                            Les caractères ou les moeurs de ce siècle</title>
-                        <title type="sub">Par J. de La Bruyère</title>
-                        <imprint>
-                            <date when="1688">M. DC. LXXXVIII</date>
-                            <pubPlace>Paris</pubPlace>
-                            <publisher>Etienne Michalet</publisher>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <biblStruct xml:lang="fr">
-                    <monogr>
-                        <author>Jean de La Bruyère</author>
-                        <title type="main">Les caractères de Théophraste , traduits du grec, avec
-                            Les caractères ou les moeurs de ce siècle</title>
-                        <title type="sub">Par J. de La Bruyère</title>
-                        <imprint>
-                            <date when="1691">M. DC. XCI.</date>
-                            <pubPlace>Paris</pubPlace>
-                            <publisher>Etienne Michalet</publisher>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
+                <bibl xml:lang="fr">
+                    <author>Théophraste</author>
+                    <editor>Jean de La Bruyère</editor>
+                    <title type="main">Les caractères de Théophraste , traduits du grec, avec Les
+                        caractères ou les moeurs de ce siècle</title>
+                    <title type="sub">Par J. de La Bruyère</title>
+                    <country>France</country>
+                    <edition>1ère édition</edition>
+                    <textLang>Francais</textLang>
+                    <date when="1688">M. DC. LXXXVIII</date>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>Etienne Michalet</publisher>
+                    <biblScope>Sign. A-C, p. 53-360 ; in-12 ; 368 pages</biblScope>
+                </bibl>
+                <bibl xml:lang="fr">
+                    <author>Jean de La Bruyère</author>
+                    <title type="main">Les caractères de Théophraste , traduits du grec, avec Les
+                        caractères ou les moeurs de ce siècle</title>
+                    <title type="sub">Par J. de La Bruyère</title>
+                    <edition>2ème édition</edition>
+                    <textLang>Francais</textLang>
+                    <date when="1691">M. DC. XCI.</date>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>Etienne Michalet</publisher>
+                    <biblScope>In-12, 16 ff. non ch., 587 pages</biblScope>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -66,7 +67,8 @@
             </projectDesc>
             <editorialDecl>
                 <normalization>
-                    <p>Les différentes éditions numériser sont toujours dans un francais de son époque</p>
+                    <p>Les différentes éditions numériser sont toujours dans un francais de son
+                        époque</p>
                 </normalization>
                 <p>Les pages des manuscrits ont été scanné</p>
             </editorialDecl>
