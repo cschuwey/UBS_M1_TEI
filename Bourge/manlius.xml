@@ -3,15 +3,49 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
+                <author>Marie-Catherine Desjardins</author>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>17th-centry Digital Library</publisher>
+                <authority>T.Bourge</authority>
+                <date when-iso="2023-10-09">09/10/2023</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl><title>Manlius</title><author>Desjardins</author><publisher>Claude Barbin</publisher><pubPlace>Paris</pubPlace><idno>YF-6856</idno></bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique M1 MLE de l'UBS</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Nous avons choisi de moderniser le texte</p>
+                </normalization>
+                <p>Nous n'avons pas tenu compte des aspects matériels de l'original</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution/>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-02">Encodage de la scène V de l'acte II.</change>
+            <change when="2023-10-09">Encodage de la scène II de l'acte V.</change>
+            <change when="2023-10-09">Encodage du teiHeader.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
