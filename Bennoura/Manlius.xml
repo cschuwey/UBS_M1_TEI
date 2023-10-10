@@ -3,15 +3,58 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title> Manlius </title>
+                <author>Marie-Catherine Desjardins</author>
+                <funder>Théâtre de l'Hôtel de Bourgogne.</funder>
             </titleStmt>
+            <!-- J'ai utilisé le fichier disponible sur le premier site pour les métadonnées -->
+            <editionStmt xml:lang="fr">
+                <edition>Édition critique</edition>
+                <author>Hélène Canini</author>
+                <principal>Georges Forestier</principal>
+            </editionStmt>
+            <extent>1592 vers</extent>
             <publicationStmt>
-                <p/>
+                <distributor>Paul FIEVRE</distributor>
+                <authority>Georges Forestier</authority>
+                <date when-iso="2015-03-05">mars 2015</date>
             </publicationStmt>
+            <notesStmt>
+                <note>établi dans le cadre d'un mémoire de master 1</note>
+            </notesStmt>
             <sourceDesc>
-                <p/>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Marie-Catherine Desjardins</author>
+                        <title type="main">Manlius</title>
+                        <imprint>
+                            <date when="1662">1662</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique M1,UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Le texte a été normalisé</p>
+                </normalization>
+                <p>Nous n'avons pas tenu compte des aspects matériels</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">French</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-04" who="moi">j'ai encoder l'acte Acte II Scène V</change>
+            <change when="2023-10-04" who="moi">j'ai encoder l'acte Acte V Scène II</change>
+            <change when="2023-10-09" who="moi">j'ai écris le header</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -41,7 +84,8 @@
                     <role xml:id="pison">Pison</role><roleDesc>Licteur</roleDesc>
                 </castItem>
             </castList>
-            <stage type="location">La Scène est au Camp des Romains devant les Tentes du Consul.</stage>
+            <stage type="location">La Scène est au Camp des Romains devant les Tentes du
+                Consul.</stage>
             <div1 type="act" n="2">
                 <head>Acte II</head>
                 <div2 type="scene" n="5">
