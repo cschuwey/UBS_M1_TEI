@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>Jean de La Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>E. Schneider</publisher>
+                <date when="2023-10-10">10 octobre 2023</date>
+                <distributor></distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Jean de La Bruyère</author>
+                    <title> Les Caracteres de Theophraste, traduits du grec, avec Les Caracteres ou Les Moeurs de ce siecle. Septième edition</title>
+                    <placeName>Lyon</placeName>
+                    <publisher>chez Thomas Amaulry</publisher>
+                    <date when="1693"></date>
+                </bibl>
+                <bibl>
+                    <author>Jean de La Bruyère</author>
+                    <title>Les Caractères de Theophraste traduits du grec: avec les caractères ou les moeurs de ce siècle. Neuviéme édition</title>
+                    <placeName>La Haye</placeName>
+                    <publisher>chez Adrian Moetjens</publisher>
+                    <date when="1696"></date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    
+                </normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <language indent="fra">Français</language>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-10">Ajout des méta-données du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
