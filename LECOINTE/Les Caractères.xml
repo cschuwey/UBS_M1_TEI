@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste traduit du grec. Avec les Caractères ou les moeurs de ce siècle </title>
+                <author>Jean de La Bruyère</author>
+                <principal>C. Schuwey</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Daphnée Lecointe</publisher>
+                <date when="2023-10-10">10 octobre 2023</date>
+                <distributor>GithUb</distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>
+                        <author>Jean de La Bruyère</author>
+                        <title>Les Caractères de Théophraste traduit du grec. Avec les Caractères ou les moeurs de ce siècle</title>
+                        <placeName>Paris</placeName>
+                        <publisher>Etienne Michallet</publisher>
+                        <date>1688</date>
+                    </bibl>
+                    <bibl>
+                        <author>Jean de La Bruyère</author>
+                        <title>Les Caractères de Théophraste traduit du grec. Avec les Caractères ou les moeurs de ce siècle</title>
+                        <placeName>Lyon</placeName>
+                        <publisher>Thomas Amaulry</publisher>
+                        <date>1689</date>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="20203-10-10">Ajout des méta-données au fichier</change>
+        </revisionDesc>
+    </teiHeader>
+</TEI>
