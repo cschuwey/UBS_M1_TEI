@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou les moeurs de ce siècle.</title>
+                <author>J. de La Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>L. Meny</publisher>
+                <date when="2023-10-10">10 octobre 2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>
+                        <author>J. de La Bruyère</author>
+                        <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou les moeurs de ce siècle.</title>
+                        <placeName>Paris</placeName>
+                        <publisher>E. Michallet</publisher>
+                        <date>1688></date>
+                    </bibl>
+                    <bibl>
+                    <author>J. de La Bruyère</author>
+                    <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou les moeurs de ce siècle.</title>
+                    <placeName>Paris</placeName>
+                    <publisher>E. Michallet</publisher>
+                    <date>1691</date>
+                    <edition>sixième édition</edition>
+                </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language idents="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-10">Ajout des méta-données du fichier.</change>
+        </revisionDesc>
+    </teiHeader>
+</TEI>
