@@ -6,21 +6,17 @@
                 <title> Manlius </title>
                 <author> Marie-Catherine des Jardins</author>
                 <principal> M.Schuwey </principal>
-                
             </titleStmt>
-            <editionStmt>
-            <p> 1ere edition </p> 
-            </editionStmt>
             <publicationStmt>
                 <publisher> T.Talbotec </publisher>
                 <date when="2023-10-09"> 09 octobre 2023 </date>
-                <authority> UBS, M1, MLE </authority>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author> Marie-Catherine des Jardins </author>
                     <title> Manlius </title>, 
                     <editor> Barbin </editor>
+                    <edition> "1ère édition" </edition>
                     <date> 1662 </date>
                     <placeName> Paris </placeName> 
                     <idno> YF.6856 </idno>
@@ -29,10 +25,11 @@
         </fileDesc>
         <encodingDesc> 
             <projectDesc>
-            <p> Projet pédagogique M1 MLE </p>
+                <p> Projet pédagogique M1 MLE </p>
             </projectDesc>
             <editorialDecl> 
-                <normalization> <p> Graphie modernisée </p>
+                <normalization> 
+                    <p> Graphie modernisée </p>
                     <p> Ponctuation modernisée </p>
                 </normalization>
                 <interpretation> <p> Informations du décor encodées dans élément "set" </p></interpretation>
@@ -40,8 +37,7 @@
         </encodingDesc>
         <profileDesc> 
             <langUsage>
-                <language ident="fra"> Français </language>
-                
+                <language ident="fra"> Français </language>           
             </langUsage>
         </profileDesc>
         <revisionDesc>
