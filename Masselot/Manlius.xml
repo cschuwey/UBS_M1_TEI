@@ -10,7 +10,6 @@
             <publicationStmt>
                 <publisher>Camille Masselot</publisher>
                 <date when="2023-10-09">9 octobre 2023</date>
-                <distributor></distributor>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -39,7 +38,8 @@
         </profileDesc>
         
         <revisionDesc>
-            <change></change>
+            <change when="2023-10-10">Indentation du document pour plus de lisibilité(relative)</change>
+            <change when="2023-10-10">Suppression de la balise "distributor" dans "publicationStmt", laissée auparavant par erreur</change>
         </revisionDesc>
     </teiHeader>
     <text>
