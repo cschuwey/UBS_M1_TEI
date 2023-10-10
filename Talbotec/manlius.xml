@@ -6,33 +6,47 @@
                 <title> Manlius </title>
                 <author> Marie-Catherine des Jardins</author>
                 <principal> M.Schuwey </principal>
+                
             </titleStmt>
+            <editionStmt>
+            <p> 1ere edition </p> 
+            </editionStmt>
             <publicationStmt>
                 <publisher> T.Talbotec </publisher>
-               <date when="2023-10-09">09 octobre 2023 </date>
+                <date when="2023-10-09"> 09 octobre 2023 </date>
+                <authority> UBS, M1, MLE </authority>
             </publicationStmt>
             <sourceDesc>
-                <bibl> Marie-Catherine des Jardins, Manlius, Paris, Barbin, 1662.</bibl>
+                <bibl>
+                    <author> Marie-Catherine des Jardins </author>
+                    <title> Manlius </title>, 
+                    <editor> Barbin </editor>
+                    <date> 1662 </date>
+                    <placeName> Paris </placeName> 
+                    <idno> YF.6856 </idno>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc> 
-        <editorialDecl> 
-            <normalization> <p> Grahie modernisée </p>
-                <p> Ponctuation modernisée </p>
-            </normalization>
-            <interpretation> <p> Informations du décor encodées dans éléùent "set" </p></interpretation>
+            <editorialDecl> 
+   
+                <normalization> <p> Graphie modernisée </p>
+                    <p> Ponctuation modernisée </p>
+                </normalization>
+                <interpretation> <p> Informations du décor encodées dans élément "set" </p></interpretation>
             </editorialDecl>
         </encodingDesc>
         <profileDesc> 
             <langUsage>
                 <language ident="fra"> Français </language>
-              
+                
             </langUsage>
         </profileDesc>
-    <revisionDesc>
-        <change when= "2023-10-09" > Ajout des méta-données du fichier </change>
-    </revisionDesc>
-           
+        <revisionDesc>
+            <change when= "2023-10-09" > Ajout des méta-données du fichier </change>
+            <change when="2023-10-10"> Finition des méta-données </change>
+        </revisionDesc>
+        
     </teiHeader>
     <text>
         <front> 
