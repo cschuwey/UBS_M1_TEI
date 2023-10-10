@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste traduits du grec : avec Les Caractères ou les Moeurs de ce siècle</title>
+                <author>Jean de La Bruyère</author>
+                <principal>C.Shuwey</principal>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher></publisher>
+                <date when="2023-10-10">10 octobre 2023</date>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Jean de La Bruyère</author>
+                    <title>Les Caractères de Théophraste traduits du grec. Avec Les Caractères ou les Moeurs de ce siècle.</title>
+                    <placeName>Paris</placeName>
+                    <publisher>E.Michallet</publisher>
+                    <date>1688</date>
+                    <idno>BNF Rés R-2056</idno>
+                </bibl>
+                <bibl>
+                    <author>Jean de La Bruyère</author>
+                    <title>Les Caractères de Théophraste traduits du grec : avec Les Caractères ou les Moeurs de ce siècle. Sixième édition corrigée et augmentée</title>
+                    <placeName>Paris</placeName>
+                    <publisher>E.Michallet</publisher>
+                    <date>1692</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+            <revisionDesc>
+                <change when ="2023-10-10">Ajout de deux éditions des "Caractères" grâce à l'élément "bibl"</change>
+            </revisionDesc>    
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
