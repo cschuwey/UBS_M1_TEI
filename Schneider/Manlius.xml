@@ -41,6 +41,7 @@
         
         <revisionDesc>
             <change when="2023-10-09">Ajout des méta-données du fichier</change>
+            <change when="2023-10-09">Ajout de l'attribut who=""</change>
         
         </revisionDesc>
     </teiHeader>
@@ -49,12 +50,12 @@
             <castlist>
                 <head>PERSONNAGES</head>
                 
-                <castItem xml:id="Torquatus">
+                <castItem xml:id="torquatus">
                     <role rend="caps">Torquatus,</role> 
                     <roleDesc>Consul Romain.</roleDesc>
                 </castItem>
                 
-                <castItem xml:id="Manlius">
+                <castItem xml:id="manlius">
                     <role rend="caps">Manlius,</role> 
                     <roleDesc>Fils du Consul.</roleDesc>
                 </castItem>
@@ -163,6 +164,7 @@
                     <sp who="#pison">
                         
                         <speaker>PISON.</speaker> <l>Seigneur.</l>
+                   
                     </sp> 
                     
                     <sp who="#torquatus"> 
@@ -232,8 +234,7 @@
                         
                         <speaker>TORQUATUS.</speaker> 
                         
-                        <l>Ha ! c'est trop écouter tant de discours
-                            frivoles,</l>
+                        <l>Ha ! c'est trop écouter tant de discours frivoles,</l>
                         <l>Je ne me repais point de ces vaines paroles.</l>
                         <l>Hola, Gardes.</l>
                     
@@ -251,32 +252,61 @@
                         <l>Et j'atteste les Dieux d'employer tous mes soins</l>
                         <l>Pour contenter, Seigneur, votre pressante envie,</l>
                         <l>Quand avecque ma main il vous faudrait ma vie.</l>
-                    </sp> <sp>
-                        <speaker>TORQUATUS.</speaker> <l>Je puis donc me flatter d'obtenir votre
-                            coeur :</l>
-                    </sp> <sp>
-                        <speaker>OMPHALE.</speaker> <l>Je ne sais, mais au moins, je dirai, oui,
-                            Seigneur.</l>
+                    </sp> 
+                    
+                    <sp who="#torquatus">
+                        
+                        <speaker>TORQUATUS.</speaker> 
+                        
+                        <l>Je puis donc me flatter d'obtenir votre coeur :</l>
+                    
+                    </sp> 
+                    
+                    <sp who="#omphale">
+                        
+                        <speaker>OMPHALE.</speaker> 
+                        
+                        <l>Je ne sais, mais au moins, je dirai, oui, Seigneur.</l>
                         <l>Ne m'en demandez pas aujourd'hui davantage :</l>
                         <l>Il n'appartient qu'au temps d'achever cet ouvrage.</l>
-                    </sp> <sp>
-                        <speaker>TORQUATUS.</speaker> <l>Ha ! Princesse, mon coeur à vos ordres
-                            soumis…</l>
-                    </sp> <sp>
-                        <speaker>OMPHALE.</speaker> <l>Et de grâce, Seigneur, songeons à votre fils
-                            ;</l>
+                    
+                    </sp> 
+                    
+                    <sp who="#torquatus">
+                        
+                        <speaker>TORQUATUS.</speaker> 
+                        
+                        <l>Ha ! Princesse, mon coeur à vos ordres soumis…</l>
+                    
+                    </sp> 
+                    
+                    <sp who="#omphale">
+                        
+                        <speaker>OMPHALE.</speaker> 
+                        
+                        <l>Et de grâce, Seigneur, songeons à votre fils ;</l>
                         <l>Avec plus de loisir nous parlerons du reste,</l>
                         <l>Révoquez seulement un arrêt si funeste.</l>
                         <l>Qu'on cherche Manlius, qu'on le fasse venir :</l>
                         <l>Nous aurons trop de temps pour nous entretenir.</l>
-                    </sp> <sp>
-                        <speaker>TORQUATUS.</speaker> <l>Holà, quelqu'un, courez dans la tente
-                            prochaine</l>
-                        <l> l'on garde mon fils, dire qu'on me l'amène.</l>
+                    
+                    </sp> 
+                    
+                    <sp who="#torquatus">
+                        
+                        <speaker>TORQUATUS.</speaker> 
+                        
+                        <l>Holà, quelqu'un, courez dans la tente prochaine</l>
+                        <l>Où l'on garde mon fils, dire qu'on me l'amène.</l>
                         <l>Princesse, s'il consent aux plus doux de mes voeux,</l>
                         <l>Mon bonheur…</l>
-                    </sp> <sp>
+                    
+                    </sp> 
+                    
+                    <sp who="#omphale">
+                        
                         <speaker>OMPHALE.</speaker>
+                        
                         <l>Hé, Seigneur, se peut-on croire heureux,</l>
                         <l>Quand on doit la douceur d'un aveu favorable,</l>
                         <l>À la nécessité de sauver un coupable ?</l>
@@ -291,15 +321,32 @@
                         <l>Je lui dirais, perdez la lumière du jour,</l>
                         <l>Plutôt que d'usurper le pouvoir de l'amour.</l>
                         <l>Mais voici Manlius, permettez-moi de grâce…</l>
-                    </sp> <sp>
+                    
+                    </sp> 
+                    
+                    <sp who="#torquatus">
+                        
                         <speaker>TORQUATUS.</speaker>
-                    </sp> <l>Je vous entends Madame, et lui cède la place.</l>
-                    <l>Gardes, retirez-vous.</l> <sp>
+                    
+                    <l>Je vous entends Madame, et lui cède la place.</l>
+                    <l>Gardes, retirez-vous.</l> 
+                        
+                    </sp> 
+                        
+                    <sp who="#omphale">
+                        
                         <speaker>OMPHALE.</speaker>
+                        
                         <l>Ciel, soyez mon secours.</l>
-                    </sp> <sp>
-                        <speaker>TORQUATUS.</speaker> <l>Tâchons sans être vu, d'écouter leurs
-                            discours.</l>
+                        
+                    </sp> 
+                    
+                    <sp who="#torquatus">
+                        
+                        <speaker>TORQUATUS.</speaker> 
+                       
+                        <l>Tâchons sans être vu, d'écouter leurs discours.</l>
+                        
                     </sp> </div2>
             </div1>
         </body>
