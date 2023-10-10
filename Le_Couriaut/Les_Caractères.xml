@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleSmt>
+                <title> Les Caractères</title>
+                <author> Jean de La Bruyère</author>
+                <principal>C.Schuwey</principal>
+            </titleSmt>
+            <publicationSmt>
+                <publisher> Cassandre Le Couriaut</publisher>
+                <date when="2023-10-10"> 10 octobre 2023</date>
+            </publicationSmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Jean de La Bruyère</author>
+                    <author> Theophraste</author>
+                    <title> Les caractères de Théophraste , traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle </title>
+                    <editor>E.Michallet</editor>
+                    <pubPlace>Paris</pubPlace>
+                    <date>1688</date>
+                    <idno> RES-R-2056</idno>
+                </bibl>
+                <bibl>
+                    <author>Jean de La Bruyère</author>
+                    <title> Les caractères de Théophraste traduits du grec ; avec Les caractères ou
+                        les moeurs de ce siècle </title>
+                    <editor>Thomas Amaulry</editor>
+                    <pubPlace>Lyon</pubPlace>
+                    <date>1694</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDesc>
+                <interpretation>
+                    <p> Titre contenu dans une seule balise "title" sans "main" ou "sub" car tous
+                        les éléments du titre sont importants</p>
+                </interpretation>
+            </editorialDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2023-10-10"> Ajout des méta-données du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+</TEI>
