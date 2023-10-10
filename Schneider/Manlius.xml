@@ -29,7 +29,7 @@
                 </normalization>
             </editorialDecl>
             <editorialDecl>
-                <interpretation><p>Information de décor encodées dans un élément "set"</p></interpretation>
+                <interpretation><p>Informations de décor encodées dans un élément "set"</p></interpretation>
             </editorialDecl>
         </encodingDesk>
         <profileDesc>
@@ -42,7 +42,6 @@
         <revisionDesc>
             <change when="2023-10-09">Ajout des méta-données du fichier</change>
             <change when="2023-10-09">Ajout de l'attribut who=""</change>
-        
         </revisionDesc>
     </teiHeader>
     <text>
