@@ -1,1 +1,63 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"> Les Caractères de théophraste, traduits du grec </title>
+                <title type="sub"> avec Les caractères et les moeurs du siècle </title>
+                <author> Jean de La Bruyère </author>
+                <principal> M.Schuwey </principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Thomas Talbotec </publisher>
+                <date when="2023-10-10"> 10 octobre 2023 </date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="edition_un"> 
+                    <author> Jean de La Bruyère </author>
+                    <title type="main"> Les Caractères de théophraste, traduits du grec </title>
+                    <title type="sub"> avec Les caractères et les moeurs du siècle </title>
+                    <editor> E.Michallet </editor>
+                    <edition> 1ère édition </edition>
+                    <date> 1688 </date>
+                    <placeName> Paris </placeName>
+                    <idno> R-2810 </idno>
+                </bibl>
+                <bibl xml:id="edition_neuf">
+                    <author> Jean de La Bruyère </author>
+                    <title type="main"> Les Caractères de théophraste, traduits du grec </title>
+                    <title type="sub"> avec Les caractères et les moeurs du siècle </title>
+                    <editor> E.Michallet </editor>
+                    <edition> 9ème édition </edition>
+                    <date> 1696 </date>
+                    <placeName> Paris </placeName>
+                    <idno> PQ-1803 </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p> Projet pédagogique M1 MLE</p>
+                </projectDesc>
+       <editorialDecl> 
+           <normalization> 
+               <p> Graphie modernisée </p>
+               <p> Ponctuation modernisée </p>
+           </normalization>
+       </editorialDecl>
+       </encodingDesc>
+        <profileDesc>
+         <langUsage>
+             <language ident="fra"> Français </language>
+         </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-10"> Ajout des métadonnées sur la page </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p> </p>
+        </body>
+    </text>
+</TEI>
