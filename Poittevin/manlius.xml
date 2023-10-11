@@ -58,37 +58,38 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>
-            <front>
-                <castList>
-                    <head>Personnages</head>
-                    <castItem xml:id="torquatus">
-                        <role>Torquatus</role>
-                        <roleDesc>, Consul Romain.</roleDesc>
-                    </castItem>
-                    <castItem xml:id="omphale">
-                        <role>Omphale</role>
-                        <roleDesc>, Princesse d'Épire captive des Romains.</roleDesc>
-                    </castItem>
-                    <castItem xml:id="manlius"><role>manlius</role><roleDesc>, Fils du
-                            Consul.</roleDesc>
-                    </castItem>
-                    <castItem xml:id="camille"><role>Camille</role>
-                        <roleDesc>, Veuve de Decius.</roleDesc></castItem>
-                    <castItem xml:id="junius"><role>Junius</role><roleDesc>, Ami de
-                            Torquatus.</roleDesc>
-                    </castItem>
-                    <castItem xml:id="phénice"><role>Phénice</role><roleDesc>, Suivante
-                            d'Omphale.</roleDesc>
-                    </castItem>
-                    <castItem xml:id="pison"><role>Pison</role><roleDesc>,
-                        Licteur.</roleDesc></castItem>
-                </castList>
+        <front>
+            <castList>
+                <head>Personnages</head>
+                <castItem xml:id="torquatus">
+                    <role>Torquatus</role>
+                    <roleDesc>, Consul Romain.</roleDesc>
+                </castItem>
+                <castItem xml:id="omphale">
+                    <role>Omphale</role>
+                    <roleDesc>, Princesse d'Épire captive des Romains.</roleDesc>
+                </castItem>
+                <castItem xml:id="manlius"><role>manlius</role><roleDesc>, Fils du
+                        Consul.</roleDesc>
+                </castItem>
+                <castItem xml:id="camille"><role>Camille</role>
+                    <roleDesc>, Veuve de Decius.</roleDesc></castItem>
+                <castItem xml:id="junius"><role>Junius</role><roleDesc>, Ami de
+                        Torquatus.</roleDesc>
+                </castItem>
+                <castItem xml:id="phénice"><role>Phénice</role><roleDesc>, Suivante
+                        d'Omphale.</roleDesc>
+                </castItem>
+                <castItem xml:id="pison"><role>Pison</role><roleDesc>,
+                    Licteur.</roleDesc></castItem>
+            </castList>
 
-                <set>
-                    <p>La Scène est au Camp des Romains devant les Tentes du Consul.</p>
-                </set>
-            </front>
+            <set>
+                <p>La Scène est au Camp des Romains devant les Tentes du Consul.</p>
+            </set>
+        </front>
+        <body>
+
 
 
 
