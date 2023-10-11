@@ -3,15 +3,68 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
+                <title type="subtitle">Tragi-comédie</title>
+                <author>Marie-Catherine Desjardins</author>
+                <editor>s.n.</editor>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>M. Doisy</publisher>
+                <authority>M. Doisy</authority>
+                <date when-iso="2023-10-09">09-10-2023</date>
             </publicationStmt>
+            <notesStmt>
+                <note type="descrtiption">A Paris, Chez Claude Barbin, au Palais, sur le degré
+                    devant ka Sainte-Chapelle, au signe de la Croix.</note>
+                <note type="description">M. DC. LXII. Avec privilège du Roi.</note>
+                <!-- Je pensais qu'il était important d'inclure les informations visibles sur la couverture, donc la balise <notesStmt> semblait offrir cette possibilité. -->
+                <note type="info">Première représentation : Paris, Hôtel de Bourgogne, 1662-05-... -
+                    Privilège accordé par Guytonneau le 1662-10-10 pour une durée de 7 ans à Barbin,
+                    Claude, marchand libraire pour Manlius Torquatus (Registré par Dubray le
+                    1662-10-10). - Cession de privilège à Quinet, Gabriel ; puis Luyne, Guillaume
+                    de</note>
+            </notesStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <title>Manlius</title>
+                    <title type="subtitle">Tragi-comédie</title>
+                    <author>Desjardins</author>
+                    <date when-iso="1662">1662</date>
+                    <editor>s.n.</editor>
+                    <publisher>Claude Barbin</publisher>
+                    <!-- Après avoir fait des recherches sur internet, il semblerait que Claude Barbin serait un éditeur/libraire. Il est possible qu'il soit l'éditeur de cette édition de Manlius. Le privilège de publication lui aurait été accordé pour une durée de 7 ans. La balise <authority> pourrait aussi être utilisée comme enfant de <titleStmt>. -->
+                    <pubPlace>Paris</pubPlace>
+                    <distributor><idno type="biblio">BnF Gallica</idno></distributor>
+                    <!-- Il me semblerait que Gallica constitue l'entité qui distribue le texte. J'avais envie de mettre la baliser <authority>, car elle me semblait plus just puisque c'est Gallica qui rend le texte disponible, mais elle ne pouvait pas être insérée comme enfant de <bibl>. -->
+                    <idno type="emplacement">YF-6856</idno>
+                    <idno type="notice">ark:/12148/cb447295037</idno>
+                    <!-- Cette information ressemble plutôt à une donnée comme un doi donc je ne suis pas certaine qu'il faut l'insérer comme un lien avec la balise + attribut <link href="">. -->
+                    <idno type="notice">FRBNF44729503</idno>
+                    <note type="format">[x], 77 [=81], [1 bl.] p. [p. 15 pag. 17, 73 pag. 69, 74
+                        pag. 70 ; err. de pag. de -4 à partir de la p. 75 [=79]] ; 12°</note>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique M1, UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Nous avons choisi de moderniser le texte.</p>
+                </normalization>
+                <p>Nous n'avons pas tenu compte des aspects matériels de l'original.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-03">Encodage de la scène II de l'acte V.</change>
+            <change when="2023-10-11">Encodage du TEI Header.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
