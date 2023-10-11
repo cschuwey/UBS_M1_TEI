@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les
+                    moeurs de ce siècle</title>
+                <author>Jean de La Bruyère</author>
+                <principal>C. Shuwey</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Ambre Ménit</publisher>
+                <date when="2023-10-10">10 octobre 2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Jean de La Bruyère</author>
+                    <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou
+                        les moeurs de ce siècle</title>
+                </bibl>
+                <biblStruct>
+                    <monogr>
+                        <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k575660</idno>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Estienne Michallet</publisher>
+                            <date>1690</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct>
+                    <monogr>
+                        <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k575769</idno>
+                        <imprint>
+                            <pubPlace>Lyon</pubPlace>
+                            <publisher>Thomas Amaulry</publisher>
+                            <date>1693</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Rassemblement des différentes éditions de l'ouvrage "Les Caractères" de La
+                    Bruyère</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisé</p>
+                    <p>Ponctuation modernisée</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-10">Ajout de méta-données du fichier.</change>
+            <change when="2023-10-11">Ajout de méta-données concernant la description du
+                projet</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
