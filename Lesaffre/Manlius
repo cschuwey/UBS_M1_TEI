@@ -8,8 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>Lisa Lesaffre</publisher>
-                <date when="2023-10-09">09 octobre 2023</date>
-                <publisher/>
+                <date when="2023-10-11">11 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -36,19 +35,33 @@
         <profileDesc>
             <langUsage>
                 <language ident="fra">Français</language>
-                <language ident="eng">Anglais</language>
             </langUsage>
-            <textDesc>
-                <channel/>
-                <constitution/>
+            <textDesc n="théâtre">
+                <channel mode="w">copie, extraits</channel>
+                <constitution type="frags"/>
                 <derivation/>
-                <domain/>
-                <factuality/>
+                <domain type="art"/>
+                <factuality type="fiction"/>
                 <interaction/>
                 <preparedness/>
-                <purpose/>
+                <purpose type="entertain" degree="unknown"/>
             </textDesc>
         </profileDesc>
+        <revisionDesc status="draft">
+            <list>
+                <item><date when="2023-09-26">26 septembre 2023</date>Création du document et
+                    encodage de l'acte II, scène 5 ; automatisation des balises pour les vers et
+                    encodage de la liste des personnages. Ajouts d'éléments distinguant les
+                    personnages prenant la parole (création d'un référentiel)</item>
+                <item><date when="2023-10-06">6 octobre 2023</date>Ajout et encodage de l'acte V,
+                    scène 2, automatisation des balises pour les vers et ajout d'éléments
+                    distinguant les personnages prenant la parole.</item>
+                <item><date when="2023-10-09">9 octobre 2023</date>Ajout de méta-données dans le
+                    teiHeader.</item>
+                <item><date when="2023-10-11">11 octobre 2023</date>Correction et ajout de
+                    méta-données dans le teiHeader.</item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
@@ -73,6 +86,7 @@
             <set>La Scène est au Camp des Romains devant les Tentes du Consul.</set>
         </front>
         <body>
+
             <div1 type="act" n="2">
                 <head>Acte II</head>
 
