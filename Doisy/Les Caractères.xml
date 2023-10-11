@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste traduits du grec : avec les caractères ou les
+                    moeurs de ce siècle</title>
+                <author>Jean de La Bruyère</author>
+                <editor>Etienne Michallet</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>M. Doisy</publisher>
+                <authority>M. Doisy</authority>
+                <date when-iso="2023-10-11">11-10-2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Les Caractères</title>
+                    <title type="subtitle">de Théophraste traduits du grec : avec les caractères ou
+                        les moeurs de ce siècle</title>
+                    <!-- Il me semble plus pertinent d'inclure la suite du titre en sous-titre. -->
+                    <note type="edition">Troisième Edition</note>
+                    <author>La Bruyère</author>
+                    <date when-iso="1688">1688</date>
+                    <editor>Etienne Michallet</editor>
+                    <publisher>Cambridge (Mass.) : Omnisys, [ca 1990]</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <editor type="translation">Texte traduit du grec en français. - Date d'éd. du
+                        microfilm provenant d'un catalogue d'éditeur</editor>
+                    <distributor><idno type="library">BnF Gallica</idno></distributor>
+                    <licence>Conditions spécifiques d'utilisation - Collection French
+                        books</licence>
+                    <idno type="notice">ark:/12148/bpt6k57572x</idno>
+                    <idno type="notice">FRBNF37242743</idno>
+                    <note type="type">Monographe imprimée</note>
+                    <note type="format">1 microfilm ; 35 mm</note>
+                </bibl>
+                <!-- Voici la séparation entre les deu éditions. -->
+                <bibl>
+                    <title>Les Caractères</title>
+                    <title type="subtitle">de Théophraste traduits du grec : avec les caractères ou
+                        les moeurs de ce siècle</title>
+                    <note type="edition">Quatrième Edition</note>
+                    <author>La Bruyère</author>
+                    <date when-iso="1689">1689</date>
+                    <editor>Etienne Michallet</editor>
+                    <publisher>Cambridge (Mass.) : Omnisys, [ca 1990]</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <editor type="translation">Texte traduit du grec. - Date d'éd. du microfilm
+                        provenant d'un catalogue d'éditeur</editor>
+                    <distributor><idno type="library">BnF Gallica</idno></distributor>
+                    <licence>Conditions spécifiques d'utilisation - Collection French
+                        books</licence>
+                    <idno type="notice"> ark:/12148/bpt6k575649</idno>
+                    <idno type="notice">FRBNF37243134</idno>
+                    <note type="type">Monographe imprimée</note>
+                    <note type="format">1 microfilm ; 35 mm</note>
+                    <note type="description">Contient une table des matières</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique M1, UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-11">Encodage du TEI Header.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
