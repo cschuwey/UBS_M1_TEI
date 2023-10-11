@@ -34,9 +34,9 @@
                     <publisher>Claude Barbin</publisher>
                     <!-- Après avoir fait des recherches sur internet, il semblerait que Claude Barbin serait un éditeur/libraire. Il est possible qu'il soit l'éditeur de cette édition de Manlius. Le privilège de publication lui aurait été accordé pour une durée de 7 ans. La balise <authority> pourrait aussi être utilisée comme enfant de <titleStmt>. -->
                     <pubPlace>Paris</pubPlace>
-                    <distributor><idno type="biblio">BnF Gallica</idno></distributor>
+                    <distributor><idno type="library">BnF Gallica</idno></distributor>
                     <!-- Il me semblerait que Gallica constitue l'entité qui distribue le texte. J'avais envie de mettre la baliser <authority>, car elle me semblait plus just puisque c'est Gallica qui rend le texte disponible, mais elle ne pouvait pas être insérée comme enfant de <bibl>. -->
-                    <idno type="emplacement">YF-6856</idno>
+                    <idno type="location">YF-6856</idno>
                     <idno type="notice">ark:/12148/cb447295037</idno>
                     <!-- Cette information ressemble plutôt à une donnée comme un doi donc je ne suis pas certaine qu'il faut l'insérer comme un lien avec la balise + attribut <link href="">. -->
                     <idno type="notice">FRBNF44729503</idno>
