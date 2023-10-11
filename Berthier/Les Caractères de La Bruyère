@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>J. de La Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>F. Berthier</publisher>
+                <authority>UBS</authority>
+                <date when-iso="2023-10-11">10/11/2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Les caractères de Théophraste , traduits du grec, avec Les caractères
+                            ou les moeurs de ce siècle</title>
+                        <imprint>
+                            <date>1688</date>
+                            <publisher>E. Michallet</publisher>
+                        </imprint>
+                    </monogr>
+                    <monogr>
+                        <title>Les caractères ou les moeurs de ce siècle. précédé de Les caractères de Théophraste</title>
+                        <imprint>
+                            <date>1696</date>
+                            <publisher>chez Estienne Michalletchez Estienne Michallet</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet Pédagogique M1, UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Nous avons mis dans ce document deux versions des Caractères de la Bruyère.
+                        Une version de 1688 et une de 1696.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-11">Encodage de deux versions des Caractères de J. de La
+                Bruyère.</change>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
