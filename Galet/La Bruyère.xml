@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Manlius</title>
+                <title>Tragi-Comédie</title>
+                <editor>Édition critique établie par Hélène Canini dans le cadre d'un mémoire de master 1 sous la direction de Georges Forestier (2007-2008)</editor>
+                <author>Marie-Catherine Desjardins</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Théâtre Classique</publisher>
+                <authority>Publié par Paul FIEVRE</authority>
+                <date when-iso="2015-03">mars 2015</date>
+                <date when-iso="2017-03">revu mars 2017</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Marie-Catherine Desjardins</author>
+                    <title>Manlius</title>
+                    <placeName>Paris</placeName>
+                    <publisher>Claude Barbin</publisher>
+                    <date when-iso="1662">M.DC.LXII</date>
+                    <idno>BNF YF-6856</idno>
+                </bibl>
+                <biblStruct>
+                    <monogr>
+                        <title>Manlius</title>
+                        <idno>BNF YF-6856</idno>
+                        <imprint>
+                            <date when="1662">1662</date> 
+                            <publisher>Claude Barbin</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+            </projectDesc>
+            <editorialDecl>
+                <normalization><p>Modernisation de la typographie</p></normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FR">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Encodage de la scène II de l'acte V</change>
+            
+        </revisionDesc>
+    </teiHeader>
