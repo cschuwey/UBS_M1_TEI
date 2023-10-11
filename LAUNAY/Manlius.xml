@@ -39,8 +39,7 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>
-            <front>
+        <front>
                 <castList>
                     <head>PERSONNAGES</head>
                     <castItem xml:id="torquatus">
@@ -76,7 +75,7 @@
                     <p>La Scène est au Camp des Romains devant les Tentes du Consul.</p>
                 </set>
             </front>
-
+        <body>
             <div1 type="act" n="2">
                 <head>Acte II</head>
 
