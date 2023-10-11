@@ -3,15 +3,56 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title> Manlius </title>
+                <author> Marie-Catherine Des Jardins </author>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>S. Boucheaud </publisher>
+                <authority>S. Boucheaud</authority>
+                <date when-iso="2023-10-09">09-10-2023</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <title> Manlius,</title>
+                    <title type="sub">TRAGI-COMEDIE</title>
+                    <author>Marie-Catherine Desjardins</author>
+                    <title type="sub">a PARIS, Chez CLAUDE BARBIN, au Palais, sur le degré devant la
+                        sainte-Chapelle, au signe de la Croix.</title>
+                    <publisher>Claude Barbin</publisher>
+                    <!-- J'ai vu sur la page de la Bnf que le contributeur était C. Barbin. J'ai donc cherché qui il était et étant donné que c'était un libraire, à l'époque le libraire était l'équivant des éditeurs et ceux qui distribue les livres, c'est pourquoi j'ai décidé de le mettre comme publisher.-->
+                    <pubPlace>Paris</pubPlace>
+                    <date when-iso="1662">M.DC.LXII </date>
+                    <availability>
+                        <p>Bibliothèque Carré d'art / Nîmes, 8344_19_01 </p>
+                    </availability>
+                    <!-- Je ne sais pas comment inclure le format dans la sourcDesc, je n'ai pas trouvé de réponse dans la documentation -->
+                    <idno type="notice"> FRBNF44729503</idno>
+                    <distributor> BNF, Gallica</distributor>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique, M1, UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Nous n'avons pas tenu compte des aspects matériels de l'original</p>
+                <normalization>
+                    <p> Nous avons choisi de moderniser le texte</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Encodage de la scène II de l'acte V. </change>
+            <!-- juste quand c'est un changement util et important dans le document. Il faut le penser comme un journal de bord et on va devoir l'utiliser obligatoirement dans les prochains travaux-->
+            <change when="2023-10-11">Fin de l'encodage du Tei Header</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
