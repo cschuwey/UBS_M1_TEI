@@ -14,6 +14,7 @@
             </titleStmt>
             <editionStmt>
                 <p>Première édition</p>
+                <p>Sixième édition</p>
             </editionStmt>
             <publicationStmt>
                 <publisher>Marine Gautier</publisher>
@@ -35,6 +36,21 @@
                         </address>
                     </placeName>
                     <idno type="notice">FRBNF12011755</idno>
+                </bibl>
+                <bibl>
+                    <title>Les Caractères de Théophraste traduits du grec ; avec les caractères ou
+                        les moeurs de ce siècle</title>
+                    <author>Jean de La Bruyère</author>
+                    <date when="1691">1691</date>
+                    <publisher>Estienne Michallet</publisher>
+                    <placeName>
+                        <address>
+                            <street>Rue S. Jacques</street>
+                            <settlement>Paris</settlement>
+                            <country>France</country>
+                        </address>
+                    </placeName>
+                    <idno type="notice">FRBNF37243153</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
