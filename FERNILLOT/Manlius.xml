@@ -1,33 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <fileDesc>
+      <fileDesc>
             <titleStmt>
                 <title>Manlius</title>
                 <author>Marie-Catherine Desjardins</author>
+                <principal>C.Schuwey</principal>
             </titleStmt>
             <publicationStmt>
-                <publisher>17th-centry Digital Librery</publisher>
-                <authority>N. Fernillot</authority>
+                <publisher>N.Fernillot</publisher>
                 <date when-iso="2023-10-09">10/09/2023</date>
+                <distributor/>
             </publicationStmt>
-            <sourceDesc>
-                <bibl><title>Manlius</title>, <author>Desjardins</author>
-                <idno>YF-6856</idno>
-                </bibl>
-            <biblStruct>
-                <monogr>
+           
+          <sourceDesc>
+              <listBibl>
+                <bibl>
+                    <author>Marie-Catherine Desjardins</author>
                     <title>Manlius</title>
-                    <imprint></imprint>
-                </monogr>
-            </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <projectDesc><p></p></projectDesc>
-        </encodingDesc>
-        <
+                    <placeName>Paris</placeName>
+                    <publisher>Barbin</publisher>
+                    <date>1662</date> 
+                </bibl>
+             </listBibl>
+          </sourceDesc>
+      </fileDesc>
+        
+      <encodingDesc>
+          <editorialDecl>
+              <normalization>
+                  <p>Graphie modernisée</p>
+                  <p>Ponctuation modernisée</p>
+              </normalization>
+          </editorialDecl>
+          <editorialDecl>
+                <interpretation>
+                    <p>Informations de décor encodées dans un élément "set"</p>
+                </interpretation>
+          </editorialDecl>
+      </encodingDesc>
+        
+      <profileDesc>
+          <langUsage>
+              <language ident="fra">Français</language>
+              <language ident="eng">Anglais</language>
+          </langUsage>
+      </profileDesc>
+      
+      <revisionDesc>
+          <change when="2023-10-09">Ajout des métadonnées du fichier</change>
+      </revisionDesc>
+    
     </teiHeader>
+    
+    
     <text>
         <front>
             
@@ -62,8 +88,11 @@
                     <role>PISON</role>
                     <roleDesc>Licteur</roleDesc>
                 </castItem>
-                
             </castList>
+            
+            <set>
+                <p>La Scène est au Camp des Romains devant les Tentes du Consul</p>
+            </set>
             
         </front>
         
