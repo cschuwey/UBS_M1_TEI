@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"> Les Caractères</title>
+                <title type="sub"> ou,les moeurs de ce siècle</title>
+                <author> Jean de La Bruyère</author>
+                <principal>C. Schuwey</principal>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Lise Le Coq</publisher>
+                <date when="2023-10-09">9 Octobre 2023</date>
+                <pubPlace>Lorient</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl>
+                    <bibl>
+                        <title type="main">Les caractères de Théophraste </title>
+                        <title type="sub"> traduits du grec</title>
+                        <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
+                        <author>Théophraste av. J.-C</author>
+                        <placeName>Paris</placeName>
+                        <publisher> E.Michallet</publisher>
+                        <date>1688</date>
+                        <idno> Bibliothèque nationale de France RES-R-2056</idno>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+
+            <sourceDesc>
+                <listBibl>
+                    <bibl>
+                        <title type="main">Les caractères de Théophraste </title>
+                        <title type="sub"> traduits du grec</title>
+                        <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
+                        <author> Jean de La Bruyère</author>
+                        <placeName>Paris</placeName>
+                        <publisher>chez Etienne Michallet</publisher>
+                        <date>1692</date>
+                        <idno>Bibliothèque nationale de France</idno>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                    <p>Ponctuation modernisée</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <editorialDecl>
+            <interpretation>
+                <p>Information sur le titre des deux éditions : J'ai inclus les attributs "main" et
+                    "sub" car Les caractères ou les moeurs de ce siècle sont un ajout des caractères
+                    de Théophraste pour ces éditions. </p>
+            </interpretation>
+        </editorialDecl>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+                <language ident="eng">Anglais</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+</TEI>
