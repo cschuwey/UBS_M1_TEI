@@ -1,0 +1,71 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste traduits du grec : avec Les caractères ou les
+                    mœurs de ce siècle</title>
+                <author>Jean de La Bruyère</author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Lisa Lesaffre</publisher>
+                <date when="2023-10-11">11 octobre 2023</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <distributor>Librairie de Videcocq</distributor>
+                    <title>Les caractères de Théophraste traduits du grec : avec Les Caractères ou
+                        les mœurs de ce siècle</title>
+                    <edition>Quatrième édition, corrigée et augmentée</edition>
+                    <author>Jean de La Bruyère</author>
+                    <editor>Étienne Michallet</editor>
+                    <date>1689</date>
+                    <pubPlace>Paris<country>France</country></pubPlace>
+                    <biblScope>444 pages</biblScope>
+                </bibl>
+                <bibl>
+                    <title>Les caractères de Théophraste traduits du grec : avec Les caractères ou
+                        les mœurs de ce siècle</title>
+                    <distributor>inconnu</distributor>
+                    <edition>Huitième édition</edition>
+                    <author>Jean de La Bruyère</author>
+                    <editor>Thomas Amaulry</editor>
+                    <date>1694</date>
+                    <pubPlace>Lyon, rue Mercière, au Mercure
+                        Galant<country>France</country></pubPlace>
+                    <biblScope>622 pages</biblScope>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p> </p>
+                </normalization>
+                <interpretation>
+                    <p> </p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français du XVIIe siècle</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item><date when="2023-10-11">11 octobre 2023</date>Choix de la quatrième édition de
+                    1689 et de la sixime édition de 1694. Création du document xml et encodage des
+                    méta-données des éditions choisies.</item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
