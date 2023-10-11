@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères ou les Moeurs de ce siècle</title>
+                <author>Jean de La Bruyère</author>
+                <principal>C. Schuwey</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Clémence </publisher>
+                <date/>
+                <distributor/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>
+                        <author>Jean de la Bruyère</author>
+                        <title>Les Caractères de Théophraste, traduits du grec; avec Les caractères
+                            ou les moeurs de ce siècle</title>
+                        <placeName>Paris</placeName>
+                        <publisher>E. Michallet</publisher>
+                        <date>1688</date>
+                        <idno>BNF RES-R-2056</idno>
+                    </bibl>
+
+                    <bibl>
+                        <author>Jean de la Bruyère</author>
+                        <title>Les Caractères de Théophraste, traduits du grec; avec Les caractères
+                            ou les moeurs de ce siècle</title>
+                        <placeName>Paris</placeName>
+                        <publisher/>
+                        <date>1691</date>
+                        <idno>BNF R-52303</idno>
+                    </bibl>
+
+                </listBibl>
+
+
+            </sourceDesc>
+        </fileDesc>
+
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-11-09">Création du fichier Les Caractères de Jean de La Bruyère et
+                création de sa TeiHeader</change>
+
+
+        </revisionDesc>
+
+
+
+
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
