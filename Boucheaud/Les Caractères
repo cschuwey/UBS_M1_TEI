@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les
+                    moeurs de ce siècle</title>
+                <author> La Bruyère, Jean de </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>S. Boucheaud </publisher>
+                <authority>S. Boucheaud</authority>
+                <date when-iso="2023-10-11">11-10-2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou
+                        les moeurs de ce siècle</title>
+                    <author> La Bruyère, Jean de </author>
+                    <edition n="6">Sixième édition</edition>
+                    <date when="1691">M.DC.XCI.</date>
+                    <pubPlace> Paris, Rue S.Jacques</pubPlace>
+                    <editor> Estienne Michallet</editor>
+                    <note>Avec le privilège de Sa Majesté</note>
+                    <distributor> Bnf Gallica </distributor>
+                    <idno type="notice"> FRBNF37243153 </idno>
+                </bibl>
+                <!-- Deuxième édition choisie -->
+                <bibl> 
+                    <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou
+                        les moeurs de ce siècle</title>
+                    <author> La Bruyère, Jean de </author>
+                    <edition n="8">Huitième édition</edition>
+                    <date when="1694">M.DC.XCIV.</date>
+                    <pubPlace> Paris, Rue Saint Jacques</pubPlace>
+                    <editor> Estienne Michallet</editor>
+                    <note>Avec le privilège de Sa Majesté</note>
+                    <distributor> Bnf Gallica </distributor>
+                    <idno type="notice">  FRBNF37243225 </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique, M1, UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-11"> Encodage du TeiHeader des deux éditions choisies</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div> </div>
+        </body>
+    </text>
+</TEI>
