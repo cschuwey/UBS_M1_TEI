@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+               <title>Les Caractères</title>
+                <author>Jean de la Bruyère</author>
+                <principal>E.Lambotin</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Erell LAMBOTIN</publisher>
+                <date when="2023-10-11"></date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <title>Les caractères de Théophraste , traduits du grec, avec Les Caractères ou les moeurs de ce siècle</title>
+                        <imprint>
+                            <date when="1688">1688</date>
+                            <pubPlace>Inconnue</pubPlace>
+                            <publisher>E. MICHALLET (Paris)</publisher>
+                        </imprint>
+                    </monogr>
+                    <monogr>
+                        <title>Les caractères ou les moeurs de ce siècle. précédé de Les caractères de Théophraste ([Reprod.])
+                        </title>
+                        <imprint>
+                            <date>1696</date>
+                            <publisher>Estienne MICHALLET (Paris)</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+            </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-11">Préparation du teiHeader d'un nouveau fichier TEI pour Les Caractères de La Bruyère</change>
+        </revisionDesc>
+    </teiHeader>
+</TEI>
