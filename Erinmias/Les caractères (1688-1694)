@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste traduits du grec</title>
+                <author>La Bruyère, Jean de</author>
+                    
+                <principal/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>M. Erin</publisher>
+                <date when="2023-10-11">11 octobre 2023</date>
+                <distributor/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl> <bibl><author>La Bruyère, Jean de</author>
+                    <title>Les caractères de Théophraste traduits du grec</title>
+                    <placeName>Paris</placeName>
+                    <publisher>Etienne Michallet</publisher>
+                    <date>1688</date>
+                    <idno>FRBNF37242743</idno>
+                </bibl></listBibl>
+                <listBibl> <bibl><author>La Bruyère, Jean de</author>
+                    <title>Les caractères de Théophraste traduits du grec</title>
+                    <placeName>Lyon</placeName>
+                    <publisher> Thomas Amaulry </publisher>
+                    <date>1694</date>
+                    <idno>FRBNF37243231</idno>
+                </bibl></listBibl>
+                <biblStruct>
+                    <monogr>
+                       
+                        <imprint>
+                            <date>1688</date>
+                            <publisher>Etienne Michallet</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization><p>graphie modernisée</p></normalization>
+                <normalization><p>ponctuation modernisée</p></normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation><p></p></interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-11">Ajout des méta-données du fichier.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
