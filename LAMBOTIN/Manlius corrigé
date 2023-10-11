@@ -3,18 +3,45 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Manlius</title>
+                <title type="main">Manlius</title>
+                <author>Marie-Catherine DESJARDINS</author>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>XVIIth century Digital Library</publisher>
+                <authority>Erell LAMBOTIN</authority>
+                <date when-iso="2023-10-11">11/10/2023</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <title>Manlius</title>, 
+                    <author>Marie-Catherine DESJARDINS</author>, 
+                    <date when="1662">1662</date>
+                <idno>YF-6856</idno>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique de M1 MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Nous avons choisi de moderniser le texte</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-11">Encodage des métadonnées, de l'en-tête</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
+            <head>PERSONNAGES</head>
             <castList>
                 <castItem>
                     <role xml:id="Torquatus"> Torquatus </role>
