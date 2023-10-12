@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste</title>
+                <author>Jean de La Bruyère</author>
+                <principal>C. Shuwey</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Martelot Enora </publisher>
+                <date when="2023-10-12">12 octobre 2023</date>
+            </publicationStmt>
+            <sourceDesc>
+            <listbibl>
+                    <bibl>
+                        <author>Jean de La Bruyère, avec les caractères ou les moeurs de ce siècle</author>
+                        <title>Les caractères de Théophraste</title>
+                        <placeName>Paris</placeName>
+                        <publisher>E. Michallet</publisher>
+                        <date>1688</date>
+                        <idno>FRBNF12011755</idno>
+                    </bibl>
+
+                    <bibl>
+                        <author>Jean de La Bruyère</author>
+                        <title>Les caractères de Théophraste, traduit du grec, avec les caracteres ou les moeurs de ce siècle, tome premier, volume 2</title>
+                        <placeName>Paris</placeName>
+                        <publisher>Chez Jean Leonard</publisher>
+                        <date>1696</date>
+                        <idno>FRBNF11942641</idno>
+                    </bibl>
+                    </listbibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                </normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>Les interprétations seront à mettre quand le codage aura commencé pour noter les différences, variants</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-12">Ajout des meta-données des deux édition de La Bruyère</change>
+        </revisionDesc>
+    </teiHeader>
