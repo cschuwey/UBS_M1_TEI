@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>La Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <authority>C. BOYER</authority>
+                <date when-iso="2023-10-12">12/10/2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> <title>Les Caractères</title> <author>La Bruyère</author> </bibl>
+                <biblStruct>                    
+                    <monogr>
+                        <title>Les Caractères de Théophraste</title>
+                        <imprint> <date when-iso="1689">1689</date> <publisher>Etienne Michallet</publisher> </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct>
+                    <monogr>
+                        <title>Les Caractères de Théophraste</title>
+                        <imprint> <date when-iso="1689">1689</date> <publisher>T. Amaulry</publisher></imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc> <p>TD XML TEI</p></projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>        
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-12">Encodage du TEIHEADER de l'oeuvre Les Caractères de La Bruyère</change>            
+        </revisionDesc>
+    </teiHeader>
+        <text>
+            <body>
+                <p></p>
+            </body>
+        </text>
