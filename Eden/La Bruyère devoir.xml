@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Les Caractères </title>
+                <author> Jean de La Bruyère</author>
+            </titleStmt>
+                <publicationStmt>
+                    <publisher> </publisher>
+                    <authority> L. EDEN</authority>
+                    <date when="2023-10-12">09/10/2023 </date>
+                </publicationStmt>
+                <sourceDesc>
+                    <biblStruct>
+                        <monogr>
+                            <title> Les caractères</title>
+                            <publisher> E. Michallet</publisher>
+                            <imprint> <date> 1688 </date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <monogr>
+                            <title> Les caractères </title>
+                            <publisher> Thomas Amaulry</publisher>
+                            <impprint> 1693</impprint>
+                        </monogr>
+                    </biblStruct>
+                </sourceDesc>
+                   
+                
+        </fileDesc>
+                    <projectDesc> <p> Projet pédagogique M1, UBS </p> </projectDesc>
+                    <editorialDecl> 
+                        <normalization> <p> Nous avons chois de moderniser le texte </p></normalization>
+                        <p> Nous n'avons pas tenu compte des aspects matériels de l'original </p>
+                    </editorialDecl>
+                </encodingDesc>
+                <profileDesc>
+                    <langUsage>
+                        <language ident="FR"> Français</language>
+                    </langUsage>
+                </profileDesc>
+                <revisionDesc>
+                    <change when="2023-10-12"> Encodage du TEI Header des Caractères de La Bruyère </change>
+                </revisionDesc>
+          
+   
+
+    </teiHeader>
