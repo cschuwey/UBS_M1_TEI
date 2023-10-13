@@ -10,12 +10,9 @@
             <publicationStmt>
                 <publisher>J. Nicolas</publisher>
                 <pubPlace>Lorient</pubPlace>
-                <date when="2023-10-09">09 octobre 2023</date>
+                <date when="2023-10-13">13 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
-                <listBibl>
-                    <bibl>Marie-Catherine Desjardins, Manlius, Paris, Barbin, 1662, BNF
-                        YF-6856</bibl>
                     <bibl>
                         <author>Marie-Catherine Desjardins</author>
                         <title>Manlius</title>
@@ -24,8 +21,8 @@
                         <date>1662</date>
                         <idno>BNF YF-6856</idno>
                     </bibl>
-                </listBibl>
-                <biblStruct>
+                <!-- Autre façon de faire, pratique pour avoir une structure commune aux participants :
+                    <biblStruct>
                     <monogr>
                         <idno>BNF YF-6856</idno>
                         <imprint>
@@ -33,7 +30,7 @@
                             <publisher>Barbin</publisher>
                         </imprint>
                     </monogr>
-                </biblStruct>
+                </biblStruct> -->
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -57,6 +54,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-03">Ajout de la scène II de l'acte V</change>
             <change when="2023-10-09">Ajout des méta-données du fichier.</change>
         </revisionDesc>
     </teiHeader>
