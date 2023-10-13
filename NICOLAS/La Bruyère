@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste traduits du grec avec les caractères ou les moeurs de ce siècle.</title>
+                <author>Jean de la Bruyère</author>
+                <principal>J. Nicolas</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>J. Nicolas</publisher>
+                <pubPlace>Lorient</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>
+                        <author>Jean de la Bruyère</author>
+                        <title>Les caractères de Théophraste traduits du grec avec les caractères ou les moeurs de ce siècle. Seconde édition.</title>
+                        <placeName>Paris</placeName>
+                        <publisher>Estienne Michallet</publisher>
+                        <date>1688</date>
+                        <idno>OCLC 1244254723</idno>
+                    </bibl>
+                    <bibl>
+                        <author>Jean de la Bruyère</author>
+                        <title>Les caractères de Théophraste traduits du grec avec les caractères ou les moeurs de ce siècle. Sixième édition.</title>
+                        <placeName>Bruxelles</placeName>
+                        <publisher>Jean Léonard</publisher>
+                        <date>1692</date>
+                        <idno>ISBN 36631990410012</idno>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                </normalization>
+                <normalization>
+                    <p>Ponctuation modernisée</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-13">Création du fichier et ajout des méta-données du fichier.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+    
+        </body>
+    </text>
+</TEI>
