@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>La Bruyère (Jean)</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Gallica</publisher>
+                <authority>Non indiqué.</authority>
+                <date n="1" when-iso="2010-10-04">04/10/2010</date>
+                <date n="2" when-iso="2018-08-05">05/08/2018</date>
+                <!-- On utilisera ensuite "1" pour faire référence à la version la plus ancienne lorsqu'on codera et "2" pour faire référence à la plus récente. -->
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="1">
+                    <title>Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <author>J. de La Bruyère</author>
+                    <edition>1688</edition>
+                    <idno>RES-R-2056</idno>
+                </bibl>
+                <bibl n="2">
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                    <author>J. de La Bruyère</author>
+                    <edition>1691</edition>
+                    <idno>R-52303</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique M1 MLE, UBS (Lorient)</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Encore non choisie.</p>
+                </normalization>
+                <punctuation>
+                    <p>Encore non choisie.</p>
+                </punctuation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-10-13"> Création du Header en vue de la prochaine séance.</change>
+            </listChange>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text>
+    <body>
+        
+    </body>
+    </text>
