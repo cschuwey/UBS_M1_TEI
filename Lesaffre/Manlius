@@ -8,14 +8,24 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>Lisa Lesaffre</publisher>
-                <date when="2023-10-11">11 octobre 2023</date>
+                <date when="2023-10-12">12 octobre 2023</date>
+                <authority>Université Bretagne Sud (UBS), Lorient</authority>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Marie-Catherine Desjardins</author>
                     <title>Manlius</title>
-                    <placeName>Paris</placeName>
+                    <pubPlace>Paris</pubPlace>
+                    <editor>Claude Barbin (éditeur de l'ouvrage)</editor>
                     <date>1662</date>
+                </bibl>
+                <bibl>
+                    <editor>Hélène Canini (éditrice de l'édition critique)</editor>
+                    <distributor><affiliation>sous la direction de George
+                        Forestier</affiliation></distributor>
+                    <date>édition réalisée entre 2007 et 2008</date>
+                    <publisher>encodage mis en ligne par Paul Fièvre</publisher>
+                    <date>encodage publié en mars 2015, revu en mars 2017</date>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -25,8 +35,13 @@
                     <p>Graphie modernisée</p>
                     <p>Ponctuation modernisée</p>
                 </normalization>
-                          <interpretation>
+                <interpretation>
                     <p>information de décor encodées dans un élément "set"</p>
+                    <p>les dates mises à côté des noms des éditeurices indiquent la date de parution
+                        de leur version respective du texte.</p>
+                    <p>le texte de l'acte V scène 2 provient de la version informatisée indiquée
+                        ci-dessus. Celui de l'acte II scène 5 provient soit de la même source, soit
+                        d'une source inconnue</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -58,6 +73,9 @@
                     teiHeader.</item>
                 <item><date when="2023-10-11">11 octobre 2023</date>Correction et ajout de
                     méta-données dans le teiHeader.</item>
+                <item><date when="2023-10-12">12 octobre 2023</date>Ajout d'une source dans le
+                    teiHeader, et ajout d'indications d'interprétation pour le teiHeader, la
+                    présentation des sources et leur lien avec les extraits encodés.</item>
             </list>
         </revisionDesc>
     </teiHeader>
