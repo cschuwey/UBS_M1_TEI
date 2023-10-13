@@ -5,11 +5,14 @@
                 <title>Les caractères de Théophraste traduits du grec : avec Les caractères ou les
                     mœurs de ce siècle</title>
                 <author>Jean de La Bruyère</author>
+                <funder/>
+                <sponsor/>
             </titleStmt>
 
             <publicationStmt>
                 <publisher>Lisa Lesaffre</publisher>
                 <date when="2023-10-11">11 octobre 2023</date>
+                <authority>Université Bretagne Sud (UBS), Lorient</authority>
             </publicationStmt>
 
             <sourceDesc>
@@ -41,10 +44,12 @@
         <encodingDesc>
             <editorialDecl>
                 <normalization>
-                    <p> </p>
+                    <p/> 
                 </normalization>
                 <interpretation>
-                    <p> </p>
+                    <p>Des balises vides ont été ajoutées par rapport aux potientiels soutiens
+                        financiers de La Bruyère. En effet, nous ne savons pas si l'auteur a pu
+                        recevoir des aides pour la rédaction de cet ouvrage en particulier.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -58,6 +63,8 @@
                 <item><date when="2023-10-11">11 octobre 2023</date>Choix de la quatrième édition de
                     1689 et de la sixime édition de 1694. Création du document xml et encodage des
                     méta-données des éditions choisies.</item>
+                <item><date when="2023-10-12">12 octobre 2023</date>Ajout de balises vides dans le
+                    titleStmt et d'une balise d'interprétation pour ces dernières.</item>
             </list>
         </revisionDesc>
     </teiHeader>
