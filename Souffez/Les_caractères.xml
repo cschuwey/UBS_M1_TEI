@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophrase traduit du grec ; avec les caractères et moeurs
+                    de ce siècle</title>
+                <author>La Bruyère, Jean de</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> A.Souffez </publisher>
+                <date when="2023-10-13">13/10/2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>La Bruyère, Jean de</author>
+                    <title>Les caractères de Théophrase traduit du grec ; avec les caractères et
+                        moeurs de ce siècle</title>
+                    <edition>Troisième édition<date>1688</date></edition>
+                    <publisher>Chez Etienne Michallet</publisher>
+                    <address>
+                        <addrLine>A Paris</addrLine>
+                        <addrLine>premier Imprimeur du Roy</addrLine>
+                        <addrLine>rue Saint Jacques, à l'Image Saint Paul</addrLine>
+                    </address>
+                    <idno>M DC LXXXVIII</idno>
+                </bibl>
+                <bibl>
+                    <author>La Bruyère, Jean de</author>
+                    <title>Les caractères de Théophrase traduit du grec ; avec les caractères et
+                        moeurs de ce siècle</title>
+                    <edition>Cinquième édition<date>1690</date></edition>
+                    <publisher>Chez Etienne Michallet</publisher>
+                    <address>
+                        <addrLine>A Paris</addrLine>
+                        <addrLine>premier Imprimeur du Roy</addrLine>
+                        <addrLine>rue Saint Jacques, à l'Image Saint Paul</addrLine>
+                    </address>
+                    <idno>M DC XC</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                </normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>La date de parution se trouve entre les balises "edition", car cela me
+                        semblait plus pertinant et précis.</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-13">Ajout des méta-données du fichier. J'ai choisi la balise
+                "adress" plutôt que "pubPlace", car cela m'a semblé permettre d'ajouter plus
+                d'informations. Pour ce qui est de la balise "idno", je n'étais pas sûr de ce que je
+                devais et pouvais y mettre, donc j'y ai mis les lettres et chiffres romains qui
+                se trouvaient en bas de la couverture et qui ressemblent à un numéro
+                d'identification (notamment parce qu'ils diffèrent d'une édition à une autre, sans
+                pour autant correspondre au format d'une date).</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
