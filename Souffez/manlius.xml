@@ -9,7 +9,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher> A.Souffez </publisher>
-                <date when="2023-10-09">9/10/2023</date>
+                <date when="2023-10-13">13/10/2023</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -41,7 +41,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-09">Ajout des éta-données du fichier.</change>
+            <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+            <change when="2023-10-13">Ajout d'une lettre manquante dans les méta-données du fichier et modification de la date de publication.</change>
         </revisionDesc>
     </teiHeader>
     <text>
