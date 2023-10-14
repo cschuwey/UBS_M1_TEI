@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
+    <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>MANLIUS</title>
+                <author>Desjardins, Marie-Catherine (1640-1683)</author>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>GitHub</publisher>
+                <authority>Master MLE</authority>
+                <date when-iso="2023-10-14">15/10/2023</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>Mademoiselle Desjardins, Manlius : Tragi-comédie, Paris, 1662, YF-6856</bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Texte encodé lors du cours de TEI en Master MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Nous avons choisi de moderniser le texte</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2023-10-15">Encodage du TeiHeader et ajout du stage décrivant le lieu
+                de la scène en dessous de la Castlist </change>
+        </revisionDesc>
     </teiHeader>
+
+
+
+
+
+
+
     <text>
         <body>
             <castList>
@@ -29,7 +58,8 @@
                     <role xml:id="pheni">PHÉNICE</role>
                 </castItem>
             </castList>
-
+            <stage type="location">La Scène est au Camp des Romains devant les Tentes du
+                Consul</stage>
 
             <div1 type="act" n="2">
                 <head>Acte II</head>
