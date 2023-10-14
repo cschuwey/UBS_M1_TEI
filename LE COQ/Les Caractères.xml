@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main"> Les Caractères</title>
-                <title type="sub"> ou,les moeurs de ce siècle</title>
+                <title type="main">Les Caractères</title>
+                <title type="sub">ou,les moeurs de ce siècle</title>
                 <author> Jean de La Bruyère</author>
                 <principal>C. Schuwey</principal>
             </titleStmt>
@@ -18,12 +18,12 @@
             <sourceDesc>
                 <listBibl>
                     <bibl>
-                        <title type="main">Les caractères de Théophraste </title>
-                        <title type="sub"> traduits du grec</title>
+                        <title type="main">Les caractères de Théophraste traduits du grec</title>
                         <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
-                        <author>Théophraste av. J.-C</author>
+                        <author>Jean de La Bruyère</author>
+                        <author>Theophraste</author>
                         <placeName>Paris</placeName>
-                        <publisher> E.Michallet</publisher>
+                        <publisher>E.Michallet</publisher>
                         <date>1688</date>
                         <idno> Bibliothèque nationale de France RES-R-2056</idno>
                     </bibl>
@@ -33,8 +33,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl>
-                        <title type="main">Les caractères de Théophraste </title>
-                        <title type="sub"> traduits du grec</title>
+                        <title type="main">Les caractères de Théophraste traduits du grec</title>
                         <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
                         <author> Jean de La Bruyère</author>
                         <placeName>Paris</placeName>
@@ -56,9 +55,7 @@
         </encodingDesc>
         <editorialDecl>
             <interpretation>
-                <p>Information sur le titre des deux éditions : J'ai inclus les attributs "main" et
-                    "sub" car Les caractères ou les moeurs de ce siècle sont un ajout des caractères
-                    de Théophraste pour ces éditions. </p>
+                <p>Information sur le titre des deux éditions : J'ai inclus les attributs "main" et "sub" car "Les caractères ou mœurs de ce siècle" de La Bruyère est une ouvrage distinct qui s'inspire des "Caractères" de Théophraste.</p>
             </interpretation>
         </editorialDecl>
         <profileDesc>
