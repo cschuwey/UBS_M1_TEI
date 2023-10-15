@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+        <fileDesc>
+              <titleStmt>
+                    <titl>Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
+                    <author>Jean de La Bruyère</author>
+                    <principal>C. Schuwey</principal>
+              </titleStmt>
+              <publicationStmt>
+                    <publisher>
+                        <name>Elise Luchs</name>
+                    </publisher>
+              </publicationStmt>
+              <sourceDesc
+                  <listBibl>
+                      <bibl>
+                           <author>Jean de La Bruyère</author>
+                           <title> Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
+                           <publisher>chez Thomas Amaulry</publisher>
+                           <placeName>Lyon</placeName>
+                           <date>1688</date>
+                           <idno>FRBNF37242745</idno>
+                       </bibl>
+                  </listBibl>
+                  <listBibl>
+                      <bibl>
+                           <author>Jean de La Bruyère</author>
+                           <title> Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
+                           <publisher>chez Estienne Michallet</publisher>
+                           <placeName>Paris</placeName>
+                           <date>1690</date>
+                           <idno>FRBNF37243137</idno>
+                       </bibl>
+                  </listBibl>
+              </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-15">Création des méta-données du fichier.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+        <text>
+          <body>
+          <div><p></p></div>
+          </body>
+        </text>
+</TEI>
