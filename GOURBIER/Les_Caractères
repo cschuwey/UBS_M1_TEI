@@ -3,9 +3,11 @@
     <!-- Teiheader -->
     <teiHeader>
 
-        <!-- fileDesc -->
+        
 
         <fileDesc>
+            <!-- titleStmt -->
+
             <titleStmt>
                 <title xml:lang="fr">Les caractères de Théophraste, traduits du grec, avec Les
                     caractères ou les moeurs de ce siècle</title>
@@ -27,7 +29,7 @@
 
 
             <!-- SourceDesc -->
-            <!-- 1ème édition encodé 1988  -->
+            <!-- 1er version encodé 1688  -->
 
             <sourceDesc>
 
@@ -46,7 +48,7 @@
                 </biblStruct>
 
 
-                <!-- 2ème édition encodé 1996 -->
+                <!-- 2ème version encodé 1696 -->
 
 
                 <biblStruct>
