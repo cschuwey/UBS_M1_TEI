@@ -56,6 +56,9 @@
                         semblait plus pertinant et précis.</p>
                     <p>La balise "ref" est utilisé pour indiquer l'URL où l'édition numérique a été
                         trouvé.</p>
+                    <p>L'attribut "source" est encodé dans la balise "p" dans le "body", j'ai choisi
+                        d'encoder ces informations dans "p" car cela m'a semblé faciliter la conversion
+                        par un ordinateur et trouver une information.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -76,9 +79,7 @@
                 les méta-données. Ajout d'éléments dans la balise "body". Ajout de l'attribut
                 "xml:id" à la balise "bibl", j'ai choisi cette balise, car tous les enfants de
                 "bibl" décrive l'identité, ce qui m'a donc semblé plus pertinent. Ajout de l'attribut
-                "source" dans les balises "p". J'ai choisi d'encoder ces informations dans "p" car
-                cela m'a semblé plus facile à traiter ensuite par un ordinateur et trouver une 
-                information. </change>
+                "source" dans les balises "p".</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -223,3 +224,4 @@
         </body>
     </text>
 </TEI>
+
