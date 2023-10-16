@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                <title type="subtitle">SIXIEME EDITION</title>
+                <author>La Bruyère, Jean de (1645-1696)</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>C. Galet</publisher>
+                <date when-iso="2023-10-11">11/10/2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>La Bruyère, Jean de (1645-1696)</author>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                    <title type="subtitle">Sixième Edition</title>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>Etienne Michallet</publisher>
+                    <date when-iso="1691">M.DC.XCI</date>
+                    <idno>R-52303</idno>
+                    <!-- Je ne suis pas certaine que le format se mette dans cette balise mais c'est la plus plausible que j'ai trouvé. -->
+                    <fw>In-12, 16 ff. non ch., 587 p., la table et le privilège.</fw>
+                    <publisher>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme</publisher>
+                    <date when-iso="2018-08-05">05/08/2018</date>
+                </bibl>
+                <bibl>
+                    <author>La Bruyère, Jean de (1645-1696)</author>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                    <title type="subtitle">Quatrième Edition</title>
+                    <title type="subtitle">corrigée et augmentée</title>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>Etienne Michallet</publisher>
+                    <date when-iso="1689">M.DC.LXXXIX</date>
+                    <!-- Je n'ai pas trouvé le numéro d'identification -->
+                    <idno></idno>
+                    <!-- Toujours pas sûr que le format doit être dans la balise fw. -->
+                    <fw>1 microfilm ; 35 mm.</fw>
+                    <publisher>Bibliothèque nationale de France.</publisher>
+                    <date when-iso="2007-10-15">15/10/2007</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <normalization><p></p></normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FR">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-11">Encodage du TEI Header</change>
+        </revisionDesc>
+    </teiHeader>
