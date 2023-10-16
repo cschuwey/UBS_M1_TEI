@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
-            <titleSmt>
+            <titleStmt>
                 <title> Les Caractères</title>
                 <author> Jean de La Bruyère</author>
                 <principal>C.Schuwey</principal>
-            </titleSmt>
-            <publicationSmt>
+            </titleStmt>
+            <publicationStmt>
                 <publisher> Cassandre Le Couriaut</publisher>
                 <date when="2023-10-10"> 10 octobre 2023</date>
-            </publicationSmt>
+            </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="edition1">
                     <author>Jean de La Bruyère</author>
                     <author> Theophraste</author>
                     <title> Les caractères de Théophraste , traduits du grec, avec Les caractères ou
@@ -21,27 +21,192 @@
                     <pubPlace>Paris</pubPlace>
                     <date>1688</date>
                     <idno> RES-R-2056</idno>
+                    <idno type="URL">
+                        https://gallica.bnf.fr/ark:/12148/btv1b86070385.r=Les%20Caract%C3%A8res%20de%20la%20Bruy%C3%A8re?rk=21459;2</idno>
                 </bibl>
-                <bibl>
+                <bibl xml:id="edition2">
                     <author>Jean de La Bruyère</author>
                     <title> Les caractères de Théophraste traduits du grec ; avec Les caractères ou
                         les moeurs de ce siècle </title>
                     <editor>Thomas Amaulry</editor>
                     <pubPlace>Lyon</pubPlace>
                     <date>1694</date>
+                    <idno type="URL">
+                        https://gallica.bnf.fr/ark:/12148/bpt6k57577n.r=Les%20Caract%C3%A8res%20de%20la%20Bruy%C3%A8re?rk=2017177;2</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <editorialDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                    <p>Ponctuatino modernisée</p>
+                </normalization>
+            </editorialDecl>
+            <editorialDecl>
                 <interpretation>
                     <p> Titre contenu dans une seule balise "title" sans "main" ou "sub" car tous
                         les éléments du titre sont importants</p>
+                    <p>Utilisation de l'attribut "source" dans les balises "div3" et "p" pour uniformiser l'encodage et rendre l'information plus visible</p>
                 </interpretation>
-            </editorialDesc>
+            </editorialDecl>
         </encodingDesc>
         <revisionDesc>
             <change when="2023-10-10"> Ajout des méta-données du fichier</change>
+            <change when="2023-10-16"> Ajout et encodage du texte</change>
+           <change when="2023-10-16">Ajout des identifiant de la bibliographie et des attributs "source"</change>
         </revisionDesc>
     </teiHeader>
+    <text>
+        <body>
+            <div1 type="ouvrage">
+                <head> Les Caractères ou Les Moeurs de ce siècle</head>
+                <div2 type="chapitre" n="5">
+                    <head> De la Société et de la Conversation </head>
+                    <div3 type="caractère" n="64" source="#edition1 #edition2">
+                        <p source="#edition1 #edition2"> Le conseil, si nécessaire pour les
+                            affaires, est quelquefois dans la société nuisible à qui le donne, et
+                            inutile à celui à qui il est donné. Sur les mœurs, vous faites remarquer
+                            des défauts ou que l’on n’avoue pas, ou que l’on estime des vertus ; sur
+                            les ouvrages, vous rayez les endroits qui paraissent admirables à leur
+                            auteur, où il se complaît davantage, où il croit s’être surpassé
+                            lui-même. Vous perdez ainsi la confiance de vos amis, sans les avoir
+                            rendus ni meilleurs ni plus habiles. </p>
+                    </div3>
+                    <div3 type="caractère" n="65" source="#edition1 #edition2">
+                        <p source="#edition1 #edition2"> L’on a vu, il n’y a pas longtemps, un
+                            cercle de personnes des deux sexes, liées ensemble par la conversation
+                            et par un commerce d’esprit. Ils laissaient au vulgaire l’art de parler
+                            d’une manière intelligible ; une chose dite entre eux peu clairement en
+                            entraînait une autre encore plus obscure, sur laquelle on enchérissait
+                            par de vraies énigmes, toujours suivies de longs applaudissements : par
+                            tout ce qu’ils appelaient délicatesse, sentiments, tour et finesse
+                            d’expression, ils étaient enfin parvenus à n’être plus entendus et à ne
+                            s’entendre pas eux-mêmes. Il ne fallait, pour fournir à ces entretiens,
+                            ni bon sens, ni jugement, ni mémoire, ni la moindre capacité : il
+                            fallait de l’esprit, non pas du meilleur, mais de celui qui est faux, et
+                            où l’imagination a trop de part. </p>
+                    </div3>
+                    <div3 type="caractère" n="66" source="#edition2">
+                        <p source="#edition2"> Je le sais, <hi rend="italic">Théobalde</hi>, vous êtes vieilli ; mais
+                            voudriez-vous que je crusse que vous êtes baissé, que vous n’êtes plus
+                            poète ni bel esprit, que vous êtes présentement aussi mauvais juge de
+                            tout genre d’ouvrage que méchant auteur, que vous n’avez plus rien de
+                            naïf et de délicat dans la conversation ? Votre air libre et
+                            présomptueux me rassure, et me persuade tout le contraire. Vous êtes
+                            donc aujourd’hui tout ce que vous fûtes jamais, et peut-être meilleur ;
+                            car si à votre âge vous êtes si vif et si impétueux, quel nom,
+                            Théobalde, fallait-il vous donner dans votre jeunesse, et lorsque vous
+                            étiez la Coqueluche ou l’entêtement de certaines femmes qui ne juraient
+                            que par vous et sur votre parole, qui disaient : Cela est délicieux ;
+                            qu’a-t-il dit ? </p>
+                    </div3>
+                    <div3 type="caractère" n="67" source="#edition1 #edition2">
+                        <p source="#edition1 #edition2"> L’on parle impétueusement dans les
+                            entretiens, souvent par vanité ou par humeur, rarement avec assez
+                            d’attention : tout occupé du désir de répondre à ce </p>
+                        <p source="#edition1"> que l'on ne se donne pas même la peine d'écouter</p>
+
+                        <p source="#edition2">qu’on n’écoute point, </p>
+
+                        <p source="#edition1 #edition2"> l’on suit ses idées, et on les explique
+                            sans le moindre égard pour les raisonnements d’autrui ; l’on est bien
+                            éloigné de trouver ensemble la vérité, l’on n’est pas encore convenu de
+                            celle que l’on cherche. Qui pourrait écouter ces sortes de conversations
+                            et les écrire, ferait voir quelquefois de bonnes choses qui n’ont nulle
+                            suite. </p>
+
+                    </div3>
+                    <div3 type="caractère" n="68" source="#edition1 #edition2">
+                        <p source="#edition1 #edition2"> Il a régné pendant quelque temps une sorte de conversation fade et
+                            puérile, qui roulait toute sur des questions frivoles qui avaient
+                            relation au cœur et à ce qu’on appelle passion ou tendresse. La lecture
+                            de quelques romans les avait introduites parmi les plus honnêtes gens de
+                            la ville et de la cour ; ils s’en sont défaits, et la bourgeoisie les a
+                            reçues avec les pointes et les équivoques. </p>
+                    </div3>
+                    <div3 type="caractère" n="69" source="#edition2">
+                        <p source="#edition2"> Quelques femmes de la ville ont la délicatesse de ne pas savoir ou de
+                            n’oser dire le nom des rues, des places, et de quelques endroits
+                            publics, qu’elles ne croient pas assez nobles pour être connus. Elles
+                            disent : le Louvre, la place Royale, mais elles usent de tours et de
+                            phrases plutôt que de prononcer de certains noms ; et s’ils leur
+                            échappent, c’est du moins avec quelque altération du mot, et après
+                            quelques façons qui les rassurent : en cela moins naturelles que les
+                            femmes de la cour, qui ayant besoin dans le discours des Halles, du
+                            Châtelet, ou de choses semblables, disent : les Halles, le Châtelet.
+                        </p>
+                    </div3>
+                    <div3 type="caractère" n="70" source="#edition2">
+                        <p source="#edition2"> Si l’on feint quelquefois de ne se pas souvenir de certains noms que
+                            l’on croit obscurs, et si l’on affecte de les corrompre en les
+                            prononçant, c’est par la bonne opinion qu’on a du sien. </p>
+                    </div3>
+                    <div3 type="caractère" n="71" source="#edition1 #edition2">
+                        <p  source="#edition1 #edition2"> L’on dit par belle humeur, et dans la liberté de la conversation, de ces
+                            choses froides, qu’à la vérité l’on donne pour telles, et que l’on ne
+                            trouve bonnes que parce qu’elles sont extrêmement mauvaises. Cette
+                            manière basse de plaisanter a passé du peuple, à qui elle appartient,
+                            jusque dans une grande partie de la jeunesse de la cour, qu’elle a déjà
+                            infectée. Il est vrai qu’il y entre trop de fadeur et de grossièreté
+                            pour devoir craindre qu’elle s’étende plus loin, et qu’elle fasse de
+                            plus grands progrès dans un pays qui est le centre du bon goût et de la
+                            politesse. L’on doit cependant en inspirer le dégoût à ceux qui la
+                            pratiquent ; car bien que ce ne soit jamais sérieusement, elle ne laisse
+                            pas de tenir la place, dans leur esprit et dans le commerce ordinaire,
+                            de quelque chose de meilleur. </p>
+                    </div3>
+                    <div3 type="caractère" n="72" source="#edition1">
+                        <p> Entre dire de mauvais choses, ou en dire de bonnes que tout le monde
+                            sait et les donner pour nouvelles, je n’ai pas à choisir. </p>
+                    </div3>
+                    <div3 type="caractère" n="73" source="#edition1 #edition2">
+                        <p source="#edition1 #edition2">
+                            <hi rend="italic">Lucain</hi> a dit une jolie chose… Il y a un beau mot de Claudien… Il y a
+                            cet endroit de Sénèque" : et là-dessus une longue suite de latin, que
+                            l’on cite souvent devant des gens qui ne l’entendent pas, et qui
+                            feignent de l’entendre. Le secret serait d’avoir un grand sens et bien
+                            de l’esprit ; car ou l’on se passerait des anciens, ou après les avoir
+                            lus avec soin, l’on saurait encore choisir les meilleurs, et les citer à
+                            propos. </p>
+                    </div3>
+                    <div3 type="caractère" n="74" source="#edition2">
+                        <p source="#edition2"> <hi rend="italic">Hermagoras</hi> ne sait pas qui est roi de Hongrie ; il s’étonne de
+                            n’entendre faire aucune mention du roi de Bohême ; ne lui parlez pas des
+                            guerres de Flandre et de Hollande, dispensez-le du moins de vous
+                            répondre : il confond les temps, il ignore quand elles ont commencé,
+                            quand elles ont fini ; combats, sièges, tout lui est nouveau ; mais il
+                            est instruit de la guerre des géants, il en raconte le progrès et les
+                            moindres détails, rien ne lui est échappé ; il débrouille de même
+                            l’horrible chaos des deux empires, le Babylonien et l’Assyrien ; il
+                            connaît à fond les Egyptiens et leurs dynasties. Il n’a jamais vu
+                            Versailles, il ne le verra point : il a presque vu la tour de Babel, il
+                            en compte les degrés, il sait combien d’architectes ont présidé à cet
+                            ouvrage, il sait le nom des architectes. Dirai-je qu’il croit Henri IV
+                            fils de Henri III ? Il néglige du moins de rien connaître aux maisons de
+                            France, d’Autriche et de Bavière : "Quelles minuties ! " dit-il, pendant
+                            qu’il récite de mémoire toute une liste des rois des Mèdes ou de
+                            Babylone, et que les noms d’Apronal, d’Hérigebal, de Noesnemordach, de
+                            Mardokempad, lui sont aussi familiers qu’à nous ceux de Valois et de
+                            Bourbon. Il demande si l’Empereur a jamais été marié ; mais personne ne
+                            lui apprendra que Ninus a eu deux femmes. On lui dit que le Roi jouit
+                            d’une santé parfaite ; et il se souvient que Thetmosis, un roi d’Égypte,
+                            était valétudinaire, et qu’il tenait cette complexion de son aïeul
+                            Alipharmutosis. Que ne sait-il point ? Quelle chose lui est cachée de la
+                            vénérable antiquité ? Il vous dira que Sémiramis, ou, selon
+                            quelques-uns, Sérimaris, parlait comme son fils Ninyas, qu’on ne les
+                            distinguait pas à la parole : si c’était parce que la mère avait une
+                            voix mâle comme son fils, ou le fils une voix efféminée comme sa mère,
+                            qu’il n’ose pas le décider. Il vous révélera que Nembrot était gaucher,
+                            et Sésostris ambidextre ; que c’est une erreur de s’imaginer qu’un
+                            Artaxerxe ait été appelé Longuemain parce que les bras lui tombaient
+                            jusqu’aux genoux, et non à cause qu’il avait une main plus longue que
+                            l’autre ; et il ajoute qu’il y a des auteurs graves qui affirment que
+                            c’était la droite, qu’il croit néanmoins être bien fondé à soutenir que
+                            c’est la gauche. </p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
 </TEI>
