@@ -35,7 +35,8 @@
                             <country>France</country>
                         </address>
                     </placeName>
-                    <idno type="notice">FRBNF12011755</idno>
+                    <idno type="notice">RES-R-2056</idno>
+                    <link target="http://classes.bnf.fr/essentiels/grand/ess_1562.htm">
                 </bibl>
                 <bibl>
                     <title>Les Caractères de Théophraste traduits du grec ; avec les caractères ou
@@ -50,7 +51,8 @@
                             <country>France</country>
                         </address>
                     </placeName>
-                    <idno type="notice">FRBNF37243153</idno>
+                    <idno type="notice">NUMM-57567</idno>
+                    <link target="https://catalogue.bnf.fr/ark:/12148/cb372431533">
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -69,6 +71,7 @@
         <revisionDesc>
             <listChange>
                 <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+                <change when="2023-10-16">Modification IDNO.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
