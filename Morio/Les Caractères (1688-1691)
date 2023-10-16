@@ -34,7 +34,8 @@
                         </address>
                     </placeName>
                     <date when="1688">1688</date>
-                    <idno type="notice">FRBNF12011755</idno>
+                    <idno>RES-R-2056</idno>
+                    <link target="https://gallica.bnf.fr/ark:/12148/bpt6k575738?rk=21459;2"/>
                 </bibl>
                 <bibl>
                     <author>Jean de La Bruyère</author>
@@ -49,7 +50,8 @@
                         </address>
                     </placeName>
                     <date when="1691">1691</date>
-                    <idno type="notice">FRBNF37243153</idno>
+                    <idno>NUMM-57567</idno>
+                    <link target="https://gallica.bnf.fr/ark:/12148/bpt6k57567b?rk=214593;2"/>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -57,6 +59,10 @@
             <editorialDecl>
                 <interpretation>
                     <p>Division du titre en titre principal ("main") et en sous-titre ("sub")</p>
+                </interpretation>
+                <interpretation>
+                    <p>Les numéros notés "n" dans "div3" correspondent à la numérotatin faites dans
+                        les dernières éditions critiques</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -68,14 +74,82 @@
         <revisionDesc>
             <listChange>
                 <change when="2023-10-09">Ajout des méta-données du fichier.</change>
+                <change when="2023-10-16">Modification des IDNO, ajout des liens des ouvrages et
+                    ajout des remarques 1 à 10 de "Des Ouvrages de l'Esprit"</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div>
-                <p/>
-            </div>
+            <div1>
+                <head>Les caractères de Théophraste traduits du grec ; avec les caractères ou les
+                    moeurs de ce siècle</head>
+                <div2 type="chapitre">
+                    <head>Des Ouvrages de l'Esprit</head>
+                    <div3 type="remarque" n="1" source ="édition 1">
+                        <p>Tout est dit, et l’on vient trop tard depuis plus de sept mille ans qu’il
+                            y a des hommes et qui pensent. Sur ce qui concerne les mœurs, le plus
+                            beau et le meilleur est enlevé ; l’on ne fait que glaner après les
+                            anciens et les habiles d’entre les modernes.</p>
+                    </div3>
+                    <div3 type="remarque" n="2" source ="édition 1">
+                        <p>Il faut chercher seulement à penser et à parler juste, sans vouloir
+                            amener les autres à notre goût et à nos sentiments ; c’est une trop
+                            grande entreprise.</p>
+                    </div3>
+                    <div3 type="remarque" n="3" source ="édition 1">
+                        <p>C’est un métier que de faire un livre, comme de faire une pendule : il
+                            faut plus que de l’esprit pour être auteur. Un magistrat allait par son
+                            mérite à la première dignité, il était homme délié et pratique dans les
+                            affaires : il a fait imprimer un ouvrage moral, qui est rare par le
+                            ridicule.</p>
+                    </div3>
+                    <div3 type="remarque" n="4" source ="édition 1">
+                        <p>Il n’est pas si aisé de se faire un nom par un ouvrage parfait, que d’en
+                            faire valoir un médiocre par le nom qu’on s’est déjà acquis.</p>
+                    </div3>
+                    <div3 type="remarque" n="5" source ="édition 1">
+                        <p>Un ouvrage satirique ou qui contient des faits, qui est donné en feuilles
+                            sous le manteau aux conditions d’être rendu de même, s’il est médiocre,
+                            passe pour merveilleux ; l’impression est l’écueil.</p>
+                    </div3>
+                    <div3 type="remarque" n="6" source ="édition 1">
+                        <p>Si l’on ôte de beaucoup d’ouvrages de morale l’avertissement au lecteur,
+                            l’épître dédicatoire, la préface, la table, les approbations, il reste à
+                            peine assez de pages pour mériter le nom de livre.</p>
+                    </div3>
+                    <div3 type="remarque" n="7" source ="édition 1">
+                        <p>Il y a de certaines choses dont la médiocrité est insupportable : la
+                            poésie, la musique, la peinture, le discours public. Quel supplice que
+                            celui d’entendre déclamer pompeusement un froid discours, ou prononcer
+                            de médiocres vers avec toute l’emphase d’un mauvais poète !</p>
+                    </div3>
+                    <div3 type="remarque" n="8" source ="édition 1">
+                        <p>Certains poètes sont sujets, dans le dramatique, à de longues suites de
+                            vers pompeux, qui semblent forts, élevés, et remplis de grands
+                            sentiments. Le peuple écoute avidement, les yeux élevés et la bouche
+                            ouverte, croit que cela lui plaît, et à mesure qu’il y comprend moins
+                            l’admire davantage ; il n’a pas le temps de respirer, il a à peine celui
+                            de se récrier et d’applaudir. J’ai cru autrefois, et dans ma première
+                            jeunesse, que ces endroits étaient clairs et intelligibles pour les
+                            acteurs, pour le parterre et l’amphithéâtre, que leurs auteurs
+                            s’entendaient eux-mêmes, et qu’avec toute l’attention que je donnais à
+                            leur récit, j’avais tort de n’y rien entendre : je suis détrompé.</p>
+                    </div3>
+                    <div3 type="remarque" n="9" source ="édition 1">
+                        <p>L’on n’a guère vu jusques à présent un chef-d’œuvre d’esprit qui soit
+                            l’ouvrage de plusieurs : Homère a fait l’Iliade, Virgile l’Enéide,
+                            Tite-Live ses Décades, et l’Orateur romain ses Oraisons.</p>
+                    </div3>
+                    <div3 type="remarque" n="10" source ="édition 1">
+                        <p>Il y a dans l’art un point de perfection, comme de bonté ou de maturité
+                            dans la nature. Celui qui le sent et qui l’aime a le goût parfait ;
+                            celui qui ne le sent pas, et qui aime en deçà ou au delà, a le goût
+                            défectueux. Il y a donc un bon et un mauvais goût, et l’on dispute des
+                            goûts avec fondement.</p>
+                    </div3>
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
