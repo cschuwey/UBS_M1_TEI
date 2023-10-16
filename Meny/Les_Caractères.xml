@@ -3,7 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou les moeurs de ce siècle.</title>
+                <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou les
+                    moeurs de ce siècle.</title>
                 <author>J. de La Bruyère</author>
             </titleStmt>
             <publicationStmt>
@@ -14,19 +15,24 @@
                 <listBibl>
                     <bibl>
                         <author>J. de La Bruyère</author>
-                        <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou les moeurs de ce siècle.</title>
+                        <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou
+                            les moeurs de ce siècle.</title>
                         <placeName>Paris</placeName>
                         <publisher>E. Michallet</publisher>
                         <date>1688></date>
+                        <idno URL="https://gallica.bnf.fr/ark:/12148/bpt6k105077m/f1.item"/>
+                        <xml:id source="edition1"></xml:id>
                     </bibl>
                     <bibl>
-                    <author>J. de La Bruyère</author>
-                    <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou les moeurs de ce siècle.</title>
-                    <placeName>Paris</placeName>
-                    <publisher>E. Michallet</publisher>
-                    <date>1691</date>
-                    <edition>sixième édition</edition>
-                </bibl>
+                        <author>J. de La Bruyère</author>
+                        <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou
+                            les moeurs de ce siècle.</title>
+                        <placeName>Paris</placeName>
+                        <publisher>E. Michallet</publisher>
+                        <date>1691</date>
+                        <idno URL="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=193134;0"/>
+                        <xml:id source="edition2"></xml:id>
+                    </bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -34,7 +40,15 @@
             <editorialDecl>
                 <normalization>
                     <p>Graphie modernisée</p>
+                    <p>Ponctuation modernisée</p>
                 </normalization>
+                <interpretation>
+                    <p> div1 = titre de l'ouvrage</p>
+                    <p> div2 = titre du chapitre</p>
+                    <p> div3 = une pour chaque pied-de-mouche</p>
+                    <p> p = chaque paragraphe au sein d'un pied-de-mouche</p>
+                    <p> les numéros de la remarque sont indiqués dans la div 3 dans l'attribut n</p>
+                </interpretation>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -44,6 +58,137 @@
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-10">Ajout des méta-données du fichier.</change>
+            <change when="2023-10-16">Encodage du chapitre 2 "Des Femmes", ajout des URL dans
+                l'élément bibl avec idno URL</change>
         </revisionDesc>
     </teiHeader>
+
+    <text>
+        <body>
+            <div1 type="ouvrage">Les Caractères ou les moeurs de ce siècle. <head>Les Caractères ou
+                    les moeurs de ce siècle</head>
+                <div2 type="chapitre" n="3">Des Femmes <head>Des femmes</head>
+                    <div3 n="32" source="#">
+                        <p>Est-ce en vue du secret, ou par un goût hypocondre, que cette femme aime
+                            un valet, cette autre un moine, et Dorinne son médecin ?</p>
+                    </div3>
+                    <div3 n="33">
+                        <p>Roscius entre sur la scène de bonne grâce : oui, Lélie ; et j’ajoute
+                            encore qu’il a les jambes bien tournées, qu’il joue bien, et de longs
+                            rôles, et que pour déclamer parfaitement il ne lui manque, comme on le
+                            dit, que de parler avec la bouche ; mais est-il le seul qui ait de
+                            l’agrément dans ce qu’il fait ? et ce qu’il fait, est-ce la chose la
+                            plus noble et la plus honnête que l’on puisse faire ? Roscius d’ailleurs
+                            ne peut être à vous, il est à une autre ; et quand cela ne serait pas
+                            ainsi, il est retenu : Claudie attend, pour l’avoir, qu’il se soit
+                            dégoûté de Messaline. Prenez Bathylle, Lélie : où trouverez-vous, je ne
+                            dis pas dans l’ordre des chevaliers, que vous dédaignez, mais même parmi
+                            les farceurs un jeune homme qui s’élève si haut en dansant, et qui passe
+                            mieux la capriole ? Voudriez-vous le sauteur Cobus, qui, jetant ses
+                            pieds en avant, tourne une fois en l’air avant que de tomber à terre ?
+                            Ignorez-vous qu’il n’est plus jeune ? Pour Bathylle, dites-vous, la
+                            presse y est trop grande, et il refuse plus de femmes qu’il n’en agrée ;
+                            mais vous avez Dracon, le joueur de flûte : nul autre de son métier
+                            n’enfle plus décemment ses joues en soufflant dans le hautbois ou le
+                            flageolet, car c’est une chose infinie que le nombre des instruments
+                            qu’il fait parler ; plaisant d’ailleurs, il fait rire jusqu’aux enfants
+                            et aux femmelettes. Qui mange et qui boit mieux que Dracon en un seul
+                            repas ? Il enivre toute une compagnie, et il se rend le dernier. Vous
+                            soupirez, Lélie : est-ce que Dracon aurait fait un choix, ou que
+                            malheureusement on vous aurait prévenue ? Se serait-il enfin engagé à
+                            Césonie, qui l’a tant couru, qui lui a sacrifié une si grande foule
+                            d’amants, je dirai même toute la fleur des Romains ? à Césonie, qui est
+                            d’une famille patricienne, qui est si jeune, si belle, et si sérieuse ?
+                            Je vous plains, Lélie, si vous avez pris par contagion ce nouveau goût
+                            qu’ont tant de femmes romaines pour ce qu’on appelle des hommes publics,
+                            et exposés par leur condition à la vue des autres. Que ferez-vous,
+                            lorsque le meilleur en ce genre vous est enlevé ? Il reste encore
+                            Bronte, le questionnaire : le peuple ne parle que de sa force et de son
+                            adresse ; c’est un jeune homme qui a les épaules larges et la taille
+                            ramassée, un nègre d’ailleurs, un homme noir.</p>
+                    </div3>
+                    <div3 n="34">
+                        <p>Pour les femmes du monde, un jardinier est un jardinier, et un maçon est
+                            un maçon ; pour quelques autres plus retirées, un maçon est un homme, un
+                            jardinier est un homme. Tout est tentation à qui la craint.</p>
+                    </div3>
+                    <div3 n="35">
+                        <p>Quelques femmes donnent aux couvents et à leurs amants : galantes et
+                            bienfactrices, elles ont jusque dans l’enceinte de l’autel des tribunes
+                            et des oratoires où elles lisent des billets tendres, et où personne ne
+                            voit qu’elles ne prient point Dieu.</p>
+                    </div3>
+                    <div3 n="36">
+                        <p>Qu’est-ce qu’une femme que l’on dirige ? Est-ce une femme plus
+                            complaisante pour son mari, plus douce pour ses domestiques, plus
+                            appliquée à sa famille et à ses affaires, plus ardente et plus sincère
+                            pour ses amis ; qui soit moins esclave de son humeur, moins attachée à
+                            ses intérêts ; qui aime moins les commodités de la vie ; je ne dis pas
+                            qui fasse des largesses à ses enfants qui sont déjà riches, mais qui,
+                            opulente elle-même et accablée du superflu, leur fournisse le
+                            nécessaire, et leur rende au moins la justice qu’elle leur doit ; qui
+                            soit plus exempte d’amour de soi-même et d’éloignement pour les autres ;
+                            qui soit plus libre de tous attachements humains ? "Non, dites-vous, ce
+                            n’est rien de toutes ces choses." J’insiste, et je vous demande :
+                            "Qu’est-ce donc qu’une femme que l’on dirige ? " Je vous entends, c’est
+                            une femme qui a un directeur.</p>
+                    </div3>
+                    <div3 n="37">
+                        <p>Si le confesseur et le directeur ne conviennent point sur une règle de
+                            conduite, qui sera le tiers qu’une femme prendra pour sur-arbitre ?</p>
+                    </div3>
+                    <div3 n="38">
+                        <p>Le capital pour une femme n’est pas d’avoir un directeur, mais de vivre
+                            si uniment qu’elle s’en puisse passer.</p>
+                    </div3>
+                    <div3 n="39">
+                        <p>Si une femme pouvait dire à son confesseur, avec ses autres faiblesses,
+                            celles qu’elle a pour son directeur ; et le temps qu’elle perd dans son
+                            entretien, peut-être lui serait-il donné pour pénitence d’y
+                            renoncer.</p>
+                    </div3>
+                    <div3 n="40">
+                        <p>Je voudrais qu’il me fût permis de crier de toute ma force à ces hommes
+                            saints qui ont été autrefois blessés des femmes : "Fuyez les femmes, ne
+                            les dirigez point, laissez à d’autres le soin de leur salut."</p>
+                    </div3>
+                    <div3 n="41">
+                        <p>C’est trop contre un mari d’être coquette et dévote ; une femme devrait
+                            opter.</p>
+                    </div3>
+                    <div3 n="42">
+                        <p>J’ai différé à le dire, et j’en ai souffert ; mais enfin il m’échappe, et
+                            j’espère même que ma franchise sera utile à celles qui n’ayant pas assez
+                            d’un confesseur pour leur conduite, n’usent d’aucun discernement dans le
+                            choix de leurs directeurs. Je ne sors pas d’admiration et d’étonnement à
+                            la vue de certains personnages que je ne nomme point ; j’ouvre de fort
+                            grands yeux sur eux ; je les contemple : ils parlent, je prête l’oreille
+                            ; je m’informe, on me dit des faits, je les recueille ; et je ne
+                            comprends pas comment des gens en qui je crois voir toutes choses
+                            diamétralement opposées au bon esprit, au sens droit, à l’expérience des
+                            affaires du monde, à la connaissance de l’homme, à la science de la
+                            religion et des mœurs, présument que Dieu doive renouveler en nos jours
+                            la merveille de l’apostolat, et faire un miracle en leurs personnes, en
+                            les rendant capables, tout simples et petits esprits qu’ils sont, du
+                            ministère des âmes, celui de tous le plus délicat et le plus sublime ;
+                            et si au contraire ils se croient nés pour un emploi si relevé, si
+                            difficile, et accordé à si peu de personnes, et qu’ils se persuadent de
+                            ne faire en cela qu’exercer leurs talents naturels et suivre une
+                            vocation ordinaire, je le comprends encore moins.</p>
+                        <p>Je vois bien que le goût qu’il y a à devenir le dépositaire du secret des
+                            familles, à se rendre nécessaire pour les réconciliations, à procurer
+                            des commissions ou à placer des domestiques, à trouver toutes les portes
+                            ouvertes dans les maisons des grands, à manger souvent à de bonnes
+                            tables, à se promener en carrosse dans une grande ville, et à faire de
+                            délicieuses retraites à la campagne, à voir plusieurs personnes de nom
+                            et de distinction s’intéresser à sa vie et à sa santé, et à ménager pour
+                            les autres et pour soi-même tous les intérêts humains, je vois bien,
+                            encore une fois, que cela seul a fait imaginer le spécieux et
+                            irrépréhensible prétexte du soin des âmes, et semé dans le monde cette
+                            pépinière intarissable de directeurs.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
 </TEI>
