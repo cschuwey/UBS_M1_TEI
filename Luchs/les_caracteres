@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+    <teiHeader>
         <fileDesc>
-              <titleStmt>
-                    <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
-                    <author>Jean de La Bruyère</author>
-                    <principal>C. Schuwey</principal>
-              </titleStmt>
-              <publicationStmt>
-                    <publisher>
-                        <name>Elise Luchs</name>
-                    </publisher>
-              </publicationStmt>
-              <sourceDesc>
-                  <listBibl>
-                      <bibl>
-                           <author>Jean de La Bruyère</author>
-                           <title> Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
-                           <publisher>chez Thomas Amaulry</publisher>
-                           <placeName>Lyon</placeName>
-                           <date>1688</date>
-                           <idno>FRBNF37242745</idno>
-                       </bibl>
-                  </listBibl>
-                  <listBibl>
-                      <bibl>
-                           <author>Jean de La Bruyère</author>
-                           <title> Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
-                           <publisher>chez Estienne Michallet</publisher>
-                           <placeName>Paris</placeName>
-                           <date>1690</date>
-                           <idno>FRBNF37243137</idno>
-                       </bibl>
-                  </listBibl>
-              </sourceDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les
+                    moeurs de ce siècle</title>
+                <author>Jean de La Bruyère</author>
+                <principal>C. Schuwey</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Elise Luchs</name>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>
+                        <author>Jean de La Bruyère</author>
+                        <title> Les caractères de Théophraste traduits du grec ; avec les caractères
+                            ou les moeurs de ce siècle</title>
+                        <publisher>chez Thomas Amaulry</publisher>
+                        <placeName>Lyon</placeName>
+                        <date>1688</date>
+                        <idno>FRBNF37242745</idno>
+                        <ref></ref>
+                    </bibl>
+                </listBibl>
+                <listBibl>
+                    <bibl>
+                        <author>Jean de La Bruyère</author>
+                        <title> Les caractères de Théophraste traduits du grec ; avec les caractères
+                            ou les moeurs de ce siècle</title>
+                        <publisher>chez Estienne Michallet</publisher>
+                        <placeName>Paris</placeName>
+                        <date>1690</date>
+                        <idno>FRBNF37243137</idno>
+                        <ref></ref>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
         </fileDesc>
         <profileDesc>
             <langUsage>
@@ -42,12 +47,132 @@
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-15">Création des méta-données du fichier.</change>
+            <change when="2023-10-16">Début encodage chapitre "Des Esprits Forts"</change>
         </revisionDesc>
     </teiHeader>
-    
-        <text>
-          <body>
-          <div><p></p></div>
-          </body>
-        </text>
+
+    <text>
+        <body>
+            <div1 type="ouvrage">
+                <head>Les Caractères ou les moeurs de ce siècle</head>
+                <div2 type="chapitre">
+                    <head>Des Esprits Forts</head>
+                    <div3 n="1">
+                        <!-- (1) -->
+                        <p>Les esprits forts savent-ils qu’on les appelle ainsi par ironie ? Quelle
+                            plus grande faiblesse que d’être incertains quel est le principe de son
+                            être, de sa vie, de ses sens, de ses connaissances, et quelle en doit
+                            être la fin ? Quel découragement plus grand que de douter si son âme
+                            n’est point matière comme la pierre et le reptile, et si elle n’est
+                            point corruptible comme ces viles créatures ? N’y a-t-il pas plus de
+                            force et de grandeur à recevoir dans notre esprit l’idée d’un être
+                            supérieur à tous les êtres, qui les a tous faits, et à qui tous se
+                            doivent rapporter ; d’un être souverainement parfait, qui est pur, qui
+                            n’a point commencé et qui ne peut finir, dont notre âme est l’image, et
+                            si j’ose dire, une portion, comme esprit et comme immortelle ?</p>
+                    </div3>
+                    <div3 n="2">
+                        <!-- (2) -->
+                        <p>Le docile et le faible sont susceptibles d’impressions : l’un en reçoit
+                            de bonnes, l’autre de mauvaises ; c’est-à-dire que le premier est
+                            persuadé et fidèle, et que le second est entêté et corrompu. Ainsi
+                            l’esprit docile admet la vraie religion ; et l’esprit faible, ou n’en
+                            admet aucune, ou en admet une fausse. Or l’esprit fort ou n’a point de
+                            religion, ou se fait une religion ; donc l’esprit fort, c’est l’esprit
+                            faible.</p>
+                    </div3>
+                    <div3 n="3">
+                        <!-- (3) -->
+                        <p>J’appelle mondains, terrestres ou grossiers ceux dont l’esprit et le cœur
+                            sont attachés à une petite portion de ce monde qu’ils habitent, qui est
+                            la terre ; qui n’estiment rien, qui n’aiment rien au delà : gens aussi
+                            limités que ce qu’ils appellent leurs possessions ou leur domaine, que
+                            l’on mesure, dont on compte les arpents, et dont on montre les bornes.
+                            Je ne m’étonne pas que des hommes qui s’appuient sur un atome
+                            chancellent dans les moindres efforts qu’ils font pour sonder la vérité,
+                            si avec des vues si courtes ils ne percent point à travers le ciel et
+                            les astres, jusques à Dieu même ; si, ne s’apercevant point ou de
+                            l’excellence de ce qui est esprit, ou de la dignité de l’âme, ils
+                            ressentent encore moins combien elle est difficile à assouvir, combien
+                            la terre entière est au-dessous d’elle, de quelle nécessité lui devient
+                            un être souverainement parfait, qui est Dieu, et quel besoin
+                            indispensable elle a d’une religion qui le lui indique, et qui lui en
+                            est une caution sûre. Je comprends au contraire fort aisément qu’il est
+                            naturel à de tels esprits de tomber dans l’incrédulité ou
+                            l’indifférence, et de faire servir Dieu et la religion à la politique,
+                            c’est-à-dire à l’ordre et à la décoration de ce monde, la seule chose
+                            selon eux qui mérite qu’on y pense.</p>
+                    </div3>
+                    <div3 n="4">
+                        <!-- (4) -->
+                        <p>Quelques-uns achèvent de se corrompre par de longs voyages, et perdent le
+                            peu de religion qui leur restait. Ils voient de jour à autre un nouveau
+                            culte, diverses mœurs, diverses cérémonies ; ils ressemblent à ceux qui
+                            entrent dans les magasins, indéterminés sur le choix des étoffes qu’ils
+                            veulent acheter : le grand nombre de celles qu’on leur montre les rend
+                            plus indifférents ; elles ont chacune leur agrément et leur bienséance :
+                            ils ne se fixent point, ils sortent sans emplette.</p>
+                    </div3>
+                    <div3 n="5">
+                        <!-- (5) -->
+                        <p>Il y a des hommes qui attendent à être dévots et religieux que tout le
+                            monde se déclare impie et libertin : ce sera alors le parti du vulgaire,
+                            ils sauront s’en dégager. La singularité leur plaît dans une matière si
+                            sérieuse et si profonde ; ils ne suivent la mode et le train commun que
+                            dans les choses de rien et de nulle suite. Qui sait même s’ils n’ont pas
+                            déjà mis une sorte de bravoure et d’intrépidité à courir tout le risque
+                            de l’avenir ? Il ne faut pas d’ailleurs que dans une certaine condition,
+                            avec une certaine étendue d’esprit et de certaines vues, l’on songe à
+                            croire comme les savants et le peuple.</p>
+                    </div3>
+                    <div3 n="6">
+                        <!-- (6) -->
+                        <p>L’on doute de Dieu dans une pleine santé, comme l’on doute que ce soit
+                            pécher que d’avoir un commerce avec une personne libre. Quand l’on
+                            devient malade, et que l’hydropisie est formée, l’on quitte sa
+                            concubine, et l’on croit en Dieu.</p>
+                    </div3>
+                    <div3 n="7">
+                        <!-- (7) -->
+                        <p>Il faudrait s’éprouver et s’examiner très sérieusement, avant que de se
+                            déclarer esprit fort ou libertin, afin au moins, et selon ses principes,
+                            de finir comme l’on a vécu ; ou si l’on ne se sent pas la force d’aller
+                            si loin, se résoudre de vivre comme l’on veut mourir.</p>
+                    </div3>
+                    <div3 n="8">
+                        <!-- (8) -->
+                        <p>Toute plaisanterie dans un homme mourant est hors de sa place : si elle
+                            roule sur de certains chapitres, elle est funeste. C’est une extrême
+                            misère que de donner à ses dépens à ceux que l’on laisse le plaisir d’un
+                            bon mot.</p>
+                        <p>(VI) Dans quelque prévention où l’on puisse être sur ce qui
+                            doit suivre la mort, c’est une chose bien sérieuse que de mourir : ce
+                            n’est point alors le badinage qui sied bien, mais la constance.</p>
+                    </div3>
+                    <div3 n="9">
+                        <!-- (9) -->
+                        <p>Il y a eu de tout temps de ces gens d’un bel esprit et d’une agréable
+                            littérature, esclaves des grands, dont ils ont épousé le libertinage et
+                            porté le joug toute leur vie, contre leurs propres lumières et contre
+                            leur conscience. Ces hommes n’ont jamais vécu que pour d’autres hommes,
+                            et ils semblent les avoir regardés comme leur dernière fin. Ils ont eu
+                            honte de se sauver à leurs yeux, de paraître tels qu’ils étaient
+                            peut-être dans le cœur, et ils se sont perdus par déférence ou par
+                            faiblesse. Y a-t-il donc sur la terre des grands assez grands, et des
+                            puissants assez puissants, pour mériter de nous que nous croyions et que
+                            nous vivions à leur gré, selon leur goût et leurs caprices, et que nous
+                            poussions la complaisance plus loin, en mourant non de la manière qui
+                            est la plus sûre pour nous, mais de celle qui leur plaît davantage ?</p>
+                    </div3>
+                    <div3 n="10">
+                        <!-- (10) -->
+                        <p>J’exigerais de ceux qui vont contre le train commun et les grandes règles
+                            qu’il sussent plus que les autres, qu’ils eussent des raisons claires,
+                            et de ces arguments qui emportent conviction.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
 </TEI>
+
