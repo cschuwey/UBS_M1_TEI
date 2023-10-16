@@ -9,10 +9,10 @@
             </titleStmt>
             <publicationStmt>
                 <publisher> A.Souffez </publisher>
-                <date when="2023-10-13">13/10/2023</date>
+                <date when="2023-10-16">16/10/2023</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="edition3">
                     <author>La Bruyère, Jean de</author>
                     <title>Les caractères de Théophrase traduit du grec ; avec les caractères et
                         moeurs de ce siècle</title>
@@ -25,7 +25,7 @@
                     </address>
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57572x/f1.item#</ref>
                 </bibl>
-                <bibl>
+                <bibl xml:id="edition5">
                     <author>La Bruyère, Jean de</author>
                     <title>Les caractères de Théophrase traduit du grec ; avec les caractères et
                         moeurs de ce siècle</title>
@@ -46,13 +46,16 @@
                     <p>Graphie modernisée</p>
                 </normalization>
             </editorialDecl>
-            <p>"div2" correspond aux différents chapitres et "div3" est utilisé pour indiquer les différents caractères/ commentaires.</p>
-            <p>Les chapitres ont été encodé avec un numéro, afin qu'il soit plus rapide de s'y retrouver.</p>
+            <p>"div2" correspond aux différents chapitres et "div3" est utilisé pour indiquer les
+                différents caractères/ commentaires.</p>
+            <p>Les chapitres ont été encodé avec un numéro, afin qu'il soit plus rapide de s'y
+                retrouver.</p>
             <editorialDecl>
                 <interpretation>
                     <p>La date de parution se trouve entre les balises "edition", car cela me
                         semblait plus pertinant et précis.</p>
-                    <p>La balise "ref" est utilisé pour indiquer l'URL où l'édition numérique a été trouvé.</p>
+                    <p>La balise "ref" est utilisé pour indiquer l'URL où l'édition numérique a été
+                        trouvé.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -70,7 +73,9 @@
                 (notamment parce qu'ils diffèrent d'une édition à une autre, sans pour autant
                 correspondre au format d'une date).</change>
             <change when="2023-10-16">Modification d'une erreur de balise. Ajout d'informations dans
-                les méta-données. Ajout d'éléments dans la balise "body".</change>
+                les méta-données. Ajout d'éléments dans la balise "body". Ajout de l'attribut
+                "xml:id" à la balise "bibl", j'ai choisi cette balise, car tous les enfants de
+                "bibl" décrive l'identité, ce qui m'a donc semblé plus pertinent.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -199,10 +204,9 @@
                             compatriotes, quand il est imprimé par toute l’Europe et qu’il est
                             traduit en plusieurs langues : il n’est plus temps. </p>
                     </div3>
-                    
+
                 </div2>
             </div1>
         </body>
     </text>
 </TEI>
-
