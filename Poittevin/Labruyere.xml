@@ -14,7 +14,7 @@
 
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="édition3">
                     <author>Théophraste</author>
                     <author>Jean de la Bruyère</author>
                     <title>Les Caractères de Théophraste, traduits du Grec, avec Les caractères ou
@@ -23,8 +23,11 @@
                     <publisher>E. Michallet</publisher>
                     <date>1688</date>
                     <idno>BNF R-2056</idno>
+                    <idno type="uri">
+                        https://gallica.bnf.fr/ark:/12148/bpt6k57572x.r=Les%20Caract%C3%A8res%20de%20Th%C3%A9ophraste%2C%20traduits%20du%20Grec%2C%20avec%20Les%20caract%C3%A8res%20ou%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20les%20moeurs%20de%20ce%20si%C3%A8cle?rk=21459;2
+                    </idno>
                 </bibl>
-                <bibl>
+                <bibl xml:id="édition6">
                     <author>Jean de la Bruyère</author>
                     <title>Les Caractères de Théophraste, traduits du Grec, avec les Caractères ou
                         Moeurs de ce siècle</title>
@@ -32,13 +35,16 @@
                     <publisher/>
                     <date>1691</date>
                     <idno>BNF R-52303</idno>
+                    <idno type="uri">
+                        https://gallica.bnf.fr/ark:/12148/bpt6k57567b.r=Les%20Caract%C3%A8res%20de%20Th%C3%A9ophraste%2C%20traduits%20du%20Grec%2C%20avec%20les%20Caract%C3%A8res%20ou%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Moeurs%20de%20ce%20si%C3%A8cle?rk=214593;2
+                    </idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
                 <interpretation>
-                    <p/>
+                    <p>Attribus source="#" ajoutés dans balises p et non div3 pour faciliter la conversion du fichier.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -49,7 +55,8 @@
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-09">Ajout d'une partie des métadonnées du fichier.</change>
-            <change when="2023-10-16">Structuration, arborescence du chapitre (div).</change>
+            <change when="2023-10-16">Structuration, arborescence du chapitre (div) + liaisons
+                éditions et url ajoutées (teiHeader)</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -60,107 +67,113 @@
                     <p>De la Société et de la Conversation</p>
 
                     <div3 n="42">
-                        <p>Il n’y a que ceux qui ont eu de vieux collatéraux, ou qui en ont encore,
-                            et dont il s’agit d’hériter, qui puissent dire ce qu’il en coûte.</p>
+                        <p source="#édition6">Il n’y a que ceux qui ont eu de vieux collatéraux, ou
+                            qui en ont encore, et dont il s’agit d’hériter, qui puissent dire ce
+                            qu’il en coûte.</p>
                     </div3>
 
 
                     <div3 n="43">
-                        <p>Cléante est un très honnête homme ; il s’est choisi une femme qui est la
-                            meilleure personne du monde et la plus raisonnable : chacun, de sa part,
-                            fait tout le plaisir et tout l’agrément des sociétés où il se trouve ;
-                            l’on ne peut voir ailleurs plus de probité, plus de politesse. Ils se
-                            quittent demain, et l’acte de leur séparation est tout dressé chez le
-                            notaire. Il y a, sans mentir, de certains mérites qui ne sont point
-                            faits pour être ensemble, de certaines vertus incompatibles.</p>
+                        <p source="#édition3 #édition6">Cléante est un très honnête homme ; il s’est
+                            choisi une femme qui est la meilleure personne du monde et la plus
+                            raisonnable : chacun, de sa part, fait tout le plaisir et tout
+                            l’agrément des sociétés où il se trouve ; l’on ne peut voir ailleurs
+                            plus de probité, plus de politesse. Ils se quittent demain, et l’acte de
+                            leur séparation est tout dressé chez le notaire. Il y a, sans mentir, de
+                            certains mérites qui ne sont point faits pour être ensemble, de
+                            certaines vertus incompatibles.</p>
                     </div3>
 
 
                     <div3 n="44">
-                        <p>L’on peut compter sûrement sur la dot, le douaire et les conventions,
-                            mais faiblement sur les nourritures ; elles dépendent d’une union
-                            fragile de la belle-mère et de la bru, et qui périt souvent dans l’année
-                            du mariage.</p>
+                        <p source="#édition3 #édition6">L’on peut compter sûrement sur la dot, le
+                            douaire et les conventions, mais faiblement sur les nourritures ; elles
+                            dépendent d’une union fragile de la belle-mère et de la bru, et qui
+                            périt souvent dans l’année du mariage.</p>
                     </div3>
 
 
                     <div3 n="45">
-                        <p>Un beau-père aime son gendre, aime sa bru. Une belle-mère aime son
-                            gendre, n’aime point sa bru. Tout est réciproque.</p>
+                        <p source="#édition6">Un beau-père aime son gendre, aime sa bru. Une
+                            belle-mère aime son gendre, n’aime point sa bru. Tout est
+                            réciproque.</p>
                     </div3>
 
 
                     <div3 n="46">
-                        <p>Ce qu’une marâtre aime le moins de tout ce qui est au monde, ce sont les
-                            enfants de son mari : plus elle est folle de son mari, plus elle est
-                            marâtre.</p>
-                        <p>Les marâtres font déserter les villes et les bourgades, et ne peuplent
-                            pas moins la terre de mendiants, de vagabonds, de domestiques et
-                            d’esclaves, que la pauvreté.</p>
+                        <p source="#édition6">Ce qu’une marâtre aime le moins de tout ce qui est au
+                            monde, ce sont les enfants de son mari : plus elle est folle de son
+                            mari, plus elle est marâtre.</p>
+                        <p source="#édition6">Les marâtres font déserter les villes et les
+                            bourgades, et ne peuplent pas moins la terre de mendiants, de vagabonds,
+                            de domestiques et d’esclaves, que la pauvreté.</p>
                     </div3>
 
 
                     <div3 n="47">
-                        <p>G… et H… sont voisins de campagne, et leurs terres sont contiguës ; ils
-                            habitent une contrée déserte et solitaire. Eloignés des villes et de
-                            tout commerce, il semblait que la fuite d’une entière solitude ou
-                            l’amour de la société eût dû les assujettir à une liaison réciproque ;
-                            il est cependant difficile d’exprimer la bagatelle qui les a fait
-                            rompre, qui les rend implacables l’un pour l’autre, et qui perpétuera
-                            leurs haines dans leurs descendants. Jamais des parents, et même des
-                            frères, ne se sont brouillés pour une moindre chose.</p>
-                        <p>Je suppose qu’il n’y ait que deux hommes sur la terre, qui la possèdent
-                            seuls, et qui la partagent toute entre eux deux : je suis persuadé qu’il
-                            leur naîtra bientôt quelque sujet de rupture, quand ce ne serait que
-                            pour les limites.</p>
+                        <p source="#édition3 #édition6">G… et H… sont voisins de campagne, et leurs
+                            terres sont contiguës ; ils habitent une contrée déserte et solitaire.
+                            Eloignés des villes et de tout commerce, il semblait que la fuite d’une
+                            entière solitude ou l’amour de la société eût dû les assujettir à une
+                            liaison réciproque ; il est cependant difficile d’exprimer la bagatelle
+                            qui les a fait rompre, qui les rend implacables l’un pour l’autre, et
+                            qui perpétuera leurs haines dans leurs descendants. Jamais des parents,
+                            et même des frères, ne se sont brouillés pour une moindre chose.</p>
+                        <p source="#édition3 #édition6">Je suppose qu’il n’y ait que deux hommes sur
+                            la terre, qui la possèdent seuls, et qui la partagent toute entre eux
+                            deux : je suis persuadé qu’il leur naîtra bientôt quelque sujet de
+                            rupture, quand ce ne serait que pour les limites.</p>
                     </div3>
 
 
                     <div3 n="48">
+                        <!-- Remarque non trouvée dans les 2 éditions sélectionnées. -->
                         <p>Il est souvent plus court et plus utile de cadrer aux autres que de faire
                             que les autres s’ajustent à nous.</p>
+
                     </div3>
 
 
                     <div3 n="49">
-                        <p>J’approche d’une petite ville, et je suis déjà sur une hauteur d’où je la
-                            découvre. Elle est située à mi-côte ; une rivière baigne ses murs, et
-                            coule ensuite dans une belle prairie ; elle a une forêt épaisse qui la
-                            couvre des vents froids et de l’aquilon. Je la vois dans un jour si
-                            favorable, que je compte ses tours et ses clochers ; elle me paraît
-                            peinte sur le penchant de la colline. Je me récrie, et je dis : "Quel
-                            plaisir de vivre sous un si beau ciel et dans ce séjour si délicieux ! "
-                            Je descends dans la ville, où je n’ai pas couché deux nuits, que je
-                            ressemble à ceux qui l’habitent : j’en veux sortir.</p>
+                        <p source="#édition6">J’approche d’une petite ville, et je suis déjà sur une
+                            hauteur d’où je la découvre. Elle est située à mi-côte ; une rivière
+                            baigne ses murs, et coule ensuite dans une belle prairie ; elle a une
+                            forêt épaisse qui la couvre des vents froids et de l’aquilon. Je la vois
+                            dans un jour si favorable, que je compte ses tours et ses clochers ;
+                            elle me paraît peinte sur le penchant de la colline. Je me récrie, et je
+                            dis : "Quel plaisir de vivre sous un si beau ciel et dans ce séjour si
+                            délicieux ! " Je descends dans la ville, où je n’ai pas couché deux
+                            nuits, que je ressemble à ceux qui l’habitent : j’en veux sortir.</p>
                     </div3>
 
 
                     <div3 n="50">
-                        <p>Il y a une chose que l’on n’a point vue sous le ciel et que selon toutes
-                            les apparences on ne verra jamais : c’est une petite ville qui n’est
-                            divisée en aucuns partis ; où les familles sont unies, et où les cousins
-                            se voient avec confiance ; où un mariage n’engendre point une guerre
-                            civile ; où la querelle des rangs ne se réveille pas à tous moments par
-                            l’offrande, l’encens et le pain bénit, par les processions et par les
-                            obsèques ; d’où l’on a banni les caquets, le mensonge et la médisance ;
-                            où l’on voit parler ensemble le bailli et le président, les élus et les
-                            assesseurs ; où le doyen vit bien avec ses chanoines ; où les chanoines
-                            ne dédaignent pas les chapelains, et où ceux-ci souffrent les
-                            chantres.</p>
+                        <p source="#édition6">Il y a une chose que l’on n’a point vue sous le ciel
+                            et que selon toutes les apparences on ne verra jamais : c’est une petite
+                            ville qui n’est divisée en aucuns partis ; où les familles sont unies,
+                            et où les cousins se voient avec confiance ; où un mariage n’engendre
+                            point une guerre civile ; où la querelle des rangs ne se réveille pas à
+                            tous moments par l’offrande, l’encens et le pain bénit, par les
+                            processions et par les obsèques ; d’où l’on a banni les caquets, le
+                            mensonge et la médisance ; où l’on voit parler ensemble le bailli et le
+                            président, les élus et les assesseurs ; où le doyen vit bien avec ses
+                            chanoines ; où les chanoines ne dédaignent pas les chapelains, et où
+                            ceux-ci souffrent les chantres.</p>
                     </div3>
 
 
                     <div3 n="51">
-                        <p>Les provinciaux et les sots sont toujours prêts à se fâcher, et à croire
-                            qu’on se moque d’eux ou qu’on les méprise : il ne faut jamais hasarder
-                            la plaisanterie, même la plus douce et la plus permise, qu’avec des gens
-                            polis, ou qui ont de l’esprit.</p>
+                        <p source="#édition6">Les provinciaux et les sots sont toujours prêts à se
+                            fâcher, et à croire qu’on se moque d’eux ou qu’on les méprise : il ne
+                            faut jamais hasarder la plaisanterie, même la plus douce et la plus
+                            permise, qu’avec des gens polis, ou qui ont de l’esprit.</p>
                     </div3>
 
 
                     <div3 n="52">
-                        <p>On ne prime point avec les grands, ils se défendent par leur grandeur ;
-                            ni avec les petits, ils vous repoussent par le qui vive.</p>
+                        <p source="#édition6">On ne prime point avec les grands, ils se défendent
+                            par leur grandeur ; ni avec les petits, ils vous repoussent par le qui
+                            vive.</p>
                     </div3>
                 </div2>
             </div1>
