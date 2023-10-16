@@ -23,13 +23,13 @@
                     <placeName> Paris </placeName>
                     <idno> R-2810 </idno>
                 </bibl>
-                <bibl xml:id="edition_neuf">
+                <bibl xml:id="edition_cinq">
                     <author> Jean de La Bruyère </author>
                     <title type="main"> Les Caractères de théophraste, traduits du grec </title>
                     <title type="sub"> avec Les caractères et les moeurs du siècle </title>
                     <editor> E.Michallet </editor>
-                    <edition> 9ème édition </edition>
-                    <date> 1696 </date>
+                    <edition> 5ème édition </edition>
+                    <date> 1690 </date>
                     <placeName> Paris </placeName>
                     <idno> PQ-1803 </idno>
                 </bibl>
@@ -53,6 +53,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-10"> Ajout des métadonnées sur la page </change>
+            <change when="2023-10-17"> Début de l'encodage d'un extrait de chapitre
         </revisionDesc>
     </teiHeader>
     <text>
