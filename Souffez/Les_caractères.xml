@@ -16,27 +16,25 @@
                     <author>La Bruyère, Jean de</author>
                     <title>Les caractères de Théophrase traduit du grec ; avec les caractères et
                         moeurs de ce siècle</title>
-                    <edition>Troisième édition<date>1688</date></edition>
+                    <edition>Troisième édition< when="1688">M DC LXXXVIII</date></edition>
                     <publisher>Chez Etienne Michallet</publisher>
                     <address>
                         <addrLine>A Paris</addrLine>
                         <addrLine>premier Imprimeur du Roy</addrLine>
                         <addrLine>rue Saint Jacques, à l'Image Saint Paul</addrLine>
                     </address>
-                    <idno>M DC LXXXVIII</idno>
                 </bibl>
                 <bibl>
                     <author>La Bruyère, Jean de</author>
                     <title>Les caractères de Théophrase traduit du grec ; avec les caractères et
                         moeurs de ce siècle</title>
-                    <edition>Cinquième édition<date>1690</date></edition>
+                    <edition>Cinquième édition<date when="1690">M DC XC</date></edition>
                     <publisher>Chez Etienne Michallet</publisher>
                     <address>
                         <addrLine>A Paris</addrLine>
                         <addrLine>premier Imprimeur du Roy</addrLine>
                         <addrLine>rue Saint Jacques, à l'Image Saint Paul</addrLine>
                     </address>
-                    <idno>M DC XC</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -66,6 +64,7 @@
                 se trouvaient en bas de la couverture et qui ressemblent à un numéro
                 d'identification (notamment parce qu'ils diffèrent d'une édition à une autre, sans
                 pour autant correspondre au format d'une date).</change>
+            <change when="2023-10-16">Modification d'une erreur de balise. Ajout d'informations dans les méta-données.</change>
         </revisionDesc>
     </teiHeader>
     <text>
