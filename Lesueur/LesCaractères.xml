@@ -23,6 +23,7 @@
                         <publisher>E. Michallet</publisher>
                         <date>1688</date>
                         <idno>BNF RES-R-2056</idno>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2</ref>
                     </bibl>
 
                     <bibl>
@@ -33,6 +34,9 @@
                         <publisher/>
                         <date>1691</date>
                         <idno>BNF R-52303</idno>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2</ref>
+                   
+                        
                     </bibl>
 
                 </listBibl>
@@ -40,7 +44,16 @@
 
             </sourceDesc>
         </fileDesc>
-
+<encodingDesc>
+    <editorialDecl>
+        <normalization>
+            <p>Graphie modernisée</p>
+        </normalization>
+        <ab>
+            <add>La balise div3 représente les pieds-de-mouche</add>
+        </ab>
+    </editorialDecl>
+</encodingDesc>
 
         <profileDesc>
             <langUsage>
@@ -49,8 +62,9 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-11-09">Création du fichier Les Caractères de Jean de La Bruyère et
+            <change when="2023-10-11">Création du fichier Les Caractères de Jean de La Bruyère et
                 création de sa TeiHeader</change>
+            <change when="2023-10-16">Création des divisions dans le chapitre De la Cour</change>
 
 
         </revisionDesc>
@@ -61,7 +75,94 @@
     </teiHeader>
     <text>
         <body>
-            <p/>
+            <div1 type="ouvrage">
+                <head>Les Caractères ou les Moeurs de ce Siècle</head>
+                <div2 type="chapitre">
+                    <head>De la Cour</head>
+
+
+
+                    <div3 n="33">
+                        <p>Je crois pouvoir dire d’un poste éminent et délicat qu’on y monte plus
+                            aisément qu’on ne s’y conserve.</p>
+                    </div3>
+
+                    <div3 n="34">
+                        <p>L’on voit des hommes tomber d’une haute fortune par les mêmes défauts qui
+                            les y avaient fait monter.</p>
+                    </div3>
+
+                    <div3 n="35">
+                        <p>Il y a dans les cours deux manières de ce que l’on appelle congédier son
+                            monde ou se défaire des gens : se fâcher contre eux, ou faire si bien
+                            qu’ils se fâchent contre vous et s’en dégoûtent.</p>
+                    </div3>
+
+                    <div3 n="36">
+                        <p>L’on dit à la cour du bien de quelqu’un pour deux raisons : la première,
+                            afin qu’il apprenne que nous disons du bien de lui ; la seconde, afin
+                            qu’il en dise de nous.</p>
+                    </div3>
+
+                    <div3 n="37">
+                        <p>Il est aussi dangereux à la cour de faire les avances, qu’il est
+                            embarrassant de ne les point faire.</p>
+                    </div3>
+
+                    <div3 n="38">
+                        <p>Il y a des gens à qui ne connaître point le nom et le visage d’un homme
+                            est un titre pour en rire et le mépriser. Ils demandent qui est cet
+                            homme ; ce n’est ni Rousseau, ni un Fabry, ni la Couture : ils ne
+                            pourraient le méconnaître.</p>
+                    </div3>
+
+                    <div3 n="39">
+                        <p>L’on me dit tant de mal de cet homme, et j’y en vois si peu, que je
+                            commence à soupçonner qu’il n’ait un mérite importun qui éteigne celui
+                            des autres.</p>
+                    </div3>
+
+                    <div3 n="40">
+                        <p> Vous êtes homme de bien, vous ne songez ni à plaire ni à déplaire aux
+                            favoris, uniquement attaché à votre maître et à votre devoir : vous êtes
+                            perdu.</p>
+                    </div3>
+
+                    <div3 n="41">
+                        <p>On n’est point effronté par choix, mais par complexion ; c’est un vice de
+                            l’être, mais naturel : celui qui n’est pas né tel est modeste, et ne
+                            passe pas aisément de cette extrémité à l’autre ; c’est une leçon assez
+                            inutile que de lui dire : "Soyez effronté, et vous réussirez" ; une
+                            mauvaise imitation ne lui profiterait pas, et le ferait échouer. Il ne
+                            faut rien de moins dans les cours qu’une vraie et naïve impudence pour
+                            réussir.</p>
+                    </div3>
+
+                    <div3 n="42">
+                        <p>On cherche, on s’empresse, on brigue, on se tourmente, on demande, on est
+                            refusé, on demande et on obtient ; "mais, dit-on, sans l’avoir demandé,
+                            et dans le temps que l’on n’y pensait pas, et que l’on songeait même à
+                            toute autre chose" : vieux style, menterie innocente, et qui ne trompe
+                            personne.</p>
+                    </div3>
+
+                    <div3 n="43">
+                        <p>On fait sa brigue pour parvenir à un grand poste, on prépare toutes ses
+                            machines, toutes les mesures sont bien prises, et l’on doit être servi
+                            selon ses souhaits ; les uns doivent entamer, les autres appuyer ;
+                            l’amorce est déjà conduite, et la mine prête à jouer : alors on
+                            s’éloigne de la cour. Qui oserait soupçonner d’Artémon qu’il ait pensé à
+                            se mettre dans une si belle place, lorsqu’on le tire de sa terre ou de
+                            son gouvernement pour l’y faire asseoir ? Artifice grossier, finesses
+                            usées, et dont le courtisan s’est servi tant de fois, que, si je voulais
+                            donner le change à tout le public et lui dérober mon ambition, je me
+                            trouverais sous l’œil et sous la main du prince, pour recevoir de lui la
+                            grâce que j’aurais recherchée avec le plus d’emportement.</p>
+                    </div3>
+
+
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
