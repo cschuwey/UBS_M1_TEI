@@ -43,7 +43,18 @@
             </sourceDesc>
         </fileDesc>
         
-        
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                </normalization>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>Comme le chapitre De la Ville contient à un moment plusieurs paragraphes dans un même div, j'ai ajouté les sources des paragraphes dans la balsie p.</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
         
         <profileDesc>
             <langUsage>
