@@ -51,15 +51,12 @@
                 <normalization>
                     <p>Graphie modernisée</p>
                 </normalization>
-                <ab>
-                    <add>La balise div3 représente les pieds-de-mouche</add>
-                </ab>
-                <interpretation> 
-                <p>
-                    Le nombre de balises div3 et p étant le même, j'ai choisi de mettre les concordances du texte avec les éditions de 1688 et 1691 dans div3 car cela revenait au même
-                </p>
+               <interpretation> 
+                    <p>
+                        Le nombre de balises div3 et p étant le même, j'ai choisi de mettre les concordances du texte avec les éditions de 1688 et 1691 dans div3 car cela revenait au même
+                    </p>
                 </interpretation>
-           
+                
             </editorialDecl>
         </encodingDesc>
         
