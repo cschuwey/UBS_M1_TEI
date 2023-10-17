@@ -20,7 +20,7 @@
                     <bibl>
                         <title type="main">Les caractères de Théophraste traduits du grec </title>
                         <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
-                        <author>Théophraste</author>
+                        <author>Jean de La Bruyère</author>
                     </bibl>
                 </listBibl>
                 <biblstruct>
@@ -31,7 +31,7 @@
                         <imprint>
                             <idno>Bibliothèque nationale de France, département Réserve des livres
                                 rares, Rés. R-2056</idno>
-                            <idno type="URL">http://catalogue.bnf.fr/ark:/12148/cb120117553></idno>
+                            <idno type="URL">ark:/12148/bpt6k57572x></idno>
                         </imprint>
                     </monogram>
                 </biblstruct>
@@ -42,20 +42,19 @@
                 <listBibl>
                     <bibl>
                         <title type="main">Les caractères de Théophraste traduits du grec </title>
-                        <title type="sub">avec Les caractères ou les moeurs de ce siècle. Quatriéme
-                            edition. Corrigée augmentée</title>
+                        <title type="sub">avec Les caractères ou les moeurs de ce siècle. Cinquième
+                            édition. Augmentée de plusieurs remarques</title>
                         <author> Jean de La Bruyère</author>
                     </bibl>
                 </listBibl>
                 <biblstruct>
                     <monogram>
-                        <placeName>Lyon</placeName>
-                        <publisher>chez Thomas Amaulry </publisher>
-                        <date>1689</date>
+                        <placeName>Paris</placeName>
+                        <publisher>chez Estienne Michallet</publisher>
+                        <date>1690</date>
                         <imprint>
-                            <idno>Bibliothèque municipale de Lyon, 810925</idno>
-                            <idno type="URL"
-                                >https://catalogue.bm-lyon.fr/ark:/75584/pf0000300786</idno>
+                            <idno>Bibliothèque nationale de France</idno>
+                            <idno type="URL">ark:/12148/bpt6k575660</idno>
                         </imprint>
                     </monogram>
                 </biblstruct>
@@ -134,8 +133,8 @@
             <div1 type="ouvrage">
                 <head> Les Caractères ou les moeurs de ce siècle </head>
                 <div2 type="chapitre"> VI <head>"Des Biens de Fortune"</head>
-                    <div3 n="43" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8">Le marchand fait des montres pour donner de
+                    <div3 n="43" source="#edition5" #edition8">
+                        <p source="#edition5" #edition8">Le marchand fait des montres pour donner de
                             sa marchandise ce qu’il y a de pire ; il a le cati et les faux jours
                             afin d’en cacher les défauts, et qu’elle paraisse bonne ; il la surfait
                             pour la vendre plus cher qu’elle ne vaut ; il a des marques fausses et
@@ -144,21 +143,21 @@
                             afin que celui à qui il l’a livrée la lui paye en or qui soit de
                             poids.</p>
                     </div3>
-                    <div3 n="44" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8">Dans toutes les conditions, le pauvre est
+                    <div3 n="44" source="#edition3 #edition5" #edition8">
+                        <p source="#edition3 #edition5" #edition8">Dans toutes les conditions, le pauvre est
                             bien proche de l’homme de bien, et l’opulent n’est guère éloigné de la
                             friponnerie. Le savoir-faire et l’habileté ne mènent pas jusques aux
                             énormes richesses. </p>
-                        <p n="44" source="#edition1 #edition4" #edition8">L’on peut s’enrichir, dans quelque art ou dans quelque commerce que ce
+                        <p n="44" source="#edition3 #edition5" #edition8">L’on peut s’enrichir, dans quelque art ou dans quelque commerce que ce
                             soit, par l’ostentation d’une certaine probité.</p>
                     </div3>
-                    <div3 n="45" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8">De tous les moyens de faire sa fortune, le
+                    <div3 n="45" source="edition8">
+                        <p source="#edition8">De tous les moyens de faire sa fortune, le
                             plus court et le meilleur est de mettre les gens à voir clairement leurs
                             intérêts à vous faire du bien.</p>
                     </div3>
-                    <div3 n="46" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8">Les hommes, pressés par les besoins de la
+                    <div3 n="46" source="#edition3 #edition5" #edition8">
+                        <p source="#edition3 #edition5" #edition8">Les hommes, pressés par les besoins de la
                             vie, et quelquefois par le désir du gain ou de la gloire, cultivent des
                             talents profanes, ou s’engagent dans des professions équivoques, et dont
                             ils se cachent longtemps à eux-mêmes le péril et les conséquences : ils
@@ -166,8 +165,8 @@
                             qu’après qu’ils ont fait leur récolte, et qu’ils jouissent d’une fortune
                             bien établie. </p>
                     </div3>
-                    <div3 n="47" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8">Il y a des misères sur la terre qui
+                    <div3 n="47" source="edition8">
+                        <p source="#edition8">Il y a des misères sur la terre qui
                             saisissent le cœur ; il manque à quelques-uns jusqu’aux aliments ; ils
                             redoutent l’hiver, ils appréhendent de vivre. L’on mange ailleurs des
                             fruits précoces ; l’on force la terre et les saisons pour fournir à sa
@@ -177,49 +176,49 @@
                             veux être, si je le puis, ni malheureux ni heureux ; je me jette et me
                             réfugie dans la médiocrité.</p>
                     </div3>
-                    <div3 n="48" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8"> On sait que les pauvres sont chagrins de ce
+                    <div3 n="48" source="#edition8">
+                        <p source=" #edition8"> On sait que les pauvres sont chagrins de ce
                             que tout leur manque, et que personne ne les soulage ; mais s’il est
                             vrai que les riches soient colères, c’est de ce que la moindre chose
                             puisse leur manquer, ou que quelqu’un veuille leur résister. </p>
                     </div3>
-                    <div3 n="49" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8">Celui-là est riche, qui reçoit plus qu’il ne
+                    <div3 n="49" source="#edition8">
+                        <p source=" #edition8">Celui-là est riche, qui reçoit plus qu’il ne
                             consume ; celui-là est pauvre, dont la dépense excède la recette.</p>
-                        <p source="#edition1 #edition4" #edition8">Tel, avec deux millions de rente, peut être
+                        <p source="#edition8">Tel, avec deux millions de rente, peut être
                             pauvre chaque année de cinq cent mille livres.</p>
-                        <p source="#edition1 #edition4" #edition8">Il n’y a rien qui se soutienne plus
+                        <p source="#edition8">Il n’y a rien qui se soutienne plus
                             longtemps qu’une médiocre fortune ; il n’y a rien dont on voie mieux la
                             fin que d’une grande fortune.</p>
-                        <p source="#edition1 #edition4" #edition8">L’occasion prochaine de la pauvreté, c’est
+                        <p source="#edition8">L’occasion prochaine de la pauvreté, c’est
                             de grandes richesses.</p>
-                        <p source="#edition1 #edition4" #edition8">S’il est vrai que l’on soit riche de tout ce
+                        <p source="#edition8">S’il est vrai que l’on soit riche de tout ce
                             dont on n’a pas besoin, un homme fort riche, c’est un homme qui est
                             sage.</p>
-                        <p source="#edition1 #edition4" #edition8">S’il est vrai que l’on soit pauvre par
+                        <p source="#edition8">S’il est vrai que l’on soit pauvre par
                             toutes les choses que l’on désire, l’ambitieux et l’avare languissent
                             dans une extrême pauvreté.</p>
                     </div3>
-                    <div3 n="50" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8">Les passions tyrannisent l’homme ; et
+                    <div3 n="50" source="#edition8">
+                        <p source="#edition8">Les passions tyrannisent l’homme ; et
                             l’ambition suspend en lui les autres passions, et lui donne pour un
                             temps les apparences de toutes les vertus. Ce Tryphon qui a tous les
                             vices, je l’ai cru sobre, chaste, libéral, humble et même dévot : je le
                             croirais encore, s’il n’eût enfin fait sa fortune.</p>
                     </div3>
-                    <div3 n="51" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8">L’on ne se rend point sur le désir de
+                    <div3 n="51" source="#edition8">
+                        <p source="#edition8">L’on ne se rend point sur le désir de
                             posséder et de s’agrandir : la bile gagne, et la mort approche, qu’avec
                             un visage flétri, et des jambes déjà faibles, l’on dit : ma fortune, mon
                             établissement.</p>
                     </div3>
-                    <div3 n="52" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8">Il n’y a au monde que deux manières de
+                    <div3 n="52" source="#edition8">
+                        <p source="#edition4" #edition8">Il n’y a au monde que deux manières de
                             s’élever, ou par sa propre industrie, ou par l’imbécillité des
                             autres.</p>
                     </div3>
-                    <div3 n="53" source="#edition1 #edition4" #edition8">
-                        <p source="#edition1 #edition4" #edition8">Les traits découvrent la complexion et les
+                    <div3 n="53" source="#edition8">
+                        <p source="#edition4" #edition8">Les traits découvrent la complexion et les
                             mœurs ; mais la mine désigne les biens de fortune : le plus ou le moins
                             de mille livres de rente se trouve écrit sur les visages. </p>
                     </div3>
