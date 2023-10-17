@@ -18,7 +18,7 @@
                     <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou
                         les moeurs de ce siècle</title>
                 </bibl>
-                <biblStruct>
+                <biblStruct xml:id="édition5">
                     <monogr>
                         <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k575660</idno>
                         <imprint>
@@ -28,13 +28,23 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
-                <biblStruct>
+                <biblStruct xml:id="édition7">
                     <monogr>
                         <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k575769</idno>
                         <imprint>
                             <pubPlace>Lyon</pubPlace>
                             <publisher>Thomas Amaulry</publisher>
                             <date>1693</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <biblStruct xml:id="édition8">
+                    <monogr>
+                        <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k57577n</idno>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Estienne Michallet</publisher>
+                            <date>1694</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -51,6 +61,12 @@
                     <p>Ponctuation modernisée</p>
                 </normalization>
             </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>Utilisation de l'attribut @source à deux reprises afin de faciliter la
+                        transformation du fichier par la suite</p>
+                </interpretation>
+            </editorialDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -60,13 +76,143 @@
         <revisionDesc>
             <change when="2023-10-10">Ajout de méta-données du fichier.</change>
             <change when="2023-10-11">Ajout de méta-données concernant la description du
-                projet</change>
+                projet.</change>
+            <change when="2023-10-16">Ajout des caractères 76 à 83 contenus dans le chapitre
+                    <title>Des Biens de Fortune</title>.</change>
+            <change when="2023-10-16">Ajout de méta-données concernant une nouvelle
+                édition.</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
-            <p/>
+            <div1 type="ouvrage">
+                <head>Les Caractères ou les moeurs de ce siècle</head>
+                <div2 type="chapitre" n="6">
+                    <head>Des Biens de Fortune</head>
+                    <div3 type="caractère" n="76" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Il n’y a qu’une affliction qui dure, qui est
+                            celle qui vient de la perte de biens : le temps, qui adoucit toutes les
+                            autres, aigrit celle-ci. Nous sentons à tous moments, pendant le cours
+                            de notre vie, où le bien que nous avons perdu nous manque.</p>
+                    </div3>
+                    <div3 type="caractère" n="77" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Il fait bon avec celui qui ne se sert pas de
+                            son bien à marier ses filles, à payer ses dettes, ou à faire des
+                            contrats, pourvu que l’on ne soit ni ses enfants ni sa femme.</p>
+                    </div3>
+                    <div3 type="caractère" n="78" source="#édition8">
+                        <p source="#édition8">Ni les troubles, Zénobie, qui agitent votre empire, ni
+                            la guerre que vous soutenez virilement contre une nation puissante
+                            depuis la mort du roi votre époux, ne diminuent rien de votre
+                            magnificence. Vous avez préféré à toute autre contrée les rives de
+                            l’Euphrate pour y élever un superbe édifice : l’air y est sain et
+                            tempéré, la situation en est riante ; un bois sacré l’ombrage du côté du
+                            couchant ; les dieux de Syrie, qui habitent quelquefois la terre, n’y
+                            auraient pu choisir une plus belle demeure. La campagne autour est
+                            couverte d’hommes qui taillent et qui coupent, qui vont et qui viennent,
+                            qui roulent ou qui charrient le bois du Liban, l’airain et le porphyre ;
+                            les grues et les machines gémissent dans l’air, et font espérer à ceux
+                            qui voyagent vers l’Arabie de revoir à leur retour en leurs foyers ce
+                            palais achevé, et dans cette splendeur où vous désirez de le porter
+                            avant de l’habiter, vous et les princes vos enfants. N’y épargnez rien,
+                            grande Reine ; employez-y l’or et tout l’art des plus excellents
+                            ouvriers ; que les Phidias et les Zeuxis de votre siècle déploient toute
+                            leur science sur vos plafonds et sur vos lambris ; tracez-y de vastes et
+                            de délicieux jardins, dont l’enchantement soit tel qu’ils ne paraissent
+                            pas faits de la main des hommes ; épuisez vos trésors et votre industrie
+                            sur cet ouvrage incomparable ; et après que vous y aurez mis, Zénobie,
+                            la dernière main, quelqu’un de ces pâtres qui habitent les sables
+                            voisins de Palmyre, devenu riche par les péages de vos rivières,
+                            achètera un jour à deniers comptants cette royale maison, pour
+                            l’embellir, et la rendre plus digne de lui et de sa fortune.</p>
+                    </div3>
+                    <div3 type="caractère" n="79" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Ce palais, ces meubles, ces
+                            jardins, ces belles eaux vous enchantent et vous font récrier d’une
+                            première vue sur une maison si délicieuse, et sur l’extrême bonheur du
+                            maître qui la possède. Il n’est plus ; il n’en a pas joui si
+                            agréablement ni si tranquillement que vous : il n’y a jamais eu un jour
+                            serein, ni une nuit tranquille ; il s’est noyé de dettes pour la porter
+                            à ce degré de beauté où elle vous ravit. Ses créanciers l’en ont chassé
+                            : il a tourné la tête, et il l’a regardée de loin une dernière fois ; et
+                            il est mort de saisissement.</p>
+                    </div3>
+                    <div3 type="caractère" n="80" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">L’on ne saurait s’empêcher de voir
+                            dans certaines familles ce qu’on appelle les caprices du hasard ou les
+                            jeux de la fortune. Il y a cent ans qu’on ne parlait point de ces
+                            familles, qu’elles n’étaient point : le ciel tout d’un coup s’ouvre en
+                            leur faveur ; les biens, les honneurs, les dignités fondent sur elles à
+                            plusieurs reprises ; elles nagent dans la prospérité. Eumolpe, l’un de
+                            ces hommes qui n’ont point de grands-pères, a eu un père du moins qui
+                            s’était élevé si haut, que tout ce qu’il a pu souhaiter pendant le cours
+                            d’une longue vie, ç’a été de l’atteindre ; et il l’a atteint. Etait-ce
+                            dans ces deux personnages éminence d’esprit, profonde capacité ?
+                            était-ce les conjonctures ? La fortune enfin ne leur rit plus ; elle se
+                            joue ailleurs, et traite leur postérité comme leurs ancêtres.</p>
+                    </div3>
+                    <div3 type="caractère" n="81" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">La cause la plus immédiate de la
+                            ruine et de la déroute des personnes des deux conditions, de la robe et
+                            de l’épée, est que l’état seul, et non le bien, règle la dépense.</p>
+                    </div3>
+                    <div3 type="caractère" n="82" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Si vous n’avez rien oublié pour
+                            votre fortune, quel travail ! Si vous avez négligé la moindre chose,
+                            quel repentir !</p>
+                    </div3>
+                    <div3 type="caractère" n="83" source="#édition7 #édition8">
+                        <p source="#édition7 #édition8">Giton a le teint frais, le visage plein et
+                            les joues pendantes, l’œil fixe et assuré, les épaules larges, l’estomac
+                            haut, la démarche ferme et délibérée. Il parle avec confiance ; il fait
+                            répéter celui qui l’entretient, et il ne goûte que médiocrement tout ce
+                            qu’il lui dit. Il déploie un ample mouchoir, et se mouche avec grand
+                            bruit ; il crache fort loin, et il éternue fort haut. Il dort le jour,
+                            il dort la nuit, et profondément ; il ronfle en compagnie. Il occupe à
+                            table et à la promenade plus de place qu’un autre. Il tient le milieu en
+                            se promenant avec ses égaux ; il s’arrête, et l’on s’arrête ; il
+                            continue de marcher, et l’on marche : tous se règlent sur lui. Il
+                            interrompt, il redresse ceux qui ont la parole : on ne l’interrompt pas,
+                            on l’écoute aussi longtemps qu’il veut parler ; on est de son avis, on
+                            croit les nouvelles qu’il débite. S’il s’assied, vous le voyez
+                            s’enfoncer dans un fauteuil, croiser les jambes l’une sur l’autre,
+                            froncer le sourcil, abaisser son chapeau sur ses yeux pour ne voir
+                            personne, ou le relever ensuite, et découvrir son front par fierté et
+                            par audace. Il est enjoué, grand rieur, impatient, présomptueux, colère,
+                            libertin, politique, mystérieux sur les affaires du temps ; il se croit
+                            des talents et de l’esprit. Il est riche.</p>
+                        <p source="#édition7 #édition8">Phédon a les yeux creux, le teint échauffé,
+                            le corps sec et le visage maigre ; il dort peu, et d’un sommeil fort
+                            léger ; il est abstrait, rêveur, et il a avec de l’esprit l’air d’un
+                            stupide : il oublie de dire ce qu’il sait, ou de parler d’événements qui
+                            lui sont connus ; et s’il le fait quelquefois, il s’en tire mal, il
+                            croit peser à ceux à qui il parle, il conte brièvement, mais froidement
+                            ; il ne se fait pas écouter, il ne fait point rire. Il applaudit, il
+                            sourit à ce que les autres lui disent, il est de leur avis ; il court,
+                            il vole pour leur rendre de petits services. Il est complaisant,
+                            flatteur, empressé ; il est mystérieux sur ses affaires, quelquefois
+                            menteur ; il est superstitieux, scrupuleux, timide. Il marche doucement
+                            et légèrement, il semble craindre de fouler la terre ; il marche les
+                            yeux baissés, et il n’ose les lever sur ceux qui passent. Il n’est
+                            jamais du nombre de ceux qui forment un cercle pour discourir ; il se
+                            met derrière celui qui parle, recueille furtivement ce qui se dit, et il
+                            se retire si on le regarde. Il n’occupe point de lieu, il ne tient point
+                            de place ; il va les épaules serrées, le chapeau abaissé sur ses yeux
+                            pour n’être point vu ; il se replie et se renferme dans son manteau ; il
+                            n’y a point de rues ni de galeries si embarrassées et si remplies de
+                            monde, où il ne trouve moyen de passer sans effort, et de se couler sans
+                            être aperçu. Si on le prie de s’asseoir, il se met à peine sur le bord
+                            d’un siège ; il parle bas dans la conversation, et il articule mal ;
+                            libre néanmoins sur les affaires publiques, chagrin contre le siècle,
+                            médiocrement prévenu des ministres et du ministère. Il n’ouvre la bouche
+                            que pour répondre ; il tousse, il se mouche sous son chapeau, il crache
+                            presque sur soi, et il attend qu’il soit seul pour éternuer, ou, si cela
+                            lui arrive, c’est à l’insu de la compagnie : il n’en coûte à personne ni
+                            salut ni compliment. Il est pauvre.</p>
+                    </div3>
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
