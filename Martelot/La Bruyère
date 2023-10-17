@@ -13,22 +13,22 @@
             </publicationStmt>
             <sourceDesc>
             <listbibl>
-                    <bibl>
-                        <author>Jean de La Bruyère, avec les caractères ou les moeurs de ce siècle</author>
+                    <bibl xml:id="edition">
+                        <author>Jean de La Bruyère</author>
                         <title>Les caractères de Théophraste</title>
                         <placeName>Paris</placeName>
                         <publisher>E. Michallet</publisher>
                         <date>1688</date>
-                        <idno>FRBNF12011755</idno>
+                        <ref type="URL">https://www.google.fr/books/edition/_/OOZmAAAAcAAJ?hl=fr&gbpv=1</ref>
                     </bibl>
 
-                    <bibl>
+                    <bibl xml:id="edition2">
                         <author>Jean de La Bruyère</author>
-                        <title>Les caractères de Théophraste, traduit du grec, avec les caracteres ou les moeurs de ce siècle, tome premier, volume 2</title>
+                        <title>Les caractères de Théophraste, traduit du grec, avec les caracteres ou les moeurs de ce siècle, volume 2</title>
                         <placeName>Paris</placeName>
-                        <publisher>Chez Jean Leonard</publisher>
-                        <date>1696</date>
-                        <idno>FRBNF11942641</idno>
+                        <publisher>Chez Etienne Michallet</publisher>
+                        <date>1697</date>
+                        <ref type="URL">https://www.google.fr/books/edition/_/lKr88voApU0C?hl=fr&gbpv=0</ref>
                     </bibl>
                     </listbibl>
             </sourceDesc>
@@ -38,6 +38,9 @@
                <normalization>
                     <p>Graphie modernisée</p>
                     <p>Ponctuation modernisée</p>
+                    <p>Signe de la croix avant Abylle enlevé</p>
+                    <p>Ajout de guillements à certains endroits</p>
+                    <p>Les étoiles en début de phrase sont enlevées</p>
                 </normalization> 
             </editorialDecl>
             <editorialDecl>
@@ -68,7 +71,7 @@
                 <div2 type="chapitre" n="12">
                     <head>Des Jugements </head>
 
-                    <div3 n="21" source="#">
+                    <div3 n="21" source="#edition_2_volume_2">
                         <p> Qu’on ne me parle jamais d’encre, de papier, de plume, de style,
                             d’imprimeur, d’imprimerie, qu’on ne se hasarde plus de me dire : « Vous
                             écrivez si bien, Antisthène ! continuez d’écrire ; ne verrons-nous point
@@ -109,8 +112,8 @@
                             Premier Principe, par Antisthène, vendeur de marée.</p>
                     </div3>
 
-                    <div3 n="22">
-                        <p>Si les ambassadeurs des princes étrangers étaient des singes instruits à
+                    <div3 n="22" source="#edition1_#edition2_volume_2">
+                        <p source="#edition1">Si les ambassadeurs des princes étrangers étaient des singes instruits à
                             marcher sur leurs pieds de derrière, et à se faire entendre par
                             interprète, nous ne pourrions pas marquer un plus grand étonnement que
                             celui que nous donne la justesse de leurs réponses, et le bon sens qui
@@ -121,24 +124,24 @@
                             ; et s’il y a en nous quelque barbarie, elle consiste à être épouvantés
                             de voir d’autres peuples raisonner comme nous. Tous les étrangers ne
                             sont pas barbares, et tous nos compatriotes ne sont pas civilisés : de
-                            même toute campagne n’est pas agreste et toute ville n’est pas polie. Il
-                            y a dans l’Europe un endroit d’une province maritime d’un grand royaume
+                            même toute campagne n’est pas agreste et toute ville n’est pas polie.</p>
+                             <p source="#edition2_volume_2">Il y a dans l’Europe un endroit d’une province maritime d’un grand royaume
                             où le villageois est doux et insinuant, le bourgeois au contraire et le
                             magistrat grossiers, et dont la rusticité est héréditaire.</p>
                     </div3>
-                    <div3 n="23">
+                    <div3 n="23" source="#edition1#edition2_volume_2>
                         <p>Avec un langage si pur, une si grande recherche dans nos habits, des
                             mœurs si cultivées, de si belles lois et un visage blanc, nous sommes
                             barbares pour quelques peuples.</p>
                     </div3>
 
-                    <div3>
-                        <p>(24) Si nous entendions dire des Orientaux qu’ils boivent ordinairement
+                    <div3 n="24" source="#edition1#edition2_volume_2>
+                        <p>Si nous entendions dire des Orientaux qu’ils boivent ordinairement
                             d’une liqueur qui leur monte à la tête, leur fait perdre la raison et
                             les fait vomir, nous dirions : « Cela est bien barbare. »</p>
                     </div3>
 
-                    <div3 n="25">
+                    <div3 n="25" source="#edition2_volume_2>
                         <p>Ce prélat se montre peu à la cour, il n’est de nul commerce, on ne le
                             voit point avec des femmes ; il ne joue ni à grande ni à petite prime,
                             il n’assiste ni aux fêtes ni aux spectacles, il n’est point homme de
@@ -151,8 +154,8 @@
                             éminent.</p>
                     </div3>
 
-                    <div3 n="26">
-                        <p>26 (IV) Ne pourrait-on point faire comprendre aux personnes d’un certain
+                    <div3 n="26" source="#edition2_volume_2>
+                        <p>Ne pourrait-on point faire comprendre aux personnes d’un certain
                             caractère et d’une profession sérieuse, pour ne rien dire de plus,
                             qu’ils ne sont point obligés à faire dire d’eux qu’ils jouent, qu’ils
                             chantent, et qu’ils badinent comme les autres hommes ; et qu’à les voir
@@ -165,7 +168,7 @@
                             grotesque ? </p>
                     </div3>
 
-                    <div3 n="27">
+                    <div3 n="27" source="#edition2_volume_2>
                         <p>Il ne faut pas juger des hommes comme d’un tableau ou d’une figure, sur
                             une seule et première vue : il y a un intérieur et un cœur qu’il faut
                             approfondir. Le voile de la modestie couvre le mérite, et le masque de
@@ -175,7 +178,7 @@
                             vertu parfaite et le vice consommé viennent enfin à se déclarer. </p>
                     </div3>
 
-                    <div3 n="28">
+                    <div3 n="28" source="#edition2_volume_2>
                         <p>Fragment … Il disait que l’esprit dans cette belle personne était un
                             diamant bien mis en œuvre, et continuant de parler d’elle : « C’est,
                             ajoutait-il, comme une nuance de raison et d’agrément qui occupe les
@@ -215,7 +218,7 @@
                             grand théâtre, pour y faire briller toutes ses vertus. » </p>
                     </div3>
 
-                    <div3 n="29">
+                    <div3 n="29" source="#edition2_volume_2>
                         <p>Une belle femme est aimable dans son naturel ; elle ne perd rien à être
                             négligée, et sans autre parure que celle qu’elle tire de sa beauté et de
                             sa jeunesse. Une grâce naïve éclate sur son visage, anime ses moindres
@@ -233,7 +236,7 @@
                             est moins difficile d’en descendre que d’y monter. </p>
                     </div3>
 
-                    <div3 n="30">
+                    <div3 n="30" source="#edition2_volume_2>
                         <p>Un homme de talent et de réputation, s’il est chagrin et austère, il
                             effarouche les jeunes gens, les fait penser mal de la vertu, et la leur
                             rend suspecte d’une trop grande réforme et d’une pratique trop
