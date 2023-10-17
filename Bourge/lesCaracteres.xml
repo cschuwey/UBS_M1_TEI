@@ -12,7 +12,7 @@
                 <date when-iso="2023-10-10">10/10/2023</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="first_edition">
                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou
                         les moeurs de ce siècle</title>
                     <author>Jean de La Bruyère</author>
@@ -24,7 +24,7 @@
                     <date when="1688">1688</date>
                     <biblScope unit="page">368</biblScope>
                 </bibl>
-                <bibl>
+                <bibl xml:id="sixth_edition">
                     <title> Les caractères de Théophraste traduits du grec ; avec les caractères ou
                         les moeurs de ce siècle</title>
                     <author>Jean de La Bruyère</author>
@@ -60,6 +60,69 @@
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-10">Encodage du teiHeader des Caractères de la Bruyère.</change>
+            <change when="2023-10-17">Encodage d'une dizaine de remarques tirée du chapitre Du Coeur ; Ajout attribut @xml:id pour les différentes éditions ; collation des remarques encodées avec les édition Gallica choisies.</change>
         </revisionDesc>
     </teiHeader>
+    <text>
+        <body>
+            <div1>
+                <head>Les Caractères ou les Moeurs de ce Siècle</head>
+                <div2 type="chapter">
+                    <head>Du Coeur</head>
+                    <div3 type="remark" n="21" source="#sixth_edition">
+                        <p>S’il se trouve une femme pour qui l’on ait eu une
+                            grande passion et qui ait été indifférente, quelques importants services
+                            qu’elle nous rende dans la suite de notre vie, l’on court un grand
+                            risque d’être ingrat.</p>
+                    </div3>
+                    <div3 type="remark" n="22" source="#sixth_edition">
+                        <p>Une grande reconnaissance emporte avec soi beaucoup de goût et d’amitié
+                            pour la personne qui nous oblige.</p>
+                    </div3>
+                    <div3 type="remark" n="23" source="#sixth_edition">
+                        <p>Etre avec des gens qu’on aime, cela suffit ;
+                            rêver, leur parler, ne leur parler point, penser à eux, penser à des
+                            choses plus indifférentes, mais auprès d’eux, tout est égal.</p>
+                    </div3>
+                    <div3 type="remark" n="24" source="#sixth_edition">
+                        <p>Il n’y a pas si loin de la haine à l’amitié que
+                            de l’antipathie.</p>
+                    </div3>
+                    <div3 type="remark" n="25">
+                        <p>Il semble qu’il est moins rare de passer de
+                            l’antipathie à l’amour qu’à l’amitié.</p>
+                    </div3>
+                    <div3 type="remark" n="26" source="#sixth_edition">
+                        <p>L’on confie son secret dans l’amitié ; mais il échappe dans l’amour.</p>
+                        <p>L’on peut avoir la confiance de quelqu’un sans en avoir le cœur. Celui
+                            qui a le cœur n’a pas besoin de révélation ou de confiance ; tout lui
+                            est ouvert.</p>
+                    </div3>
+                    <div3 type="remark" n="27" source="#sixth_edition">
+                        <p>L’on ne voit dans l’amitié que les défauts qui
+                            peuvent nuire à nos amis. L’on ne voit en amour de défauts dans ce qu’on
+                            aime que ceux dont on souffre soi-même.</p>
+                    </div3>
+                    <div3 type="remark" n="28" source="#sixth_edition">
+                        <p>Il n’y a qu’un premier dépit en amour, comme la
+                            première faute dans l’amitié, dont on puisse faire un bon usage.</p>
+                    </div3>
+                    <div3 type="remark" n="50" source="#sixth_edition">
+                        <p>Un homme dur au travail et à la peine, inexorable
+                            à soi-même, n’est indulgent aux autres que par un excès de raison.</p>
+                    </div3>
+                    <div3 type="remark" n="51" source="#sixth_edition">
+                        <p>Quelque désagrément qu’on ait à se trouver chargé
+                            d’un indigent, l’on goûte à peine les nouveaux avantages qui le tirent
+                            enfin de notre sujétion : de même, la joie que l’on reçoit de
+                            l’élévation de son ami est un peu balancée par la petite peine qu’on a
+                            de le voir au-dessus de nous ou s’égaler à nous. Aussi l’on s’accorde
+                            mal avec soi-même ; car l’on veut des dépendants, et qu’il n’en coûte
+                            rien ; l’on veut aussi le bien de ses amis, et, s’il arrive, ce n’est
+                            pas toujours par s’en réjouir que l’on commence.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
 </TEI>
