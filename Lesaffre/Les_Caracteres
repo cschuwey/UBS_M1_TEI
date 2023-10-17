@@ -72,6 +72,7 @@
                     choisies et ajouts d'indications de normalisation du texte. Retrait des balises
                     d'interprétation sur les balises concernant les soutiens financiers de La
                     Bruyère, qui nous sont inconnus pour cet ouvrage.</item>
+                <item><date when="2023-10-17">17 octobre 2023</date>Retrait des éléments ptr et ajout des attributs source dans les éléments div3.</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -81,16 +82,16 @@
                 <head>Les caractères ou les moeurs de ce siècle</head>
                 <div2 type="chapitre" n="13">
                     <head>De la Mode</head>
-                    <div3 n="11">
-                        <p><ptr type="bibliog" target="#edition8"/>Un homme fat et ridicule porte un
+                    <div3 source="#edition4 #edition8" n="11">
+                        <p>Un homme fat et ridicule porte un
                             long chapeau, un pourpoint à ailerons, des chausses à aiguillettes et
                             des bottines ; il rêve la veille par où et comment il pourra se faire
                             remarquer le jour qui suit. Un philosophe se laisse habiller par son
                             tailleur : il y a autant de faiblesse à fuir la mode qu’à
                             l’affecter.</p>
                     </div3>
-                    <div3 n="12">
-                        <p><ptr type="bibliog" target="#edition8"/>L’on blâme une mode qui divisant
+                    <div3 source="#edition8" n="12">
+                        <p>L’on blâme une mode qui divisant
                             la taille des hommes en deux parties égales, en prend une tout entière
                             pour le buste, et laisse l’autre pour le reste du corps ; l’on condamne
                             celle des femmes la base d’un édifice à plusieurs étages dont l’ordre et
@@ -101,21 +102,20 @@
                             qui soit fière et audacieuse ; on se récrie enfin contre une telle ou
                             une telle mode, qui cependant, toute bizarre qu’elle est, pare et
                             embellit pendant qu’elle dure, et dont l’on tire tout l’avantage qu’on
-                            en peut espérer, qui est de plaire. Il me paraît <ptr type="bibliog"
-                                target="#edition4">semble</ptr> qu’on devrait seulement admirer
+                            en peut espérer, qui est de plaire. Il me paraît /semble qu’on devrait seulement admirer
                             l’inconstance et la légèreté des hommes, qui attachent successivement
                             les agréments et la bienséance à des choses tout opposées, qui emploient
                             pour le comique et pour la mascarade ce qui leur a servi de parure grave
                             et d’ornements les plus sérieux ; et que si peu de temps en fasse la
                             différence.</p>
                     </div3>
-                    <div3 n="13">
-                        <p><ptr type="bibliog" target="#edition8"/>N… est riche, elle mange bien,
+                    <div3 source="#edition8" n="13">
+                        <p>N… est riche, elle mange bien,
                             elle dort bien ; mais les coiffures changent, et lorsqu’elle y pense le
                             moins, et qu’elle se croit heureuse, la sienne est hors de mode.</p>
                     </div3>
-                    <div3 n="14">
-                        <p><ptr type="bibliog" target="#edition8"/>Iphis voit à l’église un soulier
+                    <div3 source="#edition8" n="14">
+                        <p>Iphis voit à l’église un soulier
                             d’une nouvelle mode ; il regarde le sien et en rougit ; il ne se croit
                             plus habillé. Il était venu à la messe pour s’y montrer, et il se cache
                             ; le voilà retenu par le pied dans sa chambre tout le reste du jour. Il
@@ -132,8 +132,8 @@
                             boucles d’oreilles ni collier de perles ; aussi ne l’ai-je pas mis dans
                             le chapitre des femmes.</p>
                     </div3>
-                    <div3 n="15">
-                        <p><ptr type="bibliog" target="#edition8"/>Ces mêmes modes que les hommes
+                    <div3 source="#edition8" n="15">
+                        <p>Ces mêmes modes que les hommes
                             suivent si volontiers pour leurs personnes, ils affectent de les
                             négliger dans leurs portraits, comme s’ils sentaient ou qu’ils
                             prévissent l’indécence et le ridicule où elles peuvent tomber dès
@@ -161,24 +161,24 @@
                             reconnaître cette sorte de bienfait qu’en traitant de même nos
                             descendants.</p>
                     </div3>
-                    <div3 n="16">
-                        <p><ptr type="bibliog" target="#edition4"/>Le courtisan autrefois avait ses
+                    <div3 source="#edition4" n="16">
+                        <p>Le courtisan autrefois avait ses
                             cheveux, étaient en chausses et en pourpoint, portait de larges canons,
                             et il était libertin. Cela ne sied plus : il porte une perruque, l’habit
                             serré, le bas uni, et il est dévot : tout se règle par la mode.</p>
                     </div3>
-                    <div3 n="17">
-                        <p><ptr type="bibliog" target="#edition4"/>Celui qui depuis quelque temps à
+                    <div3 source="#edition4" n="17">
+                        <p>Celui qui depuis quelque temps à
                             la cour était dévot, et par là, contre toute raison, peu éloigné du
                             ridicule, pouvait-il espérer de devenir à la mode ?</p>
                     </div3>
-                    <div3 n="18">
-                        <p><ptr type="bibliog" target="#edition4"/>De quoi n’est point capable un
+                    <div3 source="#edition4" n="18">
+                        <p>De quoi n’est point capable un
                             courtisan dans la vue de sa fortune, si pour ne la pas manquer il
                             devient dévot ?</p>
                     </div3>
-                    <div3 n="19">
-                        <p><ptr type="bibliog" target="#edition4"/>Les couleurs sont préparées, et la
+                    <div3 source="#edition4" n="19">
+                        <p>Les couleurs sont préparées, et la
                             toile est toute prête ; mais comment le fixer, cet homme inquiet, léger,
                             inconstant, qui change de mille et mille figures ? Je le peins dévot, et
                             je crois l’avoir attrapé ; mais il m’échappe, et déjà il est libertin.
@@ -186,13 +186,13 @@
                             prendre dans un point de dérèglement de cœur et d’esprit où il sera
                             reconnaissable ; mais la mode presse, il est dévot.</p>
                     </div3>
-                    <div3 n="20">
-                        <p><ptr type="bibliog" target="#edition8"/>Celui qui a pénétré la cour
+                    <div3 source="#edition8" n="20">
+                        <p>Celui qui a pénétré la cour
                             connaît ce que c’est que vertu et ce que c’est que dévotion : il ne peut
                             plus s’y tromper.</p>
                     </div3>
-                    <div3 n="21">
-                        <p><ptr type="bibliog" target="#"/>Négliger vêpres comme une chose
+                    <div3  source="#edition4" "#edition8" n="21">
+                        <p>Négliger vêpres comme une chose
                             antique et hors de mode, garder sa place soi-même pour le salut, savoir
                             les êtres de la chapelle, connaître le flanc, savoir où l’on est vu et
                             où l’on n’est pas vu ; rêver dans l’église à Dieu et à ses affaires, y
