@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -10,50 +10,144 @@
             <publicationStmt>
                 <publisher>E. Schneider</publisher>
                 <date when="2023-10-10">10 octobre 2023</date>
-                <distributor></distributor>
+                <distributor/>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="edition7">
                     <author>Jean de La Bruyère</author>
-                    <title> Les Caracteres de Theophraste, traduits du grec, avec Les Caracteres ou Les Moeurs de ce siecle. Septième edition</title>
+                    <title> Les Caracteres de Theophraste, traduits du grec, avec Les Caracteres ou
+                        Les Moeurs de ce siecle. Septième edition</title>
                     <placeName>Lyon</placeName>
                     <publisher>chez Thomas Amaulry</publisher>
-                    <date when="1693"></date>
+                    <date when="1693"/>
+                    <idno type="URL"
+                        >https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100729354</idno>
                 </bibl>
-                <bibl>
+                <bibl xml:id="edition9">
                     <author>Jean de La Bruyère</author>
-                    <title>Les Caractères de Theophraste traduits du grec: avec les caractères ou les moeurs de ce siècle. Neuviéme édition</title>
+                    <title>Les Caractères de Theophraste traduits du grec: avec les caractères ou
+                        les moeurs de ce siècle. Neuviéme édition</title>
                     <placeName>La Haye</placeName>
                     <publisher>chez Adrian Moetjens</publisher>
-                    <date when="1696"></date>
+                    <date when="1696"/>
+                    <idno type="URL"
+                        >https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100959720</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
                 <normalization>
-                    
+                    <p/>
                 </normalization>
             </editorialDecl>
             <editorialDecl>
                 <interpretation>
-                    
+                    <p>Les div1 correspondent à l'ouvrage entier.</p>
+                    <p>Les div2 correspondent à des chapitres.</p>
+                    <p>Les div3 correspondent aux remarques.</p>
+                    <p>Les chapitres sont numérotés selon leur position dans l'ouvrage pour faire
+                        apparaître l'ordre, car cela devait être important pour l'auteur de les
+                        placer dans cet ordre-là. De plus, cela permet de mettre en valeur le nombre
+                        exact de chapitres que contient l'ouvrage.</p>
+                    <p>Les parenthèses entourant le numéro des remarques ont été supprimées car ce
+                        n'est pas un élément fait pour le traitement automatique.</p>
+                    <p>J'ai choisi d'indiquer les sources de manière explicite, c'est-à-dire
+                        intégrées à la fois dans le div3 et le p, afin d'être sûre qu'il n'y ait pas
+                        de confusion concernant le moment d'entrée d'un paragraphe dans une
+                        édition.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
-            <language indent="fra">Français</language>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-10">Ajout des méta-données du fichier</change>
+            <change when="2023-10-16">Ajout d'une partie de chapitre</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div>
-                <p>
-                </p>
-            </div>
+            <div1 type="ouvrage">
+                <head>Les caractères ou les moeurs de ce siècle</head>
+                <div2 type="chapitre" n="3">
+                    <head>Du Coeur</head>
+                    <div3 n="52" source="#edition9">
+                        <p source="#edition9">On convie, on invite, on offre sa maison, sa table,
+                            son bien et ses services : rien ne coûte qu’à tenir parole.</p>
+                    </div3>
+
+                    <div3 n="53" source="#edition7 #edition9">
+                        <p source="#edition7 #edition9">C’est assez pour soi d’un fidèle ami ; c’est
+                            même beaucoup de l’avoir rencontré : on ne peut en avoir trop pour le
+                            service des autres.</p>
+                    </div3>
+
+                    <div3 n="54" source="#edition7 #edition9">
+                        <p source="#edition7 #edition9">Quand on a assez fait auprès de certaines
+                            personnes pour avoir dû se les acquérir, si cela ne réussit point, il y
+                            a encore une ressource, qui est de ne plus rien faire.</p>
+                    </div3>
+
+                    <div3 n="55" source="#edition7 #edition9">
+                        <p source="#edition7 #edition9">Vivre avec ses ennemis comme s’ils devaient
+                            un jour être nos amis, et vivre avec nos amis comme s’ils pouvaient
+                            devenir nos ennemis, n’est ni selon la nature de la haine, ni selon les
+                            règles de l’amitié ; ce n’est point une maxime morale, mais
+                            politique.</p>
+                    </div3>
+
+                    <div3 n="56" source="#edition7 #edition9">
+                        <p source="#edition7 #edition9">On ne doit pas se faire des ennemis de ceux
+                            qui, mieux connus, pourraient avoir rang entre nos amis. On doit faire
+                            choix d’amis si sûrs et d’une si exacte probité, que venant à cesser de
+                            l’être, ils ne veuillent pas abuser de notre confiance, ni se faire
+                            craindre comme ennemis.</p>
+                    </div3>
+
+                    <div3 n="57" source="#edition7 #edition9">
+                        <p source="#edition7 #edition9">Il est doux de voir ses amis par goût et par
+                            estime ; il est pénible de les cultiver par intérêt ; c’est
+                            solliciter.</p>
+                    </div3>
+
+                    <div3 n="58" source="#edition9">
+                        <p source="#edition9">Il faut briguer la faveur de ceux à qui l’on veut du
+                            bien, plutôt que de ceux de qui l’on espère du bien.</p>
+                    </div3>
+
+                    <div3 n="59" source="#edition7 #edition9">
+                        <p source="#edition7 #edition9">On ne vole point des mêmes ailes pour sa
+                            fortune que l’on fait pour des choses frivoles et de fantaisie. Il y a
+                            un sentiment de liberté à suivre ses caprices, et tout au contraire de
+                            servitude à courir pour son établissement : il est naturel de le
+                            souhaiter beaucoup et d’y travailler peu, de se croire digne de le
+                            trouver sans l’avoir cherché.</p>
+                    </div3>
+
+                    <div3 n="60" source="#edition7 #edition9">
+                        <p source="#edition7 #edition9">Celui qui sait attendre le bien qu’il
+                            souhaite, ne prend pas le chemin de se désespérer s’il ne lui arrive pas
+                            ; et celui au contraire qui désire une chose avec une grande impatience,
+                            y met trop du sien pour en être assez récompensé par le succès.</p>
+                    </div3>
+
+                    <div3 n="61" source="#edition9">
+                        <p source="#edition9">Il y a de certaines gens qui veulent si ardemment et
+                            si déterminément une certaine chose, que de peur de la manquer, ils
+                            n’oublient rien de ce qu’il faut faire pour la manquer.</p>
+                    </div3>
+
+                    <div3 n="62" source="#edition7 #edition9">
+                        <p source="#edition7 #edition9">Les choses les plus souhaitées n’arrivent
+                            point ; ou si elles arrivent, ce n’est ni dans le temps ni dans les
+                            circonstances où elles auraient fait un extrême plaisir.</p>
+                    </div3>
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
