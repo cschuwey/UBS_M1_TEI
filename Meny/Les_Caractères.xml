@@ -13,7 +13,7 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl>
+                    <bibl xml:id="edition1">
                         <author>J. de La Bruyère</author>
                         <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou
                             les moeurs de ce siècle.</title>
@@ -22,9 +22,8 @@
                         <date>1688</date>
                         <edition>première édition</edition>
                         <idno URL="https://gallica.bnf.fr/ark:/12148/bpt6k105077m/f1.item"/>
-                        <xml:id source="edition1"></xml:id>
                     </bibl>
-                    <bibl>
+                    <bibl xml:id="edition6">
                         <author>J. de La Bruyère</author>
                         <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou
                             les moeurs de ce siècle.</title>
@@ -33,7 +32,16 @@
                         <date>1691</date>
                         <edition>sixième édition</edition>
                         <idno URL="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=193134;0"/>
-                        <xml:id source="edition2"></xml:id>
+                    </bibl>
+                    <bibl xml:id="edition8">
+                        <author>J. de La Bruyère</author>
+                        <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou
+                            les moeurs de ce siècle.</title>
+                        <placeName>Paris</placeName>
+                        <publisher>E. Michallet</publisher>
+                        <date>1694</date>
+                        <edition>huitiène édition</edition>
+                        <idno URL="https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f159.item.r=Les%20caract%C3%A8res%20de%20Th%C3%A9ophraste%20traduits%20du%20grec"/>
                     </bibl>
                 </listBibl>
             </sourceDesc>
@@ -62,6 +70,8 @@
             <change when="2023-10-10">Ajout des méta-données du fichier.</change>
             <change when="2023-10-16">Encodage du chapitre 2 "Des Femmes", ajout des URL dans
                 l'élément bibl avec idno URL</change>
+            <change when="2023-10-17">Ajout de la huitième édition dans les méta-données, recherche
+                des remarques dans les trois éditions</change>
         </revisionDesc>
     </teiHeader>
 
@@ -69,12 +79,12 @@
         <body>
             <div1 type="ouvrage">Les Caractères ou les moeurs de ce siècle. <head>Les Caractères ou
                     les moeurs de ce siècle</head>
-                <div2 type="chapitre" n="3">Des Femmes <head>Des femmes</head>
-                    <div3 n="32" source="#">
+                <div2 type="chapitre" n="3">Des Femmes. <head>Des femmes.</head>
+                    <div3 n="32" source="#edition1 #edition6 #edition8">
                         <p>Est-ce en vue du secret, ou par un goût hypocondre, que cette femme aime
                             un valet, cette autre un moine, et Dorinne son médecin ?</p>
                     </div3>
-                    <div3 n="33">
+                    <div3 n="33" source="#edition8">
                         <p>Roscius entre sur la scène de bonne grâce : oui, Lélie ; et j’ajoute
                             encore qu’il a les jambes bien tournées, qu’il joue bien, et de longs
                             rôles, et que pour déclamer parfaitement il ne lui manque, comme on le
@@ -109,18 +119,18 @@
                             adresse ; c’est un jeune homme qui a les épaules larges et la taille
                             ramassée, un nègre d’ailleurs, un homme noir.</p>
                     </div3>
-                    <div3 n="34">
+                    <div3 n="34" source="#edition1 #editon6 #edition8">
                         <p>Pour les femmes du monde, un jardinier est un jardinier, et un maçon est
                             un maçon ; pour quelques autres plus retirées, un maçon est un homme, un
                             jardinier est un homme. Tout est tentation à qui la craint.</p>
                     </div3>
-                    <div3 n="35">
+                    <div3 n="35" source="#edition1 #edition6 #edition8">
                         <p>Quelques femmes donnent aux couvents et à leurs amants : galantes et
                             bienfactrices, elles ont jusque dans l’enceinte de l’autel des tribunes
                             et des oratoires où elles lisent des billets tendres, et où personne ne
                             voit qu’elles ne prient point Dieu.</p>
                     </div3>
-                    <div3 n="36">
+                    <div3 n="36" source="#edition8">
                         <p>Qu’est-ce qu’une femme que l’on dirige ? Est-ce une femme plus
                             complaisante pour son mari, plus douce pour ses domestiques, plus
                             appliquée à sa famille et à ses affaires, plus ardente et plus sincère
@@ -135,30 +145,30 @@
                             "Qu’est-ce donc qu’une femme que l’on dirige ? " Je vous entends, c’est
                             une femme qui a un directeur.</p>
                     </div3>
-                    <div3 n="37">
+                    <div3 n="37" source="#edition1 #edition6 #edition8">
                         <p>Si le confesseur et le directeur ne conviennent point sur une règle de
                             conduite, qui sera le tiers qu’une femme prendra pour sur-arbitre ?</p>
                     </div3>
-                    <div3 n="38">
+                    <div3 n="38" source="#edition1 #edition6 #edition8">
                         <p>Le capital pour une femme n’est pas d’avoir un directeur, mais de vivre
                             si uniment qu’elle s’en puisse passer.</p>
                     </div3>
-                    <div3 n="39">
+                    <div3 n="39" source="#edition1 #edition6 #edition8">
                         <p>Si une femme pouvait dire à son confesseur, avec ses autres faiblesses,
                             celles qu’elle a pour son directeur ; et le temps qu’elle perd dans son
                             entretien, peut-être lui serait-il donné pour pénitence d’y
                             renoncer.</p>
                     </div3>
-                    <div3 n="40">
+                    <div3 n="40" source="#edition6 #edition8">
                         <p>Je voudrais qu’il me fût permis de crier de toute ma force à ces hommes
                             saints qui ont été autrefois blessés des femmes : "Fuyez les femmes, ne
                             les dirigez point, laissez à d’autres le soin de leur salut."</p>
                     </div3>
-                    <div3 n="41">
+                    <div3 n="41" source="#edition1 #edition6 #edition8">
                         <p>C’est trop contre un mari d’être coquette et dévote ; une femme devrait
                             opter.</p>
                     </div3>
-                    <div3 n="42">
+                    <div3 n="42" source="#edition6 #edition8">
                         <p>J’ai différé à le dire, et j’en ai souffert ; mais enfin il m’échappe, et
                             j’espère même que ma franchise sera utile à celles qui n’ayant pas assez
                             d’un confesseur pour leur conduite, n’usent d’aucun discernement dans le
