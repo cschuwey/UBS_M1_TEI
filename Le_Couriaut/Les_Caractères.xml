@@ -47,14 +47,18 @@
                 <interpretation>
                     <p> Titre contenu dans une seule balise "title" sans "main" ou "sub" car tous
                         les éléments du titre sont importants</p>
-                    <p>Utilisation de l'attribut "source" dans les balises "div3" et "p" pour uniformiser l'encodage et rendre l'information plus visible</p>
+                    <p>Utilisation de l'attribut "source" dans les balises "div3" et "p" pour
+                        uniformiser l'encodage et rendre l'information plus visible</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
             <change when="2023-10-10"> Ajout des méta-données du fichier</change>
             <change when="2023-10-16"> Ajout et encodage du texte</change>
-           <change when="2023-10-16">Ajout des identifiant de la bibliographie et des attributs "source"</change>
+            <change when="2023-10-16">Ajout des identifiant de la bibliographie et des attributs
+                "source"</change>
+            <change when="2023-10-17"> Ajout d'un commentaire</change>
+
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,7 +92,7 @@
                             où l’imagination a trop de part. </p>
                     </div3>
                     <div3 type="caractère" n="66" source="#edition2">
-                        <p source="#edition2"> Je le sais, <hi rend="italic">Théobalde</hi>, vous êtes vieilli ; mais
+                        <p source="#edition2"> Je le sais,Théobalde, vous êtes vieilli ; mais
                             voudriez-vous que je crusse que vous êtes baissé, que vous n’êtes plus
                             poète ni bel esprit, que vous êtes présentement aussi mauvais juge de
                             tout genre d’ouvrage que méchant auteur, que vous n’avez plus rien de
@@ -105,6 +109,9 @@
                         <p source="#edition1 #edition2"> L’on parle impétueusement dans les
                             entretiens, souvent par vanité ou par humeur, rarement avec assez
                             d’attention : tout occupé du désir de répondre à ce </p>
+
+                        <!-- J'ai cherché dans la TEI Guidelines une différence manière d'encoder cette variation dans le texte, sans impliquer un retour à la ligne. Mais je n'ai pas trouvé de balises satisfaisantes -->
+
                         <p source="#edition1"> que l'on ne se donne pas même la peine d'écouter</p>
 
                         <p source="#edition2">qu’on n’écoute point, </p>
@@ -118,19 +125,19 @@
 
                     </div3>
                     <div3 type="caractère" n="68" source="#edition1 #edition2">
-                        <p source="#edition1 #edition2"> Il a régné pendant quelque temps une sorte de conversation fade et
-                            puérile, qui roulait toute sur des questions frivoles qui avaient
-                            relation au cœur et à ce qu’on appelle passion ou tendresse. La lecture
-                            de quelques romans les avait introduites parmi les plus honnêtes gens de
-                            la ville et de la cour ; ils s’en sont défaits, et la bourgeoisie les a
-                            reçues avec les pointes et les équivoques. </p>
+                        <p source="#edition1 #edition2"> Il a régné pendant quelque temps une sorte
+                            de conversation fade et puérile, qui roulait toute sur des questions
+                            frivoles qui avaient relation au cœur et à ce qu’on appelle passion ou
+                            tendresse. La lecture de quelques romans les avait introduites parmi les
+                            plus honnêtes gens de la ville et de la cour ; ils s’en sont défaits, et
+                            la bourgeoisie les a reçues avec les pointes et les équivoques. </p>
                     </div3>
                     <div3 type="caractère" n="69" source="#edition2">
-                        <p source="#edition2"> Quelques femmes de la ville ont la délicatesse de ne pas savoir ou de
-                            n’oser dire le nom des rues, des places, et de quelques endroits
-                            publics, qu’elles ne croient pas assez nobles pour être connus. Elles
-                            disent : le Louvre, la place Royale, mais elles usent de tours et de
-                            phrases plutôt que de prononcer de certains noms ; et s’ils leur
+                        <p source="#edition2"> Quelques femmes de la ville ont la délicatesse de ne
+                            pas savoir ou de n’oser dire le nom des rues, des places, et de quelques
+                            endroits publics, qu’elles ne croient pas assez nobles pour être connus.
+                            Elles disent : le Louvre, la place Royale, mais elles usent de tours et
+                            de phrases plutôt que de prononcer de certains noms ; et s’ils leur
                             échappent, c’est du moins avec quelque altération du mot, et après
                             quelques façons qui les rassurent : en cela moins naturelles que les
                             femmes de la cour, qui ayant besoin dans le discours des Halles, du
@@ -138,46 +145,46 @@
                         </p>
                     </div3>
                     <div3 type="caractère" n="70" source="#edition2">
-                        <p source="#edition2"> Si l’on feint quelquefois de ne se pas souvenir de certains noms que
-                            l’on croit obscurs, et si l’on affecte de les corrompre en les
-                            prononçant, c’est par la bonne opinion qu’on a du sien. </p>
+                        <p source="#edition2"> Si l’on feint quelquefois de ne se pas souvenir de
+                            certains noms que l’on croit obscurs, et si l’on affecte de les
+                            corrompre en les prononçant, c’est par la bonne opinion qu’on a du sien.
+                        </p>
                     </div3>
                     <div3 type="caractère" n="71" source="#edition1 #edition2">
-                        <p  source="#edition1 #edition2"> L’on dit par belle humeur, et dans la liberté de la conversation, de ces
-                            choses froides, qu’à la vérité l’on donne pour telles, et que l’on ne
-                            trouve bonnes que parce qu’elles sont extrêmement mauvaises. Cette
-                            manière basse de plaisanter a passé du peuple, à qui elle appartient,
-                            jusque dans une grande partie de la jeunesse de la cour, qu’elle a déjà
-                            infectée. Il est vrai qu’il y entre trop de fadeur et de grossièreté
-                            pour devoir craindre qu’elle s’étende plus loin, et qu’elle fasse de
-                            plus grands progrès dans un pays qui est le centre du bon goût et de la
-                            politesse. L’on doit cependant en inspirer le dégoût à ceux qui la
-                            pratiquent ; car bien que ce ne soit jamais sérieusement, elle ne laisse
-                            pas de tenir la place, dans leur esprit et dans le commerce ordinaire,
-                            de quelque chose de meilleur. </p>
+                        <p source="#edition1 #edition2"> L’on dit par belle humeur, et dans la
+                            liberté de la conversation, de ces choses froides, qu’à la vérité l’on
+                            donne pour telles, et que l’on ne trouve bonnes que parce qu’elles sont
+                            extrêmement mauvaises. Cette manière basse de plaisanter a passé du
+                            peuple, à qui elle appartient, jusque dans une grande partie de la
+                            jeunesse de la cour, qu’elle a déjà infectée. Il est vrai qu’il y entre
+                            trop de fadeur et de grossièreté pour devoir craindre qu’elle s’étende
+                            plus loin, et qu’elle fasse de plus grands progrès dans un pays qui est
+                            le centre du bon goût et de la politesse. L’on doit cependant en
+                            inspirer le dégoût à ceux qui la pratiquent ; car bien que ce ne soit
+                            jamais sérieusement, elle ne laisse pas de tenir la place, dans leur
+                            esprit et dans le commerce ordinaire, de quelque chose de meilleur. </p>
                     </div3>
                     <div3 type="caractère" n="72" source="#edition1">
                         <p> Entre dire de mauvais choses, ou en dire de bonnes que tout le monde
                             sait et les donner pour nouvelles, je n’ai pas à choisir. </p>
                     </div3>
                     <div3 type="caractère" n="73" source="#edition1 #edition2">
-                        <p source="#edition1 #edition2">
-                            <hi rend="italic">Lucain</hi> a dit une jolie chose… Il y a un beau mot de Claudien… Il y a
-                            cet endroit de Sénèque" : et là-dessus une longue suite de latin, que
-                            l’on cite souvent devant des gens qui ne l’entendent pas, et qui
-                            feignent de l’entendre. Le secret serait d’avoir un grand sens et bien
-                            de l’esprit ; car ou l’on se passerait des anciens, ou après les avoir
-                            lus avec soin, l’on saurait encore choisir les meilleurs, et les citer à
-                            propos. </p>
+                        <p source="#edition1 #edition2"> Lucain a dit une jolie chose… Il y a un
+                            beau mot de Claudien… Il y a cet endroit de Sénèque" : et là-dessus une
+                            longue suite de latin, que l’on cite souvent devant des gens qui ne
+                            l’entendent pas, et qui feignent de l’entendre. Le secret serait d’avoir
+                            un grand sens et bien de l’esprit ; car ou l’on se passerait des
+                            anciens, ou après les avoir lus avec soin, l’on saurait encore choisir
+                            les meilleurs, et les citer à propos. </p>
                     </div3>
                     <div3 type="caractère" n="74" source="#edition2">
-                        <p source="#edition2"> <hi rend="italic">Hermagoras</hi> ne sait pas qui est roi de Hongrie ; il s’étonne de
-                            n’entendre faire aucune mention du roi de Bohême ; ne lui parlez pas des
-                            guerres de Flandre et de Hollande, dispensez-le du moins de vous
-                            répondre : il confond les temps, il ignore quand elles ont commencé,
-                            quand elles ont fini ; combats, sièges, tout lui est nouveau ; mais il
-                            est instruit de la guerre des géants, il en raconte le progrès et les
-                            moindres détails, rien ne lui est échappé ; il débrouille de même
+                        <p source="#edition2"> Hermagoras ne sait pas qui est roi de Hongrie ; il
+                            s’étonne de n’entendre faire aucune mention du roi de Bohême ; ne lui
+                            parlez pas des guerres de Flandre et de Hollande, dispensez-le du moins
+                            de vous répondre : il confond les temps, il ignore quand elles ont
+                            commencé, quand elles ont fini ; combats, sièges, tout lui est nouveau ;
+                            mais il est instruit de la guerre des géants, il en raconte le progrès
+                            et les moindres détails, rien ne lui est échappé ; il débrouille de même
                             l’horrible chaos des deux empires, le Babylonien et l’Assyrien ; il
                             connaît à fond les Egyptiens et leurs dynasties. Il n’a jamais vu
                             Versailles, il ne le verra point : il a presque vu la tour de Babel, il
