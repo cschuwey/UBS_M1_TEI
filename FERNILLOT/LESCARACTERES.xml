@@ -14,7 +14,7 @@
             </publicationStmt>
             
             <sourceDesc>
-               <bibl>
+                <bibl>
                     <author>Jean de La Bruyère</author>
                     <title>Les Caractères, traduits du grec, avec Les Caractères ou les moeurs de ce
                         siècle</title>
@@ -25,8 +25,8 @@
                     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2#">https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2# 
                     </ref>
                 </bibl>
-
-
+                
+                
                 <bibl>
                     <author>Jean de La Bruyère</author>
                     <title>Les Caractères ou les moeurs de ce siècle. précédé de Les Caractères de
@@ -51,22 +51,23 @@
         
         <revisionDesc>
             <change when="2023-10-11">Création d'un fichier Les Caractères de La Bruyère et création de son header</change>
+            <change when="2023-10-17">Modification et correction du TD 3</change>
         </revisionDesc>
         
     </teiHeader>
     
     
-   <text>
-       <body>
-           <div1>
+    <text>
+        <body>
+            <div1>
                 <head>Les Caractères ou les moeurs de ce siècle</head>
                 <div2 type="chapitre" n="5">
                     <head>De la Société et de la Conversation</head>
                     
                     <div3 type="remarque n=(14)"></div3>
-
-
-
+                    
+                    
+                    
                     <div3 source="#edition1 #edition5">
                         
                         <p> (75) Ascagne est statuaire, Hégion fondeur, Aeschine foulon, et Cydias
@@ -113,37 +114,37 @@
                             qui néanmoins on n’aperçoit rien de grand que l’opinion qu’il a de
                             lui-même.</p>
                     </div3>
-
+                    
                     <div3>
                         <p> (76) C’est la profonde ignorance qui inspire le ton dogmatique. Celui
                             qui ne sait rien croit enseigner aux autres ce qu’il vient d’apprendre
                             lui-même ; celui qui sait beaucoup pense à peine que ce qu’il dit puisse
                             être ignoré, et parle plus indifféremment.</p>
                     </div3>
-
+                    
                     <div3>
                         <p>(77) Les plus grandes choses n’ont besoin que d’être dites simplement :
                             elles se gâtent par l’emphase. Il faut dire noblement les plus petites :
                             elles ne se soutiennent que par l’expression, le ton et la manière.</p>
                     </div3>
-
+                    
                     <div3>
                         <p>(78) Il me semble que l’on dit les choses encore plus finement qu’on ne
                             peut les écrire.</p>
                     </div3>
-
+                    
                     <div3>
                         <p>(79) Il n’y a guère qu’une naissance honnête, ou qu’une bonne éducation,
                             qui rendent les hommes capables de secret.</p>
                     </div3>
-
+                    
                     <div3>
                         <p>(80) oute confiance est dangereuse si elle n’est entière : il y a peu de
                             conjonctures où il ne faille tout dire ou tout cacher. On a déjà trop
                             dit de son secret à celui à qui l’on croit devoir en dérober une
                             circonstance.</p>
                     </div3>
-
+                    
                     <div3>
                         <p>(81) Des gens vous promettent le secret, et ils le révèlent eux-mêmes, et
                             à leur insu ; ils ne remuent pas les lèvres, et on les entend ; on lit
@@ -155,7 +156,7 @@
                             fait part, et m’a défendu de le dire ; et ils le disent.</p>
                         <p> Toute révélation d’un secret est la faute de celui qui l’a confié.</p>
                     </div3>
-
+                    
                     <div3>
                         <p>(82) Nicandre s’entretient avec Elise de la manière douce et complaisante
                             dont il a vécu avec sa femme, depuis le jour qu’il en fit le choix
@@ -183,16 +184,17 @@
                             l’homme de ville : il se lève déconcerté et chagrin, et va dire ailleurs
                             qu’il veut se remarier.</p>
                     </div3>
-
+                    
                     <div3>
                         <p>(83) Le sage quelquefois évite le monde, de peur d’être ennuyé.</p>
                     </div3>
-
-
-
+                    
+                    
+                    
                 </div2>
             </div1>
-           
-       </body>
-   </text>
- </TEI>
+            
+        </body>
+    </text>
+</TEI>
+
