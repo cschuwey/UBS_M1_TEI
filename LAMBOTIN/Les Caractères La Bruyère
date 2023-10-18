@@ -9,23 +9,25 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>Erell LAMBOTIN</publisher>
-                <date when="2023-10-11"></date>
+                <date when="2023-10-11"/>
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:lang="fr">
                     <monogr>
-                        <title>Les caractères de Théophraste , traduits du grec, avec Les Caractères ou les moeurs de ce siècle</title>
+                        <title>Les caractères de Théophraste , traduits du grec, avec Les Caractères
+                            ou les moeurs de ce siècle</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/bpt6k105077m.r=les%20caract%C3%A8res%20la%20bruy%C3%A8re?rk=42918;4</idno>
                         <imprint>
                             <date when="1688">1688</date>
-                            <pubPlace>Inconnue</pubPlace>
+                            <pubPlace>Paris</pubPlace>
                             <publisher>E. MICHALLET (Paris)</publisher>
                         </imprint>
                     </monogr>
                     <monogr>
-                        <title>Les caractères ou les moeurs de ce siècle. précédé de Les caractères de Théophraste ([Reprod.])
-                        </title>
+                        <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle. [Par J. de La Bruyère.]</title>
+                        <idno>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k.r=les%20caract%C3%A8res%20la%20bruy%C3%A8re?rk=343349;2</idno>
                         <imprint>
-                            <date when="1696">1696</date>
+                            <date when="1691">1691</date>
                             <publisher>Estienne MICHALLET (Paris)</publisher>
                         </imprint>
                     </monogr>
@@ -38,7 +40,149 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-11">Préparation du teiHeader d'un nouveau fichier TEI pour Les Caractères de La Bruyère</change>
+            <change when="2023-10-11">Préparation du teiHeader d'un nouveau fichier TEI pour Les
+                Caractères de La Bruyère</change>
+            <change when="2023-10-18">Correction de la date pour la deuxième édition choisie et ajout des liens vers les exemplaires</change>
         </revisionDesc>
     </teiHeader>
+    <text>
+        <body>
+            <head>
+                <title>Les Caractères</title>
+            </head>
+            <div1>
+                <head>Partie I</head>
+                <div2 type="chapitre" n="1">
+                    <head>Des Ouvrages de l'Esprit</head>
+                    <div3 source="#edition1">
+                        <p n="22">Quelques-uns de ceux qui ont lu un ouvrage en rapportent certains
+                            traits dont ils n’ont pas compris le sens, et qu’ils altèrent encore par
+                            tout ce qu’ils y mettent du leur ; et ces traits ainsi corrompus et
+                            défigurés, qui ne sont autre chose que leurs propres pensées et leurs
+                            expressions, ils les exposent à la censure, soutiennent qu’ils sont
+                            mauvais, et tout le monde convient qu’ils sont mauvais ; mais l’endroit
+                            de l’ouvrage que ces critiques croient citer, et qu’en effet ils ne
+                            citent point ; n’en est pas pire.</p>
+                    </div3>
+                        <div3>
+                        <p n="23">« Que dites-vous du livre d’Hermodore ? —Qu’il est mauvais, répond
+                            Anthime.—Qu’il est mauvais ? —Qu’il est tel, continue-t-il, que ce n’est
+                            pas un livre, ou qui mérite du moins que le monde en parle.—Mais
+                            l’avez-vous lu ? —Non », dit Anthime. Que n’ajoute-t-il que Fulvie et
+                            Mélanie l’ont condamné sans l’avoir lu, et qu’il est ami de Fulvie et de
+                            Mélanie ?</p>
+                        </div3>
+                        <div3>
+                        <p n="24">Arsène, du plus haut de son esprit, contemple les hommes, et dans
+                            l’éloignement d’où il les voit, il est comme effrayé de leur petitesse ;
+                            loué, exalté, et porté jusqu’aux cieux par de certaines gens qui se sont
+                            promis de s’admirer réciproquement, il croit, avec quelque mérite qu’il
+                            a, posséder tout celui qu’on peut avoir, et qu’il n’aura jamais ; occupé
+                            et rempli de ses sublimes idées, il se donne à peine le loisir de
+                            prononcer quelques oracles ; élevé par son caractère au-dessus des
+                            jugements humains, il abandonne aux âmes communes le mérite d’une vie
+                            suivie et uniforme, et il n’est responsable de ses inconstances qu’à ce
+                            cercle d’amis qui les idolâtrent : eux seuls savent juger, savent
+                            penser, savent écrire, doivent écrire ; il n’y a point d’autre ouvrage
+                            d’esprit si bien reçu dans le monde, et si universellement goûté des
+                            honnêtes gens, je ne dis pas qu’il veuille approuver, mais qu’il daigne
+                            lire : incapable d’être corrigé par cette peinture qu’il ne lira
+                            point.</p>
+                        </div3>
+                        <div3>
+                        <p n="25">Théocrine sait des choses assez inutiles ; il a des sentiments
+                            toujours singuliers ; il est moins profond que méthodique ; il n’exerce
+                            que sa mémoire ; il est abstrait, dédaigneux, et il semble toujours rire
+                            en lui-même de ceux qu’il croit ne le valoir pas. Le hasard fait que je
+                            lui lis mon ouvrage, il l’écoute. Est-il lu, il me parle du sien.« Et du
+                            vôtre, me direz-vous, qu’en pense-t-il ? » —Je vous l’ai déjà dit, il me
+                            parle du sien.</p>
+                        </div3>
+                        <div3>
+                        <p n="26">Il n’y a point d’ouvrage si accompli qui ne fondît tout entier au
+                            milieu de la critique, si son auteur voulait en croire tous les censeurs
+                            qui ôtent chacun l’endroit qui leur plaît le moins.</p>
+                        </div3>
+                        <div3>
+                        <p n="27">C’est une expérience faite que, s’il se trouve dix personnes qui
+                            effacent d’un livre une expression ou un sentiment, l’on en fournit
+                            aisément un pareil nombre qui les réclame. Ceux-ci s’écrient :« Pourquoi
+                            supprimer cette pensée ? elle est neuve, elle est belle, et le tour en
+                            est admirable » ; et ceux-là affirment, au contraire, ou qu’ils auraient
+                            négligé cette pensée, ou qu’ils lui auraient donné un autre tour.« Il y
+                            a un terme, disent les uns, dans votre ouvrage, qui est rencontré et qui
+                            peint la chose au naturel ; il y a un mot, disent les autres, qui est
+                            hasardé, et qui d’ailleurs ne signifie pas assez ce que vous voulez
+                            peut-être faire entendre » ; et c’est du même trait et du même mot que
+                            tous ces gens s’expliquent ainsi, et tous sont connaisseurs et passent
+                            pour tels. Quel autre parti pour un auteur, que d’oser pour lors être de
+                            l’avis de ceux qui l’approuvent ?</p>
+                        </div3>
+                        <div3>
+                        <p n="28">Un auteur sérieux n’est pas obligé de remplir son esprit de toutes
+                            les extravagances, de toutes les saletés, de tous les mauvais mots que
+                            l’on peut dire, et de toutes les ineptes applications que l’on peut
+                            faire au sujet de quelques endroits de son ouvrage, et encore moins de
+                            les supprimer. Il est convaincu que quelque scrupuleuse exactitude que
+                            l’on ait dans sa manière d’écrire, la raillerie froide des mauvais
+                            plaisants est un mal inévitable, et que les meilleurs choses ne leur
+                            servent souvent qu’à leur faire rencontrer une sottise.</p>
+                        </div3>
+                        <div3>
+                        <p n="29">Si certains esprits vifs et décisifs étaient crus, ce serait
+                            encore trop que les termes pour exprimer les sentiments : il faudrait
+                            leur parler par signes, ou sans parler se faire entendre. Quelque soin
+                            qu’on apporte à être serré et concis, et quelque réputation qu’on ait
+                            d’être tel, ils vous trouvent diffus. Il faut leur laisser tout à
+                            suppléer, et n’écrire que pour eux seuls. Ils conçoivent une période par
+                            le mot qui la commence, et par une période tout un chapitre : leur
+                            avez-vous lu un seul endroit de l’ouvrage, c’est assez, ils sont dans le
+                            fait et entendent l’ouvrage. Un tissu d’énigmes leur serait une lecture
+                            divertissante ; et c’est une perte pour eux que ce style estropié qui
+                            les enlève soit rare, et que peu d’écrivains s’en accommodent. Les
+                            comparaisons tirées d’un fleuve dont le cours, quoique rapide, est égal
+                            et uniforme, ou d’un embrasement qui, poussé par les vents, s’épand au
+                            loin dans une forêt où il consume les chênes et les pins, ne leur
+                            fournissent aucune idée de l’éloquence. Montrez-leur un feu grégeois qui
+                            les surprenne, ou un éclair qui les éblouisse, ils vous quittent du bon
+                            et du beau. Quelle prodigieuse distance entre un bel ouvrage, et un
+                            ouvrage parfait ou régulier ! Je ne sais s’il s’en est encore trouvé de
+                            ce dernier genre. Il est peut-être moins difficile aux rares génies de
+                            rencontrer le grand et le sublime, que d’éviter toute sorte de fautes.
+                            Le Cid n’a eu qu’une voix pour lui à sa naissance, qui a été celle de
+                            l’admiration ; il s’est vu plus fort que l’autorité et la politique, qui
+                            ont tenté vainement de le détruire ; il a réuni en sa faveur des esprits
+                            toujours partagés d’opinions et de sentiments ; les grands et le peuple
+                            : ils s’accordent tous à le savoir de mémoire, et à prévenir au théâtre
+                            les acteurs qui le récitent. Le Cid enfin est l’un des plus beaux poèmes
+                            que l’on puisse faire ; et l’une des meilleurs critiques qui aient été
+                            faites sur aucun sujet est celle du Cid.</p>
+                        </div3>
+                        <div3>
+                        <p n="30">Quelle prodigieuse distance entre un bel ouvrage et un ouvrage
+                            parfait ou régulier ! Je ne sais s’il s’en est encore trouvé de ce
+                            dernier genre. Il est peut-être moins difficile aux rares génies de
+                            rencontrer le grand et le sublime que d’éviter toute sorte de fautes. Le
+                            Cid n’a eu qu’une voix pour lui à sa naissance, qui a été celle de
+                            l’admiration ; il s’est vu plus fort que l’autorité et la politique, qui
+                            ont tenté vainement de le détruire ; il a réuni en sa faveur des esprits
+                            toujours partagés d’opinions et de sentiments : les grands et le peuple
+                            ; ils s’accordent tous à le savoir de mémoire et à prévenir au théâtre
+                            les acteurs qui le récitent. Le Cid, enfin, est l’un des plus beaux
+                            poèmes que l’on puisse faire, et l’une des meilleures critiques qui ait
+                            été faite sur aucun sujet est celle du Cid.</p>
+                        </div3>
+                        <div3>
+                        <p n="31">Quand une lecture vous élève l’esprit, et qu’elle vous inspire des
+                            sentiments nobles et courageux, ne cherchez pas une autre règle pour
+                            juger l’ouvrage ; il est bon, et fait de main d’ouvrier.</p>
+                        </div3>
+                        <div3>
+                        <p n="32">Capys, qui s’érige en juge du beau style et qui croit écrire comme
+                            Bouhours et Rabutin, résiste à la voix.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
 </TEI>
