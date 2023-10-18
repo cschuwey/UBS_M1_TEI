@@ -28,17 +28,17 @@
                     <ref type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k575649/f4.item</ref>
                 </bibl>
                 <bibl xml:id="edition8">
-                    <title>Les caractères de Théophraste traduits du grec : avec Les caractères ou
+                    <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
                         les mœurs de ce siècle</title>
                     <distributor>inconnu</distributor>
-                    <edition>Huitième édition</edition>
+                    <edition>Huitième édition, revue, corrigée et augmentée</edition>
                     <author>Jean de La Bruyère</author>
                     <editor>Thomas Amaulry</editor>
                     <date>1694</date>
-                    <pubPlace>Lyon, rue Mercière, au Mercure
-                        Galant<country>France</country></pubPlace>
-                    <biblScope>622 pages</biblScope>
-                    <ref type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k575780/f2.item</ref>
+                    <pubPlace>Paris<country>France</country></pubPlace>
+                    <biblScope>716 pages</biblScope>
+                    <ref type="URL"
+                        >https://books.google.fr/books?id=2SeBerCnLvkC&newbks=1&newbks_redir=0&dq=la%20bruyere%20caract%C3%A8res%201694&hl=fr&pg=PA574#v=onepage&q&f=false</ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -72,7 +72,12 @@
                     choisies et ajouts d'indications de normalisation du texte. Retrait des balises
                     d'interprétation sur les balises concernant les soutiens financiers de La
                     Bruyère, qui nous sont inconnus pour cet ouvrage.</item>
-                <item><date when="2023-10-17">17 octobre 2023</date>Retrait des éléments ptr et ajout des attributs source dans les éléments div3.</item>
+                <item><date when="2023-10-17">17 octobre 2023</date>Retrait des éléments ptr et
+                    ajout des attributs source dans les éléments div3.</item>
+                <item><date when="2023-10-18">18 octobre 2023</date>Changement de source pour la
+                    huitième édition des Caractères, en raison de l'absence de la 21e remarque dans l'édition utilisée auparavant.. Ajout des notes que cette édition
+                    présente</item>
+
             </list>
         </revisionDesc>
     </teiHeader>
@@ -83,69 +88,66 @@
                 <div2 type="chapitre" n="13">
                     <head>De la Mode</head>
                     <div3 source="#edition4 #edition8" n="11">
-                        <p>Un homme fat et ridicule porte un
-                            long chapeau, un pourpoint à ailerons, des chausses à aiguillettes et
-                            des bottines ; il rêve la veille par où et comment il pourra se faire
-                            remarquer le jour qui suit. Un philosophe se laisse habiller par son
-                            tailleur : il y a autant de faiblesse à fuir la mode qu’à
-                            l’affecter.</p>
+                        <p>Un homme fat et ridicule porte un long chapeau, un pourpoint à ailerons,
+                            des chausses à aiguillettes et des bottines ; il rêve la veille par où
+                            et comment il pourra se faire remarquer le jour qui suit. Un philosophe
+                            se laisse habiller par son tailleur : il y a autant de faiblesse à fuir
+                            la mode qu’à l’affecter.</p>
                     </div3>
                     <div3 source="#edition8" n="12">
-                        <p>L’on blâme une mode qui divisant
-                            la taille des hommes en deux parties égales, en prend une tout entière
-                            pour le buste, et laisse l’autre pour le reste du corps ; l’on condamne
-                            celle des femmes la base d’un édifice à plusieurs étages dont l’ordre et
-                            la structure change selon leurs caprices, qui éloigne les cheveux du
-                            visage, bien qu’ils ne croissent que pour l’accompagner, qui les relève
-                            et les hérisse à la manière des bacchantes, et semble avoir pourvu à ce
-                            que les femmes changent leur physionomie douce et modeste en une autre
-                            qui soit fière et audacieuse ; on se récrie enfin contre une telle ou
-                            une telle mode, qui cependant, toute bizarre qu’elle est, pare et
-                            embellit pendant qu’elle dure, et dont l’on tire tout l’avantage qu’on
-                            en peut espérer, qui est de plaire. Il me paraît /semble qu’on devrait seulement admirer
-                            l’inconstance et la légèreté des hommes, qui attachent successivement
-                            les agréments et la bienséance à des choses tout opposées, qui emploient
-                            pour le comique et pour la mascarade ce qui leur a servi de parure grave
-                            et d’ornements les plus sérieux ; et que si peu de temps en fasse la
-                            différence.</p>
+                        <p>L’on blâme une mode qui divisant la taille des hommes en deux parties
+                            égales, en prend une tout entière pour le buste, et laisse l’autre pour
+                            le reste du corps ; l’on condamne celle des femmes la base d’un édifice
+                            à plusieurs étages dont l’ordre et la structure change selon leurs
+                            caprices, qui éloigne les cheveux du visage, bien qu’ils ne croissent
+                            que pour l’accompagner, qui les relève et les hérisse à la manière des
+                            bacchantes, et semble avoir pourvu à ce que les femmes changent leur
+                            physionomie douce et modeste en une autre qui soit fière et audacieuse ;
+                            on se récrie enfin contre une telle ou une telle mode, qui cependant,
+                            toute bizarre qu’elle est, pare et embellit pendant qu’elle dure, et
+                            dont l’on tire tout l’avantage qu’on en peut espérer, qui est de plaire.
+                            Il me paraît /semble qu’on devrait seulement admirer l’inconstance et la
+                            légèreté des hommes, qui attachent successivement les agréments et la
+                            bienséance à des choses tout opposées, qui emploient pour le comique et
+                            pour la mascarade ce qui leur a servi de parure grave et d’ornements les
+                            plus sérieux ; et que si peu de temps en fasse la différence.</p>
                     </div3>
                     <div3 source="#edition8" n="13">
-                        <p>N… est riche, elle mange bien,
-                            elle dort bien ; mais les coiffures changent, et lorsqu’elle y pense le
-                            moins, et qu’elle se croit heureuse, la sienne est hors de mode.</p>
+                        <p>N… est riche, elle mange bien, elle dort bien ; mais les coiffures
+                            changent, et lorsqu’elle y pense le moins, et qu’elle se croit heureuse,
+                            la sienne est hors de mode.</p>
                     </div3>
                     <div3 source="#edition8" n="14">
-                        <p>Iphis voit à l’église un soulier
-                            d’une nouvelle mode ; il regarde le sien et en rougit ; il ne se croit
-                            plus habillé. Il était venu à la messe pour s’y montrer, et il se cache
-                            ; le voilà retenu par le pied dans sa chambre tout le reste du jour. Il
-                            a la main douce, et il l’entretien avec une pâte de senteur ; il a soin
-                            de rire pour montrer ses dents ; il fait la petite bouche, et il n’y a
-                            guère de moments où il ne veuille sourire ; il regarde ses jambes, et se
-                            voit au miroir : l’on ne peut être plus content de personne qu’il l’est
-                            de lui-même ; il s’est acquis une voix claire et délicate, et
-                            heureusement il parle gras ; il a un mouvement de tête, et je ne sais
-                            quel adoucissement dans les yeux, dont il n’oublie pas de s’embellir ;
-                            il a une démarche molle et le plus joli maintien qu’il est capable de se
-                            procurer ; il met du rouge, mais rarement, il n’en fait pas habitude. Il
-                            est vrai aussi qu’il porte des chausses et un chapeau, et qu’il n’a ni
-                            boucles d’oreilles ni collier de perles ; aussi ne l’ai-je pas mis dans
-                            le chapitre des femmes.</p>
+                        <p>Iphis voit à l’église un soulier d’une nouvelle mode ; il regarde le sien
+                            et en rougit ; il ne se croit plus habillé. Il était venu à la messe
+                            pour s’y montrer, et il se cache ; le voilà retenu par le pied dans sa
+                            chambre tout le reste du jour. Il a la main douce, et il l’entretien
+                            avec une pâte de senteur ; il a soin de rire pour montrer ses dents ; il
+                            fait la petite bouche, et il n’y a guère de moments où il ne veuille
+                            sourire ; il regarde ses jambes, et se voit au miroir : l’on ne peut
+                            être plus content de personne qu’il l’est de lui-même ; il s’est acquis
+                            une voix claire et délicate, et heureusement il parle gras ; il a un
+                            mouvement de tête, et je ne sais quel adoucissement dans les yeux, dont
+                            il n’oublie pas de s’embellir ; il a une démarche molle et le plus joli
+                            maintien qu’il est capable de se procurer ; il met du rouge, mais
+                            rarement, il n’en fait pas habitude. Il est vrai aussi qu’il porte des
+                            chausses et un chapeau, et qu’il n’a ni boucles d’oreilles ni collier de
+                            perles ; aussi ne l’ai-je pas mis dans le chapitre des femmes.</p>
                     </div3>
                     <div3 source="#edition8" n="15">
-                        <p>Ces mêmes modes que les hommes
-                            suivent si volontiers pour leurs personnes, ils affectent de les
-                            négliger dans leurs portraits, comme s’ils sentaient ou qu’ils
-                            prévissent l’indécence et le ridicule où elles peuvent tomber dès
-                            qu’elles auront perdu ce qu’on appelle la fleur ou l’agrément de la
-                            nouveauté ; ils leur préfèrent une parure arbitraire, une draperie
-                            indifférente, fantaisie du peintre qui ne sont prises ni sur l’air ni
-                            sur le visage, qui ne rappellent ni les mœurs ni la personne. Ils aiment
-                            des attitudes forcées ou immodestes, une manière dure, sauvage,
-                            étrangère, qui font un capitan d’un jeune abbé, et un matamore d’un
-                            homme de robe ; une Diane d’une femme de ville ; comme d’une femme
-                            simple et timide une amazone ou une Pallas ; une Laïs d’une honnête
-                            fille ; un Scythe, un Attila, d’un prince qui est bon et magnanime.</p>
+                        <p>Ces mêmes modes que les hommes suivent si volontiers pour leurs
+                            personnes, ils affectent de les négliger dans leurs portraits, comme
+                            s’ils sentaient ou qu’ils prévissent l’indécence et le ridicule où elles
+                            peuvent tomber dès qu’elles auront perdu ce qu’on appelle la fleur ou
+                            l’agrément de la nouveauté ; ils leur préfèrent une parure arbitraire,
+                            une draperie indifférente, fantaisie du peintre qui ne sont prises ni
+                            sur l’air ni sur le visage, qui ne rappellent ni les mœurs ni la
+                            personne. Ils aiment des attitudes forcées ou immodestes, une manière
+                            dure, sauvage, étrangère, qui font un capitan d’un jeune abbé, et un
+                            matamore d’un homme de robe ; une Diane d’une femme de ville ; comme
+                            d’une femme simple et timide une amazone ou une Pallas ; une Laïs d’une
+                            honnête fille ; un Scythe, un Attila, d’un prince qui est bon et
+                            magnanime.</p>
                         <p>Une mode a à peine détruit une autre mode, qu’elle est abolie par une
                             plus nouvelle, qui cède elle-même à celle qui la suit, et qui ne sera
                             pas la dernière : telle est notre légèreté. Pendant ces révolutions, un
@@ -153,68 +155,69 @@
                             passées et qui ne sont plus. La mode alors la plus curieuse et qui fait
                             plus de plaisir à voir, c’est la plus ancienne : aidée du temps et des
                             années, elle a le même agrément dans les portraits qu’a la saye ou
-                            l’habit romain sur les théâtres, qu’on la mante, le voile et la tiare
-                            dans nos tapisseries et dans nos peintures.</p>
+                            l’habit romain sur les théâtres, qu’ont la mante<noteGrp position="ext"
+                                place="margin" type="definition"><note>Habits des
+                                    Orientaux</note> , le voile<note/> et la tiare<note> </note>dans
+                                nos tapisseries et dans nos peintures.</noteGrp></p>
                         <p>Nos pères nous ont transmis, avec la connaissance de leurs personnes,
-                            celle de leurs habits, de leurs coiffures, de leurs armes, et des autres
-                            ornements qu’ils ont aimés pendant leur vie. Nous ne saurions bien
-                            reconnaître cette sorte de bienfait qu’en traitant de même nos
-                            descendants.</p>
+                            celle de leurs habits, de leurs coiffures, de leurs armes <note
+                                position="ext" place="margin" type="definition">offensives et défensives</note> , et des autres ornements qu’ils
+                            ont aimés pendant leur vie. Nous ne saurions bien reconnaître cette
+                            sorte de bienfait qu’en traitant de même nos descendants.</p>
                     </div3>
                     <div3 source="#edition4" n="16">
-                        <p>Le courtisan autrefois avait ses
-                            cheveux, étaient en chausses et en pourpoint, portait de larges canons,
-                            et il était libertin. Cela ne sied plus : il porte une perruque, l’habit
-                            serré, le bas uni, et il est dévot : tout se règle par la mode.</p>
+                        <p>Le courtisan autrefois avait ses cheveux, étaient en chausses et en
+                            pourpoint, portait de larges canons, et il était libertin. Cela ne sied
+                            plus : il porte une perruque, l’habit serré, le bas uni, et il est dévot
+                            : tout se règle par la mode.</p>
                     </div3>
                     <div3 source="#edition4" n="17">
-                        <p>Celui qui depuis quelque temps à
-                            la cour était dévot, et par là, contre toute raison, peu éloigné du
-                            ridicule, pouvait-il espérer de devenir à la mode ?</p>
+                        <p>Celui qui depuis quelque temps à la cour était dévot, et par là, contre
+                            toute raison, peu éloigné du ridicule, pouvait-il espérer de devenir à
+                            la mode ?</p>
                     </div3>
                     <div3 source="#edition4" n="18">
-                        <p>De quoi n’est point capable un
-                            courtisan dans la vue de sa fortune, si pour ne la pas manquer il
-                            devient dévot ?</p>
+                        <p>De quoi n’est point capable un courtisan dans la vue de sa fortune, si
+                            pour ne la pas manquer il devient dévot ?</p>
                     </div3>
                     <div3 source="#edition4" n="19">
-                        <p>Les couleurs sont préparées, et la
-                            toile est toute prête ; mais comment le fixer, cet homme inquiet, léger,
-                            inconstant, qui change de mille et mille figures ? Je le peins dévot, et
-                            je crois l’avoir attrapé ; mais il m’échappe, et déjà il est libertin.
-                            Qu’il demeure du moins dans cette mauvaise situation, et je saurai le
-                            prendre dans un point de dérèglement de cœur et d’esprit où il sera
-                            reconnaissable ; mais la mode presse, il est dévot.</p>
+                        <p>Les couleurs sont préparées, et la toile est toute prête ; mais comment
+                            le fixer, cet homme inquiet, léger, inconstant, qui change de mille et
+                            mille figures ? Je le peins dévot, et je crois l’avoir attrapé ; mais il
+                            m’échappe, et déjà il est libertin. Qu’il demeure du moins dans cette
+                            mauvaise situation, et je saurai le prendre dans un point de dérèglement
+                            de cœur et d’esprit où il sera reconnaissable ; mais la mode presse, il
+                            est dévot.</p>
                     </div3>
                     <div3 source="#edition8" n="20">
-                        <p>Celui qui a pénétré la cour
-                            connaît ce que c’est que vertu et ce que c’est que dévotion : il ne peut
-                            plus s’y tromper.</p>
+                        <p>Celui qui a pénétré la cour connaît ce que c’est que vertu et ce que
+                            c’est que dévotion<note position="ext" place="margin" type="definition">fausse dévotion</note> il ne peut plus s’y
+                            tromper.</p>
                     </div3>
-                    <div3  source="#edition4" "#edition8" n="21">
-                        <p>Négliger vêpres comme une chose
-                            antique et hors de mode, garder sa place soi-même pour le salut, savoir
-                            les êtres de la chapelle, connaître le flanc, savoir où l’on est vu et
-                            où l’on n’est pas vu ; rêver dans l’église à Dieu et à ses affaires, y
-                            recevoir des visites, y donner des ordres et des commissions, y attendre
-                            les réponses ; avoir un directeur mieux écouté que l’Evangile ; tirer
-                            toute sa sainteté et tout son relief de la réputation de son directeur,
-                            dédaigner ceux dont le directeur a moins de vogue, et convenir à peine
-                            de leur salut ; n’aimer de la parole de Dieu que ce qui s’en prêche chez
-                            soi ou par son directeur, préférer sa messe aux autres messes, et les
-                            sacrements donnés de sa main à ceux qui ont moins de cette circonstance
-                            ; ne se repaître que de livres de spiritualité, comme s’il n’y avait ni
-                            Evangile, ni Epîtres des Apôtres, ni morale des Pères ; lire ou parler
-                            un jargon inconnu aux premiers siècles ; circonstancier à confesse les
-                            défauts d’autrui, y pallier les siens ; s’accuser de ses souffrances, de
-                            sa patience ; dire comme un péché son peu de progrès dans l’héroïsme ;
-                            être en liaison secrète avec de certaines gens contre certains autres ;
-                            n’estimer que soi et sa cabale, avoir pour suspecte la vertu même ;
-                            goûter, savourer la prospérité et la faveur, n’en vouloir que pour soi,
-                            ne point aider au mérite, faire servir la piété à son ambition, aller à
-                            son salut par le chemin de la fortune et des dignités : c’est du moins
-                            jusqu’à ce jour le plus bel effort de la dévotion du temps. (VII) Un
-                            dévot est celui qui sous un roi athée serait athée.</p>
+                    <div3 source="#edition8" n="21">
+                        <p>Négliger vêpres comme une chose antique et hors de mode, garder sa place
+                            soi-même pour le salut, savoir les êtres de la chapelle, connaître le
+                            flanc, savoir où l’on est vu et où l’on n’est pas vu ; rêver dans
+                            l’église à Dieu et à ses affaires, y recevoir des visites, y donner des
+                            ordres et des commissions, y attendre les réponses ; avoir un directeur
+                            mieux écouté que l’Evangile ; tirer toute sa sainteté et tout son relief
+                            de la réputation de son directeur, dédaigner ceux dont le directeur a
+                            moins de vogue, et convenir à peine de leur salut ; n’aimer de la parole
+                            de Dieu que ce qui s’en prêche chez soi ou par son directeur, préférer
+                            sa messe aux autres messes, et les sacrements donnés de sa main à ceux
+                            qui ont moins de cette circonstance ; ne se repaître que de livres de
+                            spiritualité, comme s’il n’y avait ni Evangile, ni Epîtres des Apôtres,
+                            ni morale des Pères ; lire ou parler un jargon inconnu aux premiers
+                            siècles ; circonstancier à confesse les défauts d’autrui, y pallier les
+                            siens ; s’accuser de ses souffrances, de sa patience ; dire comme un
+                            péché son peu de progrès dans l’héroïsme ; être en liaison secrète avec
+                            de certaines gens contre certains autres ; n’estimer que soi et sa
+                            cabale, avoir pour suspecte la vertu même ; goûter, savourer la
+                            prospérité et la faveur, n’en vouloir que pour soi, ne point aider au
+                            mérite, faire servir la piété à son ambition, aller à son salut par le
+                            chemin de la fortune et des dignités : c’est du moins jusqu’à ce jour le
+                            plus bel effort de la dévotion du temps. Un dévot<note position="ext" place="margin" type="definition">faux dévot</note> est celui qui sous un
+                            roi athée serait athée.</p>
                     </div3>
                 </div2>
             </div1>
