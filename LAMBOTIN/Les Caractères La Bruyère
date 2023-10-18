@@ -13,7 +13,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:lang="fr">
-                    <monogr>
+                    <monogr xml:id="édition_1">
                         <title>Les caractères de Théophraste , traduits du grec, avec Les Caractères
                             ou les moeurs de ce siècle</title>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k105077m.r=les%20caract%C3%A8res%20la%20bruy%C3%A8re?rk=42918;4</idno>
@@ -23,7 +23,7 @@
                             <publisher>E. MICHALLET (Paris)</publisher>
                         </imprint>
                     </monogr>
-                    <monogr>
+                    <monogr xml:id="édition_2">
                         <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle. [Par J. de La Bruyère.]</title>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k.r=les%20caract%C3%A8res%20la%20bruy%C3%A8re?rk=343349;2</idno>
                         <imprint>
@@ -54,7 +54,7 @@
                 <head>Partie I</head>
                 <div2 type="chapitre" n="1">
                     <head>Des Ouvrages de l'Esprit</head>
-                    <div3 source="#edition1">
+                    <div3 source="#édition_1">
                         <p n="22">Quelques-uns de ceux qui ont lu un ouvrage en rapportent certains
                             traits dont ils n’ont pas compris le sens, et qu’ils altèrent encore par
                             tout ce qu’ils y mettent du leur ; et ces traits ainsi corrompus et
