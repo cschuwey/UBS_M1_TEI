@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Les caractères de Théophraste traduits du grec </title>
+                <title type="sub"> avec les caractères ou les moeurs de ce siècle</title>
+                <author> Jean de La Bruyère</author>
+                <principal>C. Schuwey</principal>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Lise Le Coq</publisher>
+                <date when="2023-10-09">9 Octobre 2023</date>
+                <pubPlace>Lorient</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl>
+                    <bibl xml:id="edition3">
+                        <title type="main">Les caractères de Théophraste traduits du grec </title>
+                        <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
+                        <author>Jean de La Bruyère</author>
+                    </bibl>
+                </listBibl>
+                <biblstruct>
+                    <monogram>
+                        <placeName>Paris</placeName>
+                        <publisher> E.Michallet</publisher>
+                        <date>1688</date>
+                        <imprint>
+                            <idno>Bibliothèque nationale de France</idno>
+                            <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k57572x</idno>
+                        </imprint>
+                    </monogram>
+                </biblstruct>
+
+            </sourceDesc>
+
+            <sourceDesc>
+                <listBibl>
+                    <bibl xml:id="edition5">
+                        <title type="main">Les caractères de Théophraste traduits du grec </title>
+                        <title type="sub">avec Les caractères ou les moeurs de ce siècle. Cinquième
+                            édition. Augmentée de plusieurs remarques</title>
+                        <author> Jean de La Bruyère</author>
+                    </bibl>
+                </listBibl>
+                <biblstruct>
+                    <monogram>
+                        <placeName>Paris</placeName>
+                        <publisher>chez Estienne Michallet</publisher>
+                        <date>1690</date>
+                        <imprint>
+                            <idno>Bibliothèque nationale de France</idno>
+                            <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k575660</idno>
+                        </imprint>
+                    </monogram>
+                </biblstruct>
+
+            </sourceDesc>
+
+            <sourceDesc>
+                <listBibl>
+                    <bibl xml:id="edition8">
+                        <title type="main">Les caractères de Théophraste traduits du grec </title>
+                        <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
+                        <author>La Bruyère Jean</author>
+                    </bibl>
+                </listBibl>
+                <biblstruct>
+                    <monogram>
+                        <placeName>Paris</placeName>
+                        <publisher> E.Michallet</publisher>
+                        <date>1694</date>
+                        <imprint>
+                            <idno>Bibliothèque nationale de France</idno>
+                            <idno type="URL"
+                                >https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f259.item></idno>
+                        </imprint>
+                    </monogram>
+                </biblstruct>
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                    <p>Ponctuation modernisée</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>Information sur le titre des deux éditions : J'ai inclus les attributs "main"
+                        et "sub" car Les caractères ou les moeurs de ce siècle sont un ajout des
+                        caractères de Théophraste pour ces éditions. </p>
+                </interpretation>
+                <interpretation>
+                    <p> Nous avons structuré l'ouvrage avec div1 : La balise div1 qui englobe tout
+                        l'ouvrage puis à l'intérieur de div1, nous avons plusieurs div2 pour les
+                        chapitres ou remarques. Chaque chapitre de la balise div2 est divisé
+                        individuellement avec div3, qui contiennent ensuite les paragraphes dans la
+                        balise p </p>
+                </interpretation>
+                <interpretation>
+                    <p> Nous avons ajouté l'attribut "source" dans les balises bibl pour structurer
+                        l'encodage et le rendre plus compréhensible ainsi que dans les balises div3
+                        et p</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2023-10-10"> Ajout des méta-données du fichier : Ajout de deux éditions
+                des "Caractères" de 1688 et 1689</change>
+            <change when="2023-10-16"> Ajout des méta-données du fichier : Ajout du corps du texte
+                body de l'ouvrage des Caractères structuré par les balises div ainsi que la balise
+                source des deux éditions : la troisième édition de 1688 et la cinquième de 1690 dans
+                les balises div3 et p</change>
+            <change when="2023-10-17"> Ajout des méta-données du fichier : Ajout de la source de la
+                huitième édition de 1694 dans les balises div3 et p</change>
+            <change when="2023-10-17"> Ajout des méta-données du fichier : Ajout d'un d'un
+                commentaire dans la balise interpretation</change>
+
+        </revisionDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+                <language ident="eng">Anglais</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+
+    <text>
+        <body>
+            <div1 type="ouvrage">
+                <head> Les Caractères ou les moeurs de ce siècle </head>
+                <div2 type="chapitre" n="6"> VI <head>"Des Biens de Fortune"</head>
+                    <div3 n="43" source="#edition5 #edition8">
+                        <p source="#edition5 #edition8">Le marchand fait des montres pour donner de
+                            sa marchandise ce qu’il y a de pire ; il a le cati et les faux jours
+                            afin d’en cacher les défauts, et qu’elle paraisse bonne ; il la surfait
+                            pour la vendre plus cher qu’elle ne vaut ; il a des marques fausses et
+                            mystérieuses, afin qu’on croie n’en donner que son prix, un mauvais
+                            aunage pour en livrer le moins qu’il se peut ; et il a un trébuchet,
+                            afin que celui à qui il l’a livrée la lui paye en or qui soit de
+                            poids.</p>
+                    </div3>
+                    <div3 n="44" source="#edition3 #edition5 #edition8">
+                        <p source="#edition3 #edition5 #edition8">Dans toutes les conditions, le
+                            pauvre est bien proche de l’homme de bien, et l’opulent n’est guère
+                            éloigné de la friponnerie. Le savoir-faire et l’habileté ne mènent pas
+                            jusques aux énormes richesses. </p>
+                        <p n="44" source="#edition3 #edition5 #edition8">L’on peut s’enrichir, dans
+                            quelque art ou dans quelque commerce que ce soit, par l’ostentation
+                            d’une certaine probité.</p>
+                    </div3>
+                    <div3 n="45" source="edition8">
+                        <p source="#edition8">De tous les moyens de faire sa fortune, le plus court
+                            et le meilleur est de mettre les gens à voir clairement leurs intérêts à
+                            vous faire du bien.</p>
+                    </div3>
+                    <div3 n="46" source="#edition3 #edition5 #edition8">
+                        <p source="#edition3 #edition5 #edition8">Les hommes, pressés par les
+                            besoins de la vie, et quelquefois par le désir du gain ou de la gloire,
+                            cultivent des talents profanes, ou s’engagent dans des professions
+                            équivoques, et dont ils se cachent longtemps à eux-mêmes le péril et les
+                            conséquences : ils les quittent ensuite par une dévotion discrète, qui
+                            ne leur vient jamais qu’après qu’ils ont fait leur récolte, et qu’ils
+                            jouissent d’une fortune bien établie. </p>
+                    </div3>
+                    <div3 n="47" source="edition8">
+                        <p source="#edition8">Il y a des misères sur la terre qui saisissent le cœur
+                            ; il manque à quelques-uns jusqu’aux aliments ; ils redoutent l’hiver,
+                            ils appréhendent de vivre. L’on mange ailleurs des fruits précoces ;
+                            l’on force la terre et les saisons pour fournir à sa délicatesse ; de
+                            simples bourgeois, seulement à cause qu’ils étaient riches, ont eu
+                            l’audace d’avaler en un seul morceau la nourriture de cent familles.
+                            Tienne qui voudra contre de si grandes extrémités : je ne veux être, si
+                            je le puis, ni malheureux ni heureux ; je me jette et me réfugie dans la
+                            médiocrité.</p>
+                    </div3>
+                    <div3 n="48" source="#edition8">
+                        <p source=" #edition8"> On sait que les pauvres sont chagrins de ce que tout
+                            leur manque, et que personne ne les soulage ; mais s’il est vrai que les
+                            riches soient colères, c’est de ce que la moindre chose puisse leur
+                            manquer, ou que quelqu’un veuille leur résister. </p>
+                    </div3>
+                    <div3 n="49" source="#edition8">
+                        <p source=" #edition8">Celui-là est riche, qui reçoit plus qu’il ne consume
+                            ; celui-là est pauvre, dont la dépense excède la recette.</p>
+                        <p source="#edition8">Tel, avec deux millions de rente, peut être pauvre
+                            chaque année de cinq cent mille livres.</p>
+                        <p source="#edition8">Il n’y a rien qui se soutienne plus longtemps qu’une
+                            médiocre fortune ; il n’y a rien dont on voie mieux la fin que d’une
+                            grande fortune.</p>
+                        <p source="#edition8">L’occasion prochaine de la pauvreté, c’est de grandes
+                            richesses.</p>
+                        <p source="#edition8">S’il est vrai que l’on soit riche de tout ce dont on
+                            n’a pas besoin, un homme fort riche, c’est un homme qui est sage.</p>
+                        <p source="#edition8">S’il est vrai que l’on soit pauvre par toutes les
+                            choses que l’on désire, l’ambitieux et l’avare languissent dans une
+                            extrême pauvreté.</p>
+                    </div3>
+                    <div3 n="50" source="#edition8">
+                        <p source="#edition8">Les passions tyrannisent l’homme ; et l’ambition
+                            suspend en lui les autres passions, et lui donne pour un temps les
+                            apparences de toutes les vertus. Ce Tryphon qui a tous les vices, je
+                            l’ai cru sobre, chaste, libéral, humble et même dévot : je le croirais
+                            encore, s’il n’eût enfin fait sa fortune.</p>
+                    </div3>
+                    <div3 n="51" source="#edition8">
+                        <p source="#edition8">L’on ne se rend point sur le désir de posséder et de
+                            s’agrandir : la bile gagne, et la mort approche, qu’avec un visage
+                            flétri, et des jambes déjà faibles, l’on dit : ma fortune, mon
+                            établissement.</p>
+                    </div3>
+                    <div3 n="52" source="#edition8">
+                        <p source="#edition8">Il n’y a au monde que deux manières de s’élever, ou
+                            par sa propre industrie, ou par l’imbécillité des autres.</p>
+                    </div3>
+                    <div3 n="53" source=" #edition3 #edition8">
+                        <p source="#edition3 #edition8"> Les traits découvrent la complexion et les mœurs ;
+                            mais la mine désigne les biens de fortune : le plus ou le moins de mille
+                            livres de rente se trouve écrit sur les visages. </p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
