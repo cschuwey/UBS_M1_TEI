@@ -5,26 +5,30 @@
             <titleStmt>
                 <title>Les Caractères</title>
                 <author>La Bruyère (Jean)</author>
+                <principal>C. Schuwey</principal>
             </titleStmt>
             <publicationStmt>
-                <publisher>Gallica</publisher>
-                <authority>Non indiqué.</authority>
-                <date n="1" when-iso="2010-10-04">04/10/2010</date>
-                <date n="2" when-iso="2018-08-05">05/08/2018</date>
-                <!-- On utilisera ensuite "1" pour faire référence à la version la plus ancienne lorsqu'on codera et "2" pour faire référence à la plus récente. -->
+                <publisher>Léa Brossat</publisher>
+                <date when-iso="2023-10-13">13/10/2023</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl n="1">
+                <bibl n="#edition1">
                     <title>Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
                     <author>J. de La Bruyère</author>
                     <edition>1688</edition>
                     <idno>RES-R-2056</idno>
                 </bibl>
-                <bibl n="2">
+                <bibl n="#edition6">
                     <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
                     <author>J. de La Bruyère</author>
                     <edition>1691</edition>
                     <idno>R-52303</idno>
+                </bibl>
+                <bibl n="#edition8">
+                    <title> Les caractères de Théophraste traduits du grec ; avec Les caractères ou les moeurs de ce siècle</title>
+                    <author>J. de La Bruyère</author>
+                    <edition>1694</edition>
+                    <idno>Inconnu</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -34,11 +38,16 @@
             </projectDesc>
             <editorialDecl>
                 <normalization>
-                    <p>Encore non choisie.</p>
+                    <p>Modernisée (alphabet moderne et non celui d'époque).</p>
                 </normalization>
                 <punctuation>
-                    <p>Encore non choisie.</p>
+                    <p>Modernisée.</p>
                 </punctuation>
+            </editorialDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>Utilisation de l'attribut @source à deux reprises afin de faciliter la transformation du fichier par la suite.</p>
+                </interpretation>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -58,78 +67,189 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
-                <change when="2023-10-13"> Création du Header en vue de la prochaine séance.</change>
+                <change when-iso="2023-10-13">Création du Header en vue de la prochaine séance.</change>
+                <change when-iso="2023-10-16">Addition du texte de base et commencement de la mise en page (à finir).</change>
+                <change when-iso="2023-10-19">Finition l'encodage demandé (ajout des sources, mise en page des paragraphes, etc...). Observation d'une anomalie qui a ensuite été communiquée au professeur, en attente d'une réponse.</change>
             </listChange>
-            
         </revisionDesc>
     </teiHeader>
     <text>
     <body>
         <div1>
             <head>Les Caractères ou les Mœurs de ce Siècle</head>
-            <div2 type="chapitre" n="">
+            <div2 type="chapitre" n="15">
                 <head>De la Chaire</head>
-                <div3 type="remarque" n="">(1)
-                Le discours chrétien est devenu un spectacle. Cette tristesse évangélique qui en est l’âme ne s’y remarque plus : elle est suppléée par les avantages de la mine, par les inflexions de la voix, par la régularité du geste, par le choix des mots, et par les longues énumérations. On n’écoute plus sérieusement la parole sainte : c’est une sorte d’amusement entre mille autres ; c’est un jeu où il y a de l’émulation et des parieurs.</div3>
-                <div3 type="remarque" n="">(2)
-                L’éloquence profane est transposée pour ainsi dire du barreau, où Le Maître, Pucelle et Fourcroy l’ont fait régner, et où elle n’est plus d’usage, à la chaire, où elle ne doit pas être.<seg source="edition1" n="">L’on fait    assaut d’éloquence jusqu’au pied de l’autel et en la présence des mystères.    Celui qui écoute s’établit juge de celui qui prêche, pour condamner ou pour    applaudir, et n’est pas plus converti par le discours qu’il favorise que par    celui auquel il est contraire. L’orateur plaît aux uns, déplaît aux autres, et    convient avec tous en une chose, que, comme il ne cherche point à les rendre    meilleurs, ils ne pensent pas aussi à le devenir.</seg>
-                Un apprentif est docile, il écoute son maître, il profite de ses leçons, et il devient maître. L’homme indocile critique le discours du prédicateur, comme le livre du philosophe, et il ne devient ni chrétien ni raisonnable.</div3>
-                <div3 type="remarque" n="">(3)
-                Jusqu’à ce qu’il revienne un homme qui, avec un style nourri des saintes Ecritures, explique au peuple la parole divine uniment et familièrement, les orateurs et les déclamateurs seront suivis.</div3>
-                <div3 type="remarque" n="">(4)
-                Les citations profanes, les froides allusions, le mauvais pathétique, les antithèses, les figures outrées ont fini : les portraits finiront, et feront place à une simple explication de l’Evangile, jointe aux mouvements qui inspirent la conversion.</div3>
-                <div3 type="remarque" n="">(5)
-                Cet homme que je souhaitais impatiemment, et que je ne daignais pas espérer de notre siècle, est enfin venu. Les courtisans, à force de goût et de connaître les bienséances, lui ont applaudi ; ils ont, chose incroyable ! abandonné la chapelle du Roi, pour venir entendre avec le peuple la parole de Dieu annoncée par cet homme apostolique. La ville n’a pas été de l’avis de la cour : où il a prêché, les paroissiens ont déserté, jusqu’aux marguilliers ont disparu ; les pasteurs ont tenu ferme, mais les ouailles se sont dispersées, et les orateurs voisins en ont grossi leur auditoire. Je devais le prévoir, et ne pas dire qu’un tel homme n’avait qu’à se montrer pour être suivi, et qu’à parler pour être écouté : ne savais-je pas quelle est dans les hommes, et en toutes choses, la force indomptable de l’habitude ? Depuis trente années on prête l’oreille aux rhéteurs, aux déclamateurs, aux énumérateurs ; on court ceux qui peignent en grand ou en miniature. Il n’y a pas longtemps qu’ils avaient des chutes ou des transitions ingénieuses, quelquefois même si vives et si aiguës qu’elles pouvaient passer pour épigrammes : ils les ont adoucies, je l’avoue, et ce ne sont plus que des madrigaux. Ils ont toujours, d’une nécessité indispensable et géométrique, trois sujets admirables de vos attentions : ils prouveront une telle chose dans la première partie de leur discours, cette autre dans la seconde partie, et cette autre encore dans la troisième. Ainsi vous serez convaincu d’abord d’une certaine vérité, et c’est leur premier point ; d’une autre vérité, et c’est leur second point ; et puis d’une troisième vérité, et c’est leur troisième point : de sorte que la première réflexion vous instruira d’un principe des plus fondamentaux de votre religion ; la seconde, d’un autre principe qui ne l’est pas moins ; et la dernière réflexion, d’un troisième et dernier principe, le plus important de tous, qui est remis pourtant, faute de loisir, à une autre fois. Enfin, pour reprendre et abréger cette division et former un plan… — Encore, dites-vous, et quelles préparations pour un discours de trois quarts d’heure qui leur reste à faire ! Plus ils cherchent à le digérer et à l’éclaircir, plus ils m’embrouillent. — Je vous crois sans peine, et c’est l’effet le plus naturel de tout cet amas d’idées qui reviennent à la même, dont ils chargent sans pitié la mémoire de leurs auditeurs. Il semble, à les voir s’opiniâtrer à cet usage, que la grâce de la conversion soit attachée à ces énormes partitions. Comment néanmoins serait-on converti par de tels apôtres, si l’on ne peut qu’à peine les entendre articuler, les suivre et ne les pas perdre de vue ? Je leur demanderais volontiers qu’au milieu de leur course impétueuse, ils voulussent plusieurs fois reprendre haleine, souffler un peu, et laisser souffler leurs auditeurs. Vains discours, paroles perdues ! Le temps des homélies n’est plus ; les Basiles, les Chrysostomes ne le ramèneraient pas ; on passerait en d’autres diocèses pour être hors de la portée de leur voix et de leurs familières instructions. Le commun des hommes aime les phrases et les périodes, admire ce qu’il n’entend pas, se suppose instruit, content de décider entre un premier et un second point, ou entre le dernier sermon et le pénultième.</div3>
-                <div3 type="remarque" n="">(6)
-                Il y a moins d’un siècle qu’un livre français était un certain nombre de pages latines, où l’on découvrait quelques lignes ou quelques mots en notre langue. Les passages, les traits et les citations n’en étaient pas demeurés là : Ovide et Catulle achevaient de décider des mariages et des testaments, et venaient avec les Pandectes au secours de la veuve et des pupilles. Le sacré et le profane ne se quittaient point ; ils s’étaient glissés ensemble jusque dans la chaire : saint Cyrille, Horace, saint Cyprien, Lucrèce, parlaient alternativement ; les poètes étaient de l’avis de saint Augustin et de tous les Pères ; on parlait latin, et longtemps, devant des femmes et des marguilliers ; on a parlé grec. Il fallait savoir prodigieusement pour prêcher si mal. Autre temps, autre usage : le texte est encore latin, tout le discours est français, et d’un beau français ; l’Evangile même n’est pas cité. Il faut savoir aujourd’hui très peu de chose pour bien prêcher.</div3>
-                <div3 type="remarque" n="">(7)
-                L’on a enfin banni la scolastique de toutes les chaires des grandes villes, et on l’a reléguée dans les bourgs et dans les villages pour l’instruction et pour le salut du laboureur ou du vigneron.</div3>
-                <div3 type="remarque" n="">(8)
-                C’est avoir de l’esprit que de plaire au peuple dans un sermon par un style fleuri, une morale enjouée, des figures réitérées, des traits brillants et de vives descriptions ; mais ce n’est point en avoir assez. Un meilleur esprit néglige ces ornements étrangers, indignes de servir à l’Evangile : il prêche simplement, fortement, chrétiennement.</div3>
-                <div3 type="remarque" n="">(9)
-                L’orateur fait de si belles images de certains désordres, y fait entrer des circonstances si délicates, met tant d’esprit, de tour et de raffinement dans celui qui pèche, que si je n’ai pas de pente à vouloir ressembler à ses portraits, j’ai besoin du moins que quelque apôtre, avec un style plus chrétien, me dégoûte des vices dont l’on m’avait fait une peinture si agréable.</div3>
-                <div3 type="remarque" n="">(10)
-                Un beau sermon est un discours oratoire qui est dans toutes ses règles, purgé de tous ses défauts, conforme aux préceptes de l’éloquence humaine, et paré de tous les ornements de la rhétorique. Ceux qui entendent finement n’en perdent pas le moindre trait ni une seule pensée ; ils suivent sans peine l’orateur dans toutes les énumérations où il se promène, comme dans toutes les élévations où il se jette : ce n’est une énigme que pour le peuple.</div3>
-                <div3 type="remarque" n="">(11)
-                Le solide et l’admirable discours que celui qu’on vient d’entendre ! Les points de religion les plus essentiels, comme les plus pressants motifs de conversion, y ont été traités : quel grand effet n’a-t-il pas dû faire sur l’esprit et dans l’âme de tous les auditeurs ! Les voilà rendus : ils en sont émus et touchés au point de résoudre dans leur cœur, sur ce sermon de Théodore, qu’il est encore plus beau que le dernier qu’il a prêché.</div3>
-                <div3 type="remarque" n="">(12)
-                La morale douce et relâchée tombe avec celui qui la prêche ; elle n’a rien qui réveille et qui pique la curiosité d’un homme du monde, qui craint moins qu’on ne pense une doctrine sévère, et qui l’aime même dans celui qui fait son devoir en l’annonçant. Il semble donc qu’il y ait dans l’Eglise comme deux états qui doivent la partager : celui de dire la vérité dans toute son étendue, sans égards, sans déguisement ; celui de l’écouter avidement, avec goût, avec admiration, avec éloges, et de n’en faire cependant ni pis ni mieux.</div3>
-                <div3 type="remarque" n="">(13)
-                L’on peut faire ce reproche à l’héroïque vertu des grands hommes, qu’elle a corrompu l’éloquence, ou du moins amolli le style de la plupart des pré dicateurs. Au lieu de s’unir seulement avec les peuples pour bénir le Ciel de si rares présents qui en sont venus, ils ont entré en société avec les auteurs et les poètes ; et devenus comme eux panégyristes, ils ont enchéri sur les épîtres dédicatoires, sur les stances et sur les prologues ; ils ont changé la parole sainte en un tissu de louanges, justes à la vérité, mais mal placées, intéressées, que personne n’exige d’eux, et qui ne conviennent point à leur caractère. On est heureux si à l’occasion du héros qu’ils célèbrent jusque dans le sanctuaire, ils disent un mot de Dieu et du mystère qu’ils devaient prêcher. Il s’en est trouvé quelques-uns qui ayant assujetti le saint Evangile, qui doit être commun à tous, à la présence d’un seul auditeur, se sont vus déconcertés par des hasards qui le retenaient ailleurs, n’ont pu prononcer devant des chrétiens un discours chrétien qui n’était pas fait pour eux, et ont été suppléés par d’autres orateurs, qui n’ont eu le temps que de louer Dieu dans un sermon précipité.</div3>
-                <div3 type="remarque" n="">(14)
-                Théodule a moins réussi que quelques-uns de ses auditeurs ne l’appréhendaient : ils sont contents de lui et de son discours ; il a mieux fait à leur gré que de charmer l’esprit et les oreilles, qui est de flatter leur jalousie.</div3>
-                <div3 type="remarque" n="">(15)
-                Le métier de la parole ressemble en une chose à celui de la guerre : il y a plus de risque qu’ailleurs, mais la fortune y est plus rapide.</div3>
-                <div3 type="remarque" n="">(16)
-                Si vous êtes d’une certaine qualité, et que vous ne vous sentiez point d’autre talent que celui de faire de froids discours, prêchez, faites de froids discours : il n’y a rien de pire pour sa fortune que d’être entièrement ignoré. Théodat a été payé de ses mauvaises phrases et de son ennuyeuse monotonie.</div3>
-                <div3 type="remarque" n="">(17)
-                L’on a eu de grands évêchés par un mérite de chaire qui présentement ne vaudrait pas à son homme une simple prébende.</div3>
-                <div3 type="remarque" n="">(18)
-                Le nom de ce panégyriste semble gémir sous le poids des titres dont il est accablé ; leur grand nombre remplit de vastes affiches qui sont distribuées dans les maisons, ou que l’on lit par les rues en caractères monstrueux, et qu’on ne peut non plus ignorer que la place publique. Quand sur une si belle montre, l’on a seulement essayé du personnage, et qu’on l’a un peu écouté, l’on reconnaît qu’il manque au dénombrement de ses qualités celle de mauvais prédicateur.</div3>
-                <div3 type="remarque" n="">(19)
-                L’oisiveté des femmes, et l’habitude qu’ont les hommes de les courir partout où elles s’assemblent, donnent du nom à de froids orateurs, et soutiennent quelque temps ceux qui ont décliné.</div3>
-                <div3 type="remarque" n="">(20)
-                Devrait-il suffire d’avoir été grand et puissant dans le monde pour être louable ou non, et, devant le saint autel et dans la chaire de la vérité, loué et célébré à ses funérailles ? N’y a-t-il point d’autre grandeur que celle qui vient de l’autorité et de la naissance ? Pourquoi n’est-il pas établi de faire publiquement le panégyrique d’un homme qui a excellé pendant sa vie dans la bonté, dans l’équité, dans la douceur, dans la fidélité, dans la piété ? Ce qu’on appelle une oraison funèbre n’est aujourd’hui bien reçue du plus grand nombre des auditeurs, qu’à mesure qu’elle s’éloigne davantage du discours chrétien, ou si vous l’aimez mieux ainsi, qu’elle approche de plus près d’un éloge profane.</div3>
-                <div3 type="remarque" n="">(21)
-                L’orateur cherche par ses discours un évêché ; l’apôtre fait des conversions : il mérite de trouver ce que l’autre cherche.</div3>
-                <div3 type="remarque" n="">(22)
-                L’on voit des clercs revenir de quelques provinces où ils n’ont pas fait un long séjour, vains des conversions qu’ils ont trouvées toutes faites, comme de celles qu’ils n’ont pu faire, se comparer déjà aux Vincents et aux Xaviers, et se croire des hommes apostoliques : de si grands travaux et de si heureuses missions ne seraient pas à leur gré payés d’une abbaye.</div3>
-                <div3 type="remarque" n="">(23)
-                Tel tout d’un coup, et sans y avoir pensé la veille, prend du papier, une plume, dit en soimême : « Je vais faire un livre », sans autre talent pour écrire que le besoin qu’il a de cinquante pistoles. Je lui crie inutilement : « Prenez une scie, Dioscore, sciez, ou bien tournez, ou faites une jante de roue ; vous aurez votre salaire. » Il n’a point fait l’apprentissage de tous ces métiers. « Copiez donc, transcrivez, soyez au plus correcteur d’imprimerie, n’écrivez point. » Il veut écrire et faire imprimer ; et parce qu’on n’envoie pas à l’imprimeur un cahier blanc, il le barbouille de ce qui lui plaît : il écrirait volontiers que la Seine coule à Paris, qu’il y a sept jours dans la semaine, ou que le temps est à la pluie ; et comme ce discours n’est ni contre la religion ni contre l’Etat, et qu’il ne fera point d’autre désordre dans le public que de lui gâter le goût et l’accoutumer aux choses fades et insipides, il passe à l’examen, il est imprimé, et à la honte du siècle, comme pour l’humiliation des bons auteurs, réimprimé. De même un homme dit en son cœur : « Je prêcherai », et il prêche ; le voilà en chaire, sans autre talent ni vocation que le besoin d’un bénéfice.</div3>
-                <div3 type="remarque" n="">(24)
-                Un clerc mondain ou irréligieux, s’il monte en chaire, est déclamateur. Il y a au contraire des hommes saints, et dont le seul caractère est efficace pour la persuasion : ils paraissent, et tout un peuple qui doit les écouter est déjà ému et comme persuadé par leur présence ; le discours qu’ils vont prononcer fera le reste.</div3>
-                <div3 type="remarque" n="">(25)
-                L’. de Meaux et le P. Bourdaloue me rappellent Démosthène et Cicéron. Tous deux, maîtres dans l’éloquence de la chaire, ont eu le destin des grands modèles : l’un a fait de mauvais censeurs, l’autre de mauvais copistes.</div3>
-                <div3 type="remarque" n="">(26)
-                L’éloquence de la chaire, en ce qui y entre d’humain et du talent de l’orateur, est cachée, connue de peu de personnes et d’une difficile exécution : quel art en ce genre pour plaire en persuadant ! Il faut marcher par des chemins battus, dire ce qui a été dit, et ce que l’on prévoit que vous allez dire. Les matières sont grandes, mais usées et triviales ; les principes sûrs, mais dont les auditeurs pénètrent les conclusions d’une seule vue. Il y entre des sujets qui sont sublimes ; mais qui peut traiter le sublime ? Il y a des mystères que l’on doit expliquer, et qui s’expliquent mieux par une leçon de l’école que par un discours oratoire. La morale même de la chaire, qui comprend une matière aussi vaste et aussi diversifiée que le sont les mœurs des hommes, roule sur les mêmes pivots, retrace les mêmes images, et se prescrit des bornes bien plus étroites que la satire : après l’invective commune contre les honneurs, les richesses et le plaisir, il ne reste plus à l’orateur qu’à courir à la fin de son discours et à congédier l’assemblée. Si quelquefois on pleure, si on est ému, après avoir fait attention au génie et au caractère de ceux qui font pleurer, peut-être conviendra-t-on que c’est la matière qui se prêche elle-même, et notre intérêt le plus capital qui se fait sentir ; que c’est moins une véritable éloquence que la ferme poitrine du missionnaire qui nous ébranle et qui cause en nous ces mouvements. Enfin le prédicateur n’est point soutenu, comme l’avocat, par des faits toujours nouveaux, par de différents événements, par des aventures inouïes ; il ne s’exerce point sur les questions douteuses, il ne fait point valoir les violentes conjectures et les présomptions, toutes choses néanmoins qui élèvent le génie, lui donnent de la force et de l’étendue, et qui contraignent bien moins l’éloquence qu’elles ne la fixent et ne la dirigent. Il doit au contraire tirer son discours d’une source commune, et où tout le monde puise ; et s’il s’écarte de ces lieux communs, il n’est plus populaire, il est abstrait ou déclamateur, il ne prêche plus l’Evangile. Il n’a besoin que d’une noble simplicité, mais il faut l’atteindre, talent rare, et qui passe les forces du commun des hommes : ce qu’ils ont de génie, d’imagination, d’érudition et de mémoire, ne leur sert souvent qu’à s’en éloigner. La fonction de l’avocat est pénible, laborieuse, et suppose, dans celui qui l’exerce, un riche fonds et de grandes ressources. Il n’est pas seulement chargé, comme le prédicateur, d’un certain nombre d’oraisons composées avec loisir, récitées de mémoire, avec autorité, sans contradicteurs, et qui, avec de médiocres changements, lui font honneur plus d’une fois ; il prononce de graves plaidoyers devant des juges qui peuvent lui imposer silence, et conte des adversaires qui l’interrompent ; il doit être prêt sur la réplique ; il parle en un même jour, dans divers tribunaux, de différentes affaires. Sa maison n’est pas pour lui un lieu de repos et de retraite, ni un asile contre les plaideurs ; elle est ouverte à tous ceux qui viennent l’accabler de leurs questions et de leurs doutes. Il ne se met pas au lit, on ne l’essuie point, on ne lui prépare point des rafraîchissements ; il ne se fait point dans sa chambre un concours de monde de tous les états et de tous les sexes, pour le féliciter sur l’agrément et sur la politesse de son langage, lui remettre l’esprit sur un endroit où il a couru risque de demeurer court, ou sur un scrupule qu’il a sur le chevet d’avoir plaidé moins vivement qu’à l’ordinaire. Il se délasse d’un long discours par de plus longs écrits, il ne fait que changer de travaux et de fatigues : j’ose dire qu’il est dans son genre ce qu’étaient dans le leur les premiers hommes apostoliques. Quand on a ainsi distingué l’éloquence du barreau de la fonction de l’avocat, et l’éloquence de la chaire du ministère du prédicateur, on croit voir qu’il est plus aisé de prêcher que de plaider, et plus difficile de bien prêcher que de bien plaider.</div3>
-                <div3 type="remarque" n="">(27)
-                27 (VII) Quel avantage n’a pas un discours prononcé sur un ouvrage qui est écrit ! Les hommes sont les dupes de l’action et de la parole, comme de tout l’appareil de l’auditoire. Pour peu de prévention qu’ils aient en faveur de celui qui parle, ils l’admirent, et cherchent ensuite à le comprendre : avant qu’il ait commencé, ils s’écrient qu’il va bien faire ; ils s’endorment bientôt, et le discours fini, ils se réveillent pour dire qu’il a bien fait. On se passionne moins pour un auteur : son ouvrage est lu dans le loisir de la campagne, ou dans le silence du cabinet ; il n’y a point de rendez-vous publics pour lui applaudir, encore moins de cabale pour lui sacrifier tous ses rivaux, et pour l’élever à la prélature. On lit son livre, quelque excellent qu’il soit, dans l’esprit de le trouver médiocre ; on le feuillette, on le discute, on le confronte ; ce ne sont pas des sons qui se perdent en l’air et qui s’oublient ; ce qui est imprimé demeure imprimé. On l’attend quelquefois plusieurs jours avant l’impression pour le décrier, et le plaisir le plus délicat que l’on en tire vient de la critique qu’on en fait ; on est piqué d’y trouver à chaque page des traits qui doivent plaire, on va même souvent jusqu’à appréhender d’en être diverti, et on ne quitte ce livre que parce qu’il est bon. Tout le monde ne se donne pas pour orateur : les phrases, les figures, le don de la mémoire, la robe ou l’engagement de celui qui prêche, ne sont pas des choses qu’on ose ou qu’on veuille toujours s’approprier. Chacun au contraire croit penser bien, et écrire encore mieux ce qu’il a pensé ; il en est moins favorable à celui qui pense et qui écrit aussi bien que lui. En un mot le sermonneur est plus tôt évêque que le plus solide écrivain n’est revêtu d’un prieuré simple ; et dans la distribution des grâces, de nouvelles sont accordées à celui-là, pendant que l’auteur grave se tient heureux d’avoir ses restes.</div3>
-                <div3 type="remarque" n="">(28)
-                28 (VIII) S’il arrive que les méchants vous haïssent et vous persécutent, les gens de bien vous conseillent de vous humilier devant Dieu, pour vous mettre en garde contre la vanité qui pourrait vous venir de déplaire à des gens de ce caractère ; de même si certains hommes, sujets à se récrier sur le médiocre, désapprouvent un ouvrage que vous aurez écrit, ou un discours que vous venez de prononcer en public, soit au barreau, soit dans la chaire, ou ailleurs, humiliez-vous : on ne peut guère être exposé à une tentation d’orgueil plus délicate et plus prochaine.</div3>
-                <div3 type="remarque" n="">(29)
-                29 (IV) Il me semble qu’un prédicateur devrait faire choix dans chaque discours d’une vérité unique, mais capitale, terrible ou instructive, la manier à fond et l’épuiser ; abandonner toutes ces divisions si recherchées, si retournées, si remaniées et si différenciées ; ne point supposer ce qui est faux, je veux dire que le grand ou le beau monde sait sa religion et ses devoirs ; et ne pas appréhender de faire, ou à ces bonnes têtes ou à ces esprits si raffinés, des catéchismes ; ce temps si long que l’on use à composer un long ouvrage, l’employer à se rendre si maître de sa matière, que le tour et les expressions naissent dans l’action, et coulent de source ; se livrer, après une certaine préparation, à son génie et au mouvement qu’un grand sujet peut inspirer : qu’il pourrait enfin s’épargner ces prodigieux efforts de mémoire qui ressemblent mieux à une gageure qu’à une affaire sérieuse, qui corrompent le geste et défigurent le visage ; jeter au contraire, par un bel enthousiasme, la persuasion dans les esprits et l’alarme dans le cœur, et toucher ses auditeurs d’une tout autre crainte que de celle de le voir demeurer court.</div3>
-                <div3 type="remarque" n="">(30)
-                30 (IV) Que celui qui n’est pas encore assez parfait pour s’oublier soi-même dans le ministère de la parole sainte ne se décourage point par les règles austères qu’on lui prescrit, comme si elles lui ôtaient les moyens de faire montre de son esprit, et de monter aux dignités où il aspire : quel plus beau talent que celui de prêcher apostoliquement ? et quel autre mérite mieux un évêché ? Fénelon en était-il indigne ? aurait-il pu échapper au choix du Prince que par un autre choix ?</div3></div3>
+                <div3 type="remarque" n="1" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        Le discours chrétien est devenu un spectacle. Cette tristesse évangélique qui en est l’âme ne s’y remarque plus : elle est suppléée par les avantages de la mine, par les inflexions de la voix, par la régularité du geste, par le choix des mots, et par les longues énumérations. On n’écoute plus sérieusement la parole sainte : c’est une sorte d’amusement entre mille autres ; c’est un jeu où il y a de l’émulation et des parieurs.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="2" source="#edition1 #edition6 #edition8">
+                    <p source="#edition6 #edition8">
+                        L’éloquence profane est transposée pour ainsi dire du barreau, où Le Maître, Pucelle et Fourcroy l’ont fait régner, et où elle n’est plus d’usage, à la chaire, où elle ne doit pas être.
+                    </p>
+                    <p source="#edition1 #edition6 #edition8">
+                        L’on fait assaut d’éloquence jusqu’au pied de l’autel et en la présence des mystères. Celui qui écoute s’établit juge de celui qui prêche, pour condamner ou pour    applaudir, et n’est pas plus converti par le discours qu’il favorise que par    celui auquel il est contraire. L’orateur plaît aux uns, déplaît aux autres, et    convient avec tous en une chose, que, comme il ne cherche point à les rendre    meilleurs, ils ne pensent pas aussi à le devenir.
+                    </p>
+                    <p source="#edition6 #edition8">
+                        Un apprentif est docile, il écoute son maître, il profite de ses leçons, et il devient maître. L’homme indocile critique le discours du prédicateur, comme le livre du philosophe, et il ne devient ni chrétien ni raisonnable.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="3" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        Jusqu’à ce qu’il revienne un homme qui, avec un style nourri des saintes Ecritures, explique au peuple la parole divine uniment et familièrement, les orateurs et les déclamateurs seront suivis.
+                    </p>                
+                </div3>
+                
+                <div3 type="remarque" n="4" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        Les citations profanes, les froides allusions, le mauvais pathétique, les antithèses, les figures outrées ont fini : les portraits finiront, et feront place à une simple explication de l’Evangile, jointe aux mouvements qui inspirent la conversion.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="5" source="#edition8">
+                    <p source="#edition8">
+                        Cet homme que je souhaitais impatiemment, et que je ne daignais pas espérer de notre siècle, est enfin venu. Les courtisans, à force de goût et de connaître les bienséances, lui ont applaudi ; ils ont, chose incroyable ! abandonné la chapelle du Roi, pour venir entendre avec le peuple la parole de Dieu annoncée par cet homme apostolique. La ville n’a pas été de l’avis de la cour : où il a prêché, les paroissiens ont déserté, jusqu’aux marguilliers ont disparu ; les pasteurs ont tenu ferme, mais les ouailles se sont dispersées, et les orateurs voisins en ont grossi leur auditoire. Je devais le prévoir, et ne pas dire qu’un tel homme n’avait qu’à se montrer pour être suivi, et qu’à parler pour être écouté : ne savais-je pas quelle est dans les hommes, et en toutes choses, la force indomptable de l’habitude ? Depuis trente années on prête l’oreille aux rhéteurs, aux déclamateurs, aux énumérateurs ; on court ceux qui peignent en grand ou en miniature. Il n’y a pas longtemps qu’ils avaient des chutes ou des transitions ingénieuses, quelquefois même si vives et si aiguës qu’elles pouvaient passer pour épigrammes : ils les ont adoucies, je l’avoue, et ce ne sont plus que des madrigaux. Ils ont toujours, d’une nécessité indispensable et géométrique, trois sujets admirables de vos attentions : ils prouveront une telle chose dans la première partie de leur discours, cette autre dans la seconde partie, et cette autre encore dans la troisième. Ainsi vous serez convaincu d’abord d’une certaine vérité, et c’est leur premier point ; d’une autre vérité, et c’est leur second point ; et puis d’une troisième vérité, et c’est leur troisième point : de sorte que la première réflexion vous instruira d’un principe des plus fondamentaux de votre religion ; la seconde, d’un autre principe qui ne l’est pas moins ; et la dernière réflexion, d’un troisième et dernier principe, le plus important de tous, qui est remis pourtant, faute de loisir, à une autre fois. Enfin, pour reprendre et abréger cette division et former un plan… — Encore, dites-vous, et quelles préparations pour un discours de trois quarts d’heure qui leur reste à faire ! Plus ils cherchent à le digérer et à l’éclaircir, plus ils m’embrouillent. — Je vous crois sans peine, et c’est l’effet le plus naturel de tout cet amas d’idées qui reviennent à la même, dont ils chargent sans pitié la mémoire de leurs auditeurs. Il semble, à les voir s’opiniâtrer à cet usage, que la grâce de la conversion soit attachée à ces énormes partitions. Comment néanmoins serait-on converti par de tels apôtres, si l’on ne peut qu’à peine les entendre articuler, les suivre et ne les pas perdre de vue ? Je leur demanderais volontiers qu’au milieu de leur course impétueuse, ils voulussent plusieurs fois reprendre haleine, souffler un peu, et laisser souffler leurs auditeurs. Vains discours, paroles perdues ! Le temps des homélies n’est plus ; les Basiles, les Chrysostomes ne le ramèneraient pas ; on passerait en d’autres diocèses pour être hors de la portée de leur voix et de leurs familières instructions. Le commun des hommes aime les phrases et les périodes, admire ce qu’il n’entend pas, se suppose instruit, content de décider entre un premier et un second point, ou entre le dernier sermon et le pénultième.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="6" source="#edition6 #edition8">
+                    <p source="#edition6 #edition8">
+                        Il y a moins d’un siècle qu’un livre français était un certain nombre de pages latines, où l’on découvrait quelques lignes ou quelques mots en notre langue. Les passages, les traits et les citations n’en étaient pas demeurés là : Ovide et Catulle achevaient de décider des mariages et des testaments, et venaient avec les Pandectes au secours de la veuve et des pupilles. Le sacré et le profane ne se quittaient point ; ils s’étaient glissés ensemble jusque dans la chaire : saint Cyrille, Horace, saint Cyprien, Lucrèce, parlaient alternativement ; les poètes étaient de l’avis de saint Augustin et de tous les Pères ; on parlait latin, et longtemps, devant des femmes et des marguilliers ; on a parlé grec. Il fallait savoir prodigieusement pour prêcher si mal. Autre temps, autre usage : le texte est encore latin, tout le discours est français, et d’un beau français ; l’Evangile même n’est pas cité. Il faut savoir aujourd’hui très peu de chose pour bien prêcher.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="7" source="#edition8">
+                    <!-- Le caractère 7 de l’édition 8 n’est pas à la même place dans l’édition 6, où il se trouve entre le 25 et le 26. -->
+                    <p source="#edition8">
+                        L’on a enfin banni la scolastique de toutes les chaires des grandes villes, et on l’a reléguée dans les bourgs et dans les villages pour l’instruction et pour le salut du laboureur ou du vigneron.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="8" source="#edition6 #edition8">
+                    <!-- dans la première édition, cette remarque n'est pas indépendante et est en fait le 2ème paragraphe de la remarque n°4. -->
+                    <p source="#edition6 #edition8">
+                        C’est avoir de l’esprit que de plaire au peuple dans un sermon par un style fleuri, une morale enjouée, des figures réitérées, des traits brillants et de vives descriptions ; mais ce n’est point en avoir assez. Un meilleur esprit néglige ces ornements étrangers, indignes de servir à l’Evangile : il prêche simplement, fortement, chrétiennement.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="9" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                       L’orateur fait de si belles images de certains désordres, y fait entrer des circonstances si délicates, met tant d’esprit, de tour et de raffinement dans celui qui pèche, que si je n’ai pas de pente à vouloir ressembler à ses portraits, j’ai besoin du moins que quelque apôtre, avec un style plus chrétien, me dégoûte des vices dont l’on m’avait fait une peinture si agréable.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="10" source="#edition6 #edition8">
+                    <p source="#edition6 #edition8">
+                        Un beau sermon est un discours oratoire qui est dans toutes ses règles, purgé de tous ses défauts, conforme aux préceptes de l’éloquence humaine, et paré de tous les ornements de la rhétorique. Ceux qui entendent finement n’en perdent pas le moindre trait ni une seule pensée ; ils suivent sans peine l’orateur dans toutes les énumérations où il se promène, comme dans toutes les élévations où il se jette : ce n’est une énigme que pour le peuple.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="11" source="#edition6 #edition8">
+                    <p source="#edition6 #edition8">
+                        Le solide et l’admirable discours que celui qu’on vient d’entendre ! Les points de religion les plus essentiels, comme les plus pressants motifs de conversion, y ont été traités : quel grand effet n’a-t-il pas dû faire sur l’esprit et dans l’âme de tous les auditeurs ! Les voilà rendus : ils en sont émus et touchés au point de résoudre dans leur cœur, sur ce sermon de Théodore, qu’il est encore plus beau que le dernier qu’il a prêché.
+                    </p>
+                 </div3>
+                <div3 type="remarque" n="12" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        La morale douce et relâchée tombe avec celui qui la prêche ; elle n’a rien qui réveille et qui pique la curiosité d’un homme du monde, qui craint moins qu’on ne pense une doctrine sévère, et qui l’aime même dans celui qui fait son devoir en l’annonçant. Il semble donc qu’il y ait dans l’Eglise comme deux états qui doivent la partager : celui de dire la vérité dans toute son étendue, sans égards, sans déguisement ; celui de l’écouter avidement, avec goût, avec admiration, avec éloges, et de n’en faire cependant ni pis ni mieux.
+                    </p>
+                </div3>
+                
+                <div3 type="remarque" n="13" source="#edition6 #edition8">
+                    <p source="#edition6 #edition8">
+                        L’on peut faire ce reproche à l’héroïque vertu des grands hommes, qu’elle a corrompu l’éloquence, ou du moins amolli le style de la plupart des pré dicateurs. Au lieu de s’unir seulement avec les peuples pour bénir le Ciel de si rares présents qui en sont venus, ils ont entré en société avec les auteurs et les poètes ; et devenus comme eux panégyristes, ils ont enchéri sur les épîtres dédicatoires, sur les stances et sur les prologues ; ils ont changé la parole sainte en un tissu de louanges, justes à la vérité, mais mal placées, intéressées, que personne n’exige d’eux, et qui ne conviennent point à leur caractère. On est heureux si à l’occasion du héros qu’ils célèbrent jusque dans le sanctuaire, ils disent un mot de Dieu et du mystère qu’ils devaient prêcher. Il s’en est trouvé quelques-uns qui ayant assujetti le saint Evangile, qui doit être commun à tous, à la présence d’un seul auditeur, se sont vus déconcertés par des hasards qui le retenaient ailleurs, n’ont pu prononcer devant des chrétiens un discours chrétien qui n’était pas fait pour eux, et ont été suppléés par d’autres orateurs, qui n’ont eu le temps que de louer Dieu dans un sermon précipité.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="14" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        Théodule a moins réussi que quelques-uns de ses auditeurs ne l’appréhendaient : ils sont contents de lui et de son discours ; il a mieux fait à leur gré que de charmer l’esprit et les oreilles, qui est de flatter leur jalousie.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="15" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        Le métier de la parole ressemble en une chose à celui de la guerre : il y a plus de risque qu’ailleurs, mais la fortune y est plus rapide.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="16" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        Si vous êtes d’une certaine qualité, et que vous ne vous sentiez point d’autre talent que celui de faire de froids discours, prêchez, faites de froids discours : il n’y a rien de pire pour sa fortune que d’être entièrement ignoré. Théodat a été payé de ses mauvaises phrases et de son ennuyeuse monotonie.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="17" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        L’on a eu de grands évêchés par un mérite de chaire qui présentement ne vaudrait pas à son homme une simple prébende.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="18" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        Le nom de ce panégyriste semble gémir sous le poids des titres dont il est accablé ; leur grand nombre remplit de vastes affiches qui sont distribuées dans les maisons, ou que l’on lit par les rues en caractères monstrueux, et qu’on ne peut non plus ignorer que la place publique. Quand sur une si belle montre, l’on a seulement essayé du personnage, et qu’on l’a un peu écouté, l’on reconnaît qu’il manque au dénombrement de ses qualités celle de mauvais prédicateur.
+                    </p>
+                </div3>
+                
+                <div3 type="remarque" n="19" source="#edition8">
+                    <p source="#edition8">
+                        L’oisiveté des femmes, et l’habitude qu’ont les hommes de les courir partout où elles s’assemblent, donnent du nom à de froids orateurs, et soutiennent quelque temps ceux qui ont décliné.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="20" source="#edition6 #edition8">
+                    <p source="#edition6 #edition8">
+                        Devrait-il suffire d’avoir été grand et puissant dans le monde pour être louable ou non, et, devant le saint autel et dans la chaire de la vérité, loué et célébré à ses funérailles ? N’y a-t-il point d’autre grandeur que celle qui vient de l’autorité et de la naissance ? Pourquoi n’est-il pas établi de faire publiquement le panégyrique d’un homme qui a excellé pendant sa vie dans la bonté, dans l’équité, dans la douceur, dans la fidélité, dans la piété ? Ce qu’on appelle une oraison funèbre n’est aujourd’hui bien reçue du plus grand nombre des auditeurs, qu’à mesure qu’elle s’éloigne davantage du discours chrétien, ou si vous l’aimez mieux ainsi, qu’elle approche de plus près d’un éloge profane.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="21" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        L’orateur cherche par ses discours un évêché ; l’apôtre fait des conversions : il mérite de trouver ce que l’autre cherche.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="22" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        L’on voit des clercs revenir de quelques provinces où ils n’ont pas fait un long séjour, vains des conversions qu’ils ont trouvées toutes faites, comme de celles qu’ils n’ont pu faire, se comparer déjà aux Vincents et aux Xaviers, et se croire des hommes apostoliques : de si grands travaux et de si heureuses missions ne seraient pas à leur gré payés d’une abbaye.
+                    </p>
+                </div3>
+                
+                <div3 type="remarque" n="23" source="#edition8">
+                    <p source="#edition8">
+                        Tel tout d’un coup, et sans y avoir pensé la veille, prend du papier, une plume, dit en soimême : « Je vais faire un livre », sans autre talent pour écrire que le besoin qu’il a de cinquante pistoles. Je lui crie inutilement : « Prenez une scie, Dioscore, sciez, ou bien tournez, ou faites une jante de roue ; vous aurez votre salaire. » Il n’a point fait l’apprentissage de tous ces métiers. « Copiez donc, transcrivez, soyez au plus correcteur d’imprimerie, n’écrivez point. » Il veut écrire et faire imprimer ; et parce qu’on n’envoie pas à l’imprimeur un cahier blanc, il le barbouille de ce qui lui plaît : il écrirait volontiers que la Seine coule à Paris, qu’il y a sept jours dans la semaine, ou que le temps est à la pluie ; et comme ce discours n’est ni contre la religion ni contre l’Etat, et qu’il ne fera point d’autre désordre dans le public que de lui gâter le goût et l’accoutumer aux choses fades et insipides, il passe à l’examen, il est imprimé, et à la honte du siècle, comme pour l’humiliation des bons auteurs, réimprimé. De même un homme dit en son cœur : « Je prêcherai », et il prêche ; le voilà en chaire, sans autre talent ni vocation que le besoin d’un bénéfice.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="24" source="#edition1 #edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
+                        Un clerc mondain ou irréligieux, s’il monte en chaire, est déclamateur.
+                    </p>
+                    <p source="#edition1 #edition6 #edition8">
+                        Il y a au contraire des hommes saints, et dont le seul caractère est efficace pour la persuasion : ils paraissent, et tout un peuple qui doit les écouter est déjà ému et comme persuadé par leur présence ; le discours qu’ils vont prononcer fera le reste.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="25" source="#edition6 #edition8">
+                    <p source="#edition6 #edition8">
+                        L’. de Meaux et le P. Bourdaloue me rappellent Démosthène et Cicéron. Tous deux, maîtres dans l’éloquence de la chaire, ont eu le destin des grands modèles : l’un a fait de mauvais censeurs, l’autre de mauvais copistes.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="26" source="#edition6 #edition8">
+                    <p source="#edition6 #edition8">
+                        L’éloquence de la chaire, en ce qui y entre d’humain et du talent de l’orateur, est cachée, connue de peu de personnes et d’une difficile exécution : quel art en ce genre pour plaire en persuadant ! Il faut marcher par des chemins battus, dire ce qui a été dit, et ce que l’on prévoit que vous allez dire. Les matières sont grandes, mais usées et triviales ; les principes sûrs, mais dont les auditeurs pénètrent les conclusions d’une seule vue. Il y entre des sujets qui sont sublimes ; mais qui peut traiter le sublime ? Il y a des mystères que l’on doit expliquer, et qui s’expliquent mieux par une leçon de l’école que par un discours oratoire. La morale même de la chaire, qui comprend une matière aussi vaste et aussi diversifiée que le sont les mœurs des hommes, roule sur les mêmes pivots, retrace les mêmes images, et se prescrit des bornes bien plus étroites que la satire : après l’invective commune contre les honneurs, les richesses et le plaisir, il ne reste plus à l’orateur qu’à courir à la fin de son discours et à congédier l’assemblée. Si quelquefois on pleure, si on est ému, après avoir fait attention au génie et au caractère de ceux qui font pleurer, peut-être conviendra-t-on que c’est la matière qui se prêche elle-même, et notre intérêt le plus capital qui se fait sentir ; que c’est moins une véritable éloquence que la ferme poitrine du missionnaire qui nous ébranle et qui cause en nous ces mouvements. Enfin le prédicateur n’est point soutenu, comme l’avocat, par des faits toujours nouveaux, par de différents événements, par des aventures inouïes ; il ne s’exerce point sur les questions douteuses, il ne fait point valoir les violentes conjectures et les présomptions, toutes choses néanmoins qui élèvent le génie, lui donnent de la force et de l’étendue, et qui contraignent bien moins l’éloquence qu’elles ne la fixent et ne la dirigent. Il doit au contraire tirer son discours d’une source commune, et où tout le monde puise ; et s’il s’écarte de ces lieux communs, il n’est plus populaire, il est abstrait ou déclamateur, il ne prêche plus l’Evangile. Il n’a besoin que d’une noble simplicité, mais il faut l’atteindre, talent rare, et qui passe les forces du commun des hommes : ce qu’ils ont de génie, d’imagination, d’érudition et de mémoire, ne leur sert souvent qu’à s’en éloigner.
+                    </p>
+                    <p source="#edition6 #edition8">    
+                        La fonction de l’avocat est pénible, laborieuse, et suppose, dans celui qui l’exerce, un riche fonds et de grandes ressources. Il n’est pas seulement chargé, comme le prédicateur, d’un certain nombre d’oraisons composées avec loisir, récitées de mémoire, avec autorité, sans contradicteurs, et qui, avec de médiocres changements, lui font honneur plus d’une fois ; il prononce de graves plaidoyers devant des juges qui peuvent lui imposer silence, et conte des adversaires qui l’interrompent ; il doit être prêt sur la réplique ; il parle en un même jour, dans divers tribunaux, de différentes affaires. Sa maison n’est pas pour lui un lieu de repos et de retraite, ni un asile contre les plaideurs ; elle est ouverte à tous ceux qui viennent l’accabler de leurs questions et de leurs doutes. Il ne se met pas au lit, on ne l’essuie point, on ne lui prépare point des rafraîchissements ; il ne se fait point dans sa chambre un concours de monde de tous les états et de tous les sexes, pour le féliciter sur l’agrément et sur la politesse de son langage, lui remettre l’esprit sur un endroit où il a couru risque de demeurer court, ou sur un scrupule qu’il a sur le chevet d’avoir plaidé moins vivement qu’à l’ordinaire. Il se délasse d’un long discours par de plus longs écrits, il ne fait que changer de travaux et de fatigues : j’ose dire qu’il est dans son genre ce qu’étaient dans le leur les premiers hommes apostoliques. 
+                    </p>
+                    <p source="#edition6 #edition8">
+                        Quand on a ainsi distingué l’éloquence du barreau de la fonction de l’avocat, et l’éloquence de la chaire du ministère du prédicateur, on croit voir qu’il est plus aisé de prêcher que de plaider, et plus difficile de bien prêcher que de bien plaider.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="27" source="#edition8">
+                    <p source="#edition8">
+                        Quel avantage n’a pas un discours prononcé sur un ouvrage qui est écrit ! Les hommes sont les dupes de l’action et de la parole, comme de tout l’appareil de l’auditoire. Pour peu de prévention qu’ils aient en faveur de celui qui parle, ils l’admirent, et cherchent ensuite à le comprendre : avant qu’il ait commencé, ils s’écrient qu’il va bien faire ; ils s’endorment bientôt, et le discours fini, ils se réveillent pour dire qu’il a bien fait. On se passionne moins pour un auteur : son ouvrage est lu dans le loisir de la campagne, ou dans le silence du cabinet ; il n’y a point de rendez-vous publics pour lui applaudir, encore moins de cabale pour lui sacrifier tous ses rivaux, et pour l’élever à la prélature. On lit son livre, quelque excellent qu’il soit, dans l’esprit de le trouver médiocre ; on le feuillette, on le discute, on le confronte ; ce ne sont pas des sons qui se perdent en l’air et qui s’oublient ; ce qui est imprimé demeure imprimé. On l’attend quelquefois plusieurs jours avant l’impression pour le décrier, et le plaisir le plus délicat que l’on en tire vient de la critique qu’on en fait ; on est piqué d’y trouver à chaque page des traits qui doivent plaire, on va même souvent jusqu’à appréhender d’en être diverti, et on ne quitte ce livre que parce qu’il est bon. Tout le monde ne se donne pas pour orateur : les phrases, les figures, le don de la mémoire, la robe ou l’engagement de celui qui prêche, ne sont pas des choses qu’on ose ou qu’on veuille toujours s’approprier. Chacun au contraire croit penser bien, et écrire encore mieux ce qu’il a pensé ; il en est moins favorable à celui qui pense et qui écrit aussi bien que lui. En un mot le sermonneur est plus tôt évêque que le plus solide écrivain n’est revêtu d’un prieuré simple ; et dans la distribution des grâces, de nouvelles sont accordées à celui-là, pendant que l’auteur grave se tient heureux d’avoir ses restes.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="28" source="#edition8">
+                    <p source="#edition8">
+                        S’il arrive que les méchants vous haïssent et vous persécutent, les gens de bien vous conseillent de vous humilier devant Dieu, pour vous mettre en garde contre la vanité qui pourrait vous venir de déplaire à des gens de ce caractère ; de même si certains hommes, sujets à se récrier sur le médiocre, désapprouvent un ouvrage que vous aurez écrit, ou un discours que vous venez de prononcer en public, soit au barreau, soit dans la chaire, ou ailleurs, humiliez-vous : on ne peut guère être exposé à une tentation d’orgueil plus délicate et plus prochaine.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="29" source="#edition6 #edition8">
+                    <p source="#edition6 #edition8">
+                        Il me semble qu’un prédicateur devrait faire choix dans chaque discours d’une vérité unique, mais capitale, terrible ou instructive, la manier à fond et l’épuiser ; abandonner toutes ces divisions si recherchées, si retournées, si remaniées et si différenciées ; ne point supposer ce qui est faux, je veux dire que le grand ou le beau monde sait sa religion et ses devoirs ; et ne pas appréhender de faire, ou à ces bonnes têtes ou à ces esprits si raffinés, des catéchismes ; ce temps si long que l’on use à composer un long ouvrage, l’employer à se rendre si maître de sa matière, que le tour et les expressions naissent dans l’action, et coulent de source ; se livrer, après une certaine préparation, à son génie et au mouvement qu’un grand sujet peut inspirer : qu’il pourrait enfin s’épargner ces prodigieux efforts de mémoire qui ressemblent mieux à une gageure qu’à une affaire sérieuse, qui corrompent le geste et défigurent le visage ; jeter au contraire, par un bel enthousiasme, la persuasion dans les esprits et l’alarme dans le cœur, et toucher ses auditeurs d’une tout autre crainte que de celle de le voir demeurer court.
+                    </p>
+                </div3>
+                <div3 type="remarque" n="30" source="#edition6 #edition8">
+                    <p source="#edition6 #edition8">
+                        Que celui qui n’est pas encore assez parfait pour s’oublier soi-même dans le ministère de la parole sainte ne se décourage point par les règles austères qu’on lui prescrit, comme si elles lui ôtaient les moyens de faire montre de son esprit, et de monter aux dignités où il aspire : quel plus beau talent que celui de prêcher apostoliquement ? et quel autre mérite mieux un évêché ? Fénelon en était-il indigne ? aurait-il pu échapper au choix du Prince que par un autre choix ?
+                    </p>
+                </div3>
                 
             </div2>
         </div1>
