@@ -7,41 +7,125 @@
                 <author>La Bruyère</author>
             </titleStmt>
             <publicationStmt>
-                <publisher></publisher>
+                <publisher/>
                 <authority>C. BOYER</authority>
                 <date when-iso="2023-10-12">12/10/2023</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl> <title>Les Caractères</title> <author>La Bruyère</author> </bibl>
-                <biblStruct>                    
+                <bibl>
+                    <title>Les Caractères</title>
+                    <author>La Bruyère</author>
+                </bibl>
+                <biblStruct xml:id="Quatrieme_edition">
                     <monogr>
                         <title>Les Caractères de Théophraste</title>
-                        <imprint> <date when-iso="1689">1689</date> <publisher>Etienne Michallet</publisher> </imprint>
+                        <imprint>
+                            <date when-iso="1689">1689</date>
+                            <edition> Quatrième édition </edition>
+                            <publisher>Etienne Michallet</publisher>
+                        </imprint>
                     </monogr>
                 </biblStruct>
-                <biblStruct>
+                <biblStruct xml:id="Sixieme_edition">
                     <monogr>
                         <title>Les Caractères de Théophraste</title>
-                        <imprint> <date when-iso="1689">1689</date> <publisher>T. Amaulry</publisher></imprint>
+                        <imprint>
+                            <date when-iso="1691">1691</date>
+                            <edition> Sixième édition </edition>
+                            <publisher>Etienne Michallet</publisher>
+                        </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <projectDesc> <p>TD XML TEI</p></projectDesc>
+            <projectDesc>
+                <p>TD XML TEI</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization> <p>La numérotation n'apparait pas dans ces éditions, seulement dans l'édition finale.</p> </normalization>
+            </editorialDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="FRA">Français</language>
-            </langUsage>        
+            </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-12">Encodage du TEIHEADER de l'oeuvre Les Caractères de La Bruyère</change>            
+            <change when="2023-10-12">Encodage du TEIHEADER de l'oeuvre Les Caractères de La Bruyère</change>
+            <change when="2023-10-19">Changement d'une des deux éditions et encodage de 10 remarques</change>
         </revisionDesc>
     </teiHeader>
-        <text>
-            <body>
-                <p></p>
-            </body>
-        </text>
-</TEI>   
+    <text>
+        <body>
+
+            <div1>
+                <head>Les Caractères ou les Moeurs de ce Siècle</head>
+
+                <div2 type="Chapitre" n="">
+                    <head>De la Cour</head>
+
+                    <div3 n="1" source="#Quatrieme_edition #Sixieme_edition">
+                        <p>Le reproche en un sens le plus honorable que l’on puisse faire à un
+                            homme, c’est de lui dire qu’il ne sait pas la cour : il n’y a sorte de
+                            vertus qu’on ne rassemble en lui par ce seul mot.</p>
+                    </div3>
+
+                    <div3 n="2" source="#Quatrieme_edition #Sixieme_edition">
+                        <p>Un homme qui sait la cour est maître de son geste, de ses yeux et de son
+                            visage ; il est profond, impénétrable ; il dissimule les mauvais
+                            offices, sourit à ses ennemis, contraint son humeur, déguise ses
+                            passions, dément son cœur, parle, agit contre ses sentiments. Tout ce
+                            grand raffinement n’est qu’un vice, que l’on appelle fausseté,
+                            quelquefois aussi inutile au courtisan pour sa fortune, que la
+                            franchise, la sincérité et la vertu.</p>
+                    </div3>
+
+                    <div3 n="3" source="#Quatrieme_edition #Sixieme_edition">
+                        <p>Qui peut nommer de certaines couleurs changeantes, et qui sont diverses
+                            selon les divers jours dont on les regarde ? de même, qui peut définir
+                            la cour ?</p>
+                    </div3>
+
+                    <div3 n="4" source="#Quatrieme_edition #Sixieme_edition">
+                        <p>Se dérober à la cour un seul moment, c’est y renoncer : le courtisan qui
+                            l’a vue le matin la voit le soir pour la reconnaître le lendemain, ou
+                            afin que lui-même y soit connu.</p>
+                    </div3>
+
+                    <div3 n="5" source="#Quatrieme_edition #Sixieme_edition">
+                        <p>L’on est petit à la cour, et quelque vanité que l’on ait, on s’y trouve
+                            tel ; mais le mal est commun, et les grands mêmes y sont petits.</p>
+                    </div3>
+
+                    <div3 n="6" source="#Quatrieme_edition #Sixieme_edition">
+                        <p>La province est l’endroit d’où la cour, comme dans son point de vue,
+                            paraît une chose admirable : si l’on s’en approche, ses agréments
+                            diminuent, comme ceux d’une perspective que l’on voit de trop près.</p>
+                    </div3>
+
+                    <div3 n="7" source="#Quatrieme_edition #Sixieme_edition">
+                        <p>L’on s’accoutume difficilement à une vie qui se passe dans une
+                            antichambre, dans des cours, ou sur l’escalier.</p>
+                    </div3>
+
+                    <div3 n="8">
+                        <p>La cour ne rend pas content ; elle empêche qu’on ne le soit ailleurs.</p>
+                    </div3>
+
+                    <div3 n="9" source="#Quatrieme_edition #Sixieme_edition">
+                        <p>Il faut qu’un honnête homme ait tâté de la cour : il découvre en y
+                            entrant comme un nouveau monde qui lui était inconnu, où il voit régner
+                            également le vice et la politesse, et où tout lui est utile, le bon et
+                            le mauvais.</p>
+                    </div3>
+
+                    <div3 n="10" source="Sixieme_edition">
+                        <p>La cour est comme un édifice bâti de marbre : je veux dire qu’elle est
+                            composée d’hommes fort durs, mais fort polis. </p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
