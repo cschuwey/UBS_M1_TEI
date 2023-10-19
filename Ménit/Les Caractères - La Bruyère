@@ -78,9 +78,13 @@
             <change when="2023-10-11">Ajout de méta-données concernant la description du
                 projet.</change>
             <change when="2023-10-16">Ajout des caractères 76 à 83 contenus dans le chapitre
-                    <title>Des Biens de Fortune</title>.</change>
+                    <head>Des Biens de Fortune</head>.</change>
             <change when="2023-10-16">Ajout de méta-données concernant une nouvelle
                 édition.</change>
+            <change when="2023-10-19">Ajout des caractères 21 à 56 contenus dans le chapitre
+                    <head>Des Grands</head>.</change>
+            <change when="2023-10-19">Ajout d'un caractère absent dans le document de travail
+                fournit, dans le chapitre <head>Des Grands</head>.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,15 +95,16 @@
                 <div2 type="chapitre" n="6">
                     <head>Des Biens de Fortune</head>
                     <div3 type="caractère" n="76" source="#édition5 #édition7 #édition8">
-                        <p source="#édition5 #édition7 #édition8">Il n’y a qu’une affliction qui dure, qui est
-                            celle qui vient de la perte de biens : le temps, qui adoucit toutes les
-                            autres, aigrit celle-ci. Nous sentons à tous moments, pendant le cours
-                            de notre vie, où le bien que nous avons perdu nous manque.</p>
+                        <p source="#édition5 #édition7 #édition8">Il n’y a qu’une affliction qui
+                            dure, qui est celle qui vient de la perte de biens : le temps, qui
+                            adoucit toutes les autres, aigrit celle-ci. Nous sentons à tous moments,
+                            pendant le cours de notre vie, où le bien que nous avons perdu nous
+                            manque.</p>
                     </div3>
                     <div3 type="caractère" n="77" source="#édition5 #édition7 #édition8">
-                        <p source="#édition5 #édition7 #édition8">Il fait bon avec celui qui ne se sert pas de
-                            son bien à marier ses filles, à payer ses dettes, ou à faire des
-                            contrats, pourvu que l’on ne soit ni ses enfants ni sa femme.</p>
+                        <p source="#édition5 #édition7 #édition8">Il fait bon avec celui qui ne se
+                            sert pas de son bien à marier ses filles, à payer ses dettes, ou à faire
+                            des contrats, pourvu que l’on ne soit ni ses enfants ni sa femme.</p>
                     </div3>
                     <div3 type="caractère" n="78" source="#édition8">
                         <p source="#édition8">Ni les troubles, Zénobie, qui agitent votre empire, ni
@@ -210,6 +215,476 @@
                             presque sur soi, et il attend qu’il soit seul pour éternuer, ou, si cela
                             lui arrive, c’est à l’insu de la compagnie : il n’en coûte à personne ni
                             salut ni compliment. Il est pauvre.</p>
+                    </div3>
+                </div2>
+                <div2 type="chapitre" n="9">
+                    <head>Des Grands</head>
+                    <div3 type="caractère" n="21" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Il y en a de tels, que s’ils
+                            pouvaient connaître leurs subalternes et se connaître eux-mêmes, ils
+                            auraient honte de primer.</p>
+                    </div3>
+                    <div3 type="caractère" n="22" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">S’il y a peu d’excellents
+                            orateurs, y a-t-il bien des gens qui puissent les entendre ? S’il n’y a
+                            pas assez de bons écrivains, où sont ceux qui savent lire ? De même on
+                            s’est toujours plaint du petit nombre de personnes capables de
+                            conseiller les rois, et de les aider dans l’administration de leurs
+                            affaires ; mais s’ils naissent enfin ces hommes habiles et intelligents,
+                            s’ils agissent selon leurs vues et leurs lumières sont-ils aimés,
+                            sont-ils estimés autant qu’ils le méritent ? Sont-ils loués de ce qu’ils
+                            pensent et de ce qu’ils font pour la patrie ? Ils vivent, il suffit : on
+                            les censure s’ils échouent, et on les envie s’ils réussissent. Blâmons
+                            le peuple où il serait ridicule de vouloir l’excuser. Son chagrin et sa
+                            jalousie, regardés des grands ou des puissants comme inévitables, les
+                            ont conduits insensiblement à le compter pour rien, et à négliger ses
+                            suffrages dans toutes leurs entreprises, à s’en faire même une règle de
+                            politique.</p>
+                        <p source="#édition5 #édition7 #édition8">Les petits se haïssent les uns les
+                            autres lorsqu’ils se nuisent réciproquement. Les grands sont odieux aux
+                            petits par le mal qu’ils leur font, et par tout le bien qu’ils ne leur
+                            font pas : ils leur sont responsables de leur obscurité, de leur
+                            pauvreté et de leur infortune, ou du moins ils leur paraissent tels.</p>
+                    </div3>
+                    <div3 type="caractère" n="23" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8"> C’est déjà trop d’avoir avec le
+                            peuple une même religion et un même Dieu : quel moyen encore de
+                            s’appeler Pierre, Jean, Jacques, comme le marchand ou le laboureur ?
+                            Evitons d’avoir rien de commun avec la multitude ; affectons au
+                            contraire toutes les distinctions qui nous en séparent. Qu’elle
+                            s’approprie les douze apôtres, leurs disciples, les premiers martyrs
+                            (telles gens, tels patrons) ; qu’elle voie avec plaisir revenir, toutes
+                            les années, ce jour particulier que chacun célèbre comme sa fête. Pour
+                            nous autres grands, ayons recours aux noms profanes ; faisons-nous
+                            baptiser sous ceux d’Annibal, de César et de Pompée : c’étaient de
+                            grands hommes ; sous celui de Lucrèce : c’était une illustre Romaine ;
+                            sous ceux de Renaud, de Roger, d’Olivier et de Tancrède : c’étaient des
+                            paladins, et le roman n’a point de héros plus merveilleux ; sous ceux
+                            d’Hector, d’Achille, d’Hercule, tous demi-dieux ; sous ceux même de
+                            Phébus et de Diane ; et qui nous empêchera de nous faire nommer Jupiter
+                            ou Mercure, ou Vénus, ou Adonis ?</p>
+                    </div3>
+                    <div3 type="caractère" n="24" source="#édition8">
+                        <p source="#édition8">Pendant que les grands négligent de rien connaître, je
+                            ne dis pas seulement aux intérêts des princes et aux affaires publiques,
+                            mais à leurs propres affaires ; qu’ils ignorent l’économie et la science
+                            d’un père de famille, et qu’ils se louent eux-mêmes de cette ignorance ;
+                            qu’ils se laissent appauvrir et maîtriser par des intendants ; qu’ils se
+                            contentent d’être gourmets ou coteaux, d’aller chez Thaïs ou chez
+                            Phryné, de parler de la meute et de la vieille meute, de dire combien il
+                            y a de postes de Paris à Besançon, ou à Philisbourg, des citoyens
+                            s’instruisent du dedans et du dehors d’un royaume, étudient le
+                            gouvernement, deviennent fins et politiques, savent le fort et le faible
+                            de tout un État, songent à se mieux placer, se placent, s’élèvent,
+                            deviennent puissants, soulagent le prince d’une partie des soins
+                            publics. Les grands, qui les dédaignaient, les révèrent : heureux s’ils
+                            deviennent leurs gendres.</p>
+                    </div3>
+                    <div3 type="caractère" n="25" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Si je compare ensemble les deux
+                            conditions des hommes les plus opposées, je veux dire les grands avec le
+                            peuple, ce dernier me paraît content du nécessaire, et les autres sont
+                            inquiets et pauvres avec le superflu. Un homme du peuple ne saurait
+                            faire aucun mal ; un grand ne veut faire aucun bien, et est capable de
+                            grands maux. L’un ne se forme et ne s’exerce que dans les choses qui
+                            sont utiles ; l’autre y joint les pernicieuses. Là se montrent
+                            ingénument la grossièreté et la franchise ; ici se cache une sève
+                            maligne et corrompue sous l’écorce de la politesse. Le peuple n’a guère
+                            d’esprit, et les grands n’ont point d’âme : celui-là a un bon fond, et
+                            n’a point de dehors ; ceux-ci n’ont que des dehors et qu’une simple
+                            superficie. Faut-il opter ? Je ne balance pas : je veux être peuple.</p>
+                    </div3>
+                    <div3 type="caractère" n="26" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Quelque profonds que soient les
+                            grands de la cour, et quelque art qu’ils aient pour paraître ce qu’ils
+                            ne sont pas et pour ne point paraître ce qu’ils sont, ils ne peuvent
+                            cacher leur malignité, leur extrême pente à rire aux dépens d’autrui, et
+                            à jeter un ridicule souvent où il n’y en peut avoir. Ces beaux talents,
+                            se découvrent en eux du premier coup d’oeil, admirables sans doute pour
+                            envelopper une dupe et rendre sot celui qui l’est déjà, mais encore plus
+                            propres à leur ôter tout le plaisir qu’ils pourraient tirer d’un homme
+                            d’esprit, qui saurait se tourner et se plier en mille manières agréables
+                            et réjouissantes, si le dangereux caractère du courtisan ne l’engageait
+                            pas à une fort grande retenue. Il lui oppose un caractère sérieux, dans
+                            lequel il se retranche ; et il fait si bien que les railleurs, avec des
+                            intentions si mauvaises, manquent d’occasions de se jouer de lui.</p>
+                    </div3>
+                    <div3 type="caractère" n="27" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Les aises de la vie, l’abondance,
+                            le calme d’une grande prospérité font que les princes ont de la joie de
+                            reste pour rire d’un nain, d’un singe, d’un imbécile et d’un mauvais
+                            conte : les gens moins heureux ne rient qu’à propos. </p>
+                    </div3>
+                    <div3 type="caractère" n="28" source="#édition8">
+                        <p source="#édition8">Un grand aime la Champagne, abhorre la Brie ; il
+                            s’enivre de meilleur vin que l’homme du peuple : seule différence que la
+                            crapule laisse entre les conditions les plus disproportionnées, entre le
+                            seigneur et l’estafier.</p>
+                    </div3>
+                    <div3 type="caractère" n="29" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Il semble d’abord qu’il entre dans
+                            les plaisirs des princes un peu de celui d’incommoder les autres. Mais
+                            non, les princes ressemblent aux hommes ; ils songent à eux-mêmes,
+                            suivent leur goût, leurs passions, leur commodité : cela est
+                            naturel.</p>
+                    </div3>
+                    <div3 type="caractère" n="30" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Il semble que la première règle
+                            des compagnies, des gens en place ou des puissants, est de donner à ceux
+                            qui dépendent d’eux pour le besoin de leurs affaires toutes les
+                            traverses qu’ils en peuvent craindre.</p>
+                    </div3>
+                    <div3 type="caractère" n="31" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Si un grand a quelque degré de
+                            bonheur sur les autres hommes, je ne devine pas lequel, si ce n’est
+                            peut-être de se trouver souvent dans le pouvoir et dans l’occasion de
+                            faire plaisir ; et si elle naît, cette conjoncture, il semble qu’il
+                            doive s’en servir. Si c’est en faveur d’un homme de bien, il doit
+                            appréhender qu’elle ne lui échappe ; mais comme c’est en une chose
+                            juste, il doit prévenir la sollicitation, et n’être vu que pour être
+                            remercié ; et si elle est facile, il ne doit pas même la lui faire
+                            valoir. S’il la lui refuse, je les plains tous deux.</p>
+                    </div3>
+                    <div3 type="caractère" n="32" source="#édition7 #édition8">
+                        <p source="#édition7 #édition8">Il y a des hommes nés inaccessibles, et ce
+                            sont précisément ceux de qui les autres ont besoin, de qui ils
+                            dépendent. Ils ne sont jamais que sur un pied ; mobiles comme le
+                            mercure, ils pirouettent, ils gesticulent, ils crient, ils s’agitent ;
+                            semblables à ces figures de carton qui servent de montre à une fête
+                            publique, ils jettent feu et flamme, tonnent et foudroient : on n’en
+                            approche pas, jusqu’à ce que, venant à s’éteindre, ils tombent, et par
+                            leur chute deviennent traitables, mais inutiles.</p>
+                    </div3>
+                    <div3 type="caractère" n="33" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Le suisse, le valet de chambre,
+                            l’homme de livrée, s’ils n’ont plus d’esprit que ne porte leur
+                            condition, ne jugent plus d’eux-mêmes par leur première bassesse, mais
+                            par l’élévation et la fortune des gens qu’ils servent, et mettent tous
+                            ceux qui entrent par leur porte, et montent leur escalier,
+                            indifféremment au-dessous d’eux et de leurs maîtres : tant il est vrai
+                            qu’on est destiné à souffrir des grands et de ce qui leur
+                            appartient.</p>
+                    </div3>
+                    <div3 type="caractère" n="34" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Un homme en place doit aimer son
+                            prince, sa femme, ses enfants, et après eux les gens d’esprit ; il les
+                            doit adopter, il doit s’en fournir et n’en jamais manquer. Il ne saurait
+                            payer, je ne dis pas de trop de pensions et de bienfaits, mais de trop
+                            de familiarité et de caresses, les secours et les services qu’il en
+                            tire, même sans le savoir. Quels petits bruits ne dissipent-ils pas ?
+                            quelles histoires ne réduisent-ils pas à la fable et à la fiction ? Ne
+                            savent-ils pas justifier les mauvais succès par les bonnes intentions,
+                            prouver la bonté d’un dessein et la justesse des mesures par le bonheur
+                            des événements, s’élever contre la malignité et l’envie pour accorder à
+                            de bonnes entreprises de meilleurs motifs, donner des explications
+                            favorables à des apparences qui étaient mauvaises, détourner les petits
+                            défauts, ne montrer que les vertus, et les mettre dans leur jour, semer
+                            en mille occasions des faits et des détails qui soient avantageux, et
+                            tourner le ris et la moquerie contre ceux qui oseraient en douter ou
+                            avancer des faits contraires ? Je sais que les grands ont pour maxime de
+                            laisser parler et de continuer d’agir ; mais je sais aussi qu’il leur
+                            arrive en plusieurs rencontres que laisser dire les empêche de faire.
+                        </p>
+                    </div3>
+                    <div3 type="caractère" n="35" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Sentir le mérite, et quand il est
+                            une fois connu, le bien traiter, deux grandes démarches à faire tout de
+                            suite, et dont la plupart des grands sont fort incapables.</p>
+                    </div3>
+                    <div3 type="caractère" n="36" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Tu es grand, tu es puissant : ce
+                            n’est pas assez ; fais que je t’estime, afin que je sois triste d’être
+                            déchu de tes bonnes grâces, ou de n’avoir pu les acquérir.</p>
+                    </div3>
+                    <div3 type="caractère" n="37" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Vous dites d’un grand ou d’un
+                            homme en place qu’il est prévenant, officieux, qu’il aime à faire
+                            plaisir ; et vous le confirmez par un long détail de ce qu’il a fait en
+                            une affaire où il a su que vous preniez intérêt. Je vous entends : on va
+                            pour vous au-devant de la sollicitation, vous avez du crédit, vous êtes
+                            connu du ministre, vous êtes bien avec les puissances ; désiriez-vous
+                            que je susse autre chose ?</p>
+                        <p source="#édition8">Quelqu’un vous dit : Je me plains d’un tel, il est
+                            fier depuis son élévation, il me dédaigne, il ne me connaît plus. — Je
+                            n’ai pas, pour moi, lui répondez-vous, sujet de m’en plaindre ; au
+                            contraire, je m’en loue fort, et il me semble même qu’il est assez
+                            civil. Je crois encore vous entendre : vous voulez qu’on sache qu’un
+                            homme en place a de l’attention pour vous, et qu’il vous démêle dans
+                            l’antichambre entre mille honnêtes gens de qui il détourne ses yeux, de
+                            peur de tomber dans l’inconvénient de leur rendre le salut ou de leur
+                            sourire. </p>
+                        <p source="#édition5 #édition7 #édition8">« Se louer de quelqu’un, se louer
+                            d’un grand », phrase délicate dans son origine, et qui signifie sans
+                            doute se louer soi-même, en disant d’un grand tout le bien qu’il nous a
+                            fait, ou qu’il n’a pas songé à nous faire.</p>
+                        <p source="#édition5 #édition7 #édition8">On loue les grands pour marquer
+                            qu’on les voit de près, rarement par estime ou par gratitude. On ne
+                            connaît pas souvent ceux que l’on loue ; la vanité ou la légèreté
+                            l’emportent quelquefois sur le ressentiment : on est mal content d’eux
+                            et on les loue.</p>
+                    </div3>
+                    <div3 type="caractère" n="38" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">S’il est périlleux de tremper dans
+                            une affaire suspecte, il l’est encore davantage de s’y trouver complice
+                            d’un grand : il s’en tire, et vous laisse payer doublement, pour lui et
+                            pour vous.</p>
+                    </div3>
+                    <div3 type="caractère" n="39" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Le prince n’a point assez de toute
+                            sa fortune pour payer une basse complaisance, si l’on en juge par tout
+                            ce que celui qu’il veut récompenser y a mis du sien ; et il n’a pas trop
+                            de toute sa puissance pour le punir, s’il mesure sa vengeance au tort
+                            qu’il en a reçu.</p>
+                    </div3>
+                    <div3 type="caractère" n="40" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">La noblesse expose sa vie pour le
+                            salut de l’Etat et pour la gloire du souverain ; le magistrat décharge
+                            le prince d’une partie du soin de juger les peuples : voilà de part et
+                            d’autre des fonctions bien sublimes et d’une merveilleuse utilité ; les
+                            hommes ne sont guère capables de plus grandes choses, et je ne sais d’où
+                            la robe et l’épée ont puisé de quoi se mépriser réciproquement.</p>
+                    </div3>
+                    <div3 type="caractère" n="41" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">S’il est vrai qu’un grand donne
+                            plus à la fortune lorsqu’il hasarde une vie destinée à couler dans les
+                            ris, le plaisir et l’abondance, qu’un particulier qui ne risque que des
+                            jours qui sont misérables, il faut avouer aussi qu’il a un tout autre
+                            dédommagement, qui est la gloire et la haute réputation. Le soldat ne
+                            sent pas qu’il soit connu ; il meurt obscur et dans la foule : il vivait
+                            de même, à la vérité, mais il vivait ; et c’est l’une des sources du
+                            défaut de courage dans les conditions basses et serviles. Ceux au
+                            contraire que la naissance démêle d’avec le peuple et expose aux yeux
+                            des hommes, à leur censure et à leurs éloges, sont même capables de
+                            sortir par effort de leur tempérament, s’il ne les portait pas à la
+                            vertu ; et cette disposition de cœur et d’esprit, qui passe des aïeuls
+                            par les pères dans leurs descendants, est cette bravoure si familière
+                            aux personnes nobles, et peut-être la noblesse même.</p>
+                        <p source="#édition5 #édition7 #édition8">Jetez-moi dans les troupes comme
+                            un simple soldat, je suis Thersite ; mettez-moi à la tête d’une armée
+                            dont j’aie à répondre à toute l’Europe, je suis Achille.</p>
+                    </div3>
+                    <div3 type="caractère" n="42" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Les princes, sans autre science ni
+                            autre règle, ont un goût de comparaison : ils sont nés et élevés au
+                            milieu et comme dans le centre des meilleures choses, à quoi ils
+                            rapportent ce qu’ils lisent, ce qu’ils voient et ce qu’ils entendent.
+                            Tout ce qui s’éloigne trop de Lulli, de Racine et de Le Brun est
+                            condamné.</p>
+                    </div3>
+                    <div3 type="caractère" n="43" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Ne parler aux jeunes princes que
+                            du soin de leur rang est un excès de précaution, lorsque toute une cour
+                            met son devoir et une partie de sa politesse à les respecter, et qu’ils
+                            sont bien moins sujets à ignorer aucun des égards dus à leur naissance,
+                            qu’à confondre les personnes, et les traiter indifféremment et sans
+                            distinction des conditions et des titres. Ils ont une fierté naturelle,
+                            qu’ils retrouvent dans les occasions ; il ne leur faut des leçons que
+                            pour la régler, que pour leur inspirer la bonté, l’honnêteté et l’esprit
+                            de discernement.</p>
+                    </div3>
+                    <div3 type="caractère" n="44" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">C’est une pure hypocrisie à un
+                            homme d’une certaine élévation de ne pas prendre d’abord le rang qui lui
+                            est dû, et que tout le monde lui cède : il ne lui coûte rien d’être
+                            modeste, de se mêler dans la multitude qui va s’ouvrir pour lui, de
+                            prendre dans une assemblée une dernière place, afin que tous l’y voient
+                            et s’empressent de l’en ôter. La modestie est d’une pratique plus amère
+                            aux hommes d’une condition ordinaire : s’ils se jettent dans la foule,
+                            on les écrase ; s’ils choisissent un poste incommode, il leur
+                            demeure.</p>
+                    </div3>
+                    <div3 type="caractère" n="45" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Aristarque se transporte dans la
+                            place avec un héraut et un trompette ; celui-ci commence : toute la
+                            multitude accourt et se rassemble. « Ecoutez, peuple, dit le héraut ;
+                            soyez attentifs ; silence, silence ! Aristarque, que vous voyez présent,
+                            doit faire demain une bonne action. » Je dirai plus simplement et sans
+                            figure : « Quelqu’un fait bien ; veut-il faire mieux ? que je ne sache
+                            pas qu’il fait bien, ou que je ne le soupçonne pas du moins de me
+                            l’avoir appris. »</p>
+                    </div3>
+                    <div3 type="caractère" n="46" source="#édition7 #édition8">
+                        <p source="#édition7 #édition8">Les meilleures actions s’altèrent et
+                            s’affaiblissent par la manière dont on les fait, et laissent même douter
+                            des intentions. Celui qui protège ou qui loue la vertu pour la vertu,
+                            qui corrige ou qui blâme le vice à cause du vice, agit simplement,
+                            naturellement, sans aucun tour, sans nulle singularité, sans faste, sans
+                            affectation ; il n’use point de réponses graves et sentencieuses, encore
+                            moins de traits piquants et satiriques : ce n’est jamais une scène qu’il
+                            joue pour le public, c’est un bon exemple qu’il donne, et un devoir dont
+                            il s’acquitte ; il ne fournit rien aux visites des femmes, ni au
+                            cabinet, ni aux nouvellistes ; il ne donne point à un homme agréable la
+                            matière d’un joli conte. Le bien qu’il vient de faire est un peu moins
+                            su, à la vérité ; mais il a fait ce bien : que voudrait-il davantage
+                            ?</p>
+                    </div3>
+                    <div3 type="caractère" n="47" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Les grands ne doivent point aimer
+                            les premiers temps : ils ne leur sont point favorables ; il est triste
+                            pour eux d’y voir que nous sortions tous du frère et de la sœur. Les
+                            hommes composent ensemble une même famille : il n’y a que le plus ou le
+                            moins dans le degré de parenté.</p>
+                    </div3>
+                    <div3 type="caractère" n="48" source="#édition7 #édition8">
+                        <p source="#édition7 #édition8">Théognis est recherché dans son ajustement,
+                            et il sort paré comme une femme ; il n’est pas hors de sa maison, qu’il
+                            a déjà ajusté ses yeux et son visage afin que ce soit une chose faite
+                            quand il sera dans le public, qu’il y paraisse tout concerté, que ceux
+                            qui passent le trouvent déjà gracieux et leur souriant, et que nul ne
+                            lui échappe. Marche-t-il dans les salles, il se tourne à droit, où il y
+                            a un grand monde, et à gauche, où il n’y a personne ; il salue ceux qui
+                            y sont et ceux qui n’y sont pas. Il embrasse un homme qu’il trouve sous
+                            sa main, il lui presse la tête contre sa poitrine ; il demande ensuite
+                            qui est celui qu’il a embrassé. Quelqu’un a besoin de lui dans une
+                            affaire qui est facile ; il va le trouver, lui fait sa prière : Théognis
+                            l’écoute favorablement, il est ravi de lui être bon à quelque chose, il
+                            le conjure de faire naître des occasions de lui rendre service ; et
+                            comme celui-ci insiste sur son affaire, il lui dit qu’il ne la fera
+                            point ; il le prie de se mettre en sa place, il l’en fait juge. Le
+                            client sort, reconduit, caressé, confus, presque content d’être
+                            refusé.</p>
+                    </div3>
+                    <div3 type="caractère" n="49" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">C’est avoir une très mauvaise
+                            opinion des hommes, et néanmoins les bien connaître, que de croire dans
+                            un grand poste leur imposer par des caresses étudiées, par de longs et
+                            stériles embrassements.</p>
+                    </div3>
+
+                    <div3 type="caractère" source="#édition5 #édition7">
+                        <p source="#édition5 #édition7">Des gens vous promettent le secret, et ils
+                            le révèlent eux-mêmes, et à leur insu ; ils ne remuent pas les lèvres,
+                            et on entend ; on lit sur leur front et dans leurs yeux, on voit au
+                            travers de leur poitrine, ils sont transparents. D'autres ne disent pas
+                            précisément une chose qui leur a été confiée ; mais ils parlent et
+                            agissent de manière qu'on la découvre de soi-même. Enfin quelques-uns
+                            méprisent votre secret, de quelque conséquence qu'il puisse être : c'est
+                            un mystère, un tel m'en a fait part, et m'a défendu de le dire ; et ils
+                            le disent.</p>
+                    </div3>
+
+                    <div3 type="caractère" n="50" source="#édition7 #édition8">
+                        <p source="#édition7 #édition8">Pamphile ne s’entretient pas avec les gens
+                            qu’il rencontre dans les salles ou dans les cours : si l’on en croit sa
+                            gravité et l’élévation de sa voix, il les reçoit, leur donne audience,
+                            les congédie ; il a des termes tout à la fois civils et hautains, une
+                            honnêteté impérieuse et qu’il emploie sans discernement ; il a une
+                            fausse grandeur qui l’abaisse, et qui embarrasse fort ceux qui sont ses
+                            amis, et qui ne veulent pas le mépriser.</p>
+                        <p source="#édition7 #édition8">Un Pamphile est plein de lui-même, ne se
+                            perd pas de vue, ne sort point de l’idée de sa grandeur, de ses
+                            alliances, de sa charge, de sa dignité ; il ramasse, pour ainsi dire,
+                            toutes ses pièces, s’en enveloppe pour se faire valoir ; il dit : Mon
+                            ordre, mon cordon bleu ; il l’étale ou il le cache par ostentation. Un
+                            Pamphile en un mot veut être grand, il croit l’être ; il ne l’est pas,
+                            il est d’après un grand. Si quelquefois il sourit à un homme du dernier
+                            ordre, à un homme d’esprit, il choisit son temps si juste, qu’il n’est
+                            jamais pris sur le fait : aussi la rougeur lui monterait-elle au visage
+                            s’il était malheureusement surpris dans la moindre familiarité avec
+                            quelqu’un qui n’est ni opulent, ni puissant, ni ami d’un ministre, ni
+                            son allié, ni son domestique. Il est sévère et inexorable à qui n’a
+                            point encore fait sa fortune. Il vous aperçoit un jour dans une galerie,
+                            et il vous fuit ; et le lendemain, s’il vous trouve en un endroit moins
+                            public, ou s’il est public, en la compagnie d’un grand, il prend
+                            courage, il vient à vous, et il vous dit : Vous ne faisiez pas hier
+                            semblant de nous voir. Tantôt il vous quitte brusquement pour joindre un
+                            seigneur ou un premier commis ; et tantôt s’il les trouve avec vous en
+                            conversation, il vous coupe et vous les enlève. Vous l’abordez une autre
+                            fois, et il ne s’arrête pas ; il se fait suivre, vous parle si haut que
+                            c’est une scène pour ceux qui passent. Aussi les Pamphiles sont-ils
+                            toujours comme sur un théâtre : gens nourris dans le faux, et qui ne
+                            haïssent rien tant que d’être naturels ; vrais personnages de comédie,
+                            des Floridors, des Mondoris.</p>
+                        <p source="#édition8">On ne tarit point sur les Pamphiles : ils sont bas et
+                            timides devant les princes et les ministres ; pleins de hauteur et de
+                            confiance avec ceux qui n’ont que de la vertu ; muets et embarrassés
+                            avec les savants ; vifs, hardis et décisifs avec ceux qui ne savent
+                            rien. Ils parlent de guerre à un homme de robe, et de politique à un
+                            financier ; ils savent l’histoire avec les femmes ; ils sont poètes avec
+                            un docteur, et géomètres avec un poète. De maximes, ils ne s’en chargent
+                            pas ; de principes, encore moins : ils vivent à l’aventure, poussés et
+                            entraînés par le vent de la faveur et par l’attrait des richesses. Ils
+                            n’ont point d’opinion qui soit à eux, qui leur soit propre ; ils en
+                            empruntent à mesure qu’ils en ont besoin ; et celui à qui ils ont
+                            recours n’est guère un homme sage, ou habile, ou vertueux : c’est un
+                            homme à la mode.</p>
+                    </div3>
+                    <div3 type="caractère" n="51" source="#édition7 #édition8">
+                        <p source="#édition7 #édition8">Nous avons pour les grands et pour les gens
+                            en place une jalousie stérile ou une haine impuissante, qui ne nous
+                            venge point de leur splendeur et de leur élévation, et qui ne fait
+                            qu’ajouter à notre propre misère le poids insupportable du bonheur
+                            d’autrui. Que faire contre une maladie de l’âme si invétérée et si
+                            contagieuse ? Contentons-nous de peu, et de moins encore s’il est
+                            possible ; sachons perdre dans l’occasion : la recette est infaillible,
+                            et je consens à l’éprouver. J’évite par là d’apprivoiser un suisse ou de
+                            fléchir un commis ; d’être repoussé à une porte par la foule innombrable
+                            de clients ou de courtisans dont la maison d’un ministre se dégorge
+                            plusieurs fois le jour ; de languir dans sa salle d’audience ; de lui
+                            demander en tremblant et en balbutiant une chose juste ; d’essuyer sa
+                            gravité, son ris amer et son laconisme. Alors je ne le hais plus, je ne
+                            lui porte plus d’envie ; il ne me fait aucune prière, je ne lui en fais
+                            pas ; nous sommes égaux, si ce n’est peut-être qu’il n’est pas
+                            tranquille, et que je le suis.</p>
+                    </div3>
+                    <div3 type="caractère" n="52" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">Si les grands ont les occasions de
+                            nous faire du bien, ils en ont rarement la volonté ; et s’ils désirent
+                            de nous faire du mal, ils n’en trouvent pas toujours les occasions.
+                            Ainsi l’on peut être trompé dans l’espèce de culte qu’on leur rend, s’il
+                            n’est fondé que sur l’espérance ou sur la crainte ; et une longue vie se
+                            termine quelquefois sans qu’il arrive de dépendre d’eux pour le moindre
+                            intérêt, ou qu’on leur doive sa bonne ou sa mauvaise fortune. Nous
+                            devons les honorer, parce qu’ils sont grands et que nous sommes petits,
+                            et qu’il y en a d’autres plus petits que nous qui nous honorent.</p>
+                    </div3>
+                    <div3 type="caractère" n="53" source="#édition7 #édition8">
+                        <p source="#édition7 #édition8">À la cour, à la ville, mêmes passions, mêmes
+                            faiblesses, mêmes petitesses, mêmes travers d’esprit, mêmes brouilleries
+                            dans les familles et entre les proches, mêmes envies, mêmes antipathies.
+                            Partout des brus et des belles-mères, des maris et des femmes, des
+                            divorces, des ruptures, et de mauvais raccommodements ; partout des
+                            humeurs, des colères, des partialités, des rapports, et ce qu’on appelle
+                            de mauvais discours. Avec de bons yeux on voit sans peine la petite
+                            ville, la rue Saint-Denis, comme transportées à V** ou à F**. Ici l’on
+                            croit se haïr avec plus de fierté et de hauteur, et peut-être avec plus
+                            de dignité : on se nuit réciproquement avec plus d’habileté et de
+                            finesse ; les colères sont plus éloquentes, et l’on se dit des injures
+                            plus poliment et en meilleurs termes ; l’on n’y blesse point la pureté
+                            de la langue ; l’on n’y offense que les hommes ou que leur réputation :
+                            tous les dehors du vice y sont spécieux ; mais le fond, encore une fois,
+                            y est le même que dans les conditions les plus ravalées ; tout le bas,
+                            tout le faible et tout l’indigne s’y trouvent. Ces hommes si grands ou
+                            par leur naissance, ou par leur faveur, ou par leurs dignités, ces têtes
+                            si fortes et si habiles, ces femmes si polies et si spirituelles, tous
+                            méprisent le peuple, et ils sont peuple.</p>
+                        <p source="#édition7 #édition8">Qui dit le peuple dit plus d’une chose :
+                            c’est une vaste expression, et l’on s’étonnerait de voir ce qu’elle
+                            embrasse, et jusques où elle s’étend. Il y a le peuple qui est opposé
+                            aux grands : c’est la populace et la multitude ; il y a le peuple qui
+                            est opposé aux sages, aux habiles et aux vertueux : ce sont les grands
+                            comme les petits.</p>
+                    </div3>
+                    <div3 type="caractère" n="54" source="#édition7 #édition8">
+                        <p source="#édition7 #édition8">Les grands se gouvernent par sentiment, âmes
+                            oisives sur lesquelles tout fait d’abord une vive impression. Une chose
+                            arrive, ils en parlent trop ; bientôt ils en parlent peu ; ensuite ils
+                            n’en parlent plus, et ils n’en parleront plus. Action, conduite,
+                            ouvrage, événement, tout est oublié ; ne leur demandez ni correction, ni
+                            prévoyance, ni réflexion, ni reconnaissance, ni récompense.</p>
+                    </div3>
+                    <div3 type="caractère" n="55" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">L’on se porte aux extrémités
+                            opposées à l’égard de certains personnages. La satire après leur mort
+                            court parmi le peuple, pendant que les voûtes des temples retentissent
+                            de leurs éloges. Ils ne méritent quelquefois ni libelles ni discours
+                            funèbres ; quelquefois aussi ils sont dignes de tous les deux.</p>
+                    </div3>
+                    <div3 type="caractère" n="56" source="#édition5 #édition7 #édition8">
+                        <p source="#édition5 #édition7 #édition8">L’on doit se taire sur les
+                            puissants : il y a presque toujours de la flatterie à en dire du bien ;
+                            il y a du péril à en dire du mal pendant qu’ils vivent, et de la lâcheté
+                            quand ils sont morts. </p>
                     </div3>
                 </div2>
             </div1>
