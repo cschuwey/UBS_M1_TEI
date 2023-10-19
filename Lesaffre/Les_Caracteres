@@ -37,8 +37,7 @@
                     <date>1694</date>
                     <pubPlace>Paris<country>France</country></pubPlace>
                     <biblScope>716 pages</biblScope>
-                    <ref type="URL"
-                        >https://books.google.fr/books?id=2SeBerCnLvkC&newbks=1&newbks_redir=0&dq=la%20bruyere%20caract%C3%A8res%201694&hl=fr&pg=PA574#v=onepage&q&f=false</ref>
+                    <ref type="URL"/>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -51,7 +50,9 @@
                     <p>Ponctuation modernisée</p>
                 </normalization>
                 <interpretation>
-                    <p/>
+                    <p>Les notes ajoutées par l'encodeuse ont été marquées comme telles avec
+                        l'attribut resp="encodeuse", et ne sont pas présent dans les versions papier
+                        des textes encodés.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -75,8 +76,13 @@
                 <item><date when="2023-10-17">17 octobre 2023</date>Retrait des éléments ptr et
                     ajout des attributs source dans les éléments div3.</item>
                 <item><date when="2023-10-18">18 octobre 2023</date>Changement de source pour la
-                    huitième édition des Caractères, en raison de l'absence de la 21e remarque dans l'édition utilisée auparavant.. Ajout des notes que cette édition
+                    huitième édition des Caractères, en raison de l'absence de la 21e remarque dans
+                    l'édition utilisée auparavant.. Ajout des notes que cette édition
                     présente</item>
+                <item><date when="2023-10-19">19 octobre 2023</date>Vérification du texte encodé
+                    avec les textes sources. Ajout d'une note d'encodeuse, et ajout d'une note
+                    d'interprétation. Correction des attributs sources. Ajouts de passages dans le
+                    texte de base, en fonction du contenu des originaux.</item>
 
             </list>
         </revisionDesc>
@@ -94,23 +100,25 @@
                             se laisse habiller par son tailleur : il y a autant de faiblesse à fuir
                             la mode qu’à l’affecter.</p>
                     </div3>
-                    <div3 source="#edition8" n="12">
+                    <div3 source="#edition4 #edition8" n="12">
                         <p>L’on blâme une mode qui divisant la taille des hommes en deux parties
                             égales, en prend une tout entière pour le buste, et laisse l’autre pour
-                            le reste du corps ; l’on condamne celle des femmes la base d’un édifice
-                            à plusieurs étages dont l’ordre et la structure change selon leurs
-                            caprices, qui éloigne les cheveux du visage, bien qu’ils ne croissent
-                            que pour l’accompagner, qui les relève et les hérisse à la manière des
-                            bacchantes, et semble avoir pourvu à ce que les femmes changent leur
-                            physionomie douce et modeste en une autre qui soit fière et audacieuse ;
-                            on se récrie enfin contre une telle ou une telle mode, qui cependant,
-                            toute bizarre qu’elle est, pare et embellit pendant qu’elle dure, et
-                            dont l’on tire tout l’avantage qu’on en peut espérer, qui est de plaire.
-                            Il me paraît /semble qu’on devrait seulement admirer l’inconstance et la
-                            légèreté des hommes, qui attachent successivement les agréments et la
-                            bienséance à des choses tout opposées, qui emploient pour le comique et
-                            pour la mascarade ce qui leur a servi de parure grave et d’ornements les
-                            plus sérieux ; et que si peu de temps en fasse la différence.</p>
+                            le reste du corps ; l’on condamne celle qui fait de la tête des femmes
+                            la base d’un édifice à plusieurs étages dont l’ordre et la structure
+                            change selon leurs caprices, qui éloigne les cheveux du visage, bien
+                            qu’ils ne croissent que pour l’accompagner, qui les relève et les
+                            hérisse à la manière des bacchantes, et semble avoir pourvu à ce que les
+                            femmes changent leur physionomie douce et modeste en une autre qui soit
+                            fière et audacieuse ; on se récrie enfin contre une telle ou une telle
+                            mode, qui cependant, toute bizarre qu’elle est, pare et embellit pendant
+                            qu’elle dure, et dont l’on tire tout l’avantage qu’on en peut espérer,
+                            qui est de plaire. Il me paraît<note resp="encodeuse" type="variante"
+                                source="#edition4">semble</note> qu’on devrait seulement admirer
+                            l’inconstance et la légèreté des hommes, qui attachent successivement
+                            les agréments et la bienséance à des choses tout opposées, qui emploient
+                            pour le comique et pour la mascarade ce qui leur a servi de parure grave
+                            et d’ornements les plus sérieux ; et que si peu de temps en fasse la
+                            différence.</p>
                     </div3>
                     <div3 source="#edition8" n="13">
                         <p>N… est riche, elle mange bien, elle dort bien ; mais les coiffures
@@ -156,31 +164,33 @@
                             plus de plaisir à voir, c’est la plus ancienne : aidée du temps et des
                             années, elle a le même agrément dans les portraits qu’a la saye ou
                             l’habit romain sur les théâtres, qu’ont la mante<noteGrp position="ext"
-                                place="margin" type="definition"><note>Habits des
-                                    Orientaux</note> , le voile<note/> et la tiare<note> </note>dans
-                                nos tapisseries et dans nos peintures.</noteGrp></p>
+                                place="margin" type="definition"><note>Habits des Orientaux</note> ,
+                                le voile<note>Habits de Orientaux</note> et la tiare<note>Habits des
+                                    Orientaux</note> dans nos tapisseries et dans nos
+                                peintures.</noteGrp></p>
                         <p>Nos pères nous ont transmis, avec la connaissance de leurs personnes,
-                            celle de leurs habits, de leurs coiffures, de leurs armes <note
-                                position="ext" place="margin" type="definition">offensives et défensives</note> , et des autres ornements qu’ils
-                            ont aimés pendant leur vie. Nous ne saurions bien reconnaître cette
-                            sorte de bienfait qu’en traitant de même nos descendants.</p>
+                            celle de leurs habits, de leurs coiffures, de leurs armes<note
+                                position="ext" place="margin" type="definition">offensives et
+                                défensives</note> , et des autres ornements qu’ils ont aimés pendant
+                            leur vie. Nous ne saurions bien reconnaître cette sorte de bienfait
+                            qu’en traitant de même nos descendants.</p>
                     </div3>
-                    <div3 source="#edition4" n="16">
+                    <div3 source="#edition4 #edition8" n="16">
                         <p>Le courtisan autrefois avait ses cheveux, étaient en chausses et en
                             pourpoint, portait de larges canons, et il était libertin. Cela ne sied
                             plus : il porte une perruque, l’habit serré, le bas uni, et il est dévot
                             : tout se règle par la mode.</p>
                     </div3>
-                    <div3 source="#edition4" n="17">
+                    <div3 source="#edition4 #edition8" n="17">
                         <p>Celui qui depuis quelque temps à la cour était dévot, et par là, contre
                             toute raison, peu éloigné du ridicule, pouvait-il espérer de devenir à
                             la mode ?</p>
                     </div3>
-                    <div3 source="#edition4" n="18">
+                    <div3 source="#edition4 #edition8" n="18">
                         <p>De quoi n’est point capable un courtisan dans la vue de sa fortune, si
                             pour ne la pas manquer il devient dévot ?</p>
                     </div3>
-                    <div3 source="#edition4" n="19">
+                    <div3 source="#edition4 #edition8" n="19">
                         <p>Les couleurs sont préparées, et la toile est toute prête ; mais comment
                             le fixer, cet homme inquiet, léger, inconstant, qui change de mille et
                             mille figures ? Je le peins dévot, et je crois l’avoir attrapé ; mais il
@@ -191,8 +201,8 @@
                     </div3>
                     <div3 source="#edition8" n="20">
                         <p>Celui qui a pénétré la cour connaît ce que c’est que vertu et ce que
-                            c’est que dévotion<note position="ext" place="margin" type="definition">fausse dévotion</note> il ne peut plus s’y
-                            tromper.</p>
+                            c’est que dévotion<note position="ext" place="margin" type="definition"
+                                >fausse dévotion</note> il ne peut plus s’y tromper.</p>
                     </div3>
                     <div3 source="#edition8" n="21">
                         <p>Négliger vêpres comme une chose antique et hors de mode, garder sa place
@@ -216,8 +226,9 @@
                             prospérité et la faveur, n’en vouloir que pour soi, ne point aider au
                             mérite, faire servir la piété à son ambition, aller à son salut par le
                             chemin de la fortune et des dignités : c’est du moins jusqu’à ce jour le
-                            plus bel effort de la dévotion du temps. Un dévot<note position="ext" place="margin" type="definition">faux dévot</note> est celui qui sous un
-                            roi athée serait athée.</p>
+                            plus bel effort de la dévotion du temps.</p>
+                        <p>Un dévot<note position="ext" place="margin" type="definition">faux
+                                dévot</note> est celui qui sous un roi athée serait athée.</p>
                     </div3>
                 </div2>
             </div1>
