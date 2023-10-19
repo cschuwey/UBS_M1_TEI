@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les
+                    mœurs de ce siècle</title>
+                <author>Jean de La Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Github</publisher>
+                <authority>M. Guilbault</authority>
+                <date when-iso="2023-10-09">09/10/2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Jean de La Bruyère</author>
+                        <title>Les caractères</title>
+                        <title type="sub">de Théophraste traduits du grec ; avec les caractères ou
+                            les mœurs de ce siècle</title>
+                        <!--Il était difficile de voir ce qui était du titre ou du sous-titre, j'ai donc divisé le titre de cette manière pour utiliser l'attribut sub pour l'exercice-->
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>chez Estienne Michalletchez Estienne Michallet</publisher>
+                            <date when="1691">1691</date>
+                            <!-- Sixième édition-->
+                        </imprint>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>chez Estienne Michalletchez Estienne Michallet</publisher>
+                            <date when="1696">1696</date>
+                            <!-- huitième édition-->
+                            <!--Je voulais préciser le numéro de l'édition mais je n'ai pas trouvé où et comment l'indiquer-->
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique M1, UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Nous avons choisi de moderniser le texte.</p>
+                </normalization>
+                <p>Nous n'avons pas tenu compte des aspects matériels de l'original.</p>
+                <!-- Expliquer les valeurs de n en fonction de div 2 et div 3 -->
+                <p>Le n dans la div3 correspond au numéro de la remarque donné par les éditeurs
+                    critiques de la dernière édition.</p>
+                <p>La source "éditionX" équivaut à celle donnée sur github, les autres sont celles
+                    que j'ai choisi.</p>
+            </editorialDecl>
+            <p xml:id="edition1">édition 1</p>
+            <!-- Je ne sais pas quelle balise utiliser, comme ce n'est pas "role", donc j'ai utilisé "p" par défaut-->
+            <p xml:id="edition6">édition 6</p>
+            <p xml:id="edition8">édition 8</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09">Encodagede du header.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front> </front>
+        <body>
+            <div1>
+                <head>Les Caractères ou les Mœurs de ce Siècle</head>
+                <div2 type="chapitre" n="12">
+                    <head>Des jugements</head>
+                    <div3 source="#edition6" type="remarque" n="53">
+                        <p>Le sot est embarrassé de sa personne ; le fat a l’air libre et assuré ;
+                            l’impertinent passe à l’effronterie : le mérite a de la pudeur.</p>
+                    </div3>
+                    <div3 source="#editionX" type="remarque" n="54">
+                        <p>Le suffisant est celui en qui la pratique de certains détails que l’on
+                            honore du nom d’affaires se trouve jointe à une très grande médiocrité
+                            d’esprit. Un grain d’esprit et une once d’affaires plus qu’il n’en entre
+                            dans la composition du suffisant, font l’important.</p>
+                        <p source="#edition8">Un grain d'esprit et une once d'affaires plus qu'il
+                            n'en entre dans la composition du suffisant, sont l'important.</p>
+                        <p>Pendant qu’on ne fait que rire de l’important, il n’a pas un autre nom ;
+                            dès qu’on s’en plaint, c’est l’arrogant.</p>
+                    </div3>
+                    <div3 source="#editionX" type="remarque" n="55">
+
+                        <!-- voir dans quelles éditions sont les remarques par rapport aux éditions qu'on a ajouté, ou en chercher une nouvelle s'il y a pas assez de différences-->
+                        <p>L’honnête homme tient le milieu entre l’habile homme et l’homme de bien,
+                            quoique dans une distance inégale de ces deux extrêmes.</p>
+                        <p> La distance qu’il y a de l’honnête, homme à l’habile homme s’affaiblit
+                            de jour à autre, et est sur le point de disparaître.</p>
+                        <p>L’habile homme est celui qui cache ses passions, qui entend ses intérêts,
+                            qui y sacrifie beaucoup de choses, qui a su acquérir du bien ou en
+                            conserver.</p>
+                        <p>L’honnête homme est celui qui ne vole pas sur les grands chemins, et qui
+                            ne tue personne, dont les vices enfin ne sont pas scandaleux.</p>
+                        <p>On connaît assez qu’un homme de bien est honnête homme ; mais il est
+                            plaisant d’imaginer que tout honnête homme n’est pas homme de bien.</p>
+                        <p>L’homme de bien est celui qui n’est ni un saint ni un dévot, et qui s’est
+                            borné à n’avoir que de la vertu.</p>
+                        <!-- Il a ajouté avec un * après "dévot" : "Faux dévot", mais je ne sais pas comment ajouter cette information avec l'attribut édition dans le paragraphe. -->
+                    </div3>
+                    <div3 source="#edition6" type="remarque" n="56">
+                        <!-- attribut source= à ajouter dans div3 ou <p> pour préciser dans quelle édition provient les remarques-->
+
+                        <p>Talent,goût, esprit, bon sens, choses différentes, non incompatibles.</p>
+                        <p>Entre le bon sens et le bon goût il y a la différence de la cause à son
+                            effet.</p>
+                        <p>Entre esprit et talent il y a la proportion du tout à sa partie.</p>
+                        <p>Appellerai-je homme d’esprit celui qui, borné et renfermé dans quelque
+                            art, ou même dans une certaine science qu’il exerce dans une grande
+                            perfection, ne montre hors de là ni jugement, ni mémoire, ni vivacité,
+                            ni mœurs, ni conduite ; qui ne m’entend pas, qui ne pense point, qui
+                            s’énonce mal ; un musicien par exemple, qui après m’avoir comme enchanté
+                            par ses accords, semble s’être remis avec son luth dans un même étui, ou
+                            n’être plus sans cet instrument qu’une machine démontée, à qui il manque
+                            quelque chose, et dont il n’est pas permis de rien attendre ?</p>
+                        <p>Que dirai-je encore de l’esprit du jeu ? pourrait-on me le définir ? Ne
+                            faut-il ni prévoyance, ni finesse, ni habileté pour jouer l’hombre ou
+                            les échecs ? et s’il en faut, pourquoi voit-on des imbéciles qui y
+                            excellent, et de très beaux génies qui n’ont pu même atteindre la
+                            médiocrité, à qui une pièce ou une carte dans les mains trouble la vue,
+                            et fait perdre contenance ?</p>
+                        <p>Il y a dans le monde quelque chose, s’il se peut, de plus
+                            incompréhensible. Un homme paraît grossier, lourd, stupide ; il ne sait
+                            pas parler, ni raconter ce qu’il vient de voir : s’il se met à écrire,
+                            c’est le modèle des bons contes ; il fait parler les animaux, les
+                            arbres, les pierres, tout ce qui ne parle point : ce n’est que légèreté,
+                            qu’élégance, que beau naturel, et que délicatesse dans ses ouvrages.</p>
+                        <p>Un autre est simple, timide, d’une ennuyeuse conversation ; il prend un
+                            mot pour un autre, et il ne juge de la bonté de sa pièce que par
+                            l’argent qui lui en revient ; il ne sait pas la réciter, ni lire son
+                            écriture. Laissez-le s’élever par la composition : il n’est pas
+                            au-dessous d’Auguste, de Pompée, de Nicomède, d’Heraclius ; il est roi,
+                            et un grand roi ; il est politique, il est philosophe ; il entreprend de
+                            faire parler des héros, de les faire agir ; il peint les Romains ; ils
+                            sont plus grands et plus Romains dans ses vers que dans leur
+                            histoire.</p>
+                        <p>Voulez-vous quelque autre prodige ? Concevez un homme facile, doux,
+                            complaisant, traitable, et tout d’un coup violent, colère, fougueux,
+                            capricieux. Imaginez-vous un homme simple, ingénu, crédule, badin,
+                            volage, un enfant en cheveux gris ; mais permettez-lui de se recueillir,
+                            ou plutôt de se livrer à un génie qui agit en lui, j’ose dire, sans
+                            qu’il y prenne part et comme à son insu : quelle verve ! quelle
+                            élévation ! quelles images ! quelle latinité !</p>
+                        <p>— Parlez-vous d’une même personne ? me direz-vous.</p>
+                        <p>— Oui, du même, de Théodas, et de lui seul. Il crie, il s’agite, il se
+                            roule à terre, il se relève, il tonne, il éclate ; et du milieu de cette
+                            tempête il sort une lumière qui brille et qui réjouit. Disons-le sans
+                            figure : il parle comme un fou, et pense comme un homme sage ; il dit
+                            ridiculement des choses vraies, et follement des choses sensées et
+                            raisonnables ; on est surpris de voir naître et éclore le bon sens du
+                            sein de la bouffonnerie, parmi les grimaces et les contorsions.
+                            Qu’ajouterai-je davantage ? Il dit et il fait mieux qu’il ne sait ; ce
+                            sont en lui comme deux âmes qui ne se connaissent point, qui ne
+                            dépendent point l’une de l’autre, qui ont chacune leur tour, ou leurs
+                            fonctions toutes séparées. Il manquerait un trait à cette peinture si
+                            surprenante, si j’oubliais de dire qu’il est tout à la fois avide et
+                            insatiable de louanges, prêt de se jeter aux yeux de ses critiques, et
+                            dans le fond assez docile pour profiter de leur censure. Je commence à
+                            me persuader moi-même que j’ai fait le portrait de deux personnages tout
+                            différents. Il ne serait pas même impossible d’en trouver un troisième
+                            dans Théodas ; car il est bon homme, il est plaisant homme, et il est
+                            excellent homme.</p>
+                    </div3>
+                    <div3 source="#edition6" type="remarque" n="57">
+                        <p>Après l’esprit de discernement, ce qu’il y a au monde de plus rare, ce
+                            sont les diamants et les perles.</p>
+                    </div3>
+                    <div3 source="#edition6" type="remarque" n="58">
+                        <p>Tel, connu dans le monde par de grands talents honoré et chéri partout où
+                            il se trouve, est petit dans son domestique et aux yeux de ses proches,
+                            qu’il n’a pu réduire à l’estimer ; tel autre, au contraire, prophète
+                            dans son pays, jouit d’une vogue qu’il a parmi les siens et qui est
+                            resserrée dans l’enceinte de sa maison, s’applaudit d’un mérite rare et
+                            singulier, qui lui est accordé par sa famille dont il est l’idole, mais
+                            qu’il laisse chez soi toutes les fois qu’il sort, et qu’il ne porte
+                            nulle part.</p>
+                    </div3>
+                    <div3 source="#edition6" type="remarque" n="59">
+                        <p>Tout le monde s’élève contre un homme qui entre en réputation : à peine
+                            ceux qu’il croit ses amis lui pardonnent-ils un mérite naissant et une
+                            première vogue qui semble l’associer à la gloire dont ils sont déjà en
+                            possession ; l’on ne se rend qu’à l’extrémité, et après que le Prince
+                            s’est déclaré par les récompenses : tous alors se rapprochent de lui, et
+                            de ce jour-là seulement il prend son rang d’homme de mérite.</p>
+                    </div3>
+                    <div3 source="#editionX" type="remarque" n="60">
+                        <p>Nous affectons souvent de louer avec exagération des hommes assez
+                            médiocres, et de les élever, s’il se pouvait, jusqu’à la hauteur de ceux
+                            qui excellent, ou parce que nous somme las d’admirer toujours les mêmes
+                            personnes, ou parce que leur gloire, ainsi partagée, offense moins notre
+                            vue, et nous devient plus douce et plus supportable. </p>
+                    </div3>
+                    <div3 source="#editionX" type="remarque" n="61">
+                        <p>L’on voit des hommes que le vent de la faveur pousse d’abord à pleines
+                            voiles ; ils perdent en un moment la terre de vue, et font leur route :
+                            tout leur rit, tout leur succède ; action, ouvrage, tout est comblé
+                            d’éloges et de récompenses ; ils ne se montrent que pour être embrassés
+                            et félicités. Il y a un rocher immobile qui s’élève sur une côte ; les
+                            flots se brisent au pied ; la puissance, les richesses, la violence, la
+                            flatterie, l’autorité, la faveur, tous les vents ne l’ébranlent pas :
+                            c’est le public, où ces gens échouent.</p>
+                    </div3>
+                    <div3 source="#editionX" type="remarque" n="62">
+                        <p> Il est ordinaire et comme naturel de juger du travail d’autrui seulement
+                            par rapport à celui qui nous occupe. Ainsi le poète, rempli de grandes
+                            et sublimes idées, estime peu le discours de l’orateur, qui ne s’exerce
+                            souvent que sur de simples faits ; et celui qui écrit l’histoire de son
+                            pays ne peut comprendre qu’un esprit raisonnable emploie sa vie à
+                            imaginer des fictions et à trouver une rime ; de même le bachelier
+                            plongé dans les quatre premiers siècles, traite toute autre doctrine de
+                            science triste, vaine et inutile, pendant qu’il est peut-être méprisé du
+                            géomètre.</p>
+                    </div3>
+                    <div3 source="#editionX" type="remarque" n="63">
+                        <p>(IV) Tel a assez d’esprit pour exceller dans une certaine matière et en
+                            faire des leçons, qui en manque pour voir qu’il doit se taire sur
+                            quelque autre dont il n’a qu’une faible connaissance : il sort hardiment
+                            des limites de son génie, mais il s’égare, et fait que l’homme illustre
+                            parle comme un sot.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
