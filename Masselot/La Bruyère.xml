@@ -14,7 +14,7 @@
             </publicationStmt>
 
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="Edition1">
                     <author>Jean de La Bruyère</author>
                     <title>Les Caractères de Théophraste traduits du grec. Avec Les Caractères ou
                         les Moeurs de ce siècle.</title>
@@ -24,7 +24,7 @@
                     <idno>BNF Rés R-2056</idno>
                     <idno type="url">https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item</idno>
                 </bibl>
-                <bibl>
+                <bibl xml:id="Edition2">
                     <author>Jean de La Bruyère</author>
                     <title>Les Caractères de Théophraste traduits du grec : avec Les Caractères ou
                         les Moeurs de ce siècle. Sixième édition corrigée et augmentée</title>
@@ -36,13 +36,36 @@
             </sourceDesc>
         </fileDesc>
 
+        <encodingDesc>
+            
+            <editorialDecl>
+                <normalization>
+                    <p>La graphie et la ponctuation ont été modernisées</p>
+                </normalization>
+            </editorialDecl>
+
+            <editorialDecl>
+                <interpretation>
+                    <p>Même si Théophraste est censé être l'auteur des "Caractères" et La Bruyère le
+                        traducteur, étant donné que la plus grande partie de l'ouvrage est écrite
+                        par ce dernier seul lui est crédité comme auteur</p>
+
+                    <p>Les sources ne sont indiquées que dans les balises "div3" parce que les
+                        pragraphes en son sein ne changent pas dans les deux éditions choisies</p>
+                    
+                    <p>La numérotation des remarques dans "div3" a été conservée pour conserver la numérotation convenue par la suite pour "Les Caractères"</p>
+
+                </interpretation>
+            </editorialDecl>
+            
+        </encodingDesc>
+
         <revisionDesc>
             <change when="2023-10-10">Ajout de deux éditions des "Caractères" grâce à l'élément
                 "bibl"</change>
-            <change when="2023-10-10">Comme La Bruyère se sert juste des Caractères de Théophraste
-                comme prétexte pour développer sa propre réflexion, seul La Bruyère est crédité dans
-                la balise "author"</change>
+            <change when="2023-10-19">Fin de la structuration des remarques</change>
         </revisionDesc>
+
     </teiHeader>
     <text>
         <body>
@@ -52,70 +75,70 @@
                 <div2 type="chapitre">
                     <head>Du Coeur</head>
 
-                    <div3 n="74">
+                    <div3 n="74" source="#Edition2">
                         <p>Les hommes rougissent moins de leurs crimes que de leurs faiblesses et de
                             leur vanité. Tel est ouvertement injuste, violent, perfide,
                             calomniateur, qui cache son amour ou son ambition, sans autre vue que de
                             la cacher.</p>
                     </div3>
 
-                    <div3 n="75">
+                    <div3 n="75" source="#Edition2">
                         <p>Le cas n’arrive guère où l’on puisse dire : "J’étais ambitieux" ; ou on
                             ne l’est point, ou on l’est toujours ; mais le temps vient où l’on avoue
                             que l’on a aimé.</p>
                     </div3>
 
-                    <div3 n="76">
+                    <div3 n="76" source="#Edition2">
                         <p>Les hommes commencent par l’amour, finissent par l’ambition, et ne se
                             trouvent souvent dans une assiette plus tranquille que lorsqu’ils
                             meurent.</p>
                     </div3>
 
-                    <div3 n="77">
+                    <div3 n="77" source="#Edition2">
                         <p>Rien ne coûte moins à la passion que de se mettre au-dessus de la raison
                             : son grand triomphe est de l’emporter sur l’intérêt.</p>
                     </div3>
 
-                    <div3 n="78">
+                    <div3 n="78" source="#Edition2">
                         <p>L’on est plus sociable et d’un meilleur commerce par le cœur que par
                             l’esprit.</p>
                     </div3>
 
-                    <div3 n="79">
+                    <div3 n="79" source="#Edition2">
                         <p>Il y a de certains grands sentiments, de certaines actions nobles et
                             élevées, que nous devons moins à la force de notre esprit qu’à la bonté
                             de notre naturel.</p>
                     </div3>
 
-                    <div3 n="80">
+                    <div3 n="80" source="#Edition2">
                         <p>Il n’y a guère au monde un plus bel excès que celui de la
                             reconnaissance.</p>
                     </div3>
 
-                    <div3 n="81">
+                    <div3 n="81" source="#Edition2">
                         <p>Il faut être bien dénué d’esprit, si l’amour, la malignité, la nécessité
                             n’en font pas trouver.</p>
                     </div3>
 
-                    <div3 n="82">
+                    <div3 n="82" source="#Edition2">
                         <p>Il y a des lieux que l’on admire : il y en a d’autres qui touchent, et où
                             l’on aimerait à vivre.</p>
                         <p>Il me semble que l’on dépend des lieux pour l’esprit, l’humeur, la
                             passion, le goût et les sentiments.</p>
                     </div3>
 
-                    <div3 n="83">
+                    <div3 n="83" source="#Edition2">
                         <p>Ceux qui font bien mériteraient seuls d’être enviés, s’il n’y avait
                             encore un meilleur parti à prendre, qui est de faire mieux : c’est une
                             douce vengeance contre ceux qui nous donnent cette jalousie.</p>
                     </div3>
 
-                    <div3 n="84">
+                    <div3 n="84" source="#Edition2">
                         <p>Quelques-uns se défendent d’aimer et de faire des vers, comme de deux
                             faibles qu’ils n’osent avouer, l’un du cœur, l’autre de l’esprit.</p>
                     </div3>
 
-                    <div3 n="85">
+                    <div3 n="85" source="#Edition1 #Edition2">
                         <p>Il y a quelquefois dans le cours de la vie de si chers plaisirs et de si
                             tendres engagements que l’on nous défend, qu’il est naturel de désirer
                             du moins qu’ils fussent permis : de si grands charmes ne peuvent être
@@ -127,3 +150,5 @@
         </body>
     </text>
 </TEI>
+
+
