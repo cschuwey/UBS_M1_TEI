@@ -33,6 +33,15 @@
                         <date>1690</date>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575660?rk=150215;2</ref>
                     </bibl>
+                    <bibl xml:id="edition_8">
+                        <author>Jean de La Bruyère</author>
+                        <title>Les Caractères de Théophraste traduit du grec. Avec les Caractères ou
+                            les moeurs de ce siècle</title>
+                        <placeName>Paris</placeName>
+                        <publisher>Etienne Michallet</publisher>
+                        <date>1694</date>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=214593;2</ref>
+                    </bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -59,7 +68,7 @@
                     moeurs de ce siècle</head>
                 <div2 type="chapitre" n="8">
                     <head>De la Cour</head>
-                    <div3 n="22">
+                    <div3 n="22" source="#edition_8">
                         <p>L’on se couche à la cour et l’on se lève sur l’intérêt ; c’est ce que
                             l’on digère le matin et le soir, le jour et la nuit ; c’est ce qui fait
                             que l’on pense, que l’on parle, que l’on se tait, que l’on agit ; c’est
@@ -79,12 +88,12 @@
                             infini de courtisans vieillissent sur le oui et sur le non, et meurent
                             dans le doute.</p>
                     </div3>
-                    <div3 n="23">
+                    <div3 n="23" source="#edition_8">
                         <p>Il n’y a rien à la cour de si méprisable et de si indigne qu’un homme qui
                             ne peut contribuer en rien à notre fortune : je m’étonne qu’il ose se
                             montrer.</p>
                     </div3>
-                    <div3 n="24" source="#edition_5">
+                    <div3 n="24" source="#edition_5 #edition_8">
                         <p>Celui qui voit loin derrière soi un homme de son temps et de sa
                             condition, avec qui il est venu à la cour la première fois, s’il croit
                             avoir une raison solide d’être prévenu de son propre mérite et s’estimer
@@ -92,11 +101,11 @@
                             de ce qu’avant sa faveur il pensait de soi-même et de ceux qui l’avaient
                             devancé.</p>
                     </div3>
-                    <div3 n="25" source="#edition_5">
+                    <div3 n="25" source="#edition_5 #edition_8">
                         <p>C’est beaucoup tirer de notre ami, si, ayant monté à une grande faveur,
                             il est encore un homme de notre connaissance.</p>
                     </div3>
-                    <div3 n="26" source="#edition_5">
+                    <div3 n="26" source="#edition_5 #edition_8">
                         <p>Si celui qui est en faveur ose s’en prévaloir avant qu’elle lui échappe,
                             s’il se sert d’un bon vent qui souffle pour faire son chemin, s’il a les
                             yeux ouverts sur tout ce qui vaque, poste, abbaye, pour les demander et
@@ -114,7 +123,7 @@
                             qu’ils ont moins de tort, et l’on serait plus retenu, de peur de
                             prononcer d’avance sa condamnation.</p>
                     </div3>
-                    <div3 n="27" source="#edition_5">
+                    <div3 n="27" source="#edition_5 #edition_8">
                         <p>Il ne faut rien exagérer, ni dire des cours le mal qui n’y est point :
                             l’on n’y attente rien de pis contre le vrai mérite que de le laisser
                             quelquefois sans récompense ; on ne l’y méprise pas toujours, quand on a
@@ -122,7 +131,7 @@
                             parfaitement ne faire rien, ou faire très peu de chose, pour ceux que
                             l’on estime beaucoup.</p>
                     </div3>
-                    <div3 n="28" source="edition_5">
+                    <div3 n="28" source="#edition_5 #edition_8">
                         <p>Il est difficile à la cour que de toutes les pièces que l’on emploie à
                             l’édifice de sa fortune, il n’y en ait quelqu’une qui porte à faux :
                             l’un de mes amis qui a promis de parler ne parle point ; l’autre parle
@@ -137,7 +146,7 @@
                             l’unique soin qu’on a après sa fortune faite n’était pas de songer à
                             soi.</p>
                     </div3>
-                    <div3 n="29">
+                    <div3 n="29" source="#edition_8">
                         <p>Les courtisans n’emploient pas ce qu’ils ont d’esprit, d’adresse et de
                             finesse pour trouver les expédients d’obliger ceux de leurs amis qui
                             implorent leur secours, mais seulement pour leur trouver des raisons
@@ -150,7 +159,7 @@
                             sera ainsi dispensé d’appuyer : c’est une manière douce et polie de
                             refuser son crédit, ses offices et sa médiation à qui en a besoin.</p>
                     </div3>
-                    <div3 n="30" source="#edition_3 #edition_5">
+                    <div3 n="30" source="#edition_3 #edition_5 #edition_8">
                         <p>Combien de gens vous étouffent de caresses dans le particulier, vous
                             aiment et vous estiment, qui sont embarrassés de vous dans le public, et
                             qui, au lever ou à la messe, évitent vos yeux et votre rencontre ! Il
@@ -158,7 +167,7 @@
                             confiance qu’ils ont d’eux-mêmes, osent honorer devant le monde le
                             mérite qui est seul et dénué de grands établissements.</p>
                     </div3>
-                    <div3 n="31" source="#edition_5">
+                    <div3 n="31" source="#edition_5 #edition_8">
                         <p>Je vois un homme entouré et suivi ; mais il est en place. J’en vois un
                             autre que tout le monde aborde ; mais il est en faveur. Celui-ci est
                             embrassé et caressé, même des grands ; mais il est riche. Celui-là est
@@ -167,7 +176,7 @@
                             mais il est méchant. Je veux un homme qui soit bon, qui ne soit rien
                             davantage, et qui soit recherché.</p>
                     </div3>
-                    <div3 n="32" source="#edition_5">
+                    <div3 n="32" source="#edition_5 #edition_8">
                         <p>Vient-on de placer quelqu’un dans un nouveau poste, c’est un débordement
                             de louanges en sa faveur, qui inonde les cours et la chapelle, qui gagne
                             l’escalier, les salles, la galerie, tout l’appartement : on en a
