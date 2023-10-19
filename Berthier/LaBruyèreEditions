@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>J. de La Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>F. Berthier</publisher>
+                <authority>UBS</authority>
+                <date when-iso="2023-10-11">10/11/2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr xml:id="edition1">
+                        <title>Les caractères de Théophraste , traduits du grec, avec Les caractères
+                            ou les moeurs de ce siècle</title>
+                        <imprint>
+                            <date>1688</date>
+                            <publisher>E. Michallet</publisher>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="edition2">
+                        <title>Les caractères ou les moeurs de ce siècle. précédé de Les caractères
+                            de Théophraste</title>
+                        <imprint>
+                            <date>1696</date>
+                            <publisher>chez Estienne Michalletchez Estienne Michallet</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet Pédagogique M1, UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Nous avons mis dans ce document deux versions des Caractères de la Bruyère.
+                        Une version de 1688 et une de 1696.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-11">Encodage de deux versions des Caractères de J. de La
+                Bruyère.</change>
+            <change when="2023-10-19">Modification du fichier durant le TD 3. Ensuite, j'ai indiqué
+                la provenance de mes éditions sur les remarques que j'ai choisie.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <div1 type="part" n="1">
+                <head>Les Caractères ou les Moeurs de ce Siècle</head>
+                <div2 type="chapter" n="5">
+                    <head>De la Société et de la Conversation</head>
+                    <div3 n="53" source="#edition2">
+                        <p>Tout ce qui est mérite se sent, se discerne, se devine réciproquement :
+                            si l’on voulait être estimé, il faudrait vivre avec des personnes
+                            estimables.</p>
+                    </div3>
+                    <div3 n="54" source="#edition1">
+                        <p>Celui qui est d’une éminence au-dessus des autres qui le met à couvert de
+                            la repartie, ne doit jamais faire une raillerie piquante.</p>
+                    </div3>
+                    <div3 n="55" source="#edition2">
+                        <p>Il y a de petits défauts que l’on abandonne volontiers à la censure, et
+                            dont nous ne haïssons pas à être raillés : ce sont de pareils défauts
+                            que nous devons choisir pour railler les autres.</p>
+                    </div3>
+                    <div3 n="56" source="#edition1">
+                        <p>Rire des gens d’esprit, c’est le privilège des sots : ils sont dans le
+                            monde ce que les fous sont à la cour, je veux dire sans conséquence.</p>
+                    </div3>
+                    <div3 n="57" source="#edition2">
+                        <p>La moquerie est souvent indigence d’esprit.</p>
+                    </div3>
+                    <div3 n="58" source="#edition2">
+                        <p>Vous le croyez votre dupe : s’il feint de l’être, qui est plus dupe de
+                            lui ou de vous ?</p>
+                    </div3>
+                    <div3 n="59" source="#edition1">
+                        <p>Si vous observez avec soin qui sont les gens qui ne peuvent louer, qui
+                            blâment toujours, qui ne sont contents de personne, vous reconnaîtrez
+                            que ce sont ceux mêmes dont personne n’est content.</p>
+                    </div3>
+                    <div3 n="60" source="#edition2">
+                        <p>Le dédain et le rengorgement dans la société attire précisément le
+                            contraire de ce que l’on cherche, si c’est à se faire estimer.</p>
+                    </div3>
+                    <div3 n="61" source="#edition2">
+                        <p>Le plaisir de la société entre les amis se cultive par une ressemblance
+                            de goût sur ce qui regarde les mœurs, et par quelques différences
+                            d’opinions sur les sciences : par là ou l’on s’affermit dans ses
+                            sentiments, ou l’on s’exerce et l’on s’instruit par la dispute.</p>
+                    </div3>
+                    <div3 n="62" source="#edition2">
+                        <p>L’on ne peut aller loin dans l’amitié, si l’on n’est pas disposé à se
+                            pardonner les uns aux autres les petits défauts.</p>
+                    </div3>
+                    <div3 n="63" source="#edition2">
+                        <p>Combien de belles et inutiles raisons à étaler à celui qui est dans une
+                            grande adversité, pour essayer de le rendre tranquille ! Les choses de
+                            dehors, qu’on appelle les événements, sont quelquefois plus fortes que
+                            la raison et que la nature. "Mangez, dormez, ne vous laissez point
+                            mourir de chagrin, songez à vivre" : harangues froides, et qui réduisent
+                            à l’impossible. "Etês-vous raisonnable de vous tant inquiéter ? "
+                            n’est-ce pas dire : "Etes-vous fou d’être malheureux ? "</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
