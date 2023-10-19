@@ -17,26 +17,26 @@
                     <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou
                         les moeurs de ce siècle</title>
                     <author> La Bruyère, Jean de </author>
-                    <edition n="6">Sixième édition</edition>
-                    <date when="1691">M.DC.XCI.</date>
+                    <edition n="3" xml:id="ed3">Troisième édition</edition>
+                    <date when="1688">M.DC.LXXXVIII.</date>
                     <pubPlace> Paris, Rue S.Jacques</pubPlace>
                     <editor> Estienne Michallet</editor>
                     <note>Avec le privilège de Sa Majesté</note>
                     <distributor> Bnf Gallica </distributor>
-                    <idno type="notice"> FRBNF37243153 </idno>
+                    <idno type="notice"> FRBNF37242743 </idno>
                 </bibl>
                 <!-- Deuxième édition choisie -->
-                <bibl> 
+                <bibl>
                     <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou
                         les moeurs de ce siècle</title>
                     <author> La Bruyère, Jean de </author>
-                    <edition n="8">Huitième édition</edition>
+                    <edition n="8" xml:id="ed8">Huitième édition</edition>
                     <date when="1694">M.DC.XCIV.</date>
                     <pubPlace> Paris, Rue Saint Jacques</pubPlace>
                     <editor> Estienne Michallet</editor>
                     <note>Avec le privilège de Sa Majesté</note>
                     <distributor> Bnf Gallica </distributor>
-                    <idno type="notice">  FRBNF37243225 </idno>
+                    <idno type="notice"> FRBNF37243225 </idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -45,7 +45,11 @@
                 <p>Projet pédagogique, M1, UBS, MLE</p>
             </projectDesc>
             <editorialDecl>
-                <p/>
+                <p> Les éléments div3 corrrespondent aux remarques. </p>
+                <p> Le chiffre de la remarque contenue dans l'attribut n correspond au chiffre donné lors de l'édition critique
+                    qui se base sur la dernière édition publiée.</p>
+                <p> A l'intérieur des balises p, l'attribut n correspond au numéro de la remarque dans l'édition indiqué dans l'attribut source.</p>
+            
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -55,12 +59,111 @@
 
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-11"> Encodage du TeiHeader des deux éditions choisies</change>
+            <change when="2023-10-11"> Encodage du TeiHeader des deux éditions choisies.</change>
+            <change when="2023-10-16"> Encodage des remarques 11 à 21 de la partie "De
+                l'Homme".</change>
+            <change when="2023-10-19"> Modification du TeiHeader pour passer de la troisième édition
+                à la place de la sixième afin de trouver plus de différence avec la huitième
+                édition.</change>
+            <change when="2023-10-19"> Encodage des différences entre les deux éditions quant aux
+                remarques 11 à 21 du chapitre "De l'Homme".</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div> </div>
+
+            <div1 type="part" n="3">
+                <head>Les Caractères ou les moeurs de ce siècle</head>
+                <div2 type="chapter" n="11">
+                    <head> De l'Homme</head>
+                    <div3 n="11">
+                        <p  source="#ed3" n="2">Les hommes ne s’attachent pas assez à ne point manquer les occasions de
+                            faire plaisir : il semble que l’on n’entre dans un emploi que pour
+                            pouvoir obliger et n’en rien faire ; la chose la plus prompte et qui se
+                            présente d’abord, c’est le refus, et l’on n’accorde que par
+                            réflexion.</p>
+                    </div3>
+                    <div3 n="12">
+                        <p source="#ed8" n="12"> Sachez précisément ce que vous pouvez attendre des hommes en général, et
+                            de chacun d’eux en particulier, et jetez-vous ensuite dans le commerce
+                            du monde.</p>
+                    </div3>
+                    <div3 n="13">
+                        <p source="#ed8" n="13"> Si la pauvreté est la mère des crimes, le défaut d’esprit en est le
+                            père.</p>
+                    </div3>
+                    <div3 n="14">
+                        <p source="#ed3" n="3"> Il est difficile qu’un fort malhonnête homme ait assez d’esprit : un
+                            génie qui est droit et perçant conduit enfin à la règle, à la probité, à
+                            la vertu. Il manque du sens et de la pénétration à celui qui s’opiniâtre
+                            dans le mauvais comme dans le faux : l’on cherche en vain à le corriger
+                            par des traits de satire qui le désignent aux autres, et où il ne se
+                            reconnaît pas lui-même ; ce sont des injures dites à un sourd. Il serait
+                            désirable pour le plaisir des honnêtes gens et pour la vengeance
+                            publique, qu’un coquin ne le fût pas au point d’être privé de tout
+                            sentiment.</p>
+                    </div3>
+                    <div3 n="15">
+                        <p source="#ed3" n="5"> Il y a des vices que nous ne devons à personne, que nous apportons en
+                            naissant, et que nous fortifions par l’habitude ; il y en a d’autres que
+                            l’on contracte, et qui nous sont étrangers. L’on est né quelquefois avec
+                            des mœurs faciles, de la complaisance, et tout le désir de plaire ; mais
+                            par les traitements que l’on reçoit de ceux avec qui l’on vit ou de qui
+                            l’on dépend, l’on est bientôt jeté hors de ses mesures, et même de son
+                            naturel : l’on a des chagrins et une bile que l’on ne se connaissait
+                            point, l’on se voit une autre complexion, l’on est enfin étonné de se
+                            trouver dur et épineux.</p>
+                    </div3>
+                    <div3 n="16">
+                        <p source="#ed3" n="7"> L’on demande pourquoi tous les hommes ensemble ne composent pas comme
+                            une seule nation, et n’ont point voulu parler une même langue, vivre
+                            sous les mêmes lois, convenir entre eux des mêmes usages et d’un même
+                            culte ; et moi, pensant à la contrariété des esprits, des goûts et des
+                            sentiments, je suis étonné de voir jusques à sept ou huit personnes se
+                            rassembler sous un même toit, dans une même enceinte, et composer une
+                            seule famille.</p>
+                    </div3>
+                    <div3 n="17">
+                        <p source="#ed8" n="17"> Il y a d’étranges pères, et dont tout la vie ne semble occupée qu’à
+                            préparer à leurs enfants des raisons de se consoler de leur mort.</p>
+                    </div3>
+                    <div3 n="18">
+                        <p source="#ed3" n="8"> Tout est étranger dans l’humeur, les mœurs et les manières de la plupart
+                            des hommes. Tel a vécu pendant toute sa vie chagrin, emporté, avare,
+                            rampant, soumis, laborieux, intéressé, qui était né gai, paisible,
+                            paresseux, magnifique, d’un courage fier et éloigné de toute bassesse :
+                            les besoins de la vie, la situation où l’on se trouve, la loi de la
+                            nécessité forcent la nature et y causent ces grands changements. Ainsi
+                            tel homme au fond et en lui-même ne se peut définir : trop de choses qui
+                            sont hors de lui l’altèrent, le changent, le bouleversent ; il n’est
+                            point précisément ce qu’il est ou ce qu’il paraît être.</p>
+                    </div3>
+                    <div3 n="19">
+                        <p source="#ed3" n="9"> La vie est courte et ennuyeuse : elle se passe toute à désirer. L’on
+                            remet à l’avenir son repos et ses joies, à cet âge souvent où les
+                            meilleurs biens ont déjà disparu, la santé et la jeunesse. Ce temps
+                            arrive, qui nous surprend encore dans les désirs ; on en est là, quand
+                            la fièvre nous saisit et nous éteint : si l’on eût guéri, ce n’était que
+                            pour désirer plus longtemps.</p>
+                    </div3>
+                    <div3 n="20">
+                        <p source="#ed8" n="20"> Lorsqu’on désire, on se rend à discrétion à celui de qui l’on espère :
+                            est-on sûr d’avoir, on temporise, on parlemente, on capitule.</p>
+                    </div3>
+                    <div3 n="21">
+                        <p source="#ed3" n="10"> Il est si ordinaire à l’homme de n’être pas heureux, et si essentiel à
+                            tout ce qui est un bien d’être acheté par mille peines, qu’une affaire
+                            qui se rend facile devient suspecte. L’on comprend à peine, ou que ce
+                            qui coûte si peu puisse nous être fort avantageux, ou qu’avec des
+                            mesures justes l’on doive si aisément parvenir à la fin que l’on se
+                            propose. L’on croit mériter les bons succès, mais n’y devoir compter que
+                            fort rarement.</p>
+                        <!-- Je n'ai pas trouvé de changement à l'intérieur des remarques, mais plusieurs d'entre elles n'étaient pas dans l'édition 3 mais apparaissent dans l'édition 8 -->
+
+                    </div3>
+                </div2>
+            </div1>
+
         </body>
     </text>
 </TEI>
