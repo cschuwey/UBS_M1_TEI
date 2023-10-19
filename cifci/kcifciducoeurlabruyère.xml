@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Les Caractères</title>
+                <author> Jean de La Bruyère</author>
+                <funder> Université Bretagne Sud </funder>
+                <principal>C.Shuwey</principal>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>K.CIFCI</publisher>
+                <date when-iso="2023-10-11">11/10/2023</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl xml:id="#edition1">
+                    <titl>Les Caractères de Théophraste, traduits du grec</titl>
+                    <titl type="sub"> Avec les caractères ou les moeurs de ce siècle</titl>
+                    <edition>Première édition</edition>
+                    <author>Jean de La Bruyère</author>
+                    <publisher>Estienne Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">1688</date>
+                    <biblScope>381 pages</biblScope>
+                    <idno type="ark">ark:/12148/bpt6k57574m</idno>
+                </bibl>
+
+                <bibl xml:id="#edition5">
+                    <titl>Les Caracrères de Théophraste, traduits du grec</titl>
+                    <titl type="sub">Avec les caractères ou les moeurs de ce siècle</titl>
+                    <edition>Cinquième édition</edition>
+                    <author>Jean de La Bruyère</author>
+                    <publisher>Estienne Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1690">1690</date>
+                    <biblScope>554 pages</biblScope>
+                    <idno type="ark"> ark:/12148/bpt6k575660 </idno>
+                </bibl>
+                
+                <bibl xml:id="#edition8"> 
+                    <titl>Les Caractères de Théophraste, traduits du grec</titl>
+                    <titl type="sub"> Avec les caractères ou les moeurs de ce siècle</titl>
+                    <edition>Huitième édition</edition>
+                    <author> Jean de La Bruyère</author>
+                    <publisher>Estienne Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1694">1694</date>
+                    <biblScope>800 pages</biblScope>
+                    <idno type="ark">ark:/12148/bpt6k57577n</idno>
+                </bibl>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique, M1, MLE, UBS </p>
+                <p>Comparaison des éditions de l'ouvrage Les Caractères</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                <p>Normalisation du texte</p>
+                <p> La graphie a été modernisée</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2023-10-12"> J'ai préparée l'en-tête TEI pour les Caractères de la Bruyère </change>
+            <change when="2023-10-16">J'ai préparée une nouvelle en-tête TEI pour pouvoir travailler sur les éditions 1 et 5</change>
+            <change when="2023-10-17"> Ajout de la Huitième édition à mon travail en raison de l'absence de plusieurs remarques dans les éditions 1 et 5 </change>
+            
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div1 type="ouvrage">
+                <head>Les Caractères ou les Moeurs de ce Siècle</head>
+                <div2 type="chapitre" n="4">
+                    <head> Du Coeur </head>
+                    
+                    <div3 type="remarque" n="63" source="#edition5 #edition8">
+                    <p> Il faut rire avant que d’être heureux, de peur de mourir sans avoir ri. </p>
+                    </div3>
+                        
+                     <div3 type="remarque" n="64" source="#edition1 #edition5 #edition8">
+                      <p> La vie est courte, si elle ne mérite ce nom que lorsqu’elle est agréable, puisque si l’on cousait ensemble toutes les heures que l’on passe avec ce qui plaît, l’on ferait à peine d’un grand nombre d’années une vie de quelques mois.</p>
+                      </div3>
+                    
+
+                    <div3 type="remarque" source="#edition1">
+                    <p>Il n'y a qu'un premier dépit en amour, comme la première faute dans l'amitié, dont on puisse faire un bon usage. </p>
+                    </div3>
+                    <!-- J'ai trouvée une remarque dans l'édition1 -->
+                    
+                    
+                        <div3 type="remarque" n="65" source="#edition1 #edition5 #edition8">
+                            <p>Qu’il est difficile d’être content de quelqu’un !</p>
+                        </div3>
+                        
+                        
+                        <div3 type="remarque" source="#edition1">
+                            <p >L'on est plus sociable et d'un meilleur commerce par le coeur que par l'esprit </p>
+                        </div3>
+                        <!-- Cette remarque apparaît dans l'édition1 -->
+                       
+                    <div3 type="remarque" source="#edition1">
+                            <p>Il y a de certains grands sentiments, de certaines actions nobles et élévées, que nous devons moins à la force de notre esprit qu'à la bonté de notre naturel.</p>
+                        </div3>
+                        <!-- Cette remarque apparait dans l'édition1 -->
+                    
+                    
+                    <div3 type="remarque" source="#edition1> 
+                        <p> Il y a du plaisir à rencontrer les yeux de celui à qui l'on vient de donner.</p>
+                    </div3>
+                    <!-- Remarque ajouté provient de l'édition1 -->
+                        
+                        
+                        <div3 type="remarque" n="66" source="#edition5 #edition8">
+                        <p>On ne pourrait se défendre de quelque joie à voir périr un méchant homme : l’on jouirait alors du fruit de sa haine, et l’on tirerait de lui tout ce qu’on en peut espérer, qui est le plaisir de sa perte.
+                        Sa mort enfin arrive, mais dans une conjoncture où nos intérêts ne nous permettent pas de nous en réjouir : il meurt trop tôt ou trop tard.</p>
+                        </div3>
+                        
+                        <div3 type="remarque" n="67" source="#edition5 #edition8">
+                        <p>Il est pénible à un homme fier de pardonner à celui qui le surprend en faute, et qui se plaint de lui avec raison : sa fierté ne s’adoucit que lorsqu’il reprend ses avantages, et qu’il met l’autre dans son tort.</p>
+                        </div3>
+                        
+                        <div3 type="remarque" n="68" source="#edition1 #edition5 #edition8">
+                        <p>Comme nous nous affectionnons de plus en plus aux personnes à qui nous faisons du bien, de même nous haïssons violemment ceux que nous avons beaucoup offensés.</p>
+                        </div3>
+                            
+                        
+                     <!--Ces remarques proviennent de l'édition1-->
+                        <div3 type="remarque" source="#edition1">
+                            <p> Il n'y a guère au monde un plus bel excès, que celui de la reconnaissance.</p>
+                       </div3>
+                        
+                        <div3 type="remarque" source="#edition1">
+                            <p> Il y a des lieux que l'on admire : il y en a d'autres qui touchent, et où l'on aimerait à vivre.</p>
+                        </div3>
+                    
+                    <div3 type="remarque" source="#edition1">
+                        <p> Il me semble que l'on dépend des lieux pour l'esprit, l'humeur, la passion, le goût et les sentiments.</p>
+                    </div3>
+                        
+                        <div3 type="remarque" source="#edition1">
+                            <p> Quelques-uns se défendent d'aimer et de faire des vers, comme de deux faibles qu'ils n'osent avouer, l'un du coeur, l'autre de l'esprit. </p>
+                        </div3>
+                        
+                        <div3 type="remarque" source="#edition1"> 
+                            <p> Regretter ce que l'on aime est un bien, en comparaison de vivre avec ce que l'on hait. </p>
+                        </div3>
+                        
+                        <div3 type="remarque" source="#edition1">
+                            <p> Vouloir oublier quelqu'un, c'est y penser. L'amour a cela de commun avec les scrupules, qu'il s'aigrit par les réflexions et les retours que l'on fait pour s'en délivrer. Il faut, s'il se peut, ne point songer sa passion pour l'affaiblir." </p>
+                        </div3>
+                    <!--Toute ces remarques apparaissent uniquement dans l'édition1--> 
+                        
+                        
+               
+                        
+                        <div3 type="remarque" n="69" source="#edition5 #edition8">
+                            <p> Il est également difficile d’étouffer dans les commencements le sentiment des injures et de le conserver après un certain nombre d’années.</p>
+                        </div3>
+                    
+                        
+                        <div3 type="remarque" n="70" source="#edition8">
+                        <p> C’est par faiblesse que l’on hait un ennemi, et que l’on songe à s’en venger ; et c’est par paresse que l’on s’apaise, et qu’on ne se venge point.</p>
+                        </div3>
+                        
+                        <div3 type="remarque" n="71" source="#edition8">
+                        <p>Il y a bien autant de paresse que de faiblesse à se laisser gouverner.
+                        Il ne faut pas penser à gouverner un homme tout d’un coup, et sans autre préparation, dans une affaire importante et qui serait capitale à lui ou aux siens ; il sentirait d’abord l’empire et l’ascendant qu’on veut prendre sur son esprit, et il secouerait le joug par honte ou par caprice : il faut tenter auprès de lui les petites choses, et de là le progrès jusqu’aux plus grandes est immanquable. 
+                       Tel ne pouvait au plus dans les commencements qu’entreprendre de le faire partir pour la campagne ou retourner à la ville, qui finit par lui dicter un testament où il réduit son fils à la légitime.
+                        Pour gouverner quelqu’un longtemps et absolument, il faut avoir la main légère, et ne lui faire sentir que le moins qu’il se peut sa dépendance.
+                        Tels se laissent gouverner jusqu’à un certain point, qui au delà sont intraitables et ne se gouvernent plus : on perd tout à coup la route de leur cœur et de leur esprit ; ni hauteur ni souplesse, ni force ni industrie ne les peuvent dompter : avec cette différence que quelques-uns sont ainsi faits par raison et avec fondement, et quelques autres par tempérament et par humeur.
+                        Il se trouve des hommes qui n’écoutent ni la raison ni les bons conseils, et qui s’égarent volontairement par la crainte qu’ils ont d’être gouvernés.
+                        D’autres consentent d’être gouvernés par leurs amis en des choses presque indifférentes, et s’en font un droit de les gouverner à leur tour en des choses graves et de conséquence.
+                        Drance veut passer pour gouverner son maître, qui n’en croit rien, non plus que le public ; parler sans cesse à un grand que l’on sert, en des lieux et en des temps où il convient le moins, lui parler à l’oreille ou en des termes mystérieux, rire jusqu’à éclater en sa présence, lui couper la parole, se mettre entre lui et ceux qui lui parlent, dédaigner ceux qui viennent faire leur cour ou attendre impatiemment qu’ils se retirent, se mettre proche de lui en une posture trop libre, figurer avec lui le dos appuyé à une cheminée, le tirer par son habit, lui marcher sur les talons, faire le familier, prendre des libertés, marquent mieux un fat qu’un favori.
+                        Un homme sage ni ne se laisse gouverner, ni ne cherche à gouverner les autres : il veut que la raison gouverne seule et toujours.
+                        Je ne haïrais pas d’être livré par la confiance à une personne raisonnable, et d’en être gouverné en toutes choses, et absolument, et toujours : je serais sûr de bien faire, sans avoir le son de délibérer ; je jouirais de la tranquillité de celui qui est gouverné par la raison.
+                        </div3>
+                    
+                        <div3 type="remarque" n="72" source="#edition5 #edition8">
+                        <p>Toutes les passions sont menteuses : elles se déguisent autant qu’elles le peuvent aux yeux des autres ; elles se cachent à elles-mêmes. Il n’y a point de vice qui n’ait une fausse ressemblance avec quelque vertu, et qui ne s’en aide.</p>
+                         </div3>
+                    
+                        <div3 type="remarque"n="73" source="#edition5 #edition8">
+                        <p>On ouvre un livre de dévotion, et il touche ; on en ouvre un autre qui est galant, et il fait son impression. Oserai-je dire que le cœur seul concilie les choses contraires, et admet les incompatibles ?</p>
+                    </div3>
+                    
+                    
+                    
+                </div2>
+                <p> </p>
+            </div1>
+        </body>
+    </text>
+</TEI>
