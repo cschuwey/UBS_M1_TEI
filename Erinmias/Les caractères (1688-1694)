@@ -14,14 +14,18 @@
                 <distributor/>
             </publicationStmt>
             <sourceDesc>
-                <listBibl> <bibl><author>La Bruyère, Jean de</author>
+</bibl>
+                <bibl xml:id="edition1">
+                <author>La Bruyère, Jean de</author>
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Paris</placeName>
                     <publisher>Etienne Michallet</publisher>
                     <date>1688</date>
                 
                 </bibl></listBibl>
-                <listBibl> <bibl><author>La Bruyère, Jean de</author>
+            </bibl>
+                <bibl xml:id="edition8">
+                  <author>La Bruyère, Jean de</author>
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Lyon</placeName>
                     <publisher> Thomas Amaulry </publisher>
@@ -53,7 +57,10 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-11">Ajout des méta-données du fichier.</change>
+<listChange>
+               <change when="2023-10-11">Ajout des méta-données du fichier.</change>
+                <change when="2023-10-20">Ajout de la numérotation des remarques.</change>
+            </listChange>
         </revisionDesc>
     </teiHeader>
        <text>
