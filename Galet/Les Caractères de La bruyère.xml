@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                    moeurs de ce siècle.</title>
+                <title type="subtitle">SIXIEME EDITION</title>
+                <author>La Bruyère, Jean de (1645-1696)</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>C. Galet</publisher>
+                <date when-iso="2023-10-11">11/10/2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>La Bruyère, Jean de (1645-1696)</author>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                        moeurs de ce siècle.</title>
+                    <title type="subtitle">Sixième Edition</title>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>Etienne Michallet</publisher>
+                    <date when-iso="1691">M.DC.XCI</date>
+                    <idno>R-52303</idno>
+                    <!-- Je ne suis pas certaine que le format se mette dans cette balise mais c'est la plus plausible que j'ai trouvé. -->
+                    <fw>In-12, 16 ff. non ch., 587 p., la table et le privilège.</fw>
+                    <publisher>Bibliothèque nationale de France, département Philosophie, histoire,
+                        sciences de l'homme</publisher>
+                    <date when-iso="2018-08-05">05/08/2018</date>
+                </bibl>
+                <bibl>
+                    <author>La Bruyère, Jean de (1645-1696)</author>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                        moeurs de ce siècle.</title>
+                    <title type="subtitle">Quatrième Edition</title>
+                    <title type="subtitle">corrigée et augmentée</title>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>Etienne Michallet</publisher>
+                    <date when-iso="1689">M.DC.LXXXIX</date>
+                    <!-- Je n'ai pas trouvé le numéro d'identification -->
+                    <idno/>
+                    <!-- Toujours pas sûr que le format doit être dans la balise fw. -->
+                    <fw>1 microfilm ; 35 mm.</fw>
+                    <publisher>Bibliothèque nationale de France.</publisher>
+                    <date when-iso="2007-10-15">15/10/2007</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+          <editorialDecl>
+                    <p>Les numéros des remarques sont celles de l'édition critique publiée après l'édition originelle.</p>   
+          </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FR">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-11">Encodage du TEI Header</change>
+            <change when="2023-10-16">J'ai supprimé le Tei Header qui était en trop et j'ai intégré
+                les deux balises Bibl dans Sourcedesc. Je n'avais pas compris qu'il fallait procéder
+                de cette manière là.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1>
+                <head>Les Caractères de La Bruyère</head>
+                <p/>
+                <div2 type="chapitre" n="16">
+                    <head>Des Esprits Forts</head>
+
+
+                    <div3 type="remarque" n="(11)" source="#edition1 #edition2">
+                        <p> (11) Je voudrais voir un homme sobre, modéré, chaste, équitable,
+                            prononcer qu’il n’y a point de Dieu : il parlerait du moins sans intérêt
+                            ; mais cet homme ne se trouve point.</p>
+                    </div3>
+                    <div3>
+                        <p>(12) J’aurais une extrême curiosité de voir celui qui serait persuadé que
+                            Dieu n’est point : il me dirait du moins la raison invincible qui a su
+                            le convaincre.</p>
+                    </div3>
+                    <div3>
+                        <p>(13) L’impossibilité où je suis de prouver que Dieu n’est pas me découvre
+                            son existence.</p>
+                    </div3>
+                    <div3>
+                        <p>(14) Dieu condamne et punit ceux qui l’offensent, seul juge en sa propre
+                            cause : ce qui répugne, s’il n’est lui-même la justice et la vérité,
+                            c’est-à-dire s’il n’est Dieu.</p>
+                    </div3>
+                    <div3>
+                        <p> (15) Je sens qu’il y a un Dieu, et je ne sens pas qu’il n’y en ait point
+                            ; cela me suffit, tout le raisonnement du monde m’est inutile : je
+                            conclus que Dieu existe. Cette conclusion est dans ma nature ; j’en ai
+                            reçu les principes trop aisément dans mon enfance, et je les ai
+                            conservés depuis trop naturellement dans un âge plus avancé, pour les
+                            soupçonner de fausseté. — Mais il y a des esprits qui se défont de ces
+                            principes. — C’est une grande question s’il s’en trouve de tels ; et
+                            quand il serait ainsi, cela prouve seulement qu’il y a des monstres.</p>
+                    </div3>
+                    <div3>
+                        <p>(16) L’athéisme n’est point. Les grands, qui en sont le plus soupçonnés,
+                            sont trop paresseux pour décider en leur esprit que Dieu n’est pas ;
+                            leur indolence va jusqu’à les rendre froids et indifférents sur cet
+                            article si capital, comme sur la nature de leur âme, et sur les
+                            conséquences d’une vraie religion ; ils ne nient ces choses ni ne les
+                            accordent : ils n’y pensent point.</p>
+                    </div3>
+                    <div3>
+                        <p>(17) Nous n’avons pas trop de toute notre santé, de toutes nos forces et
+                            de tout notre esprit pour penser aux hommes ou au plus petit intérêt :
+                            il semble au contraire que la bienséance et la coutume exigent de nous
+                            que nous ne pensions à Dieu que dans un état où il ne reste en nous
+                            qu’autant de raison qu’il faut pour ne pas dire qu’il n’y en a plus.</p>
+                    </div3>
+                    <div3>
+                        <p>(18) Un grand croit s’évanouir, et il meurt ; un autre grand périt
+                            insensiblement, et perd chaque jour quelque chose de soi-même avant
+                            qu’il soit éteint : formidables leçons, mais inutiles ! Des
+                            circonstances si marquées et si sensiblement opposées ne se relèvent
+                            point et ne touchent personne : les hommes n’y ont pas plus d’attention
+                            qu’à une fleur qui se fane ou à une feuille qui tombe ; ils envient les
+                            places qui demeurent vacantes, ou ils s’informent si elles sont
+                            remplies, et par qui.</p>
+                    </div3>
+                    <div3>
+                        <p>(19) Les hommes sont-ils assez bons, assez fidèles, assez équitables,
+                            pour mériter toute notre confiance, et ne nous pas faire désirer du
+                            moins que Dieu existât, à qui nous pussions appeler de leurs jugements
+                            et avoir recours quand nous en sommes persécutés ou trahis ?</p>
+                    </div3>
+                    <div3>
+                        <p>(20) Si c’est le grand et le sublime de la religion qui éblouit ou qui
+                            confond les esprits forts, ils ne sont plus des esprits forts, mais de
+                            faibles génies et de petits esprits ; et si c’est au contraire ce qu’il
+                            y a d’humble et de simple qui les rebute, ils sont à la vérité des
+                            esprits forts, et plus forts que tant de grands hommes si éclairés, si
+                            élevés, et néanmoins si fidèles, que les Léons, les Basiles, les
+                            Jéromes, les Augustins.</p>
+                    </div3>
+                    <div3>
+                        <p>(21) « Un Père de l’Eglise, un docteur de l’Eglise, quels noms ! quelle
+                            tristesse dans leurs écrits ! quelle sécheresse, quelle froide dévotion,
+                            et peut-être quelle scolastique ! » disent ceux qui ne les ont jamais
+                            lus. Mais plutôt quel étonnement pour tous ceux qui se sont fait une
+                            idée des Pères si éloignée de la vérité, s’ils voyaient dans leurs
+                            ouvrages plus de tour et de délicatesse, plus de politesse et d’esprit,
+                            plus de richesse d’expression et plus de force de raisonnement, des
+                            traits plus vifs et des grâces plus naturelles que l’on n’en remarque
+                            dans la plupart des livres de ce temps qui sont lus avec goût, qui
+                            donnent du nom et de la vanité à leurs auteurs ! Quel plaisir d’aimer la
+                            religion, et de la voir crue, soutenue, expliquée par de si beaux
+                            génies, et par de si solides esprits ! surtout lorsque l’on vient à
+                            connaître que pour l’étendue de connaissance, pour la profondeur et la
+                            pénétration, pour les principes de la pure philosophie, pour leur
+                            application et leur développement, pour la justesse des conclusions,
+                            pour la dignité du discours, pour la beauté de la morale et des
+                            sentiments, il n’y a rien par exemple que l’on puisse comparer à S.
+                            Augustin, que Platon et que Cicéron.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
