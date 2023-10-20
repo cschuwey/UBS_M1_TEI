@@ -12,43 +12,47 @@
                 <date when="2023-10-12">12 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
-            <listbibl>
+                <listBibl>
                     <bibl xml:id="edition2">
                         <author>Jean de La Bruyère</author>
                         <title>Les caractères de Théophraste</title>
                         <placeName>Paris</placeName>
                         <publisher>E. Michallet</publisher>
                         <date>1688</date>
-                        <ref type="URL">https://www.google.fr/books/edition/_/OOZmAAAAcAAJ?hl=fr&gbpv=1</ref>
+                        <ref type="URI"
+                            >https://www.google.fr/books/edition/_/OOZmAAAAcAAJ?hl=fr&gbpv=1</ref>
                     </bibl>
 
                     <bibl xml:id="edition4">
                         <author>Jean de La Bruyère</author>
-                        <title>Les caractères de Théophraste, traduit du grec, avec les caracteres ou les moeurs de ce siècle</title>
+                        <title>Les caractères de Théophraste, traduit du grec, avec les caracteres
+                            ou les moeurs de ce siècle</title>
                         <placeName>Paris</placeName>
                         <publisher>Thomas Amaulry</publisher>
                         <date>1689</date>
-                        <ref type="URL">https://www.google.fr/books/edition/_/5MBjAAAAcAAJ?hl=fr&gbpv=1</ref>
+                        <ref type="URI"
+                            >https://www.google.fr/books/edition/_/5MBjAAAAcAAJ?hl=fr&gbpv=1</ref>
                     </bibl>
-                    </listbibl>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-               <normalization>
+                <normalization>
                     <p>Graphie modernisée</p>
                     <p>Ponctuation modernisée</p>
                     <p>Signe de la croix avant Abylle enlevé</p>
                     <p>Ajout de guillements à certains endroits</p>
                     <p>Les pieds-de-mouches en début de phrase sont enlevées</p>
-                </normalization> 
+                </normalization>
             </editorialDecl>
             <editorialDecl>
                 <interpretation>
                     <p> Div 1 :Titre de l'oeuvre </p>
                     <p> Div 2 : Titre des chapitres</p>
                     <p> Div 3 : Texte en prose, insertion des caractères </p>
-                    <p>Les div 3 sans le n sont des phrases ajoutées qui n'étaient pas présentes dans la deuxième édition</p>
+                    <p>Les div 3 sans le n sont des phrases ajoutées qui n'étaient pas présentes
+                        dans la deuxième édition</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -63,7 +67,7 @@
             <change when="2023-20-10">Ajout des éditions</change>
         </revisionDesc>
     </teiHeader>
-<text>
+    <text>
         <body>
 
             <div1 type="ouvrage">
@@ -101,34 +105,37 @@
                             paye-t-on très largement ? Se meuble-t-il, s’anoblit-il à force de
                             penser et d’écrire juste ? Il faut que les hommes soient habillés,
                             qu’ils soient rasés ; il faut que retirés dans leurs maisons, ils aient
-                            une porte qui ferme bien : est-il nécessaire qu’ils soient instruits ?</p>
-                            <p>Folie, simplicité, imbécillité, continue Antisthène, de mettre
-                            l’enseigne d’auteur ou de philosophe ! Avoir, s’il se peut, un office
-                            lucratif, qui rende la vie aimable, qui fasse prêter à ses amis, et
-                            donner à ceux qui ne peuvent rendre ; écrire alors par jeu, par
-                            oisiveté, et comme Tityre siffle ou joue de la flûte ; cela ou rien ;
-                            j’écris à ces conditions, et je cède ainsi à la violence de ceux qui me
-                            prennent à la gorge, et me disent : « Vous écrirez. » Ils liront pour
-                            titre de mon nouveau livre : Du Beau, Du Bon, Du Vrai, Des Idées, Du
-                            Premier Principe, par Antisthène, vendeur de marée.</p>
+                            une porte qui ferme bien : est-il nécessaire qu’ils soient instruits
+                            ?</p>
+                        <p>Folie, simplicité, imbécillité, continue Antisthène, de mettre l’enseigne
+                            d’auteur ou de philosophe ! Avoir, s’il se peut, un office lucratif, qui
+                            rende la vie aimable, qui fasse prêter à ses amis, et donner à ceux qui
+                            ne peuvent rendre ; écrire alors par jeu, par oisiveté, et comme Tityre
+                            siffle ou joue de la flûte ; cela ou rien ; j’écris à ces conditions, et
+                            je cède ainsi à la violence de ceux qui me prennent à la gorge, et me
+                            disent : « Vous écrirez. » Ils liront pour titre de mon nouveau livre :
+                            Du Beau, Du Bon, Du Vrai, Des Idées, Du Premier Principe, par
+                            Antisthène, vendeur de marée.</p>
                     </div3>
 
                     <div3 n="22" source="#edition2#edition4">
-                        <p source="#edition1">Si les ambassadeurs des princes étrangers étaient des singes instruits à
-                            marcher sur leurs pieds de derrière, et à se faire entendre par
-                            interprète, nous ne pourrions pas marquer un plus grand étonnement que
-                            celui que nous donne la justesse de leurs réponses, et le bon sens qui
-                            paraît quelquefois dans leurs discours. La prévention du pays, jointe à
-                            l’orgueil de la nation, nous fait oublier que la raison est de tous les
-                            climats, et que l’on pense juste partout où il y a des hommes. Nous
-                            n’aimerions pas à être traités ainsi de ceux que nous appelons barbares
-                            ; et s’il y a en nous quelque barbarie, elle consiste à être épouvantés
-                            de voir d’autres peuples raisonner comme nous. Tous les étrangers ne
-                            sont pas barbares, et tous nos compatriotes ne sont pas civilisés : de
-                            même toute campagne n’est pas agreste et toute ville n’est pas polie.</p>
-                             <p>Il y a dans l’Europe un endroit d’une province maritime d’un grand royaume
-                            où le villageois est doux et insinuant, le bourgeois au contraire et le
-                            magistrat grossiers, et dont la rusticité est héréditaire.</p>
+                        <p source="#edition1">Si les ambassadeurs des princes étrangers étaient des
+                            singes instruits à marcher sur leurs pieds de derrière, et à se faire
+                            entendre par interprète, nous ne pourrions pas marquer un plus grand
+                            étonnement que celui que nous donne la justesse de leurs réponses, et le
+                            bon sens qui paraît quelquefois dans leurs discours. La prévention du
+                            pays, jointe à l’orgueil de la nation, nous fait oublier que la raison
+                            est de tous les climats, et que l’on pense juste partout où il y a des
+                            hommes. Nous n’aimerions pas à être traités ainsi de ceux que nous
+                            appelons barbares ; et s’il y a en nous quelque barbarie, elle consiste
+                            à être épouvantés de voir d’autres peuples raisonner comme nous. Tous
+                            les étrangers ne sont pas barbares, et tous nos compatriotes ne sont pas
+                            civilisés : de même toute campagne n’est pas agreste et toute ville
+                            n’est pas polie.</p>
+                        <p>Il y a dans l’Europe un endroit d’une province maritime d’un grand
+                            royaume où le villageois est doux et insinuant, le bourgeois au
+                            contraire et le magistrat grossiers, et dont la rusticité est
+                            héréditaire.</p>
                     </div3>
                     <div3 n="23" source="#edition2#edition4">
                         <p>Avec un langage si pur, une si grande recherche dans nos habits, des
@@ -137,9 +144,9 @@
                     </div3>
 
                     <div3 n="24" source="#edition2#edition4">
-                        <p>Si nous entendions dire des Orientaux qu’ils boivent ordinairement
-                            d’une liqueur qui leur monte à la tête, leur fait perdre la raison et
-                            les fait vomir, nous dirions : « Cela est bien barbare. »</p>
+                        <p>Si nous entendions dire des Orientaux qu’ils boivent ordinairement d’une
+                            liqueur qui leur monte à la tête, leur fait perdre la raison et les fait
+                            vomir, nous dirions : « Cela est bien barbare. »</p>
                     </div3>
 
                     <div3 n="25" source="#edition2#edition4">
@@ -169,32 +176,37 @@
                             grotesque ? </p>
                     </div3>
                     <div3 source="#edition4">
-                    <p>Ceux qui employent mal leur temps sont les premiers à se plaindre de la briéveté; 
-                    comme ils le confument à s'habiller, à manger, à dormir, à de sots discours, a se resoudre 
-                    ce qu'ils doivent faire, et souvent à ne rien faire, ils en manquent pour leurs affaires 
-                    ou pour leurs plaisirs; ceux au contraire qui en fond un meilleure usage en ont de reste.
-                    Il n'y a point de ministre si occupé qui ne sache perdre chaque jour deux heures de temps
-                    , cela va loin à la fin d'une longue vie; et si le mal est encore plus grand dans les autres 
-                    conditions des hommes, quelle perte infinie ne se fait pas dans le monde d'une chose si 
-                    precieuse, et dont l'on se plaint qu'on n'a point assez.</p>
+                        <p>Ceux qui employent mal leur temps sont les premiers à se plaindre de la
+                            briéveté; comme ils le confument à s'habiller, à manger, à dormir, à de
+                            sots discours, a se resoudre ce qu'ils doivent faire, et souvent à ne
+                            rien faire, ils en manquent pour leurs affaires ou pour leurs plaisirs;
+                            ceux au contraire qui en fond un meilleure usage en ont de reste. Il n'y
+                            a point de ministre si occupé qui ne sache perdre chaque jour deux
+                            heures de temps , cela va loin à la fin d'une longue vie; et si le mal
+                            est encore plus grand dans les autres conditions des hommes, quelle
+                            perte infinie ne se fait pas dans le monde d'une chose si precieuse, et
+                            dont l'on se plaint qu'on n'a point assez.</p>
 
                     </div3>
 
                     <div3 source="#edition4">
-                    <p>Cesar n'etoit point trop vieux pour penser à la conquête de l'Univers; il n'avoit point 
-                    d'autre beatitude à le faire que le cours d'une belle vie, et un grand nom après sa 
-                    mort; né fier, amibitieux, et se portant bien comme il faisoit, il ne pouvoit mieux employer 
-                    son temps qu'à conquerir  le monde. Alexandre était bien jeune pour un deffein si serieux; 
-                    bien jeune pour un deffein si serieux; il est etonnant que dans ce premier âge les femmes ou 
-                    levin n'ayent pas plutôt rompu son entreprise.</p>
+                        <p>Cesar n'etoit point trop vieux pour penser à la conquête de l'Univers; il
+                            n'avoit point d'autre beatitude à le faire que le cours d'une belle vie,
+                            et un grand nom après sa mort; né fier, amibitieux, et se portant bien
+                            comme il faisoit, il ne pouvoit mieux employer son temps qu'à conquerir
+                            le monde. Alexandre était bien jeune pour un deffein si serieux; bien
+                            jeune pour un deffein si serieux; il est etonnant que dans ce premier
+                            âge les femmes ou levin n'ayent pas plutôt rompu son entreprise.</p>
 
                     </div3>
 
                     <div3 source="#edition4">
-                    <p>Un jeune Prince, d'une race auguste. L'amour et l'esperance des peuples. Donne du ciel pour prolonger la féliciter 
-                    de la terre. Plus grand que ses ayeux. Fils d'un héros qui est son modelle
-                    , a déjà montré à l'univers par ses divines qualitez et par une vertu anticipé, que les enfants
-                    des héros sont plus proches de l'estre que les autres hommes.</p>
+                        <p>Un jeune Prince, d'une race auguste. L'amour et l'esperance des peuples.
+                            Donne du ciel pour prolonger la féliciter de la terre. Plus grand que
+                            ses ayeux. Fils d'un héros qui est son modelle , a déjà montré à
+                            l'univers par ses divines qualitez et par une vertu anticipé, que les
+                            enfants des héros sont plus proches de l'estre que les autres
+                            hommes.</p>
 
                     </div3>
 
