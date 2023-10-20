@@ -3,9 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
-                    moeurs de ce siècle.</title>
-                <title type="subtitle">SIXIEME EDITION</title>
+                <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
                 <author>La Bruyère, Jean de (1645-1696)</author>
             </titleStmt>
             <publicationStmt>
@@ -13,10 +11,10 @@
                 <date when-iso="2023-10-11">11/10/2023</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="edition4">
+                    
                     <author>La Bruyère, Jean de (1645-1696)</author>
-                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
-                        moeurs de ce siècle.</title>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
                     <title type="subtitle">Sixième Edition</title>
                     <pubPlace>Paris</pubPlace>
                     <publisher>Etienne Michallet</publisher>
@@ -24,21 +22,19 @@
                     <idno>R-52303</idno>
                     <!-- Je ne suis pas certaine que le format se mette dans cette balise mais c'est la plus plausible que j'ai trouvé. -->
                     <fw>In-12, 16 ff. non ch., 587 p., la table et le privilège.</fw>
-                    <publisher>Bibliothèque nationale de France, département Philosophie, histoire,
-                        sciences de l'homme</publisher>
+                    <publisher>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme</publisher>
                     <date when-iso="2018-08-05">05/08/2018</date>
                 </bibl>
-                <bibl>
+                <bibl xml:id="edition6">
                     <author>La Bruyère, Jean de (1645-1696)</author>
-                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
-                        moeurs de ce siècle.</title>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
                     <title type="subtitle">Quatrième Edition</title>
                     <title type="subtitle">corrigée et augmentée</title>
                     <pubPlace>Paris</pubPlace>
                     <publisher>Etienne Michallet</publisher>
                     <date when-iso="1689">M.DC.LXXXIX</date>
                     <!-- Je n'ai pas trouvé le numéro d'identification -->
-                    <idno/>
+                    <idno></idno>
                     <!-- Toujours pas sûr que le format doit être dans la balise fw. -->
                     <fw>1 microfilm ; 35 mm.</fw>
                     <publisher>Bibliothèque nationale de France.</publisher>
@@ -47,9 +43,9 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-          <editorialDecl>
-                    <p>Les numéros des remarques sont celles de l'édition critique publiée après l'édition originelle.</p>   
-          </editorialDecl>
+            <editorialDecl>
+                <p>Les numéros des remarques sont celles de l'édition critique publiée après l'édition originelle.</p>   
+            </editorialDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -70,23 +66,23 @@
                 <p/>
                 <div2 type="chapitre" n="16">
                     <head>Des Esprits Forts</head>
-
-
-                    <div3 type="remarque" n="(11)" source="#edition1 #edition2">
+                    
+                    
+                    <div3 type="remarque" n="(11)" source="#edition4 #edition6">
                         <p> (11) Je voudrais voir un homme sobre, modéré, chaste, équitable,
                             prononcer qu’il n’y a point de Dieu : il parlerait du moins sans intérêt
                             ; mais cet homme ne se trouve point.</p>
                     </div3>
-                    <div3>
+                    <div3 source="#edition6">
                         <p>(12) J’aurais une extrême curiosité de voir celui qui serait persuadé que
                             Dieu n’est point : il me dirait du moins la raison invincible qui a su
                             le convaincre.</p>
-                    </div3>
-                    <div3>
+                    </div3                  
+                    <div3 source="#edition6">
                         <p>(13) L’impossibilité où je suis de prouver que Dieu n’est pas me découvre
                             son existence.</p>
                     </div3>
-                    <div3>
+                    <div3 source="#edition6">
                         <p>(14) Dieu condamne et punit ceux qui l’offensent, seul juge en sa propre
                             cause : ce qui répugne, s’il n’est lui-même la justice et la vérité,
                             c’est-à-dire s’il n’est Dieu.</p>
@@ -101,6 +97,7 @@
                             principes. — C’est une grande question s’il s’en trouve de tels ; et
                             quand il serait ainsi, cela prouve seulement qu’il y a des monstres.</p>
                     </div3>
+                    
                     <div3>
                         <p>(16) L’athéisme n’est point. Les grands, qui en sont le plus soupçonnés,
                             sont trop paresseux pour décider en leur esprit que Dieu n’est pas ;
