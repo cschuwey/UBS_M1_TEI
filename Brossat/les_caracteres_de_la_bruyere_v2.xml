@@ -70,6 +70,7 @@
                 <change when-iso="2023-10-13">Création du Header en vue de la prochaine séance.</change>
                 <change when-iso="2023-10-16">Addition du texte de base et commencement de la mise en page (à finir).</change>
                 <change when-iso="2023-10-19">Finition l'encodage demandé (ajout des sources, mise en page des paragraphes, etc...). Observation d'une anomalie qui a ensuite été communiquée au professeur, en attente d'une réponse.</change>
+                <change when-iso="2023-10-20">Professeur qui a répondu (voir mail, si besoin) et choix de traiter les anomalies comme bon me semble. Ces dernières seront discutées durant le prochain cours.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -116,15 +117,15 @@
                         Il y a moins d’un siècle qu’un livre français était un certain nombre de pages latines, où l’on découvrait quelques lignes ou quelques mots en notre langue. Les passages, les traits et les citations n’en étaient pas demeurés là : Ovide et Catulle achevaient de décider des mariages et des testaments, et venaient avec les Pandectes au secours de la veuve et des pupilles. Le sacré et le profane ne se quittaient point ; ils s’étaient glissés ensemble jusque dans la chaire : saint Cyrille, Horace, saint Cyprien, Lucrèce, parlaient alternativement ; les poètes étaient de l’avis de saint Augustin et de tous les Pères ; on parlait latin, et longtemps, devant des femmes et des marguilliers ; on a parlé grec. Il fallait savoir prodigieusement pour prêcher si mal. Autre temps, autre usage : le texte est encore latin, tout le discours est français, et d’un beau français ; l’Evangile même n’est pas cité. Il faut savoir aujourd’hui très peu de chose pour bien prêcher.
                     </p>
                 </div3>
-                <div3 type="remarque" n="7" source="#edition8">
+                <div3 type="remarque" n="7" source="#edition6 #edition8">
                     <!-- Le caractère 7 de l’édition 8 n’est pas à la même place dans l’édition 6, où il se trouve entre le 25 et le 26. -->
-                    <p source="#edition8">
+                    <p source="#edition6 #edition8">
                         L’on a enfin banni la scolastique de toutes les chaires des grandes villes, et on l’a reléguée dans les bourgs et dans les villages pour l’instruction et pour le salut du laboureur ou du vigneron.
                     </p>
                 </div3>
-                <div3 type="remarque" n="8" source="#edition6 #edition8">
+                <div3 type="remarque" n="8" source="#edition1 #edition6 #edition8">
                     <!-- dans la première édition, cette remarque n'est pas indépendante et est en fait le 2ème paragraphe de la remarque n°4. -->
-                    <p source="#edition6 #edition8">
+                    <p source="#edition1 #edition6 #edition8">
                         C’est avoir de l’esprit que de plaire au peuple dans un sermon par un style fleuri, une morale enjouée, des figures réitérées, des traits brillants et de vives descriptions ; mais ce n’est point en avoir assez. Un meilleur esprit néglige ces ornements étrangers, indignes de servir à l’Evangile : il prêche simplement, fortement, chrétiennement.
                     </p>
                 </div3>
