@@ -13,7 +13,7 @@
             </publicationStmt>
             <sourceDesc>
             <listbibl>
-                    <bibl xml:id="edition">
+                    <bibl xml:id="edition2">
                         <author>Jean de La Bruyère</author>
                         <title>Les caractères de Théophraste</title>
                         <placeName>Paris</placeName>
@@ -22,13 +22,13 @@
                         <ref type="URL">https://www.google.fr/books/edition/_/OOZmAAAAcAAJ?hl=fr&gbpv=1</ref>
                     </bibl>
 
-                    <bibl xml:id="edition2">
+                    <bibl xml:id="edition4">
                         <author>Jean de La Bruyère</author>
                         <title>Les caractères de Théophraste, traduit du grec, avec les caracteres ou les moeurs de ce siècle, volume 2</title>
                         <placeName>Paris</placeName>
                         <publisher>Chez Etienne Michallet</publisher>
                         <date>1697</date>
-                        <ref type="URL">https://www.google.fr/books/edition/_/lKr88voApU0C?hl=fr&gbpv=0</ref>
+                        <ref type="URL">https://www.google.fr/books/edition/_/5MBjAAAAcAAJ?hl=fr&gbpv=1</ref>
                     </bibl>
                     </listbibl>
             </sourceDesc>
@@ -40,15 +40,15 @@
                     <p>Ponctuation modernisée</p>
                     <p>Signe de la croix avant Abylle enlevé</p>
                     <p>Ajout de guillements à certains endroits</p>
-                    <p>Les étoiles en début de phrase sont enlevées</p>
+                    <p>Les pieds-de-mouches en début de phrase sont enlevées</p>
                 </normalization> 
             </editorialDecl>
             <editorialDecl>
                 <interpretation>
-                    <p>Les interprétations seront à mettre quand le codage aura commencé pour noter les différences, variants</p
                     <p> Div 1 :Titre de l'oeuvre </p>
-                    <p> Div 2 : Titre des chapitre</p>
+                    <p> Div 2 : Titre des chapitres</p>
                     <p> Div 3 : Texte en prose, insertion des caractères </p>
+                    <p>Les div 3 sans le n sont des phrases ajoutées qui n'étaient pas présentes dans la deuxième édition</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -59,7 +59,8 @@
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-12">Ajout des meta-données des deux édition de La Bruyère</change>
-            <change when="2023-16-09">Ajout chapitre des jugements</change>
+            <change when="2023-10-16">Ajout chapitre des jugements</change>
+            <change when="2023-20-10">Ajout des éditions</change>
         </revisionDesc>
     </teiHeader>
 <text>
@@ -71,7 +72,7 @@
                 <div2 type="chapitre" n="12">
                     <head>Des Jugements </head>
 
-                    <div3 n="21" source="#edition_2_volume_2">
+                    <div3 n="21" source="#edition2">
                         <p> Qu’on ne me parle jamais d’encre, de papier, de plume, de style,
                             d’imprimeur, d’imprimerie, qu’on ne se hasarde plus de me dire : « Vous
                             écrivez si bien, Antisthène ! continuez d’écrire ; ne verrons-nous point
@@ -112,7 +113,7 @@
                             Premier Principe, par Antisthène, vendeur de marée.</p>
                     </div3>
 
-                    <div3 n="22" source="#edition1_#edition2_volume_2">
+                    <div3 n="22" source="#edition2#edition4">
                         <p source="#edition1">Si les ambassadeurs des princes étrangers étaient des singes instruits à
                             marcher sur leurs pieds de derrière, et à se faire entendre par
                             interprète, nous ne pourrions pas marquer un plus grand étonnement que
@@ -125,23 +126,23 @@
                             de voir d’autres peuples raisonner comme nous. Tous les étrangers ne
                             sont pas barbares, et tous nos compatriotes ne sont pas civilisés : de
                             même toute campagne n’est pas agreste et toute ville n’est pas polie.</p>
-                             <p source="#edition2_volume_2">Il y a dans l’Europe un endroit d’une province maritime d’un grand royaume
+                             <p>Il y a dans l’Europe un endroit d’une province maritime d’un grand royaume
                             où le villageois est doux et insinuant, le bourgeois au contraire et le
                             magistrat grossiers, et dont la rusticité est héréditaire.</p>
                     </div3>
-                    <div3 n="23" source="#edition1#edition2_volume_2>
+                    <div3 n="23" source="#edition2#edition4">
                         <p>Avec un langage si pur, une si grande recherche dans nos habits, des
                             mœurs si cultivées, de si belles lois et un visage blanc, nous sommes
                             barbares pour quelques peuples.</p>
                     </div3>
 
-                    <div3 n="24" source="#edition1#edition2_volume_2>
+                    <div3 n="24" source="#edition2#edition4">
                         <p>Si nous entendions dire des Orientaux qu’ils boivent ordinairement
                             d’une liqueur qui leur monte à la tête, leur fait perdre la raison et
                             les fait vomir, nous dirions : « Cela est bien barbare. »</p>
                     </div3>
 
-                    <div3 n="25" source="#edition2_volume_2>
+                    <div3 n="25" source="#edition2#edition4">
                         <p>Ce prélat se montre peu à la cour, il n’est de nul commerce, on ne le
                             voit point avec des femmes ; il ne joue ni à grande ni à petite prime,
                             il n’assiste ni aux fêtes ni aux spectacles, il n’est point homme de
@@ -154,7 +155,7 @@
                             éminent.</p>
                     </div3>
 
-                    <div3 n="26" source="#edition2_volume_2>
+                    <div3 n="26" source="#edition2#edition4">
                         <p>Ne pourrait-on point faire comprendre aux personnes d’un certain
                             caractère et d’une profession sérieuse, pour ne rien dire de plus,
                             qu’ils ne sont point obligés à faire dire d’eux qu’ils jouent, qu’ils
@@ -167,8 +168,37 @@
                             des figures différentes et qui font de lui un composé bizarre ou un
                             grotesque ? </p>
                     </div3>
+                    <div3 source="#edition4">
+                    <p>Ceux qui employent mal leur temps sont les premiers à se plaindre de la briéveté; 
+                    comme ils le confument à s'habiller, à manger, à dormir, à de sots discours, a se resoudre 
+                    ce qu'ils doivent faire, et souvent à ne rien faire, ils en manquent pour leurs affaires 
+                    ou pour leurs plaisirs; ceux au contraire qui en fond un meilleure usage en ont de reste.
+                    Il n'y a point de ministre si occupé qui ne sache perdre chaque jour deux heures de temps
+                    , cela va loin à la fin d'une longue vie; et si le mal est encore plus grand dans les autres 
+                    conditions des hommes, quelle perte infinie ne se fait pas dans le monde d'une chose si 
+                    precieuse, et dont l'on se plaint qu'on n'a point assez.</p>
 
-                    <div3 n="27" source="#edition2_volume_2>
+                    </div3>
+
+                    <div3 source="#edition4">
+                    <p>Cesar n'etoit point trop vieux pour penser à la conquête de l'Univers; il n'avoit point 
+                    d'autre beatitude à le faire que le cours d'une belle vie, et un grand nom après sa 
+                    mort; né fier, amibitieux, et se portant bien comme il faisoit, il ne pouvoit mieux employer 
+                    son temps qu'à conquerir  le monde. Alexandre était bien jeune pour un deffein si serieux; 
+                    bien jeune pour un deffein si serieux; il est etonnant que dans ce premier âge les femmes ou 
+                    levin n'ayent pas plutôt rompu son entreprise.</p>
+
+                    </div3>
+
+                    <div3 source="#edition4">
+                    <p>Un jeune Prince, d'une race auguste. L'amour et l'esperance des peuples. Donne du ciel pour prolonger la féliciter 
+                    de la terre. Plus grand que ses ayeux. Fils d'un héros qui est son modelle
+                    , a déjà montré à l'univers par ses divines qualitez et par une vertu anticipé, que les enfants
+                    des héros sont plus proches de l'estre que les autres hommes.</p>
+
+                    </div3>
+
+                    <div3 n="27" source="#edition2#edition4">
                         <p>Il ne faut pas juger des hommes comme d’un tableau ou d’une figure, sur
                             une seule et première vue : il y a un intérieur et un cœur qu’il faut
                             approfondir. Le voile de la modestie couvre le mérite, et le masque de
@@ -178,7 +208,7 @@
                             vertu parfaite et le vice consommé viennent enfin à se déclarer. </p>
                     </div3>
 
-                    <div3 n="28" source="#edition2_volume_2>
+                    <div3 n="28" source="#edition2">
                         <p>Fragment … Il disait que l’esprit dans cette belle personne était un
                             diamant bien mis en œuvre, et continuant de parler d’elle : « C’est,
                             ajoutait-il, comme une nuance de raison et d’agrément qui occupe les
@@ -218,7 +248,7 @@
                             grand théâtre, pour y faire briller toutes ses vertus. » </p>
                     </div3>
 
-                    <div3 n="29" source="#edition2_volume_2>
+                    <div3 n="29" source="#edition2">
                         <p>Une belle femme est aimable dans son naturel ; elle ne perd rien à être
                             négligée, et sans autre parure que celle qu’elle tire de sa beauté et de
                             sa jeunesse. Une grâce naïve éclate sur son visage, anime ses moindres
@@ -236,7 +266,7 @@
                             est moins difficile d’en descendre que d’y monter. </p>
                     </div3>
 
-                    <div3 n="30" source="#edition2_volume_2>
+                    <div3 n="30" source="#edition2">
                         <p>Un homme de talent et de réputation, s’il est chagrin et austère, il
                             effarouche les jeunes gens, les fait penser mal de la vertu, et la leur
                             rend suspecte d’une trop grande réforme et d’une pratique trop
@@ -252,4 +282,3 @@
         </body>
     </text>
 </TEI>
-
