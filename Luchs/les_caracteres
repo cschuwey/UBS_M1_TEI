@@ -22,8 +22,9 @@
                         <publisher>chez Thomas Amaulry</publisher>
                         <placeName>Lyon</placeName>
                         <date>1688</date>
+                        <edition xml:id="edit1">Edition 1</edition>
                         <idno>FRBNF37242745</idno>
-                        <ref></ref>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575738/f347</ref>
                     </bibl>
                 </listBibl>
                 <listBibl>
@@ -34,12 +35,33 @@
                         <publisher>chez Estienne Michallet</publisher>
                         <placeName>Paris</placeName>
                         <date>1690</date>
+                        <edition xml:id="edit5">Edition 5</edition>
                         <idno>FRBNF37243137</idno>
-                        <ref></ref>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575660/f525</ref>
+                    </bibl>
+                <listBibl>
+                    <bibl>
+                        <author>Jean de La Bruyère</author>
+                        <title> Les caractères de Théophraste traduits du grec ; avec les caractères
+                            ou les moeurs de ce siècle</title>
+                        <publisher>chez Estienne Michallet</publisher>
+                        <placeName>Paris</placeName>
+                        <date>1694</date>
+                        <edition xml:id="edit8">Edition 8</edition>
+                        <idno>FRBNF37243225</idno>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f695.item</ref>
                     </bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>J'ai choisi l'identifiant #edit1 pour l'édition 1 de 1688, #edit5 pour l'édition 5 de 1690 et #edit8 pour l'édition 8 de 1964.</p>
+                    <p>J'ai décidé de mettre les sources dans les p pour faciliter la chose quand il y a plusieurs p dans un div3.</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="fra">Français</language>
@@ -48,6 +70,7 @@
         <revisionDesc>
             <change when="2023-10-15">Création des méta-données du fichier.</change>
             <change when="2023-10-16">Début encodage chapitre "Des Esprits Forts"</change>
+            <change when="2023-10-22">Ajout des comparaisons des éditions 1, 5 et 8.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -59,7 +82,7 @@
                     <head>Des Esprits Forts</head>
                     <div3 n="1">
                         <!-- (1) -->
-                        <p>Les esprits forts savent-ils qu’on les appelle ainsi par ironie ? Quelle
+                        <p source="#edit1 #edit5 #edit8">Les esprits forts savent-ils qu’on les appelle ainsi par ironie ? Quelle
                             plus grande faiblesse que d’être incertains quel est le principe de son
                             être, de sa vie, de ses sens, de ses connaissances, et quelle en doit
                             être la fin ? Quel découragement plus grand que de douter si son âme
@@ -73,7 +96,7 @@
                     </div3>
                     <div3 n="2">
                         <!-- (2) -->
-                        <p>Le docile et le faible sont susceptibles d’impressions : l’un en reçoit
+                        <p source="#edit8">Le docile et le faible sont susceptibles d’impressions : l’un en reçoit
                             de bonnes, l’autre de mauvaises ; c’est-à-dire que le premier est
                             persuadé et fidèle, et que le second est entêté et corrompu. Ainsi
                             l’esprit docile admet la vraie religion ; et l’esprit faible, ou n’en
@@ -83,7 +106,7 @@
                     </div3>
                     <div3 n="3">
                         <!-- (3) -->
-                        <p>J’appelle mondains, terrestres ou grossiers ceux dont l’esprit et le cœur
+                        <p source="#edit5 #edit8">J’appelle mondains, terrestres ou grossiers ceux dont l’esprit et le cœur
                             sont attachés à une petite portion de ce monde qu’ils habitent, qui est
                             la terre ; qui n’estiment rien, qui n’aiment rien au delà : gens aussi
                             limités que ce qu’ils appellent leurs possessions ou leur domaine, que
@@ -105,7 +128,7 @@
                     </div3>
                     <div3 n="4">
                         <!-- (4) -->
-                        <p>Quelques-uns achèvent de se corrompre par de longs voyages, et perdent le
+                        <p source="#edit5 #edit8">Quelques-uns achèvent de se corrompre par de longs voyages, et perdent le
                             peu de religion qui leur restait. Ils voient de jour à autre un nouveau
                             culte, diverses mœurs, diverses cérémonies ; ils ressemblent à ceux qui
                             entrent dans les magasins, indéterminés sur le choix des étoffes qu’ils
@@ -115,7 +138,7 @@
                     </div3>
                     <div3 n="5">
                         <!-- (5) -->
-                        <p>Il y a des hommes qui attendent à être dévots et religieux que tout le
+                        <p source="#edit5 #edit8">Il y a des hommes qui attendent à être dévots et religieux que tout le
                             monde se déclare impie et libertin : ce sera alors le parti du vulgaire,
                             ils sauront s’en dégager. La singularité leur plaît dans une matière si
                             sérieuse et si profonde ; ils ne suivent la mode et le train commun que
@@ -127,31 +150,31 @@
                     </div3>
                     <div3 n="6">
                         <!-- (6) -->
-                        <p>L’on doute de Dieu dans une pleine santé, comme l’on doute que ce soit
+                        <p source="#edit1 #edit5 #edit8">L’on doute de Dieu dans une pleine santé, comme l’on doute que ce soit
                             pécher que d’avoir un commerce avec une personne libre. Quand l’on
                             devient malade, et que l’hydropisie est formée, l’on quitte sa
                             concubine, et l’on croit en Dieu.</p>
                     </div3>
                     <div3 n="7">
                         <!-- (7) -->
-                        <p>Il faudrait s’éprouver et s’examiner très sérieusement, avant que de se
+                        <p source="#edit1 #edit5 #edit8">Il faudrait s’éprouver et s’examiner très sérieusement, avant que de se
                             déclarer esprit fort ou libertin, afin au moins, et selon ses principes,
                             de finir comme l’on a vécu ; ou si l’on ne se sent pas la force d’aller
                             si loin, se résoudre de vivre comme l’on veut mourir.</p>
                     </div3>
                     <div3 n="8">
                         <!-- (8) -->
-                        <p>Toute plaisanterie dans un homme mourant est hors de sa place : si elle
+                        <p source="#edit1 #edit5 #edit8">Toute plaisanterie dans un homme mourant est hors de sa place : si elle
                             roule sur de certains chapitres, elle est funeste. C’est une extrême
                             misère que de donner à ses dépens à ceux que l’on laisse le plaisir d’un
                             bon mot.</p>
-                        <p>(VI) Dans quelque prévention où l’on puisse être sur ce qui
+                        <p source="#edit8">(VI) Dans quelque prévention où l’on puisse être sur ce qui
                             doit suivre la mort, c’est une chose bien sérieuse que de mourir : ce
                             n’est point alors le badinage qui sied bien, mais la constance.</p>
                     </div3>
                     <div3 n="9">
                         <!-- (9) -->
-                        <p>Il y a eu de tout temps de ces gens d’un bel esprit et d’une agréable
+                        <p source="#edit1 #edit5 #edit8">Il y a eu de tout temps de ces gens d’un bel esprit et d’une agréable
                             littérature, esclaves des grands, dont ils ont épousé le libertinage et
                             porté le joug toute leur vie, contre leurs propres lumières et contre
                             leur conscience. Ces hommes n’ont jamais vécu que pour d’autres hommes,
@@ -166,7 +189,7 @@
                     </div3>
                     <div3 n="10">
                         <!-- (10) -->
-                        <p>J’exigerais de ceux qui vont contre le train commun et les grandes règles
+                        <p source="#edit1 #edit5 #edit8">J’exigerais de ceux qui vont contre le train commun et les grandes règles
                             qu’il sussent plus que les autres, qu’ils eussent des raisons claires,
                             et de ces arguments qui emportent conviction.</p>
                     </div3>
