@@ -4,12 +4,12 @@
         <fileDesc>
             <titleStmt>
                 <title>Les caractères</title>
-                <author>Jean de la Bruyère</author>
+                <author xml:id="labruyere">Jean de la Bruyère</author>
             </titleStmt>
             <publicationStmt>
                 <publisher>GitHub</publisher>
                 <!--Il n'y a pas vraiment de publisher mais comme on doit le rendre sur GitHub, j'ai décidé d'utiliser le site comme publisher.-->
-                <authority>A.Henarejos</authority>
+                <authority xml:id="henarejos">A.Henarejos</authority>
                 <date when-iso="2023-10-09">09/10/2023</date>
             </publicationStmt>
             <sourceDesc>
@@ -22,23 +22,21 @@
                             <forename>Jean</forename>
                             <surname>de La Bruyère</surname>
                         </author>
-                        <!--Je ne sais pas comment faire pour associer une édition spécifique (première édition, 2e édition, etc.) à un élément imprint-->
+
                         <imprint>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Estienne Michallet</publisher>
                             <date when="1691">1691</date>
-                            <!-- je voudrais mettre <xml:id="#ed4">4e édition</xml:id> ici pour spécifier l'édition qui apparait ensuite dans source= mais cela me fait un problème de formatage. Je ne sais pas où le mettre ailleurs -->
+
                             <!--4e édition https://gallica.bnf.fr/ark:/12148/bpt6k57567b?rk=214593;2-->
                         </imprint>
                         <imprint>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Estienne Michallet</publisher>
                             <date>1694</date>
-                            <!-- je voudrais mettre <xml:id="#ed8">8e édition</xml:id> ici pour spécifier l'édition qui apparait ensuite dans source= mais cela me fait un problème de formatage. Je ne sais pas où le mettre ailleurs -->
                             <!-- 8e édition https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=278971;2-->
                         </imprint>
                     </monogr>
-                    <!-- J'aimerai églement spécifier l'édition donnée sur Github comme <xml:id="#ed0">édition de référence</xml:id>  mais je ne sais pas où le mettre-->
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
@@ -52,12 +50,18 @@
                     <p> Le numéro attribué à chaque div3 correspond à ceux qui ont été ajoutés dans
                         la dernière édition critique.</p>
                 </normalization>
+                <p>L'édition x correspond à l'édition revue du 19e siècle.</p>
             </editorialDecl>
+            <p xml:id="ed4">4e édition datant de 1991</p>
+            <p xml:id="ed8">8e édition datant de 1994</p>
+            <p xml:id="edx">dernière édition datant du 19e siècle</p>
+            <!--J'ai mis les identifiants des éditions ici mais je ne suis pas sure que ce soit vraiment la bonne solution. C'était le seul endroit qui marchait bien.-->
         </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="FRA">Français</language>
             </langUsage>
+
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-09">Encodage du TEI header.</change>
@@ -70,8 +74,7 @@
                 <head>Les caractères ou les Moeurs de ce siècle</head>
                 <div2 type="chapitre">
                     <head>De l'Homme</head>
-                    <div3 type="remarque" n="22" source="#ed0 #ed4 #ed8">
-                        <!-- Je ne sais pas si c'est possible d'attribuer plusieurs valeurs à un attribut -->
+                    <div3 type="remarque" n="22" source="#edx #ed4 #ed8">
                         <!-- Est-ce nécessaire d'ajouter ub attribut source à p si les valeurs ne diffèrent pas de celles de div? -->
                         <p source="#ed4">Il est si ordinaire à l'homme de n'être pas heureux, et si
                             essentiel à tout ce qui est un bien d'être attaché par mille peines,
@@ -80,19 +83,19 @@
                             qu'avec des mesures justes, l'on doive si aisément parvenir à la fin
                             qu'on le propose : l'on croit mériter les bons succès, mais n'y devoir
                             compter que fort rarement.</p>
-                        <p source="#ed0 #ed4 #ed8">L’homme qui dit qu’il n’est pas né heureux
+                        <p source="#edx #ed4 #ed8">L’homme qui dit qu’il n’est pas né heureux
                             pourrait du moins le devenir par le bonheur de ses amis ou de ses
                             proches. L’envie lui ôte cette dernière ressource. </p>
-                        <!-- ajout attribut source pour noter la version dans laquelle le bout de texte est ajouté. Mettre dans div3 si c'est ajout de remarque et dans p pour ajout de paragraphe -->
+
                     </div3>
-                    <div3 type="remarque" n="23" source="#ed0 #ed4 #ed8">
-                        <p source="#ed0 #ed4 #ed8">Quoi que j’aie pu dire ailleurs, peut-être que
+                    <div3 type="remarque" n="23" source="#edx #ed4 #ed8">
+                        <p source="#edx #ed4 #ed8">Quoi que j’aie pu dire ailleurs, peut-être que
                             les affligés ont tort. Les hommes semblent être nés pour l’infortune, la
                             douleur et la pauvreté ; peu en échappent ; et comme toute disgrâce peut
                             leur arriver, ils devraient être préparés à toute disgrâce.</p>
                     </div3>
-                    <div3 type="remarque" n="24" source="#ed0 #ed4 #ed8">
-                        <p source="#ed0 #ed8">Les hommes ont tant de peine à s’approcher sur les
+                    <div3 type="remarque" n="24" source="#edx #ed8">
+                        <p source="#edx #ed8">Les hommes ont tant de peine à s’approcher sur les
                             affaires, sont si épineux sur les moindres intérêts, si hérissés de
                             difficultés, veulent si fort tromper et si peu être trompés, mettent si
                             haut ce qui leur appartient, et si bas ce qui appartient aux autres, que
@@ -100,43 +103,49 @@
                             mariages, les contrats, les acquisitions, la paix, la trêve, les
                             traités, les alliances. </p>
                     </div3>
-                    <div3 type="remarque" n="25" source="#ed0 #ed4 #ed8">
-                        <p source="#ed0 #ed4 #ed8">A quelques-uns l’arrogance tient lieu de
+                    <div3 type="remarque" n="25" source="#edx #ed4 #ed8">
+                        <p source="#edx #ed4 #ed8">A quelques-uns l’arrogance tient lieu de
                             grandeur, l’inhumanité de fermeté, et la fourberie d’esprit.</p>
-                        <p source="#ed0 #ed4 #ed8">(I) Les fourbes croient aisément que les autres
+                        <p source="#edx #ed4 #ed8">(I) Les fourbes croient aisément que les autres
                             le sont ; ils ne peuvent guère être trompés, et ils ne trompent pas
                             longtemps.</p>
-                        <p source="#ed0 #ed4 #ed8">(V) Je me rachèterai toujours fort volontiers
+                        <p source="#edx #ed4 #ed8">(V) Je me rachèterai toujours fort volontiers
                             d’être fourbe par être stupide et passer pour tel.</p>
-                        <p source="#ed0 #ed4 #ed8">(V) On ne trompe point en bien ; la fourberie
+                        <p source="#edx #ed4 #ed8">(V) On ne trompe point en bien ; la fourberie
                             ajoute la malice au mensonge. </p>
                     </div3>
-                    <div3 type="remarque" n="26" source="#ed0 #ed8">
-                        <p source="#ed0 #ed8">S’il y avait moins de dupes, il y aurait moins de ce
+                    <div3 type="remarque" n="26" source="#edx #ed8">
+                        <p source="#edx #ed8">S’il y avait moins de dupes, il y aurait moins de ce
                             qu’on appelle des hommes fins ou entendus, et de ceux qui tirent autant
                             de vanité que de distinction d’avoir su, pendant tout le cours de leur
-                            vie, tromper les autres. Comment voulez-vous qu’Erophile, à qui le
-                            manque de parole, les mauvais offices, la fourberie, bien loin de nuire,
-                            ont mérité des grâces et des bienfaits de ceux mêmes qu’il a ou manqué
-                            de servir ou désobligés, ne présume pas infiniment de soi et de son
+                            vie, tromper les autres. Comment voulez-vous qu’<seg>Erophile<note
+                                    resp="#labruyere" type="glossaire" place="bottom" source="#ed8">
+                                    note imaginaire </note><note resp="#henarejos" type="glossaire">
+                                    Personnage de tragédie. </note></seg>, à qui le manque de
+                            parole, les mauvais offices, la fourberie, bien loin de nuire, ont
+                            mérité des grâces et des bienfaits de ceux mêmes qu’il a ou manqué de
+                            servir ou désobligés, ne présume pas infiniment de soi et de son
                             industrie ? </p>
                     </div3>
-                    <div3 type="remarque" n="27" source="#ed0 #ed4 #ed8">
-                        <p source="#ed0 #ed4 #ed8"> L’on n’entend dans les places et dans les rues
+                    <div3 type="remarque" n="27" source="#edx #ed4 #ed8">
+                        <p source="#edx #ed4 #ed8"> L’on n’entend dans les places et dans les rues
                             des grandes villes, et de la bouche de ceux qui passent, que les mots
                             d’exploit, de saisie, d’interrogatoire, de promesse, et de plaider
                             contre sa promesse. Est-ce qu’il n’y aurait pas dans le monde la plus
                             petite équité ? Serait-il au contraire rempli de gens qui demandent
                             froidement ce qui ne leur est pas dû, ou qui refusent nettement de
                             rendre ce qu’ils doivent ?</p>
-                        <p source="#ed0 #ed8">Parchemins inventés pour faire souvenir ou pour
+                        <p source="#edx #ed8">Parchemins inventés pour faire souvenir ou pour
                             convaincre les hommes de leur parole : honte de l’humanité ! </p>
-                        <p source="#ed0 #ed4 #ed8">(IV) Otez les passions, l’intérêt, l’injustice,
-                            quel calme dans les plus grandes villes ! Les besoins et la subsistance
-                            n’y font pas le tiers de l’embarras. </p>
+                        <p source="#edx #ed4 #ed8">(IV) <seg>Otez les passions, l’intérêt,
+                                l’injustice, quel calme dans les plus grandes villes ! Les besoins
+                                et la subsistance n’y font pas le tiers de l’embarras.<note
+                                    resp="#henarejos" type="texte">On trouve ici un exemple typique
+                                    d'une envolée lyrique.</note></seg>
+                        </p>
                     </div3>
-                    <div3 type="remarque" n="28" source="#ed0 #ed4 #ed8">
-                        <p source="#ed0 #ed4 #ed8"> Rien n’engage tant un esprit raisonnable à
+                    <div3 type="remarque" n="28" source="#edx #ed4 #ed8">
+                        <p source="#edx #ed4 #ed8"> Rien n’engage tant un esprit raisonnable à
                             supporter tranquillement des parents et des amis les tors qu’ils ont à
                             son égard, que la réflexion qu’il fait sur les vices de l’humanité, et
                             combien il est pénible aux hommes d’être constants, généreux, fidèles,
@@ -147,28 +156,30 @@
                             particuliers, il les aime même par des motifs plus relevés, et il
                             s’étudie à mériter le moins qu’il se peut une pareille indulgence. </p>
                     </div3>
-                    <div3 type="remarque" n="29" source="#ed0 #ed4 #ed8">
-                        <p source="#ed0 #ed4 #ed8">Il y a de certains biens que l’on désire avec
+                    <div3 type="remarque" n="29" source="#edx #ed4 #ed8">
+                        <p source="#edx #ed4 #ed8">Il y a de certains biens que l’on désire avec
                             emportement, et dont l’idée seule nous enlève et nous transporte : s’il
                             nous arrive de les obtenir, on les sent plus tranquillement qu’on ne
                             l’eût pensé, on en jouit moins que l’on n’aspire encore à de plus
                             grands. </p>
                     </div3>
-                    <div3 type="remarque" n="30" source="#ed0 #ed4 #ed8">
-                        <p source="#ed0 #ed4 #ed8"> Il y a des maux effroyables et d’horribles
-                            malheurs où l’on n’ose penser, et dont la seule vue fait frémir : s’il
-                            arrive que l’on y tombe, l’on se trouve des ressources que l’on ne se
-                            connaissait point, l’on se raidit contre son infortune, et l’on fait
-                            mieux qu’on ne l’espérait. </p>
+                    <div3 type="remarque" n="30" source="#edx #ed4 #ed8">
+                        <p source="#edx #ed4 #ed8">
+                            <seg>Il y a des maux effroyables et d’horribles malheurs où l’on n’ose
+                                    penser<note resp="#henarejos" type="precision"> Ici, La Bruyère
+                                    fait une référence à tel évènement.</note></seg>, et dont la
+                            seule vue fait frémir : s’il arrive que l’on y tombe, l’on se trouve des
+                            ressources que l’on ne se connaissait point, l’on se raidit contre son
+                            infortune, et l’on fait mieux qu’on ne l’espérait. </p>
                     </div3>
-                    <div3 type="remarque" n="31" source="#ed0 #ed4 #ed8">
-                        <p source="#ed0 #ed4 #ed8">Il ne faut quelquefois qu’une jolie maison dont
+                    <div3 type="remarque" n="31" source="#edx #ed4 #ed8">
+                        <p source="#edx #ed4 #ed8">Il ne faut quelquefois qu’une jolie maison dont
                             on hérite, qu’un beau cheval ou un joli chien dont on se trouve le
                             maître, qu’une tapisserie, qu’une pendule, pour adoucir une grande
                             douleur, et pour faire moins sentir une grande perte. </p>
                     </div3>
-                    <div3 type="remarque" n="32" source="#ed0 #ed4 #ed8">
-                        <p source="#ed0 #ed4 #ed8">Je suppose que les hommes soient éternels sur la
+                    <div3 type="remarque" n="32" source="#edx #ed4 #ed8">
+                        <p source="#edx #ed4 #ed8">Je suppose que les hommes soient éternels sur la
                             terre, et je médite ensuite sur ce qui pourrait me faire connaître
                             qu’ils se feraient alors une plus grande affaire de leur établissement
                             qu’ils ne s’en font dans l’état où sont les choses. </p>
