@@ -4,11 +4,11 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères ou les Mœurs de ce siècle</title>
-                <author>Jean de La Bruyère</author>
+                <author xml:id="Labruyere">Jean de La Bruyère</author>
             </titleStmt>
             <publicationStmt>
                 <publisher>Gallica</publisher>
-                <authority>T.Bourge</authority>
+                <authority xml:id="Bourge">T.Bourge</authority>
                 <date when-iso="2023-10-10">10/10/2023</date>
             </publicationStmt>
             <sourceDesc>
