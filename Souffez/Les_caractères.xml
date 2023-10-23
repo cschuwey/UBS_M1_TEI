@@ -5,10 +5,11 @@
             <titleStmt>
                 <title>Les caractères de Théophrase traduit du grec ; avec les caractères et moeurs
                     de ce siècle</title>
-                <author>La Bruyère, Jean de</author>
+                <author xml:id="labruyère">La Bruyère, Jean de</author>
+
             </titleStmt>
             <publicationStmt>
-                <publisher> A.Souffez </publisher>
+                <publisher xml:id="souffez"> A.Souffez </publisher>
                 <date when="2023-10-22">22/10/2023</date>
             </publicationStmt>
             <sourceDesc>
@@ -70,8 +71,16 @@
                     <p>La balise "ref" est utilisé pour indiquer l'URL où l'édition numérique a été
                         trouvé.</p>
                     <p>L'attribut "source" est encodé dans la balise "p" dans le "body", j'ai choisi
-                        d'encoder ces informations dans "p" car cela m'a semblé faciliter la conversion
-                        par un ordinateur et trouver une information.</p>
+                        d'encoder ces informations dans "p" car cela m'a semblé faciliter la
+                        conversion par un ordinateur et trouver une information.</p>
+                    <p>Une identité a été donné pour les pragraphes (ou remarques) déplacés ou
+                        disparus dans le texte. L'identité "d" est donné aux passages qui ont
+                        disparus de ce passage, afin de suivre les choix éditoriaux donnés et
+                        permettre à une autre personne de les retrouver plus facilement. L'identité
+                        "r" est donné aux passages déplacés dans l'extrait, "r" pour "remarque",
+                        tout en gardant une nomination simple et en évitant d'utiliser à nouveau la
+                        lettre "d" pour "déplacé". A ces lettres est ajouté un numéro, afin de les
+                        distinguer.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -91,10 +100,13 @@
             <change when="2023-10-16">Modification d'une erreur de balise. Ajout d'informations dans
                 les méta-données. Ajout d'éléments dans la balise "body". Ajout de l'attribut
                 "xml:id" à la balise "bibl", j'ai choisi cette balise, car tous les enfants de
-                "bibl" décrive l'identité, ce qui m'a donc semblé plus pertinent. Ajout de l'attribut
-                "source" dans les balises "p".</change>
-            <change when="2023-10-22">Ajout de la huitième édition, car tous les paragraphes n'étaient
-                compris dans l'édition 3 et 5.</change>
+                "bibl" décrive l'identité, ce qui m'a donc semblé plus pertinent. Ajout de
+                l'attribut "source" dans les balises "p".</change>
+            <change when="2023-10-22">Ajout de la huitième édition, car tous les paragraphes
+                n'étaient compris dans l'édition 3 et 5.</change>
+            <change when="2023-10-23">Ajout des variations de remarques et paragraphes de l'édition
+                3 (déplacement et passage fantôme), en leur attribuant une identité "r" pour celles
+                déplacées dans ce passage et une identité "d" pour celles disparues.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -104,140 +116,157 @@
                 <div2 type="chapitre" n="1">
                     <head>Des Ouvrages de l'Esprit</head>
                     <div3 n="11">
-                        <p source="#edition3 #edition5 #edition8">Il y a beaucoup plus de vivacité que de goût parmi
-                            les hommes ; ou pour mieux dire, il y a peu d’hommes dont l’esprit soit accompagné
-                            d’un goût sûr et d’une critique judicieuse.</p>
+                        <p source="#edition3 #edition5 #edition8">Il y a beaucoup plus de vivacité
+                            que de goût parmi les hommes ; ou pour mieux dire, il y a peu d’hommes
+                            dont l’esprit soit accompagné d’un goût sûr et d’une critique
+                            judicieuse.</p>
                     </div3>
                     <div3 n="12">
-                        <p source="#edition3 #edition5 #edition8">La vie des héros a enrichi l’histoire, et l’histoire a 
-                            embelli les actions des héros : ainsi je ne sais qui sont plus redevables, ou ceux
-                            qui ont écrit l’histoire à ceux qui leur en ont fourni une si noble
-                            matière, ou ces grands hommes à leurs historiens. </p>
+                        <p source="#edition3 #edition5 #edition8">La vie des héros a enrichi
+                            l’histoire, et l’histoire a embelli les actions des héros : ainsi je ne
+                            sais qui sont plus redevables, ou ceux qui ont écrit l’histoire à ceux
+                            qui leur en ont fourni une si noble matière, ou ces grands hommes à
+                            leurs historiens. </p>
                     </div3>
                     <div3 n="13">
-                        <p source="#edition3 #edition5 #edition8">Amas d’épithètes, mauvaises louanges : ce sont les faits
-                            qui louent, et la manière de les raconter.</p>
+                        <p source="#edition3 #edition5 #edition8">Amas d’épithètes, mauvaises
+                            louanges : ce sont les faits qui louent, et la manière de les
+                            raconter.</p>
                     </div3>
                     <div3 n="14">
-                        <p source="#edition3 #edition5 #edition8">Tout l’esprit d’un auteur consiste à bien définir et à bien
-                            peindre. Moise, Homere, Platon, Virgile, Horace ne sont au-dessus des autres
-                            écrivains que par leurs expressions et par leurs images : il faut
-                            exprimer le vrai pour écrire naturellement, fortement, délicatement.</p>
+                        <p source="#edition3 #edition5 #edition8">Tout l’esprit d’un auteur consiste
+                            à bien définir et à bien peindre. Moise, Homere, Platon, Virgile, Horace
+                            ne sont au-dessus des autres écrivains que par leurs expressions et par
+                            leurs images : il faut exprimer le vrai pour écrire naturellement,
+                            fortement, délicatement.</p>
                     </div3>
                     <div3 n="15">
-                        <p source="#edition5 #edition8">On a dû faire du style ce qu’on a fait de l’architecture. 
-                            On a entièrement abandonné l’ordre gothique, que la barbarie avait introduit
-                            pour les palais et pour les temples ; on a rappelé le dorique, l’ionique
-                            et le corinthien : ce qu’on ne voyait plus que dans les ruines de
-                            l’ancienne Rome et de la vieille Grèce, devenu moderne, éclate dans nos
-                            portiques et dans nos péristyle. De même, on ne saurait en écrivant
-                            rencontrer le parfait, et s’il se peut, surpasser les anciens que par
-                            leur imitation. </p>
-                        <p source="#edition3 #edition5 #edition8">Combien de siècles se sont écoulés avant que les 
-                            hommes, dans les sciences et dans les arts, aient pu revenir au goût des anciens et
-                            reprendre enfin le simple et le naturel ! </p>
-                        <!-- (edition3 p :) Entre toutes les différentes expressions qui peuvent rendre une
-                            seule de nos pensées, il n'y en a qu'une qui soit la bonne ; on ne la rencontre 
-                            pas toujours en parlant, ou en écrivant ;  il est vrai néanmoins qu'elle existe,
-                            que tout ce qui ne  l'est point est faible, et ne satisfait point un homme d'esprit
-                            qui veut se faire entendre.(/p)-->
-                        <p source="#edition5 #edition8">On se nourrit des anciens et des habiles modernes, on
-                            les presse, on en tire le plus que l’on peut, on en renfle ses ouvrages ;
-                            et quand enfin l’on est auteur, et que l’on croit marcher tout seul, on s’élève
-                            contre eux, on les maltraite, semblable à ces enfants drus et forts d’un bon
-                            lait qu’ils ont sucé, qui battent leur nourrice. </p>
-                        <p source="#edition5 #edition8">Un auteur moderne prouve ordinairement que les anciens nous sont
-                            inférieurs en deux manières, par raison et par exemple : il tire la
-                            raison de son goût particulier, et l’exemple de ses ouvrages. </p>
-                        <p source="#edition5 #edition8">Il avoue que les anciens, quelque inégaux et peu corrects qu’ils
-                            soient, ont de beaux traits ; il les cite, et ils sont si beaux qu’ils font lire
-                            sa critique. </p>
-                        <p source="#edition5 #edition8">Quelques habiles prononcent en faveur des anciens contre les modernes ;
-                            mais ils sont suspects et semblent juger en leur propre cause, tant
-                            leurs ouvrages sont faits sur le goût de l’antiquité : on les récuse.
-                        </p>
+                        <p source="#edition5 #edition8">On a dû faire du style ce qu’on a fait de
+                            l’architecture. On a entièrement abandonné l’ordre gothique, que la
+                            barbarie avait introduit pour les palais et pour les temples ; on a
+                            rappelé le dorique, l’ionique et le corinthien : ce qu’on ne voyait plus
+                            que dans les ruines de l’ancienne Rome et de la vieille Grèce, devenu
+                            moderne, éclate dans nos portiques et dans nos péristyle. De même, on ne
+                            saurait en écrivant rencontrer le parfait, et s’il se peut, surpasser
+                            les anciens que par leur imitation. </p>
+                        <p source="#edition3 #edition5 #edition8">Combien de siècles se sont écoulés
+                            avant que les hommes, dans les sciences et dans les arts, aient pu
+                            revenir au goût des anciens et reprendre enfin le simple et le naturel ! </p>
+                        <p source="#edition3" xml:id="d1"> Entre toutes les différentes expressions
+                            qui peuvent rendre une seule de nos pensées, il n'y en a qu'une qui soit
+                            la bonne ; on ne la rencontre pas toujours en parlant, ou en écrivant ;
+                            il est vrai néanmoins qu'elle existe, que tout ce qui ne l'est point est
+                            faible, et ne satisfait point un homme d'esprit qui veut se faire
+                            entendre.</p>
+                        <p source="#edition5 #edition8">On se nourrit des anciens et des habiles
+                            modernes, on les presse, on en tire le plus que l’on peut, on en renfle
+                            ses ouvrages ; et quand enfin l’on est auteur, et que l’on croit marcher
+                            tout seul, on s’élève contre eux, on les maltraite, semblable à ces
+                            enfants drus et forts d’un bon lait qu’ils ont sucé, qui battent leur
+                            nourrice. </p>
+                        <p source="#edition5 #edition8">Un auteur moderne prouve ordinairement que
+                            les anciens nous sont inférieurs en deux manières, par raison et par
+                            exemple : il tire la raison de son goût particulier, et l’exemple de ses
+                            ouvrages. </p>
+                        <p source="#edition5 #edition8">Il avoue que les anciens, quelque inégaux et
+                            peu corrects qu’ils soient, ont de beaux traits ; il les cite, et ils
+                            sont si beaux qu’ils font lire sa critique. </p>
+                        <p source="#edition5 #edition8">Quelques habiles prononcent en faveur des
+                            anciens contre les modernes ; mais ils sont suspects et semblent juger
+                            en leur propre cause, tant leurs ouvrages sont faits sur le goût de
+                            l’antiquité : on les récuse. </p>
                     </div3>
                     <div3 n="16">
-                        <p source="#edition5 #edition8">L’on devrait aimer à lire ses ouvrages à ceux qui en savent assez pour
-                            les corriger et les estimer. </p>
-                        <p source="#edition5 #edition8">Ne vouloir être ni conseillé ni corrigé sur son ouvrage est un
-                            pédantisme. </p>
-                        <p source="#edition5 #edition8">Il faut qu’un auteur reçoive avec une égale modestie les éloges et la
-                            critique que l’ont fait de ses ouvrages. </p>
+                        <p source="#edition5 #edition8">L’on devrait aimer à lire ses ouvrages à
+                            ceux qui en savent assez pour les corriger et les estimer. </p>
+                        <p source="#edition5 #edition8">Ne vouloir être ni conseillé ni corrigé sur
+                            son ouvrage est un pédantisme. </p>
+                        <p source="#edition5 #edition8">Il faut qu’un auteur reçoive avec une égale
+                            modestie les éloges et la critique que l’ont fait de ses ouvrages. </p>
                     </div3>
                     <div3 n="17">
-                        <p source="#edition5 #edition8">Entre toutes les différentes expressions qui peuvent rendre 
-                            une seule de nos pensées, il n’y en a qu’une qui soit la bonne. On ne la rencontre
-                            pas toujours en parlant ou en écrivant ; il est vrai néanmoins qu’elle
-                            existe, que tout ce qui ne l’est point est faible, et ne satisfait point
-                            un homme d’esprit qui veut se faire entendre. </p>
-                            <p source="#edition3 #edition5 #edition8">Un bon auteur, et qui
-                            écrit avec soin, éprouve souvent que l’expression qu’il cherchait depuis
-                            longtemps sans la connaître, et qu’il a enfin trouvée, est celle qui
-                            était la plus simple, la plus naturelle, qui semblait devoir se
-                            présenter d’abord et sans effort. </p>
-                            <p source="#edition3 #edition5 #edition8">Ceux qui écrivent par humeur sont
+                        <p source="#edition5 #edition8">Entre toutes les différentes expressions qui
+                            peuvent rendre une seule de nos pensées, il n’y en a qu’une qui soit la
+                            bonne. On ne la rencontre pas toujours en parlant ou en écrivant ; il
+                            est vrai néanmoins qu’elle existe, que tout ce qui ne l’est point est
+                            faible, et ne satisfait point un homme d’esprit qui veut se faire
+                            entendre. </p>
+                        <p source="#edition3 #edition5 #edition8">Un bon auteur, et qui écrit avec
+                            soin, éprouve souvent que l’expression qu’il cherchait depuis longtemps
+                            sans la connaître, et qu’il a enfin trouvée, est celle qui était la plus
+                            simple, la plus naturelle, qui semblait devoir se présenter d’abord et
+                            sans effort. </p>
+                        <p source="#edition3 #edition5 #edition8">Ceux qui écrivent par humeur sont
                             sujets à retoucher à leurs ouvrages : comme elle n’est pas toujours
                             fixe, et qu’elle varie en eux selon les occasions, ils se refroidissent
                             bientôt pour les expressions et les termes qu’ils ont le plus aimés.
                         </p>
                     </div3>
-                    <!-- (edition3 div3 p:) L'on devroit aimer à lire les ouvrages à ceux qui savent assez pour les
-                        corrifer et les estimer.(/p /div3)-->
+                    <div3 n="\">
+                        <p source="#edition3" xml:id="d2">L'on devroit aimer à lire les ouvrages à
+                            ceux qui savent assez pour les corrifer et les estimer.</p>
+                    </div3>
                     <div3 n="18">
-                        <p source="#edition3 #edition5 #edition8">La même justesse d’esprit qui nous fait écrire de
-                            bonnes choses nous fait appréhender qu’elles ne le soient pas assez pour mériter
-                            d’être lues.</p> 
-                        <p source="#edition3 #edition5 #edition8">Un esprit médiocre croit écrire divinement ; un bon esprit
-                            croit écrire raisonnablement. </p>
+                        <p source="#edition3 #edition5 #edition8">La même justesse d’esprit qui nous
+                            fait écrire de bonnes choses nous fait appréhender qu’elles ne le soient
+                            pas assez pour mériter d’être lues.</p>
+                        <p source="#edition3 #edition5 #edition8">Un esprit médiocre croit écrire
+                            divinement ; un bon esprit croit écrire raisonnablement. </p>
                     </div3>
                     <div3 n="19">
-                        <p source="#edition3 #edition5 #edition8">« L’on m’a engagé, dit Ariste, à lire mes ouvrages
-                            à Zoïle : je l’ai fait. Ils l’ont saisi d’abord et avant qu’il ait eu le loisir 
-                            de les trouver mauvais ; il les a loués modestement en ma présence, et il ne
-                            les a pas loués depuis devant personne. Je l’excuse, et je n’en demande
-                            pas davantage à un auteur ; je le plains même d’avoir écouté de belles
-                            choses qu’il n’a point faites. » </p>
-                            <p source="#edition3 #edition5 #edition8"><!-- edition3 : il y a un pied-de-mouche ici 
-                            -->Ceux qui par leur condition se trouvent exempts de la jalousie d’auteur, ont 
-                            ou des passions ou des besoins qui les distraient et les rendent froids sur les 
-                            conceptions d’autrui : personne presque, par la disposition de son esprit, de son
-                            cœur et de sa fortune, n’est en état de se livrer au plaisir que donne la perfection
-                            d’un ouvrage. </p>
+                        <p source="#edition3 #edition5 #edition8">« L’on m’a engagé, dit Ariste, à
+                            lire mes ouvrages à Zoïle : je l’ai fait. Ils l’ont saisi d’abord et
+                            avant qu’il ait eu le loisir de les trouver mauvais ; il les a loués
+                            modestement en ma présence, et il ne les a pas loués depuis devant
+                            personne. Je l’excuse, et je n’en demande pas davantage à un auteur ; je
+                            le plains même d’avoir écouté de belles choses qu’il n’a point faites. » </p>
+                        <p source="#edition5 #edition8" xml:id="r1">Ceux qui par leur condition se
+                            trouvent exempts de la jalousie d’auteur, ont ou des passions ou des
+                            besoins qui les distraient et les rendent froids sur les conceptions
+                            d’autrui : personne presque, par la disposition de son esprit, de son
+                            cœur et de sa fortune, n’est en état de se livrer au plaisir que donne
+                            la perfection d’un ouvrage. </p>
+                    </div3>
+                    <div3 n="\">
+                        <p source="#edition3" corresp="#r1">Ceux qui par leur condition se trouvent
+                            exempts de la jalousie d’auteur, ont ou des passions ou des besoins qui
+                            les distraient et les rendent froids sur les conceptions d’autrui :
+                            personne presque, par la disposition de son esprit, de son cœur et de sa
+                            fortune, n’est en état de se livrer au plaisir que donne la perfection
+                            d’un ouvrage.</p>
                     </div3>
                     <div3 n="20">
-                        <p source="#edition3 #edition5 #edition8">Le plaisir de la critique nous ôte celui d’être vivement
-                            touchés de très belles choses. </p>
+                        <p source="#edition3 #edition5 #edition8">Le plaisir de la critique nous ôte
+                            celui d’être vivement touchés de très belles choses. </p>
                     </div3>
                     <div3 n="21">
-                        <p source="#edition3 #edition5 #edition8">Bien des gens vont jusques à sentir le mérite 
-                            d’un manuscrit qu’on leur lit, qui ne peuvent se déclarer en sa faveur, 
-                            jusques à ce qu’ils aient vu le cours qu’il aura dans le monde par l’impression,
-                            ou quel sera son sort parmi les habiles : ils ne hasardent point leurs suffrages, 
-                            et il veulent être portés par la foule et entraînés par la multitude. Ils
-                            disent alors qu’ils ont les premiers approuvé cet ouvrage, et que le
-                            public est de leur avis. </p>
-                        <p source="#edition8">Ces gens laissent échapper les plus belles occasions de nous convaincre
-                            qu’ils ont de la capacité et des lumières, qu’ils savent juger, trouver
-                            bon ce qui est bon, et meilleur ce qui est meilleur. Un bel ouvrage
-                            tombe entre leurs mains, c’est un premier ouvrage, l’auteur ne s’est pas
-                            encore fait un grand nom, il n’a rien qui prévienne en sa faveur, il ne
-                            s’agit point de faire sa cour ou de flatter les grands en applaudissant
-                            à ses écrits ; on ne vous demande pas, Zélotes, de vous récrier : C’est
-                            un chef-d’œuvre de l’esprit ; l’humanité ne va pas plus loin ; c’est
-                            jusqu’où la parole humaine peut s’élever ; on ne jugera à l’avenir du
-                            goût de quelqu’un qu’à proportion qu’il en aura pour cette pièce ;
-                            phrase outrées, dégoûtantes, qui sentent la pension ou l’abbaye,
-                            nuisibles à cela même qui est louable et qu’on veut louer. Que ne
-                            disiez-vous seulement :« Voilà un bon livre » ? Vous le dites, il est
-                            vrai, avec toute la France, avec les étrangers comme avec vos
-                            compatriotes, quand il est imprimé par toute l’Europe et qu’il est
-                            traduit en plusieurs langues : il n’est plus temps. </p>
+                        <p source="#edition3 #edition5 #edition8">Bien des gens vont jusques à
+                            sentir le mérite d’un manuscrit qu’on leur lit, qui ne peuvent se
+                            déclarer en sa faveur, jusques à ce qu’ils aient vu le cours qu’il aura
+                            dans le monde par l’impression, ou quel sera son sort parmi les habiles
+                            : ils ne hasardent point leurs suffrages, et il veulent être portés par
+                            la foule et entraînés par la multitude. Ils disent alors qu’ils ont les
+                            premiers approuvé cet ouvrage, et que le public est de leur avis. </p>
+                        <p source="#edition8">Ces gens laissent échapper les plus belles occasions
+                            de nous convaincre qu’ils ont de la capacité et des lumières, qu’ils
+                            savent juger, trouver bon ce qui est bon, et meilleur ce qui est
+                            meilleur. Un bel ouvrage tombe entre leurs mains, c’est un premier
+                            ouvrage, l’auteur ne s’est pas encore fait un grand nom, il n’a rien qui
+                            prévienne en sa faveur, il ne s’agit point de faire sa cour ou de
+                            flatter les grands en applaudissant à ses écrits ; on ne vous demande
+                            pas, Zélotes, de vous récrier : C’est un chef-d’œuvre de l’esprit ;
+                            l’humanité ne va pas plus loin ; c’est jusqu’où la parole humaine peut
+                            s’élever ; on ne jugera à l’avenir du goût de quelqu’un qu’à proportion
+                            qu’il en aura pour cette pièce ; phrase outrées, dégoûtantes, qui
+                            sentent la pension ou l’abbaye, nuisibles à cela même qui est louable et
+                            qu’on veut louer. Que ne disiez-vous seulement :« Voilà un bon livre » ?
+                            Vous le dites, il est vrai, avec toute la France, avec les étrangers
+                            comme avec vos compatriotes, quand il est imprimé par toute l’Europe et
+                            qu’il est traduit en plusieurs langues : il n’est plus temps. </p>
                     </div3>
-                    
+
                 </div2>
             </div1>
         </body>
     </text>
 </TEI>
-
