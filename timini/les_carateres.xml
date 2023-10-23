@@ -4,21 +4,21 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères</title>
-                <author>Jean de la Bruyère</author>
+                <author xml:id="labruyere">Jean de la Bruyère</author>
             </titleStmt>
             <publicationStmt>
-                <publisher>L.TIMINI</publisher>
+                <publisher xml:id="timini">L.TIMINI</publisher>
                 <date when="2023-10-10">10 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
                 <listbibl>
                     <bibl xml:id="edition1">
                         <author>Jean de la Bruyère</author>
-                        <title></title>
+                        <title/>
                         <placeName>Lyon</placeName>
                         <publisher>Thomas Amaulry</publisher>
                         <date>1688</date>
-                        <idno DOI="https://gallica.bnf.fr/ark:/12148/bpt6k575738?rk=21459;2"></idno>
+                        <idno DOI="https://gallica.bnf.fr/ark:/12148/bpt6k575738?rk=21459;2"/>
                     </bibl>
                     <bibl xml:id="edition7">
                         <author>J. de la Bruyère</author>
@@ -27,7 +27,7 @@
                         <placeName>Paris</placeName>
                         <publisher>Etienne Michallet</publisher>
                         <date>1692</date>
-                        <idno DOI="https://gallica.bnf.fr/ark:/12148/bpt6k57575z?rk=236052;4"></idno>
+                        <idno DOI="https://gallica.bnf.fr/ark:/12148/bpt6k57575z?rk=236052;4"/>
                     </bibl>
                 </listbibl>
             </sourceDesc>
@@ -38,8 +38,8 @@
                     <p>Graphie modernisée</p>
                 </normalization>
                 <interpretation>
-                    <p>Utilisation de l'attribut DOI dans la balise idno car permet
-                d'identifier les objets digitaux à l'aide de chiffres et de lettres</p>
+                    <p>Utilisation de l'attribut DOI dans la balise idno car permet d'identifier les
+                        objets digitaux à l'aide de chiffres et de lettres</p>
                     <p>div1: titre de l'ouvrage</p>
                     <p>div2: chapitres</p>
                     <p>div3: remarques (avec utilisation des balises p s'il y a plusieurs
@@ -47,6 +47,7 @@
                     <p>Choix de l'attribut n= dans les balises div3 pour symboliser le numéro de la
                         remarque. Ce numéro n'apparait pas dans la transcription du fichier en autre
                         chose, donc est fidèle au texte original mais il permet de nous répérer.</p>
+                    <p>utilisation de la balise seg pour délimiter à quoi se rapporte la note</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -57,8 +58,12 @@
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-10">création du TEI Header</change>
-            <change when="2023-10-16">encodage du chapitre 3, Des Femmes., des Caractères ou les Moeurs de ce siècle, des remarques 43 à 53</change>
-            <change when="2023-10-17">ajout des attributs source dans les div3 en fonction des éditions</change>
+            <change when="2023-10-16">encodage du chapitre 3, Des Femmes., des Caractères ou les
+                Moeurs de ce siècle, des remarques 43 à 53</change>
+            <change when="2023-10-17">ajout des attributs source dans les div3 en fonction des
+                éditions</change>
+            <change when="2023-10-23">ajout de notes de l'auteur (seul une des notes est de
+                l'auteur, les deux autres sont fictives) et du publisher</change>
         </revisionDesc>
     </teiHeader>
     <body>
@@ -67,144 +72,155 @@
             <div2 type="chapter" n="3">
                 <head>Des Femmes.</head>
                 <div3 n="43" source="#edition7">
-                    <p source="#edition7"> La dévotion vient à quelques-uns, et surtout aux femmes, comme une passion,
-                        ou comme le faible d’un certain âge, ou comme un mode qu’il faut suivre.
-                        Elles comptaient autrefois une semaine par les jours de jeu, de spectacle,
-                        de concert, de mascarade, ou d’un joli sermon : elles allaient le lundi
-                        perdre leur argent chez Ismène, le mardi leur temps chez Climène, et le
-                        mercredi leur réputation chez Célimène ; elles savaient dès la veille toute
-                        la joie qu’elles devaient avoir le jour d’après et le lendemain ; elles
-                        jouissaient tout à la fois du plaisir présent et de celui qui ne leur
-                        pouvait manquer ; elles auraient souhaité de les pouvoir rassembler tous en
-                        un seul jour : c’était alors leur unique inquiétude et tout le sujet de
-                        leurs distractions ; et si elles se trouvaient quelquefois à l’Opéra, elles
-                        y regrettaient la comédie. Autres temps, autres mœurs : elles outrent
-                        l’austérité et la retraite ; elles n’ouvrent plus les yeux qui leur sont
-                        donnés pour voir ; elles ne mettent plus leurs sens à aucun usage ; et chose
-                        incroyable ! elles parlent peu ; elles pensent encore et assez bien
-                        d’elles-mêmes, comme assez mal des autres ; il y a chez elles une émulation
-                        de vertu et de réforme qui tient quelque chose de la jalousie ; elles ne
-                        haïssent pas de primer dans ce nouveau genre de vie, comme elles faisaient
-                        dans celui qu’elles viennent de quitter par politique ou par dégoût. Elles
-                        se perdaient gaiement par la galanterie, par la bonne chère et par
-                        l’oisiveté ; et elles se perdent tristement par la présomption et par
+                    <p source="#edition7"> La dévotion vient à quelques-uns, et surtout aux femmes,
+                        comme une passion, ou comme le faible d’un certain âge, ou comme un mode
+                        qu’il faut suivre. Elles comptaient autrefois une semaine par les jours de
+                        jeu, de spectacle, de concert, de mascarade, ou d’un joli sermon : elles
+                        allaient le lundi perdre leur argent chez Ismène, le mardi leur temps chez
+                        Climène, et le mercredi leur réputation chez Célimène ; elles savaient dès
+                        la veille toute la joie qu’elles devaient avoir le jour d’après et le
+                        lendemain ; elles jouissaient tout à la fois du plaisir présent et de celui
+                        qui ne leur pouvait manquer ; elles auraient souhaité de les pouvoir
+                        rassembler tous en un seul jour : c’était alors leur unique inquiétude et
+                        tout le sujet de leurs distractions ; et si elles se trouvaient quelquefois
+                        à l’Opéra, elles y regrettaient la comédie. Autres temps, autres mœurs :
+                        elles outrent l’austérité et la retraite ; elles n’ouvrent plus les yeux qui
+                        leur sont donnés pour voir ; elles ne mettent plus leurs sens à aucun usage
+                        ; et chose incroyable ! elles parlent peu ; elles pensent encore et assez
+                        bien d’elles-mêmes, comme assez mal des autres ; il y a chez elles une
+                        émulation de vertu et de réforme qui tient quelque chose de la jalousie ;
+                        elles ne haïssent pas de primer dans ce nouveau genre de vie, comme elles
+                        faisaient dans celui qu’elles viennent de quitter par politique ou par
+                        dégoût. Elles se perdaient gaiement par la galanterie, par la bonne chère et
+                        par l’oisiveté ; et elles se perdent tristement par la présomption et par
                         l’envie.</p>
                 </div3>
                 <div3 n="44" source="#edition7">
-                    <p source="#edition7">Si j’épouse, Hermas, une femme avare, elle ne me ruinera point ; si une
-                        joueuse, elle pourra s’enrichir ; si une savante, elle saura m’instruire ;
-                        si une prude, elle ne sera point emportée ; si une emportée, elle exercera
-                        ma patience ; si une coquette, elle voudra me plaire ; si une galante, elle
-                        le sera peut-être jusqu’à m’aimer ; si une dévote, répondez, Hermas, que
-                        dois-je attendre de celle qui veut tromper Dieu, et qui se trompe elle-même
-                        ?</p>
+                    <p source="#edition7">Si j’épouse, Hermas, une femme avare, elle ne me ruinera
+                        point ; si une joueuse, elle pourra s’enrichir ; si une savante, elle saura
+                        m’instruire ; si une prude, elle ne sera point emportée ; si une emportée,
+                        elle exercera ma patience ; si une coquette, elle voudra me plaire ; si une
+                        galante, elle le sera peut-être jusqu’à m’aimer ; si une <seg>dévote<note
+                                place="margin" resp="#labruyere" type="explication">Fausse
+                                dévote</note></seg>, répondez, Hermas, que dois-je attendre de celle
+                        qui veut tromper Dieu, et qui se trompe elle-même ?</p>
                 </div3>
                 <div3 n="45" source="#edition7">
-                    <p source="edition7">Une femme est aisée à gouverner, pourvu que ce soit un homme qui s’en donne
-                        la peine. Un seul même en gouverne plusieurs ; il cultive leur esprit et
-                        leur mémoire, fixe et détermine leur religion ; il entreprend même de régler
-                        leur cœur. Elles n’approuvent et ne désapprouvent, ne louent et ne
-                        condamnent, qu’après avoir consulté ses yeux et son visage. Il est le
-                        dépositaire de leurs joies et de leurs chagrins, de leurs désirs, de leurs
-                        jalousies, de leurs haines et de leurs amours il les fait rompre avec leurs
-                        galants ; il les brouille et les réconcilie avec leurs maris, et il profite
-                        des interrègnes. Il prend soin de leurs affaires, sollicite leurs procès, et
-                        voit leurs juges ; il leur donne son médecin, son marchand, ses ouvriers ;
-                        il s’ingère de les loger, de les meubler, et il ordonne de leur équipage. On
-                        le voit avec elles dans leurs carrosses, dans les rues d’une ville et aux
-                        promenades, ainsi que dans leur banc à un sermon, et dans leur loge à la
-                        comédie ; il fait avec elles les mêmes visites ; il les accompagne au bain,
-                        aux eaux, dans les voyages ; il a le plus commode appartement chez elles à
-                        la campagne. Il vieillit sans déchoir de son autorité : un peu d’esprit et
-                        beaucoup de temps à perdre lui suffit pour la conserver ; les enfants, les
-                        héritiers, la bru, la nièce, les domestiques, tout en dépend. Il a commencé
-                        par se faire estimer ; il finit par se faire craindre. Cet ami si ancien, si
-                        nécessaire, meurt sans qu’on le pleure ; et dix femmes dont il était le
-                        tyran héritent par sa mort de la liberté. </p>
+                    <p source="edition7">Une femme est aisée à <seg>gouverner<note place="end"
+                                resp="#timini" type="glossaire">Exercer un pouvoir</note></seg>,
+                        pourvu que ce soit un homme qui s’en donne la peine. Un seul même en
+                        gouverne plusieurs ; il cultive leur esprit et leur mémoire, fixe et
+                        détermine leur religion ; il entreprend même de régler leur cœur. Elles
+                        n’approuvent et ne désapprouvent, ne louent et ne condamnent, qu’après avoir
+                        consulté ses yeux et son visage. Il est le dépositaire de leurs joies et de
+                        leurs chagrins, de leurs désirs, de leurs jalousies, de leurs haines et de
+                        leurs amours il les fait rompre avec leurs galants ; il les brouille et les
+                        réconcilie avec leurs maris, et il profite des interrègnes. Il prend soin de
+                        leurs affaires, sollicite leurs procès, et voit leurs juges ; il leur donne
+                        son médecin, son marchand, ses ouvriers ; il s’ingère de les loger, de les
+                        meubler, et il ordonne de leur équipage. On le voit avec elles dans leurs
+                        carrosses, dans les rues d’une ville et aux promenades, ainsi que dans leur
+                        banc à un sermon, et dans leur loge à la comédie ; il fait avec elles les
+                        mêmes visites ; il les accompagne au bain, aux eaux, dans les voyages ; il a
+                        le plus commode appartement chez elles à la campagne. Il vieillit sans
+                        déchoir de son autorité : un peu d’esprit et beaucoup de temps à perdre lui
+                        suffit pour la conserver ; les enfants, les héritiers, la bru, la nièce, les
+                        domestiques, tout en dépend. Il a commencé par se faire estimer ; il finit
+                        par se faire craindre. Cet ami si ancien, si nécessaire, meurt sans qu’on le
+                        pleure ; et dix femmes dont il était le tyran héritent par sa mort de la
+                        liberté. </p>
                 </div3>
                 <div3 n="46" source="#edition7">
-                    <p source="#edition7"> Quelques femmes ont voulu cacher leur conduite sous les dehors de la
-                        modestie ; et tout ce que chacune a pu gagner par une continuelle
-                        affectation, et qui ne s’est jamais démentie, a été de faire dire de soi :
-                        On l’aurait prise pour une vestale. </p>
+                    <p source="#edition7"> Quelques femmes ont voulu cacher leur conduite sous les
+                        dehors de la modestie ; et tout ce que chacune a pu gagner par une
+                        continuelle affectation, et qui ne s’est jamais démentie, a été de faire
+                        dire de soi : On l’aurait prise pour une vestale. </p>
                 </div3>
                 <div3 n="47" source="#edition7">
-                    <p source="#edition7"> C’est dans les femmes une violente preuve d’une réputation bien nette et
-                        bien établie, qu’elle ne soit pas même effleurée par la familiarité de
-                        quelques-unes qui ne leur ressemblent point ; et qu’avec toute la pente
-                        qu’on a aux malignes explications, on ait recours à une tout autre raison de
-                        ce commerce qu’à celle de la convenance des mœurs. </p>
-                </div3>
-                <div3 n="48" source="#edition7">
-                    <p source="#edition7"> Un comique outre sur la scène ses personnages ; un poète charge ses
-                        descriptions ; un peintre qui fait d’après nature force et exagère une
-                        passion, un contraste, des attitudes ; et celui qui copie, s’il ne mesure au
-                        compas les grandeurs et les proportions, grossit ses figures, donne à toutes
-                        les pièces qui entrent dans l’ordonnance de son tableau plus de volume que
-                        n’en ont celles de l’original : de même la pruderie est une imitation de la
-                        sagesse. </p>
-                    <p source="#edition7"> Il y a une fausse modestie qui est vanité, une fausse gloire qui est
-                        légèreté, une fausse grandeur qui est petitesse ; une fausse vertu qui est
-                        hypocrisie, une fausse sagesse qui est pruderie. </p>
-                    <p source="#edition7"> Une femme prude paye de maintien et de parole ; une femme sage paye de
-                        conduite. Celle-là suit son humeur et sa complexion, celle-ci sa raison et
-                        son cœur. L’une est sérieuse et austère ; l’autre est dans les diverses
-                        rencontres précisément ce qu’il faut qu’elle soit. La première cache des
-                        faibles sous de plausibles dehors ; la seconde couvre un riche fonds sous un
-                        air libre et naturel. La pruderie contraint l’esprit, ne cache ni l’âge ni
-                        la laideur ; souvent elle les suppose : la sagesse au contraire pallie les
-                        défauts du corps, ennoblit l’esprit, ne rend la jeunesse que plus piquante
-                        et la beauté que plus périlleuse. </p>
-                </div3>
-                <div3 n="49" source="#edition7">
-                    <p source="#edition7"> Pourquoi s’en prendre aux hommes de ce que les femmes ne sont pas savantes ?
-                        Par quelles lois, par quels édits, par quels rescrits leur a-t-on défendu
-                        d’ouvrir les yeux et de lire, de retenir ce qu’elles ont lu, et d’en rendre
-                        compte ou dans leur conversation ou par leurs ouvrages ? Ne se sont-elles
-                        pas au contraire établies elles-mêmes dans cet usage de ne rien savoir, ou
-                        par la faiblesse de leur complexion, ou par la paresse de leur esprit ou par
-                        le soin de leur beauté, ou par une certaine légèreté qui les empêche de
-                        suivre une longue étude, ou par le talent et le génie qu’elles ont seulement
-                        pour les ouvrages de la main, ou par les distractions que donnent les
-                        détails d’un domestique, ou par un éloignement naturel des choses pénibles
-                        et sérieuses, ou par une curiosité toute différente de celle qui contente
-                        l’esprit, ou par un tout autre goût que celui d’exercer leur mémoire ? Mais
-                        à quelque cause que les hommes puissent devoir cette ignorance des femmes,
-                        ils sont heureux que les femmes, qui les dominent d’ailleurs par tant
-                        d’endroits, aient sur eux cet avantage de moins. </p>
-                    <p source="#edition7"> On regarde une femme savante comme on fait une belle arme : elle est ciselée
-                        artistement, d’une polissure admirable et d’un travail fort recherché ;
-                        c’est une pièce de cabinet, que l’on montre aux curieux, qui n’est pas
-                        d’usage, qui ne sert ni à la guerre ni à la chasse, non plus qu’un cheval de
-                        manège, quoique le mieux instruit du monde. </p>
-                    <p source="#edition7"> Si la science et la sagesse se trouvent unies en un même sujet, je ne
-                        m’informe plus du sexe, j’admire ; et si vous me dites qu’une femme sage ne
-                        songe guère à être savante, ou qu’une femme savante n’est guère sage, vous
-                        avez déjà oublié ce que vous venez de lire, que les femmes ne sont
-                        détournées des sciences que par de certains défauts : concluez donc
-                        vous-même que moins elles auraient de ces défauts, plus elles seraient
-                        sages, et qu’ainsi une femme sage n’en serait que plus propre à devenir
-                        savante, ou qu’une femme savante, n’étant telle que parce qu’elle aurait pu
-                        vaincre beaucoup de défauts, n’en est que plus sage. </p>
-                </div3>
-                <div3 n="50" soucre="#edition1 #edition7">
-                    <p source="#edition1 #edition7"> La neutralité entre des femmes qui nous sont également amies, quoiqu’elles
-                        aient rompu pour des intérêts où nous n’avons nulle part, est un point
-                        difficile : il faut choisir souvent entre elles, ou les perdre toutes deux.
+                    <p source="#edition7"> C’est dans les femmes une violente preuve d’une
+                        réputation bien nette et bien établie, qu’elle ne soit pas même effleurée
+                        par la familiarité de quelques-unes qui ne leur ressemblent point ; et
+                        qu’avec toute la pente qu’on a aux malignes explications, on ait recours à
+                        une tout autre raison de ce commerce qu’à celle de la convenance des mœurs.
                     </p>
                 </div3>
+                <div3 n="48" source="#edition7">
+                    <p source="#edition7"> Un comique outre sur la scène ses personnages ; un poète
+                        charge ses descriptions ; un peintre qui fait d’après nature force et
+                        exagère une passion, un contraste, des attitudes ; et celui qui copie, s’il
+                        ne mesure au compas les grandeurs et les proportions, grossit ses figures,
+                        donne à toutes les pièces qui entrent dans l’ordonnance de son tableau plus
+                        de volume que n’en ont celles de l’original : de même la pruderie est une
+                        imitation de la sagesse. </p>
+                    <p source="#edition7"> Il y a une fausse modestie qui est <seg>vanité<note
+                                place="bottom" resp="#timini" type="explication">Appartient au péché
+                                d'orgueil </note></seg>, une fausse gloire qui est légèreté, une
+                        fausse grandeur qui est petitesse ; une fausse vertu qui est hypocrisie, une
+                        fausse sagesse qui est pruderie. </p>
+                    <p source="#edition7"> Une femme prude paye de maintien et de parole ; une femme
+                        sage paye de conduite. Celle-là suit son humeur et sa complexion, celle-ci
+                        sa raison et son cœur. L’une est sérieuse et austère ; l’autre est dans les
+                        diverses rencontres précisément ce qu’il faut qu’elle soit. La première
+                        cache des faibles sous de plausibles dehors ; la seconde couvre un riche
+                        fonds sous un air libre et naturel. La pruderie contraint l’esprit, ne cache
+                        ni l’âge ni la laideur ; souvent elle les suppose : la sagesse au contraire
+                        pallie les défauts du corps, ennoblit l’esprit, ne rend la jeunesse que plus
+                        piquante et la beauté que plus périlleuse. </p>
+                </div3>
+                <div3 n="49" source="#edition7">
+                    <p source="#edition7"> Pourquoi s’en prendre aux hommes de ce que les femmes ne
+                        sont pas savantes ? Par quelles lois, par quels édits, par quels rescrits
+                        leur a-t-on défendu d’ouvrir les yeux et de lire, de retenir ce qu’elles ont
+                        lu, et d’en rendre compte ou dans leur conversation ou par leurs ouvrages ?
+                        Ne se sont-elles pas au contraire établies elles-mêmes dans cet usage de ne
+                        rien savoir, ou par la faiblesse de leur complexion, ou par la paresse de
+                        leur esprit ou par le soin de leur beauté, ou par une certaine légèreté qui
+                        les empêche de suivre une longue étude, ou par le talent et le génie
+                        qu’elles ont seulement pour les ouvrages de la main, ou par les distractions
+                        que donnent les détails d’un domestique, ou par un éloignement naturel des
+                        choses pénibles et sérieuses, ou par une curiosité toute différente de celle
+                        qui contente l’esprit, ou par un tout autre goût que celui d’exercer leur
+                        mémoire ? Mais à quelque cause que les hommes puissent devoir cette
+                        ignorance des femmes, ils sont heureux que les femmes, qui les dominent
+                        d’ailleurs par tant d’endroits, aient sur eux cet avantage de moins. </p>
+                    <p source="#edition7"> On regarde une femme savante comme on fait une belle arme
+                        : elle est ciselée artistement, d’une polissure admirable et d’un travail
+                        fort recherché ; c’est une pièce de cabinet, que l’on montre aux curieux,
+                        qui n’est pas d’usage, qui ne sert ni à la guerre ni à la chasse, non plus
+                        qu’un cheval de manège, quoique le mieux instruit du monde. </p>
+                    <p source="#edition7"> Si la <seg>science et la sagesse<note place="margin"
+                                resp="#labruyere" type="explication">Note fictive</note></seg> se
+                        trouvent unies en un même sujet, je ne m’informe plus du sexe, j’admire ; et
+                        si vous me dites qu’une femme sage ne songe guère à être savante, ou qu’une
+                        femme savante n’est guère sage, vous avez déjà oublié ce que vous venez de
+                        lire, que les femmes ne sont détournées des sciences que par de certains
+                        défauts : concluez donc vous-même que moins elles auraient de ces défauts,
+                        plus elles seraient sages, et qu’ainsi une femme sage n’en serait que plus
+                        propre à devenir savante, ou qu’une femme savante, n’étant telle que parce
+                        qu’elle aurait pu vaincre beaucoup de défauts, n’en est que plus sage. </p>
+                </div3>
+                <div3 n="50" soucre="#edition1 #edition7">
+                    <p source="#edition1 #edition7"> La neutralité entre des femmes qui nous sont
+                        également amies, quoiqu’elles aient rompu pour des intérêts où nous n’avons
+                        nulle part, est un point difficile : il faut choisir souvent entre elles, ou
+                        les perdre toutes deux. </p>
+                </div3>
                 <div3 n="51" source="#edition1 #edition7">
-                    <p source="#edition1 #edition7"> Il y a telle femme qui aime mieux son argent que ses amis, et ses amants que
-                        son argent. </p>
+                    <p source="#edition1 #edition7"> Il y a telle femme qui aime mieux son argent
+                        que ses amis, et ses amants que son argent. </p>
                 </div3>
                 <div3 n="52" source="#edition1 #edition7">
-                    <p source="#edition1 #edition7"> Il est étonnant de voir dans le cœur de certaines femmes quelque chose de
-                        plus vif et de plus fort que l’amour pour les hommes, je veux dire
-                        l’ambition et le jeu : de telles femmes rendent les hommes chastes ; elles
-                        n’ont de leur sexe que les habits. </p>
+                    <p source="#edition1 #edition7"> Il est étonnant de voir dans le cœur de
+                        certaines femmes quelque chose de plus vif et de plus fort que
+                                <seg>l’amour<note place="margin" resp="#labruyere"
+                                type="explication">Note fictive</note></seg> pour les hommes, je
+                        veux dire l’ambition et le jeu : de telles femmes rendent les hommes chastes
+                        ; elles n’ont de leur sexe que les habits. </p>
                 </div3>
                 <div3 n="53" source="#edition1 #edition7">
-                    <p source="#edition1 #edition7"> Les femmes sont extrêmes : elles sont meilleures ou pires que les hommes.
+                    <p source="#edition1 #edition7"> Les femmes sont <seg>extrêmes<note place="end"
+                                resp="#timini" type="glossaire">De degré le plus
+                            intense</note></seg> : elles sont meilleures ou pires que les hommes.
                     </p>
                 </div3>
             </div2>
