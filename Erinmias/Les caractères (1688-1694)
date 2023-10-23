@@ -26,6 +26,8 @@
             <listBibl>
                 <bibl xml:id="edition8">
                   <author>La Bruyère, Jean de</author>
+                    <affiliation xml:id="invisihands">invisihands</affiliation>
+                    <publisher xml:id="Erin">erin</publisher>
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Lyon</placeName>
                     <publisher> Thomas Amaulry </publisher>
@@ -55,6 +57,7 @@
             <editorialDecl>
                 <normalization><p>graphie modernisée</p></normalization>
                 <normalization><p>ponctuation modernisée</p></normalization>
+                <segmentation><p>note ecrites par "invisihands" sont manuscrites</p></segmentation>
             </editorialDecl>
             <editorialDecl>
                 <interpretation><p></p></interpretation>
