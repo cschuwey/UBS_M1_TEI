@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères ou les Mœurs de ce siècle</title>
-                <author>Jean de La Bruyère</author>
+                <author xml:id="labruyere">Jean de La Bruyère</author>
                 <principal>C. Schuwey</principal>
             </titleStmt>
             <publicationStmt>
-                <publisher>J. Regnier</publisher>
+                <publisher xml:id="regnier">J. Regnier</publisher>
                 <date/>
                 <distributor/>
             </publicationStmt>
@@ -21,11 +20,11 @@
                         <author>Jean de La Bruyère</author>
                         <title>Les Caractères de Théophraste, traduits du grec, avec Les Caractères
                             ou les Mœurs de ce siècle</title>
+                        <bibl xml:id="edition6">Edition 6</bibl> 
                         <placeName>Paris</placeName>
                         <publisher>E.Michallet</publisher>
                         <date>1691</date>
                         <idno>BNF R-52303</idno>
-                        <bibl xml:id="edition6">Edition 6</bibl>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2</ref>
                     </bibl>
                     
@@ -33,11 +32,11 @@
                         <author>Jean de La Bruyère</author>
                         <title>Les Caractères de Théophraste, traduits du grec, avec Les Caractères
                             ou les Mœurs de ce siècle</title>
+                        <bibl xml:id="edition1">Edition 1</bibl>
                         <placeName>Paris</placeName>
                         <publisher>E.Michallet</publisher>
                         <date>1688</date>
                         <idno>BNF RES-R-2056</idno>
-                        <bibl xml:id="edition1">Edition 1</bibl>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2</ref>
                     </bibl>
                     
@@ -45,11 +44,11 @@
                         <author>Jean de La Bruyère</author>
                         <title>Les Caractères de Théophraste, traduits du grec, avec Les Caractères
                             ou les Mœurs de ce siècle</title>
+                        <bibl xml:id="edition8">Edition 8</bibl>
                         <placeName>Paris</placeName>
                         <publisher>E.Michallet</publisher>
                         <date>1694</date>
                         <idno>BNF </idno>
-                        <bibl xml:id="edition8">Edition 8</bibl>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=21459;2</ref> <!--page 268-->
                     </bibl>
                 </listBibl>
