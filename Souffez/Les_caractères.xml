@@ -81,6 +81,9 @@
                         tout en gardant une nomination simple et en évitant d'utiliser à nouveau la
                         lettre "d" pour "déplacé". A ces lettres est ajouté un numéro, afin de les
                         distinguer.</p>
+                    <p>La position des notes de La Bruyère dans le texte est précisé comme attribut dans
+                    la balise "note", car il est impossible d'avoir un point de vu d'ensemble sur tout le
+                    texte avec cet extrait et qu'une note unique ne permet pas de généraliser.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -106,7 +109,8 @@
                 n'étaient compris dans l'édition 3 et 5.</change>
             <change when="2023-10-23">Ajout des variations de remarques et paragraphes de l'édition
                 3 (déplacement et passage fantôme), en leur attribuant une identité "r" pour celles
-                déplacées dans ce passage et une identité "d" pour celles disparues.</change>
+                déplacées dans ce passage et une identité "d" pour celles disparues. Ajout de la note de
+                La Bruyère et de trois notes personnelles.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -135,19 +139,27 @@
                     </div3>
                     <div3 n="14">
                         <p source="#edition3 #edition5 #edition8">Tout l’esprit d’un auteur consiste
-                            à bien définir et à bien peindre. Moise, Homere, Platon, Virgile, Horace
-                            ne sont au-dessus des autres écrivains que par leurs expressions et par
-                            leurs images : il faut exprimer le vrai pour écrire naturellement,
-                            fortement, délicatement.</p>
+                            à bien définir et à bien peindre. <seg>Moise<note type="remarque" resp="#labruyère"
+                            place="margin" source="#edition3 #edition8">Quand même on ne le considère
+                            que comme un homme qui a écrit</note> <note type="remarque" resp="#labruyère"
+                            place="margin" source="#edition5" n="obèle"> Quand même on ne le considère que
+                            comme un homme qui a écrit</note></seg>, Homere, Platon, Virgile, Horace ne sont
+                            au-dessus des autres écrivains que par leurs expressions et par leurs images : 
+                            il faut exprimer le vrai pour écrire naturellement, fortement, délicatement.</p>
                     </div3>
                     <div3 n="15">
                         <p source="#edition5 #edition8">On a dû faire du style ce qu’on a fait de
                             l’architecture. On a entièrement abandonné l’ordre gothique, que la
                             barbarie avait introduit pour les palais et pour les temples ; on a
-                            rappelé le dorique, l’ionique et le corinthien : ce qu’on ne voyait plus
-                            que dans les ruines de l’ancienne Rome et de la vieille Grèce, devenu
-                            moderne, éclate dans nos portiques et dans nos péristyle. De même, on ne
-                            saurait en écrivant rencontrer le parfait, et s’il se peut, surpasser
+                            rappelé le <seg>dorique <note type="gloss" resp="#souffez">ordre
+                            architectural d'origine grec apparaissant au VIIe siècle avant J.-C.</note>
+                            </seg>, <seg>l’ionique <note type="gloss" resp="#souffez">Ordre architectural
+                            d'origine grec de la même période historique que l'ordre dorique</note></seg>
+                            et le <seg>corinthien <note type="gloss" resp="#souffez">Ordre architectural
+                            d'origine grec apparaissant I siècle avant J.-C. </note></seg> : ce qu’on ne
+                            voyait plus que dans les ruines de l’ancienne Rome et de la vieille Grèce,
+                            devenu moderne, éclate dans nos portiques et dans nos péristyle. De même, 
+                            on ne saurait en écrivant rencontrer le parfait, et s’il se peut, surpasser
                             les anciens que par leur imitation. </p>
                         <p source="#edition3 #edition5 #edition8">Combien de siècles se sont écoulés
                             avant que les hommes, dans les sciences et dans les arts, aient pu
