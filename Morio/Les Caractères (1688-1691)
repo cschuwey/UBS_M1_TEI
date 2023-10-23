@@ -81,6 +81,8 @@
                 <change when="2023-10-20">Précision sur les remraques : dans quelle(s) édition(s)
                     elles apparaissent et ajout des "xml:id" pour les éditions dans "bibl". Ajout
                     d'une interprétation dans "encodingDesc"</change>
+                <change when="2023-10-23">Réajustement des remarques 7 et 8 pour faire une "div3"
+                    par édition.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -123,28 +125,30 @@
                             l’épître dédicatoire, la préface, la table, les approbations, il reste à
                             peine assez de pages pour mériter le nom de livre.</p>
                     </div3>
-                    <div3 type="remarque" n="7">
-                        <p source="edition1">Quel supplice que celui d’entendre prononcer de
-                            médiocres vers avec toute l’emphase d’un mauvais poète.</p>
-                        <p source="edition6">Il y a de certaines choses dont la médiocrité est
-                            insupportable : la poésie, la musique, la peinture, le discours
-                            public.</p>
-                        <p source="edition6">Quel supplice que celui d’entendre déclamer
-                            pompeusement un froid discours, ou prononcer de médiocres vers avec
-                            toute l’emphase d’un mauvais poète !</p>
+                    <div3 type="remarque" n="7" source="edition1">
+                        <p>Quel supplice que celui d’entendre prononcer de médiocres vers avec toute
+                            l’emphase d’un mauvais poète.</p>
                     </div3>
-                    <div3 type="remarque" n="8">
-                        <p source="#edition1">Il y a de certaines choses dont la médiocrité est
-                            insupportable : la poésie, la musique, la peinture, le discours
-                            public.</p>
-                        <p source="#edition6">Certains poètes sont sujets, dans le dramatique, à de
-                            longues suites de vers pompeux, qui semblent forts, élevés, et remplis
-                            de grands sentiments. Le peuple écoute avidement, les yeux élevés et la
-                            bouche ouverte, croit que cela lui plaît, et à mesure qu’il y comprend
-                            moins l’admire davantage ; il n’a pas le temps de respirer, il a à peine
-                            celui de se récrier et d’applaudir. J’ai cru autrefois, et dans ma
-                            première jeunesse, que ces endroits étaient clairs et intelligibles pour
-                            les acteurs, pour le parterre et l’amphithéâtre, que leurs auteurs
+                    <div3 type="remarque" n="7" source="edition6">
+                        <p>Il y a de certaines choses dont la médiocrité est insupportable : la
+                            poésie, la musique, la peinture, le discours public.</p>
+                        <p>Quel supplice que celui d’entendre déclamer pompeusement un froid
+                            discours, ou prononcer de médiocres vers avec toute l’emphase d’un
+                            mauvais poète !</p>
+                    </div3>
+                    <div3 type="remarque" n="8" source="#edition1">
+                        <p>Il y a de certaines choses dont la médiocrité est insupportable : la
+                            poésie, la musique, la peinture, le discours public.</p>
+                    </div3>
+                    <div3 type="remarque" n="8" source="#edition6">
+                        <p>Certains poètes sont sujets, dans le dramatique, à de longues suites de
+                            vers pompeux, qui semblent forts, élevés, et remplis de grands
+                            sentiments. Le peuple écoute avidement, les yeux élevés et la bouche
+                            ouverte, croit que cela lui plaît, et à mesure qu’il y comprend moins
+                            l’admire davantage ; il n’a pas le temps de respirer, il a à peine celui
+                            de se récrier et d’applaudir. J’ai cru autrefois, et dans ma première
+                            jeunesse, que ces endroits étaient clairs et intelligibles pour les
+                            acteurs, pour le parterre et l’amphithéâtre, que leurs auteurs
                             s’entendaient eux-mêmes, et qu’avec toute l’attention que je donnais à
                             leur récit, j’avais tort de n’y rien entendre : je suis détrompé.</p>
                     </div3>
