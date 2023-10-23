@@ -14,8 +14,8 @@
                 <distributor/>
             </publicationStmt>
             <sourceDesc>
-</bibl>
-                <bibl xml:id="edition1">
+<listBibl>
+                <bibl xml:id="edition3">
                 <author>La Bruyère, Jean de</author>
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Paris</placeName>
@@ -23,13 +23,22 @@
                     <date>1688</date>
                 
                 </bibl></listBibl>
-            </bibl>
+            <listBibl>
                 <bibl xml:id="edition8">
                   <author>La Bruyère, Jean de</author>
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Lyon</placeName>
                     <publisher> Thomas Amaulry </publisher>
                     <date>1694</date>
+                </bibl></listBibl>
+               <listBibl>
+                <bibl xml:id="edition7">
+                    <author>La Bruyère, Jean de</author>
+                    <title>Les caractères de Théophraste traduits du grec</title>
+                    <placeName>Paris</placeName>
+                    <publisher>Etienne Michallet</publisher>
+                    <date>1692</date>
+                    
                 </bibl></listBibl>
                 <biblStruct>
                     <monogr>
@@ -60,6 +69,8 @@
 <listChange>
                <change when="2023-10-11">Ajout des méta-données du fichier.</change>
                 <change when="2023-10-20">Ajout de la numérotation des remarques.</change>
+                <change when="2023-10-23">Ajout des des sources</change>
+                 <change when="2023-10-23">Ajout d'une nouvelle édition</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -71,7 +82,7 @@
                     <head>De la mode</head>
 
 
-                    <div3 type="remarque" n="1">
+                    <div3 type="remarque" n="1" source="#edition8 #edition7"> 
                         <p> Une chose folle et qui découvre bien notre petitesse, c’est
                             l’assujettissement aux modes quand on l’étend à ce qui concerne le goût,
                             le vivre, la santé et la conscience. La viande noire est hors de mode,
@@ -80,7 +91,7 @@
                             longtemps par Théotime ; ses tendres exhortations ne sauvaient plus que
                             le peuple, et Théotime a vu son successeur. </p>
                     </div3>
-                    <div3 type="remarque" n="2">
+                    <div3 type="remarque" n="2" source="#edition8 #edition7">
                         <p> La curiosité n’est pas un goût pour ce qui est bon ou ce qui est beau,
                             mais pour ce qui est rare, unique, pour ce qu’on a et ce que les autres
                             n’ont point. Ce n’est pas un attachement à ce qui est parfait, mais à ce
@@ -230,7 +241,7 @@
                             ; il rêve la nuit qu’il mue ou qu’il couve.</p>
 
                     </div3>
-                    <div3 type="remarque" n="3">
+                    <div3 type="remarque" n="3"source="#edition8 #edition7">
                         <p> Le duel est le triomphe de la mode, et l’endroit où elle a exercé sa
                             tyrannie avec plus d’éclat. Cet usage n’a pas laissé au poltron la
                             liberté de vivre ; il l’a mené se faire tuer par un plus brave que soi,
@@ -243,14 +254,14 @@
                             saisi de leur cœur et de leur esprit ; qu’un des plus beaux endroits de
                             la vie d’un très grand roi a été de les guérir de cette folie. </p>
                     </div3>
-                    <div3 type="remarque" n="4">
+                    <div3 type="remarque" n="4 source="#edition8 #edition7">
                         <p> Tel a été à la mode, ou pour le commandement des armées et la
                             négociation ou pour l’éloquence de la chaire, ou pour les vers, qui n’y
                             est plus. Y a-t-il des hommes qui dégénèrent de ce qu’ils furent
                             autrefois ? Est-ce leur mérite qui est usé, ou le goût que l’on avait
                             pour eux ? </p>
                     </div3>
-                    <div3 type="remarque" n="5">
+                    <div3 type="remarque" n="5" source="#edition8 #edition7">
                         <p> Un homme à la mode dure peu, car les modes passent : s’il est par hasard
                             homme de mérite, il n’est pas anéanti, et il subsiste encore par quelque
                             endroit : également estimable, il est seulement moins estimé. (VI) La
@@ -260,7 +271,7 @@
                             conserve, l’épure et la rend parfaite ; qu’elle soit à la mode, qu’elle
                             n’y soit plus, elle demeure vertu. </p>
                     </div3>
-                    <div3 type="remarque" n="6">
+                    <div3 type="remarque" n="6" source="#edition8 #edition7">
                         <p> Si vous dites aux hommes, et surtout aux grands, qu’un tel a de la
                             vertu, ils vous disent : « Qu’il la garde » ; qu’il a bien de l’esprit,
                             de celui surtout qui plaît et qui amuse, ils vous répondent : « Tant
@@ -273,14 +284,14 @@
                             ; et cet homme, propre à parer les avenues d’une foire et à être montré
                             en chambre pour de l’argent, ils l’admettent dans leur familiarité. </p>
                     </div3>
-                    <div3 type="remarque" n="7">
+                    <div3 type="remarque" n="7" source="#edition8 #edition7">
                         <p> Il n’y a rien qui mette plus subitement un homme à la mode et qui le
                             soulève davantage que le grand jeu : cela va du pair avec la crapule. Je
                             voudrais bien voir un homme poli, enjoué, spirituel, fût-il un Catulle
                             ou son disciple, faire quelque comparaison avec celui qui vient de
                             perdre huit perdre huit cents pistoles en une séance. </p>
                     </div3>
-                    <div3 type="remarque" n="8">
+                    <div3 type="remarque" n="8" source="#edition8 #edition7">
                         <p> Une personne à la mode ressemble à une fleur bleue qui croît de soi-même
                             dans les sillons, où elle étouffe les épis, diminue la moisson, et tient
                             la place de quelque chose de meilleur ; qui n’a de prix et de beauté que
@@ -295,7 +306,7 @@
                             après nos pères ; à qui le dégoût ou l’antipathie de quelques-uns ne
                             sauraient nuire : un lis, une rose. </p>
                     </div3>
-                    <div3 type="remarque" n="9">
+                    <div3 type="remarque" n="9" source="#edition8 #edition7">
                         <p> L’on voit Eustrate assis dans sa nacelle, où il jouit d’un air pur et
                             d’un ciel serein : il avance d’un bon vent et qui a toutes les
                             apparences de devoir durer ; mais il tombe tout d’un coup, le ciel se
@@ -306,7 +317,7 @@
                             espérances se réveillent, lorsqu’un flot survient et l’abîme : on ne le
                             revoit plus, il est noyé. </p>
                     </div3>
-                    <div3 type="remarque" n="10">
+                    <div3 type="remarque" n="10"source="#edition8 #edition7" >
                         <p> Voiture et Sarrazin étaient nés pour leur siècle, et ils ont paru dans
                             un temps où il semble qu’ils étaient attendus. S’ils s’étaient moins
                             pressés de venir, ils arrivaient trop tard ; et j’ose douter qu’ils
