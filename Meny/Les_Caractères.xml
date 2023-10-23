@@ -5,10 +5,10 @@
             <titleStmt>
                 <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou les
                     moeurs de ce siècle.</title>
-                <author>J. de La Bruyère</author>
+                <author xml:id="labruyere">J. de La Bruyère</author>
             </titleStmt>
             <publicationStmt>
-                <publisher>L. Meny</publisher>
+                <publisher xml:id="meny">L. Meny</publisher>
                 <date when="2023-10-10">10 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
@@ -41,7 +41,9 @@
                         <publisher>E. Michallet</publisher>
                         <date>1694</date>
                         <edition>huitiène édition</edition>
-                        <idno URL="https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f159.item.r=Les%20caract%C3%A8res%20de%20Th%C3%A9ophraste%20traduits%20du%20grec"/>
+                        <idno
+                            URL="https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f159.item.r=Les%20caract%C3%A8res%20de%20Th%C3%A9ophraste%20traduits%20du%20grec"
+                        />
                     </bibl>
                 </listBibl>
             </sourceDesc>
@@ -72,33 +74,41 @@
                 l'élément bibl avec idno URL</change>
             <change when="2023-10-17">Ajout de la huitième édition dans les méta-données, recherche
                 des remarques dans les trois éditions</change>
+            <change when="2023-10-23">Ajout d'identité à author et au publisher pour y faire
+                référence avec resp. Ajout d'une div4 pour noter la différence de présentation des
+                remarques entre l'éditon 1, et les éditions 6 et 8. Ajout de 3 notes fictives de
+                l'auteur dans un attribut resp="unknown" car manscrites donc pas liées
+                officiellement à l'auteur, et de 3 notes du publisher avec les types gloss et
+                explication. </change>
         </revisionDesc>
     </teiHeader>
 
     <text>
         <body>
-            <div1 type="ouvrage">Les Caractères ou les moeurs de ce siècle. <head>Les Caractères ou
+            <div1 type="ouvrage">Les Caractères ou les moeurs de ce siècle.<head>Les Caractères ou
                     les moeurs de ce siècle</head>
                 <div2 type="chapitre" n="3">Des Femmes. <head>Des femmes.</head>
                     <div3 n="32" source="#edition1 #edition6 #edition8">
                         <p>Est-ce en vue du secret, ou par un goût hypocondre, que cette femme aime
-                            un valet, cette autre un moine, et Dorinne son médecin ?</p>
+                            un valet, cette autre un moine, et <seg>Dorinne <note place="margin"
+                                    resp="#unknown">note fictive</note></seg>son médecin ?</p>
                     </div3>
                     <div3 n="33" source="#edition8">
-                        <p>Roscius entre sur la scène de bonne grâce : oui, Lélie ; et j’ajoute
-                            encore qu’il a les jambes bien tournées, qu’il joue bien, et de longs
-                            rôles, et que pour déclamer parfaitement il ne lui manque, comme on le
-                            dit, que de parler avec la bouche ; mais est-il le seul qui ait de
-                            l’agrément dans ce qu’il fait ? et ce qu’il fait, est-ce la chose la
-                            plus noble et la plus honnête que l’on puisse faire ? Roscius d’ailleurs
-                            ne peut être à vous, il est à une autre ; et quand cela ne serait pas
-                            ainsi, il est retenu : Claudie attend, pour l’avoir, qu’il se soit
-                            dégoûté de Messaline. Prenez Bathylle, Lélie : où trouverez-vous, je ne
-                            dis pas dans l’ordre des chevaliers, que vous dédaignez, mais même parmi
-                            les farceurs un jeune homme qui s’élève si haut en dansant, et qui passe
-                            mieux la capriole ? Voudriez-vous le sauteur Cobus, qui, jetant ses
-                            pieds en avant, tourne une fois en l’air avant que de tomber à terre ?
-                            Ignorez-vous qu’il n’est plus jeune ? Pour Bathylle, dites-vous, la
+                        <p><seg>Roscius <note resp="#unknown" place="margin">note
+                                fictive</note></seg> entre sur la scène de bonne grâce : oui, Lélie
+                            ; et j’ajoute encore qu’il a les jambes bien tournées, qu’il joue bien,
+                            et de longs rôles, et que pour déclamer parfaitement il ne lui manque,
+                            comme on le dit, que de parler avec la bouche ; mais est-il le seul qui
+                            ait de l’agrément dans ce qu’il fait ? et ce qu’il fait, est-ce la chose
+                            la plus noble et la plus honnête que l’on puisse faire ? Roscius
+                            d’ailleurs ne peut être à vous, il est à une autre ; et quand cela ne
+                            serait pas ainsi, il est retenu : Claudie attend, pour l’avoir, qu’il se
+                            soit dégoûté de Messaline. Prenez Bathylle, Lélie : où trouverez-vous,
+                            je ne dis pas dans l’ordre des chevaliers, que vous dédaignez, mais même
+                            parmi les farceurs un jeune homme qui s’élève si haut en dansant, et qui
+                            passe mieux la capriole ? Voudriez-vous le sauteur Cobus, qui, jetant
+                            ses pieds en avant, tourne une fois en l’air avant que de tomber à terre
+                            ? Ignorez-vous qu’il n’est plus jeune ? Pour Bathylle, dites-vous, la
                             presse y est trop grande, et il refuse plus de femmes qu’il n’en agrée ;
                             mais vous avez Dracon, le joueur de flûte : nul autre de son métier
                             n’enfle plus décemment ses joues en soufflant dans le hautbois ou le
@@ -137,23 +147,40 @@
                             pour ses amis ; qui soit moins esclave de son humeur, moins attachée à
                             ses intérêts ; qui aime moins les commodités de la vie ; je ne dis pas
                             qui fasse des largesses à ses enfants qui sont déjà riches, mais qui,
-                            opulente elle-même et accablée du superflu, leur fournisse le
-                            nécessaire, et leur rende au moins la justice qu’elle leur doit ; qui
-                            soit plus exempte d’amour de soi-même et d’éloignement pour les autres ;
-                            qui soit plus libre de tous attachements humains ? "Non, dites-vous, ce
-                            n’est rien de toutes ces choses." J’insiste, et je vous demande :
-                            "Qu’est-ce donc qu’une femme que l’on dirige ? " Je vous entends, c’est
-                            une femme qui a un directeur.</p>
+                            opulente elle-même et accablée du <seg>superflu<note resp="#meny"
+                                    place="bottom" type="explication">Qui n'est pas strictement
+                                    nécessaire.</note></seg>, leur fournisse le nécessaire, et leur
+                            rende au moins la justice qu’elle leur doit ; qui soit plus exempte
+                            d’amour de soi-même et d’éloignement pour les autres ; qui soit plus
+                            libre de tous attachements humains ? "Non, dites-vous, ce n’est rien de
+                            toutes ces choses." J’insiste, et je vous demande : "Qu’est-ce donc
+                            qu’une femme que l’on dirige ? " Je vous entends, c’est une femme qui a
+                            un directeur.</p>
                     </div3>
-                    <div3 n="37" source="#edition1 #edition6 #edition8">
-                        <p>Si le confesseur et le directeur ne conviennent point sur une règle de
-                            conduite, qui sera le tiers qu’une femme prendra pour sur-arbitre ?</p>
+                    <div3 n="37">
+                        <div4 source="#edition1">
+                            <p>Si <seg>le confesseur<note resp="#meny" type="gloss" place="end"
+                                        >Prêtre à qui l'on se confesse.</note></seg> et le directeur
+                                ne conviennent point sur une règle de conduite, qui sera le tiers
+                                qu’une femme prendra pour sur-arbitre ?</p>
+                            <p>Le capital pour une femme n’est pas d’avoir un directeur, mais de
+                                vivre si uniment qu’elle s’en puisse passer.</p>
+                            <p>Si une femme pouvait dire à son confesseur, avec ses autres
+                                faiblesses, celles qu’elle a pour son directeur ; et le temps
+                                qu’elle perd dans son entretien, peut-être lui serait-il donné pour
+                                pénitence d’y renoncer.</p>
+                        </div4>
+                        <div4 source="#edition6 #edition8">
+                            <p>Si le confesseur et le directeur ne conviennent point sur une règle
+                                de conduite, qui sera le tiers qu’une femme prendra pour sur-arbitre
+                                ?</p>
+                        </div4>
                     </div3>
-                    <div3 n="38" source="#edition1 #edition6 #edition8">
+                    <div3 n="38" source="#edition6 #edition8">
                         <p>Le capital pour une femme n’est pas d’avoir un directeur, mais de vivre
                             si uniment qu’elle s’en puisse passer.</p>
                     </div3>
-                    <div3 n="39" source="#edition1 #edition6 #edition8">
+                    <div3 n="39" source="#edition6 #edition8">
                         <p>Si une femme pouvait dire à son confesseur, avec ses autres faiblesses,
                             celles qu’elle a pour son directeur ; et le temps qu’elle perd dans son
                             entretien, peut-être lui serait-il donné pour pénitence d’y
@@ -165,8 +192,10 @@
                             les dirigez point, laissez à d’autres le soin de leur salut."</p>
                     </div3>
                     <div3 n="41" source="#edition1 #edition6 #edition8">
-                        <p>C’est trop contre un mari d’être coquette et dévote ; une femme devrait
-                            opter.</p>
+                        <p>C’est trop contre un mari d’être coquette et <seg>dévote <note
+                                    resp="#meny" place="bottom" type="explication">Qui est
+                                    sincèrement attaché à une religion et à ses
+                                pratiques.</note></seg> ; une femme devrait opter.</p>
                     </div3>
                     <div3 n="42" source="#edition6 #edition8">
                         <p>J’ai différé à le dire, et j’en ai souffert ; mais enfin il m’échappe, et
@@ -187,17 +216,18 @@
                             difficile, et accordé à si peu de personnes, et qu’ils se persuadent de
                             ne faire en cela qu’exercer leurs talents naturels et suivre une
                             vocation ordinaire, je le comprends encore moins.</p>
-                        <p>Je vois bien que le goût qu’il y a à devenir le dépositaire du secret des
-                            familles, à se rendre nécessaire pour les réconciliations, à procurer
-                            des commissions ou à placer des domestiques, à trouver toutes les portes
-                            ouvertes dans les maisons des grands, à manger souvent à de bonnes
-                            tables, à se promener en carrosse dans une grande ville, et à faire de
-                            délicieuses retraites à la campagne, à voir plusieurs personnes de nom
-                            et de distinction s’intéresser à sa vie et à sa santé, et à ménager pour
-                            les autres et pour soi-même tous les intérêts humains, je vois bien,
-                            encore une fois, que cela seul a fait imaginer le spécieux et
-                            irrépréhensible prétexte du soin des âmes, et semé dans le monde cette
-                            pépinière intarissable de directeurs.</p>
+                        <p>Je vois bien que le goût qu’il y a à devenir <seg>le dépositaire du
+                                secret des familles<note resp="#unknown" place="margin">note
+                                    fictive</note></seg>, à se rendre nécessaire pour les
+                            réconciliations, à procurer des commissions ou à placer des domestiques,
+                            à trouver toutes les portes ouvertes dans les maisons des grands, à
+                            manger souvent à de bonnes tables, à se promener en carrosse dans une
+                            grande ville, et à faire de délicieuses retraites à la campagne, à voir
+                            plusieurs personnes de nom et de distinction s’intéresser à sa vie et à
+                            sa santé, et à ménager pour les autres et pour soi-même tous les
+                            intérêts humains, je vois bien, encore une fois, que cela seul a fait
+                            imaginer le spécieux et irrépréhensible prétexte du soin des âmes, et
+                            semé dans le monde cette pépinière intarissable de directeurs.</p>
                     </div3>
                 </div2>
             </div1>
