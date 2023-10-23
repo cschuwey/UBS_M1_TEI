@@ -6,11 +6,11 @@
                 <title type="main">Les Caractères de Théophraste</title>
                 <title type="sub">Traduits du grec, Avec les Caractères ou les Moeurs de ce
                     siècle</title>
-                <author>Jean de La Bruyère</author>
+                <author xml:id="labruyere">Jean de La Bruyère</author>
             </titleStmt>
             <publicationStmt>
                 <publisher/>
-                <authority>Olivier Jacquelin</authority>
+                <authority xml:id="jacquelin">Olivier Jacquelin</authority>
                 <date when-iso="2023-10-9">09/10/2023</date>
             </publicationStmt>
             <sourceDesc>
@@ -18,17 +18,16 @@
                         Les caractères ou les moeurs de ce siècle</title>, <author>La
                         Bruyère</author>, <edition>Première édition</edition>, <date when="1688"
                         >1688</date>
-                    <publisher>Estienne Michallet</publisher>, <pubPlace>Paris</pubPlace>, <date
-                        when-iso="2007-10-15">15/10/2007</date>
-                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2"
-                        >https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2</ref></bibl>
+                    <publisher xml:id="michallet">Estienne Michallet</publisher>,
+                        <pubPlace>Paris</pubPlace>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459</ref></bibl>
                 <bibl xml:id="edition9"><title>Les caractères ou les moeurs de ce siècle. Précédé de
                         Les caractères de Théophraste</title>, <author>La Bruyère</author>,
                         <edition>Neuvième édition</edition>, <date when="1696">1696</date>
-                    <publisher>Estienne Michallet</publisher>, <pubPlace>Paris</pubPlace>, <date
-                        when-iso="2007-10-15">15/10/2007</date>
-                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k57579b?rk=85837;2"
-                        >https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2</ref>
+                    <publisher>Estienne Michallet</publisher>, <pubPlace>Paris</pubPlace>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k57579b?rk=85837"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k57579b?rk=85837</ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -43,7 +42,8 @@
                         ont été ajoutées dans les éditions critiques</p>
                     <p>La source des remarques est indiquée en attribut de div car aucun paragraphe
                         seul n'est différent entre mes deux versions</p>
-                    <p>Toutes les div sont des remarques, donc je ne l'ai pas précisé en attribut</p>
+                    <p>Toutes les div sont des remarques, donc je ne l'ai pas précisé en
+                        attribut</p>
                 </normalization>
             </editorialDecl>
         </encodingDesc>
@@ -53,29 +53,33 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-09">Encodage des métadonnées</change>
-            <change when="2023-10-16">Encodage des remarques 64 à 74</change>
-            <change when="2023-10-19">Précision de quelles remarques sont dans quelles éditions.
+            <change when-iso="2023-10-09">Encodage des métadonnées</change>
+            <change when-iso="2023-10-16">Encodage des remarques 64 à 74</change>
+            <change when-iso="2023-10-19">Précision de quelles remarques sont dans quelles éditions.
                 Précision dans le Encodingdesc</change>
+            <change when-iso="2023-10-23">Encodage des notes</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-
             <div1>
                 <head>Les Caractères ou les Mœurs de ce Siècle</head>
                 <div2 type="chapter" n="12">
                     <head>Des Jugements</head>
                     <div3 n="64" source="#edition9">
-                        <p>Hérille, soit qu’il parle, qu’il harangue ou qu’il écrive, veut citer :
-                            il fait dire au Prince des philosophes que le vin enivre, et à l’Orateur
-                            romain que l’eau le tempère. S’il se jette dans la morale, ce n’est pas
-                            lui, c’est le divin Platon qui assure que la vertu est aimable, le vice
-                            odieux ; ou que l’un et l’autre se tournent en habitude. Les choses les
-                            plus communes, les plus triviales, et qu’il est même capable de penser,
-                            il veut les devoir aux anciens, aux Latins, aux Grecs ; ce n’est ni pour
-                            donner plus d’autorité à ce qu’il dit, ni peut-être pour se faire
-                            honneur de ce qu’il sait : il veut citer.</p>
+                        <p>Hérille, soit qu’il parle, qu’il <seg source="#edition9"
+                                resp="#jacquelin">harangue<note>harangue : discours solennel
+                                    prononcé devant une assemblée, un haut personnage</note></seg>
+                            ou qu’il écrive, veut citer : il fait dire au Prince des philosophes que
+                            le vin enivre, et à l’Orateur romain que l’eau le tempère. S’il se jette
+                            dans la morale, ce n’est pas lui, c’est le divin <seg source="#edition9"
+                                resp="#jacquelin">Platon<note>Philosophe grec du Vème siècle (né en
+                                    -428/-427, mort en -348/-347)</note></seg> qui assure que la
+                            vertu est aimable, le vice odieux ; ou que l’un et l’autre se tournent
+                            en habitude. Les choses les plus communes, les plus triviales, et qu’il
+                            est même capable de penser, il veut les devoir aux anciens, aux Latins,
+                            aux Grecs ; ce n’est ni pour donner plus d’autorité à ce qu’il dit, ni
+                            peut-être pour se faire honneur de ce qu’il sait : il veut citer.</p>
                     </div3>
                     <div3 n="65" source="#edition9">
                         <p>C’est souvent hasarder un bon mot et vouloir le perdre que de le donner
@@ -87,16 +91,19 @@
                             souffre : on rit s’il faut rire, et s’il faut admirer, on admire.</p>
                     </div3>
                     <div3 n="66" source="#edition9">
-                        <p>On a dit de Socrate qu’il était en délire, et que c’était un fou tout
-                            plein d’esprit ; mais ceux des Grecs qui parlaient ainsi d’un homme si
-                            sage passaient pour fous. Ils disaient : « Quels bizarres portraits nous
-                            fait ce philosophe ! quels mœurs étranges et particulières ne décrit-il
-                            point ! où a-t-il rêvé, creusé, rassemblé des idées si extraordinaires ?
-                            quelles couleurs ! quel pinceau ! ce sont des chimères. » Ils se
-                            trompaient : c’étaient des monstres, c’étaient des vices, mais peints au
-                            naturel ; on croyait les voir, ils faisaient peur. Socrate s’éloignait
-                            du cynique ; il épargnait les personnes, et blâmait les mœurs qui
-                            étaient mauvaises.</p>
+                        <p>On a dit de <seg source="#edition9" resp="#jacquelin"
+                                    >Socrate<note>Philosophe grec du Vème siècle (né vers -470/469,
+                                    mort en -399)</note></seg> qu’il était en délire, et que c’était
+                            un fou tout plein d’esprit ; mais ceux des <seg source="#edition9"
+                                resp="#labruyere">Grecs<note place="inline">Blablabla</note></seg> qui parlaient
+                            ainsi d’un homme si sage passaient pour fous. Ils disaient : « Quels
+                            bizarres portraits nous fait ce philosophe ! quels mœurs étranges et
+                            particulières ne décrit-il point ! où a-t-il rêvé, creusé, rassemblé des
+                            idées si extraordinaires ? quelles couleurs ! quel pinceau ! ce sont des
+                            chimères. » Ils se trompaient : c’étaient des monstres, c’étaient des
+                            vices, mais peints au naturel ; on croyait les voir, ils faisaient peur.
+                            Socrate s’éloignait du cynique ; il épargnait les personnes, et blâmait
+                            les mœurs qui étaient mauvaises.</p>
                     </div3>
                     <div3 n="67" source="#edition9">
                         <p>Celui qui est riche par son savoir-faire connaît un philosophe, ses
