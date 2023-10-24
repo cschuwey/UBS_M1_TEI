@@ -5,31 +5,31 @@
             <titleStmt>
                 <title>Les Caractères de Théophraste traduits du grec : avec Les Caractères ou les
                     Moeurs de ce siècle</title>
-                <author>Jean de La Bruyère</author>
+                <author xml:id="LaBruyere">Jean de La Bruyère</author>
             </titleStmt>
 
             <publicationStmt>
-                <publisher>Camille Masselot</publisher>
+                <publisher xml:id="Masselot">Camille Masselot</publisher>
                 <date when="2023-10-10">10 octobre 2023</date>
             </publicationStmt>
 
             <sourceDesc>
                 <bibl xml:id="Edition1">
-                    <author>Jean de La Bruyère</author>
+                    <author xml:id="LB_Edition1">Jean de La Bruyère</author>
                     <title>Les Caractères de Théophraste traduits du grec. Avec Les Caractères ou
                         les Moeurs de ce siècle.</title>
                     <placeName>Paris</placeName>
-                    <publisher>E.Michallet</publisher>
+                    <publisher xml:id="Editeur_Edition1">E.Michallet</publisher>
                     <date>1688</date>
                     <idno>BNF Rés R-2056</idno>
                     <idno type="url">https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item</idno>
                 </bibl>
-                <bibl xml:id="Edition2">
-                    <author>Jean de La Bruyère</author>
+                <bibl xml:id="Edition9">
+                    <author xml:id="LB_Edition9">Jean de La Bruyère</author>
                     <title>Les Caractères de Théophraste traduits du grec : avec Les Caractères ou
                         les Moeurs de ce siècle. Sixième édition corrigée et augmentée</title>
                     <placeName>Paris</placeName>
-                    <publisher>E.Michallet</publisher>
+                    <publisher xml:id="Editeur_Edition9">E.Michallet</publisher>
                     <date>1692</date>
                     <idno type="url">https://gallica.bnf.fr/ark:/12148/bpt6k57579b/f3.item</idno>
                 </bibl>
@@ -37,7 +37,7 @@
         </fileDesc>
 
         <encodingDesc>
-            
+
             <editorialDecl>
                 <normalization>
                     <p>La graphie et la ponctuation ont été modernisées</p>
@@ -46,24 +46,27 @@
 
             <editorialDecl>
                 <interpretation>
-                    <p>Même si Théophraste est censé être l'auteur des "Caractères" et La Bruyère le
-                        traducteur, étant donné que la plus grande partie de l'ouvrage est écrite
-                        par ce dernier seul lui est crédité comme auteur</p>
+                    <p>Même si Théophraste est désigné comme l'auteur des "Caractères" et La Bruyère
+                        comme le traducteur, étant donné que la plus grande partie de l'ouvrage est
+                        écrite par ce dernier seul lui est crédité comme auteur</p>
 
                     <p>Les sources ne sont indiquées que dans les balises "div3" parce que les
                         pragraphes en son sein ne changent pas dans les deux éditions choisies</p>
-                    
-                    <p>La numérotation des remarques dans "div3" a été conservée pour conserver la numérotation convenue par la suite pour "Les Caractères"</p>
+
+                    <p>La numérotation des remarques dans "div3" a été gardée pour conserver la
+                        numérotation convenue par la suite pour "Les Caractères"</p>
 
                 </interpretation>
             </editorialDecl>
-            
+
         </encodingDesc>
 
         <revisionDesc>
             <change when="2023-10-10">Ajout de deux éditions des "Caractères" grâce à l'élément
                 "bibl"</change>
             <change when="2023-10-19">Fin de la structuration des remarques</change>
+            <change when="2023-10-24">Ajout des remarques 1 à 21 du chapitre "De Quelques Usages"
+            </change>
         </revisionDesc>
 
     </teiHeader>
@@ -75,70 +78,70 @@
                 <div2 type="chapitre">
                     <head>Du Coeur</head>
 
-                    <div3 n="74" source="#Edition2">
+                    <div3 n="74" source="#Edition9">
                         <p>Les hommes rougissent moins de leurs crimes que de leurs faiblesses et de
                             leur vanité. Tel est ouvertement injuste, violent, perfide,
                             calomniateur, qui cache son amour ou son ambition, sans autre vue que de
                             la cacher.</p>
                     </div3>
 
-                    <div3 n="75" source="#Edition2">
+                    <div3 n="75" source="#Edition9">
                         <p>Le cas n’arrive guère où l’on puisse dire : "J’étais ambitieux" ; ou on
                             ne l’est point, ou on l’est toujours ; mais le temps vient où l’on avoue
                             que l’on a aimé.</p>
                     </div3>
 
-                    <div3 n="76" source="#Edition2">
+                    <div3 n="76" source="#Edition9">
                         <p>Les hommes commencent par l’amour, finissent par l’ambition, et ne se
                             trouvent souvent dans une assiette plus tranquille que lorsqu’ils
                             meurent.</p>
                     </div3>
 
-                    <div3 n="77" source="#Edition2">
+                    <div3 n="77" source="#Edition9">
                         <p>Rien ne coûte moins à la passion que de se mettre au-dessus de la raison
                             : son grand triomphe est de l’emporter sur l’intérêt.</p>
                     </div3>
 
-                    <div3 n="78" source="#Edition2">
+                    <div3 n="78" source="#Edition9">
                         <p>L’on est plus sociable et d’un meilleur commerce par le cœur que par
                             l’esprit.</p>
                     </div3>
 
-                    <div3 n="79" source="#Edition2">
+                    <div3 n="79" source="#Edition9">
                         <p>Il y a de certains grands sentiments, de certaines actions nobles et
                             élevées, que nous devons moins à la force de notre esprit qu’à la bonté
                             de notre naturel.</p>
                     </div3>
 
-                    <div3 n="80" source="#Edition2">
+                    <div3 n="80" source="#Edition9">
                         <p>Il n’y a guère au monde un plus bel excès que celui de la
                             reconnaissance.</p>
                     </div3>
 
-                    <div3 n="81" source="#Edition2">
+                    <div3 n="81" source="#Edition9">
                         <p>Il faut être bien dénué d’esprit, si l’amour, la malignité, la nécessité
                             n’en font pas trouver.</p>
                     </div3>
 
-                    <div3 n="82" source="#Edition2">
+                    <div3 n="82" source="#Edition9">
                         <p>Il y a des lieux que l’on admire : il y en a d’autres qui touchent, et où
                             l’on aimerait à vivre.</p>
                         <p>Il me semble que l’on dépend des lieux pour l’esprit, l’humeur, la
                             passion, le goût et les sentiments.</p>
                     </div3>
 
-                    <div3 n="83" source="#Edition2">
+                    <div3 n="83" source="#Edition9">
                         <p>Ceux qui font bien mériteraient seuls d’être enviés, s’il n’y avait
                             encore un meilleur parti à prendre, qui est de faire mieux : c’est une
                             douce vengeance contre ceux qui nous donnent cette jalousie.</p>
                     </div3>
 
-                    <div3 n="84" source="#Edition2">
+                    <div3 n="84" source="#Edition9">
                         <p>Quelques-uns se défendent d’aimer et de faire des vers, comme de deux
                             faibles qu’ils n’osent avouer, l’un du cœur, l’autre de l’esprit.</p>
                     </div3>
 
-                    <div3 n="85" source="#Edition1 #Edition2">
+                    <div3 n="85" source="#Edition1 #Edition9">
                         <p>Il y a quelquefois dans le cours de la vie de si chers plaisirs et de si
                             tendres engagements que l’on nous défend, qu’il est naturel de désirer
                             du moins qu’ils fussent permis : de si grands charmes ne peuvent être
@@ -146,9 +149,235 @@
                     </div3>
 
                 </div2>
+
+                <div2 type="chapitre">
+
+                    <head>De Quelques Usages</head>
+
+                    <div3 n="1" source="#Edition1 #Edition9">
+                        <p><seg>Il y a des gens qui n’ont pas le moyen d’être <note
+                                    source="#Edition1" type="explication" place="margin"
+                                    position="left" resp="#Editeur_Edition1">Secrétaires du
+                                    roi</note></seg>nobles.</p>
+                        <p>Il y en a de tels que, s’ils eussent obtenu six mois de délai de leurs
+                            créanciers, ils étaient nobles.</p>
+                        <note source="#Edition1" type="explication" place="margin" position="left"
+                            resp="#Editeur_Edition1">Vétérans</note>
+                        <p>Quelques autres se couchent roturiers, et se lèvent nobles.</p>
+                        <note source="#Edition1" type="explication" place="margin" position="left"
+                            resp="#Editeur_Edition1">Vétérans</note>
+                        <p>Combien de nobles dont le père et les aînés sont roturiers !</p>
+                    </div3>
+
+                    <div3 n="2" source="#Edition9">
+                        <p>Tel abandonne son père, qui est connu et dont l’on cite le greffe ou la
+                            boutique, pour se retrancher sur son aïeul, qui, mort depuis longtemps,
+                            est inconnu et hors de prise ; il montre ensuite un gros revenu, une
+                            grande charge, de belles alliances, et pour être noble, il ne lui manque
+                            que des titres.</p>
+
+                    </div3>
+
+                    <div3 n="3" source="#Edition9">
+
+                        <p>Réhabilitations, mot en usage dans les tribunaux, qui a fait vieillir et
+                            rendu gothique celui de lettres de noblesse autrefois si français et si
+                            usité ; se faire réhabiliter suppose qu’un homme devenu riche
+                            originairement est noble, qu’il est d’une né cessité plus que morale
+                            qu’il le soit ; qu’à la vérité son père a pu déroger ou par la charrue
+                            ou par la houe, ou par la malle, ou par les livrées ; mais qu’il ne
+                            s’agit pour lui que de rentrer dans les premiers droits de ses ancêtres,
+                            et de continuer les armes de sa maison, les mêmes pourtant qu’il a
+                            fabriquées, et tout autres que celles de sa vaisselle d’étain ; qu’en un
+                            mot les lettres de noblesse ne lui conviennent plus ; qu’elles
+                            n’honorent que le roturier, c’est-à-dire celui qui cherche encore le
+                            secret de devenir riche.</p>
+
+                    </div3>
+
+                    <div3 n="4" source="#Edition9">
+                        <p>Un homme du peuple, à force d’assurer qu’il a vu un prodige, se persuade
+                            faussement qu’il a vu un prodige. Celui qui continue de cacher son âge
+                            pense enfin lui-même être aussi jeune qu’il veut le faire croire aux
+                            autres. De même le roturier qui dit par habitude qu’il tire son origine
+                            de quelque ancien baron ou de quelque châtelain, dont il est vrai qu’il
+                            ne descend pas, a le plaisir de croire qu’il en descend.</p>
+                    </div3>
+
+                    <div3 n="5" source="#Edition9">
+                        <p>Quelle est la roture un peu heureuse et établie à qui il manque des
+                            armes, et dans ces armes une pièce honorable, des suppôts, un cimier,
+                            une devise, et peut-être le cri de guerre ? Qu’est devenue la
+                            distinction des casques et des heaumes ? Le nom et l’usage en sont
+                            abolis ; il ne s’agit plus de les porter de front ou de côté, ouverts ou
+                            fermés, et ceux-ci de tant ou de tant de grilles : on n’aime pas les
+                            minuties, on passe droit aux couronnes, cela est plus simple ; on s’en
+                            croit digne, on se les adjuge. Il reste encore aux meilleurs bourgeois
+                            une certaine pudeur qui les empêche de se parer d’une couronne de
+                            marquis, trop satisfaits de la comtale ; quelques-uns même ne vont pas
+                            la chercher fort loin, et la font passer de leur enseigne à leur
+                            carrosse.</p>
+                    </div3>
+
+
+                    <div3 n="6" source="#Edition1 #Edition9">
+                        <p>Il suffit de n’être point né dans une ville, mais sous une chaumière
+                            répandue dans la campagne, ou sous une ruine qui trempe dans un marécage
+                            et qu’on appelle château, pour être cru noble sur sa parole.</p>
+                    </div3>
+
+
+                    <div3 n="7" source="#Edition9">
+                        <p> Un bon gentilhomme veut passer pour un petit seigneur, et il y parvient.
+                            Un grand seigneur affecte la principauté, et il use de tant de
+                            précautions, qu’à force de beaux noms, de disputes sur le rang et les
+                            préséances, de nouvelles armes, et d’une généalogie que D’Hozier ne lui
+                            a pas faite, il devient enfin un petit prince.</p>
+                    </div3>
+
+                    <div3 n="8" source="#Edition9">
+                        <p>Les grands en toutes choses se forment et se moulent sur de plus grands,
+                            qui de leur part, pour n’avoir rien de commun avec leurs inférieurs,
+                            renoncent volontiers à toutes les rubriques d’honneurs et de
+                            distinctions dont leur condition se trouve chargée, et préfèrent à cette
+                            servitude une vie plus libre et plus commode. Ceux qui suivent leur
+                            piste observent déjà par émulation cette simplicité et cette modestie :
+                            tous ainsi se réduiront par hauteur à vivre naturellement et comme le
+                            peuple. Horrible inconvénient !</p>
+                    </div3>
+
+                    <div3 n="9" source="#Edition9">
+                        <p>Certaines gens portent trois noms, de peur d’en manquer : ils en ont pour
+                            la campagne et pour la ville, pour les lieux de leur service ou de leur
+                            emploi. D’autres ont un seul nom dissyllabe, qu’ils anoblissent par des
+                            particules dès que leur fortune devient meilleure ; Celui-ci par la
+                            suppression d’une syllabe fait de son nom obscur un nom illustre ;
+                            celui-là par le changement d’une lettre en une autre se travestit, et de
+                            Syrus devient Cyrus. Plusieurs suppriment leurs noms, qu’ils pourraient
+                            conserver sans honte, pour en adopter de plus beaux, où ils n’ont qu’à
+                            perdre par la comparaison que l’on fait toujours d’eux qui les portent,
+                            avec les grands hommes qui les ont portés. Il s’en trouve enfin qui, nés
+                            à l’ombre des clochers de Paris, veulent être Flamands ou Italiens,
+                            comme si la roture n’était pas de tout pays, allongent leurs noms
+                            français d’une terminaison étrangère, et croient que venir de bon lieu
+                            c’est venir de loin.</p>
+                    </div3>
+
+                    <div3 n="10" source="#Edition1 #Edition9">
+                        <p>Le besoin d’argent a réconcilié la noblesse avec la roture, et a fait
+                            évanouir la preuve des quatre quartiers.</p>
+                    </div3>
+
+                    <div3 n="11" source="#Edition9">
+                        <p>À combien d’enfants serait utile la loi qui déciderait que c’est le
+                            ventre qui anoblit ! mais à combien d’autres serait-elle contraire !
+                        </p>
+                    </div3>
+
+                    <div3 n="12" source="#Edition9">
+                        <p>Il y a peu de familles dans le monde qui ne touchent aux plus grands
+                            princes par une extrémité et par l’autre au simple peuple.</p>
+                    </div3>
+
+                    <div3 n="13" source="#Edition9">
+                        <p>Il n’y a rien à perdre à être noble : franchises, immunités, exemptions,
+                            privilèges, que manque-t-il à ceux qui ont un titre ? Croyez-vous que ce
+                            soit pour la noblesse que des <seg>solitaires<note source="#Edition9"
+                                    type="explication" place="margin" position="left"
+                                    resp="#Editeur_Edition9">Maison religieuse Secrétaire du
+                                    roi</note></seg>se sont faits nobles ? ils ne sont pas si vains
+                            : c’est pour le profit qu’ils en reçoivent. Cela ne leur sied-il pas
+                            mieux que d’entrer dans les gabelles ? je ne dis pas à chacun en
+                            particulier, leurs vœux s’y opposent, je dis même à la communauté.</p>
+                    </div3>
+
+                    <div3 n="14" source="#Edition9">
+                        <p>Je le déclare nettement, afin que l’on s’y prépare et que personne un
+                            jour n’en soit surpris : s’il arrive jamais que quelque grand me trouve
+                            digne de ses soins, si je fais enfin une belle fortune, il y a un
+                            Geoffroy de la Bruyère, que toutes les chroniques rangent au nombre des
+                            plus grands seigneurs de France qui suivirent Godefroy de Bouillon à la
+                            conquête de la Terre-Sainte : voilà alors de qui je descends en ligne
+                            directe.</p>
+                    </div3>
+
+                    <div3 n="15" source="#Edition1 #Edition9">
+                        <p>Si la noblesse est vertu, elle se perd par tout ce qui n’est pas vertueux
+                            ; et si elle n’est pas vertu, c’est peu de chose.</p>
+                    </div3>
+
+                    <div3 n="16" source="#Edition9">
+                        <p>Il y a des choses qui, ramenées à leurs principes et à leur première
+                            institution, sont étonnantes et incompréhensibles. Qui peut concevoir en
+                            effet que certains abbés, à qui il ne manque rien de l’ajustement, de la
+                            mollesse et de la vanité des sexes et des conditions, qui entrent auprès
+                            des femmes en concurrence avec le marquis et le financier, et qui
+                            l’emportent sur tous les deux, qu’eux-mêmes soient originairement et
+                            dans l’étymologie de leur nom les pères, et les chefs de saints moines
+                            et d’humbles solitaires, et qu’ils en devraient être l’exemple ? Quelle
+                            force, quel empire, quelle tyrannie de l’usage ! Et sans parler de plus
+                            grands désordres, ne doit-on pas craindre de voir un jour un jeune abbé
+                            en velours gris et à ramages comme une éminence, ou avec des mouches et
+                            du rouge comme une femme ?</p>
+                    </div3>
+
+                    <div3 n="17" source="#Edition1 #Edition9">
+                        <p> Que les saletés des Dieux, la Vénus, le Ganymède et les autres nudités
+                            du Carrache aient été faites pour des princes de l’Eglise, et qui se
+                            disent successeurs des Apôtres, le palais Farnèse en est la preuve.</p>
+                    </div3>
+
+                    <div3 n="18" source="#Edition1 #Edition9">
+                        <p>Les belles choses le sont moins hors de leur place ; les bienséances
+                            mettent la perfection, et la raison met les bienséances. Ainsi l’on
+                            n’entend point une gigue à la chapelle, ni dans un sermon des tons de
+                            théâtre ; l’on ne voit point <seg>d’images<note source="#Edition1"
+                                    type="definition" place="margin" position="left"
+                                    resp="#Editeur_Edition1">Tapisseries</note></seg>
+                            <seg>profanes<note source="#Edition9" type="explication" place="margin"
+                                    position="right" resp="#Editeur_Edition9">Tapisseries</note>
+                            </seg>dans les temples, un CHRIST par exemple et le Jugement de Paris
+                            dans le même sanctuaire, ni à des personnes consacrées à l’Eglise le
+                            train et l’équipage d’un cavalier. </p>
+                    </div3>
+
+                    <div3 n="19" source="#Edition9">
+                        <p> Déclarerai-je donc ce que je pense de ce qu’on appelle dans le monde un
+                            beau salut, la décoration souvent profane, les places retenues et
+                            payées, des <seg>livres distribués comme au théâtre<note
+                                    source="#Edition9" type="explication" place="margin"
+                                    position="right" resp="#Editeur_Edition9">Le Motet traduit en
+                                    vers français par L.L**</note></seg>, les entrevues et les
+                            rendez-vous fréquents, le murmure et les causeries étourdissantes,
+                            quelqu’un monté sur une tribune qui y parle familièrement, sèchement, et
+                            sans autre zèle que de rassembler le peuple, l’amuser, jusqu’à ce qu’un
+                            orchestre, le dirai-je ? et des voix qui concertent depuis longtemps se
+                            fassent entendre ? Est-ce à moi à m’écrier que le zèle de la maison du
+                            Seigneur me consume, et à tirer le voile léger qui couvre les mystères,
+                            témoins d’une telle indécence ? Quoi ? parce qu’on ne danse pas encore
+                            aux TT…, me forcera-t-on d’appeler tout ce spectacle office d’Eglise
+                            ?</p>
+
+                    </div3>
+
+                    <div3 n="20" source="#Edition1 #Edition9">
+                        <p>L’on ne voit point faire de vœux ni de pèlerinages pour obtenir d’un
+                            saint d’avoir l’esprit plus doux, l’âme plus reconnaissante, d’être plus
+                            équitable et moins malfaisant, d’être guéri de la vanité, de
+                            l’inquiétude et de la mauvaise raillerie.</p>
+                    </div3>
+
+                    <div3 n="21" source="#Edition1 #Edition9">
+                        <p>Quelle idée plus bizarre que de se représenter une foule de chrétiens de
+                            l’un et de l’autre sexe, qui se rassemblent à certains jours dans une
+                            salle pour y applaudir à une troupe d’excommuniés, qui ne le sont que
+                            par le plaisir qu’ils leur donnent, et qui est déjà payé d’avance ? Il
+                            me semble qu’il faudrait ou fermer les théâtres, ou prononcer moins
+                            sévèrement sur l’état des comédiens.</p>
+                    </div3>
+
+                </div2>
             </div1>
         </body>
     </text>
 </TEI>
-
-
