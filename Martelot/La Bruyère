@@ -14,7 +14,7 @@
             <sourceDesc>
                 <listBibl>
                     <bibl xml:id="edition2">
-                        <author>Jean de La Bruyère</author>
+                        <author xml:id="labruyere">Jean de La Bruyère</author>
                         <title>Les caractères de Théophraste</title>
                         <placeName>Paris</placeName>
                         <publisher>E. Michallet</publisher>
@@ -62,7 +62,8 @@
         <revisionDesc>
             <change when="2023-10-12">Ajout des meta-données des deux édition de La Bruyère</change>
             <change when="2023-10-16">Ajout chapitre des jugements</change>
-            <change when="2023-20-10">Ajout des éditions</change>
+            <change when="2023-10-20">Ajout des éditions</change>
+            <change when="2023-10-24">Ajout des notes</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -75,6 +76,7 @@
                     <head>Des Jugements </head>
 
                     <div3 n="21" source="#edition2">
+                    <note type="manuscrit" place="margin" position="ext" resp="#labruyere" source="#edition2">Note fictive</note>
                         <p> Qu’on ne me parle jamais d’encre, de papier, de plume, de style,
                             d’imprimeur, d’imprimerie, qu’on ne se hasarde plus de me dire : « Vous
                             écrivez si bien, Antisthène ! continuez d’écrire ; ne verrons-nous point
@@ -117,7 +119,7 @@
                     </div3>
 
                     <div3 n="22" source="#edition2#edition4">
-                        <p source="#edition1">Si les ambassadeurs des princes étrangers étaient des
+                        <p>Si les ambassadeurs des princes étrangers étaient des
                             singes instruits à marcher sur leurs pieds de derrière, et à se faire
                             entendre par interprète, nous ne pourrions pas marquer un plus grand
                             étonnement que celui que nous donne la justesse de leurs réponses, et le
@@ -126,9 +128,9 @@
                             est de tous les climats, et que l’on pense juste partout où il y a des
                             hommes. Nous n’aimerions pas à être traités ainsi de ceux que nous
                             appelons barbares ; et s’il y a en nous quelque barbarie, elle consiste
-                            à être épouvantés de voir d’autres peuples raisonner comme nous. Tous
-                            les étrangers ne sont pas barbares, et tous nos compatriotes ne sont pas
-                            civilisés : de même toute campagne n’est pas agreste et toute ville
+                            à être épouvantés de voir d’autres peuples raisonner comme nous.</p>
+                            <p source="edition4">Tous les étrangers ne sont pas barbares, et tous nos compatriotes ne sont pas
+                            civilisés : de même toute campagne n’est pas agreste <seg> <note place="margin" resp="#labruyere" source="#edition4"> Contre la maxime latine et triviale </note> Ce terme s'entend ici métaphoriquement</note></seg> et toute ville
                             n’est pas polie.</p>
                         <p>Il y a dans l’Europe un endroit d’une province maritime d’un grand
                             royaume où le villageois est doux et insinuant, le bourgeois au
@@ -188,7 +190,7 @@
                     </div3>
 
                     <div3 source="#edition4">
-                        <p>Cesar n'etoit point trop vieux pour penser à la conquête de l'Univers; il
+                        <p>Cesar n'etoit point trop vieux pour penser à la conquête de l'Univers <seg><note place="margin" resp="#labruyere" source="#edition4"> Contre la maxime latine et triviale </note> V.Les pensées de M.Pascal, ch31 où il dit le contraire </note></seg>; il
                             n'avoit point d'autre beatitude à le faire que le cours d'une belle vie,
                             et un grand nom après sa mort; né fier, amibitieux, et se portant bien
                             comme il faisoit, il ne pouvoit mieux employer son temps qu'à conquerir
@@ -199,13 +201,13 @@
                     </div3>
 
                     <div3 source="#edition4">
+                     <note place="margin" position="ext" resp="#labruyere" source="#edition4"> Contre la maxime latine et triviale </note> 
                         <p>Un jeune Prince, d'une race auguste. L'amour et l'esperance des peuples.
                             Donne du ciel pour prolonger la féliciter de la terre. Plus grand que
                             ses ayeux. Fils d'un héros qui est son modelle , a déjà montré à
                             l'univers par ses divines qualitez et par une vertu anticipé, que les
                             enfants des héros sont plus proches de l'estre que les autres
                             hommes.</p>
-
                     </div3>
 
                     <div3 n="27" source="#edition2#edition4">
