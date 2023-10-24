@@ -26,7 +26,7 @@
                         <idno>BNF RES-R-2056</idno>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2</ref>
                     </bibl>
-
+                    
                     <bibl>
                         <author>Jean de la Bruyère</author>
                         <title>Les Caractères de Théophraste, traduits du grec ; avec Les caractères
@@ -38,7 +38,7 @@
                         <idno>BNF R-52303</idno>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2</ref>
                     </bibl>
-
+                    
                     <bibl>
                         <author>Jean de la Bruyère</author>
                         <title>Les caractères de Théophraste, traduits du grec ; avec Les caractères
@@ -50,10 +50,10 @@
                         <idno>BNF</idno>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=21459;2</ref>
                     </bibl>
-
+                    
                 </listBibl>
-
-
+                
+                
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -66,14 +66,14 @@
                         concordances du texte avec les éditions de 1688 et 1691 dans div3 car cela
                         revenait au même </p>
                 </interpretation>
-
+                
             </editorialDecl>
         </encodingDesc>
-
+        
         <profileDesc>
             <langUsage>
                 <language ident="fra">Français</language>
-
+                
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -82,13 +82,14 @@
             <change when="2023-10-16">Création des divisions dans le chapitre De la Cour et
                 concordance du texte avec les éditions de 1688 et 1691</change>
             <change when="2023-10-18">Ajout de l'édition de 1694</change>
-
-
+            <change when="2023-10-24">Ajout des annotations dans les trois éditions</change>
+            
+            
         </revisionDesc>
-
-
-
-
+        
+        
+        
+        
     </teiHeader>
     <text>
         <body>
@@ -96,57 +97,57 @@
                 <head>Les Caractères ou les Moeurs de ce Siècle</head>
                 <div2 type="chapitre">
                     <head>De la Cour</head>
-
-
-
+                    
+                    
+                    
                     <div3 n="33" source="#edition1694">
                         <p>Je crois pouvoir dire d’un poste éminent et délicat qu’on y monte plus
                             aisément qu’on ne s’y conserve.</p>
                     </div3>
-
+                    
                     <div3 n="34" source="#edition1694">
                         <p>L’on voit des hommes tomber d’une haute fortune par les mêmes défauts qui
                             les y avaient fait monter.</p>
                     </div3>
-
+                    
                     <div3 n="35" source="#edition1694">
                         <p>Il y a dans les cours deux manières de ce que l’on appelle congédier son
                             monde ou se défaire des gens : se fâcher contre eux, ou faire si bien
-                            qu’ils se fâchent contre vous et s’en dégoûtent.</p>
+                            qu’ils se fâchent contre vous et s’en dégoûtent.<note place="margin" type="manicule" source="#edition1694"></note></p>
                     </div3>
-
+                    
                     <div3 n="36" source="#edition1691 #edition1694">
                         <p>L’on dit à la cour du bien de quelqu’un pour deux raisons : la première,
                             afin qu’il apprenne que nous disons du bien de lui ; la seconde, afin
                             qu’il en dise de nous.</p>
                     </div3>
-
+                    
                     <div3 n="37" source="#edition1688 #edition1691 #edition1694">
                         <p>Il est aussi dangereux à la cour de faire les avances, qu’il est
                             embarrassant de ne les point faire.</p>
                     </div3>
-
+                    
                     <div3 n="38" source="#edition1688 #edition1691 #edition1694">
                         <p>Il y a des gens à qui ne connaître point le nom et le visage d’un homme
                             est un titre pour en rire et le mépriser. Ils demandent qui est cet
-                            homme ; ce n’est ni Rousseau, ni un Fabry, ni la Couture : ils ne
+                            homme ; ce n’est ni Rousseau, ni un <seg><note place="margin" type="explication" resp="#LaBruyere" source="#edition1691 #edition1694">Brûlé il y a vingt ans</note><note place="bottom" type="explication" resp="#LaBruyere" source="#edition1688">Puni pour des saletés</note>Fabry</seg>, ni la Couture : ils ne
                             pourraient le méconnaître.</p>
                     </div3>
-
+                    
                     <div3 n="39" source="#edition1688 #edition1691 #edition1694">
                         <p>L’on me dit tant de mal de cet homme, et j’y en vois si peu, que je
                             commence à soupçonner qu’il n’ait un mérite importun qui éteigne celui
                             des autres.</p>
                     </div3>
-
+                    
                     <div3 n="40" source="#edition1688 #edition1691 #edition1694">
                         <p> Vous êtes homme de bien, vous ne songez ni à plaire ni à déplaire aux
                             favoris, uniquement attaché à votre maître et à votre devoir : vous êtes
                             perdu.</p>
                     </div3>
-
+                    
                     <div3 n="41" source="#edition1691 #edition1694">
-                        <p>On n’est point effronté par choix, mais par complexion ; c’est un vice de
+                        <p>On n’est point effronté par choix, mais par complexion ; c’est un <seg>vice<note place="margin" type="definition" n="1" resp="#lesueur">disposition haituelle au mal ; conduite qui en résulte</note></seg>de
                             l’être, mais naturel : celui qui n’est pas né tel est modeste, et ne
                             passe pas aisément de cette extrémité à l’autre ; c’est une leçon assez
                             inutile que de lui dire : "Soyez effronté, et vous réussirez" ; une
@@ -154,7 +155,7 @@
                             faut rien de moins dans les cours qu’une vraie et naïve impudence pour
                             réussir.</p>
                     </div3>
-
+                    
                     <div3 n="42" source="#edition1691 #edition1694">
                         <p>On cherche, on s’empresse, on brigue, on se tourmente, on demande, on est
                             refusé, on demande et on obtient ; "mais, dit-on, sans l’avoir demandé,
@@ -162,7 +163,7 @@
                             toute autre chose" : vieux style, menterie innocente, et qui ne trompe
                             personne.</p>
                     </div3>
-
+                    
                     <div3 n="43" source="#edition1691 #edition1694">
                         <p>On fait sa brigue pour parvenir à un grand poste, on prépare toutes ses
                             machines, toutes les mesures sont bien prises, et l’on doit être servi
@@ -171,13 +172,13 @@
                             s’éloigne de la cour. Qui oserait soupçonner d’Artémon qu’il ait pensé à
                             se mettre dans une si belle place, lorsqu’on le tire de sa terre ou de
                             son gouvernement pour l’y faire asseoir ? Artifice grossier, finesses
-                            usées, et dont le courtisan s’est servi tant de fois, que, si je voulais
+                            usées, et dont le <seg>courtisan<note place="bottom" n="1" type="definition" resp="#lesueur">Homme qui est attaché à la cour, qui fréquent la cour d'un souverain</note></seg> s’est servi tant de fois, que, si je voulais
                             donner le change à tout le public et lui dérober mon ambition, je me
-                            trouverais sous l’œil et sous la main du prince, pour recevoir de lui la
-                            grâce que j’aurais recherchée avec le plus d’emportement.</p>
+                            trouverais sous l’œil et sous la main du <seg>prince<note place="bottom" n="2" type="définition" resp="#lesueur">Celui qui appartient à une famille souveraine, sans régner lui-même ; titre porté par les membres de la famille royale, en France</note></seg>, pour recevoir de lui la
+                            grâce que j’aurais recherchée avec le plus d’emportement.<note place="margin" type="manuscrite" resp="#LaBruyere" source="#edition1694"></note></p>
                     </div3>
-
-
+                    
+                    
                 </div2>
             </div1>
         </body>
