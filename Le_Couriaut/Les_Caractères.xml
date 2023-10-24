@@ -23,10 +23,11 @@
                     <idno> RES-R-2056</idno>
                     <idno type="URL">
                         https://gallica.bnf.fr/ark:/12148/btv1b86070385.r=Les%20Caract%C3%A8res%20de%20la%20Bruy%C3%A8re?rk=21459;2</idno>
+                    <!-- Page 199-->
                 </bibl>
                 <bibl xml:id="edition2">
                     <author>Jean de La Bruyère</author>
-                    <author xml:id="manuscrit_edition2"> Marques manuscrites</author>
+                    <author xml:id="manuscrit_edition2"> Lecteur manuscrit</author>
                     <title> Les caractères de Théophraste traduits du grec ; avec Les caractères ou
                         les moeurs de ce siècle </title>
                     <editor xml:id="Michallet_edition2">Etienne Michallet</editor>
@@ -34,6 +35,7 @@
                     <date>1694</date>
                     <idno type="URL">
                         https://gallica.bnf.fr/ark:/12148/bpt6k57577n.r=Les%20Caract%C3%A8res%20de%20la%20Bruy%C3%A8re?rk=2017177;2</idno>
+                    <!-- Page 185 -->
                 </bibl>
             </sourceDesc>
         </fileDesc>
