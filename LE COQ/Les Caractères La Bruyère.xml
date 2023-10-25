@@ -142,8 +142,9 @@
                 huitième édition de 1694 dans les balises div3 et p</change>
             <change when="2023-10-17"> Ajout des méta-données du fichier : Ajout d'un commentaire
                 dans la balise interpretation</change>
-             <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la balise note et seg </change> 
-            <change when="2023-10-24"> Ajout des méta-données du fichier : Ajout d'une annotation de La Bruyère (#labruyere), de deux annotations d'une écriture manuscrite inconnue (#manuscrit), ainsi que de quatre commentaires personnels (#lecoq) dans la balise seg suivie de la rédaction de l'annotation dans la balise note.</change>
+             <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la balise note et seg. "Seg" sert à distinguer le passage ou le segment de la note </change> 
+             <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la référence des auteurs avec xml:id dans les attributs author dans le teiHeader </change> 
+            <change when="2023-10-24"> Ajout des méta-données du fichier : Ajout d'une note marginale "margin" imprimée de la Bruyère (#labruyere), de deux annotations d'une écriture manuscrite inconnue (#manuscrit), ainsi que de quatre commentaires personnels (#lecoq) de types différents dans la balise seg suivie de la rédaction de l'annotation dans la balise note.</change>
 
         </revisionDesc>
 
@@ -239,7 +240,8 @@
                         <p source="#edition8">S’il est vrai que l’on soit riche de tout ce dont on
                             n’a pas besoin, un homme fort riche, c’est un homme qui est sage.</p>
                         <p source="#edition8">S’il est vrai que l’on soit pauvre par toutes les
-                            choses que l’on désire, l’ambitieux et l’avare languissent dans une
+                            choses que l’on désire, l’ambitieux et <seg resp="#labruyere" position="ext" place="margin"
+                                type="definition">l’avare<note>Qui a de l'argent et refuse de le dépenser, quitte à se priver.</note></seg> languissent dans une
                             extrême pauvreté.</p>
                     </div3>
                     <div3 n="50" source=" #edition5 #edition8">
