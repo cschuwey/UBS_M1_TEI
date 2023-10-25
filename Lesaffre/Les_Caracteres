@@ -5,11 +5,11 @@
             <titleStmt>
                 <title>Les caractères de Théophraste traduits du grec : avec Les caractères ou les
                     mœurs de ce siècle</title>
-                <author>Jean de La Bruyère</author>
+                <author xml:id="labruyere">Jean de La Bruyère</author>
             </titleStmt>
 
             <publicationStmt>
-                <publisher>Lisa Lesaffre</publisher>
+                <publisher xml:id="lesaffre">Lisa Lesaffre</publisher>
                 <date when="2023-10-11">11 octobre 2023</date>
                 <authority>Université Bretagne Sud (UBS), Lorient</authority>
             </publicationStmt>
@@ -33,11 +33,18 @@
                     <distributor>inconnu</distributor>
                     <edition>Huitième édition, revue, corrigée et augmentée</edition>
                     <author>Jean de La Bruyère</author>
-                    <editor>Thomas Amaulry</editor>
+                    <editor>Étienne Michallet</editor>
                     <date>1694</date>
                     <pubPlace>Paris<country>France</country></pubPlace>
                     <biblScope>716 pages</biblScope>
                     <ref type="URL"/>
+                </bibl>
+                <bibl xml:id="TLFI">
+                    <title>Trésor de la Langue Française Informatisé</title>
+                    <author>CNRS et Université de Lorraine</author>
+                    <editor>CNRS et Université de Lorraine</editor>
+                    <date>dernière date de rédaction en 1994</date>
+                    <ref type="URL">http://atilf.atilf.fr/</ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -51,8 +58,8 @@
                 </normalization>
                 <interpretation>
                     <p>Les notes ajoutées par l'encodeuse ont été marquées comme telles avec
-                        l'attribut resp="encodeuse", et ne sont pas présent dans les versions papier
-                        des textes encodés.</p>
+                        l'attribut resp="#lesaffre", et ne sont pas présentes dans les versions
+                        papier des textes encodés.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -77,13 +84,20 @@
                     ajout des attributs source dans les éléments div3.</item>
                 <item><date when="2023-10-18">18 octobre 2023</date>Changement de source pour la
                     huitième édition des Caractères, en raison de l'absence de la 21e remarque dans
-                    l'édition utilisée auparavant.. Ajout des notes que cette édition
-                    présente</item>
+                    l'édition utilisée auparavant. Ajout des notes que cette édition présente</item>
                 <item><date when="2023-10-19">19 octobre 2023</date>Vérification du texte encodé
                     avec les textes sources. Ajout d'une note d'encodeuse, et ajout d'une note
                     d'interprétation. Correction des attributs sources. Ajouts de passages dans le
                     texte de base, en fonction du contenu des originaux.</item>
-
+                <item><date when="2023-10-23">23 octobre 2023</date>Ajout de balises xml id pour
+                    l'identification des responsables des notes, et rectification de la balise de
+                    note d'encodeuse avec l'id correspondant dans le texte.</item>
+                <item><date when="2023-10-25">25 octobre 2023</date>Correction dans le bibl de la 8e
+                    édition après consultation des pages de garde de cette édition. Ajout de notes
+                    explicatives de la part de l'encodeuse, et ajout de balises resp pour les notes
+                    appartenant soit à l'encodeuse, soit à l'édition originale et son auteur. Ajout
+                    d'une bibl pour le site du TLFI utilisé comme référence dans une des
+                    notes.</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -107,18 +121,33 @@
                             la base d’un édifice à plusieurs étages dont l’ordre et la structure
                             change selon leurs caprices, qui éloigne les cheveux du visage, bien
                             qu’ils ne croissent que pour l’accompagner, qui les relève et les
-                            hérisse à la manière des bacchantes, et semble avoir pourvu à ce que les
-                            femmes changent leur physionomie douce et modeste en une autre qui soit
-                            fière et audacieuse ; on se récrie enfin contre une telle ou une telle
-                            mode, qui cependant, toute bizarre qu’elle est, pare et embellit pendant
-                            qu’elle dure, et dont l’on tire tout l’avantage qu’on en peut espérer,
-                            qui est de plaire. Il me paraît<note resp="encodeuse" type="variante"
-                                source="#edition4">semble</note> qu’on devrait seulement admirer
-                            l’inconstance et la légèreté des hommes, qui attachent successivement
-                            les agréments et la bienséance à des choses tout opposées, qui emploient
-                            pour le comique et pour la mascarade ce qui leur a servi de parure grave
-                            et d’ornements les plus sérieux ; et que si peu de temps en fasse la
-                            différence.</p>
+                            hérisse à la manière des bacchantes<note resp="#lesaffre" type="gloss"
+                                >femmes célébrant les rites religieux liés à Dionysos, qui est aussi
+                                nommé Bacchus en latin. Le dieu en question étant lié à la vigne, au
+                                vin, à l'ivresse et à la folie par extension, le terme "bacchante"
+                                rappelle une version du mythe d'Orphée où ce dernier est tué par les
+                                Ménades, homologues grecques des Bacchantes. Une des
+                                caractéristiques de ces dernières sont leur longs cheveux.</note>,
+                            et semble avoir pourvu à ce que les femmes changent leur physionomie
+                            douce et modeste en une autre qui soit fière et audacieuse ; on se
+                            récrie enfin contre une telle ou une telle mode, qui cependant, toute
+                            bizarre qu’elle est, pare et embellit pendant qu’elle dure, et dont l’on
+                            tire tout l’avantage qu’on en peut espérer, qui est de plaire. Il me
+                                paraît<note resp="#lesaffre" type="variante" source="#edition4"
+                                >semble</note> qu’on devrait seulement admirer l’inconstance et la
+                                légèreté<note resp="#lesaffre" type="gloss">manque de sérieux, voir
+                                la définition du dictionnaire Furetière.</note> des hommes, qui
+                            attachent successivement les agréments et la bienséance à des choses
+                            tout opposées, qui emploient pour le comique et pour la mascarade<note
+                                resp="#lesaffre" type="explication">Ici, une référence au
+                                déguisement et au masque portés lors de fêtes dansantes qui
+                                pourraient être rapprochées aux "bals masqués" que nous évoquons
+                                souvent dans l'imaginaire d'une cour aristocratique et européenne du
+                                XVIIe siècle. Le mot à l'époque n'est pas autant rapproché au thème
+                                de la tromperie comme il l'est de nos jours, même si le dictionnaire
+                                Furetière note un sème d'hypocrisie.</note> ce qui leur a servi de
+                            parure grave et d’ornements les plus sérieux ; et que si peu de temps en
+                            fasse la différence.</p>
                     </div3>
                     <div3 source="#edition8" n="13">
                         <p>N… est riche, elle mange bien, elle dort bien ; mais les coiffures
@@ -126,21 +155,28 @@
                             la sienne est hors de mode.</p>
                     </div3>
                     <div3 source="#edition8" n="14">
-                        <p>Iphis voit à l’église un soulier d’une nouvelle mode ; il regarde le sien
-                            et en rougit ; il ne se croit plus habillé. Il était venu à la messe
-                            pour s’y montrer, et il se cache ; le voilà retenu par le pied dans sa
-                            chambre tout le reste du jour. Il a la main douce, et il l’entretien
-                            avec une pâte de senteur ; il a soin de rire pour montrer ses dents ; il
-                            fait la petite bouche, et il n’y a guère de moments où il ne veuille
-                            sourire ; il regarde ses jambes, et se voit au miroir : l’on ne peut
-                            être plus content de personne qu’il l’est de lui-même ; il s’est acquis
-                            une voix claire et délicate, et heureusement il parle gras ; il a un
-                            mouvement de tête, et je ne sais quel adoucissement dans les yeux, dont
-                            il n’oublie pas de s’embellir ; il a une démarche molle et le plus joli
-                            maintien qu’il est capable de se procurer ; il met du rouge, mais
-                            rarement, il n’en fait pas habitude. Il est vrai aussi qu’il porte des
-                            chausses et un chapeau, et qu’il n’a ni boucles d’oreilles ni collier de
-                            perles ; aussi ne l’ai-je pas mis dans le chapitre des femmes.</p>
+                        <p><name rend="italics">Iphis</name> voit à l’église un soulier d’une
+                            nouvelle mode ; il regarde le sien et en rougit ; il ne se croit plus
+                            habillé. Il était venu à la messe pour s’y montrer, et il se cache ; le
+                            voilà retenu par le pied dans sa chambre tout le reste du jour. Il a la
+                            main douce, et il l’entretien avec une pâte de senteur<note
+                                resp="#lesaffre" type="explication">Équivalent à la crème de soin ou
+                                la crème hydratante aujourd'hui.</note> ; il a soin de rire pour
+                            montrer ses dents ; il fait la petite bouche, et il n’y a guère de
+                            moments où il ne veuille sourire ; il regarde ses jambes, et se voit au
+                            miroir : l’on ne peut être plus content de personne qu’il l’est de
+                            lui-même ; il s’est acquis une voix claire et délicate, et heureusement
+                            il parle gras ; il a un mouvement de tête, et je ne sais quel
+                            adoucissement dans les yeux, dont il n’oublie pas de s’embellir ; il a
+                            une démarche molle et le plus joli maintien qu’il est capable de se
+                            procurer ; il met du rouge, mais rarement, il n’en fait pas habitude. Il
+                            est vrai aussi qu’il porte des chausses<note resp="#lesaffre"
+                                type="supposition">Soit les chaussures sont évoquées, soit les
+                                "haut-de-chausses" sont évoqués, mais nous avons des doutes étant
+                                donné les codes vestimentaires de l'époque de rédaction et de
+                                parution de l'ouvrage.</note> et un chapeau, et qu’il n’a ni boucles
+                            d’oreilles ni collier de perles ; aussi ne l’ai-je pas mis dans le
+                            chapitre des femmes.</p>
                     </div3>
                     <div3 source="#edition8" n="15">
                         <p>Ces mêmes modes que les hommes suivent si volontiers pour leurs
@@ -148,14 +184,29 @@
                             s’ils sentaient ou qu’ils prévissent l’indécence et le ridicule où elles
                             peuvent tomber dès qu’elles auront perdu ce qu’on appelle la fleur ou
                             l’agrément de la nouveauté ; ils leur préfèrent une parure arbitraire,
-                            une draperie indifférente, fantaisie du peintre qui ne sont prises ni
-                            sur l’air ni sur le visage, qui ne rappellent ni les mœurs ni la
-                            personne. Ils aiment des attitudes forcées ou immodestes, une manière
-                            dure, sauvage, étrangère, qui font un capitan d’un jeune abbé, et un
-                            matamore d’un homme de robe ; une Diane d’une femme de ville ; comme
-                            d’une femme simple et timide une amazone ou une Pallas ; une Laïs d’une
-                            honnête fille ; un Scythe, un Attila, d’un prince qui est bon et
-                            magnanime.</p>
+                            une draperie indifférente, fantaisie<note resp="#lesaffre"
+                                type="variante">-s du pluriel dans la version papier</note>) du
+                            peintre qui ne sont prises ni sur l’air ni sur le visage, qui ne
+                            rappellent ni les mœurs ni la personne. Ils aiment des attitudes forcées
+                            ou immodestes, une manière dure, sauvage, étrangère, qui font un
+                                capitan<note resp="#lesaffre" type="explication">Personnage-type de
+                                la commedia dell' arte, prétentieux et faisant preuve de fausse
+                                bravoure. Utilisé ici en paronomase.</note> d’un jeune abbé, et un
+                                matamore<note resp="#lesaffre" type="gloss">Homme faisant preuve de
+                                bravade, de fausse bravoure.</note> d’un homme de robe ; une
+                                Diane<note resp="#lesaffre" type="gloss">Déesse latine de la chasse.
+                                Son nom grec est Artémis.</note> d’une femme de ville ; comme d’une
+                            femme simple et timide une amazone<note resp="#lesaffre" type="gloss"
+                                >Femme issue du peuple de guerrières du même nom dans la mythologie
+                                gréco-latine.</note> ou une Pallas<note resp="#lesaffre"
+                                type="gloss">Une des épiclèses, ou un des surnoms de la déesse
+                                Athéna.</note> ; une Laïs<note resp="#lesaffre" type="gloss"
+                                >Antonomase potentiellement issue du nom d'une courtisane grecque,
+                                censée désigner une femme galante au sens du XVIIe siècle.</note>
+                            d’une honnête fille ; un Scythe<note resp="#lesaffre" type="gloss"
+                                source="#TLFI">Membre du peuple indo-européen antique scythe, sens
+                                déformé en "homme grossier, barbare"</note>, un Attila, d’un prince
+                            qui est bon et magnanime.</p>
                         <p>Une mode a à peine détruit une autre mode, qu’elle est abolie par une
                             plus nouvelle, qui cède elle-même à celle qui la suit, et qui ne sera
                             pas la dernière : telle est notre légèreté. Pendant ces révolutions, un
@@ -163,23 +214,30 @@
                             passées et qui ne sont plus. La mode alors la plus curieuse et qui fait
                             plus de plaisir à voir, c’est la plus ancienne : aidée du temps et des
                             années, elle a le même agrément dans les portraits qu’a la saye ou
-                            l’habit romain sur les théâtres, qu’ont la mante<noteGrp position="ext"
-                                place="margin" type="definition"><note>Habits des Orientaux</note> ,
-                                le voile<note>Habits de Orientaux</note> et la tiare<note>Habits des
-                                    Orientaux</note> dans nos tapisseries et dans nos
-                                peintures.</noteGrp></p>
+                            l’habit romain sur les théâtres, qu’ont la mante<noteGrp
+                                resp="#labruyere" position="ext" place="margin" type="definition"
+                                    ><note>Habits des Orientaux</note> , le voile<note/> et la
+                                tiare<note/> dans nos tapisseries et dans nos
+                            peintures.</noteGrp></p>
                         <p>Nos pères nous ont transmis, avec la connaissance de leurs personnes,
                             celle de leurs habits, de leurs coiffures, de leurs armes<note
-                                position="ext" place="margin" type="definition">offensives et
-                                défensives</note> , et des autres ornements qu’ils ont aimés pendant
-                            leur vie. Nous ne saurions bien reconnaître cette sorte de bienfait
-                            qu’en traitant de même nos descendants.</p>
+                                resp="#labruyere" position="ext" place="margin" type="definition"
+                                >offensives et défensives</note> , et des autres ornements qu’ils
+                            ont aimés pendant leur vie. Nous ne saurions bien reconnaître cette
+                            sorte de bienfait qu’en traitant de même nos descendants.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="16">
-                        <p>Le courtisan autrefois avait ses cheveux, étaient en chausses et en
-                            pourpoint, portait de larges canons, et il était libertin. Cela ne sied
-                            plus : il porte une perruque, l’habit serré, le bas uni, et il est dévot
-                            : tout se règle par la mode.</p>
+                        <p>Le courtisan autrefois avait ses cheveux<note resp="#lesaffre"
+                                type="explication">Étant donné le contexte de la phrase, nous
+                                déduisons que les cheuveux naturels sont portés non sous la forme de
+                                perruque pour cette occurence, mais tels qu'ils poussent sur le
+                                crâne.</note>, étaient en chausses et en pourpoint, portait de
+                            larges canons<note resp="#lesaffre" type="gloss">Les canons étaient en
+                                tissu ou en dentelle et ornaient la rhingrave, vêtement masculin
+                                semblable à la fois à la culotte du XVIIe siècle et à la
+                                jupe.</note>, et il était libertin. Cela ne sied plus : il porte une
+                            perruque, l’habit serré, le bas uni, et il est dévot : tout se règle par
+                            la mode.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="17">
                         <p>Celui qui depuis quelque temps à la cour était dévot, et par là, contre
@@ -201,21 +259,24 @@
                     </div3>
                     <div3 source="#edition8" n="20">
                         <p>Celui qui a pénétré la cour connaît ce que c’est que vertu et ce que
-                            c’est que dévotion<note position="ext" place="margin" type="definition"
-                                >fausse dévotion</note> il ne peut plus s’y tromper.</p>
+                            c’est que dévotion<note resp="#labruyere" position="ext" place="margin"
+                                type="definition">fausse dévotion</note> il ne peut plus s’y
+                            tromper.</p>
                     </div3>
                     <div3 source="#edition8" n="21">
-                        <p>Négliger vêpres comme une chose antique et hors de mode, garder sa place
-                            soi-même pour le salut, savoir les êtres de la chapelle, connaître le
-                            flanc, savoir où l’on est vu et où l’on n’est pas vu ; rêver dans
-                            l’église à Dieu et à ses affaires, y recevoir des visites, y donner des
-                            ordres et des commissions, y attendre les réponses ; avoir un directeur
-                            mieux écouté que l’Evangile ; tirer toute sa sainteté et tout son relief
-                            de la réputation de son directeur, dédaigner ceux dont le directeur a
-                            moins de vogue, et convenir à peine de leur salut ; n’aimer de la parole
-                            de Dieu que ce qui s’en prêche chez soi ou par son directeur, préférer
-                            sa messe aux autres messes, et les sacrements donnés de sa main à ceux
-                            qui ont moins de cette circonstance ; ne se repaître que de livres de
+                        <p><note resp="#lesaffre" type="conventiontypo">Présence d'un manicule avant
+                                l'alinéa et le pied de mouche sur l'original</note>Négliger vêpres
+                            comme une chose antique et hors de mode, garder sa place soi-même pour
+                            le salut, savoir les êtres de la chapelle, connaître le flanc, savoir où
+                            l’on est vu et où l’on n’est pas vu ; rêver dans l’église à Dieu et à
+                            ses affaires, y recevoir des visites, y donner des ordres et des
+                            commissions, y attendre les réponses ; avoir un directeur mieux écouté
+                            que l’Evangile ; tirer toute sa sainteté et tout son relief de la
+                            réputation de son directeur, dédaigner ceux dont le directeur a moins de
+                            vogue, et convenir à peine de leur salut ; n’aimer de la parole de Dieu
+                            que ce qui s’en prêche chez soi ou par son directeur, préférer sa messe
+                            aux autres messes, et les sacrements donnés de sa main à ceux qui ont
+                            moins de cette circonstance ; ne se repaître que de livres de
                             spiritualité, comme s’il n’y avait ni Evangile, ni Epîtres des Apôtres,
                             ni morale des Pères ; lire ou parler un jargon inconnu aux premiers
                             siècles ; circonstancier à confesse les défauts d’autrui, y pallier les
@@ -227,8 +288,9 @@
                             mérite, faire servir la piété à son ambition, aller à son salut par le
                             chemin de la fortune et des dignités : c’est du moins jusqu’à ce jour le
                             plus bel effort de la dévotion du temps.</p>
-                        <p>Un dévot<note position="ext" place="margin" type="definition">faux
-                                dévot</note> est celui qui sous un roi athée serait athée.</p>
+                        <p>Un dévot<note resp="#labruyere" position="ext" place="margin"
+                                type="definition">faux dévot</note> est celui qui sous un roi athée
+                            serait athée.</p>
                     </div3>
                 </div2>
             </div1>
