@@ -8,13 +8,13 @@
                 <author>Jean de La Bruyère</author>
             </titleStmt>
             <publicationStmt>
-                <publisher>E. Schneider</publisher>
+                <publisher xml:id="schneider">E. Schneider</publisher>
                 <date when="2023-10-10">10 octobre 2023</date>
                 <distributor/>
             </publicationStmt>
             <sourceDesc>
                 <bibl xml:id="edition7">
-                    <author>Jean de La Bruyère</author>
+                    <author xml:id="labruyere">Jean de La Bruyère</author>
                     <title> Les Caracteres de Theophraste, traduits du grec, avec Les Caracteres ou
                         Les Moeurs de ce siecle. Septième edition</title>
                     <placeName>Lyon</placeName>
@@ -56,6 +56,12 @@
                         intégrées à la fois dans le div3 et le p, afin d'être sûre qu'il n'y ait pas
                         de confusion concernant le moment d'entrée d'un paragraphe dans une
                         édition.</p>
+                    <p>Les notes suivies de l'attribut type sont toutes de l'éditeur numérique car
+                        ces notes ont été rajoutés par rapport à celles de l'auteur et car l'éditeur
+                        a un rôle de médiateur entre le texte et le lecteur pour permettre à ce
+                        dernier d'avoir une lecture fluide (notes de type gloss) et active (notes de
+                        type expl) dans le sens où elle l'aiderait à construire ou entretenir un
+                        mode de réflexion littéraire avancé.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -65,8 +71,12 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-10">Ajout des méta-données du fichier</change>
-            <change when="2023-10-16">Ajout d'une partie de chapitre</change>
+            <change when="2023-10-10">Ajout des méta-données du fichier.</change>
+            <change when="2023-10-16">Ajout d'une partie de chapitre.</change>
+            <change when="2023-10-17">Identification des éditions dans lesquelles se retrouvent (ou
+                non) certaines remarques.</change>
+            <change when="2023-10-25">Ajout des notes de La Bruyère et des notes de l'éditeur
+                numérique.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -93,6 +103,8 @@
                     </div3>
 
                     <div3 n="55" source="#edition7 #edition9">
+                        <note resp="#schneider" type="expli">L'auteur explique ici qu'aucune
+                            relation n'est figée dans le temps et peut évoluer à tout moment.</note>
                         <p source="#edition7 #edition9">Vivre avec ses ennemis comme s’ils devaient
                             un jour être nos amis, et vivre avec nos amis comme s’ils pouvaient
                             devenir nos ennemis, n’est ni selon la nature de la haine, ni selon les
@@ -103,9 +115,11 @@
                     <div3 n="56" source="#edition7 #edition9">
                         <p source="#edition7 #edition9">On ne doit pas se faire des ennemis de ceux
                             qui, mieux connus, pourraient avoir rang entre nos amis. On doit faire
-                            choix d’amis si sûrs et d’une si exacte probité, que venant à cesser de
-                            l’être, ils ne veuillent pas abuser de notre confiance, ni se faire
-                            craindre comme ennemis.</p>
+                            choix d’amis si sûrs et d’une si exacte <seg>probité <note
+                                    resp="#schneider" type="gloss">qualité à respecter ses devoirs
+                                    et/ou le règlement.</note></seg>, que venant à cesser de l’être,
+                            ils ne veuillent pas abuser de notre confiance, ni se faire craindre
+                            comme ennemis.</p>
                     </div3>
 
                     <div3 n="57" source="#edition7 #edition9">
@@ -115,16 +129,18 @@
                     </div3>
 
                     <div3 n="58" source="#edition9">
-                        <p source="#edition9">Il faut briguer la faveur de ceux à qui l’on veut du
-                            bien, plutôt que de ceux de qui l’on espère du bien.</p>
+                        <p source="#edition9">Il faut <seg>briguer<note resp="#schneider"
+                                    type="gloss">Chercher.</note></seg> la faveur de ceux à qui l’on
+                            veut du bien, plutôt que de ceux de qui l’on espère du bien.</p>
                     </div3>
 
                     <div3 n="59" source="#edition7 #edition9">
                         <p source="#edition7 #edition9">On ne vole point des mêmes ailes pour sa
-                            fortune que l’on fait pour des choses frivoles et de fantaisie. Il y a
-                            un sentiment de liberté à suivre ses caprices, et tout au contraire de
-                            servitude à courir pour son établissement : il est naturel de le
-                            souhaiter beaucoup et d’y travailler peu, de se croire digne de le
+                            fortune que l’on fait pour des choses frivoles et de fantaisie. <seg>Il
+                                y a un sentiment de liberté à suivre ses caprices, et tout au
+                                contraire de servitude à courir pour son établissement<note
+                                    resp="#labruyere">Note fictive.</note></seg> : il est naturel de
+                            le souhaiter beaucoup et d’y travailler peu, de se croire digne de le
                             trouver sans l’avoir cherché.</p>
                     </div3>
 
