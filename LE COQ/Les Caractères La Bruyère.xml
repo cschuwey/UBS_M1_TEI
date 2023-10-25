@@ -65,7 +65,8 @@
                     <bibl xml:id="edition8">
                         <title type="main">Les caractères de Théophraste traduits du grec </title>
                         <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
-                        <author>La Bruyère Jean</author>
+                        <author xml:id="labruyere">La Bruyère Jean</author>
+                        <author xml:id="#manuscrit">Inconnu</author>
                     </bibl>
                 </listBibl>
                 <biblstruct>
