@@ -113,9 +113,10 @@
                         et p</p>
                 </interpretation>
                 <interpretation>
-                    <p> Nous avons ajouté l'attribut "source" dans les balises bibl pour structurer
-                        l'encodage et le rendre plus compréhensible ainsi que dans les balises div3
-                        et p</p>
+                    <p> Nous avons ajouté l'attribut "resp" dans la balise note.</p>
+                </interpretation>
+                <interpretation>
+                    <p> J'ai ajouté une désignation dans l'attribut resp qui est "manuscrit", qui ne renvoie à aucune personne spécifique car l'écriture illisible. On ne peut pas savoir rééllement si c'est La Bruyère qui l'a rédigée. J'ai choisi de l'intégrer dans la balise "author" de l'édition 8 du teiHeader, car ces annotations apparaissent à plusieurs reprises dans cette édition, contrairement aux éditions 3 et 5. </p>
                 </interpretation>
                 <interpretation>
                     <p> Information pour la remarque 46 dans l'édition 8 : J'ai ajouté dans
@@ -141,6 +142,7 @@
                 huitième édition de 1694 dans les balises div3 et p</change>
             <change when="2023-10-17"> Ajout des méta-données du fichier : Ajout d'un commentaire
                 dans la balise interpretation</change>
+             <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la balise note et seg </change> 
             <change when="2023-10-24"> Ajout des méta-données du fichier : Ajout d'une annotation de La Bruyère (#labruyere), de deux annotations d'une écriture manuscrite inconnue (#manuscrit), ainsi que de quatre commentaires personnels (#lecoq) dans la balise seg suivie de la rédaction de l'annotation dans la balise note.</change>
 
         </revisionDesc>
@@ -202,7 +204,7 @@
                             quittent ensuite par une dévotion discrète, qui ne leur vient jamais
                             qu’après qu’ils ont fait leur récolte, et qu’ils jouissent d’une fortune
                             bien établie. </p>
-                        <!--Cette annotation manuscrite est illisible donc je ne sais pas qui est l'auteur de cette annotation dans l'édition8, je suppose que c'est La Bruyère-->
+                        <!--Cette annotation manuscrite est illisible donc je ne sais pas qui est l'auteur de cette annotation dans l'édition8, je suppose que c'est La Bruyère. Je ne sais pas non plus si cette annotation concerne la remarque dans son intégralité ou juste un segment.-->
                     </div3>
                     <div3 n="47" source=" #edition5 #edition8">
                         <p source="#edition5 #edition8">Il y a des misères sur la terre qui
