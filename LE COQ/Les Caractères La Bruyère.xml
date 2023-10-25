@@ -27,7 +27,7 @@
                     <monogram>
                         <placeName>Paris</placeName>
                         <publisher> E.Michallet</publisher>
-                        <date>1688</date>
+                         <date when-iso="1688">1688</date>
                         <imprint>
                             <idno>Bibliothèque nationale de France</idno>
                             <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k57572x</idno>
@@ -50,7 +50,7 @@
                     <monogram>
                         <placeName>Paris</placeName>
                         <publisher>chez Estienne Michallet</publisher>
-                        <date>1690</date>
+                         <date when-iso="1690">1690</date>
                         <imprint>
                             <idno>Bibliothèque nationale de France</idno>
                             <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k575660</idno>
@@ -73,7 +73,7 @@
                     <monogram>
                         <placeName>Paris</placeName>
                         <publisher> E.Michallet</publisher>
-                        <date>1694</date>
+                         <date when-iso="1694">1694</date>
                         <imprint>
                             <idno>Bibliothèque nationale de France</idno>
                             <idno type="URL"
@@ -141,13 +141,13 @@
                 huitième édition de 1694 dans les balises div3 et p</change>
             <change when="2023-10-17"> Ajout des méta-données du fichier : Ajout d'un commentaire
                 dans la balise interpretation</change>
+            <change when="2023-10-24"> Ajout des méta-données du fichier : Ajout d'une annotation de La Bruyère (#labruyere), de deux annotations d'une écriture manuscrite inconnue (#manuscrit), ainsi que de quatre commentaires personnels (#lecoq) dans la balise seg suivie de la rédaction de l'annotation dans la balise note.</change>
 
         </revisionDesc>
 
         <profileDesc>
             <langUsage>
                 <language ident="fra">Français</language>
-                <language ident="eng">Anglais</language>
             </langUsage>
         </profileDesc>
 
