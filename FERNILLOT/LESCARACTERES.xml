@@ -4,11 +4,11 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères</title>
-                <author>Jean de La Bruyère</author>
+                <author xml:id="LaBruyere">Jean de La Bruyère</author>
                 <principal>C.Schuwey</principal>
             </titleStmt>
             <publicationStmt>
-                <publisher>N.Fernillot</publisher>
+                <publisher xml:id="fernillot">Nancy Fernillot</publisher>
                 <date when-iso="2023-10-11">10/11/2023</date>
                 <distributor/>
             </publicationStmt>
@@ -26,7 +26,7 @@
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459;2#</ref>
                 </bibl>
 
-                
+
                 <bibl>
                     <bibl xml:id="lescaracteres1696"/>
                     <author>Jean de La Bruyère</author>
@@ -64,8 +64,9 @@
             <change when="2023-10-11">Création d'un fichier Les Caractères de La Bruyère et création
                 de son header</change>
             <change when="2023-10-17">Modification et correction du TD 3. Le même jour, travail sur
-                le chapitre 5 des Caractères "De la Société et de la Conversation" et mis dans quelle
-                édition telle ou telle remarque apparaissent.</change>
+                le chapitre 5 des Caractères "De la Société et de la Conversation" et mis dans
+                quelle édition telle ou telle remarque apparaissent.</change>
+            <change when="2023-10-25">Rajout d'annotations de bas de page ou marginales</change>
         </revisionDesc>
 
     </teiHeader>
@@ -114,16 +115,18 @@
                             et d’être de l’avis de quelqu’un ; aussi attend-il dans un cercle que
                             chacun se soit expliqué sur le sujet qui s’est offert, ou souvent qu’il
                             a amené lui-même, pour dire dogmatiquement des choses toutes nouvelles,
-                            mais à son gré décisives et sans réplique. Cydias s’égale à Lucien et à
-                            Sénèque, se met au-dessus de Platon, de Virgile et de Théocrite ; et son
-                            flatteur a soin de le confirmer tous les matins dans cette opinion. Uni
-                            de goût et d’intérêt avec les contempteurs d’Homère, il attend
-                            paisiblement que les hommes détrompés lui préfèrent les poètes modernes
-                            : il se met en ce cas à la tête de ces derniers, et il sait à qui il
-                            adjuge la seconde place. C’est en un mot un composé du pédant et du
-                            précieux, fait pour être admiré de la bourgeoisie et de la province, en
-                            qui néanmoins on n’aperçoit rien de grand que l’opinion qu’il a de
-                            lui-même.</p>
+                            mais à son gré décisives et sans réplique. <seg>Cydias s’égale à Lucien
+                                et à Sénèque<note resp="#LaBruyere" position="ext" place="margin"
+                                    type="definition" source="#lescaracteres1696">Philosophe et
+                                    poète tragique</note></seg>, se met au-dessus de Platon, de
+                            Virgile et de Théocrite ; et son flatteur a soin de le confirmer tous
+                            les matins dans cette opinion. Uni de goût et d’intérêt avec les
+                            contempteurs d’Homère, il attend paisiblement que les hommes détrompés
+                            lui préfèrent les poètes modernes : il se met en ce cas à la tête de ces
+                            derniers, et il sait à qui il adjuge la seconde place. C’est en un mot
+                            un composé du pédant et du précieux, fait pour être admiré de la
+                            bourgeoisie et de la province, en qui néanmoins on n’aperçoit rien de
+                            grand que l’opinion qu’il a de lui-même.</p>
                     </div3>
 
                     <div3 n="76" source="#lescaracteres1688 #lescaracteres1696">
@@ -147,12 +150,20 @@
                     <!--J'ai remarqué que dans l'édition de 1688 les remarques 76 77 et 78 ne sont pas dans l'ordre, l'ordre dans cette édition est le suivant : 77 76 78-->
 
                     <div3 n="79" source="#lescaracteres1696">
-                        <p>Il n’y a guère qu’une naissance honnête, ou qu’une bonne éducation, qui
-                            rendent les hommes capables de secret.</p>
+                        <p>Il n’y a guère qu’une naissance honnête, ou qu’<seg>une bonne
+                                    éducation<note resp="#fernillot" place="bottom"
+                                    type="definition" source="#lescaracteres1696">Soin qu'on prend à
+                                    cultiver l'esprit, soit pour la science, soit pour les bonnes
+                                    moeurs ; cette obligation revient souvent aux
+                                parents.</note></seg>, qui rendent les hommes capables de
+                            secret.</p>
                     </div3>
 
                     <div3 n="80" source="#lescaracteres1696">
-                        <p>oute confiance est dangereuse si elle n’est entière : il y a peu de
+                        <p><seg>oute<note resp="#fernillot" place="bottom" type="precision"
+                                    source="#lescaracteres1696">Ce mot doit être écrit normalement
+                                    "Toute", il lui manque en effet une lettre.</note></seg>
+                            confiance est dangereuse si elle n’est entière : il y a peu de
                             conjonctures où il ne faille tout dire ou tout cacher. On a déjà trop
                             dit de son secret à celui à qui l’on croit devoir en dérober une
                             circonstance.</p>
@@ -181,21 +192,23 @@
                             propreté des meubles ; il assure qu’il aime la bonne chère, les
                             équipages ; il se plaint que sa femme n’aimait point assez le jeu et la
                             société. "Vous êtes si riche, lui disait l’un de ses amis, que
-                            n’achetez-vous cette charge ? pourquoi ne pas faire cette acquisition
-                            qui étendrait votre domaine ? On me croit, ajoute-t-il, plus de bien que
-                            je n’en possède." Il n’oublie pas son extraction et ses alliances :
-                            Monsieur le Surintendant, qui est mon cousin ; Madame la Chancelière,
-                            qui est ma parente ; voilà son style. Il raconte un fait qui prouve le
-                            mécontentement qu’il doit avoir de ses plus proches, et de ceux même qui
-                            sont ses héritiers : "Ai-je tort ? dit-il à Elise ; ai-je grand sujet de
-                            leur vouloir du bien ? " et il l’en fait juge. Il insinue ensuite qu’il
-                            a une santé faible et languissante, et il parle de la cave où il doit
-                            être enterré. Il est insinuant, flatteur, officieux à l’égard de tous
-                            ceux qu’il trouve auprès de la personne à qui il aspire. Mais Elise n’a
-                            pas le courage d’être riche en l’épousant. On annonce, au moment qu’il
-                            parle, un cavalier, qui de sa seule présence démonte la batterie de
-                            l’homme de ville : il se lève déconcerté et chagrin, et va dire ailleurs
-                            qu’il veut se remarier.</p>
+                            n’achetez-vous cette <seg>charge<note resp="#fernillot" place="bottom"
+                                    type="synonym" source="#lescaracteres1696">Dépense</note></seg>
+                            ? pourquoi ne pas faire cette acquisition qui étendrait votre domaine ?
+                            On me croit, ajoute-t-il, plus de bien que je n’en possède." Il n’oublie
+                            pas son extraction et ses alliances : Monsieur le Surintendant, qui est
+                            mon cousin ; Madame la Chancelière, qui est ma parente ; voilà son
+                            style. Il raconte un fait qui prouve le mécontentement qu’il doit avoir
+                            de ses plus proches, et de ceux même qui sont ses héritiers : "Ai-je
+                            tort ? dit-il à Elise ; ai-je grand sujet de leur vouloir du bien ? " et
+                            il l’en fait juge. Il insinue ensuite qu’il a une santé faible et
+                            languissante, et il parle de la cave où il doit être enterré. Il est
+                            insinuant, flatteur, officieux à l’égard de tous ceux qu’il trouve
+                            auprès de la personne à qui il aspire. Mais Elise n’a pas le courage
+                            d’être riche en l’épousant. On annonce, au moment qu’il parle, un
+                            cavalier, qui de sa seule présence démonte la batterie de l’homme de
+                            ville : il se lève déconcerté et chagrin, et va dire ailleurs qu’il veut
+                            se remarier.</p>
                     </div3>
 
                     <div3 n="83" source="#lescaracteres1696">
