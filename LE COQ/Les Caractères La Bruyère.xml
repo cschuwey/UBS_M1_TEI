@@ -20,7 +20,7 @@
                     <bibl xml:id="edition3">
                         <title type="main">Les caractères de Théophraste traduits du grec </title>
                         <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
-                        <author>Jean de La Bruyère</author>
+                        <author xml:id="labruyere">Jean de La Bruyère</author>
                     </bibl>
                 </listBibl>
                 <biblstruct>
@@ -43,7 +43,7 @@
                         <title type="main">Les caractères de Théophraste traduits du grec </title>
                         <title type="sub">avec Les caractères ou les moeurs de ce siècle. Cinquième
                             édition. Augmentée de plusieurs remarques</title>
-                        <author> Jean de La Bruyère</author>
+                        <author xml:id="labruyere"> Jean de La Bruyère</author>
                     </bibl>
                 </listBibl>
                 <biblstruct>
@@ -66,7 +66,7 @@
                         <title type="main">Les caractères de Théophraste traduits du grec </title>
                         <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
                         <author xml:id="labruyere">La Bruyère Jean</author>
-                        <author xml:id="#manuscrit">Inconnu</author>
+                        <author xml:id="manuscrit">Inconnu</author>
                     </bibl>
                 </listBibl>
                 <biblstruct>
