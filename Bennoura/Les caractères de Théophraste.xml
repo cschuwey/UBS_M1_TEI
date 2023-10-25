@@ -7,8 +7,16 @@
                     caractères ou les moeurs de ce siècle</title>
                 <title type="sub">Par J. de La Bruyère</title>
                 <author>Théophraste</author>
-                <editor>Jean de La Bruyère</editor>
+                <editor xml:id="bruyère">Jean de La Bruyère</editor>
                 <principal>Bibliothèque nationale de France</principal>
+                <respStmt>
+                    <resp>d'apèrs une édition de</resp>
+                    <name>Estienne Michalet</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Les éditions seront corrigées et éditées</resp>
+                    <name>Etienne Michalet</name>
+                </respStmt>
             </titleStmt>
             <editionStmt xml:lang="fr">
                 <edition>
@@ -28,9 +36,12 @@
                         >Appartient à l’ensemble documentaire : GTextes1</licence>
                     <p>Consultable en ligne</p>
                 </availability>
+                <publisher xml:id="dje">Djewel Bennoura</publisher>
+                <authority>Christophe Schuwey</authority>
+                <date when="2023-10-09" >09 Octobre 2023</date>
             </publicationStmt>
             <notesStmt>
-                <note>établi dans le cadre d'un projet de M1</note>
+                <note>établi dans le cadre d'un projet du M1 MLE</note>
             </notesStmt>
             <sourceDesc>
                 <bibl xml:lang="fr" xml:id="ed1">
@@ -82,8 +93,7 @@
             </projectDesc>
             <editorialDecl>
                 <normalization>
-                    <p>Les différentes éditions numériser sont toujours dans un francais de son
-                        époque</p>
+                    <p>Le texte des remarques "De La Ville" encodé a été normalisé</p>
                 </normalization>
                 <p>Les pages des manuscrits ont été scanné</p>
             </editorialDecl>
@@ -96,7 +106,10 @@
         <revisionDesc>
             <change when="2023-10-09" who="Djewel">j'ai écris le header</change>
             <change when="2023-10-16" who="Djewel">j'ai commencé à encoder la partie De la Ville de
-                la partie Les Caractères et les Moeurs de ce Siècle depuis trois éditions datant respectivement de 1688,1691 et 1696</change>
+                la partie Les Caractères et les Moeurs de ce Siècle</change>
+            <change when="2023-10-18" who="Djewel">ajout de note de bas de page qui n'était pas dans
+                le texte fournit sur le doc mais on le trouve en note de bas de page dans #ed1 #ed2
+                #ed3</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -105,8 +118,7 @@
                 <head>Les Caractères et les Moeurs de ce Siècle</head>
                 <div2 type="chapitre" n="1">
                     <head>De la Ville</head>
-                    <div3 type="remarque" n="1" source="#ed1 #ed2 #ed3" 
-                        change="N'est pas annoté d'un pied de mouche dans #ed2 #ed3">
+                    <div3 type="remarque" n="1" source="#ed1 #ed2 #ed3" change="#ed2 #ed3">
                         <p>L’on se donne à Paris, sans se parler, comme un rendez-vous public, mais
                             fort exact, tous les soirs au Cours ou aux Tuileries, pour se regarder
                             au visage et se désapprouver les uns les autres.</p>
@@ -117,9 +129,10 @@
                             armoiries, rien n’échappe aux yeux, tout est curieusement ou malignement
                             observé ; et selon le plus ou le moins de l’équipage, ou l’on respecte
                             les personnes, ou on les dédaigne.</p>
+                        <note resp="#dje" type="changement" source="#ed2 #ed3">N'est pas annoté d'un pied de mouche
+                            dans #ed2 et #ed3</note>
                     </div3>
-                    <div3 type="remarque" n="2" source="#ed2 #ed3"
-                        change="dans #ed1 c'est la douxième remarque et apparait en tant que deuxième à partir #ed2">
+                    <div3 type="remarque" n="2" source="#ed2 #ed3" change="#ed2">
                         <p>Tout le monde connaît cette longue levée qui borne et qui resserre le lit
                             de la Seine, du côté où elle entre à Paris avec la Marne, qu’elle vient
                             de recevoir : les hommes s’y baignent au pied pendant les chaleurs de la
@@ -127,8 +140,10 @@
                             sortir : c’est un amusement. Quand cette saison n’est pas venue, les
                             femmes de la ville ne s’y promènent pas encore ; et quand elle est
                             passée, elles ne s’y promènent plus. </p>
+                        <note resp="#dje" type="changement" source="#ed2 #ed3">dans #ed1 c'est la douxième remarque et
+                            apparait en tant que deuxième à partir #ed2</note>
                     </div3>
-                    <div3 type="remarque" n="3" source="#ed2 #ed3" change="apparait comme troisième remarque à partir de #ed2">
+                    <div3 type="remarque" n="3" source="#ed2 #ed3" change="#ed2">
                         <p> Dans ces lieux d’un concours général, où les femmes se rassemblent pour
                             montrer une belle étoffe, et pour recueillir le fruit de leur toilette,
                             on ne se promène pas avec une compagne par la nécessité de la
@@ -138,9 +153,10 @@
                             pour les passants, pour ceux même en faveur de qui l’on hausse sa voix,
                             l’on gesticule et l’on badine, l’on penche négligemment la tête, l’on
                             passe et l’on repasse. </p>
+                        <note resp="#dje" type="changement" source="#ed2 #ed3">apparait comme troisième remarque à
+                            partir de #ed2</note>
                     </div3>
-                    <div3 type="remarque" n="4" source="#ed1 #ed2 #ed3"
-                        change="se place en troisème remarque dans #ed1">
+                    <div3 type="remarque" n="4" source="#ed1 #ed2 #ed3" change="#ed2">
                         <p> La ville est partagée en diverses sociétés, qui sont comme autant de
                             petites républiques, qui ont leurs lois, leurs usages, leur jargon, et
                             leurs mots pour rire. Tant que cet assemblage est dans sa force, et que
@@ -170,9 +186,10 @@
                             somptueux, dérangent la république, et lui portent enfin le coup mortel
                             : il n’est en fort peu de temps non plus parlé de cette nation que des
                             mouches de l’année passée. </p>
+                        <note resp="#dje" type="changement" source="#ed2 #ed3">se place en troisème remarque dans
+                            #ed1</note>
                     </div3>
-                    <div3 type="remarque" n="5" source="#ed2 #ed3"
-                        change="dans #ed1 c'est la vingtième remarque qui se situe en 5">
+                    <div3 type="remarque" n="5" source="#ed2 #ed3" change="#ed2">
                         <p>Il y a dans la ville la grande et la petite robe ; et la première se
                             venge sur l’autre des dédains de la cour, et des petites humiliations
                             qu’elle y essuie. De savoir quelles sont leurs limites, où la grande
@@ -185,9 +202,10 @@
                             parole et le mérite personnel balancent au moins les sacs de mille
                             francs que le fils du partisan ou du banquier a su payer pour son
                             office. </p>
+                        <note resp="#dje" type="changement" source="#ed2 #ed3">dans #ed1 c'est la vingtième remarque
+                            qui se situe en 5</note>
                     </div3>
-                    <div3 type="remarque" n="6" source="#ed2 #ed3"
-                        change="dans #ed1 la partie de la ville se termine à la remarque précédente et se positionne en remarque 8 dans #ed2">
+                    <div3 type="remarque" n="6" source="#ed2 #ed3" change="#ed2">
                         <p>Vous moquez-vous de rêver en carrosse, ou peut-être de vous y reposer ?
                             Vite, prenez votre livre ou vos papiers, lisez, ne saluez qu’à peine ces
                             gens qui passent dans leur équipage ; ils vous en croiront plus occupé ;
@@ -199,8 +217,11 @@
                             comme un fantôme dans le sombre de son cabinet ; se cacher au public,
                             éviter le théâtre, le laisser à ceux qui ne courent aucun risque à s’y
                             montrer, qui en ont à peine le loisir, aux Gomons, aux Duhamels. </p>
+                        <note resp="#dje" type="changement" source="#ed2 #ed3">dans #ed1 la partie de la ville se
+                            termine à la remarque précédente et se positionne en remarque 8 dans
+                            #ed2</note>
                     </div3>
-                    <div3 type="remarque" n="7" source="#ed2 #ed3" change="se positionne comme remarque numéro 6 dans #ed2">
+                    <div3 type="remarque" n="7" source="#ed2 #ed3" change="#ed2">
                         <p>Il y a un certain nombre de jeunes magistrats que les grands biens et les
                             plaisirs ont associés à quelques-uns de ceux qu’on nomme à la cour de
                             petits-maîtres : ils les imitent, ils se tiennent fort au-dessus de la
@@ -211,18 +232,25 @@
                             ainsi un caractère éloigné de celui qu’ils ont à soutenir, ils
                             deviennent enfin, selon leurs souhaits, des copies fidèles de très
                             méchants originaux. </p>
+                        <note resp="#dje" source="#ed2 #ed3" type="ajout">se positionne comme remarque numéro 6
+                            dans #ed2</note>
                     </div3>
-                    <div3 type="remarque" n="8" source="#ed2 #ed3" change="se positionne en 7ème remarque dans #ed2">
+                    <div3 type="remarque" n="8" source="#ed2 #ed3" change="#ed2">
                         <p>Un homme de robe à la ville, et le même à la cour, ce sont deux hommes.
                             Revenu chez soi, il reprend ses mœurs, sa taille et son visage, qu’il y
                             avait laissés : il n’est plus ni si embarrassé, ni si honnête. </p>
+                        <note resp="#dje" source="#ed2 #ed3" type="ajout">se positionne en 7ème remarque dans
+                            #ed2</note>
                     </div3>
                     <div3 type="remarque" n="9" source="#ed2 #ed3">
                         <p>Les Crispins se cotisent et rassemblent dans leur famille jusques à six
                             chevaux pour allonger un équipage, qui, avec un essaim de gens de
                             livrées, où ils ont fourni chacun leur part, les fait triompher au Cours
                             ou à Vincennes, et aller de pair avec les nouvelles mariées, avec Jason,
-                            qui se ruine, et avec Thrason, qui veut se marier, et qui a consigné.
+                            qui se ruine, et avec Thrason, qui veut se marier, <seg>et qui a
+                                consigné. <note resp="#bruyère" type="definition" place="end" source="#ed1 #ed2 #ed3" anchored="true">
+                                    *déposé son argent au trésor public pour une grande charge
+                                </note></seg>
                         </p>
                     </div3>
                     <div3 type="remarque" n="10" source="#ed2 #ed3">
@@ -271,10 +299,6 @@
                             les six chiens. L’heure presse ; il achève de leur parler des abois et
                             de la curée, et il court s’asseoir avec les autres pour juger. </p>
                     </div3>
-                    <note place="end" n="1" source="#ed1 #ed2 #ed3"
-                        change="n'était pas dans le texte fournit sur le doc mais on le trouve en note de bas de page dans #ed1 #ed2 #ed3">
-                        <p>*déposé son argent au trésor public pour une grande charge</p>
-                    </note>
                 </div2>
             </div1>
         </body>
