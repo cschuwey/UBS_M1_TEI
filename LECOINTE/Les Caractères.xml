@@ -38,7 +38,7 @@
                         <title>Les Caractères de Théophraste traduit du grec. Avec les Caractères ou
                             les moeurs de ce siècle</title>
                         <placeName>Paris</placeName>
-                        <publisher>Etienne Michallet</publisher>
+                        <publisher xml:id="etienne_michallet">Etienne Michallet</publisher>
                         <date>1694</date>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=214593;2</ref>
                     </bibl>
@@ -50,6 +50,8 @@
                 <normalization>
                     <p>Graphie modernisée</p>
                 </normalization>
+                <normalization>Les notes sont manuscrites et sont toutes présentes dans l'édition
+                    8</normalization>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -94,34 +96,39 @@
                             montrer.</p>
                     </div3>
                     <div3 n="24" source="#edition_5 #edition_8">
-                        <p>Celui qui voit loin derrière soi un homme de son temps et de sa
-                            condition, avec qui il est venu à la cour la première fois, s’il croit
-                            avoir une raison solide d’être prévenu de son propre mérite et s’estimer
-                            davantage que cet autre qui est demeuré en chemin, ne se souvient plus
-                            de ce qu’avant sa faveur il pensait de soi-même et de ceux qui l’avaient
-                            devancé.</p>
+                        <p>Celui qui voit loin derrière soi <note place="margin"
+                                resp="#etienne_michallet">Note manuscrite qui est illisble</note>un
+                            homme de son temps et de sa condition, avec qui il est venu à la cour la
+                            première fois, s’il croit avoir une raison solide d’être prévenu de son
+                            propre mérite et s’estimer davantage que cet autre qui est demeuré en
+                            chemin, ne se souvient plus de ce qu’avant sa faveur il pensait de
+                            soi-même et de ceux qui l’avaient devancé.</p>
                     </div3>
                     <div3 n="25" source="#edition_5 #edition_8">
                         <p>C’est beaucoup tirer de notre ami, si, ayant monté à une grande faveur,
                             il est encore un homme de notre connaissance.</p>
                     </div3>
                     <div3 n="26" source="#edition_5 #edition_8">
-                        <p>Si celui qui est en faveur ose s’en prévaloir avant qu’elle lui échappe,
-                            s’il se sert d’un bon vent qui souffle pour faire son chemin, s’il a les
-                            yeux ouverts sur tout ce qui vaque, poste, abbaye, pour les demander et
-                            les obtenir, et qu’il soit muni de pensions, de brevets et de
-                            survivances, vous lui reprochez son avidité et son ambition ; vous dites
-                            que tout le tente, que tout lui est propre, aux siens, à ses créatures,
-                            et que par le nombre et la diversité des grâces dont il se trouve
-                            comblé, lui seul a fait plusieurs fortunes. Cependant qu’a-t-il dû faire
-                            ? Si j’en juge moins par vos discours que par le parti que vous auriez
-                            pris vous-même en pareille situation, c’est qu’il a fait.</p>
+                        <p>Si celui qui est en faveur ose s’en <note place="margin"
+                                resp="#etienne_michallet">Note manuscrite illisible</note>prévaloir
+                            avant qu’elle lui échappe, s’il se sert d’un bon vent qui souffle pour
+                            faire son chemin, s’il a les yeux ouverts sur tout ce qui vaque, poste,
+                            abbaye, pour les demander et les obtenir, et qu’il soit muni de
+                            pensions, de brevets et de survivances, vous lui reprochez son avidité
+                            et son ambition ; vous dites que tout le tente, que tout lui est propre,
+                            aux siens, à ses créatures, et que par le nombre et la diversité des
+                            grâces dont il se trouve comblé, lui seul a fait plusieurs <note
+                                place="margin" resp="#etienne_michallet">Note manuscrite
+                                illisible</note>fortunes. Cependant qu’a-t-il dû faire ? Si j’en
+                            juge moins par vos discours que par le parti que vous auriez pris
+                            vous-même en pareille situation, c’est qu’il a fait.</p>
                         <p>L’on blâme les gens qui font une grande fortune pendant qu’ils en ont les
-                            occasions, parce que l’on désespère, par la médiocrité de la sienne,
-                            d’être jamais en état de faire comme eux, et de s’attirer ce reproche.
-                            Si l’on était à portée de leur succéder, l’on commencerait à sentir
-                            qu’ils ont moins de tort, et l’on serait plus retenu, de peur de
-                            prononcer d’avance sa condamnation.</p>
+                            occasions, parce que l’on désespère, <seg>par la médiocrité de la sienne
+                                    <note>Ici, l'auteur critique la jalousie de certains
+                                    nobles</note>, d’être jamais en état de faire comme eux</seg>,
+                            et de s’attirer ce reproche. Si l’on était à portée de leur succéder,
+                            l’on commencerait à sentir qu’ils ont moins de tort, et l’on serait plus
+                            retenu, de peur de prononcer d’avance sa condamnation.</p>
                     </div3>
                     <div3 n="27" source="#edition_5 #edition_8">
                         <p>Il ne faut rien exagérer, ni dire des cours le mal qui n’y est point :
@@ -137,14 +144,20 @@
                             l’un de mes amis qui a promis de parler ne parle point ; l’autre parle
                             mollement ; il échappe à un troisième de parler contre mes intérêts et
                             contre ses intentions ; à celui-là manque la bonne volonté, à celui-ci
-                            l’habileté et la prudence ; tous n’ont pas assez de plaisir à me voir
-                            heureux pour contribuer de tout leur pouvoir à me rendre tel. Chacun se
-                            souvient assez de tout ce que son établissement lui a coûté à faire,
-                            ainsi que des secours qui lui en ont frayé le chemin ; on serait même
-                            assez porté à justifier les services qu’on a reçus des uns par ceux
-                            qu’en de pareils besoins on rendrait aux autres, si le premier et
-                            l’unique soin qu’on a après sa fortune faite n’était pas de songer à
-                            soi.</p>
+                            l’habileté et la prudence ; <seg>tous n’ont pas assez de plaisir à me
+                                voir heureux pour contribuer de tout leur pouvoir à me rendre
+                                    tel<note type="explication">L'auteur veut très certainement
+                                    montré que chaque noble à la cours est différent. Il y a ceux
+                                    qui vont exposer les raisons de leur richesse et pouvant avoir
+                                    des conséquences sur le futur, comme la ruine qui fut provoqué
+                                    par d'autres nobles par jalousie. Mais il y a aussi ceux qui ne
+                                    disent rien, restent discret, dans le but d'éviter ses
+                                    conséquences</note></seg>. Chacun se souvient assez de tout ce
+                            que son établissement lui a coûté à faire, ainsi que des secours qui lui
+                            en ont frayé le chemin ; on serait même assez porté à justifier les
+                            services qu’on a reçus des uns par ceux qu’en de pareils besoins on
+                            rendrait aux autres, si le premier et l’unique soin qu’on a après sa
+                            fortune faite n’était pas de songer à soi.</p>
                     </div3>
                     <div3 n="29" source="#edition_8">
                         <p>Les courtisans n’emploient pas ce qu’ils ont d’esprit, d’adresse et de
@@ -178,7 +191,9 @@
                     </div3>
                     <div3 n="32" source="#edition_5 #edition_8">
                         <p>Vient-on de placer quelqu’un dans un nouveau poste, c’est un débordement
-                            de louanges en sa faveur, qui inonde les cours et la chapelle, qui gagne
+                            de <seg> louanges <note type="glossaire">Paroles, discours qui font
+                                    l'éloge de quelqu'un</note>
+                            </seg> en sa faveur, qui inonde les cours et la chapelle, qui gagne
                             l’escalier, les salles, la galerie, tout l’appartement : on en a
                             au-dessus des yeux, on n’y tient pas. Il n’y a pas deux voix différentes
                             sur ce personnage ; l’envie, la jalousie parlent comme l’adulation ;
