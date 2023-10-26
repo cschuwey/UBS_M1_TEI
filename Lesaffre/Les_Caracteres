@@ -37,14 +37,27 @@
                     <date>1694</date>
                     <pubPlace>Paris<country>France</country></pubPlace>
                     <biblScope>716 pages</biblScope>
-                    <ref type="URL/>https://books.google.fr/books?id=2SeBerCnLvkC&newbks=1&newbks_redir=0&dq=la%20bruyere%20caract%C3%A8res%201694&hl=fr&pg=PA580#v=onepage&q&f=false
-                </bibl>
+                    <ref type="URL"
+                    />https://books.google.fr/books?id=2SeBerCnLvkC&newbks=1&newbks_redir=0&dq=la%20bruyere%20caract%C3%A8res%201694&hl=fr&pg=PA580#v=onepage&q&f=false</bibl>
                 <bibl xml:id="TLFI">
                     <title>Trésor de la Langue Française Informatisé</title>
-                    <author>CNRS et Université de Lorraine</author>
+                    <author>Laboratoire Analyse traitement informatique de la langue française
+                        (ATILF), CNRS et Université de Lorraine</author>
                     <editor>CNRS et Université de Lorraine</editor>
                     <date>dernière date de rédaction en 1994</date>
-                    <ref type="URL">http://atilf.atilf.fr/</ref>
+                    <ref type="URL"/>http://atilf.atilf.fr/ </bibl>
+                <bibl xml:id="furetiere">
+                    <title>Dictionnaire Universel</title>
+                    <author>Antoine Furetière</author>
+                    <edition>Version informatisée sur le site des Classiques Garnier</edition>
+                    <date>1690</date>
+                    <editor>Claude Blum</editor>
+                    <editor>Chantal Wionet <affiliation>Université d'Avignon et METADIF,
+                            CNRS</affiliation></editor>
+                    <affiliation>CNED, Ministère de l'Éducation Nationale, Ministère de la
+                        Recherche, CNRS, Université Paris IV-Sorbonne.</affiliation>
+                    <ref type="URL"
+                    />https://num.classiques-garnier.com/index.php?module=App&action=FrameMain
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -53,7 +66,8 @@
                 <normalization>
                     <p>Les "s longs" ont été retranscrits en "s" modernes</p>
                     <p>Remplacement des esperluettes par "et"</p>
-                    <p>Graphie modernisée</p>
+                    <p>Graphie modernisée pour le texte principal et les citations dans les
+                        notes</p>
                     <p>Ponctuation modernisée</p>
                 </normalization>
                 <interpretation>
@@ -65,7 +79,7 @@
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="fra">Français du XVIIe siècle</language>
+                <language ident="fra">Français</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -98,6 +112,8 @@
                     appartenant soit à l'encodeuse, soit à l'édition originale et son auteur. Ajout
                     d'une bibl pour le site du TLFI utilisé comme référence dans une des
                     notes.</item>
+                <item><date when="2023-10-26">26 octobre 2023</date>Ajout d'une nouvelle source et
+                    des balises lui correspondant dans le teiHeader et le texte. Notes retravaillées.</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -112,7 +128,9 @@
                             des chausses à aiguillettes et des bottines ; il rêve la veille par où
                             et comment il pourra se faire remarquer le jour qui suit. Un philosophe
                             se laisse habiller par son tailleur : il y a autant de faiblesse à fuir
-                            la mode qu’à l’affecter.</p>
+                            la mode qu’à l’affecter<note resp="#lesaffre" type="gloss"
+                                source="#furetiere">"Aimer, souhaiter quelque chose avec
+                                empressement et ostentation" (Furetière)</note>.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="12">
                         <p>L’on blâme une mode qui divisant la taille des hommes en deux parties
@@ -122,32 +140,35 @@
                             change selon leurs caprices, qui éloigne les cheveux du visage, bien
                             qu’ils ne croissent que pour l’accompagner, qui les relève et les
                             hérisse à la manière des bacchantes<note resp="#lesaffre" type="gloss"
-                                >femmes célébrant les rites religieux liés à Dionysos, qui est aussi
-                                nommé Bacchus en latin. Le dieu en question étant lié à la vigne, au
-                                vin, à l'ivresse et à la folie par extension, le terme "bacchante"
-                                rappelle une version du mythe d'Orphée où ce dernier est tué par les
-                                Ménades, homologues grecques des Bacchantes. Une des
-                                caractéristiques de ces dernières sont leur longs cheveux.</note>,
-                            et semble avoir pourvu à ce que les femmes changent leur physionomie
-                            douce et modeste en une autre qui soit fière et audacieuse ; on se
-                            récrie enfin contre une telle ou une telle mode, qui cependant, toute
-                            bizarre qu’elle est, pare et embellit pendant qu’elle dure, et dont l’on
-                            tire tout l’avantage qu’on en peut espérer, qui est de plaire. Il me
-                                paraît<note resp="#lesaffre" type="variante" source="#edition4"
-                                >semble</note> qu’on devrait seulement admirer l’inconstance et la
-                                légèreté<note resp="#lesaffre" type="gloss">manque de sérieux, voir
-                                la définition du dictionnaire Furetière.</note> des hommes, qui
+                                >femmes célébrant les rites religieux liés à Dionysos, aussi nommé
+                                Bacchus en latin. Le dieu en question étant lié à la vigne, au vin,
+                                à l'ivresse et par extension à la folie, le terme "bacchante"
+                                rappelle une version du mythe d'Orphée où elles tuent ce dernier.
+                                Une de leurs caractéristiques sont leur longs cheveux, symbole de la
+                                folie dionysiaque ou bacchique qui les touche.</note>, et semble
+                            avoir pourvu à ce que les femmes changent leur physionomie douce et
+                            modeste en une autre qui soit fière et audacieuse ; on se récrie enfin
+                            contre une telle ou une telle mode, qui cependant, toute bizarre qu’elle
+                            est, pare et embellit pendant qu’elle dure, et dont l’on tire tout
+                            l’avantage qu’on en peut espérer, qui est de plaire. Il me paraît<note
+                                resp="#lesaffre" type="variante" source="#edition4">semble</note>
+                            qu’on devrait seulement admirer l’inconstance et la légèreté<note
+                                resp="#lesaffre" type="gloss" source="#furetiere">"se dit figurément
+                                en morale pour dire faiblesse d'esprit, inconstance, défaut de
+                                solidité dans les raisons, etc." (Furetière).</note> des hommes, qui
                             attachent successivement les agréments et la bienséance à des choses
                             tout opposées, qui emploient pour le comique et pour la mascarade<note
-                                resp="#lesaffre" type="explication">Ici, une référence au
-                                déguisement et au masque portés lors de fêtes dansantes qui
-                                pourraient être rapprochées aux "bals masqués" que nous évoquons
-                                souvent dans l'imaginaire d'une cour aristocratique et européenne du
-                                XVIIe siècle. Le mot à l'époque n'est pas autant rapproché au thème
-                                de la tromperie comme il l'est de nos jours, même si le dictionnaire
-                                Furetière note un sème d'hypocrisie.</note> ce qui leur a servi de
-                            parure grave et d’ornements les plus sérieux ; et que si peu de temps en
-                            fasse la différence.</p>
+                                resp="#lesaffre" type="gloss" source="#furetière">"Troupe de
+                                personnes qui vont danser et se divertir, surtout en la saison de
+                                Carnaval. [...] Se dit aussi d'une personne mal mise ou mal
+                                proprement ajustée, comme si elle voulait se déguiser et aller en
+                                masque." (Furetière) Le mot à l'époque n'est pas autant rapproché au
+                                thème de la tromperie comme il l'est de nos jours, même si le
+                                dictionnaire Furetière note un sème d'hypocrisie : "On le dit aussi
+                                de ceux qui trompent sous apparence d'honnêteté, qui déguisent leurs
+                                sentiments".</note> ce qui leur a servi de parure grave et
+                            d’ornements les plus sérieux ; et que si peu de temps en fasse la
+                            différence.</p>
                     </div3>
                     <div3 source="#edition8" n="13">
                         <p>N… est riche, elle mange bien, elle dort bien ; mais les coiffures
@@ -155,7 +176,7 @@
                             la sienne est hors de mode.</p>
                     </div3>
                     <div3 source="#edition8" n="14">
-                        <p><name rend="italics">Iphis</name> voit à l’église un soulier d’une
+                        <p><name rend="italic">Iphis</name> voit à l’église un soulier d’une
                             nouvelle mode ; il regarde le sien et en rougit ; il ne se croit plus
                             habillé. Il était venu à la messe pour s’y montrer, et il se cache ; le
                             voilà retenu par le pied dans sa chambre tout le reste du jour. Il a la
@@ -171,12 +192,11 @@
                             une démarche molle et le plus joli maintien qu’il est capable de se
                             procurer ; il met du rouge, mais rarement, il n’en fait pas habitude. Il
                             est vrai aussi qu’il porte des chausses<note resp="#lesaffre"
-                                type="supposition">Soit les chaussures sont évoquées, soit les
-                                "haut-de-chausses" sont évoqués, mais nous avons des doutes étant
-                                donné les codes vestimentaires de l'époque de rédaction et de
-                                parution de l'ouvrage.</note> et un chapeau, et qu’il n’a ni boucles
-                            d’oreilles ni collier de perles ; aussi ne l’ai-je pas mis dans le
-                            chapitre des femmes.</p>
+                                type="gloss" source="furetiere">"ou haut-de-chausses, signifie la
+                                partie inférieure de l'habit d'un homme, qui lui couvre les fesses,
+                                le ventre et les cuisses" (Furetière)</note> et un chapeau, et qu’il
+                            n’a ni boucles d’oreilles ni collier de perles ; aussi ne l’ai-je pas
+                            mis dans le chapitre des femmes.</p>
                     </div3>
                     <div3 source="#edition8" n="15">
                         <p>Ces mêmes modes que les hommes suivent si volontiers pour leurs
@@ -205,8 +225,8 @@
                                 censée désigner une femme galante au sens du XVIIe siècle.</note>
                             d’une honnête fille ; un Scythe<note resp="#lesaffre" type="gloss"
                                 source="#TLFI">Membre du peuple indo-européen antique scythe, sens
-                                déformé en "homme grossier, barbare"</note>, un Attila, d’un prince
-                            qui est bon et magnanime.</p>
+                                déformé en "homme grossier, barbare" (TLFI)</note>, un Attila, d’un
+                            prince qui est bon et magnanime.</p>
                         <p>Une mode a à peine détruit une autre mode, qu’elle est abolie par une
                             plus nouvelle, qui cède elle-même à celle qui la suit, et qui ne sera
                             pas la dernière : telle est notre légèreté. Pendant ces révolutions, un
@@ -232,10 +252,7 @@
                                 déduisons que les cheuveux naturels sont portés non sous la forme de
                                 perruque pour cette occurence, mais tels qu'ils poussent sur le
                                 crâne.</note>, étaient en chausses et en pourpoint, portait de
-                            larges canons<note resp="#lesaffre" type="gloss">Les canons étaient en
-                                tissu ou en dentelle et ornaient la rhingrave, vêtement masculin
-                                semblable à la fois à la culotte du XVIIe siècle et à la
-                                jupe.</note>, et il était libertin. Cela ne sied plus : il porte une
+                            larges canons, et il était libertin. Cela ne sied plus : il porte une
                             perruque, l’habit serré, le bas uni, et il est dévot : tout se règle par
                             la mode.</p>
                     </div3>
