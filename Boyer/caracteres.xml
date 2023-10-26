@@ -4,11 +4,11 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères</title>
-                <author>La Bruyère</author>
+                <author xml:id="LaBruyere">La Bruyère</author>
             </titleStmt>
             <publicationStmt>
                 <publisher/>
-                <authority>C. BOYER</authority>
+                <authority xml:id="Clea.B">C. BOYER</authority>
                 <date when-iso="2023-10-12">12/10/2023</date>
             </publicationStmt>
             <sourceDesc>
@@ -23,6 +23,7 @@
                             <date when-iso="1689">1689</date>
                             <edition> Quatrième édition </edition>
                             <publisher>Etienne Michallet</publisher>
+                            <idno>https://gallica.bnf.fr/ark:/12148/bpt6k575649/f235.item</idno>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -33,6 +34,7 @@
                             <date when-iso="1691">1691</date>
                             <edition> Sixième édition </edition>
                             <publisher>Etienne Michallet</publisher>
+                            <idno>https://gallica.bnf.fr/ark:/12148/bpt6k57567b?rk=150215;2</idno>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -43,7 +45,10 @@
                 <p>TD XML TEI</p>
             </projectDesc>
             <editorialDecl>
-                <normalization> <p>La numérotation n'apparait pas dans ces éditions, seulement dans l'édition finale.</p> </normalization>
+                <normalization>
+                    <p>La numérotation n'apparait pas dans ces éditions, seulement dans l'édition
+                        finale.</p>
+                </normalization>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -52,8 +57,11 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-12">Encodage du TEIHEADER de l'oeuvre Les Caractères de La Bruyère</change>
-            <change when="2023-10-19">Changement d'une des deux éditions et encodage de 10 remarques</change>
+            <change when="2023-10-12">Encodage du TEIHEADER de l'oeuvre Les Caractères de La
+                Bruyère</change>
+            <change when="2023-10-19">Changement d'une des deux éditions et encodage de 10
+                remarques</change>
+            <change when="2023-10-23">Encodage de note</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -73,7 +81,7 @@
 
                     <div3 n="2" source="#Quatrieme_edition #Sixieme_edition">
                         <p>Un homme qui sait la cour est maître de son geste, de ses yeux et de son
-                            visage ; il est profond, impénétrable ; il dissimule les mauvais
+                            visage ; il est profond, <seg>impénétrable<note resp="#Clea.B" type="glossaire">Qu'il est difficile ou impossible de connaître</note></seg> ; il dissimule les mauvais
                             offices, sourit à ses ennemis, contraint son humeur, déguise ses
                             passions, dément son cœur, parle, agit contre ses sentiments. Tout ce
                             grand raffinement n’est qu’un vice, que l’on appelle fausseté,
@@ -82,9 +90,9 @@
                     </div3>
 
                     <div3 n="3" source="#Quatrieme_edition #Sixieme_edition">
-                        <p>Qui peut nommer de certaines couleurs changeantes, et qui sont diverses
-                            selon les divers jours dont on les regarde ? de même, qui peut définir
-                            la cour ?</p>
+                        <p> Qui peut <seg>nommer<note resp="#LaBruyere">blablabla</note></seg> de
+                            certaines couleurs changeantes, et qui sont diverses selon les divers
+                            jours dont on les regarde ? de même, qui peut définir la cour ? </p>
                     </div3>
 
                     <div3 n="4" source="#Quatrieme_edition #Sixieme_edition">
@@ -99,7 +107,7 @@
                     </div3>
 
                     <div3 n="6" source="#Quatrieme_edition #Sixieme_edition">
-                        <p>La province est l’endroit d’où la cour, comme dans son point de vue,
+                        <p>La <seg>province <note resp="#Clea.B" type="glossaire"> Partie distincte d'un pays</note></seg> est l’endroit d’où la cour, comme dans son point de vue,
                             paraît une chose admirable : si l’on s’en approche, ses agréments
                             diminuent, comme ceux d’une perspective que l’on voit de trop près.</p>
                     </div3>
@@ -114,13 +122,13 @@
                     </div3>
 
                     <div3 n="9" source="#Quatrieme_edition #Sixieme_edition">
-                        <p>Il faut qu’un honnête homme ait tâté de la cour : il découvre en y
+                        <p>Il faut qu’un honnête homme ait tâté de la <seg>cour <note resp="#Clea.B" type="information">La Cour du Roi de France </note></seg> : il découvre en y
                             entrant comme un nouveau monde qui lui était inconnu, où il voit régner
                             également le vice et la politesse, et où tout lui est utile, le bon et
                             le mauvais.</p>
                     </div3>
 
-                    <div3 n="10" source="Sixieme_edition">
+                    <div3 n="10" source="#Sixieme_edition">
                         <p>La cour est comme un édifice bâti de marbre : je veux dire qu’elle est
                             composée d’hommes fort durs, mais fort polis. </p>
                     </div3>
