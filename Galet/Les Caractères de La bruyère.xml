@@ -4,10 +4,10 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
-                <author>La Bruyère, Jean de (1645-1696)</author>
+                <author xml:id="Jean">La Bruyère, Jean de (1645-1696)</author>
             </titleStmt>
             <publicationStmt>
-                <publisher>C. Galet</publisher>
+                <publisher xml:id="C.Galet">C. Galet</publisher>
                 <authority>C. Galet</authority>
                 <date when-iso="2023-10-11">11/10/2023</date>
             </publicationStmt>
@@ -57,6 +57,7 @@
                 de cette manière là.</change>
             <change when="2023-10-16">Encodage des remarques 11 à 21 du chapitre "Des Esprits Forts".</change>
             <change when="2023-10-20">Encodage des attributs source dans les balises p.</change>
+            <change when="2023-10-26">Ajout des notes avec les attributs #Jean et #C.Galet pour les différencier.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -69,7 +70,7 @@
                     
                     <div3 type="remarque" n="(11)">
                         <p source="#edition4 #edition6"> (11) Je voudrais voir un homme sobre, modéré, chaste, équitable,
-                            prononcer qu’il n’y a point de Dieu : il parlerait du moins sans intérêt
+                            prononcer qu’il n’y a point de Dieu : <seg>il parlerait du moins sans intérêt <note source="#Jean">contenu de la note.</note></seg>
                             ; mais cet homme ne se trouve point.</p>
                     </div3>
                     <div3 n="12">
@@ -88,8 +89,8 @@
                     </div3>
                     <div3 n="15">
                         <p source="#edition4 #edition6"> (15) Je sens qu’il y a un Dieu, et je ne sens pas qu’il n’y en ait point
-                            ; cela me suffit, tout le raisonnement du monde m’est inutile : je
-                            conclus que Dieu existe. Cette conclusion est dans ma nature ; j’en ai
+                            ; cela me suffit, tout le raisonnement du monde m’est inutile : <seg>je
+                            conclus que Dieu existe.<note source="#Jean">contenu de la note</note></seg> Cette conclusion est dans ma nature ; j’en ai
                             reçu les principes trop aisément dans mon enfance, et je les ai
                             conservés depuis trop naturellement dans un âge plus avancé, pour les
                             soupçonner de fausseté. — Mais il y a des esprits qui se défont de ces
@@ -98,7 +99,8 @@
                     </div3>
                     
                     <div3 n="16">
-                        <p source="#edition4 #edition6">(16) L’athéisme n’est point. Les grands, qui en sont le plus soupçonnés,
+                        <p source="#edition4 #edition6">(16)<seg>L’athéisme n’est point.<note type="glossaire" source="#C.Galet">L'athéisme est le refus de l'existence de Dieu.</note></seg> 
+                            Les grands, qui en sont le plus soupçonnés,
                             sont trop paresseux pour décider en leur esprit que Dieu n’est pas ;
                             leur indolence va jusqu’à les rendre froids et indifférents sur cet
                             article si capital, comme sur la nature de leur âme, et sur les
@@ -106,7 +108,7 @@
                             accordent : ils n’y pensent point.</p>
                     </div3>
                     <div3 n="17">
-                        <!-- les deux remarques ci-dessous ne figurent pas dans la 4ème édition ni dans la 6ème édition mais elles sont dans une édition de 1688. Seulement, je n'arrive pas à savoir s'il s'agit de la 5ème édition ou si c'est une réimpréssion d'une édition antérieure. Si j'arrive à trouver, je changerai une des deux éditions dans le Tei Header. -->
+                        <!-- les deux remarques ci-dessous ne figurent plus dans le chapitre Des Esprits Forts. -->
                         <p>(17) Nous n’avons pas trop de toute notre santé, de toutes nos forces et
                             de tout notre esprit pour penser aux hommes ou au plus petit intérêt :
                             il semble au contraire que la bienséance et la coutume exigent de nous
@@ -135,13 +137,13 @@
                             faibles génies et de petits esprits ; et si c’est au contraire ce qu’il
                             y a d’humble et de simple qui les rebute, ils sont à la vérité des
                             esprits forts, et plus forts que tant de grands hommes si éclairés, si
-                            élevés, et néanmoins si fidèles, que les Léons, les Basiles, les
-                            Jéromes, les Augustins.</p>
+                            élevés, et néanmoins si fidèles,<seg>que les Léons, les Basiles, les
+                            Jéromes, les Augustins.<note type="explication" source="#C.Galet">Les Augustins viennent de l'ordre de Saint Augustin, qui est un ordre mendiant relevant du Siège Apostolique et non de l'Evêque du Diocèse.</note></p>
                     </div3>
                     <div3 n="21">
                         <p source="#edition4 #edition6">(21) « Un Père de l’Eglise, un docteur de l’Eglise, quels noms ! quelle
-                            tristesse dans leurs écrits ! quelle sécheresse, quelle froide dévotion,
-                            et peut-être quelle scolastique ! » disent ceux qui ne les ont jamais
+                            tristesse dans leurs écrits ! <seg> quelle sécheresse, quelle froide dévotion,
+                            et peut-être quelle scolastique !<note source="#Jean">contenu de la note.</note></seg>» disent ceux qui ne les ont jamais
                             lus. Mais plutôt quel étonnement pour tous ceux qui se sont fait une
                             idée des Pères si éloignée de la vérité, s’ils voyaient dans leurs
                             ouvrages plus de tour et de délicatesse, plus de politesse et d’esprit,
@@ -156,10 +158,11 @@
                             application et leur développement, pour la justesse des conclusions,
                             pour la dignité du discours, pour la beauté de la morale et des
                             sentiments, il n’y a rien par exemple que l’on puisse comparer à S.
-                            Augustin, que Platon et que Cicéron.</p>
+                            Augustin, que Platon et que <seg>Cicéron.<note type="glossaire" source="#C.Galet">Cicéron (106 av.J.C - 43 av.J.C) était un homme d'Etat Romain.</note></seg></p>
                     </div3>
                 </div2>
             </div1>
         </body>
     </text>
 </TEI>
+
