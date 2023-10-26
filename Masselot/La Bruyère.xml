@@ -119,7 +119,7 @@
                     </div3>
 
                     <div3 n="81" source="#Edition9">
-                        <p>Il faut être bien dénué d’esprit, si l’amour, la malignité, la nécessité
+                        <p>Il faut être bien dénué d’esprit, si <seg>l’amour, la malignité, la nécessité <note type="explication" resp="#Masselot"> Enumération</note></seg>
                             n’en font pas trouver.</p>
                     </div3>
 
@@ -158,12 +158,14 @@
                         <p><seg>Il y a des gens qui n’ont pas le moyen d’être <note
                                     source="#Edition1" type="explication" place="margin"
                                     position="left" resp="#Editeur_Edition1">Secrétaires du
-                                    roi</note></seg>nobles.</p>
+                            roi</note></seg>nobles.</p>
                         <p>Il y en a de tels que, s’ils eussent obtenu six mois de délai de leurs
-                            créanciers, ils étaient nobles.</p>
+                            créanciers, ils étaient nobles<noteGroup source="#Edition9" type="explication" place="margin"
+                                position="right" resp="#Editeur_Edition9"><note source="#Edition9" type="explication" place="margin"
+                                    position="right" resp="#Editeur_Edition9"> Vétérans</note>.</p>
                         <note source="#Edition1" type="explication" place="margin" position="left"
                             resp="#Editeur_Edition1">Vétérans</note>
-                        <p>Quelques autres se couchent roturiers, et se lèvent nobles.</p>
+                        <p>Quelques autres se couchent roturiers, et se lèvent nobles</note>.</noteGroup></p>
                         <note source="#Edition1" type="explication" place="margin" position="left"
                             resp="#Editeur_Edition1">Vétérans</note>
                         <p>Combien de nobles dont le père et les aînés sont roturiers !</p>
@@ -233,6 +235,8 @@
                             précautions, qu’à force de beaux noms, de disputes sur le rang et les
                             préséances, de nouvelles armes, et d’une généalogie que D’Hozier ne lui
                             a pas faite, il devient enfin un petit prince.</p>
+                        <note type="déclaration" resp="#Masselot">Comme quoi, mieux vaut ne pas
+                            avoir de gosses.</note>
                     </div3>
 
                     <div3 n="8" source="#Edition9">
@@ -346,17 +350,21 @@
                             beau salut, la décoration souvent profane, les places retenues et
                             payées, des <seg>livres distribués comme au théâtre<note
                                     source="#Edition9" type="explication" place="margin"
-                                    position="right" resp="#Editeur_Edition9">Le Motet traduit en
-                                    vers français par L.L**</note></seg>, les entrevues et les
-                            rendez-vous fréquents, le murmure et les causeries étourdissantes,
-                            quelqu’un monté sur une tribune qui y parle familièrement, sèchement, et
-                            sans autre zèle que de rassembler le peuple, l’amuser, jusqu’à ce qu’un
-                            orchestre, le dirai-je ? et des voix qui concertent depuis longtemps se
-                            fassent entendre ? Est-ce à moi à m’écrier que le zèle de la maison du
-                            Seigneur me consume, et à tirer le voile léger qui couvre les mystères,
-                            témoins d’une telle indécence ? Quoi ? parce qu’on ne danse pas encore
-                            aux TT…, me forcera-t-on d’appeler tout ce spectacle office d’Eglise
-                            ?</p>
+                                    position="right" resp="#Editeur_Edition9">Le Motet<seg>
+                                        <note type="definition" place="margin" position="left"
+                                            resp="#Masselot"> Un Motet est une sorte de composition
+                                            musicale, l'une des formes les plus importantes de la
+                                            musique polyphonique du XIIe au XVIIIe
+                                        siècle</note></seg>traduit en vers français par
+                                L.L**</note></seg>, les entrevues et les rendez-vous fréquents, le
+                            murmure et les causeries étourdissantes, quelqu’un monté sur une tribune
+                            qui y parle familièrement, sèchement, et sans autre zèle que de
+                            rassembler le peuple, l’amuser, jusqu’à ce qu’un orchestre, le dirai-je
+                            ? et des voix qui concertent depuis longtemps se fassent entendre ?
+                            Est-ce à moi à m’écrier que le zèle de la maison du Seigneur me consume,
+                            et à tirer le voile léger qui couvre les mystères, témoins d’une telle
+                            indécence ? Quoi ? parce qu’on ne danse pas encore aux TT…, me
+                            forcera-t-on d’appeler tout ce spectacle office d’Eglise ?</p>
 
                     </div3>
 
@@ -381,3 +389,4 @@
         </body>
     </text>
 </TEI>
+
