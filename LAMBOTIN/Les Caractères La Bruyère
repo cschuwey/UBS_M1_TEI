@@ -56,7 +56,7 @@
                 ajout des liens vers les exemplaires</change>
             <change when="2023-10-19">Ajout des éditions reliées à chaque remarque et ajout de la
                 huitième édition des Caractères dans le biblestruct</change>
-            <change when="2023-10-26">Ajout de notes dans les remarques 22, 30 et 32. Elles sont de moi car il n'y avait aucune remarque dans les éditions choisies.</change>
+            <change when="2023-10-26">Ajout de notes dans les remarques 22, 23, 30 et 32. Elles sont de moi car il n'y avait aucune remarque dans les éditions choisies.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -79,7 +79,7 @@
                             citent point ; n’en est pas pire.<seg><note resp="#lambotin" place="bottom" type="information">La remarque ne contient aucune note dans aucune des trois éditions</note></seg></p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="23">
-                        <p>« Que dites-vous du livre d’Hermodore ? —Qu’il est mauvais, répond
+                        <p>« Que dites-vous du livre d’Hermodore<seg><note resp="#lambotin" type="biography" place="bottom">Hermodore d'Éphèse est un philosophe grec du Ve avant J.-C.</note></seg> ? —Qu’il est mauvais, répond
                             Anthime.—Qu’il est mauvais ? —Qu’il est tel, continue-t-il, que ce n’est
                             pas un livre, ou qui mérite du moins que le monde en parle.—Mais
                             l’avez-vous lu ? —Non », dit Anthime. Que n’ajoute-t-il que Fulvie et
