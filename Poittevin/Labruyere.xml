@@ -4,11 +4,11 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères</title>
-                <author>Jean de La Bruyère</author>
+                <author xml:id="labruyere">Jean de La Bruyère</author>
                 <principal>A. Poittevin</principal>
             </titleStmt>
             <publicationStmt>
-                <publisher>A. Poittevin</publisher>
+                <publisher xml:id="poittevin">A. Poittevin</publisher>
                 <date/>
                 <distributor/>
 
@@ -47,7 +47,7 @@
                     <publisher>Estienne Michallet</publisher>
                     <date>1694</date>
                     <idno type="uri">
-                        https://books.googleusercontent.com/books/content?req=AKW5Qad2Lie5Tbzwlmms4y648iN4u7lqgTLyOjTEbN1_f2X4Ky0iYZ86ji9ZnGwACvkhrdXDlzbtm-M7fumW9t-XKkOyQdGLmvzHqz9Z3R5nBuvVHpP7vKJKmfXt7hKGrnhckhoRIN2iy_BLiBDgKR4ovh9ISArONtCwU0aqFLloC2o8fLYiJ5wzQR7a7YDuBsbMGkPQLyejAKz5Yo2cBM9wKBnP8HBZe2bnCqccixCijjNvPscSaqo2YtBXYUaMKy1kNfeUwciakVHDhrLTnxhsubGc0pmUCvwaQnQ7gMxcBl5RbOUEZ4E
+                        https://www.google.fr/books/edition/Les_caracteres_de_Theophraste_traduits_d/2SeBerCnLvkC?hl=fr&gbpv=0
                     </idno>
                 </bibl>
             </sourceDesc>
@@ -55,7 +55,7 @@
         <encodingDesc>
             <editorialDecl>
                 <interpretation>
-                    <p>Attribus source="#" ajoutés dans balises p et non div3 pour faciliter la
+                    <p>Attribus source="#" ajoutés dans balises p et div3 pour faciliter la
                         conversion du fichier.</p>
                 </interpretation>
             </editorialDecl>
@@ -71,6 +71,7 @@
                 éditions et remarques + url ajoutées (teiHeader)</change>
             <change when="2023-10-19">Ajout de l'édition 8 dans le teiHeader et liaison avec les
                 remarques</change>
+            <change when="2023-10-26">Changement du lien pour l'édition 8 dans le teiHeader.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -80,14 +81,14 @@
                 <div2 type="chapitre" n="5">
                     <p>De la Société et de la Conversation</p>
 
-                    <div3 n="42">
+                    <div3 n="42" source="#édition6 #édition8">
                         <p source="#édition6 #édition8">Il n’y a que ceux qui ont eu de vieux
                             collatéraux, ou qui en ont encore, et dont il s’agit d’hériter, qui
                             puissent dire ce qu’il en coûte.</p>
                     </div3>
 
 
-                    <div3 n="43">
+                    <div3 n="43" source="#édition3 #édition6 #édition8">
                         <p source="#édition3 #édition6 #édition8">Cléante est un très honnête homme
                             ; il s’est choisi une femme qui est la meilleure personne du monde et la
                             plus raisonnable : chacun, de sa part, fait tout le plaisir et tout
@@ -99,7 +100,7 @@
                     </div3>
 
 
-                    <div3 n="44">
+                    <div3 n="44" source="#édition3 #édition6 #édition8">
                         <p source="#édition3 #édition6 #édition8">L’on peut compter sûrement sur la
                             dot, le douaire et les conventions, mais faiblement sur les nourritures
                             ; elles dépendent d’une union fragile de la belle-mère et de la bru, et
@@ -107,14 +108,14 @@
                     </div3>
 
 
-                    <div3 n="45">
+                    <div3 n="45" source="#édition6 #édition8">
                         <p source="#édition6 #édition8">Un beau-père aime son gendre, aime sa bru.
                             Une belle-mère aime son gendre, n’aime point sa bru. Tout est
                             réciproque.</p>
                     </div3>
 
 
-                    <div3 n="46">
+                    <div3 n="46" source="#édition6 #édition8">
                         <p source="#édition6 #édition8">Ce qu’une marâtre aime le moins de tout ce
                             qui est au monde, ce sont les enfants de son mari : plus elle est folle
                             de son mari, plus elle est marâtre.</p>
@@ -124,7 +125,7 @@
                     </div3>
 
 
-                    <div3 n="47">
+                    <div3 n="47" source="#édition3 #édition6 #édition8">
                         <p source="#édition3 #édition6 #édition8">G… et H… sont voisins de campagne,
                             et leurs terres sont contiguës ; ils habitent une contrée déserte et
                             solitaire. Eloignés des villes et de tout commerce, il semblait que la
@@ -141,7 +142,7 @@
                     </div3>
 
 
-                    <div3 n="48">
+                    <div3 n="48" source="#édition8">
 
                         <p source="#édition8">Il est souvent plus court et plus utile de cadrer aux
                             autres que de faire que les autres s’ajustent à nous.</p>
@@ -149,7 +150,7 @@
                     </div3>
 
 
-                    <div3 n="49">
+                    <div3 n="49" source="#édition6 #édition8">
                         <p source="#édition6 #édition8">J’approche d’une petite ville, et je suis
                             déjà sur une hauteur d’où je la découvre. Elle est située à mi-côte ;
                             une rivière baigne ses murs, et coule ensuite dans une belle prairie ;
@@ -163,7 +164,7 @@
                     </div3>
 
 
-                    <div3 n="50">
+                    <div3 n="50" source="#édition6 #édition8">
                         <p source="#édition6 #édition8">Il y a une chose que l’on n’a point vue sous
                             le ciel et que selon toutes les apparences on ne verra jamais : c’est
                             une petite ville qui n’est divisée en aucuns partis ; où les familles
@@ -178,7 +179,7 @@
                     </div3>
 
 
-                    <div3 n="51">
+                    <div3 n="51" source="#édition6 #édition8">
                         <p source="#édition6 #édition8">Les provinciaux et les sots sont toujours
                             prêts à se fâcher, et à croire qu’on se moque d’eux ou qu’on les méprise
                             : il ne faut jamais hasarder la plaisanterie, même la plus douce et la
@@ -186,7 +187,7 @@
                     </div3>
 
 
-                    <div3 n="52">
+                    <div3 n="52" source="#édition6 #édition8">
                         <p source="#édition6 #édition8">On ne prime point avec les grands, ils se
                             défendent par leur grandeur ; ni avec les petits, ils vous repoussent
                             par le qui vive.</p>
