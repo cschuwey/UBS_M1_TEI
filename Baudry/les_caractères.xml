@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -9,13 +8,14 @@
                 <author>La Bruyère, Jean de</author>
             </titleStmt>
             <publicationStmt>
-                <author xml:id="LaBruyere">La Bruyère</author>
+                <authority xml:id="LaBruyere">La Bruyère</authority>
                 <publisher xml:id="TheoBaudry">Théo Baudry</publisher>
-                <authority>Théo Baudry</authority>
+                <authority xml:id="TheoBaudry1">Théo Baudry</authority>
                 <date when-iso="2023-10-09">2023-10-09</date>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct xml:id="editionun"> <!-- page 176 sur gallica -->
+                <biblStruct xml:id="editionun">
+                    <!-- page 176 sur gallica -->
                     <monogr>
                         <author>La Bruyère, Jean de</author>
                         <title type="main">Les caractères de Théophraste , traduits du grec, </title>
@@ -28,7 +28,8 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
-                <biblStruct xml:id="editionneuf"> <!-- page 151 sur le site -->
+                <biblStruct xml:id="editionneuf">
+                    <!-- page 151 sur le site -->
                     <monogr>
                         <author>La Bruyère, Jean de</author>
                         <title type="main">Les caractères ou les moeurs de ce siècle.</title>
@@ -43,47 +44,55 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
                 <p>encodage dans le cadre du cours de XML/TEI</p>
-                <p>le n dans les div3 correspond aux numéros des remarques attribués au 19e siècle dans l'édition finale</p>
+                <p>le n dans les div3 correspond aux numéros des remarques attribués au 19e siècle
+                    dans l'édition finale</p>
             </projectDesc>
         </encodingDesc>
-        
+
         <profileDesc>
             <langUsage>
                 <language ident="FRA">français</language>
             </langUsage>
         </profileDesc>
-        
+
         <revisionDesc>
             <change when-iso="2023-10-09">début du fichier, encodage du header/des
                 métadonnées</change>
             <change when-iso="2023-10-16">sélection des remarques à analyser</change>
             <change when-iso="2023-10-19">ajout des attributs d'éditions aux remarques</change>
+            <change when-iso="2023-10-26">ajout des notes marginales et de notes inventées</change>
         </revisionDesc>
     </teiHeader>
-    
-    
+
+
     <text>
         <front> </front>
         <body>
-            <div1> <head>Les Caractères ou les Mœurs de ce siècle</head>
-                <div2 type="chapitre" n="6"> <head>Des Biens de Fortune</head>
-                    
+            <div1>
+                <head>Les Caractères ou les Mœurs de ce siècle</head>
+                <div2 type="chapitre" n="6">
+                    <head>Des Biens de Fortune</head>
+
                     <div3 type="remarque" n="65" source="#editionneuf">
                         <p>L’avare dépense plus mort en un seul jour, qu’il ne faisait vivant en dix
                             années ; et son héritier plus en dix mois, qu’il n’a su faire lui-même
                             en toute sa vie.</p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="66" source="#editionneuf">
                         <p>Ce que l’on prodigue, on l’ôte à son héritier ; ce que l’on épargne
                             sordidement, on se l’ôte à soi-même. Le milieu est justice pour soi et
-                            pour les autres.</p>
+                            pour les autres. <seg>note inventée 3 <note type="citation"
+                                    ref="LaBruyere" place="margin" source="#editionun">citation de
+                                    La Bruyère: “L’on voit des hommes tomber d’une haute fortune par
+                                    les mêmes défauts qui les y avaient fait
+                            monter.”.</note></seg></p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="67" source="#editionneuf">
                         <p>Les enfants peut-être seraient plus chers à leurs pères, et
                             réciproquement les pères à leurs enfants, sans le titre d’héritiers.</p>
@@ -94,7 +103,7 @@
                             l’agonie de nos proches. Celui qui s’empêche de souhaiter que son père y
                             passe bientôt est homme de bien.</p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="69" source="#editionneuf">
                         <p>Le caractère de celui qui veut hériter de quelqu’un rentre dans celui du
                             complaisant : nous ne sommes point mieux flattés, mieux obéis, plus
@@ -108,9 +117,12 @@
                             cultivent par cet intérêt, pendant tout le cours de leur vie, un désir
                             secret et enveloppé de la mort d’autrui : le plus heureux dans chaque
                             condition est celui qui a plus de choses à perdre par sa mort, et à
-                            laisser à son successeur.</p>
+                            laisser à son successeur.<seg>note inventée 1 <note type="definition"
+                                    ref="TheoBaudry1" place="bottom" source="#editionun">définition
+                                    successeur: Personne qui succède ou doit succéder (à
+                                    qqn).</note></seg></p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="71" source="#editionneuf">
                         <p> L’on dit du jeu qu’il égale les conditions ; mais elles se trouvent
                             quelquefois si étrangement disproportionnées, et il y a entre telle et
@@ -124,10 +136,12 @@
                             choses qui nous rendent barbares à l’autre partie du monde, et que les
                             Orientaux qui viennent jusqu’à nous remportent sur leurs tablettes : je
                             ne doute pas même que cet excès de familiarité ne les rebute davantage
-                            que nous ne sommes blessés de leur <seg> zombaye <note ref="#LaBruyere" place="margin" source="#editioneuf">V Les Relations du Royaume de Siam</note> </seg> et de leurs autres
-                            prosternations.</p>
+                            que nous ne sommes blessés de leur <seg> zombaye <note ref="#LaBruyere"
+                                    place="margin" source="#editioneuf">V Les Relations du Royaume
+                                    de Siam</note>
+                            </seg> et de leurs autres prosternations.</p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="72" source="#editionneuf">
                         <p>Une tenue d’états, ou les chambres assemblées pour une affaire très
                             capitale, n’offrent point aux yeux rien de si grave et de si sérieux
@@ -141,7 +155,7 @@
                             passions, comme suspendues, cèdent à une seule ; le courtisan alors
                             n’est ni doux, ni flatteur, ni complaisant, ni même dévot. </p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="73" source="#editionun #editionneuf">
                         <p> L’on ne reconnaît plus en ceux que le jeu et le gain ont illustré la
                             moindre trace de leur première condition : ils perdent de vue leurs
@@ -159,17 +173,20 @@
                             lui a compté une grosse somme, qui a reçu un don, qui a fait au jeu un
                             gain considérable, quel fils de famille vient de recueillir une riche
                             succession, ou quel commis imprudent veut hasarder sur une carte les
-                            derniers de sa caisse. C’est un sale et indigne métier, il est vrai, que
-                            de tromper ; mais c’est un métier qui est ancien, connu, pratiqué de
-                            tout temps par ce genre d’hommes que j’appelle des brelandiers.
-                            L’enseigne est à leur porte, on y lirait presque : Ici l’on trompe de
-                            bonne foi ; car se voudraient-ils donner pour irréprochables ? Qui ne
-                            sait pas qu’entrer et perdre dans ces maisons est une même chose ?
-                            Qu’ils trouvent donc sous leur main autant de dupes qu’il en faut pour
-                            leur subsistance, c’est ce qui me passe. </p>
+                            derniers de sa caisse.<seg>note inventée 2 <note type="definition"
+                                    ref="LaBruyere" place="margin" source="#editionneuf">note
+                                    fictive pour exemple</note></seg> C’est un sale et indigne
+                            métier, il est vrai, que de tromper ; mais c’est un métier qui est
+                            ancien, connu, pratiqué de tout temps par ce genre d’hommes que
+                            j’appelle des brelandiers. L’enseigne est à leur porte, on y lirait
+                            presque : Ici l’on trompe de bonne foi ; car se voudraient-ils donner
+                            pour irréprochables ? Qui ne sait pas qu’entrer et perdre dans ces
+                            maisons est une même chose ? Qu’ils trouvent donc sous leur main autant
+                            de dupes qu’il en faut pour leur subsistance, c’est ce qui me passe.
+                        </p>
                     </div3>
-                    
-                    
+
+
                     <div3 type="remarque" n="75" source="#editionneuf">
                         <p> Mille gens se ruinent au jeu, et vous disent froidement qu’ils ne
                             sauraient se passer de jouer : quelle excuse ! Y a-t-il une passion,
@@ -193,8 +210,6 @@
             </div1>
         </body>
     </text>
-    <!-- exemple de source="#edition1 #edition2"  -->
-    
-    
-</TEI>
 
+
+</TEI>
