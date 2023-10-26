@@ -8,7 +8,7 @@
                 <principal>C. Schuwey</principal>
             </titleStmt>
             <publicationStmt>
-                <publisher>Opale Launay</publisher>
+                <publisher xml:id="launay">Opale Launay</publisher>
                 <date when="2023-10-09">09 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
@@ -35,6 +35,8 @@
                     <author>Jean de La Bruyère</author>
                     <date>1696</date>
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57579b?rk=300430</ref>
+                    <editor xml:id="editor1696">Estienne Michallet</editor>
+                    <editor xml:id="noteinventée">note inventée</editor>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -49,9 +51,13 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-           <change when="2023-10-09">Création TeiHeader: métadonnées</change>
+            <change when="2023-10-09">Création TeiHeader: métadonnées</change>
             <change when="2023-10-16">Création du body. Création des divisions.</change>
-            <change when="2023-10-19">Ajout edition de 1696. Ajout de l'attribut @source au niveau des div3 et des p.</change>
+            <change when="2023-10-19">Ajout edition de 1696. Ajout de l'attribut @source au niveau
+                des div3 et des p.</change>
+            <change when="2023-10-26"> N'ayant pas de notes écrites par l'éditeur ou l'auteur, j'ai
+                inventé une note pour l'exercice du TD5. J'ai ensuite ajouté trois notes écrites par
+                moi-même</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -67,6 +73,8 @@
                             pas convaincu de son inutilité, quand il considère qu’il laisse en
                             mourant un monde qui ne se sent pas de sa perte, et où tant de gens se
                             trouvent pour le remplacer ?</p>
+                        <note type="explication" place="margin" resp="#noteinventée"
+                            source="#edition1696"> quand il considère [...]pas de sa perte</note>
                     </div3>
                     <div3 n="2" source="#edition1688 #edition1696">
                         <p>De bien des gens il n’y a que le nom qui vale quelque chose. Quand vous
@@ -90,8 +98,9 @@
                         <p>Quelle horrible peine a un homme qui est sans prôneurs et sans cabale,
                             qui n’est engagé dans aucun corps, mais qui est seul, et qui n’a que
                             beaucoup de mérite pour toute recommandation, de se faire jour à travers
-                            l’obscurité où il se trouve, et de venir au niveau d’un fat qui est en
-                            crédit ! </p>
+                            l’obscurité où il se trouve, et de venir au niveau d’un <seg> fat <note
+                                    type="lexique" resp="#launay"> Ancien français: Sot, niais
+                                </note></seg> qui est en crédit !</p>
                     </div3>
                     <div3 n="5" source="#edition1688 #edition1696">
                         <p>Personne presque ne s’avise de lui-même du mérite d’un autre.</p>
@@ -111,18 +120,24 @@
                     </div3>
                     <div3 n="8" source="#edition1696">
                         <p>Il y a plus d’outils que d’ouvriers, et de ces derniers plus de mauvais
-                            que d’excellents ; que pensez-vous de celui qui veut scier avec un
-                            rabot, et qui prend sa scie pour raboter ? </p>
+                            que d’excellents ; que pensez-vous de celui qui veut <seg> scier avec un
+                                rabot, et qui prend sa scie pourraboter <note type="explication"
+                                    resp="#launay"> A cette époque, les rabots électriques
+                                    n'existants pas, il n'était pas possible de scier avec un rabot
+                                </note></seg>?</p>
                     </div3>
                     <div3 n="9" source="#edition1688 #edition1696">
                         <p>Il n’y a point au monde un si pénible métier que celui de se faire un
                             grand nom : la vie s’achève que l’on a à peine ébauché son ouvrage.</p>
                     </div3>
                     <div3 n="10" source="#edition1696">
-                        <p> Que faire d’Egésippe, qui demande un emploi ? Le mettra-t-on dans les
-                            finances, ou dans les troupes ? Cela est indifférent, et il faut que ce
-                            soit l’intérêt seul qui en décide ; car il est aussi capable de manier
-                            de l’argent, ou de dresser des comptes, que de porter les armes. "Il est
+                        <p> Que faire d’<seg>Egésippe <note type="character" resp="#launay">Ecrit
+                                    Hégésippe dans les éditions plus récentes comme celle de
+                                    Flammarion, 1880</note>
+                            </seg>, qui demande un emploi ? Le mettra-t-on dans les finances, ou
+                            dans les troupes ? Cela est indifférent, et il faut que ce soit
+                            l’intérêt seul qui en décide ; car il est aussi capable de manier de
+                            l’argent, ou de dresser des comptes, que de porter les armes. "Il est
                             propre à tout", disent ses amis, ce qui signifie toujours qu’il n’a pas
                             plus de talent pour une chose que pour une autre, ou en d’autres termes,
                             qu’il n’est propre à rien. Ainsi la plupart des hommes occupés d’eux
