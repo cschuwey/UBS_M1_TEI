@@ -5,16 +5,17 @@
             <titleStmt>
                 <title>Les Caractères de Théophraste traduits du grec : avec les caractères ou les
                     moeurs de ce siècle</title>
-                <author>Jean de La Bruyère</author>
+                <author xml:id="jb">Jean de La Bruyère</author>
                 <editor>Thomas Amaulry</editor>
             </titleStmt>
             <publicationStmt>
-                <publisher>M. Doisy</publisher>
+                <publisher xml:id="md">M. Doisy</publisher>
                 <authority>M. Doisy</authority>
                 <date when-iso="2023-10-11">11-10-2023</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="e1">
+                    <edition>Première édition</edition>
                     <title>Les Caractères</title>
                     <title type="subtitle">de Théophraste traduits du grec : avec les caractères ou
                         les moeurs de ce siècle</title>
@@ -34,11 +35,11 @@
                     <idno type="notice">FRBNF37242745</idno>
                     <note type="type">Monographe imprimée</note>
                     <note type="format">1 microfilm ; 35 mm</note>
-                    <edition xml:id="e1">Première édition</edition>
                     <!-- J'ai pensé pertinent de rajouter l'identité de chaque édition dans la balise <bibl> qui lui est attribuée. -->
                 </bibl>
                 <!-- Voici la séparation entre les deux éditions. -->
-                <bibl>
+                <bibl xml:id="e8">
+                    <edition>Huitième édition</edition>
                     <title>Les Caractères</title>
                     <title type="subtitle">de Théophraste traduits du grec : avec les caractères ou
                         les moeurs de ce siècle</title>
@@ -57,7 +58,6 @@
                     <idno type="notice">FRBNF37243231 </idno>
                     <note type="type">Monographe imprimée</note>
                     <note type="format">1 microfilm ; 35 mm</note>
-                    <edition xml:id="e8">Huitième édition</edition>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -89,6 +89,8 @@
                 éditions.</change>
             <change when="2023-10-19">Organisation du "body" et rajout des sources des
                 paragraphes/remarques.</change>
+            <change when="2023-10-23">Changement d'emplacement "xml:id".</change>
+            <change when="2023-10-26">Rajout des notes.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -101,7 +103,8 @@
                     <div3 type="remark" org="uniform" n="1" source="#e1 #e8">
                         <!-- Je crois que l'attribut "source" n'est pas accepté au sein des balises <div>, <p>, etc. dans les anciennes versions. -->
                         <p source="#e1 #8"> Ne nous emportons point contre les hommes en voyant leur
-                            dureté, leur ingratitude, leur injustice, leur fierté, l’amour
+                            dureté, leur <seg>ingratitude<note resp="#jb" type="invented">Note
+                                    inventée</note></seg>, leur injustice, leur fierté, l’amour
                             d’eux-mêmes, et l’oubli des autres : ils sont ainsi faits, c’est leur
                             nature, c’est ne pouvoir supporter que la pierre tombe ou que le feu
                             s’élève. </p>
@@ -115,21 +118,26 @@
                             ou dans l’indifférence pour la vertu. </p>
                     </div3>
                     <div3 type="remark" org="uniform" n="3" source="#e8">
-                        <p source="#e8"> Le stoïcisme est un jeu d’esprit et une idée semblable à la
-                            République de Platon. Les stoïques ont feint qu’on pouvait rire dans la
-                            pauvreté ; être insensible aux injures, à l’ingratitude, aux pertes de
-                            biens, comme à celles des parents et des amis ; regarder froidement la
-                            mort, et comme une chose indifférente qui ne devait ni réjouir ni rendre
-                            triste ; n’être vaincu ni par le plaisir ni par la douleur ; sentir le
-                            fer ou le feu dans quelque partie de son corps sans pousser le moindre
-                            soupir, ni jeter une seule larme ; et ce fantôme de vertu et de
-                            constance ainsi imaginé, il leur a plu de l’appeler un sage. Ils ont
-                            laissé à l’homme tous les défauts qu’ils lui ont trouvés, et n’ont
-                            presque relevé aucun de ses faibles. Au lieu de faire de ses vices des
-                            peintures affreuses ou ridicules qui servissent à l’en corriger, ils lui
-                            ont tracé l’idée d’une perfection et d’un héroïsme dont il n’est point
-                            capable, et l’on exhorté à l’impossible. Ainsi le sage, qui n’est pas,
-                            ou qui n’est qu’imaginaire, se trouve naturellement et par lui-même
+                        <p source="#e8"> Le <seg>stoïcisme<note resp="#md" type="explanation">Le
+                                    stoïcisme est une doctrine philosophique à la recherche de la
+                                    sagesse et du véritable bonheur (la vertu), opposant ainsi la
+                                    recherche du plaisir.</note></seg> est un jeu d’esprit et une
+                            idée semblable à la République de <seg>Platon<note resp="#md"
+                                    type="glossary">Platon était un philosophe de le Grèce
+                                    antique.</note></seg>. Les stoïques ont feint qu’on pouvait rire
+                            dans la pauvreté ; être insensible aux injures, à l’ingratitude, aux
+                            pertes de biens, comme à celles des parents et des amis ; regarder
+                            froidement la mort, et comme une chose indifférente qui ne devait ni
+                            réjouir ni rendre triste ; n’être vaincu ni par le plaisir ni par la
+                            douleur ; sentir le fer ou le feu dans quelque partie de son corps sans
+                            pousser le moindre soupir, ni jeter une seule larme ; et ce fantôme de
+                            vertu et de constance ainsi imaginé, il leur a plu de l’appeler un sage.
+                            Ils ont laissé à l’homme tous les défauts qu’ils lui ont trouvés, et
+                            n’ont presque relevé aucun de ses faibles. Au lieu de faire de ses vices
+                            des peintures affreuses ou ridicules qui servissent à l’en corriger, ils
+                            lui ont tracé l’idée d’une perfection et d’un héroïsme dont il n’est
+                            point capable, et l’on exhorté à l’impossible. Ainsi le sage, qui n’est
+                            pas, ou qui n’est qu’imaginaire, se trouve naturellement et par lui-même
                             au-dessus de tous les événements et de tous les maux : ni la goutte la
                             plus douloureuse, ni la colique la plus aiguë ne sauraient lui arracher
                             une plainte ; le ciel et la terre peuvent être renversés sans
@@ -156,10 +164,12 @@
                             il va être bientôt ce qu’il n’a jamais été : il se succède à lui-même.
                             Ne demandez pas de quelle complexion il est, mais quelles sont ses
                             complexions ; ni de quelle humeur, mais combien il a de sortes
-                            d’humeurs. Ne vous trompez-vous point ? est-ce Euthycrate que vous
-                            abordez ? aujourd’hui quelle glace pour vous ! hier il vous recherchait,
-                            il vous caressait, vous donniez de la jalousie à ses amis : vous
-                            reconnaît-il bien ? dites-lui votre nom. </p>
+                            d’humeurs. Ne vous trompez-vous point ? est-ce <seg>Euthycrate<note
+                                    resp="#md" type="glossary">Euthycrate était un sculpteur de la
+                                    Grèce antique.</note></seg> que vous abordez ? aujourd’hui
+                            quelle glace pour vous ! hier il vous recherchait, il vous caressait,
+                            vous donniez de la jalousie à ses amis : vous reconnaît-il bien ?
+                            dites-lui votre nom. </p>
                     </div3>
                     <div3 type="remark" org="uniform" n="7" source="#e8">
                         <p source="#e8"> Ménalque descend son escalier, ouvre sa porte pour sortir,
@@ -329,7 +339,7 @@
                             d’élever auprès de soi un fils naturel sous le nom et le personnage d’un
                             valet ; et quoiqu’il veuille le dérober à la connaissance de sa femme et
                             de ses enfants, il lui échappe de l’appeler son fils dix fois le jour.
-                            Il a pris aussi la résolution de marier son fils à la fille d’un homme
+                            Il a aussi la résolution de marier son fils à la fille d’un homme
                             d’affaires, et il ne laisse pas de dire de temps en temps, en parlant de
                             sa maison et de ses ancêtres, que les Ménalques ne se sont jamais
                             mésalliés. Enfin il n’est ni présent ni attentif dans une compagnie à ce
