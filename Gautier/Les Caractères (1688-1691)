@@ -97,7 +97,7 @@
                 <change when="2023-10-17">Ajout des éditions correspondantes aux
                     paragraphes/remarques.</change>
                 <change when="2023-10-18">Ajout d'une huitième édition comparative.</change>
-                <change when="2023-10-23"/>Ajout notes.</change>
+                <change when="2023-10-23">Ajout notes.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -144,17 +144,18 @@
                             emplois, et <seg>consentir ainsi à demeurer chez soi, et à ne rien
                                 faire. Personne presque n’a assez de mérite pour jouer ce rôle avec
                                 dignité, ni assez de fonds pour remplir le vide du temps, sans ce
-                                que le vulgaire appelle des affaires<note type="fausse"
-                                    >Fausse</note></seg>. Il ne manque cependant à l’oisiveté du
-                            sage qu’un meilleur nom, et que méditer, parler, lire, et être
-                            tranquille s’appelât travailler.</p>
+                                que le vulgaire appelle des affaires<note resp="#gautier"
+                                    type="fausse">Fausse</note></seg>. Il ne manque cependant à
+                            l’oisiveté du sage qu’un meilleur nom, et que méditer, parler, lire, et
+                            être tranquille s’appelât travailler.</p>
                     </div3>
                     <div3 source="#edition1 #edition6 #edition8" type="remarque" n="13">
                         <p source="#edition1 #edition6 #edition8">Un homme de mérite, et qui est en
                             place, n’est jamais incommode par sa vanité ; il s’étourdit moins du
                             poste qu’il occupe qu’il n’est humilié par un plus grand qu’il ne
                             remplit pas et dont il se croit digne : plus capable d’inquiétude que de
-                            fierté ou de mépris pour les autres, il ne pèse qu’à soi-même.</p><note place="margin" position="ext">Très bonne remarque Jean.</note>
+                            fierté ou de mépris pour les autres, il ne pèse qu’à soi-même.</p>
+                        <note resp="#gautier" place="margin">Très bonne remarque Jean.</note>
                     </div3>
                     <div3 source="#edition6 #edition8" type="remarque" n="14">
                         <p source="#edition6 #edition8">Il coûte à un homme de mérite de faire
