@@ -57,6 +57,7 @@
                 <interpretation>
                     <p>Attribus source="#" ajoutés dans balises p et div3 pour faciliter la
                         conversion du fichier.</p>
+                    <p>Les notes ne sont pas présentes dans le document d'origine, elles n'ont été ajoutées que pour l'exercice.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -71,7 +72,9 @@
                 éditions et remarques + url ajoutées (teiHeader)</change>
             <change when="2023-10-19">Ajout de l'édition 8 dans le teiHeader et liaison avec les
                 remarques</change>
-            <change when="2023-10-26">Changement du lien pour l'édition 8 dans le teiHeader.</change>
+            <change when="2023-10-26">Changement du lien pour l'édition 8 dans le
+                teiHeader.</change>
+            <change when="2023-10-27">Ajout des notes.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -89,9 +92,12 @@
 
 
                     <div3 n="43" source="#édition3 #édition6 #édition8">
-                        <p source="#édition3 #édition6 #édition8">Cléante est un très honnête homme
-                            ; il s’est choisi une femme qui est la meilleure personne du monde et la
-                            plus raisonnable : chacun, de sa part, fait tout le plaisir et tout
+                        <p source="#édition3 #édition6 #édition8"><seg>Cléante<note place="bottom"
+                                    type="gloss" n="1">Je n'arrive pas à trouver des informations
+                                    sur ce fameux "Cléante", je n'ai probablement pas assez
+                                    cherché...</note></seg> est un très honnête homme ; il s’est
+                            choisi une femme qui est la meilleure personne du monde et la plus
+                            raisonnable : chacun, de sa part, fait tout le plaisir et tout
                             l’agrément des sociétés où il se trouve ; l’on ne peut voir ailleurs
                             plus de probité, plus de politesse. Ils se quittent demain, et l’acte de
                             leur séparation est tout dressé chez le notaire. Il y a, sans mentir, de
@@ -102,9 +108,12 @@
 
                     <div3 n="44" source="#édition3 #édition6 #édition8">
                         <p source="#édition3 #édition6 #édition8">L’on peut compter sûrement sur la
-                            dot, le douaire et les conventions, mais faiblement sur les nourritures
-                            ; elles dépendent d’une union fragile de la belle-mère et de la bru, et
-                            qui périt souvent dans l’année du mariage.</p>
+                            dot, <seg>le douaire<note type="gloss" place="margin">Biens assignés
+                                    lors du mariage dont la femme peut être bénéficiaire si elle
+                                    devient veuve.</note></seg> et les conventions, mais faiblement
+                            sur les nourritures ; elles dépendent d’une union fragile de la
+                            belle-mère et de la bru, et qui périt souvent dans l’année du
+                            mariage.</p>
                     </div3>
 
 
@@ -127,14 +136,14 @@
 
                     <div3 n="47" source="#édition3 #édition6 #édition8">
                         <p source="#édition3 #édition6 #édition8">G… et H… sont voisins de campagne,
-                            et leurs terres sont contiguës ; ils habitent une contrée déserte et
-                            solitaire. Eloignés des villes et de tout commerce, il semblait que la
-                            fuite d’une entière solitude ou l’amour de la société eût dû les
-                            assujettir à une liaison réciproque ; il est cependant difficile
-                            d’exprimer la bagatelle qui les a fait rompre, qui les rend implacables
-                            l’un pour l’autre, et qui perpétuera leurs haines dans leurs
-                            descendants. Jamais des parents, et même des frères, ne se sont
-                            brouillés pour une moindre chose.</p>
+                            et leurs terres sont contiguës ; ils habitent <seg>une contrée déserte
+                                et solitaire<note type="location" place="bottom" n="2"/></seg>.
+                            Eloignés des villes et de tout commerce, il semblait que la fuite d’une
+                            entière solitude ou l’amour de la société eût dû les assujettir à une
+                            liaison réciproque ; il est cependant difficile d’exprimer la bagatelle
+                            qui les a fait rompre, qui les rend implacables l’un pour l’autre, et
+                            qui perpétuera leurs haines dans leurs descendants. Jamais des parents,
+                            et même des frères, ne se sont brouillés pour une moindre chose.</p>
                         <p source="#édition3 #édition6 #édition8">Je suppose qu’il n’y ait que deux
                             hommes sur la terre, qui la possèdent seuls, et qui la partagent toute
                             entre eux deux : je suis persuadé qu’il leur naîtra bientôt quelque
@@ -175,7 +184,8 @@
                             le mensonge et la médisance ; où l’on voit parler ensemble le bailli et
                             le président, les élus et les assesseurs ; où le doyen vit bien avec ses
                             chanoines ; où les chanoines ne dédaignent pas les chapelains, et où
-                            ceux-ci souffrent les chantres.</p>
+                            ceux-ci souffrent les chantres.<note type="gloss" place="end">Je ne sais
+                                pas vraiment.</note></p>
                     </div3>
 
 
