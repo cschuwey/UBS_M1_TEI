@@ -8,7 +8,7 @@
                     <title type="sub">traduits du grec ; avec les caractères ou les moeurs de ce
                         siècle</title>
                 </title>
-                <author>Jean de La Bruyère</author>
+                <author xml:id="labruyere">Jean de La Bruyère</author>
                 <principal>C. Schuwey</principal>
             </titleStmt>
             <editionStmt>
@@ -16,7 +16,7 @@
                 <p>Sixième édition</p>
             </editionStmt>
             <publicationStmt>
-                <publisher>Maëwenn Morio</publisher>
+                <publisher xml:id="morio">Maëwenn Morio</publisher>
                 <date when="2023-10-09">09 octobre 2023</date>
                 <distributor>Université Bretagne Sud</distributor>
             </publicationStmt>
@@ -83,6 +83,8 @@
                     d'une interprétation dans "encodingDesc"</change>
                 <change when="2023-10-23">Réajustement des remarques 7 et 8 pour faire une "div3"
                     par édition.</change>
+                <change when="2023-10-27">Ajout d'une note inventée au nom de La Bruyère ainsi que
+                    de trois notes au nom de Morio.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -122,12 +124,17 @@
                     </div3>
                     <div3 type="remarque" n="6" source="#edition1 #edition6">
                         <p>Si l’on ôte de beaucoup d’ouvrages de morale l’avertissement au lecteur,
-                            l’épître dédicatoire, la préface, la table, les approbations, il reste à
+                                <seg>l’épître dédicatoire<note resp="#morio" type="gloss"
+                                    place="end">Une épître dédicatoire est situé au début d'un
+                                    ouvrage. Il s'agit d'un paragraphe dédié à une personne
+                                </note></seg>, la préface, la table, les approbations, il reste à
                             peine assez de pages pour mériter le nom de livre.</p>
                     </div3>
                     <div3 type="remarque" n="7" source="edition1">
                         <p>Quel supplice que celui d’entendre prononcer de médiocres vers avec toute
                             l’emphase d’un mauvais poète.</p>
+                        <note resp="#morio" type="précision" place="below">Première remarque a être
+                            différente entre les éditions 1 et 6.</note>
                     </div3>
                     <div3 type="remarque" n="7" source="edition6">
                         <p>Il y a de certaines choses dont la médiocrité est insupportable : la
@@ -139,6 +146,8 @@
                     <div3 type="remarque" n="8" source="#edition1">
                         <p>Il y a de certaines choses dont la médiocrité est insupportable : la
                             poésie, la musique, la peinture, le discours public.</p>
+                        <note resp="#labruyere" type="inventée" place="margin">La Bruyère est
+                            exigeant.</note>
                     </div3>
                     <div3 type="remarque" n="8" source="#edition6">
                         <p>Certains poètes sont sujets, dans le dramatique, à de longues suites de
@@ -154,8 +163,10 @@
                     </div3>
                     <div3 type="remarque" n="9" source="#edition1 #edition6">
                         <p>L’on n’a guère vu jusques à présent un chef-d’œuvre d’esprit qui soit
-                            l’ouvrage de plusieurs : Homère a fait l’Iliade, Virgile l’Enéide,
-                            Tite-Live ses Décades, et l’Orateur romain ses Oraisons.</p>
+                            l’ouvrage de plusieurs : <seg>Homère a fait l’Iliade, Virgile l’Enéide,
+                                Tite-Live ses Décades, et l’Orateur romain ses Oraisons.<note
+                                    resp="#morio" type="descriptive" place="bottom">Mention
+                                    d'auteurs et d'oeuvres connus.</note></seg></p>
                     </div3>
                     <div3 type="remarque" n="10" source="#edition1 #edition6">
                         <p>Il y a dans l’art un point de perfection, comme de bonté ou de maturité
