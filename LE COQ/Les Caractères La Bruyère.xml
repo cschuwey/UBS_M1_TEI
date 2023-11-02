@@ -142,7 +142,7 @@
                 huitième édition de 1694 dans les balises div3 et p</change>
             <change when="2023-10-17"> Ajout des méta-données du fichier : Ajout d'un commentaire
                 dans la balise interpretation</change>
-             <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la balise note et seg. "Seg" sert à distinguer le passage ou le segment de la note </change> 
+             <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la balise note et seg. La balise "Seg" permet de relier une note à un mot ou à un segment de phrase (groupe de mots) spécifiques présents dans un texte ou ici un caractère.</change> 
              <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la référence des auteurs avec xml:id dans les attributs author dans le teiHeader </change> 
             <change when="2023-10-24"> Ajout des méta-données du fichier : Ajout d'une note marginale "margin" imprimée de la Bruyère (#labruyere), de deux annotations d'une écriture manuscrite inconnue (#manuscrit), ainsi que de quatre commentaires personnels (#lecoq) de types différents dans la balise seg suivie de la rédaction de l'annotation dans la balise note.</change>
 
