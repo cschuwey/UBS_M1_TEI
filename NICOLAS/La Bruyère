@@ -12,6 +12,10 @@
                 <publisher xml:id="nicolas">J. Nicolas</publisher>
                 <pubPlace>Lorient</pubPlace>
             </publicationStmt>
+            <notesStmt>
+                <note xml:id="notelabruyere">Notes écrites par La Bruyère</note>
+                <note xml:id="notenicolas">Notes écrites par J. Nicolas</note>
+            </notesStmt>
             <sourceDesc>
                 <listBibl>
                     <bibl xml:id="edition3">
@@ -79,7 +83,7 @@
                             femmes ne sont pas mieux désignées par le nom de leurs maris que par
                             celui de leurs amants.</p>
                     </div3>
-                    <div3 n="22">
+                    <div3 xml:id="remarque22" n="22">
                         <p source="#edition6">Une femme galante veut qu’on l’aime ; il suffit à une
                             coquette d’être trouvée aimable et de passer pour belle. Celle-là
                             cherche à engager ; celle-ci se contente de plaire. La première passe
@@ -90,6 +94,7 @@
                             ; la coquetterie est un dérèglement de l’esprit. La femme galante se
                             fait craindre et la coquette se fait haïr. L’on peut tirer de ces deux
                             caractères de quoi en faire un troisième, le pire de tous.</p>
+                        <note resp="#notelabruyere" corresp="#remarque22" type="gloss" place="margin right">Note marginale fictive de La Bruyère</note>
                     </div3>
                     <div3 n="23">
                         <p source="#edition6">Une femme faible est celle à qui l’on reproche une
@@ -112,9 +117,9 @@
                             la personne intéressée, n’est qu’infidèle : s’il la croit fidèle, elle
                             est perfide.</p>
                         <p source="#edition6">On tire ce bien de la perfidie des femmes, qu’elle
-                            guérit de la jalousie. </p>
+                            guérit de la jalousie.</p>
                     </div3>
-                    <div3 n="">
+                    <div3 xml:id="d1" n="">
                         <p source="#edition6">Je ne comprends pas comment un mari qui s'abandonne à
                             son humeur et à sa complexion, qui ne cache aucun de ses défauts, et se
                             montre au contraire par ses mauvais endroits ; qui est avare, qui est
@@ -123,6 +128,13 @@
                             contre les entreprises de son galant, qui emploie la parure et la
                             magnificience, la complaisance, les soins, l'empressement, les dons, la
                             flatterie.</p>
+                        <noteGrp>
+                            <note resp="#notenicolas" corresp="#d1" type="short">Remarque disparue/déplacée</note>
+                            <note resp="#notenicolas" corresp="#d1" type="full">Certaines remarques ont été déplacées ou ont disparues d'une édition à l'autre.
+                            Cette remarque figure à cet endroit dans l'édition 6 mais ce n'est pas le cas dans l'édition 8.
+                            Il s'agit donc de trouver où elle a été déplacée, sinon on pourrait la considérer comme
+                            disparue.</note>
+                        </noteGrp>
                     </div3>
                     <div3 n="26">
                         <p source="#edition3 #edition6">Quelques femmes ont dans le cours de leur
@@ -171,7 +183,10 @@
                             ainsi que le bourgeois en baudrier, les écarte et devient maître de la
                             place : il est écouté, il est aimé ; on ne tient guère plus d’un moment
                             contre une écharpe d’or et une plume blanche, contre un homme qui parle
-                            au Roi et voit les ministres. Il fait des jaloux et des jalouses : on
+                            <term xml:id="roi">au Roi et voit les Ministres</term>
+                            <note resp="#notenicolas" corresp="#roi" type="gloss" place="foot">
+                            Ecrit dans le texte en italique probablement comme une marque des respect envers
+                            le titre de Roi et de Ministre.</note>.Il fait des jaloux et des jalouses : on 
                             l’admire, il fait envie : à quatre lieues de là, il fait pitié. </p>
                     </div3>
                     <div3 n="30">
@@ -191,4 +206,3 @@
         </body>
     </text>
 </TEI>
-
