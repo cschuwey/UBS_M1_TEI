@@ -111,6 +111,8 @@
                 3 (déplacement et passage fantôme), en leur attribuant une identité "r" pour celles
                 déplacées dans ce passage et une identité "d" pour celles disparues. Ajout de la note de
                 La Bruyère et de trois notes personnelles.</change>
+            <change when="2023-11-05">Ajoute d'une note personnelle avec un "type" différent, car les trois
+                autres étaient du même "type".</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -176,10 +178,12 @@
                             tout seul, on s’élève contre eux, on les maltraite, semblable à ces
                             enfants drus et forts d’un bon lait qu’ils ont sucé, qui battent leur
                             nourrice. </p>
-                        <p source="#edition5 #edition8">Un auteur moderne prouve ordinairement que
-                            les anciens nous sont inférieurs en deux manières, par raison et par
-                            exemple : il tire la raison de son goût particulier, et l’exemple de ses
-                            ouvrages. </p>
+                        <p source="#edition5 #edition8"><seg>Un auteur moderne<note type="remarque"
+                            resp="#souffez">Toutes ces diatribes critiquant la jeunesse ont été écrite
+                            suite à un conflit de l'auteur avec un auteur plus jeune de son époque.</note>
+                            </seg> prouve ordinairement que les anciens nous sont inférieurs en deux manières,
+                            par raison et par exemple : il tire la raison de son goût particulier, et 
+                            l’exemple de ses ouvrages. </p>
                         <p source="#edition5 #edition8">Il avoue que les anciens, quelque inégaux et
                             peu corrects qu’ils soient, ont de beaux traits ; il les cite, et ils
                             sont si beaux qu’ils font lire sa critique. </p>
