@@ -48,7 +48,7 @@
                     <p> Ces éditions ont été choisies car il y a beaucoup de différences entre
                         elles, c'est plus intéressant à comparer. </p>
                     <p> Le fait de choisir xml=id permet de renvoyer directement aux éditions.</p>
-                    <p> Les notes sont expliquées à la fin du livre. </p>
+                    <p> Il n'y a pas de notes marginales dans les éditions 1 et 9 </p>
                     <p> Le dernier paragraphe de la remarque 18 n'apparaît pas dans l'édition 1 et 9. </p>
                     <p> La balise seg permet d'expliquer à quoi renvoient les notes. </p>
                 </interpretation>
@@ -98,8 +98,8 @@
                             défensive sans livrer de combat ; ou si on le livre, on le doit perdre ;
                             et si on le perd, voilà l’ennemi sur la frontière. » Et comme Démophile
                             le fait voler, le voilà dans le cœur du royaume : il entend déjà sonner
-                            le beffroi des villes, et crier à l’alarme ; <seg> il songe à son bien et à
-                            ses terres : où conduira-t-il son argent <note type="gloss" resp="#la_bruyere"> Theonas </note></seg>
+                            le beffroi des villes, et crier à l’alarme ; il songe à son bien et à
+                            ses terres : où conduira-t-il son argent,
                              ses meubles, sa famille ? où se réfugiera-t-il ? en Suisse ou à
                             Venise ? </p>
                         <p source="#edition_9"> Mais, à ma gauche, Basilide met tout d’un coup sur
@@ -126,9 +126,8 @@
                             ouverte. Une autre fois il accourt tout hors d’haleine, et après avoir
                             respiré un peu : « Voilà, s’écrie-t-il, une grande nouvelle ; ils sont
                             défaits, et à plate couture ; le général, les chefs, du moins une bonne
-                            partie, tout est tué, tout a péri. Voilà, continue-t-il, ,<seg> un grand
-                            massacre <note type="gloss" resp="#la_bruyere"> Timante, M.De Luxembourg & Mr de Pompone </note> </seg> et il faut convenir
-                            que nous jouons d’un grand bonheur. » Il s’assit, il souffle, après
+                            partie, tout est tué, tout a péri. Voilà, continue-t-il, un grand
+                            massacre et il faut convenir que nous jouons d’un grand bonheur. » Il s’assit, il souffle, après
                             avoir débité sa nouvelle, à laquelle il ne manque qu’une circonstance,
                             qui est qu’il est certain qu’il n’y a point eu de bataille. Il assure
                             d’ailleurs qu’un tel prince renonce à la ligue et quitte ses confédérés,
@@ -181,8 +180,7 @@
                             doit pas savoir, pour dire plusieurs choses indifférentes qui se
                             modifient ou qui se détruisent les unes les autres, qui confondent dans
                             les esprits la crainte et la confiance, pour se défendre d’une ouverture
-                            qui lui est échappée <seg> par une <note type="gloss" resp="#la_bruyere"> celui
-                                qui dit: je dinai hier à Tibur, Meudon, Maison que M.De Louvois a
+                            qui lui est échappée par une celui qui dit: je dinai hier à Tibur, Meudon, Maison que M.De Louvois a
                                 fait bâtir Plancus, Mr de Louvois </note> </seg> autre qu’il aura faite ;
                             ou il est froid et taciturne, pour jeter les autres dans l’engagement de
                             parler, pour écouter longtemps, pour être écouté quand il parle, pour
