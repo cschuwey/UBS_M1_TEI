@@ -47,10 +47,12 @@
                 <interpretation>
                     <p> Ces éditions ont été choisies car il y a beaucoup de différences entre
                         elles, c'est plus intéressant à comparer. </p>
-                    <p> Le fait de choisir xml=id permet de renvoyer directement aux éditions.</p>
-                    <p> Il n'y a pas de notes marginales dans les éditions 1 et 9 </p>
+                    <p> Le fait de choisir xml=id permet de renvoyer directement aux éditions.
                     <p> Le dernier paragraphe de la remarque 18 n'apparaît pas dans l'édition 1 et 9. </p>
-                    <p> La balise seg permet d'expliquer à quoi renvoient les notes. </p>
+                    <p> La balise seg indiquent les passages concernés par les notes. </p>
+                 <p> Le fait de choisir xml=id permet de renvoyer directement à l'auteur de l'annotation.</p>
+                 <p> On utilise l'attribut type car on a deux types d'annotations type glossaire ou définition </p>
+                <p> Il n'y a pas de notes marginales dans les éditions 1 et 9 </p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
