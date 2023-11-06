@@ -74,6 +74,7 @@
             <change when="2023-10-15">Création des méta-données du fichier.</change>
             <change when="2023-10-16">Début encodage chapitre "Des Esprits Forts"</change>
             <change when="2023-10-22">Ajout des comparaisons des éditions 1, 5 et 8.</change>
+            <change wheb="2023-11-06">Ajout des différentes notes dans le texte.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -104,9 +105,9 @@
                             l’un en reçoit de bonnes, l’autre de mauvaises ; c’est-à-dire que le
                             premier est persuadé et fidèle, et que le second est entêté et corrompu.
                             Ainsi l’esprit docile admet la vraie religion ; et l’esprit faible, ou
-                            n’en admet aucune, ou en admet une fausse. Or l’esprit fort ou n’a point
+                            n’en admet aucune, ou en admet une fausse. <seg>Or l’esprit fort ou n’a point
                             de religion, ou se fait une religion ; donc l’esprit fort, c’est
-                            l’esprit faible.</p>
+                            l’esprit faible.<note resp="luchs" type="analyse">J'analyse ce segment de texte.</note></seg></p>
                     </div3>
                     <div3 n="3">
                         <!-- (3) -->
@@ -115,7 +116,7 @@
                             qu’ils habitent, qui est la terre ; qui n’estiment rien, qui n’aiment
                             rien au delà : gens aussi limités que ce qu’ils appellent leurs
                             possessions ou leur domaine, que l’on mesure, dont on compte les
-                            arpents, et dont on montre les bornes. Je ne m’étonne pas que des hommes
+                            <seg>arpents<note resp="luchs" type="glossaire">Ancienne mesure de surface qui valait, selon les régions, de 35 à 51 ares.</note></seg>, et dont on montre les bornes. Je ne m’étonne pas que des hommes
                             qui s’appuient sur un atome chancellent dans les moindres efforts qu’ils
                             font pour sonder la vérité, si avec des vues si courtes ils ne percent
                             point à travers le ciel et les astres, jusques à Dieu même ; si, ne
@@ -178,13 +179,13 @@
                             l’on laisse le plaisir d’un bon mot.</p>
                         <p source="#edit8">(VI) Dans quelque prévention où l’on puisse être sur ce
                             qui doit suivre la mort, c’est une chose bien sérieuse que de mourir :
-                            ce n’est point alors le badinage qui sied bien, mais la constance.</p><note></note>
+                            ce n’est point alors le badinage qui sied bien, mais la constance.</p><note><!-- Note manuscrite que je n'arrive pas à déchiffrer. --></note>
                     </div3>
                     <div3 n="9">
                         <!-- (9) -->
                         <p source="#edit1 #edit5 #edit8">Il y a eu de tout temps de ces gens d’un
                             bel esprit et d’une agréable littérature, esclaves des grands, dont ils
-                            ont épousé le libertinage et porté le joug toute leur vie, contre leurs
+                            ont épousé le libertinage et porté <seg>le joug<note resp="luchs" type="glossaire">Contrainte matérielle ou morale.</note></seg> toute leur vie, contre leurs
                             propres lumières et contre leur conscience. Ces hommes n’ont jamais vécu
                             que pour d’autres hommes, et ils semblent les avoir regardés comme leur
                             dernière fin. Ils ont eu honte de se sauver à leurs yeux, de paraître
