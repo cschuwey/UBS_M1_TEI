@@ -39,23 +39,24 @@
             <charDecl>
                 <char xml:id="char_pm">
                     <mapping> ¶ </mapping>
-                    <desc> Présent dans l'édition 1 et 9 </desc>
+                    <desc> Les remarques 'ovrent par un pied-de-mouche dans les éditions 1 et 9
+                    </desc>
                 </char>
                 <char xml:id="char_pm_1">
                     <mapping> (¶) </mapping>
-                    <desc> </desc>
+                    <desc> Absent dans les deux éditions </desc>
                 </char>
                 <char xml:id="char_pm_2">
                     <mapping> ((¶))</mapping>
-                    <desc> </desc>
+                    <desc> Absent dans les deux éditions </desc>
                 </char>
                 <char xml:id="char_pm_3">
                     <mapping> ☞ </mapping>
-                    <desc> </desc>
+                    <desc> Absent dans les deux éditions </desc>
                 </char>
                 <char xml:id="char_pm_4">
                     <mapping> ☜ </mapping>
-                    <desc> </desc>
+                    <desc> Absent dans les deux éditions </desc>
                 </char>
             </charDecl>
             <projectDesc>
@@ -76,10 +77,11 @@
                     <p> Le fait de choisir xml=id permet de renvoyer directement à l'auteur de
                         l'annotation.</p>
                     <p> On utilise l'attribut type car on a deux types d'annotations type glossaire
-                        ou définition </p>
+                        ou définition. </p>
                     <p> Il n'y a pas de notes marginales dans les éditions 1 et 9, que des notes de
-                        bas de page </p>
-                    <p> L'édition 1 fait figure d'autorité </p>
+                        bas de page. </p>
+                    <p> L'édition 1 fait figure d'autorité car c'est la plus ancienne. </p>
+                    <p> Nous avons opté pour l'attribut source et non wit car cela se rapporte à une édition et non à des exemplaires. </p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -93,7 +95,7 @@
             <change when="2023-10-17"> Début de l'encodage d'un extrait de chapitre </change>
             <change when="2023-10-18"> Suite de l'encodage d'un extrait de chapitre </change>
             <change when="2023-10-23"> Encodage des annotations </change>
-            <change when="2023-11-07"> Variantes </change>
+            <change when="2023-11-07"> Variantes et glyphs </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -104,36 +106,38 @@
                     <head> Du Souverain ou de la République </head>
                     <div3 source="#edition_9" n="11">
                         <p source="#edition_9">
-                            <g ref="#char_pm"/> <seg> Démophile <note type="gloss" resp="#talbotec"> C'est un philosophe
-                                    grec du VIème siècle avant J-C, La Bruyère est en train de le
-                                    citer. </note></seg>, à ma droite, se lamente, et s’écrie : «
-                            Tout est perdu, c’est fait de l’Etat ; il est du moins sur le penchant
-                            de sa ruine. Comment résister à une si forte et si générale conjuration
-                            ? Quel moyen, je ne dis pas d’être supérieur, mais de suffire seul à
-                            tant et de si puissants ennemis ? Cela est sans exemple dans la
-                            monarchie. Un héros, un Achille y succomberait. On a fait, ajoute-t-il,
-                            de lourdes fautes : je sais bien ce que je dis, je suis du métier, j’ai
-                            vu la guerre, et l’histoire m’en a beaucoup appris. » Il parle là-dessus
-                            avec admiration d’Olivier le Daim et de Jacques Cœur : « C’étaient là
-                            des hommes, dit-il, c’étaient des ministres. » Il débite ses nouvelles,
-                            qui sont toutes les plus tristes et les plus désavantageuses que l’on
-                            pourrait feindre : tantôt un parti des nôtres a été attiré dans une
-                            embuscade et taillé en pièces ; tantôt quelques troupes renfermées dans
-                            un château se sont rendues aux ennemis à discrétion, et ont passé par le
-                            fil de l’épée ; et si vous lui dites que ce bruit est faux et qu’il ne
-                            se confirme point, il ne vous écoute pas, il ajoute qu’un tel général a
-                            été tué ; et bien qu’il soit vrai qu’il n’a reçu qu’une légère blessure,
-                            et que vous l’en assuriez, il déplore sa mort, il plaint sa veuve, ses
-                            enfants, l’Etat ; il se plaint lui-même : il a perdu un bon ami et une
-                            grande protection. Il dit que la cavalerie allemande est invincible ; il
-                            pâlit au seul nom des cuirassiers de l’Empereur. « Si l’on attaque cette
-                            place, continue-t-il, on lèvera le siège. Ou l’on demeurera sur la
-                            défensive sans livrer de combat ; ou si on le livre, on le doit perdre ;
-                            et si on le perd, voilà l’ennemi sur la frontière. » Et comme Démophile
-                            le fait voler, le voilà dans le cœur du royaume : il entend déjà sonner
-                            le beffroi des villes, et crier à l’alarme ; il songe à son bien et à
-                            ses terres : où conduira-t-il son argent, ses meubles, sa famille ? où
-                            se réfugiera-t-il ? en Suisse ou à Venise ? </p>
+                            <g ref="#char_pm"/>
+                            <seg> Démophile <note type="person" resp="#talbotec"> C'est un
+                                    philosophe grec du VIème siècle avant J-C, La Bruyère est en
+                                    train de le citer. </note></seg>, à ma droite, se lamente, et
+                            s’écrie : « Tout est perdu, c’est fait de l’Etat ; il est du moins sur
+                            le penchant de sa ruine. Comment résister à une si forte et si générale
+                            conjuration ? Quel moyen, je ne dis pas d’être supérieur, mais de
+                            suffire seul à tant et de si puissants ennemis ? Cela est sans exemple
+                            dans la monarchie. Un héros, un Achille y succomberait. On a fait,
+                            ajoute-t-il, de lourdes fautes : je sais bien ce que je dis, je suis du
+                            métier, j’ai vu la guerre, et l’histoire m’en a beaucoup appris. » Il
+                            parle là-dessus avec admiration d’Olivier le Daim et de Jacques Cœur : «
+                            C’étaient là des hommes, dit-il, c’étaient des ministres. » Il débite
+                            ses nouvelles, qui sont toutes les plus tristes et les plus
+                            désavantageuses que l’on pourrait feindre : tantôt un parti des nôtres a
+                            été attiré dans une embuscade et taillé en pièces ; tantôt quelques
+                            troupes renfermées dans un château se sont rendues aux ennemis à
+                            discrétion, et ont passé par le fil de l’épée ; et si vous lui dites que
+                            ce bruit est faux et qu’il ne se confirme point, il ne vous écoute pas,
+                            il ajoute qu’un tel général a été tué ; et bien qu’il soit vrai qu’il
+                            n’a reçu qu’une légère blessure, et que vous l’en assuriez, il déplore
+                            sa mort, il plaint sa veuve, ses enfants, l’Etat ; il se plaint lui-même
+                            : il a perdu un bon ami et une grande protection. Il dit que la
+                            cavalerie allemande est invincible ; il pâlit au seul nom des
+                            cuirassiers de l’Empereur. « Si l’on attaque cette place, continue-t-il,
+                            on lèvera le siège. Ou l’on demeurera sur la défensive sans livrer de
+                            combat ; ou si on le livre, on le doit perdre ; et si on le perd, voilà
+                            l’ennemi sur la frontière. » Et comme Démophile le fait voler, le voilà
+                            dans le cœur du royaume : il entend déjà sonner le beffroi des villes,
+                            et crier à l’alarme ; il songe à son bien et à ses terres : où
+                            conduira-t-il son argent, ses meubles, sa famille ? où se réfugiera-t-il
+                            ? en Suisse ou à Venise ? </p>
                         <p source="#edition_9"> Mais, à ma gauche, Basilide met tout d’un coup sur
                             pied une armée de trois cent mille hommes ; il n’en rabattrait pas une
                             seule brigade : il a la liste des escadrons et des bataillons, des
@@ -188,7 +192,8 @@
                             afin qu’elle soit toute prête pour la cérémonie de la cathédrale. </p>
                     </div3>
                     <div3 source="#edition_9" n="12">
-                        <p source="#edition_9"> <g ref="#char_pm"/> Il faut que le capital d’une affaire qui assemble
+                        <p source="#edition_9">
+                            <g ref="#char_pm"/> Il faut que le capital d’une affaire qui assemble
                             dans une ville les plénipotentiaires ou les agents des couronnes et des
                             républiques, soit d’une longue et extraordinaire discussion, si elle
                             leur coûte plus de temps, je ne dis pas que les seuls préliminaires,
@@ -310,49 +315,58 @@
                             les autres. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="13">
-                        <p source="#edition_1 #edition_9"> <g ref="#char_pm"/> Le caractère des Français demande du
-                            sérieux dans le souverain. </p>
+                        <p source="#edition_1 #edition_9">
+                            <g ref="#char_pm"/> Le caractère des Français demande du sérieux dans le
+                            souverain. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="14">
-                        <p source="#edition_1 #edition_9"> <g ref="#char_pm"/> L’un des malheurs du prince est d’<app>
+                        <p source="#edition_1 #edition_9">
+                            <g ref="#char_pm"/> L’un des malheurs du prince est d’<app>
                                 <lem> estre </lem>
-                                <rdg wit="#edition_9"> être </rdg>
-                            </app>être souvent trop plein de son secret, par le péril qu’il y a à le
+                                <rdg source="#edition_9"> être </rdg>
+                            </app> souvent trop plein de son secret, par le péril qu’il y a à le
                             répandre : son bonheur est de rencontrer une personne sûre qui l’en
                             décharge. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="15">
-                        <p source="#edition_1 #edition_9"> <g ref="#char_pm"/> Il ne manque rien à un <app>
-                                <lem> roy </lem>
-                                <rdg wit="#edition_9"> roi</rdg>
+                        <p source="#edition_1 #edition_9">
+                            <g ref="#char_pm"/> Il ne manque rien à un <app>
+                                <lem> Roy </lem>
+                                <rdg source="#edition_9"> Roi</rdg>
                             </app> que les douceurs d’une vie privée ; il ne peut <app>
                                 <lem> estre </lem>
-                                <rdg wit="#edition_9"> être </rdg>
+                                <rdg source="#edition_9"> être </rdg>
                             </app> consolé d’une si grande perte que par le charme de l’amitié, et
                             par la fidélité de ses amis. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="16">
-                        <p source="#edition_1 #edition_9"> <g ref="#char_pm"/> Le plaisir d’un <app>
-                                <lem> roy </lem>
-                                <rdg wit="#edition_9"> roi </rdg>
+                        <p source="#edition_1 #edition_9">
+                            <g ref="#char_pm"/> Le plaisir d’un <app>
+                                <lem> Roy </lem>
+                                <rdg source="#edition_9"> Roi </rdg>
                             </app> qui <app>
                                 <lem> est digne de l'estre </lem>
-                                <rdg wit="#edition_9"> mérite de l'être </rdg>
-                            </app> est de l’être moins quelquefois, de sortir du <app>
-                                <lem> Theatre</lem>
-                                <rdg wit="#edition_9"> theatre </rdg>
+                                <rdg source="#edition_9"> mérite de l'être </rdg>
+                            </app> est de <app>
+                                <lem> l'estre </lem>
+                                <rdg source="#edition_9"> l'être </rdg>
+                            </app> moins quelquefois, de sortir du <app>
+                                <lem> Theatre </lem>
+                                <rdg source="#edition_9"> theatre </rdg>
                             </app>, de quitter le bas de <app>
                                 <lem> soye </lem>
-                                <rdg wit="#edition_9"> saye </rdg>
+                                <rdg source="#edition_9"> saye </rdg>
                             </app> et les brodequins, et de jouer avec une personne de confiance un
                             rôle plus familier. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="17">
-                        <p source="#edition_1 #edition_9"> <g ref="#char_pm"/> Rien ne fait plus d’honneur au prince que
-                            la modestie de son favori. </p>
+                        <p source="#edition_1 #edition_9">
+                            <g ref="#char_pm"/> Rien ne fait plus d’honneur au prince que la
+                            modestie de son <app> <lem> favory. </lem> <rdg source="#edition_9"> favori. </rdg></app> </p>
                     </div3>
                     <div3 source="#edition_9" n="18">
-                        <p source="#edition_9"> <g ref="#char_pm"/> Le favori n’a point de suite ; il est sans
+                        <p source="#edition_9">
+                            <g ref="#char_pm"/> Le favori n’a point de suite ; il est sans
                             engagement et sans liaisons ; il peut être entouré de parents et de
                             créatures, mais il n’y tient pas ; il est détaché de tout, et comme
                             isolé. </p>
