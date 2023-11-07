@@ -55,6 +55,33 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm0">
+                    <mapping>❡</mapping>
+                    <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
+                        remarque.</desc>
+                </char>
+                <char xml:id="char_pm1">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
+                        remarque.</desc>
+                </char>
+                <char xml:id="char_pm2">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
+                        remarque.</desc>
+                </char>
+                <char xml:id="md">
+                    <mapping>☜</mapping>
+                    <desc>Symbole pour attirer l'attention du lecteur vers un passage/paragraphe
+                        spécifique.</desc>
+                </char>
+                <char xml:id="mg">
+                    <mapping>☞</mapping>
+                    <desc>Symbole pour attirer l'attention du lecteur vers un passage/paragraphe
+                        spécifique.</desc>
+                </char>
+            </charDecl>
             <editorialDecl>
                 <normalization>
                     <p>Graphie modernisée</p>
@@ -64,6 +91,8 @@
                 différents caractères/ commentaires.</p>
             <p>Les chapitres ont été encodé avec un numéro, afin qu'il soit plus rapide de s'y
                 retrouver.</p>
+            <p>Pour les variations, qui sont donc inclues dans la balise "app", la source de son
+                enfant "lem" est le texte brute utilisé pour encoder cet ouvrage.</p>
             <editorialDecl>
                 <interpretation>
                     <p>La date de parution se trouve entre les balises "edition", car cela me
@@ -81,9 +110,16 @@
                         tout en gardant une nomination simple et en évitant d'utiliser à nouveau la
                         lettre "d" pour "déplacé". A ces lettres est ajouté un numéro, afin de les
                         distinguer.</p>
-                    <p>La position des notes de La Bruyère dans le texte est précisé comme attribut dans
-                    la balise "note", car il est impossible d'avoir un point de vu d'ensemble sur tout le
-                    texte avec cet extrait et qu'une note unique ne permet pas de généraliser.</p>
+                    <p>La position des notes de La Bruyère dans le texte est précisé comme attribut
+                        dans la balise "note", car il est impossible d'avoir un point de vu
+                        d'ensemble sur tout le texte avec cet extrait et qu'une note unique ne
+                        permet pas de généraliser.</p>
+                    <p>Dans ls balises enfants de "app", le mot entier sera mis à l'intérieur, car
+                        ce texte est destiné à une conversion en texte numérique, avoir un mot
+                        entier facilitera la conversion.</p>
+                    <p>Pour la balise "rdg", on utilisera l'attribut "source", car nous supposerons
+                        que les variations concernent tous les exemplaires de l'édition spécifique
+                        et non une variation unique dans un exemplaire.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -109,10 +145,12 @@
                 n'étaient compris dans l'édition 3 et 5.</change>
             <change when="2023-10-23">Ajout des variations de remarques et paragraphes de l'édition
                 3 (déplacement et passage fantôme), en leur attribuant une identité "r" pour celles
-                déplacées dans ce passage et une identité "d" pour celles disparues. Ajout de la note de
-                La Bruyère et de trois notes personnelles.</change>
-            <change when="2023-11-05">Ajoute d'une note personnelle avec un "type" différent, car les trois
-                autres étaient du même "type".</change>
+                déplacées dans ce passage et une identité "d" pour celles disparues. Ajout de la
+                note de La Bruyère et de trois notes personnelles.</change>
+            <change when="2023-11-05">Ajoute d'une note personnelle avec un "type" différent, car
+                les trois autres étaient du même "type".</change>
+            <change when="2023-11-07">Ajout de deux variations dans le texte. Ajout dans
+                "encodingDesc": "charDecl", de "p" et dans "interpretation".</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -141,28 +179,36 @@
                     </div3>
                     <div3 n="14">
                         <p source="#edition3 #edition5 #edition8">Tout l’esprit d’un auteur consiste
-                            à bien définir et à bien peindre. <seg>Moise<note type="remarque" resp="#labruyère"
-                            place="margin" source="#edition3 #edition8">Quand même on ne le considère
-                            que comme un homme qui a écrit</note> <note type="remarque" resp="#labruyère"
-                            place="margin" source="#edition5" n="obèle"> Quand même on ne le considère que
-                            comme un homme qui a écrit</note></seg>, Homere, Platon, Virgile, Horace ne sont
-                            au-dessus des autres écrivains que par leurs expressions et par leurs images : 
-                            il faut exprimer le vrai pour écrire naturellement, fortement, délicatement.</p>
+                            à bien définir et à bien peindre. <seg><app type="morpho">
+                                    <lem>Moise</lem>
+                                    <rdg source="#edition3">Moyse</rdg>
+                                    <rdg source="#edition5 #edition8">Moïse</rdg>
+                                </app><note type="remarque" resp="#labruyère" place="margin"
+                                    source="#edition3 #edition8">Quand même on ne le considère que
+                                    comme un homme qui a écrit</note>
+                                <note type="remarque" resp="#labruyère" place="margin"
+                                    source="#edition5" n="obèle"> Quand même on ne le considère que
+                                    comme un homme qui a écrit</note></seg>, Homere, Platon,
+                            Virgile, Horace ne sont au-dessus des autres écrivains que par leurs
+                            expressions et par leurs images : il faut exprimer le vrai pour écrire
+                            naturellement, fortement, délicatement.</p>
                     </div3>
                     <div3 n="15">
                         <p source="#edition5 #edition8">On a dû faire du style ce qu’on a fait de
                             l’architecture. On a entièrement abandonné l’ordre gothique, que la
                             barbarie avait introduit pour les palais et pour les temples ; on a
                             rappelé le <seg>dorique <note type="gloss" resp="#souffez">ordre
-                            architectural d'origine grec apparaissant au VIIe siècle avant J.-C.</note>
-                            </seg>, <seg>l’ionique <note type="gloss" resp="#souffez">Ordre architectural
-                            d'origine grec de la même période historique que l'ordre dorique</note></seg>
-                            et le <seg>corinthien <note type="gloss" resp="#souffez">Ordre architectural
-                            d'origine grec apparaissant I siècle avant J.-C. </note></seg> : ce qu’on ne
-                            voyait plus que dans les ruines de l’ancienne Rome et de la vieille Grèce,
-                            devenu moderne, éclate dans nos portiques et dans nos péristyle. De même, 
-                            on ne saurait en écrivant rencontrer le parfait, et s’il se peut, surpasser
-                            les anciens que par leur imitation. </p>
+                                    architectural d'origine grec apparaissant au VIIe siècle avant
+                                    J.-C.</note>
+                            </seg>, <seg>l’ionique <note type="gloss" resp="#souffez">Ordre
+                                    architectural d'origine grec de la même période historique que
+                                    l'ordre dorique</note></seg> et le <seg>corinthien <note
+                                    type="gloss" resp="#souffez">Ordre architectural d'origine grec
+                                    apparaissant I siècle avant J.-C. </note></seg> : ce qu’on ne
+                            voyait plus que dans les ruines de l’ancienne Rome et de la vieille
+                            Grèce, devenu moderne, éclate dans nos portiques et dans nos péristyle.
+                            De même, on ne saurait en écrivant rencontrer le parfait, et s’il se
+                            peut, surpasser les anciens que par leur imitation. </p>
                         <p source="#edition3 #edition5 #edition8">Combien de siècles se sont écoulés
                             avant que les hommes, dans les sciences et dans les arts, aient pu
                             revenir au goût des anciens et reprendre enfin le simple et le naturel ! </p>
@@ -179,11 +225,12 @@
                             enfants drus et forts d’un bon lait qu’ils ont sucé, qui battent leur
                             nourrice. </p>
                         <p source="#edition5 #edition8"><seg>Un auteur moderne<note type="remarque"
-                            resp="#souffez">Toutes ces diatribes critiquant la jeunesse ont été écrite
-                            suite à un conflit de l'auteur avec un auteur plus jeune de son époque.</note>
-                            </seg> prouve ordinairement que les anciens nous sont inférieurs en deux manières,
-                            par raison et par exemple : il tire la raison de son goût particulier, et 
-                            l’exemple de ses ouvrages. </p>
+                                    resp="#souffez">Toutes ces diatribes critiquant la jeunesse ont
+                                    été écrite suite à un conflit de l'auteur avec un auteur plus
+                                    jeune de son époque.</note>
+                            </seg> prouve ordinairement que les anciens nous sont inférieurs en deux
+                            manières, par raison et par exemple : il tire la raison de son goût
+                            particulier, et l’exemple de ses ouvrages. </p>
                         <p source="#edition5 #edition8">Il avoue que les anciens, quelque inégaux et
                             peu corrects qu’ils soient, ont de beaux traits ; il les cite, et ils
                             sont si beaux qu’ils font lire sa critique. </p>
@@ -231,11 +278,15 @@
                     </div3>
                     <div3 n="19">
                         <p source="#edition3 #edition5 #edition8">« L’on m’a engagé, dit Ariste, à
-                            lire mes ouvrages à Zoïle : je l’ai fait. Ils l’ont saisi d’abord et
-                            avant qu’il ait eu le loisir de les trouver mauvais ; il les a loués
-                            modestement en ma présence, et il ne les a pas loués depuis devant
-                            personne. Je l’excuse, et je n’en demande pas davantage à un auteur ; je
-                            le plains même d’avoir écouté de belles choses qu’il n’a point faites. » </p>
+                            lire mes ouvrages à <app type="morpho">
+                                <lem>Zoïle</lem>
+                                <rdg source="#edition3">Zèlotes</rdg>
+                                <rdg source="#edition5 #edition8">Zoile</rdg>
+                            </app> : je l’ai fait. Ils l’ont saisi d’abord et avant qu’il ait eu le
+                            loisir de les trouver mauvais ; il les a loués modestement en ma
+                            présence, et il ne les a pas loués depuis devant personne. Je l’excuse,
+                            et je n’en demande pas davantage à un auteur ; je le plains même d’avoir
+                            écouté de belles choses qu’il n’a point faites. » </p>
                         <p source="#edition5 #edition8" xml:id="r1">Ceux qui par leur condition se
                             trouvent exempts de la jalousie d’auteur, ont ou des passions ou des
                             besoins qui les distraient et les rendent froids sur les conceptions
