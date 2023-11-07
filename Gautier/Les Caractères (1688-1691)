@@ -75,12 +75,35 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <mapping>¶</mapping>
+                    <desc>Pied de mouche simple. Signale une nouvelle remarque.</desc>
+                </char>
+                <char xml:id="char_pm-par1">
+                    <mapping>(¶)</mapping>
+                    <desc>Pied de mouche à parenthèses simple. Signale une nouvelle remarque.</desc>
+                </char>
+                <char xml:id="char_pm-par2">
+                    <mapping>((¶))</mapping>
+                    <desc>Pied de mouche à double parenthèses. Signale une nouvelle remarque.</desc>
+                </char>
+                <char xml:id="char_manicule_dr">
+                    <mapping>☛</mapping>
+                    <desc>Manicule droit. Signale une nouvelle remarque.</desc>
+                </char>
+                <char xml:id="char_manicule_gau">
+                    <mapping>☚</mapping>
+                    <desc>Manicule gauche. Signale une nouvelle remarque.</desc>
+                </char>
+            </charDecl>
             <editorialDecl>
                 <interpretation>
                     <p>Titre divisé en un titre pricipal (main) et un sous-titre (sub).</p>
                     <p>div1 pour les parties de l'ouvrage</p>
                     <p>div2 pour les chapitres</p>
                     <p>div3 pour les remarques</p>
+                    <p>lem pour la version moderne, de base, du texte</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -98,6 +121,8 @@
                     paragraphes/remarques.</change>
                 <change when="2023-10-18">Ajout d'une huitième édition comparative.</change>
                 <change when="2023-10-23">Ajout notes.</change>
+                <change when="2023-11-07">Ajout de l'élément app pour comparer la langue,
+                    ponctuation. Encodage pieds de mouche et manicules.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -108,172 +133,188 @@
                 <div2 type="chapitre" n="2">
                     <head>Du mérite personnel</head>
                     <div3 source="#edition8" type="remarque" n="11">
-                        <p source="#edition8">Se faire valoir par des choses qui ne dépendent point
-                            des autres, mais de soi seul, ou renoncer à se faire valoir : maxime
-                            inestimable et d’une ressource infinie dans la pratique, utile aux
-                            faibles, aux vertueux, à ceux qui ont de l’esprit, qu’elle rend maîtres
-                            de leur fortune ou de leur repos : pernicieuse pour les grands, qui
-                            diminuerait leur cour, ou plutôt le nombre de leurs esclaves, qui ferait
-                            tomber leur morgue avec une partie de leur autorité, et les réduirait
-                            presque à leurs entremets et à leurs équipages ; qui les priverait du
-                            plaisir qu’ils sentent à se faire prier, presser, solliciter, à faire
-                            attendre ou à refuser, à promettre et à ne pas donner ; qui les
-                            traverserait dans le goût qu’ils ont quelquefois à mettre les sots en
-                            vue et à anéantir le mérite quand il leur arrive de le discerner ; qui
-                            bannirait des cours les brigues, les cabales, les mauvais offices, la
-                            bassesse, la flatterie, la fourberie ; qui ferait d’une cour orageuse,
-                            pleine de mouvements et d’intrigues, comme une pièce comique ou même
-                            tragique, dont les sages ne seraient que les spectateurs ; qui
-                            remettrait de la dignité dans les différentes conditions des hommes, de
-                            la sérénité, sur leurs visages ; qui étendrait leur liberté ; qui
-                            réveillerait en eux, avec les talents naturels, l’habitude du travail et
-                            de l’exercice ; qui les exciterait à l’émulation, au désir de la gloire,
-                            à l’amour de la vertu ; qui, au lieu de courtisans vils, inquiets,
-                            inutiles, souvent onéreux à la république, en ferait ou de sages
-                            économes, ou d’excellents pères de famille, ou des juges intègres, ou de
-                            bons officiers, ou de grands capitaines, ou des orateurs, ou des
-                            philosophes ; et qui ne leur attirerait à tous nul autre inconvénient,
-                            que celui peut-être de laisser à leurs héritiers moins de trésors que de
-                            bons exemples.</p>
+                        <p source="#edition8"><g ref="#char_pm"/>Se faire valoir par des choses qui
+                            ne dépendent point des autres, mais de soi seul, ou renoncer à se faire
+                            valoir : maxime inestimable et d’une ressource infinie dans la pratique,
+                            utile aux faibles, aux vertueux, à ceux qui ont de l’esprit, qu’elle
+                            rend maîtres de leur fortune ou de leur repos : pernicieuse pour les
+                            grands, qui diminuerait leur cour, ou plutôt le nombre de leurs
+                            esclaves, qui ferait tomber leur morgue avec une partie de leur
+                            autorité, et les réduirait presque à leurs entremets et à leurs
+                            équipages ; qui les priverait du plaisir qu’ils sentent à se faire
+                            prier, presser, solliciter, à faire attendre ou à refuser, à promettre
+                            et à ne pas donner ; qui les traverserait dans le goût qu’ils ont
+                            quelquefois à mettre les sots en vue et à anéantir le mérite quand il
+                            leur arrive de le discerner ; qui bannirait des cours les brigues, les
+                            cabales, les mauvais offices, la bassesse, la flatterie, la fourberie ;
+                            qui ferait d’une cour orageuse, pleine de mouvements et d’intrigues,
+                            comme une pièce comique ou même tragique, dont les sages ne seraient que
+                            les spectateurs ; qui remettrait de la dignité dans les différentes
+                            conditions des hommes, de la sérénité, sur leurs visages ; qui étendrait
+                            leur liberté ; qui réveillerait en eux, avec les talents naturels,
+                            l’habitude du travail et de l’exercice ; qui les exciterait à
+                            l’émulation, au désir de la gloire, à l’amour de la vertu ; qui, au lieu
+                            de courtisans vils, inquiets, inutiles, souvent onéreux à la république,
+                            en ferait ou de sages économes, ou d’excellents pères de famille, ou des
+                            juges intègres, ou de bons officiers, ou de grands capitaines, ou des
+                            orateurs, ou des philosophes ; et qui ne leur attirerait à tous nul
+                            autre inconvénient, que celui peut-être de laisser à leurs héritiers
+                            moins de trésors que de bons exemples.</p>
                         <note resp="#gautier" place="end">Remarque seulement présente dans l'édition
                             8.</note>
                     </div3>
                     <div3 source="#edition1 #edition6 #edition8" type="remarque" n="12">
-                        <p source="#edition1 #edition6 #edition8">Il faut en France beaucoup de
-                            fermeté et une grande étendue d’esprit pour se passer des charges et des
-                            emplois, et <seg>consentir ainsi à demeurer chez soi, et à ne rien
-                                faire. Personne presque n’a assez de mérite pour jouer ce rôle avec
+                        <p source="#edition1 #edition6 #edition8"><g ref="#char_pm"/>Il faut en
+                            France beaucoup de fermeté<app>
+                                <lem/>
+                                <rdg source="#edition1 #edition6 #edition8">,</rdg>
+                            </app>
+                            <app>
+                                <lem> et</lem>
+                                <rdg source="#edition1 #edition6 #edition8">&amp;</rdg>
+                            </app> une grande étendu<app>
+                                <lem>e</lem>
+                                <rdg source="#edition1 #edition6 #edition8">ë</rdg>
+                            </app> d’esprit pour se passer des charges et des emplois, et
+                                <seg>consentir ainsi à demeurer chez soi, et à ne rien faire.
+                                Personne presque n’a assez de mérite pour jouer ce rôle avec
                                 dignité, ni assez de fonds pour remplir le vide du temps, sans ce
                                 que le vulgaire appelle des affaires<note resp="#gautier"
                                     type="fausse">Fausse</note></seg>. Il ne manque cependant à
                             l’oisiveté du sage qu’un meilleur nom, et que méditer, parler, lire, et
                             être tranquille s’appelât travailler.</p>
+                        <note source="#proprietaire" type="manuscrite" place="margin">M
+                            Jifienbet</note>
                     </div3>
                     <div3 source="#edition1 #edition6 #edition8" type="remarque" n="13">
-                        <p source="#edition1 #edition6 #edition8">Un homme de mérite, et qui est en
-                            place, n’est jamais incommode par sa vanité ; il s’étourdit moins du
-                            poste qu’il occupe qu’il n’est humilié par un plus grand qu’il ne
-                            remplit pas et dont il se croit digne : plus capable d’inquiétude que de
-                            fierté ou de mépris pour les autres, il ne pèse qu’à soi-même.</p>
+                        <p source="#edition1 #edition6 #edition8"><g ref="#char_pm"/>Un homme de
+                            mérite, et qui est en place, n’est jamais incommode par sa vanité ; il
+                            s’étourdit moins du poste qu’il occupe qu’il n’est humilié par un plus
+                            grand qu’il ne remplit pas et dont il se croit digne : plus capable
+                            d’inquiétude que de fierté ou de mépris pour les autres, il ne pèse qu’à
+                            soi-même.</p>
                         <note resp="#gautier" place="margin">Très bonne remarque Jean.</note>
                     </div3>
                     <div3 source="#edition6 #edition8" type="remarque" n="14">
-                        <p source="#edition6 #edition8">Il coûte à un homme de mérite de faire
-                            assidûment sa cour, mais par une raison bien opposée à celle que l’on
-                            pourrait croire : il n’est point tel sans une grande modestie, qui
-                            l’éloigne de penser qu’il fasse le moindre plaisir aux princes s’il se
-                            trouve sur leur passage, se poste devant leurs yeux, et leur montre son
-                            visage : il est plus proche de se persuader qu’il les importune, et il a
-                            besoin de toutes les raisons tirées de l’usage et de son devoir pour se
-                            résoudre à se montrer. Celui au contraire qui a bonne opinion de soi, et
-                            que le vulgaire appelle un glorieux, a du goût à se faire voir, et il
-                            fait sa cour avec d’autant plus de confiance qu’il est incapable de
-                            s’imaginer que les grands dont il est vu pensent autrement de sa
-                            personne qu’il fait lui-même.</p>
+                        <p source="#edition6 #edition8"><g ref="#char_pm"/>Il coûte à un homme de
+                            mérite de faire assidûment sa cour, mais par une raison bien opposée à
+                            celle que l’on pourrait croire : il n’est point tel sans une grande
+                            modestie, qui l’éloigne de penser qu’il fasse le moindre plaisir aux
+                            princes s’il se trouve sur leur passage, se poste devant leurs yeux, et
+                            leur montre son visage : il est plus proche de se persuader qu’il les
+                            importune, et il a besoin de toutes les raisons tirées de l’usage et de
+                            son devoir pour se résoudre à se montrer. Celui au contraire qui a bonne
+                            opinion de soi, et que le vulgaire appelle un glorieux, a du goût à se
+                            faire voir, et il fait sa cour avec d’autant plus de confiance qu’il est
+                            incapable de s’imaginer que les grands dont il est vu pensent autrement
+                            de sa personne qu’il fait lui-même.</p>
                     </div3>
                     <div3 source="#edition1 #edition6 #edition8" type="remarque" n="15">
-                        <p source="#edition1 #edition6 #edition8">Un honnête homme se paye par ses
-                            mains de l’application qu’il a à son devoir par le plaisir qu’il sent à
-                            le faire, et se désintéresse sur les éloges, l’estime et la
-                            reconnaissance qui lui manquent quelquefois.</p>
+                        <p source="#edition1 #edition6 #edition8"><g ref="#char_pm"/>Un honnête
+                            homme se paye par ses mains de l’application qu’il a à son devoir par le
+                            plaisir qu’il sent à le faire, et se désintéresse sur les éloges,
+                            l’estime et la reconnaissance qui lui manquent quelquefois.</p>
                     </div3>
                     <div3 source="#edition1 #edition6 #edition8" type="remarque" n="16">
-                        <p source="#edition1 #edition6 #edition8">Si j’osais faire une comparaison
-                            entre deux conditions tout à fait inégales, je dirais qu’un homme de
-                            cœur pense à remplir ses devoirs à peu près comme le couvreur songe à
-                            couvrir : ni l’un ni l’autre ne cherchent à exposer leur vie, ni ne sont
-                            détournés par le péril ; la mort pour eux est un inconvénient dans le
-                            métier, et jamais un obstacle. Le premier aussi n’est guère plus vain
-                            d’avoir paru à la tranchée, emporté un ouvrage ou forcé un
-                            retranchement, que celui-ci d’avoir monté sur de hauts combles ou sur la
-                            pointe d’un clocher. Ils ne sont tous deux appliqués qu’à bien faire,
-                            pendant que le fanfaron travaille à ce que l’on dise de lui qu’il a bien
-                            fait.</p>
+                        <p source="#edition1 #edition6 #edition8"><g ref="#char_pm"/>Si j’osais
+                            faire une comparaison entre deux conditions tout à fait inégales, je
+                            dirais qu’un homme de cœur pense à remplir ses devoirs à peu près comme
+                            le couvreur songe à couvrir : ni l’un ni l’autre ne cherchent à exposer
+                            leur vie, ni ne sont détournés par le péril ; la mort pour eux est un
+                            inconvénient dans le métier, et jamais un obstacle. Le premier aussi
+                            n’est guère plus vain d’avoir paru à la tranchée, emporté un ouvrage ou
+                            forcé un retranchement, que celui-ci d’avoir monté sur de hauts combles
+                            ou sur la pointe d’un clocher. Ils ne sont tous deux appliqués qu’à bien
+                            faire, pendant que le fanfaron travaille à ce que l’on dise de lui qu’il
+                            a bien fait.</p>
                     </div3>
                     <div3 source="#edition1 #edition8" type="remarque" n="17">
-                        <p source="#edition1 #edition8">La modestie est au mérite ce que les ombres
-                            sont aux figures dans un tableau : elle lui donne de la force et du
-                            relief.</p>
-                        <p source="#edition1 #edition8">Un extérieur simple est l’habit des hommes
-                            vulgaires, il est taillé pour eux et sur leur mesure ; mais c’est une
-                            parure pour ceux qui ont rempli leur vie de grandes actions : je les
-                            compare à une beauté négligée, mais plus piquante.</p>
-                        <p source="#edition1 #edition8">Certains hommes, contents d’eux-mêmes, de
-                            quelque action ou de quelque ouvrage qui ne leur a pas mal réussi, et
-                            ayant ouï dire que la modestie sied bien aux grands hommes, osent être
-                            modestes, contrefont les simples et les naturels : semblables à ces gens
-                            d’une taille médiocre qui se baissent aux portes, de peur de se
-                            heurter.</p>
+                        <p source="#edition1 #edition8"><g ref="#char_pm"/>La modestie est au mérite
+                            ce que les ombres sont aux figures dans un tableau : elle lui donne de
+                            la force et du relief.</p>
+                        <p source="#edition1 #edition8"><g ref="#char_pm"/>Un extérieur simple est
+                            l’habit des hommes vulgaires, il est taillé pour eux et sur leur mesure
+                            ; mais c’est une parure pour ceux qui ont rempli leur vie de grandes
+                            actions : je les compare à une beauté négligée, mais plus piquante.</p>
+                        <p source="#edition1 #edition8"><g ref="#char_pm"/>Certains hommes, contents
+                            d’eux-mêmes, de quelque action ou de quelque ouvrage qui ne leur a pas
+                            mal réussi, et ayant ouï dire que la modestie sied bien aux grands
+                            hommes, osent être modestes, contrefont les simples et les naturels :
+                            semblables à ces gens d’une taille médiocre qui se baissent aux portes,
+                            de peur de se heurter.</p>
                     </div3>
                     <div3 source="#edition6 #edition8" type="remarque" n="18">
-                        <p source="#edition6 #edition8">Votre fils est bègue : ne le faites pas
-                            monter sur la tribune. Votre fille est née pour le monde : ne l’enfermez
-                            pas parmi les vestales. Xanthus, votre affranchi, est faible et timide :
-                            ne différez pas, retirez-le des légions et de la milice. "Je veux
-                            l’avancer", dites-vous. Comblez-le de biens, surchargez-le de terres, de
-                            titres et de possessions ; servez-vous du temps ; nous vivons dans un
-                            siècle où elles lui feront plus d’honneur que la vertu. "Il m’en
-                            coûterait trop", ajoutez-vous. Parlez-vous sérieusement, Crassus ?
-                            Songez-vous que c’est une goutte d’eau que vous puisez du Tibre pour
-                            enrichir Xanthus que vous aimez, et pour prévenir les honteuses suites
-                            d’un engagement où il n’est pas propre ?</p>
+                        <p source="#edition6 #edition8"><g ref="#char_pm"/>Votre fils est bègue : ne
+                            le faites pas monter sur la tribune. Votre fille est née pour le monde :
+                            ne l’enfermez pas parmi les vestales. Xanthus, votre affranchi, est
+                            faible et timide : ne différez pas, retirez-le des légions et de la
+                            milice. "Je veux l’avancer", dites-vous. Comblez-le de biens,
+                            surchargez-le de terres, de titres et de possessions ; servez-vous du
+                            temps ; nous vivons dans un siècle où elles lui feront plus d’honneur
+                            que la vertu. "Il m’en coûterait trop", ajoutez-vous. Parlez-vous
+                            sérieusement, Crassus ? Songez-vous que c’est une goutte d’eau que vous
+                            puisez du Tibre pour enrichir Xanthus que vous aimez, et pour prévenir
+                            les honteuses suites d’un engagement où il n’est pas propre ?</p>
                     </div3>
                     <div3 source="#edition6 #edition8" type="remarque" n="19">
-                        <p source="#edition6 #edition8">Il ne faut regarder dans ses amis que la
-                            seule vertu qui nous attache à eux, sans aucun examen de leur bonne ou
-                            de leur mauvaise fortune ; et quand on se sent capable de les suivre
-                            dans leur disgrâce, il faut les cultiver hardiment et avec confiance
-                            jusque dans leur plus grande prospérité.</p>
+                        <p source="#edition6 #edition8"><g ref="#char_pm"/>Il ne faut regarder dans
+                            ses amis que la seule vertu qui nous attache à eux, sans aucun examen de
+                            leur bonne ou de leur mauvaise fortune ; et quand on se sent capable de
+                            les suivre dans leur disgrâce, il faut les cultiver hardiment et avec
+                            confiance jusque dans leur plus grande prospérité.</p>
+                        <note resp="#labruyere" place="bottom" source="#edition6 #edition8">Note
+                            fictive de la Bruyère.</note>
                     </div3>
 
                     <div3 source="#edition6 #edition8" type="remarque" n="41">
-                        <p source="#edition6 #edition8">Celui qui, logé chez soi dans un palais,
-                            avec deux appartements pour les deux saisons, vient coucher au Louvre
-                            dans un entre-sol n’en use pas ainsi par modestie ; cet autre qui, pour
-                            conserver une taille fine, s’abstient du vin et ne fait qu’un seul repas
-                            n’est ni sobre ni tempérant ; et d’un troisième qui, importuné d’un ami
-                            pauvre, lui donne enfin quelque secours, l’on dit qu’il achète son
-                            repos, et nullement qu’il est libéral. Le motif seul fait le mérite des
-                            actions des hommes, et le désintéressement y met la perfection <note
-                                resp="#proprietaire" source="#edition8" place="margin">Le mal de
-                                Villeroy</note>.</p>
+                        <p source="#edition6 #edition8"><g ref="#char_pm"/>Celui qui, logé chez soi
+                            dans un palais, avec deux appartements pour les deux saisons, vient
+                            coucher au Louvre dans un entre-sol n’en use pas ainsi par modestie ;
+                            cet autre qui, pour conserver une taille fine, s’abstient du vin et ne
+                            fait qu’un seul repas n’est ni sobre ni tempérant ; et d’un troisième
+                            qui, importuné d’un ami pauvre, lui donne enfin quelque secours, l’on
+                            dit qu’il achète son repos, et nullement qu’il est libéral. <seg>Le
+                                motif seul fait le mérite des actions des hommes, et le
+                                désintéressement y met la perfection.<note resp="#proprietaire"
+                                    source="#edition8" place="margin">Le mal de
+                                Villeroy</note></seg></p>
                     </div3>
                     <div3 source="#edition6 #edition8" type="remarque" n="42">
-                        <p source="#edition6 #edition8">La fausse grandeur est farouche et
-                            inaccessible : comme elle sent son faible, elle se cache, ou du moins ne
-                            se montre pas de front, et ne se fait voir qu’autant qu’il faut pour
-                            imposer et ne paraître point ce qu’elle est, je veux dire une vraie
-                            petitesse <note resp="#proprietaire" source="#edition8" place="margin"
-                                >Le Roy ou [...]</note>. La véritable grandeur est libre, douce,
-                            familière, populaire ; elle se laisse toucher et manier, elle ne perd
-                            rien à être vue de près ; plus on la connaît, plus on l’admire. Elle se
-                            courbe par bonté vers ses inférieurs, et revient sans effort dans son
-                            naturel ; elle s’abandonne quelquefois, se néglige, se relâche de ses
-                            avantages, toujours en pouvoir de les reprendre et de les faire valoir ;
-                            elle rit, joue et badine, mais avec dignité ; on l’approche tout
-                            ensemble avec liberté et avec retenue. Son caractère est noble et
-                            facile, inspire le respect et la confiance, et fait que les princes nous
-                            paraissent grands et très grands, sans nous faire sentir que nous sommes
-                            petits.</p>
+                        <p source="#edition6 #edition8"><g ref="#char_pm"/>La fausse grandeur est
+                            farouche et inaccessible : comme elle sent son faible, elle se cache, ou
+                            du moins ne se montre pas de front, et ne se fait voir qu’autant qu’il
+                            faut pour imposer et ne paraître point ce qu’elle est, <seg><note
+                                    resp="#proprietaire" source="#edition8" place="margin">Le Roy ou
+                                    [...]</note></seg>je veux dire une vraie petitesse . La
+                            véritable grandeur est libre, douce, familière, populaire ; elle se
+                            laisse toucher et manier, elle ne perd rien à être vue de près ; plus on
+                            la connaît, plus on l’admire. Elle se courbe par bonté vers ses
+                            inférieurs, et revient sans effort dans son naturel ; elle s’abandonne
+                            quelquefois, se néglige, se relâche de ses avantages, toujours en
+                            pouvoir de les reprendre et de les faire valoir ; elle rit, joue et
+                            badine, mais avec dignité ; on l’approche tout ensemble avec liberté et
+                            avec retenue. Son caractère est noble et facile, inspire le respect et
+                            la confiance, et fait que les princes nous paraissent grands et très
+                            grands, sans nous faire sentir que nous sommes petits.</p>
                     </div3>
                     <div3 source="#edition6 #edition8" type="remarque" n="43">
-                        <p source="#edition6 #edition8">Le sage guérit de l’ambition par l’ambition
-                            même ; il tend à de si grandes choses, qu’il ne peut se borner à ce
-                            qu’on appelle des trésors, des postes, la fortune et la faveur : il ne
-                            voit rien dans de si faibles avantages qui soit assez bon et assez
-                            solide pour remplir son cœur, et pour mériter ses soins et ses désirs ;
-                            il a même besoin d’efforts pour ne les pas trop dédaigner. Le seul bien
-                            capable de le tenter est cette sorte de gloire qui devrait naître de la
-                            vertu toute pure et toute simple ; mais les hommes ne l’accordent guère,
-                            et il s’en passe.</p>
+                        <p source="#edition6 #edition8"><g ref="#char_pm"/>Le sage guérit de
+                            l’ambition par l’ambition même ; il tend à de si grandes choses, qu’il
+                            ne peut se borner à ce qu’on appelle des trésors, des postes, la fortune
+                            et la faveur : il ne voit rien dans de si faibles avantages qui soit
+                            assez bon et assez solide pour remplir son cœur, et pour mériter ses
+                            soins et ses désirs ; il a même besoin d’efforts pour ne les pas trop
+                            dédaigner. Le seul bien capable de le tenter est cette sorte de gloire
+                            qui devrait naître de la vertu toute pure et toute simple ; mais les
+                            hommes ne l’accordent guère, et il s’en passe.</p>
                     </div3>
                     <div3 source="#edition6 #edition8" type="remarque" n="44">
-                        <p source="#edition6 #edition8">Celui-là est bon qui fait du bien aux autres
-                            ; s’il souffre pour le bien qu’il fait, il est très bon ; s’il souffre
-                            de ceux à qui il a fait ce bien, il a une si grande bonté qu’elle ne
-                            peut être augmentée que dans le cas où ses souffrances viendraient à
-                            croître ; et s’il en meurt, sa vertu ne saurait aller plus loin : elle
-                            est héroïque, elle est parfaite.</p>
+                        <p source="#edition6 #edition8"><g ref="#char_pm"/>Celui-là est bon qui fait
+                            du bien aux autres ; s’il souffre pour le bien qu’il fait, il est très
+                            bon ; s’il souffre de ceux à qui il a fait ce bien, il a une si grande
+                            bonté qu’elle ne peut être augmentée que dans le cas où ses souffrances
+                            viendraient à croître ; et s’il en meurt, sa vertu ne saurait aller plus
+                            loin : elle est héroïque, elle est parfaite.</p>
                     </div3>
                 </div2>
             </div1>
