@@ -42,6 +42,20 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <glyph xml:id="char_pdm">
+                    <mapping>❡</mapping>
+                    <desc>pied-de-mouche de fantaisie à jambage courbé marquant le début d'une remarque</desc>
+                </glyph>
+                <glyph xml:id="char_pdm1">
+                    <mapping>(❡)</mapping>
+                    <desc>pied de mouche de fantaisie à jambage courbé marquant le début d'une remarque rajouté dans les éditions suivantes et entre parenthèse</desc>
+                </glyph>
+                <glyph xml:id="char_pdm2">
+                    <mapping>((❡))</mapping>
+                    <desc>pied de mouche de fantaisie à jambage courbé marquand le début d'une remarque rajouté et rajouté dans une édition plus récente et entre deux parenthèses</desc>
+                </glyph>
+            </charDecl>
             <editorialDecl>
                 <normalization>
                     <p>Graphie medernisée</p>
@@ -116,8 +130,8 @@
                             chacun se soit expliqué sur le sujet qui s’est offert, ou souvent qu’il
                             a amené lui-même, pour dire dogmatiquement des choses toutes nouvelles,
                             mais à son gré décisives et sans réplique. <seg>Cydias s’égale à Lucien
-                                et à Sénèque<note resp="#LaBruyere" position="ext" place="margin"
-                                    type="definition" source="#lescaracteres1696">Philosophe et
+                                et à Sénèque<note resp="#LaBruyere" place="ext margin"
+                                    type="definition" source="#lescaracteres1696"> Philosophe et
                                     poète tragique</note></seg>, se met au-dessus de Platon, de
                             Virgile et de Théocrite ; et son flatteur a soin de le confirmer tous
                             les matins dans cette opinion. Uni de goût et d’intérêt avec les
@@ -137,7 +151,8 @@
                     </div3>
 
                     <div3 n="77" source="#lescaracteres1688 #lescaracteres1696">
-                        <p>Les plus grandes choses n’ont besoin que d’être dites simplement : elles
+                        <p>Les plus grandes choses n’ont besoin que d’<app><rdgGrp><lem>être</lem><rdg source="#lescaracteres1688">estre</rdg>
+                        </rdgGrp><rdg source="#lescaracteres1696">être</rdg></app> dites simplement : elles
                             se gâtent par l’emphase. Il faut dire noblement les plus petites : elles
                             ne se soutiennent que par l’expression, le ton et la manière.</p>
                     </div3>
