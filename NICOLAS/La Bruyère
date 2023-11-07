@@ -42,6 +42,26 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <mapping>¶</mapping>
+                    <desc>Pied-de-mouche. Signale le début d'une nouvelle remarque.</desc>
+                </char>
+                <char xml:id="char_pm_p">
+                    <mapping>(¶)</mapping>
+                    <desc>Pied-de-mouche à parenthèses simple. Signale une nouvelle remarque dans
+                        l'édition 4.</desc>
+                </char>
+                <char xml:id="char_pm_p2">
+                    <mapping>((¶))</mapping>
+                    <desc>Pied-de-mouche à double parenthèses. Signale une nouvelle remarque dans
+                        l'édition 5.</desc>
+                </char>
+                <char xml:id="char_manicule">
+                    <mapping>☜</mapping>
+                    <desc>Manicule. Signale le début d'une nouvelle remarque.</desc>
+                </char>
+            </charDecl>
             <editorialDecl>
                 <normalization>
                     <p>Graphie modernisée</p>
@@ -70,6 +90,7 @@
             <change when="2023-10-16">Ajout et encodage du texte brut (10 Caractères).</change>
             <change when="2023-10-20">Ajout des attributs pour chaque édition et des remarques
                 supplémentaires.</change>
+            <change when="2023-11-04">Ajout des annotations</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -79,40 +100,42 @@
                 <div2>
                     <head type="chapitre" n="3">Des Femmes</head>
                     <div3 n="21">
-                        <p source="#edition3 #edition6">Il y a peu de galanteries secrètes. Bien des
-                            femmes ne sont pas mieux désignées par le nom de leurs maris que par
-                            celui de leurs amants.</p>
+                        <p source="#edition3 #edition6"><g ref="#char_pm"/>Il y a peu de galanteries
+                            secrètes. Bien des femmes ne sont pas mieux désignées par le nom de
+                            leurs maris que par celui de leurs amants.</p>
                     </div3>
                     <div3 xml:id="remarque22" n="22">
-                        <p source="#edition6">Une femme galante veut qu’on l’aime ; il suffit à une
-                            coquette d’être trouvée aimable et de passer pour belle. Celle-là
-                            cherche à engager ; celle-ci se contente de plaire. La première passe
-                            successivement d’un engagement à un autre ; la seconde a plusieurs
-                            amusements tout à la fois. Ce qui domine dans l’une, c’est la passion et
-                            le plaisir ; et dans l’autre, c’est la vanité et la légèreté. La
-                            galanterie est un faible du cœur, ou peut-être un vice de la complexion
-                            ; la coquetterie est un dérèglement de l’esprit. La femme galante se
-                            fait craindre et la coquette se fait haïr. L’on peut tirer de ces deux
-                            caractères de quoi en faire un troisième, le pire de tous.</p>
-                        <note resp="#notelabruyere" corresp="#remarque22" type="gloss" place="margin right">Note marginale fictive de La Bruyère</note>
+                        <p source="#edition6"><g ref="#char_pm"/>Une femme galante veut qu’on l’aime
+                            ; il suffit à une coquette d’être trouvée aimable et de passer pour
+                            belle. Celle-là cherche à engager ; celle-ci se contente de plaire. La
+                            première passe successivement d’un engagement à un autre ; la seconde a
+                            plusieurs amusements tout à la fois. Ce qui domine dans l’une, c’est la
+                            passion et le plaisir ; et dans l’autre, c’est la vanité et la légèreté.
+                            La galanterie est un faible du cœur, ou peut-être un vice de la
+                            complexion ; la coquetterie est un dérèglement de l’esprit. La femme
+                            galante se fait craindre et la coquette se fait haïr. L’on peut tirer de
+                            ces deux caractères de quoi en faire un troisième, le pire de tous.</p>
+                        <note resp="#notelabruyere" corresp="#remarque22" type="gloss"
+                            place="margin right">Note marginale fictive de La Bruyère</note>
                     </div3>
                     <div3 n="23">
-                        <p source="#edition6">Une femme faible est celle à qui l’on reproche une
-                            faute qui se la reproche à elle-même ; dont le cœur combat la raison ;
-                            qui veut guérir, qui ne guérira point, ou bien tard.</p>
+                        <p source="#edition6"><g ref="#char_pm"/>Une femme faible est celle à qui
+                            l’on reproche une faute qui se la reproche à elle-même ; dont le cœur
+                            combat la raison ; qui veut guérir, qui ne guérira point, ou bien
+                            tard.</p>
                     </div3>
                     <div3 n="24">
-                        <p source="#edition6">Une femme inconstante est celle qui n’aime plus ; une
-                            légère, celle qui déjà en aime un autre ; une volage, celle qui ne sait
-                            si elle aime et ce qu’elle aime ; une indifférente, celle qui n’aime
-                            rien.</p>
+                        <p source="#edition6"><g ref="#char_pm"/>Une femme inconstante est celle qui
+                            n’aime plus ; une légère, celle qui déjà en aime un autre ; une volage,
+                            celle qui ne sait si elle aime et ce qu’elle aime ; une indifférente,
+                            celle qui n’aime rien.</p>
                     </div3>
                     <div3 n="25">
-                        <p source="#edition6">La perfidie, si je l’ose dire, est un mensonge de
-                            toute la personne : c’est dans une femme l’art de placer un mot ou une
-                            action qui donne le change, et quelquefois de mettre en œuvre des
-                            serments et des promesses qui ne lui coûtent pas plus à faire qu’à
-                            violer.</p>
+                        <p source="#edition6"><g ref="#char_pm"/>La perfidie, si je l’ose dire, est
+                            un mensonge de toute la personne : c’est dans une femme l’art de placer
+                            un mot ou une action qui donne le change, et quelquefois de mettre en
+                            œuvre des serments et des promesses qui ne lui coûtent pas plus à faire
+                            qu’à violer.</p>
                         <p source="#edition6">Une femme infidèle, si elle est connue pour telle de
                             la personne intéressée, n’est qu’infidèle : s’il la croit fidèle, elle
                             est perfide.</p>
@@ -120,86 +143,95 @@
                             guérit de la jalousie.</p>
                     </div3>
                     <div3 xml:id="d1" n="">
-                        <p source="#edition6">Je ne comprends pas comment un mari qui s'abandonne à
-                            son humeur et à sa complexion, qui ne cache aucun de ses défauts, et se
-                            montre au contraire par ses mauvais endroits ; qui est avare, qui est
-                            trop négligé dans son ajustement, brusque dans ses réponses, incivil,
-                            froid et taciturne, peut espérer de défendre le cœur d'une jeune femme
-                            contre les entreprises de son galant, qui emploie la parure et la
-                            magnificience, la complaisance, les soins, l'empressement, les dons, la
-                            flatterie.</p>
+                        <p source="#edition6"><g ref="#char_pm"/>Je ne comprends pas comment un mari
+                            qui s'abandonne à son humeur et à sa complexion, qui ne cache aucun de
+                            ses défauts, et se montre au contraire par ses mauvais endroits ; qui
+                            est avare, qui est trop négligé dans son ajustement, brusque dans ses
+                            réponses, incivil, froid et taciturne, peut espérer de défendre le cœur
+                            d'une jeune femme contre les entreprises de son galant, qui emploie la
+                            parure et la magnificience, la complaisance, les soins, l'empressement,
+                            les dons, la flatterie.</p>
                         <noteGrp>
-                            <note resp="#notenicolas" corresp="#d1" type="short">Remarque disparue/déplacée</note>
-                            <note resp="#notenicolas" corresp="#d1" type="full">Certaines remarques ont été déplacées ou ont disparues d'une édition à l'autre.
-                            Cette remarque figure à cet endroit dans l'édition 6 mais ce n'est pas le cas dans l'édition 8.
-                            Il s'agit donc de trouver où elle a été déplacée, sinon on pourrait la considérer comme
-                            disparue.</note>
+                            <note resp="#notenicolas" corresp="#d1" type="short">Remarque
+                                disparue/déplacée</note>
+                            <note resp="#notenicolas" corresp="#d1" type="full">Certaines remarques
+                                ont été déplacées ou ont disparues d'une édition à l'autre. Cette
+                                remarque figure à cet endroit dans l'édition 6 mais ce n'est pas le
+                                cas dans l'édition 8. Il s'agit donc de trouver où elle a été
+                                déplacée, sinon on pourrait la considérer comme disparue.</note>
                         </noteGrp>
                     </div3>
                     <div3 n="26">
-                        <p source="#edition3 #edition6">Quelques femmes ont dans le cours de leur
-                            vie un double engagement à soutenir, également difficile à rompre et à
-                            dissimuler ; il ne manque à l’un que le contrat, et à l’autre que le
-                            cœur. </p>
+                        <p source="#edition3 #edition6"><g ref="#char_pm"/>Quelques femmes ont dans
+                            le cours de leur vie un double engagement à soutenir, également
+                            difficile à rompre et à dissimuler ; il ne manque à l’un que le contrat,
+                            et à l’autre que le cœur. </p>
                         <p source="#edition3">Il arrive quelquefois qu'une femme cache à un homme
                             toute la passion qu'elle sent pour lui ; pendant que de son côté il
                             feint pour elle toute celle qui ne sent pas.</p>
                     </div3>
                     <div3 n="">
-                        <p source="#edition3">L'on suppose un homme indifférent, mais qui voudrait
-                            persuader à une femme une passion qu'il ne sent pas ; et l'on demande,
-                            s'il serait pas plus aisé d'imposer à celle dont il est aimé, qu'à celle
-                            qui ne l'aime point.</p>
+                        <p source="#edition3"><g ref="#char_pm"/>L'on suppose un homme indifférent,
+                            mais qui voudrait persuader à une femme une passion qu'il ne sent pas ;
+                            et l'on demande, s'il serait pas plus aisé d'imposer à celle dont il est
+                            aimé, qu'à celle qui ne l'aime point.</p>
                     </div3>
                     <div3 n="">
-                        <p source="#edition3">Un homme peut tromper une femme par un feint
-                            attachement, pourvu qu'il n'en ait pas ailleurs un véritable.</p>
+                        <p source="#edition3"><g ref="#char_pm"/>Un homme peut tromper une femme par
+                            un feint attachement, pourvu qu'il n'en ait pas ailleurs un
+                            véritable.</p>
                     </div3>
                     <div3 n="">
-                        <p source="#edition3">Un homme éclate contre une femme qui ne l'aime plus,
-                            et se console ; une femme fait moins de bruit quand elle est quittée, et
-                            demeure longtemps inconsolable.</p>
+                        <p source="#edition3"><g ref="#char_pm"/>Un homme éclate contre une femme
+                            qui ne l'aime plus, et se console ; une femme fait moins de bruit quand
+                            elle est quittée, et demeure longtemps inconsolable.</p>
                     </div3>
                     <div3 n="27" source="#edition6">
-                        <p>A juger de cette femme par sa beauté, sa jeunesse, sa fierté et ses
-                            dédains, il n’y a personne qui doute que ce ne soit un héros qui doive
-                            un jour la charmer. Son choix est fait : c’est un petit monstre qui
-                            manque d’esprit. </p>
+                        <p><g ref="#char_pm"/>A juger de cette femme par sa beauté, sa jeunesse, sa
+                            fierté et ses dédains, il n’y a personne qui doute que ce ne soit un
+                            héros qui doive un jour la charmer. Son choix est fait : c’est un petit
+                            monstre qui manque d’esprit. </p>
                     </div3>
                     <div3 n="">
-                        <p source="#edition3">Les femmes guérissent de leur paresse par la vanité ou
-                            par l'amour.</p>
+                        <p source="#edition3"><g ref="#char_pm"/>Les femmes guérissent de leur
+                            paresse par la vanité ou par l'amour.</p>
                     </div3>
                     <div3 n="28">
-                        <p source="#edition6">Il y a des femmes déjà flétries, qui par leur
-                            complexion ou par leur mauvais caractère sont naturellement la ressource
-                            des jeunes gens qui n’ont pas assez de bien. Je ne sais qui est plus à
-                            plaindre, ou d’une femme avancée en âge qui a besoin d’un cavalier, ou
-                            d’un cavalier qui a besoin d’une vieille. </p>
+                        <p source="#edition6"><g ref="#char_pm"/>Il y a des femmes déjà flétries,
+                            qui par leur complexion ou par leur mauvais caractère sont naturellement
+                            la ressource des jeunes gens qui n’ont pas assez de bien. Je ne sais qui
+                            est plus à plaindre, ou d’une femme avancée en âge qui a besoin d’un
+                            cavalier, ou d’un cavalier qui a besoin d’une vieille. </p>
                     </div3>
                     <div3 n="29">
-                        <p source="#edition6">Le rebut de la cour est reçu à la ville dans une
-                            ruelle, où il défait le magistrat même en cravate et en habit gris,
-                            ainsi que le bourgeois en baudrier, les écarte et devient maître de la
-                            place : il est écouté, il est aimé ; on ne tient guère plus d’un moment
-                            contre une écharpe d’or et une plume blanche, contre un homme qui parle
-                            <term xml:id="roi">au Roi et voit les Ministres</term>
-                            <note resp="#notenicolas" corresp="#roi" type="gloss" place="foot">
-                            Ecrit dans le texte en italique probablement comme une marque des respect envers
-                            le titre de Roi et de Ministre.</note>.Il fait des jaloux et des jalouses : on 
-                            l’admire, il fait envie : à quatre lieues de là, il fait pitié. </p>
+                        <p source="#edition6"><g ref="#char_pm"/>Le rebut de la cour est reçu à la
+                            ville dans une ruelle, où il défait le magistrat même en cravate et en
+                            habit gris, ainsi que le bourgeois en baudrier, les écarte et devient
+                            maître de la place : il est écouté, il est aimé ; on ne tient guère plus
+                            d’un moment contre une écharpe d’or et une plume blanche, contre un
+                            homme qui <app>
+                                <lem>parle au Roi et voit les Ministres</lem>
+                                <rdg source="#editon6" rend="italique">parle au Roy et voit les
+                                    Miniſtres</rdg>
+                            </app> .Il fait des jaloux et des jalouses : on l’admire, il fait envie
+                            : à quatre lieues de là, il fait pitié. </p>
                     </div3>
                     <div3 n="30">
-                        <p source="#edition3">Un homme de la ville est pour une femme de province ce
-                            qu’est pour une femme de ville un homme de la cour. </p>
+                        <p source="#edition3"><g ref="#char_pm"/>Un homme de la ville <app>
+                                <lem>est</lem>
+                                <rdg source="#edition3 #edition6">eſt</rdg>
+                            </app> pour une femme de province ce <app>
+                                <lem>qu'est</lem>
+                                <rdg source="#edition3 #edition6">qu'eſt</rdg>
+                            </app> pour une femme de ville un homme de la cour. </p>
                     </div3>
                     <div3 n="31">
-                        <p source="#edition6">A un homme vain, indiscret, qui est grand parleur et
-                            mauvais plaisant, qui parle de soi avec confiance et des autres avec
-                            mépris, impétueux, altier, entreprenant, sans mœurs ni probité, de nul
-                            jugement et d’une imagination très libre, il ne lui manque plus, pour
-                            être adoré de bien des femmes, que de beaux traits et la taille belle.
-                        </p>
+                        <p source="#edition6"><g ref="#char_pm"/>A un homme vain, indiscret, qui est
+                            grand parleur et mauvais plaisant, qui parle de soi avec confiance et
+                            des autres avec mépris, impétueux, altier, entreprenant, sans mœurs ni
+                            probité, de nul jugement et d’une imagination très libre, il ne lui
+                            manque plus, pour être adoré de bien des femmes, que de beaux traits et
+                            la taille belle. </p>
                     </div3>
                 </div2>
             </div1>
