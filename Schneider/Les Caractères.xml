@@ -39,23 +39,26 @@
             <charDecl>
                 <char xml:id="char_pm">
                     <mapping>¶</mapping>
-                    <desc>Pied-de-mouche simple. Signale une nouvelle remarque à partir de l'édition 1.</desc> 
-                </char> 
+                    <desc>Pied-de-mouche simple. Signale une nouvelle remarque à partir de l'édition
+                        1.</desc>
+                </char>
                 <char xml:id="char_pm-par">
-                     <mapping>(¶)</mapping>
-                     <desc>Pied-de-mouche à parenthèses simples. Signale une nouvelle remarque à partir de l'édition 4.</desc> 
+                    <mapping>(¶)</mapping>
+                    <desc>Pied-de-mouche à parenthèses simples. Signale une nouvelle remarque à
+                        partir de l'édition 4.</desc>
                 </char>
                 <char xml:id="char_pm-par2">
                     <mapping>((¶))</mapping>
-                    <desc>Pied-de-mouche à parenthèses doubles. Signale une nouvelle remarque à partir de l'édition 5.</desc> 
+                    <desc>Pied-de-mouche à parenthèses doubles. Signale une nouvelle remarque à
+                        partir de l'édition 5.</desc>
                 </char>
                 <char xml:id="char_man_right">
                     <mapping>☛</mapping>
-                    <desc>Manicule. Signale une nouvelle remarque dans l'édition 7.</desc> 
+                    <desc>Manicule. Signale une nouvelle remarque dans l'édition 7.</desc>
                 </char>
                 <char xml:id="char_man_left">
                     <mapping>☚</mapping>
-                    <desc>Manicule. Signale une nouvelle remarque dans l'édition 7.</desc> 
+                    <desc>Manicule. Signale une nouvelle remarque dans l'édition 7.</desc>
                 </char>
             </charDecl>
             <editorialDecl>
@@ -100,7 +103,9 @@
             <change when="2023-10-25">Ajout des notes de La Bruyère et des notes de l'éditeur
                 numérique.</change>
             <change when="2023-11-07">Ajout de variantions de graphie.</change>
-            <change when="2023-11-07">Définition des fonctions des caractères particuliers : pied-de-mouches, pied-de-mouches à parenthèses simples, pied-de-mouches à parenthèses doubles, manicules.</change>
+            <change when="2023-11-07">Définition des fonctions des caractères particuliers :
+                pied-de-mouches, pied-de-mouches à parenthèses simples, pied-de-mouches à
+                parenthèses doubles, manicules.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -110,12 +115,13 @@
                 <div2 type="chapitre" n="3">
                     <head>Du Coeur</head>
                     <div3 n="52" source="#edition9">
-                        <p source="#edition9"><g ref="#char_pm"/>On convie, on invite, on offre sa maison, sa table,
-                            son bien et ses services : rien ne coûte qu’à tenir parole.</p>
+                        <p source="#edition9"><g ref="#char_pm"/>On convie, on invite, on offre sa
+                            maison, sa table, son bien et ses services : rien ne coûte qu’à tenir
+                            parole.</p>
                     </div3>
 
                     <div3 n="53" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9">C’est assez pour soi d’un fidèle ami ; c’est
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>C’est assez pour soi d’un fidèle ami ; c’est
                             même beaucoup de l’avoir rencontré <app>
                                 <rdg source="#edition7">:</rdg>
                                 <rdg source="#edition9">,</rdg>
@@ -123,7 +129,7 @@
                     </div3>
 
                     <div3 n="54" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9">Quand on a assez fait auprès de certaines
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Quand on a assez fait auprès de certaines
                             personnes pour avoir dû se les acquérir, si cela ne réussit point, il y
                             a encore une ressource, qui est de ne plus rien faire.</p>
                     </div3>
@@ -131,7 +137,7 @@
                     <div3 n="55" source="#edition7 #edition9">
                         <note resp="#schneider" type="expl">L'auteur explique ici qu'aucune relation
                             n'est figée dans le temps et peut évoluer à tout moment.</note>
-                        <p source="#edition7 #edition9">Vivre avec ses ennemis comme s’ils devaient
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Vivre avec ses ennemis comme s’ils devaient
                             un jour être nos amis, et vivre avec nos amis comme s’ils pouvaient
                             devenir nos ennemis, n’est <app>
                                 <rdg source="#edition9">ni</rdg>
@@ -141,7 +147,7 @@
                     </div3>
 
                     <div3 n="56" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9">On ne doit pas se faire des ennemis de ceux
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>On ne doit pas se faire des ennemis de ceux
                             qui, mieux connus, pourraient avoir rang entre nos amis. On doit faire
                             choix d’amis si sûrs et d’une si exacte <seg>probité <note
                                     resp="#schneider" type="gloss">qualité à respecter ses devoirs
@@ -153,19 +159,19 @@
                     </div3>
 
                     <div3 n="57" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9">Il est doux de voir ses amis par goût et par
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Il est doux de voir ses amis par goût et par
                             estime ; il est pénible de les cultiver par intérêt ; c’est
                             solliciter.</p>
                     </div3>
 
                     <div3 n="58" source="#edition9">
-                        <p source="#edition9">Il faut <seg>briguer<note resp="#schneider"
+                        <p source="#edition9"><g ref="#char_pm"/>Il faut <seg>briguer<note resp="#schneider"
                                     type="gloss">Chercher.</note></seg> la faveur de ceux à qui l’on
                             veut du bien, plutôt que de ceux de qui l’on espère du bien.</p>
                     </div3>
 
                     <div3 n="59" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9">On ne vole point des mêmes ailes pour sa
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>On ne vole point des mêmes ailes pour sa
                             fortune que l’on fait pour des choses frivoles et de fantaisie. <seg>Il
                                 y a un sentiment de liberté à suivre ses caprices, et tout au
                                 contraire de servitude à courir pour son établissement<note
@@ -175,20 +181,20 @@
                     </div3>
 
                     <div3 n="60" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9">Celui qui sait attendre le bien qu’il
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Celui qui sait attendre le bien qu’il
                             souhaite, ne prend pas le chemin de se désespérer s’il ne lui arrive pas
                             ; et celui au contraire qui désire une chose avec une grande impatience,
                             y met trop du sien pour en être assez récompensé par le succès.</p>
                     </div3>
 
                     <div3 n="61" source="#edition9">
-                        <p source="#edition9">Il y a de certaines gens qui veulent si ardemment et
+                        <p source="#edition9"><g ref="#char_pm"/>Il y a de certaines gens qui veulent si ardemment et
                             si déterminément une certaine chose, que de peur de la manquer, ils
                             n’oublient rien de ce qu’il faut faire pour la manquer.</p>
                     </div3>
 
                     <div3 n="62" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9">Les choses les plus souhaitées n’arrivent
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Les choses les plus souhaitées n’arrivent
                             point ; ou si elles arrivent, ce n’est ni dans le temps ni dans les
                             circonstances où elles auraient fait un extrême plaisir.</p>
                     </div3>
