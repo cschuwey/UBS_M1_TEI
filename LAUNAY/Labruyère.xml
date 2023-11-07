@@ -41,6 +41,28 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <desc>Pied de mouche</desc>
+                    <mapping>❡</mapping>
+                </char>
+                <char xml:id="char_pm_par">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied de mouche à parenthèses simple</desc>
+                </char>
+                <char xml:id="char_pm_par_double">
+                    <desc>Pied de mouche à parenthèses doubles</desc>
+                    <mapping>((❡))</mapping>
+                </char>
+                <char xml:id="char_manicule_droite">
+                    <desc>manicule</desc>
+                    <mapping>☞</mapping>
+                </char>
+                <char xml:id="char_manicule_gauche">
+                    <desc>manicule</desc>
+                    <mapping>☜</mapping>
+                </char>
+            </charDecl>
             <editorialDecl>
                 <p/>
             </editorialDecl>
@@ -58,6 +80,8 @@
             <change when="2023-10-26"> N'ayant pas de notes écrites par l'éditeur ou l'auteur, j'ai
                 inventé une note pour l'exercice du TD5. J'ai ensuite ajouté trois notes écrites par
                 moi-même</change>
+            <change when="2023-11-07">Ajout schéma xml corrigé. Ajout de trois variantes. Déclaration
+                charactères spéciaux. Ajout des pieds de mouche devant les paragraphes </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -70,71 +94,82 @@
 
                     <div3 n="1" source="#edition1688 #edition1696">
                         <p>Qui peut, avec les plus rares talents et le plus excellent mérite, n’être
-                            pas convaincu de son inutilité, quand il considère qu’il laisse en
-                            mourant un monde qui ne se sent pas de sa perte, et où tant de gens se
-                            trouvent pour le remplacer ?</p>
+                            pas convaincu de son inutilité, quand il considère qu’il <app>
+                                <lem>laisse</lem>
+                                <rdg wit="#edition1696"> laiſſe</rdg>
+                            </app> en mourant un monde qui ne se sent pas de sa perte, et où tant de
+                            gens se trouvent pour le remplacer ?</p>
                         <note type="explication" place="margin" resp="#noteinventée"
                             source="#edition1696"> quand il considère [...]pas de sa perte</note>
                     </div3>
                     <div3 n="2" source="#edition1688 #edition1696">
-                        <p>De bien des gens il n’y a que le nom qui vale quelque chose. Quand vous
-                            les voyez de fort près, c’est moins que rien ; de loin, ils imposent.
-                        </p>
+                        <p>
+                            <g ref="#char_pm"/>De bien des gens il n’y a que le nom qui vale quelque
+                            chose. Quand vous les voyez de fort près, c’est moins que rien ; de
+                            loin, ils imposent. </p>
                     </div3>
                     <div3 n="3">
-                        <p source="#edition1696">Tout persuadé que je suis que ceux que l’on choisit
-                            pour de différents emplois, chacun selon son génie et sa profession,
-                            font bien, je me hasarde de dire qu’il se peut faire qu’il y ait au
-                            monde plusieurs personnes, connues ou inconnues, que l’on n’emploie pas,
-                            qui feraient très bien ; et je suis induit à ce sentiment par le
-                            merveilleux succès de certaines gens que le hasard seul a placés, et de
-                            qui jusques alors on n’avait pas attendu de fort grandes choses. </p>
-                        <p source="#edition1688 #edition1696">Combien d’hommes admirables, et qui
-                            avaient de très beaux génies, sont morts sans qu’on en ait parlé !
+                        <p source="#edition1696"><g ref="#char_pm"/>Tout persuadé que je suis que
+                            ceux que l’on choisit pour de différents emplois, chacun selon son génie
+                            et sa profession, font bien, je me hasarde de dire qu’il se peut faire
+                            qu’il y ait au monde plusieurs personnes, connues ou inconnues, que l’on
+                            n’emploie pas, qui feraient très bien ; et je suis induit à ce sentiment
+                            par le merveilleux succès de certaines gens que le hasard seul a placés,
+                            et de qui jusques alors on n’avait pas attendu de fort grandes choses. </p>
+                        <p source="#edition1688 #edition1696"><app>
+                            <rdg source="#edition1696"/>
+                            <rdg source="#edition1688"><g ref="#char_pm"/></rdg></app>Combien d’hommes admirables, et qui <app>
+                                <rdg source="#edition1696"/>
+                                <rdg source="#edition1688"> choſes,</rdg>
+                            </app>avaient de très beaux génies, sont morts sans qu’on en ait parlé !
                             Combien vivent encore dont on ne parle point, et dont on ne parlera
                             jamais !</p>
                     </div3>
                     <div3 n="4" source="#edition1688 #edition1696">
-                        <p>Quelle horrible peine a un homme qui est sans prôneurs et sans cabale,
-                            qui n’est engagé dans aucun corps, mais qui est seul, et qui n’a que
-                            beaucoup de mérite pour toute recommandation, de se faire jour à travers
-                            l’obscurité où il se trouve, et de venir au niveau d’un <seg> fat <note
-                                    type="lexique" resp="#launay"> Ancien français: Sot, niais
-                                </note></seg> qui est en crédit !</p>
+                        <p><g ref="#char_pm"/>Quelle horrible peine a un homme qui est sans prôneurs
+                            et sans cabale, qui n’est engagé dans aucun corps, mais qui est seul, et
+                            qui n’a que beaucoup de mérite pour toute recommandation, de se faire
+                            jour à travers l’obscurité où il se trouve, et de venir au niveau d’un
+                                <seg> fat <note type="lexique" resp="#launay"> Ancien français: Sot,
+                                    niais </note></seg> qui est en crédit !</p>
                     </div3>
                     <div3 n="5" source="#edition1688 #edition1696">
-                        <p>Personne presque ne s’avise de lui-même du mérite d’un autre.</p>
-                        <p> Les hommes sont trop occupés d’eux-mêmes pour avoir le loisir de
+                        <p><g ref="#char_pm"/>Personne presque ne s’avise de lui-même du mérite d’un
+                            autre.</p>
+                        <p> <app>
+                            <rdg source="#edition1696"/>
+                            <rdg source="#edition1688"><g ref="#char_pm"/></rdg></app> Les hommes sont trop occupés d’eux-mêmes pour avoir le loisir de
                             pénétrer ou de discerner les autres ; de là vient qu’avec un grand
                             mérite et une plus grande modestie l’on peut être longtemps ignoré. </p>
                     </div3>
                     <div3 n="6" source="#edition1688 #edition1696">
-                        <p>Le génie et les grands talents manquent souvent, quelquefois aussi les
-                            seules occasions : tels peuvent être loués de ce qu’ils ont fait, et
-                            tels de ce qu’ils auraient fait.</p>
+                        <p><g ref="#char_pm"/>Le génie et les grands talents manquent souvent,
+                            quelquefois aussi les seules occasions : tels peuvent être loués de ce
+                            qu’ils ont fait, et tels de ce qu’ils auraient fait.</p>
                     </div3>
                     <div3 n="7" source="#edition1696">
-                        <p>Il est moins rare de trouver de l’esprit que des gens qui se servent du
-                            leur, ou qui fassent valoir celui des autres et le mettent à quelque
-                            usage.</p>
+                        <p><g ref="#char_pm"/>Il est moins rare de trouver de l’esprit que des gens
+                            qui se servent du leur, ou qui fassent valoir celui des autres et le
+                            mettent à quelque usage.</p>
                     </div3>
                     <div3 n="8" source="#edition1696">
-                        <p>Il y a plus d’outils que d’ouvriers, et de ces derniers plus de mauvais
-                            que d’excellents ; que pensez-vous de celui qui veut <seg> scier avec un
-                                rabot, et qui prend sa scie pourraboter <note type="explication"
-                                    resp="#launay"> A cette époque, les rabots électriques
-                                    n'existants pas, il n'était pas possible de scier avec un rabot
-                                </note></seg>?</p>
+                        <p><g ref="#char_pm"/>Il y a plus d’outils que d’ouvriers, et de ces
+                            derniers plus de mauvais que d’excellents ; que pensez-vous de celui qui
+                            veut <seg> scier avec un rabot, et qui prend sa scie pourraboter <note
+                                    type="explication" resp="#launay"> A cette époque, les rabots
+                                    électriques n'existants pas, il n'était pas possible de scier
+                                    avec un rabot </note></seg>?</p>
                     </div3>
                     <div3 n="9" source="#edition1688 #edition1696">
-                        <p>Il n’y a point au monde un si pénible métier que celui de se faire un
-                            grand nom : la vie s’achève que l’on a à peine ébauché son ouvrage.</p>
+                        <p><g ref="#char_pm"/>Il n’y a point au monde un si pénible métier que celui
+                            de se faire un grand nom : la vie s’achève que l’on a à peine ébauché
+                            son ouvrage.</p>
                     </div3>
                     <div3 n="10" source="#edition1696">
-                        <p> Que faire d’<seg>Egésippe <note type="character" resp="#launay">Ecrit
-                                    Hégésippe dans les éditions plus récentes comme celle de
-                                    Flammarion, 1880</note>
-                            </seg>, qui demande un emploi ? Le mettra-t-on dans les finances, ou
+                        <p><g ref="#char_pm"/> Que faire d’<app>
+                                <lem>Egésippe</lem>
+                                <rdg wit="#edition1696"> Egeſippe </rdg>
+                            </app>, qui demande un emploi ? Le mettra-t-on dans les finances, ou
                             dans les troupes ? Cela est indifférent, et il faut que ce soit
                             l’intérêt seul qui en décide ; car il est aussi capable de manier de
                             l’argent, ou de dresser des comptes, que de porter les armes. "Il est
