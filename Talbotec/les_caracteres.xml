@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -36,6 +36,28 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <mapping> ¶ </mapping>
+                    <desc> Présent dans l'édition 1 et 9 </desc>
+                </char>
+                <char xml:id="char_pm_1">
+                    <mapping> (¶) </mapping>
+                    <desc> </desc>
+                </char>
+                <char xml:id="char_pm_2">
+                    <mapping> ((¶))</mapping>
+                    <desc> </desc>
+                </char>
+                <char xml:id="char_pm_3">
+                    <mapping> ☞ </mapping>
+                    <desc> </desc>
+                </char>
+                <char xml:id="char_pm_4">
+                    <mapping> ☜ </mapping>
+                    <desc> </desc>
+                </char>
+            </charDecl>
             <projectDesc>
                 <p> Projet pédagogique M1 MLE</p>
             </projectDesc>
@@ -47,12 +69,17 @@
                 <interpretation>
                     <p> Ces éditions ont été choisies car il y a beaucoup de différences entre
                         elles, c'est plus intéressant à comparer. </p>
-                    <p> Le fait de choisir xml=id permet de renvoyer directement aux éditions.
-                    <p> Le dernier paragraphe de la remarque 18 n'apparaît pas dans l'édition 1 et 9. </p>
+                    <p> Le fait de choisir xml=id permet de renvoyer directement aux éditions. </p>
+                    <p> Le dernier paragraphe de la remarque 18 n'apparaît pas dans l'édition 1 et
+                        9. </p>
                     <p> La balise seg indiquent les passages concernés par les notes. </p>
-                 <p> Le fait de choisir xml=id permet de renvoyer directement à l'auteur de l'annotation.</p>
-                 <p> On utilise l'attribut type car on a deux types d'annotations type glossaire ou définition </p>
-                <p> Il n'y a pas de notes marginales dans les éditions 1 et 9, que des notes de bas de page </p>
+                    <p> Le fait de choisir xml=id permet de renvoyer directement à l'auteur de
+                        l'annotation.</p>
+                    <p> On utilise l'attribut type car on a deux types d'annotations type glossaire
+                        ou définition </p>
+                    <p> Il n'y a pas de notes marginales dans les éditions 1 et 9, que des notes de
+                        bas de page </p>
+                    <p> L'édition 1 fait figure d'autorité </p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -66,6 +93,7 @@
             <change when="2023-10-17"> Début de l'encodage d'un extrait de chapitre </change>
             <change when="2023-10-18"> Suite de l'encodage d'un extrait de chapitre </change>
             <change when="2023-10-23"> Encodage des annotations </change>
+            <change when="2023-11-07"> Variantes </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -75,7 +103,10 @@
                 <div2 type="chapitre">
                     <head> Du Souverain ou de la République </head>
                     <div3 source="#edition_9" n="11">
-                        <p source="#edition_9"> <seg> Démophile <note type="gloss" resp="#talbotec"> C'est un philosophe grec du VIème siècle avant J-C, La Bruyère est en train de le citer. </note></seg>, à ma droite, se lamente, et s’écrie : «
+                        <p source="#edition_9">
+                            <g ref="#char_pm"/> <seg> Démophile <note type="gloss" resp="#talbotec"> C'est un philosophe
+                                    grec du VIème siècle avant J-C, La Bruyère est en train de le
+                                    citer. </note></seg>, à ma droite, se lamente, et s’écrie : «
                             Tout est perdu, c’est fait de l’Etat ; il est du moins sur le penchant
                             de sa ruine. Comment résister à une si forte et si générale conjuration
                             ? Quel moyen, je ne dis pas d’être supérieur, mais de suffire seul à
@@ -101,9 +132,8 @@
                             et si on le perd, voilà l’ennemi sur la frontière. » Et comme Démophile
                             le fait voler, le voilà dans le cœur du royaume : il entend déjà sonner
                             le beffroi des villes, et crier à l’alarme ; il songe à son bien et à
-                            ses terres : où conduira-t-il son argent,
-                             ses meubles, sa famille ? où se réfugiera-t-il ? en Suisse ou à
-                            Venise ? </p>
+                            ses terres : où conduira-t-il son argent, ses meubles, sa famille ? où
+                            se réfugiera-t-il ? en Suisse ou à Venise ? </p>
                         <p source="#edition_9"> Mais, à ma gauche, Basilide met tout d’un coup sur
                             pied une armée de trois cent mille hommes ; il n’en rabattrait pas une
                             seule brigade : il a la liste des escadrons et des bataillons, des
@@ -129,33 +159,36 @@
                             respiré un peu : « Voilà, s’écrie-t-il, une grande nouvelle ; ils sont
                             défaits, et à plate couture ; le général, les chefs, du moins une bonne
                             partie, tout est tué, tout a péri. Voilà, continue-t-il, un grand
-                            massacre et il faut convenir que nous jouons d’un grand bonheur. » Il s’assit, il souffle, après
-                            avoir débité sa nouvelle, à laquelle il ne manque qu’une circonstance,
-                            qui est qu’il est certain qu’il n’y a point eu de bataille. Il assure
-                            d’ailleurs qu’un tel prince renonce à la ligue et quitte ses confédérés,
-                            qu’un autre se dispose à prendre le même parti ; il croit fermement avec
-                            la populace qu’un troisième est mort : il nomme le lieu où il est
-                            enterré ; et quand on est détrompé aux halles et aux faubourgs, il parie
-                            encore pour l’affirmative. Il sait, par une voie indubitable, que T. K.
-                            L. fait de grands progrès contre l’Empereur ; que le Grand Seigneur arme
-                            puissamment, ne veut point de paix, et que son vizir va se montrer une
-                            autre fois aux portes de Vienne. Il frappe des mains, et il tressaille
-                            sur cet événement, dont il ne doute plus. La triple alliance chez lui
-                            est un Cerbère, et les ennemis autant de monstres à assommer. Il ne
-                            parle que de lauriers, que de palmes, que de triomphes et que de
-                            trophées. Il dit dans le discours familier : Notre auguste Héros, notre
-                            grand <seg> Potentat <note type="definition" resp="#talbotec"> C'est la puissance politique, la souveraineté </note></seg>, notre invincible Monarque. Réduisez-le, si vous pouvez,
-                            à dire simplement : Le Roi a beaucoup d’ennemis, ils sont puissants, ils
-                            sont unis, ils sont aigris : il les a vaincus, j’espère toujours qu’il
-                            les pourra vaincre. Ce style, trop ferme et trop décisif pour Démophile,
-                            n’est pour Basilide ni assez pompeux ni assez exagéré ; il a bien
-                            d’autres expressions en tête : il travaille aux inscriptions des arcs et
-                            des pyramides qui doivent orner la ville capitale un jour d’entrée ; et
-                            dès qu’il entend dire que les armées sont en présence, ou qu’une place
-                            est investie, il fait déplier sa robe et la mettre à l’air, afin qu’elle
-                            soit toute prête pour la cérémonie de la cathédrale. </p> </div3>
+                            massacre et il faut convenir que nous jouons d’un grand bonheur. » Il
+                            s’assit, il souffle, après avoir débité sa nouvelle, à laquelle il ne
+                            manque qu’une circonstance, qui est qu’il est certain qu’il n’y a point
+                            eu de bataille. Il assure d’ailleurs qu’un tel prince renonce à la ligue
+                            et quitte ses confédérés, qu’un autre se dispose à prendre le même parti
+                            ; il croit fermement avec la populace qu’un troisième est mort : il
+                            nomme le lieu où il est enterré ; et quand on est détrompé aux halles et
+                            aux faubourgs, il parie encore pour l’affirmative. Il sait, par une voie
+                            indubitable, que T. K. L. fait de grands progrès contre l’Empereur ; que
+                            le Grand Seigneur arme puissamment, ne veut point de paix, et que son
+                            vizir va se montrer une autre fois aux portes de Vienne. Il frappe des
+                            mains, et il tressaille sur cet événement, dont il ne doute plus. La
+                            triple alliance chez lui est un Cerbère, et les ennemis autant de
+                            monstres à assommer. Il ne parle que de lauriers, que de palmes, que de
+                            triomphes et que de trophées. Il dit dans le discours familier : Notre
+                            auguste Héros, notre grand <seg> Potentat <note type="definition"
+                                    resp="#talbotec"> C'est la puissance politique, la souveraineté
+                                </note></seg>, notre invincible Monarque. Réduisez-le, si vous
+                            pouvez, à dire simplement : Le Roi a beaucoup d’ennemis, ils sont
+                            puissants, ils sont unis, ils sont aigris : il les a vaincus, j’espère
+                            toujours qu’il les pourra vaincre. Ce style, trop ferme et trop décisif
+                            pour Démophile, n’est pour Basilide ni assez pompeux ni assez exagéré ;
+                            il a bien d’autres expressions en tête : il travaille aux inscriptions
+                            des arcs et des pyramides qui doivent orner la ville capitale un jour
+                            d’entrée ; et dès qu’il entend dire que les armées sont en présence, ou
+                            qu’une place est investie, il fait déplier sa robe et la mettre à l’air,
+                            afin qu’elle soit toute prête pour la cérémonie de la cathédrale. </p>
+                    </div3>
                     <div3 source="#edition_9" n="12">
-                        <p source="#edition_9"> Il faut que le capital d’une affaire qui assemble
+                        <p source="#edition_9"> <g ref="#char_pm"/> Il faut que le capital d’une affaire qui assemble
                             dans une ville les plénipotentiaires ou les agents des couronnes et des
                             républiques, soit d’une longue et extraordinaire discussion, si elle
                             leur coûte plus de temps, je ne dis pas que les seuls préliminaires,
@@ -182,9 +215,8 @@
                             doit pas savoir, pour dire plusieurs choses indifférentes qui se
                             modifient ou qui se détruisent les unes les autres, qui confondent dans
                             les esprits la crainte et la confiance, pour se défendre d’une ouverture
-                            qui lui est échappée par une celui qui dit: je dinai hier à Tibur, Meudon, Maison que M.De Louvois a
-                                fait bâtir Plancus, Mr de Louvois </note> </seg> autre qu’il aura faite ;
-                            ou il est froid et taciturne, pour jeter les autres dans l’engagement de
+                            qui lui est échappée par une celui qui dit:autre qu’il aura faite ; ou
+                            il est froid et taciturne, pour jeter les autres dans l’engagement de
                             parler, pour écouter longtemps, pour être écouté quand il parle, pour
                             parler avec ascendant et avec poids, pour faire des promesses ou des
                             menaces qui portent un grand coup et qui ébranlent. Il s’ouvre et parle
@@ -208,33 +240,33 @@
                             le dessein de se faire un droit ou une bienséance de refuser lui-même ce
                             qu’il sait bien qu’il lui sera demandé, et qu’il ne veut pas octroyer :
                             aussi soigneux alors d’exagérer l’énormité de la demande, et de faire
-                            convenir, s’il se peut, des raisons qu’il a de n’y pas entendre, <seg> que
-                            <note type="gloss" resp="#la_bruyere">L'abbé de Choisy </note> </seg> d’affaiblir celles
-                            qu’on prétend avoir de ne lui pas accorder ce qu’il sollicite avec
-                            instance ; également appliqué à faire sonner haut et à grossir dans
-                            l’idée des autres le peu qu’il offre, et à mépriser ouvertement le peu
-                            que l’on consent de lui donner. Il fait de fausses offres, mais
-                            extraordinaires, qui donnent de la défiance, et obligent de rejeter ce
-                            que l’on accepterait inutilement ; qui lui sont cependant une occasion
-                            de faire des demandes exorbitantes, et mettent dans leur tort ceux qui
-                            les lui refusent. Il accorde plus qu’on ne lui demande, pour avoir
-                            encore plus qu’il ne doit donner. Il se fait longtemps prier, presser,
-                            importuner sur une chose médiocre, pour éteindre les espérances et ôter
-                            la pensée d’exiger de lui rien de plus fort ; ou s’il se laisse fléchir
-                            jusques à l’abandonner, c’est toujours avec des conditions qui lui font
-                            partager le gain et les avantages avec ceux qui reçoivent. Il prend
-                            directement ou indirectement l’intérêt d’un allié, s’il y trouve son
-                            utilité et l’avancement de ses prétentions. Il ne parle que de paix, que
-                            d’alliances, que de tranquillité publique, que d’intérêt public ; et en
-                            effet il ne songe qu’aux siens, c’est-à-dire à ceux de son maître ou de
-                            sa république. Tantôt il réunit quelques-uns qui étaient contraires les
-                            uns aux autres, et tantôt il divise quelques autres qui étaient unis. Il
-                            intimide les forts et les puissants, il encourage les faibles. Il unit
-                            d’abord d’intérêt plusieurs faibles contre un plus puissant, pour rendre
-                            la balance égale ; il se joint ensuite aux premiers pour la faire
-                            pencher, et il leur vend cher sa protection et son alliance. Il sait
-                            intéresser ceux avec qui il traite ; et par un adroit manège, par de
-                            fins et de subtils détours, il leur fait sentir leurs avantages
+                            convenir, s’il se peut, des raisons qu’il a de n’y pas entendre, <seg>
+                                que <note type="person" resp="#la_bruyere">L'abbé de Choisy </note>
+                            </seg> d’affaiblir celles qu’on prétend avoir de ne lui pas accorder ce
+                            qu’il sollicite avec instance ; également appliqué à faire sonner haut
+                            et à grossir dans l’idée des autres le peu qu’il offre, et à mépriser
+                            ouvertement le peu que l’on consent de lui donner. Il fait de fausses
+                            offres, mais extraordinaires, qui donnent de la défiance, et obligent de
+                            rejeter ce que l’on accepterait inutilement ; qui lui sont cependant une
+                            occasion de faire des demandes exorbitantes, et mettent dans leur tort
+                            ceux qui les lui refusent. Il accorde plus qu’on ne lui demande, pour
+                            avoir encore plus qu’il ne doit donner. Il se fait longtemps prier,
+                            presser, importuner sur une chose médiocre, pour éteindre les espérances
+                            et ôter la pensée d’exiger de lui rien de plus fort ; ou s’il se laisse
+                            fléchir jusques à l’abandonner, c’est toujours avec des conditions qui
+                            lui font partager le gain et les avantages avec ceux qui reçoivent. Il
+                            prend directement ou indirectement l’intérêt d’un allié, s’il y trouve
+                            son utilité et l’avancement de ses prétentions. Il ne parle que de paix,
+                            que d’alliances, que de tranquillité publique, que d’intérêt public ; et
+                            en effet il ne songe qu’aux siens, c’est-à-dire à ceux de son maître ou
+                            de sa république. Tantôt il réunit quelques-uns qui étaient contraires
+                            les uns aux autres, et tantôt il divise quelques autres qui étaient
+                            unis. Il intimide les forts et les puissants, il encourage les faibles.
+                            Il unit d’abord d’intérêt plusieurs faibles contre un plus puissant,
+                            pour rendre la balance égale ; il se joint ensuite aux premiers pour la
+                            faire pencher, et il leur vend cher sa protection et son alliance. Il
+                            sait intéresser ceux avec qui il traite ; et par un adroit manège, par
+                            de fins et de subtils détours, il leur fait sentir leurs avantages
                             particuliers, les biens et les honneurs qu’ils peuvent espérer par une
                             certaine facilité, qui ne choque point leur commission ni les intentions
                             de leurs maîtres. Il ne veut pas aussi être cru imprenable par cet
@@ -278,32 +310,49 @@
                             les autres. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="13">
-                        <p source="#edition_1 #edition_9"> Le caractère des Français demande du
+                        <p source="#edition_1 #edition_9"> <g ref="#char_pm"/> Le caractère des Français demande du
                             sérieux dans le souverain. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="14">
-                        <p source="#edition_1 #edition_9"> L’un des malheurs du prince est d’être
-                            souvent trop plein de son secret, par le péril qu’il y a à le répandre :
-                            son bonheur est de rencontrer une personne sûre qui l’en décharge. </p>
+                        <p source="#edition_1 #edition_9"> <g ref="#char_pm"/> L’un des malheurs du prince est d’<app>
+                                <lem> estre </lem>
+                                <rdg wit="#edition_9"> être </rdg>
+                            </app>être souvent trop plein de son secret, par le péril qu’il y a à le
+                            répandre : son bonheur est de rencontrer une personne sûre qui l’en
+                            décharge. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="15">
-                        <p source="#edition_1 #edition_9"> Il ne manque rien à un roi que les
-                            douceurs d’une vie privée ; il ne peut être consolé d’une si grande
-                            perte que par le charme de l’amitié, et par la fidélité de ses amis.
-                        </p>
+                        <p source="#edition_1 #edition_9"> <g ref="#char_pm"/> Il ne manque rien à un <app>
+                                <lem> roy </lem>
+                                <rdg wit="#edition_9"> roi</rdg>
+                            </app>roi que les douceurs d’une vie privée ; il ne peut <app>
+                                <lem> estre </lem>
+                                <rdg wit="#edition_9"> être </rdg>
+                            </app> consolé d’une si grande perte que par le charme de l’amitié, et
+                            par la fidélité de ses amis. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="16">
-                        <p source="#edition_1 #edition_9"> Le plaisir d’un roi qui mérite de l’être
-                            est de l’être moins quelquefois, de sortir du théâtre, de quitter le bas
-                            de saye et les brodequins, et de jouer avec une personne de confiance un
+                        <p source="#edition_1 #edition_9"> <g ref="#char_pm"/> Le plaisir d’un <app>
+                                <lem> roy </lem>
+                                <rdg wit="#edition_9"> roi </rdg>
+                            </app> qui <app>
+                                <lem> est digne de l'estre </lem>
+                                <rdg wit="#edition_9"> mérite de l'être </rdg>
+                            </app> est de l’être moins quelquefois, de sortir du <app>
+                                <lem> Theatre</lem>
+                                <rdg wit="#edition_9"> theatre </rdg>
+                            </app>, de quitter le bas de <app>
+                                <lem> soye </lem>
+                                <rdg wit="#edition_9"> saye </rdg>
+                            </app> et les brodequins, et de jouer avec une personne de confiance un
                             rôle plus familier. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="17">
-                        <p source="#edition_1 #edition_9"> Rien ne fait plus d’honneur au prince que
+                        <p source="#edition_1 #edition_9"> <g ref="#char_pm"/> Rien ne fait plus d’honneur au prince que
                             la modestie de son favori. </p>
                     </div3>
                     <div3 source="#edition_9" n="18">
-                        <p source="#edition_9"> Le favori n’a point de suite ; il est sans
+                        <p source="#edition_9"> <g ref="#char_pm"/> Le favori n’a point de suite ; il est sans
                             engagement et sans liaisons ; il peut être entouré de parents et de
                             créatures, mais il n’y tient pas ; il est détaché de tout, et comme
                             isolé. </p>
@@ -312,8 +361,9 @@
                             traîner dans le monde le débris d’une faveur qu’il a perdue et d’y faire
                             un nouveau personnage si différent du premier qu’il a soutenu. Il
                             conserve au contraire le merveilleux de sa vie dans la solitude ; et,
-                            mourant pour ainsi dire avant <seg> la caducité <note type="definition" resp="#talbotec"> Ce qui est prêt à tomber </note></seg> , il ne laisse de soi qu’une
-                            brillante idée et une mémoire agréable. </p>
+                            mourant pour ainsi dire avant <seg> la caducité <note type="definition"
+                                    resp="#talbotec"> Ce qui est prêt à tomber </note></seg> , il ne
+                            laisse de soi qu’une brillante idée et une mémoire agréable. </p>
                     </div3>
                 </div2>
             </div1>
