@@ -38,7 +38,21 @@
                     <pubPlace>Paris<country>France</country></pubPlace>
                     <biblScope>716 pages</biblScope>
                     <ref type="URL"
-                    />https://books.google.fr/books?id=2SeBerCnLvkC&newbks=1&newbks_redir=0&dq=la%20bruyere%20caract%C3%A8res%201694&hl=fr&pg=PA580#v=onepage&q&f=false</bibl>
+                        >https://books.google.fr/books?id=2SeBerCnLvkC&amp;=1&amp;_redir=0&amp;dq=la%20bruyere%20caract%C3%A8res%201694&amp;hl=fr&amp;pg=PA580#v=onepage&amp;q&amp;f=false</ref>
+                </bibl>
+                <bibl xml:id="edition19e">
+                    <desc>Version informatisée (texte brut) d'une édition des Caractères de
+                        Théophraste traduits du grec, avec Les caractères ou les mœurs de ce siècle,
+                        datant du 19e siècle. Version informatisée servant de base pour
+                        l'encodage.</desc>
+                    <distributor>inconnu</distributor>
+                    <edition>inconnue, version informatisée</edition>
+                    <author>Jean de la Bruyère</author>
+                    <editor>inconu</editor>
+                    <date>19e siècle, inconnue</date>
+                    <ref type="URL"
+                        >https://github.com/cschuwey/UBS_M1_TEI/blob/main/Texte_brut.txt</ref>
+                </bibl>
                 <bibl xml:id="TLFI">
                     <title>Trésor de la Langue Française Informatisé</title>
                     <author>Laboratoire Analyse traitement informatique de la langue française
@@ -57,11 +71,37 @@
                     <affiliation>CNED, Ministère de l'Éducation Nationale, Ministère de la
                         Recherche, CNRS, Université Paris IV-Sorbonne.</affiliation>
                     <ref type="URL"
-                    />https://num.classiques-garnier.com/index.php?module=App&action=FrameMain
+                        >https://num.classiques-garnier.com/index.php?module=App&amp;action=FrameMain</ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm_par">
+                    <mapping>❡</mapping>
+                    <desc>Pied-de-mouche présentant une remarque présente depuis l'édition 4.</desc>
+                </char>
+                <char xml:id="char_pm_par1">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied-de-mouche dans une parenthèse, présentant une remarque présente
+                        depuis l'édition 5.</desc>
+                </char>
+                <char xml:id="char_pm_par2">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied-de-mouche dans une double parenthèse, présentant une remarque
+                        présente depuis l'édition 6.</desc>
+                </char>
+                <char xml:id="char_man_right">
+                    <mapping>☞</mapping>
+                    <desc>Manicule avec l'index pointant vers la droite, présentant une nouvelle
+                        remarque de l'édition 7 ou 8.</desc>
+                </char>
+                <char xml:id="char_man_left">
+                    <mapping>☜</mapping>
+                    <desc>Manicule avec l'index pointant vers la gauche, présentant une nouvelle
+                        remarque de l'édition 7 ou 8.</desc>
+                </char>
+            </charDecl>
             <editorialDecl>
                 <normalization>
                     <p>Les "s longs" ont été retranscrits en "s" modernes</p>
@@ -113,7 +153,13 @@
                     d'une bibl pour le site du TLFI utilisé comme référence dans une des
                     notes.</item>
                 <item><date when="2023-10-26">26 octobre 2023</date>Ajout d'une nouvelle source et
-                    des balises lui correspondant dans le teiHeader et le texte. Notes retravaillées.</item>
+                    des balises lui correspondant dans le teiHeader et le texte. Notes
+                    retravaillées.</item>
+                <item><date when="2023-11-07">7 Octobre 2023</date>Ajout des éléments seg oubliés
+                    dans le devoir et création de balises app. Création de glyphes dans le teiHeader
+                    et ajout des caractères typographiques dans le texte pour le texte. Ajout d'une
+                    source pour le texte servant de base à l'encodage. Travail pour une cohabitation
+                    entre les élément seg et noteGrp.</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -124,109 +170,124 @@
                 <div2 type="chapitre" n="13">
                     <head>De la Mode</head>
                     <div3 source="#edition4 #edition8" n="11">
-                        <p>Un homme fat et ridicule porte un long chapeau, un pourpoint à ailerons,
-                            des chausses à aiguillettes et des bottines ; il rêve la veille par où
-                            et comment il pourra se faire remarquer le jour qui suit. Un philosophe
-                            se laisse habiller par son tailleur : il y a autant de faiblesse à fuir
-                            la mode qu’à l’affecter<note resp="#lesaffre" type="gloss"
-                                source="#furetiere">"Aimer, souhaiter quelque chose avec
-                                empressement et ostentation" (Furetière)</note>.</p>
+                        <p><g ref="char_pm"/>Un homme fat et ridicule porte un long chapeau, un
+                            pourpoint à ailerons, des chausses à aiguillettes et des bottines ; il
+                            rêve la veille par où et comment il pourra se faire remarquer le jour
+                            qui suit. Un philosophe se laisse habiller par son tailleur : il y a
+                            autant de <app>
+                                <lem source="#edition4 #edition8">foiblesse</lem>
+                            </app>faiblesse à fuir la mode qu’à l’<seg>affecter<note
+                                    resp="#lesaffre" type="gloss" source="#furetiere">"Aimer,
+                                    souhaiter quelque chose avec empressement et ostentation"
+                                    (Furetière)</note></seg>.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="12">
-                        <p>L’on blâme une mode qui divisant la taille des hommes en deux parties
-                            égales, en prend une tout entière pour le buste, et laisse l’autre pour
-                            le reste du corps ; l’on condamne celle qui fait de la tête des femmes
-                            la base d’un édifice à plusieurs étages dont l’ordre et la structure
+                        <p><g ref="char_pm"/>L’on blâme une mode qui divisant la taille des hommes
+                            en deux parties égales, en prend une tout entière pour le buste, et
+                            laisse l’autre pour le reste du corps ; l’on condamne celle qui fait de
+                            la tête des femmes la <app>
+                                <lem source="#edition8">base</lem>
+                                <rdg source="#edition4">baze</rdg>
+                            </app> d’un édifice à plusieurs étages dont l’ordre et la structure
                             change selon leurs caprices, qui éloigne les cheveux du visage, bien
                             qu’ils ne croissent que pour l’accompagner, qui les relève et les
-                            hérisse à la manière des bacchantes<note resp="#lesaffre" type="gloss"
-                                >femmes célébrant les rites religieux liés à Dionysos, aussi nommé
-                                Bacchus en latin. Le dieu en question étant lié à la vigne, au vin,
-                                à l'ivresse et par extension à la folie, le terme "bacchante"
-                                rappelle une version du mythe d'Orphée où elles tuent ce dernier.
-                                Une de leurs caractéristiques sont leur longs cheveux, symbole de la
-                                folie dionysiaque ou bacchique qui les touche.</note>, et semble
+                            hérisse à la manière des <seg>bacchantes<note resp="#lesaffre"
+                                    type="gloss">femmes célébrant les rites religieux liés à
+                                    Dionysos, aussi nommé Bacchus en latin. Le dieu en question
+                                    étant lié à la vigne, au vin, à l'ivresse et par extension à la
+                                    folie, le terme "bacchante" rappelle une version du mythe
+                                    d'Orphée où elles tuent ce dernier. Une de leurs
+                                    caractéristiques sont leur longs cheveux, symbole de la folie
+                                    dionysiaque ou bacchique qui les touche.</note></seg>, et semble
                             avoir pourvu à ce que les femmes changent leur physionomie douce et
                             modeste en une autre qui soit fière et audacieuse ; on se récrie enfin
                             contre une telle ou une telle mode, qui cependant, toute bizarre qu’elle
                             est, pare et embellit pendant qu’elle dure, et dont l’on tire tout
-                            l’avantage qu’on en peut espérer, qui est de plaire. Il me paraît<note
-                                resp="#lesaffre" type="variante" source="#edition4">semble</note>
-                            qu’on devrait seulement admirer l’inconstance et la légèreté<note
-                                resp="#lesaffre" type="gloss" source="#furetiere">"se dit figurément
-                                en morale pour dire faiblesse d'esprit, inconstance, défaut de
-                                solidité dans les raisons, etc." (Furetière).</note> des hommes, qui
+                            l’avantage qu’on en peut espérer, qui est de plaire. Il me <app>
+                                <lem source="#edition8">paraît</lem>
+                                <rdg source="#edition4">semble</rdg>
+                            </app> qu’on devrait seulement admirer l’inconstance et la
+                                    <seg>légèreté<note resp="#lesaffre" type="gloss"
+                                    source="#furetiere">"se dit figurément en morale pour dire
+                                    faiblesse d'esprit, inconstance, défaut de solidité dans les
+                                    raisons, etc." (Furetière)</note></seg> des hommes, qui
                             attachent successivement les agréments et la bienséance à des choses
-                            tout opposées, qui emploient pour le comique et pour la mascarade<note
-                                resp="#lesaffre" type="gloss" source="#furetière">"Troupe de
-                                personnes qui vont danser et se divertir, surtout en la saison de
-                                Carnaval. [...] Se dit aussi d'une personne mal mise ou mal
-                                proprement ajustée, comme si elle voulait se déguiser et aller en
-                                masque." (Furetière) Le mot à l'époque n'est pas autant rapproché au
-                                thème de la tromperie comme il l'est de nos jours, même si le
-                                dictionnaire Furetière note un sème d'hypocrisie : "On le dit aussi
-                                de ceux qui trompent sous apparence d'honnêteté, qui déguisent leurs
-                                sentiments".</note> ce qui leur a servi de parure grave et
+                            tout opposées, qui emploient pour le comique et pour la
+                                    <seg>mascarade<note resp="#lesaffre" type="gloss"
+                                    source="#furetière">"Troupe de personnes qui vont danser et se
+                                    divertir, surtout en la saison de Carnaval. [...] Se dit aussi
+                                    d'une personne mal mise ou mal proprement ajustée, comme si elle
+                                    voulait se déguiser et aller en masque." (Furetière) Le mot à
+                                    l'époque n'est pas autant rapproché au thème de la tromperie
+                                    comme il l'est de nos jours, même si le dictionnaire Furetière
+                                    note un sème d'hypocrisie : "On le dit aussi de ceux qui
+                                    trompent sous apparence d'honnêteté, qui déguisent leurs
+                                    sentiments".</note></seg> ce qui leur a servi de parure grave et
                             d’ornements les plus sérieux ; et que si peu de temps en fasse la
                             différence.</p>
                     </div3>
                     <div3 source="#edition8" n="13">
-                        <p>N… est riche, elle mange bien, elle dort bien ; mais les coiffures
-                            changent, et lorsqu’elle y pense le moins, et qu’elle se croit heureuse,
-                            la sienne est hors de mode.</p>
+                        <p><g ref="char_pm"/>N… est riche, elle mange bien, elle dort bien ; mais
+                            les coiffures changent, et lorsqu’elle y pense le moins, et qu’elle se
+                            croit heureuse, la sienne est hors de mode.</p>
                     </div3>
                     <div3 source="#edition8" n="14">
-                        <p><name rend="italic">Iphis</name> voit à l’église un soulier d’une
-                            nouvelle mode ; il regarde le sien et en rougit ; il ne se croit plus
-                            habillé. Il était venu à la messe pour s’y montrer, et il se cache ; le
-                            voilà retenu par le pied dans sa chambre tout le reste du jour. Il a la
-                            main douce, et il l’entretien avec une pâte de senteur<note
-                                resp="#lesaffre" type="explication">Équivalent à la crème de soin ou
-                                la crème hydratante aujourd'hui.</note> ; il a soin de rire pour
-                            montrer ses dents ; il fait la petite bouche, et il n’y a guère de
-                            moments où il ne veuille sourire ; il regarde ses jambes, et se voit au
-                            miroir : l’on ne peut être plus content de personne qu’il l’est de
-                            lui-même ; il s’est acquis une voix claire et délicate, et heureusement
-                            il parle gras ; il a un mouvement de tête, et je ne sais quel
-                            adoucissement dans les yeux, dont il n’oublie pas de s’embellir ; il a
-                            une démarche molle et le plus joli maintien qu’il est capable de se
-                            procurer ; il met du rouge, mais rarement, il n’en fait pas habitude. Il
-                            est vrai aussi qu’il porte des chausses<note resp="#lesaffre"
-                                type="gloss" source="furetiere">"ou haut-de-chausses, signifie la
-                                partie inférieure de l'habit d'un homme, qui lui couvre les fesses,
-                                le ventre et les cuisses" (Furetière)</note> et un chapeau, et qu’il
-                            n’a ni boucles d’oreilles ni collier de perles ; aussi ne l’ai-je pas
-                            mis dans le chapitre des femmes.</p>
+                        <p><g ref="char_pm"/><name rend="italic">Iphis</name> voit à l’église un
+                            soulier d’une nouvelle mode ; il regarde le sien et en rougit ; il ne se
+                            croit plus habillé. Il était venu à la messe pour s’y montrer, et il se
+                            cache ; le voilà retenu par le pied dans sa chambre tout le reste du
+                            jour. Il a la main douce, et il l’entretien avec une <seg>pâte de
+                                    senteur<note resp="#lesaffre" type="explication">Équivalent à la
+                                    crème de soin ou la crème hydratante aujourd'hui.</note></seg> ;
+                            il a soin de rire pour montrer ses dents ; il fait la petite bouche, et
+                            il n’y a guère de moments où il ne veuille sourire ; il regarde ses
+                            jambes, et se voit au miroir : l’on ne peut être plus content de
+                            personne qu’il l’est de lui-même ; il s’est acquis une voix claire et
+                            délicate, et heureusement il parle gras ; il a un mouvement de tête, et
+                            je ne sais quel adoucissement dans les yeux, dont il n’oublie pas de
+                            s’embellir ; il a une démarche molle et le plus joli maintien qu’il est
+                            capable de se procurer ; il met du rouge, mais rarement, il n’en fait
+                            pas habitude. Il est vrai aussi qu’il porte des <seg>chausses<note
+                                    resp="#lesaffre" type="gloss" source="furetiere">"ou
+                                    haut-de-chausses, signifie la partie inférieure de l'habit d'un
+                                    homme, qui lui couvre les fesses, le ventre et les cuisses"
+                                    (Furetière)</note></seg> et un chapeau, et qu’il n’a ni boucles
+                            d’oreilles ni collier de perles ; aussi ne l’ai-je pas mis dans le
+                            chapitre des femmes.</p>
                     </div3>
                     <div3 source="#edition8" n="15">
-                        <p>Ces mêmes modes que les hommes suivent si volontiers pour leurs
-                            personnes, ils affectent de les négliger dans leurs portraits, comme
-                            s’ils sentaient ou qu’ils prévissent l’indécence et le ridicule où elles
-                            peuvent tomber dès qu’elles auront perdu ce qu’on appelle la fleur ou
-                            l’agrément de la nouveauté ; ils leur préfèrent une parure arbitraire,
-                            une draperie indifférente, fantaisie<note resp="#lesaffre"
-                                type="variante">"-s" du pluriel dans la version papier</note> du
-                            peintre qui ne sont prises ni sur l’air ni sur le visage, qui ne
-                            rappellent ni les mœurs ni la personne. Ils aiment des attitudes forcées
-                            ou immodestes, une manière dure, sauvage, étrangère, qui font un
-                                capitan<note resp="#lesaffre" type="explication">Personnage-type de
-                                la commedia dell' arte, prétentieux et faisant preuve de fausse
-                                bravoure. Utilisé ici en paronomase.</note> d’un jeune abbé, et un
-                                matamore<note resp="#lesaffre" type="gloss">Homme faisant preuve de
-                                bravade, de fausse bravoure.</note> d’un homme de robe ; une
-                                Diane<note resp="#lesaffre" type="gloss">Déesse latine de la chasse.
-                                Son nom grec est Artémis.</note> d’une femme de ville ; comme d’une
-                            femme simple et timide une amazone<note resp="#lesaffre" type="gloss"
-                                >Femme issue du peuple de guerrières du même nom dans la mythologie
-                                gréco-latine.</note> ou une Pallas<note resp="#lesaffre"
-                                type="gloss">Une des épiclèses, ou un des surnoms de la déesse
-                                Athéna.</note> ; une Laïs<note resp="#lesaffre" type="gloss"
-                                >Antonomase potentiellement issue du nom d'une courtisane grecque,
-                                censée désigner une femme galante au sens du XVIIe siècle.</note>
-                            d’une honnête fille ; un Scythe<note resp="#lesaffre" type="gloss"
-                                source="#TLFI">Membre du peuple indo-européen antique scythe, sens
-                                déformé en "homme grossier, barbare" (TLFI)</note>, un Attila, d’un
-                            prince qui est bon et magnanime.</p>
+                        <p><g ref="char_pm"/>Ces mêmes modes que les hommes suivent si volontiers
+                            pour leurs personnes, ils affectent de les négliger dans leurs
+                            portraits, comme s’ils sentaient ou qu’ils prévissent l’indécence et le
+                            ridicule où elles peuvent tomber dès qu’elles auront perdu ce qu’on
+                            appelle la fleur ou l’agrément de la nouveauté ; ils leur préfèrent une
+                            parure arbitraire, une draperie indifférente, <app>
+                                <lem source="#edition19e">fantaisie</lem>
+                                <rdg source="#edition8">fantaisies</rdg>
+                            </app> du peintre qui ne sont prises ni sur l’air ni sur le visage, qui
+                            ne rappellent ni les mœurs ni la personne. Ils aiment des attitudes
+                            forcées ou immodestes, une manière dure, sauvage, étrangère, qui font un
+                                    <seg>capitan<note resp="#lesaffre" type="explication"
+                                    >Personnage-type de la commedia dell' arte, prétentieux et
+                                    faisant preuve de fausse bravoure. Utilisé ici en
+                                    antonomase.</note></seg> d’un jeune abbé, et un
+                                    <seg>matamore<note resp="#lesaffre" type="gloss">Homme faisant
+                                    preuve de bravade, de fausse bravoure.</note></seg> d’un homme
+                            de robe ; une <seg>Diane<note resp="#lesaffre" type="gloss">Déesse
+                                    latine de la chasse. Son nom grec est Artémis. Utilisé ici en
+                                    antonomase.</note></seg> d’une femme de ville ; comme d’une
+                            femme simple et timide une amazone<seg><note resp="#lesaffre"
+                                    type="gloss">Femme issue du peuple de guerrières du même nom
+                                    dans la mythologie gréco-latine.</note></seg> ou une
+                                    <seg>Pallas<note resp="#lesaffre" type="gloss">Une des
+                                    épiclèses, ou un des surnoms de la déesse Athéna.</note></seg> ;
+                            une <seg>Laïs<note resp="#lesaffre" type="gloss">Antonomase
+                                    potentiellement issue du nom d'une courtisane grecque, censée
+                                    désigner une femme galante au sens du XVIIe siècle.</note></seg>
+                            d’une honnête fille ; un <seg>Scythe<note resp="#lesaffre" type="gloss"
+                                    source="#TLFI">Membre du peuple indo-européen antique scythe,
+                                    sens déformé en "homme grossier, barbare" (TLFI)</note></seg>,
+                            un Attila, d’un prince qui est bon et magnanime.</p>
                         <p>Une mode a à peine détruit une autre mode, qu’elle est abolie par une
                             plus nouvelle, qui cède elle-même à celle qui la suit, et qui ne sera
                             pas la dernière : telle est notre légèreté. Pendant ces révolutions, un
@@ -234,59 +295,59 @@
                             passées et qui ne sont plus. La mode alors la plus curieuse et qui fait
                             plus de plaisir à voir, c’est la plus ancienne : aidée du temps et des
                             années, elle a le même agrément dans les portraits qu’a la saye ou
-                            l’habit romain sur les théâtres, qu’ont la mante<noteGrp
-                                resp="#labruyere" position="ext" place="margin" type="definition"
-                                    ><note>Habits des Orientaux</note> , le voile<note/> et la
-                                tiare<note/> dans nos tapisseries et dans nos
-                            peintures.</noteGrp></p>
+                            l’habit romain sur les théâtres, qu’ont la <noteGrp resp="#labruyere"
+                                place="margin" type="definition"><seg>mante<note>Habits des
+                                        Orientaux</note></seg> , le <seg>voile<note>Habits des
+                                        Orientaux</note></seg> et la <seg>tiare<note>Habits des
+                                        Orientaux</note></seg></noteGrp> dans nos tapisseries et
+                            dans nos peintures.</p>
                         <p>Nos pères nous ont transmis, avec la connaissance de leurs personnes,
-                            celle de leurs habits, de leurs coiffures, de leurs armes<note
-                                resp="#labruyere" position="ext" place="margin" type="definition"
-                                >offensives et défensives</note> , et des autres ornements qu’ils
-                            ont aimés pendant leur vie. Nous ne saurions bien reconnaître cette
-                            sorte de bienfait qu’en traitant de même nos descendants.</p>
+                            celle de leurs habits, de leurs coiffures, de leurs <seg>armes<note
+                                    resp="#labruyere" place="margin" type="definition">offensives et
+                                    défensives</note></seg> , et des autres ornements qu’ils ont
+                            aimés pendant leur vie. Nous ne saurions bien reconnaître cette sorte de
+                            bienfait qu’en traitant de même nos descendants.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="16">
-                        <p>Le courtisan autrefois avait ses cheveux<note resp="#lesaffre"
-                                type="explication">Étant donné le contexte de la phrase, nous
-                                déduisons que les cheuveux naturels sont portés non sous la forme de
-                                perruque pour cette occurence, mais tels qu'ils poussent sur le
-                                crâne.</note>, étaient en chausses et en pourpoint, portait de
-                            larges canons, et il était libertin. Cela ne sied plus : il porte une
-                            perruque, l’habit serré, le bas uni, et il est dévot : tout se règle par
-                            la mode.</p>
+                        <p><g ref="char_pm"/>Le courtisan autrefois avait ses <seg>cheveux<note
+                                    resp="#lesaffre" type="explication">Étant donné le contexte de
+                                    la phrase, nous déduisons que les cheuveux naturels sont portés
+                                    non sous la forme de perruque pour cette occurence, mais tels
+                                    qu'ils poussent sur le crâne.</note></seg>, étaient en chausses
+                            et en pourpoint, portait de larges canons, et il était libertin. Cela ne
+                            sied plus : il porte une perruque, l’habit serré, le bas uni, et il est
+                            dévot : tout se règle par la mode.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="17">
-                        <p>Celui qui depuis quelque temps à la cour était dévot, et par là, contre
-                            toute raison, peu éloigné du ridicule, pouvait-il espérer de devenir à
-                            la mode ?</p>
+                        <p><g ref="char_pm"/>Celui qui depuis quelque temps à la cour était dévot,
+                            et par là, contre toute raison, peu éloigné du ridicule, pouvait-il
+                            espérer de devenir à la mode ?</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="18">
-                        <p>De quoi n’est point capable un courtisan dans la vue de sa fortune, si
-                            pour ne la pas manquer il devient dévot ?</p>
+                        <p><g ref="char_pm"/>De quoi n’est point capable un courtisan dans la vue de
+                            sa fortune, si pour ne la pas manquer il devient dévot ?</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="19">
-                        <p>Les couleurs sont préparées, et la toile est toute prête ; mais comment
-                            le fixer, cet homme inquiet, léger, inconstant, qui change de mille et
-                            mille figures ? Je le peins dévot, et je crois l’avoir attrapé ; mais il
-                            m’échappe, et déjà il est libertin. Qu’il demeure du moins dans cette
-                            mauvaise situation, et je saurai le prendre dans un point de dérèglement
-                            de cœur et d’esprit où il sera reconnaissable ; mais la mode presse, il
-                            est dévot.</p>
+                        <p><g ref="char_pm"/>Les couleurs sont préparées, et la toile est toute
+                            prête ; mais comment le fixer, cet homme inquiet, léger, inconstant, qui
+                            change de mille et mille figures ? Je le peins dévot, et je crois
+                            l’avoir attrapé ; mais il m’échappe, et déjà il est libertin. Qu’il
+                            demeure du moins dans cette mauvaise situation, et je saurai le prendre
+                            dans un point de dérèglement de cœur et d’esprit où il sera
+                            reconnaissable ; mais la mode presse, il est dévot.</p>
                     </div3>
                     <div3 source="#edition8" n="20">
-                        <p>Celui qui a pénétré la cour connaît ce que c’est que vertu et ce que
-                            c’est que dévotion<note resp="#labruyere" position="ext" place="margin"
-                                type="definition">fausse dévotion</note> il ne peut plus s’y
-                            tromper.</p>
+                        <p><g ref="char_pm"/>Celui qui a pénétré la cour connaît ce que c’est que
+                            vertu et ce que c’est que <seg>dévotion<note resp="#labruyere"
+                                    place="margin" type="definition">fausse dévotion</note></seg>:
+                            il ne peut plus s’y tromper.</p>
                     </div3>
                     <div3 source="#edition8" n="21">
-                        <p><note resp="#lesaffre" type="conventiontypo">Présence d'un manicule avant
-                                l'alinéa et le pied de mouche sur l'original</note>Négliger vêpres
-                            comme une chose antique et hors de mode, garder sa place soi-même pour
-                            le salut, savoir les êtres de la chapelle, connaître le flanc, savoir où
-                            l’on est vu et où l’on n’est pas vu ; rêver dans l’église à Dieu et à
-                            ses affaires, y recevoir des visites, y donner des ordres et des
+                        <p><g ref="char_man_right"/><g ref="char_pm"/>Négliger vêpres comme une
+                            chose antique et hors de mode, garder sa place soi-même pour le salut,
+                            savoir les êtres de la chapelle, connaître le flanc, savoir où l’on est
+                            vu et où l’on n’est pas vu ; rêver dans l’église à Dieu et à ses
+                            affaires, y recevoir des visites, y donner des ordres et des
                             commissions, y attendre les réponses ; avoir un directeur mieux écouté
                             que l’Evangile ; tirer toute sa sainteté et tout son relief de la
                             réputation de son directeur, dédaigner ceux dont le directeur a moins de
@@ -305,9 +366,9 @@
                             mérite, faire servir la piété à son ambition, aller à son salut par le
                             chemin de la fortune et des dignités : c’est du moins jusqu’à ce jour le
                             plus bel effort de la dévotion du temps.</p>
-                        <p>Un dévot<note resp="#labruyere" position="ext" place="margin"
-                                type="definition">faux dévot</note> est celui qui sous un roi athée
-                            serait athée.</p>
+                        <p>Un <seg>dévot<note resp="#labruyere" place="margin" type="definition"
+                                    >faux dévot</note></seg> est celui qui sous un roi athée serait
+                            athée.</p>
                     </div3>
                 </div2>
             </div1>
