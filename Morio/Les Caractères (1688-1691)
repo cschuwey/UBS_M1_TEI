@@ -56,6 +56,40 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <mapping>¶</mapping>
+                    <desc>Pied-de-mouche. Signale la remarque d'origine</desc>
+                </char>
+            </charDecl>
+            <charDecl>
+                <char xml:id="char_pm_par">
+                    <mapping>(¶)</mapping>
+                    <desc>Pied-de-mouche à parenthèses simples. Signale une nouvelle
+                        remarque.</desc>
+                </char>
+            </charDecl>
+            <charDecl>
+                <char xml:id="char_pm_par2">
+                    <mapping>((¶))</mapping>
+                    <desc>Pied-de-mouche à parenthèses doubles. Signale une nouvelle
+                        remarque.</desc>
+                </char>
+            </charDecl>
+            <charDecl>
+                <char xml:id="manicule_gauche">
+                    <mapping>☚</mapping>
+                    <desc>Manicule pointant vers la gauche. Signale une nouvelle remarque à partir
+                        de l'édition 7 de l'ouvrage.</desc>
+                </char>
+            </charDecl>
+            <charDecl>
+                <char xml:id="manicule_droit">
+                    <mapping>☛</mapping>
+                    <desc>Manicule pointant vers la droite. Signale une nouvelle remarque à partir
+                        de l'édition 7 de l'ouvrage.</desc>
+                </char>
+            </charDecl>
             <editorialDecl>
                 <interpretation>
                     <p>Division du titre en titre principal ("main") et en sous-titre ("sub")</p>
@@ -85,6 +119,10 @@
                     par édition.</change>
                 <change when="2023-10-27">Ajout d'une note inventée au nom de La Bruyère ainsi que
                     de trois notes au nom de Morio.</change>
+                <change when="2023-11-07">Suppression de la remarque n°7 de l'édition 1 et ajout
+                    d'une note dans la remarque n°2. Ajout de deux "app" pour indiquer un changement
+                    de typographie et de balises "CharDecl" dans "encodingDesc" pour intégrer les
+                    pieds-de-mouche et les manicules.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -96,84 +134,95 @@
                 <div2 type="chapitre">
                     <head>Des Ouvrages de l'Esprit</head>
                     <div3 type="remarque" n="1" source="#edition1 #edition6">
-                        <p>Tout est dit, et l’on vient trop tard depuis plus de sept mille ans qu’il
-                            y a des hommes et qui pensent. Sur ce qui concerne les mœurs, le plus
-                            beau et le meilleur est enlevé ; l’on ne fait que glaner après les
-                            anciens et les habiles d’entre les modernes.</p>
+                        <p>Tout est dit, <app>
+                                <lem>et</lem>
+                                <rdg source="#edition1 #edition6">&amp;</rdg>
+                            </app> l’on vient trop tard depuis plus de sept mille ans qu’il y a des
+                            hommes et qui pensent. Sur ce qui concerne les mœurs, le plus beau et le
+                            meilleur est enlevé ; l’on ne fait que glaner après les anciens et les
+                            habiles d’entre les modernes.</p>
                     </div3>
                     <div3 type="remarque" n="2" source="#edition1 #edition6">
-                        <p>Il faut chercher seulement à penser et à parler juste, sans vouloir
-                            amener les autres à notre goût et à nos sentiments ; c’est une trop
-                            grande entreprise.</p>
+                        <p><g ref="#char_pm"/>Il faut chercher seulement à penser et à parler juste,
+                            sans vouloir amener les autres à notre goût et à nos sentiments ; c’est
+                            une trop grande entreprise.</p>
+                        <note resp="#morio" type="précision" place="below">Les avis peuvent différer
+                            les uns des autres, il faut l'accepter.</note>
                     </div3>
                     <div3 type="remarque" n="3" source="#edition1 #edition6">
-                        <p>C’est un métier que de faire un livre, comme de faire une pendule : il
-                            faut plus que de l’esprit pour être auteur. Un magistrat allait par son
-                            mérite à la première dignité, il était homme délié et pratique dans les
-                            affaires : il a fait imprimer un ouvrage moral, qui est rare par le
-                            ridicule.</p>
+                        <p><g ref="#char_pm"/>C’est un métier que de faire un livre, comme de faire
+                            une pendule : il faut plus que de l’esprit pour être <app>
+                                <lem>auteur</lem>
+                                <rdg source="#edition1 #edition6">Auteur</rdg>
+                            </app>. Un magistrat allait par son mérite à la première dignité, il
+                            était homme délié et pratique dans les affaires : il a fait imprimer un
+                            ouvrage moral, qui est rare par le ridicule.</p>
                     </div3>
                     <div3 type="remarque" n="4" source="#edition1 #edition6">
-                        <p>Il n’est pas si aisé de se faire un nom par un ouvrage parfait, que d’en
-                            faire valoir un médiocre par le nom qu’on s’est déjà acquis.</p>
+                        <p><g ref="#char_pm"/>Il n’est pas si aisé de se faire un nom par un ouvrage
+                            parfait, que d’en faire valoir un médiocre par le nom qu’on s’est déjà
+                            acquis.</p>
                     </div3>
                     <div3 type="remarque" n="5" source="#edition1 #edition6">
-                        <p>Un ouvrage satirique ou qui contient des faits, qui est donné en feuilles
-                            sous le manteau aux conditions d’être rendu de même, s’il est médiocre,
-                            passe pour merveilleux ; l’impression est l’écueil.</p>
+                        <p><g ref="#char_pm"/>Un ouvrage satirique ou qui contient des faits, qui
+                            est donné en feuilles sous le manteau aux conditions d’être rendu de
+                            même, s’il est médiocre, passe pour merveilleux ; l’impression est
+                            l’écueil.</p>
                     </div3>
                     <div3 type="remarque" n="6" source="#edition1 #edition6">
-                        <p>Si l’on ôte de beaucoup d’ouvrages de morale l’avertissement au lecteur,
-                                <seg>l’épître dédicatoire<note resp="#morio" type="gloss"
-                                    place="end">Une épître dédicatoire est situé au début d'un
-                                    ouvrage. Il s'agit d'un paragraphe dédié à une personne
-                                </note></seg>, la préface, la table, les approbations, il reste à
-                            peine assez de pages pour mériter le nom de livre.</p>
+                        <p><g ref="#char_pm"/>Si l’on ôte de beaucoup d’ouvrages de morale
+                            l’avertissement au lecteur, <seg>l’épître dédicatoire<note resp="#morio"
+                                    type="gloss" place="end">Une épître dédicatoire est situé au
+                                    début d'un ouvrage. Il s'agit d'un paragraphe dédié à une
+                                    personne </note></seg>, la préface, la table, les approbations,
+                            il reste à peine assez de pages pour mériter le nom de livre.</p>
                     </div3>
-                    <div3 type="remarque" n="7" source="edition1">
-                        <p>Quel supplice que celui d’entendre prononcer de médiocres vers avec toute
-                            l’emphase d’un mauvais poète.</p>
-                        <note resp="#morio" type="précision" place="below">Première remarque a être
-                            différente entre les éditions 1 et 6.</note>
+                    <div3 type="remarque" n="7" source="#edition1">
+                        <p><g ref="#char_pm"/>Quel supplice que celui d’entendre prononcer de
+                            médiocres vers avec toute l’emphase d’un mauvais poète.</p>
                     </div3>
-                    <div3 type="remarque" n="7" source="edition6">
-                        <p>Il y a de certaines choses dont la médiocrité est insupportable : la
-                            poésie, la musique, la peinture, le discours public.</p>
+                    <div3 type="remarque" n="7" source="#edition6">
+                        <p><g ref="#char_pm"/>Il y a de certaines choses dont la médiocrité est
+                            insupportable : la poésie, la musique, la peinture, le discours
+                            public.</p>
                         <p>Quel supplice que celui d’entendre déclamer pompeusement un froid
                             discours, ou prononcer de médiocres vers avec toute l’emphase d’un
                             mauvais poète !</p>
                     </div3>
                     <div3 type="remarque" n="8" source="#edition1">
-                        <p>Il y a de certaines choses dont la médiocrité est insupportable : la
-                            poésie, la musique, la peinture, le discours public.</p>
+                        <p><g ref="#char_pm"/>Il y a de certaines choses dont la médiocrité est
+                            insupportable : la poésie, la musique, la peinture, le discours
+                            public.</p>
                         <note resp="#labruyere" type="inventée" place="margin">La Bruyère est
                             exigeant.</note>
                     </div3>
                     <div3 type="remarque" n="8" source="#edition6">
-                        <p>Certains poètes sont sujets, dans le dramatique, à de longues suites de
-                            vers pompeux, qui semblent forts, élevés, et remplis de grands
-                            sentiments. Le peuple écoute avidement, les yeux élevés et la bouche
-                            ouverte, croit que cela lui plaît, et à mesure qu’il y comprend moins
-                            l’admire davantage ; il n’a pas le temps de respirer, il a à peine celui
-                            de se récrier et d’applaudir. J’ai cru autrefois, et dans ma première
-                            jeunesse, que ces endroits étaient clairs et intelligibles pour les
-                            acteurs, pour le parterre et l’amphithéâtre, que leurs auteurs
+                        <p><g ref="#char_pm"/>Certains poètes sont sujets, dans le dramatique, à de
+                            longues suites de vers pompeux, qui semblent forts, élevés, et remplis
+                            de grands sentiments. Le peuple écoute avidement, les yeux élevés et la
+                            bouche ouverte, croit que cela lui plaît, et à mesure qu’il y comprend
+                            moins l’admire davantage ; il n’a pas le temps de respirer, il a à peine
+                            celui de se récrier et d’applaudir. J’ai cru autrefois, et dans ma
+                            première jeunesse, que ces endroits étaient clairs et intelligibles pour
+                            les acteurs, pour le parterre et l’amphithéâtre, que leurs auteurs
                             s’entendaient eux-mêmes, et qu’avec toute l’attention que je donnais à
                             leur récit, j’avais tort de n’y rien entendre : je suis détrompé.</p>
                     </div3>
                     <div3 type="remarque" n="9" source="#edition1 #edition6">
-                        <p>L’on n’a guère vu jusques à présent un chef-d’œuvre d’esprit qui soit
-                            l’ouvrage de plusieurs : <seg>Homère a fait l’Iliade, Virgile l’Enéide,
-                                Tite-Live ses Décades, et l’Orateur romain ses Oraisons.<note
-                                    resp="#morio" type="descriptive" place="bottom">Mention
-                                    d'auteurs et d'oeuvres connus.</note></seg></p>
+                        <p><g ref="#char_pm"/>L’on n’a guère vu jusques à présent un chef-d’œuvre
+                            d’esprit qui soit l’ouvrage de plusieurs : <seg>Homère a fait l’Iliade,
+                                Virgile l’Enéide, Tite-Live ses Décades, et l’Orateur romain ses
+                                    Oraisons.<note resp="#morio" type="descriptive" place="bottom"
+                                    >Mention d'auteurs et d'oeuvres connus.</note></seg></p>
                     </div3>
                     <div3 type="remarque" n="10" source="#edition1 #edition6">
-                        <p>Il y a dans l’art un point de perfection, comme de bonté ou de maturité
-                            dans la nature. Celui qui le sent et qui l’aime a le goût parfait ;
-                            celui qui ne le sent pas, et qui aime en deçà ou au delà, a le goût
-                            défectueux. Il y a donc un bon et un mauvais goût, et l’on dispute des
-                            goûts avec fondement.</p>
+                        <p><g ref="#char_pm"/>Il y a dans l’art un point de perfection, comme de
+                            bonté ou de maturité dans la nature. Celui qui le sent <app>
+                                <lem>et</lem>
+                                <rdg source="#edition1 #edition6">&amp;</rdg>
+                            </app> qui l’aime a le goût parfait ; celui qui ne le sent pas, et qui
+                            aime en deçà ou au delà, a le goût défectueux. Il y a donc un bon et un
+                            mauvais goût, et l’on dispute des goûts avec fondement.</p>
                     </div3>
                 </div2>
             </div1>
