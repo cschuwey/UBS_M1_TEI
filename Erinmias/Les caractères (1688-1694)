@@ -20,6 +20,7 @@
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Paris</placeName>
                     <publisher>Etienne Michallet</publisher>
+                    <authority xml:id="Erinmias">Erin Mias</authority>
                     <date>1688</date>
                 
                 </bibl></listBibl>
@@ -27,6 +28,7 @@
                 <bibl xml:id="edition8">
                   <author>La Bruyère, Jean de</author>
                     <affiliation xml:id="invisihands">invisihands</affiliation>
+                    <authority xml:id="Erinmias">Erin Mias</authority>
                     <publisher xml:id="Erin">erin</publisher>
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Lyon</placeName>
@@ -74,6 +76,7 @@
                 <change when="2023-10-20">Ajout de la numérotation des remarques.</change>
                 <change when="2023-10-23">Ajout des des sources</change>
                  <change when="2023-10-23">Ajout d'une nouvelle édition</change>
+                  <change when="2023-11-07">Encodage de note</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -139,7 +142,10 @@
                             entre les mortels possède une telle prune ! </p>
 
                         <p> Un troisième que vous allez voir vous parle des curieux ses confrères,
-                            et surtout de Diognète. "Je l’admire, dit-il, et je le comprends moins
+                            et surtout de Diognète.<seg>note inventée 1 <note type="definition"
+                                    ref="Erinmias" place="side" source="#edition8">définition
+                            Claudios Diognetos, procurateur équestre en poste en Égypte entre 197 et 202 ; d'autres évoquent le philosophe stoïcien Diognète, 
+                            un des précepteurs de Marc-Aurèle.</note></seg> "Je l’admire, dit-il, et je le comprends moins
                             que jamais. Pensez-vous qu’il cherche à s’instruire par des médailles,
                             et qu’il les regarde comme des preuves parlantes de certains faits, et
                             des monuments fixes et indubitables de l’ancienne histoire ? rien moins.
@@ -318,14 +324,17 @@
                             ; on espère qu’il pourra du moins se sauver et venir à bord ; mais une
                             vague l’enfonce, on le tient perdu ; il paraît une seconde fois, et les
                             espérances se réveillent, lorsqu’un flot survient et l’abîme : on ne le
-                            revoit plus, il est noyé. </p>
+                            revoit plus, il est noyé.<seg>note inventée 2 <note type="definition"
+                                    ref="Erinmias" place="bottom" source="#edition3">Eustrate de Nicée
+                      (en grec Εὐστράτιος Νικαίας) est un philosophe et théologien byzantin.</note></seg> </p>
                     </div3>
                     <div3 type="remarque" n="10"source="#edition8 #edition7" >
                         <p> Voiture et Sarrazin étaient nés pour leur siècle, et ils ont paru dans
                             un temps où il semble qu’ils étaient attendus. S’ils s’étaient moins
                             pressés de venir, ils arrivaient trop tard ; et j’ose douter qu’ils
                             fussent tels aujourd’hui qu’ils ont été alors. Les conversations
-                            légères, les cercles, la fine plaisanterie, les lettres enjouées et
+                            légères, les cercles, la fine plaisanterie<seg>plaisanterie
+                            <note ref="#LaBruyere" place="bottom" source="#edition3">blablabla</note></seg>, les lettres enjouées et
                             familières, les petites parties où l’on était admis seulement avec de
                             l’esprit, tout a disparu. Et qu’on ne dise point qu’ils les feraient
                             revivre : ce que je puis faire en faveur de leur esprit est de convenir
