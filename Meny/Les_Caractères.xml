@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,7 +21,7 @@
                         <publisher>E. Michallet</publisher>
                         <date>1688</date>
                         <edition>première édition</edition>
-                        <idno URL="https://gallica.bnf.fr/ark:/12148/bpt6k105077m/f1.item"/>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m/f1.item</ref>
                     </bibl>
                     <bibl xml:id="edition6">
                         <author>J. de La Bruyère</author>
@@ -31,7 +31,7 @@
                         <publisher>E. Michallet</publisher>
                         <date>1691</date>
                         <edition>sixième édition</edition>
-                        <idno URL="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=193134;0"/>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=193134;0</ref>
                     </bibl>
                     <bibl xml:id="edition8">
                         <author>J. de La Bruyère</author>
@@ -41,14 +41,30 @@
                         <publisher>E. Michallet</publisher>
                         <date>1694</date>
                         <edition>huitiène édition</edition>
-                        <idno
-                            URL="https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f159.item.r=Les%20caract%C3%A8res%20de%20Th%C3%A9ophraste%20traduits%20du%20grec"
-                        />
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f159.item.r=Les%20caract%C3%A8res%20de%20Th%C3%A9ophraste%20traduits%20du%20grec</ref>
                     </bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <mapping>❡</mapping>
+                    <desc>Pied-de-mouche simple. Signale une  remarque présente depuis l'édition 1.</desc>
+                </char>
+                <char xml:id="char_pm-par">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied-de-mouche à parenthèses simples. Signale une nouvelle remarque présente dans l'édition 4.</desc>
+                </char>
+                <char xml:id="char_pm-par2">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied-de-mouche à parenthèses doubles. Signale une nouvelle remarque présente dans l'édition 5.</desc>
+                </char>
+                <char xml:id="char_manicule">
+                    <mapping>☚</mapping>
+                    <desc>Manicule pointant à droite. Signale une nouvelle remarque présente à partir de l'édition 7.</desc>
+                </char>
+            </charDecl>
             <editorialDecl>
                 <normalization>
                     <p>Graphie modernisée</p>
@@ -61,37 +77,48 @@
                     <p> div3 = une pour chaque pied-de-mouche</p>
                     <p> p = chaque paragraphe au sein d'un pied-de-mouche</p>
                     <p> les numéros de la remarque sont indiqués dans la div 3 dans l'attribut n</p>
+                    <p> la balise <!-- lem --> fait référence au texte à la graphie normalisée</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language idents="fra">Français</language>
+                <language ident="fra">Français</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-10">Ajout des méta-données du fichier.</change>
             <change when="2023-10-16">Encodage du chapitre 2 "Des Femmes", ajout des URL dans
-                l'élément bibl avec idno URL</change>
+                l'élément bibl avec idno URL.</change>
             <change when="2023-10-17">Ajout de la huitième édition dans les méta-données, recherche
-                des remarques dans les trois éditions</change>
+                des remarques dans les trois éditions.</change>
             <change when="2023-10-23">Ajout d'identité à author et au publisher pour y faire
                 référence avec resp. Ajout d'une div4 pour noter la différence de présentation des
                 remarques entre l'éditon 1, et les éditions 6 et 8. Ajout de 3 notes fictives de
                 l'auteur dans un attribut resp="unknown" car manscrites donc pas liées
                 officiellement à l'auteur, et de 3 notes du publisher avec les types gloss et
-                explication. </change>
+                explication.</change>
+            <change when="2023-11-07">Modification de la balise des liens dans le TEIheader par
+                <!--ref-->, suppression dans les div 1 et 2 des titres qui se répètent dans la
+                balise <!--head--> pour effectuer la validation, ajout d'une interpretation dans
+                l'encoding desc, ajout de deux balises <!--app--> pour deux variations de texte,
+                ajout du <!--charDecl-->.</change>
         </revisionDesc>
     </teiHeader>
 
     <text>
         <body>
-            <div1 type="ouvrage">Les Caractères ou les moeurs de ce siècle.<head>Les Caractères ou
-                    les moeurs de ce siècle</head>
-                <div2 type="chapitre" n="3">Des Femmes. <head>Des femmes.</head>
+            <div1 type="ouvrage">
+                <head>Les Caractères ou les moeurs de ce siècle</head>
+                <div2 type="chapitre" n="3">
+                    <head>Des femmes.</head>
                     <div3 n="32" source="#edition1 #edition6 #edition8">
-                        <p>Est-ce en vue du secret, ou par un goût hypocondre, que cette femme aime
-                            un valet, cette autre un moine, et <seg>Dorinne <note place="margin"
+                        <p>Est-ce en <app type="morpho">
+                                <lem>vue</lem>
+                                <rdg source="#edition1">veuë</rdg>
+                                <rdg source="#edition8">vûe</rdg>
+                            </app>du secret, ou par un goût hypocondre, que cette femme aime un
+                            valet, cette autre un moine, et <seg>Dorinne <note place="margin"
                                     resp="#unknown">note fictive</note></seg>son médecin ?</p>
                     </div3>
                     <div3 n="33" source="#edition8">
@@ -184,8 +211,10 @@
                     <div3 n="39" source="#edition6 #edition8">
                         <p>Si une femme pouvait dire à son confesseur, avec ses autres faiblesses,
                             celles qu’elle a pour son directeur ; et le temps qu’elle perd dans son
-                            entretien, peut-être lui serait-il donné pour pénitence d’y
-                            renoncer.</p>
+                            entretien, peut-être lu<app type="morpho">
+                                <lem>i sera</lem>
+                                <rdg source="#edition1 #edition8">y fero</rdg>
+                            </app>it-il donné pour pénitence d’y renoncer.</p>
                     </div3>
                     <div3 n="40" source="#edition6 #edition8">
                         <p>Je voudrais qu’il me fût permis de crier de toute ma force à ces hommes
