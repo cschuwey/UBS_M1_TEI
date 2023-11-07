@@ -64,12 +64,14 @@
                 <char xml:id="char_pm1">
                     <mapping>(❡)</mapping>
                     <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
-                        remarque. Il devait indiquer les remarques ajoutées à partir de l'édition 4.</desc>
+                        remarque. Il devait indiquer les remarques ajoutées à partir de l'édition
+                        4.</desc>
                 </char>
                 <char xml:id="char_pm2">
                     <mapping>((❡))</mapping>
                     <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
-                        remarque. Il devait indiquer les remarques ajoutées à partir de l'édition 5.</desc>
+                        remarque. Il devait indiquer les remarques ajoutées à partir de l'édition
+                        5.</desc>
                 </char>
                 <char xml:id="md">
                     <mapping>☜</mapping>
@@ -150,7 +152,14 @@
             <change when="2023-11-05">Ajoute d'une note personnelle avec un "type" différent, car
                 les trois autres étaient du même "type".</change>
             <change when="2023-11-07">Ajout de deux variations dans le texte. Ajout dans
-                "encodingDesc": "charDecl", de "p" et dans "interpretation".</change>
+                "encodingDesc": "charDecl", de "p" et dans "interpretation". Ajout de l'enfant "g"
+                dans les balises "p" correspondantes. En faisant plus attention au contenu des
+                paragraphes, j'ai trouvé mes remarques disparues de l'édition 3 à d'autres endroits
+                dans le texte. J'ai choisi de dupliquer des paragraphes (et donc séparer leur
+                source), car ils avaient différent pied-de-mouche, ajout d'un id pour lier les
+                paragraphes et indiquer qu'ils sont les mêmes, nommé i, pour identique.J'ai donc
+                effectué une modification de mes id, afin qu'une possible autre personne ne perde
+                pas du temps à les chercher, alors qu'elles sont en vérité pas bien loin...</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -160,26 +169,27 @@
                 <div2 type="chapitre" n="1">
                     <head>Des Ouvrages de l'Esprit</head>
                     <div3 n="11">
-                        <p source="#edition3 #edition5 #edition8">Il y a beaucoup plus de vivacité
-                            que de goût parmi les hommes ; ou pour mieux dire, il y a peu d’hommes
-                            dont l’esprit soit accompagné d’un goût sûr et d’une critique
-                            judicieuse.</p>
+                        <p source="#edition3 #edition5 #edition8"><g ref="#char_pm0"/>Il y a
+                            beaucoup plus de vivacité que de goût parmi les hommes ; ou pour mieux
+                            dire, il y a peu d’hommes dont l’esprit soit accompagné d’un goût sûr et
+                            d’une critique judicieuse.</p>
                     </div3>
                     <div3 n="12">
-                        <p source="#edition3 #edition5 #edition8">La vie des héros a enrichi
-                            l’histoire, et l’histoire a embelli les actions des héros : ainsi je ne
-                            sais qui sont plus redevables, ou ceux qui ont écrit l’histoire à ceux
-                            qui leur en ont fourni une si noble matière, ou ces grands hommes à
-                            leurs historiens. </p>
+                        <p source="#edition3 #edition5 #edition8"><g ref="#char_pm0"/> La vie des
+                            héros a enrichi l’histoire, et l’histoire a embelli les actions des
+                            héros : ainsi je ne sais qui sont plus redevables, ou ceux qui ont écrit
+                            l’histoire à ceux qui leur en ont fourni une si noble matière, ou ces
+                            grands hommes à leurs historiens. </p>
                     </div3>
                     <div3 n="13">
-                        <p source="#edition3 #edition5 #edition8">Amas d’épithètes, mauvaises
-                            louanges : ce sont les faits qui louent, et la manière de les
-                            raconter.</p>
+                        <p source="#edition3 #edition5 #edition8">
+                            <g ref="#char_pm0"/>Amas d’épithètes, mauvaises louanges : ce sont les
+                            faits qui louent, et la manière de les raconter.</p>
                     </div3>
                     <div3 n="14">
-                        <p source="#edition3 #edition5 #edition8">Tout l’esprit d’un auteur consiste
-                            à bien définir et à bien peindre. <seg><app type="morpho">
+                        <p source="#edition3 #edition5 #edition8">
+                            <g ref="#char_pm0"/>Tout l’esprit d’un auteur consiste à bien définir et
+                            à bien peindre. <seg><app type="morpho">
                                     <lem>Moise</lem>
                                     <rdg source="#edition3">Moyse</rdg>
                                     <rdg source="#edition5 #edition8">Moïse</rdg>
@@ -194,7 +204,8 @@
                             naturellement, fortement, délicatement.</p>
                     </div3>
                     <div3 n="15">
-                        <p source="#edition5 #edition8">On a dû faire du style ce qu’on a fait de
+                        <p source="#edition5" xml:id="i1">
+                            <g ref="#char_pm2"/>On a dû faire du style ce qu’on a fait de
                             l’architecture. On a entièrement abandonné l’ordre gothique, que la
                             barbarie avait introduit pour les palais et pour les temples ; on a
                             rappelé le <seg>dorique <note type="gloss" resp="#souffez">ordre
@@ -209,15 +220,34 @@
                             Grèce, devenu moderne, éclate dans nos portiques et dans nos péristyle.
                             De même, on ne saurait en écrivant rencontrer le parfait, et s’il se
                             peut, surpasser les anciens que par leur imitation. </p>
-                        <p source="#edition3 #edition5 #edition8">Combien de siècles se sont écoulés
-                            avant que les hommes, dans les sciences et dans les arts, aient pu
-                            revenir au goût des anciens et reprendre enfin le simple et le naturel ! </p>
-                        <p source="#edition3" xml:id="d1"> Entre toutes les différentes expressions
-                            qui peuvent rendre une seule de nos pensées, il n'y en a qu'une qui soit
-                            la bonne ; on ne la rencontre pas toujours en parlant, ou en écrivant ;
-                            il est vrai néanmoins qu'elle existe, que tout ce qui ne l'est point est
-                            faible, et ne satisfait point un homme d'esprit qui veut se faire
-                            entendre.</p>
+                        <p source="#edition8" corresp="i1">
+                            <g ref="#char_pm0"/>On a dû faire du style ce qu’on a fait de
+                            l’architecture. On a entièrement abandonné l’ordre gothique, que la
+                            barbarie avait introduit pour les palais et pour les temples ; on a
+                            rappelé le <seg>dorique <note type="gloss" resp="#souffez">ordre
+                                    architectural d'origine grec apparaissant au VIIe siècle avant
+                                    J.-C.</note>
+                            </seg>, <seg>l’ionique <note type="gloss" resp="#souffez">Ordre
+                                    architectural d'origine grec de la même période historique que
+                                    l'ordre dorique</note></seg> et le <seg>corinthien <note
+                                    type="gloss" resp="#souffez">Ordre architectural d'origine grec
+                                    apparaissant I siècle avant J.-C. </note></seg> : ce qu’on ne
+                            voyait plus que dans les ruines de l’ancienne Rome et de la vieille
+                            Grèce, devenu moderne, éclate dans nos portiques et dans nos péristyle.
+                            De même, on ne saurait en écrivant rencontrer le parfait, et s’il se
+                            peut, surpasser les anciens que par leur imitation.</p>
+                        <p source="#edition3" xml:id="i2">
+                            <g ref="#char_pm0"/>Combien de siècles se sont écoulés avant que les
+                            hommes, dans les sciences et dans les arts, aient pu revenir au goût des
+                            anciens et reprendre enfin le simple et le naturel !</p>
+                        <p source="#edition5 #edition8" corresp="i2">Combien de siècles se sont écoulés avant que
+                            les hommes, dans les sciences et dans les arts, aient pu revenir au goût
+                            des anciens et reprendre enfin le simple et le naturel ! </p>
+                        <p source="#edition3" xml:id="r1">Entre toutes les différentes expressions qui peuvent
+                            rendre une seule de nos pensées, il n’y en a qu’une qui soit la bonne.
+                            On ne la rencontre pas toujours en parlant ou en écrivant ; il est vrai
+                            néanmoins qu’elle existe, que tout ce qui ne l’est point est faible, et
+                            ne satisfait point un homme d’esprit qui veut se faire entendre.</p>
                         <p source="#edition5 #edition8">On se nourrit des anciens et des habiles
                             modernes, on les presse, on en tire le plus que l’on peut, on en renfle
                             ses ouvrages ; et quand enfin l’on est auteur, et que l’on croit marcher
@@ -240,23 +270,30 @@
                             l’antiquité : on les récuse. </p>
                     </div3>
                     <div3 n="16">
-                        <p source="#edition5 #edition8">L’on devrait aimer à lire ses ouvrages à
-                            ceux qui en savent assez pour les corriger et les estimer. </p>
+                        <p source="#edition5 #edition8" xml:id="r2">
+                            <g ref="#char_pm0"/>L’on devrait aimer à lire ses ouvrages à ceux qui en
+                            savent assez pour les corriger et les estimer. </p>
                         <p source="#edition5 #edition8">Ne vouloir être ni conseillé ni corrigé sur
                             son ouvrage est un pédantisme. </p>
                         <p source="#edition5 #edition8">Il faut qu’un auteur reçoive avec une égale
                             modestie les éloges et la critique que l’ont fait de ses ouvrages. </p>
                     </div3>
                     <div3 n="17">
-                        <p source="#edition5 #edition8">Entre toutes les différentes expressions qui
-                            peuvent rendre une seule de nos pensées, il n’y en a qu’une qui soit la
-                            bonne. On ne la rencontre pas toujours en parlant ou en écrivant ; il
-                            est vrai néanmoins qu’elle existe, que tout ce qui ne l’est point est
-                            faible, et ne satisfait point un homme d’esprit qui veut se faire
-                            entendre. </p>
-                        <p source="#edition3 #edition5 #edition8">Un bon auteur, et qui écrit avec
-                            soin, éprouve souvent que l’expression qu’il cherchait depuis longtemps
-                            sans la connaître, et qu’il a enfin trouvée, est celle qui était la plus
+                        <p source="#edition5 #edition8" corresp="#r1">
+                            <g ref="#char_pm0"/>Entre toutes les différentes expressions qui peuvent
+                            rendre une seule de nos pensées, il n’y en a qu’une qui soit la bonne.
+                            On ne la rencontre pas toujours en parlant ou en écrivant ; il est vrai
+                            néanmoins qu’elle existe, que tout ce qui ne l’est point est faible, et
+                            ne satisfait point un homme d’esprit qui veut se faire entendre. </p>
+                        <p source="#edition3">
+                            <g ref="#char_pm0"/>Un bon auteur, et qui écrit avec soin, éprouve
+                            souvent que l’expression qu’il cherchait depuis longtemps sans la
+                            connaître, et qu’il a enfin trouvée, est celle qui était la plus simple,
+                            la plus naturelle, qui semblait devoir se présenter d’abord et sans
+                            effort.</p>
+                        <p source="#edition5 #edition8">Un bon auteur, et qui écrit avec soin,
+                            éprouve souvent que l’expression qu’il cherchait depuis longtemps sans
+                            la connaître, et qu’il a enfin trouvée, est celle qui était la plus
                             simple, la plus naturelle, qui semblait devoir se présenter d’abord et
                             sans effort. </p>
                         <p source="#edition3 #edition5 #edition8">Ceux qui écrivent par humeur sont
@@ -266,19 +303,27 @@
                         </p>
                     </div3>
                     <div3 n="\">
-                        <p source="#edition3" xml:id="d2">L'on devroit aimer à lire les ouvrages à
-                            ceux qui savent assez pour les corrifer et les estimer.</p>
+                        <p source="#edition3" corresp="#r2">
+                            <g ref="#char_pm0"/>L'on devrait aimer à lire ses ouvrages à ceux qui en
+                            savent assez pour les corriger et les estimer.</p>
                     </div3>
                     <div3 n="18">
-                        <p source="#edition3 #edition5 #edition8">La même justesse d’esprit qui nous
-                            fait écrire de bonnes choses nous fait appréhender qu’elles ne le soient
-                            pas assez pour mériter d’être lues.</p>
-                        <p source="#edition3 #edition5 #edition8">Un esprit médiocre croit écrire
+                        <p source="#edition3 #edition5 #edition8">
+                            <g ref="#char_pm0"/>La même justesse d’esprit qui nous fait écrire de
+                            bonnes choses nous fait appréhender qu’elles ne le soient pas assez pour
+                            mériter d’être lues.</p>
+                        <p source="#edition5 #edition8" xml:id="r3">Un esprit médiocre croit écrire
                             divinement ; un bon esprit croit écrire raisonnablement. </p>
                     </div3>
+                    <div3 n="\">
+                        <p source="#edition3" corresp="#r3">
+                            <g ref="#char_pm0"/>Un esprit médiocre croit écrire divinement ; un bon
+                            esprit croit écrire raisonnablement.</p>
+                    </div3>
                     <div3 n="19">
-                        <p source="#edition3 #edition5 #edition8">« L’on m’a engagé, dit Ariste, à
-                            lire mes ouvrages à <app type="morpho">
+                        <p source="#edition3 #edition5 #edition8">
+                            <g ref="#char_pm0"/> L’on m’a engagé, dit Ariste, à lire mes ouvrages à
+                                <app type="morpho">
                                 <lem>Zoïle</lem>
                                 <rdg source="#edition3">Zèlotes</rdg>
                                 <rdg source="#edition5 #edition8">Zoile</rdg>
@@ -287,7 +332,7 @@
                             présence, et il ne les a pas loués depuis devant personne. Je l’excuse,
                             et je n’en demande pas davantage à un auteur ; je le plains même d’avoir
                             écouté de belles choses qu’il n’a point faites. » </p>
-                        <p source="#edition5 #edition8" xml:id="r1">Ceux qui par leur condition se
+                        <p source="#edition5 #edition8" xml:id="r4">Ceux qui par leur condition se
                             trouvent exempts de la jalousie d’auteur, ont ou des passions ou des
                             besoins qui les distraient et les rendent froids sur les conceptions
                             d’autrui : personne presque, par la disposition de son esprit, de son
@@ -295,25 +340,28 @@
                             la perfection d’un ouvrage. </p>
                     </div3>
                     <div3 n="\">
-                        <p source="#edition3" corresp="#r1">Ceux qui par leur condition se trouvent
-                            exempts de la jalousie d’auteur, ont ou des passions ou des besoins qui
-                            les distraient et les rendent froids sur les conceptions d’autrui :
-                            personne presque, par la disposition de son esprit, de son cœur et de sa
-                            fortune, n’est en état de se livrer au plaisir que donne la perfection
-                            d’un ouvrage.</p>
+                        <p source="#edition3" corresp="#r4">
+                            <g ref="#char_pm0"/>Ceux qui par leur condition se trouvent exempts de
+                            la jalousie d’auteur, ont ou des passions ou des besoins qui les
+                            distraient et les rendent froids sur les conceptions d’autrui : personne
+                            presque, par la disposition de son esprit, de son cœur et de sa fortune,
+                            n’est en état de se livrer au plaisir que donne la perfection d’un
+                            ouvrage.</p>
                     </div3>
                     <div3 n="20">
-                        <p source="#edition3 #edition5 #edition8">Le plaisir de la critique nous ôte
-                            celui d’être vivement touchés de très belles choses. </p>
+                        <p source="#edition3 #edition5 #edition8">
+                            <g ref="#char_pm0"/>Le plaisir de la critique nous ôte celui d’être
+                            vivement touchés de très belles choses. </p>
                     </div3>
                     <div3 n="21">
-                        <p source="#edition3 #edition5 #edition8">Bien des gens vont jusques à
-                            sentir le mérite d’un manuscrit qu’on leur lit, qui ne peuvent se
-                            déclarer en sa faveur, jusques à ce qu’ils aient vu le cours qu’il aura
-                            dans le monde par l’impression, ou quel sera son sort parmi les habiles
-                            : ils ne hasardent point leurs suffrages, et il veulent être portés par
-                            la foule et entraînés par la multitude. Ils disent alors qu’ils ont les
-                            premiers approuvé cet ouvrage, et que le public est de leur avis. </p>
+                        <p source="#edition3 #edition5 #edition8">
+                            <g ref="#char_pm0"/>Bien des gens vont jusques à sentir le mérite d’un
+                            manuscrit qu’on leur lit, qui ne peuvent se déclarer en sa faveur,
+                            jusques à ce qu’ils aient vu le cours qu’il aura dans le monde par
+                            l’impression, ou quel sera son sort parmi les habiles : ils ne hasardent
+                            point leurs suffrages, et il veulent être portés par la foule et
+                            entraînés par la multitude. Ils disent alors qu’ils ont les premiers
+                            approuvé cet ouvrage, et que le public est de leur avis. </p>
                         <p source="#edition8">Ces gens laissent échapper les plus belles occasions
                             de nous convaincre qu’ils ont de la capacité et des lumières, qu’ils
                             savent juger, trouver bon ce qui est bon, et meilleur ce qui est
