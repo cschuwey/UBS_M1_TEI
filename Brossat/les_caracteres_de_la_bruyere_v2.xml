@@ -55,6 +55,28 @@
                     <p>Les notes manuscrites présentes dans la version de l'édition 8 que nous utilisisons sont très peu visibles et donc sujette à des interprétations potentiellement fausses.</p>
                 </interpretation>
             </editorialDecl>
+            <charDecl>
+                <glyph xml:id="char_pdm1">
+                    <mapping>❡</mapping>
+                    <desc>Pied de mouche, sert à indiquer le début d'une remarque, présent dès la première édition.</desc>
+                </glyph>
+                <glyph xml:id="char_pdm2">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied de mouche avec parenthèse simple, sert à indiquer le début d'une remarque ajoutée dans l'édition 4, présent seulement dans la cinquième édition.</desc>
+                </glyph>
+                <glyph xml:id="char_pdm3">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied de mouche avec parenthèse double, sert à indiquer le début d'une remarque ajoutée dans l'édition 5, présent seulement dans la cinquième édition.</desc>
+                </glyph>
+                <glyph xml:id="char_manicule_gauche">
+                    <mapping>☜</mapping>
+                    <desc>Manicule pointant vers la gauche, sert à, ajouté dans l'édition 8(selon ce qui a été observé).</desc>
+                </glyph>
+                <glyph xml:id="char_manicule_droite">
+                    <mapping>☞</mapping>
+                    <desc>Manicule pointant vers la droite, sert à, ajouté dans l'édition 8(selon ce qui a été observé).</desc>
+                </glyph>
+            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -79,6 +101,7 @@
                 <change when-iso="2023-10-20">Professeur qui a répondu (voir mail, si besoin) et choix de traiter les anomalies comme bon me semble. Ces dernières seront discutées durant le prochain cours.</change>
                 <change when-iso="2023-10-23">Ajout des liens des versions et de l'idno manquant(selon correction donnée par le prof), ajout des notes imprimées.</change>
                 <change when-iso="2023-10-24">Après avoir déchiffré les annotations manuscrites présentes dans l'édition 8, elles ont été ajoutées ce jour.</change>
+                <change when-iso="2023-11-07">Début de l'ajout des caractères spéciaux (voir document word).</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -90,7 +113,7 @@
                 <head>De la Chaire</head>
                 <div3 type="remarque" n="1" source="#edition1 #edition6 #edition8">
                     <p source="#edition1 #edition6 #edition8">
-                        Le discours chrétien est devenu un spectacle. Cette tristesse évangélique qui en est l’âme ne s’y remarque plus : elle est suppléée par les avantages de la mine, par les inflexions de la voix, par la régularité du geste, par le choix des mots, et par les longues énumérations. On n’écoute plus sérieusement la parole sainte : c’est une sorte d’amusement entre mille autres ; c’est un jeu où il y a de l’émulation et des parieurs.
+                        <g ref="#char_pdm1"/>Le discours chrétien est devenu un spectacle. Cette tristesse évangélique qui en est l’âme ne s’y remarque plus : elle est <app><rdgGrp><lem>suppléée</lem><rdg source="#edition8">suppléée</rdg></rdgGrp><rdg source="#edition1">suppleé</rdg><rdg source="#edition6">suppleée</rdg></app> par <app><rdgGrp><lem>les avantages</lem><rdg source="#edition6">les avantages</rdg><rdg source="#edition8">les avantages</rdg></rdgGrp><rdg source="#edition1">l'avantage</rdg></app> de la mine, par les inflexions de la voix, par la régularité du geste, par le choix des mots, et par les longues énumérations. On n’écoute plus sérieusement la parole sainte : c’est une sorte d’amusement entre mille autres ; c’est un jeu où il y a de l’émulation et des parieurs.
                     </p>
                 </div3>
                 <div3 type="remarque" n="2" source="#edition1 #edition6 #edition8">
@@ -98,7 +121,7 @@
                         L’éloquence profane est transposée pour ainsi dire du barreau, où Le Maître, Pucelle et Fourcroy l’ont fait régner, et où elle n’est plus d’usage, à la chaire, où elle ne doit pas être.
                     </p>
                     <p source="#edition1 #edition6 #edition8">
-                        L’on fait assaut d’éloquence jusqu’au pied de l’autel et en la présence des mystères. Celui qui écoute s’établit juge de celui qui prêche, pour condamner ou pour    applaudir, et n’est pas plus converti par le discours qu’il favorise que par    celui auquel il est contraire. L’orateur plaît aux uns, déplaît aux autres, et    convient avec tous en une chose, que, comme il ne cherche point à les rendre    meilleurs, ils ne pensent pas aussi à le devenir.
+                        L’on fait assaut d’éloquence jusqu’au pied de l’autel et en la présence des mystères. Celui qui écoute s’établit juge de celui qui prêche, pour condamner ou pour applaudir, et n’est pas plus converti par le discours qu’il favorise que par celui auquel il est contraire. L’orateur plaît aux uns, déplaît aux autres, et convient avec tous en une chose, que, comme il ne cherche point à les rendre meilleurs, ils ne pensent pas aussi à le devenir.
                     </p>
                     <p source="#edition6 #edition8">
                         Un apprentif est docile, il écoute son maître, il profite de ses leçons, et il devient maître. L’homme indocile critique le discours du prédicateur, comme le livre du philosophe, et il ne devient ni chrétien ni raisonnable.
