@@ -13,13 +13,14 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl xml:id="edition2">
+                    <bibl xml:id="edition9">
                         <author xml:id="labruyere">Jean de La Bruyère</author>
                         <title>Les caractères de Théophraste</title>
                         <placeName>Paris</placeName>
-                        <publisher>E. Michallet</publisher>
-                        <date>1688</date>
-                        <ref type="URI">https://www.google.fr/books/edition/_/OOZmAAAAcAAJ?hl=fr&gbpv=1</ref>
+                        <publisher>Chez Adrian Moetjens</publisher>
+                        <date>1696</date>
+                        <ref type="URI"
+                            >https://www.google.fr/books/edition/Les_caract%C3%A8res_de_Th%C3%A9ophraste_traduits/8ONo2SmwWSsC?hl=fr&amp;=1</ref>
                     </bibl>
 
                     <bibl xml:id="edition4">
@@ -29,12 +30,49 @@
                         <placeName>Paris</placeName>
                         <publisher>Thomas Amaulry</publisher>
                         <date>1689</date>
-                        <ref type="URI">https://www.google.fr/books/edition/_/5MBjAAAAcAAJ?hl=fr&gbpv=1</ref>
+                        <ref type="URI"
+                            >https://www.google.fr/books/edition/_/5MBjAAAAcAAJ?hl=fr&amp;gbpv=1</ref>
                     </bibl>
+
+                    <bibl xml:id="edition2">
+                        <author>Jean de La Bruyère</author>
+                        <title>Les caractères de Théophraste</title>
+                        <placeName>Paris</placeName>
+                        <publisher>E. Michallet</publisher>
+                        <date>1688</date>
+                        <ref type="URI"
+                            >https://www.google.fr/books/edition/_/OOZmAAAAcAAJ?hl=fr&amp;gbpv=1</ref>
+                    </bibl>
+
                 </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <mapping>¶</mapping>
+                    <desc>Pied-de-mouche simple. </desc>
+                </char>
+                <char xml:id="char_pm-par">
+                    <mapping>(¶)</mapping>
+                    <desc>Pied-de-mouche à parenthèse simple. Signale une nouvelle remarque. </desc>
+                </char>
+
+                <char xml:id="char_pm-par2">
+                    <mapping>((¶)))</mapping>
+                    <desc>Pied-de-mouche à parenthèse simple. Signale une nouvelle remarque. </desc>
+                </char>
+
+                <char xml:id="char_pm-par3">
+                    <mapping>(((¶)))</mapping>
+                    <desc>Pied-de-mouche à parenthèse simple. Signale une nouvelle remarque.</desc>
+                </char>
+
+                <char xml:id="char_pm-par4">
+                    <mapping>(¶)</mapping>
+                    <desc>Pied-de-mouche à parenthèse simple. Signale une nouvelle remarque.</desc>
+                </char>
+            </charDecl>
             <editorialDecl>
                 <normalization>
                     <p>Graphie modernisée</p>
@@ -64,6 +102,10 @@
             <change when="2023-10-16">Ajout chapitre des jugements</change>
             <change when="2023-10-20">Ajout des éditions</change>
             <change when="2023-10-24">Ajout des notes</change>
+            <change when="2023-11-07">Correction des notes. Ajout des pieds-de-mouche. Ajout d'une
+                nouvelle édition la 9 après avoir perdu la bonne édition 2 car celle que j'ai ne
+                possède pas les textes en dessous ou alors très peu je ne savais pas si je le
+                supprimais ou non je ne retrouve pas l'ancienne</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -75,122 +117,156 @@
                 <div2 type="chapitre" n="12">
                     <head>Des Jugements </head>
 
-                    <div3 n="21" source="#edition2">
-                    <note type="manuscrit" place="margin" position="ext" resp="#labruyere" source="#edition2">Note fictive</note>
-                        <p> Qu’on ne me parle jamais d’encre, de papier, de plume, de style,
-                            d’imprimeur, d’imprimerie, qu’on ne se hasarde plus de me dire : « Vous
-                            écrivez si bien, Antisthène ! continuez d’écrire ; ne verrons-nous point
-                            de vous un in-folio ? traitez de toutes les vertus et de tous les vices
-                            dans un ouvrage suivi, méthodique, qui n’ait point de fin » ; ils
-                            devraient ajouter : « et nul cours. » Je renonce à tout ce qui a été,
-                            qui est et qui sera livre. Bérylle tombe en syncope à la vue d’un chat,
-                            et moi à la vue d’un livre. Suis-je mieux nourri et plus lourdement
-                            vêtu, suis-je dans ma chambre à l’abri du nord, ai-je un lit de plumes,
-                            après vingt ans entiers qu’on me débite dans la place ? J’ai un grand
-                            nom, dites-vous, et beaucoup de gloire : dites que j’ai beaucoup de vent
-                            qui ne sert à rien. Ai-je un grain de ce métal qui procure toutes choses
-                            ? Le vil praticien grossit son mémoire, se fait rembourser des frais
-                            qu’il n’avance pas, et il a pour gendre un comte ou un magistrat. Un
-                            homme rouge ou feuille-morte devient commis, et bientôt plus riche que
-                            son maître ; il le laisse dans la roture, et avec de l’argent il devient
-                            noble. B** s’enrichit à montrer dans un cercle des marionnettes ; BB** à
-                            vendre en bouteille l’eau de la rivière. Un autre charlatan arrive ici
-                            de delà les monts avec une malle ; il n’est pas déchargé que les
-                            pensions courent, et il est prêt de retourner d’où il arrive avec des
-                            mulets et des fourgons. Mercure est Mercure, et rien davantage, et l’or
-                            ne peut payer ses médiations et ses intrigues : on y ajoute la faveur et
-                            les distinctions. Et sans parler que des gains licites, on paye au
-                            tuilier sa tuile, et à l’ouvrier son temps et son ouvrage ; paye-t-on à
-                            un auteur ce qu’il pense et ce qu’il écrit ? et s’il pense très bien, le
-                            paye-t-on très largement ? Se meuble-t-il, s’anoblit-il à force de
-                            penser et d’écrire juste ? Il faut que les hommes soient habillés,
-                            qu’ils soient rasés ; il faut que retirés dans leurs maisons, ils aient
-                            une porte qui ferme bien : est-il nécessaire qu’ils soient instruits
-                            ?</p>
-                        <p>Folie, simplicité, imbécillité, continue Antisthène, de mettre l’enseigne
-                            d’auteur ou de philosophe ! Avoir, s’il se peut, un office lucratif, qui
-                            rende la vie aimable, qui fasse prêter à ses amis, et donner à ceux qui
-                            ne peuvent rendre ; écrire alors par jeu, par oisiveté, et comme Tityre
-                            siffle ou joue de la flûte ; cela ou rien ; j’écris à ces conditions, et
-                            je cède ainsi à la violence de ceux qui me prennent à la gorge, et me
-                            disent : « Vous écrirez. » Ils liront pour titre de mon nouveau livre :
-                            Du Beau, Du Bon, Du Vrai, Des Idées, Du Premier Principe, par
-                            Antisthène, vendeur de marée.</p>
+                    <div3 n="21" source="#edition9">
+                        <note type="manuscrit" place="margin" resp="#labruyere" source="#edition2"
+                            >Note fictive</note>
+                        <p><g ref="#char_pm-par"/> Qu’on ne me parle jamais d’encre, de papier, de
+                            plume, de style, d’imprimeur, d’imprimerie, qu’on ne se hasarde plus de
+                            me dire : « Vous écrivez si bien, Antisthène ! continuez d’écrire ; ne
+                            verrons-nous point de vous un in-folio ? traitez de toutes les vertus et
+                            de tous les vices dans un ouvrage suivi, méthodique, qui n’ait point de
+                            fin » ; ils devraient ajouter : « et nul cours. » Je renonce à tout ce
+                            qui a été, qui est et qui sera livre. Bérylle tombe en syncope à la vue
+                            d’un chat, et moi à la vue d’un livre. Suis-je mieux nourri et plus
+                            lourdement vêtu, suis-je dans ma chambre à l’abri du nord, ai-je un lit
+                            de plumes, après vingt ans entiers qu’on me débite dans la place ? J’ai
+                            un grand nom, dites-vous, et beaucoup de gloire : dites que j’ai
+                            beaucoup de vent qui ne sert à rien. Ai-je un grain de ce métal qui
+                            procure toutes choses ? Le vil praticien grossit son mémoire, se fait
+                            rembourser des frais qu’il n’avance pas, et il a pour gendre un comte ou
+                            un magistrat. Un homme rouge ou feuille-morte devient commis, et bientôt
+                            plus riche que son maître ; il le laisse dans la roture, et avec de
+                            l’argent il devient noble. B** s’enrichit à montrer dans un cercle des
+                            marionnettes ; BB** à vendre en bouteille l’eau de la rivière. Un autre
+                            charlatan arrive ici de delà les monts avec une malle ; il n’est pas
+                            déchargé que les pensions courent, et il est prêt de retourner d’où il
+                            arrive avec des mulets et des fourgons. Mercure est Mercure, et rien
+                            davantage, et l’or ne peut payer ses médiations et ses intrigues : on y
+                            ajoute la faveur et les distinctions. Et sans parler que des gains
+                            licites, on paye au tuilier sa tuile, et à l’ouvrier son temps et son
+                            ouvrage ; paye-t-on à un auteur ce qu’il pense et ce qu’il écrit ? et
+                            s’il pense très bien, le paye-t-on très largement ? Se meuble-t-il,
+                            s’anoblit-il à force de penser et d’écrire juste ? Il faut que les
+                            hommes soient habillés, qu’ils soient rasés ; il faut que retirés dans
+                            leurs maisons, ils aient une porte qui ferme bien : est-il nécessaire
+                            qu’ils soient instruits ?</p>
+                        <p> Folie, simplicité, imbécillité, continue Antisthène, de mettre
+                            l’enseigne d’auteur ou de philosophe ! Avoir, s’il se peut, un office
+                            lucratif, qui rende la vie aimable, qui fasse prêter à ses amis, et
+                            donner à ceux qui ne peuvent rendre ; écrire alors par jeu, par
+                            oisiveté, et comme Tityre siffle ou joue de la flûte ; cela ou rien ;
+                            j’écris à ces conditions, et je cède ainsi à la violence de ceux qui me
+                            prennent à la gorge, et me disent : « Vous écrirez. » Ils liront pour
+                            titre de mon nouveau livre : Du Beau, Du Bon, Du Vrai, Des Idées, Du
+                            Premier Principe, par Antisthène, vendeur de marée.</p>
                     </div3>
 
-                    <div3 n="22" source="#edition2#edition4">
-                        <p>Si les ambassadeurs des princes étrangers étaient des
-                            singes instruits à marcher sur leurs pieds de derrière, et à se faire
-                            entendre par interprète, nous ne pourrions pas marquer un plus grand
-                            étonnement que celui que nous donne la justesse de leurs réponses, et le
-                            bon sens qui paraît quelquefois dans leurs discours. La prévention du
-                            pays, jointe à l’orgueil de la nation, nous fait oublier que la raison
-                            est de tous les climats, et que l’on pense juste partout où il y a des
-                            hommes. Nous n’aimerions pas à être traités ainsi de ceux que nous
-                            appelons barbares ; et s’il y a en nous quelque barbarie, elle consiste
-                            à être épouvantés de voir d’autres peuples raisonner comme nous.</p>
-                            <p source="edition4">Tous les étrangers ne sont pas barbares, et tous nos compatriotes ne sont pas
-                            civilisés : de même toute campagne n’est pas agreste <seg> <note place="margin" resp="#labruyere" source="#edition4"> Contre la maxime latine et triviale </note> Ce terme s'entend ici métaphoriquement</note></seg> et toute ville
-                            n’est pas polie.</p>
+                    <div3 n="22" source="#edition2 #edition4 #edition9">
+                        <p>
+                            <g ref="#char_pm-par"/>Si les ambassadeurs des <app>
+                                <lem source="#edition4 #edition9">princes</lem>
+                                <rdg source="#edition2">rois</rdg>
+                            </app> étrangers étaient des singes instruits à marcher sur leurs pieds
+                            de derrière, et à se faire entendre par interprète, nous ne pourrions
+                            pas marquer un plus grand étonnement que celui que nous donne la
+                            justesse de leurs réponses, et le bon sens qui paraît quelquefois dans
+                            leurs discours. La prévention du pays, jointe à l’orgueil de la nation,
+                            nous fait oublier que la raison est de tous les climats, et que l’on
+                            pense juste partout où il y a des hommes. Nous n’aimerions pas à être
+                            traités ainsi de ceux que nous appelons barbares ; et s’il y a en nous
+                            quelque barbarie, elle consiste à être épouvantés de voir d’autres
+                            peuples raisonner comme nous.</p>
+                        <p>
+                            <g ref="#char_pm-par2"/>Tous les étrangers ne sont pas barbares, et tous
+                            nos compatriotes ne sont pas civilisés : de même toute campagne n’est
+                            pas agreste <seg>
+                                <note place="margin" resp="#labruyere" source="#edition4"> Contre la
+                                    maxime latine et triviale </note> Ce terme s'entend ici
+                                métaphoriquement</seg> et toute ville n’est pas polie.</p>
                         <p>Il y a dans l’Europe un endroit d’une province maritime d’un grand
                             royaume où le villageois est doux et insinuant, le bourgeois au
                             contraire et le magistrat grossiers, et dont la rusticité est
                             héréditaire.</p>
                     </div3>
-                    <div3 n="23" source="#edition2#edition4">
-                        <p>Avec un langage si pur, une si grande recherche dans nos habits, des
-                            mœurs si cultivées, de si belles lois et un visage blanc, nous sommes
-                            barbares pour quelques peuples.</p>
+                    <div3 n="23" source="#edition2 #edition4 #edition9">
+                        <p>
+                            <g ref="#char_pm-par"/>Avec un langage <app>
+                                <lem>s</lem>
+                                <rdg source="#edition4 #edition2 #edition9">ſ</rdg>
+                            </app>i pur, une si grande recherche dans nos habits, des mœurs si
+                            cultivées, de si belles lois et un visage blanc, nous sommes barbares
+                            pour quelques peuples.</p>
                     </div3>
 
-                    <div3 n="24" source="#edition2#edition4">
-                        <p>Si nous entendions dire des Orientaux qu’ils boivent ordinairement d’une
-                            liqueur qui leur monte à la tête, leur fait perdre la raison et les fait
-                            vomir, nous dirions : « Cela est bien barbare. »</p>
+                    <div3 n="24" source="#edition4 #edition9">
+                        <p><g ref="#char_pm-par"/>Si nous entendions dire des Orientaux qu’ils
+                            boivent ordinairement d’une liqueur qui leur monte à la tête, leur fait
+                            perdre la raison et les fait vomir, nous dirions <app>
+                                <lem>:</lem>
+                                <rdg source="#edition4 #edition9">;</rdg>
+                            </app> « Cela est bien barbare. »</p>
                     </div3>
 
-                    <div3 n="25" source="#edition2#edition4">
-                        <p>Ce prélat se montre peu à la cour, il n’est de nul commerce, on ne le
-                            voit point avec des femmes ; il ne joue ni à grande ni à petite prime,
-                            il n’assiste ni aux fêtes ni aux spectacles, il n’est point homme de
-                            cabale, et il n’a point l’esprit d’intrigue ; toujours dans son évêché,
-                            où il fait une résidence continuelle, il ne songe qu’à instruire son
-                            peuple par la parole et à l’édifier par son exemple ; il consume son
-                            bien en des aumônes, et son corps par la pénitence ; il n’a que l’esprit
-                            de régularité, et il est imitateur du zèle et de la piété des Apôtres.
-                            Les temps sont changés, et il est menacé sous ce règne d’un titre plus
-                            éminent.</p>
+                    <div3 n="25" source="#edition2 #edition4 #edition9">
+                        <p>
+                            <g ref="#char_pm-par"/>Ce prélat se montre peu à la cour, il n’est de
+                            nul commerce, on ne le voit point avec des femmes ; il ne joue ni à
+                            grande ni à petite prime, il n’assiste ni aux fêtes ni aux spectacles,
+                            il n’est point homme de cabale, et il n’a point l’esprit d’intrigue ;
+                            toujours dans son évêché, où il fait une résidence continuelle, il ne
+                            songe qu’à instruire son peuple par la parole et à l’édifier par son
+                            exemple ; il consume son bien en des aumônes, et son corps par la
+                            pénitence ; il n’a que l’esprit de régularité, et il est imitateur du
+                            zèle et de la piété des Apôtres. Les temps sont changés, et il est
+                            menacé sous ce règne d’un titre plus éminent.</p>
+                    </div3>
+                    <div3 n="25" source="#edition2 #edition4 #edition9">
+                        <p>
+                            <g ref="#char_pm-par"/> Il est ordinaire et comme naturel de juger du
+                            travil d'autruit seulement par raport à celui qui nous occupe. Ainsi le
+                            poëte rempli de grande et sublimes idées estime peu le discours de
+                            l'Orateur qui ne s'exerce souvent que sur de simples faits : et celui
+                            qui écrit l'histoire de son pays ne peut comprendre qu'un esprit
+                            raisonnable emploie sa vie à imaginer des fictions et à trouver une rime
+                            : de même le Bachelier plongé dans les quatre premiers siècles traite
+                            toute autre doctrine de science triste, vaine et inutile; pendant qu'il
+                            est peut être méprisé du Geomètre. </p>
                     </div3>
 
-                    <div3 n="26" source="#edition2#edition4">
-                        <p>Ne pourrait-on point faire comprendre aux personnes d’un certain
-                            caractère et d’une profession sérieuse, pour ne rien dire de plus,
-                            qu’ils ne sont point obligés à faire dire d’eux qu’ils jouent, qu’ils
-                            chantent, et qu’ils badinent comme les autres hommes ; et qu’à les voir
-                            si plaisants et si agréables, on ne croirait point qu’ils fussent
-                            d’ailleurs si réguliers et si sévères ? Oserait-on même leur insinuer
-                            qu’ils s’éloignent par de telles manières de la politesse dont ils se
-                            piquent ; qu’elle assortit, au contraire, et conforme les dehors aux
-                            conditions, qu’elle évite le contraste, et de montrer le même homme sous
-                            des figures différentes et qui font de lui un composé bizarre ou un
-                            grotesque ? </p>
+                    <div3 n="26" source="edition4 #edition9">
+                        <p><g ref="#char_pm-par"/>Ne pourrait-on point faire comprendre aux
+                            personnes d’un certain caractère et d’une profession sérieuse, pour ne
+                            rien dire de plus, qu’ils ne sont point obligés à faire dire d’eux
+                            qu’ils jouent, qu’ils chantent, et qu’ils badinent comme les autres
+                            hommes ; et qu’à les voir si plaisants et si agréables, on ne croirait
+                            point qu’ils fussent d’ailleurs si réguliers et si sévères ? Oserait-on
+                            même leur insinuer qu’ils s’éloignent par de telles manières de la
+                            politesse dont ils se piquent ; qu’elle assortit, au contraire, et
+                            conforme les dehors aux conditions, qu’elle évite le contraste, et de
+                            montrer le même homme sous des figures différentes et qui font de lui un
+                            composé bizarre ou un grotesque ? </p>
                     </div3>
-                    <div3 source="#edition4">
-                        <p>Ceux qui employent mal leur temps sont les premiers à se plaindre de la
-                            briéveté; comme ils le confument à s'habiller, à manger, à dormir, à de
-                            sots discours, a se resoudre ce qu'ils doivent faire, et souvent à ne
-                            rien faire, ils en manquent pour leurs affaires ou pour leurs plaisirs;
-                            ceux au contraire qui en fond un meilleure usage en ont de reste. Il n'y
-                            a point de ministre si occupé qui ne sache perdre chaque jour deux
-                            heures de temps , cela va loin à la fin d'une longue vie; et si le mal
-                            est encore plus grand dans les autres conditions des hommes, quelle
-                            perte infinie ne se fait pas dans le monde d'une chose si precieuse, et
-                            dont l'on se plaint qu'on n'a point assez.</p>
+                    <div3 source="#edition4 #edition9">
+                        <p>
+                            <g ref="#char_pm-par"/>Ceux qui employent mal leur temps sont les
+                            premiers à se plaindre de la briéveté; comme ils le confument à
+                            s'habiller, à manger, à dormir, à de sots discours, a se resoudre ce
+                            qu'ils doivent faire, et souvent à ne rien faire, ils en manquent pour
+                            leurs affaires ou pour leurs plaisirs; ceux au contraire qui en fond un
+                            meilleure usage en ont de reste. Il n'y a point de ministre si occupé
+                            qui ne sache perdre chaque jour deux heures de temps , cela va loin à la
+                            fin d'une longue vie; et si le mal est encore plus grand dans les autres
+                            conditions des hommes, quelle perte infinie ne se fait pas dans le monde
+                            d'une chose si precieuse, et dont l'on se plaint qu'on n'a point
+                            assez.</p>
 
                     </div3>
 
-                    <div3 source="#edition4">
-                        <p>Cesar n'etoit point trop vieux pour penser à la conquête de l'Univers <seg><note place="margin" resp="#labruyere" source="#edition4"> Contre la maxime latine et triviale </note> V.Les pensées de M.Pascal, ch31 où il dit le contraire </note></seg>; il
+                    <div3 source="#edition4 #edition2">
+                        <p><g ref="#char_pm-par"/>Cesar n'etoit point trop vieux pour penser à la
+                            conquête de l'Univers <seg><note place="margin" resp="#labruyere"
+                                    source="#edition4"> Contre la maxime latine et triviale </note>
+                                V.Les pensées de M.Pascal, ch31 où il dit le contraire</seg>; il
                             n'avoit point d'autre beatitude à le faire que le cours d'une belle vie,
                             et un grand nom après sa mort; né fier, amibitieux, et se portant bien
                             comme il faisoit, il ne pouvoit mieux employer son temps qu'à conquerir
@@ -200,53 +276,59 @@
 
                     </div3>
 
-                    <div3 source="#edition4">
-                     <note place="margin" position="ext" resp="#labruyere" source="#edition4"> Contre la maxime latine et triviale </note> 
-                        <p>Un jeune Prince, d'une race auguste. L'amour et l'esperance des peuples.
-                            Donne du ciel pour prolonger la féliciter de la terre. Plus grand que
-                            ses ayeux. Fils d'un héros qui est son modelle , a déjà montré à
-                            l'univers par ses divines qualitez et par une vertu anticipé, que les
-                            enfants des héros sont plus proches de l'estre que les autres
-                            hommes.</p>
+                    <div3 source="#edition4 #edition2">
+                        <note place="margin" resp="#labruyere" source="#edition4"> Contre la maxime
+                            latine et triviale </note>
+                        <p>
+                            <g ref="#char_pm-par"/>Un jeune Prince, d'une race auguste. L'amour et
+                            l'esperance des peuples. Donne du ciel pour prolonger la féliciter de la
+                            terre. Plus grand que ses ayeux. Fils d'un héros qui est son modelle , a
+                            déjà montré à l'univers par ses divines qualitez et par une vertu
+                            anticipé, que les enfants des héros sont plus proches de l'estre que les
+                            autres hommes.</p>
                     </div3>
 
-                    <div3 n="27" source="#edition2#edition4">
-                        <p>Il ne faut pas juger des hommes comme d’un tableau ou d’une figure, sur
-                            une seule et première vue : il y a un intérieur et un cœur qu’il faut
-                            approfondir. Le voile de la modestie couvre le mérite, et le masque de
-                            l’hypocrisie cache la malignité. Il n’y a qu’un très petit nombre de
-                            connaisseurs qui discerne, et qui soit en droit de prononcer ; ce n’est
-                            que peu à peu, et forcés même par le temps et les occasions, que la
-                            vertu parfaite et le vice consommé viennent enfin à se déclarer. </p>
+                    <div3 n="27" source="#edition2 #edition4">
+                        <p>
+                            <g ref="#char_pm-par"/> Il ne faut pas juger des hommes comme d’un
+                            tableau ou d’une figure, sur une seule et première vue : il y a un
+                            intérieur et un cœur qu’il faut approfondir. Le voile de la modestie
+                            couvre le mérite, et le masque de l’hypocrisie cache la malignité. Il
+                            n’y a qu’un très petit nombre de connaisseurs qui discerne, et qui soit
+                            en droit de prononcer ; ce n’est que peu à peu, et forcés même par le
+                            temps et les occasions, que la vertu parfaite et le vice consommé
+                            viennent enfin à se déclarer. </p>
                     </div3>
 
-                    <div3 n="28" source="#edition2">
-                        <p>Fragment … Il disait que l’esprit dans cette belle personne était un
-                            diamant bien mis en œuvre, et continuant de parler d’elle : « C’est,
-                            ajoutait-il, comme une nuance de raison et d’agrément qui occupe les
-                            yeux et le cœur de ceux qui lui parlent ; on ne sait si on l’aime ou si
-                            on l’admire ; il y a en elle de quoi faire une parfaite amie, il y a
-                            aussi de quoi vous mener plus loin que l’amitié. Trop jeune et trop
-                            fleurie pour ne pas plaire, mais trop modeste pour songer à plaire, elle
-                            ne tient compte aux hommes que de leur mérite, et ne croit avoir que des
-                            amis. Pleine de vivacités et capable de sentiments, elle surprend et
-                            elle intéresse ; et sans rien ignorer de ce qui peut entrer de plus
-                            délicat et de plus fin dans les conversations, elle a encore ces
-                            saillies heureuses qui entre autres plaisirs qu’elles font, dispensent
-                            toujours de la réplique. Elle vous parle comme celle qui n’est pas
-                            savante, qui doute et qui cherche à s’éclaircir ; et elle vous écoute
-                            comme celle qui sait beaucoup, qui connaît le prix de ce que vous lui
-                            dites, et auprès de qui vous ne perdez rien de ce qui vous échappe. Loin
-                            de s’appliquer à vous contredire avec esprit, et d’imiter Elvire, qui
-                            aime mieux passer pour une femme vive que marquer du bon sens et de la
-                            justesse, elle s’approprie vos sentiments, elle les croit siens, elle
-                            les étend, elle les embellit : vous êtes content de vous d’avoir pensé
-                            si bien, et d’avoir mieux dit encore que vous n’aviez cru. Elle est
-                            toujours au-dessus de la vanité, soit qu’elle parle, soit qu’elle écrive
-                            : elle oublie les traits où il faut des raisons ; elle a déjà compris
-                            que la simplicité est éloquente. S’il s’agit de servir quelqu’un et de
-                            vous jeter dans les mêmes intérêts, laissant à Elvire les jolis discours
-                            et les belles-lettres, qu’elle met à tous usages, Arthénice n’emploie
+                    <div3 n="28" source="#edition9">
+                        <p>
+                            <g ref="#char_pm-par"/>Fragment … Il disait que l’esprit dans cette
+                            belle personne était un diamant bien mis en œuvre, et continuant de
+                            parler d’elle : « C’est, ajoutait-il, comme une nuance de raison et
+                            d’agrément qui occupe les yeux et le cœur de ceux qui lui parlent ; on
+                            ne sait si on l’aime ou si on l’admire ; il y a en elle de quoi faire
+                            une parfaite amie, il y a aussi de quoi vous mener plus loin que
+                            l’amitié. Trop jeune et trop fleurie pour ne pas plaire, mais trop
+                            modeste pour songer à plaire, elle ne tient compte aux hommes que de
+                            leur mérite, et ne croit avoir que des amis. Pleine de vivacités et
+                            capable de sentiments, elle surprend et elle intéresse ; et sans rien
+                            ignorer de ce qui peut entrer de plus délicat et de plus fin dans les
+                            conversations, elle a encore ces saillies heureuses qui entre autres
+                            plaisirs qu’elles font, dispensent toujours de la réplique. Elle vous
+                            parle comme celle qui n’est pas savante, qui doute et qui cherche à
+                            s’éclaircir ; et elle vous écoute comme celle qui sait beaucoup, qui
+                            connaît le prix de ce que vous lui dites, et auprès de qui vous ne
+                            perdez rien de ce qui vous échappe. Loin de s’appliquer à vous
+                            contredire avec esprit, et d’imiter Elvire, qui aime mieux passer pour
+                            une femme vive que marquer du bon sens et de la justesse, elle
+                            s’approprie vos sentiments, elle les croit siens, elle les étend, elle
+                            les embellit : vous êtes content de vous d’avoir pensé si bien, et
+                            d’avoir mieux dit encore que vous n’aviez cru. Elle est toujours
+                            au-dessus de la vanité, soit qu’elle parle, soit qu’elle écrive : elle
+                            oublie les traits où il faut des raisons ; elle a déjà compris que la
+                            simplicité est éloquente. S’il s’agit de servir quelqu’un et de vous
+                            jeter dans les mêmes intérêts, laissant à Elvire les jolis discours et
+                            les belles-lettres, qu’elle met à tous usages, Arthénice n’emploie
                             auprès de vous que la sincérité, l’ardeur, l’empressement et la
                             persuasion. Ce qui domine en elle, c’est le plaisir de la lecture, avec
                             le goût des personnes de nom et de réputation, moins pour en être connue
@@ -260,30 +342,32 @@
                             grand théâtre, pour y faire briller toutes ses vertus. » </p>
                     </div3>
 
-                    <div3 n="29" source="#edition2">
-                        <p>Une belle femme est aimable dans son naturel ; elle ne perd rien à être
-                            négligée, et sans autre parure que celle qu’elle tire de sa beauté et de
-                            sa jeunesse. Une grâce naïve éclate sur son visage, anime ses moindres
-                            actions : il y aurait moins de péril à la voir avec tout l’attirail de
-                            l’ajustement et de la mode. De même un homme de bien est respectable par
-                            lui-même, et indépendamment de tous les dehors dont il voudrait s’aider
-                            pour rendre sa personne plus grave et sa vertu plus spécieuse. Un air
-                            réformé, une modestie outrée, la singularité de l’habit, une ample
-                            calotte n’ajoutent rien à la probité, ne relèvent pas le mérite ; ils le
-                            fardent, et font peut-être qu’il est moins pur et moins ingénu. (VI) Une
-                            gravité trop étudiée devient comique ; ce sont comme des extrémités qui
-                            se touchent et dont le milieu est dignité ; cela ne s’appelle pas être
-                            grave, mais en jouer le personnage ; celui qui songe à le devenir ne le
-                            sera jamais : ou la gravité n’est point, ou elle est naturelle ; et il
-                            est moins difficile d’en descendre que d’y monter. </p>
+                    <div3 n="29" source="#edition9">
+                        <p>
+                            <g ref="#char_pm-par"/>Une belle femme est aimable dans son naturel ;
+                            elle ne perd rien à être négligée, et sans autre parure que celle
+                            qu’elle tire de sa beauté et de sa jeunesse. Une grâce naïve éclate sur
+                            son visage, anime ses moindres actions : il y aurait moins de péril à la
+                            voir avec tout l’attirail de l’ajustement et de la mode. De même un
+                            homme de bien est respectable par lui-même, et indépendamment de tous
+                            les dehors dont il voudrait s’aider pour rendre sa personne plus grave
+                            et sa vertu plus spécieuse. Un air réformé, une modestie outrée, la
+                            singularité de l’habit, une ample calotte n’ajoutent rien à la probité,
+                            ne relèvent pas le mérite ; ils le fardent, et font peut-être qu’il est
+                            moins pur et moins ingénu. (VI) Une gravité trop étudiée devient comique
+                            ; ce sont comme des extrémités qui se touchent et dont le milieu est
+                            dignité ; cela ne s’appelle pas être grave, mais en jouer le personnage
+                            ; celui qui songe à le devenir ne le sera jamais : ou la gravité n’est
+                            point, ou elle est naturelle ; et il est moins difficile d’en descendre
+                            que d’y monter. </p>
                     </div3>
 
-                    <div3 n="30" source="#edition2">
-                        <p>Un homme de talent et de réputation, s’il est chagrin et austère, il
-                            effarouche les jeunes gens, les fait penser mal de la vertu, et la leur
-                            rend suspecte d’une trop grande réforme et d’une pratique trop
-                            ennuyeuse. S’il est au contraire d’un bon commerce, il leur est une
-                            leçon utile ; il leur apprend qu’on peut vivre gaiement et
+                    <div3 n="30" source="#edition9">
+                        <p><g ref="#char_pm-par"/>Un homme de talent et de réputation, s’il est
+                            chagrin et austère, il effarouche les jeunes gens, les fait penser mal
+                            de la vertu, et la leur rend suspecte d’une trop grande réforme et d’une
+                            pratique trop ennuyeuse. S’il est au contraire d’un bon commerce, il
+                            leur est une leçon utile ; il leur apprend qu’on peut vivre gaiement et
                             laborieusement, avoir des vues sérieuses sans renoncer aux plaisirs
                             honnêtes ; il leur devient un exemple qu’on peut suivre. </p>
                     </div3>
