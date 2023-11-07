@@ -240,14 +240,16 @@
                             <g ref="#char_pm0"/>Combien de siècles se sont écoulés avant que les
                             hommes, dans les sciences et dans les arts, aient pu revenir au goût des
                             anciens et reprendre enfin le simple et le naturel !</p>
-                        <p source="#edition5 #edition8" corresp="i2">Combien de siècles se sont écoulés avant que
-                            les hommes, dans les sciences et dans les arts, aient pu revenir au goût
-                            des anciens et reprendre enfin le simple et le naturel ! </p>
-                        <p source="#edition3" xml:id="r1">Entre toutes les différentes expressions qui peuvent
-                            rendre une seule de nos pensées, il n’y en a qu’une qui soit la bonne.
-                            On ne la rencontre pas toujours en parlant ou en écrivant ; il est vrai
-                            néanmoins qu’elle existe, que tout ce qui ne l’est point est faible, et
-                            ne satisfait point un homme d’esprit qui veut se faire entendre.</p>
+                        <p source="#edition5 #edition8" corresp="i2">Combien de siècles se sont
+                            écoulés avant que les hommes, dans les sciences et dans les arts, aient
+                            pu revenir au goût des anciens et reprendre enfin le simple et le
+                            naturel ! </p>
+                        <p source="#edition3" xml:id="r1">Entre toutes les différentes expressions
+                            qui peuvent rendre une seule de nos pensées, il n’y en a qu’une qui soit
+                            la bonne. On ne la rencontre pas toujours en parlant ou en écrivant ; il
+                            est vrai néanmoins qu’elle existe, que tout ce qui ne l’est point est
+                            faible, et ne satisfait point un homme d’esprit qui veut se faire
+                            entendre.</p>
                         <p source="#edition5 #edition8">On se nourrit des anciens et des habiles
                             modernes, on les presse, on en tire le plus que l’on peut, on en renfle
                             ses ouvrages ; et quand enfin l’on est auteur, et que l’on croit marcher
@@ -281,10 +283,14 @@
                     <div3 n="17">
                         <p source="#edition5 #edition8" corresp="#r1">
                             <g ref="#char_pm0"/>Entre toutes les différentes expressions qui peuvent
-                            rendre une seule de nos pensées, il n’y en a qu’une qui soit la bonne.
-                            On ne la rencontre pas toujours en parlant ou en écrivant ; il est vrai
-                            néanmoins qu’elle existe, que tout ce qui ne l’est point est faible, et
-                            ne satisfait point un homme d’esprit qui veut se faire entendre. </p>
+                            rendre une seule de nos pensées, il n’y en a qu’une qui soit la bonne
+                                <app type="ponctuation">
+                                <lem>.</lem>
+                                <rdg source="#edition3 #edition5 #edition8">;</rdg>
+                            </app> On ne la rencontre pas toujours en parlant ou en écrivant ; il
+                            est vrai néanmoins qu’elle existe, que tout ce qui ne l’est point est
+                            faible, et ne satisfait point un homme d’esprit qui veut se faire
+                            entendre. </p>
                         <p source="#edition3">
                             <g ref="#char_pm0"/>Un bon auteur, et qui écrit avec soin, éprouve
                             souvent que l’expression qu’il cherchait depuis longtemps sans la
