@@ -37,6 +37,41 @@
         </fileDesc>
 
         <encodingDesc>
+            
+            <charDecl>
+                <char xml:id="PDM">
+                    <mapping type="standard">❡</mapping>
+                    <desc>Un pied-de-mouche commence une remarque</desc>
+                </char>
+            </charDecl>
+            
+            <charDecl>
+                <char xml:id="PDM2">
+                    <mapping type="standard">(❡)</mapping>
+                    <desc> Un PDM avec une parenthèse simple indique une remarque ajoutée à l'édition 4</desc>
+                </char>
+            </charDecl>
+            
+            <charDecl>
+                <char xml:id="PDM3">
+                    <mapping type="standard">((❡))</mapping>
+                    <desc>Un PDM avec une double parenthèse indique une remarque ajoutée à l'édition 5</desc>
+                </char>
+            </charDecl>
+            
+            <charDecl>
+                <char xml:id="MNCD">
+                    <mapping type="standard">☞</mapping>
+                    <desc>Une manicule indique le début d'une remarque à partir de l'édition 6</desc>
+                </char>
+            </charDecl>
+            
+            <charDecl>
+                <char xml:id="MNCG">
+                    <mapping type="standard">☚</mapping>
+                    <desc>Une manicule indique le début d'une remarque à partir de l'édition 6</desc>
+                </char>
+            </charDecl>
 
             <editorialDecl>
                 <normalization>
@@ -55,11 +90,14 @@
 
                     <p>La numérotation des remarques dans "div3" a été gardée pour conserver la
                         numérotation convenue par la suite pour "Les Caractères"</p>
+                    
+                    <p>La balise "lem", dans "app", indique le texte brut des Caractères comme texte de référence</p>
 
                 </interpretation>
             </editorialDecl>
 
         </encodingDesc>
+        
 
         <revisionDesc>
             <change when="2023-10-10">Ajout de deux éditions des "Caractères" grâce à l'élément
@@ -79,20 +117,20 @@
                     <head>Du Coeur</head>
 
                     <div3 n="74" source="#Edition9">
-                        <p>Les hommes rougissent moins de leurs crimes que de leurs faiblesses et de
+                        <p><g ref="#PDM"/>❡ Les hommes rougissent moins de leurs crimes que de leurs faiblesses et de
                             leur vanité. Tel est ouvertement injuste, violent, perfide,
                             calomniateur, qui cache son amour ou son ambition, sans autre vue que de
                             la cacher.</p>
                     </div3>
 
                     <div3 n="75" source="#Edition9">
-                        <p>Le cas n’arrive guère où l’on puisse dire : "J’étais ambitieux" ; ou on
+                        <p><g ref="#PDM"/>❡ Le cas n’arrive guère où l’on puisse dire : "J’étais ambitieux" ; ou on
                             ne l’est point, ou on l’est toujours ; mais le temps vient où l’on avoue
                             que l’on a aimé.</p>
                     </div3>
 
                     <div3 n="76" source="#Edition9">
-                        <p>Les hommes commencent par l’amour, finissent par l’ambition, et ne se
+                        <p><g ref="#PDM"/>❡ Les hommes commencent par l’amour, finissent par l’ambition, et ne se
                             trouvent souvent dans une assiette plus tranquille que lorsqu’ils
                             meurent.</p>
                     </div3>
@@ -103,46 +141,46 @@
                     </div3>
 
                     <div3 n="78" source="#Edition9">
-                        <p>L’on est plus sociable et d’un meilleur commerce par le cœur que par
+                        <p><g ref="#PDM"/>❡ L’on est plus sociable et d’un meilleur commerce par le cœur que par
                             l’esprit.</p>
                     </div3>
 
                     <div3 n="79" source="#Edition9">
-                        <p>Il y a de certains grands sentiments, de certaines actions nobles et
+                        <p><g ref="#PDM"/>❡ Il y a de certains grands sentiments, de certaines actions nobles et
                             élevées, que nous devons moins à la force de notre esprit qu’à la bonté
                             de notre naturel.</p>
                     </div3>
 
                     <div3 n="80" source="#Edition9">
-                        <p>Il n’y a guère au monde un plus bel excès que celui de la
+                        <p><g ref="#PDM"/>❡ Il n’y a guère au monde un plus bel excès que celui de la
                             reconnaissance.</p>
                     </div3>
 
                     <div3 n="81" source="#Edition9">
-                        <p>Il faut être bien dénué d’esprit, si <seg>l’amour, la malignité, la nécessité <note type="explication" resp="#Masselot"> Enumération</note></seg>
+                        <p><g ref="#PDM"/>❡ Il faut être bien dénué d’esprit, si <seg>l’amour, la malignité, la nécessité <note type="explication" resp="#Masselot"> Enumération</note></seg>
                             n’en font pas trouver.</p>
                     </div3>
 
                     <div3 n="82" source="#Edition9">
-                        <p>Il y a des lieux que l’on admire : il y en a d’autres qui touchent, et où
+                        <p><g ref="#PDM"/>❡ Il y a des lieux que l’on admire : il y en a d’autres qui touchent, et où
                             l’on aimerait à vivre.</p>
                         <p>Il me semble que l’on dépend des lieux pour l’esprit, l’humeur, la
                             passion, le goût et les sentiments.</p>
                     </div3>
 
                     <div3 n="83" source="#Edition9">
-                        <p>Ceux qui font bien mériteraient seuls d’être enviés, s’il n’y avait
+                        <p><g ref="#PDM"/>❡ Ceux qui font bien mériteraient seuls d’être enviés, s’il n’y avait
                             encore un meilleur parti à prendre, qui est de faire mieux : c’est une
                             douce vengeance contre ceux qui nous donnent cette jalousie.</p>
                     </div3>
 
                     <div3 n="84" source="#Edition9">
-                        <p>Quelques-uns se défendent d’aimer et de faire des vers, comme de deux
+                        <p><g ref="#PDM"/>❡ Quelques-uns se défendent d’aimer et de faire des vers, comme de deux
                             faibles qu’ils n’osent avouer, l’un du cœur, l’autre de l’esprit.</p>
                     </div3>
 
                     <div3 n="85" source="#Edition1 #Edition9">
-                        <p>Il y a quelquefois dans le cours de la vie de si chers plaisirs et de si
+                        <p><g ref="#PDM"/>❡ Il y a quelquefois dans le cours de la vie de si chers plaisirs et de si
                             tendres engagements que l’on nous défend, qu’il est naturel de désirer
                             du moins qu’ils fussent permis : de si grands charmes ne peuvent être
                             surpassés que par celui de savoir y renoncer par vertu.</p>
@@ -155,34 +193,40 @@
                     <head>De Quelques Usages</head>
 
                     <div3 n="1" source="#Edition1 #Edition9">
-                        <p><seg>Il y a des gens qui n’ont pas le moyen d’être <note
-                                    source="#Edition1" type="explication" place="margin"
-                                    position="left" resp="#Editeur_Edition1">Secrétaires du
+                        <p><g ref="#PDM"/>❡ <seg>Il y a des gens qui n’ont pas le moyen d’être <note
+                                    source="#Edition1" type="explication" place="margin" resp="#Editeur_Edition1">Secrétaires du
                             roi</note></seg>nobles.</p>
                         <p>Il y en a de tels que, s’ils eussent obtenu six mois de délai de leurs
-                            créanciers, ils étaient nobles<noteGroup source="#Edition9" type="explication" place="margin"
-                                position="right" resp="#Editeur_Edition9"><note source="#Edition9" type="explication" place="margin"
-                                    position="right" resp="#Editeur_Edition9"> Vétérans</note>.</p>
+                            créanciers, ils étaient nobles<noteGroup source="#Edition9" type="explication" place="margin" resp="#Editeur_Edition9"><note source="#Edition9" type="explication" place="margin" resp="#Editeur_Edition9"> Vétérans</note>.</p>
                         <note source="#Edition1" type="explication" place="margin" position="left"
                             resp="#Editeur_Edition1">Vétérans</note>
                         <p>Quelques autres se couchent roturiers, et se lèvent nobles</note>.</noteGroup></p>
                         <note source="#Edition1" type="explication" place="margin" position="left"
                             resp="#Editeur_Edition1">Vétérans</note>
-                        <p>Combien de nobles dont le père et les aînés sont roturiers !</p>
+                        <p>Combien de nobles dont le père et les aînés sont roturiers <app><lem>!</lem><rdg source="#Edition1 #Edition9">?</rdg></app></p>
                     </div3>
+                    
+                    <div3 n="2" source="#Edition1">
+                    <p><g ref="#PDM"/>❡ Il suffit de n’être point né dans une ville, mais sous une chaumière répandue dans la campagne, ou sous une ruine qui trempe dans un marécage et qu’on appelle château, pour être cru noble sur sa parole.</p>
 
                     <div3 n="2" source="#Edition9">
-                        <p>Tel abandonne son père, qui est connu et dont l’on cite le greffe ou la
+                        <p><g ref="#PDM"/>❡ Tel abandonne son père, qui est connu et dont l’on cite le greffe ou la
                             boutique, pour se retrancher sur son aïeul, qui, mort depuis longtemps,
                             est inconnu et hors de prise ; il montre ensuite un gros revenu, une
                             grande charge, de belles alliances, et pour être noble, il ne lui manque
                             que des titres.</p>
+                        
 
                     </div3>
+                        
+                        <div3 n="3" source="#Edition1">  
+                            <p><g ref="#PDM"/>❡ Le besoin d’argent a réconcilié la noblesse avec la roture, et a fait évanouir la preuve des quatre quartiers.</p>
+                            
+                        </div3>
 
                     <div3 n="3" source="#Edition9">
 
-                        <p>Réhabilitations, mot en usage dans les tribunaux, qui a fait vieillir et
+                        <p><g ref="#PDM"/>❡ Réhabilitations, mot en usage dans les tribunaux, qui a fait vieillir et
                             rendu gothique celui de lettres de noblesse autrefois si français et si
                             usité ; se faire réhabiliter suppose qu’un homme devenu riche
                             originairement est noble, qu’il est d’une né cessité plus que morale
@@ -198,7 +242,7 @@
                     </div3>
 
                     <div3 n="4" source="#Edition9">
-                        <p>Un homme du peuple, à force d’assurer qu’il a vu un prodige, se persuade
+                        <p><g ref="#PDM"/>❡ Un homme du peuple, à force d’assurer qu’il a vu un prodige, se persuade
                             faussement qu’il a vu un prodige. Celui qui continue de cacher son âge
                             pense enfin lui-même être aussi jeune qu’il veut le faire croire aux
                             autres. De même le roturier qui dit par habitude qu’il tire son origine
@@ -207,9 +251,9 @@
                     </div3>
 
                     <div3 n="5" source="#Edition9">
-                        <p>Quelle est la roture un peu heureuse et établie à qui il manque des
+                        <p><g ref="#PDM"/>❡ Quelle est la roture un peu heureuse et établie à qui il manque des
                             armes, et dans ces armes une pièce honorable, des suppôts, un cimier,
-                            une devise, et peut-être le cri de guerre ? Qu’est devenue la
+                            une devise, et peut-être le cri de guerre <app><lem>?</lem><rdg wit="#Edition9">;</rdg></app> Qu’est devenue la
                             distinction des casques et des heaumes ? Le nom et l’usage en sont
                             abolis ; il ne s’agit plus de les porter de front ou de côté, ouverts ou
                             fermés, et ceux-ci de tant ou de tant de grilles : on n’aime pas les
@@ -223,14 +267,14 @@
 
 
                     <div3 n="6" source="#Edition1 #Edition9">
-                        <p>Il suffit de n’être point né dans une ville, mais sous une chaumière
+                        <p><g ref="#PDM"/>❡ Il suffit de n’être point né dans une ville, mais sous une chaumière
                             répandue dans la campagne, ou sous une ruine qui trempe dans un marécage
                             et qu’on appelle château, pour être cru noble sur sa parole.</p>
                     </div3>
 
 
                     <div3 n="7" source="#Edition9">
-                        <p> Un bon gentilhomme veut passer pour un petit seigneur, et il y parvient.
+                        <p><g ref="#PDM"/>❡ Un bon gentilhomme veut passer pour un petit seigneur, et il y parvient.
                             Un grand seigneur affecte la principauté, et il use de tant de
                             précautions, qu’à force de beaux noms, de disputes sur le rang et les
                             préséances, de nouvelles armes, et d’une généalogie que D’Hozier ne lui
@@ -240,7 +284,7 @@
                     </div3>
 
                     <div3 n="8" source="#Edition9">
-                        <p>Les grands en toutes choses se forment et se moulent sur de plus grands,
+                        <p><g ref="#PDM"/>❡ Les grands en toutes choses se forment et se moulent sur de plus grands,
                             qui de leur part, pour n’avoir rien de commun avec leurs inférieurs,
                             renoncent volontiers à toutes les rubriques d’honneurs et de
                             distinctions dont leur condition se trouve chargée, et préfèrent à cette
@@ -251,7 +295,7 @@
                     </div3>
 
                     <div3 n="9" source="#Edition9">
-                        <p>Certaines gens portent trois noms, de peur d’en manquer : ils en ont pour
+                        <p><g ref="#PDM"/>❡ Certaines gens portent trois noms, de peur d’en manquer : ils en ont pour
                             la campagne et pour la ville, pour les lieux de leur service ou de leur
                             emploi. D’autres ont un seul nom dissyllabe, qu’ils anoblissent par des
                             particules dès que leur fortune devient meilleure ; Celui-ci par la
@@ -268,27 +312,26 @@
                     </div3>
 
                     <div3 n="10" source="#Edition1 #Edition9">
-                        <p>Le besoin d’argent a réconcilié la noblesse avec la roture, et a fait
+                        <p><g ref="#PDM"/>❡ Le besoin d’argent a réconcilié la noblesse avec la roture, et a fait
                             évanouir la preuve des quatre quartiers.</p>
                     </div3>
 
                     <div3 n="11" source="#Edition9">
-                        <p>À combien d’enfants serait utile la loi qui déciderait que c’est le
+                        <p><g ref="#PDM"/>❡ À combien d’enfants serait utile la loi qui déciderait que c’est le
                             ventre qui anoblit ! mais à combien d’autres serait-elle contraire !
                         </p>
                     </div3>
 
                     <div3 n="12" source="#Edition9">
-                        <p>Il y a peu de familles dans le monde qui ne touchent aux plus grands
+                        <p><g ref="#PDM"/>❡ Il y a peu de familles dans le monde qui ne touchent aux plus grands
                             princes par une extrémité et par l’autre au simple peuple.</p>
                     </div3>
 
                     <div3 n="13" source="#Edition9">
-                        <p>Il n’y a rien à perdre à être noble : franchises, immunités, exemptions,
+                        <p><g ref="#PDM"/>❡ Il n’y a rien à perdre à être noble : franchises, immunités, exemptions,
                             privilèges, que manque-t-il à ceux qui ont un titre ? Croyez-vous que ce
                             soit pour la noblesse que des <seg>solitaires<note source="#Edition9"
-                                    type="explication" place="margin" position="left"
-                                    resp="#Editeur_Edition9">Maison religieuse Secrétaire du
+                                    type="explication" place="margin" resp="#Editeur_Edition9">Maison religieuse Secrétaire du
                                     roi</note></seg>se sont faits nobles ? ils ne sont pas si vains
                             : c’est pour le profit qu’ils en reçoivent. Cela ne leur sied-il pas
                             mieux que d’entrer dans les gabelles ? je ne dis pas à chacun en
@@ -296,7 +339,7 @@
                     </div3>
 
                     <div3 n="14" source="#Edition9">
-                        <p>Je le déclare nettement, afin que l’on s’y prépare et que personne un
+                        <p><g ref="#PDM"/>❡ Je le déclare nettement, afin que l’on s’y prépare et que personne un
                             jour n’en soit surpris : s’il arrive jamais que quelque grand me trouve
                             digne de ses soins, si je fais enfin une belle fortune, il y a un
                             Geoffroy de la Bruyère, que toutes les chroniques rangent au nombre des
@@ -306,12 +349,12 @@
                     </div3>
 
                     <div3 n="15" source="#Edition1 #Edition9">
-                        <p>Si la noblesse est vertu, elle se perd par tout ce qui n’est pas vertueux
+                        <p><g ref="#PDM"/>❡ Si la noblesse est vertu, elle se perd par tout ce qui n’est pas vertueux
                             ; et si elle n’est pas vertu, c’est peu de chose.</p>
                     </div3>
 
                     <div3 n="16" source="#Edition9">
-                        <p>Il y a des choses qui, ramenées à leurs principes et à leur première
+                        <p><g ref="#PDM"/>❡ Il y a des choses qui, ramenées à leurs principes et à leur première
                             institution, sont étonnantes et incompréhensibles. Qui peut concevoir en
                             effet que certains abbés, à qui il ne manque rien de l’ajustement, de la
                             mollesse et de la vanité des sexes et des conditions, qui entrent auprès
@@ -326,33 +369,29 @@
                     </div3>
 
                     <div3 n="17" source="#Edition1 #Edition9">
-                        <p> Que les saletés des Dieux, la Vénus, le Ganymède et les autres nudités
+                        <p><g ref="#PDM"/>❡ Que les saletés des Dieux, la Vénus, le Ganymède et les autres nudités
                             du Carrache aient été faites pour des princes de l’Eglise, et qui se
                             disent successeurs des Apôtres, le palais Farnèse en est la preuve.</p>
                     </div3>
 
                     <div3 n="18" source="#Edition1 #Edition9">
-                        <p>Les belles choses le sont moins hors de leur place ; les bienséances
+                        <p><g ref="#PDM"/>❡ Les belles choses le sont moins hors de leur place ; les bienséances
                             mettent la perfection, et la raison met les bienséances. Ainsi l’on
                             n’entend point une gigue à la chapelle, ni dans un sermon des tons de
                             théâtre ; l’on ne voit point <seg>d’images<note source="#Edition1"
-                                    type="definition" place="margin" position="left"
-                                    resp="#Editeur_Edition1">Tapisseries</note></seg>
-                            <seg>profanes<note source="#Edition9" type="explication" place="margin"
-                                    position="right" resp="#Editeur_Edition9">Tapisseries</note>
+                                    type="definition" place="margin" resp="#Editeur_Edition1">Tapisseries</note></seg>
+                            <seg>profanes<note source="#Edition9" type="explication" place="margin" resp="#Editeur_Edition9">Tapisseries</note>
                             </seg>dans les temples, un CHRIST par exemple et le Jugement de Paris
                             dans le même sanctuaire, ni à des personnes consacrées à l’Eglise le
                             train et l’équipage d’un cavalier. </p>
                     </div3>
 
                     <div3 n="19" source="#Edition9">
-                        <p> Déclarerai-je donc ce que je pense de ce qu’on appelle dans le monde un
+                        <p><g ref="#PDM"/>❡  Déclarerai-je donc ce que je pense de ce qu’on appelle dans le monde un
                             beau salut, la décoration souvent profane, les places retenues et
                             payées, des <seg>livres distribués comme au théâtre<note
-                                    source="#Edition9" type="explication" place="margin"
-                                    position="right" resp="#Editeur_Edition9">Le Motet<seg>
-                                        <note type="definition" place="margin" position="left"
-                                            resp="#Masselot"> Un Motet est une sorte de composition
+                                    source="#Edition9" type="explication" place="margin" resp="#Editeur_Edition9">Le Motet<seg>
+                                        <note type="definition" place="margin" resp="#Masselot"> Un Motet est une sorte de composition
                                             musicale, l'une des formes les plus importantes de la
                                             musique polyphonique du XIIe au XVIIIe
                                         siècle</note></seg>traduit en vers français par
@@ -369,17 +408,17 @@
                     </div3>
 
                     <div3 n="20" source="#Edition1 #Edition9">
-                        <p>L’on ne voit point faire de vœux ni de pèlerinages pour obtenir d’un
+                        <p><g ref="#PDM"/>❡ L’on ne voit point faire de vœux ni de pèlerinages pour obtenir d’un
                             saint d’avoir l’esprit plus doux, l’âme plus reconnaissante, d’être plus
                             équitable et moins malfaisant, d’être guéri de la vanité, de
                             l’inquiétude et de la mauvaise raillerie.</p>
                     </div3>
 
                     <div3 n="21" source="#Edition1 #Edition9">
-                        <p>Quelle idée plus bizarre que de se représenter une foule de chrétiens de
+                        <p><g ref="#PDM"/>❡ Quelle idée plus bizarre que de se représenter une foule de chrétiens de
                             l’un et de l’autre sexe, qui se rassemblent à certains jours dans une
                             salle pour y applaudir à une troupe d’excommuniés, qui ne le sont que
-                            par le plaisir qu’ils leur donnent, et qui est déjà payé d’avance ? Il
+                            par le plaisir qu’ils leur donnent, et qui est déjà pay <app><rdg source="#Edition9">é</rdg><rdg wit="#Edition1">ez</rdg></app> d’avance ? Il
                             me semble qu’il faudrait ou fermer les théâtres, ou prononcer moins
                             sévèrement sur l’état des comédiens.</p>
                     </div3>
