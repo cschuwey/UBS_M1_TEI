@@ -13,13 +13,13 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
-                    <monogr xml:id="edition1">
+                    <monogr xml:id="edition10">
                         <title>Les caractères de Théophraste , traduits du grec, avec Les caractères
                             ou les moeurs de ce siècle</title>
                         <edition>Première édition</edition>
                         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k55032388/f137.item</idno>
                         <imprint>
-                            <date>1688</date>
+                            <date>1888</date>
                             <publisher> E. Belin (Paris)</publisher>
                         </imprint>
                     </monogr>
@@ -38,15 +38,38 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <glyph xml:id="char_pdm1">
+                    <mapping>❡</mapping>
+                    <desc>Pied de mouche simple, marquant le début d'une remarque ajoutée dans
+                        l'édition 8.</desc>
+                </glyph>
+                <glyph xml:id="char_pdm2">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied de mouche à parathèses, marquant le début d'une remarque.</desc>
+                </glyph>
+                <glyph xml:id="char_pdm3">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied de mouche à parathèses doubles, marquant le début d'une
+                        remarque.</desc>
+                </glyph>
+                <glyph>
+                    <mapping xml:id="manicule_gauche">☜</mapping>
+                    <desc>Manicule gauche</desc>
+                    <mapping xml:id="manicule_droite">☞</mapping>
+                    <desc>Manicule gauche</desc>
+                </glyph>
+            </charDecl>
             <projectDesc>
                 <p> Projet pédagogique TEI, M1 MLE</p>
             </projectDesc>
             <editorialDecl>
                 <normalization>
-                    <p>Nous avons encodé deux versions des Caractères de la Bruyères, celle de 1688
+                    <p>Nous avons encodé deux versions des Caractères de la Bruyères, celle de 1888
                         et celle de 1696 (TEI Header).</p>
                 </normalization>
             </editorialDecl>
+
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -54,13 +77,15 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-09">Encodage du TEI Header des éditions de 1688 et 1696 des
+            <change when="2023-10-09">Encodage du TEI Header des éditions de 1888 et 1696 des
                 Caractères de la Bruyère</change>
             <change when="2023-10-19">Ajout des liens des exemplaires et ajout des éditions liées à
                 chaque remarque</change>
             <change when="2023-10-26">Ajout des notes de bas de pages pour l'édition de 1894.
                 L'édition de 1888 ne possède pas de notes de bas de page, rajout de 2 notes
                 factices.</change>
+            <change when="2023-11-07">Ajout de deux variations (lui-luy et user-ufer) spécifique à
+                l'édition 8.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -71,59 +96,71 @@
                 <div2 type="chapitre" n="1">
                     <head>Des Biens de Fortune</head>
 
-                    <div3 source="#edition1 #edition8" type="remarque" n="(21)">
-                        <p>On ne peut mieux user de sa fortune que fait <seg>Périandre <note
+                    <div3 source="#edition10 #edition8" type="remarque" n="(21)">
+                        <g ref="#char_pdm1"/>
+                        <p>On ne peut mieux <app>
+                                <rdgGrp>
+                                    <lem>user</lem>
+                                    <rdg wit="#edition8">ufer</rdg>
+                                </rdgGrp>
+                            </app> de sa fortune que fait <seg>Périandre <note resp="#laBruyère"
+                                    place="margin" type="glossaire" source="#edition8"> PERIANDE. Il
+                                    s'agit d'un certain Langlée, que nous retrouverons plus loin au
+                                    chapitre de la Cour : "Les cours ne sauraient se passer,
+                                    etc."</note></seg>: elle <app>
+                                <rdgGrp>
+                                    <lem>lui</lem>
+                                    <rdg wit="#edition8">luy</rdg>
+                                </rdgGrp>
+                            </app> donne du rang, du crédit, de l’autorité ; déjà on ne le prie plus
+                            d’accorder son amitié, implore sa protection. Il a commencé par dire de
+                            soi-même : un homme de ma sorte ; il passe à dire : un homme de ma
+                            qualité ; il se donne pour tel, et il n’y a personne de ceux à qui il
+                            prête de l’argent, ou qu’il reçoit à sa table, qui est délicate, qui
+                            veuille s’y opposer. Sa demeure est superbe ; un dorique règne dans tous
+                            ses dehors ; ce n’est pas une porte, c’est un portique : est-ce la
+                            maison d’un particulier ? est-ce un temple ? le peuple s’y trompe. Il
+                            est le seigneur dominant de tout le <seg>quartier <note
                                     resp="#laBruyère" place="margin" type="glossaire"
-                                    source="#edition8"> PERIANDE. Il s'agit d'un certain Langlée,
-                                    que nous retrouverons plus loin au chapitre de la Cour : "Les
-                                    cours ne sauraient se passer, etc."</note></seg>: elle lui donne
-                            du rang, du crédit, de l’autorité ; déjà on ne le prie plus d’accorder
-                            son amitié, implore sa protection. Il a commencé par dire de soi-même :
-                            un homme de ma sorte ; il passe à dire : un homme de ma qualité ; il se
-                            donne pour tel, et il n’y a personne de ceux à qui il prête de l’argent,
-                            ou qu’il reçoit à sa table, qui est délicate, qui veuille s’y opposer.
-                            Sa demeure est superbe ; un dorique règne dans tous ses dehors ; ce
-                            n’est pas une porte, c’est un portique : est-ce la maison d’un
-                            particulier ? est-ce un temple ? le peuple s’y trompe. Il est le
-                            seigneur dominant de tout le <seg>quartier <note resp="#laBruyère"
-                                    place="margin" type="glossaire" source="edition8"> LE QUARTIER.
-                                    C'est-à-dire le seigneur suzerain de qui relève tout le
-                                    quartier.</note></seg> C’est lui que l’on envie, et dont on
-                            voudrait voir la chute ; c’est lui dont la femme, par son collier de
-                            perles, s’est fait des ennemies de toutes les dames du voisinage. Tout
-                            se soutient dans cet homme ; rien encore ne se dément dans cette
-                            grandeur qu’il a acquise, dont il ne doit rien, qu’il a payée. Que son
-                            père, si vieux et si caduc, n’est-il mort il y a vingt ans et avant
-                            qu’il se fît dans le monde aucune mention de Périandre ! Comment
-                            pourra-t-il soutenir ces odieuses <seg>pancartes <note resp="#laBruyère"
-                                    place="margin" type="glossaire" source="#edition8">PANCARTES.
-                                    Billets d'enterrement (note de la Bruyère).</note></seg> qui
-                            déchiffrent les conditions et qui souvent font rougir la veuve et les
-                            héritiers ? Les supprimera-t-il aux yeux de toute une ville jalouse,
-                            maligne, clairvoyante, et aux dépens de mille gens qui veulent
-                            absolument aller tenir leur rang à des obsèques ? Veut-on d’ailleurs
-                            qu’il fasse de son père un Noble homme, et peut-être un Honorable homme,
-                            lui qui est <seg>Messire ?<note resp="#laBruyère" place="margin"
-                                    type="glossaire" source="#edition8">MESSIRE. Noble homme était
-                                    le titre que prenaient, dans les contrats, les bourgeois de
-                                    quelque importance. Le petit bourgeois, le marchand, l'artisan
-                                    s'intitulaient honorable homme, le titre de messire était
-                                    réservé aux personnes de qualité.</note></seg>
+                                    source="edition8"> LE QUARTIER. C'est-à-dire le seigneur
+                                    suzerain de qui relève tout le quartier.</note></seg> C’est lui
+                            que l’on envie, et dont on voudrait voir la chute ; c’est lui dont la
+                            femme, par son collier de perles, s’est fait des ennemies de toutes les
+                            dames du voisinage. Tout se soutient dans cet homme ; rien encore ne se
+                            dément dans cette grandeur qu’il a acquise, dont il ne doit rien, qu’il
+                            a payée. Que son père, si vieux et si caduc, n’est-il mort il y a vingt
+                            ans et avant qu’il se fît dans le monde aucune mention de Périandre !
+                            Comment pourra-t-il soutenir ces odieuses <seg>pancartes <note
+                                    resp="#laBruyère" place="margin" type="glossaire"
+                                    source="#edition8">PANCARTES. Billets d'enterrement (note de la
+                                    Bruyère).</note></seg> qui déchiffrent les conditions et qui
+                            souvent font rougir la veuve et les héritiers ? Les supprimera-t-il aux
+                            yeux de toute une ville jalouse, maligne, clairvoyante, et aux dépens de
+                            mille gens qui veulent absolument aller tenir leur rang à des obsèques ?
+                            Veut-on d’ailleurs qu’il fasse de son père un Noble homme, et peut-être
+                            un Honorable homme, lui qui est <seg>Messire ?<note resp="#laBruyère"
+                                    place="margin" type="glossaire" source="#edition8">MESSIRE.
+                                    Noble homme était le titre que prenaient, dans les contrats, les
+                                    bourgeois de quelque importance. Le petit bourgeois, le
+                                    marchand, l'artisan s'intitulaient honorable homme, le titre de
+                                    messire était réservé aux personnes de qualité.</note></seg>
                             <note resp="#Josset"/>
                             <note resp="#laBruyère" type="inform"> lalala</note>
                         </p>
                     </div3>
 
-                    <div3 source="#edition1 #edition8" type="remarque" n="(22)">
+                    <div3 source="#edition10 #edition8" type="remarque" n="(22)">
+                        <g ref="#char_pdm1"/>
                         <p>Combien d’hommes ressemblent à ces arbres déjà forts et avancés que l’on
                             transplante dans les jardins, où ils surprennent les yeux de ceux qui
                             les voient placés dans de beaux endroits<note resp="#Josset"
-                                place="bottom" type="information" source="#edition1">blabla</note>
+                                place="bottom" type="information" source="#edition10">blabla</note>
                             où ils ne les ont point vus croître, et qui ne connaissent ni leurs
                             commencements ni leurs progrès ! </p>
                     </div3>
 
-                    <div3 source="#edition1 #edition8" type="remarque" n="(23)">
+                    <div3 source="#edition10 #edition8" type="remarque" n="(23)">
+                        <g ref="#char_pdm1"/>
                         <p> Si certains morts revenaient au monde, et s’ils voyaient leurs grands
                             noms portés, et leurs terres les mieux titrées avec leurs châteaux et
                             leurs maisons antiques, possédées par des gens dont les pères étaient
@@ -134,11 +171,12 @@
                             quelle opinion pourraient-ils avoir de notre siècle ? </p>
                     </div3>
 
-                    <div3 source="#edition1 #edition8" type="remarque" n="(24)">
+                    <div3 source="#edition10 #edition8" type="remarque" n="(24)">
+                        <g ref="#char_pdm1"/>
                         <p> Rien ne fait mieux comprendre le peu de chose que Dieu croit donner aux
                             hommes, en leur abandonnant les richesses, l’argent, les grands
                                 établissements<note resp="#Josset" place="margin" type="glossaire"
-                                source="#edition1">blabla</note> et les autres biens, que la
+                                source="#edition10">blabla</note> et les autres biens, que la
                             dispensation qu’il en fait, et le genre d’hommes qui en sont le mieux
                                 <seg>pourvus. <note resp="#laBruyère" place="margin"
                                     type="information" source="#edition8"> POURVUS. Cf. Bossuet,
@@ -152,7 +190,8 @@
                     </div3>
 
 
-                    <div3 source="#edition1 #edition8" type="remarque" n="(25)">
+                    <div3 source="#edition10 #edition8" type="remarque" n="(25)">
+                        <g ref="#char_pdm1"/>
                         <p>Si vous entrez dans les cuisines, où l’on voit réduit en art et en
                             méthode le secret de flatter votre goût et de vous faire manger au delà
                             du nécessaire ; si vous examinez en détail tous les apprêts des viandes
@@ -162,7 +201,7 @@
                             propreté et à cette élégance qui charment vos yeux, vous font hésiter
                             sur le choix, et prendre le parti d’essayer de tout ; si vous voyez tout
                                 <seg>le repas ailleurs<note resp="#Josset" place="bottom"
-                                    type="lieu" source="#edition1">Dans un restaurant.</note></seg>
+                                    type="lieu" source="#edition10">Dans un restaurant.</note></seg>
                             que sur une table bien servie, quelles saletés ! quel dégoût ! Si vous
                             allez derrière un théâtre, et si vous nombrez les poids, les roues, les
                             cordages, qui font les vols et les machines ; si vous considérez combien
@@ -184,7 +223,8 @@
                     </div3>
 
 
-                    <div3 source="#edition1 #edition8" type="remarque" n="(26)">
+                    <div3 source="#edition10 #edition8" type="remarque" n="(26)">
+                        <g ref="#char_pdm1"/>
                         <p>
                             <seg>Ce garçon <note resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">CE GARCON (...)1671.</note></seg> si frais,
@@ -203,7 +243,8 @@
                                     (...)mon espérance."</note></seg> ? </p>
                     </div3>
 
-                    <div3 source="#edition1 #edition8" type="remarque" n="(27)">
+                    <div3 source="#edition10 #edition8" type="remarque" n="(27)">
+                        <g ref="#char_pdm1"/>
                         <p><seg>Chrysippe<note resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">CHRYSIPPE. (...)BonTemps.</note></seg>, homme
                             nouveau, et le premier noble de sa race, aspirait, il y a trente années,
@@ -221,7 +262,8 @@
                             reste de ses jours à travailler pour s’enrichir. </p>
                     </div3>
 
-                    <div3 source="#edition1 #edition8" type="remarque" n="(28)">
+                    <div3 source="#edition10 #edition8" type="remarque" n="(28)">
+                        <g ref="#char_pdm1"/>
                         <p> Laissez faire <seg>Ergaste<note resp="#laBruyère" place="margin"
                                     type="information" source="#edition8">ERGASTE; (...)
                                     revenir.</note></seg>, et il exigera un droit de tous ceux qui
@@ -246,7 +288,8 @@
                         </p>
                     </div3>
 
-                    <div3 source="#edition1 #edition8" type="remarque" n="(29)">
+                    <div3 source="#edition10 #edition8" type="remarque" n="(29)">
+                        <g ref="#char_pdm1"/>
                         <p> Ne traitez pas avec <seg>CRITON<note resp="#laBruyère" place="margin"
                                     type="information" source="#edition8"
                                     >CRITON.(...)laquais".</note></seg>, il n’est touché que de ses
@@ -257,7 +300,8 @@
                             il lui faut une dupe. </p>
                     </div3>
 
-                    <div3 source="#edition1 #edition8" type="remarque" n="(30)">
+                    <div3 source="#edition10 #edition8" type="remarque" n="(30)">
+                        <g ref="#char_pdm1"/>
                         <p>
                             <seg>Brontin<note resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">BRONTIN.(...)laquais".</note></seg>, dit
@@ -266,7 +310,8 @@
                                     crier.</note></seg>, fait des retraites, et s’enferme huit jours
                             avec des saints : ils ont leurs méditations, et il a les siennes. </p>
                     </div3>
-                    <div3 source="#edition1 #edition8" type="remarque" n="(31)">
+                    <div3 source="#edition10 #edition8" type="remarque" n="(31)">
+                        <g ref="#char_pdm1"/>
                         <p> Le peuple souvent a le plaisir de <seg>la tragédie<note
                                     resp="#laBruyère" place="margin" type="glossaire"
                                     source="#edition8">LA TRAGEDIE.(...)d'Ancre.</note></seg> : il
