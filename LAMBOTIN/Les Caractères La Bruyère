@@ -57,6 +57,7 @@
             <change when="2023-10-19">Ajout des éditions reliées à chaque remarque et ajout de la
                 huitième édition des Caractères dans le biblestruct</change>
             <change when="2023-10-26">Ajout de notes dans les remarques 22, 23, 30 et 32. Elles sont de moi car il n'y avait aucune remarque dans les éditions choisies.</change>
+            <change when="2023-11-07">Ajout d'une note fictive de La Bruyère</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -106,7 +107,7 @@
                     <div3 source="#édition2 #édition8" type="remarque" n="25">
                         <p>Théocrine sait des choses assez inutiles ; il a des sentiments toujours
                             singuliers ; il est moins profond que méthodique ; il n’exerce que sa
-                            mémoire ; il est abstrait, dédaigneux, et il semble toujours rire en
+                            mémoire ; il est abstrait, <seg>dédaigneux<note resp="#labruyere" place="bottom" source="#labruyere"></note></seg>, et il semble toujours rire en
                             lui-même de ceux qu’il croit ne le valoir pas. Le hasard fait que je lui
                             lis mon ouvrage, il l’écoute. Est-il lu, il me parle du sien.« Et du
                             vôtre, me direz-vous, qu’en pense-t-il ? » —Je vous l’ai déjà dit, il me
