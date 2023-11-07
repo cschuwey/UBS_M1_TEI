@@ -56,13 +56,45 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+ <charDecl>
+                <char xml:id="char_pm0">
+                    <mapping>❡</mapping>
+                    <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
+                        remarque.</desc>
+                </char>
+                <char xml:id="char_pm1">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
+                        remarque. Il devait indiquer les remarques ajoutées à partir de l'édition 4.</desc>
+                </char>
+                <char xml:id="char_pm2">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
+                        remarque. Il devait indiquer les remarques ajoutées à partir de l'édition 5.</desc>
+                </char>
+                <char xml:id="md">
+                    <mapping>☜</mapping>
+                    <desc>Symbole pour attirer l'attention du lecteur vers un passage/paragraphe
+                        spécifique.</desc>
+                </char>
+                <char xml:id="mg">
+                    <mapping>☞</mapping>
+                    <desc>Symbole pour attirer l'attention du lecteur vers un passage/paragraphe
+                        spécifique.</desc>
+                </char>
+            </charDecl>
             <editorialDecl>
                 <normalization><p>graphie modernisée</p></normalization>
                 <normalization><p>ponctuation modernisée</p></normalization>
                 <segmentation><p>note ecrites par "invisihands" sont manuscrites</p></segmentation>
             </editorialDecl>
             <editorialDecl>
-                <interpretation><p></p></interpretation>
+                <interpretation>
+                  <p>div1 pour les parties de l'ouvrage</p>
+                    <p>div2 pour les chapitres</p>
+                    <p>div3 pour les remarques</p>
+                     <p>lem pour la version moderne, de base, du texte</p>
+                </interpretation>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -77,6 +109,8 @@
                 <change when="2023-10-23">Ajout des des sources</change>
                  <change when="2023-10-23">Ajout d'une nouvelle édition</change>
                   <change when="2023-11-07">Encodage de note</change>
+                 <change when="2023-11-07">Ajout de l'élément app pour comparer la langue,
+                    ponctuation. Encodage pieds de mouche et manicules.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -97,8 +131,9 @@
                             longtemps par Théotime ; ses tendres exhortations ne sauvaient plus que
                             le peuple, et Théotime a vu son successeur. </p>
                     </div3>
-                    <div3 type="remarque" n="2" source="#edition8 #edition7">
-                        <p> La curiosité n’est pas un goût pour ce qui est bon ou ce qui est beau,
+                    <div3 type="remarque" n="2" source="#edition8 #edition7"><g ref="#char_pm"/>
+                             <p source="#edition1 #edition6 #edition8"><g ref="#char_pm"/>
+                            La curiosité n’est pas un goût pour ce qui est bon ou ce qui est beau,
                             mais pour ce qui est rare, unique, pour ce qu’on a et ce que les autres
                             n’ont point. Ce n’est pas un attachement à ce qui est parfait, mais à ce
                             qui est couru, à ce qui est à la mode. Ce n’est pas un amusement, mais
@@ -106,7 +141,13 @@
                             l’ambition que par la petitesse de son objet. Ce n’est pas une passion
                             qu’on a généralement pour les choses rares et qui ont cours, mais qu’on
                             a seulement pour une certaine chose, qui est rare, et pourtant à la
-                            mode. </p>
+                            mode<app>
+                                <lem/>
+                                <rdg source="#edition1 #edition6 #edition8">,</rdg>
+                            </app>
+                            <app>
+                                <lem> et</lem>
+                        
                         <p> Le fleuriste a un jardin dans un faubourg : il y court au lever du
                             soleil, et il en revient à son coucher. Vous le voyez planté, et qui a
                             pris racine au milieu de ses tulipes et devant la Solitaire : il ouvre
@@ -263,7 +304,7 @@
                             saisi de leur cœur et de leur esprit ; qu’un des plus beaux endroits de
                             la vie d’un très grand roi a été de les guérir de cette folie. </p>
                     </div3>
-                    <div3 type="remarque" n="4 source="#edition8 #edition7">
+                    <div3 type="remarque" n="4 source="#edition8 #edition7"><g ref="#char_pm"/>
                         <p> Tel a été à la mode, ou pour le commandement des armées et la
                             négociation ou pour l’éloquence de la chaire, ou pour les vers, qui n’y
                             est plus. Y a-t-il des hommes qui dégénèrent de ce qu’ils furent
@@ -280,7 +321,7 @@
                             conserve, l’épure et la rend parfaite ; qu’elle soit à la mode, qu’elle
                             n’y soit plus, elle demeure vertu. </p>
                     </div3>
-                    <div3 type="remarque" n="6" source="#edition8 #edition7">
+                    <div3 type="remarque" n="6" source="#edition8 #edition7"><g ref="#char_pm"/>
                         <p> Si vous dites aux hommes, et surtout aux grands, qu’un tel a de la
                             vertu, ils vous disent : « Qu’il la garde » ; qu’il a bien de l’esprit,
                             de celui surtout qui plaît et qui amuse, ils vous répondent : « Tant
@@ -300,7 +341,7 @@
                             ou son disciple, faire quelque comparaison avec celui qui vient de
                             perdre huit perdre huit cents pistoles en une séance. </p>
                     </div3>
-                    <div3 type="remarque" n="8" source="#edition8 #edition7">
+                    <div3 type="remarque" n="8" source="#edition8 #edition7"><g ref="#char_pm"/>
                         <p> Une personne à la mode ressemble à une fleur bleue qui croît de soi-même
                             dans les sillons, où elle étouffe les épis, diminue la moisson, et tient
                             la place de quelque chose de meilleur ; qui n’a de prix et de beauté que
@@ -328,7 +369,7 @@
                                     ref="Erinmias" place="bottom" source="#edition3">Eustrate de Nicée
                       (en grec Εὐστράτιος Νικαίας) est un philosophe et théologien byzantin.</note></seg> </p>
                     </div3>
-                    <div3 type="remarque" n="10"source="#edition8 #edition7" >
+                    <div3 type="remarque" n="10"source="#edition8 #edition7" ><g ref="#char_pm"/>
                         <p> Voiture et Sarrazin étaient nés pour leur siècle, et ils ont paru dans
                             un temps où il semble qu’ils étaient attendus. S’ils s’étaient moins
                             pressés de venir, ils arrivaient trop tard ; et j’ose douter qu’ils
