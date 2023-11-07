@@ -81,7 +81,7 @@
                     <p>Toutes les notes possèdant le responsable "manuscrit_edition2" sont
                         manuscrites</p>
                     <p>"lem" renvoie au texte brut</p>
-                    <p>Utilisation de #source pour marquer l'origine des variations</p>
+                    <p>Utilisation de @source pour marquer l'origine des variations</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -104,7 +104,7 @@
                 <div2 type="chapitre" n="5">
                     <head> De la Société et de la Conversation </head>
                     <div3 type="caractere" n="64" source="#edition1 #edition2">
-                        <p source="#edition1 #edition2"> <g ref="#PM"></g> Le conseil, si nécessaire pour les
+                        <p source="#edition1 #edition2"> <g ref="#PM">¶</g> Le conseil, si nécessaire pour les
                             affaires, est quelquefois dans la société nuisible à qui le donne, et
                             inutile à celui à qui il est donné. Sur les mœurs, vous faites remarquer
                             des défauts ou que l’on n’avo<app type="graphie">
@@ -118,7 +118,7 @@
                             habiles. </p>
                     </div3>
                     <div3 type="caractere" n="65" source="#edition1 #edition2">
-                        <p source="#edition1 #edition2"><g ref="#PM"></g> L’on a vu, il n’y a pas longtemps, un
+                        <p source="#edition1 #edition2"><g ref="#PM">¶</g> L’on a vu, il n’y a pas longtemps, un
                             cercle de personnes des deux sexes, liées ensemble par la conversation
                             et par un commerce d’esprit. Ils laissaient au vulgaire l’art de parler
                             d’une manière intelligible ; une chose dite entre eux peu clairement en
@@ -135,7 +135,7 @@
                             précieuses ridicules qui est une piece admira(ble)</note>
                     </div3>
                     <div3 type="caractere" n="66" source="#edition2">
-                        <p source="#edition2"> <g ref="#PM"></g> Je le <app type="morpho">
+                        <p source="#edition2"> <g ref="#PM">¶</g> Je le <app type="morpho">
                                 <lem>sais</lem>
                                 <rdg source="#Michallet_edition2">fçay</rdg>
                             </app>,Théobalde, vous êtes vieilli ; mais voudriez-vous que je crusse
@@ -153,7 +153,7 @@
                             source="#edition2"> [...]quelques [...]soulevera</note>
                     </div3>
                     <div3 type="caractere" n="67" source="#edition1 #edition2">
-                        <p source="#edition1 #edition2"> <g ref="#PM"></g> L’on parle impétueusement dans les
+                        <p source="#edition1 #edition2"> <g ref="#PM">¶</g> L’on parle impétueusement dans les
                             entretiens, souvent par vanité ou par humeur, rarement avec assez
                             d’attention : tout occupé du désir de répondre à ce <app>
                                 <lem> qu'on n'écoute point</lem>
@@ -167,7 +167,7 @@
 
                     </div3>
                     <div3 type="caractere" n="68" source="#edition1 #edition2">
-                        <p source="#edition1 #edition2"> <g ref="#PM"></g> Il a régné pendant quelque temps une sorte
+                        <p source="#edition1 #edition2"> <g ref="#PM">¶</g> Il a régné pendant quelque temps une sorte
                             de conversation fade et puérile, qui roulait toute sur des questions
                             frivoles qui avaient relation au cœur et à ce qu’on appelle passion ou
                             tendresse. La lecture de quelques romans les avait introduites parmi les
@@ -179,7 +179,7 @@
                             </app> avec les pointes et les équivoques. </p>
                     </div3>
                     <div3 type="caractere" n="69" source="#edition2">
-                        <p source="#edition2"> <g ref="#PM"></g> Quelques femmes de la ville ont la délicatesse de ne
+                        <p source="#edition2"> <g ref="#PM">¶</g> Quelques femmes de la ville ont la délicatesse de ne
                             pas savoir ou de n’oser dire le nom des rues, des places, et de quelques
                             endroits publics, qu’elles ne croient pas assez nobles pour être connus.
                             Elles disent : le Louvre, la place Royale, mais elles usent de tours et
@@ -191,13 +191,13 @@
                         </p>
                     </div3>
                     <div3 type="caractere" n="70" source="#edition2">
-                        <p source="#edition2"> <g ref="#PM"></g> Si l’on feint quelquefois de ne se pas souvenir de
+                        <p source="#edition2"> <g ref="#PM">¶</g> Si l’on feint quelquefois de ne se pas souvenir de
                             certains noms que l’on croit obscurs, et si l’on affecte de les
                             corrompre en les prononçant, c’est par la bonne opinion qu’on a du sien.
                         </p>
                     </div3>
                     <div3 type="caractere" n="71" source="#edition1 #edition2">
-                        <p source="#edition1 #edition2"> <g ref="#PM"></g> L’on dit par belle humeur, et dans la
+                        <p source="#edition1 #edition2"> <g ref="#PM">¶</g> L’on dit par belle humeur, et dans la
                             liberté de la conversation, de ces choses froides, qu’à la vérité l’on
                             donne pour telles, et que l’on ne trouve bonnes que parce qu’elles sont
                             extrêmement mauvaises. Cette manière basse de plaisanter a passé du
@@ -211,12 +211,12 @@
                             esprit et dans le commerce ordinaire, de quelque chose de meilleur. </p>
                     </div3>
                     <div3 type="caractere" n="72" source="#edition2">
-                        <p source="#edition2"> <g ref="#PM"></g>Entre dire de mauvais choses, ou en dire de bonnes
+                        <p source="#edition2"> <g ref="#PM">¶</g>Entre dire de mauvais choses, ou en dire de bonnes
                             que tout le monde sait et les donner pour nouvelles, je n’ai pas à
                             choisir. </p>
                     </div3>
                     <div3 type="caractere" n="73" source="#edition1 #edition2">
-                        <p source="#edition1 #edition2"> <g ref="#PM"></g> Lucain a dit une jolie chose… Il y a un
+                        <p source="#edition1 #edition2"> <g ref="#PM">¶</g> Lucain a dit une jolie chose… Il y a un
                             beau mot de Claudien… Il y a cet endroit de Sénèque" : et là-dessus une
                             longue suite de latin, que l’on cite souvent devant des gens qui ne
                             l’entendent pas, et qui feignent de l’entendre. Le secret serait d’avoir
@@ -227,7 +227,7 @@
                         </p>
                     </div3>
                     <div3 type="caractere" n="74" source="#edition2">
-                        <p source="#edition2"> <g ref="#PM"></g> Hermagoras ne sait pas qui est roi de Hongrie ; il
+                        <p source="#edition2"> <g ref="#PM">¶</g> Hermagoras ne sait pas qui est roi de Hongrie ; il
                             s’étonne de n’entendre faire aucune mention du roi de Bohême ; ne lui
                             parlez pas des guerres de Flandre et de Hollande, dispensez-le du moins
                             de vous répondre : il confond les temps, il ignore quand elles ont
