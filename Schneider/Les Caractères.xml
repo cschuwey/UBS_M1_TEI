@@ -36,6 +36,28 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <mapping>¶</mapping>
+                    <desc>Pied-de-mouche simple. Signale une nouvelle remarque à partir de l'édition 1.</desc> 
+                </char> 
+                <char xml:id="char_pm-par">
+                     <mapping>(¶)</mapping>
+                     <desc>Pied-de-mouche à parenthèses simples. Signale une nouvelle remarque à partir de l'édition 4.</desc> 
+                </char>
+                <char xml:id="char_pm-par2">
+                    <mapping>((¶))</mapping>
+                    <desc>Pied-de-mouche à parenthèses doubles. Signale une nouvelle remarque à partir de l'édition 5.</desc> 
+                </char>
+                <char xml:id="char_man_right">
+                    <mapping>☛</mapping>
+                    <desc>Manicule. Signale une nouvelle remarque dans l'édition 7.</desc> 
+                </char>
+                <char xml:id="char_man_left">
+                    <mapping>☚</mapping>
+                    <desc>Manicule. Signale une nouvelle remarque dans l'édition 7.</desc> 
+                </char>
+            </charDecl>
             <editorialDecl>
                 <normalization>
                     <p>Modernisation de la graphie.</p>
@@ -77,6 +99,8 @@
                 non) certaines remarques.</change>
             <change when="2023-10-25">Ajout des notes de La Bruyère et des notes de l'éditeur
                 numérique.</change>
+            <change when="2023-11-07">Ajout de variantions de graphie.</change>
+            <change when="2023-11-07">Définition des fonctions des caractères particuliers : pied-de-mouches, pied-de-mouches à parenthèses simples, pied-de-mouches à parenthèses doubles, manicules.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,14 +110,16 @@
                 <div2 type="chapitre" n="3">
                     <head>Du Coeur</head>
                     <div3 n="52" source="#edition9">
-                        <p source="#edition9">On convie, on invite, on offre sa maison, sa table,
+                        <p source="#edition9"><g ref="#char_pm"/>On convie, on invite, on offre sa maison, sa table,
                             son bien et ses services : rien ne coûte qu’à tenir parole.</p>
                     </div3>
 
                     <div3 n="53" source="#edition7 #edition9">
                         <p source="#edition7 #edition9">C’est assez pour soi d’un fidèle ami ; c’est
-                            même beaucoup de l’avoir rencontré : on ne peut en avoir trop pour le
-                            service des autres.</p>
+                            même beaucoup de l’avoir rencontré <app>
+                                <rdg source="#edition7">:</rdg>
+                                <rdg source="#edition9">,</rdg>
+                            </app> on ne peut en avoir trop pour le service des autres.</p>
                     </div3>
 
                     <div3 n="54" source="#edition7 #edition9">
@@ -103,13 +129,15 @@
                     </div3>
 
                     <div3 n="55" source="#edition7 #edition9">
-                        <note resp="#schneider" type="expli">L'auteur explique ici qu'aucune
-                            relation n'est figée dans le temps et peut évoluer à tout moment.</note>
+                        <note resp="#schneider" type="expl">L'auteur explique ici qu'aucune relation
+                            n'est figée dans le temps et peut évoluer à tout moment.</note>
                         <p source="#edition7 #edition9">Vivre avec ses ennemis comme s’ils devaient
                             un jour être nos amis, et vivre avec nos amis comme s’ils pouvaient
-                            devenir nos ennemis, n’est ni selon la nature de la haine, ni selon les
-                            règles de l’amitié ; ce n’est point une maxime morale, mais
-                            politique.</p>
+                            devenir nos ennemis, n’est <app>
+                                <rdg source="#edition9">ni</rdg>
+                                <rdg source="#edition7">ny</rdg>
+                            </app> selon la nature de la haine, ni selon les règles de l’amitié ; ce
+                            n’est point une maxime morale, mais politique.</p>
                     </div3>
 
                     <div3 n="56" source="#edition7 #edition9">
@@ -118,8 +146,10 @@
                             choix d’amis si sûrs et d’une si exacte <seg>probité <note
                                     resp="#schneider" type="gloss">qualité à respecter ses devoirs
                                     et/ou le règlement.</note></seg>, que venant à cesser de l’être,
-                            ils ne veuillent pas abuser de notre confiance, ni se faire craindre
-                            comme ennemis.</p>
+                            ils ne veuillent pas abuser de notre confiance, <app>
+                                <rdg source="#edition9">ni</rdg>
+                                <rdg source="#edition7">ny</rdg>
+                            </app> se faire craindre comme ennemis.</p>
                     </div3>
 
                     <div3 n="57" source="#edition7 #edition9">
