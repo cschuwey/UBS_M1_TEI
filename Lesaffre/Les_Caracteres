@@ -79,27 +79,27 @@
             <charDecl>
                 <char xml:id="char_pm_par">
                     <mapping>❡</mapping>
-                    <desc>Pied-de-mouche présentant une remarque présente depuis l'édition 4.</desc>
+                    <desc>Pied-de-mouche présentant une remarque présente depuis la première édition.</desc>
                 </char>
                 <char xml:id="char_pm_par1">
                     <mapping>(❡)</mapping>
                     <desc>Pied-de-mouche dans une parenthèse, présentant une remarque présente
-                        depuis l'édition 5.</desc>
+                        depuis l'édition 4.</desc>
                 </char>
                 <char xml:id="char_pm_par2">
                     <mapping>((❡))</mapping>
                     <desc>Pied-de-mouche dans une double parenthèse, présentant une remarque
-                        présente depuis l'édition 6.</desc>
+                        présente depuis l'édition 5.</desc>
                 </char>
                 <char xml:id="char_man_right">
                     <mapping>☞</mapping>
                     <desc>Manicule avec l'index pointant vers la droite, présentant une nouvelle
-                        remarque de l'édition 7 ou 8.</desc>
+                        remarque ajoutée depuis l'édition 7.</desc>
                 </char>
                 <char xml:id="char_man_left">
                     <mapping>☜</mapping>
                     <desc>Manicule avec l'index pointant vers la gauche, présentant une nouvelle
-                        remarque de l'édition 7 ou 8.</desc>
+                        remarque ajoutée depuis l'édition 7.</desc>
                 </char>
             </charDecl>
             <editorialDecl>
