@@ -28,19 +28,41 @@
                             <publisher>Estienne Michallet</publisher>
                             <date when="1691">1691</date>
 
-                            <!--4e édition https://gallica.bnf.fr/ark:/12148/bpt6k57567b?rk=214593;2-->
+                            <!--4e édition https://gallica.bnf.fr/ark:/12148/bpt6k57567b/f399.item-->
                         </imprint>
                         <imprint>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Estienne Michallet</publisher>
                             <date>1694</date>
-                            <!-- 8e édition https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=278971;2-->
+                            <!-- 8e édition https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f458.item-->
                         </imprint>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <glyph xml:id="char_pdm">
+                    <mapping>❡</mapping>
+                    <desc>pied de mouche simple, marquant le début d'une remarque</desc>
+                </glyph>
+                <glyph xml:id="char_pdmp">
+                    <mapping>(❡)</mapping>
+                    <desc>pied de mouche à parenthèse simple, marquant les ajouts de remarques de
+                        l'édition 4</desc>
+                </glyph>
+                <glyph xml:id="char_pdmWp">
+                    <mapping>((❡))</mapping>
+                    <desc>pied de mouche à double parenthèses, marquant les ajouts de remarques de
+                        l'édition 5</desc>
+                </glyph>
+                <glyph>
+                    <mapping xml:id="char_maniD">☛</mapping>
+                    <mapping xml:id="char_maniG">☚</mapping>
+                    <desc>manicule droite ou gauche, marquant les ajouts de remarques de l'édition
+                        7</desc>
+                </glyph>
+            </charDecl>
             <projectDesc>
                 <p>projet pédagogique M1, UBS, MLE</p>
             </projectDesc>
@@ -74,27 +96,63 @@
                 <head>Les caractères ou les Moeurs de ce siècle</head>
                 <div2 type="chapitre">
                     <head>De l'Homme</head>
+                    <div3 type="remarque" n="21" source="#ed8 #edx"/>
+                    <!-- correction : ajout de la remarque 21 de l'édition 8 et modernisée qui correspond à un paragraphe de la remarque 22 de l'édition 4 -->
+                    <g ref="#char_pdm" source="#edx #ed8"/>
+                    <p source="#edx #ed8">Il est si ordinaire à l'homme de n'être pas heureux, et si
+                        essentiel à tout ce qui est un bien d'être attaché par mille peines, qu'une
+                        affaire qui se rend facile, devient suspecte : l'on comprend à peine, ou que
+                        ce qui coûte si peu, puisse nous être fort avantageux ; ou qu'avec des
+                        mesures justes, l'on doive si aisément parvenir à la fin qu'on le propose :
+                        l'on croit mériter les bons succès, mais n'y devoir compter que fort
+                        rarement.</p>
                     <div3 type="remarque" n="22" source="#edx #ed4 #ed8">
                         <!-- Est-ce nécessaire d'ajouter ub attribut source à p si les valeurs ne diffèrent pas de celles de div? -->
-                        <p source="#ed4">Il est si ordinaire à l'homme de n'être pas heureux, et si
+
+                        <!-- Mettre des sources dans chaque g, faire les app -->
+                        <g ref="#char_pdm" source="#ed4"/>
+                        <p source="#ed4"> Il est si ordinaire à l'homme de estre pas heureux, et si
                             essentiel à tout ce qui est un bien d'être attaché par mille peines,
                             qu'une affaire qui se rend facile, devient suspecte : l'on comprend à
                             peine, ou que ce qui coûte si peu, puisse nous être fort avantageux ; ou
                             qu'avec des mesures justes, l'on doive si aisément parvenir à la fin
                             qu'on le propose : l'on croit mériter les bons succès, mais n'y devoir
                             compter que fort rarement.</p>
-                        <p source="#edx #ed4 #ed8">L’homme qui dit qu’il n’est pas né heureux
+                        <p source="#edx #ed4 #ed8"> L’homme qui dit qu’il n’est pas né heureux
                             pourrait du moins le devenir par le bonheur de ses amis ou de ses
                             proches. L’envie lui ôte cette dernière ressource. </p>
 
                     </div3>
                     <div3 type="remarque" n="23" source="#edx #ed4 #ed8">
-                        <p source="#edx #ed4 #ed8">Quoi que j’aie pu dire ailleurs, peut-être que
-                            les affligés ont tort. Les hommes semblent être nés pour l’infortune, la
-                            douleur et la pauvreté ; peu en échappent ; et comme toute disgrâce peut
-                            leur arriver, ils devraient être préparés à toute disgrâce.</p>
+                        <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
+                        <p source="#edx #ed4 #ed8"> Quoi que j’<app>
+                                <lem source="#edx" cause="modernisation" type="orthographique"
+                                    >aie</lem>
+                                <rdgGrp>
+                                    <rdg source="#ed4" cause="modernisation" type="orthographique"
+                                        >aye</rdg>
+                                    <rdg source="#ed8" cause="modernisation" type="orthographique"
+                                        >aye</rdg>
+                                </rdgGrp>
+                            </app>
+                            <app>
+                                <lem source="#edx" cause="modernisation" type="orthographique"
+                                    >pu</lem>
+                                <rdgGrp>
+                                    <rdg source="#ed4" cause="modernisation" type="orthographique"
+                                        >pû</rdg>
+                                    <rdg source="#ed8" cause="modernisation" type="orthographique"
+                                        >pû</rdg>
+                                </rdgGrp>
+                            </app>
+                            <!--Ici dans la modernisation du texte "aye pû" est devenu "aie pu". J'ai choisi de séparer les 2 mots dans 2 app distincts puisque je suis partie du principe qu'il s'agit de deux modernisations différentes. On pourrait cependant envisager de les mettre dans un seul app. De plus, je me demandai également s'il était nécessaire de préciser source="#edx" dans lem puisque c'est la source par défaut de lem? est-ce aussi nécessaire de repréciser le type et la cause de la modification dans chaque rdg en sachant que la modiffication intervient sur le lem?  -->
+                            dire ailleurs, peut-être que les affligés ont tort. Les hommes semblent
+                            être nés pour l’infortune, la douleur et la pauvreté ; peu en échappent
+                            ; et comme toute disgrâce peut leur arriver, ils devraient être préparés
+                            à toute disgrâce.</p>
                     </div3>
                     <div3 type="remarque" n="24" source="#edx #ed8">
+                        <g ref="#char_pdm" source="#edx #ed8"/>
                         <p source="#edx #ed8">Les hommes ont tant de peine à s’approcher sur les
                             affaires, sont si épineux sur les moindres intérêts, si hérissés de
                             difficultés, veulent si fort tromper et si peu être trompés, mettent si
@@ -104,6 +162,7 @@
                             traités, les alliances. </p>
                     </div3>
                     <div3 type="remarque" n="25" source="#edx #ed4 #ed8">
+                        <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
                         <p source="#edx #ed4 #ed8">A quelques-uns l’arrogance tient lieu de
                             grandeur, l’inhumanité de fermeté, et la fourberie d’esprit.</p>
                         <p source="#edx #ed4 #ed8">(I) Les fourbes croient aisément que les autres
@@ -115,6 +174,7 @@
                             ajoute la malice au mensonge. </p>
                     </div3>
                     <div3 type="remarque" n="26" source="#edx #ed8">
+                        <g ref="#char_pdm" source="#edx #ed8"/>
                         <p source="#edx #ed8">S’il y avait moins de dupes, il y aurait moins de ce
                             qu’on appelle des hommes fins ou entendus, et de ceux qui tirent autant
                             de vanité que de distinction d’avoir su, pendant tout le cours de leur
@@ -128,6 +188,7 @@
                             industrie ? </p>
                     </div3>
                     <div3 type="remarque" n="27" source="#edx #ed4 #ed8">
+                        <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
                         <p source="#edx #ed4 #ed8"> L’on n’entend dans les places et dans les rues
                             des grandes villes, et de la bouche de ceux qui passent, que les mots
                             d’exploit, de saisie, d’interrogatoire, de promesse, et de plaider
@@ -135,8 +196,9 @@
                             petite équité ? Serait-il au contraire rempli de gens qui demandent
                             froidement ce qui ne leur est pas dû, ou qui refusent nettement de
                             rendre ce qu’ils doivent ?</p>
-                        <p source="#edx #ed8">Parchemins inventés pour faire souvenir ou pour
-                            convaincre les hommes de leur parole : honte de l’humanité ! </p>
+                        <p source="#edx #ed8"><g ref="#char_maniD" source="#ed8"/>Parchemins
+                            inventés pour faire souvenir ou pour convaincre les hommes de leur
+                            parole : honte de l’humanité ! </p>
                         <p source="#edx #ed4 #ed8">(IV) <seg>Otez les passions, l’intérêt,
                                 l’injustice, quel calme dans les plus grandes villes ! Les besoins
                                 et la subsistance n’y font pas le tiers de l’embarras.<note
@@ -145,18 +207,26 @@
                         </p>
                     </div3>
                     <div3 type="remarque" n="28" source="#edx #ed4 #ed8">
+                        <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
                         <p source="#edx #ed4 #ed8"> Rien n’engage tant un esprit raisonnable à
                             supporter tranquillement des parents et des amis les tors qu’ils ont à
                             son égard, que la réflexion qu’il fait sur les vices de l’humanité, et
-                            combien il est pénible aux hommes d’être constants, généreux, fidèles,
-                            d’être touchés d’une amitié plus forte que leur intérêt. Comme il
-                            connaît leur portée, il n’exige point d’eux qu’ils pénètrent les corps,
-                            qu’ils volent dans l’air, qu’ils aient de l’équité. Il peut haïr les
-                            hommes en général, où il y a si peu de vertu ; mais il excuse les
+                            combien il est pénible aux hommes d’être constants, généreux, <app>
+                                <lem source="#edx" cause="modernisation" type="orthographique"
+                                    >fidèles</lem>
+                                <rdg source="#ed4" cause="modernisation" type="orthographique"
+                                    >fidelles</rdg>
+                                <rdg source="#ed8" cause="modernisation" type="orthographique"
+                                    >fideles</rdg>
+                            </app>, d’être touchés d’une amitié plus forte que leur intérêt. Comme
+                            il connaît leur portée, il n’exige point d’eux qu’ils pénètrent les
+                            corps, qu’ils volent dans l’air, qu’ils aient de l’équité. Il peut haïr
+                            les hommes en général, où il y a si peu de vertu ; mais il excuse les
                             particuliers, il les aime même par des motifs plus relevés, et il
                             s’étudie à mériter le moins qu’il se peut une pareille indulgence. </p>
                     </div3>
                     <div3 type="remarque" n="29" source="#edx #ed4 #ed8">
+                        <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
                         <p source="#edx #ed4 #ed8">Il y a de certains biens que l’on désire avec
                             emportement, et dont l’idée seule nous enlève et nous transporte : s’il
                             nous arrive de les obtenir, on les sent plus tranquillement qu’on ne
@@ -164,6 +234,7 @@
                             grands. </p>
                     </div3>
                     <div3 type="remarque" n="30" source="#edx #ed4 #ed8">
+                        <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
                         <p source="#edx #ed4 #ed8">
                             <seg>Il y a des maux effroyables et d’horribles malheurs où l’on n’ose
                                     penser<note resp="#henarejos" type="precision"> Ici, La Bruyère
@@ -173,12 +244,14 @@
                             infortune, et l’on fait mieux qu’on ne l’espérait. </p>
                     </div3>
                     <div3 type="remarque" n="31" source="#edx #ed4 #ed8">
+                        <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
                         <p source="#edx #ed4 #ed8">Il ne faut quelquefois qu’une jolie maison dont
                             on hérite, qu’un beau cheval ou un joli chien dont on se trouve le
                             maître, qu’une tapisserie, qu’une pendule, pour adoucir une grande
                             douleur, et pour faire moins sentir une grande perte. </p>
                     </div3>
                     <div3 type="remarque" n="32" source="#edx #ed4 #ed8">
+                        <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
                         <p source="#edx #ed4 #ed8">Je suppose que les hommes soient éternels sur la
                             terre, et je médite ensuite sur ce qui pourrait me faire connaître
                             qu’ils se feraient alors une plus grande affaire de leur établissement
