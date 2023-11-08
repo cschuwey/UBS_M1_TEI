@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<TEI xmlns="https://tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -8,64 +8,64 @@
                 <author xml:id="labruyere"> Jean de La Bruyère</author>
                 <principal>C. Schuwey</principal>
             </titleStmt>
-
+            
             <publicationStmt>
                 <publisher xml:id="lecoq">Lise Le Coq</publisher>
                 <date when="2023-10-09">9 Octobre 2023</date>
                 <pubPlace>Lorient</pubPlace>
             </publicationStmt>
-
+            
             <sourceDesc>
                 <listBibl>
                     <bibl xml:id="edition3">
                         <title type="main">Les caractères de Théophraste traduits du grec </title>
                         <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
-                        <author xml:id="labruyere">Jean de La Bruyère</author>
+                        <author>La Bruyère Jean</author>
                     </bibl>
                 </listBibl>
                 <biblstruct>
                     <monogram>
                         <placeName>Paris</placeName>
                         <publisher> E.Michallet</publisher>
-                         <date when-iso="1688">1688</date>
+                        <date when-iso="1688">1688</date>
                         <imprint>
                             <idno>Bibliothèque nationale de France</idno>
                             <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k57572x</idno>
                         </imprint>
                     </monogram>
                 </biblstruct>
-
+                
             </sourceDesc>
-
+            
             <sourceDesc>
                 <listBibl>
                     <bibl xml:id="edition5">
                         <title type="main">Les caractères de Théophraste traduits du grec </title>
                         <title type="sub">avec Les caractères ou les moeurs de ce siècle. Cinquième
                             édition. Augmentée de plusieurs remarques</title>
-                        <author xml:id="labruyere"> Jean de La Bruyère</author>
+                        <author>La Bruyère Jean</author>
                     </bibl>
                 </listBibl>
                 <biblstruct>
                     <monogram>
                         <placeName>Paris</placeName>
                         <publisher>chez Estienne Michallet</publisher>
-                         <date when-iso="1690">1690</date>
+                        <date when-iso="1690">1690</date>
                         <imprint>
                             <idno>Bibliothèque nationale de France</idno>
                             <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k575660</idno>
                         </imprint>
                     </monogram>
                 </biblstruct>
-
+                
             </sourceDesc>
-
+            
             <sourceDesc>
                 <listBibl>
                     <bibl xml:id="edition8">
                         <title type="main">Les caractères de Théophraste traduits du grec </title>
                         <title type="sub">avec Les caractères ou les moeurs de ce siècle</title>
-                        <author xml:id="labruyere">La Bruyère Jean</author>
+                        <author>La Bruyère Jean</author>
                         <author xml:id="manuscrit">Inconnu</author>
                     </bibl>
                 </listBibl>
@@ -73,7 +73,7 @@
                     <monogram>
                         <placeName>Paris</placeName>
                         <publisher> E.Michallet</publisher>
-                         <date when-iso="1694">1694</date>
+                        <date when-iso="1694">1694</date>
                         <imprint>
                             <idno>Bibliothèque nationale de France</idno>
                             <idno type="URL"
@@ -82,10 +82,32 @@
                     </monogram>
                 </biblstruct>
             </sourceDesc>
-
+            
         </fileDesc>
-
+        
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <mapping>¶</mapping>
+                    <desc>Pieds-de-mouche simple. Signale une nouvelle remarque présente dans l'édition 1</desc>
+                </char>
+                  <char xml:id="char_pm-par">
+                      <mapping>(¶)</mapping>
+                      <desc>Pieds-de-mouche à parenthèses simple. Signale une nouvelle remarque présente dans l'édition 4</desc>
+                  </char> 
+                <char xml:id="char_pm-par2">
+                    <mapping>((¶))</mapping>
+                    <desc> Pieds-de-mouche à parenthèses doubles. Signale une nouvelle remarque présente dans l'édition 5</desc>
+                </char>
+                <char xml:id="manicule_gauche">
+                    <mapping>☛</mapping>
+                    <desc>Manicule gauche. Signale une nouvelle note à partir de l'édition 7</desc>
+                </char>
+                <char xml:id="manicule_droit">
+                    <mapping>☚</mapping>
+                    <desc>Manicule droit. Signale une nouvelle note à partir de l'édition 7</desc>
+                </char>
+            </charDecl>
             <editorialDecl>
                 <normalization>
                     <p>Graphie modernisée</p>
@@ -101,7 +123,7 @@
                         caractères de Théophraste pour ces éditions. </p>
                 </interpretation>
                 <interpretation>
-                    <p> Nous avons structuré l'ouvrage avec div1 : La balise div1 qui englobe tout
+                    <p>Nous avons structuré l'ouvrage avec div1 : La balise div1 qui englobe tout
                         l'ouvrage puis à l'intérieur de div1, nous avons plusieurs div2 pour les
                         chapitres ou remarques. Chaque chapitre de la balise div2 est divisé
                         individuellement avec div3, qui contiennent ensuite les paragraphes dans la
@@ -137,31 +159,31 @@
                 source des deux éditions : la troisième édition de 1688 et la cinquième de 1690 dans
                 les balises div3 et p</change>
             <change when="2023-10-16">Ajout des remarques 43 à 53 contenus dans le chapitre
-                    <head>"Des Biens de Fortune"</head></change>
+                <head>"Des Biens de Fortune"</head></change>
             <change when="2023-10-17"> Ajout des méta-données du fichier : Ajout de la source de la
                 huitième édition de 1694 dans les balises div3 et p</change>
             <change when="2023-10-17"> Ajout des méta-données du fichier : Ajout d'un commentaire
                 dans la balise interpretation</change>
-             <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la balise note et seg. La balise "Seg" permet de relier une note à un mot ou à un segment de phrase (groupe de mots) spécifiques présents dans un texte ou ici un caractère.</change> 
-             <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la référence des auteurs avec xml:id dans les attributs author dans le teiHeader </change> 
+            <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la balise note et seg. La balise "Seg" permet de relier une note à un mot ou à un segment de phrase (groupe de mots) spécifiques présents dans un texte ou ici un caractère.</change> 
+            <change when="2023-10-22"> Ajout des méta-données du fichier : Ajout de la référence des auteurs avec xml:id dans les attributs author dans le teiHeader </change> 
             <change when="2023-10-24"> Ajout des méta-données du fichier : Ajout d'une note marginale "margin" imprimée de la Bruyère (#labruyere), de deux annotations d'une écriture manuscrite inconnue (#manuscrit), ainsi que de quatre commentaires personnels (#lecoq) de types différents dans la balise seg suivie de la rédaction de l'annotation dans la balise note.</change>
-
+            <change when="2023-10-24"> Ajout des méta-données du fichier : Nous avons lister tous les caractères : 4 ( pieds de mouche simple, 1 parenthese, 2 parenthèse, manicule) </change>
         </revisionDesc>
-
+        
         <profileDesc>
             <langUsage>
                 <language ident="fra">Français</language>
             </langUsage>
         </profileDesc>
-
+        
     </teiHeader>
-
+    
     <text>
         <body>
             <div1 type="ouvrage">
                 <head> Les Caractères ou les moeurs de ce siècle </head>
                 <div2 type="chapitre" n="6"> VI <head>"Des Biens de Fortune"</head>
-                    <div3 n="43" source="#edition5 #edition8">
+                    <div3 type="remarque" n="43" source="#edition5 #edition8">
                         <p source="#edition5 #edition8">
                             <note resp="#lecoq" type="manicule"/>Le marchand fait des montres pour
                             donner de sa marchandise ce qu’il y a de pire ; il a <seg
@@ -175,30 +197,30 @@
                             l’a livrée la lui paye en or qui soit de poids.</p>
                         <!-- Je ne sais pas si il est important d'ajouter le manicule ci-dessus présent dans l'édition8 comme il n'apporte rien mais souligne l'importance de cette remarque -->
                     </div3>
-                    <div3 n="44" source="#edition3 #edition5 #edition8">
+                    <div3 type="remarque" n="44" source="#edition3 #edition5 #edition8">
                         <p source="#edition3 #edition5 #edition8">Dans toutes les conditions, le
                             pauvre est bien proche de l’homme de bien, et l’opulent n’est guère
-                            éloigné de la friponnerie. Le savoir-faire et l’habileté ne mènent pas
+                            éloigné de la friponnerie. Le <app><rdg source="#edition_5">ç</rdg><lem>s</lem></app>avoir-faire et l’habileté ne mènent pas
                             jusques aux énormes richesses. </p>
                         <p n="44" source="#edition3 #edition5 #edition8">L’on peut s’enrichir, dans
                             quelque art ou dans quelque commerce que ce soit, par <seg
                                 source="#edition3 #edition5 #edition8" resp="#lecoq"
                                 type="explication">l’ostentation d’une certaine
-                                    probité<note>"l’ostentation d’une certaine probité" signifie
+                                probité<note>"l’ostentation d’une certaine probité" signifie
                                     afficher ou montrer de manière voyante son intégrité ou son
                                     honnêteté. Dans le contexte dans ce terme, cela suggère que
                                     l'affichage de cette intégrité peut être un moyen de réussir ou
                                     de s'enrichir dans n'importe quel domaine.</note></seg></p>
                     </div3>
-                    <div3 n="45" source="#edition5 #edition8">
-                        <p source="#edition5 #edition8"> De tous les moyens de faire sa fortune, le
+                    <div3 type="remarque" n="45" source="#edition5 #edition8">
+                        <p source="#edition5 #edition8"> <g ref="#char_pm"></g> De tous les moyens de faire sa fortune, le
                             plus court et le meilleur est de mettre les gens à voir clairement leurs
                             intérêts à vous faire du bien.</p>
                     </div3>
-                    <div3 n="46" source="#edition3 #edition5 #edition8">
+                    <div3 type="remarque" n="46" source="#edition3 #edition5 #edition8">
                         <p source="#edition3 #edition5 #edition8"><note source="#edition8"
-                                resp="#labruyere" place="right" type="commentaire"> [...] Roy [...]
-                                Racine </note> Les hommes, pressés par les besoins de la vie, et
+                            resp="#labruyere" place="right" type="commentaire"> [...] Roy [...]
+                            Racine </note> Les hommes,pre<app><rdg source="#edition_5">ff</rdg><lem>ss</lem></app>ssés par les besoins de la vie, et
                             quelquefois par le désir du gain ou de la gloire, cultivent des talents
                             profanes, ou s’engagent dans des professions équivoques, et dont ils se
                             cachent longtemps à eux-mêmes le péril et les conséquences : ils les
@@ -207,8 +229,8 @@
                             bien établie. </p>
                         <!--Cette annotation manuscrite est illisible donc je ne sais pas qui est l'auteur de cette annotation dans l'édition8, je suppose que c'est La Bruyère. Je ne sais pas non plus si cette annotation concerne la remarque dans son intégralité ou juste un segment.-->
                     </div3>
-                    <div3 n="47" source=" #edition5 #edition8">
-                        <p source="#edition5 #edition8">Il y a des misères sur la terre qui
+                    <div3 type="remarque" n="47" source=" #edition5 #edition8">
+                        <p source="#edition5 #edition8">Il y a des <app type="morpho"><lem>misères</lem><rdg wit="edition8">misères</rdg></app>sur la terre qui
                             saisissent le cœur ; il manque à quelques-uns jusqu’aux aliments ; ils
                             redoutent l’hiver, ils appréhendent de vivre. L’on mange ailleurs des
                             fruits précoces ; l’on force la terre et les saisons pour fournir à sa
@@ -218,21 +240,21 @@
                             veux être, si je le puis, ni malheureux ni heureux ; je me jette et me
                             réfugie dans la médiocrité.</p>
                     </div3>
-                    <div3 n="48" source=" #edition5 #edition8">
-                        <p source="#edition5 #edition8"> On sait que les pauvres sont chagrins de ce
+                    <div3 type="remarque" n="48" source=" #edition5 #edition8">
+                        <p source="#edition5 #edition8"> <g ref="#char_pm"></g>On sait que les pauvres sont chagrins de ce
                             que tout leur manque, et que personne ne les soulage ; mais s’il est
                             vrai que les riches soient colères, c’est de ce que la moindre chose
                             puisse leur manquer, ou que quelqu’un veuille leur résister. </p>
                     </div3>
-                    <div3 n="49" source="#edition8">
+                    <div3 type="remarque" n="49" source="#edition8">
                         <p source=" #edition8">Celui-là est riche, qui reçoit plus qu’il ne consume
                             ; celui-là est pauvre, dont la dépense excède la recette.</p> <p
-                            source="#edition8"><seg><note source="#edition8" resp="#manuscrit"
+                                source="#edition8"><seg><note source="#edition8" resp="#manuscrit"
                                     place="right" type="commentaire"> [...] M.Louis [..]passé</note>
-                                Tel, avec deux millions de rente, peut être pauvre chaque année de
-                                cinq cent mille livres.</seg></p>
+                                    Tel, avec deux millions de rente, peut être pauvre chaque année de
+                                    cinq cent mille livres.</seg></p>
                         <!--Cette annotation manuscrite est illisible donc je ne sais pas qui est l'auteur de cette annotation dans l'édition8-->
-                            <p source="#edition8">Il n’y a rien qui se soutienne plus longtemps
+                        <p source="#edition8">Il n’y a rien qui se soutienne plus longtemps
                             qu’une médiocre fortune ; il n’y a rien dont on voie mieux la fin que
                             d’une grande fortune.</p>
                         <p source="#edition8">L’occasion prochaine de la pauvreté, c’est de grandes
@@ -244,33 +266,33 @@
                                 type="definition">l’avare<note>Qui a de l'argent et refuse de le dépenser, quitte à se priver.</note></seg> languissent dans une
                             extrême pauvreté.</p>
                     </div3>
-                    <div3 n="50" source=" #edition5 #edition8">
+                    <div3 type="remarque" n="50" source=" #edition5 #edition8">
                         <p source=" #edition5 #edition8"><note source="#edition8" resp="#manuscrit"
-                                type="commentaire"> E-G D-F</note>Les passions tyrannisent l’homme ;
-                            et l’ambition suspend en lui les autres passions, et lui donne pour un
+                            type="commentaire"> E-G D-F</note>Les passions tyrannisent l’homme ;
+                            et l’ambition suspend en lui les autres passions, et lu<app><rdg source="#edition_8">y</rdg><lem>i</lem></app>i donne pour un
                             temps les apparences de toutes les vertus. Ce <seg
                                 source="#edition5 #edition8" resp="#lecoq" type="gloss"
-                                    >Tryphon<note>Tryphon est un grammairien grec du I siècle av.
+                                >Tryphon<note>Tryphon est un grammairien grec du I siècle av.
                                     J.-C</note></seg> qui a tous les vices, je l’ai cru sobre,
                             chaste, libéral, humble et même dévot : je le croirais encore, s’il
                             n’eût enfin fait sa fortune.</p>
                     </div3>
-                    <div3 n="51" source=" #edition5 #edition8">
+                    <div3 type="remarque" n="51" source=" #edition5 #edition8">
                         <p source="#edition5 #edition8">L’on ne se rend point sur le désir de
                             posséder et de s’agrandir : la bile gagne, et la mort approche, qu’avec
                             un visage flétri, et des jambes déjà faibles, l’on dit : ma fortune, mon
                             établissement.</p>
                     </div3>
-                    <div3 n="52" source=" #edition5 #edition8">
+                    <div3 type="remarque" n="52" source=" #edition5 #edition8">
                         <p source="#edition5 #edition8">Il n’y a au monde que deux manières de
                             s’élever, ou par sa propre industrie, ou par l’imbécillité des
                             autres.</p>
                     </div3>
-                    <div3 n="53" source=" #edition3 #edition5 #edition8">
+                    <div3 type="remarque" n="53" source=" #edition3 #edition5 #edition8">
                         <p source="#edition3 #edition5 #edition8"> Les traits découvrent la
                             complexion et les mœurs ; mais la<seg
                                 source="#edition3 #edition5 #edition8" resp="#lecoq" type="lexique">
-                                    mine<note> "mine" se réfère à l'expression ou à l'apparence
+                                mine<note> "mine" se réfère à l'expression ou à l'apparence
                                     d'une personne, souvent en relation avec son état d'esprit, ses
                                     émotions ou, comme le suggère le texte, sa situation
                                     financière.</note></seg>désigne les biens de fortune : le plus
@@ -283,3 +305,21 @@
     </text>
 </TEI>
 
+
+<app type="morpho"><lem>misères</lem><rdg wit="edition8">misères</rdg></app>
+<app type="morpho"><lem>s</lem><rdg wit="edition8" source="edition3">z</rdg></app>
+<app type="morpho"><lem>s</lem>
+    <rdg source="edition8">z</rdg> 
+<rdg source="edition8" wit="#edition8_101" resp="#main-inconnue">s</rdg></app>
+
+source = dans la plupart des editions => s'écrit de cette manière
+wit= pas propre à une édition mais dans une édition spécique ( qui détone) 
+
+
+Combien d'hommes admirables et qui <app>
+    <rdg source="#edition6">choses</rdg>
+    <rdg source="#edition"/>
+</app>
+
+
+<g ref="#char_pm"></g>
