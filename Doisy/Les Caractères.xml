@@ -75,7 +75,32 @@
                     aux remarques dans l'édition critique, basée sur la dernière édition.</p>
                 <p>Les attributs "source" renvoient à l'édition dans laquelle se trouve ce
                     paragraphe/cette remaruqe.</p>
+                <p>L'attribut "source" dans la balise "rdg" indique une variante orthographique qui
+                    est modifiée dans tous les exemplaires d'une édition.</p>
+                <p>L'attribut "wit" dans la balise "rdg" indique une variante d'un exemplaire
+                    particulier.</p>
             </editorialDecl>
+            <charDecl>
+                <glyph xml:id="char_pdm">
+                    <mapping>❡</mapping>
+                    <desc>Pied de mouche simple, marquant le début d'une remarque.</desc>
+                </glyph>
+                <glyph xml:id="char_pdm_brackets_1">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied de mouche entre parenthèses simples, marquant le début d'une remarque
+                        rajoutée dans l'édition 4.</desc>
+                </glyph>
+                <glyph xml:id="char_pdm_brackets_2">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied de mouche entre parenthèses doubles, marquant le début d'une remarque
+                        rajoutée dans l'édition 5.</desc>
+                </glyph>
+                <glyph>
+                    <mapping xml:id="manicule_right">☞</mapping>
+                    <mapping xml:id="manicule_left">☜</mapping>
+                    <desc>Manicules marquant une remarque rajoutée dans l'édition 7.</desc>
+                </glyph>
+            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -91,6 +116,8 @@
                 paragraphes/remarques.</change>
             <change when="2023-10-23">Changement d'emplacement "xml:id".</change>
             <change when="2023-10-26">Rajout des notes.</change>
+            <change when="2023-11-07">Rajout variantes.</change>
+            <change when="2023-11-07">Rajout glyphs.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -102,108 +129,126 @@
                     <head>De l'Homme</head>
                     <div3 type="remark" org="uniform" n="1" source="#e1 #e8">
                         <!-- Je crois que l'attribut "source" n'est pas accepté au sein des balises <div>, <p>, etc. dans les anciennes versions. -->
-                        <p source="#e1 #8"> Ne nous emportons point contre les hommes en voyant leur
+                        <p source="#e1 #8">Ne nous emportons point contre les hommes en voyant leur
                             dureté, leur <seg>ingratitude<note resp="#jb" type="invented">Note
-                                    inventée</note></seg>, leur injustice, leur fierté, l’amour
-                            d’eux-mêmes, et l’oubli des autres : ils sont ainsi faits, c’est leur
-                            nature, c’est ne pouvoir supporter que la pierre tombe ou que le feu
-                            s’élève. </p>
+                                    inventée</note></seg>, leur injustice, leur fierté, l’amour<app>
+                                <rdgGrp>
+                                    <lem>d’</lem>
+                                    <rdg source="#e1">qu'ils ont pour </rdg>
+                                    <rdg source="#e8">d'</rdg>
+                                </rdgGrp>
+                            </app>eux-mêmes,et l’<app>
+                                <rdgGrp>
+                                    <lem>oubli</lem>
+                                    <rdg source="#e1">oubli</rdg>
+                                    <rdg source="#e8">oubly</rdg>
+                                </rdgGrp>
+                            </app><app>
+                                <rdgGrp>
+                                    <lem/>
+                                    <rdg source="#e1"/>
+                                    <rdg source="#e8">où ils sont</rdg>
+                                </rdgGrp>
+                            </app> des autres : ils sont ainsi faits, c’est leur nature, c’est ne
+                            pouvoir supporter que la pierre tombe ou que le feu s’élève. </p>
                     </div3>
                     <!-- La seule remarque de ma sélection qui existait dans la première édition est la première. Toutes les autres sont apparues ensuite. -->
                     <div3 type="remark" org="uniform" n="2" source="#e8">
-                        <p source="#e8"> Les hommes en un sens ne sont point légers, ou ne le sont
-                            que dans les petites choses. Ils changent leurs habits, leur langage,
-                            les dehors, les bienséances ; ils changent de goût quelquefois : ils
-                            gardent leurs mœurs toujours mauvaises, fermes et constants dans le mal,
-                            ou dans l’indifférence pour la vertu. </p>
+                        <p source="#e8"><g ref="#char_pdm"/> Les hommes en un sens ne sont point
+                            légers, ou ne le sont que dans les petites choses. Ils changent leurs
+                            habits, leur langage, les dehors, les bienséances ; ils changent de goût
+                            quelquefois : ils gardent leurs mœurs toujours mauvaises, fermes et
+                            constants dans le mal, ou dans l’indifférence pour la vertu. </p>
                     </div3>
                     <div3 type="remark" org="uniform" n="3" source="#e8">
-                        <p source="#e8"> Le <seg>stoïcisme<note resp="#md" type="explanation">Le
-                                    stoïcisme est une doctrine philosophique à la recherche de la
-                                    sagesse et du véritable bonheur (la vertu), opposant ainsi la
-                                    recherche du plaisir.</note></seg> est un jeu d’esprit et une
-                            idée semblable à la République de <seg>Platon<note resp="#md"
-                                    type="glossary">Platon était un philosophe de le Grèce
-                                    antique.</note></seg>. Les stoïques ont feint qu’on pouvait rire
-                            dans la pauvreté ; être insensible aux injures, à l’ingratitude, aux
-                            pertes de biens, comme à celles des parents et des amis ; regarder
-                            froidement la mort, et comme une chose indifférente qui ne devait ni
-                            réjouir ni rendre triste ; n’être vaincu ni par le plaisir ni par la
-                            douleur ; sentir le fer ou le feu dans quelque partie de son corps sans
-                            pousser le moindre soupir, ni jeter une seule larme ; et ce fantôme de
-                            vertu et de constance ainsi imaginé, il leur a plu de l’appeler un sage.
-                            Ils ont laissé à l’homme tous les défauts qu’ils lui ont trouvés, et
-                            n’ont presque relevé aucun de ses faibles. Au lieu de faire de ses vices
-                            des peintures affreuses ou ridicules qui servissent à l’en corriger, ils
-                            lui ont tracé l’idée d’une perfection et d’un héroïsme dont il n’est
-                            point capable, et l’on exhorté à l’impossible. Ainsi le sage, qui n’est
-                            pas, ou qui n’est qu’imaginaire, se trouve naturellement et par lui-même
-                            au-dessus de tous les événements et de tous les maux : ni la goutte la
-                            plus douloureuse, ni la colique la plus aiguë ne sauraient lui arracher
-                            une plainte ; le ciel et la terre peuvent être renversés sans
-                            l’entraîner dans leur chute, et il demeurerait ferme sur les ruines de
-                            l’univers : pendant que l’homme qui est en effet sort de son sens, crie,
-                            se désespère, étincelle des yeux, et perd la respiration pour un chien
-                            perdu ou pour une porcelaine qui est en pièces. </p>
+                        <p source="#e8"><g ref="#char_pdm"/> Le <seg>stoïcisme<note resp="#md"
+                                    type="explanation">Le stoïcisme est une doctrine philosophique à
+                                    la recherche de la sagesse et du véritable bonheur (la vertu),
+                                    opposant ainsi la recherche du plaisir.</note></seg> est un jeu
+                            d’esprit et une idée semblable à la République de <seg>Platon<note
+                                    resp="#md" type="glossary">Platon était un philosophe de le
+                                    Grèce antique.</note></seg>. Les stoïques ont feint qu’on
+                            pouvait rire dans la pauvreté ; être insensible aux injures, à
+                            l’ingratitude, aux pertes de biens, comme à celles des parents et des
+                            amis ; regarder froidement la mort, et comme une chose indifférente qui
+                            ne devait ni réjouir ni rendre triste ; n’être vaincu ni par le plaisir
+                            ni par la douleur ; sentir le fer ou le feu dans quelque partie de son
+                            corps sans pousser le moindre soupir, ni jeter une seule larme ; et ce
+                            fantôme de vertu et de constance ainsi imaginé, il leur a plu de
+                            l’appeler un sage. Ils ont laissé à l’homme tous les défauts qu’ils lui
+                            ont trouvés, et n’ont presque relevé aucun de ses faibles. Au lieu de
+                            faire de ses vices des peintures affreuses ou ridicules qui servissent à
+                            l’en corriger, ils lui ont tracé l’idée d’une perfection et d’un
+                            héroïsme dont il n’est point capable, et l’on exhorté à l’impossible.
+                            Ainsi le sage, qui n’est pas, ou qui n’est qu’imaginaire, se trouve
+                            naturellement et par lui-même au-dessus de tous les événements et de
+                            tous les maux : ni la goutte la plus douloureuse, ni la colique la plus
+                            aiguë ne sauraient lui arracher une plainte ; le ciel et la terre
+                            peuvent être renversés sans l’entraîner dans leur chute, et il
+                            demeurerait ferme sur les ruines de l’univers : pendant que l’homme qui
+                            est en effet sort de son sens, crie, se désespère, étincelle des yeux,
+                            et perd la respiration pour un chien perdu ou pour une porcelaine qui
+                            est en pièces. </p>
                     </div3>
                     <div3 type="remark" org="uniform" n="4" source="#e8">
-                        <p source="#e8"> Inquiétude d’esprit, inégalité d’humeur, inconstance de
-                            cœur, incertitude de conduite : tous vices de l’âme, mais différents, et
-                            qui avec tout le rapport qui paraît entre eux, ne se supposent pas
-                            toujours l’un l’autre dans un même sujet. </p>
+                        <p source="#e8"><g ref="#char_pdm"/> Inquiétude d’esprit, inégalité
+                            d’humeur, inconstance de cœur, incertitude de conduite : tous vices de
+                            l’âme, mais différents, et qui avec tout le rapport qui paraît entre
+                            eux, ne se supposent pas toujours l’un l’autre dans un même sujet. </p>
                     </div3>
                     <div3 type="remark" org="uniform" n="5" source="#e8">
-                        <p source="#e8"> Il est difficile de décider si l’irrésolution rend l’homme
-                            plus malheureux que méprisable ; de même s’il y a toujours plus
-                            d’inconvénient à prendre un mauvais parti, qu’à n’en prendre aucun. </p>
+                        <p source="#e8"><g ref="#char_pdm"/> Il est difficile de décider si
+                            l’irrésolution rend l’homme plus malheureux que méprisable ; de même
+                            s’il y a toujours plus d’inconvénient à prendre un mauvais parti, qu’à
+                            n’en prendre aucun. </p>
                     </div3>
                     <div3 type="remark" org="uniform" n="6" source="#e8">
-                        <p source="#e8"> Un homme inégal n’est pas un seul homme, ce sont plusieurs
-                            : il se multiplie autant de fois qu’il a de nouveaux goûts et de
-                            manières différentes ; il est à chaque moment ce qu’il n’était point, et
-                            il va être bientôt ce qu’il n’a jamais été : il se succède à lui-même.
-                            Ne demandez pas de quelle complexion il est, mais quelles sont ses
-                            complexions ; ni de quelle humeur, mais combien il a de sortes
-                            d’humeurs. Ne vous trompez-vous point ? est-ce <seg>Euthycrate<note
-                                    resp="#md" type="glossary">Euthycrate était un sculpteur de la
-                                    Grèce antique.</note></seg> que vous abordez ? aujourd’hui
-                            quelle glace pour vous ! hier il vous recherchait, il vous caressait,
-                            vous donniez de la jalousie à ses amis : vous reconnaît-il bien ?
-                            dites-lui votre nom. </p>
+                        <p source="#e8"><g ref="#char_pdm"/> Un homme inégal n’est pas un seul
+                            homme, ce sont plusieurs : il se multiplie autant de fois qu’il a de
+                            nouveaux goûts et de manières différentes ; il est à chaque moment ce
+                            qu’il n’était point, et il va être bientôt ce qu’il n’a jamais été : il
+                            se succède à lui-même. Ne demandez pas de quelle complexion il est, mais
+                            quelles sont ses complexions ; ni de quelle humeur, mais combien il a de
+                            sortes d’humeurs. Ne vous trompez-vous point ? est-ce
+                                    <seg>Euthycrate<note resp="#md" type="glossary">Euthycrate était
+                                    un sculpteur de la Grèce antique.</note></seg> que vous abordez
+                            ? aujourd’hui quelle glace pour vous ! hier il vous recherchait, il vous
+                            caressait, vous donniez de la jalousie à ses amis : vous reconnaît-il
+                            bien ? dites-lui votre nom. </p>
                     </div3>
                     <div3 type="remark" org="uniform" n="7" source="#e8">
-                        <p source="#e8"> Ménalque descend son escalier, ouvre sa porte pour sortir,
-                            il la referme : il s’aperçoit qu’il est en bonnet de nuit ; et venant à
-                            mieux s’examiner, il se trouve rasé à moitié, il voit que son épée est
-                            mise du côté droit, que ses bas sont rabattus sur ses talons, et que sa
-                            chemise est par-dessus ses chausses. S’il marche dans les places, il se
-                            sent tout d’un coup rudement frappé à l’estomac ou au visage ; il ne
-                            soupçonne point ce que ce peut être, jusqu’à ce qu’ouvrant les yeux et
-                            se réveillant, il se trouve ou devant un limon de charrette, ou derrière
-                            un long ais de menuiserie que porte un ouvrier sur ses épaules. On l’a
-                            vu une fois heurter du front contre celui d’un aveugle, s’embarrasser
-                            dans ses jambes, et tomber avec lui chacun de son côté à la renverse. Il
-                            lui est arrivé plusieurs fois de se trouver tête pour tête à la
-                            rencontre d’un prince et sur son passage, se reconnaître à peine, et
-                            n’avoir que le loisir de se coller à un mur pour lui faire place. Il
-                            cherche, il brouille, il crie, il s’échauffe, il appelle ses valets l’un
-                            après l’autre : on lui perd tout, on lui égare tout ; il demande ses
-                            gants, qu’il a dans ses mains, semblable à cette femme qui prenait le
-                            temps de demander son masque lorsqu’elle l’avait sur son visage. Il
-                            entre à l’appartement, et passe sous un lustre où sa perruque s’accroche
-                            et demeure suspendue : tous les courtisans regardent et rient ; Ménalque
-                            regarde aussi et rit plus haut que les autres, il cherche des yeux dans
-                            toute l’assemblée où est celui qui montre ses oreilles, et à qui il
-                            manque une perruque. S’il va par la ville, après avoir fait quelque
-                            chemin, il se croit égaré, il s’émeut, et il demande où il est à des
-                            passants, qui lui disent précisément le nom de sa rue ; il entre ensuite
-                            dans sa maison, d’où il sort précipitamment, croyant qu’il s’est trompé.
-                            Il descend du Palais, et trouvant au bas du grand degré un carrosse
-                            qu’il prend pour le sien, il se met dedans : le cocher touche et croit
-                            remener son maître dans sa maison ; Ménalque se jette hors de la
-                            portière, traverse la cour, monte l’escalier, parcourt l’antichambre, la
-                            chambre, le cabinet ; tout lui est familier, rien ne lui est nouveau ;
-                            il s’assit, il se repose, il est chez soi. Le maître arrive : celui-ci
+                        <p source="#e8"><g ref="#char_pdm"/> Ménalque descend son escalier, ouvre sa
+                            porte pour sortir, il la referme : il s’aperçoit qu’il est en bonnet de
+                            nuit ; et venant à mieux s’examiner, il se trouve rasé à moitié, il voit
+                            que son épée est mise du côté droit, que ses bas sont rabattus sur ses
+                            talons, et que sa chemise est par-dessus ses chausses. S’il marche dans
+                            les places, il se sent tout d’un coup rudement frappé à l’estomac ou au
+                            visage ; il ne soupçonne point ce que ce peut être, jusqu’à ce
+                            qu’ouvrant les yeux et se réveillant, il se trouve ou devant un limon de
+                            charrette, ou derrière un long ais de menuiserie que porte un ouvrier
+                            sur ses épaules. On l’a vu une fois heurter du front contre celui d’un
+                            aveugle, s’embarrasser dans ses jambes, et tomber avec lui chacun de son
+                            côté à la renverse. Il lui est arrivé plusieurs fois de se trouver tête
+                            pour tête à la rencontre d’un prince et sur son passage, se reconnaître
+                            à peine, et n’avoir que le loisir de se coller à un mur pour lui faire
+                            place. Il cherche, il brouille, il crie, il s’échauffe, il appelle ses
+                            valets l’un après l’autre : on lui perd tout, on lui égare tout ; il
+                            demande ses gants, qu’il a dans ses mains, semblable à cette femme qui
+                            prenait le temps de demander son masque lorsqu’elle l’avait sur son
+                            visage. Il entre à l’appartement, et passe sous un lustre où sa perruque
+                            s’accroche et demeure suspendue : tous les courtisans regardent et rient
+                            ; Ménalque regarde aussi et rit plus haut que les autres, il cherche des
+                            yeux dans toute l’assemblée où est celui qui montre ses oreilles, et à
+                            qui il manque une perruque. S’il va par la ville, après avoir fait
+                            quelque chemin, il se croit égaré, il s’émeut, et il demande où il est à
+                            des passants, qui lui disent précisément le nom de sa rue ; il entre
+                            ensuite dans sa maison, d’où il sort précipitamment, croyant qu’il s’est
+                            trompé. Il descend du Palais, et trouvant au bas du grand degré un
+                            carrosse qu’il prend pour le sien, il se met dedans : le cocher touche
+                            et croit remener son maître dans sa maison ; Ménalque se jette hors de
+                            la portière, traverse la cour, monte l’escalier, parcourt l’antichambre,
+                            la chambre, le cabinet ; tout lui est familier, rien ne lui est nouveau
+                            ; il s’assit, il se repose, il est chez soi. Le maître arrive : celui-ci
                             se lève pour le recevoir ; il le traite fort civilement, le prie de
                             s’asseoir, et croit faire les honneurs de sa chambre ; il parle, il
                             rêve, il reprend la parole : le maître de la maison s’ennuie, et demeure
@@ -369,19 +414,19 @@
                             gens, ils y étaient. </p>
                     </div3>
                     <div3 type="remark" org="uniform" n="8" source="#e8">
-                        <p source="#e8"> L’incivilité n’est pas un vice de l’âme, elle est l’effet
-                            de plusieurs vices : de la sotte vanité, de l’ignorance de ses devoirs,
-                            de la paresse, de la stupidité, de la distraction, du mépris des autres,
-                            de la jalousie. Pour ne se répandre que sur les dehors, elle n’en est
-                            que plus haïssable, parce que c’est toujours un défaut visible et
-                            manifeste. Il est vrai cependant qu’il offense plus ou moins, selon la
-                            cause qui le produit. </p>
+                        <p source="#e8"><g ref="#char_pdm"/> L’incivilité n’est pas un vice de
+                            l’âme, elle est l’effet de plusieurs vices : de la sotte vanité, de
+                            l’ignorance de ses devoirs, de la paresse, de la stupidité, de la
+                            distraction, du mépris des autres, de la jalousie. Pour ne se répandre
+                            que sur les dehors, elle n’en est que plus haïssable, parce que c’est
+                            toujours un défaut visible et manifeste. Il est vrai cependant qu’il
+                            offense plus ou moins, selon la cause qui le produit. </p>
                     </div3>
                     <div3 type="remark" org="uniform" n="9" source="#e8">
-                        <p source="#e8"> Dire d’un homme colère, inégal, querelleux, chagrin,
-                            pointilleux, capricieux : « c’est son humeur » n’est pas l’excuser,
-                            comme on le croit, mais avouer sans y penser que de si grands défauts
-                            sont irrémédiables.</p>
+                        <p source="#e8"><g ref="#char_pdm"/> Dire d’un homme colère, inégal,
+                            querelleux, chagrin, pointilleux, capricieux : « c’est son humeur »
+                            n’est pas l’excuser, comme on le croit, mais avouer sans y penser que de
+                            si grands défauts sont irrémédiables.</p>
                         <p source="#e8">Ce qu’on appelle humeur est une chose trop négligée parmi
                             les hommes : ils devraient comprendre qu’il ne leur suffit pas d’être
                             bons, mais qu’ils doivent encore paraître tels, du moins s’ils tendent à
@@ -394,10 +439,10 @@
                             ce sont les méchants qui nuisent, et les bons qui font souffrir. </p>
                     </div3>
                     <div3 type="remark" org="uniform" n="10" source="#e8">
-                        <p source="#e8"> Le commun des hommes va de la colère à l’injure.
-                            Quelques-uns en usent autrement : ils offensent, et puis ils se fâchent
-                            ; la surprise où l’on est toujours de ce procédé ne laisse pas de place
-                            au ressentiment. </p>
+                        <p source="#e8"><g ref="#char_pdm"/> Le commun des hommes va de la colère à
+                            l’injure. Quelques-uns en usent autrement : ils offensent, et puis ils
+                            se fâchent ; la surprise où l’on est toujours de ce procédé ne laisse
+                            pas de place au ressentiment. </p>
                     </div3>
                 </div2>
             </div1>
