@@ -77,9 +77,9 @@
                         exact de chapitres que contient l'ouvrage.</p>
                     <p>Les parenthèses entourant le numéro des remarques ont été supprimées car ce
                         n'est pas un élément fait pour le traitement automatique.</p>
-                    <p>J'ai choisi d'indiquer les sources de manière explicite, c'est-à-dire
-                        intégrées à la fois dans le div3 et le p, afin d'être sûre qu'il n'y ait pas
-                        de confusion concernant le moment d'entrée d'un paragraphe dans une
+                    <p>Il a été choisi d'indiquer les sources de manière explicite, c'est-à-dire
+                        intégrées à la fois dans le div3 et le p, afin qu'il n'y ait pas de
+                        confusion concernant le moment d'entrée d'un paragraphe dans une
                         édition.</p>
                     <p>Les notes suivies de l'attribut type sont toutes de l'éditeur numérique car
                         ces notes ont été rajoutés par rapport à celles de l'auteur et car l'éditeur
@@ -87,6 +87,9 @@
                         dernier d'avoir une lecture fluide (notes de type gloss) et active (notes de
                         type expl) dans le sens où elle l'aiderait à construire ou entretenir un
                         mode de réflexion littéraire avancé.</p>
+                    <p>Lorsqu'il y a des variations entre l'édition 7 et l'édition 9, app encadre le
+                        mot entier concerné par la ou les variation(s) car ce travail est réalisé
+                        dans le cadre d'une étude littéraire.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -102,7 +105,7 @@
                 non) certaines remarques.</change>
             <change when="2023-10-25">Ajout des notes de La Bruyère et des notes de l'éditeur
                 numérique.</change>
-            <change when="2023-11-07">Ajout de variantions de graphie.</change>
+            <change when="2023-11-07">Ajout de variations de graphie.</change>
             <change when="2023-11-07">Définition des fonctions des caractères particuliers :
                 pied-de-mouches, pied-de-mouches à parenthèses simples, pied-de-mouches à
                 parenthèses doubles, manicules.</change>
@@ -121,25 +124,26 @@
                     </div3>
 
                     <div3 n="53" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g ref="#char_pm"/>C’est assez pour soi d’un fidèle ami ; c’est
-                            même beaucoup de l’avoir rencontré <app>
-                                <rdg source="#edition7">:</rdg>
-                                <rdg source="#edition9">,</rdg>
-                            </app> on ne peut en avoir trop pour le service des autres.</p>
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>C’est assez pour soi d’un <app>
+                                <rdg source="#edition9">fidele</rdg>
+                                <rdg source="edition7">fidel</rdg>
+                            </app> ami ; c’est même beaucoup de l’avoir rencontré on ne peut en
+                            avoir trop pour le service des autres.</p>
                     </div3>
 
                     <div3 n="54" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Quand on a assez fait auprès de certaines
-                            personnes pour avoir dû se les acquérir, si cela ne réussit point, il y
-                            a encore une ressource, qui est de ne plus rien faire.</p>
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Quand on a assez fait
+                            auprès de certaines personnes pour avoir dû se les acquérir, si cela ne
+                            réussit point, il y a encore une ressource, qui est de ne plus rien
+                            faire.</p>
                     </div3>
 
                     <div3 n="55" source="#edition7 #edition9">
                         <note resp="#schneider" type="expl">L'auteur explique ici qu'aucune relation
                             n'est figée dans le temps et peut évoluer à tout moment.</note>
-                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Vivre avec ses ennemis comme s’ils devaient
-                            un jour être nos amis, et vivre avec nos amis comme s’ils pouvaient
-                            devenir nos ennemis, n’est <app>
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Vivre avec ses ennemis
+                            comme s’ils devaient un jour être nos amis, et vivre avec nos amis comme
+                            s’ils pouvaient devenir nos ennemis, n’est <app>
                                 <rdg source="#edition9">ni</rdg>
                                 <rdg source="#edition7">ny</rdg>
                             </app> selon la nature de la haine, ni selon les règles de l’amitié ; ce
@@ -147,56 +151,63 @@
                     </div3>
 
                     <div3 n="56" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g ref="#char_pm"/>On ne doit pas se faire des ennemis de ceux
-                            qui, mieux connus, pourraient avoir rang entre nos amis. On doit faire
-                            choix d’amis si sûrs et d’une si exacte <seg>probité <note
-                                    resp="#schneider" type="gloss">qualité à respecter ses devoirs
-                                    et/ou le règlement.</note></seg>, que venant à cesser de l’être,
-                            ils ne veuillent pas abuser de notre confiance, <app>
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>On ne doit pas se faire
+                            des ennemis de ceux qui, mieux connus, pourraient avoir rang entre nos
+                            amis. On doit faire choix d’amis si sûrs et d’une si exacte <seg>probité
+                                    <note resp="#schneider" type="gloss">qualité à respecter ses
+                                    devoirs et/ou le règlement.</note></seg>, que venant à cesser de
+                            l’être, ils ne veuillent pas abuser de notre confiance, <app>
                                 <rdg source="#edition9">ni</rdg>
                                 <rdg source="#edition7">ny</rdg>
                             </app> se faire craindre comme ennemis.</p>
                     </div3>
 
                     <div3 n="57" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Il est doux de voir ses amis par goût et par
-                            estime ; il est pénible de les cultiver par intérêt ; c’est
-                            solliciter.</p>
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Il est doux de voir ses
+                            amis par goût et par estime ; il est pénible de les cultiver par intérêt
+                            ; c’est solliciter.</p>
                     </div3>
 
                     <div3 n="58" source="#edition9">
-                        <p source="#edition9"><g ref="#char_pm"/>Il faut <seg>briguer<note resp="#schneider"
-                                    type="gloss">Chercher.</note></seg> la faveur de ceux à qui l’on
-                            veut du bien, plutôt que de ceux de qui l’on espère du bien.</p>
+                        <p source="#edition9"><g ref="#char_pm"/>Il faut <seg>briguer<note
+                                    resp="#schneider" type="gloss">Chercher.</note></seg> la faveur
+                            de ceux à qui l’on veut du bien, plutôt que de ceux de qui l’on espère
+                            du bien.</p>
                     </div3>
 
                     <div3 n="59" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g ref="#char_pm"/>On ne vole point des mêmes ailes pour sa
-                            fortune que l’on fait pour des choses frivoles et de fantaisie. <seg>Il
-                                y a un sentiment de liberté à suivre ses caprices, et tout au
-                                contraire de servitude à courir pour son établissement<note
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>On ne vole point des
+                            mêmes ailes pour sa fortune que l’on fait pour des choses frivoles et de
+                            fantaisie. <seg>Il y a un sentiment de liberté à suivre ses caprices, et
+                                tout au contraire de servitude à courir pour son établissement<note
                                     resp="#labruyere">Note fictive.</note></seg> : il est naturel de
                             le souhaiter beaucoup et d’y travailler peu, de se croire digne de le
                             trouver sans l’avoir cherché.</p>
                     </div3>
 
                     <div3 n="60" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Celui qui sait attendre le bien qu’il
-                            souhaite, ne prend pas le chemin de se désespérer s’il ne lui arrive pas
-                            ; et celui au contraire qui désire une chose avec une grande impatience,
-                            y met trop du sien pour en être assez récompensé par le succès.</p>
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/><app>
+                            <rdg source="#edition9">Celui</rdg>
+                            <rdg source="#edition7">Celuy</rdg>
+                        </app> qui sait attendre
+                            le bien qu’il souhaite, ne prend pas le chemin de se désespérer s’il ne
+                            lui arrive pas ; et celui au contraire qui désire une chose avec une
+                            grande impatience, y met trop du sien pour en être assez récompensé par
+                            le succès.</p>
                     </div3>
 
                     <div3 n="61" source="#edition9">
-                        <p source="#edition9"><g ref="#char_pm"/>Il y a de certaines gens qui veulent si ardemment et
-                            si déterminément une certaine chose, que de peur de la manquer, ils
-                            n’oublient rien de ce qu’il faut faire pour la manquer.</p>
+                        <p source="#edition9"><g ref="#char_pm"/>Il y a de certaines gens qui
+                            veulent si ardemment et si déterminément une certaine chose, que de peur
+                            de la manquer, ils n’oublient rien de ce qu’il faut faire pour la
+                            manquer.</p>
                     </div3>
 
                     <div3 n="62" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Les choses les plus souhaitées n’arrivent
-                            point ; ou si elles arrivent, ce n’est ni dans le temps ni dans les
-                            circonstances où elles auraient fait un extrême plaisir.</p>
+                        <p source="#edition7 #edition9"><g ref="#char_pm"/>Les choses les plus
+                            souhaitées n’arrivent point ; ou si elles arrivent, ce n’est ni dans le
+                            temps ni dans les circonstances où elles auraient fait un extrême
+                            plaisir.</p>
                     </div3>
                 </div2>
             </div1>
