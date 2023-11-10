@@ -45,15 +45,15 @@
                 <p>les éditions sont caractérisées par l'attribut "source" dans la balise p de chaque remarque.</p>
             </editorialDecl>
             <charDecl>
-                <glyph xml:id="char_pdr1">
+                <glyph xml:id="char_pdm1">
                     <mapping>❡</mapping>
                     <desc>Pied-de-mouch simple, marquant le début d'une remarque.</desc>
                 </glyph>
-                <glyph xml:id="char_pdr2">
+                <glyph xml:id="char_pdm2">
                     <mapping>(❡)</mapping>
                     <desc>Pied-de-mouche à parenthèse simple, marquant le début d'une remarque dans l'édition 4.</desc>
                 </glyph>
-                <glyph xml:id="char_pdr3">
+                <glyph xml:id="char_pdm3">
                     <mapping>((❡))</mapping>
                     <desc>Pied-de-mouche à double parenthèses, marquant le début d'une remarque dans l'édition 5.</desc>
                 </glyph>
@@ -92,26 +92,26 @@
                     
                     
                     <div3 type="remarque" n="(11)">
-                        <p source="#edition4 #edition6"> (11) <g ref="#char_pdr1"/>Je voudrais voir un homme sobre, modéré, chaste, équitable,
+                        <p source="#edition4 #edition6"> (11) <g ref="#char_pdm1"/>Je voudrais voir un homme sobre, modéré, chaste, équitable,
                             prononcer qu’il n’y a point de Dieu : il parlerait du moins sans <app><lem>intérêt</lem><rdg wit="#edition6">interêt</rdg><rdg wit="#edition4">intereft</rdg></app>
                             <app><lem> ; </lem><rdg wit="#edition4">;</rdg><rdg wit="#edition6">,</rdg></app>mais cet homme ne se trouve point.</p>
                     </div3>
                     <div3 n="12">
-                        <p source="#edition4 #edition6">(12) <g ref="#char_pdr1"/>J’aurais une extrême curiosité de voir celui qui serait persuadé que
+                        <p source="#edition4 #edition6">(12) <g ref="#char_pdm1"/>J’aurais une extrême curiosité de voir celui qui serait persuadé que
                             <seg> Dieu n’est point<note source="#Jean">contenu de la note.</note></seg> : il me dirait du moins la raison invincible qui a su
                             le convaincre.</p>
                     </div3>                  
                     <div3 n="13">
-                        <p source="#edition4 #edition6">(13) <g ref="#char_pdr1"/>L’impossibilité où je suis de prouver que Dieu n’est pas me découvre
+                        <p source="#edition4 #edition6">(13) <g ref="#char_pdm1"/>L’impossibilité où je suis de prouver que Dieu n’est pas me découvre
                             son existence.</p>
                     </div3>
                     <div3 n="14">
-                        <p source="#edition4 #edition6">(14) <g ref="#char_pdr1"/>Dieu condamne et punit ceux qui l’offensent, seul juge en sa propre
+                        <p source="#edition4 #edition6">(14) <g ref="#char_pdm1"/>Dieu condamne et punit ceux qui l’offensent, seul juge en sa propre
                             cause : ce qui répugne, s’il n’est lui-même la justice et la vérité,
                             c’est-à-dire s’il n’est Dieu.</p>
                     </div3>
                     <div3 n="15">
-                        <p source="#edition4 #edition6"> (15) <g ref="#char_pdr1"/>Je sens qu’il y a un Dieu, et je ne sens pas qu’il n’y en ait point
+                        <p source="#edition4 #edition6"> (15) <g ref="#char_pdm1"/>Je sens qu’il y a un Dieu, et je ne sens pas qu’il n’y en ait point
                             ; cela me suffit, tout le raisonnement du monde m’est inutile : <seg>je
                             conclus que Dieu existe.<note source="#Jean">contenu de la note</note></seg> Cette conclusion est dans ma nature ; j’en ai
                             reçu les principes trop aisément dans mon enfance, et je les ai
@@ -122,7 +122,7 @@
                     </div3>
                     
                     <div3 n="16">
-                        <p source="#edition4 #edition6">(16)<g ref="#char_pdr1"/><seg>L’athéisme n’est point.<note type="glossaire" source="#C_Galet">L'athéisme est le refus de l'existence de Dieu.</note></seg> 
+                        <p source="#edition4 #edition6">(16)<g ref="#char_pdm1"/><seg>L’athéisme n’est point.<note type="glossaire" source="#C_Galet">L'athéisme est le refus de l'existence de Dieu.</note></seg> 
                             Les grands, qui en sont le plus soupçonnés,
                             sont trop paresseux pour décider en leur esprit que Dieu n’est pas ;
                             leur indolence va jusqu’à les rendre froids et indifférents sur cet
@@ -132,14 +132,14 @@
                     </div3>
                     <div3 n="17">
                         <!-- les deux remarques ci-dessous ne figurent plus dans le chapitre Des Esprits Forts. -->
-                        <p>(17)<g ref="#char_pdr1"/> Nous n’avons pas trop de toute notre santé, de toutes nos forces et
+                        <p>(17)<g ref="#char_pdm1"/> Nous n’avons pas trop de toute notre santé, de toutes nos forces et
                             de tout notre esprit pour penser aux hommes ou au plus petit intérêt :
                             il semble au contraire que la bienséance et la coutume exigent de nous
                             que nous ne pensions à Dieu que dans un état où il ne reste en nous
                             qu’autant de raison qu’il faut pour ne pas dire qu’il n’y en a plus.</p>
                     </div3>
                     <div3 n="18">
-                        <p>(18) <g ref="#char_pdr1"/>Un grand croit s’évanouir, et il meurt ; un autre grand périt
+                        <p>(18) <g ref="#char_pdm1"/>Un grand croit s’évanouir, et il meurt ; un autre grand périt
                             insensiblement, et perd chaque jour quelque chose de soi-même avant
                             qu’il soit éteint : formidables leçons, mais inutiles ! Des
                             circonstances si marquées et si sensiblement opposées ne se relèvent
@@ -149,13 +149,13 @@
                             remplies, et par qui.</p>
                     </div3>
                     <div3 n="19">
-                        <p source="#edition4 #edition6">(19)<g ref="#char_pdr1"/> Les hommes sont-ils assez bons, assez fidèles, assez équitables,
+                        <p source="#edition4 #edition6">(19)<g ref="#char_pdm1"/> Les hommes sont-ils assez bons, assez fidèles, assez équitables,
                             pour mériter toute notre confiance, et ne nous pas faire désirer du
                             moins que Dieu existât, à qui nous pussions appeler de leurs jugements
                             et avoir recours quand nous en sommes persécutés ou trahis ?</p>
                     </div3>
                     <div3 n="20">
-                        <p source="#edition4 #edition6">(20) <g ref="#char_pdr1"/>Si c’est le grand et le sublime de la religion qui éblouit ou qui
+                        <p source="#edition4 #edition6">(20) <g ref="#char_pdm1"/>Si c’est le grand et le sublime de la religion qui éblouit ou qui
                             confond les esprits forts, ils ne sont plus des esprits forts, mais de
                             faibles génies et de petits esprits ; et si c’est au contraire ce qu’il
                             y a d’humble et de simple qui les rebute, ils sont à la vérité des
@@ -164,7 +164,7 @@
                             Jéromes, les Augustins.<note type="explication" source="#C_Galet">Les Augustins viennent de l'ordre de Saint Augustin, qui est un ordre mendiant relevant du Siège Apostolique et non de l'Evêque du Diocèse.</note></seg></p>
                     </div3>
                     <div3 n="21">
-                        <p source="#edition4 #edition6">(21) <g ref="#char_pdr1"/>« Un Père de l’Eglise, un docteur de l’Eglise, quels noms ! quelle
+                        <p source="#edition4 #edition6">(21) <g ref="#char_pdm1"/>« Un Père de l’Eglise, un docteur de l’Eglise, quels noms ! quelle
                             tristesse dans leurs écrits ! <seg> quelle sécheresse, quelle froide dévotion,
                             et peut-être quelle scolastique !<note source="#Jean">contenu de la note.</note></seg>» disent ceux qui ne les ont jamais
                             lus. Mais plutôt quel étonnement pour tous ceux qui se sont fait une
