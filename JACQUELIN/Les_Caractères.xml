@@ -46,6 +46,32 @@
                         attribut</p>
                 </normalization>
             </editorialDecl>
+            <charDecl>
+                <glyph xml:id="char_pdm">
+                    <mapping>❡</mapping>
+                    <desc>Pied-de-mouche simple, marquant le début d'une remarque</desc>
+                </glyph>
+                <glyph xml:id="char_pdmpar">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied-de-mouche à parenthèses simples, présente dans l'édition 5, marquant
+                        le début d'une remarque ajoutée à l'édition 4</desc>
+                </glyph>
+                <glyph xml:id="char_pdmpar2">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied-de-mouche à parenthèses doubles, marquant le début d'une remarque
+                        ajoutée à l'édition 5</desc>
+                </glyph>
+                <glyph xml:id="char_manG">
+                    <mapping>☜</mapping>
+                    <desc>Manicule gauche, marquant le début d'une remarque ajoutée à cette
+                        édition</desc>
+                </glyph>
+                <glyph xml:id="char_manD">
+                    <mapping>☞</mapping>
+                    <desc>Manicule droit, marquant le début d'une remarque ajoutée à cette
+                        édition</desc>
+                </glyph>
+            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -58,6 +84,7 @@
             <change when-iso="2023-10-19">Précision de quelles remarques sont dans quelles éditions.
                 Précision dans le Encodingdesc</change>
             <change when-iso="2023-10-23">Encodage des notes</change>
+            <change when-iso="2023-11-07">Encodage des variations entre les éditions</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -67,52 +94,56 @@
                 <div2 type="chapter" n="12">
                     <head>Des Jugements</head>
                     <div3 n="64" source="#edition9">
-                        <p>Hérille, soit qu’il parle, qu’il <seg source="#edition9"
-                                resp="#jacquelin" type="gloss">harangue<note>harangue : discours solennel
-                                    prononcé devant une assemblée, un haut personnage</note></seg>
-                            ou qu’il écrive, veut citer : il fait dire au Prince des philosophes que
-                            le vin enivre, et à l’Orateur romain que l’eau le tempère. S’il se jette
-                            dans la morale, ce n’est pas lui, c’est le divin <seg source="#edition9"
-                                resp="#jacquelin" type="index">Platon<note>Philosophe grec du Vème siècle (né en
-                                    -428/-427, mort en -348/-347)</note></seg> qui assure que la
-                            vertu est aimable, le vice odieux ; ou que l’un et l’autre se tournent
-                            en habitude. Les choses les plus communes, les plus triviales, et qu’il
-                            est même capable de penser, il veut les devoir aux anciens, aux Latins,
-                            aux Grecs ; ce n’est ni pour donner plus d’autorité à ce qu’il dit, ni
+                        <p><g ref="#char_pdm"/>Hérille, soit qu’il parle, qu’il <seg
+                                type="glossaire" resp="#jacquelin">harangue<note>harangue : discours
+                                    solennel prononcé devant une assemblée, un haut
+                                    personnage</note></seg> ou qu’il écrive, veut citer : il fait
+                            dire au Prince des philosophes que le vin enivre, et à l’Orateur romain
+                            que l’eau le tempère. S’il se jette dans la morale, ce n’est pas lui,
+                            c’est le divin <seg type="index" resp="#jacquelin"
+                                    >Platon<note>Philosophe grec du Vème siècle (né en -428/-427,
+                                    mort en -348/-347)</note></seg> qui assure que la vertu est
+                            aimable, le vice odieux ; ou que l’un et l’autre se tournent en
+                            habitude. Les choses les plus communes, les plus triviales, et qu’il est
+                            même capable de penser, il veut les devoir aux anciens, aux Latins, aux
+                            Grecs ; ce n’est ni pour donner plus d’autorité à ce qu’il dit, ni
                             peut-être pour se faire honneur de ce qu’il sait : il veut citer.</p>
                     </div3>
                     <div3 n="65" source="#edition9">
-                        <p>C’est souvent hasarder un bon mot et vouloir le perdre que de le donner
-                            pour sien : il n’est pas relevé, il tombe avec des gens d’esprit ou qui
-                            se croient tels, qui ne l’ont pas dit, et qui devaient le dire. C’est au
-                            contraire le faire valoir que de le rapporter comme d’un autre : ce
-                            n’est qu’un fait, et qu’on ne se croit pas obligé de savoir ; il est dit
-                            avec plus d’insinuation et reçu avec moins de jalousie ; personne n’en
-                            souffre : on rit s’il faut rire, et s’il faut admirer, on admire.</p>
+                        <p><g ref="#char_pdm"/>C’est souvent hasarder un bon mot et vouloir le
+                            perdre que de le donner pour sien : il n’est pas relevé, il tombe avec
+                            des gens d’esprit ou qui se croient tels, qui ne l’ont pas dit, et qui
+                            devaient le dire. C’est au contraire le faire valoir que de le rapporter
+                            comme d’un autre : ce n’est qu’un fait, et qu’on ne se croit pas obligé
+                            de savoir ; il est dit avec plus d’insinuation et reçu avec moins de
+                            jalousie ; personne n’en souffre : on rit s’il faut rire, et s’il faut
+                            admirer, on admire.</p>
                     </div3>
                     <div3 n="66" source="#edition9">
-                        <p>On a dit de <seg source="#edition9" resp="#jacquelin" type="index"
+                        <p><g ref="#char_pdm"/>On a dit de <seg type="index" resp="#jacquelin"
                                     >Socrate<note>Philosophe grec du Vème siècle (né vers -470/469,
                                     mort en -399)</note></seg> qu’il était en délire, et que c’était
                             un fou tout plein d’esprit ; mais ceux des <seg source="#edition9"
-                                resp="#labruyere" type"manuscript">Grecs<note place="margin">Blablabla</note></seg> qui parlaient
-                            ainsi d’un homme si sage passaient pour fous. Ils disaient : « Quels
-                            bizarres portraits nous fait ce philosophe ! quels mœurs étranges et
-                            particulières ne décrit-il point ! où a-t-il rêvé, creusé, rassemblé des
-                            idées si extraordinaires ? quelles couleurs ! quel pinceau ! ce sont des
-                            chimères. » Ils se trompaient : c’étaient des monstres, c’étaient des
-                            vices, mais peints au naturel ; on croyait les voir, ils faisaient peur.
-                            Socrate s’éloignait du cynique ; il épargnait les personnes, et blâmait
-                            les mœurs qui étaient mauvaises.</p>
+                                type="manuscrite" resp="#labruyere">Grecs<note place="inline"
+                                    >Blablabla</note></seg> qui parlaient ainsi d’un homme si sage
+                            passaient pour fous. Ils disaient : « Quels bizarres portraits nous fait
+                            ce philosophe ! quels mœurs étranges et particulières ne décrit-il point
+                            ! où a-t-il rêvé, creusé, rassemblé des idées si extraordinaires ?
+                            quelles couleurs ! quel pinceau ! ce sont des chimères. » Ils se
+                            trompaient : c’étaient des monstres, c’étaient des vices, mais peints au
+                            naturel ; on croyait les voir, ils faisaient peur. Socrate s’éloignait
+                            du cynique ; il épargnait les personnes, et blâmait les mœurs qui
+                            étaient mauvaises.</p>
                     </div3>
                     <div3 n="67" source="#edition9">
-                        <p>Celui qui est riche par son savoir-faire connaît un philosophe, ses
-                            précèptes, sa morale et sa conduite, et n’imaginant pas dans tous les
-                            hommes une autre fin de toutes leurs actions que celle qu’il s’est
-                            proposée lui-même toute sa vie, dit en son cœur : « Je le plains, je le
-                            tiens échoué, ce rigide censeur ; il s’égare, et il est hors de route ;
-                            ce n’est pas ainsi qu’on prend le vent et que l’on arrive au délicieux
-                            port de la fortune » ; et selon ses principes il raisonne juste.</p>
+                        <p><g ref="#char_pdm"/>Celui qui est riche par son savoir-faire connaît un
+                            philosophe, ses précèptes, sa morale et sa conduite, et n’imaginant pas
+                            dans tous les hommes une autre fin de toutes leurs actions que celle
+                            qu’il s’est proposée lui-même toute sa vie, dit en son cœur : « Je le
+                            plains, je le tiens échoué, ce rigide censeur ; il s’égare, et il est
+                            hors de route ; ce n’est pas ainsi qu’on prend le vent et que l’on
+                            arrive au délicieux port de la fortune » ; et selon ses principes il
+                            raisonne juste.</p>
                         <p>"Je pardonne, dit Antisthius, à ceux que j’ai loués dans mon ouvrage
                             s’ils m’oublient : qu’ai-je fait pour eux ? ils étaient louables. Je le
                             pardonnerais moins à tous ceux dont j’ai attaqué les vices sans toucher
@@ -125,60 +156,79 @@
                             qui m’empêchera de le mépriser ? ».</p>
                     </div3>
                     <div3 n="68" source="#edition9">
-                        <p>Il est bon d’être philosophe, il n’est guère utile de passer pour tel. Il
-                            n’est pas permis de traiter quelqu’un de philosophe : ce sera toujours
-                            lui dire une injure, jusqu’à ce qu’il ait plu aux hommes d’en ordonner
-                            autrement, et, en restituant à un si beau nom son idée propre et
-                            convenable, de lui concilier toute l’estime qui lui est due.</p>
+                        <p><g ref="#char_pdm"/>Il est bon d’être philosophe, il n’est guère utile de
+                            passer pour tel. Il n’est pas permis de traiter quelqu’un de philosophe
+                            : ce sera toujours lui dire une injure, jusqu’à ce qu’il ait plu aux
+                            hommes d’en ordonner autrement, et, en restituant à un si beau nom son
+                            idée propre et convenable, de lui concilier toute l’estime qui lui est
+                            due.</p>
                     </div3>
                     <div3 n="69" source="#edition9">
-                        <p>Il y a une philosophie qui nous élève au-dessus de l’ambition et de la
-                            fortune, qui nous égale, que dis-je ? qui nous place plus haut que les
-                            riches, que les grands et que les puissants ; qui nous fait négliger les
-                            postes et ceux qui les procurent ; qui nous exempte de désirer, de
-                            demander, de prier, de solliciter, d’importuner, et qui nous sauve même
-                            l’émotion et l’excessive joie d’être exaucés. Il y a une autre
-                            philosophie qui nous soumet et nous assujettit à toutes ces choses en
-                            faveur de nos proches ou de nos amis : c’est la meilleure.</p>
+                        <p><g ref="#char_pdm"/>Il y a une philosophie qui nous élève au-dessus de
+                            l’ambition et de la fortune, qui nous égale, que dis-je ? qui nous place
+                            plus haut que les riches, que les grands et que les puissants ; qui nous
+                            fait négliger les postes et ceux qui les procurent ; qui nous exempte de
+                            désirer, de demander, de prier, de solliciter, d’importuner, et qui nous
+                            sauve même l’émotion et l’excessive joie d’être exaucés. Il y a une
+                            autre philosophie qui nous soumet et nous assujettit à toutes ces choses
+                            en faveur de nos proches ou de nos amis : c’est la meilleure.</p>
                     </div3>
                     <div3 n="70" source="#edition9">
-                        <p>C’est abréger et s’épargner mille discours, que de penser de certaines
-                            gens qu’ils sont incapables de parler juste, et de condamner ce qu’ils
-                            disent, ce qu’ils ont dit, et ce qu’ils diront.</p>
+                        <p><g ref="#char_pdm"/>C’est abréger et s’épargner mille discours, que de
+                            penser de certaines gens qu’ils sont incapables de parler juste, et de
+                            condamner ce qu’ils disent, ce qu’ils ont dit, et ce qu’ils diront.</p>
                     </div3>
                     <div3 n="71" source="#edition1 #edition9">
-                        <p>Nous n’approuvons les autres que par les rapports que nous sentons qu’ils
-                            ont avec nous-mêmes ; et il semble qu’estimer quelqu’un, c’est l’égaler
-                            à soi.</p>
+                        <p><g ref="#char_pdm"/>Nous n’approuvons les autres que par les rapports que
+                            nous sentons qu’ils ont avec <app>
+                                <rdgGrp>
+                                    <lem>nous-mêmes</lem>
+                                    <rdg source="#edition9">nous-mêmes</rdg>
+                                </rdgGrp>
+                                <rdg source="#edition1">nous-mesmes</rdg>
+                            </app> ; <app>
+                                <lem>et</lem>
+                                <rdgGrp>
+                                    <rdg source="#edition9">et</rdg>
+
+                                    <rdg source="#edition1">&amp;</rdg>
+                                </rdgGrp>
+                            </app> il semble qu’estimer quelqu’un, c’est l’égaler à <app>
+                                <lem>soi</lem>
+                                <rdgGrp>
+                                    <rdg source="#edition1">soy</rdg>
+                                    <rdg source="#edition9">soy</rdg>
+                                </rdgGrp>
+                            </app>.</p>
                     </div3>
                     <div3 n="72" source="#edition9">
-                        <p>Les mêmes défauts, qui dans les autres sont lourds et insupportables sont
-                            chez nous comme dans leur centre ; ils ne pèsent plus, on ne les sent
-                            pas. Tel parle d’un autre et en fait un portrait affreux, qui ne voit
-                            pas qu’il se peint lui-même.</p>
+                        <p><g ref="#char_pdm"/>Les mêmes défauts, qui dans les autres sont lourds et
+                            insupportables sont chez nous comme dans leur centre ; ils ne pèsent
+                            plus, on ne les sent pas. Tel parle d’un autre et en fait un portrait
+                            affreux, qui ne voit pas qu’il se peint lui-même.</p>
                         <p>Rien ne nous corrigerait plus promptement de nos défauts que si nous
                             étions capables de les avouer et de les reconnaître dans les autres :
                             c’est dans cette juste distance que, nous paraissant tels qu’ils sont,
                             ils se feraient haïr autant qu’ils le méritent.</p>
                     </div3>
                     <div3 n="73" source="#edition9">
-                        <p>La sage conduite roule sur deux pivots, le passé et l’avenir. Celui qui a
-                            la mémoire fidèle et une grande prévoyance est hors du péril de censurer
-                            dans les autres ce qu’il a peut-être fait lui-même, ou de condamner une
-                            action dans un pareil cas, et dans toutes les circonstances où elle lui
-                            sera un jour inévitable.</p>
+                        <p><g ref="#char_pdm"/>La sage conduite roule sur deux pivots, le passé et
+                            l’avenir. Celui qui a la mémoire fidèle et une grande prévoyance est
+                            hors du péril de censurer dans les autres ce qu’il a peut-être fait
+                            lui-même, ou de condamner une action dans un pareil cas, et dans toutes
+                            les circonstances où elle lui sera un jour inévitable.</p>
                     </div3>
                     <div3 n="74" source="#edition9">
-                        <p>Le guerrier et le politique, non plus que le joueur habile, ne font pas
-                            le hasard, mais ils le préparent, ils l’attirent, et semblent presque le
-                            déterminer. Non seulement ils savent ce que le sot et le poltron
-                            ignorent, je veux dire se servir du hasard quand il arrive ; ils savent
-                            même profiter, par leurs précautions et leurs mesures, d’un tel ou d’un
-                            tel hasard, ou de plusieurs tout à la fois. Si ce point arrive, ils
-                            gagnent ; si c’est cet autre, ils gagnent encore ; un même point souvent
-                            les fait gagner de plusieurs manières. Ces hommes sages peuvent être
-                            loués de leur bonne fortune comme de leur bonne conduite, et le hasard
-                            doit être récompensé en eux comme la vertu.</p>
+                        <p><g ref="#char_pdm"/>Le guerrier et le politique, non plus que le joueur
+                            habile, ne font pas le hasard, mais ils le préparent, ils l’attirent, et
+                            semblent presque le déterminer. Non seulement ils savent ce que le sot
+                            et le poltron ignorent, je veux dire se servir du hasard quand il arrive
+                            ; ils savent même profiter, par leurs précautions et leurs mesures, d’un
+                            tel ou d’un tel hasard, ou de plusieurs tout à la fois. Si ce point
+                            arrive, ils gagnent ; si c’est cet autre, ils gagnent encore ; un même
+                            point souvent les fait gagner de plusieurs manières. Ces hommes sages
+                            peuvent être loués de leur bonne fortune comme de leur bonne conduite,
+                            et le hasard doit être récompensé en eux comme la vertu.</p>
                     </div3>
 
                 </div2>
