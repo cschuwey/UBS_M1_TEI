@@ -55,6 +55,14 @@
                     <mapping>((❡))</mapping>
                     <desc>pied de mouche de fantaisie à jambage courbé marquand le début d'une remarque rajouté et rajouté dans une édition plus récente et entre deux parenthèses</desc>
                 </glyph>
+                <glyph xml:id="char_pdm3">
+                    <mapping>☚</mapping>
+                    <desc>représentation typographique d'une main fermée avec l'index tendu, tracée en marge d'un manuscrit pour attirer l'attention du lecteur sur le passafe en regard ou souligner son intérêt</desc>
+                </glyph>
+                <glyph xml:id="char_pdm4">
+                    <mapping>☛</mapping>
+                    <desc>représentation typographique d'une main fermée avec l'index tendu, tracée en marge d'un manuscrit pour attirer l'attention du lecteur sur le passafe en regard ou souligner son intérêt</desc>
+                </glyph>
             </charDecl>
             <editorialDecl>
                 <normalization>
@@ -96,7 +104,7 @@
 
 
                     <div3 n="75" source="#lescaracteres1696">
-                        <p>Ascagne est statuaire, Hégion fondeur, Aeschine foulon, et Cydias bel
+                        <p><g ref="#char_pdm"/>Ascagne est statuaire, Hégion fondeur, Aeschine foulon, et Cydias bel
                             esprit, c’est sa profession. Il a une enseigne, un atelier, des ouvrages
                             de commande, et des compagnons qui travaillent sous lui : il ne vous
                             saurait rendre de plus d’un mois les stances qu’il vous a promises, s’il
@@ -144,28 +152,30 @@
                     </div3>
 
                     <div3 n="76" source="#lescaracteres1688 #lescaracteres1696">
-                        <p>C’est la profonde ignorance qui inspire le ton dogmatique. Celui qui ne
-                            sait rien croit enseigner aux autres ce qu’il vient d’apprendre lui-même
+                        <p><g ref="#char_pdm"/>C’est la profonde ignorance qui inspire le ton dogmatique. 
+                            <app><rdgGrp><lem>Celui</lem><rdg source="#lescaracteres1688">celuy</rdg></rdgGrp><rdg source="#lescaracteres1696"></rdg></app>qui ne
+                            <app><rdgGrp><lem>sait</lem><rdg source="#lescaracteres1688">sçait</rdg></rdgGrp><rdg source="#lescaracteres1696">sait</rdg></app> 
+                            rien croit enseigner aux autres ce qu’il vient d’apprendre lui-même
                             ; celui qui sait beaucoup pense à peine que ce qu’il dit puisse être
                             ignoré, et parle plus indifféremment.</p>
                     </div3>
 
                     <div3 n="77" source="#lescaracteres1688 #lescaracteres1696">
-                        <p>Les plus grandes choses n’ont besoin que d’<app><rdgGrp><lem>être</lem><rdg source="#lescaracteres1688">estre</rdg>
+                        <p><g ref="#char_pdm"/>Les plus grandes choses n’ont besoin que d’<app><rdgGrp><lem>être</lem><rdg source="#lescaracteres1688">estre</rdg>
                         </rdgGrp><rdg source="#lescaracteres1696">être</rdg></app> dites simplement : elles
                             se gâtent par l’emphase. Il faut dire noblement les plus petites : elles
                             ne se soutiennent que par l’expression, le ton et la manière.</p>
                     </div3>
 
                     <div3 n="78" source="#lescaracteres1688 #lescaracteres1696">
-                        <p>Il me semble que l’on dit les choses encore plus finement qu’on ne peut
+                        <p><g ref="#char_pdm"/>Il me semble que l’on dit les choses encore plus finement qu’on ne peut
                             les écrire.</p>
                     </div3>
 
                     <!--J'ai remarqué que dans l'édition de 1688 les remarques 76 77 et 78 ne sont pas dans l'ordre, l'ordre dans cette édition est le suivant : 77 76 78-->
 
                     <div3 n="79" source="#lescaracteres1696">
-                        <p>Il n’y a guère qu’une naissance honnête, ou qu’<seg>une bonne
+                        <p><g ref="#char_pdm"/>Il n’y a guère qu’une naissance honnête, ou qu’<seg>une bonne
                                     éducation<note resp="#fernillot" place="bottom"
                                     type="definition" source="#lescaracteres1696">Soin qu'on prend à
                                     cultiver l'esprit, soit pour la science, soit pour les bonnes
@@ -175,7 +185,7 @@
                     </div3>
 
                     <div3 n="80" source="#lescaracteres1696">
-                        <p><seg>oute<note resp="#fernillot" place="bottom" type="precision"
+                        <p><g ref="#char_pdm"/><seg>oute<note resp="#fernillot" place="bottom" type="precision"
                                     source="#lescaracteres1696">Ce mot doit être écrit normalement
                                     "Toute", il lui manque en effet une lettre.</note></seg>
                             confiance est dangereuse si elle n’est entière : il y a peu de
@@ -185,7 +195,7 @@
                     </div3>
 
                     <div3 n="81" source="#lescaracteres1696">
-                        <p>Des gens vous promettent le secret, et ils le révèlent eux-mêmes, et à
+                        <p><g ref="#char_pdm"/>Des gens vous promettent le secret, et ils le révèlent eux-mêmes, et à
                             leur insu ; ils ne remuent pas les lèvres, et on les entend ; on lit sur
                             leur front et dans leurs yeux, on voit au travers de leur poitrine, ils
                             sont transparents. D’autres ne disent pas précisément une chose qui leur
@@ -197,7 +207,7 @@
                     </div3>
 
                     <div3 n="82" source="#lescaracteres1696">
-                        <p>Nicandre s’entretient avec Elise de la manière douce et complaisante dont
+                        <p><g ref="#char_pdm"/>Nicandre s’entretient avec Elise de la manière douce et complaisante dont
                             il a vécu avec sa femme, depuis le jour qu’il en fit le choix jusques à
                             sa mort ; il a déjà dit qu’il regrette qu’elle ne lui ait pas laissé des
                             enfants, et il le répète ; il parle des maisons qu’il a à la ville, et
@@ -227,7 +237,7 @@
                     </div3>
 
                     <div3 n="83" source="#lescaracteres1696">
-                        <p>Le sage quelquefois évite le monde, de peur d’être ennuyé.</p>
+                        <p><g ref="#char_pdm"/>Le sage quelquefois évite le monde, de peur d’être ennuyé.</p>
                     </div3>
 
 
