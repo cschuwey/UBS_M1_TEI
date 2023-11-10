@@ -71,7 +71,7 @@
                 </char>
                 <char xml:id="char_manicule_d">
                     <mapping>☛</mapping>
-                    <desc>Manicule pointant à gauche. Signale une nouvelle remarque présente à
+                    <desc>Manicule pointant à droite. Signale une nouvelle remarque présente à
                         partir de l'édition 7.</desc>
                 </char>
             </charDecl>
@@ -116,6 +116,8 @@
             <change when="2023-11-08">Ajout d'une balise <!--name--> dans le bibl de l'edition 8
                 pour faire référence au unknown, ajout d'un caractère dans le chardecl, ajout des
                 pieds-de-mouche</change>
+            <change when="2023-11-10"> Ajout d'une variation dans le texte, correction de l'attribut
+                type de la balise glyph en ref.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -126,22 +128,22 @@
                 <div2 type="chapitre" n="3">
                     <head>Des femmes.</head>
                     <div3 n="32" source="#edition1 #edition6 #edition8">
-                        <p><g type="char_pm"/>Est-ce en <app type="morpho">
+                        <p><g ref="char_pm"/>Est-ce en <app type="morpho">
                                 <lem>vue</lem>
                                 <rdg source="#edition1">veuë</rdg>
-                                <rdg source="#edition8">vûe</rdg>
+                                <rdg source="#edition6 #edition8">vûe</rdg>
                             </app>du secret, ou par un goût hypocondre, que cette femme aime un
                             valet, cette autre un moine, et <seg>Dorinne <note place="margin"
                                     resp="#unknown">note fictive</note></seg>son médecin ?</p>
                     </div3>
                     <div3 n="33" source="#edition8">
-                        <p><g type="#char_pm"/><seg>Roscius <note resp="#unknown" place="margin"
-                                    >note fictive</note></seg> entre sur la scène de bonne grâce :
-                            oui, Lélie ; et j’ajoute encore qu’il a les jambes bien tournées, qu’il
-                            joue bien, et de longs rôles, et que pour déclamer parfaitement il ne
-                            lui manque, comme on le dit, que de parler avec la bouche ; mais est-il
-                            le seul qui ait de l’agrément dans ce qu’il fait ? et ce qu’il fait,
-                            est-ce la chose la plus noble et la plus honnête que l’on puisse faire ?
+                        <p><g ref="#char_pm"/><seg>Roscius <note resp="#unknown" place="margin">note
+                                    fictive</note></seg> entre sur la scène de bonne grâce : oui,
+                            Lélie ; et j’ajoute encore qu’il a les jambes bien tournées, qu’il joue
+                            bien, et de longs rôles, et que pour déclamer parfaitement il ne lui
+                            manque, comme on le dit, que de parler avec la bouche ; mais est-il le
+                            seul qui ait de l’agrément dans ce qu’il fait ? et ce qu’il fait, est-ce
+                            la chose la plus noble et la plus honnête que l’on puisse faire ?
                             Roscius d’ailleurs ne peut être à vous, il est à une autre ; et quand
                             cela ne serait pas ainsi, il est retenu : Claudie attend, pour l’avoir,
                             qu’il se soit dégoûté de Messaline. Prenez Bathylle, Lélie : où
@@ -171,19 +173,19 @@
                             taille ramassée, un nègre d’ailleurs, un homme noir.</p>
                     </div3>
                     <div3 n="34" source="#edition1 #editon6 #edition8">
-                        <p><g type="#char_pm"/>Pour les femmes du monde, un jardinier est un
+                        <p><g ref="#char_pm"/>Pour les femmes du monde, un jardinier est un
                             jardinier, et un maçon est un maçon ; pour quelques autres plus
                             retirées, un maçon est un homme, un jardinier est un homme. Tout est
                             tentation à qui la craint.</p>
                     </div3>
                     <div3 n="35" source="#edition1 #edition6 #edition8">
-                        <p><g type="#char_pm"/>Quelques femmes donnent aux couvents et à leurs
-                            amants : galantes et bienfactrices, elles ont jusque dans l’enceinte de
-                            l’autel des tribunes et des oratoires où elles lisent des billets
-                            tendres, et où personne ne voit qu’elles ne prient point Dieu.</p>
+                        <p><g ref="#char_pm"/>Quelques femmes donnent aux couvents et à leurs amants
+                            : galantes et bienfactrices, elles ont jusque dans l’enceinte de l’autel
+                            des tribunes et des oratoires où elles lisent des billets tendres, et où
+                            personne ne voit qu’elles ne prient point Dieu.</p>
                     </div3>
                     <div3 n="36" source="#edition8">
-                        <p><g type="#char_pm"/>Qu’est-ce qu’une femme que l’on dirige ? Est-ce une
+                        <p><g ref="#char_pm"/>Qu’est-ce qu’une femme que l’on dirige ? Est-ce une
                             femme plus complaisante pour son mari, plus douce pour ses domestiques,
                             plus appliquée à sa famille et à ses affaires, plus ardente et plus
                             sincère pour ses amis ; qui soit moins esclave de son humeur, moins
@@ -201,7 +203,7 @@
                     </div3>
                     <div3 n="37">
                         <div4 source="#edition1">
-                            <p><g type="#char_pm"/>Si <seg>le confesseur<note resp="#meny"
+                            <p><g ref="#char_pm"/>Si <seg>le confesseur<note resp="#meny"
                                         type="gloss" place="end">Prêtre à qui l'on se
                                         confesse.</note></seg> et le directeur ne conviennent point
                                 sur une règle de conduite, qui sera le tiers qu’une femme prendra
@@ -214,54 +216,57 @@
                                 pénitence d’y renoncer.</p>
                         </div4>
                         <div4 source="#edition6 #edition8">
-                            <p><g type="#char_pm"/>Si le confesseur et le directeur ne conviennent
+                            <p><g ref="#char_pm"/>Si le confesseur et le directeur ne conviennent
                                 point sur une règle de conduite, qui sera le tiers qu’une femme
                                 prendra pour sur-arbitre ?</p>
                         </div4>
                     </div3>
                     <div3 n="38" source="#edition6 #edition8">
-                        <p><g type="#char_pm"/>Le capital pour une femme n’est pas d’avoir un
+                        <p><g ref="#char_pm"/>Le capital pour une femme n’est pas d’avoir un
                             directeur, mais de vivre si uniment qu’elle s’en puisse passer.</p>
                     </div3>
                     <div3 n="39" source="#edition6 #edition8">
-                        <p><g type="#char_pm"/>Si une femme pouvait dire à son confesseur, avec ses
+                        <p><g ref="#char_pm"/>Si une femme pouvait dire à son confesseur, avec ses
                             autres faiblesses, celles qu’elle a pour son directeur ; et le temps
                             qu’elle perd dans son entretien, peut-être lu<app type="morpho">
                                 <lem>i sera</lem>
-                                <rdg source="#edition1 #edition8">y fero</rdg>
+                                <rdg source="#edition6 #edition8">y fero</rdg>
                             </app>it-il donné pour pénitence d’y renoncer.</p>
                     </div3>
                     <div3 n="40" source="#edition6 #edition8">
-                        <p><g type="#char_pm"/>Je voudrais qu’il me fût permis de crier de toute ma
+                        <p><g ref="#char_pm"/>Je voudrais qu’il me fût permis de crier de toute ma
                             force à ces hommes saints qui ont été autrefois blessés des femmes :
                             "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de
                             leur salut."</p>
                     </div3>
                     <div3 n="41" source="#edition1 #edition6 #edition8">
-                        <p><g type="#char_pm"/>C’est trop contre un mari d’être coquette et
+                        <p><g ref="#char_pm"/>C’est trop contre un mari d’être coquette et
                                 <seg>dévote <note resp="#meny" place="bottom" type="explication">Qui
                                     est sincèrement attaché à une religion et à ses
                                     pratiques.</note></seg> ; une femme devrait opter.</p>
                     </div3>
                     <div3 n="42" source="#edition6 #edition8">
-                        <p><g type="#char_pm"/>J’ai différé à le dire, et j’en ai souffert ; mais
-                            enfin il m’échappe, et j’espère même que ma franchise sera utile à
-                            celles qui n’ayant pas assez d’un confesseur pour leur conduite, n’usent
-                            d’aucun discernement dans le choix de leurs directeurs. Je ne sors pas
-                            d’admiration et d’étonnement à la vue de certains personnages que je ne
-                            nomme point ; j’ouvre de fort grands yeux sur eux ; je les contemple :
-                            ils parlent, je prête l’oreille ; je m’informe, on me dit des faits, je
-                            les recueille ; et je ne comprends pas comment des gens en qui je crois
-                            voir toutes choses diamétralement opposées au bon esprit, au sens droit,
-                            à l’expérience des affaires du monde, à la connaissance de l’homme, à la
-                            science de la religion et des mœurs, présument que Dieu doive renouveler
-                            en nos jours la merveille de l’apostolat, et faire un miracle en leurs
-                            personnes, en les rendant capables, tout simples et petits esprits
-                            qu’ils sont, du ministère des âmes, celui de tous le plus délicat et le
-                            plus sublime ; et si au contraire ils se croient nés pour un emploi si
-                            relevé, si difficile, et accordé à si peu de personnes, et qu’ils se
-                            persuadent de ne faire en cela qu’exercer leurs talents naturels et
-                            suivre une vocation ordinaire, je le comprends encore moins.</p>
+                        <p><g ref="#char_pm"/>J’ai différé à le dire, et j’en a<app type="morpho">
+                                <lem>i s</lem>
+                                <rdg source="edition6 #edition8">y f</rdg>
+                            </app>ouffert ; mais enfin il m’échappe, et j’espère même que ma
+                            franchise sera utile à celles qui n’ayant pas assez d’un confesseur pour
+                            leur conduite, n’usent d’aucun discernement dans le choix de leurs
+                            directeurs. Je ne sors pas d’admiration et d’étonnement à la vue de
+                            certains personnages que je ne nomme point ; j’ouvre de fort grands yeux
+                            sur eux ; je les contemple : ils parlent, je prête l’oreille ; je
+                            m’informe, on me dit des faits, je les recueille ; et je ne comprends
+                            pas comment des gens en qui je crois voir toutes choses diamétralement
+                            opposées au bon esprit, au sens droit, à l’expérience des affaires du
+                            monde, à la connaissance de l’homme, à la science de la religion et des
+                            mœurs, présument que Dieu doive renouveler en nos jours la merveille de
+                            l’apostolat, et faire un miracle en leurs personnes, en les rendant
+                            capables, tout simples et petits esprits qu’ils sont, du ministère des
+                            âmes, celui de tous le plus délicat et le plus sublime ; et si au
+                            contraire ils se croient nés pour un emploi si relevé, si difficile, et
+                            accordé à si peu de personnes, et qu’ils se persuadent de ne faire en
+                            cela qu’exercer leurs talents naturels et suivre une vocation ordinaire,
+                            je le comprends encore moins.</p>
                         <p>Je vois bien que le goût qu’il y a à devenir <seg>le dépositaire du
                                 secret des familles<note resp="#unknown" place="margin">note
                                     fictive</note></seg>, à se rendre nécessaire pour les
