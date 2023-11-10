@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<TEI xmlns="https://tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -46,6 +46,34 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <mapping>❡</mapping>
+                    <desc>Pied-de-mouche simple. Signale une nouvelle remarque présente à partir de
+                        l'édition 1.</desc>
+                </char>
+                <char xml:id="char_pm-par">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied-de-mouche à parenthèses simple. Signale une nouvelle remarque
+                        présente à partir de l'édition 4.</desc>
+                </char>
+                <char xml:id="char_pm-par2">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied-de-mouche à paranthèses doubles. Signale une nouvelle remarque
+                        présente à partir de l'édition 5.</desc>
+                </char>
+                <char xml:id="manicule_gauche">
+                    <mapping>☚</mapping>
+                    <desc>Manicule pointant le doigt vers la gauche. Signale une nouvelle note à
+                        partir de l'édition 7.</desc>
+                </char>
+                <char>
+                    <mapping>☛</mapping>
+                    <desc>Manicule pointant le doigt vers la droite. Signale une nouvelle note à
+                        partir de l'édition 7.</desc>
+                </char>
+
+            </charDecl>
             <editorialDecl>
                 <normalization>
                     <p>Graphie modernisée</p>
@@ -71,57 +99,60 @@
                 <div2 type="chapitre" n="8">
                     <head>De la Cour</head>
                     <div3 n="22" source="#edition_8">
-                        <p>L’on se couche à la cour et l’on se lève sur l’intérêt ; c’est ce que
-                            l’on digère le matin et le soir, le jour et la nuit ; c’est ce qui fait
-                            que l’on pense, que l’on parle, que l’on se tait, que l’on agit ; c’est
-                            dans cet esprit qu’on aborde les uns et qu’on néglige les autres, que
-                            l’on monte et que l’on descend ; c’est sur cette règle que l’on mesure
-                            ses soins, ses complaisances, son estime, son indifférence, son mépris.
-                            Quelques pas que quelques-uns fassent par vertu vers la modération et la
-                            sagesse, un premier mobile d’ambition les emmène avec les plus avares,
-                            les plus violents dans leurs désirs et les plus ambitieux : quel moyen
-                            de demeurer immobile où tout marche, où tout se remue, et de ne pas
-                            courir où les autres courent ? On croit même être responsable à soi-même
-                            de son élévation et de sa fortune : celui qui ne l’a point faite à la
-                            cour est censé ne l’avoir pas dû faire, on n’en appelle pas. Cependant
-                            s’en éloignera-t-on avant d’en avoir tiré le moindre fruit, ou
-                            persistera-t-on à y demeurer sans grâces et sans récompenses ? question
-                            si épineuse, si embarrassée, et d’une si pénible décision, qu’un nombre
-                            infini de courtisans vieillissent sur le oui et sur le non, et meurent
-                            dans le doute.</p>
+                        <p><g type="#char_pm" source="#edition_8"/>L’on se couche à la cour et l’on
+                            se lève sur l’intérêt ; c’est ce que l’on digère le matin et le soir, le
+                            jour et la nuit ; c’est ce qui fait que l’on pense, que l’on parle, que
+                            l’on se tait, que l’on agit ; c’est dans cet esprit qu’on aborde les uns
+                            et qu’on néglige les autres, que l’on monte et que l’on descend ; c’est
+                            sur cette règle que l’on mesure ses soins, ses complaisances, son
+                            estime, son indifférence, son mépris. Quelques pas que quelques-uns
+                            fassent par vertu vers la modération et la sagesse, un premier mobile
+                            d’ambition les emmène avec les plus avares, les plus violents dans leurs
+                            désirs et les plus ambitieux : quel moyen de demeurer immobile où tout
+                            marche, où tout se remue, et de ne pas courir où les autres courent ? On
+                            croit même être responsable à soi-même de son élévation et de sa fortune
+                            : celui qui ne l’a point faite à la cour est censé ne l’avoir pas dû
+                            faire, on n’en appelle pas. Cependant s’en éloignera-t-on avant d’en
+                            avoir tiré le moindre fruit, ou persistera-t-on à y demeurer sans grâces
+                            et sans récompenses ? question si épineuse, si embarrassée, et d’une si
+                            pénible décision, qu’un nombre infini de courtisans vieillissent sur le
+                            oui et sur le non, et meurent dans le doute.</p>
                     </div3>
                     <div3 n="23" source="#edition_8">
-                        <p>Il n’y a rien à la cour de si méprisable et de si indigne qu’un homme qui
-                            ne peut contribuer en rien à notre fortune : je m’étonne qu’il ose se
-                            montrer.</p>
+                        <p><g ref="#char_pm" source="#edition_8"/>Il n’y a rien à la cour de si
+                            méprisable et de si indigne qu’un homme qui ne peut contribuer en rien à
+                            notre fortune : je m’étonne qu’il ose se montrer.</p>
                     </div3>
                     <div3 n="24" source="#edition_5 #edition_8">
-                        <p>Celui qui voit loin derrière soi <note place="margin"
-                                resp="#etienne_michallet">Note manuscrite qui est illisble</note>un
-                            homme de son temps et de sa condition, avec qui il est venu à la cour la
-                            première fois, s’il croit avoir une raison solide d’être prévenu de son
-                            propre mérite et s’estimer davantage que cet autre qui est demeuré en
-                            chemin, ne se souvient plus de ce qu’avant sa faveur il pensait de
-                            soi-même et de ceux qui l’avaient devancé.</p>
+                        <p><g ref="#char_pm" source="#edition_8"/><g ref="#char_pm-par"
+                                source="edition_5"/>Celui qui voit loin derrière soi <note
+                                place="margin" resp="#etienne_michallet">Note manuscrite qui est
+                                illisble</note>un homme de son temps et de sa condition, avec qui il
+                            est venu à la cour la première fois, s’il croit avoir une raison solide
+                            d’être prévenu de son propre mérite et s’estimer davantage que cet autre
+                            qui est demeuré en chemin, ne se souvient plus de ce qu’avant sa faveur
+                            il pensait de soi-même et de ceux qui l’avaient devancé.</p>
                     </div3>
                     <div3 n="25" source="#edition_5 #edition_8">
-                        <p>C’est beaucoup tirer de notre ami, si, ayant monté à une grande faveur,
-                            il est encore un homme de notre connaissance.</p>
+                        <p><g ref="#char_pm" source="#edition_5 #edition_8"/>C’est beaucoup tirer de
+                            notre ami, si, ayant monté à une grande faveur, il est encore un homme
+                            de notre connaissance.</p>
                     </div3>
                     <div3 n="26" source="#edition_5 #edition_8">
-                        <p>Si celui qui est en faveur ose s’en <note place="margin"
-                                resp="#etienne_michallet">Note manuscrite illisible</note>prévaloir
-                            avant qu’elle lui échappe, s’il se sert d’un bon vent qui souffle pour
-                            faire son chemin, s’il a les yeux ouverts sur tout ce qui vaque, poste,
-                            abbaye, pour les demander et les obtenir, et qu’il soit muni de
-                            pensions, de brevets et de survivances, vous lui reprochez son avidité
-                            et son ambition ; vous dites que tout le tente, que tout lui est propre,
-                            aux siens, à ses créatures, et que par le nombre et la diversité des
-                            grâces dont il se trouve comblé, lui seul a fait plusieurs <note
+                        <p><g ref="#char_pm" source="#edition_8"/><g ref="#char_pm-par"
+                                source="edition_5"/>Si celui qui est en faveur ose s’en <note
                                 place="margin" resp="#etienne_michallet">Note manuscrite
-                                illisible</note>fortunes. Cependant qu’a-t-il dû faire ? Si j’en
-                            juge moins par vos discours que par le parti que vous auriez pris
-                            vous-même en pareille situation, c’est qu’il a fait.</p>
+                                illisible</note>prévaloir avant qu’elle lui échappe, s’il se sert
+                            d’un bon vent qui souffle pour faire son chemin, s’il a les yeux ouverts
+                            sur tout ce qui vaque, poste, abbaye, pour les demander et les obtenir,
+                            et qu’il soit muni de pensions, de brevets et de survivances, vous lui
+                            reprochez son avidité et son ambition ; vous dites que tout le tente,
+                            que tout lui est propre, aux siens, à ses créatures, et que par le
+                            nombre et la diversité des grâces dont il se trouve comblé, lui seul a
+                            fait plusieurs <note place="margin" resp="#etienne_michallet">Note
+                                manuscrite illisible</note>fortunes. Cependant qu’a-t-il dû faire ?
+                            Si j’en juge moins par vos discours que par le parti que vous auriez
+                            pris vous-même en pareille situation, c’est qu’il a fait.</p>
                         <p>L’on blâme les gens qui font une grande fortune pendant qu’ils en ont les
                             occasions, parce que l’on désespère, <seg>par la médiocrité de la sienne
                                     <note>Ici, l'auteur critique la jalousie de certains
@@ -131,68 +162,81 @@
                             retenu, de peur de prononcer d’avance sa condamnation.</p>
                     </div3>
                     <div3 n="27" source="#edition_5 #edition_8">
-                        <p>Il ne faut rien exagérer, ni dire des cours le mal qui n’y est point :
-                            l’on n’y attente rien de pis contre le vrai mérite que de le laisser
-                            quelquefois sans récompense ; on ne l’y méprise pas toujours, quand on a
-                            pu une fois le discerner ; on l’oublie, et c’est là où l’on sait
-                            parfaitement ne faire rien, ou faire très peu de chose, pour ceux que
-                            l’on estime beaucoup.</p>
+                        <p><g ref="#char_pm" source="#edition_8"/><g ref="#char_pm-par"
+                                source="#edition_5"/>Il ne faut rien exagérer, n <app>
+                                <rdg source="#edition_5">y</rdg>
+                                <lem>i</lem>
+                                <rdg source="#edition_8">i</rdg>
+                            </app> dire des cours le mal qui n’y est point : l’on n’y attente rien
+                            de pis contre le vrai mérite que de le laisser quelquefois sans
+                            récompense ; on ne l’y méprise pas toujours, quand on a pu une fois le
+                            discerner ; on l’oublie, et c’est là où l’on sait parfaitement ne faire
+                            rien, ou faire très peu de chose, pour ceux que l’on estime
+                            beaucoup.</p>
                     </div3>
                     <div3 n="28" source="#edition_5 #edition_8">
-                        <p>Il est difficile à la cour que de toutes les pièces que l’on emploie à
-                            l’édifice de sa fortune, il n’y en ait quelqu’une qui porte à faux :
-                            l’un de mes amis qui a promis de parler ne parle point ; l’autre parle
-                            mollement ; il échappe à un troisième de parler contre mes intérêts et
-                            contre ses intentions ; à celui-là manque la bonne volonté, à celui-ci
-                            l’habileté et la prudence ; <seg>tous n’ont pas assez de plaisir à me
-                                voir heureux pour contribuer de tout leur pouvoir à me rendre
-                                    tel<note type="explication">L'auteur veut très certainement
-                                    montré que chaque noble à la cours est différent. Il y a ceux
-                                    qui vont exposer les raisons de leur richesse et pouvant avoir
-                                    des conséquences sur le futur, comme la ruine qui fut provoqué
-                                    par d'autres nobles par jalousie. Mais il y a aussi ceux qui ne
-                                    disent rien, restent discret, dans le but d'éviter ses
-                                    conséquences</note></seg>. Chacun se souvient assez de tout ce
-                            que son établissement lui a coûté à faire, ainsi que des secours qui lui
-                            en ont frayé le chemin ; on serait même assez porté à justifier les
-                            services qu’on a reçus des uns par ceux qu’en de pareils besoins on
-                            rendrait aux autres, si le premier et l’unique soin qu’on a après sa
-                            fortune faite n’était pas de songer à soi.</p>
+                        <p><g ref="#char_pm" source="#edition_8"/><g ref="#char_pm-par2"
+                                source="#edition_5"/>Il est difficile à la cour que de toutes les
+                            pièces que l’on emploie à l’édifice de sa fortune, il n’y en ait
+                            quelqu’une qui porte à faux : l’un de mes amis qui a promis de parler ne
+                            parle point ; l’autre parle mollement ; il échappe à un troisième de
+                            parler contre mes intérêts et contre ses intentions ; à celui-là manque
+                            la bonne volonté, à celui-ci l’habileté et la prudence ; <seg>tous n’ont
+                                pas assez de plaisir à me voir heureux pour contribuer de tout leur
+                                pouvoir à me rendre tel<note type="explication">L'auteur veut très
+                                    certainement montré que chaque noble à la cours est différent.
+                                    Il y a ceux qui vont exposer les raisons de leur richesse et
+                                    pouvant avoir des conséquences sur le futur, comme la ruine qui
+                                    fut provoqué par d'autres nobles par jalousie. Mais il y a aussi
+                                    ceux qui ne disent rien, restent discret, dans le but d'éviter
+                                    ses conséquences</note></seg>. Chacun se souvient assez de tout
+                            ce que son établissement lui a coûté à faire, ainsi que des secours qui
+                            lui en ont frayé le chemin ; on serait m <app>
+                                <rdg source="#edition_5">es</rdg>
+                                <lem>ê</lem>
+                                <rdg source="#edition_8">ê</rdg>
+                            </app> me assez porté à justifier les services qu’on a reçus des uns par
+                            ceux qu’en de pareils besoins on rendrait aux autres, si le premier et
+                            l’unique soin qu’on a après sa fortune faite n’était pas de songer à
+                            soi.</p>
                     </div3>
                     <div3 n="29" source="#edition_8">
-                        <p>Les courtisans n’emploient pas ce qu’ils ont d’esprit, d’adresse et de
-                            finesse pour trouver les expédients d’obliger ceux de leurs amis qui
-                            implorent leur secours, mais seulement pour leur trouver des raisons
-                            apparentes, de spécieux prétextes, ou ce qu’ils appellent une
-                            impossibilité de le pouvoir faire ; et ils se persuadent d’être quittes
-                            par là en leur endroit de tous les devoirs de l’amitié ou de la
-                            reconnaissance.</p>
+                        <p><g ref="#char_pm" source="#edition_8"/>Les courtisans n’emploient pas ce
+                            qu’ils ont d’esprit, d’adresse et de finesse pour trouver les expédients
+                            d’obliger ceux de leurs amis qui implorent leur secours, mais seulement
+                            pour leur trouver des raisons apparentes, de spécieux prétextes, ou ce
+                            qu’ils appellent une impossibilité de le pouvoir faire ; et ils se
+                            persuadent d’être quittes par là en leur endroit de tous les devoirs de
+                            l’amitié ou de la reconnaissance.</p>
                         <p>Personne à la cour ne veut entamer ; on s’offre d’appuyer, parce que,
                             jugeant des autres par soi-même, on espère que nul n’entamera, et qu’on
                             sera ainsi dispensé d’appuyer : c’est une manière douce et polie de
                             refuser son crédit, ses offices et sa médiation à qui en a besoin.</p>
                     </div3>
                     <div3 n="30" source="#edition_3 #edition_5 #edition_8">
-                        <p>Combien de gens vous étouffent de caresses dans le particulier, vous
-                            aiment et vous estiment, qui sont embarrassés de vous dans le public, et
-                            qui, au lever ou à la messe, évitent vos yeux et votre rencontre ! Il
-                            n’y a qu’un petit nombre de courtisans qui, par grandeur, ou par une
-                            confiance qu’ils ont d’eux-mêmes, osent honorer devant le monde le
-                            mérite qui est seul et dénué de grands établissements.</p>
+                        <p><g ref="#char_pm" source="#edition_3 #edition_5 #edition_8"/>Combien de
+                            gens vous étouffent de caresses dans le particulier, vous aiment et vous
+                            estiment, qui sont embarrassés de vous dans le public, et qui, au lever
+                            ou à la messe, évitent vos yeux et votre rencontre ! Il n’y a qu’un
+                            petit nombre de courtisans qui, par grandeur, ou par une confiance
+                            qu’ils ont d’eux-mêmes, osent honorer devant le monde le mérite qui est
+                            seul et dénué de grands établissements.</p>
                     </div3>
                     <div3 n="31" source="#edition_5 #edition_8">
-                        <p>Je vois un homme entouré et suivi ; mais il est en place. J’en vois un
-                            autre que tout le monde aborde ; mais il est en faveur. Celui-ci est
-                            embrassé et caressé, même des grands ; mais il est riche. Celui-là est
-                            regardé de tous avec curiosité, on le montre du doigt ; mais il est
-                            savant et éloquent. J’en découvre un que personne n’oublie de saluer ;
-                            mais il est méchant. Je veux un homme qui soit bon, qui ne soit rien
-                            davantage, et qui soit recherché.</p>
+                        <p><g ref="#char_pm" source="#edition_8"/><g ref="#char_pm-par"
+                                source="#edition_5"/>Je vois un homme entouré et suivi ; mais il est
+                            en place. J’en vois un autre que tout le monde aborde ; mais il est en
+                            faveur. Celui-ci est embrassé et caressé, même des grands ; mais il est
+                            riche. Celui-là est regardé de tous avec curiosité, on le montre du
+                            doigt ; mais il est savant et éloquent. J’en découvre un que personne
+                            n’oublie de saluer ; mais il est méchant. Je veux un homme qui soit bon,
+                            qui ne soit rien davantage, et qui soit recherché.</p>
                     </div3>
                     <div3 n="32" source="#edition_5 #edition_8">
-                        <p>Vient-on de placer quelqu’un dans un nouveau poste, c’est un débordement
-                            de <seg> louanges <note type="glossaire">Paroles, discours qui font
-                                    l'éloge de quelqu'un</note>
+                        <p><g ref="#char_pm" source="#edition_8"/><g ref="#char_pm-par2"
+                                source="#edition_5"/>Vient-on de placer quelqu’un dans un nouveau
+                            poste, c’est un débordement de <seg> louanges <note type="glossaire"
+                                    >Paroles, discours qui font l'éloge de quelqu'un</note>
                             </seg> en sa faveur, qui inonde les cours et la chapelle, qui gagne
                             l’escalier, les salles, la galerie, tout l’appartement : on en a
                             au-dessus des yeux, on n’y tient pas. Il n’y a pas deux voix différentes
