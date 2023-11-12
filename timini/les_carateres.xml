@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,14 +11,14 @@
                 <date when="2023-10-10">10 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
-                <listbibl>
+                <listBibl>
                     <bibl xml:id="edition1">
                         <author>Jean de la Bruyère</author>
                         <title/>
                         <placeName>Lyon</placeName>
                         <publisher>Thomas Amaulry</publisher>
                         <date>1688</date>
-                        <idno DOI="https://gallica.bnf.fr/ark:/12148/bpt6k575738?rk=21459;2"/>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575738?rk=21459;2</ref>
                     </bibl>
                     <bibl xml:id="edition7">
                         <author>J. de la Bruyère</author>
@@ -27,9 +27,9 @@
                         <placeName>Paris</placeName>
                         <publisher>Etienne Michallet</publisher>
                         <date>1692</date>
-                        <idno DOI="https://gallica.bnf.fr/ark:/12148/bpt6k57575z?rk=236052;4"/>
+                        <ref> https://gallica.bnf.fr/ark:/12148/bpt6k57575z?rk=236052;4</ref>
                     </bibl>
-                </listbibl>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,9 +47,38 @@
                     <p>Choix de l'attribut n= dans les balises div3 pour symboliser le numéro de la
                         remarque. Ce numéro n'apparait pas dans la transcription du fichier en autre
                         chose, donc est fidèle au texte original mais il permet de nous répérer.</p>
-                    <p>utilisation de la balise seg pour délimiter à quoi se rapporte la note</p>
+                    <p>Utilisation de la balise seg pour délimiter à quoi se rapporte la note</p>
+                    <p>Utilisation de la balise commentaire pour intégrer la variation de
+                        l'esperluette car le signe s'affiche en rouge sinon.</p>
                 </interpretation>
             </editorialDecl>
+            <charDecl>
+                <char xml:id="char_pm">
+                    <mapping>❡</mapping>
+                    <desc>Pied-de-mouche simple. Différencie chaque remarque présente depuis la
+                        première édition.</desc>
+                </char>
+                <char xml:id="char_pm-par">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied-de-mouche à parenthèses simples. Différencie l'entrée d'une nouvelle
+                        remarque à partir de la quatrième édition.</desc>
+                </char>
+                <char xml:id="char_pm-par2">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied-de-mouche à parenthèses doubles. Différencie l'entrée d'une nouvelle
+                        remarque à partir de la cinquième édition.</desc>
+                </char>
+                <char xml:id="char_manicule_g">
+                    <mapping>☚</mapping>
+                    <desc>Manicule pointant à gauche. Différencie l'entrée d'une nouvelle remarque à
+                        partir de la septième édition</desc>
+                </char>
+                <char xml:id="char_manicule_d">
+                    <mapping>☛</mapping>
+                    <desc>Manicule pointant à gauche. Différencie l'entrée d'une nouvelle remarque à
+                        partir de la septième édition.</desc>
+                </char>
+            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -64,6 +93,8 @@
                 éditions</change>
             <change when="2023-10-23">ajout de notes de l'auteur (seul une des notes est de
                 l'auteur, les deux autres sont fictives) et du publisher</change>
+            <change when="2023-11-10">ajout des glyphs dans l'encodingDesc et au début de chaque
+                remarque + ajout de 3 variations avec l'élément app</change>
         </revisionDesc>
     </teiHeader>
     <body>
@@ -72,31 +103,39 @@
             <div2 type="chapter" n="3">
                 <head>Des Femmes.</head>
                 <div3 n="43" source="#edition7">
-                    <p source="#edition7"> La dévotion vient à quelques-uns, et surtout aux femmes,
-                        comme une passion, ou comme le faible d’un certain âge, ou comme un mode
-                        qu’il faut suivre. Elles comptaient autrefois une semaine par les jours de
-                        jeu, de spectacle, de concert, de mascarade, ou d’un joli sermon : elles
-                        allaient le lundi perdre leur argent chez Ismène, le mardi leur temps chez
-                        Climène, et le mercredi leur réputation chez Célimène ; elles savaient dès
-                        la veille toute la joie qu’elles devaient avoir le jour d’après et le
-                        lendemain ; elles jouissaient tout à la fois du plaisir présent et de celui
-                        qui ne leur pouvait manquer ; elles auraient souhaité de les pouvoir
-                        rassembler tous en un seul jour : c’était alors leur unique inquiétude et
-                        tout le sujet de leurs distractions ; et si elles se trouvaient quelquefois
-                        à l’Opéra, elles y regrettaient la comédie. Autres temps, autres mœurs :
-                        elles outrent l’austérité et la retraite ; elles n’ouvrent plus les yeux qui
-                        leur sont donnés pour voir ; elles ne mettent plus leurs sens à aucun usage
-                        ; et chose incroyable ! elles parlent peu ; elles pensent encore et assez
-                        bien d’elles-mêmes, comme assez mal des autres ; il y a chez elles une
-                        émulation de vertu et de réforme qui tient quelque chose de la jalousie ;
-                        elles ne haïssent pas de primer dans ce nouveau genre de vie, comme elles
-                        faisaient dans celui qu’elles viennent de quitter par politique ou par
-                        dégoût. Elles se perdaient gaiement par la galanterie, par la bonne chère et
-                        par l’oisiveté ; et elles se perdent tristement par la présomption et par
-                        l’envie.</p>
+                    <p source="#edition7"><g ref="#char_pm"></g> La dévotion vient à quelques-uns, <app>
+                            <lem>et</lem>
+                            <rdg source="#edition7"><!--&--></rdg>
+                        </app>
+                        <app>
+                            <lem>surtout</lem>
+                            <rdg source="#edition7">fur tout</rdg>
+                        </app> aux femmes, comme une passion, ou comme le f<app>
+                            <lem>a</lem>
+                            <rdg source="#edition7">o</rdg>
+                        </app>ible d’un certain âge, ou comme un mode qu’il faut suivre. Elles
+                        comptaient autrefois une semaine par les jours de jeu, de spectacle, de
+                        concert, de mascarade, ou d’un joli sermon : elles allaient le lundi perdre
+                        leur argent chez Ismène, le mardi leur temps chez Climène, et le mercredi
+                        leur réputation chez Célimène ; elles savaient dès la veille toute la joie
+                        qu’elles devaient avoir le jour d’après et le lendemain ; elles jouissaient
+                        tout à la fois du plaisir présent et de celui qui ne leur pouvait manquer ;
+                        elles auraient souhaité de les pouvoir rassembler tous en un seul jour :
+                        c’était alors leur unique inquiétude et tout le sujet de leurs distractions
+                        ; et si elles se trouvaient quelquefois à l’Opéra, elles y regrettaient la
+                        comédie. Autres temps, autres mœurs : elles outrent l’austérité et la
+                        retraite ; elles n’ouvrent plus les yeux qui leur sont donnés pour voir ;
+                        elles ne mettent plus leurs sens à aucun usage ; et chose incroyable ! elles
+                        parlent peu ; elles pensent encore et assez bien d’elles-mêmes, comme assez
+                        mal des autres ; il y a chez elles une émulation de vertu et de réforme qui
+                        tient quelque chose de la jalousie ; elles ne haïssent pas de primer dans ce
+                        nouveau genre de vie, comme elles faisaient dans celui qu’elles viennent de
+                        quitter par politique ou par dégoût. Elles se perdaient gaiement par la
+                        galanterie, par la bonne chère et par l’oisiveté ; et elles se perdent
+                        tristement par la présomption et par l’envie.</p>
                 </div3>
                 <div3 n="44" source="#edition7">
-                    <p source="#edition7">Si j’épouse, Hermas, une femme avare, elle ne me ruinera
+                    <p source="#edition7"><g ref="#char_pm"></g>Si j’épouse, Hermas, une femme avare, elle ne me ruinera
                         point ; si une joueuse, elle pourra s’enrichir ; si une savante, elle saura
                         m’instruire ; si une prude, elle ne sera point emportée ; si une emportée,
                         elle exercera ma patience ; si une coquette, elle voudra me plaire ; si une
@@ -106,7 +145,7 @@
                         qui veut tromper Dieu, et qui se trompe elle-même ?</p>
                 </div3>
                 <div3 n="45" source="#edition7">
-                    <p source="edition7">Une femme est aisée à <seg>gouverner<note place="end"
+                    <p source="edition7"><g ref="#char_pm"></g>Une femme est aisée à <seg>gouverner<note place="end"
                                 resp="#timini" type="glossaire">Exercer un pouvoir</note></seg>,
                         pourvu que ce soit un homme qui s’en donne la peine. Un seul même en
                         gouverne plusieurs ; il cultive leur esprit et leur mémoire, fixe et
@@ -131,13 +170,13 @@
                         liberté. </p>
                 </div3>
                 <div3 n="46" source="#edition7">
-                    <p source="#edition7"> Quelques femmes ont voulu cacher leur conduite sous les
+                    <p source="#edition7"><g ref="#char_pm"></g> Quelques femmes ont voulu cacher leur conduite sous les
                         dehors de la modestie ; et tout ce que chacune a pu gagner par une
                         continuelle affectation, et qui ne s’est jamais démentie, a été de faire
                         dire de soi : On l’aurait prise pour une vestale. </p>
                 </div3>
                 <div3 n="47" source="#edition7">
-                    <p source="#edition7"> C’est dans les femmes une violente preuve d’une
+                    <p source="#edition7"><g ref="#char_pm"></g> C’est dans les femmes une violente preuve d’une
                         réputation bien nette et bien établie, qu’elle ne soit pas même effleurée
                         par la familiarité de quelques-unes qui ne leur ressemblent point ; et
                         qu’avec toute la pente qu’on a aux malignes explications, on ait recours à
@@ -145,7 +184,7 @@
                     </p>
                 </div3>
                 <div3 n="48" source="#edition7">
-                    <p source="#edition7"> Un comique outre sur la scène ses personnages ; un poète
+                    <p source="#edition7"><g ref="#char_pm"></g> Un comique outre sur la scène ses personnages ; un poète
                         charge ses descriptions ; un peintre qui fait d’après nature force et
                         exagère une passion, un contraste, des attitudes ; et celui qui copie, s’il
                         ne mesure au compas les grandeurs et les proportions, grossit ses figures,
@@ -168,7 +207,7 @@
                         piquante et la beauté que plus périlleuse. </p>
                 </div3>
                 <div3 n="49" source="#edition7">
-                    <p source="#edition7"> Pourquoi s’en prendre aux hommes de ce que les femmes ne
+                    <p source="#edition7"><g ref="#char_pm"></g> Pourquoi s’en prendre aux hommes de ce que les femmes ne
                         sont pas savantes ? Par quelles lois, par quels édits, par quels rescrits
                         leur a-t-on défendu d’ouvrir les yeux et de lire, de retenir ce qu’elles ont
                         lu, et d’en rendre compte ou dans leur conversation ou par leurs ouvrages ?
@@ -199,18 +238,18 @@
                         propre à devenir savante, ou qu’une femme savante, n’étant telle que parce
                         qu’elle aurait pu vaincre beaucoup de défauts, n’en est que plus sage. </p>
                 </div3>
-                <div3 n="50" soucre="#edition1 #edition7">
-                    <p source="#edition1 #edition7"> La neutralité entre des femmes qui nous sont
+                <div3 n="50" source="#edition1 #edition7">
+                    <p source="#edition1 #edition7"><g ref="#char_pm"></g> La neutralité entre des femmes qui nous sont
                         également amies, quoiqu’elles aient rompu pour des intérêts où nous n’avons
                         nulle part, est un point difficile : il faut choisir souvent entre elles, ou
                         les perdre toutes deux. </p>
                 </div3>
                 <div3 n="51" source="#edition1 #edition7">
-                    <p source="#edition1 #edition7"> Il y a telle femme qui aime mieux son argent
+                    <p source="#edition1 #edition7"><g ref="#char_pm"></g> Il y a telle femme qui aime mieux son argent
                         que ses amis, et ses amants que son argent. </p>
                 </div3>
                 <div3 n="52" source="#edition1 #edition7">
-                    <p source="#edition1 #edition7"> Il est étonnant de voir dans le cœur de
+                    <p source="#edition1 #edition7"><g ref="#char_pm"></g> Il est étonnant de voir dans le cœur de
                         certaines femmes quelque chose de plus vif et de plus fort que
                                 <seg>l’amour<note place="margin" resp="#labruyere"
                                 type="explication">Note fictive</note></seg> pour les hommes, je
@@ -218,7 +257,7 @@
                         ; elles n’ont de leur sexe que les habits. </p>
                 </div3>
                 <div3 n="53" source="#edition1 #edition7">
-                    <p source="#edition1 #edition7"> Les femmes sont <seg>extrêmes<note place="end"
+                    <p source="#edition1 #edition7"><g ref="#char_pm"></g> Les femmes sont <seg>extrêmes<note place="end"
                                 resp="#timini" type="glossaire">De degré le plus
                             intense</note></seg> : elles sont meilleures ou pires que les hommes.
                     </p>
