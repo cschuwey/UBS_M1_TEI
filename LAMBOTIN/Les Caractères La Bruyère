@@ -75,6 +75,7 @@
             <change when="2023-10-26">Ajout de notes dans les remarques 22, 23, 30 et 32. Elles sont
                 de moi car il n'y avait aucune remarque dans les éditions choisies.</change>
             <change when="2023-11-07">Ajout d'une note fictive de La Bruyère</change>
+            <change when="2023-11-12">Ajout de trois variantes et des glyphs</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -89,26 +90,26 @@
                     <div3 source="#édition2 #édition8" type="remarque" n="22">
                         <g ref="#char_pdm1"></g>
                         <p><seg>Quelques-uns de ceux qui ont lu un ouvrage en rapportent certains
-                                traits dont ils n’ont pas compris le sens, et qu’ils altèrent encore
-                                par tout ce qu’ils y mettent du leur ; ces traits ainsi corrompus et <app>
-                                    <rdgGrp>
-                                        <lem>défigurez</lem>
-                                        <rdg wit="#édition2">défigurés</rdg>
-                                    </rdgGrp>
-                                </app>, qui ne sont autre chose que leurs propres pensées et leurs
-                                expressions, ils les exposent à la censure, soutiennent qu’ils sont
-                                mauvais, et tout le monde convient qu’ils sont mauvais ; mais
-                                l’endroit de l’ouvrage que ces critiques croient citer, et qu’en
-                                effet ils ne citent point ; n’en est pas pire.<note resp="#lambotin"
-                                    place="bottom" type="information" source="#lambotin">La remarque
-                                    ne contient aucune note dans aucune des trois
+                            traits dont ils n’ont pas compris le sens, et qu’ils altèrent encore
+                            par tout ce qu’ils y mettent du leur ; ces traits ainsi corrompus et <app>
+                                <rdgGrp>
+                                    <lem>défigurez</lem>
+                                    <rdg wit="#édition2">défigurés</rdg>
+                                </rdgGrp>
+                            </app>, qui ne sont autre chose que leurs propres pensées et leurs
+                            expressions, ils les exposent à la censure, soutiennent qu’ils sont
+                            mauvais, et tout le monde convient qu’ils sont mauvais ; mais
+                            l’endroit de l’ouvrage que ces critiques croient citer, et qu’en
+                            effet ils ne citent point ; n’en est pas pire.<note resp="#lambotin"
+                                place="bottom" type="information" source="#lambotin">La remarque
+                                ne contient aucune note dans aucune des trois
                                 éditions</note></seg></p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="23">
                         <g ref="#char_pdm1"></g>
                         <p>« Que dites-vous du livre <seg>d’Hermodore<note resp="#lambotin"
-                                    type="biography" place="bottom" source="#lambotin">Hermodore
-                                    d'Éphèse est un philosophe grec du Ve avant J.-C.</note></seg>?
+                            type="biography" place="bottom" source="#lambotin">Hermodore
+                            d'Éphèse est un philosophe grec du Ve avant J.-C.</note></seg>?
                             —Qu’il est mauvais, répond Anthime.—Qu’il est mauvais ? —Qu’il est tel,
                             continue-t-il, que ce n’est pas un livre, ou qui mérite du moins que le
                             monde en parle.—Mais l’avez-vous lu ? —Non », dit Anthime. Que
@@ -135,11 +136,16 @@
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="25">
                         <g ref="#char_pdm1"></g>
-                        <p>Théocrine sait des choses assez inutiles ; il a des sentiments toujours
+                        <p>Théocrine <app>
+                            <rdgGrp>
+                                <lem>sçait</lem>
+                                <rdg wit="#édition2">sait</rdg>
+                            </rdgGrp>
+                        </app>des choses assez inutiles ; il a des sentiments toujours
                             singuliers ; il est moins profond que méthodique ; il n’exerce que sa
                             mémoire ; il est abstrait, <seg>dédaigneux<note resp="#labruyere"
-                                    place="bottom" source="#labruyere">Se référer à la page
-                                    11</note></seg>, et il semble toujours rire en lui-même de ceux
+                                place="bottom" source="#labruyere">Se référer à la page
+                                11</note></seg>, et il semble toujours rire en lui-même de ceux
                             qu’il croit ne le valoir pas. Le hasard fait que je lui lis mon ouvrage,
                             il l’écoute. Est-il lu, il me parle du sien.« Et du vôtre, me
                             direz-vous, qu’en pense-t-il ? » —Je vous l’ai déjà dit, il me parle du
@@ -148,7 +154,12 @@
                     <div3 source="#édition2 #édition8" type="remarque" n="26">
                         <g ref="#char_pdm1"></g>
                         <p>Il n’y a point d’ouvrage si accompli qui ne fondît tout entier au milieu
-                            de la critique, si son auteur voulait en croire tous les censeurs qui
+                            de la critique, si son auteur <app>
+                                <rdgGrp>
+                                    <lem>vouloit</lem>
+                                    <rdg wit="#édition2">voulait</rdg>
+                                </rdgGrp>
+                            </app>en croire tous les censeurs qui
                             ôtent chacun l’endroit qui leur plaît le moins.</p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="27">
@@ -215,10 +226,10 @@
                             régulier ! Je ne sais s’il s’en est encore trouvé de ce dernier genre.
                             Il est peut-être moins difficile aux rares génies de rencontrer le grand
                             et le sublime que d’éviter toute sorte de fautes. <seg>Le Cid<note
-                                    resp="#lambotin" type="definition" place="bottom"
-                                    source="#lambotin">Le Cid est pièce de théâtre tragi-comique en
-                                    vers (alexandrins essentiellement) de Pierre Corneille dont la
-                                    première représentation eut lieu en 1637.</note></seg> n’a eu
+                                resp="#lambotin" type="definition" place="bottom"
+                                source="#lambotin">Le Cid est pièce de théâtre tragi-comique en
+                                vers (alexandrins essentiellement) de Pierre Corneille dont la
+                                première représentation eut lieu en 1637.</note></seg> n’a eu
                             qu’une voix pour lui à sa naissance, qui a été celle de l’admiration ;
                             il s’est vu plus fort que l’autorité et la politique, qui ont tenté
                             vainement de le détruire ; il a réuni en sa faveur des esprits toujours
@@ -237,9 +248,9 @@
                     <div3 source="#édition2 #édition8" type="remarque" n="32">
                         <g ref="#char_pdm1"></g>
                         <p>Capys, qui s’érige en juge du beau style et qui croit écrire comme
-                                    <seg>Bouhours<note resp="#lambotin" type="biography"
-                                    place="bottom" source="#lambotin">Bouhours était un prêtre
-                                    jésuite, grammairien, biographe et apologiste français.</note>et
+                            <seg>Bouhours<note resp="#lambotin" type="biography"
+                                place="bottom" source="#lambotin">Bouhours était un prêtre
+                                jésuite, grammairien, biographe et apologiste français.</note>et
                                 Rabutin, résiste à la voix.</seg></p>
                     </div3>
                 </div2>
