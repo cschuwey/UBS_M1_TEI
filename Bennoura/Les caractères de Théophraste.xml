@@ -81,6 +81,17 @@
                     <publisher>Estienne Michallet</publisher>
                     <pubPlace>Paris</pubPlace>
                 </bibl>
+                <bibl xml:lang="fr" xml:id="ed4">
+                    <author>Jean de La Bruyère</author>
+                    <title type="main">Les caractères ou les moeurs de ce siècle.</title>
+                    <title type="sub">précédé de Les caractères de Théophraste</title>
+                    <edition>10ème édition</edition>
+                    <textLang>Francais</textLang>
+                    <date when="1845">1845</date>
+                    <publisher>Librairie de Firmin Didot frères imprimeurs de
+                        l'Institut</publisher>
+                    <pubPlace>Paris</pubPlace>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -143,6 +154,7 @@
                 #ed3</change>
             <change when="2023-11-11" who="Djewel">J'ai encodé les glyphes avec des id et j'ai mis
                 les variantes que j'ai constaté entre les différentes éditions</change>
+            <change when="2023-11-12" who="Djewel">J'ai corrigé mon erreur suite à ma méprise pour la balise app.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -156,7 +168,10 @@
                             fort exact, tous les soirs au Cours ou aux Tuileries, pour se regarder
                             au visage et se désapprouver les uns les autres.</p>
                         <p>L’on ne peut se passer de ce même monde que l’on n’aime point, et dont
-                            l’on se moque.</p>
+                            l’on se <app>
+                                <lem>moque</lem>
+                                <rdg source="#ed1 #ed2 #ed3">mocque</rdg>
+                            </app>.</p>
                         <p>L’on s’attend au passage réciproquement dans une promenade publique ;
                             l’on y passe en revue l’un devant l’autre : carrosse, chevaux, livrées,
                             armoiries, rien n’échappe aux yeux, tout est curieusement ou malignement
@@ -164,139 +179,109 @@
                             les personnes, ou on les dédaigne.</p>
                     </div3>
                     <div3 type="remarque" n="2" source="#ed2 #ed3" change="#ed2">
-                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/><app>
-                                <lem>Tout le monde connaît cette longue levée qui borne et qui
-                                    resserre le lit de la Seine, du côté où elle entre à Paris avec
-                                    la Marne, qu’elle vient de recevoir : les hommes s’y baignent au
-                                    pied pendant les chaleurs de la canicule ; on les voit de fort
-                                    près se jeter dans l’eau ; on les en voit sortir : c’est un
-                                    amusement. Quand cette saison n’est pas venue, les femmes de la
-                                    ville ne s’y promènent pas encore ; et quand elle est passée,
-                                    elles ne s’y promènent plus. </lem>
-                                <rdg type="déplacement" wit="#ed2">Dans #ed1 c'est la douxième
-                                    remarque et apparait en tant que deuxième à partir #ed2</rdg>
-                            </app></p>
+                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/> Tout le monde connaît cette
+                            longue levée qui borne et qui resserre le lit de la Seine, du côté où
+                            elle entre à Paris avec la Marne, qu’elle vient de recevoir : les hommes
+                            s’y baignent au pied pendant les chaleurs de la canicule ; on les voit
+                            de fort près se jeter dans l’eau ; on les en voit sortir : c’est un
+                            amusement. Quand cette saison n’est pas venue, les femmes de la ville ne
+                            s’y promènent pas encore ; et quand elle est passée, elles ne s’y
+                            promènent plus.</p>
                     </div3>
                     <div3 type="remarque" n="3" source="#ed2 #ed3" change="#ed2">
-                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/><app>
-                                <lem> Dans ces lieux d’un concours général, où les femmes se
-                                    rassemblent pour montrer une belle étoffe, et pour recueillir le
-                                    fruit de leur toilette, on ne se promène pas avec une compagne
-                                    par la nécessité de la conversation ; on se joint ensemble pour,
-                                    se rassurer sur le théâtre, s’apprivoiser avec le public, et se
-                                    raffermir contre la critique : c’est là précisément qu’on se
-                                    parle sans se rien dire, ou plutôt qu’on parle pour les
-                                    passants, pour ceux même en faveur de qui l’on hausse sa voix,
-                                    l’on gesticule et l’on badine, l’on penche négligemment la tête,
-                                    l’on passe et l’on repasse.</lem>
-                                <rdg type="déplacement" wit="#ed2">apparait comme troisième remarque
-                                    à partir de #ed2</rdg>
-                            </app></p>
+                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/>Dans ces lieux d’un concours
+                            général, où les femmes se rassemblent pour montrer une belle étoffe, et
+                            pour <app>
+                                <lem>recueillir</lem>
+                                <rdg source="#ed1 #ed2 #ed3">recüeillir</rdg>
+                            </app> le fruit de leur toilette, on ne se promène pas avec une compagne
+                            par la nécessité de la conversation ; on se joint ensemble pour, se
+                            rassurer sur le théâtre, s’apprivoiser avec le public, et se raffermir
+                            contre la critique : c’est là précisément qu’on se parle sans se rien
+                            dire, ou plutôt qu’on parle pour les passants, pour ceux même en faveur
+                            de qui l’on hausse sa voix, l’on gesticule et l’on badine, l’on penche
+                            négligemment la tête, l’on passe et l’on repasse.</p>
                     </div3>
                     <div3 type="remarque" n="4" source="#ed1 #ed2 #ed3" change="#ed2">
-                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/><app>
-                                <lem> La ville est partagée en diverses sociétés, qui sont comme
-                                    autant de petites républiques, qui ont leurs lois, leurs usages,
-                                    leur jargon, et leurs mots pour rire. Tant que cet assemblage
-                                    est dans sa force, et que l’entêtement subsiste, l’on ne trouve
-                                    rien de bien dit ou de bien fait que ce qui part des siens, et
-                                    l’on est incapable de goûter ce qui vient d’ailleurs : cela va
-                                    jusques au mépris pour les gens qui ne sont pas initiés dans
-                                    leurs mystères. L’homme du monde d’un meilleur esprit, que le
-                                    hasard a porté au milieu d’eux, leur est étranger : il se trouve
-                                    là comme dans un pays lointain, dont il ne connaît ni les
-                                    routes, ni la langue ni les mœurs, ni la coutume ; il voit un
-                                    peuple qui cause, bourdonne, parle à l’oreille, éclate de rire,
-                                    et qui retombe ensuite dans un morne silence ; il y perd son
-                                    maintien, ne trouve pas où placer un seul mot, et n’a pas même
-                                    de quoi écouter. Il ne manque jamais là un mauvais plaisant qui
-                                    domine, et qui est comme le héros de la société : celui-ci s’est
-                                    chargé de la joie des autres, et fait toujours rire avant que
-                                    d’avoir parlé. Si quelquefois une femme survient qui n’est point
-                                    de leurs plaisirs, la bande joyeuse ne peut comprendre qu’elle
-                                    ne sache point rire des choses qu’elle n’entend point, et
-                                    paraisse insensible à des fadaises qu’ils n’entendent eux-mêmes
-                                    que parce qu’ils les ont faites : ils ne lui pardonnent ni son
-                                    ton de voix, ni son silence, ni sa taille, ni son visage, ni son
-                                    habillement, ni son entrée, ni la manière dont elle est sortie.
-                                    Deux années cependant ne passent point sur une même coterie : il
-                                    y a toujours, dès la première année, des semences de division
-                                    pour rompre dans celle qui doit suivre ; l’intérêt de la beauté,
-                                    les incidents du jeu, l’extravagance des repas, qui, modestes au
-                                    commencement, dégénèrent bientôt en pyramides de viandes et en
-                                    banquets somptueux, dérangent la république, et lui portent
-                                    enfin le coup mortel : il n’est en fort peu de temps non plus
-                                    parlé de cette nation que des mouches de l’année passée. </lem>
-                                <rdg type="déplacement" wit="#ed2 #ed1">se place en troisème
-                                    remarque dans #ed1</rdg>
-                            </app>
-                        </p>
+                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/> La ville est partagée en
+                            diverses sociétés, qui sont comme autant de petites républiques, qui ont
+                            leurs lois, leurs usages, leur jargon, et leurs mots pour rire. Tant que
+                            cet assemblage est dans sa force, et que l’entêtement subsiste, l’on ne
+                            trouve rien de bien dit ou de bien fait que ce qui part des siens, et
+                            l’on est incapable de goûter ce qui vient d’ailleurs : cela va jusques
+                            au mépris pour les gens qui ne sont pas initiés dans leurs mystères.
+                            L’homme du monde d’un meilleur esprit, que le hasard a porté au milieu
+                            d’eux, leur est étranger : il se trouve là comme dans un pays lointain,
+                            dont il ne connaît ni les routes, ni la langue ni les mœurs, ni la
+                            coutume ; il voit un peuple qui cause, bourdonne, parle à l’oreille,
+                            éclate de rire, et qui retombe ensuite dans un morne silence ; il y perd
+                            son maintien, ne trouve pas où placer un seul mot, et n’a pas même de
+                            quoi écouter. Il ne manque jamais là un mauvais plaisant qui domine, et
+                            qui est comme le héros de la société : celui-ci s’est chargé de la joie
+                            des autres, et fait toujours rire avant que d’avoir parlé. Si
+                            quelquefois une femme survient qui n’est point de leurs plaisirs, la
+                            bande joyeuse ne peut comprendre qu’elle ne sache point rire des choses
+                            qu’elle n’entend point, et paraisse insensible à des fadaises qu’ils
+                            n’entendent eux-mêmes que parce qu’ils les ont faites : ils ne lui
+                            pardonnent ni son ton de voix, ni son silence, ni sa taille, ni son
+                            visage, ni son habillement, ni son entrée, ni la manière dont elle est
+                            sortie. Deux années cependant ne passent point sur une même coterie : il
+                            y a toujours, dès la première année, des semences de division pour
+                            rompre dans celle qui doit suivre ; l’intérêt de la beauté, les
+                            incidents du jeu, l’extravagance des repas, qui, modestes au
+                            commencement, dégénèrent bientôt en pyramides de viandes et en banquets
+                            somptueux, dérangent la république, et lui portent enfin le coup mortel
+                            : il n’est en fort peu de temps non plus parlé de cette nation que des
+                            mouches de l’année passée. </p>
                     </div3>
                     <div3 type="remarque" n="5" source="#ed2 #ed3" change="#ed2">
-                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/><app>
-                                <lem>Il y a dans la ville la grande et la petite robe ; et la
-                                    première se venge sur l’autre des dédains de la cour, et des
-                                    petites humiliations qu’elle y essuie. De savoir quelles sont
-                                    leurs limites, où la grande finit, et où la petite commence, ce
-                                    n’est pas une chose facile. Il se trouve même un corps
-                                    considérable qui refuse d’être du second ordre, et à qui l’on
-                                    conteste le premier : il ne se rend pas néanmoins, il cherche au
-                                    contraire, par la gravité et par la dépense, à s’égaler à la
-                                    magistrature, ou ne lui cède qu’avec peine : on l’entend dire
-                                    que la noblesse de son emploi, l’indépendance de sa profession,
-                                    le talent de la parole et le mérite personnel balancent au moins
-                                    les sacs de mille francs que le fils du partisan ou du banquier
-                                    a su payer pour son office.</lem>
-                                <rdg type="déplacement" wit="#ed2 #ed3">Dans #ed1 c'est la vingtième
-                                    remarque qui se situe en cinq</rdg>
-                            </app></p>
+                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/> Il y a dans la ville la
+                            grande et la petite robe ; et la première se venge sur l’autre des
+                            dédains de la cour, et des petites humiliations qu’elle y essuie. De
+                            savoir quelles sont leurs limites, où la grande finit, et où la petite
+                            commence, ce n’est pas une chose facile. Il se trouve même un corps
+                            considérable qui refuse d’être du second ordre, et à qui l’on conteste
+                            le premier : il ne se rend pas néanmoins, il cherche au contraire, par
+                            la gravité et par la dépense, à s’égaler à la magistrature, ou ne lui
+                            cède qu’avec peine : on l’entend dire que la noblesse de son emploi,
+                            l’indépendance de sa profession, le talent de la parole et le mérite
+                            personnel balancent au moins les sacs de mille francs que le fils du
+                            partisan ou du banquier a su <app>
+                                <lem>payer</lem>
+                                <rdg source="#ed1 #ed2 #ed3">paier</rdg>
+                            </app> pour son office.</p>
                     </div3>
                     <div3 type="remarque" n="6" source="#ed2 #ed3" change="#ed2">
-                        <p><g source="#ed2 #ed3" ref="#char_pdm"/><app>
-                                <lem>Vous moquez-vous de rêver en carrosse, ou peut-être de vous y
-                                    reposer ? Vite, prenez votre livre ou vos papiers, lisez, ne
-                                    saluez qu’à peine ces gens qui passent dans leur équipage ; ils
-                                    vous en croiront plus occupé ; ils diront : "Cet homme est
-                                    laborieux, infatigable ; il lit, il travaille jusque dans les
-                                    rues ou sur la route." Apprenez du moindre avocat qu’il faut
-                                    paraître accablé d’affaires, froncer le sourcil, et rêver à rien
-                                    très profondément ; savoir à propos perdre le boire et le manger
-                                    ; ne faire qu’apparoir dans sa maison, s’évanouir et se perdre
-                                    comme un fantôme dans le sombre de son cabinet ; se cacher au
-                                    public, éviter le théâtre, le laisser à ceux qui ne courent
-                                    aucun risque à s’y montrer, qui en ont à peine le loisir, aux
-                                    Gomons, aux Duhamels. </lem>
-                                <rdg type="ajout" wit="#ed2">dans #ed1 la partie de la ville se
-                                    termine à la remarque précédente et se positionne en remarque 8
-                                    dans #ed2</rdg>
-                            </app></p>
+                        <p><g source="#ed2 #ed3" ref="#char_pdm"/> Vous moquez-vous de rêver en
+                            carrosse, ou peut-être de vous y reposer ? Vite, prenez votre livre ou
+                            vos papiers, lisez, ne saluez qu’à peine ces gens qui passent dans leur
+                            équipage ; ils vous en croiront plus occupé ; ils diront : "Cet homme
+                            est laborieux, infatigable ; il lit, il travaille jusque dans les rues
+                            ou sur la route." Apprenez du moindre avocat qu’il faut paraître accablé
+                            d’affaires, froncer le sourcil, et rêver à rien très profondément ;
+                            savoir à propos perdre le boire et le manger ; ne faire qu’apparoir dans
+                            sa maison, s’évanouir et se perdre comme un fantôme dans le sombre de
+                            son cabinet ; se cacher au public, éviter le théâtre, le laisser à ceux
+                            qui ne courent aucun risque à s’y montrer, qui en ont à peine le loisir,
+                            aux Gomons, aux Duhamels.</p>
                     </div3>
                     <div3 type="remarque" n="7" source="#ed2 #ed3" change="#ed2">
-                        <p><g source="#ed2 #ed3" ref="#char_pdm"/><app>
-                                <lem>Il y a un certain nombre de jeunes magistrats que les grands
-                                    biens et les plaisirs ont associés à quelques-uns de ceux qu’on
-                                    nomme à la cour de petits-maîtres : ils les imitent, ils se
-                                    tiennent fort au-dessus de la gravité de la robe, et se croient
-                                    dispensés par leur âge et par leur fortune d’être sages et
-                                    modérés. Ils prennent de la cour ce qu’elle a de pire : ils
-                                    s’approprient la vanité, la mollesse, l’intempérance, le
-                                    libertinage, comme si tous ces vices leur étaient dus, et,
-                                    affectant ainsi un caractère éloigné de celui qu’ils ont à
-                                    soutenir, ils deviennent enfin, selon leurs souhaits, des copies
-                                    fidèles de très méchants originaux.</lem>
-                                <rdg type="déplacement" wit="#ed2 #ed3">se positionne comme remarque
-                                    numéro 6 dans #ed2</rdg>
-                            </app></p>
+                        <p><g source="#ed2 #ed3" ref="#char_pdm"/> Il y a un certain nombre de
+                            jeunes magistrats que les grands biens et les plaisirs ont associés à
+                            quelques-uns de ceux qu’on nomme à la cour de petits-maîtres : ils les
+                            imitent, ils se tiennent fort au-dessus de la gravité de la robe, et se
+                            croient dispensés par leur âge et par leur fortune d’être sages et
+                            modérés. Ils prennent de la cour ce qu’elle a de pire : ils
+                            s’approprient la vanité, la mollesse, l’intempérance, le libertinage,
+                            comme si tous ces vices leur étaient dus, et, affectant ainsi un
+                            caractère éloigné de celui qu’ils ont à soutenir, ils deviennent enfin,
+                            selon leurs souhaits, des copies fidèles de très méchants originaux.</p>
                     </div3>
                     <div3 type="remarque" n="8" source="#ed2 #ed3" change="#ed2">
-                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/><app>
-                                <lem>Un homme de robe à la ville, et le même à la cour, ce sont deux
-                                    hommes. Revenu chez soi, il reprend ses mœurs, sa taille et son
-                                    visage, qu’il y avait laissés : il n’est plus ni si embarrassé,
-                                    ni si honnête.</lem>
-                                <rdg type="déplacement" wit="#ed2">se positionne en 7ème remarque
-                                    dans #ed2</rdg>
-                            </app></p>
+                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/> Un homme de robe à la ville,
+                            et le même à la cour, ce sont deux hommes. Revenu chez soi, il reprend
+                            ses mœurs, sa taille et son visage, qu’il y avait laissés : il n’est
+                            plus ni si embarrassé, ni si honnête.</p>
                     </div3>
                     <div3 type="remarque" n="9" source="#ed2 #ed3">
                         <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/>Les Crispins se cotisent et
