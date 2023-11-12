@@ -6,7 +6,7 @@
                 <title> Les Caractères </title>
                 <author xml:id="labruyere">Jean de La Bruyère</author>
                 <funder> Université Bretagne Sud </funder>
-                <principal> C.Shuwey </principal>
+                <principal>C.Shuwey</principal>
             </titleStmt>
 
             <publicationStmt>
@@ -51,6 +51,32 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <charDecl>
+                <glyph xml:id="char_pdm">
+                    <mapping>❡</mapping>
+                    <desc> Pied-de-mouche simple, marquant le début d'une remarque. </desc>
+                </glyph>
+                <glyph xml:id="char_pdm1">
+                    <mapping>(❡)</mapping>
+                    <desc> Pied-de-mouche à parenhèse simple, marquant une remarque ajoutée dans
+                        l'édition 4 </desc>
+                </glyph>
+                <glyph xml:id="char_pdm2">
+                    <mapping>((❡))</mapping>
+                    <desc> Pied-de-mouche à parenhèses double, marquant une remarque ajoutée dans
+                        l'édition 5. </desc>
+                </glyph>
+                <glyph xml:id="char_man_gauche">
+                    <mapping>☜</mapping>
+                    <desc> Manicule pointant vers la gauche, marquant une remarque ajoutée dans
+                        l'édition 7. </desc>
+                </glyph>
+                <glyph xml:id="char_man_droite">
+                    <mapping>☞</mapping>
+                    <desc> Manicule pointan vers la droite, marquant une remarque ajoutée dans
+                        l'édition 7. </desc>
+                </glyph>
+            </charDecl>
             <projectDesc>
                 <p> Projet pédagogique M1, MLE, UBS</p>
                 <p> Comparaison des éditions de l'ouvrage "Les Caractères"</p>
@@ -82,6 +108,12 @@
             <change when="2023-10-23"> Encodage des annotations.</change>
             <change when="2023-10-25"> Utilisation de l'attribut "corresp" pour les remarques qui
                 disparaissent. </change>
+            <change when="2023-11-07"> Notes à moi : Variantes, dans encoding desc, bibliothèque de
+                signe, il faut les déclarer dans encoding desc </change>
+            <change when="2023-11-09"> Ajout des variations et des glyphs. </change>
+            <change when="2023-11-12"> Modification du travail car d'une édition à une autre, le
+                pied-de-mouche est différent</change>
+
         </revisionDesc>
 
     </teiHeader>
@@ -93,105 +125,181 @@
                     <head>Du Coeur</head>
 
                     <div3 type="remarque" n="63" source="#edition5 #edition8">
-                        <p source="#edition5 #edition8"> Il faut rire avant que d'être heureux, de
-                            peur de mourir sans avoir ri. </p>
+                        <p source="#edition5 #edition8">
+                            <g ref="#char_pdm1" source="#edition5"/>
+                            <g ref="#char_pdm" source="#edition8"/> Il faut rire avant que d'être
+                            heureux, de peur de mourir sans avoir <app>
+                                <lem> ri.</lem>
+                                <rdg source="#edition5 #edition8"> ry. </rdg>
+                            </app>
+                        </p>
+
+                        <!--Dans l'édition 5, nous avons pour la remarque 63 un pied de mouche avec une parenthèse simple 
+                            alors que dans l'édition 8, nous avons pour la meme remarque, un pied-de-mouche simple-->
+
+
                     </div3>
                     <div3 type="remarque" n="64" source="#edition1 #edition5 #edition8">
-                        <p source="#edition1 #edition5 #edition8"> La vie est courte, si elle ne
-                            mérite ce nom que lorsqu'elle est agréable, puisque si l'on <seg>
-                                cousait <note type="commentaire" resp="#labruyere" place="margin"
-                                    source="#edition8"> La métaphore de la couture compare le
-                                    rassemblement des moments plaisants à l'action de coudre des
-                                    morceaux de tissus pour illustrer le concept d'agrégation des
-                                    moments agréables vécus dans la vie. </note></seg> ensemble
-                            toutes les heures que l’on passe avec ce qui plaît, l’on ferait à peine
-                            d’un grand nombre d’années une vie de quelques mois.</p>
+                        <p source="#edition1 #edition5 #edition8">
+                            <g ref="#char_pdm" source="#edition1 #edition5 #edition8"/> La vie est
+                            courte, si elle ne mérite ce nom que lorsqu'elle est agréable, puisque
+                            si l'on <seg> cousait <note type="commentaire" resp="#labruyere"
+                                    place="margin" source="#edition8"> La métaphore de la couture
+                                    compare le rassemblement des moments plaisants à l'action de
+                                    coudre des morceaux de tissus pour illustrer le concept
+                                    d'agrégation des moments agréables vécus dans la vie.
+                                </note></seg> ensemble toutes les heures que l’on passe avec ce qui
+                            plaît, l’on <app>
+                                <lem>ferait</lem>
+                                <rdg source="#edition5 #edition8 #edition1">feroit</rdg>
+                            </app> à peine d’un grand nombre d’années une vie de quelques mois.</p>
 
                         <!--Cette annotation de La Bruyère a été inventée-->
 
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D1" rend="disparu">
-                        <p source="#edition1">Il n'y a qu'un premier dépit en amour, comme la
-                            première faute dans l'amitié, dont on puisse faire un bon usage. </p>
+                        <p source="#edition1">
+                            <g ref="#char_pdm"/> Il n'y a qu'un premier dépit en amour, comme la
+                            première faute dans l'amitié, dont l'on puisse faire un bon usage. </p>
 
                     </div3>
                     <div3 type="remarque" n="65" source="#edition1 #edition5 #edition8">
-                        <p source="edition1 #edition5 #edition8"> Qu'il est difficile d'être content
-                            de quelqu'un !</p>
+                        <p source="edition1 #edition5 #edition8">
+                            <g ref="#char_pdm"/> Qu'il est difficile d'être <app>
+                                <lem> content de quelqu'un ! </lem>
+                                <rdg source="#edition5"> content quelqu'un ! </rdg>
+                                <rdg source="#edition8"> content de quelqu'un ! </rdg>
+                            </app>
+                        </p>
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D2" rend="disparu">
-                        <p source="#edition1">L'on est plus sociable et d'un meilleur <seg> commerce
-                                    <note type="gloss" resp="#cifci" place="bottom"> relation ou
-                                    interraction </note>
+                        <p source="#edition1">
+                            <g ref="#char_pdm"/> L'on est plus sociable et d'un meilleur <seg>
+                                commerce <note type="gloss" resp="#cifci" place="bottom"> relation
+                                    ou interraction </note>
                             </seg> par le coeur que par l'esprit </p>
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D3" rend="disparu">
-                        <p source="#edition1">Il y a de certains grands sentiments, de certaines
+                        <p source="#edition1">
+                            <g ref="#char_pdm"/>Il y a de certains grands sentiments, de certaines
                             actions nobles et élévées, que nous devons moins à la force de notre
                             esprit qu'à la bonté de notre naturel.</p>
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D4" rend="disparu">
-                        <p source="#edition1"> Il y a du plaisir à rencontrer les yeux de celui à
+                        <p source="#edition1">
+                            <g ref="#char_pdm"/> Il y a du plaisir à rencontrer les yeux de celui à
                             qui l'on vient de donner.</p>
                     </div3>
                     <div3 type="remarque" n="66" source="#edition5 #edition8">
-                        <p source="#edition5 #edition8">On ne pourrait se défendre de quelque joie à
-                            voir périr un méchant homme : l'on jouirait alors du fruit de sa haine,
-                            et l'on tirerait de lui tout ce qu'on en peut espérer, qui est le
-                            plaisir de sa perte. Sa mort enfin arrive, mais dans une conjoncture où
-                            nos intérêts ne nous permettent pas de nous en réjouir : il meurt trop
-                            tôt ou trop tard.</p>
+                        <p source="#edition5 #edition8">
+                            <g ref="#char_pdm2" source="#edition5"/>
+                            <g ref="#char_pdm" source="#edition8"/> On ne <app>
+                                <lem> pourrait</lem>
+                                <rdg source="#edition5"> pourroit </rdg>
+                            </app> se défendre de quelque <app>
+                                <lem> joie </lem>
+                                <rdg source="#edition5 #edition8"> joye </rdg>
+                            </app> à voir périr un méchant homme : l'on <app>
+                                <lem> jouirait </lem>
+                                <rdg source="#edition5 #edition8"> joüiroit </rdg>
+                            </app> alors du fruit de sa haine, et l'on <app>
+                                <lem> tirerait </lem>
+                                <rdg source="#edition5 #edition8"> tireroit </rdg>
+                            </app> de <app>
+                                <lem> lui </lem>
+                                <rdg source="#edition5 #edition8"> luy </rdg>
+                            </app> tout ce qu'on en peut espérer, qui est le plaisir de sa perte. Sa
+                            mort enfin arrive, mais dans une conjoncture où nos intérêts ne nous
+                            permettent pas de nous en <app>
+                                <lem> réjouir </lem>
+                                <rdg source="#edition5 #edition8"> réjoüir </rdg>
+                            </app> : il meurt trop tôt ou trop tard.</p>
                     </div3>
                     <div3 type="remarque" n="67" source="#edition5 #edition8">
-                        <p source="#edition5 #edition8">Il est pénible à un homme fier de pardonner
-                            à celui qui le surprend en faute, et qui se plaint de lui avec raison :
-                            sa fierté ne s’adoucit que lorsqu’il reprend ses avantages, et qu’il met
-                            l’autre dans son tort.</p>
+                        <p source="#edition5 #edition8">
+                            <g ref="#char_pdm1" source="edition5"/>
+                            <g ref="#char_pdm" source="#edition8"/>Il est pénible à un homme fier de
+                            pardonner à <app>
+                                <lem> celui </lem>
+                                <rdg source="#edition5 #edition8"> celuy </rdg>
+                            </app> qui le surprend en faute, et qui se plaint de <app>
+                                <lem> lui </lem>
+                                <rdg source="#edition5 #edition8"> luy </rdg>
+                            </app> avec raison : sa fierté ne s’adoucit que lorsqu’il reprend ses
+                            avantages, et qu’il met l’autre dans son tort.</p>
                     </div3>
                     <div3 type="remarque" n="68" source="#edition1 #edition5 #edition8">
-                        <p source="#edition1 #edition5 #edition8">Comme nous nous affectionnons de
-                            plus en plus aux personnes à qui nous faisons du bien, de même nous
-                            haïssons violemment ceux que nous avons beaucoup offensés.</p>
+                        <p source="#edition1 #edition5 #edition8">
+                            <g ref="#char_pdm" source="#edition1 #edition5 #edition8"/> Comme nous
+                            nous affectionnons de plus en plus aux personnes à qui nous faisons du
+                            bien, de même nous <app>
+                                <lem> haïssons</lem>
+                                <rdg source="#edition5 #edition8"> haïſſons</rdg>
+                            </app> violemment ceux que nous avons beaucoup <app>
+                                <lem> offensés.</lem>
+                                <rdg source="#edition1 #edition5 #edition8"> offenſez.</rdg>
+                            </app></p>
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D5" rend="disparu">
-                        <p source="#edition1"> Il n'y a guère au monde un plus bel excès, que celui
-                            de la reconnaissance.</p>
+                        <p source="#edition1">
+                            <g ref="#char_pdm"/> Il n'y a guère au monde un plus bel excès, que
+                            celui de la reconnaissance.</p>
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D6" rend="disparu">
-                        <p source="#edition1"> Il y a des lieux que l'on admire : il y en a d'autres
-                            qui touchent, et où l'on aimerait à vivre.</p>
+                        <p source="#edition1">
+                            <g ref="#char_pdm"/> Il y a des lieux que l'on admire : il y en a
+                            d'autres qui touchent, et où l'on aimerait à vivre.</p>
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D7" rend="disparu">
-                        <p source="#edition1"> Il me semble que l'on dépend des lieux pour l'esprit,
-                            l'humeur, la passion, le goût et les sentiments.</p>
+                        <p source="#edition1">
+                            <g ref="#char_pdm"/> Il me semble que l'on dépend des lieux pour
+                            l'esprit, l'humeur, la passion, le goût et les sentiments.</p>
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D8" rend="disparu">
-                        <p source="#edition1"> Quelques-uns se défendent d'aimer et de faire des
+                        <p source="#edition1">
+                            <g ref="#char_pdm"/> Quelques-uns se défendent d'aimer et de faire des
                             vers, comme de deux faibles qu'ils n'osent avouer, l'un du coeur,
                             l'autre de l'esprit. </p>
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D9" rend="disparu">
-                        <p source="#edition1"> Regretter ce que l'on aime est un bien, en
+                        <p source="#edition1">
+                            <g ref="#char_pdm"/>Regretter ce que l'on aime est un bien, en
                             comparaison de vivre avec ce que l'on hait. </p>
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D10" rend="disparu">
-                        <p source="#edition1"> Vouloir oublier quelqu'un, c'est y penser. L'amour a
-                            cela de commun avec les scrupules, qu'il s'aigrit par les réflexions et
-                            les retours que l'on fait pour s'en délivrer. Il faut, s'il se peut, ne
-                            point songer sa passion pour l'affaiblir." </p>
+                        <p source="#edition1">
+                            <g ref="#char_pdm"/> Vouloir oublier quelqu'un, c'est y penser. L'amour
+                            a cela de commun avec les scrupules, qu'il s'aigrit par les réflexions
+                            et les retours que l'on fait pour s'en délivrer. Il faut, s'il se peut,
+                            ne point songer sa passion pour l'affaiblir." </p>
                     </div3>
                     <div3 type="remarque" n="69" source="#edition5 #edition8">
-                        <p source="#edition5 #edition8"> Il est également difficile d'étouffer dans
-                            les commencements le sentiment des injures et de le conserver après un
-                            certain nombre d’années.</p>
+                        <p source="#edition5 #edition8">
+                            <g ref="#char_pdm" source="edition5 #edition8"/> Il est également
+                            difficile <app>
+                                <lem> d'étouffer </lem>
+                                <rdg source="#edition5"> étoufer</rdg>
+                            </app> dans les commencements le sentiment des injures et de le
+                            conserver <app>
+                                <lem> après </lem>
+                                <rdg source="#edition5"> aprés </rdg>
+                            </app>un certain nombre d’années.</p>
                     </div3>
+
                     <div3 type="remarque" n="70" source="#edition8">
-                        <p source="#edition8"> C'est par faiblesse que l'on hait un ennemi, et que
-                            l'on songe à s'en venger ; et c'est par paresse que l'on s'apaise, et
-                            qu'on ne se venge point.</p>
+                        <p source="#edition8">
+                            <g ref="#char_pdm"/>C'est par <app>
+                                <lem> faiblesse </lem>
+                                <rdg source="#edition8"> foibleſſe</rdg>
+                            </app> que l'on hait un ennemi, et que l'on songe à s'en <app>
+                                <lem> venger </lem>
+                                <rdg source="#edition8"> vanger </rdg>
+                            </app>; et c'est par paresse que l'on s'apaise, et qu'on ne se venge
+                            point.</p>
                     </div3>
                     <div3 type="remarque" n="71" source="#edition8">
-                        <p source="#edition8">Il y a bien autant de paresse que de faiblesse à se
+                        <p source="#edition8">
+                            <g ref="#char_pdm"/>Il y a bien autant de paresse que de faiblesse à se
                             laisser gouverner.</p>
                         <p source="#edition8"> Il ne faut pas penser à gouverner un homme tout d'un
                             coup, et sans autre préparation, dans une affaire importante et qui
@@ -242,19 +350,39 @@
                             est gouverné par la raison.</p>
                     </div3>
                     <div3 type="remarque" n="72" source="#edition5 #edition8">
-                        <p source="#edition5 #edition8">Toutes les passions sont menteuses : elles
-                            se déguisent autant qu'elles le peuvent aux yeux des autres ; elles se
-                            cachent à elles-mêmes. Il n'y a point de vice qui n'ait une fausse
-                            ressemblance avec quelque vertu, et qui ne s’en aide.</p>
+                        <p source="#edition5 #edition8">
+                            <g ref="#char_pdm2" source="#edition5"/>
+                            <g ref="#char_pdm" source="#edition8"/> Toutes les passions sont
+                            menteuses : elles se déguisent autant qu'elles le peuvent aux yeux des
+                            autres ; elles se cachent à elles-mêmes. Il n'y a point de vice qui
+                            n'ait une fausse ressemblance avec quelque vertu, et <app>
+                                <lem> qui </lem>
+                                <rdg source="#edition5 #edition8"> qu'il </rdg>
+                            </app> ne s’en aide.</p>
                     </div3>
                     <div3 type="remarque" n="73" source="#edition5 #edition8">
-                        <p source="#edition5 #edition8"> On ouvre un<seg>livre de dévotion<note
-                                    type="definition" resp="#cifci" place="bottom"> Un livre de
-                                    dévotion est un ouvrage religieux conçu pour guider la prière.
-                                </note>
+                        <p source="#edition5 #edition8">
+                            <g ref="#char_pdm1" source="#edition5"/>
+                            <g ref="#char_pdm" source="#edition8"/> On <app>
+                                <lem> ouvre </lem>
+                                <rdg source="#edition5"> ouvre </rdg>
+                                <rdg source="#edition8"> trouve </rdg>
+                            </app> un<seg>livre de <app>
+                                    <lem> dévotion </lem>
+                                    <rdg source="#edition5 #edition8"> devotion </rdg>
+                                </app><note type="definition" resp="#cifci" place="bottom"> Un livre
+                                    de dévotion est un ouvrage religieux conçu pour guider la
+                                    prière. </note>
                             </seg>, et il touche ; on en ouvre un autre qui est galant, et il fait
-                            son impression. Oserai-je dire que le cœur seul concilie les choses
-                            contraires, et admet les incompatibles ? </p>
+                            son impression. <app>
+                                <lem> Oserai-je </lem>
+                                <rdg source="#edition5 #edition8"> Oſeray-je</rdg>
+                            </app> dire que le cœur seul concilie les choses contraires, et admet
+                            les incompatibles <app>
+                                <lem> ? </lem>
+                                <rdg source="#edition5"> . </rdg>
+                                <rdg source="#edition8"> ? </rdg>
+                            </app></p>
                     </div3>
                 </div2>
             </div1>
