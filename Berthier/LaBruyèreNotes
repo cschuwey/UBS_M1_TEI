@@ -34,6 +34,12 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
+                <listPerson>
+                    <person xml:id=""/>
+                </listPerson>
+                <listPlace>
+                    <place> </place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -101,17 +107,17 @@
                 <div2 type="chapter" n="5">
                     <head>De la Société et de la Conversation</head>
                     <div3 n="53" source="#edition2">
-                        <p><g ref="#char_pdm"/>Tout ce qui est mérite se sent, se discerne, se
-                            devine réciproquement : si l’on voulait être estimé, il faudrait vivre
-                            avec des personnes estimables.</p>
+                        <p source="#edition2"><g ref="#char_pdm"/>Tout ce qui est mérite se sent, se
+                            discerne, se devine réciproquement : si l’on voulait être estimé, il
+                            faudrait vivre avec des personnes estimables.</p>
                     </div3>
                     <div3 n="54" source="#edition1 #edition2">
-                        <p><g ref="#char_pdm"/>Celui qui est d’une éminence au-dessus des autres qui
-                            le met à couvert de la repartie, ne doit jamais faire une raillerie
-                            piquante.</p>
+                        <p source="#edition1 #edition2"><g ref="#char_pdm"/>Celui qui est d’une
+                            éminence au-dessus des autres qui le met à couvert<app n="" xml:id="#" type="key" source="#edition2" ></app> de la repartie, ne
+                            doit jamais faire une raillerie piquante.</p>
                     </div3>
                     <div3 n="55" source="#edition1 #edition2">
-                        <p><g ref="#char_pdm"/>Il y a de petits <app>
+                        <p source="#edition1 #edition2"><g ref="#char_pdm"/>Il y a de petits <app>
                                 <rdgGrp>
                                     <lem>défauts</lem>
                                     <rdg source="#edition2">défauts</rdg>
@@ -131,41 +137,43 @@
                             les autres.</p>
                     </div3>
                     <div3 n="56" source="#edition2">
-                        <p><g ref="#char_pdm"/>Rire des gens d’esprit, c’est le privilège des sots :
-                            ils sont dans le monde ce que les fous sont à la cour, je veux dire sans
-                            conséquence.</p>
+                        <p source="#edition2"><g ref="#char_pdm"/>Rire des gens d’esprit, c’est le
+                            privilège des sots : ils sont dans le monde ce que les fous sont à la
+                            cour, je veux dire sans conséquence.</p>
                     </div3>
                     <div3 n="57" source="#edition1 #edition2">
-                        <p><g ref="#char_pdm"/>La moquerie est souvent <seg>indigence d’esprit.<note
-                                    resp="#berthier" place="bottom" type="definition"
-                                    source="#edition2">Grande pauvreté, privation du nécessaire.
-                                    Extrême indigence. Il est tombé dans l'indigence, dans la plus
-                                    affreuse indigence. Être dans l'indigence. Fig., Indigence
-                                    d'idées. Indigence d'esprit. Il se dit spécialement de l'État de
-                                    pauvreté qui appelle les secours publics ou privés. Certificat
-                                    d'indigence. Il se dit absolument des Indigents en général.
-                                    Secourir l'indigence.</note></seg></p>
+                        <p source="#edition1 #edition2"><g ref="#char_pdm"/>La moquerie est souvent
+                                <seg>indigence d’esprit.<note resp="#berthier" place="bottom"
+                                    type="definition" source="#edition2">Grande pauvreté, privation
+                                    du nécessaire. Extrême indigence. Il est tombé dans l'indigence,
+                                    dans la plus affreuse indigence. Être dans l'indigence. Fig.,
+                                    Indigence d'idées. Indigence d'esprit. Il se dit spécialement de
+                                    l'État de pauvreté qui appelle les secours publics ou privés.
+                                    Certificat d'indigence. Il se dit absolument des Indigents en
+                                    général. Secourir l'indigence.</note></seg></p>
                     </div3>
                     <div3 n="58" source="#edition1 #edition2">
-                        <p><g ref="#char_pdm"/>Vous le croyez votre <seg>dupe<note resp="#berthier"
-                                    place="end" type="definition" source="#edition1">Personne
-                                    trompée, ou facile à tromper</note></seg> : s’il feint de
-                            l’être, qui est plus dupe de lui ou de vous ?</p>
+                        <p source="#edition1 #edition2"><g ref="#char_pdm"/>Vous le croyez votre
+                                    <seg>dupe<note resp="#berthier" place="end" type="definition"
+                                    source="#edition1">Personne trompée, ou facile à
+                                tromper</note></seg> : s’il feint de l’être, qui est plus dupe de
+                            lui ou de vous ?</p>
                     </div3>
                     <div3 n="59" source="#edition2">
-                        <p><g ref="#char_pdm"/>Si vous observez avec soin qui sont les gens qui ne
-                            peuvent louer, qui blâment toujours, qui ne sont contents de personne,
-                            vous reconnaîtrez que ce sont ceux mêmes dont personne n’est
-                            content.</p>
+                        <p source="#edition2"><g ref="#char_pdm"/>Si vous observez avec soin qui
+                            sont les gens qui ne peuvent louer, qui blâment toujours, qui <pb
+                                n="101" source="#edition2"/> ne sont contents de personne, vous
+                            reconnaîtrez que ce sont ceux mêmes dont personne n’est content.</p>
                     </div3>
                     <div3 n="60" source="#edition1 #edition2">
-                        <p><g ref="#char_pdm"/>Le dédain et le rengorgement dans la société attire
-                            précisément le contraire de ce que l’on cherche, si c’est à se faire
-                            estimer.</p>
+                        <p source="#edition1 #edition2"><g ref="#char_pdm"/>Le dédain et le
+                            rengorgement dans la société attire pré<pb n="211" source="#edition1"
+                                rend="tiret"/>cisément le contraire de ce que l’on cherche, si c’est
+                            à se faire estimer.</p>
                     </div3>
                     <div3 n="61" source="#edition1 #edition2">
-                        <p><g ref="#char_pdm"/>Le plaisir de la société entre les amis se cultive
-                            par une ressemblance de <app>
+                        <p source="#edition1 #edition2"><g ref="#char_pdm"/>Le plaisir de la société
+                            entre les amis se cultive par une ressemblance de <app>
                                 <rdgGrp>
                                     <lem>goût</lem>
                                     <rdg source="#edition2">goût</rdg>
@@ -180,20 +188,22 @@
                             l’on s’exerce et l’on s’instruit par la dispute.</p>
                     </div3>
                     <div3 n="62" source="#edition1 #edition2">
-                        <p><g ref="#char_pdm"/>L’on ne peut aller loin dans l’amitié, si l’on n’est
-                            pas disposé à se pardonner les uns aux autres les petits défauts.</p>
+                        <p source="#edition1 #edition2"><g ref="#char_pdm"/>L’on ne peut aller loin
+                            dans l’amitié, si l’on n’est pas disposé à se pardonner les uns aux
+                            autres les petits défauts.</p>
                     </div3>
                     <div3 n="63" source="#edition1 #edition2">
-                        <p><g ref="#char_pdm"/>Combien de belles et inutiles raisons à étaler à
-                            celui qui est dans une grande adversité, pour essayer de le rendre
-                            tranquille ! Les choses de dehors, qu’on appelle les événements, sont
-                            quelquefois plus fortes que la raison et que la nature. <seg>"Mangez,
-                                dormez, ne vous laissez point mourir de chagrin, songez à vivre" :
-                                harangues froides, et qui réduisent à l’impossible. "Etês-vous
-                                raisonnable de vous tant inquiéter ? " n’est-ce pas dire :
-                                "Etes-vous fou d’être malheureux ? "<note resp="#berthier"
-                                    place="margin" type="citation" source="#edition2">Ce sont les
-                                    paroles de J. de La Bruyère</note></seg></p>
+                        <p source="#edition1 #edition2"><g ref="#char_pdm"/>Combien de belles et
+                            inutiles raisons à étaler à celui qui est dans une grande adversité,
+                            pour essayer de le rendre <pb n="204" source="#edition1"/> tranquille !
+                            Les choses de dehors, qu’on appelle les événements, sont quelquefois
+                            plus fortes que la raison et que la nature. <seg>"Mangez, dormez, ne
+                                vous laissez point mourir de chagrin, songez à vivre" : harangues
+                                froides, et qui réduisent à l’impossible. "Etês-vous raisonnable de
+                                vous tant inquiéter ? " n’est-ce pas dire : "Etes-vous fou d’être
+                                malheureux ? "<note resp="#berthier" place="margin" type="citation"
+                                    source="#edition2">Ce sont les paroles de J. de La
+                                    Bruyère</note></seg></p>
                     </div3>
                 </div2>
             </div1>
