@@ -13,6 +13,61 @@
                 <date when="2023-10-22">22/10/2023</date>
             </publicationStmt>
             <sourceDesc>
+                <listPerson>
+                    <!-- Data bnf -> donne un numéro/lien idno pour l'identifier de manière plus claire. ref dans la balise persname -->
+                    <person xml:id="fontenelle">
+                        <name>Bernard de Fontenelle</name>
+                        <idno>https://data.bnf.fr/11903077/bernard_de_fontenelle/</idno>
+                    </person>
+                    <person xml:id="lucien">
+                        <name>Lucien de Samosate</name>
+                        <idno>https://data.bnf.fr/11913593/lucien_de_samosate/</idno>
+                    </person>
+                    <person xml:id="perrault">
+                        <name>Charles Perrault</name>
+                        <idno>https://data.bnf.fr/11919216/charles_perrault/</idno>
+                    </person>
+                    <person xml:id="racine">
+                        <name>Jean Racine</name>
+                        <idno>https://data.bnf.fr/12007676/jean_racine/</idno>
+                    </person>
+                    <person xml:id="boileau">
+                        <name>Nicolas Boileau</name>
+                        <idno>https://data.bnf.fr/12040544/nicolas_boileau/</idno>
+                    </person>
+                    <person xml:id="abbéD">
+                        <name>Louis de Courcillon de Dangeau</name>
+                        <idno>https://data.bnf.fr/12004544/louis_de_courcillon_de_dangeau/</idno>
+                    </person>
+                    <person xml:id="cousin">
+                        <name>Louis Cousin</name>
+                        <idno>https://data.bnf.fr/12269173/louis_cousin/</idno>
+                    </person>
+                    <person xml:id="moise">
+                        <name>Moise</name>
+                        <idno>https://data.bnf.fr/10080115/moise_arragel/</idno>
+                    </person>
+                    <person xml:id="homere">
+                        <name>Homere</name>
+                        <idno>https://data.bnf.fr/11907688/homere/</idno>
+                    </person>
+                    <person xml:id="platon">
+                        <name>Platon</name>
+                        <idno>https://data.bnf.fr/11920019/platon/</idno>
+                    </person>
+                    <person xml:id="virgile">
+                        <name>Virgile</name>
+                        <idno>https://data.bnf.fr/11887823/virgile/</idno>
+                    </person>
+                    <person xml:id="horace">
+                        <name>Horace</name>
+                        <idno>https://data.bnf.fr/11886570/horace/</idno>
+                    </person>
+                    <person xml:id="ariste">
+                        <name>Ariste</name>
+                        <!-- Pas de référence trouvé parmis les auteurs -->
+                    </person>
+                </listPerson>
                 <bibl xml:id="edition3">
                     <author>La Bruyère, Jean de</author>
                     <title>Les caractères de Théophrase traduit du grec ; avec les caractères et
@@ -52,6 +107,20 @@
                     </address>
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=944210;4</ref>
                 </bibl>
+                <bibl xml:id="date">
+                    <name>Clés du XVIIIe siècle</name>
+                    <date when="1700">XVIIIe siècle</date>
+                </bibl>
+                <bibl xml:id="tous">
+                    <name>Clés générales</name>
+                </bibl>
+                <bibl xml:id="servois">
+                    <name>Suggestion de Servois</name>
+                </bibl>
+                <bibl xml:id="bibli">
+                    <name>clé de la Bibliothèque Mazarine et de Félibien</name>
+                </bibl>
+                <!-- Les clés se listent en "bibl", avec un id et un source dans les nom propre concerné. On peut faire une clé générale -->
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -95,6 +164,13 @@
                 retrouver.</p>
             <p>Pour les variations, qui sont donc inclues dans la balise "app", la source de son
                 enfant "lem" est le texte brute utilisé pour encoder cet ouvrage.</p>
+            <p>On a utilisé "persName" pour désigner un nom propre, une personne réelle, citée dans
+                le texte.</p>
+            <p>La balise "placeName" a été utilisé pour désigner un lieu. J'ai utilisé cette balise,
+                plutôt que "geogName", car y mettre plus d'informations ne m'a pas semblé plus
+                pertinent, ni nécessaire, pour comprendre ce texte.</p>
+            <p>La balise "note" avec l'attribut "type=clé" est utilisé pour encoder les clés dans ce
+                fichier.</p>
             <editorialDecl>
                 <interpretation>
                     <p>La date de parution se trouve entre les balises "edition", car cela me
@@ -160,7 +236,13 @@
                 paragraphes et indiquer qu'ils sont les mêmes, nommé i, pour identique.J'ai donc
                 effectué une modification de mes id, afin qu'une possible autre personne ne perde
                 pas du temps à les chercher, alors qu'elles sont en vérité pas bien loin...</change>
-            <change when="2023-11-13">Ajout de l'attribut "source" pour les balises "g".</change>
+            <change when="2023-11-13">Ajout de l'attribut "source" pour les balises "g". Suppression
+                des "p" doublons, qui servaient uniquement à différencier les "g". Ajout de "g"
+                vide, lorsqu'aucun élément n'est présent, contrairement à une édition plus ancienne.
+                Ajout des "pb" pour indiquer le début d'une page. Ajout des balises et du texte pour
+                ajouter des informations des noms propres, des lieux, ainsi que des clés qui nous
+                ont été donné. Modification de "sourceDesc", ajout d'une liste de personnes et des
+                clés, avec leurs id.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -173,8 +255,10 @@
                         <p source="#edition3 #edition5 #edition8">
                             <g ref="#char_pm0" source="#edition3 #edition5 #edition8"/>Il y a
                             beaucoup plus de vivacité que de goût parmi les hommes ; ou pour mieux
-                            dire, il y a peu d’hommes dont l’esprit soit accompagné d’un goût sûr et
-                            d’une critique judicieuse.</p>
+                            dire, il <pb source="#edition3" n="109"/>y a peu d’hom-<pb
+                                source="#edition8" n="66"/>mes dont l’esprit soit accompagné d’un
+                                <pb source="#edition5" n="89"/>goût sûr et d’une critique
+                            judicieuse.</p>
                     </div3>
                     <div3 n="12">
                         <p source="#edition3 #edition5 #edition8">
@@ -193,20 +277,22 @@
                     <div3 n="14">
                         <p source="#edition3 #edition5 #edition8">
                             <g ref="#char_pm0" source="#edition3 #edition5 #edition8"/>Tout l’esprit
-                            d’un auteur consiste à bien définir et à bien peindre. <seg><app
-                                    type="morpho">
-                                    <lem>Moise</lem>
-                                    <rdg source="#edition3">Moyse</rdg>
-                                    <rdg source="#edition5 #edition8">Moïse</rdg>
-                                </app><note type="remarque" resp="#labruyère" place="margin"
-                                    source="#edition3 #edition8">Quand même on ne le considère que
-                                    comme un homme qui a écrit</note>
+                            d’un auteur consiste à bien définir et à bien peindre. <seg><persName
+                                    ref="moise"><app type="morpho">
+                                        <lem>Moise</lem>
+                                        <rdg source="#edition3">Moyse</rdg>
+                                        <rdg source="#edition5 #edition8">Moïse</rdg>
+                                    </app></persName><note type="remarque" resp="#labruyère"
+                                    place="margin" source="#edition3 #edition8">Quand même on ne le
+                                    considère que comme un homme qui a écrit</note>
                                 <note type="remarque" resp="#labruyère" place="margin"
                                     source="#edition5" n="obèle"> Quand même on ne le considère que
-                                    comme un homme qui a écrit</note></seg>, Homere, Platon,
-                            Virgile, Horace ne sont au-dessus des autres écrivains que par leurs
-                            expressions et par leurs images : il faut exprimer le vrai pour écrire
-                            naturellement, fortement, délicatement.</p>
+                                    comme un homme qui a écrit</note></seg>, <persName ref="#homere"
+                                >Homere</persName>, <persName ref="#platon">Platon</persName>,
+                                <persName ref="#virgile">Virgile</persName>, <persName ref="#horace"
+                                >Horace</persName> ne sont au-dessus des autres écrivains que par
+                            leurs expressions et par leurs images : il faut exprimer le vrai pour
+                            écrire naturellement, fortement, délicatement.</p>
                     </div3>
                     <div3 n="15">
                         <p source="#edition5">
@@ -219,46 +305,70 @@
                                     J.-C.</note>
                             </seg>, <seg>l’ionique <note type="gloss" resp="#souffez">Ordre
                                     architectural d'origine grec de la même période historique que
-                                    l'ordre dorique</note></seg> et le <seg>corinthien <note
-                                    type="gloss" resp="#souffez">Ordre architectural d'origine grec
-                                    apparaissant I siècle avant J.-C. </note></seg> : ce qu’on ne
-                            voyait plus que dans les ruines de l’ancienne Rome et de la vieille
-                            Grèce, devenu moderne, éclate dans nos portiques et dans nos péristyle.
-                            De même, on ne saurait en écrivant rencontrer le parfait, et s’il se
-                            peut, surpasser les anciens que par leur imitation. </p>
+                                    l'ordre dorique</note></seg> et le<pb source="#edition8" n="67"/>
+                            <seg>corinthien <note type="gloss" resp="#souffez">Ordre architectural
+                                    d'origine grec apparaissant I siècle avant J.-C. </note></seg> :
+                            ce qu’on ne voyait plus que dans les ruines de l’ancien-<pb
+                                source="#edition5" n="90"/>ne <placeName>Rome</placeName> et de la
+                                vieille<placeName> Grèce</placeName>, devenu moderne, éclate dans
+                            nos portiques et dans nos péristyle. De même, on ne saurait en écrivant
+                            rencontrer le parfait, et s’il se peut, surpasser les anciens que par
+                            leur imitation. </p>
                         <p source="#edition3">
                             <g ref="#char_pm0" source="#edition3"/>
-                            <g source="#edition5 #edition8"/>Combien de siècles se sont écoulés
-                            avant que les hommes, dans les sciences et dans les arts, aient pu
-                            revenir au goût des anciens et reprendre enfin le simple et le naturel
-                            !</p>
+                            <g source="#edition5 #edition8"/><pb source="#edition3" n="110"/>Combien
+                            de siècles se sont écoulés avant que les hommes, dans les sciences et
+                            dans les arts, aient pu revenir au goût des anciens et reprendre enfin
+                            le simple et le naturel !</p>
                         <p source="#edition3" xml:id="r1">Entre toutes les différentes expressions
                             qui peuvent rendre une seule de nos pensées, il n’y en a qu’une qui soit
                             la bonne. On ne la rencontre pas toujours en parlant ou en écrivant ; il
                             est vrai néanmoins qu’elle existe, que tout ce qui ne l’est point est
                             faible, et ne satisfait point un homme d’esprit qui veut se faire
                             entendre.</p>
-                        <p source="#edition5 #edition8">On se nourrit des anciens et des habiles
-                            modernes, on les presse, on en tire le plus que l’on peut, on en renfle
-                            ses ouvrages ; et quand enfin l’on est auteur, et que l’on croit marcher
-                            tout seul, on s’élève contre eux, on les maltraite, semblable à ces
-                            enfants drus et forts d’un bon lait qu’ils ont sucé, qui battent leur
-                            nourrice. </p>
+                        <p source="#edition5 #edition8"><seg>On <note type="clé">Clés du XVIIIe
+                                    siècle: allusion à <persName ref="#fontenelle" source="#date"
+                                        >Fontenelle</persName>, "nourri" chez les jésuites et chez
+                                    qui "les études classiques développèrent le talent qu'il tourna
+                                    plus tard contre les auteurs classiques" (Servois, II, 321). Il
+                                    venait de faire paraître ses <title>Dialogues des morts</title>,
+                                    imités de <persName ref="#lucien">Lucien</persName> (1683). Cf.
+                                    "De la Société...", clé ❡75 (Cydias).</note></seg> se nourrit
+                            des anciens et des habiles modernes, on les presse, on en tire le plus
+                            que l’on peut, on en renfle ses ouvrages ; et quand enfin l’on est
+                            auteur, et que l’on croit marcher tout seul, on s’élève contre eux, on
+                            les maltraite, semblable à ces enfants drus et forts d’un bon lait
+                            qu’ils ont sucé, qui battent leur nourrice. </p>
                         <p source="#edition5 #edition8">
-                            <seg>Un auteur moderne <note type="remarque" resp="#souffez">Toutes ces
-                                    diatribes critiquant la jeunesse ont été écrite suite à un
-                                    conflit de l'auteur avec un auteur plus jeune de son
-                                    époque.</note>
+                            <seg>Un auteur moderne <note type="clé">Allusion, selon toutes les clés,
+                                    à <persName ref="#perrault" source="#tous">Perrault</persName>
+                                    et à ses <title>Parallèles des anciens et des modernes</title>
+                                    (1688-1697). Servois (II, 322) suggère ici encore le nom de
+                                        <persName ref="#fontenelle" source="#servois"
+                                        >Fontenelle</persName> qui fit figurer dans le volume de ses
+                                        <title>Poésies pastorales</title> (1688) un <title>Discours
+                                        sur la nature de l'églogue</title> qui empruntait ses
+                                    exemples aux propres oeuvres de <persName ref="#fontenelle"
+                                        >Fontenelle</persName>, accompagné d'une <title>Digression
+                                        sur les Anciens et les Modernes</title>.</note>
+                                <note type="remarque" resp="#souffez">Toutes ces diatribes
+                                    critiquant la jeunesse ont été écrite suite à un conflit de
+                                    l'auteur avec un auteur plus jeune de son époque.</note>
                             </seg> prouve ordinairement que les anciens nous sont inférieurs en deux
                             manières, par raison et par exemple : il tire la raison de son goût
                             particulier, et l’exemple de ses ouvrages. </p>
-                        <p source="#edition5 #edition8">Il avoue que les anciens, quelque inégaux et
-                            peu corrects qu’ils soient, ont de beaux traits ; il les cite, et ils
-                            sont si beaux qu’ils font lire sa critique. </p>
-                        <p source="#edition5 #edition8">Quelques habiles prononcent en faveur des
-                            anciens contre les modernes ; mais ils sont suspects et semblent juger
-                            en leur propre cause, tant leurs ouvrages sont faits sur le goût de
-                            l’antiquité : on les récuse. </p>
+                        <p source="#edition5 #edition8"><pb source="#edition8" n="68"/>Il avoue que
+                            les anciens, quelque inégaux et peu corrects qu’ils soient,<pb
+                                source="#edition5" n="91"/> ont de beaux traits ; il les cite, et
+                            ils sont si beaux qu’ils font lire sa critique. </p>
+                        <p source="#edition5 #edition8"><seg>Quelques habiles<note type="clé">
+                                    Allusion à <persName ref="#racine" source="#tous"
+                                        >Racine</persName> et <persName ref="#boileau"
+                                        source="#tous">Boileau</persName> selon toutes les
+                                    clés.</note></seg> prononcent en faveur des anciens contre les
+                            modernes ; mais ils sont suspects et semblent juger en leur propre
+                            cause, tant leurs ouvrages sont faits sur le goût de l’antiquité : on
+                            les récuse. </p>
                     </div3>
                     <div3 n="16">
                         <p source="#edition5 #edition8" xml:id="r2">
@@ -283,21 +393,17 @@
                             entendre. </p>
                         <p source="#edition3">
                             <g ref="#char_pm0" source="#edition3"/>
-                            <g source="#edition5 #edition8"/>Un bon auteur, et qui écrit avec soin,
-                            éprouve souvent que l’expression qu’il cherchait depuis longtemps sans
-                            la connaître, et qu’il a enfin trouvée, est celle qui était la plus
+                            <g source="#edition5 #edition8"/><pb source="#edition8" n="69"/>Un bon
+                            auteur, et qui écrit avec soin, éprouve souvent que l’expres-<pb
+                                source="#edition5" n="92"/>sion qu’il cherchait depuis longtemps
+                            sans la connaître, et qu’il a enfin trouvée, est celle qui était la plus
                             simple, la plus naturelle, qui semblait devoir se présenter d’abord et
                             sans effort.</p>
-                        <p source="#edition5 #edition8">Un bon auteur, et qui écrit avec soin,
-                            éprouve souvent que l’expression qu’il cherchait depuis longtemps sans
-                            la connaître, et qu’il a enfin trouvée, est celle qui était la plus
-                            simple, la plus naturelle, qui semblait devoir se présenter d’abord et
-                            sans effort. </p>
-                        <p source="#edition3 #edition5 #edition8">Ceux qui écrivent par humeur sont
-                            sujets à retoucher à leurs ouvrages : comme elle n’est pas toujours
-                            fixe, et qu’elle varie en eux selon les occasions, ils se refroidissent
-                            bientôt pour les expressions et les termes qu’ils ont le plus aimés.
-                        </p>
+                        <p source="#edition3 #edition5 #edition8"><pb source="#edition3" n="111"
+                            />Ceux qui écrivent par humeur sont sujets à retoucher à leurs ouvrages
+                            : comme elle n’est pas toujours fixe, et qu’elle varie en eux selon les
+                            occasions, ils se refroidissent bientôt pour les expressions et les
+                            termes qu’ils ont le plus aimés. </p>
                     </div3>
                     <div3 n="\">
                         <p source="#edition3" corresp="#r2">
@@ -322,15 +428,18 @@
                     <div3 n="19">
                         <p source="#edition3 #edition5 #edition8">
                             <g ref="#char_pm0" source="#edition3 #edition5 #edition8"/> L’on m’a
-                            engagé, dit Ariste, à lire mes ouvrages à <app type="morpho">
-                                <lem>Zoïle</lem>
-                                <rdg source="#edition3">Zèlotes</rdg>
-                                <rdg source="#edition5 #edition8">Zoile</rdg>
-                            </app> : je l’ai fait. Ils l’ont saisi d’abord et avant qu’il ait eu le
-                            loisir de les trouver mauvais ; il les a loués modestement en ma
-                            présence, et il ne les a pas loués depuis devant personne. Je l’excuse,
-                            et je n’en demande pas davantage à un auteur ; je le plains même d’avoir
-                            écouté de belles choses qu’il n’a point faites. » </p>
+                            engagé, dit <persName ref="ariste">Ariste</persName>, à lire mes
+                            ouvrages à <placeName><app type="morpho">
+                                    <lem>Zoïle</lem>
+                                    <rdg source="#edition3">Zèlotes</rdg>
+                                    <rdg source="#edition5 #edition8">Zoile</rdg>
+                                </app></placeName> : je l’ai fait. Ils l’ont saisi d’abord et avant
+                            qu’il ait eu le loisir de<pb source="#edition3" n="112"/> les trouver
+                            mauvais ; il les a loués modestement en ma présence, et il ne les a pas
+                            loués de-<pb source="#edition8" n="70"/>puis devant personne. Je
+                            l’excuse, et je n’en demande pas davantage à un auteur ; je le plains
+                            même d’avoir écouté de<pb source="#edition5" n="93"/> belles choses
+                            qu’il n’a point faites. » </p>
                         <p source="#edition5 #edition8" xml:id="r4">Ceux qui par leur condition se
                             trouvent exempts de la jalousie d’auteur, ont ou des passions ou des
                             besoins qui les distraient et les rendent froids sur les conceptions
@@ -355,13 +464,21 @@
                     </div3>
                     <div3 n="21">
                         <p source="#edition3 #edition5 #edition8">
-                            <g ref="#char_pm0" source="#edition3 #edition5 #edition8"/>Bien des gens
-                            vont jusques à sentir le mérite d’un manuscrit qu’on leur lit, qui ne
-                            peuvent se déclarer en sa faveur, jusques à ce qu’ils aient vu le cours
-                            qu’il aura dans le monde par l’impression, ou quel sera son sort parmi
-                            les habiles : ils ne hasardent point leurs suffrages, et il veulent être
-                            portés par la foule et entraînés par la multitude. Ils disent alors
-                            qu’ils ont les premiers approuvé cet ouvrage, et que le public est de
+                            <g ref="#char_pm0" source="#edition3 #edition5 #edition8"/><seg>Bien des
+                                gens <note type="clé">Clés du XVIIIe siècle: "Le présent livre des
+                                    Caractères". Selon ces mêmes clés et celle de l'édition de 1697,
+                                    cette remarque, tout comme la remarque 25 (Théocrine), viserait
+                                    particulièrement l'<persName ref="#abbéD" source="#date">abbé de
+                                        Dangeau</persName>. Cf. <title>Mémoires</title> de
+                                    Saint-Simon, éd. Y Coirault, Paris, Gallimard, "La Pléiade", t.
+                                    VII, p. 714; et ci-dessus, clé ❡25.</note></seg>vont jusques à
+                            sentir le mérite d’un manuscrit qu’on leur lit, qui ne peu-<pb
+                                source="#edition3" n="113"/>vent se déclarer en sa faveur, jusques à
+                            ce qu’ils aient vu le cours qu’il aura dans le monde par l’impression,
+                            ou quel sera son sort parmi les habiles : ils ne hasardent point leurs
+                            suffrages, et il veulent être portés par la foule et entraînés par la
+                            multitude. Ils disent alors qu’ils ont les premiers approu-<pb
+                                source="#edition8" n="71"/>vé cet ouvrage, et que le public est de
                             leur avis. </p>
                         <p source="#edition8">Ces gens laissent échapper les plus belles occasions
                             de nous convaincre qu’ils ont de la capacité et des lumières, qu’ils
@@ -370,15 +487,24 @@
                             ouvrage, l’auteur ne s’est pas encore fait un grand nom, il n’a rien qui
                             prévienne en sa faveur, il ne s’agit point de faire sa cour ou de
                             flatter les grands en applaudissant à ses écrits ; on ne vous demande
-                            pas, Zélotes, de vous récrier : C’est un chef-d’œuvre de l’esprit ;
-                            l’humanité ne va pas plus loin ; c’est jusqu’où la parole humaine peut
-                            s’élever ; on ne jugera à l’avenir du goût de quelqu’un qu’à proportion
-                            qu’il en aura pour cette pièce ; phrase outrées, dégoûtantes, qui
-                            sentent la pension ou l’abbaye, nuisibles à cela même qui est louable et
-                            qu’on veut louer. Que ne disiez-vous seulement :« Voilà un bon livre » ?
-                            Vous le dites, il est vrai, avec toute la France, avec les étrangers
-                            comme avec vos compatriotes, quand il est imprimé par toute l’Europe et
-                            qu’il est traduit en plusieurs langues : il n’est plus temps. </p>
+                            pas, <seg>Zélotes <note type="clé">Pour Zélotes, la clé de la
+                                    Bibliothèque Mazarine et celle de Félibien donnent le nom de
+                                        <persName ref="#cousin" source="#bibli">Louis
+                                        Cousin</persName>, devenu en 1687 directeur du
+                                        <orgName>Journal des Savants</orgName>: "On veut que
+                                    l'auteur ait eu en vue Monsieur cousin, qui lut son livre en
+                                    manuscrit et dit pour toute louange: "le livre est passable."
+                                    (Servois, II, 34).</note></seg>, de vous récrier : C’est un
+                            chef-d’œuvre de l’esprit ; l’humanité ne va pas plus loin ; c’est
+                            jusqu’où la parole humaine peut s’élever ; on ne jugera à l’avenir du
+                            goût de quelqu’un qu’à proportion qu’il en aura pour cette pièce ;
+                            phrase outrées, dégoûtantes, qui sentent la pension ou l’abbaye,
+                            nuisibles à cela même qui est louable et qu’on veut louer. Que ne
+                            disiez-vous seulement :« Voilà un bon livre » ? Vous le dites, il est
+                            vrai, avec toute la France, avec les étrangers comme avec vos
+                            compatriotes, quand il est imprimé par toute l’Eu-<pb source="#edition8"
+                                n="72"/>rope et qu’il est traduit en plusieurs langues : il n’est
+                            plus temps. </p>
                     </div3>
 
                 </div2>
