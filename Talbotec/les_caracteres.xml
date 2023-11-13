@@ -33,6 +33,45 @@
                     <placeName> Paris </placeName>
                     <idno type="url"> https://catalogue.bnf.fr/ark:/12148/cb30705991d </idno>
                 </bibl>
+                <bibl xml:id="cle_1697"> </bibl>
+                <bibl xml:id="cle_18e_siecle"> </bibl>
+                <bibl xml:id="cle_felibien"> </bibl>
+                <bibl xml:id="cle_traduction_anglaise_1702"> </bibl>
+                <bibl xml:id="cle_servois"> </bibl>
+                <listPerson>
+                    <person xml:id="frondeurs"> </person>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="antifrondeurs"> </person>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="l_abbe_de_Saint-Hélène">
+                        <name role="abbé"> </name>
+                    </person>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="le_sieur_de_moulinet">
+                        <name role="nouvelliste"> </name>
+                    </person>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="prieur">
+                        <name role="notaire"> </name>
+                    </person>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="prieur_rolin">
+                        <name role="notaire"> </name>
+                    </person>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="conseiller_aubray">
+                        <name role="conseiller"> </name>
+                    </person>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="mme_de_maintenon"> </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -81,8 +120,14 @@
                     <p> Il n'y a pas de notes marginales dans les éditions 1 et 9, que des notes de
                         bas de page. </p>
                     <p> L'édition 1 fait figure d'autorité car c'est la plus ancienne. </p>
-                    <p> Nous avons opté pour l'attribut source et non wit car cela se rapporte à une édition et non à des exemplaires. </p>
-                    <p> Nous avons mis le mot entier quand l'orthographe d'un mot varie et non que la lettre variante. </p> 
+                    <p> Nous avons opté pour l'attribut source et non wit car cela se rapporte à une
+                        édition et non à des exemplaires. </p>
+                    <p> Nous avons mis le mot entier quand l'orthographe d'un mot varie et non que
+                        la lettre variante. </p>
+                    <p> Le numéro des pages correspodn à celui de la version originale.</p>
+                    <p> Les différentes clés uilisées ont été encodées dans bibl. </p>
+                    <p> Pas de référence d'autorité pour les réf. </p>
+                    <p> Confusion entre notaire Prieur et Prieur Rolin </p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -97,6 +142,7 @@
             <change when="2023-10-18"> Suite de l'encodage d'un extrait de chapitre </change>
             <change when="2023-10-23"> Encodage des annotations </change>
             <change when="2023-11-07"> Variantes et glyphs </change>
+            <change when="2023-11-13"> Numérotations des pages + clés </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -107,29 +153,39 @@
                     <head> Du Souverain ou de la République </head>
                     <div3 source="#edition_9" n="11">
                         <p source="#edition_9">
+                            <pb source="#edition_9" n="261"> </pb>
                             <g ref="#char_pm"/>
-                            <seg> Démophile <note type="person" resp="#talbotec"> C'est un
-                                    philosophe grec du VIème siècle avant J-C, La Bruyère est en
-                                    train de le citer. </note></seg>, à ma droite, se lamente, et
-                            s’écrie : « Tout est perdu, c’est fait de l’Etat ; il est du moins sur
-                            le penchant de sa ruine. Comment résister à une si forte et si générale
-                            conjuration ? Quel moyen, je ne dis pas d’être supérieur, mais de
-                            suffire seul à tant et de si puissants ennemis ? Cela est sans exemple
-                            dans la monarchie. Un héros, un Achille y succomberait. On a fait,
-                            ajoute-t-il, de lourdes fautes : je sais bien ce que je dis, je suis du
-                            métier, j’ai vu la guerre, et l’histoire m’en a beaucoup appris. » Il
-                            parle là-dessus avec admiration d’Olivier le Daim et de Jacques Cœur : «
-                            C’étaient là des hommes, dit-il, c’étaient des ministres. » Il débite
-                            ses nouvelles, qui sont toutes les plus tristes et les plus
-                            désavantageuses que l’on pourrait feindre : tantôt un parti des nôtres a
-                            été attiré dans une embuscade et taillé en pièces ; tantôt quelques
-                            troupes renfermées dans un château se sont rendues aux ennemis à
-                            discrétion, et ont passé par le fil de l’épée ; et si vous lui dites que
-                            ce bruit est faux et qu’il ne se confirme point, il ne vous écoute pas,
-                            il ajoute qu’un tel général a été tué ; et bien qu’il soit vrai qu’il
-                            n’a reçu qu’une légère blessure, et que vous l’en assuriez, il déplore
-                            sa mort, il plaint sa veuve, ses enfants, l’Etat ; il se plaint lui-même
-                            : il a perdu un bon ami et une grande protection. Il dit que la
+                            <seg> Démophile <note type="clé">
+                                    <persName source="#cle_1697" ref="#frondeurs"> </persName>
+                                </note>
+                                <note type="clé">
+                                    <persName source="#cle_18e_siecle" ref="#l_abbe_de_Saint-Hélène"
+                                    > </persName>
+                                </note>
+                                <note type="clé">
+                                    <persName source="#cle_traduction_anglaise_1702"
+                                        ref="#l_abbe_de_Saint-Hélène"/> c'est un philosophe grec du
+                                    VIème siècle avant J-C, La Bruyère est en train de le citer.
+                                </note></seg>, à ma droite, se lamente, et s’écrie : « Tout est
+                            perdu, c’est fait de l’Etat ; il est du moins sur le penchant de sa
+                            ruine. Comment résister à une si forte et si générale conjuration ? Quel
+                            moyen, je ne dis pas d’être supérieur, mais de suffire seul à tant et de
+                            si puissants ennemis ? Cela est sans exemple dans la monarchie. Un
+                            héros, un Achille y succomberait. On a fait, ajoute-t-il, de lourdes
+                            fautes : je sais <pb source="#edition_9" n="262"> </pb> bien ce que je
+                            dis, je suis du métier, j’ai vu la guerre, et l’histoire m’en a beaucoup
+                            appris. » Il parle là-dessus avec admiration d’Olivier le Daim et de
+                            Jacques Cœur : « C’étaient là des hommes, dit-il, c’étaient des
+                            ministres. » Il débite ses nouvelles, qui sont toutes les plus tristes
+                            et les plus désavantageuses que l’on pourrait feindre : tantôt un parti
+                            des nôtres a été attiré dans une embuscade et taillé en pièces ; tantôt
+                            quelques troupes renfermées dans un château se sont rendues aux ennemis
+                            à discrétion, et ont passé par le fil de l’épée ; et si vous lui dites
+                            que ce bruit est faux et qu’il ne se confirme point, il ne vous écoute
+                            pas, il ajoute qu’un tel général a été tué ; et bien qu’il soit vrai
+                            qu’il n’a reçu qu’une légère blessure, et que vous l’en assuriez, il
+                            déplore sa mort, il plaint sa veuve, ses enfants, l’Etat ; il se plaint
+                            lui-même : il a perdu un bon ami et une grande protection. Il dit que la
                             cavalerie allemande est invincible ; il pâlit au seul nom des
                             cuirassiers de l’Empereur. « Si l’on attaque cette place, continue-t-il,
                             on lèvera le siège. Ou l’on demeurera sur la défensive sans livrer de
@@ -139,27 +195,42 @@
                             et crier à l’alarme ; il songe à son bien et à ses terres : où
                             conduira-t-il son argent, ses meubles, sa famille ? où se réfugiera-t-il
                             ? en Suisse ou à Venise ? </p>
-                        <p source="#edition_9"> Mais, à ma gauche, Basilide met tout d’un coup sur
-                            pied une armée de trois cent mille hommes ; il n’en rabattrait pas une
-                            seule brigade : il a la liste des escadrons et des bataillons, des
-                            généraux et des officiers ; il n’oublie pas l’artillerie ni le bagage.
-                            Il dispose absolument de toutes ces troupes : il en envoie tant en
-                            Allemagne et tant en Flandre ; il réserve un certain nombre pour les
-                            Alpes, un peu moins pour les Pyrénées, et il fait passer la mer à ce qui
-                            lui reste. Il connaît les marches de ces armées, il sait ce qu’elles
-                            feront et ce qu’elles ne feront pas ; vous diriez qu’il ait l’oreille du
-                            prince ou le secret du ministre. Si les ennemis viennent de perdre une
-                            bataille où il soit demeuré sur la place quelque neuf à dix mille hommes
-                            des leurs, il en compte jusqu’à trente mille, ni plus ni moins ; car ses
-                            nombres sont toujours fixes et certains, comme de celui qui est bien
-                            informé. S’il apprend le matin que nous avons perdu une bicoque, non
-                            seulement il envoie s’excuser à ses amis qu’il a la veille conviés à
-                            dîner, mais même ce jour-là il ne dîne point, et s’il soupe, c’est sans
-                            appétit. Si les nôtres assiègent une place très forte, très régulière,
-                            pourvue de vivres et de munitions, qui a une bonne garnison, commandée
-                            par un homme d’un grand courage, il dit que la ville a des endroits
-                            faibles et mal fortifiés, qu’elle manque de poudre, que son gouverneur
-                            manque d’expérience, et qu’elle capitulera après huit jours de tranchée
+                        <p source="#edition_9"> Mais, à ma gauche, <seg> Basilide <note type="clé">
+                                    <persName source="#cle_1697" ref="#antifrondeurs"> </persName>
+                                </note>
+                                <note type="clé">
+                                    <persName source="#cle_18e_siecle" ref="#le_sieur_de_moulinet"
+                                    > </persName>
+                                </note>
+                                <note type="clé">
+                                    <persName source="#cle_felibien" ref="#prieur"> </persName>
+                                </note> note type="clé"> <note type="clé">
+                                    <persName source="#cle_servois" ref="#prieur_rolin"> </persName>
+                                </note> note type="clé"> <note>
+                                    <persName source="#cle_traduction_anglaise_1702"
+                                        ref="#conseiller_aubray"> </persName>
+                                </note>
+                            </seg> met tout d’un coup sur pied une armée de trois cent mille hommes
+                            ; il n’en rabattrait pas une seule brigade : il a la liste des escadrons
+                            et des bataillons, des généraux et des officiers ; il n’oublie pas
+                            l’artillerie ni le bagage. Il dispose absolument <pb source="#edition_9"
+                                n="263"/> de toutes ces troupes : il en envoie tant en Allemagne et
+                            tant en Flandre ; il réserve un certain nombre pour les Alpes, un peu
+                            moins pour les Pyrénées, et il fait passer la mer à ce qui lui reste. Il
+                            connaît les marches de ces armées, il sait ce qu’elles feront et ce
+                            qu’elles ne feront pas ; vous diriez qu’il ait l’oreille du prince ou le
+                            secret du ministre. Si les ennemis viennent de perdre une bataille où il
+                            soit demeuré sur la place quelque neuf à dix mille hommes des leurs, il
+                            en compte jusqu’à trente mille, ni plus ni moins ; car ses nombres sont
+                            toujours fixes et certains, comme de celui qui est bien informé. S’il
+                            apprend le matin que nous avons perdu une bicoque, non seulement il
+                            envoie s’excuser à ses amis qu’il a la veille conviés à dîner, mais même
+                            ce jour-là il ne dîne point, et s’il soupe, c’est sans appétit. Si les
+                            nôtres assiègent une place très forte, très régulière, pourvue de vivres
+                            et de munitions, qui a une bonne garnison, commandée par un homme d’un
+                            grand courage, il dit que la ville a des endroits faibles et mal
+                            fortifiés, qu’elle manque de poudre, que son gouverneur manque
+                            d’expérience, et qu’elle capitulera après huit jours de tranchée
                             ouverte. Une autre fois il accourt tout hors d’haleine, et après avoir
                             respiré un peu : « Voilà, s’écrie-t-il, une grande nouvelle ; ils sont
                             défaits, et à plate couture ; le général, les chefs, du moins une bonne
@@ -168,29 +239,30 @@
                             s’assit, il souffle, après avoir débité sa nouvelle, à laquelle il ne
                             manque qu’une circonstance, qui est qu’il est certain qu’il n’y a point
                             eu de bataille. Il assure d’ailleurs qu’un tel prince renonce à la ligue
-                            et quitte ses confédérés, qu’un autre se dispose à prendre le même parti
-                            ; il croit fermement avec la populace qu’un troisième est mort : il
-                            nomme le lieu où il est enterré ; et quand on est détrompé aux halles et
-                            aux faubourgs, il parie encore pour l’affirmative. Il sait, par une voie
-                            indubitable, que T. K. L. fait de grands progrès contre l’Empereur ; que
-                            le Grand Seigneur arme puissamment, ne veut point de paix, et que son
-                            vizir va se montrer une autre fois aux portes de Vienne. Il frappe des
-                            mains, et il tressaille sur cet événement, dont il ne doute plus. La
-                            triple alliance chez lui est un Cerbère, et les ennemis autant de
-                            monstres à assommer. Il ne parle que de lauriers, que de palmes, que de
-                            triomphes et que de trophées. Il dit dans le discours familier : Notre
-                            auguste Héros, notre grand <seg> Potentat <note type="definition"
-                                    resp="#talbotec"> C'est la puissance politique, la souveraineté
-                                </note></seg>, notre invincible Monarque. Réduisez-le, si vous
-                            pouvez, à dire simplement : Le Roi a beaucoup d’ennemis, ils sont
-                            puissants, ils sont unis, ils sont aigris : il les a vaincus, j’espère
-                            toujours qu’il les pourra vaincre. Ce style, trop ferme et trop décisif
-                            pour Démophile, n’est pour Basilide ni assez pompeux ni assez exagéré ;
-                            il a bien d’autres expressions en tête : il travaille aux inscriptions
-                            des arcs et des pyramides qui doivent orner la ville capitale un jour
-                            d’entrée ; et dès qu’il entend dire que les armées sont en présence, ou
-                            qu’une place est investie, il fait déplier sa robe et la mettre à l’air,
-                            afin qu’elle soit toute prête pour la cérémonie de la cathédrale. </p>
+                            et quitte ses confédé-<pb source="#edition_9" n="264"> </pb> rés, qu’un
+                            autre se dispose à prendre le même parti ; il croit fermement avec la
+                            populace qu’un troisième est mort : il nomme le lieu où il est enterré ;
+                            et quand on est détrompé aux halles et aux faubourgs, il parie encore
+                            pour l’affirmative. Il sait, par une voie indubitable, que T. K. L. fait
+                            de grands progrès contre l’Empereur ; que le Grand Seigneur arme
+                            puissamment, ne veut point de paix, et que son vizir va se montrer une
+                            autre fois aux portes de Vienne. Il frappe des mains, et il tressaille
+                            sur cet événement, dont il ne doute plus. La triple alliance chez lui
+                            est un Cerbère, et les ennemis autant de monstres à assommer. Il ne
+                            parle que de lauriers, que de palmes, que de triomphes et que de
+                            trophées. Il dit dans le discours familier : Notre auguste Héros, notre
+                            grand <seg> Potentat <note type="definition" resp="#talbotec"> C'est la
+                                    puissance politique, la souveraineté </note></seg>, notre
+                            invincible Monarque. Réduisez-le, si vous pouvez, à dire simplement : Le
+                            Roi a beaucoup d’ennemis, ils sont puissants, ils sont unis, ils sont
+                            aigris : il les a vaincus, j’espère toujours qu’il les pourra vaincre.
+                            Ce style, trop ferme et trop décisif pour Démophile, n’est pour Basilide
+                            ni assez pompeux ni assez exagéré ; il a bien d’autres expressions en
+                            tête : il travaille aux inscriptions des arcs et des pyramides qui
+                            doivent orner la ville capitale un jour d’entrée ; et dès qu’il entend
+                            dire que les armées sont en présence, ou qu’une place est investie, il
+                            fait déplier sa robe et la mettre à l’air, afin qu’elle soit toute prête
+                            pour la cérémonie de la cathédrale. </p>
                     </div3>
                     <div3 source="#edition_9" n="12">
                         <p source="#edition_9">
@@ -200,129 +272,136 @@
                             leur coûte plus de temps, je ne dis pas que les seuls préliminaires,
                             mais que le simple règlement des rangs, des préséances et des autres
                             cérémonies. </p>
-                        <p source="#edition_9">Le ministre ou le plénipotentiaire est un
-                            caméléon,est un Protée. Semblable quelquefois à un joueur habile, il ne
-                            montre ni humeur ni complexion, soit pour ne point donner lieu aux
-                            conjectures ou se laisser pénétrer, soit pour ne rien laisse échapper de
-                            son secret par passion ou par faiblesse. Quelquefois aussi il sait
-                            feindre le caractère le plus conforme aux vues qu’il a et aux besoins où
-                            il se trouve, et paraître tel qu’il a intérêt que les autres croient
-                            qu’il est en effet. Ainsi dans une grande puissance, ou dans une grande
-                            faiblesse qu’il veut dissimuler, il est ferme et inflexible, pour ôter
-                            l’envie de beaucoup obtenir ; ou il est facile, pour fournir aux autres
-                            les occasions de lui demander, et se donner la même licence. Une autre
-                            fois, ou il est profond et dissimulé, pour cacher une vérité en
-                            l’annonçant, parce qu’il lui importe qu’il l’ait dite, et qu’elle ne
-                            soit pas crue ; ou il est franc et ouvert, afin que lorsqu’il dissimule
-                            ce qui ne doit pas être su, l’on croie néanmoins qu’on n’ignore rien de
-                            ce que l’on veut savoir, et que l’on se persuade qu’il a tout dit. De
-                            même, ou il est vif et grand parleur, pour faire parler les autres, pour
-                            empêcher qu’on ne lui parle de ce qu’il ne veut pas ou de ce qu’il ne
-                            doit pas savoir, pour dire plusieurs choses indifférentes qui se
-                            modifient ou qui se détruisent les unes les autres, qui confondent dans
-                            les esprits la crainte et la confiance, pour se défendre d’une ouverture
-                            qui lui est échappée par une celui qui dit:autre qu’il aura faite ; ou
-                            il est froid et taciturne, pour jeter les autres dans l’engagement de
-                            parler, pour écouter longtemps, pour être écouté quand il parle, pour
-                            parler avec ascendant et avec poids, pour faire des promesses ou des
-                            menaces qui portent un grand coup et qui ébranlent. Il s’ouvre et parle
-                            le premier pour, en découvrant les oppositions, les contradictions, les
-                            brigues et les cabales des ministres étrangers sur les propositions
-                            qu’il aura avancées, prendre ses mesures et avoir la réplique ; et dans
-                            une autre rencontre, il parle le dernier, pour ne point parler en vain,
-                            pour être précis, pour connaître parfaitement les choses sur quoi il est
-                            permis de faire fond pour lui ou pour ses alliés, pour savoir ce qu’il
-                            doit demander et ce qu’il peut obtenir. Il sait parler en termes clairs
-                            et formels ; il sait encore mieux parler ambigument, d’une manière
-                            enveloppée, user de tours ou de mots équivoques, qu’il peut faire valoir
-                            ou diminuer dans les occasions, et selon ses intérêts. Il demande peu
-                            quand il ne veut pas donner beaucoup ; il demande beaucoup pour avoir
-                            peu, et l’avoir plus sûrement. Il exige d’abord de petites choses, qu’il
-                            prétend ensuite lui devoir être comptées pour rien, et qui ne l’excluent
-                            pas d’en demander une plus grande ; et il évite au contraire de
-                            commencer par obtenir un point important, s’il l’empêche d’en gagner
-                            plusieurs autres de moindre conséquence, mais qui tous ensemble
-                            l’emportent sur le premier. Il demande trop, pour être refusé, mais dans
-                            le dessein de se faire un droit ou une bienséance de refuser lui-même ce
-                            qu’il sait bien qu’il lui sera demandé, et qu’il ne veut pas octroyer :
-                            aussi soigneux alors d’exagérer l’énormité de la demande, et de faire
-                            convenir, s’il se peut, des raisons qu’il a de n’y pas entendre, <seg>
-                                que <note type="person" resp="#la_bruyere">L'abbé de Choisy </note>
+                        <p source="#edition_9">
+                            <pb source="#edition_9" n="265"> </pb> Le ministre ou le
+                            plénipotentiaire est un caméléon,est un Protée. Semblable quelquefois à
+                            un joueur habile, il ne montre ni humeur ni complexion, soit pour ne
+                            point donner lieu aux conjectures ou se laisser pénétrer, soit pour ne
+                            rien laisse échapper de son secret par passion ou par faiblesse.
+                            Quelquefois aussi il sait feindre le caractère le plus conforme aux vues
+                            qu’il a et aux besoins où il se trouve, et paraître tel qu’il a intérêt
+                            que les autres croient qu’il est en effet. Ainsi dans une grande
+                            puissance, ou dans une grande faiblesse qu’il veut dissimuler, il est
+                            ferme et inflexible, pour ôter l’envie de beaucoup obtenir ; ou il est
+                            facile, pour fournir aux autres les occasions de lui demander, et se
+                            donner la même licence. Une autre fois, ou il est profond et dissimulé,
+                            pour cacher une vérité en l’annonçant, parce qu’il lui importe qu’il
+                            l’ait dite, et qu’elle ne soit pas crue ; ou il est franc et ouvert,
+                            afin que lorsqu’il dissimule ce qui ne doit pas être su, l’on croie
+                            néanmoins qu’on n’ignore rien de ce que l’on veut savoir, et que l’on se
+                            persuade qu’il a tout dit. De même, ou il est vif et grand parleur, pour
+                            faire parler les autres, pour empêcher qu’on ne lui parle de ce qu’il ne
+                            veut pas ou de ce qu’il ne doit pas savoir, pour dire plusieurs choses
+                            indifférentes qui se modifient ou qui se détruisent les unes les autres,
+                            qui confondent dans les esprits la crainte et la confiance, pour se
+                            défendre d’une ouverture qui lui est échappée par une celui qui
+                            dit:autre qu’il aura faite ; ou il est froid et taciturne, pour jeter
+                            les autres dans l’engagement de parler, pour écouter longtemps, pour
+                            être écouté quand il parle, pour parler avec ascendant et avec poids,
+                            pour faire des promesses ou des menaces qui portent un grand coup et qui
+                            ébranlent. Il s’ouvre et parle le premier <pb source="#edition_9"
+                                n="266"> </pb> pour, en découvrant les oppositions, les
+                            contradictions, les brigues et les cabales des ministres étrangers sur
+                            les propositions qu’il aura avancées, prendre ses mesures et avoir la
+                            réplique ; et dans une autre rencontre, il parle le dernier, pour ne
+                            point parler en vain, pour être précis, pour connaître parfaitement les
+                            choses sur quoi il est permis de faire fond pour lui ou pour ses alliés,
+                            pour savoir ce qu’il doit demander et ce qu’il peut obtenir. Il sait
+                            parler en termes clairs et formels ; il sait encore mieux parler
+                            ambigument, d’une manière enveloppée, user de tours ou de mots
+                            équivoques, qu’il peut faire valoir ou diminuer dans les occasions, et
+                            selon ses intérêts. Il demande peu quand il ne veut pas donner beaucoup
+                            ; il demande beaucoup pour avoir peu, et l’avoir plus sûrement. Il exige
+                            d’abord de petites choses, qu’il prétend ensuite lui devoir être
+                            comptées pour rien, et qui ne l’excluent pas d’en demander une plus
+                            grande ; et il évite au contraire de commencer par obtenir un point
+                            important, s’il l’empêche d’en gagner plusieurs autres de moindre
+                            conséquence, mais qui tous ensemble l’emportent sur le premier. Il
+                            demande trop, pour être refusé, mais dans le dessein de se faire un
+                            droit ou une bienséance de refuser lui-même ce qu’il sait bien qu’il lui
+                            sera demandé, et qu’il ne veut pas octroyer : aussi soigneux alors
+                            d’exagérer l’énormité de la demande, et de faire convenir, s’il se peut,
+                            des raisons qu’il a de n’y pas entendre, <seg> que <note type="person"
+                                    resp="#la_bruyere">L'abbé de Choisy </note>
                             </seg> d’affaiblir celles qu’on prétend avoir de ne lui pas accorder ce
                             qu’il sollicite avec instance ; également appliqué à faire sonner haut
                             et à grossir dans l’idée des autres le peu qu’il offre, et à mépriser
                             ouvertement le peu que l’on consent de lui donner. Il fait de fausses
-                            offres, mais extraordinaires, qui donnent de la défiance, et obligent de
-                            rejeter ce que l’on accepterait inutilement ; qui lui sont cependant une
-                            occasion de faire des demandes exorbitantes, et mettent dans leur tort
-                            ceux qui les lui refusent. Il accorde plus qu’on ne lui demande, pour
-                            avoir encore plus qu’il ne doit donner. Il se fait longtemps prier,
-                            presser, importuner sur une chose médiocre, pour éteindre les espérances
-                            et ôter la pensée d’exiger de lui rien de plus fort ; ou s’il se laisse
-                            fléchir jusques à l’abandonner, c’est toujours avec des conditions qui
-                            lui font partager le gain et les avantages avec ceux qui reçoivent. Il
-                            prend directement ou indirectement l’intérêt d’un allié, s’il y trouve
-                            son utilité et l’avancement de ses prétentions. Il ne parle que de paix,
-                            que d’alliances, que de tranquillité publique, que d’intérêt public ; et
-                            en effet il ne songe qu’aux siens, c’est-à-dire à ceux de son maître ou
-                            de sa république. Tantôt il réunit quelques-uns qui étaient contraires
-                            les uns aux autres, et tantôt il divise quelques autres qui étaient
-                            unis. Il intimide les forts et les puissants, il encourage les faibles.
-                            Il unit d’abord d’intérêt plusieurs faibles contre un plus puissant,
-                            pour rendre la balance égale ; il se joint ensuite aux premiers pour la
-                            faire pencher, et il leur vend cher sa protection et son alliance. Il
-                            sait intéresser ceux avec qui il traite ; et par un adroit manège, par
-                            de fins et de subtils détours, il leur fait sentir leurs avantages
+                            offres, mais extraordinaires, qui donnent de la défiance, et obligent
+                                <pb source="#edition_9" n="267"> </pb> de rejeter ce que l’on
+                            accepterait inutilement ; qui lui sont cependant une occasion de faire
+                            des demandes exorbitantes, et mettent dans leur tort ceux qui les lui
+                            refusent. Il accorde plus qu’on ne lui demande, pour avoir encore plus
+                            qu’il ne doit donner. Il se fait longtemps prier, presser, importuner
+                            sur une chose médiocre, pour éteindre les espérances et ôter la pensée
+                            d’exiger de lui rien de plus fort ; ou s’il se laisse fléchir jusques à
+                            l’abandonner, c’est toujours avec des conditions qui lui font partager
+                            le gain et les avantages avec ceux qui reçoivent. Il prend directement
+                            ou indirectement l’intérêt d’un allié, s’il y trouve son utilité et
+                            l’avancement de ses prétentions. Il ne parle que de paix, que
+                            d’alliances, que de tranquillité publique, que d’intérêt public ; et en
+                            effet il ne songe qu’aux siens, c’est-à-dire à ceux de son maître ou de
+                            sa république. Tantôt il réunit quelques-uns qui étaient contraires les
+                            uns aux autres, et tantôt il divise quelques autres qui étaient unis. Il
+                            intimide les forts et les puissants, il encourage les faibles. Il unit
+                            d’abord d’intérêt plusieurs faibles contre un plus puissant, pour rendre
+                            la balance égale ; il se joint ensuite aux premiers pour la faire
+                            pencher, et il leur vend cher sa protection et son alliance. Il sait
+                            intéresser ceux avec qui il traite ; et par un adroit manège, par de
+                            fins et de subtils détours, il leur fait sentir leurs avantages
                             particuliers, les biens et les honneurs qu’ils peuvent espérer par une
                             certaine facilité, qui ne choque point leur commission ni les intentions
                             de leurs maîtres. Il ne veut pas aussi être cru imprenable par cet
                             endroit ; il laisse voir en lui quelque peu de sensibilité pour sa
                             fortune : il s’attire par là des propositions qui lui découvrent les
                             vues des autres les plus secrètes, leurs desseins les plus profonds et
-                            leur dernière ressource ; et il en profite. Si quelquefois il est lésé
-                            dans quelques chefs qui ont enfin été réglés, il crie haut ; si c’est le
-                            contraire ; il crie plus haut, et jette ceux qui perdent sur la
-                            justification et la défensive. Il a son fait digéré par la cour, toutes
-                            ses démarches sont mesurées, les moindres avances qu’il fait lui sont
-                            prescrites ; et il agit néanmoins, dans les points difficiles et dans
-                            les articles contestés, comme s’il se relâchait de lui-même
-                            sur-le-champ, et comme par un esprit d’accommodement ; il ose même
-                            promettre à l’assemblée qu’il fera goûter la proposition, et qu’il n’en
-                            sera pas désavoué. Il fait courir un bruit faux des choses seulement
-                            dont il est chargé, muni d’ailleurs de pouvoirs particuliers, qu’il ne
-                            découvre jamais qu’à l’extrémité, et dans les moments où il lui serait
-                            pernicieux de ne les pas mettre en usage. Il tend surtout par ses
-                            intrigues au solide et à l’essentiel, toujours prêt de leur sacrifier
-                            les minuties et les points d’honneur imaginaires. Il a du flegme, il
-                            s’arme de courage et de patience, il ne se lasse point, il fatigue les
-                            autres, et les pousse jusqu’au découragement. Il se précautionne et
-                            s’endurcit contre les lenteurs et les remises, contre les reproches, les
-                            soupçons, les défiances, contre les difficultés et les obstacles,
-                            persuadé que le temps seul et les conjonctures amènent les choses et
-                            conduisent les esprits au point où on les souhaite. Il va jusques à
-                            feindre un intérêt secret à la rupture de la négociation, lorsqu’il
-                            désire le plus ardemment qu’elle soit continuée ; et si au contraire il
-                            a des ordres précis de faire les derniers efforts pour la rompre, il
-                            croit devoir, pour y réussir, en presser la continuation et la fin. S’il
-                            survient un grand événement, il se raidit ou il se relâche selon qu’il
-                            lui est utile ou préjudiciable ; et si par une grande prudence il sait
-                            le prévoir, il presse et il temporise selon que l’Etat pour qui il
-                            travaille en doit craindre ou espérer ; et il règle sur ses besoins ses
-                            conditions. Il prend conseil du temps, du lieu, des occasions, de sa
-                            puissance ou de sa faiblesse, du génie des nations avec qui il traite,
-                            du tempérament et du caractère des personnes avec qui il négocie. Toutes
-                            ses vues, toutes ses maximes, tous les raffinements de sa politique
-                            tendent à une seule fin, qui est de n’être point trompé, et de tromper
-                            les autres. </p>
+                            leur dernière res-<pb source="#edition_9" n="268"> </pb> source ; et il
+                            en profite. Si quelquefois il est lésé dans quelques chefs qui ont enfin
+                            été réglés, il crie haut ; si c’est le contraire ; il crie plus haut, et
+                            jette ceux qui perdent sur la justification et la défensive. Il a son
+                            fait digéré par la cour, toutes ses démarches sont mesurées, les
+                            moindres avances qu’il fait lui sont prescrites ; et il agit néanmoins,
+                            dans les points difficiles et dans les articles contestés, comme s’il se
+                            relâchait de lui-même sur-le-champ, et comme par un esprit
+                            d’accommodement ; il ose même promettre à l’assemblée qu’il fera goûter
+                            la proposition, et qu’il n’en sera pas désavoué. Il fait courir un bruit
+                            faux des choses seulement dont il est chargé, muni d’ailleurs de
+                            pouvoirs particuliers, qu’il ne découvre jamais qu’à l’extrémité, et
+                            dans les moments où il lui serait pernicieux de ne les pas mettre en
+                            usage. Il tend surtout par ses intrigues au solide et à l’essentiel,
+                            toujours prêt de leur sacrifier les minuties et les points d’honneur
+                            imaginaires. Il a du flegme, il s’arme de courage et de patience, il ne
+                            se lasse point, il fatigue les autres, et les pousse jusqu’au
+                            découragement. Il se précautionne et s’endurcit contre les lenteurs et
+                            les remises, contre les reproches, les soupçons, les défiances, contre
+                            les difficultés et les obstacles, persuadé que le temps seul et les
+                            conjonctures amènent les choses et conduisent les esprits au point où on
+                            les souhaite. Il va jusques à feindre un intérêt secret à la rupture de
+                            la négociation, lorsqu’il désire le plus ardemment qu’elle soit
+                            continuée ; et si au contraire il a des ordres précis de faire les
+                            derniers efforts pour la rompre, il croit devoir, pour y réussir, en
+                            presser la continuation et la fin. S’il survient un grand événement, il
+                            se raidit ou il se relâche selon qu’il lui est utile ou préjudiciable ;
+                            et si par une grande prudence il sait le prévoir, il presse et il
+                                tempo-<pb source="#edition_9" n="269"> </pb> rise selon que l’Etat
+                            pour qui il travaille en doit craindre ou espérer ; et il règle sur ses
+                            besoins ses conditions. Il prend conseil du temps, du lieu, des
+                            occasions, de sa puissance ou de sa faiblesse, du génie des nations avec
+                            qui il traite, du tempérament et du caractère des personnes avec qui il
+                            négocie. Toutes ses vues, toutes ses maximes, tous les raffinements de
+                            sa politique tendent à une seule fin, qui est de n’être point trompé, et
+                            de tromper les autres. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="13">
                         <p source="#edition_1 #edition_9">
-                            <g ref="#char_pm"/> Le caractère des Français demande du sérieux dans le
-                            souverain. </p>
+                            <pb source="#edition_1" n="262"> </pb><g ref="#char_pm"/> Le caractère
+                            des Français demande du sérieux dans le souverain. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="14">
                         <p source="#edition_1 #edition_9">
-                            <g ref="#char_pm"/> L’un des malheurs du prince est d’<app>
+                            <g ref="#char_pm"/> L’un des malheurs <seg> du prince <note type="clé">
+                                    <persName source="#cle_18e_siecle" ref="#mme_de_maintenon"/>
+                                </note></seg> est d’<app>
                                 <lem> estre </lem>
                                 <rdg source="#edition_9"> être </rdg>
                             </app> souvent trop plein de son secret, par le péril qu’il y a à le
@@ -331,7 +410,8 @@
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="15">
                         <p source="#edition_1 #edition_9">
-                            <g ref="#char_pm"/> Il ne manque rien à un <app>
+                            <pb source="#edition_1" n="263"> </pb><g ref="#char_pm"/> Il ne manque
+                            rien à un <app>
                                 <lem> Roy </lem>
                                 <rdg source="#edition_9"> Roi</rdg>
                             </app> que les douceurs d’une vie privée ; il ne peut <app>
@@ -362,8 +442,14 @@
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="17">
                         <p source="#edition_1 #edition_9">
-                            <g ref="#char_pm"/> Rien ne fait plus d’honneur au prince que la
-                            modestie de son <app> <lem> favory. </lem> <rdg source="#edition_9"> favori. </rdg></app> </p>
+                            <g ref="#char_pm"/> Rien ne fait plus d’honneur <seg> au prince <note
+                                    type="clé">
+                                    <persName source="#cle_18e_siecle" ref="#mme_de_maintenon"/>
+                                </note></seg> que la modestie de son <app>
+                                <lem> favory. </lem>
+                                <rdg source="#edition_9"> favori. </rdg>
+                            </app>
+                        </p>
                     </div3>
                     <div3 source="#edition_9" n="18">
                         <p source="#edition_9">
