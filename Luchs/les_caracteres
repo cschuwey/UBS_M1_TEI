@@ -24,7 +24,7 @@
                         <date>1688</date>
                         <edition xml:id="edit1">Edition 1</edition>
                         <idno>FRBNF37242745</idno>
-                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575738/f347</ref>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575738/f348.item</ref>
                     </bibl>
                 </listBibl>
                 <listBibl>
@@ -51,6 +51,11 @@
                         <edition xml:id="edit8">Edition 8</edition>
                         <idno>FRBNF37243225</idno>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f695.item</ref>
+                    </bibl>
+                </listBibl>
+                <listBibl>
+                    <bibl>
+                        
                     </bibl>
                 </listBibl>
                 <listPerson>
@@ -117,8 +122,10 @@
                     <head>Des Esprits Forts</head>
                     <div3 n="1">
                         <!-- (1) -->
-                        <p source="#edit1 #edit5 #edit8">Les esprits forts savent-ils qu’on les
-                            appelle ainsi par ironie ? <app type="majuscule">
+                        <p source="#edit1 #edit5 #edit8"><pb source="#edit1" n="287"/><pb
+                                source="#edit5" n="482"/><pb source="#edit8" n="664"/>Les esprits
+                            forts savent-ils qu’on les appelle ainsi par ironie ? <app
+                                type="majuscule">
                                 <lem>Quelle</lem>
                                 <rdg source="#edit1">quelle</rdg>
                             </app> plus grande faiblesse que d’être incertains quel est le principe
@@ -129,78 +136,83 @@
                             force et de grandeur à recevoir dans notre esprit l’idée d’un être
                             supérieur à tous les êtres, qui les a tous faits, et à qui tous se
                             doivent rapporter ; d’un être souverainement parfait, qui est pur, qui
-                            n’a point commencé et qui ne peut finir, dont notre âme est l’image, et
-                            si j’ose dire, une portion, comme esprit et comme immortelle ?</p>
+                            n’a <pb source="#edit1" n="288"/>point commencé et qui ne peut finir,
+                            dont notre âme est l’image, et si j’ose dire, une portion, comme esprit
+                            et comme immortelle ?</p>
                     </div3>
                     <div3 n="2">
                         <!-- (2) -->
                         <p source="#edit8"><g ref="#char_pdm0"/>Le docile et le faible sont
                             susceptibles d’impressions : l’un en reçoit de bonnes, l’autre de
-                            mauvaises ; c’est-à-dire que le premier est persuadé et fidèle, et que
-                            le second est entêté et corrompu. Ainsi l’esprit docile admet la vraie
-                            religion ; et l’esprit faible, ou n’en admet aucune, ou en admet une
-                            fausse. <seg>Or l’esprit fort ou n’a point de religion, ou se fait une
-                                religion ; donc l’esprit fort, c’est l’esprit faible.<note
-                                    resp="#luchs" type="analyse">J'analyse ce segment de
-                                    texte.</note></seg></p>
+                            mauvaises ; <pb source="#edit8" n="665"/>c’est-à-dire que le premier est
+                            persuadé et fidèle, et que le second est entêté et corrompu. Ainsi
+                            l’esprit docile admet la vraie religion ; et l’esprit faible, ou n’en
+                            admet aucune, ou en admet une fausse. <seg>Or l’esprit fort ou n’a point
+                                de religion, ou se fait une religion ; donc l’esprit fort, c’est
+                                l’esprit faible.<note resp="#luchs" type="analyse">J'analyse ce
+                                    segment de texte.</note></seg></p>
                     </div3>
                     <div3 n="3">
                         <!-- (3) -->
                         <p source="#edit5 #edit8"><g ref="#char_pdm2"/>J’appelle mondains,
                             terrestres ou grossiers ceux dont l’esprit et le cœur sont attachés à
-                            une petite portion de ce monde qu’ils habitent, qui est la terre ; qui
-                            n’estiment rien, qui n’aiment rien au delà : gens aussi limités que ce
-                            qu’ils appellent leurs possessions ou leur domaine, que l’on mesure,
-                            dont on compte les <seg>arpents<note resp="#luchs" type="glossaire"
-                                    >Ancienne mesure de surface qui valait, selon les régions, de 35
-                                    à 51 ares.</note></seg>, et dont on montre les bornes. Je ne
-                            m’étonne pas que des hommes qui s’appuient sur un atome chancellent dans
-                            les moindres efforts qu’ils font pour sonder la vérité, si avec des vues
-                            si courtes ils ne percent point à travers le ciel et les astres, jusques
-                            à Dieu <app type="morpho">
+                            une petite portion de ce monde qu’ils habitent, qui <pb source="#edit5"
+                                n="483"/>est la terre ; qui n’estiment rien, qui n’aiment rien au
+                            delà : gens aussi limités que ce qu’ils appellent leurs possessions ou
+                            leur domaine, que l’on mesure, dont on compte les <seg>arpents<note
+                                    resp="#luchs" type="glossaire">Ancienne mesure de surface qui
+                                    valait, selon les régions, de 35 à 51 ares.</note></seg>, et
+                            dont on montre les bornes. Je ne m’étonne pas que des hommes qui
+                            s’appuient sur un atome chancellent dans les moindres efforts qu’ils
+                            font pour sonder la vérité, si avec des vues si courtes ils ne percent
+                            point à travers le ciel et les astres, jusques à Dieu <app type="morpho">
                                 <lem>même</lem>
                                 <rdg source="#edit5">me∫me</rdg>
                             </app> ; si, ne s’apercevant point ou de l’excellence de ce qui est
                             esprit, ou de la dignité de l’âme, ils ressentent encore moins combien
-                            elle est difficile à assouvir, combien la terre entière est au-dessous
-                            d’elle, de quelle nécessité lui devient un être souverainement parfait,
-                            qui est Dieu, et quel besoin indispensable elle a d’une religion qui le
-                            lui indique, et qui lui en est une caution sûre. Je comprends au
-                            contraire fort aisément qu’il est naturel à de tels esprits de tomber
-                            dans l’incrédulité ou l’indifférence, et de faire servir Dieu et la
-                            religion à la politique, c’est-à-dire à l’ordre et à la décoration de ce
-                            monde, la seule chose selon eux qui mérite qu’on y pense.</p>
+                            elle est <pb source="#edit8" n="666"/>difficile à assouvir, combien la
+                            terre entière est au-dessous d’elle, de quelle nécessité lui devient un
+                            être souverainement parfait, qui est Dieu, et quel besoin indispensable
+                            elle a d’une religion qui le lui indique, et qui lui en est une caution
+                            sûre. Je comprends au contraire fort aisément qu’il est naturel à de
+                            tels esprits de tomber dans l’incrédulité ou l’indifférence, et de faire
+                            servir Dieu et la religion à la politique, c’est-à-dire à l’ordre et à
+                            la décoration de ce <pb source="#edit5" n="484"/>monde, la seule chose
+                            selon eux qui mérite qu’on y pense.</p>
                     </div3>
                     <div3 n="4">
                         <!-- (4) -->
                         <p source="#edit5 #edit8"><g ref="#char_pdm2"/><seg>Quelques-uns<note
                                     type="cle">(1690) - Servois, suivi par tous les éditeurs
                                     postérieurs, évoque par hypothèse la figure du célèbre voyageur
-                            <persName source="#cle_XVIIE" ref="#bernier"><forename>François</forename> <surname>Bernier</surname></persName>, qui après avoir publié des Voyages
-                                    (1670-1671), fit paraître un Abrégé de la philosophie de
-                                    Gassendi (1682). Ses voyages avaient été fort longs (il était
-                                    notamment resté douze ans auprès du Grand Mongol). Il était mort
-                                    en 1680.</note></seg> achèvent de se corrompre par de longs
-                            voyages, et perdent le peu de religion qui leur restait. Ils voient de
-                            jour à autre un nouveau culte, diverses mœurs, diverses cérémonies ; ils
-                            ressemblent à ceux qui entrent dans les magasins, indéterminés sur le
-                            choix des étoffes qu’ils veulent acheter : le grand nombre de celles
-                            qu’on leur montre les rend plus indifférents ; elles ont chacune leur
-                            agrément et leur bienséance : ils ne se fixent point, ils sortent sans
-                            emplette.</p>
+                                        <persName source="#cle_XVIIIE" ref="#bernier"
+                                            ><forename>François</forename>
+                                        <surname>Bernier</surname></persName>, qui après avoir
+                                    publié des Voyages (1670-1671), fit paraître un Abrégé de la
+                                    philosophie de Gassendi (1682). Ses voyages avaient été fort
+                                    longs (il était notamment resté douze ans auprès du Grand
+                                    Mongol). Il était mort en 1680.</note></seg> achèvent de se
+                            corrompre par de longs voyages, et perdent le peu de religion qui leur
+                            restait. Ils voient de jour à autre un nouveau culte, diverses mœurs,
+                            diverses cérémonies ; ils ressemblent à ceux qui entrent dans les
+                            magasins, indéterminés sur le choix des étoffes qu’ils veulent acheter :
+                            le grand nombre de celles qu’on leur montre les rend plus indifférents ;
+                            elles ont chacune leur agrément et leur bienséance : ils ne se fixent
+                            point, ils sortent sans emplette.</p>
                     </div3>
                     <div3 n="5">
                         <!-- (5) -->
-                        <p source="#edit5 #edit8"><g ref="#char_pdm2"/>Il y a des hommes qui
-                            attendent à être dévots et religieux que tout le monde se déclare impie
-                            et libertin : ce sera alors le parti du vulgaire, ils sauront s’en
-                            dégager. La singularité leur plaît dans une matière si sérieuse et si
-                            profonde ; ils ne suivent la mode et le train commun que dans les choses
-                            de rien et de nulle suite. Qui sait même s’ils n’ont pas déjà mis une
-                            sorte de bravoure et d’intrépidité à courir tout le risque de l’avenir ?
-                            Il ne faut pas d’ailleurs que dans une certaine condition, avec une
-                            certaine étendue d’esprit et de certaines vues, l’on songe à croire
-                            comme les savants et le peuple.</p>
+                        <p source="#edit5 #edit8"><g ref="#char_pdm2"/><pb source="#edit8" n="667"
+                            />Il y a des hommes qui attendent à être dévots et religieux que tout le
+                            monde se déclare impie et libertin : ce sera alors le parti du vulgaire,
+                            ils sauront s’en dégager. La singularité leur plaît dans une matière si
+                            sérieuse et si profonde ; ils ne suivent la mode et le train commun que
+                            dans les choses de rien et de nulle suite. Qui sait même s’ils n’ont pas
+                            déjà mis une sorte de bravoure et d’intrépidité à courir tout le risque
+                            de l’avenir ? Il ne faut pas d’ailleurs que dans <pb source="#edit5"
+                                n="485"/>une certaine condition, avec une certaine étendue d’esprit
+                            et de certaines vues, l’on songe à croire comme les savants et le
+                            peuple.</p>
                     </div3>
                     <div3 n="6">
                         <!-- (6) -->
@@ -216,15 +228,16 @@
                         <p source="#edit1 #edit5 #edit8"><g ref="#char_pdm0"/>Il faudrait s’éprouver
                             et s’examiner très sérieusement, avant que de se déclarer esprit fort ou
                             libertin, afin au moins, et selon ses principes, de finir comme l’on a
-                            vécu ; ou si l’on ne se sent pas la force d’aller si loin, se résoudre
-                            de vivre comme l’on veut mourir.</p>
+                            vécu ; ou si l’on ne <pb source="#edit8" n="668"/>se sent pas la force
+                            d’aller si loin, se résoudre de vivre comme l’on veut mourir.</p>
                     </div3>
                     <div3 n="8">
                         <!-- (8) -->
                         <p source="#edit1 #edit5 #edit8"><g ref="#char_pdm0"/>Toute plaisanterie
-                            dans un homme mourant est hors de sa place : si elle roule sur de
-                            certains chapitres, elle est funeste. C’est une extrême misère que de
-                            donner à ses dépens à ceux que l’on laisse le plaisir d’un bon mot.</p>
+                            dans un homme mourant est hors de sa <pb source="#edit1" n="289"/>place
+                            : si elle roule sur de certains chapitres, elle est funeste. C’est une
+                            extrême misère que de donner à ses dépens à ceux que l’on laisse le
+                            plaisir d’un bon mot.</p>
                         <p source="#edit8">(VI) Dans quelque prévention où l’on puisse être sur ce
                             qui doit suivre la mort, c’est une chose bien sérieuse que de mourir :
                             ce n’est point alors le badinage qui sied bien, mais la constance.</p>
@@ -234,19 +247,20 @@
                         <!-- (9) -->
                         <p source="#edit1 #edit5 #edit8"><g ref="#char_pdm0"/>Il y a eu de tout
                             temps de ces gens d’un bel esprit et d’une agréable littérature,
-                            esclaves des grands, dont ils ont épousé le libertinage et porté <seg>le
-                                    joug<note resp="#luchs" type="glossaire">Contrainte matérielle
-                                    ou morale.</note></seg> toute leur vie, contre leurs propres
-                            lumières et contre leur conscience. Ces hommes n’ont jamais vécu que
-                            pour d’autres hommes, et ils semblent les avoir regardés comme leur
-                            dernière fin. Ils ont eu honte de se sauver à leurs yeux, de paraître
-                            tels qu’ils étaient peut-être dans le cœur, et ils se sont perdus par
-                            déférence ou par faiblesse. Y a-t-il donc sur la terre des grands assez
-                            grands, et des puissants assez puissants, pour mériter de nous que nous
-                            croyions et que nous vivions à leur gré, selon leur goût et leurs
-                            caprices, et que nous poussions la complaisance plus loin, en mourant
-                            non de la manière qui est la plus sûre pour nous, mais de celle qui leur
-                            plaît davantage ?</p>
+                            esclaves des grands, <pb source="#edit5" n="486"/>dont ils ont épousé le
+                            libertinage et porté <seg>le joug<note resp="#luchs" type="glossaire"
+                                    >Contrainte matérielle ou morale.</note></seg> toute leur vie,
+                            contre leurs propres lumières et contre leur conscience. Ces hommes
+                            n’ont jamais vécu que pour d’autres hommes, et ils semblent les avoir
+                            regardés comme leur dernière fin. Ils ont eu honte de se sauver à leurs
+                            yeux, de paraître tels qu’ils étaient peut-être dans le cœur, et ils se
+                            sont perdus par déférence ou par faiblesse. Y a-t-il donc <pb
+                                source="#edit8" n="669"/>sur la terre des grands assez grands, et
+                            des puissants <pb source="#edit1" n="290"/>assez puissants, pour mériter
+                            de nous que nous croyions et que nous vivions à leur gré, selon leur
+                            goût et leurs caprices, et que nous poussions la complaisance plus loin,
+                            en mourant non de la manière qui est la plus sûre pour nous, mais de
+                            celle qui leur plaît davantage ?</p>
                     </div3>
                     <div3 n="10">
                         <!-- (10) -->
