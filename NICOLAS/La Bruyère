@@ -39,6 +39,11 @@
                             >https://gallica.bnf.fr/ark:/12148/bpt6k57567b?rk=42918;4</idno>
                     </bibl>
                 </listBibl>
+                <listPerson>
+                    <person xml:id="mlledeloines">
+                        <name>Mlle de Loines</name>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -187,10 +192,18 @@
                             elle est quittée, et demeure longtemps inconsolable.</p>
                     </div3>
                     <div3 n="27" source="#edition6">
-                        <p><g ref="#char_pm"/>A juger de cette femme par sa beauté, sa jeunesse, sa
-                            fierté et ses dédains, il n’y a personne qui doute que ce ne soit un
-                            héros qui doive un jour la charmer. Son choix est fait : c’est un petit
-                            monstre qui manque d’esprit. </p>
+                        <p><g ref="#char_pm"/>A juger de <seg>cette femme<note type="cle"><persName
+                                        source="#cle_XVIIIE" ref="#mlledeloines">Mlle de
+                                        Loines</persName>, soeur de <persName>M. de
+                                        Loines</persName>, correcteur des comptes, qui s'amourracha
+                                    du nommé <persName>Thibert</persName>, frère du notaire, qui
+                                    était bossu et qui en abusa. Elle a depuis épousé
+                                        <persName>Letellier</persName>, conseiller à la
+                                        <orgName>cour des Monnaies</orgName>, nommé de
+                                    Quincy.</note></seg> par sa beauté, sa jeunesse, sa fierté et
+                            ses dédains, il n’y a personne qui doute que ce ne soit un héros qui
+                            doive un jour la charmer. Son choix est fait : c’est un petit monstre
+                            qui manque d’esprit. </p>
                     </div3>
                     <div3 n="">
                         <p source="#edition3"><g ref="#char_pm"/>Les femmes guérissent de leur
