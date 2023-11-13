@@ -14,13 +14,14 @@
                 <distributor/>
             </publicationStmt>
             <sourceDesc>
+                
 <listBibl>
                 <bibl xml:id="edition3">
                 <author>La Bruyère, Jean de</author>
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Paris</placeName>
                     <publisher>Etienne Michallet</publisher>
-                    <authority xml:id="Erinmias">Erin Mias</authority>
+                    <author xml:id="Erinmias">Erin Mias</author>
                     <date>1688</date>
                 
                 </bibl></listBibl>
@@ -28,7 +29,7 @@
                 <bibl xml:id="edition8">
                   <author>La Bruyère, Jean de</author>
                     <affiliation xml:id="invisihands">invisihands</affiliation>
-                    <authority xml:id="Erinmias">Erin Mias</authority>
+                    <author xml:id="Erinmias">Erin Mias</author>
                     <publisher xml:id="Erin">erin</publisher>
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Lyon</placeName>
@@ -74,7 +75,7 @@
                 </char>
                 <char xml:id="md">
                     <mapping>☜</mapping>
-                    <desc>Symbole pour attirer l'attention du lecteur vers un passage/paragraphe
+                    <desc> Symbole pour attirer l'attention du lecteur vers un passage/paragraphe
                         spécifique.</desc>
                 </char>
                 <char xml:id="mg">
@@ -94,6 +95,8 @@
                     <p>div2 pour les chapitres</p>
                     <p>div3 pour les remarques</p>
                      <p>lem pour la version moderne, de base, du texte</p>
+                    <p>La position des notes de La Bruyère dans le texte est précisé comme attribut
+                        dans la balise "note" car une seule note ne permet pas de généraliser.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -122,17 +125,20 @@
                     <head>De la mode</head>
 
 
-                    <div3 type="remarque" n="1" source="#edition8 #edition7"> 
-                        <p> Une chose folle et qui découvre bien notre petitesse, c’est
+                    <div3 type="remarque" n="1"> 
+                        <p source="#edition7 #edition8">
+                            <g ref="#char_pm0" source="#edition7 #edition8"/>
+                             Une chose folle et qui découvre bien notre petitesse, c’est
                             l’assujettissement aux modes quand on l’étend à ce qui concerne le goût,
                             le vivre, la santé et la conscience. La viande noire est hors de mode,
                             et par cette raison insipide ; ce serait pécher contre la mode que de
                             guérir de la fièvre par la saignée. De même l’on ne mourait plus depuis
                             longtemps par Théotime ; ses tendres exhortations ne sauvaient plus que
-                            le peuple, et Théotime a vu son successeur. </p>
+                            le peuple, et Théotime a vu son successeur.
                     </div3>
-                    <div3 type="remarque" n="2" source="#edition8 #edition7"><g ref="#char_pm"/>
-                             <p source="#edition1 #edition6 #edition8"><g ref="#char_pm"/>
+                    <div3 type="remarque" n="2">
+                        <p source="#edition7 #edition8">
+                            <g ref="#char_pm0" source="#edition7 #edition8"/>
                             La curiosité n’est pas un goût pour ce qui est bon ou ce qui est beau,
                             mais pour ce qui est rare, unique, pour ce qu’on a et ce que les autres
                             n’ont point. Ce n’est pas un attachement à ce qui est parfait, mais à ce
@@ -141,14 +147,11 @@
                             l’ambition que par la petitesse de son objet. Ce n’est pas une passion
                             qu’on a généralement pour les choses rares et qui ont cours, mais qu’on
                             a seulement pour une certaine chose, qui est rare, et pourtant à la
-                            mode<app>
-                                <lem/>
-                                <rdg source="#edition1 #edition6 #edition8">,</rdg>
-                            </app>
-                            <app>
-                                <lem> et</lem>
+                            mode
+                            <app type="ponctuation">
+                                <lem>.</lem> </app>
                         
-                        <p> Le fleuriste a un jardin dans un faubourg : il y court au lever du
+                             Le fleuriste a un jardin dans un faubourg : il y court au lever du
                             soleil, et il en revient à son coucher. Vous le voyez planté, et qui a
                             pris racine au milieu de ses tulipes et devant la Solitaire : il ouvre
                             de grands yeux, il frotte ses mains, il se baisse, il la voit de plus
@@ -180,13 +183,17 @@
                             peut jamais assez louer et admirer ! homme dont il sera parlé dans
                             plusieurs siècles ! que je voie sa taille et son visage pendant qu’il
                             vit ; que j’observe les traits et la contenance d’un homme qui seul
-                            entre les mortels possède une telle prune ! </p>
+                            entre les mortels possède une telle prune ! 
 
-                        <p> Un troisième que vous allez voir vous parle des curieux ses confrères,
-                            et surtout de Diognète.<seg>note inventée 1 <note type="definition"
-                                    ref="Erinmias" place="side" source="#edition8">définition
+                             Un troisième que vous allez voir vous parle des curieux ses confrères,
+                            et surtout de Diognète.<seg>note inventée 1 
+                                <note type="definition"
+                                    ref="Erinmias" place="side" source="#edition8"><app type="morpho">
+                                        <lem>Erinmias</lem>
+                                        <rdg source="#edition5 #edition8">Erinmias</rdg> définition
                             Claudios Diognetos, procurateur équestre en poste en Égypte entre 197 et 202 ; d'autres évoquent le philosophe stoïcien Diognète, 
-                            un des précepteurs de Marc-Aurèle.</note></seg> "Je l’admire, dit-il, et je le comprends moins
+                            un des précepteurs de Marc-Aurèle.</note></seg> </app>
+                                "Je l’admire, dit-il, et je le comprends moins
                             que jamais. Pensez-vous qu’il cherche à s’instruire par des médailles,
                             et qu’il les regarde comme des preuves parlantes de certains faits, et
                             des monuments fixes et indubitables de l’ancienne histoire ? rien moins.
@@ -218,9 +225,9 @@
                             clochers, et de passer des rivières qu’on n’appelle ni la Seine ni la
                             Loire ; qui sortent de leur patrie pour y retourner, qui aiment à être
                             absents, qui veulent un jour être revenus de loin : et ce satirique
-                            parle juste, et se fait écouter. </p>
+                            parle juste, et se fait écouter. 
 
-                        <p> Mais quand il ajoute que les livres en apprennent plus que les voyages,
+                            <p> Mais quand il ajoute que les livres en apprennent plus que les voyages,
                             et qu’il m’a fait comprendre par ses discours qu’il a une bibliothèque,
                             je souhaite de la voir : je vais trouver cet homme, qui me reçoit dans
                             une maison où dès l’escalier je tombe en faiblesse d’une odeur de
@@ -263,7 +270,7 @@
                             cette porte ; tous demandent à voir la maison, et personne à voir
                             Monsieur. </p>
 
-                        <p> On en sait d’autres qui ont des filles devant leurs yeux, à qui ils ne
+                           <p> On en sait d’autres qui ont des filles devant leurs yeux, à qui ils ne
                             peuvent pas donner une dot, que dis-je ? elles ne sont pas vêtues, à
                             peine nourries ; qui se refusent un tour de lit et du linge blanc ; qui
                             sont pauvres ; et la source de leur misère n’est pas fort loin : c’est
@@ -291,8 +298,10 @@
                             ; il rêve la nuit qu’il mue ou qu’il couve.</p>
 
                     </div3>
-                    <div3 type="remarque" n="3"source="#edition8 #edition7">
-                        <p> Le duel est le triomphe de la mode, et l’endroit où elle a exercé sa
+                    <div3 type="remarque" n="3">
+                        <p source="#edition7 #edition8">
+                            <g ref="#char_pm0" source="#edition7 #edition8"/>
+                            Le duel est le triomphe de la mode, et l’endroit où elle a exercé sa
                             tyrannie avec plus d’éclat. Cet usage n’a pas laissé au poltron la
                             liberté de vivre ; il l’a mené se faire tuer par un plus brave que soi,
                             et l’a confondu avec un homme de cœur ; il a attaché de l’honneur et de
@@ -302,27 +311,33 @@
                             fausses ou véritables sur des crimes capitaux ; il s’était enfin si
                             profondément enraciné dans l’opinion de peuples ; et s’était si fort
                             saisi de leur cœur et de leur esprit ; qu’un des plus beaux endroits de
-                            la vie d’un très grand roi a été de les guérir de cette folie. </p>
+                            la vie d’un très grand roi a été de les guérir de cette folie. 
                     </div3>
-                    <div3 type="remarque" n="4 source="#edition8 #edition7"><g ref="#char_pm"/>
-                        <p> Tel a été à la mode, ou pour le commandement des armées et la
+                    <div3 type="remarque" n="4"> 
+                        <p source="#edition7 #edition8">
+                        <g ref="#char_pm0" source="#edition7 #edition8"/>
+                             Tel a été à la mode, ou pour le commandement des armées et la
                             négociation ou pour l’éloquence de la chaire, ou pour les vers, qui n’y
                             est plus. Y a-t-il des hommes qui dégénèrent de ce qu’ils furent
                             autrefois ? Est-ce leur mérite qui est usé, ou le goût que l’on avait
-                            pour eux ? </p>
+                            pour eux ? 
                     </div3>
-                    <div3 type="remarque" n="5" source="#edition8 #edition7">
-                        <p> Un homme à la mode dure peu, car les modes passent : s’il est par hasard
+                    <div3 type="remarque" n="5"> 
+                        <p source="#edition7 #edition8">
+                        <g ref="#char_pm0" source="#edition7 #edition8"/>
+                             Un homme à la mode dure peu, car les modes passent : s’il est par hasard
                             homme de mérite, il n’est pas anéanti, et il subsiste encore par quelque
                             endroit : également estimable, il est seulement moins estimé. (VI) La
                             vertu a cela d’heureux, qu’elle se suffit à elle-même, et qu’elle sait
                             se passer d’admirateurs, de partisans et de protecteurs ; le manque
                             d’appui et d’approbation non seulement ne lui nuit pas, mais il la
                             conserve, l’épure et la rend parfaite ; qu’elle soit à la mode, qu’elle
-                            n’y soit plus, elle demeure vertu. </p>
+                            n’y soit plus, elle demeure vertu. 
                     </div3>
-                    <div3 type="remarque" n="6" source="#edition8 #edition7"><g ref="#char_pm"/>
-                        <p> Si vous dites aux hommes, et surtout aux grands, qu’un tel a de la
+                    <div3 type="remarque" n="6">
+                        <p source="#edition7 #edition8">
+                            <g ref="#char_pm0" source="#edition7 #edition8"/>
+                             Si vous dites aux hommes, et surtout aux grands, qu’un tel a de la
                             vertu, ils vous disent : « Qu’il la garde » ; qu’il a bien de l’esprit,
                             de celui surtout qui plaît et qui amuse, ils vous répondent : « Tant
                             mieux pour lui » ; qu’il a l’esprit fort cultivé, qu’il sait beaucoup,
@@ -332,17 +347,21 @@
                             plusieurs fois en un repas, alors ils disent : « Où est-il ?
                             amenez-le-moi demain, ce soir ; me l’amènerez-vous ? » On le leur amène
                             ; et cet homme, propre à parer les avenues d’une foire et à être montré
-                            en chambre pour de l’argent, ils l’admettent dans leur familiarité. </p>
+                            en chambre pour de l’argent, ils l’admettent dans leur familiarité. 
                     </div3>
-                    <div3 type="remarque" n="7" source="#edition8 #edition7">
-                        <p> Il n’y a rien qui mette plus subitement un homme à la mode et qui le
+                    <div3 type="remarque" n="7">
+                        <p source="#edition3 #edition7 #edition8">
+                            <g ref="#char_pm0" source="#edition3 #edition7 #edition8"/>
+                             Il n’y a rien qui mette plus subitement un homme à la mode et qui le
                             soulève davantage que le grand jeu : cela va du pair avec la crapule. Je
                             voudrais bien voir un homme poli, enjoué, spirituel, fût-il un Catulle
                             ou son disciple, faire quelque comparaison avec celui qui vient de
-                            perdre huit perdre huit cents pistoles en une séance. </p>
+                            perdre huit perdre huit cents pistoles en une séance. 
                     </div3>
-                    <div3 type="remarque" n="8" source="#edition8 #edition7"><g ref="#char_pm"/>
-                        <p> Une personne à la mode ressemble à une fleur bleue qui croît de soi-même
+                    <div3 type="remarque" n="8">
+                        <p source="#edition7 #edition8">
+                            <g ref="#char_pm0" source="#edition7 #edition8"/>
+                             Une personne à la mode ressemble à une fleur bleue qui croît de soi-même
                             dans les sillons, où elle étouffe les épis, diminue la moisson, et tient
                             la place de quelque chose de meilleur ; qui n’a de prix et de beauté que
                             ce qu’elle emprunte d’un caprice léger qui naît et qui tombe presque
@@ -354,9 +373,11 @@
                             embellissent le monde ; qui est de tous les temps et d’une vogue
                             ancienne et populaire ; que nos pères ont estimée, et que nous estimons
                             après nos pères ; à qui le dégoût ou l’antipathie de quelques-uns ne
-                            sauraient nuire : un lis, une rose. </p>
+                            sauraient nuire : un lis, une rose. 
                     </div3>
-                    <div3 type="remarque" n="9" source="#edition8 #edition7">
+                    <div3 type="remarque" n="9">
+                        <p source="#edition7 #edition8">
+                            <g ref="#char_pm0" source="#edition7 #edition8"/>
                         <p> L’on voit Eustrate assis dans sa nacelle, où il jouit d’un air pur et
                             d’un ciel serein : il avance d’un bon vent et qui a toutes les
                             apparences de devoir durer ; mais il tombe tout d’un coup, le ciel se
@@ -369,21 +390,23 @@
                                     ref="Erinmias" place="bottom" source="#edition3">Eustrate de Nicée
                       (en grec Εὐστράτιος Νικαίας) est un philosophe et théologien byzantin.</note></seg> </p>
                     </div3>
-                    <div3 type="remarque" n="10"source="#edition8 #edition7" ><g ref="#char_pm"/>
+                    <div3 type="remarque" n="10">
+                        <p source="#edition3 #edition5 #edition8">
+                            <g ref="#char_pm0" source="#edition3 #edition7 #edition8"/>
                         <p> Voiture et Sarrazin étaient nés pour leur siècle, et ils ont paru dans
                             un temps où il semble qu’ils étaient attendus. S’ils s’étaient moins
                             pressés de venir, ils arrivaient trop tard ; et j’ose douter qu’ils
                             fussent tels aujourd’hui qu’ils ont été alors. Les conversations
                             légères, les cercles, la fine plaisanterie<seg>plaisanterie
-                            <note ref="#LaBruyere" place="bottom" source="#edition3">blablabla</note></seg>, les lettres enjouées et
-                            familières, les petites parties où l’on était admis seulement avec de
+                            <note ref="#LaBruyere" place="bottom" source="#edition3">blablabla</note></seg>
+                            , les lettres enjouées et familières, les petites parties où l’on était admis seulement avec de
                             l’esprit, tout a disparu. Et qu’on ne dise point qu’ils les feraient
                             revivre : ce que je puis faire en faveur de leur esprit est de convenir
                             que peut-être ils excelleraient dans un autre genre ; mais les femmes
                             sont de nos jours ou dévotes, ou coquettes, ou joueuses, ou ambitieuses,
                             quelques-unes même tout cela à la fois ; le goût de la faveur, le jeu,
                             les galants, les directeurs ont pris la place, et la défendent contre
-                            les gens d’esprit. </p>
+                            les gens d’esprit. 
                     </div3>
 
 
