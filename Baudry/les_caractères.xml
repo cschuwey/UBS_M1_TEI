@@ -15,7 +15,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="editionun">
-                    <!-- page 176 sur gallica -->
+                    <!-- page 228 sur gallica https://gallica.bnf.fr/ark:/12148/bpt6k105077m/f163.item -->
                     <monogr>
                         <author>La Bruyère, Jean de</author>
                         <title type="main">Les caractères de Théophraste , traduits du grec, </title>
@@ -57,9 +57,18 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
+                <bibl xml:id="cles_XVIII"></bibl>
+                <!-- <seg> <note type="key"> <persName type="key" source="#clesXVIII"> -->
+                <listPerson>
+                    <!-- <personGrp type="fictif"/> <personGrp type="réel"/> exemple liste pour persos réels/fictifs -->
+                    <person xml:id="perso1">
+                        <name>perso1 exemple</name>
+                        <idno>ex: data bnf pour référenciel autorité</idno>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
                 <p>encodage dans le cadre du cours de XML/TEI</p>
@@ -98,14 +107,20 @@
                     <desc>Manicule droite, marquant l'ajout d'une remarque dans l'édition 7</desc>
                 </glyph>
             </charDecl>
+            <charDecl>
+                <glyph xml:id="tiret">
+                    <mapping> - </mapping>
+                    <desc>tiret à ajouter pour linker un mot</desc>
+                </glyph>
+            </charDecl>
         </encodingDesc>
-        
+
         <profileDesc>
             <langUsage>
                 <language ident="FRA">français</language>
             </langUsage>
         </profileDesc>
-        
+
         <revisionDesc>
             <change when-iso="2023-10-09">début du fichier, encodage du header/des
                 métadonnées</change>
@@ -115,8 +130,8 @@
             <change when-iso="2023-11-09">ajout des balises app</change>
         </revisionDesc>
     </teiHeader>
-    
-    
+
+
     <text>
         <front> </front>
         <body>
@@ -124,30 +139,32 @@
                 <head>Les Caractères ou les Mœurs de ce siècle</head>
                 <div2 type="chapitre" n="6">
                     <head>Des Biens de Fortune</head>
-                    
+
                     <div3 type="remarque" n="65" source="#editionneuf">
-                        <p><g ref="#char_pdm"/>L’avare dépense plus mort en un seul jour, qu’il ne
-                            faisait vivant en dix années ; et son héritier plus en dix mois, qu’il n’a<app>
+                        <p><g ref="#char_pdm"/>
+                            <pb n="151" source="#editionneuf"/>L’avare  dépense plus mort en un seul
+                            jour, qu’il ne faisait vivant en dix années ; et son héritier plus en
+                            dix mois, qu’il n’a<app>
                                 <lem>su</lem>
                                 <rdg source="#editionneuf">ʃçû</rdg>
                             </app> faire lui-même en toute sa vie.</p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="66" source="#editionneuf">
                         <p><g ref="#char_pdm"/>Ce que l’on prodigue, on l’ôte à son héritier ; ce
                             que l’on épargne sordidement, on se l’ôte à soi-même. Le milieu est
                             justice pour soi et pour les autres. <seg>note inventée 3 <note
-                                type="citation" resp="#LaBruyere" place="margin"
-                                source="#editionun">citation de La Bruyère: “L’on voit des
-                                hommes tomber d’une haute fortune par les mêmes défauts qui les
-                                y avaient fait monter.”.</note></seg></p>
+                                    type="citation" resp="#LaBruyere" place="margin"
+                                    source="#editionun">citation de La Bruyère: “L’on voit des
+                                    hommes tomber d’une haute fortune par les mêmes défauts qui les
+                                    y avaient fait monter.”.</note></seg></p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="67" source="#editionneuf">
                         <p><g ref="#char_pdm"/>Les enfants peut-être <app>
-                            <lem>seraient</lem>
-                            <rdg source="#editionneuf">ʃeroient</rdg>
-                        </app> plus chers à leurs pères, et réciproquement les pères à leurs
+                                <lem>seraient</lem>
+                                <rdg source="#editionneuf">ʃeroient</rdg>
+                            </app> plus chers à leurs pères, et réciproquement les pères à leurs
                             enfants, sans le titre d’héritiers.</p>
                     </div3>
                     <div3 type="remarque" n="68" source="#editionneuf">
@@ -156,7 +173,7 @@
                             fortune, ou la devoir à l’agonie de nos proches. Celui qui s’empêche de
                             souhaiter que son père y passe bientôt est homme de bien.</p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="69" source="#editionneuf">
                         <p><g ref="#char_pdm"/>Le caractère de celui qui veut hériter de quelqu’un
                             rentre dans celui du complaisant : nous ne sommes point mieux flattés,
@@ -168,14 +185,15 @@
                         <p><g ref="#char_pdm"/>Tous les hommes, par les postes différents, par les
                             titres et par les successions, se regardent comme héritiers les uns des
                             autres, et cultivent par cet intérêt, pendant tout le cours de leur vie,
-                            un désir secret et enveloppé de la mort d’autrui : le plus heureux dans
-                            chaque condition est celui qui a plus de choses à perdre par sa mort, et
-                            à laisser à son successeur.<seg>note inventée 1 <note type="definition"
-                                resp="#TheoBaudry1" place="bottom" source="#editionun">
-                                successeur: Personne qui succède ou doit succéder (à
-                                qqn).</note></seg></p>
+                            un désir secret et <pb n="152" source="#editionneuf"/>enveloppé de la
+                            mort d’autrui : le plus heureux dans chaque condition est celui qui a
+                            plus de choses à perdre par sa mort, et à laisser à son
+                                successeur.<seg>note inventée 1 <note type="definition"
+                                    resp="#TheoBaudry1" place="bottom" source="#editionun">
+                                    successeur: Personne qui succède ou doit succéder (à
+                                    qqn).</note></seg></p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="71" source="#editionneuf">
                         <p><g ref="#char_pdm"/> L’on dit du jeu qu’il égale les conditions ; mais
                             elles se trouvent quelquefois si étrangement disproportionnées, et il y
@@ -190,30 +208,31 @@
                             monde, et que les Orientaux qui viennent jusqu’à nous remportent sur
                             leurs tablettes : je ne doute pas même que cet excès de familiarité ne
                             les rebute davantage que nous ne sommes blessés de leur <seg> zombaye
-                                <note resp="#LaBruyere" place="margin" source="#editioneuf">V
+                                    <note resp="#LaBruyere" place="margin" source="#editioneuf">V
                                     Les Relations du Royaume de Siam</note>
                             </seg> et de leurs autres prosternations.</p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="72" source="#editionneuf">
                         <p><g ref="#char_pdm"/>Une tenue d’états, ou les chambres assemblées pour
                             une affaire très capitale, n’offrent point aux yeux rien de si grave et
                             de si sérieux qu’une table de gens qui jouent un grand jeu : une triste
                             sévérité règne sur leurs visages ; implacables l’un pour l’autre, et
                             irréconciliables ennemis pendant que la séance dure, ils ne
-                            reconnaissent plus ni liaisons, ni alliance, ni naissance, ni
-                            distinctions : le hasard seul, aveugle et farouche divinité, préside au
-                            cercle, et y décide souverainement ; ils l’honorent tous par un silence
-                            profond, et par une attention dont ils sont partout ailleurs fort
-                            incapables ; toutes les passions, comme suspendues, cèdent à une seule ;
-                            le courtisan alors n’est ni doux, ni flatteur, ni complaisant, ni même
-                            dévot. </p>
+                            reconnaissent plus ni liai<pb n="153" source="#editionneuf" rend="#tiret"
+                            />sons, ni alliance, ni naissance, ni distinctions : le hasard seul,
+                            aveugle et farouche divinité, préside au cercle, et y décide
+                            souverainement ; ils l’honorent tous par un silence profond, et par une
+                            attention dont ils sont partout ailleurs fort incapables ; toutes les
+                            passions, comme suspendues, cèdent à une seule ; le courtisan alors
+                            n’est ni doux, ni flatteur, ni complaisant, ni même dévot. </p>
                     </div3>
-                    
+
                     <div3 type="remarque" n="73" source="#editionun #editionneuf">
-                        <p><g ref="#char_pdm"/> L’on ne reconnaît plus en ceux que le jeu et le gain
-                            ont illustré la moindre trace de leur première condition : ils perdent
-                            de vue leurs égaux, et atteignent les plus grands seigneurs. Il est <app>
+                        <p><g ref="#char_pdm"/><pb n="228" source="#editionun"/> L’on ne reconnaît
+                            plus en ceux que le jeu et le gain ont illustré la moindre trace de leur
+                            première condition : ils perdent de vue leurs égaux, et atteignent les
+                            plus grands seigneurs. Il est <app>
                                 <lem>vrai</lem>
                                 <rdg source="#editionneuf">vray</rdg>
                                 <rdg source="#editionun">vray</rdg>
@@ -232,19 +251,20 @@
                             a fait au jeu un gain considérable, quel fils de famille vient de
                             recueillir une riche succession, ou quel commis imprudent veut hasarder
                             sur une carte les derniers de sa caisse.<seg>note inventée 2 <note
-                                type="definition" resp="#LaBruyere" place="margin"
-                                source="#editionneuf">note fictive pour exemple</note></seg>
+                                    type="definition" resp="#LaBruyere" place="margin"
+                                    source="#editionneuf">note fictive pour exemple</note></seg>
                             C’est un sale et indigne métier, il est vrai, que de tromper ; mais
-                            c’est un métier qui est ancien, connu, pratiqué de tout temps par ce
-                            genre d’hommes que j’appelle des brelandiers. L’enseigne est à leur
-                            porte, on y lirait presque : Ici l’on trompe de bonne foi ; car se
-                            voudraient-ils donner pour irréprochables ? Qui ne sait pas qu’entrer et
-                            perdre dans ces maisons est une même chose ? Qu’ils trouvent donc sous
-                            leur main autant de dupes qu’il en faut pour leur subsistance, c’est ce
-                            qui me passe. </p>
+                            c’est un métier qui est ancien, connu, prati<pb n="154"
+                                source="#editionneuf" rend="#tiret"/>qué de tout temps par ce genre
+                            d’hommes que j’appelle des brelandiers. L’enseigne est à leur porte, on
+                            y lirait presque : Ici l’on trompe de bonne foi ; car se voudraient-ils
+                            donner pour irréprochables ? Qui ne sait pas qu’entrer et perdre dans
+                            ces maisons est une même chose ? Qu’ils trouvent donc sous leur main
+                            autant de dupes qu’il en faut pour leur subsistance, c’est ce qui me
+                            passe. </p>
                     </div3>
-                    
-                    
+
+
                     <div3 type="remarque" n="75" source="#editionneuf">
                         <p><g ref="#char_pdm"/> Mille gens se ruinent au jeu, et vous disent
                             froidement qu’ils ne sauraient se passer de jouer : quelle excuse ! Y
@@ -268,6 +288,6 @@
             </div1>
         </body>
     </text>
-    
-    
+
+
 </TEI>
