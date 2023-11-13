@@ -2,19 +2,31 @@
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+
         <fileDesc>
+
             <titleStmt>
+
                 <title>Les Caractères ou les Moeurs de ce siècle</title>
                 <author xml:id="LaBruyere">Jean de La Bruyère</author>
                 <principal>C. Schuwey</principal>
+
             </titleStmt>
+
+
             <publicationStmt>
+
                 <publisher xml:id="lesueur"> Clémence Lesueur</publisher>
                 <date/>
                 <distributor/>
+
             </publicationStmt>
+
+
             <sourceDesc>
+
                 <listBibl>
+
                     <bibl>
                         <author>Jean de la Bruyère</author>
                         <title>Les Caractères de Théophraste, traduits du grec ; avec Les caractères
@@ -56,168 +68,211 @@
 
                 </listBibl>
 
-
             </sourceDesc>
+
         </fileDesc>
+
+
         <encodingDesc>
+
             <editorialDecl>
+
                 <normalization>
                     <p>Graphie modernisée</p>
                 </normalization>
+
                 <interpretation>
                     <p> Le nombre de balises div3 et p étant le même, j'ai choisi de mettre les
                         concordances du texte avec les éditions de 1688 et 1691 dans div3 car cela
                         revenait au même </p>
                 </interpretation>
+
             </editorialDecl>
+
+
             <charDecl>
-               <char xml:id="char_pm_simple">
-                   <mapping>❡</mapping>
-                   <desc>Pied de mouche simple</desc>
-               </char>
+
+                <char xml:id="char_pm_simple">
+                    <mapping>❡</mapping>
+                    <desc>Pied de mouche simple</desc>
+                </char>
+
                 <char xml:id="char_pm_1parentheses">
                     <mapping>(❡)</mapping>
                     <desc>Pied de mouche avec une paire de parenthèses</desc>
                 </char>
+
                 <char xml:id="char_pm_2parentheses">
                     <mapping>((❡))</mapping>
                     <desc>Pied de mouche avec deux paires de parenthèses</desc>
                 </char>
+
                 <char xml:id="maniculeg">
                     <mapping>☚</mapping>
                     <desc>Manicule vers la gauche</desc>
                 </char>
+
                 <char xml:id="maniculed">
                     <mapping>☛</mapping>
                     <desc>Maniucle vers la droite</desc>
                 </char>
-                
-                
-                
-                
+
             </charDecl>
+
         </encodingDesc>
 
+
         <profileDesc>
+
             <langUsage>
                 <language ident="fra">Français</language>
 
             </langUsage>
+
         </profileDesc>
+
+
         <revisionDesc>
+
             <change when="2023-10-11">Création du fichier Les Caractères de Jean de La Bruyère et
                 création de sa TeiHeader</change>
             <change when="2023-10-16">Création des divisions dans le chapitre De la Cour et
                 concordance du texte avec les éditions de 1688 et 1691</change>
             <change when="2023-10-18">Ajout de l'édition de 1694</change>
             <change when="2023-10-24">Ajout des annotations dans les trois éditions</change>
-            <change when="2023-11-07">Ajout des variations et des glyphs</change>
-
+            <change when="2023-11-07">Création des glyphs et ajout</change>
+            <change when="2023-11-13">Ajout d'une nouvelle variation</change>
 
         </revisionDesc>
 
 
     </teiHeader>
+
     <text>
+
         <body>
+
             <div1 type="ouvrage">
                 <head>Les Caractères ou les Moeurs de ce Siècle</head>
+
                 <div2 type="chapitre">
                     <head>De la Cour</head>
 
-
-
                     <div3 n="33" source="#edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1694"></g>Je crois pouvoir dire d’un poste éminent et délicat qu’on y monte plus
-                            aisément qu’on ne s’y conserve.</p>
+                        <p><g ref="#char_pm_simple" source="#edition1694"/>Je crois pouvoir dire
+                            d’un poste éminent et délicat qu’on y monte plus aisément qu’on ne s’y
+                            conserve.</p>
                     </div3>
+
 
                     <div3 n="34" source="#edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1694"></g><g ref="#maniculed"></g>L’on voit des hommes tomber d’une haute fortune par les mêmes défauts qui
-                            les y avaient fait monter.</p>
+                        <p><g ref="#char_pm_simple" source="#edition1694"/><g ref="#maniculed"/>L’on
+                            voit des hommes tomber d’une haute fortune par les mêmes défauts qui les
+                            y avaient fait monter.</p>
                     </div3>
+
 
                     <div3 n="35" source="#edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1694"></g> Il y a dans les cours deux manières de ce que l’on appelle congédier son
-                            monde ou se défaire des gens : se fâcher contre eux, ou faire si bien
-                            qu’ils se fâchent contre vous et s’en dégoûtent.</p>
+                        <p><g ref="#char_pm_simple" source="#edition1694"/> Il y a dans les cours
+                            deux manières de ce que l’on appelle congédier son monde ou se défaire
+                            des gens : se fâcher contre eux, ou faire si bien qu’ils se fâchent
+                            contre vous et s’en dégoûtent.</p>
                     </div3>
 
+
                     <div3 n="36" source="#edition1691 #edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1691 #edition1694"></g>L’on dit à la cour du bien de quelqu’un pour deux raisons : la première,
-                            afin qu’il apprenne que nous disons du bien de <app>
+                        <p><g ref="#char_pm_simple" source="#edition1691 #edition1694"/>L’on dit à
+                            la cour du bien de quelqu’un pour deux raisons : la première, afin qu’il
+                            apprenne que nous disons du bien de <app>
                                 <lem>lui</lem>
                                 <rdg source="#edition1691 #edition1694">luy</rdg>
                             </app> ; la seconde, afin qu’il en dise de nous.</p>
                     </div3>
 
+
                     <div3 n="37" source="#edition1688 #edition1691 #edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1688 #edition1691 #edition1694"></g>Il <app>
+                        <p><g ref="#char_pm_simple" source="#edition1688 #edition1691 #edition1694"
+                            /> Il <app>
                                 <lem>est</lem>
                                 <rdg source="#edition1688 #edition1691 #edition1694">eſt</rdg>
                             </app> aussi dangereux à la cour de faire les avances, qu’il est
                             embarrassant de ne les point faire.</p>
                     </div3>
 
+
                     <div3 n="38" source="#edition1688 #edition1691 #edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1688 #edition1691 #edition1694"></g>Il y a des gens à qui ne connaître point le nom et le visage d’un homme
-                            est un titre pour en rire et le mépriser. Ils demandent qui est cet
-                            homme ; ce n’est ni Rousseau, ni un <seg><note place="margin"
-                                    type="explication" resp="#LaBruyere"
-                                    source="#edition1691 #edition1694">Brûlé il y a vingt
-                                    ans</note><note place="bottom" type="explication"
-                                    resp="#LaBruyere" source="#edition1688">Puni pour des
-                                    saletés</note>Fabry</seg>, ni la Couture : ils ne pourraient le
-                            méconnaître.</p>
+                        <p><g ref="#char_pm_simple" source="#edition1688 #edition1691 #edition1694"
+                            />Il y a des gens à qui ne connaître point le nom et le visage d’un
+                            homme est un titre pour en rire et le mépriser. Ils demandent qui est
+                            cet homme ; ce n’est ni Rousseau, ni un <seg>
+                                <note place="margin" type="explication" resp="#LaBruyere"
+                                    source="#edition1691 #edition1694">Brûlé il y a vingt ans</note>
+                                <note place="bottom" type="explication" resp="#LaBruyere"
+                                    source="#edition1688">Puni pour des saletés</note>Fabry</seg> ,
+                            ni la Couture : ils ne pourraient le <app>
+                                <lem>méconnaître</lem>
+                                <rdg source="#edition1688 #edition1694">méconnoître</rdg>
+                                <rdg source="#edition1691">méconnoiſtre</rdg>
+                            </app>.</p>
                     </div3>
 
+
                     <div3 n="39" source="#edition1688 #edition1691 #edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1688 #edition1691 #edition1694"></g>L’on me dit tant de mal de cet homme, et j’y en vois si peu, que je
+                        <p><g ref="#char_pm_simple" source="#edition1688 #edition1691 #edition1694"
+                            />L’on me dit tant de mal de cet homme, et j’y en vois si peu, que je
                             commence à soupçonner qu’il n’ait un mérite importun qui éteigne celui
                             des autres.</p>
                     </div3>
 
+
                     <div3 n="40" source="#edition1688 #edition1691 #edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1688 #edition1691 #edition1694"></g> Vous êtes homme de bien, vous ne songez ni à plaire ni à déplaire aux
+                        <p><g ref="#char_pm_simple" source="#edition1688 #edition1691 #edition1694"
+                            /> Vous êtes homme de bien, vous ne songez ni à plaire ni à déplaire aux
                             favoris, uniquement attaché à votre maître et à votre devoir : vous êtes
                             perdu.</p>
                     </div3>
 
+
                     <div3 n="41" source="#edition1691 #edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1691 #edition1694"></g>On n’est point effronté par choix, mais par complexion ; c’est un
-                                    <seg>vice<note place="margin" type="definition" n="1"
-                                    resp="#lesueur">disposition haituelle au mal ; conduite qui en
-                                    résulte</note></seg>de l’être, mais naturel : celui qui n’est
-                            pas né tel est modeste, et ne passe pas aisément de cette extrémité à
-                            l’autre ; c’est une leçon assez inutile que de lui dire : "Soyez
-                            effronté, et vous réussirez" ; une mauvaise imitation ne lui profiterait
-                            pas, et le ferait échouer. Il ne faut rien de moins dans les cours
-                            qu’une vraie et naïve impudence pour réussir.</p>
+                        <p><g ref="#char_pm_simple" source="#edition1691 #edition1694"/>On n’est
+                            point effronté par choix, mais par complexion ; c’est un <seg>vice<note
+                                    place="margin" type="definition" n="1" resp="#lesueur"
+                                    >disposition haituelle au mal ; conduite qui en
+                                résulte</note></seg>de l’être, mais naturel : celui qui n’est pas né
+                            tel est modeste, et ne passe pas aisément de cette extrémité à l’autre ;
+                            c’est une leçon assez inutile que de lui dire : "Soyez effronté, et vous
+                            réussirez" ; une mauvaise imitation ne lui profiterait pas, et le ferait
+                            échouer. Il ne faut rien de moins dans les cours qu’une vraie et naïve
+                            impudence pour réussir.</p>
                     </div3>
+
 
                     <div3 n="42" source="#edition1691 #edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1691 #edition1694"></g>On cherche, on s’empresse, on brigue, on se tourmente, on demande, on est
-                            refusé, on demande et on obtient ; "mais, dit-on, sans l’avoir demandé,
-                            et dans le temps que l’on n’y pensait pas, et que l’on songeait même à
-                            toute autre chose" : vieux style, menterie innocente, et qui ne trompe
-                            personne.</p>
+                        <p><g ref="#char_pm_simple" source="#edition1691 #edition1694"/>On cherche,
+                            on s’empresse, on brigue, on se tourmente, on demande, on est refusé, on
+                            demande et on obtient ; "mais, dit-on, sans l’avoir demandé, et dans le
+                            temps que l’on n’y pensait pas, et que l’on songeait même à toute autre
+                            chose" : vieux style, menterie innocente, et qui ne trompe personne.</p>
                     </div3>
 
+
                     <div3 n="43" source="#edition1691 #edition1694">
-                        <p><g ref="#char_pm_simple" source="#edition1691 #edition1694"></g><seg>On fait sa brigue pour parvenir à un grand poste, on prépare toutes ses
-                            machines, toutes les mesures sont bien prises, et l’on doit être servi
-                            selon ses souhaits ; les uns doivent entamer, les autres appuyer ;
-                            l’amorce est déjà conduite, et la mine prête à jouer : alors on
-                            s’éloigne de la cour.<note place="margin"
-                                type="manuscrite" resp="#LaBruyere" source="#edition1694"/></seg>Qui oserait soupçonner d’Artémon qu’il ait pensé à
-                            se mettre dans une si belle place, lorsqu’on le tire de sa terre ou de
-                            son gouvernement pour l’y faire asseoir ? Artifice grossier, finesses
-                            usées, et dont le <seg>courtisan<note place="bottom" n="1"
-                                    type="definition" resp="#lesueur">Homme qui est attaché à la
-                                    cour, qui fréquent la cour d'un souverain</note></seg> s’est
-                            servi tant de fois, que, si je voulais donner le change à tout le public
-                            et lui dérober mon ambition, je me trouverais sous l’œil et sous la main
-                            du <seg>prince<note place="bottom" n="2" type="définition"
+                        <p><g ref="#char_pm_simple" source="#edition1691 #edition1694"/>On fait sa
+                            brigue pour parvenir à un grand poste, on prépare toutes ses machines,
+                            toutes les mesures sont bien prises, et l’on doit être servi selon ses
+                            souhaits ; les uns doivent entamer, les autres appuyer ; l’amorce est
+                            déjà conduite, et la mine prête à jouer : alors on s’éloigne de la cour.
+                            Qui oserait soupçonner <seg>d’Artémon<note place="margin"
+                                    type="manuscrite" resp="#LaBruyere" source="#edition1694"
+                                /></seg> qu’il ait pensé à se mettre dans une si belle place,
+                            lorsqu’on le tire de sa terre ou de son gouvernement pour l’y faire
+                            asseoir ? Artifice grossier, finesses usées, et dont le
+                                    <seg>courtisan<note place="bottom" n="1" type="definition"
+                                    resp="#lesueur">Homme qui est attaché à la cour, qui fréquent la
+                                    cour d'un souverain</note></seg> s’est servi tant de fois, que,
+                            si je voulais donner le change à tout le public et lui dérober mon
+                            ambition, je me trouverais sous l’œil et sous la main du
+                                    <seg>prince<note place="bottom" n="2" type="définition"
                                     resp="#lesueur">Celui qui appartient à une famille souveraine,
                                     sans régner lui-même ; titre porté par les membres de la famille
                                     royale, en France</note></seg>, pour recevoir de lui la grâce
