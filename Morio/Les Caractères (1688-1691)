@@ -53,6 +53,19 @@
                     <idno>NUMM-57567</idno>
                     <link target="https://gallica.bnf.fr/ark:/12148/bpt6k57567b?rk=214593;2"/>
                 </bibl>
+                <listPerson>
+                    <person xml:id="corneille_le_jeune">
+                        <name>Corneille le jeune</name>
+                        <idno>https://data.bnf.fr/11998611/</idno>
+                    </person>
+                    <person xml:id="pierre_corneille">
+                        <name>Pierre Corneille</name>
+                        <idno>https://data.bnf.fr/fr/11897704/</idno>
+                    </person>
+                    <person xml:id="pierre_poncet">
+                        <name>Pierre Poncet</name>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -124,6 +137,10 @@
                     de typographie et de balises "CharDecl" dans "encodingDesc" pour intégrer les
                     pieds-de-mouche et les manicules. Ajout des pieds-de-mouche et de trois "app"
                     dans la TEI.</change>
+                <change when="2023-11-13">Ajout des changements de page grâce à l'élément "pb".
+                    Ajout d'une note de type clé dans la remarque 8, dans laquelle est ajouté une
+                    identification des peronnes nommées grâce à "persName". Précision des xml:id
+                    dans "sourceDesc"</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -155,14 +172,22 @@
                             une pendule : il faut plus que de l’esprit pour être <app>
                                 <lem>auteur</lem>
                                 <rdg source="#edition1 #edition6">Auteur</rdg>
-                            </app>. Un magistrat allait par son mérite à la première dignité, il
-                            était homme délié et pratique dans les affaires : il a fait imprimer un
-                            ouvrage moral, qui est rare par le ridicule.</p>
+                            </app>. <seg><note type="clé" source="toutes_sources">Selon toutes les
+                                    clés : <persName ref="#pierre_poncet">Pierre Poncet</persName>
+                                    de la Rivière (1600-1681), mort doyen des conseillers d'Etat. La
+                                    parution de ses Considérations sur les avantages de la
+                                    vieillesse dans la vie chrétienne, politique, civile, économique
+                                    et solitaire (S. Cramoisy, 1677) nuisit, semble-t-il, à sa
+                                    candidature à la succession du premier président du Parlement
+                                    Lamoignon (mort en décembre 1677).</note>Un magistrat</seg>
+                            allait par son mérite à la première dignité, il était homme délié et
+                            pratique dans les affai<pb source="#edition1" n="159"/>res : il a fait
+                            imprimer un ouvrage moral, qui est rare par le ridicule.</p>
                     </div3>
                     <div3 type="remarque" n="4" source="#edition1 #edition6">
                         <p><g ref="#char_pm"/>Il n’est pas si aisé de se faire un nom par un ouvrage
                             parfait, que d’en faire valoir un médiocre par le nom qu’on s’est déjà
-                            acquis.</p>
+                                acquis.<pb source="#edition6" n="65"/></p>
                     </div3>
                     <div3 type="remarque" n="5" source="#edition1 #edition6">
                         <p><g ref="#char_pm"/>Un ouvrage satirique ou qui contient des faits, qui
@@ -180,7 +205,8 @@
                     </div3>
                     <div3 type="remarque" n="7" source="#edition1">
                         <p><g ref="#char_pm"/>Quel supplice que celui d’entendre prononcer de
-                            médiocres vers avec toute l’emphase d’un mauvais poète.</p>
+                            médiocres vers avec toute l’emphase<pb source="#edition1" n="160"/>d’un
+                            mauvais poète.</p>
                     </div3>
                     <div3 type="remarque" n="7" source="#edition6">
                         <p><g ref="#char_pm"/>Il y a de certaines choses dont la médiocrité est
@@ -198,14 +224,23 @@
                             exigeant.</note>
                     </div3>
                     <div3 type="remarque" n="8" source="#edition6">
-                        <p><g ref="#char_pm"/>Certains poètes sont sujets, dans le dramatique, à de
-                            longues suites de vers pompeux, qui semblent forts, élevés, et remplis
-                            de grands sentiments. Le peuple écoute avidement, les yeux élevés et la
-                            bouche ouverte, croit que cela lui plaît, et à mesure qu’il y comprend
-                            moins l’admire davantage ; il n’a pas le temps de respirer, il a à peine
-                            celui de se récrier et d’applaudir. J’ai cru autrefois, et dans ma
-                            première jeunesse, que ces endroits étaient clairs et intelligibles pour
-                            les acteurs, pour le parterre et l’amphithéâtre, que leurs auteurs
+                        <p><g ref="#char_pm"/><seg>Certains poètes<note type="clé"
+                                    source="cle_XVIII">Clés du XVIIIe siècle : "<persName
+                                        ref="#corneille_le_jeune">Corneille le jeune</persName>
+                                    [Thomas], dans sa Bérénice [tragédie, 1657], dont les quatre
+                                    premiers vers sont un pur galimatias". Mais le repoche fut
+                                    régulièrement adressé à <persName ref="#pierre_corneille">Pierre
+                                        Corneille</persName>, par les zélateurs de Racine mais aussi
+                                    par Boileau, et notamment pour Tite et Bérénice, comédie
+                                    héroïque créée en 1670.</note></seg> sont sujets, dans le
+                            dramatique, à de longues suites de vers pompeux, qui semblent forts,
+                            élevés, et remplis de grands sentiments. Le peuple écoute avidement, les
+                            yeux élevés et la bouche ouverte, croit que cela lui plaît, et à mesure
+                            qu’il y comprend moins l’ad-<pb source="#edition6" n="66"/>mire
+                            davantage ; il n’a pas le temps de respirer, il a à peine celui de se
+                            récrier et d’applaudir. J’ai cru autrefois, et dans ma première
+                            jeunesse, que ces endroits étaient clairs et intelligibles pour les
+                            acteurs, pour le parterre et l’amphithéâtre, que leurs auteurs
                             s’entendaient eux-mêmes, et qu’avec toute l’attention que je donnais à
                             leur récit, j’avais tort de n’y rien entendre : je suis détrompé.</p>
                     </div3>
