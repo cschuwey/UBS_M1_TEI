@@ -53,6 +53,13 @@
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=21459;2</ref> <!--page 277-->
                     </bibl>
                 </listBibl>
+                
+                <listPerson>
+                    <person xml:id="#"
+                        <name></name>
+                        <idno></idno>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         
@@ -96,10 +103,6 @@
             <langUsage>
                 <language ident="fra">Français</language>
             </langUsage>
-            
-            <abstract>
-                <list>
-                    <name xml:id="#andre" key="#" type="person">André</name>
         </profileDesc>
         
         <revisionDesc>
