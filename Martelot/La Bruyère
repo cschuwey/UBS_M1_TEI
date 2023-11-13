@@ -12,6 +12,12 @@
                 <date when="2023-10-12">12 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
+                <listPerson>
+                    <person> <name> jean rcine </name>
+                        <idno>blabla</idno>
+                    </person>
+                </listPerson>
+                
                 <listBibl>
                     <bibl xml:id="edition9">
                         <author xml:id="labruyere">Jean de La Bruyère</author>
@@ -179,14 +185,14 @@
                         <p>
                             <g ref="#char_pm-par2"/>Tous les étrangers ne sont pas barbares, et tous
                             nos compatriotes ne sont pas civilisés : de même toute campagne n’est
-                            pas <seg>agreste
-                                <note place="margin" resp="#labruyere" source="#edition4"> Contre la
-                                    maxime latine et triviale </note> Ce terme s'entend ici
-                                métaphoriquement</seg> et toute ville n’est pas polie.</p>
-                        <p>Il y a dans l’Europe un endroit d’une province maritime d’un grand
-                            royaume où le villageois est doux et insinuant, le bourgeois au
-                            contraire et le magistrat grossiers, et dont la rusticité est
-                            héréditaire.</p>
+                            pas <seg>agreste <note place="margin" resp="#labruyere"
+                                    source="#edition4"> Contre la maxime latine et triviale </note>
+                                Ce terme s'entend ici métaphoriquement</seg> et toute ville n’est
+                            pas polie.</p>
+                        <p>Il y a dans l’Europe un endroit <geogName>d’une province
+                                maritime</geogName> d’un grand royaume où le villageois est doux et
+                            insinuant, le bourgeois au contraire et le magistrat grossiers, et dont
+                            la rusticité est héréditaire.</p>
                     </div3>
                     <div3 n="23" source="#edition2 #edition4 #edition9">
                         <p>
@@ -265,14 +271,15 @@
                     <div3 source="#edition4 #edition2">
                         <p><g ref="#char_pm-par"/>Cesar n'etoit point trop vieux pour penser à la
                             conquête de <seg> l'Univers <note place="margin" resp="#labruyere"
-                                    source="#edition4"> V.Les pensées de M.Pascal, ch31 où il dit le contraire </note>
-                                </seg>; il
-                            n'avoit point d'autre beatitude à le faire que le cours d'une belle vie,
-                            et un grand nom après sa mort; né fier, amibitieux, et se portant bien
-                            comme il faisoit, il ne pouvoit mieux employer son temps qu'à conquerir
-                            le monde. Alexandre était bien jeune pour un deffein si serieux; bien
-                            jeune pour un deffein si serieux; il est etonnant que dans ce premier
-                            âge les femmes ou levin n'ayent pas plutôt rompu son entreprise.</p>
+                                    source="#edition4"> V.Les pensées de M.Pascal, ch31 où il dit le
+                                    contraire </note>
+                            </seg>; il n'avoit point d'autre beatitude à le faire que le cours d'une
+                            belle vie, et un grand nom après sa mort; né fier, amibitieux, et se
+                            portant bien comme il faisoit, il ne pouvoit mieux employer son temps
+                            qu'à conquerir le monde. Alexandre était bien jeune pour un deffein si
+                            serieux; bien jeune pour un deffein si serieux; il est etonnant que dans
+                            ce premier âge les femmes ou levin n'ayent pas plutôt rompu son
+                            entreprise.</p>
 
                     </div3>
 
@@ -319,7 +326,7 @@
                             connaît le prix de ce que vous lui dites, et auprès de qui vous ne
                             perdez rien de ce qui vous échappe. Loin de s’appliquer à vous
                             contredire avec esprit, et d’imiter Elvire, qui aime mieux passer pour
-                            une femme vive que marquer du bon sens et de la justesse, elle
+                            <persName type="person">une femme vive</persName> que marquer du bon sens et de la justesse, elle
                             s’approprie vos sentiments, elle les croit siens, elle les étend, elle
                             les embellit : vous êtes content de vous d’avoir pensé si bien, et
                             d’avoir mieux dit encore que vous n’aviez cru. Elle est toujours
@@ -353,12 +360,15 @@
                             et sa vertu plus spécieuse. Un air réformé, une modestie outrée, la
                             singularité de l’habit, une ample calotte n’ajoutent rien à la probité,
                             ne relèvent pas le mérite ; ils le fardent, et font peut-être qu’il est
-                            moins pur et moins ingénu. (VI) Une gravité trop étudiée devient comique
-                            ; ce sont comme des extrémités qui se touchent et dont le milieu est
-                            dignité ; cela ne s’appelle pas être grave, mais en jouer le personnage
-                            ; celui qui songe à le devenir ne le sera jamais : ou la gravité n’est
-                            point, ou elle est naturelle ; et il est moins difficile d’en descendre
-                            que d’y monter. </p>
+                            moins pur et moins ingénu. (VI) <seg> Une gravité trop étudiée
+                                <note type="cle">premier <persName>président de Harlay</persName>, le portrait que brosse
+                                        <persName>Saint-Simon</persName> de ce Magistrat qui se donnait des airs
+                                    d'écclésiatique</note></seg> devient comique ; ce sont comme des
+                            extrémités qui se touchent et dont le milieu est dignité ; cela ne
+                            s’appelle pas être grave, mais en jouer le personnage ; celui qui songe
+                            à le devenir ne le sera jamais : ou la gravité n’est point, ou elle est
+                            naturelle ; et il est moins difficile d’en descendre que d’y monter.
+                        </p>
                     </div3>
 
                     <div3 n="30" source="#edition9">
