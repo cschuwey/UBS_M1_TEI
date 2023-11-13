@@ -86,6 +86,9 @@
                 factices.</change>
             <change when="2023-11-07">Ajout de deux variations (lui-luy et user-ufer) spécifique à
                 l'édition 8.</change>
+            <change when="2023-11-13">Correction du devoir : ajout de la troisième variation maquante
+                (lui-luy/user-ufer/veuille-veüille), toutes spécifiques à l'édition 8. Ajout des @source dans
+                chaque g.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -97,7 +100,7 @@
                     <head>Des Biens de Fortune</head>
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(21)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p>On ne peut mieux <app>
                                 <rdgGrp>
                                     <lem>user</lem>
@@ -116,8 +119,12 @@
                             d’accorder son amitié, implore sa protection. Il a commencé par dire de
                             soi-même : un homme de ma sorte ; il passe à dire : un homme de ma
                             qualité ; il se donne pour tel, et il n’y a personne de ceux à qui il
-                            prête de l’argent, ou qu’il reçoit à sa table, qui est délicate, qui
-                            veuille s’y opposer. Sa demeure est superbe ; un dorique règne dans tous
+                            prête de l’argent, ou qu’il reçoit à sa table, qui est délicate, qui <app>
+                                <rdgGrp>
+                                    <lem>veuille </lem>
+                                    <rdg wit="#edition8">veüille</rdg>
+                                </rdgGrp>
+                            </app> s’y opposer. Sa demeure est superbe ; un dorique règne dans tous
                             ses dehors ; ce n’est pas une porte, c’est un portique : est-ce la
                             maison d’un particulier ? est-ce un temple ? le peuple s’y trompe. Il
                             est le seigneur dominant de tout le <seg>quartier <note
@@ -150,7 +157,7 @@
                     </div3>
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(22)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p>Combien d’hommes ressemblent à ces arbres déjà forts et avancés que l’on
                             transplante dans les jardins, où ils surprennent les yeux de ceux qui
                             les voient placés dans de beaux endroits<note resp="#Josset"
@@ -160,7 +167,7 @@
                     </div3>
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(23)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p> Si certains morts revenaient au monde, et s’ils voyaient leurs grands
                             noms portés, et leurs terres les mieux titrées avec leurs châteaux et
                             leurs maisons antiques, possédées par des gens dont les pères étaient
@@ -172,7 +179,7 @@
                     </div3>
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(24)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p> Rien ne fait mieux comprendre le peu de chose que Dieu croit donner aux
                             hommes, en leur abandonnant les richesses, l’argent, les grands
                                 établissements<note resp="#Josset" place="margin" type="glossaire"
@@ -191,7 +198,7 @@
 
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(25)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p>Si vous entrez dans les cuisines, où l’on voit réduit en art et en
                             méthode le secret de flatter votre goût et de vous faire manger au delà
                             du nécessaire ; si vous examinez en détail tous les apprêts des viandes
@@ -224,7 +231,7 @@
 
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(26)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p>
                             <seg>Ce garçon <note resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">CE GARCON (...)1671.</note></seg> si frais,
@@ -244,7 +251,7 @@
                     </div3>
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(27)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p><seg>Chrysippe<note resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">CHRYSIPPE. (...)BonTemps.</note></seg>, homme
                             nouveau, et le premier noble de sa race, aspirait, il y a trente années,
@@ -263,7 +270,7 @@
                     </div3>
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(28)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p> Laissez faire <seg>Ergaste<note resp="#laBruyère" place="margin"
                                     type="information" source="#edition8">ERGASTE; (...)
                                     revenir.</note></seg>, et il exigera un droit de tous ceux qui
@@ -289,7 +296,7 @@
                     </div3>
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(29)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p> Ne traitez pas avec <seg>CRITON<note resp="#laBruyère" place="margin"
                                     type="information" source="#edition8"
                                     >CRITON.(...)laquais".</note></seg>, il n’est touché que de ses
@@ -301,7 +308,7 @@
                     </div3>
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(30)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p>
                             <seg>Brontin<note resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">BRONTIN.(...)laquais".</note></seg>, dit
@@ -311,7 +318,7 @@
                             avec des saints : ils ont leurs méditations, et il a les siennes. </p>
                     </div3>
                     <div3 source="#edition10 #edition8" type="remarque" n="(31)">
-                        <g ref="#char_pdm1"/>
+                        <g source="#edition8" ref="#char_pdm1"/>
                         <p> Le peuple souvent a le plaisir de <seg>la tragédie<note
                                     resp="#laBruyère" place="margin" type="glossaire"
                                     source="#edition8">LA TRAGEDIE.(...)d'Ancre.</note></seg> : il
