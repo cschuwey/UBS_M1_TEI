@@ -105,6 +105,7 @@
             <change when="2023-11-07">Correction du TD5 et ajout des variations des textes. Le même
                 jour, ajout des glyphs dans le teiHeader avec la balise charDecl et dans le
                 texte.</change>
+            <change when="2023-11-13">Début de l'ajout des limites de page.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -146,7 +147,7 @@
                                     place="margin" resp="#poittevin">Biens assignés lors du mariage
                                     dont la femme peut être bénéficiaire si elle devient
                                     veuve.</note></seg> et les conventions, mais faiblement sur les
-                            nourritures ; elles dépendent d’une union fragile <app>
+                            nourritures ; elles <pb n="156" source="#édition3"/> dépendent d’une union fragile <app>
                                 <rdg source="#édition6 #édition8">de la belle-mère et de la bru,
                                     et</rdg>
                                 <rdg source="#édition3"/>
@@ -180,7 +181,7 @@
                                     si dans ce cas, il ne décrit pas un endroit en
                                     particulier.</note></seg>. Eloignés des villes et de tout
                             commerce, il semblait que la fuite d’une entière solitude ou l’amour de
-                            la société eût dû les assujettir à une liaison réciproque <app>
+                            la société eût dû les assujettir à une liaison récipro-<pb n="157" source="#édition3"/>que <app>
 
                                 <rdg source="#édition6 #édition8">;</rdg>
                                 <rdg source="#édition3">:</rdg>
