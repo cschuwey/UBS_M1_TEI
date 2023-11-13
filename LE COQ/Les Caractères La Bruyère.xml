@@ -322,22 +322,3 @@
         </body>
     </text>
 </TEI>
-
-
-<app type="morpho"><lem>misères</lem><rdg wit="edition8">misères</rdg></app>
-<app type="morpho"><lem>s</lem><rdg wit="edition8" source="edition3">z</rdg></app>
-<app type="morpho"><lem>s</lem>
-    <rdg source="edition8">z</rdg> 
-<rdg source="edition8" wit="#edition8_101" resp="#main-inconnue">s</rdg></app>
-
-source = dans la plupart des editions => s'écrit de cette manière
-wit= pas propre à une édition mais dans une édition spécique ( qui détone) 
-
-
-Combien d'hommes admirables et qui <app>
-    <rdg source="#edition6">choses</rdg>
-    <rdg source="#edition"/>
-</app>
-
-
-<g ref="#char_pm"></g>
