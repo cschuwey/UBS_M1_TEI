@@ -73,13 +73,20 @@
                     <ref type="URL"
                         >https://num.classiques-garnier.com/index.php?module=App&amp;action=FrameMain</ref>
                 </bibl>
+                <listPerson>
+                    <name> </name>
+                    <idno> </idno>
+                    <name> </name>
+                    <idno> </idno>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <charDecl>
                 <char xml:id="char_pm_par">
                     <mapping>❡</mapping>
-                    <desc>Pied-de-mouche présentant une remarque présente depuis la première édition.</desc>
+                    <desc>Pied-de-mouche présentant une remarque présente depuis la première
+                        édition.</desc>
                 </char>
                 <char xml:id="char_pm_par1">
                     <mapping>(❡)</mapping>
@@ -155,11 +162,13 @@
                 <item><date when="2023-10-26">26 octobre 2023</date>Ajout d'une nouvelle source et
                     des balises lui correspondant dans le teiHeader et le texte. Notes
                     retravaillées.</item>
-                <item><date when="2023-11-07">7 Octobre 2023</date>Ajout des éléments seg oubliés
+                <item><date when="2023-11-07">7 octobre 2023</date>Ajout des éléments seg oubliés
                     dans le devoir et création de balises app. Création de glyphes dans le teiHeader
                     et ajout des caractères typographiques dans le texte pour le texte. Ajout d'une
                     source pour le texte servant de base à l'encodage. Travail pour une cohabitation
                     entre les élément seg et noteGrp.</item>
+                <item><date when="2023-11-13">13 octobre 2023</date>Ajout de mention de sauts de
+                    page, mention d'entités nommées et de clés.</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -170,11 +179,12 @@
                 <div2 type="chapitre" n="13">
                     <head>De la Mode</head>
                     <div3 source="#edition4 #edition8" n="11">
-                        <p><g ref="char_pm"/>Un homme fat et ridicule porte un long chapeau, un
-                            pourpoint à ailerons, des chausses à aiguillettes et des bottines ; il
-                            rêve la veille par où et comment il pourra se faire remarquer le jour
-                            qui suit. Un philosophe se laisse habiller par son tailleur : il y a
-                            autant de <app>
+                        <p><g ref="char_pm"/><seg>Un homme fat et ridicule<note type="cle"><persName
+                                        source="">Varillas</persName></note></seg> porte un long
+                            chapeau, un pourpoint à ailerons, des chausses à aiguillettes et des
+                            bottines ; il rêve la veille par où et comment il pourra se faire
+                            remarquer le jour qui suit. Un philosophe se laisse habiller par son
+                            tailleur : il y a autant de <app>
                                 <lem source="#edition4 #edition8">foiblesse</lem>
                             </app>faiblesse à fuir la mode qu’à l’<seg>affecter<note
                                     resp="#lesaffre" type="gloss" source="#furetiere">"Aimer,
@@ -183,9 +193,9 @@
                     </div3>
                     <div3 source="#edition4 #edition8" n="12">
                         <p><g ref="char_pm"/>L’on blâme une mode qui divisant la taille des hommes
-                            en deux parties égales, en prend une tout entière pour le buste, et
-                            laisse l’autre pour le reste du corps ; l’on condamne celle qui fait de
-                            la tête des femmes la <app>
+                            en deux<pb source="#edition8" n="575"/>parties égales, en prend une tout
+                            entière pour le buste, et laisse l’autre pour le reste du corps ; l’on
+                            condamne celle qui fait de la tête des femmes la <app>
                                 <lem source="#edition8">base</lem>
                                 <rdg source="#edition4">baze</rdg>
                             </app> d’un édifice à plusieurs étages dont l’ordre et la structure
@@ -223,8 +233,8 @@
                                     note un sème d'hypocrisie : "On le dit aussi de ceux qui
                                     trompent sous apparence d'honnêteté, qui déguisent leurs
                                     sentiments".</note></seg> ce qui leur a servi de parure grave et
-                            d’ornements les plus sérieux ; et que si peu de temps en fasse la
-                            différence.</p>
+                            d’ornements les plus sérieux ; et que si peu de<pb source="#edition8"
+                                n="576"/> temps en fasse la différence.</p>
                     </div3>
                     <div3 source="#edition8" n="13">
                         <p><g ref="char_pm"/>N… est riche, elle mange bien, elle dort bien ; mais
@@ -232,10 +242,12 @@
                             croit heureuse, la sienne est hors de mode.</p>
                     </div3>
                     <div3 source="#edition8" n="14">
-                        <p><g ref="char_pm"/><name rend="italic">Iphis</name> voit à l’église un
-                            soulier d’une nouvelle mode ; il regarde le sien et en rougit ; il ne se
-                            croit plus habillé. Il était venu à la messe pour s’y montrer, et il se
-                            cache ; le voilà retenu par le pied dans sa chambre tout le reste du
+                        <p><g ref="char_pm"/>
+                            <name rend="italic"><seg>Iphis<note type="cle"><persName source="">M. le
+                                            Rebours</persName></note></seg></name> voit à l’église
+                            un soulier d’une nouvelle mode ; il regarde le sien et en rougit ; il ne
+                            se croit plus habillé. Il était venu à la messe pour s’y montrer, et il
+                            se cache ; le voilà retenu par le pied dans sa chambre tout le reste du
                             jour. Il a la main douce, et il l’entretien avec une <seg>pâte de
                                     senteur<note resp="#lesaffre" type="explication">Équivalent à la
                                     crème de soin ou la crème hydratante aujourd'hui.</note></seg> ;
@@ -246,14 +258,14 @@
                             délicate, et heureusement il parle gras ; il a un mouvement de tête, et
                             je ne sais quel adoucissement dans les yeux, dont il n’oublie pas de
                             s’embellir ; il a une démarche molle et le plus joli maintien qu’il est
-                            capable de se procurer ; il met du rouge, mais rarement, il n’en fait
-                            pas habitude. Il est vrai aussi qu’il porte des <seg>chausses<note
-                                    resp="#lesaffre" type="gloss" source="furetiere">"ou
-                                    haut-de-chausses, signifie la partie inférieure de l'habit d'un
-                                    homme, qui lui couvre les fesses, le ventre et les cuisses"
-                                    (Furetière)</note></seg> et un chapeau, et qu’il n’a ni boucles
-                            d’oreilles ni collier de perles ; aussi ne l’ai-je pas mis dans le
-                            chapitre des femmes.</p>
+                            capable de se procurer ; il met du rouge, mais rarement, il<pb
+                                source="#edition8" n="577"/> il n’en fait pas habitude. Il est vrai
+                            aussi qu’il porte des <seg>chausses<note resp="#lesaffre" type="gloss"
+                                    source="furetiere">"ou haut-de-chausses, signifie la partie
+                                    inférieure de l'habit d'un homme, qui lui couvre les fesses, le
+                                    ventre et les cuisses" (Furetière)</note></seg> et un chapeau,
+                            et qu’il n’a ni boucles d’oreilles ni collier de perles ; aussi ne
+                            l’ai-je pas mis dans le chapitre des femmes.</p>
                     </div3>
                     <div3 source="#edition8" n="15">
                         <p><g ref="char_pm"/>Ces mêmes modes que les hommes suivent si volontiers
@@ -288,6 +300,7 @@
                                     source="#TLFI">Membre du peuple indo-européen antique scythe,
                                     sens déformé en "homme grossier, barbare" (TLFI)</note></seg>,
                             un Attila, d’un prince qui est bon et magnanime.</p>
+                        <pb source="#edition8" n="578"/>
                         <p>Une mode a à peine détruit une autre mode, qu’elle est abolie par une
                             plus nouvelle, qui cède elle-même à celle qui la suit, et qui ne sera
                             pas la dernière : telle est notre légèreté. Pendant ces révolutions, un
@@ -314,9 +327,10 @@
                                     la phrase, nous déduisons que les cheuveux naturels sont portés
                                     non sous la forme de perruque pour cette occurence, mais tels
                                     qu'ils poussent sur le crâne.</note></seg>, étaient en chausses
-                            et en pourpoint, portait de larges canons, et il était libertin. Cela ne
-                            sied plus : il porte une perruque, l’habit serré, le bas uni, et il est
-                            dévot : tout se règle par la mode.</p>
+                            et en pourpoint, portait de larges canons, et il<pb source="#edition8"
+                                n="579"/> était libertin. Cela ne sied plus : il porte une perruque,
+                            l’habit serré, le bas uni, et il est dévot : tout se règle par la
+                            mode.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="17">
                         <p><g ref="char_pm"/>Celui qui depuis quelque temps à la cour était dévot,
@@ -341,6 +355,7 @@
                             vertu et ce que c’est que <seg>dévotion<note resp="#labruyere"
                                     place="margin" type="definition">fausse dévotion</note></seg>:
                             il ne peut plus s’y tromper.</p>
+                        <pb source="#edition8" n="580"/>
                     </div3>
                     <div3 source="#edition8" n="21">
                         <p><g ref="char_man_right"/><g ref="char_pm"/>Négliger vêpres comme une
@@ -358,14 +373,15 @@
                             spiritualité, comme s’il n’y avait ni Evangile, ni Epîtres des Apôtres,
                             ni morale des Pères ; lire ou parler un jargon inconnu aux premiers
                             siècles ; circonstancier à confesse les défauts d’autrui, y pallier les
-                            siens ; s’accuser de ses souffrances, de sa patience ; dire comme un
-                            péché son peu de progrès dans l’héroïsme ; être en liaison secrète avec
-                            de certaines gens contre certains autres ; n’estimer que soi et sa
-                            cabale, avoir pour suspecte la vertu même ; goûter, savourer la
-                            prospérité et la faveur, n’en vouloir que pour soi, ne point aider au
-                            mérite, faire servir la piété à son ambition, aller à son salut par le
-                            chemin de la fortune et des dignités : c’est du moins jusqu’à ce jour le
-                            plus bel effort de la dévotion du temps.</p>
+                            siens ; s’accuser de ses souffrances, de sa patience ;<pb
+                                source="#edition8" n="581"/> dire comme un péché son peu de progrès
+                            dans l’héroïsme ; être en liaison secrète avec de certaines gens contre
+                            certains autres ; n’estimer que soi et sa cabale, avoir pour suspecte la
+                            vertu même ; goûter, savourer la prospérité et la faveur, n’en vouloir
+                            que pour soi, ne point aider au mérite, faire servir la piété à son
+                            ambition, aller à son salut par le chemin de la fortune et des dignités
+                            : c’est du moins jusqu’à ce jour le plus bel effort de la dévotion du
+                            temps.</p>
                         <p>Un <seg>dévot<note resp="#labruyere" place="margin" type="definition"
                                     >faux dévot</note></seg> est celui qui sous un roi athée serait
                             athée.</p>
