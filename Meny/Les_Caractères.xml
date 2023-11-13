@@ -41,10 +41,19 @@
                         <publisher>E. Michallet</publisher>
                         <date>1694</date>
                         <edition>huitiène édition</edition>
-                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f159.item.r=Les%20caract%C3%A8res%20de%20Th%C3%A9ophraste%20traduits%20du%20grec</ref>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f</ref>
                         <name type="owner" xml:id="unknown">unknown</name>
                     </bibl>
                 </listBibl>
+                <listPerson>
+                    <person xml:id="dorinne">
+                        <persName>Dorinne</persName>
+                    </person>
+                    <person xml:id="moreaux">
+                        <persName>Moreaux</persName>
+                        <occupation>médecin</occupation>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -118,6 +127,8 @@
                 pieds-de-mouche</change>
             <change when="2023-11-10"> Ajout d'une variation dans le texte, correction de l'attribut
                 type de la balise glyph en ref.</change>
+            <change when="2023-11-13">Modification du lien inexacte de l'édition 8, ajout des
+                changements de page, ajout d'une balise <!--listPerson--> dans le TeiHeader.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -132,12 +143,15 @@
                                 <lem>vue</lem>
                                 <rdg source="#edition1">veuë</rdg>
                                 <rdg source="#edition6 #edition8">vûe</rdg>
-                            </app>du secret, ou par un goût hypocondre, que cette femme aime un
-                            valet, cette autre un moine, et <seg>Dorinne <note place="margin"
-                                    resp="#unknown">note fictive</note></seg>son médecin ?</p>
+                            </app> du secret, ou par un goût hypocondre, que cette femme aime un
+                            valet, cette autre un moine, et <seg>Dorinne<note place="margin"
+                                    resp="#unknown">note fictive</note><note type="cle">Mlle
+                                    Foucaut, fille de M. Foucaut, conseiller aux requêtes du Palais,
+                                    qui aimait <persName>Moreaux</persName>, médecin.</note></seg>
+                            son médecin ?</p>
                     </div3>
                     <div3 n="33" source="#edition8">
-                        <p><g ref="#char_pm"/><seg>Roscius <note resp="#unknown" place="margin">note
+                        <p><g ref="#char_pm"/><seg>Roscius<note resp="#unknown" place="margin">note
                                     fictive</note></seg> entre sur la scène de bonne grâce : oui,
                             Lélie ; et j’ajoute encore qu’il a les jambes bien tournées, qu’il joue
                             bien, et de longs rôles, et que pour déclamer parfaitement il ne lui
@@ -148,29 +162,30 @@
                             cela ne serait pas ainsi, il est retenu : Claudie attend, pour l’avoir,
                             qu’il se soit dégoûté de Messaline. Prenez Bathylle, Lélie : où
                             trouverez-vous, je ne dis pas dans l’ordre des chevaliers, que vous
-                            dédaignez, mais même parmi les farceurs un jeune homme qui s’élève si
-                            haut en dansant, et qui passe mieux la capriole ? Voudriez-vous le
-                            sauteur Cobus, qui, jetant ses pieds en avant, tourne une fois en l’air
-                            avant que de tomber à terre ? Ignorez-vous qu’il n’est plus jeune ? Pour
-                            Bathylle, dites-vous, la presse y est trop grande, et il refuse plus de
-                            femmes qu’il n’en agrée ; mais vous avez Dracon, le joueur de flûte :
-                            nul autre de son métier n’enfle plus décemment ses joues en soufflant
-                            dans le hautbois ou le flageolet, car c’est une chose infinie que le
-                            nombre des instruments qu’il fait parler ; plaisant d’ailleurs, il fait
-                            rire jusqu’aux enfants et aux femmelettes. Qui mange et qui boit mieux
-                            que Dracon en un seul repas ? Il enivre toute une compagnie, et il se
-                            rend le dernier. Vous soupirez, Lélie : est-ce que Dracon aurait fait un
-                            choix, ou que malheureusement on vous aurait prévenue ? Se serait-il
-                            enfin engagé à Césonie, qui l’a tant couru, qui lui a sacrifié une si
-                            grande foule d’amants, je dirai même toute la fleur des Romains ? à
-                            Césonie, qui est d’une famille patricienne, qui est si jeune, si belle,
-                            et si sérieuse ? Je vous plains, Lélie, si vous avez pris par contagion
-                            ce nouveau goût qu’ont tant de femmes romaines pour ce qu’on appelle des
-                            hommes publics, et exposés par leur condition à la vue des autres. Que
-                            ferez-vous, lorsque le meilleur en ce genre vous est enlevé ? Il reste
-                            encore Bronte, le questionnaire : le peuple ne parle que de sa force et
-                            de son adresse ; c’est un jeune homme qui a les épaules larges et la
-                            taille ramassée, un nègre d’ailleurs, un homme noir.</p>
+                            dédaignez, mais même parmi les farceurs<pb n="139"/> un jeune homme qui
+                            s’élève si haut en dansant, et qui passe mieux la capriole ?
+                            Voudriez-vous le sauteur Cobus, qui, jetant ses pieds en avant, tourne
+                            une fois en l’air avant que de tomber à terre ? Ignorez-vous qu’il n’est
+                            plus jeune ? Pour Bathylle, dites-vous, la presse y est trop grande, et
+                            il refuse plus de femmes qu’il n’en agrée ; mais vous avez Dracon, le
+                            joueur de flûte : nul autre de son métier n’enfle plus décemment ses
+                            joues en soufflant dans le hautbois ou le flageolet, car c’est une chose
+                            infinie que le nombre des instruments qu’il fait parler ; plaisant
+                            d’ailleurs, il fait rire jusqu’aux enfants et aux femmelettes. Qui mange
+                            et qui boit mieux que Dracon en un seul repas ? Il enivre toute une
+                            compagnie, et il se rend le dernier. Vous soupirez, Lélie : est-ce que
+                            Dracon aurait fait un choix, ou que malheureusement on vous aurait
+                            prévenue ? Se serait-il enfin engagé à Césonie, qui l’a tant couru, qui
+                            lui a sacrifié une si grande foule d’amants, je dirai même toute la
+                            fleur des Romains ? à Césonie, qui est d’une famille patricienne, qui
+                                est<pb n="140"/> si jeune, si belle, et si sérieuse ? Je vous
+                            plains, Lélie, si vous avez pris par contagion ce nouveau goût qu’ont
+                            tant de femmes romaines pour ce qu’on appelle des hommes publics, et
+                            exposés par leur condition à la vue des autres. Que ferez-vous, lorsque
+                            le meilleur en ce genre vous est enlevé ? Il reste encore Bronte, le
+                            questionnaire : le peuple ne parle que de sa force et de son adresse ;
+                            c’est un jeune homme qui a les épaules larges et la taille ramassée, un
+                            nègre d’ailleurs, un homme noir.</p>
                     </div3>
                     <div3 n="34" source="#edition1 #editon6 #edition8">
                         <p><g ref="#char_pm"/>Pour les femmes du monde, un jardinier est un
@@ -186,12 +201,12 @@
                     </div3>
                     <div3 n="36" source="#edition8">
                         <p><g ref="#char_pm"/>Qu’est-ce qu’une femme que l’on dirige ? Est-ce une
-                            femme plus complaisante pour son mari, plus douce pour ses domestiques,
-                            plus appliquée à sa famille et à ses affaires, plus ardente et plus
-                            sincère pour ses amis ; qui soit moins esclave de son humeur, moins
-                            attachée à ses intérêts ; qui aime moins les commodités de la vie ; je
-                            ne dis pas qui fasse des largesses à ses enfants qui sont déjà riches,
-                            mais qui, opulente elle-même et accablée du <seg>superflu<note
+                            femme plus com-<pb n="141"/>plaisante pour son mari, plus douce pour ses
+                            domestiques, plus appliquée à sa famille et à ses affaires, plus ardente
+                            et plus sincère pour ses amis ; qui soit moins esclave de son humeur,
+                            moins attachée à ses intérêts ; qui aime moins les commodités de la vie
+                            ; je ne dis pas qui fasse des largesses à ses enfants qui sont déjà
+                            riches, mais qui, opulente elle-même et accablée du <seg>superflu<note
                                     resp="#meny" place="bottom" type="explication">Qui n'est pas
                                     strictement nécessaire.</note></seg>, leur fournisse le
                             nécessaire, et leur rende au moins la justice qu’elle leur doit ; qui
@@ -208,6 +223,7 @@
                                         confesse.</note></seg> et le directeur ne conviennent point
                                 sur une règle de conduite, qui sera le tiers qu’une femme prendra
                                 pour sur-arbitre ?</p>
+                            <pb n="189"/>
                             <p>Le capital pour une femme n’est pas d’avoir un directeur, mais de
                                 vivre si uniment qu’elle s’en puisse passer.</p>
                             <p>Si une femme pouvait dire à son confesseur, avec ses autres
@@ -222,8 +238,9 @@
                         </div4>
                     </div3>
                     <div3 n="38" source="#edition6 #edition8">
-                        <p><g ref="#char_pm"/>Le capital pour une femme n’est pas d’avoir un
-                            directeur, mais de vivre si uniment qu’elle s’en puisse passer.</p>
+                        <p><g ref="#char_pm"/>Le capital pour une femme n’est<pb source="#edition6"
+                                n="130"/> pas d’avoir un directeur, mais de<pb source="#edition8"
+                                n="142"/> vivre si uniment qu’elle s’en puisse passer.</p>
                     </div3>
                     <div3 n="39" source="#edition6 #edition8">
                         <p><g ref="#char_pm"/>Si une femme pouvait dire à son confesseur, avec ses
@@ -241,8 +258,8 @@
                     </div3>
                     <div3 n="41" source="#edition1 #edition6 #edition8">
                         <p><g ref="#char_pm"/>C’est trop contre un mari d’être coquette et
-                                <seg>dévote <note resp="#meny" place="bottom" type="explication">Qui
-                                    est sincèrement attaché à une religion et à ses
+                                    <seg>dévote<note resp="#meny" place="bottom" type="explication"
+                                    >Qui est sincèrement attaché à une religion et à ses
                                     pratiques.</note></seg> ; une femme devrait opter.</p>
                     </div3>
                     <div3 n="42" source="#edition6 #edition8">
@@ -254,7 +271,8 @@
                             leur conduite, n’usent d’aucun discernement dans le choix de leurs
                             directeurs. Je ne sors pas d’admiration et d’étonnement à la vue de
                             certains personnages que je ne nomme point ; j’ouvre de fort grands yeux
-                            sur eux ; je les contemple : ils parlent, je prête l’oreille ; je
+                            sur eux ;<pb source="#edition6" n="131"/> je les contemple : ils
+                            parlent, je prê-<pb source="#edition8" n="143"/>te l’oreille ; je
                             m’informe, on me dit des faits, je les recueille ; et je ne comprends
                             pas comment des gens en qui je crois voir toutes choses diamétralement
                             opposées au bon esprit, au sens droit, à l’expérience des affaires du
@@ -267,18 +285,20 @@
                             accordé à si peu de personnes, et qu’ils se persuadent de ne faire en
                             cela qu’exercer leurs talents naturels et suivre une vocation ordinaire,
                             je le comprends encore moins.</p>
-                        <p>Je vois bien que le goût qu’il y a à devenir <seg>le dépositaire du
-                                secret des familles<note resp="#unknown" place="margin">note
-                                    fictive</note></seg>, à se rendre nécessaire pour les
-                            réconciliations, à procurer des commissions ou à placer des domestiques,
-                            à trouver toutes les portes ouvertes dans les maisons des grands, à
-                            manger souvent à de bonnes tables, à se promener en carrosse dans une
-                            grande ville, et à faire de délicieuses retraites à la campagne, à voir
-                            plusieurs personnes de nom et de distinction s’intéresser à sa vie et à
-                            sa santé, et à ménager pour les autres et pour soi-même tous les
-                            intérêts humains, je vois bien, encore une fois, que cela seul a fait
-                            imaginer le spécieux et irrépréhensible prétexte du soin des âmes, et
-                            semé dans le monde cette pépinière intarissable de directeurs.</p>
+                        <p>Je vois bien que le goût qu’il y a à devenir<seg>le dépositaire du secret
+                                des familles<note resp="#unknown" place="margin">note
+                                fictive</note></seg>, à se rendre nécessaire pour les
+                            réconciliations, à<pb source="#edition6" n="132"/> procurer des
+                            commissions ou à placer des domesti-<pb source="#edition8" n="144"
+                            />ques, à trouver toutes les portes ouvertes dans les maisons des
+                            grands, à manger souvent à de bonnes tables, à se promener en carrosse
+                            dans une grande ville, et à faire de délicieuses retraites à la
+                            campagne, à voir plusieurs personnes de nom et de distinction
+                            s’intéresser à sa vie et à sa santé, et à ménager pour les autres et
+                            pour soi-même tous les intérêts humains, je vois bien, encore une fois,
+                            que cela seul a fait imaginer le spécieux et irrépréhensible prétexte du
+                            soin des âmes, et semé dans le monde cette pépinière intarissable de
+                            directeurs.</p>
                     </div3>
                 </div2>
             </div1>
