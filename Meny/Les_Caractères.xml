@@ -3,82 +3,93 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Les Caractères</title>
-                <author xml:id="labruyere">Jean de la Bruyère</author>
+                <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou les
+                    moeurs de ce siècle.</title>
+                <author xml:id="labruyere">J. de La Bruyère</author>
             </titleStmt>
             <publicationStmt>
-                <publisher xml:id="timini">L.TIMINI</publisher>
+                <publisher xml:id="meny">L. Meny</publisher>
                 <date when="2023-10-10">10 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
                     <bibl xml:id="edition1">
-                        <author>Jean de la Bruyère</author>
-                        <title/>
-                        <placeName>Lyon</placeName>
-                        <publisher>Thomas Amaulry</publisher>
-                        <date>1688</date>
-                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575738?rk=21459;2</ref>
-                    </bibl>
-                    <bibl xml:id="edition7">
-                        <author>J. de la Bruyère</author>
-                        <title>les Caractères de Théophraste traduit du grec avec les Caractères ou
-                            les Moeurs de ce siècle</title>
+                        <author>J. de La Bruyère</author>
+                        <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou
+                            les moeurs de ce siècle.</title>
                         <placeName>Paris</placeName>
-                        <publisher>Etienne Michallet</publisher>
-                        <date>1692</date>
-                        <ref> https://gallica.bnf.fr/ark:/12148/bpt6k57575z?rk=236052;4</ref>
+                        <publisher>E. Michallet</publisher>
+                        <date>1688</date>
+                        <edition>première édition</edition>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m/f1.item</ref>
+                    </bibl>
+                    <bibl xml:id="edition6">
+                        <author>J. de La Bruyère</author>
+                        <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou
+                            les moeurs de ce siècle.</title>
+                        <placeName>Paris</placeName>
+                        <publisher>E. Michallet</publisher>
+                        <date>1691</date>
+                        <edition>sixième édition</edition>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=193134;0</ref>
+                    </bibl>
+                    <bibl xml:id="edition8">
+                        <author>J. de La Bruyère</author>
+                        <title>Les Caractères de Théophraste traduit du grec. Avec les caractères ou
+                            les moeurs de ce siècle.</title>
+                        <placeName>Paris</placeName>
+                        <publisher>E. Michallet</publisher>
+                        <date>1694</date>
+                        <edition>huitiène édition</edition>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f159.item.r=Les%20caract%C3%A8res%20de%20Th%C3%A9ophraste%20traduits%20du%20grec</ref>
+                        <name type="owner" xml:id="unknown">unknown</name>
                     </bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <editorialDecl>
-                <normalization>
-                    <p>Graphie modernisée</p>
-                </normalization>
-                <interpretation>
-                    <p>Utilisation de l'attribut DOI dans la balise idno car permet d'identifier les
-                        objets digitaux à l'aide de chiffres et de lettres</p>
-                    <p>div1: titre de l'ouvrage</p>
-                    <p>div2: chapitres</p>
-                    <p>div3: remarques (avec utilisation des balises p s'il y a plusieurs
-                        paragraphes dans une même remarque</p>
-                    <p>Choix de l'attribut n= dans les balises div3 pour symboliser le numéro de la
-                        remarque. Ce numéro n'apparait pas dans la transcription du fichier en autre
-                        chose, donc est fidèle au texte original mais il permet de nous répérer.</p>
-                    <p>Utilisation de la balise seg pour délimiter à quoi se rapporte la note</p>
-                    <p>Utilisation de la balise commentaire pour intégrer la variation de
-                        l'esperluette car le signe s'affiche en rouge sinon.</p>
-                </interpretation>
-            </editorialDecl>
             <charDecl>
                 <char xml:id="char_pm">
                     <mapping>❡</mapping>
-                    <desc>Pied-de-mouche simple. Différencie chaque remarque présente depuis la
-                        première édition.</desc>
+                    <desc>Pied-de-mouche simple. Signale une remarque présente depuis l'édition
+                        1.</desc>
                 </char>
                 <char xml:id="char_pm-par">
                     <mapping>(❡)</mapping>
-                    <desc>Pied-de-mouche à parenthèses simples. Différencie l'entrée d'une nouvelle
-                        remarque à partir de la quatrième édition.</desc>
+                    <desc>Pied-de-mouche à parenthèses simples. Signale une nouvelle remarque
+                        présente dans l'édition 4.</desc>
                 </char>
                 <char xml:id="char_pm-par2">
                     <mapping>((❡))</mapping>
-                    <desc>Pied-de-mouche à parenthèses doubles. Différencie l'entrée d'une nouvelle
-                        remarque à partir de la cinquième édition.</desc>
+                    <desc>Pied-de-mouche à parenthèses doubles. Signale une nouvelle remarque
+                        présente dans l'édition 5.</desc>
                 </char>
                 <char xml:id="char_manicule_g">
                     <mapping>☚</mapping>
-                    <desc>Manicule pointant à gauche. Différencie l'entrée d'une nouvelle remarque à
-                        partir de la septième édition</desc>
+                    <desc>Manicule pointant à gauche. Signale une nouvelle remarque présente à
+                        partir de l'édition 7.</desc>
                 </char>
                 <char xml:id="char_manicule_d">
                     <mapping>☛</mapping>
-                    <desc>Manicule pointant à gauche. Différencie l'entrée d'une nouvelle remarque à
-                        partir de la septième édition.</desc>
+                    <desc>Manicule pointant à droite. Signale une nouvelle remarque présente à
+                        partir de l'édition 7.</desc>
                 </char>
             </charDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Graphie modernisée</p>
+                    <p>Ponctuation modernisée</p>
+                    <p>les notes "unknown" sont toutes manuscrites</p>
+                </normalization>
+                <interpretation>
+                    <p> div1 = titre de l'ouvrage</p>
+                    <p> div2 = titre du chapitre</p>
+                    <p> div3 = une pour chaque pied-de-mouche</p>
+                    <p> p = chaque paragraphe au sein d'un pied-de-mouche</p>
+                    <p> les numéros de la remarque sont indiqués dans la div 3 dans l'attribut n</p>
+                    <p> la balise <!-- lem --> fait référence au texte à la graphie normalisée</p>
+                </interpretation>
+            </editorialDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -86,183 +97,191 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-10-10">création du TEI Header</change>
-            <change when="2023-10-16">encodage du chapitre 3, Des Femmes., des Caractères ou les
-                Moeurs de ce siècle, des remarques 43 à 53</change>
-            <change when="2023-10-17">ajout des attributs source dans les div3 en fonction des
-                éditions</change>
-            <change when="2023-10-23">ajout de notes de l'auteur (seul une des notes est de
-                l'auteur, les deux autres sont fictives) et du publisher</change>
-            <change when="2023-11-10">ajout des glyphs dans l'encodingDesc et au début de chaque
-                remarque + ajout de 3 variations avec l'élément app</change>
+            <change when="2023-10-10">Ajout des méta-données du fichier.</change>
+            <change when="2023-10-16">Encodage du chapitre 2 "Des Femmes", ajout des URL dans
+                l'élément bibl avec idno URL.</change>
+            <change when="2023-10-17">Ajout de la huitième édition dans les méta-données, recherche
+                des remarques dans les trois éditions.</change>
+            <change when="2023-10-23">Ajout d'identité à author et au publisher pour y faire
+                référence avec resp. Ajout d'une div4 pour noter la différence de présentation des
+                remarques entre l'éditon 1, et les éditions 6 et 8. Ajout de 3 notes fictives de
+                l'auteur dans un attribut resp="unknown" car manscrites donc pas liées
+                officiellement à l'auteur, et de 3 notes du publisher avec les types gloss et
+                explication.</change>
+            <change when="2023-11-07">Modification de la balise des liens dans le TEIheader par
+                <!--ref-->, suppression dans les div 1 et 2 des titres qui se répètent dans la
+                balise <!--head--> pour effectuer la validation, ajout d'une interpretation dans
+                l'encoding desc, ajout de deux balises <!--app--> pour deux variations de texte,
+                ajout du <!--charDecl-->.</change>
+            <change when="2023-11-08">Ajout d'une balise <!--name--> dans le bibl de l'edition 8
+                pour faire référence au unknown, ajout d'un caractère dans le chardecl, ajout des
+                pieds-de-mouche</change>
+            <change when="2023-11-10"> Ajout d'une variation dans le texte, correction de l'attribut
+                type de la balise glyph en ref.</change>
         </revisionDesc>
     </teiHeader>
-    <body>
-        <div1 type="book">
-            <head>Les Caractères ou les Moeurs de ce siècle </head>
-            <div2 type="chapter" n="3">
-                <head>Des Femmes.</head>
-                <div3 n="43" source="#edition7">
-                    <p source="#edition7"><g ref="#char_pm"></g> La dévotion vient à quelques-uns, <app>
-                            <lem>et</lem>
-                            <rdg source="#edition7"><!--&--></rdg>
-                        </app>
-                        <app>
-                            <lem>surtout</lem>
-                            <rdg source="#edition7">fur tout</rdg>
-                        </app> aux femmes, comme une passion, ou comme le f<app>
-                            <lem>a</lem>
-                            <rdg source="#edition7">o</rdg>
-                        </app>ible d’un certain âge, ou comme un mode qu’il faut suivre. Elles
-                        comptaient autrefois une semaine par les jours de jeu, de spectacle, de
-                        concert, de mascarade, ou d’un joli sermon : elles allaient le lundi perdre
-                        leur argent chez Ismène, le mardi leur temps chez Climène, et le mercredi
-                        leur réputation chez Célimène ; elles savaient dès la veille toute la joie
-                        qu’elles devaient avoir le jour d’après et le lendemain ; elles jouissaient
-                        tout à la fois du plaisir présent et de celui qui ne leur pouvait manquer ;
-                        elles auraient souhaité de les pouvoir rassembler tous en un seul jour :
-                        c’était alors leur unique inquiétude et tout le sujet de leurs distractions
-                        ; et si elles se trouvaient quelquefois à l’Opéra, elles y regrettaient la
-                        comédie. Autres temps, autres mœurs : elles outrent l’austérité et la
-                        retraite ; elles n’ouvrent plus les yeux qui leur sont donnés pour voir ;
-                        elles ne mettent plus leurs sens à aucun usage ; et chose incroyable ! elles
-                        parlent peu ; elles pensent encore et assez bien d’elles-mêmes, comme assez
-                        mal des autres ; il y a chez elles une émulation de vertu et de réforme qui
-                        tient quelque chose de la jalousie ; elles ne haïssent pas de primer dans ce
-                        nouveau genre de vie, comme elles faisaient dans celui qu’elles viennent de
-                        quitter par politique ou par dégoût. Elles se perdaient gaiement par la
-                        galanterie, par la bonne chère et par l’oisiveté ; et elles se perdent
-                        tristement par la présomption et par l’envie.</p>
-                </div3>
-                <div3 n="44" source="#edition7">
-                    <p source="#edition7"><g ref="#char_pm"></g>Si j’épouse, Hermas, une femme avare, elle ne me ruinera
-                        point ; si une joueuse, elle pourra s’enrichir ; si une savante, elle saura
-                        m’instruire ; si une prude, elle ne sera point emportée ; si une emportée,
-                        elle exercera ma patience ; si une coquette, elle voudra me plaire ; si une
-                        galante, elle le sera peut-être jusqu’à m’aimer ; si une <seg>dévote<note
-                                place="margin" resp="#labruyere" type="explication">Fausse
-                                dévote</note></seg>, répondez, Hermas, que dois-je attendre de celle
-                        qui veut tromper Dieu, et qui se trompe elle-même ?</p>
-                </div3>
-                <div3 n="45" source="#edition7">
-                    <p source="edition7"><g ref="#char_pm"></g>Une femme est aisée à <seg>gouverner<note place="end"
-                                resp="#timini" type="glossaire">Exercer un pouvoir</note></seg>,
-                        pourvu que ce soit un homme qui s’en donne la peine. Un seul même en
-                        gouverne plusieurs ; il cultive leur esprit et leur mémoire, fixe et
-                        détermine leur religion ; il entreprend même de régler leur cœur. Elles
-                        n’approuvent et ne désapprouvent, ne louent et ne condamnent, qu’après avoir
-                        consulté ses yeux et son visage. Il est le dépositaire de leurs joies et de
-                        leurs chagrins, de leurs désirs, de leurs jalousies, de leurs haines et de
-                        leurs amours il les fait rompre avec leurs galants ; il les brouille et les
-                        réconcilie avec leurs maris, et il profite des interrègnes. Il prend soin de
-                        leurs affaires, sollicite leurs procès, et voit leurs juges ; il leur donne
-                        son médecin, son marchand, ses ouvriers ; il s’ingère de les loger, de les
-                        meubler, et il ordonne de leur équipage. On le voit avec elles dans leurs
-                        carrosses, dans les rues d’une ville et aux promenades, ainsi que dans leur
-                        banc à un sermon, et dans leur loge à la comédie ; il fait avec elles les
-                        mêmes visites ; il les accompagne au bain, aux eaux, dans les voyages ; il a
-                        le plus commode appartement chez elles à la campagne. Il vieillit sans
-                        déchoir de son autorité : un peu d’esprit et beaucoup de temps à perdre lui
-                        suffit pour la conserver ; les enfants, les héritiers, la bru, la nièce, les
-                        domestiques, tout en dépend. Il a commencé par se faire estimer ; il finit
-                        par se faire craindre. Cet ami si ancien, si nécessaire, meurt sans qu’on le
-                        pleure ; et dix femmes dont il était le tyran héritent par sa mort de la
-                        liberté. </p>
-                </div3>
-                <div3 n="46" source="#edition7">
-                    <p source="#edition7"><g ref="#char_pm"></g> Quelques femmes ont voulu cacher leur conduite sous les
-                        dehors de la modestie ; et tout ce que chacune a pu gagner par une
-                        continuelle affectation, et qui ne s’est jamais démentie, a été de faire
-                        dire de soi : On l’aurait prise pour une vestale. </p>
-                </div3>
-                <div3 n="47" source="#edition7">
-                    <p source="#edition7"><g ref="#char_pm"></g> C’est dans les femmes une violente preuve d’une
-                        réputation bien nette et bien établie, qu’elle ne soit pas même effleurée
-                        par la familiarité de quelques-unes qui ne leur ressemblent point ; et
-                        qu’avec toute la pente qu’on a aux malignes explications, on ait recours à
-                        une tout autre raison de ce commerce qu’à celle de la convenance des mœurs.
-                    </p>
-                </div3>
-                <div3 n="48" source="#edition7">
-                    <p source="#edition7"><g ref="#char_pm"></g> Un comique outre sur la scène ses personnages ; un poète
-                        charge ses descriptions ; un peintre qui fait d’après nature force et
-                        exagère une passion, un contraste, des attitudes ; et celui qui copie, s’il
-                        ne mesure au compas les grandeurs et les proportions, grossit ses figures,
-                        donne à toutes les pièces qui entrent dans l’ordonnance de son tableau plus
-                        de volume que n’en ont celles de l’original : de même la pruderie est une
-                        imitation de la sagesse. </p>
-                    <p source="#edition7"> Il y a une fausse modestie qui est <seg>vanité<note
-                                place="bottom" resp="#timini" type="explication">Appartient au péché
-                                d'orgueil </note></seg>, une fausse gloire qui est légèreté, une
-                        fausse grandeur qui est petitesse ; une fausse vertu qui est hypocrisie, une
-                        fausse sagesse qui est pruderie. </p>
-                    <p source="#edition7"> Une femme prude paye de maintien et de parole ; une femme
-                        sage paye de conduite. Celle-là suit son humeur et sa complexion, celle-ci
-                        sa raison et son cœur. L’une est sérieuse et austère ; l’autre est dans les
-                        diverses rencontres précisément ce qu’il faut qu’elle soit. La première
-                        cache des faibles sous de plausibles dehors ; la seconde couvre un riche
-                        fonds sous un air libre et naturel. La pruderie contraint l’esprit, ne cache
-                        ni l’âge ni la laideur ; souvent elle les suppose : la sagesse au contraire
-                        pallie les défauts du corps, ennoblit l’esprit, ne rend la jeunesse que plus
-                        piquante et la beauté que plus périlleuse. </p>
-                </div3>
-                <div3 n="49" source="#edition7">
-                    <p source="#edition7"><g ref="#char_pm"></g> Pourquoi s’en prendre aux hommes de ce que les femmes ne
-                        sont pas savantes ? Par quelles lois, par quels édits, par quels rescrits
-                        leur a-t-on défendu d’ouvrir les yeux et de lire, de retenir ce qu’elles ont
-                        lu, et d’en rendre compte ou dans leur conversation ou par leurs ouvrages ?
-                        Ne se sont-elles pas au contraire établies elles-mêmes dans cet usage de ne
-                        rien savoir, ou par la faiblesse de leur complexion, ou par la paresse de
-                        leur esprit ou par le soin de leur beauté, ou par une certaine légèreté qui
-                        les empêche de suivre une longue étude, ou par le talent et le génie
-                        qu’elles ont seulement pour les ouvrages de la main, ou par les distractions
-                        que donnent les détails d’un domestique, ou par un éloignement naturel des
-                        choses pénibles et sérieuses, ou par une curiosité toute différente de celle
-                        qui contente l’esprit, ou par un tout autre goût que celui d’exercer leur
-                        mémoire ? Mais à quelque cause que les hommes puissent devoir cette
-                        ignorance des femmes, ils sont heureux que les femmes, qui les dominent
-                        d’ailleurs par tant d’endroits, aient sur eux cet avantage de moins. </p>
-                    <p source="#edition7"> On regarde une femme savante comme on fait une belle arme
-                        : elle est ciselée artistement, d’une polissure admirable et d’un travail
-                        fort recherché ; c’est une pièce de cabinet, que l’on montre aux curieux,
-                        qui n’est pas d’usage, qui ne sert ni à la guerre ni à la chasse, non plus
-                        qu’un cheval de manège, quoique le mieux instruit du monde. </p>
-                    <p source="#edition7"> Si la <seg>science et la sagesse<note place="margin"
-                                resp="#labruyere" type="explication">Note fictive</note></seg> se
-                        trouvent unies en un même sujet, je ne m’informe plus du sexe, j’admire ; et
-                        si vous me dites qu’une femme sage ne songe guère à être savante, ou qu’une
-                        femme savante n’est guère sage, vous avez déjà oublié ce que vous venez de
-                        lire, que les femmes ne sont détournées des sciences que par de certains
-                        défauts : concluez donc vous-même que moins elles auraient de ces défauts,
-                        plus elles seraient sages, et qu’ainsi une femme sage n’en serait que plus
-                        propre à devenir savante, ou qu’une femme savante, n’étant telle que parce
-                        qu’elle aurait pu vaincre beaucoup de défauts, n’en est que plus sage. </p>
-                </div3>
-                <div3 n="50" source="#edition1 #edition7">
-                    <p source="#edition1 #edition7"><g ref="#char_pm"></g> La neutralité entre des femmes qui nous sont
-                        également amies, quoiqu’elles aient rompu pour des intérêts où nous n’avons
-                        nulle part, est un point difficile : il faut choisir souvent entre elles, ou
-                        les perdre toutes deux. </p>
-                </div3>
-                <div3 n="51" source="#edition1 #edition7">
-                    <p source="#edition1 #edition7"><g ref="#char_pm"></g> Il y a telle femme qui aime mieux son argent
-                        que ses amis, et ses amants que son argent. </p>
-                </div3>
-                <div3 n="52" source="#edition1 #edition7">
-                    <p source="#edition1 #edition7"><g ref="#char_pm"></g> Il est étonnant de voir dans le cœur de
-                        certaines femmes quelque chose de plus vif et de plus fort que
-                                <seg>l’amour<note place="margin" resp="#labruyere"
-                                type="explication">Note fictive</note></seg> pour les hommes, je
-                        veux dire l’ambition et le jeu : de telles femmes rendent les hommes chastes
-                        ; elles n’ont de leur sexe que les habits. </p>
-                </div3>
-                <div3 n="53" source="#edition1 #edition7">
-                    <p source="#edition1 #edition7"><g ref="#char_pm"></g> Les femmes sont <seg>extrêmes<note place="end"
-                                resp="#timini" type="glossaire">De degré le plus
-                            intense</note></seg> : elles sont meilleures ou pires que les hommes.
-                    </p>
-                </div3>
-            </div2>
-        </div1>
-    </body>
+
+    <text>
+        <body>
+            <div1 type="ouvrage">
+                <head>Les Caractères ou les moeurs de ce siècle</head>
+                <div2 type="chapitre" n="3">
+                    <head>Des femmes.</head>
+                    <div3 n="32" source="#edition1 #edition6 #edition8">
+                        <p><g ref="char_pm"/>Est-ce en <app type="morpho">
+                                <lem>vue</lem>
+                                <rdg source="#edition1">veuë</rdg>
+                                <rdg source="#edition6 #edition8">vûe</rdg>
+                            </app>du secret, ou par un goût hypocondre, que cette femme aime un
+                            valet, cette autre un moine, et <seg>Dorinne <note place="margin"
+                                    resp="#unknown">note fictive</note></seg>son médecin ?</p>
+                    </div3>
+                    <div3 n="33" source="#edition8">
+                        <p><g ref="#char_pm"/><seg>Roscius <note resp="#unknown" place="margin">note
+                                    fictive</note></seg> entre sur la scène de bonne grâce : oui,
+                            Lélie ; et j’ajoute encore qu’il a les jambes bien tournées, qu’il joue
+                            bien, et de longs rôles, et que pour déclamer parfaitement il ne lui
+                            manque, comme on le dit, que de parler avec la bouche ; mais est-il le
+                            seul qui ait de l’agrément dans ce qu’il fait ? et ce qu’il fait, est-ce
+                            la chose la plus noble et la plus honnête que l’on puisse faire ?
+                            Roscius d’ailleurs ne peut être à vous, il est à une autre ; et quand
+                            cela ne serait pas ainsi, il est retenu : Claudie attend, pour l’avoir,
+                            qu’il se soit dégoûté de Messaline. Prenez Bathylle, Lélie : où
+                            trouverez-vous, je ne dis pas dans l’ordre des chevaliers, que vous
+                            dédaignez, mais même parmi les farceurs un jeune homme qui s’élève si
+                            haut en dansant, et qui passe mieux la capriole ? Voudriez-vous le
+                            sauteur Cobus, qui, jetant ses pieds en avant, tourne une fois en l’air
+                            avant que de tomber à terre ? Ignorez-vous qu’il n’est plus jeune ? Pour
+                            Bathylle, dites-vous, la presse y est trop grande, et il refuse plus de
+                            femmes qu’il n’en agrée ; mais vous avez Dracon, le joueur de flûte :
+                            nul autre de son métier n’enfle plus décemment ses joues en soufflant
+                            dans le hautbois ou le flageolet, car c’est une chose infinie que le
+                            nombre des instruments qu’il fait parler ; plaisant d’ailleurs, il fait
+                            rire jusqu’aux enfants et aux femmelettes. Qui mange et qui boit mieux
+                            que Dracon en un seul repas ? Il enivre toute une compagnie, et il se
+                            rend le dernier. Vous soupirez, Lélie : est-ce que Dracon aurait fait un
+                            choix, ou que malheureusement on vous aurait prévenue ? Se serait-il
+                            enfin engagé à Césonie, qui l’a tant couru, qui lui a sacrifié une si
+                            grande foule d’amants, je dirai même toute la fleur des Romains ? à
+                            Césonie, qui est d’une famille patricienne, qui est si jeune, si belle,
+                            et si sérieuse ? Je vous plains, Lélie, si vous avez pris par contagion
+                            ce nouveau goût qu’ont tant de femmes romaines pour ce qu’on appelle des
+                            hommes publics, et exposés par leur condition à la vue des autres. Que
+                            ferez-vous, lorsque le meilleur en ce genre vous est enlevé ? Il reste
+                            encore Bronte, le questionnaire : le peuple ne parle que de sa force et
+                            de son adresse ; c’est un jeune homme qui a les épaules larges et la
+                            taille ramassée, un nègre d’ailleurs, un homme noir.</p>
+                    </div3>
+                    <div3 n="34" source="#edition1 #editon6 #edition8">
+                        <p><g ref="#char_pm"/>Pour les femmes du monde, un jardinier est un
+                            jardinier, et un maçon est un maçon ; pour quelques autres plus
+                            retirées, un maçon est un homme, un jardinier est un homme. Tout est
+                            tentation à qui la craint.</p>
+                    </div3>
+                    <div3 n="35" source="#edition1 #edition6 #edition8">
+                        <p><g ref="#char_pm"/>Quelques femmes donnent aux couvents et à leurs amants
+                            : galantes et bienfactrices, elles ont jusque dans l’enceinte de l’autel
+                            des tribunes et des oratoires où elles lisent des billets tendres, et où
+                            personne ne voit qu’elles ne prient point Dieu.</p>
+                    </div3>
+                    <div3 n="36" source="#edition8">
+                        <p><g ref="#char_pm"/>Qu’est-ce qu’une femme que l’on dirige ? Est-ce une
+                            femme plus complaisante pour son mari, plus douce pour ses domestiques,
+                            plus appliquée à sa famille et à ses affaires, plus ardente et plus
+                            sincère pour ses amis ; qui soit moins esclave de son humeur, moins
+                            attachée à ses intérêts ; qui aime moins les commodités de la vie ; je
+                            ne dis pas qui fasse des largesses à ses enfants qui sont déjà riches,
+                            mais qui, opulente elle-même et accablée du <seg>superflu<note
+                                    resp="#meny" place="bottom" type="explication">Qui n'est pas
+                                    strictement nécessaire.</note></seg>, leur fournisse le
+                            nécessaire, et leur rende au moins la justice qu’elle leur doit ; qui
+                            soit plus exempte d’amour de soi-même et d’éloignement pour les autres ;
+                            qui soit plus libre de tous attachements humains ? "Non, dites-vous, ce
+                            n’est rien de toutes ces choses." J’insiste, et je vous demande :
+                            "Qu’est-ce donc qu’une femme que l’on dirige ? " Je vous entends, c’est
+                            une femme qui a un directeur.</p>
+                    </div3>
+                    <div3 n="37">
+                        <div4 source="#edition1">
+                            <p><g ref="#char_pm"/>Si <seg>le confesseur<note resp="#meny"
+                                        type="gloss" place="end">Prêtre à qui l'on se
+                                        confesse.</note></seg> et le directeur ne conviennent point
+                                sur une règle de conduite, qui sera le tiers qu’une femme prendra
+                                pour sur-arbitre ?</p>
+                            <p>Le capital pour une femme n’est pas d’avoir un directeur, mais de
+                                vivre si uniment qu’elle s’en puisse passer.</p>
+                            <p>Si une femme pouvait dire à son confesseur, avec ses autres
+                                faiblesses, celles qu’elle a pour son directeur ; et le temps
+                                qu’elle perd dans son entretien, peut-être lui serait-il donné pour
+                                pénitence d’y renoncer.</p>
+                        </div4>
+                        <div4 source="#edition6 #edition8">
+                            <p><g ref="#char_pm"/>Si le confesseur et le directeur ne conviennent
+                                point sur une règle de conduite, qui sera le tiers qu’une femme
+                                prendra pour sur-arbitre ?</p>
+                        </div4>
+                    </div3>
+                    <div3 n="38" source="#edition6 #edition8">
+                        <p><g ref="#char_pm"/>Le capital pour une femme n’est pas d’avoir un
+                            directeur, mais de vivre si uniment qu’elle s’en puisse passer.</p>
+                    </div3>
+                    <div3 n="39" source="#edition6 #edition8">
+                        <p><g ref="#char_pm"/>Si une femme pouvait dire à son confesseur, avec ses
+                            autres faiblesses, celles qu’elle a pour son directeur ; et le temps
+                            qu’elle perd dans son entretien, peut-être lu<app type="morpho">
+                                <lem>i sera</lem>
+                                <rdg source="#edition6 #edition8">y fero</rdg>
+                            </app>it-il donné pour pénitence d’y renoncer.</p>
+                    </div3>
+                    <div3 n="40" source="#edition6 #edition8">
+                        <p><g ref="#char_pm"/>Je voudrais qu’il me fût permis de crier de toute ma
+                            force à ces hommes saints qui ont été autrefois blessés des femmes :
+                            "Fuyez les femmes, ne les dirigez point, laissez à d’autres le soin de
+                            leur salut."</p>
+                    </div3>
+                    <div3 n="41" source="#edition1 #edition6 #edition8">
+                        <p><g ref="#char_pm"/>C’est trop contre un mari d’être coquette et
+                                <seg>dévote <note resp="#meny" place="bottom" type="explication">Qui
+                                    est sincèrement attaché à une religion et à ses
+                                    pratiques.</note></seg> ; une femme devrait opter.</p>
+                    </div3>
+                    <div3 n="42" source="#edition6 #edition8">
+                        <p><g ref="#char_pm"/>J’ai différé à le dire, et j’en a<app type="morpho">
+                                <lem>i s</lem>
+                                <rdg source="edition6 #edition8">y f</rdg>
+                            </app>ouffert ; mais enfin il m’échappe, et j’espère même que ma
+                            franchise sera utile à celles qui n’ayant pas assez d’un confesseur pour
+                            leur conduite, n’usent d’aucun discernement dans le choix de leurs
+                            directeurs. Je ne sors pas d’admiration et d’étonnement à la vue de
+                            certains personnages que je ne nomme point ; j’ouvre de fort grands yeux
+                            sur eux ; je les contemple : ils parlent, je prête l’oreille ; je
+                            m’informe, on me dit des faits, je les recueille ; et je ne comprends
+                            pas comment des gens en qui je crois voir toutes choses diamétralement
+                            opposées au bon esprit, au sens droit, à l’expérience des affaires du
+                            monde, à la connaissance de l’homme, à la science de la religion et des
+                            mœurs, présument que Dieu doive renouveler en nos jours la merveille de
+                            l’apostolat, et faire un miracle en leurs personnes, en les rendant
+                            capables, tout simples et petits esprits qu’ils sont, du ministère des
+                            âmes, celui de tous le plus délicat et le plus sublime ; et si au
+                            contraire ils se croient nés pour un emploi si relevé, si difficile, et
+                            accordé à si peu de personnes, et qu’ils se persuadent de ne faire en
+                            cela qu’exercer leurs talents naturels et suivre une vocation ordinaire,
+                            je le comprends encore moins.</p>
+                        <p>Je vois bien que le goût qu’il y a à devenir <seg>le dépositaire du
+                                secret des familles<note resp="#unknown" place="margin">note
+                                    fictive</note></seg>, à se rendre nécessaire pour les
+                            réconciliations, à procurer des commissions ou à placer des domestiques,
+                            à trouver toutes les portes ouvertes dans les maisons des grands, à
+                            manger souvent à de bonnes tables, à se promener en carrosse dans une
+                            grande ville, et à faire de délicieuses retraites à la campagne, à voir
+                            plusieurs personnes de nom et de distinction s’intéresser à sa vie et à
+                            sa santé, et à ménager pour les autres et pour soi-même tous les
+                            intérêts humains, je vois bien, encore une fois, que cela seul a fait
+                            imaginer le spécieux et irrépréhensible prétexte du soin des âmes, et
+                            semé dans le monde cette pépinière intarissable de directeurs.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
 </TEI>
