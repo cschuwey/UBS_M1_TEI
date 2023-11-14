@@ -24,7 +24,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>chez Estienne Michalletchez Estienne Michallet</publisher>
                             <date when="1691">1691</date>
-                            <!-- Sixième édition-->
+                            <!-- Sixième édition, voir comment mettre idno type="URL" pour mettre le lien des éditions sur gallica-->
                         </imprint>
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -33,8 +33,31 @@
                             <!-- huitième édition-->
                             <!--Je voulais préciser le numéro de l'édition mais je n'ai pas trouvé où et comment l'indiquer-->
                         </imprint>
+
                     </monogr>
                 </biblStruct>
+                <listPerson>
+                    <person xml:id="Théodas">
+                        <name>Théodas</name>
+                        <idno/>
+                    </person>
+                    <!--On peut faire plusieurs listPerson, ou personGrp pour différencier les personnages réels ou fictifs avecdes attributs> -->
+                <person xml:id="cle_fontaine">
+                    <name>Jean de La Fontaine</name>
+                    <idno/>
+                </person>
+                    <person xml:id="cle_corneille">
+                        <name>Corneille</name>
+                    <idno>
+                       
+                    </idno>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place>
+                        <!-- On peut aussi donner des coordonnées géogaphiques-->
+                    </place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -76,7 +99,11 @@
                 <p>Le lien de la 6e édition en 1691
                     https://gallica.bnf.fr/ark:/12148/bpt6k57567b/f478.item.zoom</p>
                 <p>Le lien de la 8e édition en 1696
-                    https://gallica.bnf.fr/ark:/12148/bpt6k57579b/f346.item</p>
+                    </p>
+                <p>Les balises g ne valident par car elles devraient être mises dans les balises p.
+                    Cependant, elles correspondent davantage aux div3 qu'au paragraphe, dont le
+                    choix de les mettre en dehors des balises p.</p>
+                <p> l'attribut rend="tiret" dans les balises pb expliquent que le mot a été coupé en fin de page, et donc un tiret a été ajouté pour l'expliquer.</p>
             </editorialDecl>
             <p xml:id="edX">édition X</p>
             <!-- Je ne sais pas quelle balise utiliser, comme ce n'est pas "role", donc j'ai utilisé "p" par défaut-->
@@ -101,13 +128,13 @@
                 <div2 type="chapitre" n="12">
                     <head>Des jugements</head>
                     <div3 source="#edX #ed6 #ed8" type="remarque" n="53">
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed6 #ed8"/>
                         <p source="#edX #ed6 #ed8">Le sot est embarrassé de sa personne ; le fat a
                             l’air libre et assuré ; l’impertinent passe à l’effronterie : le mérite
                             a de la pudeur.</p>
                     </div3>
                     <div3 source="#edX #ed8" type="remarque" n="54">
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed6 #ed8"/>
                         <p source="#edX #ed8"><g ref="#char_pdm"/>Le suffisant est celui en qui la
                             pratique de certains détails que l’on honore du nom d’affaires se trouve
                             jointe à une très grande médiocrité d’esprit. Un grain d’esprit et une
@@ -119,10 +146,11 @@
                             pas un autre nom ; dès qu’on s’en plaint, c’est l’arrogant.</p>
                     </div3>
                     <div3 source="#edX #ed8" type="remarque" n="55">
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed8"/>
                         <p source="#edX #ed8">L’honnête homme tient le milieu entre l’habile homme
                             et l’homme de bien, quoique dans une distance inégale de ces deux
                             extrêmes.</p>
+                        <pb source="#ed8" n="345"/>
                         <p source="#edX #ed8"> La distance qu’il y a de l’honnête, homme à l’habile
                             homme s’affaiblit de jour à autre, et est sur le point de
                             disparaître.</p>
@@ -142,7 +170,7 @@
                     </div3>
                     <div3 source="#edX #ed6 #ed8" type="remarque" n="56">
                         <!-- attribut source= à ajouter dans div3 ou <p> pour préciser dans quelle édition provient les remarques-->
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed6 #ed8"/>
                         <p source="#edX #ed6 #ed8">Talent,goût, esprit, bon sens, choses
                             différentes, non incompatibles.</p>
                         <p source="#edX #ed6 #ed8">Entre le bon sens et le bon goût il y a la
@@ -167,15 +195,15 @@
                                 </rdgGrp>
                                 <rdg source="#ed6">mesme</rdg>
                             </app> étui, ou n’être plus sans cet instrument qu’une machine démontée,
-                            à qui il manque quelque chose, et dont il n’est pas permis de rien
-                            attendre ?</p>
+                                à<pb source="#ed6" n="449"/>qui il manque quelque chose, et dont il
+                            n’est pas permis de rien attendre ?</p>
                         <p source="#edX #ed6 #ed8">Que <app>
                                 <lem source="#edX">dirai</lem>
                                 <rdg source="#ed6 #ed8" type="orthographique" cause="vieuxfr"
                                     >diray</rdg>
                             </app>-je encore de l’esprit du jeu ? pourrait-on me le définir ? Ne
-                            faut-il ni prévoyance, ni finesse, ni habileté pour jouer l’hombre ou
-                            les échecs ? et s’il en faut, pourquoi voit-on des imbéciles qui y
+                            faut-il ni prévoyance, ni finesse, ni habileté pour jouer l’<app><lem source="#edX">hombre</lem><rdg source="#ed8">ombre</rdg></app>ou
+                            les<pb source="#ed8" n="346"/>échecs ? et s’il en faut, pourquoi voit-on des imbéciles qui y
                             excellent, et de très beaux génies qui n’ont pu même atteindre la
                             médiocrité, à qui une pièce ou une carte dans les mains trouble la vue,
                             et fait perdre contenance<app>
@@ -192,32 +220,40 @@
                             les arbres, les pierres, tout ce qui ne parle point : ce n’est que
                             légèreté, qu’élégance, que beau naturel, et que délicatesse dans ses
                             ouvrages.</p>
-                        <p source="#edX #ed6 #ed8">Un autre est simple, timide, d’une ennuyeuse
-                            conversation ; il prend un mot pour un autre, et il ne juge de la bonté
-                            de sa pièce que par l’argent qui lui en revient ; il ne sait pas la
-                            réciter, ni lire son écriture. Laissez-le s’élever par la composition :
-                            il n’est pas au-dessous d’Auguste, de Pompée, de Nicomède, d’Heraclius ;
-                            il est roi, et un grand roi ; il est politique, il est philosophe ; il
+                        <!-- Jean de la Fontaine ? "faire parler les animaux, mais ce paragraphe correspondrait au 56f et non au 56g -->
+                        <p source="#edX #ed6 #ed8"><seg>Un autre<note type="key"><persName
+                                        type="key" source="cle_18e" role="#cle_fontaine">Jean de La <!--Je ne savais pas où déclarer l'id clef_18e donc je ne l'ai pas fait, je ne savais pas non plus quel attribut utiliser pour rappeler la personne, j'ai donc utilisé "role" comme pour les pièces de théâtre...-->
+                                        Fontaine</persName>Le portrait que La Bruyère donne de La Fontaine (mort en 1695) suscita la réaction des amis du fabuliste: le Portrait placé en tête des Oeuvres posthumes de M. de La Fontaine, éditées par Mme Ulrich en 1696, se donne explicitement comme une réponse au texte de La Bruyère (cf clefs de La Bruyère) </note></seg> est simple, timide, d’une
+                            ennuyeuse <!-- Déclarer id dans bibl --> conversation ; il prend un mot
+                            pour un autre, et il ne juge de<pb source="#ed6" n="450"/>la bonté de sa
+                            pièce que par l’argent qui lui en revient ; il ne sait pas la réciter,
+                            ni lire son écriture. Laissez-le s’élever par la composition : il n’est
+                            pas au-dessous d’Auguste, de Pompée, de Nicomède, d’Heraclius ; il est
+                            roi, et un grand roi ; il est politique, il est philosophe ; il
                             entreprend de faire parler des héros, de les faire agir ; il peint les
                             Romains ; ils sont plus grands et plus Romains dans ses vers que dans
                             leur histoire.</p>
-                        <p source="#edX #ed6 #ed8">Voulez-vous quelque autre prodige ? Concevez un
-                            homme facile, doux, complaisant, traitable, et tout d’un coup violent,
+                           <p source="#edX #ed6 #ed8">Voulez-vous quelque autre prodige ? Concevez un
+                               <seg>homme<note type="key"><persName type="key" source="cle_18e" role="#cle_corneille">Corneille</persName>la Bruyère fait référence à Corneille, jugeant de la bonté de sa pièce par l'argent qui lui en revient.</note></seg> facile, doux, complaisant, traitable, et tout d’un coup violent,
                             colère, fougueux, capricieux. Imaginez-vous un homme simple, ingénu,
                             crédule, badin, volage, un enfant en cheveux gris ; mais permettez-lui
                             de se recueillir, ou plutôt de se livrer à un génie qui agit en lui,
                             j’ose dire, sans qu’il y prenne part et comme à son insu : quelle verve
                             ! quelle élévation ! quelles images ! quelle latinité !</p>
+                        <!-- Corneille -->
                         <p source="#edX #ed6 #ed8">— Parlez-vous d’une même personne ? me
                             direz-vous.</p>
-                        <p source="#edX #ed6 #ed8">— Oui, du même, de Théodas, et de lui seul. Il
-                            crie, il s’agite, il se roule à terre, il se relève, il tonne, il éclate
-                            ; et du milieu de cette tempête il sort une lumière qui brille et qui
-                            réjouit. Disons-le sans figure : il parle comme un fou, et pense comme
-                            un homme sage ; il dit ridiculement des choses vraies, et follement des
-                            choses sensées et raisonnables ; on est surpris de voir naître et éclore
-                            le bon sens du sein de la bouffonnerie, parmi les grimaces et les
-                            contorsions. <seg>Qu’ajouterai-je davantage ?<note source="#edX"
+                        <p source="#edX #ed6 #ed8">— Oui, du même, de <persName source="#Théodas"
+                                >Théodas</persName>, et de lui seul. Il
+                            <!--Je voulais précisier que Theodas est un nom comme nous l'avions vu dans la présentation flash, mais je ne suis pas sûre pour l'id, ou si il est préférable de l'utiliser pour les clefs uniquement.-->
+                            crie, il s’agite, il se roule à terre, il se relève, il<pb source="#ed8" n="347"/> tonne,<pb
+                                source="#ed6" n="451"/> il éclate ; et du milieu de cette tempête il
+                            sort une lumière qui brille et qui réjouit. Disons-le sans figure : il
+                            parle comme un fou, et pense comme un homme sage ; il dit ridiculement
+                            des choses vraies, et follement des choses sensées et raisonnables ; on
+                            est surpris de voir naître et éclore le bon sens du sein de la
+                            bouffonnerie, parmi les grimaces et les contorsions.
+                                <seg>Qu’ajouterai-je davantage ?<note source="#edX"
                                     resp="#guilbault" type="Commentaire">De La Bruyère utilise ici
                                     une question rhétorique.</note></seg> Il dit et il fait mieux
                             qu’il ne sait ; ce sont en lui comme deux âmes qui ne se connaissent
@@ -228,16 +264,18 @@
                             critiques, et dans le fond assez docile pour profiter de leur censure.
                             Je commence à me persuader moi-même que j’ai fait le portrait de deux
                             personnages tout différents. Il ne serait pas même impossible d’en
-                            trouver un troisième dans Théodas ; car il est bon homme, il est
-                            plaisant homme, et il est excellent homme.</p>
+                            trouver un troisième dans <persName source="#Théodas">Théodas</persName>
+                            ; car il est bon homme, il est plaisant<pb source="#ed6" n="452"/>
+                            homme, et il est excellent homme.</p>
+                        <!-- Santeul -->
                     </div3>
                     <div3 source="#edX #ed6 #ed8" type="remarque" n="57">
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed6 #ed8"/>
                         <p source="#edX #ed6 #ed8">Après l’esprit de discernement, ce qu’il y a au
                             monde de plus rare, ce sont les diamants et les perles.</p>
                     </div3>
                     <div3 source="#edX #ed6 #ed8" type="remarque" n="58">
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed6 #ed8"/>
                         <p source="#edX #ed6 #ed8">Tel, connu dans le monde par de grands talents
                             honoré et <app>
                                 <rdgGrp>
@@ -258,17 +296,17 @@
                                     éphémère.</note></seg></p>
                     </div3>
                     <div3 source="#edX #ed6 #ed8" type="remarque" n="59">
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed6 #ed8"/>
                         <p source="#edX #ed6 #ed8">Tout le monde s’élève contre un homme qui entre
-                            en réputation : à peine ceux qu’il croit ses amis lui pardonnent-ils un
+                            en réputation : à peine ceux qu’il<pb source="#ed8" n="348"/>croit ses amis lui pardonnent-ils un
                             mérite naissant et une première vogue qui semble l’associer à la gloire
                             dont ils sont déjà en possession ; l’on ne se rend qu’à l’extrémité, et
                             après que le Prince s’est déclaré par les récompenses : tous alors se
-                            rapprochent de lui, et de ce jour-là seulement il prend son rang d’homme
-                            de mérite.</p>
+                            rapprochent de lui, et de ce jour-là seulement il prend son<pb
+                                source="#ed6" n="453"/>rang d’homme de mérite.</p>
                     </div3>
                     <div3 source="#edX #ed8" type="remarque" n="60">
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed8"/>
                         <p source="#edX #ed8">Nous affectons souvent de louer avec exagération des
                             hommes assez médiocres, et de les élever, s’il se pouvait, jusqu’à la
                             hauteur de ceux qui excellent, ou parce que nous somme las d’admirer
@@ -277,7 +315,7 @@
                         </p>
                     </div3>
                     <div3 source="#edX #ed8" type="remarque" n="61">
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed8"/>
                         <p source="#edX #ed8">L’on voit des hommes que le vent de la faveur pousse
                             d’abord à pleines voiles ; ils perdent en un moment la terre de vue, et
                             font leur route : tout leur rit, tout leur succède ; action, ouvrage,
@@ -288,7 +326,7 @@
                             l’ébranlent pas : c’est le public, où ces gens échouent.</p>
                     </div3>
                     <div3 source="#edX #ed8" type="remarque" n="62">
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed6 #ed8"/>
                         <p source="#edX #ed8"> Il est ordinaire et comme naturel de juger du travail
                             d’autrui seulement par rapport à celui qui nous occupe. Ainsi le poète,
                             rempli de grandes et sublimes idées, estime peu le discours de
@@ -296,11 +334,11 @@
                             qui écrit l’histoire de son pays ne peut comprendre qu’un esprit
                             raisonnable emploie sa vie à imaginer des fictions et à trouver une rime
                             ; de même le bachelier plongé dans les quatre premiers siècles, traite
-                            toute autre doctrine de science triste, vaine et inutile, pendant qu’il
+                            toute autre doctrine de science triste, vaine et inuti<pb source="#ed8" n="349" rend="tiret"/>le, pendant qu’il
                             est peut-être méprisé du géomètre.</p>
                     </div3>
                     <div3 source="#edX #ed6 #ed8" type="remarque" n="63">
-                        <g ref="#char_pdm"/>
+                        <g ref="#char_pdm" source="#edX #ed6 #ed8"/>
                         <p source="#edX #ed6 #ed8"><seg>(IV)<note source="#edX" resp="#Guilbault"
                                     type="interrogation">Je n'ai aucune idée de ce à quoi sert ce
                                     chiffre romain. Mais il y a peut-être d'autres valeurs
