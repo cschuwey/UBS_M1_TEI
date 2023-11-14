@@ -22,11 +22,11 @@
                             <forename>Jean</forename>
                             <surname>de La Bruyère</surname>
                         </author>
-
                         <imprint>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Estienne Michallet</publisher>
                             <date when="1691">1691</date>
+                            <!-- peut pas mettre <idno type="URL"></idno> dans biblestruct-->
 
                             <!--4e édition https://gallica.bnf.fr/ark:/12148/bpt6k57567b/f399.item-->
                         </imprint>
@@ -38,6 +38,15 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
+                <listPerson>
+                    <person xml:id="martin">
+                        <p>M. Martin qui était un noble.</p>
+                    </person>
+                    <person xml:id="pierrot">
+                        <p>M.Pierrot qui était un autre noble, proche de la Bruyère.</p>
+                    </person>
+                </listPerson>
+                <!-- Je me demandais s'il fallait déclarer les id des clés à cette endroit. Mais comme elles ne font pas forcément  référence à une personne directement, je ne suis pas convaincue. D'autre part, je m'interroge également sur l'utilité de l'identification des personnes auxquelles il est fait référence dans le texte. -->
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -62,6 +71,7 @@
                     <desc>manicule droite ou gauche, marquant les ajouts de remarques de l'édition
                         7</desc>
                 </glyph>
+                <!-- Expliquer pourquoi les g ne valident pas et le choix de les mettre avant les p -->
             </charDecl>
             <projectDesc>
                 <p>projet pédagogique M1, UBS, MLE</p>
@@ -71,13 +81,22 @@
                     <p>Nous avons choisi de moderniser le texte</p>
                     <p> Le numéro attribué à chaque div3 correspond à ceux qui ont été ajoutés dans
                         la dernière édition critique.</p>
+                    <!-- J'ai noté ici la signification de rend="tiret" dans la balise <pb/> mais peut-être faut-il également déclarer un glyphe pour afficher le "-"? Ce n'est pas forcément pertinent vu qu'il s'agit  d'une question d'affichage. -->
                 </normalization>
                 <p>L'édition x correspond à l'édition revue du 19e siècle.</p>
+                <p>Dans la borne pb, si l'attribut "rend" avec la valeur "tiret" est présente cela
+                    signifie que dans la version concecernée la fin de page coupe un mot et donc un
+                    tiret est ajouté.</p>
             </editorialDecl>
             <p xml:id="ed4">4e édition datant de 1991</p>
             <p xml:id="ed8">8e édition datant de 1994</p>
             <p xml:id="edx">dernière édition datant du 19e siècle</p>
             <!--J'ai mis les identifiants des éditions ici mais je ne suis pas sure que ce soit vraiment la bonne solution. C'était le seul endroit qui marchait bien.-->
+            <p xml:id="cle_Cassis">Correspond aux interprétations associées à la clé proposée par
+                M.Cassis au 18e siècle.</p>
+            <p xml:id="cle_delahouse">Correspond aux interprétations proposées par M. Delahouse.</p>
+            <p xml:id="cle_bourdin">Correspond à la lecture proposée par Bourdin au 19e siècle.</p>
+            <!-- N'ayant pas de clés sur ma section, celles utilisées sont inventées. Je ne savais pas vraiment où déclarer les identifiants des clés. Je pensais d'abord les mettre dans <ListPerson> mais il ne s'agit pas forcément de personnes donc je ne sais pas. -->
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -96,16 +115,18 @@
                 <head>Les caractères ou les Moeurs de ce siècle</head>
                 <div2 type="chapitre">
                     <head>De l'Homme</head>
-                    <div3 type="remarque" n="21" source="#ed8 #edx"/>
-                    <!-- correction : ajout de la remarque 21 de l'édition 8 et modernisée qui correspond à un paragraphe de la remarque 22 de l'édition 4 -->
-                    <g ref="#char_pdm" source="#edx #ed8"/>
-                    <p source="#edx #ed8">Il est si ordinaire à l'homme de n'être pas heureux, et si
-                        essentiel à tout ce qui est un bien d'être attaché par mille peines, qu'une
-                        affaire qui se rend facile, devient suspecte : l'on comprend à peine, ou que
-                        ce qui coûte si peu, puisse nous être fort avantageux ; ou qu'avec des
-                        mesures justes, l'on doive si aisément parvenir à la fin qu'on le propose :
-                        l'on croit mériter les bons succès, mais n'y devoir compter que fort
-                        rarement.</p>
+                    <div3 type="remarque" n="21" source="#ed8 #edx">
+                        <!-- correction : ajout de la remarque 21 de l'édition 8 et modernisée qui correspond à un paragraphe de la remarque 22 de l'édition 4 -->
+                        <g ref="#char_pdm" source="#edx #ed8"/>
+                        <p source="#edx #ed8">Il est si ordinaire à l'homme de n'être pas heureux,
+                            et si essentiel à tout ce qui est un bien d'être attaché par mille
+                            peines, qu'une affaire qui se rend facile, devient suspecte : l'on
+                            comprend à peine, ou que ce qui coûte si peu, puisse nous être fort
+                            avantageux ; ou qu'avec des mesures justes, l'on doive si aisément
+                            parvenir à la fin qu'on le propose : l'on croit mériter les bons succès,
+                            mais <pb n="429" source="#ed8"/> n'y devoir compter que fort
+                            rarement.</p>
+                    </div3>
                     <div3 type="remarque" n="22" source="#edx #ed4 #ed8">
                         <!-- Est-ce nécessaire d'ajouter ub attribut source à p si les valeurs ne diffèrent pas de celles de div? -->
 
@@ -154,20 +175,26 @@
                     <div3 type="remarque" n="24" source="#edx #ed8">
                         <g ref="#char_pdm" source="#edx #ed8"/>
                         <p source="#edx #ed8">Les hommes ont tant de peine à s’approcher sur les
-                            affaires, sont si épineux sur les moindres intérêts, si hérissés de
-                            difficultés, veulent si fort tromper et si peu être trompés, mettent si
-                            haut ce qui leur appartient, et si bas ce qui appartient aux autres, que
-                            j’avoue que je ne sais par où et comment se peuvent conclure les
-                            mariages, les contrats, les acquisitions, la paix, la trêve, les
-                            traités, les alliances. </p>
+                            affaires, sont si épineux sur les moindres intérêts, si<pb n="368"
+                                source="#ed4"/> hérissés de difficultés, veulent si fort tromper et
+                            si peu être trompés, mettent si haut ce qui leur appartient, et si bas
+                            ce qui appartient aux autres, que j’avoue que je ne sais par où et
+                            comment se peuvent conclure les mariages, les contrats, les
+                            acquisitions, la paix, la trêve, les traités, les alliances. </p>
                     </div3>
                     <div3 type="remarque" n="25" source="#edx #ed4 #ed8">
                         <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
-                        <p source="#edx #ed4 #ed8">A quelques-uns l’arrogance tient lieu de
-                            grandeur, l’inhumanité de fermeté, et la fourberie d’esprit.</p>
-                        <p source="#edx #ed4 #ed8">(I) Les fourbes croient aisément que les autres
-                            le sont ; ils ne peuvent guère être trompés, et ils ne trompent pas
-                            longtemps.</p>
+                        <p source="#edx #ed4 #ed8">A <seg>quelques-uns<note type="key">il s'agit de
+                                        <persName type="key" source="#cle_cassis" role="#martin"
+                                        >M.Martin</persName> dans la clé du 18e proposée par
+                                    M.Cassis et de <persName type="key" source="#cle_delahouse"
+                                        role="#pierrot">M.Pierrot</persName> dans la clé
+                                        <persName>Delahouse</persName>.<!-- Ajouter les id des clés dans bibl/ Clé imaginaire.--></note></seg>
+                            l’arrogance tient lieu de grandeur, l’inhumanité de fermeté, et la
+                            fourberie d’esprit.</p>
+                        <p source="#edx #ed4 #ed8">(I) Les fourbes croient aisément que <pb n="429"
+                                source="#ed8"/> les autres le sont ; ils ne peuvent guère être
+                            trompés, et ils ne trompent pas longtemps.</p>
                         <p source="#edx #ed4 #ed8">(V) Je me rachèterai toujours fort volontiers
                             d’être fourbe par être stupide et passer pour tel.</p>
                         <p source="#edx #ed4 #ed8">(V) On ne trompe point en bien ; la fourberie
@@ -193,12 +220,20 @@
                             des grandes villes, et de la bouche de ceux qui passent, que les mots
                             d’exploit, de saisie, d’interrogatoire, de promesse, et de plaider
                             contre sa promesse. Est-ce qu’il n’y aurait pas dans le monde la plus
-                            petite équité ? Serait-il au contraire rempli de gens qui demandent
-                            froidement ce qui ne leur est pas dû, ou qui refusent nettement de
-                            rendre ce qu’ils doivent ?</p>
-                        <p source="#edx #ed8"><g ref="#char_maniD" source="#ed8"/>Parchemins
-                            inventés pour faire souvenir ou pour convaincre les hommes de leur
-                            parole : honte de l’humanité ! </p>
+                                <pb n="369" source="#ed4"/> petite équité ? Serait-il au contraire
+                            rempli de gens <pb n="430" source="#ed8"/>qui demandent froidement ce
+                            qui ne leur est pas dû, ou qui refusent nettement de rendre ce qu’ils
+                            doivent ?</p>
+                        <p source="#edx #ed8"><g ref="#char_maniD" source="#ed8"
+                                    /><seg>Parchemins<note>Il s'agit d'une référence au <objectName
+                                        type="key" source="#cle_delahouse">Livre de la
+                                        jungle</objectName> selon la clé
+                                        <persName>DelaHouse</persName>. Cependant la clé <persName
+                                        source="#cle_bourdin">Bourdin</persName> avance qu'il s'agit
+                                    plutôt d'un référence à l'<objectName type="key"
+                                        source="#cle_bourdin">Edit du 12
+                                mai</objectName>.</note></seg> inventés pour faire souvenir ou pour
+                            convaincre les hommes de leur parole : honte de l’humanité ! </p>
                         <p source="#edx #ed4 #ed8">(IV) <seg>Otez les passions, l’intérêt,
                                 l’injustice, quel calme dans les plus grandes villes ! Les besoins
                                 et la subsistance n’y font pas le tiers de l’embarras.<note
@@ -224,6 +259,8 @@
                             les hommes en général, où il y a si peu de vertu ; mais il excuse les
                             particuliers, il les aime même par des motifs plus relevés, et il
                             s’étudie à mériter le moins qu’il se peut une pareille indulgence. </p>
+                        <pb n="431" source="#ed8"/>
+                        <pb n="370" source="#ed4"/>
                     </div3>
                     <div3 type="remarque" n="29" source="#edx #ed4 #ed8">
                         <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
@@ -255,7 +292,8 @@
                         <p source="#edx #ed4 #ed8">Je suppose que les hommes soient éternels sur la
                             terre, et je médite ensuite sur ce qui pourrait me faire connaître
                             qu’ils se feraient alors une plus grande affaire de leur établissement
-                            qu’ils ne s’en font dans l’état où sont les choses. </p>
+                            qu’ils ne s’en font dans l’é<pb n="371" source="#ed4" rend="tiret"/>tat
+                            où sont les choses. </p>
                     </div3>
                 </div2>
             </div1>
