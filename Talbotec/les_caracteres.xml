@@ -39,38 +39,14 @@
                 <bibl xml:id="cle_traduction_anglaise_1702"> </bibl>
                 <bibl xml:id="cle_servois"> </bibl>
                 <listPerson>
-                    <person xml:id="frondeurs"> </person>
-                </listPerson>
-                <listPerson>
-                    <person xml:id="antifrondeurs"> </person>
-                </listPerson>
-                <listPerson>
-                    <person xml:id="l_abbe_de_Saint-Hélène">
-                        <name role="abbé"> </name>
-                    </person>
-                </listPerson>
-                <listPerson>
-                    <person xml:id="le_sieur_de_moulinet">
-                        <name role="nouvelliste"> </name>
-                    </person>
-                </listPerson>
-                <listPerson>
-                    <person xml:id="prieur">
-                        <name role="notaire"> </name>
-                    </person>
-                </listPerson>
-                <listPerson>
-                    <person xml:id="prieur_rolin">
-                        <name role="notaire"> </name>
-                    </person>
-                </listPerson>
-                <listPerson>
-                    <person xml:id="conseiller_aubray">
-                        <name role="conseiller"> </name>
-                    </person>
-                </listPerson>
-                <listPerson>
-                    <person xml:id="mme_de_maintenon"> </person>
+                    <person xml:id="frondeurs"> <name> Frondeurs </name> </person>
+                    <person xml:id="antifrondeurs"> <name> Antifrondeurs </name></person>
+                    <person xml:id="l_abbe_de_Saint-Hélène"> <name role="abbé"> </name> </person>
+                    <person xml:id="le_sieur_de_moulinet"> <name role="sieur"> </name> </person>
+                    <person xml:id="prieur"> <name role="notaire"> </name> </person>
+                    <person xml:id="prieur_rolin"> <name role="notaire"> </name> </person>
+                    <person xml:id="conseiller_aubray"> <name role="conseiller"> </name> </person>
+                    <person xml:id="mme_de_maintenon"> <name> Mme de Maintenon </name></person>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -124,10 +100,13 @@
                         édition et non à des exemplaires. </p>
                     <p> Nous avons mis le mot entier quand l'orthographe d'un mot varie et non que
                         la lettre variante. </p>
-                    <p> Le numéro des pages correspodn à celui de la version originale.</p>
-                    <p> Les différentes clés uilisées ont été encodées dans bibl. </p>
-                    <p> Pas de référence d'autorité pour les réf. </p>
-                    <p> Confusion entre notaire Prieur et Prieur Rolin </p>
+                    <p> Le numéro des pages correspond à celui présent dans chaque version originale. </p>
+                     <p> Choix de l'attribut source, non de ed car présent dans tout le document, pas besoin de garder une vraie trace du changement. </p>
+                     <p> Les différents personens sous-entendus ont été mentionnés dans sourceDesc </p> 
+                    <p> Précision des rôles de chacun. </p>
+                    <p> Pas de référence d'autorité pour les réf, correspondent aux personnages mentionnés. </p>
+                    <p> Les différentes clés uilisées ont été encodées dans bibl, en utilisant des xml=id. </p> 
+                   
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -143,6 +122,7 @@
             <change when="2023-10-23"> Encodage des annotations </change>
             <change when="2023-11-07"> Variantes et glyphs </change>
             <change when="2023-11-13"> Numérotations des pages + clés </change>
+            <change when="2023-11-14"> Correction des pages + clés </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -156,17 +136,14 @@
                             <pb source="#edition_9" n="261"> </pb>
                             <g ref="#char_pm"/>
                             <seg> Démophile <note type="clé">
-                                    <persName source="#cle_1697" ref="#frondeurs"> </persName>
-                                </note>
+                                    <persName source="#cle_1697" ref="#frondeurs"> </persName> </note>
                                 <note type="clé">
-                                    <persName source="#cle_18e_siecle" ref="#l_abbe_de_Saint-Hélène"
-                                    > </persName>
-                                </note>
+                                    <persName source="#cle_18e_siecle" ref="#l_abbe_de_Saint-Hélène"> </persName> </note>
                                 <note type="clé">
-                                    <persName source="#cle_traduction_anglaise_1702"
-                                        ref="#l_abbe_de_Saint-Hélène"/> c'est un philosophe grec du
-                                    VIème siècle avant J-C, La Bruyère est en train de le citer.
-                                </note></seg>, à ma droite, se lamente, et s’écrie : « Tout est
+                                    <persName source="#cle_traduction_anglaise_1702"> </persName> </note>
+                                       <note type="person" resp="#talbotec"> C'est un philosophe grec du
+                                    VIème siècle avant J-C.</note> </seg>, 
+                            à ma droite, se lamente, et s’écrie : « Tout est
                             perdu, c’est fait de l’Etat ; il est du moins sur le penchant de sa
                             ruine. Comment résister à une si forte et si générale conjuration ? Quel
                             moyen, je ne dis pas d’être supérieur, mais de suffire seul à tant et de
@@ -195,26 +172,23 @@
                             et crier à l’alarme ; il songe à son bien et à ses terres : où
                             conduira-t-il son argent, ses meubles, sa famille ? où se réfugiera-t-il
                             ? en Suisse ou à Venise ? </p>
-                        <p source="#edition_9"> Mais, à ma gauche, <seg> Basilide <note type="clé">
-                                    <persName source="#cle_1697" ref="#antifrondeurs"> </persName>
-                                </note>
+                             <p source="#edition_9"> Mais, à ma gauche, 
+                                 <seg> Basilide <note type="clé">
+                                    <persName source="#cle_1697" ref="#antifrondeurs"> </persName> </note>
                                 <note type="clé">
-                                    <persName source="#cle_18e_siecle" ref="#le_sieur_de_moulinet"
-                                    > </persName>
-                                </note>
+                                    <persName source="#cle_18e_siecle" ref="#le_sieur_de_moulinet"> </persName> </note>
                                 <note type="clé">
-                                    <persName source="#cle_felibien" ref="#prieur"> </persName>
-                                </note> note type="clé"> <note type="clé">
-                                    <persName source="#cle_servois" ref="#prieur_rolin"> </persName>
-                                </note> note type="clé"> <note>
-                                    <persName source="#cle_traduction_anglaise_1702"
-                                        ref="#conseiller_aubray"> </persName>
-                                </note>
-                            </seg> met tout d’un coup sur pied une armée de trois cent mille hommes
+                                    <persName source="#cle_felibien" ref="#prieur"> </persName> </note> 
+                              <note type="clé">
+                                    <persName source="#cle_servois" ref="#prieur_rolin"> </persName></note> 
+                                <note type="clé"> 
+                                    <persName source="#cle_traduction_anglaise_1702" ref="#conseiller_aubray"> </persName> </note>
+                                 </seg> 
+                           met tout d’un coup sur pied une armée de trois cent mille hommes
                             ; il n’en rabattrait pas une seule brigade : il a la liste des escadrons
                             et des bataillons, des généraux et des officiers ; il n’oublie pas
                             l’artillerie ni le bagage. Il dispose absolument <pb source="#edition_9"
-                                n="263"/> de toutes ces troupes : il en envoie tant en Allemagne et
+                                n="263"> </pb> de toutes ces troupes : il en envoie tant en Allemagne et
                             tant en Flandre ; il réserve un certain nombre pour les Alpes, un peu
                             moins pour les Pyrénées, et il fait passer la mer à ce qui lui reste. Il
                             connaît les marches de ces armées, il sait ce qu’elles feront et ce
@@ -239,7 +213,7 @@
                             s’assit, il souffle, après avoir débité sa nouvelle, à laquelle il ne
                             manque qu’une circonstance, qui est qu’il est certain qu’il n’y a point
                             eu de bataille. Il assure d’ailleurs qu’un tel prince renonce à la ligue
-                            et quitte ses confédé-<pb source="#edition_9" n="264"> </pb> rés, qu’un
+                            et quitte ses confédé- <pb source="#edition_9" n="264"> </pb> rés, qu’un
                             autre se dispose à prendre le même parti ; il croit fermement avec la
                             populace qu’un troisième est mort : il nomme le lieu où il est enterré ;
                             et quand on est détrompé aux halles et aux faubourgs, il parie encore
@@ -355,7 +329,7 @@
                             endroit ; il laisse voir en lui quelque peu de sensibilité pour sa
                             fortune : il s’attire par là des propositions qui lui découvrent les
                             vues des autres les plus secrètes, leurs desseins les plus profonds et
-                            leur dernière res-<pb source="#edition_9" n="268"> </pb> source ; et il
+                            leur dernière res- <pb source="#edition_9" n="268"> </pb> source ; et il
                             en profite. Si quelquefois il est lésé dans quelques chefs qui ont enfin
                             été réglés, il crie haut ; si c’est le contraire ; il crie plus haut, et
                             jette ceux qui perdent sur la justification et la défensive. Il a son
@@ -383,7 +357,7 @@
                             presser la continuation et la fin. S’il survient un grand événement, il
                             se raidit ou il se relâche selon qu’il lui est utile ou préjudiciable ;
                             et si par une grande prudence il sait le prévoir, il presse et il
-                                tempo-<pb source="#edition_9" n="269"> </pb> rise selon que l’Etat
+                                tempo- <pb source="#edition_9" n="269"> </pb> rise selon que l’Etat
                             pour qui il travaille en doit craindre ou espérer ; et il règle sur ses
                             besoins ses conditions. Il prend conseil du temps, du lieu, des
                             occasions, de sa puissance ou de sa faiblesse, du génie des nations avec
@@ -394,14 +368,15 @@
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="13">
                         <p source="#edition_1 #edition_9">
-                            <pb source="#edition_1" n="262"> </pb><g ref="#char_pm"/> Le caractère
+                            <pb source="#edition_1" n="262"> </pb> <g ref="#char_pm"/> Le caractère
                             des Français demande du sérieux dans le souverain. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="14">
                         <p source="#edition_1 #edition_9">
-                            <g ref="#char_pm"/> L’un des malheurs <seg> du prince <note type="clé">
-                                    <persName source="#cle_18e_siecle" ref="#mme_de_maintenon"/>
-                                </note></seg> est d’<app>
+                            <g ref="#char_pm"/> L’un des malheurs 
+                            <seg> du prince <note type="clé">
+                                    <persName source="#cle_18e_siecle" ref="#mme_de_maintenon"> </persName> </note></seg>
+                                est d’<app>
                                 <lem> estre </lem>
                                 <rdg source="#edition_9"> être </rdg>
                             </app> souvent trop plein de son secret, par le péril qu’il y a à le
@@ -410,7 +385,7 @@
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="15">
                         <p source="#edition_1 #edition_9">
-                            <pb source="#edition_1" n="263"> </pb><g ref="#char_pm"/> Il ne manque
+                            <pb source="#edition_1" n="263"> </pb> <g ref="#char_pm"/> Il ne manque
                             rien à un <app>
                                 <lem> Roy </lem>
                                 <rdg source="#edition_9"> Roi</rdg>
@@ -442,10 +417,10 @@
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="17">
                         <p source="#edition_1 #edition_9">
-                            <g ref="#char_pm"/> Rien ne fait plus d’honneur <seg> au prince <note
-                                    type="clé">
-                                    <persName source="#cle_18e_siecle" ref="#mme_de_maintenon"/>
-                                </note></seg> que la modestie de son <app>
+                            <g ref="#char_pm"/> Rien ne fait plus d’honneur 
+                            <seg> au prince <note type="clé">
+                                    <persName source="#cle_18e_siecle" ref="#mme_de_maintenon"> </persName> </note> </seg>
+                               que la modestie de son <app>
                                 <lem> favory. </lem>
                                 <rdg source="#edition_9"> favori. </rdg>
                             </app>
