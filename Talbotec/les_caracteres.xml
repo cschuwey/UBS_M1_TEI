@@ -42,11 +42,12 @@
                     <person xml:id="frondeurs"> <name> Frondeurs </name> </person>
                     <person xml:id="antifrondeurs"> <name> Antifrondeurs </name></person>
                     <person xml:id="l_abbe_de_Saint-Hélène"> <name role="abbé"> </name> </person>
-                    <person xml:id="le_sieur_de_moulinet"> <name role="sieur"> </name> </person>
+                    <person xml:id="le_sieur_de_moulinet"> <name role="sieur"> </name> 
+                    <idno type=url"https://data.bnf.fr/11925160/charles_sorel/"> </idno> </person>
                     <person xml:id="prieur"> <name role="notaire"> </name> </person>
                     <person xml:id="prieur_rolin"> <name role="notaire"> </name> </person>
                     <person xml:id="conseiller_aubray"> <name role="conseiller"> </name> </person>
-                    <person xml:id="mme_de_maintenon"> <name> Mme de Maintenon </name></person>
+                    <person xml:id="mme_de_maintenon"> <name> Mme de Maintenon </name></person> 
                 </listPerson>
             </sourceDesc>
         </fileDesc>
