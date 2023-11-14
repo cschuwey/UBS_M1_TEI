@@ -3,7 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                    moeurs de ce siècle.</title>
                 <author xml:id="Jean">La Bruyère, Jean de (1645-1696)</author>
             </titleStmt>
             <publicationStmt>
@@ -14,35 +15,57 @@
             <sourceDesc>
                 <bibl xml:id="edition4">
                     <author>La Bruyère, Jean de (1645-1696)</author>
-                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                        moeurs de ce siècle.</title>
                     <title type="subtitle">Sixième Edition</title>
                     <pubPlace>Paris</pubPlace>
                     <publisher>Etienne Michallet</publisher>
                     <date when-iso="1691">M.DC.XCI</date>
                     <idno>R-52303</idno>
-                    <publisher>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme</publisher>
+                    <publisher>Bibliothèque nationale de France, département Philosophie, histoire,
+                        sciences de l'homme</publisher>
                     <date when-iso="2018-08-05">05/08/2018</date>
                 </bibl>
                 <bibl xml:id="edition6">
                     <author>La Bruyère, Jean de (1645-1696)</author>
-                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                        moeurs de ce siècle.</title>
                     <title type="subtitle">Sixième Edition</title>
                     <title type="subtitle">corrigée et augmentée</title>
                     <pubPlace>Paris</pubPlace>
                     <publisher>Etienne Michallet</publisher>
                     <date when-iso="1689">M.DC.LXXXIX</date>
                     <!-- Je n'ai pas trouvé le numéro d'identification -->
-                    <idno></idno>
+                    <idno/>
                     <publisher>Bibliothèque nationale de France.</publisher>
                     <date when-iso="2007-10-15">15/10/2007</date>
+                </bibl>
+                <bibl>
+                    <date when-iso="1696">1696</date>
+                    <publisher>Les éditions Coste</publisher>
+                    <source>Clés des Caractères</source>
+                    <author>Escola</author>
+                    <listPerson xml:id="deLouvois">M. de Louvois</listPerson>
+                    <!-- je ne sais pas lequel des deux dont il s'agit -->
+                    <idno>https://data.bnf.fr/fr/10697675</idno>
+                    <idno>https://data.bnf.fr/11961961</idno>
+                    <listPerson xml:id="deSeignelay">M. de Seignelay</listPerson>
+                    <idno>https://data.bnf.fr/13182885</idno>
+                    <listPerson xml:id="delaFeuillade">M. de la Feuillade</listPerson>
+                    <!-- Je ne sais pas non plus duquel il s'agit -->
+                    <idno>https://data.bnf.fr/fr/14536374</idno>
+                    <idno>https://data.bnf.fr/fr/12134945</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
                 <p>les éléments entre les balises div3 sont les remarques</p>
-                <p>Les numéros des remarques sont ceux qui se trouvent dans l'édition critique publiée d'après la dernière édition et sont symbolisés par l'attribut "n" dans les div3.</p>   
-                <p>les éditions sont caractérisées par l'attribut "source" dans la balise p de chaque remarque.</p>
+                <p>Les numéros des remarques sont ceux qui se trouvent dans l'édition critique
+                    publiée d'après la dernière édition et sont symbolisés par l'attribut "n" dans
+                    les div3.</p>
+                <p>les éditions sont caractérisées par l'attribut "source" dans la balise p de
+                    chaque remarque.</p>
             </editorialDecl>
             <charDecl>
                 <glyph xml:id="char_pdm1">
@@ -51,17 +74,24 @@
                 </glyph>
                 <glyph xml:id="char_pdm2">
                     <mapping>(❡)</mapping>
-                    <desc>Pied-de-mouche à parenthèse simple, marquant le début d'une remarque dans l'édition 4.</desc>
+                    <desc>Pied-de-mouche à parenthèse simple, marquant le début d'une remarque dans
+                        l'édition 4.</desc>
                 </glyph>
                 <glyph xml:id="char_pdm3">
                     <mapping>((❡))</mapping>
-                    <desc>Pied-de-mouche à double parenthèses, marquant le début d'une remarque dans l'édition 5.</desc>
+                    <desc>Pied-de-mouche à double parenthèses, marquant le début d'une remarque dans
+                        l'édition 5.</desc>
                 </glyph>
                 <glyph>
                     <mapping xml:id="manicule_gauche">☚</mapping>
-                    <desc>Manicule pointant vers la gauche. Indique une nouvelle remarque.</desc> 
+                    <desc>Manicule pointant vers la gauche. Indique une nouvelle remarque.</desc>
                     <mapping xml:id="manicule_droite">☛</mapping>
                     <desc>Manicule pointant vers la droite. Indique une nouvelle remarque.</desc>
+                </glyph>
+                <glyph>
+                    <mapping>∫</mapping>
+                    <desc>S long figurant dans les éditions anciennes.</desc>
+                    <source xml:id="edMod">édition modernisée</source>
                 </glyph>
             </charDecl>
         </encodingDesc>
@@ -75,12 +105,18 @@
             <change when="2023-10-16">J'ai supprimé le Tei Header qui était en trop et j'ai intégré
                 les deux balises Bibl dans Sourcedesc. Je n'avais pas compris qu'il fallait procéder
                 de cette manière là.</change>
-            <change when="2023-10-16">Encodage des remarques 11 à 21 du chapitre "Des Esprits Forts".</change>
+            <change when="2023-10-16">Encodage des remarques 11 à 21 du chapitre "Des Esprits
+                Forts".</change>
             <change when="2023-10-20">Encodage des attributs source dans les balises p.</change>
-            <change when="2023-10-26">Ajout des notes avec les attributs #Jean et #C_Galet pour les différencier.</change>
-            <change when="2023-11-07">Ajout du mapping des pieds-de-mouche dans l'EncodingDesc, ainsi que des manicules gauche et droite.</change>
-            <change when="2023-11-09">Ajout des pied-de-mouches au début de chaque remarque avec la balise g et l'attribut ref, identifié dans l'EncodingDesc.</change>
-            <change when="2023-11-09">Ajout de variations dans des remarques avec les balise app, lem et rdg, avec l'attribut wit pour les variantes dans les différentes éditions.</change>
+            <change when="2023-10-26">Ajout des notes avec les attributs #Jean et #C_Galet pour les
+                différencier.</change>
+            <change when="2023-11-07">Ajout du mapping des pieds-de-mouche dans l'EncodingDesc,
+                ainsi que des manicules gauche et droite.</change>
+            <change when="2023-11-09">Ajout des pied-de-mouches au début de chaque remarque avec la
+                balise g et l'attribut ref, identifié dans l'EncodingDesc.</change>
+            <change when="2023-11-09">Ajout de variations dans des remarques avec les balise app,
+                lem et rdg, avec l'attribut wit pour les variantes dans les différentes
+                éditions.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -89,103 +125,143 @@
                 <head>Les Caractères de La Bruyère</head>
                 <div2 type="chapitre" n="16">
                     <head>Des Esprits Forts</head>
-                    
-                    
+
+
                     <div3 type="remarque" n="(11)">
-                        <p source="#edition4 #edition6"> (11) <g ref="#char_pdm1"/>Je voudrais voir un homme sobre, modéré, chaste, équitable,
-                            prononcer qu’il n’y a point de Dieu : il parlerait du moins sans <app><lem>intérêt</lem><rdg wit="#edition6">interêt</rdg><rdg wit="#edition4">intereft</rdg></app>
-                            <app><lem> ; </lem><rdg wit="#edition4">;</rdg><rdg wit="#edition6">,</rdg></app>mais cet homme ne se trouve point.</p>
+                        <p source="#edition4 #edition6"> (11)<pb n="409" source="#edition6"/><pb
+                                n="569" source="edition4"/>
+                            <g ref="#char_pdm1"/>Je voudrais voir un homme sobre, modéré, chaste,
+                            équitable, prononcer qu’il n’y a point de Dieu : il parlerait du moins
+                            sans <app><lem>intérêt</lem><rdg wit="#edition6">interêt</rdg><rdg
+                                    wit="#edition4">intereft</rdg></app>
+                            <app><lem> ; </lem><rdg wit="#edition4">;</rdg><rdg wit="#edition6"
+                                    >,</rdg></app>mais cet homme ne se trouve point.</p>
                     </div3>
                     <div3 n="12">
-                        <p source="#edition4 #edition6">(12) <g ref="#char_pdm1"/>J’aurais une extrême curiosité de voir celui qui serait persuadé que
-                            <seg> Dieu n’est point<note source="#Jean">contenu de la note.</note></seg> : il me dirait du moins la raison invincible qui a su
-                            le convaincre.</p>
-                    </div3>                  
+                        <p source="#edition4 #edition6">(12)<pb n="409" source="#edition6"/>
+                            <g ref="#char_pdm1"/>J’aurais une extrême curiosité de voir celui qui
+                            serait persuadé que <seg> Dieu n’est point<note source="#Jean">contenu
+                                    de la note.</note></seg> : il me dirait du moins la raison
+                            invincible qui a su le convaincre.</p>
+                    </div3>
                     <div3 n="13">
-                        <p source="#edition4 #edition6">(13) <g ref="#char_pdm1"/>L’impossibilité où je suis de prouver que Dieu n’est pas me découvre
-                            son existence.</p>
+                        <p source="#edition4 #edition6">(13)<pb n="410" source="#edition6"/><pb
+                                n="569" source="edition4"/>
+                            <g ref="#char_pdm1"/>L’impossibilité où je suis de prouver que Dieu
+                            n’est pas me découvre son existence.</p>
                     </div3>
                     <div3 n="14">
-                        <p source="#edition4 #edition6">(14) <g ref="#char_pdm1"/>Dieu condamne et punit ceux qui l’offensent, seul juge en sa propre
-                            cause : ce qui répugne, s’il n’est lui-même la justice et la vérité,
-                            c’est-à-dire s’il n’est Dieu.</p>
+                        <p source="#edition4 #edition6">(14)<pb n="410" source="#edition6"/><pb
+                                n="569" source="edition4"/>
+                            <g ref="#char_pdm1"/>Dieu condamne et punit ceux qui l’offensent, seul
+                            juge en sa propre cause : ce qui répugne, s’il n’est lui-même la justice
+                            et la vérité, c’est-à-dire s’il n’est Dieu.</p>
                     </div3>
                     <div3 n="15">
-                        <p source="#edition4 #edition6"> (15) <g ref="#char_pdm1"/>Je sens qu’il y a un Dieu, et je ne sens pas qu’il n’y en ait point
-                            ; cela me suffit, tout le raisonnement du monde m’est inutile : <seg>je
-                            conclus que Dieu existe.<note source="#Jean">contenu de la note</note></seg> Cette conclusion est dans ma nature ; j’en ai
-                            reçu les principes trop aisément dans mon enfance, et je les ai
-                            conservés depuis trop naturellement dans un âge plus avancé, pour les
-                            soupçonner de fausseté. — Mais il y a des esprits qui se défont de ces
-                            principes. — C’est une grande question s’il s’en trouve de tels ; et
-                            quand il serait ainsi, cela prouve seulement qu’il y a des monstres.</p>
+                        <p source="#edition4 #edition6"> (15)<pb n="410" source="#edition6"/><pb
+                                n="569" source="edition4"/>
+                            <g ref="#char_pdm1"/>Je sens qu’il y a un Dieu, et je ne sens pas qu’il
+                            n’y en ait point ; cela me suffit, tout le raisonnement du monde m’est
+                            inutile : <seg>je conclus que Dieu existe.<note source="#Jean">contenu
+                                    de la note</note></seg> Cette conclusion est dans ma nature ;
+                            j’en ai reçu les principes trop aisément dans mon enfance, et je les ai
+                            conservés depuis trop <pb n="570" source="edition4"/>naturellement dans
+                            un âge plus avancé, pour les soupçonner de fausseté. — Mais il y a des
+                            esprits qui se défont de ces principes. — C’est une grande question s’il
+                            s’en trouve de tels ; et quand il serait ainsi, cela prouve seulement
+                            qu’il y a des monstres.</p>
                     </div3>
-                    
+
                     <div3 n="16">
-                        <p source="#edition4 #edition6">(16)<g ref="#char_pdm1"/><seg>L’athéisme n’est point.<note type="glossaire" source="#C_Galet">L'athéisme est le refus de l'existence de Dieu.</note></seg> 
-                            Les grands, qui en sont le plus soupçonnés,
-                            sont trop paresseux pour décider en leur esprit que Dieu n’est pas ;
-                            leur indolence va jusqu’à les rendre froids et indifférents sur cet
-                            article si capital, comme sur la nature de leur âme, et sur les
-                            conséquences d’une vraie religion ; ils ne nient ces choses ni ne les
-                            accordent : ils n’y pensent point.</p>
+                        <p source="#edition4 #edition6">(16)<pb n="410" source="#edition6"/><pb
+                                n="570" source="edition4"/><g ref="#char_pdm1"/><seg>L’athéisme
+                                n’est point.<note type="glossaire" source="#C_Galet">L'athéisme est
+                                    le refus de l'existence de Dieu.</note></seg> Les grands, qui en
+                            sont le plus soupçonnés, sont trop paresseux pour décider en leur esprit
+                            que Dieu n’est pas ; leur indolence va jusqu’à les rendre froids et
+                            indifférents sur cet article si capital,<pb n="411" source="#editio6"/>
+                            comme sur la nature de leur âme, et sur les conséquences d’une vraie
+                            religion ; ils ne nient ces choses ni ne les accordent : ils n’y pensent
+                            point.</p>
                     </div3>
                     <div3 n="17">
                         <!-- les deux remarques ci-dessous ne figurent plus dans le chapitre Des Esprits Forts. -->
-                        <p>(17)<g ref="#char_pdm1"/> Nous n’avons pas trop de toute notre santé, de toutes nos forces et
-                            de tout notre esprit pour penser aux hommes ou au plus petit intérêt :
-                            il semble au contraire que la bienséance et la coutume exigent de nous
-                            que nous ne pensions à Dieu que dans un état où il ne reste en nous
-                            qu’autant de raison qu’il faut pour ne pas dire qu’il n’y en a plus.</p>
+                        <p>(17)<g ref="#char_pdm1"/> Nous n’avons pas trop de toute notre santé, de
+                            toutes nos forces et de tout notre esprit pour penser aux hommes ou au
+                            plus petit intérêt : il semble au contraire que la bienséance et la
+                            coutume exigent de nous que nous ne pensions à Dieu que dans un état où
+                            il ne reste en nous qu’autant de raison qu’il faut pour ne pas dire
+                            qu’il n’y en a plus.</p>
                     </div3>
                     <div3 n="18">
-                        <p>(18) <g ref="#char_pdm1"/>Un grand croit s’évanouir, et il meurt ; un autre grand périt
-                            insensiblement, et perd chaque jour quelque chose de soi-même avant
-                            qu’il soit éteint : formidables leçons, mais inutiles ! Des
-                            circonstances si marquées et si sensiblement opposées ne se relèvent
-                            point et ne touchent personne : les hommes n’y ont pas plus d’attention
-                            qu’à une fleur qui se fane ou à une feuille qui tombe ; ils envient les
-                            places qui demeurent vacantes, ou ils s’informent si elles sont
-                            remplies, et par qui.</p>
+                        <p>(18) <g ref="#char_pdm1"/>
+                            <seg><note>il s'agit de<persName type="key" source="#deLouvois">M. de
+                                        Louvois</persName>ou de<persName type="key"
+                                        source="#deSeignelay">M. de Seignelay</persName>ou bien
+                                        de<persName type="key" source="#delaFeuillade">M. de la
+                                        Feuillade</persName></note></seg> Un grand croit s’évanouir,
+                            et il meurt ; un autre grand périt insensiblement, et perd chaque jour
+                            quelque chose de soi-même avant qu’il soit éteint : formidables leçons,
+                            mais inutiles ! Des circonstances si marquées et si sensiblement
+                            opposées ne se relèvent point et ne touchent personne : les hommes n’y
+                            ont pas plus d’attention qu’à une fleur qui se fane ou à une feuille qui
+                            tombe ; ils envient les places qui demeurent vacantes, ou ils
+                            s’informent si elles sont remplies, et par qui.</p>
                     </div3>
                     <div3 n="19">
-                        <p source="#edition4 #edition6">(19)<g ref="#char_pdm1"/> Les hommes sont-ils assez bons, assez fidèles, assez équitables,
-                            pour mériter toute notre confiance, et ne nous pas faire désirer du
-                            moins que Dieu existât, à qui nous pussions appeler de leurs jugements
-                            et avoir recours quand nous en sommes persécutés ou trahis ?</p>
+                        <p source="#edition4 #edition6">(19)<pb n="411" source="#edition6"/><pb
+                                n="570" source="edition4"/><g ref="#char_pdm1"/>
+                            <seg><note><persName type="key">nom</persName></note></seg> Les hommes
+                            sont-ils assez bons, assez fidèles, assez équitables, pour mériter toute
+                            notre confiance, et ne nous pas faire désirer du moins que Dieu existât,
+                            à qui nous pussions appeler de leurs jugements et avoir recours quand
+                            nous en sommes persécutés ou trahis ?</p>
                     </div3>
                     <div3 n="20">
-                        <p source="#edition4 #edition6">(20) <g ref="#char_pdm1"/>Si c’est le grand et le sublime de la religion qui éblouit ou qui
-                            confond les esprits forts, ils ne sont plus des esprits forts, mais de
-                            faibles génies et de petits esprits ; et si c’est au contraire ce qu’il
-                            y a d’humble et de simple qui les rebute, ils sont à la vérité des
-                            esprits forts, et plus forts que tant de grands hommes si éclairés, si
-                            élevés, et néanmoins si fidèles,<seg>que les Léons, les Basiles, les
-                            Jéromes, les Augustins.<note type="explication" source="#C_Galet">Les Augustins viennent de l'ordre de Saint Augustin, qui est un ordre mendiant relevant du Siège Apostolique et non de l'Evêque du Diocèse.</note></seg></p>
+                        <p source="#edition4 #edition6">(20)<pb n="411" source="#edition6"/><pb
+                                n="570" source="edition4"/>
+                            <g ref="#char_pdm1"/>Si c’est le grand et le <app><lem wit="#edMod">
+                                    sublime </lem><rdg wit="#edition4">∫ublime</rdg>
+                                <rdg wit="#edition6">∫ublime</rdg></app> de la religion qui éblouit
+                            ou qui confond les esprits forts, ils ne sont plus <pb n="571"
+                                source="edition4"/> des esprits forts, mais de faibles génies et de
+                            petits esprits ; et si c’est au contraire ce qu’il y a d’humble et de
+                            simple qui les rebute, ils sont à la vérité des esprits forts, et plus
+                            forts que tant de grands hommes si éclairés, si élevés, et néanmoins si
+                                fidèles,<seg>que les Léons, les Basiles, les Jéromes, les
+                                    Augustins.<note type="explication" source="#C_Galet">Les
+                                    Augustins viennent de l'ordre de Saint Augustin, qui est un
+                                    ordre mendiant relevant du Siège Apostolique et non de l'Evêque
+                                    du Diocèse.</note></seg></p>
                     </div3>
                     <div3 n="21">
-                        <p source="#edition4 #edition6">(21) <g ref="#char_pdm1"/>« Un Père de l’Eglise, un docteur de l’Eglise, quels noms ! quelle
-                            tristesse dans leurs écrits ! <seg> quelle sécheresse, quelle froide dévotion,
-                            et peut-être quelle scolastique !<note source="#Jean">contenu de la note.</note></seg>» disent ceux qui ne les ont jamais
-                            lus. Mais plutôt quel étonnement pour tous ceux qui se sont fait une
-                            idée des Pères si éloignée de la vérité, s’ils voyaient dans leurs
-                            ouvrages plus de tour et de délicatesse, plus de politesse et d’esprit,
-                            plus de richesse d’expression et plus de force de raisonnement, des
-                            traits plus vifs et des grâces plus naturelles que l’on n’en remarque
-                            dans la plupart des livres de ce temps qui sont lus avec goût, qui
-                            donnent du nom et de la vanité à leurs auteurs ! Quel plaisir d’aimer la
-                            religion, et de la voir crue, soutenue, expliquée par de si beaux
-                            génies, et par de si solides esprits ! surtout lorsque l’on vient à
-                            connaître que pour l’étendue de connaissance, pour la profondeur et la
-                            pénétration, pour les principes de la pure philosophie, pour leur
-                            application et leur développement, pour la justesse des conclusions,
-                            pour la dignité du discours, pour la beauté de la morale et des
-                            sentiments, il n’y a rien par exemple que l’on puisse comparer à S.
-                            Augustin, que Platon et que <seg>Cicéron.<note type="glossaire" source="#C_Galet">Cicéron (106 av.J.C - 43 av.J.C) était un homme d'Etat Romain.</note></seg></p>
+                        <p source="#edition4 #edition6">(21)<pb n="411" source="#edition6"/><pb
+                                n="571" source="edition4"/>
+                            <g ref="#char_pdm1"/>« Un Père de l’Eglise, un docteur de l’Eglise,
+                            quels noms ! quelle tristesse dans leurs écrits ! <seg> quelle
+                                sécheresse, quelle froide dévotion, et peut-être quelle scolastique
+                                    !<note source="#Jean">contenu de la note.</note></seg>» disent
+                                <pb n="412" source="#edition6"/>ceux qui ne les ont jamais lus. Mais
+                            plutôt quel étonnement pour tous ceux qui se sont fait une idée des
+                            Pères si éloignée de la vérité, s’ils voyaient dans leurs ouvrages plus
+                            de tour et de délicatesse, plus de politesse et d’esprit, plus de
+                            richesse d’expression et plus de force de raisonnement, des traits plus
+                            vifs et des grâces plus naturelles que l’on n’en remarque dans la
+                            plupart des livres de ce temps qui sont lus avec goût, qui donnent du
+                            nom et de la vanité à leurs auteurs ! Quel plaisir d’aimer la religion,
+                            et de la voir crue, soutenue, expliquée par <pb n="572"
+                                source="edition4"/> de si beaux génies, et par de si solides esprits
+                            ! surtout lorsque l’on vient à connaître que pour l’étendue de
+                            connaissance, pour la profondeur et la pénétration, pour les principes
+                            de la pure philosophie, pour leur application et leur développement,
+                            pour la justesse des conclusions, pour la dignité du discours, pour la
+                            beauté de la morale et des sentiments, il n’y a rien par exemple que
+                            l’on puisse comparer à S. Augustin, que Platon et que <seg>Cicéron.<note
+                                    type="glossaire" source="#C_Galet">Cicéron (106 av.J.C - 43
+                                    av.J.C) était un homme d'Etat Romain.</note></seg></p>
                     </div3>
                 </div2>
             </div1>
         </body>
     </text>
 </TEI>
-
