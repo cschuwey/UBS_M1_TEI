@@ -55,7 +55,7 @@
             <charDecl>
                 <char xml:id="char_pm">
                     <mapping> ¶ </mapping>
-                    <desc> Les remarques 'ovrent par un pied-de-mouche dans les éditions 1 et 9
+                    <desc> Les remarques s'ouvrent par un pied-de-mouche dans les éditions 1 et 9
                     </desc>
                 </char>
                 <char xml:id="char_pm_1">
@@ -105,7 +105,7 @@
                      <p> Choix de l'attribut source, non de ed car présent dans tout le document, pas besoin de garder une vraie trace du changement. </p>
                      <p> Les différents personens sous-entendus ont été mentionnés dans sourceDesc </p> 
                     <p> Précision des rôles de chacun. </p>
-                    <p> Pas de référence d'autorité pour les réf, correspondent aux personnages mentionnés. </p>
+                    <p> Pas de référence d'autorité pour les ref, correspondent aux personnages mentionnés. </p>
                     <p> Les différentes clés uilisées ont été encodées dans bibl, en utilisant des xml=id. </p> 
                    
                 </interpretation>
