@@ -59,6 +59,11 @@
                     <note type="type">Monographe imprimée</note>
                     <note type="format">1 microfilm ; 35 mm</note>
                 </bibl>
+                <bibl type="key">
+                    <title>Clés des <title>Caractères</title></title>
+                    <author>Escola</author>
+                </bibl>
+                <!-- J'ai essayé d'encoder le texte qui compile les différentes clés. -->
                 <listPerson type="ref">
                     <person xml:id="key_sevigne">
                         <name>Marie de Rabutin-Chantal marquise de Sévigné</name>
