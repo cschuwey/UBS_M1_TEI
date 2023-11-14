@@ -57,13 +57,24 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
-                <bibl xml:id="cles_XVIII"></bibl>
+                <bibl xml:id="cles_XVIII">
+                    <author>La Bruyère, Jean de</author>
+                    <title type="main">Les caractères ou les moeurs de ce siècle.</title>
+                    <title type="sub">précédé de Les caractères de Théophraste</title>
+                </bibl>
                 <!-- <seg> <note type="key"> <persName type="key" source="#clesXVIII"> -->
                 <listPerson>
                     <!-- <personGrp type="fictif"/> <personGrp type="réel"/> exemple liste pour persos réels/fictifs -->
-                    <person xml:id="perso1">
-                        <name>perso1 exemple</name>
-                        <idno>ex: data bnf pour référenciel autorité</idno>
+                    <person xml:id="Morstein">
+                        <persName>Jean André de Morstein</persName>
+                        <idno>Monsieur de Morstein, ancien trésorier de Pologne et Ambassadeur de
+                            Pologne en France</idno>
+                    </person>
+                    <person xml:id="Robert">
+                        <persName>Le Président Robert</persName>
+                        <idno>Le Président Robert qui a perdu 10 000 pistoles à la table du Duc de
+                            Lauzun en Août 1686 et a dû donner sa démission quelques mois après la
+                            parution de cette remarque afin de payer ses dettes</idno>
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -142,9 +153,12 @@
 
                     <div3 type="remarque" n="65" source="#editionneuf">
                         <p><g ref="#char_pdm"/>
-                            <pb n="151" source="#editionneuf"/>L’avare  dépense plus mort en un seul
-                            jour, qu’il ne faisait vivant en dix années ; et son héritier plus en
-                            dix mois, qu’il n’a<app>
+                            <pb n="151" source="#editionneuf"/>
+                            <seg> L’avare <note type="key" source="#cles_XVIII">
+                                    <persName type="key" source="#Morstein">Jean André de Morstein
+                                    </persName> Fait référence à Jean André de Morstein </note>
+                            </seg> dépense plus mort en un seul jour, qu’il ne faisait vivant en dix
+                            années ; et son héritier plus en dix mois, qu’il n’a<app>
                                 <lem>su</lem>
                                 <rdg source="#editionneuf">ʃçû</rdg>
                             </app> faire lui-même en toute sa vie.</p>
@@ -219,13 +233,13 @@
                             de si sérieux qu’une table de gens qui jouent un grand jeu : une triste
                             sévérité règne sur leurs visages ; implacables l’un pour l’autre, et
                             irréconciliables ennemis pendant que la séance dure, ils ne
-                            reconnaissent plus ni liai<pb n="153" source="#editionneuf" rend="#tiret"
-                            />sons, ni alliance, ni naissance, ni distinctions : le hasard seul,
-                            aveugle et farouche divinité, préside au cercle, et y décide
-                            souverainement ; ils l’honorent tous par un silence profond, et par une
-                            attention dont ils sont partout ailleurs fort incapables ; toutes les
-                            passions, comme suspendues, cèdent à une seule ; le courtisan alors
-                            n’est ni doux, ni flatteur, ni complaisant, ni même dévot. </p>
+                            reconnaissent plus ni liai<pb n="153" source="#editionneuf"
+                                rend="#tiret"/>sons, ni alliance, ni naissance, ni distinctions : le
+                            hasard seul, aveugle et farouche divinité, préside au cercle, et y
+                            décide souverainement ; ils l’honorent tous par un silence profond, et
+                            par une attention dont ils sont partout ailleurs fort incapables ;
+                            toutes les passions, comme suspendues, cèdent à une seule ; le courtisan
+                            alors n’est ni doux, ni flatteur, ni complaisant, ni même dévot. </p>
                     </div3>
 
                     <div3 type="remarque" n="73" source="#editionun #editionneuf">
@@ -266,20 +280,24 @@
 
 
                     <div3 type="remarque" n="75" source="#editionneuf">
-                        <p><g ref="#char_pdm"/> Mille gens se ruinent au jeu, et vous disent
-                            froidement qu’ils ne sauraient se passer de jouer : quelle excuse ! Y
-                            a-t-il une passion, quelque violente ou honteuse qu’elle soit, qui ne
-                            pût tenir ce même langage ? Serait-on reçu à dire qu’on ne peut se
-                            passer de voler, d’assassiner, de se précipiter ? Un jeu effroyable,
-                            continuel, sans retenue, sans bornes, où l’on n’a en vue que la ruine
-                            totale de son adversaire, où l’on est transporté du désir du gain,
-                            désespéré sur la perte, consumé par l’avarice, où l’on expose sur une
-                            carte ou à la fortune du dé la sienne propre, celle de sa femme et de
-                            ses enfants, est-ce une chose qui soit permise ou dont l’on doive se
-                            passer ? Ne faut-il pas quelquefois se faire une plus grande violence,
-                            lorsque, poussé par le jeu jusques à une déroute universelle, il faut
-                            même que l’on se passe d’habits et de nourriture, et de les fournir à sa
-                            famille ? </p>
+                        <p><g ref="#char_pdm"/>
+                            <seg>Mille gens <note type="key" source="#cles_XVIII">
+                                    <persName type="key" source="#Robert">Le Président
+                                        Robert</persName>Fait référence au Président
+                                Robert</note></seg> se ruinent au jeu, et vous disent froidement
+                            qu’ils ne sauraient se passer de jouer : quelle excuse ! Y a-t-il une
+                            passion, quelque violente ou honteuse qu’elle soit, qui ne pût tenir ce
+                            même langage ? Serait-on reçu à dire qu’on ne peut se passer de voler,
+                            d’assassiner, de se précipiter ? Un jeu effroyable, continuel, sans
+                            retenue, sans bornes, où l’on n’a en vue que la ruine totale de son
+                            adversaire, où l’on est transporté du désir du gain, désespéré sur la
+                            perte, consumé par l’avarice, où l’on expose sur une carte ou à la
+                            fortune du dé la sienne propre, celle de sa femme et de ses enfants,
+                            est-ce une chose qui soit permise ou dont l’on doive se passer ? Ne
+                            faut-il pas quelquefois se faire une plus grande violence, lorsque,
+                            poussé par le jeu jusques à une déroute universelle, il faut même que
+                            l’on se passe d’habits et de nourriture, et de les fournir à sa famille
+                            ? </p>
                         <p>Je ne permets à personne d’être fripon ; mais je permets à un fripon de
                             jouer un grand jeu : je le défends à un honnête homme. C’est une trop
                             grande puérilité que de s’exposer à une grande perte. </p>
