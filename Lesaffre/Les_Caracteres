@@ -73,11 +73,40 @@
                     <ref type="URL"
                         >https://num.classiques-garnier.com/index.php?module=App&amp;action=FrameMain</ref>
                 </bibl>
+                <bibl xml:id="escola">
+                    <title/>
+                    <author>Marc Escola</author>
+                    <edition/>
+                    <date/>
+                    <editor/>
+                    <ref type="URL"
+                        >https://moodle.univ-ubs.fr/pluginfile.php/651932/mod_resource/content/0/Bruy%C3%83%C2%A8re%20-%20Cles%20-%20Escola.pdf</ref>
+                </bibl>
+                <bibl xml:id="Félibien">
+                    <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
+                        les mœurs de ce siècle</title>
+                    <desc>Exemplaire appartenant à un dénommé Félibien (peut-être André Félibien,
+                        contemporain de l'édition en question), copie mentionnée parmi les sources
+                        pour les clés proposées par Escola. La référence est évoquée comme
+                        "exemplaire de Félibien" par Escola, et l'année 1687 est évoquée dans le
+                        paragraphe le citant, ce qui nous fait supposer que l'édition qu'il
+                        possédait datait de cette année. Cependant, faute d'avoir le texte complet
+                        et la méthodologie de Marc Escola sur la manière dont il a noté ses sources,
+                        nous préférons appliquer le principe de précaution et prendre une position
+                        neutre sur l'année de publication de cet exemplaire.</desc>
+                    <distributor>inconnu</distributor>
+                    <edition>inconnu</edition>
+                    <author>Jean de La Bruyère</author>
+                    <editor>inconnu</editor>
+                    <date>inconnue</date>
+                </bibl>
                 <listPerson>
-                    <name> </name>
-                    <idno> </idno>
-                    <name> </name>
-                    <idno> </idno>
+                    <name>Antoine Varillas</name>
+                    <idno>https://data.bnf.fr/fr/12311349/antoine_varillas/</idno>
+                    <name>M. le Rebours</name>
+                    <idno>https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;pg=PA368&amp;lpg=PA368&amp;dq=%22M.+Le+rebours,+avocat+au+grand+conseil%22+cl%C3%A9+la+bruy%C3%A8re&amp;source=bl&amp;ots=qcR2JBBXma&amp;sig=ACfU3U3l4u4yDZuxkQXRl80BoI0lFyQTYg&amp;hl=fr&amp;sa=X&amp;ved=2ahUKEwj3_8bd-sOCAxV6Q6QEHdSLCfMQ6AF6BAgKEAM#v=onepage&amp;q=%22M.%20Le%20rebours%2C%20avocat%20au%20grand%20conseil%22%20cl%C3%A9%20la%20bruy%C3%A8re&amp;f=false</idno>
+                    <name>La Basinière</name>
+                    <idno/>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -162,13 +191,17 @@
                 <item><date when="2023-10-26">26 octobre 2023</date>Ajout d'une nouvelle source et
                     des balises lui correspondant dans le teiHeader et le texte. Notes
                     retravaillées.</item>
-                <item><date when="2023-11-07">7 octobre 2023</date>Ajout des éléments seg oubliés
+                <item><date when="2023-11-07">7 novembre 2023</date>Ajout des éléments seg oubliés
                     dans le devoir et création de balises app. Création de glyphes dans le teiHeader
                     et ajout des caractères typographiques dans le texte pour le texte. Ajout d'une
                     source pour le texte servant de base à l'encodage. Travail pour une cohabitation
                     entre les élément seg et noteGrp.</item>
-                <item><date when="2023-11-13">13 octobre 2023</date>Ajout de mention de sauts de
+                <item><date when="2023-11-13">13 novembre 2023</date>Ajout de mention de sauts de
                     page, mention d'entités nommées et de clés.</item>
+                <item><date when="2023-11-14">14 novembre 2023</date>Continuation du travail du 13
+                    novembre 2023. Proposition d'une correction pour l'élément app de la 11e
+                    remarque. Ajout de la source de Marc Escola et de l'exemplaire de Félibien
+                    (manquant tous deux des métadonnées exactes)</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -179,23 +212,37 @@
                 <div2 type="chapitre" n="13">
                     <head>De la Mode</head>
                     <div3 source="#edition4 #edition8" n="11">
-                        <p><g ref="char_pm"/><seg>Un homme fat et ridicule<note type="cle"><persName
-                                        source="">Varillas</persName></note></seg> porte un long
-                            chapeau, un pourpoint à ailerons, des chausses à aiguillettes et des
-                            bottines ; il rêve la veille par où et comment il pourra se faire
-                            remarquer le jour qui suit. Un philosophe se laisse habiller par son
-                            tailleur : il y a autant de <app>
+                        <p><g ref="char_pm"/><seg>Un homme fat et ridicule <note type="cle"
+                                    source="#escola">"L'exemplaire de Félibien propose cette
+                                    interprétation: l'homme fat et ridicule serait non pas l'homme à
+                                    la mode, mais<persName source="#felibien"
+                                    >Varillas</persName>(historiographe, 1624-1696), c'est-à-dire un
+                                    homme dont le costume suranné, chapeau, collet, manteau,
+                                    pourpoint, chausses, faisait "nargue à la mode et procès à la
+                                    vanité". Si cette interprétation est exacte, la réflexion peut
+                                    être daté de 1687; si, suivant l'avis de la plupart des
+                                    éditeurs; le portrait doit vraiment représenter un homme à la
+                                    mode, le costume dont La Bruyère habille l'homme "fat et
+                                    ridicule" étant passé de mode en 1687, on peut logiquement
+                                    supposer que la rédaction de la remarque est largement
+                                    antérieure à la première édition." (-Marc Escola)</note></seg>
+                            porte un long chapeau, un pourpoint à ailerons, des chausses à
+                            aiguillettes et des bottines ; il rêve la veille par où et comment il
+                            pourra se faire remarquer le jour qui suit. Un philosophe se laisse
+                            habiller par son tailleur : il y a autant de <app>
                                 <lem source="#edition4 #edition8">foiblesse</lem>
-                            </app>faiblesse à fuir la mode qu’à l’<seg>affecter<note
-                                    resp="#lesaffre" type="gloss" source="#furetiere">"Aimer,
-                                    souhaiter quelque chose avec empressement et ostentation"
-                                    (Furetière)</note></seg>.</p>
+                                <rdg source="#edition19e">faiblesse</rdg>
+                            </app> à fuir la mode qu’à l’<seg>affecter<note resp="#lesaffre"
+                                    type="gloss" source="#furetiere">"Aimer, souhaiter quelque chose
+                                    avec empressement et ostentation" (Furetière)</note></seg>.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="12">
                         <p><g ref="char_pm"/>L’on blâme une mode qui divisant la taille des hommes
                             en deux<pb source="#edition8" n="575"/>parties égales, en prend une tout
-                            entière pour le buste, et laisse l’autre pour le reste du corps ; l’on
-                            condamne celle qui fait de la tête des femmes la <app>
+                            entière pour le buste, et laisse l’autre pour <seg><note place="below"
+                                    source="#edition4">le</note></seg><pb source="#edition4" n="375"
+                            /> reste du corps ; l’on condamne celle qui fait de la tête des femmes
+                            la <app>
                                 <lem source="#edition8">base</lem>
                                 <rdg source="#edition4">baze</rdg>
                             </app> d’un édifice à plusieurs étages dont l’ordre et la structure
@@ -243,8 +290,14 @@
                     </div3>
                     <div3 source="#edition8" n="14">
                         <p><g ref="char_pm"/>
-                            <name rend="italic"><seg>Iphis<note type="cle"><persName source="">M. le
-                                            Rebours</persName></note></seg></name> voit à l’église
+                            <name rend="italic"><seg>Iphis<note type="cle" source="#escola">Iphis:
+                                            "<persName source="#cleisolee">M. le Rebours</persName>,
+                                        avocat au grand conseil" selon une clé isolée; "<persName
+                                            source="felibien">La Basinière</persName> [mort en 1688]
+                                        qui eut le pied coupé pour avoir porté des souliers trop
+                                        petits", selon la clé Félibien (cf.Tallemant des Réaux,II,
+                                        201-212; Saint-Simon (IV, 379-380, et index); Dangeau
+                                        (index)." (-Marc Escola)</note></seg></name> voit à l’église
                             un soulier d’une nouvelle mode ; il regarde le sien et en rougit ; il ne
                             se croit plus habillé. Il était venu à la messe pour s’y montrer, et il
                             se cache ; le voilà retenu par le pied dans sa chambre tout le reste du
@@ -258,7 +311,8 @@
                             délicate, et heureusement il parle gras ; il a un mouvement de tête, et
                             je ne sais quel adoucissement dans les yeux, dont il n’oublie pas de
                             s’embellir ; il a une démarche molle et le plus joli maintien qu’il est
-                            capable de se procurer ; il met du rouge, mais rarement, il<pb
+                            capable de se procurer ; il met du rouge, mais rarement, <seg><note
+                                    place="below" source="#edition8">il</note></seg><pb
                                 source="#edition8" n="577"/> il n’en fait pas habitude. Il est vrai
                             aussi qu’il porte des <seg>chausses<note resp="#lesaffre" type="gloss"
                                     source="furetiere">"ou haut-de-chausses, signifie la partie
@@ -322,15 +376,16 @@
                             bienfait qu’en traitant de même nos descendants.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="16">
-                        <p><g ref="char_pm"/>Le courtisan autrefois avait ses <seg>cheveux<note
-                                    resp="#lesaffre" type="explication">Étant donné le contexte de
-                                    la phrase, nous déduisons que les cheuveux naturels sont portés
-                                    non sous la forme de perruque pour cette occurence, mais tels
-                                    qu'ils poussent sur le crâne.</note></seg>, étaient en chausses
-                            et en pourpoint, portait de larges canons, et il<pb source="#edition8"
-                                n="579"/> était libertin. Cela ne sied plus : il porte une perruque,
-                            l’habit serré, le bas uni, et il est dévot : tout se règle par la
-                            mode.</p>
+                        <p><g ref="char_pm"/>Le courtisan autrefois avait ses<pb source="#edition4"
+                                n="376"/>
+                            <seg>cheveux<note resp="#lesaffre" type="explication">Étant donné le
+                                    contexte de la phrase, nous déduisons que les cheuveux naturels
+                                    sont portés non sous la forme de perruque pour cette occurence,
+                                    mais tels qu'ils poussent sur le crâne.</note></seg>, étaient en
+                            chausses et en pourpoint, portait de larges canons, et il<pb
+                                source="#edition8" n="579"/> était libertin. Cela ne sied plus : il
+                            porte une perruque, l’habit serré, le bas uni, et il est dévot : tout se
+                            règle par la mode.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="17">
                         <p><g ref="char_pm"/>Celui qui depuis quelque temps à la cour était dévot,
