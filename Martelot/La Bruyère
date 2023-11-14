@@ -13,10 +13,19 @@
             </publicationStmt>
             <sourceDesc>
                 <listPerson>
-                    <person> <name> jean rcine </name>
-                        <idno>blabla</idno>
+                    <person xml:id="Catherine_Turgot_ou_Madame_Boislandry"> <name>Catherine Turgot ou Madame Boislandry</name>
+                        <idno>Pas d'idno</idno>
                     </person>
+                    <person xml:id="premier_president_de_Harlay"> <name>premier président de Harlay</name>
+                        <idno>Pas d'idno</idno>
+                    </person>
+                    <person xml:id="la_bruyere"> <name> La bruyere </name> <idno>https://data.bnf.fr/11910249/jean_de_la_bruyere/</idno></person>
+
                 </listPerson>
+
+                <listPlace>
+                    <place xml:id="Rouen_Caen">Rouen,Caen</place>
+                </listPlace>
                 
                 <listBibl>
                     <bibl xml:id="edition9">
@@ -49,7 +58,10 @@
                         <ref type="URI"
                             >https://www.google.fr/books/edition/_/OOZmAAAAcAAJ?hl=fr&amp;gbpv=1</ref>
                     </bibl>
-
+                    <bibl xml:id="cle_1990"> </bibl>
+                    <bibl xml:id="cle_1687"> </bibl>
+                    <bibl xml:id="cle_1694"> </bibl>
+                    <bibl xml:id="cle_1690_1691"> </bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -65,7 +77,7 @@
                 </char>
 
                 <char xml:id="char_pm-par2">
-                    <mapping>((¶)))</mapping>
+                    <mapping>((¶))</mapping>
                     <desc>Pied-de-mouche à parenthèse simple. Signale une nouvelle remarque. </desc>
                 </char>
 
@@ -112,6 +124,7 @@
                 nouvelle édition la 9 après avoir perdu la bonne édition 2 car celle que j'ai ne
                 possède pas les textes en dessous ou alors très peu je ne savais pas si je le
                 supprimais ou non je ne retrouve pas l'ancienne</change>
+            <change when="2023-11-14">Ajout des page break et des list person / place</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -128,7 +141,7 @@
                             >Note fictive</note>
                         <p><g ref="#char_pm-par"/> Qu’on ne me parle jamais d’encre, de papier, de
                             plume, de style, d’imprimeur, d’imprimerie, qu’on ne se hasarde plus de
-                            me dire : « Vous écrivez si bien, Antisthène ! continuez d’écrire ; ne
+                            me dire : « Vous écrivez si bien, <seg> Antisthène <note type="cle_1690">  <persName source="#cle_1690" ref="#la_bruyere"> </persName> </note> ! continuez d’écrire ; ne
                             verrons-nous point de vous un in-folio ? traitez de toutes les vertus et
                             de tous les vices dans un ouvrage suivi, méthodique, qui n’ait point de
                             fin » ; ils devraient ajouter : « et nul cours. » Je renonce à tout ce
@@ -144,7 +157,7 @@
                             plus riche que son maître ; il le laisse dans la roture, et avec de
                             l’argent il devient noble. B** s’enrichit à montrer dans un cercle des
                             marionnettes ; BB** à vendre en bouteille l’eau de la rivière. Un autre
-                            charlatan arrive ici de delà les monts avec une malle ; il n’est pas
+                            charlatan arrive ici de delà les monts <pb n="341" source="#edition9"> avec une malle ; il n’est pas
                             déchargé que les pensions courent, et il est prêt de retourner d’où il
                             arrive avec des mulets et des fourgons. Mercure est Mercure, et rien
                             davantage, et l’or ne peut payer ses médiations et ses intrigues : on y
@@ -172,12 +185,12 @@
                             <g ref="#char_pm-par"/>Si les ambassadeurs des <app>
                                 <lem source="#edition4 #edition9">princes</lem>
                                 <rdg source="#edition2">rois</rdg>
-                            </app> étrangers étaient des singes instruits à marcher sur leurs pieds
+                            </app> étrangers étaient des singes instruits à marcher <pb n="342" source="#edition9"> sur leurs pieds
                             de derrière, et à se faire entendre par interprète, nous ne pourrions
                             pas marquer un plus grand étonnement que celui que nous donne la
                             justesse de leurs réponses, et le bon sens qui paraît quelquefois dans
                             leurs discours. La prévention du pays, jointe à l’orgueil de la nation,
-                            nous fait oublier que la raison est de tous les climats, et que l’on
+                            nous fait oublier que la raison est de tous <pb n="262" source="#edition2"> les climats, et que l’on
                             pense juste partout où il y a des hommes. Nous n’aimerions pas à être
                             traités ainsi de ceux que nous appelons barbares ; et s’il y a en nous
                             quelque barbarie, elle consiste à être épouvantés de voir d’autres
@@ -189,8 +202,8 @@
                                     source="#edition4"> Contre la maxime latine et triviale </note>
                                 Ce terme s'entend ici métaphoriquement</seg> et toute ville n’est
                             pas polie.</p>
-                        <p>Il y a dans l’Europe un endroit <geogName>d’une province
-                                maritime</geogName> d’un grand royaume où le villageois est doux et
+                        <p>Il y a dans l’Europe <pb n="318" source="#edition4"> un endroit <seg> d’une province
+                                maritime <note type="cle_1687">  <geogName source="#cle_1687" ref="#Rouen_Caen"> </geogName> </note>  d’un grand royaume où le villageois est doux et
                             insinuant, le bourgeois au contraire et le magistrat grossiers, et dont
                             la rusticité est héréditaire.</p>
                     </div3>
@@ -199,17 +212,17 @@
                             <g ref="#char_pm-par"/>Avec un langage <app>
                                 <lem>s</lem>
                                 <rdg source="#edition4 #edition2 #edition9">ſ</rdg>
-                            </app>i pur, une si grande recherche dans nos habits, des mœurs si
+                            </app>i pur, une si grande recherche dans nos <pb n="263" source="#edition2"> habits, des mœurs si
                             cultivées, de si belles lois et un visage blanc, nous sommes barbares
                             pour quelques peuples.</p>
                     </div3>
 
-                    <div3 n="24" source="#edition4 #edition9">
+                    <div3 n="24" source="#edition2 #edition4 #edition9">
                         <p><g ref="#char_pm-par"/>Si nous entendions dire des Orientaux qu’ils
                             boivent ordinairement d’une liqueur qui leur monte à la tête, leur fait
                             perdre la raison et les fait vomir, nous dirions <app>
                                 <lem>:</lem>
-                                <rdg source="#edition4 #edition9">;</rdg>
+                                <rdg source="#edition4 #edition9 #edition2">;</rdg>
                             </app> « Cela est bien barbare. »</p>
                     </div3>
 
@@ -221,10 +234,10 @@
                             il n’est point homme de cabale, et il n’a point l’esprit d’intrigue ;
                             toujours dans son évêché, où il fait une résidence continuelle, il ne
                             songe qu’à instruire son peuple par la parole et à l’édifier par son
-                            exemple ; il consume son bien en des aumônes, et son corps par la
+                            exemple ; il consu<pb n="319" source="#edition4">me son bien en des aumônes, et son corps par la
                             pénitence ; il n’a que l’esprit de régularité, et il est imitateur du
-                            zèle et de la piété des Apôtres. Les temps sont changés, et il est
-                            menacé sous ce règne d’un titre plus éminent.</p>
+                            zèle et de la piété des Apôtres. Les temps sont <pb n="265" source="#edition2">changés, et il est
+                            menacé sous ce règne d’un titre plus éminent.</p> 
                     </div3>
                     <div3 n="25" source="#edition2 #edition4 #edition9">
                         <p>
@@ -234,7 +247,7 @@
                             l'Orateur qui ne s'exerce souvent que sur de simples faits : et celui
                             qui écrit l'histoire de son pays ne peut comprendre qu'un esprit
                             raisonnable emploie sa vie à imaginer des fictions et à trouver une rime
-                            : de même le Bachelier plongé dans les quatre premiers siècles traite
+                            : de même <pb n="264" source="#edition2"> le Bachelier plongé dans les quatre premiers siècles traite
                             toute autre doctrine de science triste, vaine et inutile; pendant qu'il
                             est peut être méprisé du Geomètre. </p>
                     </div3>
@@ -255,7 +268,7 @@
                     <div3 source="#edition4 #edition9">
                         <p>
                             <g ref="#char_pm-par"/>Ceux qui employent mal leur temps sont les
-                            premiers à se plaindre de la briéveté; comme ils le confument à
+                            premiers à se plaindre de la briéveté; comme ils le consu <pb n="320" source="#edition4">ment à
                             s'habiller, à manger, à dormir, à de sots discours, a se resoudre ce
                             qu'ils doivent faire, et souvent à ne rien faire, ils en manquent pour
                             leurs affaires ou pour leurs plaisirs; ceux au contraire qui en fond un
@@ -276,9 +289,9 @@
                             </seg>; il n'avoit point d'autre beatitude à le faire que le cours d'une
                             belle vie, et un grand nom après sa mort; né fier, amibitieux, et se
                             portant bien comme il faisoit, il ne pouvoit mieux employer son temps
-                            qu'à conquerir le monde. Alexandre était bien jeune pour un deffein si
+                            qu'à conquerir le monde. Alexandre <pb n="255" source="#edition2"> était bien jeune pour un deffein si
                             serieux; bien jeune pour un deffein si serieux; il est etonnant que dans
-                            ce premier âge les femmes ou levin n'ayent pas plutôt rompu son
+                            ce premier âge les femmes ou levin n'ayent <pb n="321" source="#edition4"> pas plutôt rompu son
                             entreprise.</p>
 
                     </div3>
@@ -322,11 +335,11 @@
                             conversations, elle a encore ces saillies heureuses qui entre autres
                             plaisirs qu’elles font, dispensent toujours de la réplique. Elle vous
                             parle comme celle qui n’est pas savante, qui doute et qui cherche à
-                            s’éclaircir ; et elle vous écoute comme celle qui sait beaucoup, qui
+                            s’éclaircir ; et elle vous écoute comme celle <pb n="345" source="#edition9"> qui sait beaucoup, qui
                             connaît le prix de ce que vous lui dites, et auprès de qui vous ne
                             perdez rien de ce qui vous échappe. Loin de s’appliquer à vous
                             contredire avec esprit, et d’imiter Elvire, qui aime mieux passer pour
-                            <persName type="person">une femme vive</persName> que marquer du bon sens et de la justesse, elle
+                            <seg>une femme vive <note type="cle_1694"><persName source="#cle_1694" ref="#Catherine_Turgot_ou_Madame_Boislandry"></persName></note> que marquer du bon sens et de la justesse, elle
                             s’approprie vos sentiments, elle les croit siens, elle les étend, elle
                             les embellit : vous êtes content de vous d’avoir pensé si bien, et
                             d’avoir mieux dit encore que vous n’aviez cru. Elle est toujours
@@ -343,7 +356,7 @@
                             années, puisque avec une bonne conduite elle a de meilleures intentions,
                             des principes sûrs, utiles à celles qui sont comme elle exposées aux
                             soins et à la flatterie ; et qu’étant assez particulière sans pourtant
-                            être farouche, ayant même un peu de penchant pour la retraite, il ne lui
+                            être <pb n="346" source="#edition9">farouche, ayant même un peu de penchant pour la retraite, il ne lui
                             saurait peut-être manquer que les occasions, ou ce qu’on appelle un
                             grand théâtre, pour y faire briller toutes ses vertus. » </p>
                     </div3>
@@ -361,8 +374,8 @@
                             singularité de l’habit, une ample calotte n’ajoutent rien à la probité,
                             ne relèvent pas le mérite ; ils le fardent, et font peut-être qu’il est
                             moins pur et moins ingénu. (VI) <seg> Une gravité trop étudiée
-                                <note type="cle">premier <persName>président de Harlay</persName>, le portrait que brosse
-                                        <persName>Saint-Simon</persName> de ce Magistrat qui se donnait des airs
+                                <note type="cle_1690_1691"><persName source="#cle_1690_1691" ref="#premier_president_de_Harlay"> </persName> le portrait que brosse
+                                        Saint-Simon de ce Magistrat qui se donnait des airs
                                     d'écclésiatique</note></seg> devient comique ; ce sont comme des
                             extrémités qui se touchent et dont le milieu est dignité ; cela ne
                             s’appelle pas être grave, mais en jouer le personnage ; celui qui songe
@@ -372,7 +385,7 @@
                     </div3>
 
                     <div3 n="30" source="#edition9">
-                        <p><g ref="#char_pm-par"/>Un homme de talent et de réputation, s’il est
+                        <p><g ref="#char_pm-par"/>Un homme de talent et de réputation, <pb n="347" source="#edition9"> s’il est
                             chagrin et austère, il effarouche les jeunes gens, les fait penser mal
                             de la vertu, et la leur rend suspecte d’une trop grande réforme et d’une
                             pratique trop ennuyeuse. S’il est au contraire d’un bon commerce, il
