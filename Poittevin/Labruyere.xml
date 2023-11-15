@@ -14,6 +14,10 @@
 
             </publicationStmt>
             <sourceDesc>
+                <listPerson>
+                    <person xml:id="Cléante"/>
+                </listPerson>
+                
                 <bibl xml:id="édition3">
                     <author>Théophraste</author>
                     <author>Jean de la Bruyère</author>
@@ -49,6 +53,12 @@
                     <idno type="uri">
                         https://www.google.fr/books/edition/Les_caracteres_de_Theophraste_traduits_d/2SeBerCnLvkC?hl=fr
                     </idno>
+                </bibl>
+                <bibl xml:id="cléXVIII">
+                    <author/>
+                    <note>(1688) - Cléante: «M. Loiseau, ci-devant receveur à Nantes, qui a épousé
+                        Mlle de Soleure [ou de Solenne] de Beauce, assez jolie personne et séparée
+                        d'avec lui»</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -106,6 +116,8 @@
                 jour, ajout des glyphs dans le teiHeader avec la balise charDecl et dans le
                 texte.</change>
             <change when="2023-11-13">Début de l'ajout des limites de page.</change>
+            <change when="2023-11-15">Fin de l'ajout des limites de page et ajout des clés dans le
+                teiHeader et dans le texte.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -123,20 +135,18 @@
 
 
                     <div3 n="43" source="#édition3 #édition6 #édition8">
-                        <p source="#édition3 #édition6 #édition8"><g ref="#char_pm"
-                                    /><seg>Cléante<note place="bottom" type="gloss" n="1"
-                                    resp="#poittevin">Je n'arrive pas à trouver des informations sur
-                                    ce fameux "Cléante", je n'ai probablement pas assez
-                                    cherché...</note></seg>
+                        <p source="#édition3 #édition6 #édition8"><g ref="#char_pm"/><seg
+                                source="#Cléante">Cléante<note type="clé"/></seg>
                             <app>
                                 <lem>est</lem>
                                 <rdg source="#édition3 #édition6 #édition8">eſt</rdg>
-                            </app> un très honnête homme ; il s’est choisi une femme qui est la
-                            meilleure personne du monde et la plus raisonnable : chacun, de sa part,
-                            fait tout le plaisir et tout l’agrément des sociétés où il se trouve ;
-                            l’on ne peut voir ailleurs plus de probité, plus de politesse. Ils se
-                            quittent demain, et l’acte de leur séparation est tout dressé chez le
-                            notaire. Il y a, sans mentir, de certains mérites qui ne sont point
+                            </app> un très honnête homme ; il s’est choisi une femme qui est <pb
+                                n="209" source="#édition8"/> la meilleure personne du monde et la
+                            plus raisonnable : chacun, de sa part, fait tout le plaisir et tout
+                            l’agrément des sociétés où il se trouve ; l’on ne peut voir ailleurs
+                            plus de probité, plus de politesse. Ils se quittent demain, et l’acte de
+                            leur séparation est tout dressé chez le notaire. Il y a, sans mentir, de
+                            certains mérites qui <pb n="180" source="#édition6"/> ne sont point
                             faits pour être ensemble, de certaines vertus incompatibles.</p>
                     </div3>
 
@@ -147,7 +157,8 @@
                                     place="margin" resp="#poittevin">Biens assignés lors du mariage
                                     dont la femme peut être bénéficiaire si elle devient
                                     veuve.</note></seg> et les conventions, mais faiblement sur les
-                            nourritures ; elles <pb n="156" source="#édition3"/> dépendent d’une union fragile <app>
+                            nourritures ; elles <pb n="156" source="#édition3"/> dépendent d’une
+                            union fragile <app>
                                 <rdg source="#édition6 #édition8">de la belle-mère et de la bru,
                                     et</rdg>
                                 <rdg source="#édition3"/>
@@ -166,9 +177,10 @@
                         <p source="#édition6 #édition8"><g ref="#char_pm"/>Ce qu’une marâtre aime le
                             moins de tout ce qui est au monde, ce sont les enfants de son mari :
                             plus elle est folle de son mari, plus elle est marâtre.</p>
-                        <p source="#édition6 #édition8">Les marâtres font déserter les villes et les
-                            bourgades, et ne peuplent pas moins la terre de mendiants, de vagabonds,
-                            de domestiques et d’esclaves, que la pauvreté.</p>
+                        <p source="#édition6 #édition8">Les marâtres font déserter les villes <pb
+                                n="210" source="#édition8"/> et les bourgades, et ne peuplent pas
+                            moins la terre de mendiants, de vagabonds, de domestiques et d’esclaves,
+                            que la pauvreté.</p>
                     </div3>
 
 
@@ -180,8 +192,9 @@
                                     cette note pour préciser l'endroit dont l'auteur parle ici, même
                                     si dans ce cas, il ne décrit pas un endroit en
                                     particulier.</note></seg>. Eloignés des villes et de tout
-                            commerce, il semblait que la fuite d’une entière solitude ou l’amour de
-                            la société eût dû les assujettir à une liaison récipro-<pb n="157" source="#édition3"/>que <app>
+                            commerce, il semblait que la <pb n="181" source="#édition6"/> fuite
+                            d’une entière solitude ou l’amour de la société eût dû les assujettir à
+                            une liaison récipro-<pb n="157" source="#édition3"/>que <app>
 
                                 <rdg source="#édition6 #édition8">;</rdg>
                                 <rdg source="#édition3">:</rdg>
@@ -201,6 +214,7 @@
                         <p source="#édition8"><g ref="#char_pm"/>Il est souvent plus court et plus
                             utile de cadrer aux autres que de faire que les autres s’ajustent à
                             nous.</p>
+                        <pb n="211" source="#édition8"/>
 
                     </div3>
 
@@ -213,9 +227,9 @@
                             froids et de l’aquilon. Je la vois dans un jour si favorable, que je
                             compte ses tours et ses clochers ; elle me paraît peinte sur le penchant
                             de la colline. Je me récrie, et je dis : "Quel plaisir de vivre sous un
-                            si beau ciel et dans ce séjour si délicieux ! " Je descends dans la
-                            ville, où je n’ai pas couché deux nuits, que je ressemble à ceux qui
-                            l’habitent : j’en veux sortir.</p>
+                            si beau <pb n="182" source="#édition6"/> ciel et dans ce séjour si
+                            délicieux ! " Je descends dans la ville, où je n’ai pas couché deux
+                            nuits, que je ressemble à ceux qui l’habitent : j’en veux sortir.</p>
                     </div3>
 
 
@@ -227,12 +241,13 @@
                                 voient avec confiance ; où un mariage n’engendre point une guerre
                                 civile ; où la querelle des rangs ne se réveille pas à tous moments
                                 par l’offrande, l’encens et le pain bénit, par les processions et
-                                par les obsèques ; d’où l’on a banni les caquets, le mensonge et la
-                                médisance ; où l’on voit parler ensemble le bailli et le président,
-                                les élus et les assesseurs ; où le doyen vit bien avec ses chanoines
-                                ; où les chanoines ne dédaignent pas les chapelains, et où ceux-ci
-                                souffrent les chantres.<note type="gloss" place="end"
-                                    resp="#poittevin">Je ne sais pas vraiment.</note></seg></p>
+                                par les obsèques ; d’où l’on a banni <pb n="212" source="#édition8"
+                                /> les caquets, le mensonge et la médisance ; où l’on voit parler
+                                ensemble le bailli et le président, les élus et les assesseurs ; où
+                                le doyen vit bien avec ses chanoines ; où les chanoines ne
+                                dédaignent pas les chapelains, et où ceux-ci souffrent les
+                                    chantres.<note type="gloss" place="end" resp="#poittevin">Je ne
+                                    sais pas vraiment.</note></seg></p>
                     </div3>
 
 
@@ -240,8 +255,8 @@
                         <p source="#édition6 #édition8"><g ref="#char_pm"/>Les provinciaux et les
                             sots sont toujours prêts à se fâcher, et à croire qu’on se moque d’eux
                             ou qu’on les méprise : il ne faut jamais hasarder la plaisanterie, même
-                            la plus douce et la plus permise, qu’avec des gens polis, ou qui ont de
-                            l’esprit.</p>
+                            la plus dou-<pb n="183" source="#édition6"/>ce et la plus permise,
+                            qu’avec des gens polis, ou qui ont de l’esprit.</p>
                     </div3>
 
 
