@@ -38,6 +38,21 @@
                     <editor xml:id="editor1696">Estienne Michallet</editor>
                     <editor xml:id="noteinventée">note inventée</editor>
                 </bibl>
+                <bibl xml:id="cleinventee">
+                    <title>Note inventée</title>
+                    <editor xml:id="launayo"/>
+                </bibl>
+                <listPerson>
+                    <person xml:id="Maurice">
+                        <persName>Maurice Legrand</persName>
+                        <idno> Personne inventée pour les besoins de l'exercice</idno>
+                    </person>
+                    <person xml:id="Henry">
+                        <persName>Henry Lepetit </persName>
+                        <idno> Personne inventée pour les besoins de l'exercice</idno>
+                    </person>
+                </listPerson>
+
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -80,8 +95,10 @@
             <change when="2023-10-26"> N'ayant pas de notes écrites par l'éditeur ou l'auteur, j'ai
                 inventé une note pour l'exercice du TD5. J'ai ensuite ajouté trois notes écrites par
                 moi-même</change>
-            <change when="2023-11-07">Ajout schéma xml corrigé. Ajout de trois variantes. Déclaration
-                charactères spéciaux. Ajout des pieds de mouche devant les paragraphes </change>
+            <change when="2023-11-07">Ajout schéma xml corrigé. Ajout de trois variantes.
+                Déclaration charactères spéciaux. Ajout des pieds de mouche devant les paragraphes
+            </change>
+            <change when="2023-11-15"> Ajout des pages breaks et de deux clés inventées </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -117,13 +134,18 @@
                             par le merveilleux succès de certaines gens que le hasard seul a placés,
                             et de qui jusques alors on n’avait pas attendu de fort grandes choses. </p>
                         <p source="#edition1688 #edition1696"><app>
-                            <rdg source="#edition1696"/>
-                            <rdg source="#edition1688"><g ref="#char_pm"/></rdg></app>Combien d’hommes admirables, et qui <app>
+                                <rdg source="#edition1696"/>
+                                <rdg source="#edition1688"><g ref="#char_pm"/></rdg>
+                            </app> Combien d’hommes admirables, et qui <app>
                                 <rdg source="#edition1696"/>
                                 <rdg source="#edition1688"> choſes,</rdg>
                             </app>avaient de très beaux génies, sont morts sans qu’on en ait parlé !
-                            Combien vivent encore dont on ne parle point, et dont on ne parlera
-                            jamais !</p>
+                                <seg> Combien vivent encore dont on ne parle <pb n="175"
+                                    source="#edition1688"/> point, et dont on ne parlera jamais !
+                                    <note type="cle" source="#cleinventee"> Fais référence à
+                                        <persName type="cle" source="#Maurice"> </persName>Maurice
+                                    Legrand ou <persName type="cle" source="#Henry"/>Henry Lepetit
+                                </note></seg></p>
                     </div3>
                     <div3 n="4" source="#edition1688 #edition1696">
                         <p><g ref="#char_pm"/>Quelle horrible peine a un homme qui est sans prôneurs
@@ -131,21 +153,25 @@
                             qui n’a que beaucoup de mérite pour toute recommandation, de se faire
                             jour à travers l’obscurité où il se trouve, et de venir au niveau d’un
                                 <seg> fat <note type="lexique" resp="#launay"> Ancien français: Sot,
-                                    niais </note></seg> qui est en crédit !</p>
+                                    niais </note></seg> qui est en crédit ! <pb n="34"
+                                source="#edition1696"/></p>
                     </div3>
                     <div3 n="5" source="#edition1688 #edition1696">
                         <p><g ref="#char_pm"/>Personne presque ne s’avise de lui-même du mérite d’un
                             autre.</p>
-                        <p> <app>
-                            <rdg source="#edition1696"/>
-                            <rdg source="#edition1688"><g ref="#char_pm"/></rdg></app> Les hommes sont trop occupés d’eux-mêmes pour avoir le loisir de
+                        <p>
+                            <app>
+                                <rdg source="#edition1696"/>
+                                <rdg source="#edition1688"><g ref="#char_pm"/></rdg>
+                            </app> Les hommes sont trop occupés d’eux-mêmes pour avoir le loisir de
                             pénétrer ou de discerner les autres ; de là vient qu’avec un grand
                             mérite et une plus grande modestie l’on peut être longtemps ignoré. </p>
                     </div3>
                     <div3 n="6" source="#edition1688 #edition1696">
                         <p><g ref="#char_pm"/>Le génie et les grands talents manquent souvent,
-                            quelquefois aussi les seules occasions : tels peuvent être loués de ce
-                            qu’ils ont fait, et tels de ce qu’ils auraient fait.</p>
+                            quelquefois aussi les seules occasions : tels <pb n="176"
+                                source="#edition1688"/> peuvent être loués de ce qu’ils ont fait, et
+                            tels de ce qu’ils auraient fait.</p>
                     </div3>
                     <div3 n="7" source="#edition1696">
                         <p><g ref="#char_pm"/>Il est moins rare de trouver de l’esprit que des gens
@@ -178,19 +204,24 @@
                             qu’il n’est propre à rien. Ainsi la plupart des hommes occupés d’eux
                             seuls dans leur jeunesse, corrompus par la paresse ou par le plaisir,
                             croient faussement dans un âge plus avancé qu’il leur suffit d’être
-                            inutiles ou dans l’indigence, afin que la république soit engagée à les
-                            placer ou à les secourir ; et ils profitent rarement de cette leçon si
-                            importante, que les hommes devraient employer les premières années de
-                            leur vie à devenir tels par leurs études et par leur travail que la
-                            république elle-même eût besoin de leur industrie et de leurs lumières,
-                            qu’ils fussent comme une pièce nécessaire à tout son édifice, et qu’elle
-                            se trouvât portée par ses propres avantages à faire leur fortune ou à
-                            l’embellir. </p>
-                        <p>Nous devons travailler à nous rendre très dignes de quelque emploi : le
-                            reste ne nous regarde point, c’est l’affaire des autres.</p>
+                            inutiles ou dans l’indigence, afin que la république <pb n="35"
+                                source="#edition1696"/> soit engagée à les placer ou à les secourir
+                            ; et ils profitent rarement de cette leçon si importante, que les hommes
+                            devraient employer les premières années de leur vie à devenir tels par
+                            leurs études et par leur travail que la république elle-même eût besoin
+                            de leur industrie et de leurs lumières, qu’ils fussent comme une pièce
+                            nécessaire à tout son édifice, et qu’elle se trouvât portée par ses
+                            propres avantages à faire leur fortune ou à l’embellir. </p>
+                        <p>Nous devons travailler à nous rendre très dignes de quelque emploi :
+                                <seg>le reste ne nous regarde point, c’est l’affaire des autres.
+                                    <note type="cle" source="#cleinventee">
+                                    <persName type="cle" source="#Henry"> Henry le
+                                    petit</persName>Fait référence à Henry Lepetit</note></seg></p>
+
                     </div3>
                 </div2>
             </div1>
+
         </body>
     </text>
 </TEI>
