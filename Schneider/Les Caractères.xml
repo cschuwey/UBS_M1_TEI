@@ -33,6 +33,29 @@
                     <idno type="URL"
                         >https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100959720</idno>
                 </bibl>
+                <bibl xml:id="cleAmis">
+                    <title>Clé inventée</title>
+                </bibl>
+                <listPerson>
+                    <person xml:id="BossuetA">
+                        <name>Antoine Bossuet</name>
+                    </person>
+                    <person xml:id="BossuetJB">
+                        <name>Jacques-Bénigne Bossuet</name>
+                        <idno>https://data.bnf.fr/11893072/jacques_benigne_bossuet/</idno>
+                    </person>
+                    <person xml:id="BossuetB">
+                        <name>Bénigne Bossuet</name>
+                    </person>
+                    <person xml:id="Fontenelle">
+                        <name>Bernard Le Bovier Fontenelle</name>
+                        <idno>https://data.bnf.fr/11903077/bernard_de_fontenelle/</idno>
+                    </person>
+                    <person xml:id="Benserade">
+                        <name>Isaac de Benserade</name>
+                        <idno>https://data.bnf.fr/11891290/isaac_de_benserade/</idno>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -90,6 +113,8 @@
                     <p>Lorsqu'il y a des variations entre l'édition 7 et l'édition 9, app encadre le
                         mot entier concerné par la ou les variation(s) car ce travail est réalisé
                         dans le cadre d'une étude littéraire.</p>
+                    <p>Les clés du chapitre Du Coeur ont été inventées car il n'y en avais pas dans les Clés des Caractères,
+                        d'Escola.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -109,7 +134,8 @@
             <change when="2023-11-07">Définition des fonctions des caractères particuliers :
                 pied-de-mouches, pied-de-mouches à parenthèses simples, pied-de-mouches à
                 parenthèses doubles, manicules.</change>
-            <change when="2023-11-16">Aujout des changements de pages.</change>
+            <change when="2023-11-16">Ajout des changements de pages.</change>
+            <change when="2023-11-16">Ajout des clés inventées pour le chapitre Du Coeur.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -119,13 +145,14 @@
                 <div2 type="chapitre" n="3">
                     <head>Du Coeur</head>
                     <div3 n="52" source="#edition9">
-                        <p source="#edition9"><g source="#edition9" ref="#char_pm"/> On convie, on invite, on offre sa
-                            maison, sa table, son bien et ses services : rien ne coûte qu’à tenir
-                            parole.</p>
+                        <p source="#edition9"><g source="#edition9" ref="#char_pm"/> On convie, on
+                            invite, on offre sa maison, sa table, son bien et ses services : rien ne
+                            coûte qu’à tenir parole.</p>
                     </div3>
 
                     <div3 n="53" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g source="#edition7 #edition9" ref="#char_pm"/>C’est assez pour soi d’un <app>
+                        <p source="#edition7 #edition9"><g source="#edition7 #edition9"
+                                ref="#char_pm"/>C’est assez pour soi d’un <app>
                                 <rdg source="#edition9">fidele</rdg>
                                 <rdg source="#edition7">fidel</rdg>
                             </app> ami ; c’est même beaucoup de l’avoir rencontré on ne peut en
@@ -133,82 +160,97 @@
                     </div3>
 
                     <div3 n="54" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g source="#edition7 #edition9" ref="#char_pm"/>Quand on a assez fait
-                            auprès de certaines personnes pour avoir dû se les acquérir, si cela ne
-                            réussit point, il y a encore une ressource, qui est de ne plus rien
-                            faire.</p>
+                        <p source="#edition7 #edition9"><g source="#edition7 #edition9"
+                                ref="#char_pm"/>Quand <seg>on<note source="#cleAmis"><persName
+                                        ref="#BossuetA">Antoine Bossuet</persName> : « <persName
+                                        ref="#BossuetJB">M. Jacques-Bénigne Bossuet</persName>, mon
+                                    frère, évêque et fils de <persName ref="#BossuetB">M. Bénigne
+                                        Bossuet</persName>, substitut du procureur général du
+                                        <orgName>Parlement de Bourgogne</orgName>, a vécu cette
+                                    mésaventure. Rien ne sert de trop donner lorsque l’on ne reçoit
+                                    plus depuis longtemps. »</note></seg> a assez fait auprès de
+                            certaines personnes pour avoir dû se les acquérir, si cela ne réussit
+                            point, il y a encore une ressource, qui est de ne plus rien faire.</p>
                     </div3>
 
                     <div3 n="55" source="#edition7 #edition9">
                         <note resp="#schneider" type="expl">L'auteur explique ici qu'aucune relation
                             n'est figée dans le temps et peut évoluer à tout moment.</note>
-                        <p source="#edition7 #edition9"><g source="#edition7 #edition9" ref="#char_pm"/>Vivre avec ses ennemis
-                            comme s’ils devaient un jour être nos amis, <pb source="#edition7" n="153"></pb> et vivre avec nos amis comme
-                            s’ils pouvaient devenir nos ennemis, n’est <app>
-                                <rdg source="#edition9">ni</rdg>
-                                <rdg source="#edition7">ny</rdg>
-                            </app> selon la nature de la haine, ni selon les règles de l’amitié ; ce
-                            n’est point une maxime morale, mais politique.</p>
+                        <p source="#edition7 #edition9"><g source="#edition7 #edition9"
+                                ref="#char_pm"/><seg>Vivre avec ses ennemis comme s’ils devaient un
+                                jour être nos amis, <pb source="#edition7" n="153"/> et vivre avec
+                                nos amis comme s’ils pouvaient devenir nos ennemis, n’est <app>
+                                    <rdg source="#edition9">ni</rdg>
+                                    <rdg source="#edition7">ny</rdg>
+                                </app> selon la nature de la haine, ni selon les règles de l’amitié
+                                ; ce n’est point une maxime morale, mais politique.<note source="#cleAmis"><persName ref="#Fontenelle">Bernard de
+                                    Fontenelle</persName> : « Prétendre traiter un ennemi comme un ami et un
+                                    ami comme un ennemi est fort affligeant quand on sait que <persName ref="#Benserade">M. Isaac
+                                        de Benserade</persName> s’en alla le <date when="1691-10-19">19 octobre 1691</date>, quelques mois
+                                    seulement après la sixième publication de ce torchon.
+                                »</note></seg></p>
                     </div3>
 
                     <div3 n="56" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g source="#edition7 #edition9" ref="#char_pm"/>On ne doit pas se faire
-                            des ennemis de ceux qui, mieux connus, pourraient avoir rang entre nos
-                            amis. On doit faire choix d’amis si sûrs et d’une si exacte <seg>probité
-                                    <note resp="#schneider" type="gloss">qualité à respecter ses
-                                    devoirs et/ou le règlement.</note></seg>, que venant à cesser de
-                            l’être, ils ne veuillent pas abuser de notre confiance, <app>
+                        <p source="#edition7 #edition9"><g source="#edition7 #edition9"
+                                ref="#char_pm"/>On ne doit pas se faire des ennemis de ceux qui,
+                            mieux connus, pourraient avoir rang entre nos amis. On doit faire choix
+                            d’amis si sûrs et d’une si exacte <seg>probité <note resp="#schneider"
+                                    type="gloss">qualité à respecter ses devoirs et/ou le
+                                    règlement.</note></seg>, que venant à cesser de l’être, ils ne
+                            veuillent pas abuser de notre confiance, <app>
                                 <rdg source="#edition9">ni</rdg>
                                 <rdg source="#edition7">ny</rdg>
                             </app> se faire craindre comme ennemis.</p>
                     </div3>
 
                     <div3 n="57" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g source="#edition7 #edition9" ref="#char_pm"/>Il est doux de voir ses
-                            amis par goût et par estime ; il est pénible de les cultiver par intérêt
-                            ; c’est solliciter.<pb source="#edition9" n="92"></pb></p>
+                        <p source="#edition7 #edition9"><g source="#edition7 #edition9"
+                                ref="#char_pm"/>Il est doux de voir ses amis par goût et par estime
+                            ; il est pénible de les cultiver par intérêt ; c’est solliciter.<pb
+                                source="#edition9" n="92"/></p>
                     </div3>
 
                     <div3 n="58" source="#edition9">
-                        <p source="#edition9"><g source="#edition9" ref="#char_pm"/>Il faut <seg>briguer<note
-                                    resp="#schneider" type="gloss">Chercher.</note></seg> la faveur
-                            de ceux à qui l’on veut du bien, plutôt que de ceux de qui l’on espère
-                            du bien.</p>
+                        <p source="#edition9"><g source="#edition9" ref="#char_pm"/>Il faut
+                                    <seg>briguer<note resp="#schneider" type="gloss"
+                                    >Chercher.</note></seg> la faveur de ceux à qui l’on veut du
+                            bien, plutôt que de ceux de qui l’on espère du bien.</p>
                     </div3>
 
                     <div3 n="59" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g source="#edition7 #edition9" ref="#char_pm"/>On ne vole point des
-                            mêmes ailes pour sa fortune que l’on fait pour des choses frivoles et de
-                            fantaisie. <seg>Il y a un sentiment de liberté à suivre ses caprices, et
-                                tout au contraire de servitude à courir pour son établissement<note
-                                    resp="#labruyere">Note fictive.</note></seg> : il est naturel de
-                            le souhaiter beaucoup et d’y travailler peu, de se croire digne de le
-                            trouver sans l’avoir cherché.</p>
+                        <p source="#edition7 #edition9"><g source="#edition7 #edition9"
+                                ref="#char_pm"/>On ne vole point des mêmes ailes pour sa fortune que
+                            l’on fait pour des choses frivoles et de fantaisie. <seg>Il y a un
+                                sentiment de liberté à suivre ses caprices, et tout au contraire de
+                                servitude à courir pour son établissement<note resp="#labruyere"
+                                    >Note fictive.</note></seg> : il est naturel de le souhaiter
+                            beaucoup et d’y travailler peu, de se croire digne de le trouver sans
+                            l’avoir cherché.</p>
                     </div3>
 
                     <div3 n="60" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g source="#edition7 #edition9" ref="#char_pm"/><app>
-                            <rdg source="#edition9">Celui</rdg>
-                            <rdg source="#edition7">Celuy</rdg>
-                        </app> qui sait attendre
-                            le <pb source="#edition7" n="154"></pb>bien qu’il souhaite, ne prend pas le chemin de se désespérer s’il ne
-                            lui arrive pas ; et celui au contraire qui désire une chose avec une
-                            grande impatience, y met trop du sien pour en être assez récompensé par
-                            le succès.</p>
+                        <p source="#edition7 #edition9"><g source="#edition7 #edition9"
+                                ref="#char_pm"/><app>
+                                <rdg source="#edition9">Celui</rdg>
+                                <rdg source="#edition7">Celuy</rdg>
+                            </app> qui sait attendre le <pb source="#edition7" n="154"/>bien qu’il
+                            souhaite, ne prend pas le chemin de se désespérer s’il ne lui arrive pas
+                            ; et celui au contraire qui désire une chose avec une grande impatience,
+                            y met trop du sien pour en être assez récompensé par le succès.</p>
                     </div3>
 
                     <div3 n="61" source="#edition9">
-                        <p source="#edition9">Il y a de certaines gens qui
-                            veulent si ardemment et si déterminément une certaine chose, que de peur
-                            de la manquer, ils n’oublient rien de ce qu’il faut faire pour la
-                            manquer.</p>
+                        <p source="#edition9">Il y a de certaines gens qui veulent si ardemment et
+                            si déterminément une certaine chose, que de peur de la manquer, ils
+                            n’oublient rien de ce qu’il faut faire pour la manquer.</p>
                     </div3>
 
                     <div3 n="62" source="#edition7 #edition9">
-                        <p source="#edition7 #edition9"><g source="#edition7 #edition9" ref="#char_pm"/>Les choses les plus
-                            souhaitées n’arrivent point ; ou si elles arrivent, ce n’est ni dans le
-                            temps ni dans les circonstances où elles auraient fait un extrême
-                            plaisir.</p>
+                        <p source="#edition7 #edition9"><g source="#edition7 #edition9"
+                                ref="#char_pm"/>Les choses les plus souhaitées n’arrivent point ; ou
+                            si elles arrivent, ce n’est ni dans le temps ni dans les circonstances
+                            où elles auraient fait un extrême plaisir.</p>
                     </div3>
                 </div2>
             </div1>
