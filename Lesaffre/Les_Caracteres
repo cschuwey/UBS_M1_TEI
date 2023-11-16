@@ -19,6 +19,7 @@
                     <distributor>Librairie de Videcocq</distributor>
                     <title>Les caractères de Théophraste traduits du grec : avec Les Caractères ou
                         les mœurs de ce siècle</title>
+                    <desc>Édition utilisée pour l'encodage du texte.</desc>
                     <edition>Quatrième édition, corrigée et augmentée</edition>
                     <author>Jean de La Bruyère</author>
                     <editor>Étienne Michallet</editor>
@@ -30,6 +31,7 @@
                 <bibl xml:id="edition8">
                     <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
                         les mœurs de ce siècle</title>
+                    <desc>Édition utilisée pour l'encodage du texte.</desc>
                     <distributor>inconnu</distributor>
                     <edition>Huitième édition, revue, corrigée et augmentée</edition>
                     <author>Jean de La Bruyère</author>
@@ -41,6 +43,8 @@
                         >https://books.google.fr/books?id=2SeBerCnLvkC&amp;=1&amp;_redir=0&amp;dq=la%20bruyere%20caract%C3%A8res%201694&amp;hl=fr&amp;pg=PA580#v=onepage&amp;q&amp;f=false</ref>
                 </bibl>
                 <bibl xml:id="edition19e">
+                    <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
+                        les mœurs de ce siècle</title>
                     <desc>Version informatisée (texte brut) d'une édition des Caractères de
                         Théophraste traduits du grec, avec Les caractères ou les mœurs de ce siècle,
                         datant du 19e siècle. Version informatisée servant de base pour
@@ -48,10 +52,24 @@
                     <distributor>inconnu</distributor>
                     <edition>inconnue, version informatisée</edition>
                     <author>Jean de la Bruyère</author>
-                    <editor>inconu</editor>
+                    <editor>inconnu</editor>
                     <date>19e siècle, inconnue</date>
                     <ref type="URL"
                         >https://github.com/cschuwey/UBS_M1_TEI/blob/main/Texte_brut.txt</ref>
+                </bibl>
+                <bibl xml:id="oeuvres">
+                    <title>Oeuvres de la Bruyère</title>
+                    <desc>Version scannée d'une édition des oeuvres de La Bruyère, dont les Caractères. Volume II de cette édition. Version incluse dans une collection nommée "les grands écrivains de la France".</desc>
+                    <collection>Les grands écrivains de la France Nouvelles éditions sur les manuscrits, les copies les plus authentiques et les plus anciennes impressions avec variantes, notes, notices, portraits, etc.<editor>M. AD. Regnier</editor></collection>
+                    <distributor>inconnu</distributor>
+                    <edition>Nouvelle édition revue sur les plus anciennes impressions et les autographes et augmentée de morceaux inédits, des variantes, de notices, de notes, d'un lexique des mots et locutions remarquables, d'un portrait d'un fac-simile, etc. </edition>
+                    <author>Jean de la Bruyère</author>
+                    <editor>M.G. Servois<affiliation>M. AD. Regnier</affiliation></editor>
+                    <publisher>Librairie de L. Hachette et Cie</publisher>                    
+                    <date>1865</date>
+                    <pubPlace>Paris, Boulevard Saint-Germain</pubPlace>
+                    <ref type="URL"
+                        >https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;hl=fr&amp;pg=PP9#v=onepage&amp;q&amp;f=false</ref>
                 </bibl>
                 <bibl xml:id="TLFI">
                     <title>Trésor de la Langue Française Informatisé</title>
@@ -82,7 +100,7 @@
                     <ref type="URL"
                         >https://moodle.univ-ubs.fr/pluginfile.php/651932/mod_resource/content/0/Bruy%C3%83%C2%A8re%20-%20Cles%20-%20Escola.pdf</ref>
                 </bibl>
-                <bibl xml:id="Félibien">
+                <bibl xml:id="felibien">
                     <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
                         les mœurs de ce siècle</title>
                     <desc>Exemplaire appartenant à un dénommé Félibien (peut-être André Félibien,
@@ -100,13 +118,29 @@
                     <editor>inconnu</editor>
                     <date>inconnue</date>
                 </bibl>
+                <bibl xml:id="cleisolee">
+                    <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
+                        les mœurs de ce siècle</title>
+                    <desc>Exemplaire avec une clé isolée, provenant d'une édition de 1696 selon Escola, note manuscrite provenant d'une édition de 1691 d'après les Oeuvres de la Bruyère éditées en 1865.</desc>
+                    <distributor>inconnu</distributor>
+                    <edition>inconnu</edition>
+                    <author>Jean de La Bruyère</author>
+                    <editor>inconnu</editor>
+                    <date>inconnue</date>
+                </bibl>
                 <listPerson>
-                    <name>Antoine Varillas</name>
-                    <idno>https://data.bnf.fr/fr/12311349/antoine_varillas/</idno>
-                    <name>M. le Rebours</name>
-                    <idno>https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;pg=PA368&amp;lpg=PA368&amp;dq=%22M.+Le+rebours,+avocat+au+grand+conseil%22+cl%C3%A9+la+bruy%C3%A8re&amp;source=bl&amp;ots=qcR2JBBXma&amp;sig=ACfU3U3l4u4yDZuxkQXRl80BoI0lFyQTYg&amp;hl=fr&amp;sa=X&amp;ved=2ahUKEwj3_8bd-sOCAxV6Q6QEHdSLCfMQ6AF6BAgKEAM#v=onepage&amp;q=%22M.%20Le%20rebours%2C%20avocat%20au%20grand%20conseil%22%20cl%C3%A9%20la%20bruy%C3%A8re&amp;f=false</idno>
-                    <name>La Basinière</name>
-                    <idno/>
+                    <person>
+                        <name>Antoine Varillas</name>
+                        <idno>https://data.bnf.fr/fr/12311349/antoine_varillas/</idno>
+                    </person>
+                    <person>
+                        <name>M. le Rebours</name>
+                        <idno>https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;hl=fr&amp;pg=PA368#v=onepage&amp;q&amp;f=false</idno>
+                    </person>
+                    <person>
+                        <name>La Basinière</name>
+                        <idno>https://man8rove.com/fr/profile/122ltj2ul-mace-bertrand-de-la-baziniere</idno>
+                    </person>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -161,7 +195,7 @@
         <revisionDesc>
             <list>
                 <item><date when="2023-10-11">11 octobre 2023</date>Choix de la quatrième édition de
-                    1689 et de la sixime édition de 1694. Création du document xml et encodage des
+                    1689 et de la sixième édition de 1694. Création du document xml et encodage des
                     méta-données des éditions choisies.</item>
                 <item><date when="2023-10-12">12 octobre 2023</date>Ajout de balises vides dans le
                     titleStmt et d'une balise d'interprétation pour ces dernières.</item>
@@ -174,7 +208,8 @@
                     ajout des attributs source dans les éléments div3.</item>
                 <item><date when="2023-10-18">18 octobre 2023</date>Changement de source pour la
                     huitième édition des Caractères, en raison de l'absence de la 21e remarque dans
-                    l'édition utilisée auparavant. Ajout des notes que cette édition présente</item>
+                    l'édition utilisée auparavant. Ajout des notes que cette édition
+                    présente.</item>
                 <item><date when="2023-10-19">19 octobre 2023</date>Vérification du texte encodé
                     avec les textes sources. Ajout d'une note d'encodeuse, et ajout d'une note
                     d'interprétation. Correction des attributs sources. Ajouts de passages dans le
@@ -201,7 +236,10 @@
                 <item><date when="2023-11-14">14 novembre 2023</date>Continuation du travail du 13
                     novembre 2023. Proposition d'une correction pour l'élément app de la 11e
                     remarque. Ajout de la source de Marc Escola et de l'exemplaire de Félibien
-                    (manquant tous deux des métadonnées exactes)</item>
+                    (manquant tous deux des métadonnées exactes).</item>
+                <item><date when="2023-11-16">16 novembre 2023</date>Travail dans le
+                    teiHeader: ajout de référence et affinement de certaines références.</item>
+
             </list>
         </revisionDesc>
     </teiHeader>
