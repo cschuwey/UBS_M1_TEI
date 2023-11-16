@@ -36,11 +36,10 @@
                         <persName>Madame la Présidente de Bocquemart</persName>
                     </person>
                     <person xml:id="lesdiguieres">
-                        <persNname>La duchesse de Lesdiguières</persNname>
+                        <persName>La duchesse de Lesdiguières</persName>
                     </person>
                     <person xml:id="aumont">
                         <persName>La duchesse d'Aumont</persName>
-                
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -61,8 +60,6 @@
                         remarque. Ce numéro n'apparait pas dans la transcription du fichier en autre
                         chose, donc est fidèle au texte original mais il permet de nous répérer.</p>
                     <p>Utilisation de la balise seg pour délimiter à quoi se rapporte la note</p>
-                    <p>Utilisation de la balise commentaire pour intégrer la variation de
-                        l'esperluette car le signe s'affiche en rouge sinon.</p>
                 </interpretation>
             </editorialDecl>
             <charDecl>
@@ -108,6 +105,8 @@
                 l'auteur, les deux autres sont fictives) et du publisher</change>
             <change when="2023-11-10">ajout des glyphs dans l'encodingDesc et au début de chaque
                 remarque + ajout de 3 variations avec l'élément app</change>
+            <change when="2023-11-16">ajout des clés d'interprétation et des numéros de
+                pages</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -125,22 +124,24 @@
                                 <lem>surtout</lem>
                                 <rdg source="#edition7">fur tout</rdg>
                             </app>
-                            <seg>aux femmes <note type="cle"><persName>la duchesse de Lesdiguières</persName>; les clés
-                                postérieures ajoutent <persname>la duchesse d’Aumont</persname> (cf. ci-dessus, ‘II
-                                35). Sur Paule Marguerite Françoise de Gondy, duchesse de
-                                Lesdiguières (1651-1716), cf. Saint-Simon, notamment I, 256-
-                                257 (sa liaison avec l’archevêque Harvay de Champvalon); II,
-                                422 (sa dévotion) et V, 801-902. — Walckenær suggère le nom
-                                de Mme de, Lyonne (Paule Payen, 1630-1704), femme du
-                                ministre d’Etat, qui finit sa vie dans un couvent. Cf. Mme de
-                                Sévigné, notamment 2 août 1671 (I, 311). — R. Garapon (éd.
-                                cit., p. 123) cite cette déclaration d’une «jeune éventée» dans
-                                une comédie représentée en 1684 par les Italiens: «Je vais le
-                                lundi à Vincennes, le mardi àl’Opéra, le merc edi aux Italiens,
-                                le jeudi je cours le bal, le vendredi àla Comédie Française, le
-                                samedi je fais des visites, et le dimanche on joue chez moi
-                                depuis le matin jusqu’au soir» (D. Biancoleli et Fatouvile,
-                                Colombinefemme venge’e, I, 1).</note></seg>, comme une passion, ou comme le f<app>
+                            <seg>aux femmes <note type="cle"><persName ref="#lesdiguieres">la
+                                        duchesse de Lesdiguières</persName>; les clés postérieures
+                                    ajoutent <persName ref="#aumont">la duchesse d’Aumont</persName>
+                                    (cf. ci-dessus, ‘II 35). Sur Paule Marguerite Françoise de
+                                    Gondy, duchesse de Lesdiguières (1651-1716), cf. Saint-Simon,
+                                    notamment I, 256- 257 (sa liaison avec l’archevêque Harvay de
+                                    Champvalon); II, 422 (sa dévotion) et V, 801-902. — Walckenær
+                                    suggère le nom de Mme de, Lyonne (Paule Payen, 1630-1704), femme
+                                    du ministre d’Etat, qui finit sa vie dans un couvent. Cf. Mme de
+                                    Sévigné, notamment 2 août 1671 (I, 311). — R. Garapon (éd. cit.,
+                                    p. 123) cite cette déclaration d’une «jeune éventée» dans une
+                                    comédie représentée en 1684 par les Italiens: «Je vais le lundi
+                                    à Vincennes, le mardi àl’Opéra, le merc edi aux Italiens, le
+                                    jeudi je cours le bal, le vendredi àla Comédie Française, le
+                                    samedi je fais des visites, et le dimanche on joue chez moi
+                                    depuis le matin jusqu’au soir» (D. Biancoleli et Fatouvile,
+                                    Colombinefemme venge’e, I, 1).</note></seg>, comme une passion,
+                            ou comme le f<app>
                                 <lem>a</lem>
                                 <rdg source="#edition7">o</rdg>
                             </app>ible d’un certain âge, ou comme un mode qu’il faut suivre. Elles
@@ -148,22 +149,23 @@
                             concert, de mascarade, ou d’un joli sermon : elles allaient le lundi
                             perdre leur argent chez Ismène, le mardi leur temps chez Climène, et le
                             mercredi leur réputation chez Célimène ; elles savaient dès la veille
-                            toute la joie qu’elles devaient avoir le jour d’après et le lendemain ;
-                            elles jouissaient tout à la fois du plaisir présent et de celui qui ne
-                            leur pouvait manquer ; elles auraient souhaité de les pouvoir rassembler
-                            tous en un seul jour : c’était alors leur unique inquiétude et tout le
-                            sujet de leurs distractions ; et si elles se trouvaient quelquefois à
-                            l’Opéra, elles y regrettaient la comédie. Autres temps, autres mœurs :
-                            elles outrent l’austérité et la retraite ; elles n’ouvrent plus les yeux
-                            qui leur sont donnés pour voir ; elles ne mettent plus leurs sens à
-                            aucun usage ; et chose incroyable ! elles parlent peu ; elles pensent
-                            encore et assez bien d’elles-mêmes, comme assez mal des autres ; il y a
-                            chez elles une émulation de vertu et de réforme qui tient quelque chose
-                            de la jalousie ; elles ne haïssent pas de primer dans ce nouveau genre
-                            de vie, comme elles faisaient dans celui qu’elles viennent de quitter
-                            par politique ou par dégoût. Elles se perdaient gaiement par la
-                            galanterie, par la bonne chère et par l’oisiveté ; et elles se perdent
-                            tristement par la présomption et par l’envie.</p>
+                            toute la joie <pb n="144" source="#edition7"/> qu’elles devaient avoir
+                            le jour d’après et le lendemain ; elles jouissaient tout à la fois du
+                            plaisir présent et de celui qui ne leur pouvait manquer ; elles auraient
+                            souhaité de les pouvoir rassembler tous en un seul jour : c’était alors
+                            leur unique inquiétude et tout le sujet de leurs distractions ; et si
+                            elles se trouvaient quelquefois à l’Opéra, elles y regrettaient la
+                            comédie. Autres temps, autres mœurs : elles outrent l’austérité et la
+                            retraite ; elles n’ouvrent plus les yeux qui leur sont donnés pour voir
+                            ; elles ne mettent plus leurs sens à aucun usage ; et chose incroyable !
+                            elles parlent peu ; elles pensent encore et assez bien d’elles-mêmes,
+                            comme assez mal des autres ; il y a chez elles une émulation de vertu et
+                            de réforme qui tient quelque chose de la jalousie ; elles ne haïssent
+                            pas de primer dans ce nouveau genre de vie, comme elles faisaient dans
+                            celui qu’elles viennent de quitter par politique ou par dégoût. Elles se
+                            perdaient gaiement par la galanterie, par la bonne chère et par
+                            l’oisiveté ; et elles se perdent tristement par la présomption et par
+                                l’envie.<pb n="145" source="#edition7"/></p>
                     </div3>
                     <div3 n="44" source="#edition7">
                         <p source="#edition7"><g ref="#char_pm"/>Si j’épouse, Hermas, une femme
@@ -187,30 +189,32 @@
                             yeux et son visage. Il est le dépositaire de leurs joies et de leurs
                             chagrins, de leurs désirs, de leurs jalousies, de leurs haines et de
                             leurs amours il les fait rompre avec leurs galants ; il les brouille et
-                            les réconcilie avec leurs maris, et il profite des interrègnes. Il prend
-                            soin de leurs affaires, sollicite leurs procès, et voit leurs juges ; il
-                            leur donne son médecin, son marchand, ses ouvriers ; il s’ingère de les
-                            loger, de les meubler, et il ordonne de leur équipage. On le voit avec
-                            elles dans leurs carrosses, dans les rues d’une ville et aux promenades,
-                            ainsi que dans leur banc à un sermon, et dans leur loge à la comédie ;
-                            il fait avec elles les mêmes visites ; il les accompagne au bain, aux
-                            eaux, dans les voyages ; il a le plus commode appartement chez elles à
-                            la campagne. Il vieillit sans déchoir de son autorité : un peu d’esprit
-                            et beaucoup de temps à perdre lui suffit pour la conserver ; les
-                            enfants, les héritiers, la bru, la nièce, les domestiques, tout en
-                            dépend. Il a commencé par se faire estimer ; il finit par se faire
-                            craindre. Cet ami si ancien, si nécessaire, meurt sans qu’on le pleure ;
-                            et dix femmes dont il était le tyran héritent par sa mort de la liberté.
-                        </p>
+                            les réconcilie avec<pb n="146" source="#edition7"/>leurs maris, et il
+                            profite des interrègnes. Il prend soin de leurs affaires, sollicite
+                            leurs procès, et voit leurs juges ; il leur donne son médecin, son
+                            marchand, ses ouvriers ; il s’ingère de les loger, de les meubler, et il
+                            ordonne de leur équipage. On le voit avec elles dans leurs carrosses,
+                            dans les rues d’une ville et aux promenades, ainsi que dans leur banc à
+                            un sermon, et dans leur loge à la comédie ; il fait avec elles les mêmes
+                            visites ; il les accompagne au bain, aux eaux, dans les voyages ; il a
+                            le plus commode appartement chez elles à la campagne. Il vieillit sans
+                            déchoir de son autorité : un peu d’esprit et beaucoup de temps à perdre
+                            lui suffit pour la conserver ; les enfants, les héritiers, la bru, la
+                            nièce, les domestiques, tout en dépend. Il a commencé par se faire
+                            estimer ; il finit par se faire craindre. Cet ami si ancien, si
+                            nécessaire, meurt sans qu’on le pleure ; et dix femmes dont il était le
+                            tyran héritent par sa mort de la liberté. </p>
                     </div3>
                     <div3 n="46" source="#edition7">
                         <p source="#edition7"><g ref="#char_pm"/>
-                            <seg>Quelques femmes<note type="cle">La remarque’46 commençant par les mêmes mots
-                                que la remarque 35, la cle de 1720 nomme encore <persName>la duchesse
-                                d’Aumont</persName>.</note></seg> ont voulu cacher leur conduite sous
-                            les dehors de la modestie ; et tout ce que chacune a pu gagner par une
-                            continuelle affectation, et qui ne s’est jamais démentie, a été de faire
-                            dire de soi : On l’aurait prise pour une vestale. </p>
+                            <seg>Quelques femmes<note type="cle">La remarque’46 commençant par les
+                                    mêmes mots que la remarque 35, la cle de 1720 nomme encore
+                                        <persName ref="#aumont">la duchesse
+                                    d’Aumont</persName>.</note></seg> ont voulu cacher leur conduite
+                            sous les dehors <pb n="147" source="#edition7"/>de la modestie ; et tout
+                            ce que chacune a pu gagner par une continuelle affectation, et qui ne
+                            s’est jamais démentie, a été de faire dire de soi : On l’aurait prise
+                            pour une vestale. </p>
                     </div3>
                     <div3 n="47" source="#edition7">
                         <p source="#edition7"><g ref="#char_pm"/> C’est dans les femmes une violente
@@ -228,11 +232,12 @@
                             proportions, grossit ses figures, donne à toutes les pièces qui entrent
                             dans l’ordonnance de son tableau plus de volume que n’en ont celles de
                             l’original : de même la pruderie est une imitation de la sagesse. </p>
-                        <p source="#edition7"> Il y a une fausse modestie qui est <seg>vanité<note
-                                    place="bottom" resp="#timini" type="explication">Appartient au
-                                    péché d'orgueil </note></seg>, une fausse gloire qui est
-                            légèreté, une fausse grandeur qui est petitesse ; une fausse vertu qui
-                            est hypocrisie, une fausse sagesse qui est pruderie. </p>
+                        <p source="#edition7"> Il y a une fausse modestie qui est <seg>va-<pb
+                                    n="148" source="#edition7"/>nité<note place="bottom"
+                                    resp="#timini" type="explication">Appartient au péché d'orgueil
+                                </note></seg>, une fausse gloire qui est légèreté, une fausse
+                            grandeur qui est petitesse ; une fausse vertu qui est hypocrisie, une
+                            fausse sagesse qui est pruderie. </p>
                         <p source="#edition7"> Une femme prude paye de maintien et de parole ; une
                             femme sage paye de conduite. Celle-là suit son humeur et sa complexion,
                             celle-ci sa raison et son cœur. L’une est sérieuse et austère ; l’autre
@@ -249,25 +254,25 @@
                             de ce que les femmes ne sont pas savantes ? Par quelles lois, par quels
                             édits, par quels rescrits leur a-t-on défendu d’ouvrir les yeux et de
                             lire, de retenir ce qu’elles ont lu, et d’en rendre compte ou dans leur
-                            conversation ou par leurs ouvrages ? Ne se sont-elles pas au contraire
-                            établies elles-mêmes dans cet usage de ne rien savoir, ou par la
-                            faiblesse de leur complexion, ou par la paresse de leur esprit ou par le
-                            soin de leur beauté, ou par une certaine légèreté qui les empêche de
-                            suivre une longue étude, ou par le talent et le génie qu’elles ont
-                            seulement pour les ouvrages de la main, ou par les distractions que
-                            donnent les détails d’un domestique, ou par un éloignement naturel des
-                            choses pénibles et sérieuses, ou par une curiosité toute différente de
-                            celle qui contente l’esprit, ou par un tout autre goût que celui
-                            d’exercer leur mémoire ? Mais à quelque cause que les hommes puissent
-                            devoir cette ignorance des femmes, ils sont heureux que les femmes, qui
-                            les dominent d’ailleurs par tant d’endroits, aient sur eux cet avantage
-                            de moins. </p>
+                                <pb n="149" source="#edition7"/> conversation ou par leurs ouvrages
+                            ? Ne se sont-elles pas au contraire établies elles-mêmes dans cet usage
+                            de ne rien savoir, ou par la faiblesse de leur complexion, ou par la
+                            paresse de leur esprit ou par le soin de leur beauté, ou par une
+                            certaine légèreté qui les empêche de suivre une longue étude, ou par le
+                            talent et le génie qu’elles ont seulement pour les ouvrages de la main,
+                            ou par les distractions que donnent les détails d’un domestique, ou par
+                            un éloignement naturel des choses pénibles et sérieuses, ou par une
+                            curiosité toute différente de celle qui contente l’esprit, ou par un
+                            tout autre goût que celui d’exercer leur mémoire ? Mais à quelque cause
+                            que les hommes puissent devoir cette ignorance des femmes, ils sont
+                            heureux que les femmes, qui les dominent d’ailleurs par tant d’endroits,
+                            aient sur eux cet avantage de moins. </p>
                         <p source="#edition7"> On regarde une femme savante comme on fait une belle
                             arme : elle est ciselée artistement, d’une polissure admirable et d’un
-                            travail fort recherché ; c’est une pièce de cabinet, que l’on montre aux
-                            curieux, qui n’est pas d’usage, qui ne sert ni à la guerre ni à la
-                            chasse, non plus qu’un cheval de manège, quoique le mieux instruit du
-                            monde. </p>
+                            travail fort recherché ; c’est une pièce de cabinet, <pb n="150"
+                                source="#edition7"/> que l’on montre aux curieux, qui n’est pas
+                            d’usage, qui ne sert ni à la guerre ni à la chasse, non plus qu’un
+                            cheval de manège, quoique le mieux instruit du monde. </p>
                         <p source="#edition7"> Si la <seg>science et la sagesse<note place="margin"
                                     resp="#labruyere" type="explication">Note fictive</note></seg>
                             se trouvent unies en un même sujet, je ne m’informe plus du sexe,
@@ -284,15 +289,17 @@
                         <p source="#edition1 #edition7"><g ref="#char_pm"/> La neutralité entre des
                             femmes qui nous sont également amies, quoiqu’elles aient rompu pour des
                             intérêts où nous n’avons nulle part, est un point difficile : il faut
-                            choisir souvent entre elles, ou les perdre toutes deux. </p>
+                            choisir souvent entre elles, ou les perdre toutes deux. <pb n="151"
+                                source="#edition7"/>
+                        </p>
                     </div3>
                     <div3 n="51" source="#edition1 #edition7">
                         <p source="#edition1 #edition7"><g ref="#char_pm"/> Il y a <seg>telle
-                            femme<note type="cle"><persNanme>Mme la présidente de Bocquemart </persNanme>[ou
-                                Bauqucmaure], qui a conservé le nom d’Osembray»
-                                (Walckenær). Cf. ci-dessus, ‘J[8et ci-dessous, 174
-                            </note></seg> qui aime mieux son
-                            argent que ses amis, et ses amants que son argent. </p>
+                                    femme<note type="cle"><persName ref="#presidentebocquemart">Mme
+                                        la présidente de Bocquemart </persName>[ou Bauqucmaure], qui
+                                    a conservé le nom d’Osembray» (Walckenær). Cf. ci-dessus, ‘J[8et
+                                    ci-dessous, 174 </note></seg> qui aime mieux son argent que ses
+                            amis, et ses amants que son argent. </p>
                     </div3>
                     <div3 n="52" source="#edition1 #edition7">
                         <p source="#edition1 #edition7"><g ref="#char_pm"/> Il est étonnant de voir
