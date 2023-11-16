@@ -45,6 +45,10 @@
                         <name type="owner" xml:id="unknown">unknown</name>
                     </bibl>
                 </listBibl>
+                <listBibl>
+                    <bibl xml:id="Cle_XVIIIeme"/>
+                    <bibl xml:id="Cle_1697"/>
+                </listBibl>
                 <listPerson>
                     <person xml:id="dorinne">
                         <persName>Dorinne</persName>
@@ -52,6 +56,12 @@
                     <person xml:id="moreaux">
                         <persName>Moreaux</persName>
                         <occupation>médecin</occupation>
+                    </person>
+                    <person xml:id="cesonie">
+                        <persName>Césonie</persName>
+                    </person>
+                    <person xml:id="mme_la_duchesse_d_aumont">
+                        <persName>Mme la duchesse d'Aumont</persName>
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -128,7 +138,9 @@
             <change when="2023-11-10"> Ajout d'une variation dans le texte, correction de l'attribut
                 type de la balise glyph en ref.</change>
             <change when="2023-11-13">Modification du lien inexacte de l'édition 8, ajout des
-                changements de page, ajout d'une balise <!--listPerson--> dans le TeiHeader.</change>
+                changements de page, ajout d'une balise <!--listPerson--> dans le
+                TeiHeader.</change>
+            <change when="2023-11-16">Ajout de clés dans le TeiHeader, ajout de person dans la ListPerson.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -144,11 +156,12 @@
                                 <rdg source="#edition1">veuë</rdg>
                                 <rdg source="#edition6 #edition8">vûe</rdg>
                             </app> du secret, ou par un goût hypocondre, que cette femme aime un
-                            valet, cette autre un moine, et <seg>Dorinne<note place="margin"
-                                    resp="#unknown">note fictive</note><note type="cle">Mlle
-                                    Foucaut, fille de M. Foucaut, conseiller aux requêtes du Palais,
-                                    qui aimait <persName>Moreaux</persName>, médecin.</note></seg>
-                            son médecin ?</p>
+                            valet, cette autre un moine, et <seg>Dorinne<note type="cle"
+                                    source="#Cle_XVIIIeme"><persName ref="#dorinne"/>Mlle Foucaut,
+                                    fille de M. Foucaut, conseiller aux requêtes du Palais, qui
+                                    aimait <persName ref="#moreaux">Moreaux</persName>,
+                                    médecin.</note></seg><note place="margin" resp="#unknown">note
+                                fictive</note> son médecin ?</p>
                     </div3>
                     <div3 n="33" source="#edition8">
                         <p><g ref="#char_pm"/><seg>Roscius<note resp="#unknown" place="margin">note
@@ -175,17 +188,26 @@
                             et qui boit mieux que Dracon en un seul repas ? Il enivre toute une
                             compagnie, et il se rend le dernier. Vous soupirez, Lélie : est-ce que
                             Dracon aurait fait un choix, ou que malheureusement on vous aurait
-                            prévenue ? Se serait-il enfin engagé à Césonie, qui l’a tant couru, qui
-                            lui a sacrifié une si grande foule d’amants, je dirai même toute la
-                            fleur des Romains ? à Césonie, qui est d’une famille patricienne, qui
-                                est<pb n="140"/> si jeune, si belle, et si sérieuse ? Je vous
-                            plains, Lélie, si vous avez pris par contagion ce nouveau goût qu’ont
-                            tant de femmes romaines pour ce qu’on appelle des hommes publics, et
-                            exposés par leur condition à la vue des autres. Que ferez-vous, lorsque
-                            le meilleur en ce genre vous est enlevé ? Il reste encore Bronte, le
-                            questionnaire : le peuple ne parle que de sa force et de son adresse ;
-                            c’est un jeune homme qui a les épaules larges et la taille ramassée, un
-                            nègre d’ailleurs, un homme noir.</p>
+                            prévenue ? Se serait-il enfin engagé à <seg>Césonie <note type="cle"
+                                        ><persName ref="#cesonie"/>Mlle de Briou, fille du président
+                                    en la cour des aides [Claude de Briou][et belle-soeur de Mlle de
+                                    La Force]. Elle a épousé le marquis de Constantin, qui ne vécut
+                                    que trois ans avec elle. Depuis son veuvage elle s'était
+                                    absolument déclarée pour Philibert, et a fait sur ce chapitre
+                                    des extravagances fort grandes. elle est morte étant file [i.e.
+                                    veuve]. Elle était fort retirée. Ce fut une demoiselle qu'on lui
+                                    donna qui lui inspira l'envie de se mettre dans le monde, ce
+                                    qu'elle fit avec beaucoup d'emportement.</note></seg>, qui l’a
+                            tant couru, qui lui a sacrifié une si grande foule d’amants, je dirai
+                            même toute la fleur des Romains ? à Césonie, qui est d’une famille
+                            patricienne, qui est<pb n="140"/> si jeune, si belle, et si sérieuse ?
+                            Je vous plains, Lélie, si vous avez pris par contagion ce nouveau goût
+                            qu’ont tant de femmes romaines pour ce qu’on appelle des hommes publics,
+                            et exposés par leur condition à la vue des autres. Que ferez-vous,
+                            lorsque le meilleur en ce genre vous est enlevé ? Il reste encore
+                            Bronte, le questionnaire : le peuple ne parle que de sa force et de son
+                            adresse ; c’est un jeune homme qui a les épaules larges et la taille
+                            ramassée, un nègre d’ailleurs, un homme noir.</p>
                     </div3>
                     <div3 n="34" source="#edition1 #editon6 #edition8">
                         <p><g ref="#char_pm"/>Pour les femmes du monde, un jardinier est un
@@ -194,8 +216,13 @@
                             tentation à qui la craint.</p>
                     </div3>
                     <div3 n="35" source="#edition1 #edition6 #edition8">
-                        <p><g ref="#char_pm"/>Quelques femmes donnent aux couvents et à leurs amants
-                            : galantes et bienfactrices, elles ont jusque dans l’enceinte de l’autel
+                        <p><g ref="#char_pm"/><seg>Quelques femmes <note type="cle"
+                                    source="#Cle_XVIIIeme"><persName ref="#Mme la duchesse d'Aumont"
+                                    > </persName>Mme la duchesse d'Aumont, fille de Mme la maréchale
+                                    de la Mothe, et Mme la maréchale de la Ferté [sa soeur]</note>
+                                <note type="cle" source="#cle_1697">Seconde femme du duc
+                                    d'Aumont</note></seg> donnent aux couvents et à leurs amants :
+                            galantes et bienfactrices, elles ont jusque dans l’enceinte de l’autel
                             des tribunes et des oratoires où elles lisent des billets tendres, et où
                             personne ne voit qu’elles ne prient point Dieu.</p>
                     </div3>
