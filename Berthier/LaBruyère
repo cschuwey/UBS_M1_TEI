@@ -35,11 +35,30 @@
                     </monogr>
                 </biblStruct>
                 <listPerson>
-                    <person xml:id=""/>
+                    <person xml:id="Roi" source="cle_Garapon">
+                        <name>Le Roi</name>
+                        <idno/>
+                    </person>
+                    <person xml:id="Garapon" source="cle_Garapon">
+                        <name>Garapon</name>
+                        <idno/>
+                    </person>
+                    <person xml:id="Cour" source="la_cour">
+                        <name>La Cour</name>
+                        <idno/>
+                    </person>
+                    <person xml:id="LouisXIV" source="cle_fictive">
+                        <name>Louis XIV</name>
+                        <idno/>
+                    </person>
+                    <person xml:id="fictive" source="cle_fictive">
+                        <name>fictive</name>
+                        <idno/>
+                    </person>
                 </listPerson>
-                <listPlace>
-                    <place> </place>
-                </listPlace>
+
+                <!-- Je pense que cette liste est fausse, je n'ai pas compris comment indiquer les personnes réelles des fictives, ni comment indiquer ou où mettre les clés, fictives ou non.-->
+
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -97,6 +116,8 @@
             <change when="2023-11-07">Rajout de variantes au sein des remarques.</change>
             <change when="2023-11-10">Rajout de variantes au sein des remarques et codage/insertion
                 de glyphes au début de remarques.</change>
+            <change when="2023-11-16">Essai de rajout de clés, une réelle et une fictive au sein des
+                remarques de La Bruyère. Essai de codage de <listPerson/>.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -112,9 +133,12 @@
                             faudrait vivre avec des personnes estimables.</p>
                     </div3>
                     <div3 n="54" source="#edition1 #edition2">
-                        <p source="#edition1 #edition2"><g ref="#char_pdm"/>Celui qui est d’une
-                            éminence au-dessus des autres qui le met à couvert<app n="" xml:id="#" type="key" source="#edition2" ></app> de la repartie, ne
-                            doit jamais faire une raillerie piquante.</p>
+                        <p source="#edition1 #edition2"><g ref="#char_pdm"/><seg>Celui qui est d’une
+                                    éminence<note type="key">Il s'agit du Roi<persName type="key"
+                                        source="cle_Garapon">Louis XIV</persName> dans la clé
+                                        <persName>Garapon</persName></note></seg> au-dessus des
+                            autres qui le met à couvert de la repartie, ne doit jamais faire une
+                            raillerie piquante.</p>
                     </div3>
                     <div3 n="55" source="#edition1 #edition2">
                         <p source="#edition1 #edition2"><g ref="#char_pdm"/>Il y a de petits <app>
@@ -139,7 +163,10 @@
                     <div3 n="56" source="#edition2">
                         <p source="#edition2"><g ref="#char_pdm"/>Rire des gens d’esprit, c’est le
                             privilège des sots : ils sont dans le monde ce que les fous sont à la
-                            cour, je veux dire sans conséquence.</p>
+                                    <seg>cour<note type="key">Il s'agit de la cour de<persName
+                                        type="key" source="cle_fictive">Louis XIV</persName> dans la
+                                    clé <persName>fictive</persName></note></seg>, je veux dire sans
+                            conséquence.</p>
                     </div3>
                     <div3 n="57" source="#edition1 #edition2">
                         <p source="#edition1 #edition2"><g ref="#char_pdm"/>La moquerie est souvent
