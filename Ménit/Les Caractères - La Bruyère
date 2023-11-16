@@ -14,6 +14,86 @@
                 <date when="2023-10-10">10 octobre 2023</date>
             </publicationStmt>
             <sourceDesc>
+                <listPerson>
+                    <!-- data.bnf -->
+                    <person>
+                        <name xml:id="Mme_de_Sévigné">Marie de Rabutin-Chantal marquise de
+                            Sévigné</name>
+                        <idno type="URI">https://data.bnf.fr/ark:/12148/cb11924578j</idno>
+                    </person>
+                    <person>
+                        <name xml:id="servois">Gustave Servois</name>
+                        <idno type="URI">https://data.bnf.fr/ark:/12148/cb12548990b</idno>
+                    </person>
+                    <person>
+                        <name xml:id="seignelay">M. de Seignelay</name>
+                        <idno type="URI">https://data.bnf.fr/ark:/12148/cb131828859</idno>
+                    </person>
+                    <person>
+                        <name xml:id="colbert">Jean-Baptiste Colbert</name>
+                        <idno type="URI">https://data.bnf.fr/ark:/12148/cb11773667m</idno>
+                    </person>
+                    <person>
+                        <name xml:id="bordier">M. Bordier de Raincy</name>
+                    </person>
+                    <person>
+                        <name xml:id="des-reaux">Gédéon Tallemant des Réaux</name>
+                        <idno type="URI">https://data.bnf.fr/ark:/12148/cb119259646</idno>
+                    </person>
+                    <person>
+                        <name xml:id="allaire">Allaire</name>
+                    </person>
+                    <person>
+                        <name xml:id="montespan">Françoise Athénaïs de Rochechouart marquise de
+                            Montespan</name>
+                    </person>
+                    <person>
+                        <name xml:id="fournier">É. Fournier</name>
+                    </person>
+                    <person>
+                        <name xml:id="st_simon">Saint-Simon</name>
+                    </person>
+                    <person>
+                        <name xml:id="dangeau">Philippe de Courcillon Dangeau</name>
+                    </person>
+                    <person>
+                        <name xml:id="d_bourbon">M. le Duc de Bourbon</name>
+                    </person>
+                    <person>
+                        <name xml:id="pres_harlay">Achille de Harlay</name>
+                        <idno type="URI">https://data.bnf.fr/ark:/12148/cb13495789v</idno>
+                    </person>
+                    <person>
+                        <name xml:id="mlle_alegre">Mlle d'Alègre</name>
+                    </person>
+                    <person>
+                        <name xml:id="mlle_matignon">Mlle de Matignon</name>
+                    </person>
+                    <person>
+                        <name xml:id="d_chevreuse">Duc de Chevreuse</name>
+                    </person>
+                    <person>
+                        <name xml:id="d_beauvilliers">Duc de Beauvilliers</name>
+                    </person>
+                    <person>
+                        <name xml:id="d_mortemart">Duc de Mortemart</name>
+                    </person>
+                    <person>
+                        <name xml:id="bro_puy">Les frères du Puy</name>
+                    </person>
+                    <person>
+                        <name xml:id="gourville">M. de Gourville</name>
+                    </person>
+                    <person>
+                        <name xml:id="pr_condé">M. le Prince de Condé</name>
+                    </person>
+                    <person>
+                        <name xml:id="louvois">Louvois</name>
+                    </person>
+                    <person>
+                        <name xml:id="harlay">M. de Harlay</name>
+                    </person>
+                </listPerson>
                 <bibl>
                     <author>Jean de La Bruyère</author>
                     <title>Les caracters de Théophraste traduits du grec ; avec les caracters ou les
@@ -55,6 +135,18 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
+                <bibl xml:id="cle_cochin">
+                    <title>Clé Cochin</title>
+                </bibl>
+                <bibl xml:id="cle_XVIIIe">
+                    <title>Clé du XVIIIe siècle</title>
+                </bibl>
+                <bibl xml:id="cle_1697">
+                    <title>Clé de 1697</title>
+                </bibl>
+                <bibl xml:id="cle_general">
+                    <title>Clé général</title>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -124,9 +216,13 @@
             <change when="2023-11-07">Ajout des variations et des glyphs.</change>
             <change when="2023-11-07">Rectification concernant l'encodage de deux caractère qui
                 s'unissent dans la version 7.</change>
+            <change when="2023-11-14">Ajout de la pagination des différentes éditions. Et début de
+                l'encodage des clés.</change>
+            <change when="2023-11-16">Création de la liste de personne.</change>
         </revisionDesc>
     </teiHeader>
     <text>
+        <!-- Essayer de rattacher les notes manuscrites à des parties précises du caractère qui la concerne -->
         <front/>
         <body>
             <div1 type="ouvrage">
@@ -137,10 +233,10 @@
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>Il n’y a qu’une
                                     <seg>affliction<note resp="#menit" type="gloss">Tristesse
                                     profonde, abattement à la suite d'un grave
-                            revers.</note></seg>qui dure, qui est celle qui vient de la perte de
-                            biens : le temps, qui adoucit toutes les autres, aigrit celle-ci. Nous
-                            sentons à tous moments, pendant le cours de notre vie, où le bien que
-                            nous avons perdu nous manque.</p>
+                            revers.</note></seg>qui du-<pb n="234" source="#edition5"/>re, qui est
+                            celle qui vient de la perte de biens : le temps, qui adoucit toutes les
+                            autres, aigrit celle-ci. Nous sentons à tous moments, pendant le cours
+                            de notre vie, où le bien que nous avons perdu nous manque.</p>
                     </div3>
                     <div3 type="caracter" n="77" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par"/>Il fait bon
@@ -162,55 +258,97 @@
                             et tempéré, la situation en est riante ; un bois sacré l’ombrage du côté
                             du couchant ; les dieux de Syrie, qui habitent quelquefois la terre, n’y
                             auraient pu choisir une plus belle demeure. La campagne autour est
-                            couverte d’hommes qui taillent et qui coupent, qui vont et qui viennent,
-                            qui roulent ou qui charrient le bois du Liban, l’airain et le porphyre ;
-                            les grues et les machines gémissent dans l’air, et font espérer à ceux
-                            qui voyagent vers l’Arabie de revoir à leur retour en leurs foyers ce
-                            palais achevé, et dans cette splendeur où vous désirez de le porter
-                            avant de l’habiter, vous et les princes vos enfants. N’y épargnez rien,
-                            grande Reine ; employez-y l’or et tout l’art des plus excellents
-                            ouvriers ; que les Phidias et les Zeuxis de votre siècle déploient toute
-                            leur science sur vos plafonds et sur vos lambris ; tracez-y de vastes et
-                            de délicieux jardins, dont l’enchantement soit tel qu’ils ne paraissent
-                            pas faits de la main des hommes ; épuisez vos trésors et votre industrie
-                            sur cet ouvrage incomparable ; et après que vous y aurez mis, Zénobie,
-                            la dernière main, quelqu’un de ces pâtres qui habitent les sables
-                            voisins de Palmyre, devenu riche par les péages de vos rivières,
-                            achètera un jour à deniers comptants cette royale maison, pour
-                            l’embellir, et la rendre plus digne de lui et de sa fortune.</p>
+                                cou-<pb n="262" source="#edition8"/>verte d’hommes qui taillent et
+                            qui coupent, qui vont et qui viennent, qui roulent ou qui charrient le
+                            bois du Liban, l’airain et le porphyre ; les grues et les machines
+                            gémissent dans l’air, et font espérer à ceux qui voyagent vers l’Arabie
+                            de revoir à leur retour en leurs foyers ce palais achevé, et dans cette
+                            splendeur où vous désirez de le porter avant de l’habiter, vous et les
+                            princes vos enfants. N’y épargnez rien, grande Reine ; employez-y l’or
+                            et tout l’art des plus excellents ouvriers ; que les Phidias et les
+                            Zeuxis de votre siècle déploient toute leur science sur vos plafonds et
+                            sur vos lambris ; tracez-y de vastes et de délicieux jardins, dont
+                            l’enchantement soit tel qu’ils ne paraissent pas faits de la main des
+                            hommes ; épuisez vos trésors et votre industrie sur cet ouvrage
+                            incomparable ; et après que vous y aurez mis, <seg>Zénobie<note
+                                    type="cle" source="#cle_XVIIIe">"<persName ref="#gourville">M.
+                                        de Gourville</persName>, [d'abord simple <roleName
+                                        ref="#gourville">valet de chambre de La
+                                        Rochefoucauld</roleName>], intendant de feu <persName
+                                        ref="#pr_condé">M. <roleName type="nobility">le Prince</roleName> [de
+                                        Condé]</persName>, qui, non content du <placeName>château de
+                                        Saint-Maur</placeName>, quelque beau qu'il fût, et dont
+                                        <persName ref="#pr_condé">M. le Prince</persName> s'était
+                                    contenté, a fait beaucoup de dépense pour l'embellir." <persName
+                                        ref="#servois">Servois</persName> (II, 418) fait valoir que
+                                        <persName ref="#gourville">Gourville</persName> (1625-1703)
+                                    "n'avait pas acheté <placeName>Saint-Maur</placeName> et que
+                                    c'est par suite d'un engagement contracté envers <persName
+                                        ref="#pr_condé">le prince de Condé</persName> qu'il
+                                    embellissait". Il est l'auteur de Mémoires dont disposait
+                                        <persName ref="#st_simon">Saint-Simon</persName> (parus en
+                                        <date when="1724">1724</date>). Cf. <persName
+                                        ref="#Mme_de_Sévigné">Mme de Sévigné</persName> (index),
+                                        <persName ref="#dangeau"/>Dangeau (index), et <persName
+                                        ref="#st_simon"/>Saint-Simon (II, 147 n.,
+                                334-335).</note></seg>, la dernière main, quelqu’un de ces pâtres
+                            qui habitent les sables voisins de Palmyre, devenu riche par les péages
+                            de vos rivières, achètera un jour à deniers comptants cette royale
+                            maison, pour<pb n="263" source="#edition8"/> l’embellir, et la rendre
+                            plus digne de lui et de sa fortune.</p>
                         <note source="#edition8" resp="#labruyere" type="manicule_vide"/>
                     </div3>
                     <div3 type="caracter" n="79" source="#edition5 #edition7 #edition8">
-                        <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par"/>Ce palais,
-                            ces meubles, ces jardins, ces belles eaux vous enchantent et vous font
-                            récrier d’une première vue sur une maison si délicieuse, et sur
-                            l’extrême bonheur du maître qui la possède. Il n’est plus ; il n’en a
-                            pas joui si agréablement <app type="graphie">
+                        <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par"/><seg>Ce
+                                    palais<note type="cle" source="#cle_XVIIIe">"<persName
+                                        ref="#bordier">M. Bordier de Raincy</persName>". <persName
+                                        ref="#bordier">Jacques Bordier</persName>, <roleName
+                                        ref="#bordier">intendant des finances et secrétaire du
+                                        roi</roleName>, avait fait bâtir <placeName>le château de
+                                        Raincy</placeName>, qu'il possédait encore à sa mort en
+                                        <date when="1660">1660</date>; le château fut bientôt vendu
+                                    mais il n'est pas sûr que la famille en ait été chassée par des
+                                    créanciers. Sur "Bordier est ses fils", cf. <persName
+                                        ref="#des-reaux">Tallemant des Réaux</persName>, II, 179-184
+                                    (et index).</note></seg>, ces meubles, ces jardins, ces belles
+                            eaux vous enchantent et vous font récrier d’une première vue sur une
+                            maison si délicieuse, et sur l’extrême bonheur du maître qui la possède.
+                            Il n’est plus ; il n’en a pas joui si agréablement <app type="graphie">
                                 <lem source="#edition5">ni</lem>
                                 <rdg source="#edition7">ny</rdg>
-                            </app> si tranquillement que vous : il n’y a jamais eu un jour serein,
-                            ni une nuit tranquille ; il s’est noyé de dettes pour la porter à ce
-                            degré de beauté où elle vous ravit. Ses créanciers l’en ont chassé : il
-                            a tourné la tête, et il l’a regardée de loin une dernière fois ; et il
-                            est mort de saisissement.</p>
+                            </app> si tranquillement que vous : il n’y a jamais eu un<pb n="224"
+                                source="#edition7"/> jour serein, ni une nuit tranquille ; il s’est
+                            noyé de dettes pour la porter à ce degré de beauté où elle vous ravit.
+                            Ses créanciers l’en ont chassé : il a tourné la tête, et il l’a regardée
+                            de loin une dernière fois ; et il est mort de saisissement.</p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit">Le président Le
-                            bordin qui a bâti le Ranzay</note>
+                            bordin qui a bâti <placeName>le Ranzay</placeName></note>
                     </div3>
                     <div3 type="caracter" n="80" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"/>L’on ne
                             saurait s’empêcher de voir dans certaines familles ce qu’on appelle les
-                            caprices du hasard ou les jeux de la fortune. Il y a cent ans qu’on ne
-                            parlait point de ces familles, qu’elles n’étaient point : le ciel tout
-                            d’un coup s’ouvre en leur faveur ; les biens, les honneurs, les dignités
-                            fondent sur elles à plusieurs reprises ; elles nagent dans la
-                            prospérité. <seg>Eumolpe<note source="#edition8" resp="#main_vide"
-                                    type="manuscrit">Seigneur</note></seg>, l’un de ces hommes qui
-                            n’ont point de grands-pères, a eu un père du moins qui s’était élevé si
-                            haut, que tout ce qu’il a pu souhaiter pendant le cours d’une longue
-                            vie, ç’a été de l’atteindre ; et il l’a atteint. Etait-ce dans ces deux
-                            personnages éminence d’esprit, profonde capacité ? était-ce les
-                            conjonctures ? La fortune enfin ne leur rit plus ; elle se joue
-                            ailleurs, et traite leur postérité comme leurs ancêtres.</p>
+                            caprices du hasard<pb n="235" source="#edition5"/> ou les jeux de la
+                            fortune. Il y a cent ans qu’on ne parlait point de ces familles,
+                            qu’elles n’étaient point : le ciel tout d’un coup s’ouvre en leur faveur
+                            ; les biens, les honneurs, les dignités fondent sur elles à plusieurs
+                            reprises ; elles nagent dans la prospérité.
+                                    <seg><persName>Eumolpe</persName><note source="#edition8"
+                                    resp="#main_vide" type="manuscrit">Seignelay</note><note
+                                    type="cle" source="#cle_1697 #cle_XVIIIe"><persName
+                                        ref="#seignelay">M. de Seignelay</persName>La cinquième
+                                    édition parut en <date when="1690-03">mars 1690</date>,
+                                        <persName ref="#seignelay">Seignelay</persName> mourut en
+                                    novembre.<!-- Cf. ci-dessus, 49.  --> Comme Eumolpe, il avait eu
+                                    de riches ancêtres, mais son père, <persName ref="#colbert"
+                                        >Colbert</persName>, qui avait été ministre n'était pas
+                                    tombé dans l'oubli...</note></seg>, l’un de ces hommes qui n’ont
+                            point de grands-pères, a eu un<pb n="264" source="#edition8"/> père du
+                            moins qui s’était élevé si haut, que tout ce qu’il a pu souhaiter
+                            pendant le cours d’une longue vie, ç’a été de l’atteindre ; et il l’a
+                            atteint. Etait-ce dans ces deux personnages éminence d’esprit, profonde
+                            capacité ? était-ce les conjonctures ? La fortune enfin ne leur rit plus
+                            ; elle se joue ailleurs, et traite leur postérité comme leurs
+                                ancêtres.<pb n="225" source="#edition7"/></p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit">[5] ponchartrain
                                     colbert<seg><note resp="#menit" type="commentaire">difficilement
                                     lisible</note></seg></note>
@@ -228,44 +366,65 @@
                                 <rdg source="#edition5">voʃtre</rdg>
                                 <rdg source="#edition7">vôtre</rdg>
                             </app> fortune, quel travail ! Si vous avez négligé la moindre chose,
-                            quel repentir !</p>
+                            quel repentir !<pb n="236" source="#edition5"/></p>
+                        <pb n="236" source="#edition5"/>
                     </div3>
                     <div3 type="caracter" n="83" source="#edition7 #edition8">
-                        <p source="#edition7 #edition8"><g ref="#char_pm"/>Giton a le teint frais,
-                            le visage <app type="print">
+                        <p source="#edition7 #edition8"><g ref="#char_pm"/><seg>Giton<note
+                                    type="cle" source="#cle_XVIIIe"><persName>Barbezieux, fils de
+                                        Louvois</persName> selon les clés du XVIIIe siècle. Cf.
+                                        <persName ref="#st_simon">Saint-Simon</persName> (I, 798-801
+                                    et index): "C'était un homme d'une figure frappante, extrêmement
+                                    agréable, fort mâle, avec un visage gracieux et aimable, et une
+                                    physionomie forte. [...] Personne n'avait autant l'air du monde,
+                                    les manières d'un grand seigneur, tel qu'il eût bien voulu être,
+                                    les façons les plus polies et, quand il lui plaisait, les plus
+                                    respectueuses, la galanterie la plus naturelle et la plus fine,
+                                    et des grêces répandue partout. Aussi quand il voulait plaire,
+                                    il charmait; [...] mais orgueilleux à l'excès, entreprenant,
+                                    hardi, insolent, vindicatif au dernier point, facile à se
+                                    blesser des moindres choses, et très facile à en revenir. Son
+                                    humeur était terrible et fréquente; il la connaissait, il s'en
+                                    plaignait, il ne la pouvait vaincre; [...] il devient alors
+                                    brutal, capable de toutes les insultes et de tous les
+                                    emportements imaginables."</note></seg> a le teint frais, le
+                            visage <app type="print">
                                 <lem>plein</lem>
                                 <rdg source="#edition8">plin</rdg>
                             </app> et les joues pendantes, l’œil fixe et assuré, les épaules larges,
                             l’estomac haut, la démarche ferme et délibérée. Il parle avec confiance
                             ; il fait répéter celui qui l’entretient, et il ne goûte que
                             médiocrement tout ce qu’il lui dit. Il déploie un ample mouchoir, et se
-                            mouche avec grand bruit ; il crache fort loin, et il éternue fort haut.
-                            Il dort le jour, il <app type="print">
+                            mouche avec grand bruit ; il crache fort loin, et il<pb n="265"
+                                source="#edition8"/> éternue fort haut. Il dort le jour, il <app
+                                type="print">
                                 <lem>dort</lem>
                                 <rdg source="7">do t</rdg>
                             </app> la nuit, et profondément ; il ronfle en compagnie. Il occupe à
                             table et à la promenade plus de place qu’un autre. Il tient le milieu en
                             se promenant avec ses égaux ; il s’arrête, et l’on s’arrête ; il
                             continue de marcher, et l’on marche : tous se règlent sur lui. Il
-                            interrompt, il redresse ceux qui ont la parole : on ne l’interrompt pas,
-                            on l’écoute aussi longtemps qu’il veut parler ; on est de son avis, on
-                            croit les nouvelles qu’il débite. S’il s’assied, vous le voyez
-                            s’enfoncer dans un fauteuil, croiser les jambes l’une sur l’autre,
-                            froncer le sourcil, abaisser son chapeau sur ses yeux pour ne voir
-                            personne, ou le relever ensuite, et découvrir son front par fierté et
-                            par audace. Il est enjoué, grand rieur, impatient, présomptueux, colère,
-                            libertin, politique, mystérieux sur les affaires du temps ; il se croit
-                            des talents et de l’esprit. Il est riche.</p>
+                            interrompt, il redresse ceux qui ont la parole : on ne<pb n="226"
+                                source="#edition7"/> l’interrompt pas, on l’écoute aussi longtemps
+                            qu’il veut parler ; on est de son avis, on croit les nouvelles qu’il
+                            débite. S’il s’assied, vous le voyez s’enfoncer dans un fauteuil,
+                            croiser les jambes l’une sur l’autre, froncer le sourcil, abaisser son
+                            chapeau sur ses yeux pour ne voir personne, ou le relever ensuite, et
+                            découvrir son front par fierté et par audace. Il est enjoué, grand
+                            rieur, impatient, présomptueux, colère, libertin, politique, mystérieux
+                            sur les affaires du temps ; il se croit des talents et de l’esprit. Il
+                            est riche.</p>
                         <p source="#edition7 #edition8">Phédon a les yeux creux, le teint échauffé,
                             le corps sec et le visage maigre ; il dort peu, et d’un sommeil fort
                             léger ; il est abstrait, rêveur, et il a avec de l’esprit l’air d’un
-                            stupide : il oublie de dire ce qu’il sait, ou de parler d’événements qui
-                            lui sont connus ; et s’il le fait quelquefois, il s’en tire mal, il
-                            croit peser à ceux à qui il parle, il conte brièvement, mais froidement
-                            ; il ne se fait pas écouter, il ne fait point rire. Il applaudit, il
-                            sourit à ce que les autres lui disent, il est de leur avis ; il court,
-                            il vole pour leur rendre de petits services. Il est complaisant,
-                            flatteur, <app type="print">
+                            stupide : il oublie<pb n="266" source="#edition8"/> de dire ce qu’il
+                            sait, ou de parler d’événements qui lui sont connus ; et s’il le fait
+                            quelquefois, il s’en tire mal, il croit peser à ceux à qui il parle, il
+                            conte brièvement, mais froidement ; il ne se fait pas écouter, il ne
+                            fait point rire. Il applaudit, il sourit à ce que les autres lui disent,
+                            il est de leur avis ; il court,<pb n="227" source="#edition7"/> il vole
+                            pour leur rendre de petits services. Il est complaisant, flatteur, <app
+                                type="print">
                                 <lem>empressé</lem>
                                 <rdg source="#edition7">ampressé</rdg>
                             </app> ; il est mystérieux sur ses affaires, quelquefois menteur ; il
@@ -281,8 +440,8 @@
                                 <lem>rues</lem>
                                 <rdg source="#edition7">rue</rdg>
                             </app> ni de galeries si embarrassées et si remplies de monde, où il ne
-                            trouve moyen de passer sans effort, et de se couler sans être <app
-                                type="graphie">
+                            trouve moyen de pas-<pb n="267" source="#edition8"/>ser sans effort, et
+                            de se couler sans être <app type="graphie">
                                 <lem>aperçu</lem>
                                 <rdg source="#edition7">apperceu</rdg>
                                 <rdg source="#edition8">apperçû</rdg>
@@ -291,23 +450,24 @@
                             néanmoins <app type="print">
                                 <rdg source="#edition7">avec ses amis</rdg>
                                 <rdg source="#edition8"/>
-                            </app>sur les affaires publiques, chagrin contre le siècle, médiocrement
-                            prévenu des ministres et du ministère. Il n’ouvre la bouche que pour
-                                <app type="print">
+                            </app>sur les affaires publiques, chagrin contre le siècle, médiocre-<pb
+                                n="228" source="#edition7"/>ment prévenu des ministres et du
+                            ministère. Il n’ouvre la bouche que pour <app type="print">
                                 <lem>répondre</lem>
                                 <rdg source="#edition7">repondre</rdg>
                             </app> ; il tousse, il se mouche sous son chapeau, il crache presque sur
                             soi, et il attend qu’il soit seul pour éternuer, ou, si cela lui arrive,
                             c’est à l’insu de la compagnie : il n’en coûte à personne ni salut ni
-                            compliment. Il est pauvre.</p>
+                            compliment. Il est pauvre.<pb n="229" source="#edition7"/><pb n="268"
+                                source="#edition8"/></p>
                     </div3>
                 </div2>
                 <div2 type="chapter" n="9">
                     <head>Des Grands</head>
                     <div3 type="caracter" n="21" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"/>Il y en a
-                            de tels, que s’ils pouvaient connaître leurs subalternes et se connaître
-                                <app type="graphie">
+                            de tels, que s’ils pouvaient connaître leurs subalternes et<pb n="296"
+                                source="#edition7"/> se connaître <app type="graphie">
                                 <lem>eux-mêmes</lem>
                                 <rdg source="#edition5">eux-meʃmes</rdg>
                                 <rdg source="#edition7">eux-mêmes</rdg>
@@ -328,33 +488,35 @@
                                 <rdg source="#edition5">vûës</rdg>
                                 <rdg source="#edition7">veuës</rdg>
                             </app> et leurs lumières sont-ils aimés, sont-ils estimés autant qu’ils
-                            le méritent ? Sont-ils loués de ce qu’ils pensent et de ce qu’ils font
-                            pour la patrie ? Ils vivent, il suffit : on les censure s’ils échouent,
-                            et on les envie s’ils réussissent. Blâmons le peuple où il serait
-                            ridicule de vouloir l’excuser. Son chagrin et sa jalousie, regardés <app
-                                type="print">
+                            le méritent ? Sont-ils loués de ce qu’ils<pb n="295" source="#edition5"
+                            /> pensent et de ce qu’ils font pour la patrie ? Ils vivent, il suffit :
+                            on les censure s’ils échouent, et on les envie s’ils réussissent.
+                            Blâmons le peuple où il serait ridicule de vouloir l’excuser. Son
+                            chagrin et sa jalousie, regardés <app type="print">
                                 <lem>des grands</lem>
                                 <rdg source="#edition5">desGrands</rdg>
                                 <rdg source="#edition7">des Grands</rdg>
                             </app> ou des puissants comme inévitables, les ont conduits
                             insensiblement à le compter pour rien, et à négliger ses suffrages dans
-                            toutes leurs entreprises, à s’en faire même une règle de politique.</p>
+                            toutes leurs entreprises, à s’en faire mê-<pb n="350" source="#edition8"
+                            />me une règle de politique.</p>
                         <p source="#edition5 #edition7 #edition8">Les petits se haïssent les uns les
-                            autres lorsqu’ils se nuisent réciproquement. Les grands sont odieux aux
-                            petits par le mal qu’ils leur font, et par tout le bien qu’ils ne leur
-                            font pas : ils leur sont responsables de leur obscurité, de leur
-                            pauvreté et de leur infortune, ou du moins ils leur paraissent tels.</p>
+                            autres lorsqu’ils se nuisent réciproque-<pb n="297" source="#edition7"
+                            />ment. Les grands sont odieux aux petits par le mal qu’ils leur font,
+                            et par tout le bien qu’ils ne leur font pas : ils leur sont responsables
+                            de leur obscurité, de leur pauvreté et de leur infortune, ou du moins
+                            ils leur paraissent tels.</p>
                     </div3>
                     <div3 type="caracter" n="23" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"/>C’est déjà
                             trop d’avoir avec le peuple une même religion et un même Dieu : quel
-                            moyen encore de s’appeler Pierre, <app type="print">
-                                <lem>Jean, Jacques</lem>
-                                <rdg source="#edition7">Iean,Iacques</rdg>
-                            </app>, comme le marchand ou le laboureur ? Evitons d’avoir rien de
-                            commun avec la multitude ; affectons au contraire toutes les
-                            distinctions qui nous en séparent. Qu’elle s’approprie les douze <app
-                                type="graphie">
+                            moyen encore de s’appeler <seg><persName>Pierre, <app type="print">
+                                        <lem>Jean, Jacques</lem>
+                                        <rdg source="#edition7">Iean,Iacques</rdg>
+                                    </app></persName></seg>, comme le marchand ou le laboureur ?
+                            Evitons d’avoir rien de commun avec la multitude ; affectons au
+                            contraire toutes les distinctions qui nous en séparent. Qu’elle
+                            s’approprie les douze <app type="graphie">
                                 <lem>apôtres</lem>
                                 <rdg source="#edition5">Apoʃtres</rdg>
                                 <rdg source="#edition7">Apôtres</rdg>
@@ -362,26 +524,32 @@
                                 <lem>disciples</lem>
                                 <rdg source="#edition5">Disciples</rdg>
                                 <rdg source="#edition7">disciples</rdg>
-                            </app>, les premiers martyrs (telles gens, tels patrons) ; qu’elle voie
-                            avec plaisir revenir, toutes les années, ce jour particulier que chacun
-                            célèbre comme sa fête. Pour nous autres grands, ayons recours aux noms
-                            profanes ; faisons-nous baptiser sous ceux d’Annibal, de César et de
-                            Pompée : c’étaient de grands hommes ; sous celui de Lucrèce : c’était
-                            une illustre Romaine ; sous ceux de Renaud, de Roger, d’Olivier et de
-                            Tancrède : c’étaient des paladins, et le roman n’a point de héros plus
-                            merveilleux ; sous ceux d’Hector, d’Achille, d’Hercule, tous <app
-                                type="print">
+                            </app>, les premiers martyrs (telles gens,<pb n="294" source="#edition5"
+                            /> tels patrons) ; qu’elle voie avec plaisir revenir, toutes les années,
+                            ce jour particulier que chacun célèbre comme sa fête. Pour nous autres
+                            grands, ayons recours aux noms profanes ; faisons-nous baptiser sous
+                            ceux d’<persName>Annibal</persName>, de <persName>César</persName> et de
+                                <persName>Pompée</persName> : c’étaient de grands hommes ; sous
+                            celui de <persName>Lu-<pb n="351" source="#edition8"/>crèce</persName> :
+                            c’était une illustre Romaine ; sous ceux de <persName>Renaud</persName>,
+                            de <persName>Roger</persName>, d’<persName>Olivier</persName> et de
+                                <persName>Tancrède</persName> : c’étaient des paladins, et le roman
+                                n’a<pb n="298" source="#edition7"/> point de héros plus merveilleux
+                            ; sous ceux d’<persName>Hector</persName>,
+                                d’<persName>Achille</persName>, d’<persName>Hercule</persName>, tous
+                                <app type="print">
                                 <rdg source="#edition5">Demi-Dieux</rdg>
                                 <rdg source="#edition7">demi-Dieux</rdg>
-                            </app>demi-dieux ; sous ceux même de Phébus et de Diane ; et qui nous
-                                <app type="graphie">
+                            </app>demi-dieux ; sous ceux même de <persName>Phébus</persName> et de
+                                <persName>Diane</persName> ; et qui nous <app type="graphie">
                                 <lem>empêchera</lem>
                                 <rdg source="#edition5">empeʃchera</rdg>
                                 <rdg source="#edition7">empêchera</rdg>
                             </app> de nous faire nommer <app type="print">
-                                <lem>Jupiter</lem>
+                                <lem><persName>Jupiter</persName></lem>
                                 <rdg source="#edition7">Iupiter</rdg>
-                            </app> ou Mercure, ou Vénus, ou Adonis ?</p>
+                            </app> ou <persName>Mercure</persName>, ou <persName>Vénus</persName>,
+                            ou <persName>Adonis</persName> ?</p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit">[8] achille de
                             harlay tierry bignon camille de morraine ferdinand de [1] hector
                                     [7]<seg><note resp="#menit" type="commentaire">difficilement
@@ -403,12 +571,27 @@
                                             lisible</note></seg></note></seg>, d’aller chez Thaïs ou
                             chez Phryné, de parler de la meute et de la vieille meute, de dire
                             combien il y a de postes de Paris à Besançon, ou à Philisbourg, des
-                            citoyens s’instruisent du dedans et du dehors d’un royaume, étudient le
-                            gouvernement, deviennent fins et politiques, savent le fort et le faible
-                            de tout un État, songent à se mieux placer, se placent, s’élèvent,
-                            deviennent puissants, soulagent le prince d’une partie des soins
-                            publics. Les grands, qui les dédaignaient, les révèrent : heureux s’ils
-                            deviennent leurs gendres.</p>
+                                    <seg>citoyens<note type="cle" source="#cle_cochin">La clé Cochin
+                                    cite <persName ref="#colbert">Colbert</persName> comme un de ces
+                                    simples "citoyens" devenus ministre qui ont donné leurs filles à
+                                    des grands: "Fils d'un marchand de laine et devenu ministre et
+                                    contrôleur général, il a laissé plusieurs enfants, dont les
+                                    trois filles ont été mariées à des ducs et pairs", à savoir les
+                                        <persName ref="#d_chevreuse"><roleName type="nobility"
+                                            >ducs</roleName> de Chevreuse</persName>, <persName
+                                        ref="#d_beauvilliers">de Beauvilliers</persName>, <persName
+                                        ref="#d_mortemart">de Mortemart</persName>; "son fils,
+                                        <persName ref="#seignelay">M. de Seignelay</persName>, avait
+                                    épousé en premières noces <persName ref="#mlle_alegre">Mlle
+                                        d'Alègre</persName>, d'une illustre maison", et en secondes
+                                    noces, <persName ref="#mlle_matignon">Mlle de
+                                        Matignon</persName>, alliée aux Bourbons.</note></seg>
+                            s’instruisent du dedans et du dehors d’un royaume, étudient le
+                            gouvernement, devien-<pb n="352" source="#edition8"/>nent fins et
+                            politiques, savent le fort et le faible de tout un État, songent à se
+                            mieux placer, se placent, s’élèvent, deviennent puissants, soulagent le
+                            prince d’une partie des soins publics. Les grands, qui les dédaignaient,
+                            les révèrent : heureux s’ils deviennent leurs gendres.</p>
 
                     </div3>
                     <div3 type="caracter" n="25" source="#edition5 #edition7 #edition8">
@@ -419,12 +602,13 @@
                             homme du peuple ne saurait faire aucun mal ; un grand ne veut faire
                             aucun bien, et est capable de grands maux. L’un ne se forme et ne
                             s’exerce que dans les choses qui sont utiles ; l’autre y joint les
-                            pernicieuses. Là se montrent ingénument la grossièreté et la franchise ;
-                            ici se cache une sève maligne et corrompue sous l’écorce de la
-                            politesse. Le peuple n’a guère d’esprit, et les grands n’ont point d’âme
-                            : celui-là a un bon fond, et n’a point de dehors ; ceux-ci n’ont que des
-                            dehors et qu’une simple superficie. Faut-il opter ? Je ne balance pas :
-                            je veux être peuple.</p>
+                            pernicieuses. Là se<pb n="295" source="#edition5"/> montrent ingénument
+                            la grossièreté et la franchise ; ici se cache une sève maligne et
+                            corrompue sous l’écorce de la politesse. Le peuple n’a guère d’esprit,
+                            et les grands n’ont point d’âme : celui-là a un bon fond, et n’a point
+                            de dehors ; ceux-ci n’ont que des dehors et qu’une simple superficie.
+                            Faut-il opter ? Je ne ba-<pb n="353" source="#edition8"/>lance pas : je
+                            veux être peuple.<pb n="299" source="#edition7"/></p>
                     </div3>
                     <div3 type="caracter" n="26" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>Quelque
@@ -449,7 +633,8 @@
                             </app> le plaisir qu’ils pourraient tirer d’un homme d’esprit, qui
                             saurait se tourner et se plier en mille manières agréables et
                             réjouissantes, si le dangereux caracter du courtisan ne l’engageait pas
-                            à une fort grande retenue. Il lui <app type="print">
+                            à une fort<pb n="296" source="#edition5"/> grande retenue. Il lui <app
+                                type="print">
                                 <lem>oppose</lem>
                                 <rdg source="#edition7">opose</rdg>
                             </app> un caracter sérieux, dans lequel il se retranche ; et il fait si
@@ -459,9 +644,9 @@
                     <div3 type="caracter" n="27" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>Les aises de la
                             vie, l’abondance, le calme d’une grande prospérité font que les princes
-                            ont de la joie de reste pour rire d’un nain, d’un singe, d’un imbécile
-                            et d’un mauvais conte : les gens moins heureux ne rient qu’à propos.
-                        </p>
+                            ont de la joie de reste<pb n="354" source="#edition8"/> pour rire d’un
+                            nain, d’un singe, d’un<pb n="300" source="#edition7"/> imbécile et d’un
+                            mauvais conte : les gens moins heureux ne rient qu’à propos. </p>
                     </div3>
                     <div3 type="caracter" n="28" source="#edition8">
                         <note source="#edition8" resp="#labruyere" type="manicule_vide"/>
@@ -486,13 +671,15 @@
                     <div3 type="caracter" n="31" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par"/>Si un grand
                             a quelque degré de bonheur sur les autres hommes, je ne devine pas
-                            lequel, si ce n’est peut-être de se trouver souvent dans le pouvoir et
-                            dans l’occasion de faire plaisir ; et si elle naît, cette conjoncture,
+                            lequel, si ce n’est peut-<pb n="297" source="#edition5"/>être de se
+                            trouver souvent dans le pouvoir et dans l’occasion de faire<pb n="355"
+                                source="#edition8"/> plaisir ; et si elle naît, cette conjoncture,
                             il semble qu’il doive s’en servir. Si c’est en faveur d’un homme de
                             bien, il doit appréhender qu’elle ne lui échappe ; mais comme c’est en
                             une chose juste, il doit prévenir la sollicitation, et n’être vu que
-                            pour être remercié ; et si elle est facile, il ne doit pas même la lui
-                            faire valoir. S’il la lui refuse, je les plains tous deux.</p>
+                            pour être remercié ; et si elle est facile, il ne doit<pb n="301"
+                                source="#edition7"/> pas même la lui faire valoir. S’il la lui
+                            refuse, je les plains tous deux.</p>
                     </div3>
                     <div3 type="caracter" n="32" source="#edition7 #edition8">
                         <p source="#edition7 #edition8"><g ref="#char_pm"/>Il y a des hommes nés
@@ -508,13 +695,18 @@
                         <p source="#edition5 #edition7 #edition8"><seg><g ref="#char_pm-par"/>Le
                                 suisse, le valet de chambre, l’homme de livrée<note
                                     source="#edition8" resp="#main_vide" type="manuscrit">Les
-                                    domestiques des tuilleries</note></seg>, s’ils n’ont plus
-                            d’esprit que ne porte leur condition, ne jugent plus d’eux-mêmes par
-                            leur première bassesse, mais par l’élévation et la fortune des gens
-                            qu’ils servent, et mettent tous ceux qui entrent par leur porte, et
-                            montent leur escalier, indifféremment au-dessous d’eux et de leurs
-                            maîtres : tant il est vrai qu’on est destiné à souffrir des grands et de
-                            ce qui leur appartient.</p>
+                                    domestiques des tuilleries</note><note type="cle"
+                                    source="#cle_1697 #cle_XVIIIe">"Les domestiques de <persName>M.
+                                        Le Tellier</persName>". "Et tant d'autres que l'annotation
+                                    était bien superflue", fait valoir <persName ref="#servois"
+                                        >Servois</persName> (II, 456).</note></seg>, s’ils n’ont
+                            plus d’esprit que ne porte leur condition, ne jugent plus d’eux-mêmes
+                            par leur première bassesse, mais par l’élévation<pb n="356"
+                                source="#edition8"/> et la fortune des gens qu’ils servent, et
+                            mettent tous ceux qui entrent par leur porte, et montent leur escalier,
+                            indifféremment au-dessous d’eux et de leurs maîtres : tant il est vrai
+                            qu’on est destiné à souffrir des grands et de ce qui leur appartient.<pb
+                                n="302" source="#edition7"/></p>
 
                     </div3>
                     <div3 type="caracter" n="34" source="#edition5 #edition7 #edition8">
@@ -523,22 +715,24 @@
                                 <lem>son prince, sa femme, ses enfants</lem>
                                 <rdg source="#edition5">sa femme, ses enfants, son prince</rdg>
                             </app>, et après eux les gens d’esprit ; il les doit adopter, il doit
-                            s’en fournir et n’en jamais manquer. Il ne saurait payer, je ne dis pas
-                            de trop de pensions et de bienfaits, mais de trop de familiarité et de
-                            caresses, les secours et les services qu’il en tire, même sans le
-                            savoir. Quels petits bruits ne dissipent-ils pas ? quelles histoires ne
-                            réduisent-ils pas à la fable et à la fiction ? Ne savent-ils pas
-                            justifier les mauvais succès par les bonnes intentions, prouver la bonté
-                            d’un dessein et la justesse des mesures par le bonheur des événements,
-                            s’élever contre la malignité et l’envie pour accorder à de bonnes
-                            entreprises de meilleurs motifs, donner des explications favorables à
-                            des apparences qui étaient mauvaises, détourner les petits défauts, ne
-                            montrer que les vertus, et les mettre dans leur jour, semer en mille
+                            s’en fournir et n’en jamais manquer. Il ne saurait<pb n="298"
+                                source="#edition5"/> payer, je ne dis pas de trop de pensions et de
+                            bienfaits, mais de trop de familiarité et de caresses, les secours et
+                            les services qu’il en tire, même sans le savoir. Quels petits bruits ne
+                            dissipent-ils pas ? quelles histoires ne réduisent-ils pas à la fable et
+                            à la fiction ? Ne savent-ils pas justifier les mauvais succès par les
+                            bonnes intentions, prouver la bonté d’un dessein et la justesse des
+                            mesures par le bonheur des événements, s’élever contre la malignité et
+                            l’envie pour accorder à de bonnes entreprises de meilleurs motifs,
+                            donner des explications favorables à des apparences qui étaient
+                            mauvaises, détourner les petits<pb n="357" source="#edition8"/> défauts,
+                            ne montrer que les vertus, et les mettre dans leur jour, semer en mille
                             occasions des faits et des détails qui soient avantageux, et tourner le
                             ris et la moquerie contre ceux qui oseraient en douter ou avancer des
-                            faits contraires ? Je sais que les grands ont pour maxime de laisser
-                            parler et de continuer d’agir ; mais je sais aussi qu’il leur arrive en
-                            plusieurs rencontres que laisser dire les empêche de faire. </p>
+                            faits contraires ? Je sais que les grands<pb n="303" source="#edition7"
+                            /> ont pour maxime de laisser parler et de continuer d’agir ; mais je
+                            sais aussi qu’il leur arrive en plusieurs rencontres que laisser dire
+                            les empêche de faire.<pb n="299" source="#edition5"/></p>
                     </div3>
                     <div3 type="caracter" n="35" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par"/>Sentir le
@@ -562,10 +756,10 @@
                                 <rdg source="#edition7">prêvenant</rdg>
                             </app>, officieux, qu’il aime à faire plaisir ; et vous le confirmez par
                             un long détail de ce qu’il a fait en une affaire où il a su que vous
-                            preniez intérêt. Je vous entends : on va pour vous au-devant de la
-                            sollicitation, vous avez du crédit, vous êtes connu du ministre, vous
-                            êtes bien avec les puissances ; désiriez-vous que je susse autre chose
-                            ?</p>
+                            preniez intérêt. Je vous entends : on va pour vous au-de<pb n="358"
+                                source="#edition8"/>vant de la sollicitation, vous avez du crédit,
+                            vous êtes connu du ministre, vous êtes bien avec les puissances ;
+                            désiriez-vous que je susse autre chose ?</p>
                         <p source="#edition8">Quelqu’un vous dit : Je me plains d’un tel, il est
                             fier depuis son élévation, il me dédaigne, il ne me connaît plus. — Je
                             n’ai pas, pour moi, lui répondez-vous, sujet de m’en plaindre ; au
@@ -577,15 +771,17 @@
                             sourire. </p>
                         <p source="#edition5 #edition7 #edition8">« Se louer de quelqu’un, se louer
                             d’un grand », phrase délicate dans son origine, et qui signifie sans
-                            doute se louer soi-même, en disant d’un grand tout le bien qu’il nous a
-                            fait, ou qu’il n’a pas songé à nous faire.</p>
+                            doute se<pb n="304" source="#edition7"/> louer soi-même, en disant d’un
+                            grand tout le bien qu’il nous a fait, ou qu’il n’a pas songé à nous
+                            faire.</p>
                         <p source="#edition5 #edition7 #edition8">On <app type="graphie">
                                 <lem>loue</lem>
                                 <rdg source="#edition5">loüe</rdg>
-                            </app> les grands pour marquer qu’on les voit de près, rarement par
-                            estime ou par gratitude. On ne connaît pas souvent ceux que l’on loue ;
-                            la vanité ou la légèreté l’emportent quelquefois sur le ressentiment :
-                            on est mal content d’eux et on les loue.</p>
+                            </app> les grands pour marquer qu’on les voit de près, rarement par<pb
+                                n="300" source="#edition5"/> estime ou par gratitude. On ne connaît
+                            pas souvent ceux que l’on loue ;<pb n="359" source="#edition8"/> la
+                            vanité ou la légèreté l’emportent quelquefois sur le ressentiment : on
+                            est mal content d’eux et on les loue.</p>
                     </div3>
                     <div3 type="caracter" n="38" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par"/>S’il est
@@ -604,16 +800,17 @@
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par"/>La noblesse
                             expose sa vie pour le salut de l’Etat et pour la gloire du souverain ;
                             le magistrat décharge le prince d’une partie du soin de juger les
-                            peuples : voilà de part et d’autre des fonctions bien sublimes et d’une
-                            merveilleuse utilité ; les hommes ne sont guère capables de plus grandes
-                            choses, et je ne sais d’où la robe et l’épée ont puisé de quoi se
-                            mépriser réciproquement.</p>
+                            peuples : voilà de part et d’autre<pb n="305" source="#edition7"/> des
+                            fonctions bien sublimes et d’une merveilleuse utilité ; les hommes ne
+                            sont guère capables de plus grandes choses, et je ne sais d’où la robe
+                            et l’épée ont puisé de quoi se mépriser réciproquement.<pb n="301"
+                                source="#edition5"/></p>
                     </div3>
                     <div3 type="caracter" n="41" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"/>S’il est
-                            vrai qu’un grand donne plus à la fortune lorsqu’il hasarde une vie
-                            destinée à couler dans les ris, le plaisir et l’abondance, qu’un <app
-                                type="print">
+                            vrai qu’un grand don-<pb n="360" source="#edition8"/>ne plus à la
+                            fortune lorsqu’il hasarde une vie destinée à couler dans les ris, le
+                            plaisir et l’abondance, qu’un <app type="print">
                                 <lem>particulier qui</lem>
                                 <rdg source="#edition7">particulierqui</rdg>
                             </app> ne risque que des jours qui sont misérables, il faut avouer aussi
@@ -628,11 +825,12 @@
                             à leurs éloges, sont même capables de sortir par effort de leur
                             tempérament, s’il ne les portait pas à la vertu ; et cette disposition
                             de cœur et d’esprit, qui passe des aïeuls par les pères dans leurs
-                            descendants, est cette bravoure si familière aux personnes nobles, et
-                            peut-être la noblesse même.</p>
+                            descendants, est cette<pb n="306" source="#edition7"/> bravoure si
+                            familière aux personnes nobles, et peut-être la noblesse même.</p>
                         <p source="#edition5 #edition7 #edition8">Jetez-moi dans les troupes comme
-                            un simple soldat, je suis Thersite ; mettez-moi à la tête d’une armée
-                            dont j’aie à répondre à toute l’Europe, je suis Achille.</p>
+                            un simple soldat, je suis Thersite ; mettez-moi à la tête d’une<pb
+                                n="302" source="#edition5"/> armée dont j’aie à répondre à toute
+                            l’Europe, je suis Achille.<pb n="361" source="#edition8"/></p>
                     </div3>
                     <div3 type="caracter" n="42" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>Les princes,
@@ -655,36 +853,59 @@
                                 <rdg source="#edition5">dûs</rdg>
                             </app> à leur naissance, qu’à confondre les personnes, et les traiter
                             indifféremment et sans distinction des conditions et des titres. Ils ont
-                            une fierté naturelle, qu’ils retrouvent dans les occasions ; il ne leur
-                            faut des leçons que pour la régler, que pour leur inspirer la bonté,
-                                l’<app type="graphie">
+                            une fierté naturelle, qu’ils retrouvent dans les occasions ; il ne<pb
+                                n="307" source="#edition7"/> leur faut des leçons que pour la
+                            régler, que pour leur inspirer la bonté, l’<app type="graphie">
                                 <lem>honnêteté</lem>
                                 <rdg source="#edition7">honneʃteté</rdg>
                             </app> et l’esprit de discernement.</p>
                     </div3>
                     <div3 type="caracter" n="44" source="#edition5 #edition7 #edition8">
-                        <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>C’est une pure
-                            hypocrisie à un homme d’une certaine élévation de ne pas prendre d’abord
-                            le rang qui lui est dû, et que tout le monde lui cède : il ne lui coûte
-                            rien d’être modeste, de se mêler dans la multitude qui va s’ouvrir pour
-                            lui, de prendre dans une assemblée une dernière place, afin que tous l’y
-                            voient et s’empressent de l’en ôter. La modestie est d’une pratique plus
-                            amère aux hommes d’une condition ordinaire : s’ils se jettent dans la
-                            foule, on les écrase ; s’ils choisissent un poste incommode, il leur
-                            demeure.</p>
+                        <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/><seg>C’est une
+                                pure hypocrisie à un homme d’une certaine élévation de ne pas
+                                prendre d’abord le rang qui<pb n="303" source="#edition5"/> lui est
+                                dû, et que tout le monde lui cède<note type="cle"
+                                    source="#cle_1697 #cle_XVIIIe"><persName ref="#pres_harlay">M.
+                                        Harlay</persName>, <roleName ref="#pres_harlay">premier
+                                        président</roleName> Cf. clés suivants,¶45 et 46, et
+                                        <persName ref="#st_simon">Saint-Simon</persName>: "[...]
+                                    tout son extérieur contraint, gêné, affecté; l'odeur hypocrite,
+                                    le maintien faux et cynique, des révérences lentes et profondes;
+                                    allant toujours rasant les murailles, avec un air toujours
+                                    respectueux, mais à travers lequel pétillait l'audace et
+                                    l'insolence, et des propos toujours composés, à travers lesquels
+                                    sortaient toujours l'orgueil de toute espèce [...]." (II, 894
+                                    sq.).</note></seg> : il ne lui coûte rien d’être mo-<pb n="362"
+                                source="#edition8"/>deste, de se mêler dans la multitude qui va
+                            s’ouvrir pour lui, de prendre dans une assemblée une dernière place,
+                            afin que tous l’y voient et s’empressent de l’en ôter. La modestie est
+                            d’une pratique plus amère aux hommes d’une condition ordinaire : s’ils
+                            se jettent dans la foule, on les écrase ; s’ils choisissent un poste
+                            incommode, il leur demeure.</p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit">[1]<seg><note
                                     resp="#menit" type="commentaire">difficilement
                                 lisible</note></seg>président de harlay</note>
                     </div3>
                     <div3 type="caracter" n="45" source="#edition5 #edition7 #edition8">
-                        <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"/>Aristarque
-                            se transporte dans la place avec un héraut et un trompette ; celui-ci
-                            commence : toute la multitude accourt et se rassemble. « Ecoutez,
-                            peuple, dit le héraut ; soyez attentifs ; silence, silence ! Aristarque,
-                            que vous voyez présent, doit faire demain une bonne action. » Je dirai
-                            plus simplement et sans figure : « Quelqu’un fait bien ; veut-il faire
-                            mieux ? que je ne sache pas qu’il fait bien, ou que je ne le soupçonne
-                            pas du moins de me l’avoir appris. »</p>
+                        <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"
+                                    /><seg>Aristarque<note type="cle" source="#cle_XVIIIe"
+                                    >Aristarque: "Le même <persName ref="#pres_harlay"
+                                        >Harlay</persName>, premier président". On vint lui apporter
+                                    à <geogName>Beaumont</geogName> pendant les vacations vingt-cinq
+                                    mille livres que le président de la Barois lui avait léguées. Il
+                                    se transporta à <geogName>Fontainbleau</geogName>, où la cour
+                                    était alors; et, par-devant un notaire royal, il déclara cette
+                                    somme au profit des pauvres". Cf. <persName
+                                        ref="#Mme_de_Sévigné">Mme de Sévigné</persName> (13 octobre
+                                    1675, éd. cit., t. II, p. 128; et 9 octobre 1689, t. III, p.
+                                    720).</note></seg> se transporte dans la place avec un héraut et
+                            un trompette ; celui-ci commence : toute la multitude accourt et se
+                            rassemble. « Ecoutez, peuple, dit le héraut ; soyez attentifs ; silence,
+                            silence ! Aristarque, que vous voyez présent, doit faire demain une
+                            bonne action. » Je dirai plus simplement et sans figure : « Quelqu’un
+                            fait bien ; veut-il faire mieux ? que je<pb n="308" source="#edition7"/>
+                            ne sache pas qu’il fait bien, ou que je ne le soupçonne pas du moins de
+                            me l’avoir appris. »</p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit">[8] il
                             transporte aussitôt à la fontaine bleu où [2] est devenu un notaire il
                             [1] qu'il [6] prêchant [1]ou mieux selon monsieuraprès chez plusieurs
@@ -695,18 +916,33 @@
                         <p source="#edition7 #edition8"><g ref="#char_pm"/>Les meilleures actions
                             s’altèrent et s’affaiblissent par la manière dont on les fait, et
                             laissent même douter des intentions. Celui qui protège ou qui loue la
-                            vertu pour la vertu, qui corrige ou qui blâme le vice à cause du vice,
-                            agit simplement, naturellement, sans aucun tour, sans nulle singularité,
-                            sans faste, sans affectation ; il n’use point de réponses graves et
-                            sentencieuses, encore moins de traits piquants et satiriques : ce n’est
-                            jamais une scène qu’il joue pour le public, c’est un bon exemple qu’il
-                            donne, et un devoir dont il s’acquitte ; il ne fournit rien aux visites
-                            des femmes, <seg>ni au cabinet<note source="#edition8" resp="#labruyere"
-                                    >Rendez-vous à Paris de quelques hônnétes gens pour la
-                                    conversation.</note></seg>, ni aux nouvellistes ; il ne donne
-                            point à un homme agréable la matière d’un joli conte. Le bien qu’il
-                            vient de faire est un peu moins su, à la vérité ; mais il a fait ce bien
-                            : que voudrait-il davantage ?</p>
+                            vertu pour la vertu, qui corrige ou qui blâme le vice à<pb n="363"
+                                source="#edition8"/> cause du vice, agit simplement, naturellement,
+                            sans aucun tour, sans nulle singularité, sans faste, sans affectation ;
+                            il n’use point de réponses graves et sentencieuses, encore moins de
+                            traits piquants et satiriques : ce n’est jamais une scène qu’il joue
+                            pour le public, c’est un bon exemple qu’il donne, et un devoir dont il
+                            s’acquitte ; il ne fournit rien aux visites des femmes, <seg>ni au
+                                    cabinet<note source="#edition8" resp="#labruyere">Rendez-vous à
+                                    Paris de quelques hônnétes gens pour la
+                                    conversation.</note><note type="cle" source="#cle_XVIIIe"
+                                        ><orgName>Le cabinet</orgName>: allusion à l'assemblée qui
+                                    s'était longtemps réunie autour des <persName ref="#bro_puy"
+                                        >frères du Puy</persName>, qui entretenaient une immense
+                                    correspondance avec les savants et les diplomates de toute
+                                    l'Europe; elle se réunissait dans la bibliothèque de
+                                        <placeName>l'hôtel de Thou</placeName>, puis dans celle du
+                                    roi, et son existence s'est prolongée après la mort de ses deux
+                                    premiers animateurs. Pris absolument, le terme de cabinet
+                                    désigna longtemps cette seule assemblée, qui comptait une
+                                    cinquantaine de membres en <date when="1657">1657</date>, mais
+                                    sur ce modèle d'autres cabinets s'étaient formés, dont celui de
+                                        <orgName>l'abbé de Dangeau</orgName>, celui <orgName>de
+                                        Bignon</orgName> et celui <orgName>de
+                                    Ménage</orgName>.</note></seg>, ni aux nouvellistes ; il ne
+                            donne point à un homme agréable la matière d’un joli conte. Le bien
+                            qu’il vient de faire est un peu moins su, à la vérité ; mais il a fait
+                            ce bien : que voudrait-il davantage ?</p>
                         <note source="#edition7" resp="#labruyere">Rendez-vous à Paris de quelques
                             hônnétes gens pour la conversation.</note>
                     </div3>
@@ -716,9 +952,10 @@
                                 <lem>grands</lem>
                                 <rdg source="#edition7">Grands</rdg>
                             </app> ne doivent point aimer les premiers temps : ils ne leur sont
-                            point favorables ; il est triste pour eux d’y voir que nous sortions
-                            tous du frère et de la sœur. Les hommes composent ensemble une même
-                            famille : il n’y a que le plus ou le moins dans le degré de parenté.</p>
+                            point favorables ; il est triste pour eux d’y voir que nous sortions<pb
+                                n="304" source="#edition5"/> tous du frère et de la sœur. Les hommes
+                            composent ensemble une même fa-<pb n="309" source="#edition7"/>mille :
+                            il n’y a que le plus ou le moins dans le degré de parenté.</p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit">[1] genres
                                     [3]<seg><note resp="#menit" type="commentaire">diffilcilement
                                     lisible</note></seg></note>
@@ -727,23 +964,28 @@
                         <p source="#edition7 #edition8"><g ref="#char_pm"/><seg>Théognis<note
                                     resp="#menit" type="explication">Semble être la représentation
                                     d'un homme ayant un certain rang puvant assumer une fonction
-                                    politique ou religieuse importante</note></seg>est recherché
+                                    politique ou religieuse importante</note><note type="cle"
+                                    source="#cle_1697 #cle_XVIIIe">Théognis: "<persName
+                                        ref="#harlay">M. de Harlay</persName>, <roleName
+                                        ref="#harlay">archevêque de Paris</roleName>", qui perdit
+                                    très vite la faveur du roi. Cf. <persName ref="#st_simon"
+                                        >Saint-Simon</persName> (II, 892).</note></seg>est recherché
                             dans son ajustement, et il sort paré comme une femme ; il n’est pas hors
-                            de sa maison, qu’il a déjà ajusté ses yeux et son visage afin que ce
-                            soit une chose faite quand il sera dans le public, qu’il y paraisse tout
-                            concerté, que ceux qui passent le trouvent déjà gracieux et leur
-                            souriant, et que nul ne lui échappe. Marche-t-il dans les salles, il se
-                            tourne à droit, où il y a un grand monde, et à gauche, où il n’y a
-                            personne ; il salue ceux qui y sont et ceux qui n’y sont pas. Il
-                            embrasse un homme qu’il trouve sous sa main, il lui presse la tête
-                            contre sa poitrine ; il demande ensuite qui est celui qu’il a embrassé.
-                            Quelqu’un a besoin de lui dans une affaire qui est facile ; il va le
-                            trouver, lui fait sa prière : Théognis l’écoute favorablement, il est
-                            ravi de lui être bon à quelque chose, il le conjure de faire naître des
-                            occasions de lui rendre service ; et comme celui-ci insiste sur son
+                            de sa maison, qu’il a déjà ajusté ses yeux<pb n="364" source="#edition8"
+                            /> et son visage afin que ce soit une chose faite quand il sera dans le
+                            public, qu’il y paraisse tout concerté, que ceux qui passent le trouvent
+                            déjà gracieux et leur souriant, et que nul ne lui échappe. Marche-t-il
+                            dans les salles, il se tourne à droit, où il y a un grand monde, et à
+                            gauche, où il n’y a personne ; il salue ceux qui y sont et ceux qui n’y
+                            sont pas. Il embrasse un homme qu’il trouve sous sa main, il lui presse
+                            la tête contre sa poitrine ; il demande ensuite qui est celui qu’il a
+                            embrassé. Quelqu’un a besoin de lui dans une affaire qui est facile ; il
+                            va le trouver, lui fait sa prière : Théognis l’écoute favorablement, il
+                            est ravi de lui être bon à quelque chose, il le conjure de faire naître
+                            des occasions de lui rendre service ; et comme celui-ci insiste sur son
                             affaire, il lui dit qu’il ne la fera point ; il le prie de se mettre en
-                            sa place, il l’en fait juge. Le client sort, reconduit, caressé, confus,
-                            presque content d’être refusé.</p>
+                            sa place, il<pb n="310" source="#edition7"/> l’en fait juge. Le client
+                            sort, reconduit, caressé, confus, presque content d’être refusé.</p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit">feu [1] de
                             harlay [3]<seg><note resp="#menit" type="commentaire">difficilement
                                     lisible</note></seg></note>
@@ -751,8 +993,9 @@
                     <div3 type="caracter" n="49" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>C’est avoir une
                             très mauvaise opinion des hommes, et néanmoins les bien connaître, que
-                            de croire dans un grand poste leur imposer par des caresses étudiées,
-                            par de longs et stériles embrassements.</p>
+                            de croire<pb n="365" source="#edition8"/> dans un grand poste leur
+                            imposer par des caresses étudiées, par de longs et stériles
+                            embrassements.</p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit">feu [1] de
                             harlay [5]<seg><note resp="#menit" type="commentaire">difficilement
                                     lisible</note></seg></note>
@@ -775,45 +1018,127 @@
                     </div3>
 
                     <div3 type="caracter" n="50" source="#edition7 #edition8">
-                        <p source="#edition7 #edition8"><g ref="#char_pm"/>Pamphile ne s’entretient
-                            pas avec les gens qu’il rencontre dans les salles ou dans les cours : si
-                            l’on en croit sa gravité et l’élévation de sa voix, il les reçoit, leur
-                            donne audience, les congédie ; il a des termes tout à la fois civils et
-                            hautains, une honnêteté impérieuse et qu’il emploie sans discernement ;
-                            il a une fausse grandeur qui l’abaisse, et qui embarrasse fort ceux qui
-                            sont ses amis, et qui ne veulent pas le mépriser.</p>
+                        <p source="#edition7 #edition8"><g ref="#char_pm"/><seg>Pamphile<note
+                                    type="cle" source="#cle_general">Pamphile: <persName
+                                        ref="#dangeau">le marquis de Dangeau</persName> (1638-1720)
+                                    - On ne peut pas savoir si les contemporains appliquèrent à
+                                    Dangeau le premier alinéa dès 1689 et 1690, lorsqu'il figurait
+                                    encore au chapitre "De la Société et de la Conversation": ce
+                                    n'est qu'avec le second alinéa, dans la sixième édition, que
+                                    Pamphile devient un "grand". <persName ref="#dangeau">Philippe
+                                        de Courcillon</persName>, <roleName ref="#dangeau">marquis
+                                        de Dangeau</roleName>, a environ cinquante ans en 1689. Cf.
+                                        <persName ref="#st_simon">Saint-Simon</persName>
+                                    (I,313-315); VII, 706-707): "à force de revêtements l'un sur
+                                    l'autre, voilà un seigneur, et qui en affectait toutes les
+                                    manières à faire mourir de rire. Aussi La Bruyère disait-il,
+                                    dans ses excellents Caractères de Théophraste, que Dangeau
+                                    n'était pas un seigneur, mais d'après un seigneur" (le mot est
+                                    répété t. II, p. 671; et Mme de Sévigné (index). - Les éditeurs
+                                    du Journal de Dangeau (éd. cit., t. I, notamment p. XCII). - É.
+                                    Fournier (op. cit., p. 303) se demande si le nom Pamphile n'a
+                                    pas été choisi par La Bruyère parce que le valet de trèfle, dans
+                                    un jeu de cartes de l'époque, se nommait précisément Pamphile.
+                                    Mme de Montespan appelait Dangeau "le valet de carreau". -
+                                        <persName ref="#allaire">Allaire</persName> (La Bruyère dans
+                                    la maison de Condé, 1886; Slatkine Reprints, 1970, t. II, p.
+                                    347) veut reconnaître en Pamphile <persName ref="#d_bourbon">M.
+                                        le Duc de Bourbon</persName>. Il n'a pas convaincu <persName
+                                        ref="#servois">Servois</persName> (II, 465).</note></seg> ne
+                            s’entretient pas avec les gens qu’il rencontre dans les salles ou dans
+                            les cours : si l’on en croit sa gravité et l’élévation de sa voix, il
+                            les reçoit, leur donne audience, les congédie ; il a des termes tout à
+                            la fois civils et hautains, une honnêteté impérieuse et qu’il emploie
+                            sans discernement ; il a une fausse grandeur qui l’abaisse, et qui
+                            embarrasse fort ceux qui sont ses amis, et qui ne veulent pas le
+                            mépriser.</p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit"><seg><note
                                     resp="#menit" type="commentaire">difficilement
                                 lisible</note></seg></note>
-                        <p source="#edition7 #edition8">Un Pamphile est plein de lui-même, ne se
-                            perd pas de vue, ne sort point de l’idée de sa grandeur, de ses
-                            alliances, de sa charge, de sa dignité ; il ramasse, pour ainsi dire,
-                            toutes ses pièces, s’en enveloppe pour se faire valoir ; il dit : Mon
-                            ordre, mon cordon bleu ; il l’étale ou il le cache par ostentation. Un
-                            Pamphile en un mot veut être grand, il croit l’être ; il ne l’est pas,
-                            il est d’après un grand. Si quelquefois il sourit à un homme du dernier
-                            ordre, à un homme d’esprit, il choisit son temps si juste, qu’il n’est
-                            jamais pris sur le fait : aussi la rougeur lui monterait-elle au visage
-                            s’il était malheureusement surpris dans la moindre familiarité avec
-                            quelqu’un qui n’est ni opulent, ni puissant, ni ami d’un ministre, ni
-                            son allié, ni son domestique. Il est sévère et inexorable à qui n’a
-                            point encore fait sa fortune. Il vous aperçoit un jour dans une galerie,
-                            et il vous fuit ; et le lendemain, s’il vous trouve en un endroit moins
-                            public, ou s’il est public, en la compagnie d’un grand, il prend
-                            courage, il vient à vous, et il vous dit : Vous ne faisiez pas hier
-                            semblant de nous voir. Tantôt il vous quitte brusquement pour joindre un
-                            seigneur ou un premier commis ; et tantôt s’il les trouve avec vous en
-                            conversation, il vous coupe et vous les enlève. Vous l’abordez une autre
-                            fois, et il ne s’arrête pas ; il se fait suivre, vous parle si haut que
-                            c’est une scène pour ceux qui passent. Aussi les Pamphiles sont-ils
-                            toujours comme sur un théâtre : gens nourris dans le faux, et qui ne
-                            haïssent rien tant que d’être naturels ; vrais personnages de comédie,
-                            des Floridors, des Mondoris.</p>
+                        <p source="#edition7 #edition8"><seg>Un Pamphile<note type="cle"
+                                    source="#cle_general">Pamphile: <persName ref="#dangeau">le
+                                            <roleName type="nobility">marquis</roleName> de
+                                        Dangeau</persName> (1638-1720) - On ne peut pas savoir si
+                                    les contemporains appliquèrent à Dangeau le premier alinéa dès
+                                    1689 et 1690, lorsqu'il figurait encore au chapitre "De la
+                                    Société et de la Conversation": ce n'est qu'avec le second
+                                    alinéa, dans la sixième édition, que Pamphile devient un
+                                    "grand". Philippe de Courcillon, marquis de Dangeau, a environ
+                                    cinquante ans en 1689. Cf. <persName ref="#st_simon"
+                                        >Saint-Simon</persName> (I,313-315); VII, 706-707): "à force
+                                    de revêtements l'un sur l'autre, voilà un seigneur, et qui en
+                                    affectait toutes les manières à faire mourir de rire. Aussi La
+                                    Bruyère disait-il, dans ses excellents Caractères de
+                                    Théophraste, que Dangeau n'était pas un seigneur, mais d'après
+                                    un seigneur" (le mot est répété t. II, p. 671; et Mme de Sévigné
+                                    (index). - Les éditeurs du Journal de Dangeau (éd. cit., t. I,
+                                    notamment p. XCII). - <persName ref="#fournier">É.
+                                        Fournier</persName> (op. cit., p. 303) se demande si le nom
+                                    Pamphile n'a pas été choisi par La Bruyère parce que le valet de
+                                    trèfle, dans un jeu de cartes de l'époque, se nommait
+                                    précisément Pamphile. <persName ref="#montespan">Mme de
+                                        Montespan</persName> appelait Dangeau "le valet de carreau".
+                                    - <persName ref="#allaire">Allaire</persName> (La Bruyère dans
+                                    la maison de Condé, 1886; Slatkine Reprints, 1970, t. II, p.
+                                    347) veut reconnaître en Pamphile <persName ref="#d_bourbon">M.
+                                        le <roleName type="nobility">Duc</roleName> de
+                                        Bourbon</persName>. Il n'a pas convaincu <persName
+                                        ref="#servois">Servois</persName> (II, 465).</note></seg>
+                            est plein de lui-même, ne se perd pas de vue, ne sort point de l’idée de
+                            sa grandeur, de ses alliances, de sa charge, de sa dignité ; il ramasse,
+                            pour ainsi dire, toutes ses pièces, s’en enveloppe pour se faire valoir
+                            ; il dit : Mon ordre, mon cordon bleu ; il l’étale ou<pb n="311"
+                                source="#edition7"/> il le cache par ostentation. Un Pamphile en un
+                            mot veut être grand, il croit l’être ; il ne l’est pas, il est d’après
+                            un grand. Si quelquefois il sourit à un homme du dernier ordre, à un
+                            homme d’esprit, il choisit son<pb n="366" source="#edition8"/> temps si
+                            juste, qu’il n’est jamais pris sur le fait : aussi la rougeur lui
+                            monterait-elle au visage s’il était malheureusement surpris dans la
+                            moindre familiarité avec quelqu’un qui n’est ni opulent, ni puissant, ni
+                            ami d’un ministre, ni son allié, ni son domestique. Il est sévère et
+                            inexorable à qui n’a point encore fait sa fortune. Il vous aperçoit un
+                            jour dans une galerie, et il vous fuit ; et le lendemain, s’il vous
+                            trouve en un endroit moins public, ou s’il est public, en la compagnie
+                            d’un grand, il prend courage, il vient à vous, et il vous dit : Vous ne
+                            faisiez pas hier semblant de nous voir. Tantôt il vous quitte
+                            brusquement pour joindre un seigneur ou un premier commis ; et tantôt
+                            s’il les trouve avec vous en conversation, il vous coupe et vous les
+                            enlève. Vous l’abordez une autre fois, et il ne s’arrête pas ; il se
+                            fait suivre, vous parle si haut que c’est une scène pour ceux qui
+                            passent. Aussi les Pamphiles sont-ils toujours comme sur un théâtre :
+                            gens nourris dans le faux, et qui ne haïssent rien tant que d’être
+                            naturels ; vrais personnages de comédie,<pb n="367" source="#edition8"/>
+                            des Floridors, des Mondoris.<pb n="312" source="#edition7"/></p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit"><seg><note
                                     resp="#menit" type="commentaire">difficilement
                                 lisible</note></seg></note>
-                        <p source="#edition8">On ne tarit point sur les Pamphiles : ils sont bas et
-                            timides devant les princes et les ministres ; pleins de hauteur et de
+                        <p source="#edition8">On ne tarit point sur <seg>les Pamphiles<note
+                                    type="cle" source="#cle_general">Pamphile: <roleName
+                                        type="nobility" ref="#dangeau">le marquis de
+                                        Dangeau</roleName> (1638-1720) - On ne peut pas savoir si
+                                    les contemporains appliquèrent à Dangeau le premier alinéa dès
+                                    1689 et 1690, lorsqu'il figurait encore au chapitre "De la
+                                    Société et de la Conversation": ce n'est qu'avec le second
+                                    alinéa, dans la sixième édition, que Pamphile devient un
+                                    "grand". <persName ref="#dangeau"><forename>Philippe</forename>
+                                        <surname>de Courcillon</surname>, <roleName type="nobility"
+                                            >marquis de Dangeau</roleName></persName>, a environ
+                                    cinquante ans en 1689. Cf. Saint-Simon (I,313-315); VII,
+                                    706-707): "à force de revêtements l'un sur l'autre, voilà un
+                                    seigneur, et qui en affectait toutes les manières à faire mourir
+                                    de rire. Aussi La Bruyère disait-il, dans ses excellents
+                                    Caractères de Théophraste, que Dangeau n'était pas un seigneur,
+                                    mais d'après un seigneur" (le mot est répété t. II, p. 671; et
+                                    Mme de Sévigné (index). - Les éditeurs du Journal de Dangeau
+                                    (éd. cit., t. I, notamment p. XCII). - É. Fournier (op. cit., p.
+                                    303) se demande si le nom Pamphile n'a pas été choisi par La
+                                    Bruyère parce que le valet de trèfle, dans un jeu de cartes de
+                                    l'époque, se nommait précisément Pamphile. Mme de Montespan
+                                    appelait Dangeau "le valet de carreau". - Allaire (La Bruyère
+                                    dans la maison de Condé, 1886; Slatkine Reprints, 1970, t. II,
+                                    p. 347) veut reconnaître en Pamphile M. le Duc de Bourbon. Il
+                                    n'a pas convaincu Servois (II, 465).</note></seg> : ils sont bas
+                            et timides devant les princes et les ministres ; pleins de hauteur et de
                             confiance avec ceux qui n’ont que de la vertu ; muets et embarrassés
                             avec les savants ; vifs, hardis et décisifs avec ceux qui ne savent
                             rien. Ils parlent de guerre à un homme de robe, et de politique à un
@@ -833,19 +1158,22 @@
                         <p source="#edition7 #edition8"><g ref="#char_pm"/>Nous avons pour les
                             grands et pour les gens en place une jalousie stérile ou une haine
                             impuissante, qui ne nous venge point de leur splendeur et de leur
-                            élévation, et qui ne fait qu’ajouter à notre propre misère le poids
-                            insupportable du bonheur d’autrui. Que faire contre une maladie de l’âme
-                            si invétérée et si contagieuse ? Contentons-nous de peu, et de moins
-                            encore s’il est possible ; sachons perdre dans l’occasion : la recette
-                            est infaillible, et je consens à l’éprouver. J’évite par là
-                            d’apprivoiser un suisse ou de fléchir un commis ; d’être repoussé à une
-                            porte par la foule innombrable de clients ou de courtisans dont la
-                            maison d’un ministre se dégorge plusieurs fois le jour ; de languir dans
-                            sa salle d’audience ; de lui demander en tremblant et en balbutiant une
-                            chose juste ; d’essuyer sa gravité, son ris amer et son laconisme. Alors
-                            je ne le hais plus, je ne lui porte plus d’envie ; il ne me fait aucune
-                            prière, je ne lui en fais pas ; nous sommes égaux, si ce n’est peut-être
-                            qu’il n’est pas tranquille, et que je le suis.</p>
+                            élévation, et<pb n="368" source="#edition8"/> qui ne fait qu’ajouter à
+                            notre propre misère le poids insupportable du bonheur d’autrui. Que
+                            faire contre une maladie de l’âme si invétérée et si contagieuse ?
+                            Contentons-nous de peu, et de moins encore s’il est possible ; sachons
+                            perdre dans l’occasion : la recette est infaillible, et je consens à
+                            l’éprouver. J’évite par là<pb n="313" source="#edition7"/> d’apprivoiser
+                            un suisse ou de fléchir un commis ; d’être repoussé à une porte par la
+                            foule innombrable de clients ou de courtisans dont la maison d’un
+                                    <seg>ministre<note type="cle" source="#cle_XVIIIe">Le ministre
+                                    serait <persName ref="#louvois">Louvois</persName>.</note></seg>
+                            se dégorge plusieurs fois le jour ; de languir dans sa salle d’audience
+                            ; de lui demander en tremblant et en balbutiant une chose juste ;
+                            d’essuyer sa gravité, son ris amer et son laconisme. Alors je ne le hais
+                            plus, je ne lui porte plus d’envie ; il ne me fait aucune prière, je ne
+                            lui en fais pas ; nous sommes égaux, si ce n’est peut-être qu’il n’est
+                            pas tranquille, et que je le suis.</p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit">chez de
                                     Lonnoir<seg><note resp="#menit" type="commentaire">difficilement
                                     lisible</note></seg></note>
@@ -856,14 +1184,15 @@
                     <div3 type="caracter" n="52" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>Si les grands
                             ont les occasions de nous faire du bien, ils en ont rarement la volonté
-                            ; et s’ils désirent de nous faire du mal, ils n’en trouvent pas toujours
-                            les occasions. Ainsi l’on peut être trompé dans l’espèce de culte qu’on
-                            leur rend, s’il n’est fondé que sur l’espérance ou sur la crainte ; et
-                            une longue vie se termine quelquefois sans qu’il arrive de dépendre
-                            d’eux pour le moindre intérêt, ou qu’on leur doive sa bonne ou sa
-                            mauvaise fortune. Nous devons les honorer, parce qu’ils sont grands et
-                            que nous sommes petits, et qu’il y en a d’autres plus petits que nous
-                            qui nous honorent.</p>
+                            ; et s’ils désirent de nous faire du mal, ils n’en trouvent<pb n="305"
+                                source="#edition5"/> pas toujours les occasions.<pb n="369"
+                                source="#edition8"/> Ainsi l’on peut être trompé dans l’espèce de
+                            culte qu’on leur rend, s’il n’est fondé que sur l’espérance ou sur la
+                            crainte ; et une longue vie se termine quelquefois sans qu’il arrive de
+                            dépendre d’eux pour le moindre intérêt, ou qu’on leur doive sa bonne ou
+                            sa mauvaise fortune. Nous devons les honorer, parce qu’ils sont<pb
+                                n="314" source="#edition7"/> grands et que nous sommes petits, et
+                            qu’il y en a d’autres plus petits que nous qui nous honorent.</p>
                     </div3>
                     <div3 type="caracter" n="53" source="#edition7 #edition8">
                         <p source="#edition7 #edition8"><g ref="#char_pm"/>À la cour, à la ville,
@@ -875,13 +1204,14 @@
                             rapports, et ce qu’on appelle de mauvais discours. Avec de bons yeux on
                             voit sans peine la petite ville, la rue Saint-Denis, comme transportées
                             à V** ou à F**. Ici l’on croit se haïr avec plus de fierté et de
-                            hauteur, et peut-être avec plus de dignité : on se nuit réciproquement
-                            avec plus d’habileté et de finesse ; les colères sont plus éloquentes,
-                            et l’on se dit des injures plus poliment et en meilleurs termes ; l’on
-                            n’y blesse point la pureté de la langue ; l’on n’y offense que les
-                            hommes ou que leur réputation : tous les dehors du vice y sont spécieux
-                            ; mais le fond, encore une fois, y est le même que dans les conditions
-                            les plus ravalées ; tout le bas, tout le faible et tout l’indigne s’y
+                            hauteur, et<pb n="370" source="#edition8"/> peut-être avec plus de
+                            dignité : on se nuit réciproquement avec plus d’habileté et de finesse ;
+                            les colères sont plus éloquentes, et l’on se dit des injures plus
+                            poliment et en meilleurs termes ; l’on n’y blesse point la pureté de la
+                            langue ; l’on n’y offense que les hommes ou que leur réputation : tous
+                            les dehors du<pb n="315" source="#edition7"/> vice y sont spécieux ;
+                            mais le fond, encore une fois, y est le même que dans les conditions les
+                            plus ravalées ; tout le bas, tout le faible et tout l’indigne s’y
                             trouvent. Ces hommes si grands ou par leur naissance, ou par leur
                             faveur, ou par leurs dignités, ces têtes si fortes et si habiles, ces
                             femmes si polies et si spirituelles, tous méprisent le peuple, et ils
@@ -893,7 +1223,7 @@
                             jusques où elle s’étend. Il y a le peuple qui est opposé aux grands :
                             c’est la populace et la multitude ; il y a le peuple qui est opposé aux
                             sages, aux habiles et aux vertueux : ce sont les grands comme les
-                            petits.</p>
+                                petits.<pb n="371" source="#edition8"/></p>
                     </div3>
                     <div3>
                         <p source="#edition7 #edition8"><g ref="#char_pm-par"/>Qui dit le peuple dit
@@ -910,22 +1240,23 @@
                             impression. Une chose arrive, ils en parlent trop ; bientôt ils en
                             parlent peu ; ensuite ils n’en parlent plus, et ils n’en parleront plus.
                             Action, conduite, ouvrage, événement, tout est oublié ; ne leur demandez
-                            ni correction, ni prévoyance, ni réflexion, ni reconnaissance, ni
-                            récompense.</p>
+                            ni cor-<pb n="316" source="#edition7"/>rection, ni prévoyance, ni
+                            réflexion, ni reconnaissance, ni récompense.</p>
                     </div3>
                     <div3 type="caracter" n="55" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>L’on se porte
                             aux extrémités opposées à l’égard de certains personnages. La satire
                             après leur mort court parmi le peuple, pendant que les voûtes des
                             temples retentissent de leurs éloges. Ils ne méritent quelquefois ni
-                            libelles ni discours funèbres ; quelquefois aussi ils sont dignes de
-                            tous les deux.</p>
+                            libelles ni discours funèbres ; quel-<pb n="306" source="#edition5"
+                            />quefois aussi ils sont dignes de tous les deux.</p>
                     </div3>
                     <div3 type="caracter" n="56" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>L’on doit se
                             taire sur les puissants : il y a presque toujours de la flatterie à en
                             dire du bien ; il y a du péril à en dire du mal pendant qu’ils vivent,
-                            et de la lâcheté quand ils sont morts. </p>
+                            et de la lâcheté quand ils sont morts.<pb n="317" source="#edition7"
+                                /><pb n="372" source="#edition8"/></p>
                     </div3>
                 </div2>
             </div1>
