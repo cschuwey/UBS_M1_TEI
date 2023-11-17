@@ -38,6 +38,19 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
+                <listPerson>
+                    <person xml:id="">
+                        <name/>
+                        <idno/>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place>
+                        <placeName xml:id="cle_I">La Cour</placeName>
+                        <placeName xml:id="cle_II">Regions en dehors de Paris</placeName>
+                    </place>
+                </listPlace>
+
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -48,19 +61,21 @@
                 </glyph>
                 <glyph xml:id="char_pdm1">
                     <mapping>(❡)</mapping>
-                    <desc>Pied-de-mouche à parenthèse simple marquant une remarque ajoutée dans l'édition quatre</desc>
+                    <desc>Pied-de-mouche à parenthèse simple marquant une remarque ajoutée dans
+                        l'édition quatre</desc>
                 </glyph>
                 <glyph xml:id="char_pdm2">
                     <mapping>((❡))</mapping>
-                    <desc>Pied-de-mouche à parenthèse double marquant une remarque ajoutée dans l'édition cinq</desc>
+                    <desc>Pied-de-mouche à parenthèse double marquant une remarque ajoutée dans
+                        l'édition cinq</desc>
                 </glyph>
                 <glyph xml:id="char_pdm3">
                     <mapping>☜</mapping>
-                        <desc>Manicule pointant à gauche</desc>                   
+                    <desc>Manicule pointant à gauche</desc>
                 </glyph>
                 <glyph xml:id="char_pdm4">
                     <mapping>☞</mapping>
-                    <desc>Manicule pointant à droite</desc>                   
+                    <desc>Manicule pointant à droite</desc>
                 </glyph>
             </charDecl>
             <projectDesc>
@@ -84,75 +99,112 @@
             <change when="2023-10-19">Changement d'une des deux éditions et encodage de 10
                 remarques</change>
             <change when="2023-10-23">Encodage de note</change>
-            <change when="2023-11-08">Encodage de variation et des glyph</change>         
+            <change when="2023-11-08">Encodage de variation et des glyph</change>
+            <change when="2023-11-17">Encodage des numéros de page des éditions et encodage de clés</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            
+
             <div1>
                 <head>Les Caractères ou les Moeurs de ce Siècle</head>
-                
+
                 <div2 type="Chapitre" n="">
                     <head>De la Cour</head>
-                    
+
                     <div3 n="1" source="#Quatrieme_edition #Sixieme_edition">
-                        <p>  Le reproche en un sens le plus honorable que l’on puisse faire à un
-                            homme, c’est de <app><lem>lui</lem><rdg wit="#Quatrieme_edition #Sixieme_edition">luy</rdg></app>lui dire qu’il ne sait pas la cour : il n’y a sorte de
-                            vertus qu’on ne rassemble en lui par ce seul mot.</p>
+                        <pb n="198" source="#Quatrieme_edition"/>
+                        <pb n="246" source="#Sixieme_edition"/>
+                        <p> Le reproche en un sens le plus honorable que l’on puisse faire à un
+                            homme, c’est de <app>
+                                <lem>lui</lem>
+                                <rdg wit="#Quatrieme_edition #Sixieme_edition">luy</rdg>
+                            </app>lui dire qu’il ne sait pas la cour : il n’y a sorte de vertus
+                            qu’on ne rassemble en lui par ce seul mot.</p>
                     </div3>
-                    
+
                     <div3 n="2" source="#Quatrieme_edition #Sixieme_edition">
-                        <p> <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Un homme qui <app><lem>sait</lem><rdg wit="#Quatrieme_edition #Sixieme_edition">sçait</rdg></app> la cour est maître de son geste, de ses yeux et de son
-                            visage ; il est profond, <seg>impénétrable<note resp="#CleaB" type="glossaire">Qu'il est difficile ou impossible de connaître</note></seg> ; il dissimule les mauvais
-                            offices, sourit à ses ennemis, contraint son humeur, déguise ses
-                            passions, dément son cœur, parle, agit contre ses sentiments. Tout ce
-                            grand raffinement n’est qu’un vice, que l’on appelle fausseté,
+
+                        <p>
+                            <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Un
+                            homme qui <app>
+                                <lem>sait</lem>
+                                <rdg wit="#Quatrieme_edition #Sixieme_edition">sçait</rdg>
+                            </app> la cour est maître de son geste, de ses yeux et de son visage ;
+                            il est profond, <seg>impénétrable<note resp="#CleaB" type="glossaire"
+                                    >Qu'il est difficile ou impossible de connaître</note></seg> ;
+                            il dissimule les mauvais offices, sourit à ses ennemis, contraint son
+                            humeur, déguise ses passions, * dément son cœur, parle, agit contre ses sentiments.
+                            Tout ce grand raffinement n’est qu’un vice, que l’on appelle fausseté,
                             quelquefois aussi inutile au courtisan pour sa fortune, que la
                             franchise, la sincérité et la vertu.</p>
                     </div3>
-                    
+
                     <div3 n="3" source="#Quatrieme_edition #Sixieme_edition">
-                        <p> <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition" /> Qui peut <seg>nommer<note resp="#LaBruyere">blablabla</note></seg> de
+                        <p>
+                            <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Qui
+                            peut <seg>nommer<note resp="#LaBruyere">blablabla</note></seg> de
                             certaines couleurs changeantes, et qui sont diverses selon les divers
-                            jours dont on les regarde ? de même, qui peut définir la cour ? </p>
+                            jours dont on les regarde ? de même, qui peut définir <seg>la cour<note
+                                type="key" source="#cle_I">La Cour de France</note></seg> ? </p>
                     </div3>
-                    
+
                     <div3 n="4" source="#Quatrieme_edition #Sixieme_edition">
-                        <p> <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Se dérober à la cour un seul moment, c’est y renoncer : le courtisan qui
-                            l’a <app><lem>vue</lem><rdg wit="#Sixieme_edition #Quatrieme_edition">veuë</rdg></app> le matin la voit le soir pour la reconnaître le lendemain, ou
+                        <p>
+                            <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Se
+                            dérober à la cour un seul <pb n="199" source="#Quatrieme_edition"/>
+                                mo<pb n="247" source="#Sixieme_edition" type="tiret"/>ment, c’est y
+                            renoncer : le courtisan qui l’a <app>
+                                <lem>vue</lem>
+                                <rdg wit="#Sixieme_edition #Quatrieme_edition">veuë</rdg>
+                            </app> le matin la voit le soir pour la reconnaître le lendemain, ou
                             afin que lui-même y soit connu.</p>
                     </div3>
-                    
+
                     <div3 n="5" source="#Quatrieme_edition #Sixieme_edition">
-                        <p> <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> L’on est petit à la cour, et quelque vanité que l’on ait, on s’y trouve
-                            tel ; mais le mal est commun, et les grands mêmes y sont petits.</p>
+                        <p>
+                            <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> L’on
+                            est petit à la cour, et quelque vanité que l’on ait, on s’y trouve tel ;
+                            mais le mal est commun, et les grands mêmes y sont petits.</p>
                     </div3>
-                    
+
                     <div3 n="6" source="#Quatrieme_edition #Sixieme_edition">
-                        <p> <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> La <seg>province <note resp="#CleaB" type="glossaire"> Partie distincte d'un pays</note></seg> est l’endroit d’où la cour, comme dans son point de vue,
-                            paraît une chose admirable : si l’on s’en approche, ses agréments
-                            diminuent, comme ceux d’une perspective que l’on voit de trop près.</p>
+                        <p>
+                            <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> La
+                                <seg>province <note resp="#CleaB" type="glossaire"> Partie distincte
+                                    d'un pays</note><note type="key" source="#cle_II">Endroit qui n'est pas Paris</note></seg> est l’endroit d’où la cour, comme dans
+                            son point de vue, paraît une chose admirable : si l’on s’en approche,
+                            ses agréments diminuent, comme ceux d’une perspective que l’on voit de
+                            trop près.</p>
                     </div3>
-                    
+
                     <div3 n="7" source="#Quatrieme_edition #Sixieme_edition">
-                        <p> <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> L’on s’accoutume difficilement à une vie qui se passe dans une
-                            antichambre, dans des cours, ou sur l’escalier.</p>
+                        <p>
+                            <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> L’on
+                            s’accoutume difficilement à une vie qui se passe dans une antichambre,
+                            dans des cours, ou sur l’escalier.</p>
                     </div3>
-                    
+
                     <div3 n="8">
-                        <p> <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> La cour ne rend pas content ; elle empêche qu’on ne le soit ailleurs.</p>
+                        <p>
+                            <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> La
+                            cour ne rend pas content ; elle empêche qu’on ne le soit ailleurs.</p>
                     </div3>
-                    
+
                     <div3 n="9" source="#Quatrieme_edition #Sixieme_edition">
-                        <p> <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Il faut qu’un honnête homme ait tâté de la <seg>cour <note resp="#CleaB" type="information">La Cour du Roi de France </note></seg> : il découvre en y
-                            entrant comme un nouveau monde qui lui était inconnu, où il voit régner
-                            également le vice et la politesse, et où tout lui est utile, le bon et
-                            le mauvais.</p>
+                        <p>
+                            <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Il
+                            faut qu’un honnête homme ait tâté de la <seg>cour <note resp="#CleaB"
+                                    type="information">La Cour du Roi de France </note></seg> : il
+                            découvre en y entrant comme un nouveau monde qui lui était inconnu, où
+                            il voit régner également le vice et la politesse, et où tout lui est
+                            utile, le bon et le mauvais.</p>
                     </div3>
-                    
+
                     <div3 n="10" source="#Sixieme_edition">
-                        <p> <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> La cour est comme un édifice bâti de marbre : je veux dire qu’elle est
+                        <p>
+                            <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> La
+                            cour est comme un édifice bâti de marbre : je veux dire qu’elle est
                             composée d’hommes fort durs, mais fort polis. </p>
                     </div3>
                 </div2>
