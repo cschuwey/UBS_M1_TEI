@@ -46,13 +46,23 @@
                     
                 </bibl></listBibl>
                 <biblStruct>
-                    <monogr>
-                       
-                        <imprint>
-                            <date>1688</date>
-                            <publisher>Etienne Michallet</publisher>
-                        </imprint>
-                    </monogr>
+                        <monogr xml:id="clé_1688">
+                            <title>Clé Dangeau</title>
+                            <imprint>
+                                <date>Inconnue</date>
+                            </imprint>
+                        </monogr>
+                        <monogr xml:id="clé_1692">
+                            <title>Clé générale</title>
+                            <imprint>
+                                <date>Inconnue</date>
+                            </imprint>
+                            <monogr xml:id="clé_1694">
+                                <title>Clé générale</title>
+                                <imprint>
+                                    <date>Inconnue</date>
+                                </imprint>
+                        </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
