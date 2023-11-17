@@ -36,6 +36,14 @@
                     <date when="1691">1691</date>
                     <biblScope unit="page">636</biblScope>
                 </bibl>
+                <listPerson>
+                    <person xml:id="amour">
+                        <name>Aphrodite</name>
+                    </person>
+                    <person xml:id="amitie">
+                        <name>Philophrosyne</name>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -100,6 +108,7 @@
                 des remarques précedemment encodées ; La note de La Bruyère est fictive.</change>
             <change when="2023-11-07">Encodage de deux variations ; encodage d'une bibliothèque de
                 signes que l'on encode ; encodage des signes</change>
+            <change when="2023-11-17">Encodage de la numérotation des pages des deux éditions encodées ; encodage d'une liste de personnages fictifs ; encodage de deux clés fictives.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -129,8 +138,9 @@
                             égal.</p>
                     </div3>
                     <div3 type="remark" n="24" source="#sixth_edition">
+                        <pb n="146" source="#sixth_edition"/>
                         <p><g source="#sixth_edition" ref="#char_pdm"/>Il n’y a pas si loin de la
-                            haine à l’amitié que de <seg>l’antipathie.<note resp="#Bourge"
+                            haine à <seg>l’amitié<note type="key">Il s'agit de <name type="key" source="#amitie">Philophrosyne</name> la déesse de la bienveillance, de la bonté, de l'amitié dans la mythologie grecque. (clé fictive)</note></seg> que de <seg>l’antipathie.<note resp="#Bourge"
                                     type="gloss" place="end" source="#sixth_edition">Aversion
                                     instinctive, non raisonnée, à l'égard de quelqu'un, de quelque
                                     chose ; hostilité.</note></seg></p>
@@ -144,7 +154,7 @@
                     </div3>
                     <div3 type="remark" n="26" source="#sixth_edition">
                         <p><g source="#sixth_edition" ref="#char_pdm"/>L’on confie son secret dans
-                            l’amitié ; mais il échappe dans l’amour.</p>
+                            l’amitié ; mais il échappe dans <seg>l’amour<note type="key">Il s'agit d'<name type="key" source="#amour">Aphrodite</name> la déesse de l'amour dans la mythologie grecque. (clé fictive)</note></seg>.</p>
                         <p>L’on peut avoir la confiance de quelqu’un sans en avoir le cœur. <app>
                                 <lem>Celui</lem>
                                 <rdg wit="#sixth_edition">celuy</rdg>
@@ -167,7 +177,7 @@
                         <p><g source="#sixth_edition" ref="#char_pdm"/>Un homme dur au travail <app>
                                 <lem>et</lem>
                                 <rdg wit="#sixth_edition">&amp;</rdg>
-                            </app> à la peine, inexorable à soi-même, n’est indulgent aux autres que
+                            </app> à la <pb n="153" source="#sixth_edition"/> peine, inexorable à soi-même, n’est indulgent aux autres que
                             par un excès de raison.</p>
                     </div3>
                     <div3 type="remark" n="51" source="#sixth_edition">
