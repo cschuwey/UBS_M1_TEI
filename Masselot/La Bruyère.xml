@@ -14,6 +14,79 @@
             </publicationStmt>
 
             <sourceDesc>
+                <listPerson>
+                    <!-- data.bnf --> <!-- peu de personnes trouvées -->
+                    <person>
+                        <name xml:id="Le_Camus1">Jehan Le Camus</name>
+                        <!--https://www.persee.fr/doc/pharm_0035-2349_2010_num_97_368_22241-->
+                    </person>
+                    <person>
+                        <name xml:id="Le_Camus2">Nicolas III Le Camus</name>
+                    </person>
+                    <person>
+                        <name xml:id="Le_Camus3">Nicolas IV Le Camus</name>
+                    </person>
+                    <person>
+                        <name xml:id="servois">Gustave Servois</name>
+                        <idno type="URI">https://data.bnf.fr/ark:/12148/cb12548990b</idno>
+                    </person>
+                    <person>
+                        <name xml:id="Les_Bazin">Bazins</name>
+                    </person>
+                    <person>
+                        <name xml:id="BazinPr">Claude Bazin</name>
+                    </person>
+                    <person>
+                        <name xml:id="saint_Simon">Louis de Rouvroy de Saint-Simon</name>
+                    </person>
+                    <person>
+                        <name xml:id="PO">Philippe d'Orléans</name>
+                    </person>
+                    <person>
+                        <name xml:id="louis">Louis XIV</name>
+                    </person>
+                    <person>
+                        <name xml:id="louis_de_France">Monseigneur le Dauphin</name>
+                    </person>
+                    <person>
+                        <name xml:id="princes_Conde">Princes de Condé</name>
+                    </person>
+                    <person>
+                        <name xml:id="delrieu">Delrieu</name>
+                    </person>
+                    <person>
+                        <name xml:id="laugeois">Laugeois</name>
+                    </person>
+                    <person>
+                        <name xml:id="sonning">Sonning</name>
+                    </person>
+                    <person>
+                        <name xml:id="nicolai">Christian de Nicolaï</name>
+                    </person>
+                    <person>
+                        <name xml:id="mlle_de_laugeois">Mlle de Laugeois</name>
+                    </person>
+                    <person>
+                        <name xml:id="Maréchal_de_Lorges"> Guy Aldonce II de Durfort</name>
+                    </person>
+                    <person>
+                        <name xml:id="mlle_fremont">Mlle Frémont</name>
+                    </person>
+                    <person>
+                        <name xml:id="chevalier_de_Lorraine">Philippe de Lorraine</name>
+                    </person>
+                    <person>
+                        <name xml:id="cardinal_de_Bouillon">Emmanuel-Théodose de La Tour d'Auvergne</name>
+                    </person>
+                    <person>
+                        <name xml:id="lorenzani">Paolo Francesco Lorenzani</name>
+                    </person>
+                    <person>
+                        <name xml:id="seignelay">Jean-Bapiste Antoine Colbert de Seignalay</name>
+                        <idno type="URL">https://data.bnf.fr/ark:/12148/cb131828859</idno>
+                    </person>
+                </listPerson>
+                
                 <bibl xml:id="Edition1">
                     <author xml:id="LB_Edition1">Jean de La Bruyère</author>
                     <title>Les Caractères de Théophraste traduits du grec. Avec Les Caractères ou
@@ -32,6 +105,18 @@
                     <publisher xml:id="Editeur_Edition9">E.Michallet</publisher>
                     <date>1692</date>
                     <idno type="url">https://gallica.bnf.fr/ark:/12148/bpt6k57579b/f3.item</idno>
+                </bibl>
+                
+                <bibl xml:id="cles_xviii">
+                    <title>Clés XVIIIe</title>
+                </bibl>
+                
+                <bibl xml:id="cle_imprime">
+                    <title>Clé imprimée</title>
+                </bibl>
+                
+                <bibl xml:id="cle_manuscrite">
+                    <title>Clé manuscrite</title>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -98,13 +183,25 @@
 
         </encodingDesc>
         
+        <profileDesc>
+            <langUsage>
+            <language ident="fra">français</language>
+            </langUsage>
+        </profileDesc>
+        
 
         <revisionDesc>
             <change when="2023-10-10">Ajout de deux éditions des "Caractères" grâce à l'élément
                 "bibl"</change>
+            <change when="2023-10-10">Ajout des remarques 74 à 85 du chapitre "Du Coeur"</change>
             <change when="2023-10-19">Fin de la structuration des remarques</change>
             <change when="2023-10-24">Ajout des remarques 1 à 21 du chapitre "De Quelques Usages"
             </change>
+            <change when="2023-11-07">Début de signalement de déplacement de remarques entre les deux éditons, dans le chapitre "De Queqlues Usages"</change>
+            <change when="2023-11-17">Création de la liste de personnes citées dans les clés</change>
+            <change when="2023-11-17">Ajout des éléments "bibl" se rapportant aux clés de lecture</change>
+            <change when="2023-11-17">Ajout de quelques notes personnelles à l'aide de la balise "<!-- -->" pour ne pas me perdre dans le document</change>
+            
         </revisionDesc>
 
     </teiHeader>
@@ -136,7 +233,7 @@
                     </div3>
 
                     <div3 n="77" source="#Edition9">
-                        <p>Rien ne coûte moins à la passion que de se mettre au-dessus de la raison
+                        <p><g ref="#PDM"/>❡ Rien ne coûte moins à la passion que de se mettre au-dessus de la raison
                             : son grand triomphe est de l’emporter sur l’intérêt.</p>
                     </div3>
 
@@ -191,6 +288,7 @@
                 <div2 type="chapitre">
 
                     <head>De Quelques Usages</head>
+                    <!-- penser à vérifier la placee des remarques dans les deux éditions -->
 
                     <div3 n="1" source="#Edition1 #Edition9">
                         <p><g ref="#PDM"/>❡ <seg>Il y a des gens qui n’ont pas le moyen d’être <note
@@ -234,7 +332,7 @@
                             ou par la houe, ou par la malle, ou par les livrées ; mais qu’il ne
                             s’agit pour lui que de rentrer dans les premiers droits de ses ancêtres,
                             et de continuer les armes de sa maison, les mêmes pourtant qu’il a
-                            fabriquées, et tout autres que celles de sa vaisselle d’étain ; qu’en un
+                            fabriquées, et tout <pb n="390" source="#Edition9"/> autres que celles de sa vaisselle d’étain ; qu’en un
                             mot les lettres de noblesse ne lui conviennent plus ; qu’elles
                             n’honorent que le roturier, c’est-à-dire celui qui cherche encore le
                             secret de devenir riche.</p>
@@ -276,7 +374,7 @@
                     <div3 n="7" source="#Edition9">
                         <p><g ref="#PDM"/>❡ Un bon gentilhomme veut passer pour un petit seigneur, et il y parvient.
                             Un grand seigneur affecte la principauté, et il use de tant de
-                            précautions, qu’à force de beaux noms, de disputes sur le rang et les
+                            pré- <pb n="391" source="#Edition9"/>cautions, qu’à force de beaux noms, de disputes sur le rang et les
                             préséances, de nouvelles armes, et d’une généalogie que D’Hozier ne lui
                             a pas faite, il devient enfin un petit prince.</p>
                         <note type="déclaration" resp="#Masselot">Comme quoi, mieux vaut ne pas
@@ -317,7 +415,7 @@
                     </div3>
 
                     <div3 n="11" source="#Edition9">
-                        <p><g ref="#PDM"/>❡ À combien d’enfants serait utile la loi qui déciderait que c’est le
+                        <p><g ref="#PDM"/><pb n="392" source="#Edition9"/>❡ À combien d’enfants serait utile la loi qui déciderait que c’est le
                             ventre qui anoblit ! mais à combien d’autres serait-elle contraire !
                         </p>
                     </div3>
@@ -359,7 +457,7 @@
                             effet que certains abbés, à qui il ne manque rien de l’ajustement, de la
                             mollesse et de la vanité des sexes et des conditions, qui entrent auprès
                             des femmes en concurrence avec le marquis et le financier, et qui
-                            l’emportent sur tous les deux, qu’eux-mêmes soient originairement et
+                            l’emportent sur tous les deux, qu’eux-mêmes soient ori- <pb n="393" source="#Edition9"/>ginairement et
                             dans l’étymologie de leur nom les pères, et les chefs de saints moines
                             et d’humbles solitaires, et qu’ils en devraient être l’exemple ? Quelle
                             force, quel empire, quelle tyrannie de l’usage ! Et sans parler de plus
@@ -403,7 +501,7 @@
                             Est-ce à moi à m’écrier que le zèle de la maison du Seigneur me consume,
                             et à tirer le voile léger qui couvre les mystères, témoins d’une telle
                             indécence ? Quoi ? parce qu’on ne danse pas encore aux TT…, me
-                            forcera-t-on d’appeler tout ce spectacle office d’Eglise ?</p>
+                            forcera-t-on <pb n="394" source="#Edition9"/>d’appeler tout ce spectacle office d’Eglise ?</p>
 
                     </div3>
 
@@ -428,4 +526,3 @@
         </body>
     </text>
 </TEI>
-
