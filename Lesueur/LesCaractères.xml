@@ -67,6 +67,15 @@
                     </bibl>
 
                 </listBibl>
+                <listBibl>
+                    <bibl xml:id="cle_artemon">
+                        <name>Artémon</name>
+                    </bibl>
+                    <bibl xml:id="cle_fictive">
+                        <name>avances</name>
+                    </bibl>
+
+                </listBibl>
 
             </sourceDesc>
 
@@ -142,6 +151,7 @@
             <change when="2023-10-24">Ajout des annotations dans les trois éditions</change>
             <change when="2023-11-07">Création des glyphs et ajout</change>
             <change when="2023-11-13">Ajout d'une nouvelle variation</change>
+            <change when="2023-11-17">Création des page break et ajout de la clé et d'une clé fictive</change>
 
         </revisionDesc>
 
@@ -175,15 +185,17 @@
                     <div3 n="35" source="#edition1694">
                         <p><g ref="#char_pm_simple" source="#edition1694"/> Il y a dans les cours
                             deux manières de ce que l’on appelle congédier son monde ou se défaire
-                            des gens : se fâcher contre eux, ou faire si bien qu’ils se fâchent
-                            contre vous et s’en dégoûtent.</p>
+                            des gens : se fâcher contre eux, ou faire <pb source="#edition1694"
+                                n="307"/> si bien qu’ils se fâchent contre vous et s’en
+                            dégoûtent.</p>
                     </div3>
 
 
                     <div3 n="36" source="#edition1691 #edition1694">
                         <p><g ref="#char_pm_simple" source="#edition1691 #edition1694"/>L’on dit à
-                            la cour du bien de quelqu’un pour deux raisons : la première, afin qu’il
-                            apprenne que nous disons du bien de <app>
+                            la cour du bien de <pb source="#edition1691" n="262"/> quelqu’un pour
+                            deux raisons : la première, afin qu’il apprenne que nous disons du bien
+                            de <app>
                                 <lem>lui</lem>
                                 <rdg source="#edition1691 #edition1694">luy</rdg>
                             </app> ; la seconde, afin qu’il en dise de nous.</p>
@@ -195,16 +207,21 @@
                             /> Il <app>
                                 <lem>est</lem>
                                 <rdg source="#edition1688 #edition1691 #edition1694">eſt</rdg>
-                            </app> aussi dangereux à la cour de faire les avances, qu’il est
-                            embarrassant de ne les point faire.</p>
+                            </app> aussi dangereux à la cour de faire les <seg>avances<note
+                                    resp="#lesueur" type="clé" source="#cle_fictive">tentatives,
+                                    premières démarches en vue de nouer ou de renouer des relations
+                                    et, en particuliers, tentatives pour séduire
+                                quelqu'un</note></seg>, qu’il est embarrassant de ne les point
+                            faire.</p>
                     </div3>
 
 
                     <div3 n="38" source="#edition1688 #edition1691 #edition1694">
                         <p><g ref="#char_pm_simple" source="#edition1688 #edition1691 #edition1694"
-                            />Il y a des gens à qui ne connaître point le nom et le visage d’un
-                            homme est un titre pour en rire et le mépriser. Ils demandent qui est
-                            cet homme ; ce n’est ni Rousseau, ni un <seg>
+                            />Il y a des gens à qui ne connaître point le nom et le visage <pb
+                                source="#edition1688" n="241"/> d’un homme est un titre pour en rire
+                            et le mépriser. Ils demandent qui est cet homme ; ce n’est ni Rousseau,
+                            ni un <seg>
                                 <note place="margin" type="explication" resp="#LaBruyere"
                                     source="#edition1691 #edition1694">Brûlé il y a vingt ans</note>
                                 <note place="bottom" type="explication" resp="#LaBruyere"
@@ -238,12 +255,14 @@
                             point effronté par choix, mais par complexion ; c’est un <seg>vice<note
                                     place="margin" type="definition" n="1" resp="#lesueur"
                                     >disposition haituelle au mal ; conduite qui en
-                                résulte</note></seg>de l’être, mais naturel : celui qui n’est pas né
-                            tel est modeste, et ne passe pas aisément de cette extrémité à l’autre ;
-                            c’est une leçon assez inutile que de lui dire : "Soyez effronté, et vous
-                            réussirez" ; une mauvaise imitation ne lui profiterait pas, et le ferait
-                            échouer. Il ne faut rien de moins dans les cours qu’une vraie et naïve
-                            impudence pour réussir.</p>
+                                résulte</note></seg>
+                            <pb source="#edition1694" n="308"/> de l’être, mais naturel : celui qui
+                            n’est pas né tel est modeste, et ne passe pas aisément de cette
+                            extrémité à l’autre ;<pb source="#edition1691" n="263"/> c’est une leçon
+                            assez inutile que de lui dire : "Soyez effronté, et vous réussirez" ;
+                            une mauvaise imitation ne lui profiterait pas, et le ferait échouer. Il
+                            ne faut rien de moins dans les cours qu’une vraie et naïve impudence
+                            pour réussir.</p>
                     </div3>
 
 
@@ -262,17 +281,22 @@
                             toutes les mesures sont bien prises, et l’on doit être servi selon ses
                             souhaits ; les uns doivent entamer, les autres appuyer ; l’amorce est
                             déjà conduite, et la mine prête à jouer : alors on s’éloigne de la cour.
-                            Qui oserait soupçonner <seg>d’Artémon<note place="margin"
-                                    type="manuscrite" resp="#LaBruyere" source="#edition1694"
-                                /></seg> qu’il ait pensé à se mettre dans une si belle place,
-                            lorsqu’on le tire de sa terre ou de son gouvernement pour l’y faire
-                            asseoir ? Artifice grossier, finesses usées, et dont le
-                                    <seg>courtisan<note place="bottom" n="1" type="definition"
-                                    resp="#lesueur">Homme qui est attaché à la cour, qui fréquent la
-                                    cour d'un souverain</note></seg> s’est servi tant de fois, que,
-                            si je voulais donner le change à tout le public et lui dérober mon
-                            ambition, je me trouverais sous l’œil et sous la main du
-                                    <seg>prince<note place="bottom" n="2" type="définition"
+                            Qui oserait soupçonner <seg>d’Artémon<note place="margin" type="cle"
+                                    source="#edition1694 #cle_artemon"><persName
+                                        source="#cle_artemon">Artemon</persName>: "M. le marquis de
+                                    Varde qui, au retour de son exil de vingt années, avait fait une
+                                    grosse brigue pour être gouverneur de Monseigneur le duc de
+                                    Bourgogne ; à quoi il aurait réussi sans sa mort arrivée dans ce
+                                    temps-là</note></seg> qu’il ait pensé à se mettre <pb
+                                source="#edition1694" n="309"/> dans une si belle place, lorsqu’on
+                            le tire de sa terre ou de son gouvernement pour l’y faire asseoir ?
+                                Artifice<pb source="#edition1691" n="264"/> grossier, finesses
+                            usées, et dont le <seg>courtisan<note place="bottom" n="1"
+                                    type="definition" resp="#lesueur">Homme qui est attaché à la
+                                    cour, qui fréquent la cour d'un souverain</note></seg> s’est
+                            servi tant de fois, que, si je voulais donner le change à tout le public
+                            et lui dérober mon ambition, je me trouverais sous l’œil et sous la main
+                            du <seg>prince<note place="bottom" n="2" type="définition"
                                     resp="#lesueur">Celui qui appartient à une famille souveraine,
                                     sans régner lui-même ; titre porté par les membres de la famille
                                     royale, en France</note></seg>, pour recevoir de lui la grâce
