@@ -18,11 +18,26 @@
             <sourceDesc>
                 <listPerson>
                     <person xml:id="Racine">
-                        <name>Jean Racine</name>
-                        <idno>https://data.bnf.fr/fr/fr/12000/jean_racine/=> se refere à un
-                            referenciel catalogue de bnf</idno>
+                        <persName>Jean Racine</persName>
+                        <idno type="URL">https://data.bnf.fr/12007676/jean_racine/</idno>
+                    </person>
+                    <person xml:id="marchand">
+                        <persName>Le Marchand</persName>
+                        <idno type="URL"/>
+                    </person>
+                     <person xml:id="seignelay">
+                         <persName>M. de Seignelay</persName>
+                        <idno type="URL">https://data.bnf.fr/ark:/12148/cb131828859</idno>
                     </person>
                 </listPerson>
+                
+                <listPlace>
+        <place xml:id="magasin">Tête noire, rue des Bourdonnois</place>
+        <place xml:id="marquisat">Le marquisat de Franconville-sans-pareil, près Paris</place>
+    </listPlace>
+            </sourceDesc>
+
+            <sourceDesc>
                 <listBibl>
                     <bibl xml:id="edition3">
                         <title type="main">Les caractères de Théophraste traduits du grec </title>
@@ -37,11 +52,10 @@
                         <date when-iso="1688">1688</date>
                         <imprint>
                             <idno>Bibliothèque nationale de France</idno>
-                            <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k57572x</idno>
+                            <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k57572x/f232.item</idno>
                         </imprint>
                     </monogram>
                 </biblstruct>
-
             </sourceDesc>
 
             <sourceDesc>
@@ -60,11 +74,10 @@
                         <date when-iso="1690">1690</date>
                         <imprint>
                             <idno>Bibliothèque nationale de France</idno>
-                            <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k575660</idno>
+                            <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k575660/f265.item</idno>
                         </imprint>
                     </monogram>
                 </biblstruct>
-
             </sourceDesc>
 
             <sourceDesc>
@@ -88,26 +101,22 @@
                         </imprint>
                     </monogram>
                 </biblstruct>
-<listBible>
-                <bibl type="cle">
-    
-<listPerson> 
-    <person xml:id="marchand">
-        <name>Le Marchand</name>
-    </idno>
-    </person>
-    <person xml:id="nom">
-        <name>??</name>
-        <idno></idno>
-    </person>
-</ListPerson>
-    <ListPlace>
-        <place xml:id="magasin rue"> Magasin </place>
-    </listPlace>
-        
-</bibl>
             </sourceDesc>
 
+            <sourceDesc>
+<listBibl>
+     <listBibl>
+                   <bibl xml:id="cle1_XVIIIe">
+                    <title>Clé du XVIIIe siècle</title>
+                </bibl>
+          <bibl xml:id="cle2_XVIIIe">
+                    <title>Clé du XVIIIe siècle</title>
+                </bibl>
+                 <bibl xml:id="cle_1697">
+                    <title>Clé de 1697</title>
+                </bibl>
+                </listBibl>
+            </sourceDesc>
         </fileDesc>
 
         <encodingDesc>
@@ -151,6 +160,7 @@
             </editorialDecl>
         </encodingDesc>
         <encodingDesc>
+            
             <editorialDecl>
                 <interpretation>
                     <p>Information sur le titre des deux éditions : J'ai inclus les attributs "main"
@@ -193,8 +203,12 @@
                         éditions dans deux balises distinctes pour chaque édition afin de distinguer
                         les différentes glyphes.</p>
                 </interpretation>
+                 <interpretation>
+                     <p> Information pour la remarque 43: J'ai ajouté dans la balise PlaceName un type "marquisat" car un marquisat est un titre de noblesse.</p>
+                 </interpretation>
             </editorialDecl>
         </encodingDesc>
+        
         <revisionDesc>
             <change when="2023-10-10"> Ajout des méta-données du fichier : Ajout de deux éditions
                 des "Caractères" de 1688 et 1689</change>
@@ -226,6 +240,10 @@
             <change when="2023-11-11"> Ajout des méta-données du fichier : Ajout de trois éléments
                 "app" dans six remarques différentes : la 44e, la 46e, la 47e, 50e ainsi que dans la
                 52e. Très peu des variantes entres deux éditions de l'ouvrage.</change>
+           <change when="2023-11-16">Ajout de la pagination des différentes éditions dans les remarques.</change>
+           <change when="2023-11-17"> Début de l'encodage de trois clés : 43, 46 et 47.</change>
+             <change when="2023-11-17"> Création de la liste des personnes ainsi que des lieux déclarées dans la listPerson et listPlace du teiHeader avec les id et références.</change>
+            <change when="2023-11-18">Ajout d'informations dans la balise interpretation.</change>
         </revisionDesc>
 
 
@@ -244,16 +262,16 @@
                     n="6"> VI <head>"Des Biens de Fortune"</head>
                     <div3 type="remarque" n="43" source="#edition8">
                         <p source="#edition8"><g ref="#char_md"/><g ref="#char_pdm"/>
-                            <seg>Le marchand<note type="cle" source="Cle_XVIIIe"><persName
-                                        ref="#marchand" source="Cle_XVIIIe"/><placeName> Boutet
-                                    </placeName> son père... fin </note></seg> fait des montres pour
-                            donner de sa marchandise ce qu’il y a de pire ; il a <seg
-                                source="#edition3 #edition5 #edition8" resp="#lecoq" type="lexique"
-                                >le cati et les faux<note> Méthodes ou des outils pour cacher les
+                            <seg>Le Marchand<note type="cle" source="#Cle_XVIIIe">
+                                <persName ref="#marchand">Boutet</persName><placeName type="magasin">à la Tête Noire, rue des Bourdonnois</placeName> 
+                                Son père a acheté <placeName type="marquisat">le marquisat de Franconville-sans-pareil</placeName>, près Paris, qui lui a attiré une infinité de procès pour les droits honorifiques, 
+                                et qui s’est ruiné à les soutenir.</note></seg> fait des montres pour donner de sa marchandise ce qu’il y a de pire ;
+                            il a <seg source="#edition3 #edition5 #edition8" resp="#lecoq" type="lexique">
+                                le cati et les faux<note> Méthodes ou des outils pour cacher les
                                     défauts d'un produit</note></seg> jours afin d’en cacher les
                             défauts, et qu’elle paraisse bonne ; il la surfait pour la vendre plus
                             cher qu’elle ne vaut ; il a des marques fausses et mystérieuses, afin
-                            qu’on croie n’en donner que son prix, un mauvais aunage pour en livrer
+                            qu’on croie n’en donner que son prix, un <pb source="edition8" n="247"> mauvais aunage pour en livrer
                             le moins qu’il se peut ; et il a un trébuchet, afin que celui à qui il
                             l’a livrée la lui paye en or qui soit de poids.</p>
                     </div3>
@@ -282,24 +300,26 @@
                     <div3 type="remarque" n="46" source="#edition3 #edition5 #edition8">
                         <p source="#edition3 #edition5 #edition8"><g ref="#char_pdm"/><note
                                 source="#edition8" resp="#labruyere" place="right"
-                                type="commentaire"> [...] Roy [...] Racine </note> Les
-                                hommes,pre<app type="morpho"><lem>ss</lem><rdg
+                                type="commentaire"> [...] Roy [...] Racine </note>
+                            <seg>Les hommes<note type="cle" source="#Cle_XVIIIe">
+                                <persName ref="#Racine">Feu M. Racine</persName>Application évidemment douteuse mais qui éclaire la notion de talents profanes</note></seg>,pre<app type="morpho"><lem>ss</lem><rdg
                                     source="#edition5 #edition8">ff</rdg></app>és par les besoins de
                             la vie, et quelquefois par le désir du gain ou de la gloire, cultivent
                             des talents profanes, ou s’engagent dans des professions équivoques, et
                             dont ils se cachent longtemps à eux-mêmes le péril et les conséquences :
-                            ils les quittent ensuite par une dévotion discrète, qui ne leur vient
+                            ils les quittent ensuite par une dévotion discrète, qui ne leur vient<pb source="edition8" n="248">
                             jamais qu’après qu’ils <app type="print">
                                 <lem>ont</lem>
                                 <rdg source="edition5">ont</rdg></app>fait leur récolte, et qu’ils
-                            jouissent d’une fortune bien établie. </p>
+                            jouissent<pb source="edition5" n="224"> d’une fortune bien établie. </p>
                         <!--Cette annotation manuscrite est illisible donc je ne sais pas qui est l'auteur de cette annotation dans l'édition8, je suppose que c'est La Bruyère. Je ne sais pas non plus si cette annotation concerne la remarque dans son intégralité ou juste un segment.-->
                     </div3>
                     <div3 type="remarque" n="47" source=" #edition5 #edition8">
                         <p source="#edition5 #edition8"><g ref="#char_pdm2"/>Il y a des mi<app
                                 type="graphie">
                                 <lem>s</lem><rdg source="#edition5 #edition8">f</rdg></app>ères sur
-                            la terre qui saisissent le cœur ; il manque à quelques-uns jusqu’aux
+                            la terre qui saisissent le cœur ; il manque à <seg>quelques-uns<note type="cle" source="#cle_1697">
+                                <persName ref="#seignelay">M. de Seignelay</persName>Il faisait d'immenses dépenses à Paris comme dans sa maison de <Placename>Sceaux<Placename>Cf.ci-dessous, 49, clé.</note></seg> jusqu’aux
                             aliments ; ils redoutent l’hiver, ils appréhendent de vivre. L’on mange
                             ailleurs des fruits précoces ; l’on force la terre et les saisons pour
                             fournir à sa délicatesse ; de simples bourgeois, seulement à cause
@@ -316,10 +336,7 @@
                             résister. </p>
                     </div3>
                     <div3 type="remarque" n="49" source="#edition8">
-                        <p source=" #edition8"><g ref="#char_pdm"/><seg>Celui-là<note type="cle"
-                                    >Allusion à <persName source="#cle_XVIIIE" ref=""
-                                        >Racine</persName> et <persName source="#cle-allusion"
-                                        >Boileau</persName>selon toutes les clés</note></seg> est
+                        <p source=" #edition8"><g ref="#char_pdm"/>Celui-là est
                             riche, qui reçoit plus qu’il ne consume ; celui-là est pauvre, dont la
                             dépense excède la recette.</p>
                         <p source="#edition8"><seg><note source="#edition8" resp="#manuscrit"
@@ -349,14 +366,14 @@
                             les apparences de toutes les vertus. Ce <seg
                                 source="#edition5 #edition8" resp="#lecoq" type="gloss"
                                     >Tryphon<note>Tryphon est un grammairien grec du I siècle av.
-                                    J.-C</note></seg> qui a tous les vices, je l’ai cru sobre,
+                                    J.-C</note></seg> qui a tous les vi-<pb source="edition5" n="226">ces, je l’ai cru sobre,
                             chaste, libéral, humble et même dévot : je le croirais encore, s’il
                             n’eût enfin fait sa fortune.</p>
                     </div3>
                     <div3 type="remarque" n="51" source=" #edition5 #edition8">
                         <p source="#edition5"><g ref="#char_pm1"/><p source="#edition8"><g
                                     ref="#char_pm"/>L’on ne se rend point sur le désir de posséder
-                                et de s’agrandir : la bile gagne, et la mort approche, qu’avec un
+                                et de s’agrandir : la bile<pb source="edition8" n="250"> gagne, et la mort approche, qu’avec un
                                 visage flétri, et des jambes déjà faibles, l’on dit : ma fortune,
                                 mon établissement.</p></p>
                     </div3>
@@ -371,12 +388,9 @@
                             découvrent la complexion et les mœurs ; mais la<seg
                                 source="#edition3 #edition5 #edition8" resp="#lecoq" type="lexique">
                                     mine<note> "mine" se réfère à l'expression ou à l'apparence
-                                    d'une personne, <pb source="edition1" n="123"/>souvent en
-                                    relation avec son état d'esprit, ses émotions ou, comme <pb
-                                        source="edition1" n="243"/>le suggère le texte, sa situation
-                                    financière.</note></seg>désigne les biens de fortune : le plus
-                            ou le moins de mille livres de rente se trou-<pb source="edition1"
-                                n="251"/>ve écrit sur les visages. </p>
+                                    d'une personne,souvent en relation avec son état d'esprit, ses émotions ou, comme le suggère le texte, 
+                                        sa situation financière.</note></seg>désigne les biens de fortune : le plus
+                            ou le moins de mille livres de rente se trouve écrit sur les visages. </p>
                     </div3>
                 </div2>
             </div1>
@@ -384,34 +398,3 @@
     </text>
 </TEI>
 
-
-1)
-pb source = changement de page à partir du mot : ici commence la page suivante, c'est ou la page commence, ou elle se tourne => l'endroit ou commence c'est pb
-li-<pb source="edition1" n="243"></pb>re  => si un mot coupé mettre un tiré 
-Garder une trace ou la page ce tourne 
-Pagebreak ou pagebeginning
-
-2) les entités nommées ou clés
-a mettre dans tout endroit ou on décrit le texte avec des entités nommées 
-
-note dans la marge : lectrice qui dit il se refere à tel personne etc.
-specificité des caractères d'avoir ces clés => clés qui se refère a des référents précis 
-=> segmentation instable 
-=> cohérence
-=> qu'est ce qu'on veut en faire in fine?
-
-=> plusieurs noms dans les éditions : mettre un id
-quelle approche?
-mettre listBible => puis mettre des xml id
-différenciation avec le type 
-quelle reflexion, quelle interpretation?
-mettre listperson dans le header 
-approche concurrente a la place de note 
-c'est une variante textuelle?
-insatisfaisant de mettre app pour traiter des clés => on force une certaine interpretation du texte 
-
-REGARDER LA REMARQUE 49 => ajout d'un exemple d'une clé avec clés d'une autre remarque
-=> typer sur la note car apport d'information ce n'est pas logique de le mettre dans la balise seg
-si différence de noms dans une clé et dans une autre (différente éditions)  => transformer la note de base en deux notes :  <seg>Celui-là<note type="cle1"><seg>Celui-là<note type="cle2"> les clés a déclarer dans le xml:id et le mettre dans le teiheader
-    source clé18 et sourcecléaezfr a declarer dans listbibl: clédu18e ( Corneille le jeune)  et cléallusive/allusion ( Pierre Corneille). C'est les persname qui sont associés dans clés et lecture différente
-    Oeuvre Franco Morretti Graph 
