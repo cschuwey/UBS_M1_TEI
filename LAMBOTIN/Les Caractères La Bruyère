@@ -57,10 +57,11 @@
                 <listPerson>
                     <person xml:id="La_Bruyère">
                         <name>Jean de La Bruyère</name>
-                        <idno></idno>
+                        <idno>http://ark.bnf.fr/ark:/12148/cb11910249z.public</idno>
                     </person>
                     <person xml:id="H_Héphèse">
                         <name>Hermodore d'Héphèse</name>
+                        <idno>https://fr.wikipedia.org/wiki/Hermodore_d%27%C3%89ph%C3%A8se</idno>
                     </person>
                     <person xml:id="Anthime">
                         <name>Anthime</name> 
@@ -79,9 +80,11 @@
                     </person>
                     <person xml:id="Capys">
                         <name>Capys</name>
+                        <idno>https://fr.wikipedia.org/wiki/Capys_(fils_d%27Assaracos)</idno>
                     </person>
                     <person xml:id="Bouhours">
                         <name>Bouhours</name>
+                        <idno>https://fr.wikipedia.org/wiki/Dominique_Bouhours</idno>
                     </person>
                     <person xml:id="Rabutin">
                         <name>Rabutin</name>
@@ -123,6 +126,7 @@
                 de moi car il n'y avait aucune remarque dans les éditions choisies.</change>
             <change when="2023-11-07">Ajout d'une note fictive de La Bruyère</change>
             <change when="2023-11-12">Ajout de trois variantes et des glyphs</change>
+            <change when="2023-11-18">Ajout de listperson et des clés</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -155,18 +159,18 @@
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="23">
                         <p source="#édition2 #édition8"><g ref="#char_pdm1"/>
-                            « Que dites-vous du livre <seg>d'Hermodore<note resp="#lambotin" type="biography"
+                            « Que dites-vous du livre <seg>d'<persName ref="#H_Héphèse">Hermodore</persName><note resp="#lambotin" type="biography"
                                 place="bottom" source="#lambotin">Hermodore d'Éphèse est un
                                 philosophe grec du Ve avant J.-C.</note></seg>? —Qu’il est
-                            mauvais, répond Anthime.—Qu’il est mauvais ? —Qu’il est tel,
-                            continue-t-il, <seg>elle<note type="key">Il s'agit de Madame de truc machin. Il faut déclarer l'id dans les sources.</note></seg>que ce n’est pas un livre, ou qui mérite du moins que le
-                            monde en parle.—Mais l’avez-vous lu ? —Non », dit Anthime. Que
-                            n’ajoute-t-il que Fulvie et Mélanie l’ont condamné sans l’avoir lu, et
-                            qu’il est ami de Fulvie et de Mélanie ?</p>
+                            mauvais, répond <persName ref="#Anthime">Anthime</persName>.—Qu’il est mauvais ? —Qu’il est tel,
+                            continue-t-il,que ce n’est pas un livre, ou qui mérite du moins que le
+                            monde en parle.—Mais l’avez-vous lu ? —Non », dit <persName ref="#Anthime">Anthime</persName>. Que
+                            n’ajoute-t-il que <persName ref="#Fulvie">Fulvie</persName> et <persName ref="#Mélanie">Mélanie</persName> l’ont condamné sans l’avoir lu, et
+                            qu’il est ami de <persName ref="#Fulvie">Fulvie</persName> et de <persName ref="#Mélanie">Mélanie</persName> ?</p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="24">
                         <p source="#édition2 #édition8"><g ref="#char_pdm1"/>
-                            Arsène, du plus haut
+                            <persName ref="#Arsène">Arsène</persName>, du plus haut
                             de son esprit, contemple les hommes, et dans l’éloignement d’où il les
                             voit, il est<pb n="42" source="#édition8"/> comme effrayé de leur petitesse ; loué, exalté, et porté
                             jusqu’aux cieux par de certaines gens qui se sont promis<pb n="73" source="#édition2"/> de s’admirer
@@ -183,7 +187,7 @@
                             corrigé par cette peinture qu’il ne lira point.</p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="25">
-                        <p source="#édition2 #édition8"><g ref="#char_pdm1"/> Théocrine<app>
+                        <p source="#édition2 #édition8"><g ref="#char_pdm1"/> <persName ref="#Théocrine">Théocrine</persName><app>
                             <rdgGrp>
                                 <lem>sçait</lem>
                                 <rdg wit="#édition2">sait</rdg>
@@ -293,11 +297,11 @@
                             de main d’ouvrier.</p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="32">
-                        <p source="#édition2 #édition8"><g ref="#char_pdm1"/> <seg>Capys<note type="clé" source="#clé_1689">Capys désignerait, selon toutes les clés, Edme Bourseult et Damis serait Boileau ; pour le premier, les clés manuscrites ajoutent le nom de Campistron ou de l’abbé de Villiers (cf. ❡ 64, clé). Attaqué par Boileau  dans sa satire IX (v.98), Boursault, auteur dramatique et romancier, avait répliqué par une Satire des satires (1669). Ils s’étaient réconciliés en 1687 ; dans les éditions ultérieures des Satires, Boileau supprimera le nom de Boursault.</note></seg>, qui s’érige en
-                            juge du beau style et qui croit écrire comme <seg>Bouhours<note
+                        <p source="#édition2 #édition8"><g ref="#char_pdm1"/> <seg><persName ref="#Capys">Capys</persName><note type="clé" source="#clé_1689">Capys désignerait, selon toutes les clés, Edme Bourseult et Damis serait Boileau ; pour le premier, les clés manuscrites ajoutent le nom de Campistron ou de l’abbé de Villiers (cf. ❡ 64, clé). Attaqué par Boileau  dans sa satire IX (v.98), Boursault, auteur dramatique et romancier, avait répliqué par une Satire des satires (1669). Ils s’étaient réconciliés en 1687 ; dans les éditions ultérieures des Satires, Boileau supprimera le nom de Boursault.</note></seg>, qui s’érige en
+                            juge du beau style et qui croit écrire comme <seg><persName ref="#Bouhours">Bouhours</persName><note
                                 resp="#lambotin" type="biography" place="bottom"
                                 source="#lambotin">Bouhours était un prêtre jésuite,
-                                grammairien, biographe et apologiste français.</note>et Rabutin,
+                                grammairien, biographe et apologiste français.</note>et<persName ref="#Rabutin">Rabutin</persName>,
                                 résiste à la voix.</seg></p>
                     </div3>
                 </div2>
