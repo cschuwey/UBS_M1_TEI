@@ -48,6 +48,48 @@
                     <biblScope> 800 pages </biblScope>
                     <idno type="ark"> ark:/12148/bpt6k57577n </idno>
                 </bibl>
+
+                <bibl xml:id="cle_cochin">
+                    <title> Clé Cochin </title>
+                </bibl>
+                <bibl xml:id="lescles">
+                    <title> Les clés </title>
+                </bibl>
+
+                <listPerson>
+                    <person xml:id="comte_clermont-Tonnerre">
+                        <name>Le comte de Clermont-Tonnerre</name>
+                        <name>Aimé-Marie-Gaspard Clermont-Tonnerre</name>
+                        <idno>https://data.bnf.fr/10737187</idno>
+
+                    </person>
+                    <person xml:id="dangeau">
+                        <name>Philippe de Courcillon de Dangeau</name>
+                        <idno>https://data.bnf.fr/12738882</idno>
+
+                    </person>
+                    <person xml:id="saint_simon">
+                        <name>Louis de Rouvroy duc de Saint-Simon</name>
+                        <idno>https://data.bnf.fr/11923406</idno>
+                    </person>
+                    <person xml:id="servois">
+                        <name>Gustave Servois</name>
+                        <idno> https://data.bnf.fr/12548990</idno>
+                    </person>
+
+                    <person xml:id="monsieur">
+                        <name>Monsieur</name>
+                    </person>
+                    <person xml:id="socrate">
+                        <name>Socrate</name>
+                    </person>
+
+                </listPerson>
+
+                <listPlace>
+                    <place> </place>
+                </listPlace>
+
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -111,8 +153,10 @@
             <change when="2023-11-07"> Notes à moi : Variantes, dans encoding desc, bibliothèque de
                 signe, il faut les déclarer dans encoding desc </change>
             <change when="2023-11-09"> Ajout des variations et des glyphs. </change>
-            <change when="2023-11-12"> Modification du travail car d'une édition à une autre, le
+            <change when="2023-11-12"> Modification du travail car d'une édition à une autre le
                 pied-de-mouche est différent</change>
+            <change when="2023-11-14"> J'ai numérotée les pages de mes éditions. </change>
+            <change when="2023-11-17">Ajout de mes deux clés et des entités nommées </change>
 
         </revisionDesc>
 
@@ -129,7 +173,8 @@
                             <g ref="#char_pdm1" source="#edition5"/>
                             <g ref="#char_pdm" source="#edition8"/> Il faut rire avant que d'être
                             heureux, de peur de mourir sans avoir <app>
-                                <lem> ri.</lem>
+                                <lem> ri. <pb n="177" source="#edition8"/>
+                                </lem>
                                 <rdg source="#edition5 #edition8"> ry. </rdg>
                             </app>
                         </p>
@@ -142,19 +187,21 @@
                     <div3 type="remarque" n="64" source="#edition1 #edition5 #edition8">
                         <p source="#edition1 #edition5 #edition8">
                             <g ref="#char_pdm" source="#edition1 #edition5 #edition8"/> La vie est
-                            courte, si elle ne mérite ce nom que lorsqu'elle est agréable, puisque
-                            si l'on <seg> cousait <note type="commentaire" resp="#labruyere"
-                                    place="margin" source="#edition8"> La métaphore de la couture
-                                    compare le rassemblement des moments plaisants à l'action de
-                                    coudre des morceaux de tissus pour illustrer le concept
-                                    d'agrégation des moments agréables vécus dans la vie.
-                                </note></seg> ensemble toutes les heures que l’on passe avec ce qui
-                            plaît, l’on <app>
+                            courte, si elle ne mérite ce nom que lorsqu'elle est agréa <pb n="169"
+                                source="#edition5" rend="tiret"/> ble, puisque si l'on <seg> cousait
+                                    <note type="commentaire" resp="#labruyere" place="margin"
+                                    source="#edition8"> La métaphore de la couture compare le
+                                    rassemblement des moments plaisants à l'action de coudre des
+                                    morceaux de tissus pour illustrer le concept d'agrégation des
+                                    moments agréables vécus dans la vie. </note></seg> ensemble
+                            toutes les heures que l’on passe avec ce qui plaît, l’on <app>
                                 <lem>ferait</lem>
                                 <rdg source="#edition5 #edition8 #edition1">feroit</rdg>
                             </app> à peine d’un grand nombre d’années une vie de quelques mois.</p>
 
                         <!--Cette annotation de La Bruyère a été inventée-->
+
+
 
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D1" rend="disparu">
@@ -188,7 +235,7 @@
                     <div3 type="remarque" source="#edition1" corresp="D4" rend="disparu">
                         <p source="#edition1">
                             <g ref="#char_pdm"/> Il y a du plaisir à rencontrer les yeux de celui à
-                            qui l'on vient de donner.</p>
+                            qui <pb n="196" source="#edition1"/> l'on vient de donner.</p>
                     </div3>
                     <div3 type="remarque" n="66" source="#edition5 #edition8">
                         <p source="#edition5 #edition8">
@@ -235,7 +282,8 @@
                             bien, de même nous <app>
                                 <lem> haïssons</lem>
                                 <rdg source="#edition5 #edition8"> haïſſons</rdg>
-                            </app> violemment ceux que nous avons beaucoup <app>
+                            </app> violemment ceux que <pb n="178" source="#edition8"/> nous avons
+                            beaucoup <app>
                                 <lem> offensés.</lem>
                                 <rdg source="#edition1 #edition5 #edition8"> offenſez.</rdg>
                             </app></p>
@@ -263,21 +311,24 @@
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D9" rend="disparu">
                         <p source="#edition1">
-                            <g ref="#char_pdm"/>Regretter ce que l'on aime est un bien, en
-                            comparaison de vivre avec ce que l'on hait. </p>
+                            <g ref="#char_pdm"/>Regretter ce que l'on aime est un bien, en comparai
+                                <pb n="197" source="#edition1" rend="tiret"/>son de vivre avec ce
+                            que l'on hait. </p>
                     </div3>
                     <div3 type="remarque" source="#edition1" corresp="D10" rend="disparu">
                         <p source="#edition1">
                             <g ref="#char_pdm"/> Vouloir oublier quelqu'un, c'est y penser. L'amour
                             a cela de commun avec les scrupules, qu'il s'aigrit par les réflexions
                             et les retours que l'on fait pour s'en délivrer. Il faut, s'il se peut,
-                            ne point songer sa passion pour l'affaiblir." </p>
+                            ne point songer sa passion pour l'affaiblir." <pb n="198"
+                                source="#edition1"/>
+                        </p>
                     </div3>
                     <div3 type="remarque" n="69" source="#edition5 #edition8">
                         <p source="#edition5 #edition8">
                             <g ref="#char_pdm" source="edition5 #edition8"/> Il est également
                             difficile <app>
-                                <lem> d'étouffer </lem>
+                                <lem> d'étou <pb n="170" source="#edition5" rend="tiret"/>ffer </lem>
                                 <rdg source="#edition5"> étoufer</rdg>
                             </app> dans les commencements le sentiment des injures et de le
                             conserver <app>
@@ -310,9 +361,10 @@
                             ne pouvait au plus dans les commencements qu’entreprendre de le faire
                             partir pour la campagne ou retourner à la ville, qui finit par lui
                             dicter un testament où il réduit son fils à la légitime.</p>
-                        <p source="#edition8">Pour gouverner quelqu'un longtemps et absolument, il
-                            faut avoir la main légère, et ne lui faire sentir que le moins qu'il se
-                            peut sa dépendance.</p>
+                        <p source="#edition8">Pour gouverner quelqu'un long <pb n="179"
+                                source="#edition8" rend="tiret"/> temps et absolument, il faut avoir
+                            la main légère, et ne lui faire sentir que le moins qu'il se peut sa
+                            dépendance.</p>
                         <p source="#edition8">Tels se laissent gouverner jusqu'à un certain point,
                             qui au delà sont intraitables et ne se gouvernent plus : on perd tout à
                             coup la route de leur cœur et de leur esprit ; ni hauteur ni souplesse,
@@ -327,22 +379,46 @@
                             à leur tour en des choses graves et de conséquence.</p>
 
                         <p source="#edition8">
-                            <seg> Drance <note type="gloss" resp="#cifci" place="bottom"> Un
-                                    personnage fictif qui représente un type de personnalité
-                                    hypocrite et manipulateur</note>
+                            <seg> Drance <note type="cle" source="#lescles">: pour ce seul
+                                    authentique caractère du chapitre (encore est-il une addition
+                                    tardive à une remarque faite de réflexions), les clés nomment le
+                                        <persName ref="#comte_clermont-Tonnerre"> comte de
+                                        Clermont-Tonnerre</persName>, qui fût <roleName>évêque de
+                                        Noyon</roleName>(1661), puis premier
+                                        <roleName>gentilhomme</roleName> de la chambre de <persName
+                                        ref="#monsieur">Monsieur</persName> de 1684 à 1694. En 1692,
+                                    il obtint encore la <roleName> lieutenance des
+                                        gendarmes</roleName> de <persName ref="#monsieur">Monsieur
+                                    </persName>. Cf. <persName ref="#dangeau">Dangeau</persName>
+                                    (II, 70 et 74)et <persName ref="#saint_simon">Saint-Simon
+                                    </persName> intarrissable sur la vanité du personnage (I, 106,
+                                    816 et index): "On trouve (après sa mort) dans ses papiers des
+                                    brouillons de sa main pour servir à son oraison funèbre, tant la
+                                    folie de la vanité avait séduit ce prélat (...)". </note>
+                                <note type="cle" source="#cle_cochin">
+                                    <persName ref="#servois"> Servois </persName> (II,376) cite un
+                                    extrait de la clé Cochin sur les traits de hauteur nobiliaire de
+                                    la famille de Clermont-Tonnerre.</note>
+                                <note type="gloss" resp="#cifci" place="bottom"> Un personnage
+                                    fictif qui représente un type de personnalité hypocrite et
+                                    manipulateur</note>
                             </seg> veut passer pour gouverner son maître, qui n'en croit rien, non
                             plus que le public ; parler sans cesse à un grand que l'on sert, en des
-                            lieux et en des temps où il convient le moins, lui parler à l'oreille ou
-                            en des termes mystérieux, rire jusqu’à éclater en sa présence, lui
-                            couper la parole, se mettre entre lui et ceux qui lui parlent, dédaigner
-                            ceux qui viennent faire leur cour ou attendre impatiemment qu’ils se
-                            retirent, se mettre proche de lui en une posture trop libre, figurer
-                            avec lui le dos appuyé à une cheminée, le tirer par son habit, lui
-                            marcher sur les talons, faire le familier, prendre des libertés,
-                            marquent mieux un fat qu'un favori.</p>
-                        <p source="#edition8"> Un homme sage ni ne se laisse gouverner, ni ne
-                            cherche à gouverner les autres : il veut que la raison gouverne seule et
-                            toujours.</p>
+                            lieux <pb n="180" source="#edition8"/> et en des temps où il convient le
+                            moins, lui parler à l'oreille ou en des termes mystérieux, rire jusqu’à
+                            éclater en sa présence, lui couper la parole, se mettre entre lui et
+                            ceux qui lui parlent, dédaigner ceux qui viennent faire leur cour ou
+                            attendre impatiemment qu’ils se retirent, se mettre proche de lui en une
+                            posture trop libre, figurer avec lui le dos appuyé à une cheminée, le
+                            tirer par son habit, lui marcher sur les talons, faire le familier,
+                            prendre des libertés, marquent mieux un fat qu'un favori.</p>
+                        <p source="#edition8"> Un <seg> homme sage <note type="cle"
+                                    source="#cle_cochin"> Allusion à <persName ref="#socrate">
+                                        Socrate </persName>, un <roleName>philosophe</roleName> qui
+                                    préfère être gouverné par la raison. </note>
+                                <!-- J'ai inventée cette clé-->
+                            </seg> ni ne se laisse gouverner, ni ne cherche à gouverner les autres :
+                            il veut que la raison gouverne seule et toujours.</p>
                         <p source="#edition8edition"> Je ne haïrais pas d'être livré par la
                             confiance à une personne raisonnable, et d'en être gouverné en toutes
                             choses, et absolument, et toujours : je serais sûr de bien faire, sans
@@ -353,9 +429,10 @@
                         <p source="#edition5 #edition8">
                             <g ref="#char_pdm2" source="#edition5"/>
                             <g ref="#char_pdm" source="#edition8"/> Toutes les passions sont
-                            menteuses : elles se déguisent autant qu'elles le peuvent aux yeux des
-                            autres ; elles se cachent à elles-mêmes. Il n'y a point de vice qui
-                            n'ait une fausse ressemblance avec quelque vertu, et <app>
+                            menteuses : elles se déguisent autant qu'elles <pb n="181"
+                                source="#edition8"/> le peuvent aux yeux des autres ; elles se
+                            cachent à elles-mêmes. Il n'y a point de vice qui n'ait une fausse
+                            ressemblance avec quelque vertu, et <app>
                                 <lem> qui </lem>
                                 <rdg source="#edition5 #edition8"> qu'il </rdg>
                             </app> ne s’en aide.</p>
