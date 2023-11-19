@@ -57,6 +57,7 @@
                     <pubPlace>Paris</pubPlace>
                     <publisher>Etienne Michalet</publisher>
                     <biblScope>Sign. A-C, p. 53-360 ; in-12 ; 368 pages</biblScope>
+                    <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k105077m/f236.item</idno>
                 </bibl>
                 <bibl xml:lang="fr" xml:id="ed2">
                     <author>Jean de La Bruyère</author>
@@ -69,6 +70,8 @@
                     <pubPlace>Paris</pubPlace>
                     <publisher>Etienne Michalet</publisher>
                     <biblScope>In-12, 16 ff. non ch., 587 pages</biblScope>
+                    <idno type="URL"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k57567b/f261.item.r=jean%20la%20bruy%C3%A8re</idno>
                 </bibl>
                 <bibl xml:lang="fr" xml:id="ed3">
                     <author>Jean de La Bruyère</author>
@@ -80,6 +83,7 @@
                     <date when="1696">M. DC. XCVI.</date>
                     <publisher>Estienne Michallet</publisher>
                     <pubPlace>Paris</pubPlace>
+                    <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k57579b/f195.item</idno>
                 </bibl>
                 <bibl xml:lang="fr" xml:id="ed4">
                     <author>Jean de La Bruyère</author>
@@ -87,11 +91,50 @@
                     <title type="sub">précédé de Les caractères de Théophraste</title>
                     <edition>10ème édition</edition>
                     <textLang>Francais</textLang>
-                    <date when="1845">1845</date>
-                    <publisher>Librairie de Firmin Didot frères imprimeurs de
-                        l'Institut</publisher>
+                    <date when="1901">1901</date>
+                    <publisher xml:id="Hachette">Hachette</publisher>
                     <pubPlace>Paris</pubPlace>
+                    <idno type="URL"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k5529184k/f233.item.r=Les%20caract%C3%A8res%20de%20Th%C3%A9ophraste%20traduits%20du%20grec%2017#</idno>
                 </bibl>
+                <bibl type="clé" xml:id="Sanions"/>
+                <bibl type="clé" xml:id="Cripsins"/>
+                <bibl type="clé" xml:id="Robert"/>
+                <bibl type="clé" xml:id="Briffe"/>
+                <bibl type="clé" xml:id="filsMesme"/>
+                <bibl type="clé" xml:id="pèreMesme"/>
+                <listPerson>
+                    <person xml:id="Ménalippe">
+                        <occupation>Amazonne</occupation>
+                        <idno>https://fr.wikipedia.org/wiki/M%C3%A9lanippe_(Amazone)</idno>
+                    </person>
+                    <person xml:id="Jason">
+                        <occupation>Héro de la mythologie grecque</occupation>
+                        <idno>https://fr.wikipedia.org/wiki/Jason</idno>
+                    </person>
+                    <person xml:id="Hippolyte"/>
+                    <person xml:id="Ménandre"/>
+                    <person xml:id="Thrason"/>
+                    <personGrp xml:id="Bourbons">
+                        <name>Les Bourbons</name>
+                        <occupation>Famille noble</occupation>
+                        <idno>https://fr.wikipedia.org/wiki/Maison_cap%C3%A9tienne_de_Bourbon</idno>
+                    </personGrp>
+                    <personGrp xml:id="Gomons"/>
+                    <personGrp xml:id="Duhamels"/>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="Vincenne"/>
+                    <place xml:id="Paris"/>
+                    <place xml:id="Cours"/>
+                    <place xml:id="Tuileries"/>
+                    <place xml:id="Seine"/>
+                    <place xml:id="Marne"/>
+                    <place xml:id="ville"/>
+                    <place xml:id="théâtre"/>
+                    <place xml:id="fort"/>
+                    <place xml:id="chambre"/>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -154,7 +197,9 @@
                 #ed3</change>
             <change when="2023-11-11" who="Djewel">J'ai encodé les glyphes avec des id et j'ai mis
                 les variantes que j'ai constaté entre les différentes éditions</change>
-            <change when="2023-11-12" who="Djewel">J'ai corrigé mon erreur suite à ma méprise pour la balise app.</change>
+            <change when="2023-11-12" who="Djewel">J'ai corrigé mon erreur suite à ma méprise pour
+                la balise app.</change>
+            <change when="2023-11-19" who="Djewel">Rajout des clés et des listplace et listperson.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -164,9 +209,11 @@
                 <div2 type="chapitre" n="7">
                     <head>De la Ville</head>
                     <div3 type="remarque" n="1" source="#ed1 #ed2 #ed3" change="#ed2 #ed3">
-                        <p>L’on se donne à Paris, sans se parler, comme un rendez-vous public, mais
-                            fort exact, tous les soirs au Cours ou aux Tuileries, pour se regarder
-                            au visage et se désapprouver les uns les autres.</p>
+                        <p>L’on se donne à <placeName ref="#Paris">Paris</placeName>, sans se
+                            parler, comme un rendez-vous public, mais fort exact, tous les soirs au
+                                <placeName ref="#Cours">Cours</placeName> ou aux <placeName
+                                ref="#Tuileries">Tuileries</placeName>, pour se regarder au visage
+                            et se désapprouver les uns les autres.</p>
                         <p>L’on ne peut se passer de ce même monde que l’on n’aime point, et dont
                             l’on se <app>
                                 <lem>moque</lem>
@@ -180,10 +227,12 @@
                     </div3>
                     <div3 type="remarque" n="2" source="#ed2 #ed3" change="#ed2">
                         <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/> Tout le monde connaît cette
-                            longue levée qui borne et qui resserre le lit de la Seine, du côté où
-                            elle entre à Paris avec la Marne, qu’elle vient de recevoir : les hommes
-                            s’y baignent au pied pendant les chaleurs de la canicule ; on les voit
-                            de fort près se jeter dans l’eau ; on les en voit sortir : c’est un
+                            longue levée qui borne et qui resserre le lit de la <placeName
+                                ref="#Seine">Seine</placeName>, du côté où elle entre à <placeName
+                                ref="#Paris">Paris</placeName> avec la <placeName ref="Marne"
+                                >Marne</placeName>, qu’elle vient de recevoir : les hommes s’y
+                            baignent au pied pendant les chaleurs de la canicule ; on les voit de
+                            fort près se jeter dans l’eau ; on les en voit sortir : c’est un
                             amusement. Quand cette saison n’est pas venue, les femmes de la ville ne
                             s’y promènent pas encore ; et quand elle est passée, elles ne s’y
                             promènent plus.</p>
@@ -196,38 +245,41 @@
                                 <rdg source="#ed1 #ed2 #ed3">recüeillir</rdg>
                             </app> le fruit de leur toilette, on ne se promène pas avec une compagne
                             par la nécessité de la conversation ; on se joint ensemble pour, se
-                            rassurer sur le théâtre, s’apprivoiser avec le public, et se raffermir
-                            contre la critique : c’est là précisément qu’on se parle sans se rien
-                            dire, ou plutôt qu’on parle pour les passants, pour ceux même en faveur
-                            de qui l’on hausse sa voix, l’on gesticule et l’on badine, l’on penche
-                            négligemment la tête, l’on passe et l’on repasse.</p>
+                            rassurer sur le <placeName ref="#théâtre">théâtre</placeName>,
+                            s’apprivoiser <pb n="182" source="#ed4" rend="tiret"/> avec le public,
+                            et se raffermir contre la critique : c’est là précisément qu’on se parle
+                                <pb n="194" source="#ed1"/> sans se rien dire, ou plutôt qu’on parle
+                            pour les passants, pour ceux même en faveur de qui l’on hausse sa voix,
+                            l’on gesticule et l’on badine, l’on penche négligemment la tête, l’on
+                            passe et l’on repasse.</p>
                     </div3>
                     <div3 type="remarque" n="4" source="#ed1 #ed2 #ed3" change="#ed2">
-                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/> La ville est partagée en
-                            diverses sociétés, qui sont comme autant de petites républiques, qui ont
-                            leurs lois, leurs usages, leur jargon, et leurs mots pour rire. Tant que
-                            cet assemblage est dans sa force, et que l’entêtement subsiste, l’on ne
-                            trouve rien de bien dit ou de bien fait que ce qui part des siens, et
-                            l’on est incapable de goûter ce qui vient d’ailleurs : cela va jusques
-                            au mépris pour les gens qui ne sont pas initiés dans leurs mystères.
-                            L’homme du monde d’un meilleur esprit, que le hasard a porté au milieu
-                            d’eux, leur est étranger : il se trouve là comme dans un pays lointain,
-                            dont il ne connaît ni les routes, ni la langue ni les mœurs, ni la
-                            coutume ; il voit un peuple qui cause, bourdonne, parle à l’oreille,
-                            éclate de rire, et qui retombe ensuite dans un morne silence ; il y perd
-                            son maintien, ne trouve pas où placer un seul mot, et n’a pas même de
-                            quoi écouter. Il ne manque jamais là un mauvais plaisant qui domine, et
-                            qui est comme le héros de la société : celui-ci s’est chargé de la joie
-                            des autres, et fait toujours rire avant que d’avoir parlé. Si
-                            quelquefois une femme survient qui n’est point de leurs plaisirs, la
-                            bande joyeuse ne peut comprendre qu’elle ne sache point rire des choses
-                            qu’elle n’entend point, et paraisse insensible à des fadaises qu’ils
-                            n’entendent eux-mêmes que parce qu’ils les ont faites : ils ne lui
-                            pardonnent ni son ton de voix, ni son silence, ni sa taille, ni son
-                            visage, ni son habillement, ni son entrée, ni la manière dont elle est
-                            sortie. Deux années cependant ne passent point sur une même coterie : il
-                            y a toujours, dès la première année, des semences de division pour
-                            rompre dans celle qui doit suivre ; l’intérêt de la beauté, les
+                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/> La <placeName ref="ville"
+                                >ville</placeName> est partagée en diverses sociétés, qui sont comme
+                            autant de petites républiques, qui ont leurs lois, leurs usages, leur
+                            jargon, et leurs mots pour rire. Tant que cet assemblage est dans sa
+                            force, et que l’entêtement subsiste, l’on ne trouve rien de bien dit ou
+                            de bien fait que ce qui part des siens, et l’on est incapable de goûter
+                            ce qui vient d’ailleurs : cela va jusques au mépris pour les gens qui ne
+                            sont pas initiés dans leurs mystères. L’homme du monde d’un meilleur
+                            esprit, que le hasard a porté au milieu d’eux, leur est étranger : il se
+                            trouve là comme dans un pays lointain, dont il ne connaît ni les routes,
+                            ni la langue ni les mœurs, ni la coutume ; il voit un peuple qui cause,
+                            bourdonne, parle à l’oreille, éclate de rire, et qui retombe ensuite
+                            dans un morne silence ; il y perd son maintien, ne trouve pas où placer
+                            un seul mot, et n’a pas même de quoi écouter. Il ne manque jamais là un
+                            mauvais plaisant qui domine, et qui est comme le héros de la société :
+                            celui-ci s’est chargé de la joie des autres, et fait toujours rire avant
+                            que d’avoir parlé. Si quelquefois une femme survient qui n’est point de
+                            leurs plaisirs, la bande joyeuse ne peut comprendre qu’elle ne sache
+                            point rire des choses qu’elle n’entend point, et paraisse insensible à
+                            des fadaises qu’ils n’entendent eux-mêmes que parce qu’ils les ont
+                            faites : ils ne lui pardonnent ni son ton de voix, ni son silence, ni sa
+                            taille, ni son visage, ni son habillement, ni son entrée, ni <pb n="183"
+                                source="#ed4"/> la manière dont elle est sortie. Deux années
+                            cependant ne passent point sur une même coterie : il y a toujours, dès
+                            la première année <pb n="195" source="#ed1"/>, des semences de division
+                            pour rompre dans celle qui doit suivre ; l’intérêt de la beauté, les
                             incidents du jeu, l’extravagance des repas, qui, modestes au
                             commencement, dégénèrent bientôt en pyramides de viandes et en banquets
                             somptueux, dérangent la république, et lui portent enfin le coup mortel
@@ -239,58 +291,74 @@
                             grande et la petite robe ; et la première se venge sur l’autre des
                             dédains de la cour, et des petites humiliations qu’elle y essuie. De
                             savoir quelles sont leurs limites, où la grande finit, et où la petite
-                            commence, ce n’est pas une chose facile. Il se trouve même un corps
-                            considérable qui refuse d’être du second ordre, et à qui l’on conteste
-                            le premier : il ne se rend pas néanmoins, il cherche au contraire, par
-                            la gravité et par la dépense, à s’égaler à la magistrature, ou ne lui
-                            cède qu’avec peine : on l’entend dire que la noblesse de son emploi,
-                            l’indépendance de sa profession, le talent de la parole et le mérite
-                            personnel balancent au moins les sacs de mille francs que le fils du
-                            partisan ou du banquier a su <app>
+                            commence, ce n’est pas une chose facile. Il se trouve même <app>
+                                <lem><seg>un corps considérable qui refuse d’être du second
+                                        ordre</seg></lem>
+                                <rdg wit="#Robert" source="#ed1">Maitre Louis Robert avocat</rdg>
+                            </app>, et à qui l’on conteste le premier : il ne se rend pas néanmoins,
+                            il cherche au contraire, par la gravité et par la dépense, à s’égaler à
+                            la magistrature, ou ne lui cède qu’avec peine : on l’entend dire que la
+                            noblesse de son emploi, l’indépendance de sa profession, le talent de la
+                            parole et le mérite personnel balancent au moins les sacs de mille
+                            francs que le fils du partisan ou du banquier a su <app>
                                 <lem>payer</lem>
                                 <rdg source="#ed1 #ed2 #ed3">paier</rdg>
                             </app> pour son office.</p>
                     </div3>
                     <div3 type="remarque" n="6" source="#ed2 #ed3" change="#ed2">
                         <p><g source="#ed2 #ed3" ref="#char_pdm"/> Vous moquez-vous de rêver en
-                            carrosse, ou peut-être de vous y reposer ? Vite, prenez votre livre ou
-                            vos papiers, lisez, ne saluez qu’à peine ces gens qui passent dans leur
-                            équipage ; ils vous en croiront plus occupé ; ils diront : "Cet homme
-                            est laborieux, infatigable ; il lit, il travaille jusque dans les rues
-                            ou sur la route." Apprenez du moindre avocat qu’il faut paraître accablé
+                            carrosse, ou peut-être <pb n="184" source="#ed4"/> de vous y reposer ?
+                            Vite, prenez votre livre ou vos papiers, lisez, ne saluez qu’à peine ces
+                            gens qui passent dans leur équipage ; ils vous en croiront plus occupé ;
+                            ils diront : <app>
+                                <lem><seg>"Cet homme est laborieux, infatigable ; il lit, il
+                                        travaille jusque dans les rues ou sur la route."</seg></lem>
+                                <rdg wit="#Briffe" source="#ed3">Monsieur de la Briffe, procureur
+                                    générale</rdg>
+                            </app> Apprenez du moindre avocat qu’il faut paraître accablé
                             d’affaires, froncer le sourcil, et rêver à rien très profondément ;
                             savoir à propos perdre le boire et le manger ; ne faire qu’apparoir dans
-                            sa maison, s’évanouir et se perdre comme un fantôme dans le sombre de
-                            son cabinet ; se cacher au public, éviter le théâtre, le laisser à ceux
-                            qui ne courent aucun risque à s’y montrer, qui en ont à peine le loisir,
-                            aux Gomons, aux Duhamels.</p>
+                            sa maison, s’évanouir <pb n="196" source="#ed3" rend="tiret"/> et se
+                            perdre comme un fantôme dans le sombre de son cabinet ; se cacher au
+                            public, éviter le théâtre, le laisser à ceux qui ne courent aucun risque
+                            à s’y montrer, qui en ont à peine le loisir, aux <persName ref="#Gomons">Gomons</persName>, aux
+                            <persName ref="#Duhamels">Duhamels</persName>.</p>
                     </div3>
                     <div3 type="remarque" n="7" source="#ed2 #ed3" change="#ed2">
                         <p><g source="#ed2 #ed3" ref="#char_pdm"/> Il y a un certain nombre de
                             jeunes magistrats que les grands biens et les plaisirs ont associés à
-                            quelques-uns de ceux qu’on nomme à la cour de petits-maîtres : ils les
-                            imitent, ils se tiennent fort au-dessus de la gravité de la robe, et se
-                            croient dispensés par leur âge et par leur fortune d’être sages et
-                            modérés. Ils prennent de la cour ce qu’elle a de pire : ils
-                            s’approprient la vanité, la mollesse, l’intempérance, le libertinage,
-                            comme si tous ces vices leur étaient dus, et, affectant ainsi un
-                            caractère éloigné de celui qu’ils ont à soutenir, ils deviennent enfin,
-                            selon leurs souhaits, des copies fidèles de très méchants originaux.</p>
+                            quelques-uns de ceux qu’on nomme à la cour de <app>
+                                <lem><seg>petits-maîtres</seg></lem>
+                                <rdg wit="#filsMesme" source="#ed2">M. le président de Mesme et
+                                    autres</rdg>
+                            </app> : ils les imitent, ils se tiennent fort au-dessus de la gravité
+                            de la robe, et se croient dispensés par leur âge et par leur fortune
+                            d’être sages et modérés. Ils prennent de la cour ce qu’elle a de pire :
+                            ils s’approprient la vanité, la mollesse, l’intempérance, le
+                            libertinage, comme si tous ces vices leur étaient dus, et, affectant
+                            ainsi un caractère éloigné de celui qu’ils ont à soutenir, ils
+                            deviennent enfin, selon leurs souhaits, des copies fidèles de très
+                            méchants originaux.<pb n="185" source="#ed4"/></p>
                     </div3>
                     <div3 type="remarque" n="8" source="#ed2 #ed3" change="#ed2">
-                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/> Un homme de robe à la ville,
-                            et le même à la cour, ce sont deux hommes. Revenu chez soi, il reprend
-                            ses mœurs, sa taille et son visage, qu’il y avait laissés : il n’est
-                            plus ni si embarrassé, ni si honnête.</p>
+                        <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/>
+                            <app>
+                                <lem><seg>Un homme de robe à la ville, et le même à la cour, ce sont
+                                        deux hommes</seg></lem>
+                                <rdg wit="#pèreMesme" source="#ed2">Jean-Jacques de Mesmes</rdg>
+                            </app>. Revenu chez soi, il reprend ses mœurs, sa taille et son visage,
+                            qu’il y avait laissés : il n’est plus ni si embarrassé, ni si
+                            honnête.</p>
                     </div3>
                     <div3 type="remarque" n="9" source="#ed2 #ed3">
                         <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/>Les Crispins se cotisent et
                             rassemblent dans leur famille jusques à six chevaux pour allonger un
                             équipage, qui, avec un essaim de gens de livrées, où ils ont fourni
                             chacun leur part, les fait triompher au Cours ou à Vincennes, et aller
-                            de pair avec les nouvelles mariées, avec Jason, qui se ruine, et avec
-                            Thrason, qui veut se marier, <seg>et qui a consigné. <note
-                                    resp="#bruyère" type="definition" place="end"
+                            de pair avec les nouvelles mariées, avec <persName ref="#Jason"
+                                >Jason</persName>, qui se ruine, et avec <persName ref="#Thrason"
+                                >Thrason</persName>, qui veut se marier, <seg>et qui a consigné.
+                                    <note resp="#bruyère" type="definition" place="end"
                                     source="#ed1 #ed2 #ed3" anchored="true"><g
                                         source="#ed1 #ed2 #ed3" ref="#ast"/> *déposé son argent au
                                     trésor public pour une grande charge </note></seg>
@@ -300,43 +368,59 @@
                         <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/>J’entends dire des Sannions :
                             "Même nom, mêmes armes ; la branche aînée, la branche cadette, les
                             cadets de la seconde branche ; ceux-là, portent les armes pleines,
-                            ceux-ci brisent d’un lambel, et les autres d’une bordure dentelée." Ils
-                            ont avec les Bourbons, sur une même couleur, un même métal ; ils
-                            portent, comme eux, deux et une : ce ne sont pas des fleurs de lis, mais
-                            ils s’en consolent ; peut-être dans leur cœur trouvent-ils leurs pièces
-                            aussi honorables, et ils les ont communes avec de grands seigneurs qui
-                            en sont contents : on les voit sur les litres et sur les vitrages, sur
-                            la porte de leur château, sur le pilier de leur haute-justice, où ils
-                            viennent de faire pendre un homme qui méritait le bannissement ; elles
-                            s’offrent aux yeux de toutes parts, elles sont sur les meubles et sur
-                            les serrures, elles sont semées sur les carrosses ; leurs livrées ne
-                            déshonorent point leurs armoiries. Je dirais volontiers aux Sannions :
-                            "Votre folie est prématurée ; attendez du moins que le siècle s’achève
-                            sur votre race ; ceux qui ont vu votre grand-père, qui lui ont parlé,
-                            sont vieux, et ne sauraient plus vivre longtemps. Qui pourra dire comme
-                            eux : "Là il étalait, et vendait très cher" ?</p>
-                        <p>Les Sannions et les Crispins veulent encore davantage que l’on dise d’eux
-                            qu’ils font une grande dépense, qu’ils n’aiment à la faire. Ils font un
-                            récit long et ennuyeux d’une fête ou d’un repas qu’ils ont donné ; ils
-                            disent l’argent qu’ils ont perdu au jeu, et ils plaignent fort haut
-                            celui qu’ils n’ont pas songé à perdre. Ils parlent jargon et mystère sur
-                            de certaines femmes ; ils ont réciproquement cent choses plaisantes à se
-                            conter ; ils ont fait depuis peu des découvertes ; ils se passent les
-                            uns aux autres qu’ils sont gens à belles aventures. L’un d’eux, qui
-                            s’est couché tard à la campagne, et qui voudrait dormir, se lève matin,
-                            chausse des guêtres, endosse un habit de toile, passe un cordon où pend
-                            le fourniment, renoue ses cheveux, prend un fusil : le voilà chasseur,
-                            s’il tirait bien. Il revient de nuit, mouillé et recru, sans avoir tué.
-                            Il retourne à la chasse le lendemain, et il passe tout le jour à manquer
-                            des grives ou des perdrix.</p>
+                            ceux-ci brisent <pb n="197" source="#ed3"/> d’un lambel, et les autres
+                            d’une bordure dentelée." Ils ont avec les <persName ref="#Bourbons">Bourbons</persName>, sur une même
+                            couleur, un même métal ; ils portent, comme eux, deux et une : ce ne
+                            sont pas des fleurs de lis, mais ils s’en consolent ; peut-être dans
+                            leur cœur trouvent-ils leurs pièces aussi honorables, et ils les ont
+                            communes avec de grands seigneurs qui en sont contents : on les voit sur
+                            les litres et<pb n="186" source="#ed4"/> sur les vitrages, sur la porte
+                            de leur château, sur le pilier de leur haute-justice, où ils viennent de
+                            faire pendre un homme qui méritait le bannissement ; elles s’offrent aux
+                            yeux de toutes parts, elles sont sur les meubles et sur les serrures,
+                            elles sont semées sur les carrosses ; leurs livrées ne déshonorent point
+                            leurs armoiries. Je dirais volontiers aux Sannions : "Votre folie est
+                            prématurée ; attendez du moins que le siècle s’achève sur votre race ;
+                            ceux qui ont vu votre grand-père, qui lui ont parlé, sont vieux, et ne
+                            sauraient plus vivre longtemps. Qui pourra dire comme eux : "Là il
+                            étalait, et vendait très cher" ?</p>
+                        <p><app>
+                                <lem><seg> Les Sannions</seg></lem>
+                                <rdg wit="#Sanions" source="#ed2">Leclerc de Lessevilles</rdg>
+                            </app> et <app>
+                                <lem>les Crispins</lem>
+                                <rdg wit="#Cripsins" source="#ed1">MM. Charpentier ou Mallot</rdg>
+                            </app> veulent encore davantage que l’on dise d’eux qu’ils font une
+                            grande dépense, qu’ils n’aiment à la faire. Ils font un récit long et
+                            ennuyeux d’une fête ou d’un repas qu’ils ont donné ; ils disent l’argent
+                            qu’ils ont perdu au jeu, et ils plaignent fort haut celui qu’ils n’ont
+                            pas songé à perdre. Ils parlent jargon et mystère sur de certaines
+                            femmes ; ils ont réciproquement cent choses plaisantes à se conter ; ils
+                            ont fait depuis peu des découvertes ; ils se passent les uns aux autres
+                            qu’ils sont gens à belles aventures. L’un d’eux, qui s’est couché tard à
+                            la campagne, et qui voudrait dormir, se lève matin, chausse des guêtres,
+                            endosse un habit de toile, passe un cordon où pend le fourniment, renoue
+                            ses cheveux <pb n="198" source="#ed1" rend="tiret"/>, prend un fusil :
+                            le voilà chasseur, s’il tirait bien. Il revient de nuit, mouillé et
+                            recru <pb n="187" source="#ed4"/>, sans avoir tué. Il retourne à la
+                            chasse le lendemain, et il passe tout le jour à manquer des grives ou
+                            des perdrix.</p>
                         <p>Un autre, avec quelques mauvais chiens, aurait envie de dire : Ma meute.
                             Il sait un rendez-vous de chasse, il s’y trouve ; il est au
-                            laisser-courre ; il entre dans le fort, se mêle avec les piqueurs ; il a
-                            un cor. Il ne dit pas, comme Ménalippe : Ai-je du plaisir ? Il croit en
-                            avoir. Il oublie lois et procédure : c’est un Hippolyte. Ménandre, qui
-                            le vit hier sur un procès qui est en ses mains, ne reconnaîtrait pas
-                            aujourd’hui son rapporteur. Le voyez-vous le lendemain à sa chambre, où
-                            l’on va juger une cause grave et capitale ? il se fait entourer de ses
+                                <seg>laisser-courre <note resp="#Hachette" type="référence"
+                                    place="end" source="#ed4" anchored="true">1. Dorante dans les
+                                    Facheux de Molière, II, VII: « Dieu préserve, en chasant, toute
+                                    sage personne... - De ces gens qui suivis de dix hourets galeux,
+                                    - ma meute et font les chasseurs merveilleux !» </note></seg> ;
+                            il entre dans le <placeName ref="#fort">fort</placeName>, se mêle avec
+                            les piqueurs ; il a un cor. Il ne dit pas, comme <persName
+                                ref="#Ménalippe">Ménalippe</persName> : Ai-je du plaisir ? Il croit
+                            en avoir. Il oublie lois et procédure : c’est un <persName
+                                ref="#Hippolyte">Hippolyte</persName>. <persName ref="#Ménandre"
+                                >Ménandre</persName>, qui le vit hier sur un procès qui est en ses
+                            mains, ne reconnaîtrait pas aujourd’hui son rapporteur. Le voyez-vous le
+                            lendemain à sa <placeName ref="#chambre">chambre</placeName>, où l’on va
+                            juger une cause grave et capitale ? il se fait entourer de ses
                             confrères, il leur raconte comme il n’a point perdu le cerf de meute,
                             comme il s’est étouffé de crier après les chiens qui étaient en défaut,
                             ou après ceux des chasseurs qui prenaient le change, qu’il a vu donner
