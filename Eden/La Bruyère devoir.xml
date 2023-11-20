@@ -48,6 +48,9 @@
                     <person xml:id="Hyacinthe">
                         <name> Hyacinthe</name>
                     </person>
+                    <person xml:id="GoeffroidAnjou">
+                        <name> Goeffroi d'Anjou</name>
+                    </person>
                 </listPerson>
                 <listPlace>
                     <place>
@@ -164,9 +167,12 @@
                                     <rdg wit="#Neuvièmeédition"> reconnoître</rdg>
                                 </rdgGrp>
                             </app> à leurs visages ; leurs traits sont altérés, et leur contenance
-                            est avilie. Les gens fiers et superbes sont les plus défaits, car ils
-                            perdent plus du leur ; celui qui est honnête et modeste s’y soutient
-                            mieux : il n’a rien à réformer. </p>
+                            est <seg>avilie <note type="key">Abaisser quelqu'un jusqu'à le rendre
+                                    méprisable, lui faire perdre sa dignité ; dégrader, déshonorer :
+                                    De tels mensonges vous avilissent.</note></seg>. Les gens fiers
+                            et superbes sont les plus défaits, car ils perdent plus du leur ; celui
+                            qui est honnête et modeste s’y soutient mieux : il n’a rien à réformer.
+                        </p>
                     </div3>
 
                     <div3 n="14" source="#Quatrièmeédition #Neuvièmeédition">
@@ -198,17 +204,19 @@
                     <div3 n="16" source="#Quatrièmeédition #Neuvièmeédition">
                         <p>
                             <g ref="char_pdm1" source="#Quatrièmeédition"/> Il y a dans les cours
-                            des apparitions de gens aventuriers et hardis, d’un caractère libre et
-                            familier, qui se produisent eux-mêmes, protestent qu’ils ont dans leur
-                            art toute l’habileté qui manque aux autres, et qui sont crus sur leur
-                            parole. Ils profitent cependant de l’erreur publique, ou de l’amour
-                            qu’ont les hommes pour la nouveauté : ils percent la foule, et
-                            parviennent jusqu’à <pb n="202" source="#Quatrièmeédition"/>l’oreille du
-                            prince, à qui le courtisan les voit parler, pendant qu’il se trouve
-                            heureux d’en être vu. Ils ont cela de commode pour les grands qu’ils en
-                            sont soufferts sans conséquence, et congédiés de même : alors ils
-                            disparaissent tout à la fois riches et décrédités, et le monde qu’ils
-                            viennent de tromper est encore prêt d’être trompé par d’autres. </p>
+                            des apparitions de gens aventuriers et <seg>hardis <note type="key">
+                                    quelqu'un qui ose sans se laisser intimider</note></seg>, d’un
+                            caractère libre et familier, qui se produisent eux-mêmes, protestent
+                            qu’ils ont dans leur art toute l’habileté qui manque aux autres, et qui
+                            sont crus sur leur parole. Ils profitent cependant de l’erreur publique,
+                            ou de l’amour qu’ont les hommes pour la nouveauté : ils percent la
+                            foule, et parviennent jusqu’à <pb n="202" source="#Quatrièmeédition"
+                            />l’oreille du prince, à qui le courtisan les voit parler, pendant qu’il
+                            se trouve heureux d’en être vu. Ils ont cela de commode pour les grands
+                            qu’ils en sont soufferts sans conséquence, et congédiés de même : alors
+                            ils disparaissent tout à la fois riches et décrédités, et le monde
+                            qu’ils viennent de tromper est encore prêt d’être trompé par d’autres.
+                        </p>
                     </div3>
 
                     <div3 n="17" source="#Quatrièmeédition #Neuvièmeédition">
@@ -302,10 +310,11 @@
                                     dans la chanson de Roland, l'étendard de Charlemagne, porté par
                                     Goeffroi d'Anjou. </note>
                             </seg> et pour les croisades ; avoir des salles parées d’arbres
-                            généalogiques, d’écussons chargés de seize quartiers, et de tableaux de
-                            ses ancêtres et des alliés de ses ancêtres ; se piquer d’avoir un ancien
-                            château à tourelles, à créneaux et à <seg>mâchecoulis <note resp="#Eden"
-                                    place="margin" type="glossaire"
+                            généalogiques, <seg>d’écussons <note type="key">Plaque armoriée servant
+                                    d'enseigne, de panonceau</note></seg> chargés de seize
+                            quartiers, et de tableaux de ses ancêtres et des alliés de ses ancêtres
+                            ; se piquer d’avoir un ancien château à tourelles, à créneaux et à
+                                <seg>mâchecoulis <note resp="#Eden" place="margin" type="glossaire"
                                     source="#Quatrièmeédition #Neuvièmeédition"> Un mâchicoulis est
                                     une galerie formant un encorbellement, soit en position
                                     mitoyenne ou en couronnement d'une enceinte militaire et dont le
@@ -334,3 +343,4 @@
         </body>
     </text>
 </TEI>
+
