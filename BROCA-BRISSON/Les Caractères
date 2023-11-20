@@ -36,6 +36,20 @@
                     <edition>Sixième édition.</edition>
                     <date when="1691">1691</date>
                 </bibl>
+                <listPerson>
+                    <person xml:id="cochin">
+                        <name>Cochin</name>
+                        <idno></idno>
+                    </person>
+                    <person xml:id="servois">
+                        <name>Gustave-Marie-Joseph Servois</name>
+                        <idno>https://data.bnf.fr/12548990/gustave_servois/</idno>
+                    </person>
+                    <person xml:id="walckenaer">
+                        <name>Charles-Athanase Walckenaer</name>
+                        <idno>https://data.bnf.fr/12754512/charles-athanase_walckenaer/</idno>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -91,7 +105,7 @@
                     <head>Des Biens de Fortune</head>
                     <div3 type="comment" n="54" source="#edition6">
                         <!-- édition 6 page 213 -->
-                        <p><g ref="#char_pdm1"/> <app><lem>Chrysante</lem><rdg source="#edition6">Cry∫ante</rdg></app>, homme opulent et impertinent, ne veut pas être vu avec Eugène,
+                        <p><g ref="#char_pdm1" source="#edition6"/> <app><lem>Chrysante</lem><rdg source="#edition6">Cry∫ante</rdg></app>, homme opulent et impertinent, ne veut pas être vu avec Eugène,
                             qui est homme de mérite, mais pauvre : il croirait en être déshonoré.
                             Eugène <app><lem>est</lem><rdg source="#edition6">e∫t</rdg></app> pour <app><lem>Chrysante</lem><rdg source="#edition6">Cry∫ante</rdg></app> dans les mêmes dispositions : ils ne courent
                             pas risque de se heurter.</p>
@@ -108,8 +122,8 @@
                     </div3>
                     <div3 type="comment" n="56" source="#edition6">
                         <!-- édition 6 page 213 -->
-                        <p><g ref="#char_pdm1"/>Si les pensées, les livres et leurs auteurs <app><lem>dépendaient</lem><rdg source="#edition6">dépendoient</rdg></app> des riches et de
-                            ceux qui ont fait une belle fortune, quelle proscription ! Il n’y aurait
+                        <p><g ref="#char_pdm1" source="#edition6"/>Si les pensées, les livres et leurs auteurs <app><lem>dépendaient</lem><rdg source="#edition6">dépendoient</rdg></app> des riches et de
+                            ceux qui ont fait une belle fortune, <pb n="214" source="#edition6"/> quelle proscription ! Il n’y aurait
                             plus de rappel. Quel ton, quel ascendant ne prennent-ils pas sur les
                             savants ! Quelle majesté n’observent-ils pas à l’égard de ces hommes
                             chétifs, que leur mérite n’a ni placés ni enrichis, et qui en sont
@@ -128,9 +142,9 @@
                     <div3 type="comment" n="57" source="#edition3 #edition6">
                         <!-- édition 3 page 174 -->
                         <!-- édition 6 page 214 -->
-                        <p><g ref="#char_pdm1"/>Du <app><lem>même</lem><rdg source="#edition3">me∫me</rdg><rdg source="#edition6">même</rdg></app> fonds d’orgueil dont l’on s’élève fièrement au-dessus de ses
+                        <p><g ref="#char_pdm1" source="#edition3 #edition6"/>Du <app><lem>même</lem><rdg source="#edition3">me∫me</rdg><rdg source="#edition6">même</rdg></app> fonds d’orgueil dont <pb n="215" source="#edition6"/> l’on s’élève fièrement au-dessus de ses
                             inférieurs, l’on rampe vilement devant ceux qui sont au-dessus de soi.
-                            C’est le propre de ce vice, qui n’est fondé ni sur le mérite personnel
+                            C’est le propre de ce vice, qui n’est fondé ni sur le mérite personnel <pb n="175" source="#edition3"/>
                             ni sur la vertu, mais sur les richesses, les postes, le crédit, et sur
                             de vaines sciences, de nous porter également à mépriser ceux qui ont
                             moins que nous de cette espèce de biens, et à estimer trop ceux qui en
@@ -139,11 +153,11 @@
                     <div3 type="comment" n="58" source="#edition3 #edition6">
                         <!-- édition 3 page 173 -->
                         <!-- édition 6 page 215 -->
-                        <p><g ref="#char_pdm1"/>Il y a des âmes sales, pétries de boue et d’ordure, <seg>éprises du gain
+                        <p><g ref="#char_pdm1" source="#edition3 #edition6"/>Il y a des âmes sales, pétries de boue et d’ordure, <seg>éprises du gain
                                 et de l’intérêt,<note type="note" resp="#labruyere"
                                 >Coucou</note></seg> comme les belles âmes le sont de la gloire et
                             de la vertu ; capables d’une seule volupté, qui est celle d’acquérir ou
-                            de ne point perdre ; curieuses et avides du denier dix ; uniquement
+                            de ne <pb n="174" source="#edition3"/> point perdre ; curieuses et avides du denier dix ; uniquement
                             occupées de leurs débiteurs ; toujours inquiètes sur le rabais ou sur le
                             décri des monnaies ; enfoncées et comme abîmées dans les contrats, les
                             titres et les parchemins. De telles gens ne sont ni parents, ni amis, ni
@@ -152,7 +166,7 @@
                     </div3>
                     <div3 type="comment" n="59" source="#edition6">
                         <!-- édition 6 page 216 -->
-                        <p><g ref="#char_pdm1"/>Commençons par excepter <seg>ces âmes nobles et courageuses<note
+                        <p><g ref="#char_pdm1" source="#edition6"/>Commençons par excepter <seg>ces âmes nobles et courageuses<note
                                     type="definition" resp="#maximebb">Blablabla</note></seg>, s’il
                             en reste encore sur la terre, secourables, ingénieuses à faire du bien,
                             que nuls besoins, nulle disproportion, nuls artifices ne peuvent séparer
@@ -167,7 +181,7 @@
                     <div3 type="comment" n="60" source="#edition3 #edition6">
                         <!-- édition 3 page 175 -->
                         <!-- édition 6 page 216 -->
-                        <p><g ref="#char_pdm1"/>Pendant qu’Oronte augmente, avec ses années, son fonds et ses revenus,
+                        <p><g ref="#char_pdm1" source="#edition3 #edition6"/>Pendant qu’<seg>Oronte<note type="key" resp="#servois">Servois suppose qu'il s'agit de Jean Neyret de la Ravoye, qui fut trésorier général de la marine</note><note type="key" resp="#walckenaer">Selon Walckenaer, il s'agirait du receveur de la généralité de Poitiers, allié à un de Vallière, receveur de la généralité de Tours</note></seg> augmente, avec ses années, son fonds et ses revenus,
                             une fille naît dans quelque famille, s’élève, croît, s’embellit, et
                             entre dans sa seizième année. Il se fait prier à cinquante ans pour
                             l’épouser, jeune, belle, spirituelle : cet homme sans naissance, sans
@@ -176,10 +190,10 @@
                     <div3 type="comment" n="61" source="#edition3 #edition6">
                         <!-- édition 3 page 175 -->
                         <!-- édition 6 page 217 -->
-                        <p source="#edition3 #edition6"><g ref="#char_pdm1"/>Le mariage, qui devrait être à l’homme une
+                        <p source="#edition3 #edition6"><g ref="#char_pdm1" source="#edition3 #edition6"/>Le mariage, qui devrait être à l’homme une
                             source de tous les biens, lui est souvent, par la disposition de sa
                             fortune, un lourd fardeau sous lequel il succombe : c’est alors qu’une
-                            femme et des enfants sont une violente tentation à la fraude, au
+                            fem<app><lem></lem><rdg source="#edition3">-</rdg><rdg source="#edition6"></rdg></app><pb n="176" source="#edition3" rend="tiret"/>me et des enfants sont une violente tentation à la fraude, au
                             mensonge et aux gains illicites ; il se trouve entre la friponnerie et
                             l’indigence : étrange situation !</p>
                         <p source="#edition6">Epouser une veuve, en bon français, signifie
@@ -189,7 +203,7 @@
                     </div3>
                     <div3 type="comment" n="62" source="#edition6">
                         <!-- édition 6 page 217 -->
-                        <p><g ref="#char_pdm1"/>Celui qui n’a de partage avec ses frères que pour vivre à l’aise bon
+                        <p><g ref="#char_pdm1" source="#edition6"/>Celui qui n’a de partage avec ses frères que pour vivre à l’aise bon
                             praticien, veut être officier ; le simple officier se fait magistrat, et
                             le magistrat veut présider ; et ainsi de toutes les conditions, où les
                             hommes languissent serrés et indigents, après avoir tenté au delà de
@@ -198,14 +212,14 @@
                     </div3>
                     <div3 type="comment" n="63" source="#edition6">
                         <!-- édition 6 page 217 -->
-                        <p><g ref="#char_pdm1"/>Dîne bien, <seg>Cléarque,<note type="note" resp="#labruyere">Encore
+                        <p><g ref="#char_pdm1" source="#edition6"/>Dîne bien, <seg>Cléarque,<note type="note" resp="#labruyere">Encore
                                     coucou</note></seg> soupe le soir, mets du bois au feu, achète
-                            un manteau, tapisse ta chambre : tu n’aimes point ton héritier, tu ne le
+                            un manteau, tapisse ta chambre : tu n’aimes point ton héritier, tu ne le <pb n="218" source="#edition6"/>
                             connais point, tu n’en as point.</p>
                     </div3>
                     <div3 type="comment" n="64" source="#edition6">
                         <!-- édition 6 page 218 -->
-                        <p><g ref="#char_pdm1"/>Jeune, on conserve pour sa vieillesse ; vieux, on épargne pour la mort.
+                        <p><g ref="#char_pdm1" source="#edition6"/>Jeune, on conserve pour sa vieillesse ; vieux, on épargne pour la mort.
                                 <seg>L’héritier prodigue paye de superbes funérailles,<note
                                     type="definition" resp="#maximebb">Blablabla</note></seg> et
                             dévore le reste.</p>
