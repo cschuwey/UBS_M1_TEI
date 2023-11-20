@@ -17,6 +17,9 @@
                 <listPerson>
                     <!-- data.bnf --> <!-- peu de personnes trouvées -->
                     <person>
+                        <name xml:id="les_camus">MM. Le Camus</name>
+                    </person>
+                    <person>
                         <name xml:id="Le_Camus1">Jehan Le Camus</name>
                         <!--https://www.persee.fr/doc/pharm_0035-2349_2010_num_97_368_22241-->
                     </person>
@@ -118,6 +121,10 @@
                 <bibl xml:id="cle_manuscrite">
                     <title>Clé manuscrite</title>
                 </bibl>
+                
+                <bibl xml:id="cle_servois">
+                    <title>Servois</title>
+                </bibl>
             </sourceDesc>
         </fileDesc>
 
@@ -197,10 +204,13 @@
             <change when="2023-10-19">Fin de la structuration des remarques</change>
             <change when="2023-10-24">Ajout des remarques 1 à 21 du chapitre "De Quelques Usages"
             </change>
-            <change when="2023-11-07">Début de signalement de déplacement de remarques entre les deux éditons, dans le chapitre "De Queqlues Usages"</change>
+            <change when="2023-11-13">Début de signalement de déplacement de remarques entre les deux éditons, dans le chapitre "De Quelques Usages"</change>
+            <change when="2023-11-17">Ajout de l'élement "g" à la remarque 77 du chapitre "Du Coeur" suite à un oubli</change>
             <change when="2023-11-17">Création de la liste de personnes citées dans les clés</change>
             <change when="2023-11-17">Ajout des éléments "bibl" se rapportant aux clés de lecture</change>
             <change when="2023-11-17">Ajout de quelques notes personnelles à l'aide de la balise "<!-- -->" pour ne pas me perdre dans le document</change>
+            <change when="2023-11-20">Ajout des éléments "pb"</change>
+            <change when="2023-11-20">Ajout de quelques clés dane le chapitre "De Quelques Usages", étant donné qu'il n'y en a pas dans les remarques ici présentes du chapitre "Du Coeur"</change>
             
         </revisionDesc>
 
@@ -254,7 +264,7 @@
                     </div3>
 
                     <div3 n="81" source="#Edition9">
-                        <p><g ref="#PDM"/>❡ Il faut être bien dénué d’esprit, si <seg>l’amour, la malignité, la nécessité <note type="explication" resp="#Masselot"> Enumération</note></seg>
+                        <p><g ref="#PDM"/>❡ Il faut être bien dénué d’esprit, si <seg>l’amour, <pb n="83" source="#Edition1"/> la malignité, la nécessité <note type="explication" resp="#Masselot"> Enumération</note></seg>
                             n’en font pas trouver.</p>
                     </div3>
 
@@ -262,7 +272,7 @@
                         <p><g ref="#PDM"/>❡ Il y a des lieux que l’on admire : il y en a d’autres qui touchent, et où
                             l’on aimerait à vivre.</p>
                         <p>Il me semble que l’on dépend des lieux pour l’esprit, l’humeur, la
-                            passion, le goût et les sentiments.</p>
+                            passion, le goût et les sentiments.</p> 
                     </div3>
 
                     <div3 n="83" source="#Edition9">
@@ -318,7 +328,7 @@
                     </div3>
                         
                         <div3 n="3" source="#Edition1">  
-                            <p><g ref="#PDM"/>❡ Le besoin d’argent a réconcilié la noblesse avec la roture, et a fait évanouir la preuve des quatre quartiers.</p>
+                            <p><g ref="#PDM"/>❡ Le besoin d’argent a réconcilié la noblesse avec la roture, et a fait évanouir la preu- <pb n="325" source="#Edition1"/>/>ve des quatre quartiers.</p>
                             
                         </div3>
 
@@ -358,8 +368,8 @@
                             minuties, on passe droit aux couronnes, cela est plus simple ; on s’en
                             croit digne, on se les adjuge. Il reste encore aux meilleurs bourgeois
                             une certaine pudeur qui les empêche de se parer d’une couronne de
-                            marquis, trop satisfaits de la comtale ; quelques-uns même ne vont pas
-                            la chercher fort loin, et la font passer de leur enseigne à leur
+                            marquis, trop satisfaits de la comtale ; <seg> <note type="cle" source="#cles_xviii"> Allusion au pémican que portent pour armes MM. Le Camus, selon les clés du XVIIIe s. Sur les trois Le Camus, cf "Des Biens de Fortune" <g ref="#PDM"/>12 (Clitiphon) et clé.</note><seg> <note type="cle" source="#cle_servois">L'attaque vise plutôt, selon Servois (III-1, 375), les Bazin qui avaient pris pour armes les trois couronnes de leur enseigne. CF. Saint-Simon (IV, 690; V, 662). Claude Bazin, sieur de Besons, était académicien, et mourut en 1684.</note><persName ref="#les_camus"><persName ref="#les_bazin">quelques-uns</persName></persName> même ne vont pas
+                                la chercher</seg></seg> fort loin, et la font passer de leur enseigne à leur
                             carrosse.</p>
                     </div3>
 
@@ -382,11 +392,11 @@
                     </div3>
 
                     <div3 n="8" source="#Edition9">
-                        <p><g ref="#PDM"/>❡ Les grands en toutes choses se forment et se moulent sur de plus grands,
+                        <p><g ref="#PDM"/>❡ <seg>Les grands en toutes choses se forment et se moulent sur de plus grands,
                             qui de leur part, pour n’avoir rien de commun avec leurs inférieurs,
                             renoncent volontiers à toutes les rubriques d’honneurs et de
                             distinctions dont leur condition se trouve chargée, et préfèrent à cette
-                            servitude une vie plus libre et plus commode. Ceux qui suivent leur
+                            servitude une vie plus libre et plus commode.<note type="cle" source="#cles_xviii"> "Allusion à ce que feu Monsieur [Philippe d'Orléans, frère de Louis XIV, mort en 1701], pour s'approcher de Monseigneur le Dauphin, ne voulut plus qu'on le traitât d'Altesse Royale, mais qu'on lui parlât par Vous, comme l'on faisait à Monseigneur et aux enfants de France. Les autre princes, à son exemple, ne veulent pas être traités d'Altesse mais simplement de Vous</note></seg> Ceux qui suivent leur
                             piste observent déjà par émulation cette simplicité et cette modestie :
                             tous ainsi se réduiront par hauteur à vivre naturellement et comme le
                             peuple. Horrible inconvénient !</p>
@@ -409,7 +419,7 @@
                             c’est venir de loin.</p>
                     </div3>
 
-                    <div3 n="10" source="#Edition1 #Edition9">
+                    <div3 n="10" source="#Edition9">
                         <p><g ref="#PDM"/>❡ Le besoin d’argent a réconcilié la noblesse avec la roture, et a fait
                             évanouir la preuve des quatre quartiers.</p>
                     </div3>
