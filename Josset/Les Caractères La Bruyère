@@ -9,13 +9,14 @@
             <publicationStmt>
                 <publisher xml:id="Josset">Josset Juliette</publisher>
                 <authority>UBS</authority>
-                <date when-iso="2023-10-11">10/11:23023</date>
+                <date when-iso="2023-10-11">10/11/2023</date>
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr xml:id="edition10">
                         <title>Les caractères de Théophraste , traduits du grec, avec Les caractères
                             ou les moeurs de ce siècle</title>
+                        <author>La Bruyère</author>
                         <edition>Dixième édition</edition>
                         <idno type="URL"
                             >https://gallica.bnf.fr/ark:/12148/bpt6k55032388/f137.item</idno>
@@ -28,6 +29,7 @@
                     <monogr xml:id="edition8">
                         <title> Les caracteres de Theophraste traduits du grec : avec Les caracteres
                             ou Les moeurs de ce siecle</title>
+                        <author>La Bruyère</author>
                         <edition>Huitième édition</edition>
                         <idno type="URL"
                             >https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100729370/IMG00000236#</idno>
@@ -39,6 +41,8 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
+
+
                 <listPerson>
                     <person xml:id="Criton">
                         <name>Criton</name>
@@ -100,8 +104,9 @@
                         et celle de 1696 (TEI Header).</p>
                 </normalization>
             </editorialDecl>
-
         </encodingDesc>
+
+
         <profileDesc>
             <langUsage>
                 <language ident="FRA">Français</language>
@@ -121,7 +126,7 @@
                 maquante (lui-luy/user-ufer/veuille-veüille), toutes spécifiques à l'édition 8.
                 Ajout des @source dans chaque p et correction de la structure globale. Ajout des pb
                 et source dechaque pb. Invention de 2 notes key et enrichissement du TEIHeader avec
-                les </change>
+                des attributs.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -169,22 +174,24 @@
                             dont la femme, par son collier de perles, s’est fait des ennemies de
                             toutes les dames du voisinage. Tout se soutient dans cet homme ; rien
                             encore ne se dément dans cette grandeur qu’il a acquise, dont il ne doit
-                            rien, qu’il a payée. Que son père, si vieux et si caduc, n’est-il mort
-                            il y a vingt ans et avant qu’il se fît dans le monde aucune mention de
-                            Périandre ! Comment pourra-t-il soutenir ces odieuses <seg>pancartes
-                                    <note resp="#laBruyère" place="margin" type="glossaire"
-                                    source="#edition8">PANCARTES. Billets d'enterrement (note de la
-                                    Bruyère).</note></seg> qui déchiffrent les conditions et qui
-                            souvent font rougir la veuve et les héritiers ? Les supprimera-t-il aux
-                            yeux de toute une ville jalouse, maligne, clairvoyante, et aux dépens de
-                            mille gens qui veulent absolument aller tenir leur rang à des obsèques ?
-                            Veut-on d’ailleurs qu’il fasse de son père un Noble homme, et peut-être
-                            un Honorable homme, lui qui est <seg>Messire ?<note resp="#laBruyère"
-                                    place="margin" type="glossaire" source="#edition8">MESSIRE.
-                                    Noble homme était le titre que prenaient, dans les contrats, les
-                                    bourgeois de quelque importance. Le petit bourgeois, le
-                                    marchand, l'artisan s'intitulaient honorable homme, le titre de
-                                    messire était réservé aux personnes de qualité.</note></seg>
+                            rien, qu’il a payée. Que son père, si vieux et si <seg>caduc<note
+                                    type="key">Qui a cessé d'être valable, d'avoir cours ; périmé,
+                                    désuet.</note></seg>, n’est-il mort il y a vingt ans et avant
+                            qu’il se fît dans le monde aucune mention de Périandre ! Comment
+                            pourra-t-il soutenir ces odieuses <seg>pancartes <note resp="#laBruyère"
+                                    place="margin" type="glossaire" source="#edition8">PANCARTES.
+                                    Billets d'enterrement (note de la Bruyère).</note></seg> qui
+                            déchiffrent les conditions et qui souvent font rougir la veuve et les
+                            héritiers ? Les supprimera-t-il aux yeux de toute une ville jalouse,
+                            maligne, clairvoyante, et aux dépens de mille gens qui veulent
+                            absolument aller tenir leur rang à des obsèques ? Veut-on d’ailleurs
+                            qu’il fasse de son père un Noble homme, et peut-être un Honorable homme,
+                            lui qui est <seg>Messire ?<note resp="#laBruyère" place="margin"
+                                    type="glossaire" source="#edition8">MESSIRE. Noble homme était
+                                    le titre que prenaient, dans les contrats, les bourgeois de
+                                    quelque importance. Le petit bourgeois, le marchand, l'artisan
+                                    s'intitulaient honorable homme, le titre de messire était
+                                    réservé aux personnes de qualité.</note></seg>
                             <note resp="#Josset"/>
                             <note resp="#laBruyère" type="inform"> lalala</note>
                         </p>
@@ -219,18 +226,18 @@
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="edition8"/>
                             Rien ne fait mieux comprendre le peu de chose que Dieu croit donner aux
                             hommes, en leur abandonnant les richesses, l’argent, les grands
-                                établissements<note resp="#Josset" place="margin" type="glossaire"
-                                source="#edition10">blabla</note> et les autres biens, que la
-                            dispensation qu’il en fait, et le genre d’hommes qui en sont le mieux
-                                <seg>pourvus. <note resp="#laBruyère" place="margin"
-                                    type="information" source="#edition8"> POURVUS. Cf. Bossuet,
-                                    Sermon sur la Providence : Quand, rappelant en mon esprit à la
-                                    mémoire de tous les siècles. Je vois si souvent les grandeurs du
-                                    mond enetre les mains des <seg>impies<note type="key">Personne
-                                            qui insulte à la religion. </note></seg>,...ah !qu'il
-                                    m'est aisé de comprendre que Dieu fait peu d'état de telles
-                                    faveurs et de tous les biens qu'il donne pour la vie préscate !"
-                                </note>
+                                    <seg>établissements<note resp="#Josset" place="margin"
+                                    type="glossaire" source="#edition10">blabla</note></seg>et les
+                            autres biens, que la dispensation qu’il en fait, et le genre d’hommes
+                            qui en sont le mieux <seg>pourvus. <note resp="#laBruyère"
+                                    place="margin" type="information" source="#edition8"> POURVUS.
+                                    Cf. Bossuet, Sermon sur la Providence : Quand, rappelant en mon
+                                    esprit à la mémoire de tous les siècles. Je vois si souvent les
+                                    grandeurs du mond enetre les mains des <seg>impies<note
+                                            resp="#Josset" type="key">Personne qui insulte à la
+                                            religion. </note></seg>,...ah !qu'il m'est aisé de
+                                    comprendre que Dieu fait peu d'état de telles faveurs et de tous
+                                    les biens qu'il donne pour la vie préscate !" </note>
                             </seg>
                         </p>
                     </div3>
@@ -301,14 +308,14 @@
                             livres de rente pour tout bien : c’était là le comble de ses souhaits et
                             sa plus haute ambition ; il l’a dit ainsi, et on s’en souvient. Il
                             arrive, je ne sais par quels chemins, jusques à donner en revenu à l’une
-                            de ses filles, pour sa <seg>dot<note type="key">Bien qu'une femme
-                                    apporte en se mariant.</note></seg>, ce qu’il désirait lui-même
-                            d’avoir en fonds pour toute fortune pendant sa vie. Une pareille somme
-                            est comptée dans ses coffres pour chacun de ses autres enfants qu’il
-                            doit pourvoir, et il a un grand nombre d’enfants ; ce n’est qu’en
-                            avancement <seg>d’hoirie <note resp="#laBruyère" place="margin"
-                                    type="information" source="#edition8">HOIRIES. (...)
-                                    revenir.</note></seg> : il y a d’autres biens à<pb n="117"
+                            de ses filles, pour sa <seg>dot<note resp="#Josset" type="key">Bien
+                                    qu'une femme apporte en se mariant.</note></seg>, ce qu’il
+                            désirait lui-même d’avoir en fonds pour toute fortune pendant sa vie.
+                            Une pareille somme est comptée dans ses coffres pour chacun de ses
+                            autres enfants qu’il doit pourvoir, et il a un grand nombre d’enfants ;
+                            ce n’est qu’en avancement <seg>d’hoirie <note resp="#laBruyère"
+                                    place="margin" type="information" source="#edition8">HOIRIES.
+                                    (...) revenir.</note></seg> : il y a d’autres biens à<pb n="117"
                                 source="#edition10"/> espérer après sa mort. Il vit encore, quoique
                             assez avancé en âge, et il use le reste de ses jours à travailler pour
                             s’enrichir. </p>
