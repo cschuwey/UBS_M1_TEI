@@ -42,6 +42,28 @@
                     <idno>NUMM-57577</idno>
                     <link target="https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f1.item"/>
                 </bibl>
+                <listPerson>
+                    <person xml:id="abbe_le_tourneux">
+                        <name>Nicolas Le Tourneux</name>
+                        <idno>https://data.bnf.fr/ark:/12148/cb119913076</idno>
+                    </person>
+                    <person xml:id="abbe_boileau">
+                        <name>Charles Boileau</name>
+                        <idno>https://data.bnf.fr/ark:/12148/cb10564232d</idno>
+                    </person>
+                    <person xml:id="abbe_flechier">
+                        <name>Esprit Fléchier</name>
+                        <idno>https://data.bnf.fr/ark:/12148/cb11902896d</idno>
+                    </person>
+                    <person xml:id="abbe_antoine_anselme">
+                        <name>Antoine Anselme</name>
+                        <idno>https://data.bnf.fr/ark:/12148/cb12187493w</idno>
+                    </person>
+                    <person xml:id="aacompleter">
+                        <name></name>
+                        <idno></idno>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -90,13 +112,17 @@
                 </glyph>
                 <glyph xml:id="char_manicule_gauche">
                     <mapping>☜</mapping>
-                    <desc>Manicule pointant vers la gauche, sert à, ajouté dans l'édition 8(selon ce
+                    <desc>Manicule pointant vers la gauche, sert à attirer l'attention du lecteur sur un passage, ajouté dans l'édition 8 (selon ce
                         qui a été observé).</desc>
                 </glyph>
                 <glyph xml:id="char_manicule_droite">
                     <mapping>☞</mapping>
-                    <desc>Manicule pointant vers la droite, sert à, ajouté dans l'édition 8(selon ce
+                    <desc>Manicule pointant vers la droite, sert à attirer l'attention du lecteur sur un passage, ajouté dans l'édition 8 (selon ce
                         qui a été observé).</desc>
+                </glyph>
+                <glyph xml:id="tiret">
+                    <mapping>-</mapping>
+                    <desc>Tiret utilisé pour signifier un mot coupé en deux lors d'un changement de page.</desc>
                 </glyph>
             </charDecl>
         </encodingDesc>
@@ -134,7 +160,8 @@
                     présentes dans l'édition 8, elles ont été ajoutées ce jour.</change>
                 <change when-iso="2023-11-07">Début de l'ajout des caractères spéciaux (voir
                     document word).</change>
-                <change when-iso="2023-11-09">Pieds de mouche ajoutés (pas encore les manicules), commencement du signalement des variations.</change>
+                <change when-iso="2023-11-09">Pieds de mouche ajoutés (pas encore les manicules), commencement du signalement des variations (arrêt vers le début/milieu de la remarque 5).</change>
+                <change when-iso="2023-11-13">Rajout de la source des pieds de mouche dans le texte et de à quoi servent les manicules dans l'encodingdesc.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -144,10 +171,12 @@
             <div1>
                 <head>Les Caractères ou les Mœurs de ce Siècle</head>
                 <div2 type="chapitre" n="15">
+                    <pb n="549" source="#edition6"/>
+                    <pb n="642" source="#edition8"/>
                     <head>De la Chaire</head>
                     <div3 type="remarque" n="1" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>Le discours chrétien est devenu un spectacle. Cette
+                            <g ref="#char_pdm1" source="#edition1"/>Le discours chrétien est devenu un spectacle. Cette
                             tristesse évangélique qui en est l’âme ne s’y remarque plus : elle est <app type="print">
                                 <rdgGrp>
                                     <lem>suppléée</lem>
@@ -170,7 +199,7 @@
                     </div3>
                     <div3 type="remarque" n="2" source="#edition1 #edition6 #edition8">
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/>L’éloquence profane est transposée pour ainsi dire
+                            <g ref="#char_pdm1" source="#edition1"/>L’éloquence profane est transposée pour ainsi dire
                             du <app type="print">
                                 <lem>barreau</lem>
                                 <rdg source="#edition6">Barreau</rdg>
@@ -201,9 +230,10 @@
                                 </rdgGrp>
                                 <rdg source="#edition6">jusques au</rdg>
                             </app> pied de l’autel <app type="graphie"><lem>et</lem><rdg source="#edition1">&amp;</rdg><rdg source="#edition6">&amp;</rdg><rdg source="#edition8">&amp;</rdg></app> en la présence des mystères. Celui qui écoute
-                            s’établit juge de celui qui prêche, pour condamner ou pour applaudir, <app type="graphie"><lem>et</lem><rdg source="#edition1">&amp;</rdg><rdg source="#edition6">&amp;</rdg><rdg source="#edition8">&amp;</rdg></app>
+                            s’établit ju<pb n="333" source="#edition1"/>ge de celui qui prêche, pour condamner ou pour applaudir, <app type="graphie"><lem>et</lem><rdg source="#edition1">&amp;</rdg><rdg source="#edition6">&amp;</rdg><rdg source="#edition8">&amp;</rdg></app>
                             n’est pas plus converti par le discours qu’il favorise que par celui
-                            auquel il est contraire. L’orateur plaît aux uns, déplaît aux autres, <app type="graphie"><lem>et</lem><rdg source="#edition1">&amp;</rdg><rdg source="#edition6">&amp;</rdg><rdg source="#edition8">&amp;</rdg></app>
+                            au<pb n="550" source="#edition6" rend="#tiret"/><pb n="643" source="#edition8"/>
+                            quel il est contraire. L’orateur plaît aux uns, déplaît aux autres, <app type="graphie"><lem>et</lem><rdg source="#edition1">&amp;</rdg><rdg source="#edition6">&amp;</rdg><rdg source="#edition8">&amp;</rdg></app>
                             convient avec tous en une chose, que, comme il ne cherche point à les
                             rendre meilleurs, ils ne pensent pas aussi à le devenir.</p>
                         <p source="#edition6 #edition8"> Un apprentif est docile, il écoute son <app type="graphie">
@@ -223,23 +253,23 @@
                     </div3>
                     <div3 type="remarque" n="3" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>Jusqu’à ce qu’il revienne <seg>un homme<note
+                            <g ref="#char_pdm1" source="#edition1"/>Jusqu’à ce qu’il revienne <seg><seg>un homme<note
                                     source="#edition8" place="right" type="manuscrite"
-                                    resp="#anonyme">(Nicolas) Letourneux</note></seg> qui, avec un
+                                    resp="#anonyme">(Nicolas) Letourneux</note></seg><note type="key">Il s'agit de <persName type="key" source="clef_1687" ref="#abbe_le_tourneux">l'abbé Le Tourneux ou Le Tourneur</persName> dans la clef de 1687</note></seg> qui, avec un
                             style nourri des saintes Ecritures, explique au peuple la parole divine
                             uniment <app type="graphie"><lem>et</lem><rdg source="#edition1">&amp;</rdg><rdg source="#edition6">&amp;</rdg><rdg source="#edition8">&amp;</rdg></app> familièrement, les orateurs <app type="graphie"><lem>et</lem><rdg source="#edition1">&amp;</rdg><rdg source="#edition6">&amp;</rdg><rdg source="#edition8">&amp;</rdg></app> les déclamateurs seront
                             suivis.</p>
                     </div3>
                     <div3 type="remarque" n="4" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>Les citations profanes, les froides allusions, le
+                            <g ref="#char_pdm1" source="#edition1"/>Les citations profanes, les froides allusions, le
                             mauvais pathétique, les antithèses, les figures outrées ont fini : les
                             portraits finiront, <app type="graphie"><lem>et</lem><rdg source="#edition1">&amp;</rdg><rdg source="#edition6">&amp;</rdg><rdg source="#edition8">&amp;</rdg></app> feront place à une simple explication de
-                            l’Evangile, jointe aux mouvements qui inspirent la conversion.</p>
+                            l’Evangile, jointe aux mouve<pb n="334" source="#edition1"/>ments qui inspirent la conversion.</p>
                     </div3>
                     <div3 type="remarque" n="5" source="#edition8">
                         <p source="#edition8">
-                            <g ref="#char_pdm1"/>Cet homme que je <app type="orthographe">
+                            <g ref="#char_pdm1" source="#edition1"/>Cet homme que je <app type="orthographe">
                                 <lem>souhaitais</lem>
                                 <rdg source="#edition8">souhaittois</rdg>
                             </app> impatiemment, <app type="graphie">
@@ -248,7 +278,8 @@
                             </app> que je ne <app type="orthographe">
                                 <lem>daignais</lem>
                                 <rdg source="#edition8">daignois</rdg>
-                            </app> pas espérer de <app type="orthographe"><lem>notre</lem><rdg source="#edition8">nôtre</rdg></app> siècle, est enfin venu. Les <app type="graphie"><lem>courtisans</lem><rdg source="#edition8">Courtisans</rdg></app>, à
+                            </app> pas espérer de <app type="orthographe"><lem>notre</lem><rdg source="#edition8">nôtre</rdg></app> siècle, est enfin<pb n="644" source="#edition8"/>
+                            venu. Les <app type="graphie"><lem>courtisans</lem><rdg source="#edition8">Courtisans</rdg></app>, à
                             force de goût <app type="graphie"><lem>et</lem><rdg source="#edition8">&amp;</rdg></app> de <app type="orthographe"><lem>connaître</lem><rdg source="#edition8">connoître</rdg></app> les bienséances, <app type="orthographe"><lem>lui</lem><rdg source="#edition8">luy</rdg></app> ont applaudi ; ils
                             ont, chose incroyable ! abandonné la <app type="graphie"><lem>chapelle</lem><rdg source="#edition8">Chapelle</rdg></app> du <app type="graphie"><lem>Roi</lem><rdg source="#edition8">Roy</rdg></app>, pour venir
                             entendre avec le peuple la parole de Dieu annoncée par <seg>cet homme
@@ -265,7 +296,8 @@
                             court ceux qui peignent en grand ou en <app type="orthographe"><lem>miniature</lem><rdg source="#edition8">mignature</rdg></app>. Il n’y a pas <app type="orthographe"><lem>longtemps</lem><rdg source="#edition8">long-temps</rdg></app>
                             qu’ils <app type="orthographe"><lem>avaient</lem><rdg source="#edition8">avoient</rdg></app> des <app type="orthographe"><lem>chutes</lem><rdg source="#edition8">chûtes</rdg></app> ou des transitions <app type="orthographe"><lem>ingénieuses</lem><rdg source="#edition8">ingenieuses</rdg></app>, quelquefois
                             même si vives et si aiguës qu’elles <app type="orthographe"><lem>pouvaient</lem><rdg source="#edition8">pouvoient</rdg></app> passer pour <app type="orthographe"><lem>épigrammes</lem><rdg source="#edition8">epigrammes</rdg></app> :
-                            ils les ont adoucies, je l’<app type="print"><lem>avoue</lem><rdg source="#edition8">avouë</rdg></app>, et ce ne sont plus que des madrigaux.
+                            ils les ont adou<pb n="645" source="#edition8" rend="#tiret"/>
+                            cies, je l’<app type="print"><lem>avoue</lem><rdg source="#edition8">avouë</rdg></app>, et ce ne sont plus que des madrigaux.
                             Ils ont <app type="print"><lem>toujours</lem><rdg source="#edition8">toûjours</rdg></app>, d’une nécessité indispensable et géométrique, trois
                             sujets admirables de vos attentions : ils prouveront une telle chose
                             dans la <app type="print"><lem>première</lem><rdg source="#edition8">premiere</rdg></app> partie de leur discours, cette autre dans la seconde
@@ -280,7 +312,8 @@
                             fois. Enfin, pour reprendre et abréger cette division et former un plan…
                             — Encore, dites-vous, et quelles préparations pour un discours de trois
                             quarts d’heure qui leur reste à faire ! Plus ils cherchent à le digérer
-                            et à l’éclaircir, plus ils m’embrouillent. — Je vous crois sans peine,
+                            et à l’éclaircir, plus ils m’embrouillent.<pb n="646" source="#edition8"/>
+                            — Je vous crois sans peine,
                             et c’est l’effet le plus naturel de tout cet amas d’idées qui reviennent
                             à la même, dont ils chargent sans pitié la mémoire de leurs auditeurs.
                             Il semble, à les voir s’opiniâtrer à cet usage, que la grâce de la
@@ -295,12 +328,13 @@
                             leur voix et de leurs familières instructions. Le commun des hommes aime
                             les phrases et les périodes, admire ce qu’il n’entend pas, se suppose
                             instruit, content de décider entre un premier et un second point, ou
-                            entre le dernier sermon et le pénultième.</p>
+                            entre le dernier sermon et le pénultième.<pb n="647" source="#edition8"/>
+                        </p>
                     </div3>
                     <div3 type="remarque" n="6" source="#edition6 #edition8">
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/>Il y a moins d’un siècle qu’un livre français était
-                            un certain nombre de pages latines, où l’on découvrait quelques lignes
+                            <g ref="#char_pdm1" source="#edition1"/>Il y a moins d’un siècle qu’un livre français était
+                            un certain nombre de pages latines, où l’on décou<pb n="551" source="#edition6" rend="#tiret"/>vrait quelques lignes
                             ou quelques mots en notre langue. Les passages, les traits et les
                             citations n’en étaient pas demeurés là : Ovide et Catulle achevaient de
                             décider des mariages et des testaments, et venaient avec les Pandectes
@@ -318,26 +352,27 @@
                     <div3 type="remarque" n="7" source="#edition6 #edition8">
                         <!-- Le caractère 7 de l’édition 8 n’est pas à la même place dans l’édition 6, où il se trouve entre le 25 et le 26. -->
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/>L’on a enfin banni la scolastique de toutes les
-                            chaires des grandes villes, et on l’a reléguée dans les bourgs et dans
+                            <g ref="#char_pdm1" source="#edition1"/>L’on a enfin banni la scolastique de toutes les
+                            chaires des grandes<pb n="648" source="#edition8"/>
+                            villes, et on l’a reléguée dans les bourgs et dans
                             les villages pour l’instruction et pour le salut du laboureur ou du
                             vigneron.</p>
                     </div3>
                     <div3 type="remarque" n="8" source="#edition1 #edition6 #edition8">
                         <!-- dans la première édition, cette remarque n'est pas indépendante et est en fait le 2ème paragraphe de la remarque n°4. -->
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/><seg>C’est avoir de l’esprit<note
+                            <g ref="#char_pdm1" source="#edition1"/><seg>C’est avoir de l’esprit<note
                                     source="#edition8" place="left" type="manuscrite"
                                     resp="#anonyme">L’abbé Bonin, le père (…) de
                                 l’oratoire</note></seg> que de plaire au peuple dans un sermon par
                             un style fleuri, une morale enjouée, des figures réitérées, des traits
-                            brillants et de vives descriptions ; mais ce n’est point en avoir assez.
+                            brillants et de vives descriptions ; mais ce n’est<pb n="552" source="#edition6"/> point en avoir assez.
                             Un meilleur esprit néglige ces ornements étrangers, indignes de servir à
                             l’Evangile : il prêche simplement, fortement, chrétiennement.</p>
                     </div3>
                     <div3 type="remarque" n="9" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/><seg>L’orateur<note source="#edition8" place="left"
+                            <g ref="#char_pdm1" source="#edition1"/><seg>L’orateur<note source="#edition8" place="left"
                                     type="manuscrite" resp="#anonyme">(début partie raturée)L’abbé
                                     Bonin, le père (…) de l’oratoire, le père Bourdalouë (fin partie
                                     raturée)L’abbé Boileau, le père Delaroche</note></seg> fait de
@@ -346,22 +381,23 @@
                             qui pèche, que si je n’ai pas de pente à <seg>vouloir ressembler à ses
                                     portraits<note source="#edition8" place="left" type="manuscrite"
                                     resp="#anonyme"/>Le(…) (André De Montenon de) La Rue</seg>, j’ai
-                            besoin du moins que quelque apôtre, avec un style plus chrétien, me
+                            besoin du moins que quelque apôtre, avec un style plus chré<pb n="335" source="#edition1" rend="#tiret"/>tien, me
                             dégoûte des vices dont l’on m’avait fait une peinture si agréable.</p>
                     </div3>
                     <div3 type="remarque" n="10" source="#edition6 #edition8">
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/>Un beau sermon est un discours oratoire qui est
+                            <g ref="#char_pdm1" source="#edition1"/>Un beau sermon est un discours oratoire qui est
                             dans toutes ses règles, purgé de tous ses défauts, conforme aux
-                            préceptes de l’éloquence humaine, et paré de tous les ornements de la
+                            préceptes de l’éloquence humai<pb n="649" source="#edition8" rend="#tiret"/>
+                            ne, et paré de tous les ornements de la
                             rhétorique. Ceux qui entendent finement n’en perdent pas le moindre
                             trait ni une seule pensée ; ils suivent sans peine l’orateur dans toutes
                             les énumérations où il se promène, comme dans toutes les élévations où
-                            il se jette : ce n’est une énigme que pour le peuple.</p>
+                            il se jette : ce n’est une énigme que pour le peuple.<pb n="553" source="#edition6"/></p>
                     </div3>
                     <div3 type="remarque" n="11" source="#edition6 #edition8">
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/><seg>Le solide et l’admirable discours que celui
+                            <g ref="#char_pdm1" source="#edition1"/><seg>Le solide et l’admirable discours que celui
                                 qu’on vient d’entendre !<note source="#edition8" place="right"
                                     type="manuscrite" resp="#anonyme">Le père Bourdalouë ou selon
                                     quelq(ues) autres l‘abbé flechi(…) ou le père La
@@ -374,20 +410,21 @@
                     </div3>
                     <div3 type="remarque" n="12" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>La morale douce et relâchée tombe avec celui qui la
+                            <g ref="#char_pdm1" source="#edition1"/>La morale douce et relâchée tombe avec celui qui la
                             prêche ; elle n’a rien qui réveille et qui pique la curiosité d’un homme
                             du monde, qui craint moins qu’on ne pense une doctrine sévère, et qui
                             l’aime même dans celui qui fait son devoir en l’annonçant. Il semble
-                            donc qu’il y ait dans l’Eglise comme deux états qui doivent la partager
+                            donc qu’il y ait<pb n="650" source="#edition8"/>
+                            dans l’Eglise comme deux états qui doivent la partager
                             : celui de dire la vérité dans toute son étendue, sans égards, sans
                             déguisement ; celui de l’écouter avidement, avec goût, avec admiration,
                             avec éloges, et de n’en faire cependant ni pis ni mieux.</p>
                     </div3>
                     <div3 type="remarque" n="13" source="#edition6 #edition8">
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/>L’on peut faire ce reproche à l’héroïque vertu des
-                            grands hommes, qu’elle a corrompu l’éloquence, ou du moins amolli le
-                            style de la plupart des pré dicateurs. Au lieu de s’unir seulement avec
+                            <g ref="#char_pdm1" source="#edition1"/>L’on peut faire ce reproche à l’héroïque vertu des
+                            grands hommes,<pb n="554" source="#edition6"/> qu’elle a corrompu l’éloquence, ou du moins amolli le
+                            style de la plupart des prédicateurs. Au lieu de s’unir seulement avec
                             les peuples pour bénir le Ciel de si rares présents qui en sont venus,
                             ils ont entré en société avec les auteurs et les poètes ; et devenus
                             comme eux panégyristes, <seg>ils ont enchéri sur les épîtres
@@ -401,49 +438,51 @@
                             personne n’exige d’eux, et qui ne conviennent point à leur caractère. On
                             est heureux si à l’occasion du héros qu’ils célèbrent jusque dans le
                             sanctuaire, ils disent un mot de Dieu et du mystère qu’ils devaient
-                            prêcher. Il s’en est trouvé quelques-uns qui ayant assujetti le saint
+                            prêcher. Il s’en est trouvé quelques-uns<pb n="651" source="#edition8"/>
+                            qui ayant assujetti le saint
                             Evangile, qui doit être commun à tous, à la présence d’un seul auditeur,
                             se sont vus déconcertés par des hasards qui le retenaient ailleurs,
                             n’ont pu prononcer devant des chrétiens un discours chrétien qui n’était
                             pas fait pour eux, et ont été suppléés par d’autres orateurs, qui n’ont
-                            eu le temps que de louer Dieu dans un sermon précipité.</p>
+                            eu le temps<pb n="555" source="#edition6"/> que de louer Dieu dans un sermon précipité.</p>
                     </div3>
                     <div3 type="remarque" n="14" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>Théodule a moins réussi que quelques-uns de ses
-                            auditeurs ne l’appréhendaient : ils sont contents de lui et de son
+                            <g ref="#char_pdm1" source="#edition1"/><seg>Théodule<note type="key">Il s'agit de <persName type="key" source="clef_1687" ref="abbe_flechier">l'abbé Fléchier</persName> dans la clef de 1687 ou de <persName type="key" source="clef_1687" ref="#abbe_antoine_anselme">l'abbé Antoine Anselme</persName> selon la même clef.</note></seg> a moins réussi que quelques-uns de ses
+                            auditeurs ne l’appréhendaient : ils<pb n="336" source="#edition1"/> sont contents de lui et de son
                             discours ; il a mieux fait à leur gré que de charmer l’esprit et les
                             oreilles, qui est de flatter leur jalousie.</p>
                     </div3>
                     <div3 type="remarque" n="15" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>Le métier de la parole ressemble en une chose à
+                            <g ref="#char_pdm1" source="#edition1"/>Le métier de la parole ressemble en une chose à
                             celui de la guerre : il y a plus de risque qu’ailleurs, mais la fortune
                             y est plus rapide.</p>
                     </div3>
                     <div3 type="remarque" n="16" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>Si vous êtes d’une certaine qualité, et que vous ne
+                            <g ref="#char_pdm1" source="#edition1"/>Si vous êtes d’une certaine qualité, et que vous ne
                             vous sentiez point d’autre talent que celui de faire de froids discours,
                             prêchez, faites de froids discours : il n’y a rien de pire pour sa
                             fortune que d’être entièrement ignoré. <seg>Théodat a été payé de ses
-                                mauvaises phrases et de son ennuyeuse monotonie.<note
+                                mauvaises phrases et de son<pb n="652" source="#edition8"/>
+                                ennuyeuse monotonie.<note
                                     source="#edition8" place="right" type="manuscrite"
                                     resp="#anonyme">Le(…) Labrouë</note></seg>
                         </p>
                     </div3>
                     <div3 type="remarque" n="17" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>L’on a eu de grands évêchés par un mérite de chaire
-                            qui présentement ne vaudrait pas à son homme une simple prébende.</p>
+                            <g ref="#char_pdm1" source="#edition1"/>L’on a eu de grands évêchés par un mérite de chaire
+                            qui présentement ne vaudrait pas à son homme une simple prébende.<pb n="337" source="#edition1"/></p>
                     </div3>
                     <div3 type="remarque" n="18" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>Le nom de <seg>ce panégyriste<note
+                            <g ref="#char_pdm1" source="#edition1"/>Le nom de <seg>ce panégyriste<note
                                     source="#edition8" place="left" type="manuscrite"
                                     resp="#anonyme">(…) aujourd’hui (…)</note></seg> semble gémir
                             sous le poids des titres dont il est accablé ; leur grand nombre remplit
-                            de vastes affiches qui sont distribuées dans les maisons, ou que l’on
+                            de vastes affiches qui sont distri<pb n="556" source="#edition6" rend="#tiret"/>buées dans les maisons, ou que l’on
                             lit par les rues en caractères monstrueux, et qu’on ne peut non plus
                             ignorer que la place publique. Quand sur une si belle montre, l’on a
                             seulement essayé du personnage, et qu’on l’a un peu écouté, l’on
@@ -452,18 +491,19 @@
                     </div3>
                     <div3 type="remarque" n="19" source="#edition8">
                         <p source="#edition8">
-                            <g ref="#char_pdm1"/>L’oisiveté des femmes, et l’habitude qu’ont les
+                            <g ref="#char_pdm1" source="#edition1"/>L’oisiveté des femmes, et l’habitude qu’ont les
                             hommes de les courir partout où elles s’assemblent, donnent du nom à de
                             froids orateurs, et soutiennent quelque temps ceux qui ont décliné.</p>
                     </div3>
                     <div3 type="remarque" n="20" source="#edition6 #edition8">
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/><seg>Devrait-il suffire d’avoir été grand et
+                            <g ref="#char_pdm1" source="#edition1"/><seg>Devrait-il suffire d’avoir été grand et
                                 puissant dans le monde pour être louable ou non<note
                                     source="#edition8" place="left" type="manuscrite"
                                     resp="#anonyme">Contre les (…) funèbres (…) être loué (…) quand
                                     (…) attribuez ou donnez de l’accompagnement de plusieurs autres
-                                    (…)</note></seg>, et, devant le saint autel et dans la chaire de
+                                    (…)</note></seg>, et, devant le saint autel et dans la chaire de<pb n="653" source="#edition8"/>
+                            
                             la vérité, loué et célébré à ses funérailles ? N’y a-t-il point d’autre
                             grandeur que celle qui vient de l’autorité et de la naissance ? Pourquoi
                             n’est-il pas établi de faire publiquement le panégyrique d’un homme qui
@@ -471,29 +511,30 @@
                             dans la fidélité, dans la piété ? Ce qu’on appelle une oraison funèbre
                             n’est aujourd’hui bien reçue du plus grand nombre des auditeurs, qu’à
                             mesure qu’elle s’éloigne davantage du discours chrétien, ou si vous
-                            l’aimez mieux ainsi, qu’elle approche de plus près d’un éloge profane.
+                            l’aimez mieux ainsi, qu’elle approche de plus<pb n="557" source="#edition6"/> près d’un éloge profane.
                         </p>
                     </div3>
                     <div3 type="remarque" n="21" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>L’orateur cherche par ses discours un évêché ;
+                            <g ref="#char_pdm1" source="#edition1"/>L’orateur cherche par ses discours un évêché ;
                             l’apôtre fait des conversions : il mérite de trouver ce que l’autre
                             cherche.</p>
                     </div3>
                     <div3 type="remarque" n="22" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>L’on voit des <seg>clercs<note source="#edition1"
+                            <g ref="#char_pdm1" source="#edition1"/>L’on voit des <seg>clercs<note source="#edition1"
                                     place="below" type="imprime" resp="#labruyere"
                                     >Ecclésiastiques.</note></seg> revenir de quelques provinces où
-                            ils n’ont pas fait un long séjour, vains des conversions qu’ils ont
+                            ils n’ont pas fait un long séjour,<pb n="338" source="#edition1"/> vains des conversions qu’ils ont
                             trouvées toutes faites, comme de celles qu’ils n’ont pu faire, se
                             comparer déjà aux Vincents et aux Xaviers, et se croire des hommes
-                            apostoliques : de si grands travaux et de si heureuses missions ne
+                            apostoliques : de si grands travaux et de si heureuses<pb n="654" source="#edition8"/>
+                            missions ne
                             seraient pas à leur gré payés d’une abbaye.</p>
                     </div3>
                     <div3 type="remarque" n="23" source="#edition8">
                         <p source="#edition8">
-                            <g ref="#char_pdm1"/><seg>Tel tout d’un coup<note source="#edition8"
+                            <g ref="#char_pdm1" source="#edition1"/><seg>Tel tout d’un coup<note source="#edition8"
                                     place="left" type="manuscrite" resp="#anonyme">(Annotation
                                     illisible.)</note></seg>, et sans y avoir pensé la veille, prend
                             du papier, une plume, dit en soimême : « Je vais faire un livre », sans
@@ -509,14 +550,15 @@
                             n’est ni contre la religion ni contre l’Etat, et qu’il ne fera point
                             d’autre désordre dans le public que de lui gâter le goût et l’accoutumer
                             aux choses fades et insipides, il passe à l’examen, il est imprimé, et à
-                            la honte du siècle, comme pour l’humiliation des bons auteurs,
+                            la honte du siècle, comme pour l’hu<pb n="655" source="#edition8" rend="#tiret"/>
+                            miliation des bons auteurs,
                             réimprimé. De même un homme dit en son cœur : « Je prêcherai », et il
                             prêche ; le voilà en chaire, sans autre talent ni vocation que le besoin
                             d’un bénéfice.</p>
                     </div3>
                     <div3 type="remarque" n="24" source="#edition1 #edition6 #edition8">
                         <p source="#edition1 #edition6 #edition8">
-                            <g ref="#char_pdm1"/>Un clerc mondain ou irréligieux, s’il monte en
+                            <g ref="#char_pdm1" source="#edition1"/>Un clerc mondain ou irréligieux, s’il monte en
                             chaire, est déclamateur.</p>
                         <p source="#edition1 #edition6 #edition8"> Il y a au contraire des hommes
                             saints, et dont le seul caractère est efficace pour la persuasion : ils
@@ -526,23 +568,24 @@
                     </div3>
                     <div3 type="remarque" n="25" source="#edition6 #edition8">
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/>L’. de Meaux et le P. Bourdaloue me rappellent
-                            Démosthène et Cicéron. Tous deux, maîtres dans l’éloquence de la chaire,
+                            <g ref="#char_pdm1" source="#edition1"/>L’. de Meaux et le P. Bourdaloue me rappellent
+                            Démosthène et<pb n="558" source="#edition6"/> Cicéron. Tous deux, maîtres dans l’éloquence de la chaire,
                             ont eu le destin des grands modèles : l’un a fait de mauvais censeurs,
                             l’autre de mauvais copistes.</p>
                     </div3>
                     <div3 type="remarque" n="26" source="#edition6 #edition8">
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/>L’éloquence de la chaire, en ce qui y entre
+                            <g ref="#char_pdm1" source="#edition1"/>L’éloquence de la chaire, en ce qui y entre
                             d’humain et du talent de l’orateur, est cachée, connue de peu de
                             personnes et d’une difficile exécution : quel art en ce genre pour
-                            plaire en persuadant ! Il faut marcher par des chemins battus, dire ce
+                            plai<pb n="656" source="#edition8" rend="#tiret"/>
+                            re en persuadant ! Il faut marcher par des chemins battus, dire ce
                             qui a été dit, et ce que l’on prévoit que vous allez dire. Les matières
                             sont grandes, mais usées et triviales ; les principes sûrs, mais dont
                             les auditeurs pénètrent les conclusions d’une seule vue. Il y entre des
                             sujets qui sont sublimes ; mais qui peut traiter le sublime ? Il y a des
                             mystères que l’on doit expliquer, et qui s’expliquent mieux par une
-                            leçon de l’école que par un discours oratoire. La morale même de la
+                            leçon de l’école que par un discours oratoire. La morale<pb n="559" source="#edition6"/> même de la
                             chaire, qui comprend une matière aussi vaste et aussi diversifiée que le
                             sont les mœurs des hommes, roule sur les mêmes pivots, retrace les mêmes
                             images, et se prescrit des bornes bien plus étroites que la satire :
@@ -551,14 +594,15 @@
                             discours et à congédier l’assemblée. Si quelquefois on pleure, si on est
                             ému, après avoir fait attention au génie et au caractère de ceux qui
                             font pleurer, peut-être conviendra-t-on que c’est la matière qui se
-                            prêche elle-même, et notre intérêt le plus capital qui se fait sentir ;
+                            prêche elle-même,<pb n="657" source="#edition8"/>
+                            et notre intérêt le plus capital qui se fait sentir ;
                             que c’est moins une véritable éloquence que la ferme poitrine du
                             missionnaire qui nous ébranle et qui cause en nous ces mouvements. Enfin
                             le prédicateur n’est point soutenu, comme l’avocat, par des faits
                             toujours nouveaux, par de différents événements, par des aventures
                             inouïes ; il ne s’exerce point sur les questions douteuses, il ne fait
                             point valoir les violentes conjectures et les présomptions, toutes
-                            choses néanmoins qui élèvent le génie, lui donnent de la force et de
+                            choses néan<pb n="560" source="#edition6" rend="#tiret"/>moins qui élèvent le génie, lui donnent de la force et de
                             l’étendue, et qui contraignent bien moins l’éloquence qu’elles ne la
                             fixent et ne la dirigent. Il doit au contraire tirer son discours d’une
                             source commune, et où tout le monde puise ; et s’il s’écarte de ces
@@ -566,14 +610,15 @@
                             il ne prêche plus l’Evangile. Il n’a besoin que d’une noble simplicité,
                             mais il faut l’atteindre, talent rare, et qui passe les forces du commun
                             des hommes : ce qu’ils ont de génie, d’imagination, d’érudition et de
-                            mémoire, ne leur sert souvent qu’à s’en éloigner.</p>
+                            mémoire, ne leur sert souvent qu’à s’en éloigner.<pb n="658" source="#edition8"/>
+                        </p>
                         <p source="#edition6 #edition8"> La fonction de l’avocat est pénible,
                             laborieuse, et suppose, dans celui qui l’exerce, un riche fonds et de
                             grandes ressources. Il n’est pas seulement chargé, comme le prédicateur,
                             d’un certain nombre d’oraisons composées avec loisir, récitées de
                             mémoire, avec autorité, sans contradicteurs, et qui, avec de médiocres
                             changements, lui font honneur plus d’une fois ; il prononce de graves
-                            plaidoyers devant des juges qui peuvent lui imposer silence, et conte
+                            plaidoyers devant des juges qui peu<pb n="561" source="#edition6" rend="#tiret"/>vent lui imposer silence, et conte
                             des adversaires qui l’interrompent ; il doit être prêt sur la réplique ;
                             il parle en un même jour, dans divers tribunaux, de différentes
                             affaires. Sa maison n’est pas pour lui un lieu de repos et de retraite,
@@ -582,26 +627,28 @@
                             pas au lit, on ne l’essuie point, on ne lui prépare point des
                             rafraîchissements ; il ne se fait point dans sa chambre un concours de
                             monde de tous les états et de tous les sexes, pour le féliciter sur
-                            l’agrément et sur la politesse de son langage, lui remettre l’esprit sur
+                            l’agrément et sur la politesse de son langa<pb n="659" source="#edition8" rend="#tiret"/>
+                            ge, lui remettre l’esprit sur
                             un endroit où il a couru risque de demeurer court, ou sur un scrupule
                             qu’il a sur le chevet d’avoir plaidé moins vivement qu’à l’ordinaire. Il
                             se délasse d’un long discours par de plus longs écrits, il ne fait que
                             changer de travaux et de fatigues : j’ose dire qu’il est dans son genre
                             ce qu’étaient dans le leur les premiers hommes apostoliques.</p>
                         <p source="#edition6 #edition8"> Quand on a ainsi distingué l’éloquence du
-                            barreau de la fonction de l’avocat, et l’éloquence de la chaire du
+                            barreau de la fonction de<pb n="562" source="#edition6" rend="#tiret"/> l’avocat, et l’éloquence de la chaire du
                             ministère du prédicateur, on croit voir qu’il est plus aisé de prêcher
                             que de plaider, et plus difficile de bien prêcher que de bien plaider.
                         </p>
                     </div3>
                     <div3 type="remarque" n="27" source="#edition8">
                         <p source="#edition8">
-                            <g ref="#char_pdm1"/>Quel avantage n’a pas un discours prononcé sur un
+                            <g ref="#char_pdm1" source="#edition1"/>Quel avantage n’a pas un discours prononcé sur un
                             ouvrage qui est écrit ! Les hommes sont les dupes de l’action et de la
                             parole, comme de tout l’appareil de l’auditoire. Pour peu de prévention
                             qu’ils aient en faveur de celui qui parle, ils l’admirent, et cherchent
                             ensuite à le comprendre : avant qu’il ait commencé, ils s’écrient qu’il
-                            va bien faire ; ils s’endorment bientôt, et le discours fini, ils se
+                            va bien faire ; ils s’endorment bientôt, et le discours<pb n="660" source="#edition8"/>
+                            fini, ils se
                             réveillent pour dire qu’il a bien fait. On se passionne moins pour un
                             auteur : son ouvrage est lu dans le loisir de la campagne, ou dans le
                             silence du cabinet ; il n’y a point de rendez-vous publics pour lui
@@ -617,7 +664,8 @@
                             diverti, et on ne quitte ce livre que parce qu’il est bon. Tout le monde
                             ne se donne pas pour orateur : les phrases, les figures, le don de la
                             mémoire, la robe ou l’engagement de celui qui prêche, ne sont pas des
-                            choses qu’on ose ou qu’on veuille toujours s’approprier. Chacun au
+                            choses qu’on<pb n="661" source="#edition8"/>
+                            ose ou qu’on veuille toujours s’approprier. Chacun au
                             contraire croit penser bien, et écrire encore mieux ce qu’il a pensé ;
                             il en est moins favorable à celui qui pense et qui écrit aussi bien que
                             lui. En un mot le sermonneur est plus tôt évêque que le plus solide
@@ -627,7 +675,7 @@
                     </div3>
                     <div3 type="remarque" n="28" source="#edition8">
                         <p source="#edition8">
-                            <g ref="#char_pdm1"/>S’il arrive que les méchants vous haïssent et vous
+                            <g ref="#char_pdm1" source="#edition1"/>S’il arrive que les méchants vous haïssent et vous
                             persécutent, les gens de bien vous conseillent de vous humilier devant
                             Dieu, pour vous mettre en garde contre la vanité qui pourrait vous venir
                             de déplaire à des gens de ce caractère ; de même si certains hommes,
@@ -639,9 +687,10 @@
                     </div3>
                     <div3 type="remarque" n="29" source="#edition6 #edition8">
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/>Il me semble qu’<seg>un prédicateur<note
+                            <g ref="#char_pdm1" source="#edition1"/>Il me semble qu’<seg>un prédicateur<note
                                     source="#edition8" place="right" type="manuscrite"
-                                    resp="#anonyme">Le père de La Rue</note></seg> devrait faire
+                                    resp="#anonyme">Le père de La Rue</note></seg><pb n="662" source="#edition8"/>
+                            devrait faire
                             choix dans chaque discours d’une vérité unique, mais capitale, terrible
                             ou instructive, la manier à fond et l’épuiser ; abandonner toutes ces
                             divisions si recherchées, si retournées, si remaniées et si
@@ -654,22 +703,26 @@
                             se livrer, après une certaine préparation, à son génie et au mouvement
                             qu’un grand sujet peut inspirer : qu’il pourrait enfin s’épargner ces
                             prodigieux efforts de mémoire qui ressemblent mieux à une gageure qu’à
-                            une affaire sérieuse, qui corrompent le geste et défigurent le visage ;
+                            une affaire<pb n="563" source="#edition6"/> sérieuse, qui corrompent le geste et défigurent le visage ;
                             jeter au contraire, par un bel enthousiasme, la persuasion dans les
                             esprits et l’alarme dans le cœur, et toucher ses auditeurs d’une tout
-                            autre crainte que de celle de le voir demeurer court.</p>
+                            autre crainte que de<pb n="663" source="#edition8"/>
+                            celle de le voir demeurer court.</p>
                     </div3>
                     <div3 type="remarque" n="30" source="#edition6 #edition8">
                         <p source="#edition6 #edition8">
-                            <g ref="#char_pdm1"/>Que celui qui n’est pas encore assez parfait pour
+                            <g ref="#char_pdm1" source="#edition1"/>Que celui qui n’est pas encore assez parfait pour
                             s’oublier soi-même dans le ministère de la parole sainte ne se décourage
                             point par les règles austères qu’on lui prescrit, comme si elles lui
                             ôtaient les moyens de faire montre de son esprit, et de monter aux
                             dignités où il aspire : quel plus beau talent que celui de prêcher
                             apostoliquement ? et quel autre mérite mieux un évêché ? Fénelon en
                             était-il indigne ? aurait-il pu échapper au choix du Prince que par un
-                            autre choix ? </p>
+                            autre choix ?</p>
                     </div3>
+                    <pb n="564" source="#edition6"/>
+                    <pb n="664" source="#edition8"/>
+                    <!-- Fin du chapitre en bas de page du coup on signale le changement de page ici pour l'édition 6. -->
                 </div2>
             </div1>
         </body>
