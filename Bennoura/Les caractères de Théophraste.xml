@@ -97,12 +97,12 @@
                     <idno type="URL"
                         >https://gallica.bnf.fr/ark:/12148/bpt6k5529184k/f233.item.r=Les%20caract%C3%A8res%20de%20Th%C3%A9ophraste%20traduits%20du%20grec%2017#</idno>
                 </bibl>
-                <bibl type="clé" xml:id="Sanions"/>
-                <bibl type="clé" xml:id="Cripsins"/>
-                <bibl type="clé" xml:id="Robert"/>
-                <bibl type="clé" xml:id="Briffe"/>
-                <bibl type="clé" xml:id="filsMesme"/>
-                <bibl type="clé" xml:id="pèreMesme"/>
+                <bibl xml:id="Cléescola" xml:lang="fr">
+                    <title>Clé La Bruyère</title>
+                    <author>Escola</author>
+                    <idno type="URL"
+                        >https://moodle.univ-ubs.fr/pluginfile.php/651932/mod_resource/content/0/Bruy%C3%83%C2%A8re%20-%20Cles%20-%20Escola.pdf</idno>
+                </bibl>
                 <listPerson>
                     <person xml:id="Ménalippe">
                         <occupation>Amazonne</occupation>
@@ -122,6 +122,14 @@
                     </personGrp>
                     <personGrp xml:id="Gomons"/>
                     <personGrp xml:id="Duhamels"/>
+                </listPerson>
+                <listPerson type="pseudonyme">
+                    <person xml:id="Sanions"/>
+                    <person xml:id="Cripsins"/>
+                    <person xml:id="Robert"/>
+                    <person xml:id="Briffe"/>
+                    <person xml:id="filsMesme"/>
+                    <person xml:id="PèreMesme"/>
                 </listPerson>
                 <listPlace>
                     <place xml:id="Vincenne"/>
@@ -199,7 +207,8 @@
                 les variantes que j'ai constaté entre les différentes éditions</change>
             <change when="2023-11-12" who="Djewel">J'ai corrigé mon erreur suite à ma méprise pour
                 la balise app.</change>
-            <change when="2023-11-19" who="Djewel">Rajout des clés et des listplace et listperson.</change>
+            <change when="2023-11-19" who="Djewel">Rajout des clés et des listplace et
+                listperson.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -291,10 +300,12 @@
                             grande et la petite robe ; et la première se venge sur l’autre des
                             dédains de la cour, et des petites humiliations qu’elle y essuie. De
                             savoir quelles sont leurs limites, où la grande finit, et où la petite
-                            commence, ce n’est pas une chose facile. Il se trouve même <app>
-                                <lem><seg>un corps considérable qui refuse d’être du second
-                                        ordre</seg></lem>
-                                <rdg wit="#Robert" source="#ed1">Maitre Louis Robert avocat</rdg>
+                            commence, ce n’est pas une chose facile. Il se trouve même <app
+                                type="clé">
+                                <lem><seg><persName type="pseudo" ref="#Robert">un corps
+                                            considérable qui refuse d’être du second
+                                            ordre</persName></seg></lem>
+                                <rdg wit="#Cléescola" cert="medium">Maitre Louis Robert avocat</rdg>
                             </app>, et à qui l’on conteste le premier : il ne se rend pas néanmoins,
                             il cherche au contraire, par la gravité et par la dépense, à s’égaler à
                             la magistrature, ou ne lui cède qu’avec peine : on l’entend dire que la
@@ -310,10 +321,11 @@
                             carrosse, ou peut-être <pb n="184" source="#ed4"/> de vous y reposer ?
                             Vite, prenez votre livre ou vos papiers, lisez, ne saluez qu’à peine ces
                             gens qui passent dans leur équipage ; ils vous en croiront plus occupé ;
-                            ils diront : <app>
-                                <lem><seg>"Cet homme est laborieux, infatigable ; il lit, il
-                                        travaille jusque dans les rues ou sur la route."</seg></lem>
-                                <rdg wit="#Briffe" source="#ed3">Monsieur de la Briffe, procureur
+                            ils diront : <app type="clé">
+                                <lem><seg><persName type="pseudo" ref="#Briffe">"Cet homme est
+                                            laborieux, infatigable ; il lit, il travaille jusque
+                                            dans les rues ou sur la route."</persName></seg></lem>
+                                <rdg wit="#Cléescola" cert="low">Monsieur de la Briffe, procureur
                                     générale</rdg>
                             </app> Apprenez du moindre avocat qu’il faut paraître accablé
                             d’affaires, froncer le sourcil, et rêver à rien très profondément ;
@@ -321,15 +333,17 @@
                             sa maison, s’évanouir <pb n="196" source="#ed3" rend="tiret"/> et se
                             perdre comme un fantôme dans le sombre de son cabinet ; se cacher au
                             public, éviter le théâtre, le laisser à ceux qui ne courent aucun risque
-                            à s’y montrer, qui en ont à peine le loisir, aux <persName ref="#Gomons">Gomons</persName>, aux
-                            <persName ref="#Duhamels">Duhamels</persName>.</p>
+                            à s’y montrer, qui en ont à peine le loisir, aux <persName ref="#Gomons"
+                                >Gomons</persName>, aux <persName ref="#Duhamels"
+                                >Duhamels</persName>.</p>
                     </div3>
                     <div3 type="remarque" n="7" source="#ed2 #ed3" change="#ed2">
                         <p><g source="#ed2 #ed3" ref="#char_pdm"/> Il y a un certain nombre de
                             jeunes magistrats que les grands biens et les plaisirs ont associés à
-                            quelques-uns de ceux qu’on nomme à la cour de <app>
-                                <lem><seg>petits-maîtres</seg></lem>
-                                <rdg wit="#filsMesme" source="#ed2">M. le président de Mesme et
+                            quelques-uns de ceux qu’on nomme à la cour de <app type="clé">
+                                <lem><seg><persName type="pseudo" ref="#filsMesme"
+                                            >petits-maîtres</persName></seg></lem>
+                                <rdg wit="#Cléescola" cert="medium">M. le président de Mesme et
                                     autres</rdg>
                             </app> : ils les imitent, ils se tiennent fort au-dessus de la gravité
                             de la robe, et se croient dispensés par leur âge et par leur fortune
@@ -342,10 +356,11 @@
                     </div3>
                     <div3 type="remarque" n="8" source="#ed2 #ed3" change="#ed2">
                         <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/>
-                            <app>
-                                <lem><seg>Un homme de robe à la ville, et le même à la cour, ce sont
-                                        deux hommes</seg></lem>
-                                <rdg wit="#pèreMesme" source="#ed2">Jean-Jacques de Mesmes</rdg>
+                            <app type="clé">
+                                <lem><seg><persName type="pseudo" ref="#PèreMesme">Un homme de robe
+                                            à la ville, et le même à la cour, ce sont deux
+                                            hommes</persName></seg></lem>
+                                <rdg wit="#Cléescola" cert="medium">Jean-Jacques de Mesmes</rdg>
                             </app>. Revenu chez soi, il reprend ses mœurs, sa taille et son visage,
                             qu’il y avait laissés : il n’est plus ni si embarrassé, ni si
                             honnête.</p>
@@ -369,27 +384,31 @@
                             "Même nom, mêmes armes ; la branche aînée, la branche cadette, les
                             cadets de la seconde branche ; ceux-là, portent les armes pleines,
                             ceux-ci brisent <pb n="197" source="#ed3"/> d’un lambel, et les autres
-                            d’une bordure dentelée." Ils ont avec les <persName ref="#Bourbons">Bourbons</persName>, sur une même
-                            couleur, un même métal ; ils portent, comme eux, deux et une : ce ne
-                            sont pas des fleurs de lis, mais ils s’en consolent ; peut-être dans
-                            leur cœur trouvent-ils leurs pièces aussi honorables, et ils les ont
-                            communes avec de grands seigneurs qui en sont contents : on les voit sur
-                            les litres et<pb n="186" source="#ed4"/> sur les vitrages, sur la porte
-                            de leur château, sur le pilier de leur haute-justice, où ils viennent de
-                            faire pendre un homme qui méritait le bannissement ; elles s’offrent aux
-                            yeux de toutes parts, elles sont sur les meubles et sur les serrures,
-                            elles sont semées sur les carrosses ; leurs livrées ne déshonorent point
-                            leurs armoiries. Je dirais volontiers aux Sannions : "Votre folie est
-                            prématurée ; attendez du moins que le siècle s’achève sur votre race ;
-                            ceux qui ont vu votre grand-père, qui lui ont parlé, sont vieux, et ne
-                            sauraient plus vivre longtemps. Qui pourra dire comme eux : "Là il
-                            étalait, et vendait très cher" ?</p>
-                        <p><app>
-                                <lem><seg>Les Sannions</seg></lem>
-                                <rdg wit="#Sanions" source="#ed2">Leclerc de Lessevilles</rdg>
-                            </app> et <app>
-                                <lem><seg>les Crispins</seg></lem>
-                                <rdg wit="#Cripsins" source="#ed1">MM. Charpentier ou Mallot</rdg>
+                            d’une bordure dentelée." Ils ont avec les <persName ref="#Bourbons"
+                                >Bourbons</persName>, sur une même couleur, un même métal ; ils
+                            portent, comme eux, deux et une : ce ne sont pas des fleurs de lis, mais
+                            ils s’en consolent ; peut-être dans leur cœur trouvent-ils leurs pièces
+                            aussi honorables, et ils les ont communes avec de grands seigneurs qui
+                            en sont contents : on les voit sur les litres et<pb n="186"
+                                source="#ed4"/> sur les vitrages, sur la porte de leur château, sur
+                            le pilier de leur haute-justice, où ils viennent de faire pendre un
+                            homme qui méritait le bannissement ; elles s’offrent aux yeux de toutes
+                            parts, elles sont sur les meubles et sur les serrures, elles sont semées
+                            sur les carrosses ; leurs livrées ne déshonorent point leurs armoiries.
+                            Je dirais volontiers aux Sannions : "Votre folie est prématurée ;
+                            attendez du moins que le siècle s’achève sur votre race ; ceux qui ont
+                            vu votre grand-père, qui lui ont parlé, sont vieux, et ne sauraient plus
+                            vivre longtemps. Qui pourra dire comme eux : "Là il étalait, et vendait
+                            très cher" ?</p>
+                        <p><app type="clé">
+                                <lem><seg>
+                                        <persName type="pseudo" ref="#Sanions">Les
+                                            Sannions</persName></seg></lem>
+                                <rdg wit="#Cléescola" cert="high">Leclerc de Lessevilles</rdg>
+                            </app> et <app type="clé">
+                                <lem><seg><persName type="pseudo" ref="#Crispins">les
+                                            Crispins</persName></seg></lem>
+                                <rdg wit="#Cléescola" cert="high">MM. Charpentier ou Mallot</rdg>
                             </app> veulent encore davantage que l’on dise d’eux qu’ils font une
                             grande dépense, qu’ils n’aiment à la faire. Ils font un récit long et
                             ennuyeux d’une fête ou d’un repas qu’ils ont donné ; ils disent l’argent
