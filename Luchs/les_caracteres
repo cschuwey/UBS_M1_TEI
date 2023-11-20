@@ -54,14 +54,21 @@
                     </bibl>
                 </listBibl>
                 <listBibl>
-                    <bibl>
-                        
+                    <bibl xml:id="cle_1690">
+                        <title>Clé de 1690</title>
+                    </bibl>
+                    <bibl xml:id="cle_coste">
+                        <title>Clé des éditions Coste</title>
                     </bibl>
                 </listBibl>
                 <listPerson>
                     <person xml:id="bernier">
                         <name>François Bernier</name>
                         <idno>https://data.bnf.fr/12199345/francois_bernier/</idno>
+                    </person>
+                    <person xml:id="tremoille">
+                        <name>Louis de La Trémoille</name>
+                        <roleName>M. le comte d'Olonne</roleName>
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -183,9 +190,9 @@
                     <div3 n="4">
                         <!-- (4) -->
                         <p source="#edit5 #edit8"><g ref="#char_pdm2"/><seg>Quelques-uns<note
-                                    type="cle">(1690) - Servois, suivi par tous les éditeurs
+                                    type="cle" source="#cle_1690">(1690) - Servois, suivi par tous les éditeurs
                                     postérieurs, évoque par hypothèse la figure du célèbre voyageur
-                                        <persName source="#cle_XVIIIE" ref="#bernier"
+                                        <persName ref="#bernier"
                                             ><forename>François</forename>
                                         <surname>Bernier</surname></persName>, qui après avoir
                                     publié des Voyages (1670-1671), fit paraître un Abrégé de la
@@ -234,7 +241,7 @@
                     <div3 n="8">
                         <!-- (8) -->
                         <p source="#edit1 #edit5 #edit8"><g ref="#char_pdm0"/>Toute plaisanterie
-                            dans un homme mourant est hors de sa <pb source="#edit1" n="289"/>place
+                            dans <seg>un homme mourant<note type="cle" source="#cle_coste">(1687) - Clé des éditions Coste : «<persName ref="#tremoille">roleName>M. <le comte d'Olonne</roleName></persName> dit au lit de mort, quand on vint l'avertir que M. de Cornouaille, vicaire de Saint-Eustache, entrait pour le confesser : "Serai-je encornaillé jusqu'à la mort ?"». L'épisode datait de janvier 1686; G. Servois (III-l, 427) cite un témoignage selon lequel le mot aurait été publiquement rapporté à Chantilly, devant le Grand Condé.</note></seg> est hors de sa <pb source="#edit1" n="289"/>place
                             : si elle roule sur de certains chapitres, elle est funeste. C’est une
                             extrême misère que de donner à ses dépens à ceux que l’on laisse le
                             plaisir d’un bon mot.</p>
