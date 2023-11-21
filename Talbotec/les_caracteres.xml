@@ -34,11 +34,17 @@
                     <idno type="url"> https://catalogue.bnf.fr/ark:/12148/cb30705991d </idno>
                 </bibl>
                 <bibl xml:id="cle_1697">
-                 <title> Clé 1697 </title> </bibl>
-                <bibl xml:id="cle_18e_siecle"> <title> Clé 18ème siècle </title></bibl>
-                <bibl xml:id="cle_felibien"> <title> Clé Félibien </title> </bibl>
-                <bibl xml:id="cle_servois"> <title> Clé Servois </title></bibl>
-                <bibl xml:id="cle_traduction_anglaise_1702"> <title> Clé traduction anglaise 1702 </title></bibl>
+                    <title> Clé 1697 </title>
+                </bibl>
+                <bibl xml:id="cle_18e_siecle">
+                    <title> Clé 18ème siècle </title></bibl>
+                <bibl xml:id="cle_felibien">
+                    <title> Clé Félibien </title>
+                </bibl>
+                <bibl xml:id="cle_servois">
+                    <title> Clé Servois </title></bibl>
+                <bibl xml:id="cle_traduction_anglaise_1702">
+                    <title> Clé traduction anglaise 1702 </title></bibl>
                 <listPerson>
                     <person xml:id="frondeurs">
                         <note> Cela renvoit aux frondeurs. </note>
@@ -69,7 +75,8 @@
                     <person xml:id="mme_de_maintenon">
                         <persName> Mme de Maintenon </persName>
                         <note> C'est la femme de Louis XIV. </note>
-                        <idno> https://data.bnf.fr/12053775/francoise_d_aubigne_marquisede_maintenon/</idno>
+                        <idno>
+                            https://data.bnf.fr/12053775/francoise_d_aubigne_marquisede_maintenon/</idno>
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -128,14 +135,18 @@
                         originale. </p>
                     <p> Choix de l'attribut source, non de ed car présent dans tout le document, pas
                         besoin de garder une vraie trace du changement. </p>
-                   <p> Les différentes clés uilisées ont été encodées dans bibl, en utilisant des
-                        xml=id. </p> 
+                    <p> Les différentes clés uilisées ont été encodées dans bibl, en utilisant des
+                        xml=id. </p>
                     <p> Les différents personnes sous-entendues ont été mentionnées dans sourceDesc. </p>
-                    <p> Utilisation de la balise note permettant de définir le rôle de chacun, appui sur la documentation. </p>
-                    <p> Pas de référence d'autorité, elles servent juste à renvoyer les personnages. On considère que toutes les versions se valent. </p>
-                    <p> Utilisation d'un idno pour Madame de Maintenon, cela permet d'avoir des informations complémentaires. </p>
+                    <p> Utilisation de la balise note permettant de définir le rôle de chacun, appui
+                        sur la documentation. </p>
+                    <p> Pas de référence d'autorité, elles servent juste à renvoyer les personnages.
+                        On considère que toutes les versions se valent. </p>
+                    <p> Utilisation d'un idno pour Madame de Maintenon, cela permet d'avoir des
+                        informations complémentaires. </p>
                     <p> Les clés ont été encodées en utilisant la balise note et non app car la
-                        lecture est moins violente pour le traitement de texte. On a mis la clé et à quoi elle se réfère. </p>
+                        lecture est moins violente pour le traitement de texte. On a mis la clé et à
+                        quoi elle se réfère. </p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -152,7 +163,6 @@
             <change when="2023-11-07"> Variantes et glyphs </change>
             <change when="2023-11-13"> Numérotations des pages + clés </change>
             <change when="2023-11-20"> Correction des pages + clés </change>
-            <change when="2023-11-21"> Correction du travail rendu </change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -165,12 +175,20 @@
                         <p source="#edition_9">
                             <pb source="#edition_9" n="261"> </pb>
                             <g ref="#char_pm"/>
-                            <seg> Démophile <note type="clé">
-                                    <persName source="#cle_1697" ref="#frondeurs"> Frondeurs </persName>
+                            <seg> Démophile <note type="clé"> La clé de 1697 oppose le portrait
+                                        <persName source="#cle_1697" ref="#frondeurs"> des frondeurs
+                                    </persName>
                                 </note>
-                                <note type="clé">
-                                    <persName source="#cle_18e_siecle #cle_traduction_anglaise_1702"
-                                        ref="#l_abbe_de_Saint-Hélène"> L'abbé de saint-Hélène </persName>
+                                <note type="clé"> Les clés du XVIIIème siècle voient dans le premier
+                                        <persName source="#cle_18e_siecle"
+                                        ref="#l_abbe_de_Saint-Hélène">l'abbé de Saint-Hélène
+                                    </persName>
+                                </note>
+                                <note type="clé"> La clé insérée dans la traduction anglaise de 1702
+                                    nomme pour Démophile <persName
+                                        source="#cle_traduction_anglaise_1702"
+                                        ref="#l_abbe_de_Saint-Hélène"> L'abbé de Saint-Hélène
+                                    </persName>
                                 </note>
                                 <note type="person" resp="#talbotec"> C'est un philosophe grec du
                                     VIème siècle avant J-C.</note>
@@ -203,20 +221,21 @@
                             et crier à l’alarme ; il songe à son bien et à ses terres : où
                             conduira-t-il son argent, ses meubles, sa famille ? où se réfugiera-t-il
                             ? en Suisse ou à Venise ? </p>
-                        <p source="#edition_9"> Mais, à ma gauche, <seg> Basilide <note type="clé">
-                                    <persName source="#cle_1697" ref="#antifrondeurs"> Anti-frondeurs </persName>
+                        <p source="#edition_9"> Mais, à ma gauche, <seg> Basilide <note type="clé"> La clé de 1697 oppose celui des 
+                                    <persName source="#cle_1697" ref="#antifrondeurs">
+                                        Anti-frondeurs </persName>
                                 </note>
-                                <note type="clé">
-                                    <persName source="#cle_18e_siecle" ref="#le_sieur_du_moulinet"
-                                    >  Le sieur du Moulinet </persName>
+                                <note type="clé"> les clés du 18e siècle voient dans le second 
+                                    <persName source="#cle_18e_siecle" ref="#le_sieur_du_moulinet">
+                                        Le sieur du Moulinet </persName>
                                 </note>
-                                <note type="clé">
-                                    <persName source="#cle_felibien" ref="#prieur"> Prieur </persName>
+                                <note type="clé"> La clé Félibien nomme pour Basilide le notaire
+                                    <persName source="#cle_felibien" ref="#prieur"> Prieur
+                                    </persName>
                                 </note>
-                                <note type="clé">
-                                    <persName source="#cle_servois" ref="#prieur_rolin"
-                                    > Prieur-Rolin </persName></note>
-                                <note type="clé">
+                                <note type="clé"> <persName source="#cle_servois" ref="#prieur_rolin">
+                                        Prieur-Rolin </persName> selon Servois, sans grande notoriété. </note>
+                                <note type="clé"> La clé insérée dans la tradution anglaise de 1702 nomme pour Basilide le
                                     <persName source="#cle_traduction_anglaise_1702"
                                         ref="#conseiller_aubray"> Conseiller Aubray </persName>
                                 </note>
@@ -410,9 +429,9 @@
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="14">
                         <p source="#edition_1 #edition_9">
-                            <g ref="#char_pm"/> L’un des malheurs <seg> du prince <note type="clé">
+                            <g ref="#char_pm"/> L’un des malheurs <seg> du prince <note type="clé"> Les clés du XVIIIe siècle nomment 
                                     <persName source="#cle_18e_siecle" ref="#mme_de_maintenon"
-                                    > </persName>
+                                    > Madame de Maintenon </persName> comme pour la remarque 17 (le mariage de Louis XIV avait eu lieu à la fin de 1684). 
                                 </note></seg> est d’<app>
                                 <lem> estre </lem>
                                 <rdg source="#edition_9"> être </rdg>
@@ -455,9 +474,9 @@
                     <div3 source="#edition_1 #edition_9" n="17">
                         <p source="#edition_1 #edition_9">
                             <g ref="#char_pm"/> Rien ne fait plus d’honneur <seg> au prince <note
-                                    type="clé">
+                                type="clé"> Les clés du XVIIIe siècle nomment 
                                     <persName source="#cle_18e_siecle" ref="#mme_de_maintenon"
-                                    > </persName>
+                                        > Mme de Maintenon </persName> comme pour la remarque 14 (le mariage de Louis XIV avait eu lieu à la fin de 1684). 
                                 </note>
                             </seg> que la modestie de son <app>
                                 <lem> favory. </lem>
