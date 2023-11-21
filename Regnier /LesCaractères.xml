@@ -52,22 +52,16 @@
                         <idno>BNF </idno>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=21459;2</ref> <!--page 277-->
                     </bibl>
-                    
-                    <bibl xml:id="cle_andre">
-                        <title>Clé André</title>   
-                    </bibl>
-                    <bibl xml:id="cle_theramene">
-                        <title>Clé Théramène</title>
-                    </bibl>
+                   
                 </listBibl>
                 
                 <listPerson>
                     <person xml:id="andre">
-                        <name>André</name>
+                        <name>M. de Pineresse</name>
                         <idno></idno>
                     </person>
                     <person xml:id="theramene">
-                        <name>Théramène</name>
+                        <name>M. de Terrat</name>
                         <idno></idno>
                     </person>
                 </listPerson>
@@ -135,7 +129,7 @@
                         <note type="manuscrit" place="margin" resp="#anonyme" source="#edition8">Le président [...]</note>
                         <p source="#edition6 #edition8"><g ref="#char_pm" source="#edition8"></g>Quel est l’égarement de certains particuliers, qui riches, du négoce de leurs pères, dont ils viennent de recueillir la succession, se moulent sur les princes pour leur garde-robe et pour leur équipage, excitent, par une dépense excessive et par un faste ridicule ; les traits et la raillerie de toute une ville, qu’ils croient éblouir, et se ruinent ainsi à se faire moquer de soi !</p>
                         <note type="manuscrit" place="margin" resp="#anonyme" source="#edition8">André [...]</note>
-                        <p source="#edition6 #edition8">Quelques-uns n’ont pas même le triste avantage de répandre leurs folies plus loin que le quartier où ils habitent : c’est le seul théâtre de leur vanité. <seg>L’on ne sait point dans l’Ile qu’<note type="cle"><persName source="cle_andre" ref="#andre">André</persName>Clé de 1697 "M. de Pineresse" ; "M. Noblet", fils du sieur Noblet, commis de Jeannin de Castille, qui a mangé plus de trente mille écus en dépenses sourdes et ridicules auprès de Mlle Guyot de Boisval, qui était en même temps maîtresse des sieurs Le Fèvre et Mazure, qui en ont profité.</note></seg> brille au Marais, et qu’il y dissipe son patrimoine : du moins, s’il était connu dans toute la ville et dans ses faubourgs, il serait difficile qu’entre un si grand nombre de<pb source="#edition8" n="278"/> citoyens qui ne savent pas tous juger sainement de toutes , il ne s’en trouvât quelqu’un qui dirait de<pb source="#edition6" n="237"/> lui : Il est magnifique, et qui lui tiendrait compte des régals qu’il fait à Xanthe et à Ariston, et des fêtes qu’il donne à Elamire ; mais il se ruine obscurément : ce n’est qu’en faveur de deux ou trois personnes qui ne l’estiment point, qu’il court à l’indigence, et qu’aujourd’hui en carrosse, il n’aura pas dans six mois le moyen d’aller à pied.</p>
+                        <p source="#edition6 #edition8">Quelques-uns n’ont pas même le triste avantage de répandre leurs folies plus loin que le quartier où ils habitent : c’est le seul théâtre de leur vanité. <seg>L’on ne sait point dans l’Ile qu’André<note type="cle"><persName ref="#cle_andre">Clé de 1697 "M. de Pineresse" ; "M. Noblet", fils du sieur Noblet, commis de Jeannin de Castille, qui a mangé plus de trente mille écus en dépenses sourdes et ridicules auprès de Mlle Guyot de Boisval, qui était en même temps maîtresse des sieurs Le Fèvre et Mazure, qui en ont profité.</persName></note></seg> brille au Marais, et qu’il y dissipe son patrimoine : du moins, s’il était connu dans toute la ville et dans ses faubourgs, il serait difficile qu’entre un si grand nombre de<pb source="#edition8" n="278"/> citoyens qui ne savent pas tous juger sainement de toutes , il ne s’en trouvât quelqu’un qui dirait de<pb source="#edition6" n="237"/> lui : Il est magnifique, et qui lui tiendrait compte des régals qu’il fait à Xanthe et à Ariston, et des fêtes qu’il donne à Elamire ; mais il se ruine obscurément : ce n’est qu’en faveur de deux ou trois personnes qui ne l’estiment point, qu’il court à l’indigence, et qu’aujourd’hui en carrosse, il n’aura pas dans six mois le moyen d’aller à pied.</p>
                     </div3>
                     
                     <div3 n="12">
@@ -150,7 +144,7 @@
                     
                     <div3 n="14">
                         <note type="manuscrit" place="margin" resp="#anonyme" source="#edition8">Je n'arrive pas à lire</note>
-                        <p source="#edition6 #edition8"><g ref="#char_pm" source="#edition6 #edition8"></g><seg><note type="cle"><persName source="cle_theramene" ref="#theramene">Théramène</persName>"M. de Terrat, chancelier de Monsieur" (clé de 1697 et suivantes). Gaston Jean-Baptiste Terrat (1639-1719) était devenu en 1688 chancelier de Monsieur, après avoir été secrétaire des commandements.</note></seg> était riche et avait du mérite ; il a hérité, il est donc très riche et d’un très grand mérite. Voilà toutes les femmes en campagne pour l’avoir pour galant, <app><lem>et</lem><rdg source="#edition6 #edition8">&amp;</rdg></app>et toutes les filles pour épouseur. Il va de maisons en maisons faire espérer aux mères qu’il épousera. Est-il assis, elles se retirent, pour laisser à leurs filles toute la liberté d’être aimables, et à Théramène de faire ses déclarations. Il tient ici contre le mortier ; là il efface le cavalier ou le gentilhomme. Un jeune homme fleuri, vif, enjoué, spirituel n’est pas souhaité plus<pb source="#edition8" n="282"/> ardemment ni mieux reçu ; on se l’arrache des mains, on a à peine le loisir de sourire à qui se trouve avec lui dans une même visite. Combien de galants va-t-il mettre en déroute ! quels bons partis ne fera-t-il point manquer ? Pour<pb source="#edition6" n="241"/>ra-t-il suffire à tant d’héritières qui le recherchent ? Ce n’est pas seulement la terreur des maris, c’est l’épouvantail de tous ceux qui ont envie de l’être, et qui attendent d’un mariage à remplir le vide de leur consignation. On devrait proscrire de tels personnages si heureux, si pécunieux, d’une ville bien policée, ou condamner le sexe, sous peine de folie ou d’indignité, à ne les traiter pas mieux que s’ils n’avaient que du mérite.</p>
+                        <p source="#edition6 #edition8"><g ref="#char_pm" source="#edition6 #edition8"></g><seg>Théramène<note type="cle"><persName ref="#cle_theramene">"M. de Terrat, chancelier de Monsieur" (clé de 1697 et suivantes). Gaston Jean-Baptiste Terrat (1639-1719) était devenu en 1688 chancelier de Monsieur, après avoir été secrétaire des commandements.</persName></note></seg> était riche et avait du mérite ; il a hérité, il est donc très riche et d’un très grand mérite. Voilà toutes les femmes en campagne pour l’avoir pour galant, <app><lem>et</lem><rdg source="#edition6 #edition8">&amp;</rdg></app>et toutes les filles pour épouseur. Il va de maisons en maisons faire espérer aux mères qu’il épousera. Est-il assis, elles se retirent, pour laisser à leurs filles toute la liberté d’être aimables, et à Théramène de faire ses déclarations. Il tient ici contre le mortier ; là il efface le cavalier ou le gentilhomme. Un jeune homme fleuri, vif, enjoué, spirituel n’est pas souhaité plus<pb source="#edition8" n="282"/> ardemment ni mieux reçu ; on se l’arrache des mains, on a à peine le loisir de sourire à qui se trouve avec lui dans une même visite. Combien de galants va-t-il mettre en déroute ! quels bons partis ne fera-t-il point manquer ? Pour<pb source="#edition6" n="241"/>ra-t-il suffire à tant d’héritières qui le recherchent ? Ce n’est pas seulement la terreur des maris, c’est l’épouvantail de tous ceux qui ont envie de l’être, et qui attendent d’un mariage à remplir le vide de leur consignation. On devrait proscrire de tels personnages si heureux, si pécunieux, d’une ville bien policée, ou condamner le sexe, sous peine de folie ou d’indignité, à ne les traiter pas mieux que s’ils n’avaient que du mérite.</p>
                     </div3>
                     
                     <div3 n="15">
