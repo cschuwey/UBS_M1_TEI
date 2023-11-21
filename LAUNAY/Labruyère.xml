@@ -96,8 +96,7 @@
                 inventé une note pour l'exercice du TD5. J'ai ensuite ajouté trois notes écrites par
                 moi-même</change>
             <change when="2023-11-07">Ajout schéma xml corrigé. Ajout de trois variantes.
-                Déclaration charactères spéciaux. Ajout des pieds de mouche devant les paragraphes
-            </change>
+                Déclaration charactères spéciaux. Ajout des pieds de mouche devant les paragraphes </change>
             <change when="2023-11-15"> Ajout des pages breaks et de deux clés inventées </change>
         </revisionDesc>
     </teiHeader>
@@ -140,12 +139,12 @@
                                 <rdg source="#edition1696"/>
                                 <rdg source="#edition1688"> choſes,</rdg>
                             </app>avaient de très beaux génies, sont morts sans qu’on en ait parlé !
-                                <seg> Combien vivent encore dont on ne parle <pb n="175"
-                                    source="#edition1688"/> point, et dont on ne parlera jamais !
-                                    <note type="cle" source="#cleinventee"> Fais référence à
-                                        <persName type="cle" source="#Maurice"> </persName>Maurice
-                                    Legrand ou <persName type="cle" source="#Henry"/>Henry Lepetit
-                                </note></seg></p>
+                            Combien vivent encore dont <seg>on ne parle <pb n="175"
+                                    source="#edition1688"/> point, <note type="cle"
+                                    source="#cleinventee"> Fais référence à <persName type="cle"
+                                        source="#Maurice"> </persName>Maurice Legrand ou <persName
+                                        type="cle" source="#Henry"/>Henry Lepetit </note></seg>et
+                            dont on ne parlera jamais !</p>
                     </div3>
                     <div3 n="4" source="#edition1688 #edition1696">
                         <p><g ref="#char_pm"/>Quelle horrible peine a un homme qui est sans prôneurs
@@ -212,16 +211,14 @@
                             de leur industrie et de leurs lumières, qu’ils fussent comme une pièce
                             nécessaire à tout son édifice, et qu’elle se trouvât portée par ses
                             propres avantages à faire leur fortune ou à l’embellir. </p>
-                        <p>Nous devons travailler à nous rendre très dignes de quelque emploi :
-                                <seg>le reste ne nous regarde point, c’est l’affaire des autres.
-                                    <note type="cle" source="#cleinventee">
+                        <p>Nous devons travailler à nous rendre très dignes de quelque emploi : le
+                            reste ne nous regarde point, c’est l’affaire <seg>des autres. <note
+                                    type="cle" source="#cleinventee">
                                     <persName type="cle" source="#Henry"> Henry le
                                     petit</persName>Fait référence à Henry Lepetit</note></seg></p>
-
                     </div3>
                 </div2>
             </div1>
-
         </body>
     </text>
 </TEI>
