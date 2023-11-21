@@ -19,6 +19,10 @@
                         <name>Cléante</name>
                         <idno/>
                     </person>
+                    <person xml:id="desoleure">
+                        <name>Mlle. De Soleure ou Solenne</name>
+                        <idno/>
+                    </person>
                 </listPerson>
 
                 <bibl xml:id="édition3">
@@ -121,7 +125,9 @@
             <change when="2023-11-13">Début de l'ajout des limites de page.</change>
             <change when="2023-11-15">Fin de l'ajout des limites de page et ajout des clés dans le
                 teiHeader et dans le texte.</change>
-            <change when="2023-11-16">Fin de l'ajout des clés et ajout listPerson dans teiHeader.</change>
+            <change when="2023-11-16">Fin de l'ajout des clés et ajout listPerson dans
+                teiHeader.</change>
+            <change when="2023-11-21">Correction, ajout persName dans note type clé.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -139,11 +145,12 @@
 
 
                     <div3 n="43" source="#édition3 #édition6 #édition8">
-                        <p source="#édition3 #édition6 #édition8"><g ref="#char_pm"/><seg><name
-                                    ref="#Cléante">Cléante</name><note type="clé" source="#cléXVIII"
-                                    >(1688) - Cléante: «M. Loiseau, ci-devant receveur à Nantes, qui
-                                    a épousé Mlle de Soleure [ou de Solenne] de Beauce, assez jolie
-                                    personne et séparée d'avec lui»</note></seg>
+                        <p source="#édition3 #édition6 #édition8"><g ref="#char_pm"/><seg><note
+                                    type="clé" source="#cléXVIII">(1688) - Cléante: <persName
+                                        ref="#Cléante">«M. Loiseau</persName>, ci-devant receveur à
+                                    Nantes, qui a épousé <persName ref="#desoleure">Mlle de Soleure
+                                        [ou de Solenne] de Beauce</persName>, assez jolie personne
+                                    et séparée d'avec lui»</note></seg>
                             <app>
                                 <lem>est</lem>
                                 <rdg source="#édition3 #édition6 #édition8">eſt</rdg>
@@ -227,21 +234,23 @@
 
 
                     <div3 n="49" source="#édition6 #édition8">
-                        <p source="#édition6 #édition8"><g ref="#char_pm"/>J’approche d’<seg><placeName>une
-                                petite ville</placeName><note type="clé" source="#clé1720">(1690) - «La ville de Richelieu», qui avait la
-                                    réputation d'être séduisante mais ennuyeuse et déserte. D'autres
-                                    clés nomment Saint-Germains-en-Laye. Peut-être doit-on lire dans
-                                    cette remarque le souvenir que La Bruyère gardait de son unique
-                                    séjour en Normandie.</note></seg>, et je suis déjà sur une
-                            hauteur d’où je la découvre. Elle est située à mi-côte ; une rivière
-                            baigne ses murs, et coule ensuite dans une belle prairie ; elle a une
-                            forêt épaisse qui la couvre des vents froids et de l’aquilon. Je la vois
-                            dans un jour si favorable, que je compte ses tours et ses clochers ;
-                            elle me paraît peinte sur le penchant de la colline. Je me récrie, et je
-                            dis : "Quel plaisir de vivre sous un si beau <pb n="182"
-                                source="#édition6"/> ciel et dans ce séjour si délicieux ! " Je
-                            descends dans la ville, où je n’ai pas couché deux nuits, que je
-                            ressemble à ceux qui l’habitent : j’en veux sortir.</p>
+                        <p source="#édition6 #édition8"><g ref="#char_pm"/>J’approche
+                                    d’<seg><placeName>une petite ville</placeName><note type="clé"
+                                    source="#clé1720">(1690) - <placeName>«La ville de
+                                        Richelieu»</placeName>, qui avait la réputation d'être
+                                    séduisante mais ennuyeuse et déserte. D'autres clés nomment
+                                    Saint-Germains-en-Laye. Peut-être doit-on lire dans cette
+                                    remarque le souvenir que La Bruyère gardait de son unique séjour
+                                    en Normandie.</note></seg>, et je suis déjà sur une hauteur d’où
+                            je la découvre. Elle est située à mi-côte ; une rivière baigne ses murs,
+                            et coule ensuite dans une belle prairie ; elle a une forêt épaisse qui
+                            la couvre des vents froids et de l’aquilon. Je la vois dans un jour si
+                            favorable, que je compte ses tours et ses clochers ; elle me paraît
+                            peinte sur le penchant de la colline. Je me récrie, et je dis : "Quel
+                            plaisir de vivre sous un si beau <pb n="182" source="#édition6"/> ciel
+                            et dans ce séjour si délicieux ! " Je descends dans la ville, où je n’ai
+                            pas couché deux nuits, que je ressemble à ceux qui l’habitent : j’en
+                            veux sortir.</p>
                     </div3>
 
 
