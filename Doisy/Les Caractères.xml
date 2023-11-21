@@ -170,6 +170,7 @@
             <change when="2023-11-07">Rajout glyphs.</change>
             <change when="2023-11-14">Rajout numéros de pages.</change>
             <change when="2023-11-14">Rajout clés.</change>
+            <change when="2023-11-21">Correction des clés.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -267,9 +268,9 @@
                     </div3>
                     <div3 type="remark" org="uniform" n="7" source="#e8">
                         <p source="#e8"><g ref="#char_pdm"/>
-                            <seg><persName source="#menalque">Ménalque</persName><note type="key">Il
-                                    peut s'agir de <persName type="key" ref="#brancas"
-                                        source="#key_sevigne #key_bussy">Charles de
+                            <seg><persName ref="#menalque">Ménalque</persName><note type="key">Il
+                                    peut s'agir de <persName type="key"
+                                        ref="#brancas #key_sevigne #key_bussy">Charles de
                                         Brancas</persName>.</note></seg>
                             <!-- "ref" = les personnes qui prétendent que Ménalque est Charles de Brancas. "source" = la personne sous-entendue par certains individus. -->
                             descend son escalier, ouvre sa porte pour sortir, il la referme : il
@@ -318,53 +319,53 @@
                             laisse en li<pb n="354" source="#e8" resp="dash"/>berté ; mais comme
                             cela tire en longueur, qu’il a faim, et que la nuit est déjà avancée, il
                             la prie à souper : elle rit, et si haut, qu’elle le réveille.
-                                <seg>Lui-même se marie le matin, l’oublie le soir<note>Il peut
-                                    s'agir de <persName type="key" ref="#key_reaux"
-                                        source="#key_orleans">Tallemant des
-                                Réaux</persName>.</note></seg>, et découche la nuit de ses noces ;
-                            et quelques années après il perd sa femme, elle meurt entre ses bras, il
-                            assiste à ses obsèques, et le lendemain, quand on lui vient dire qu’on a
-                            servi, il demande si sa femme est prête et si elle est avertie. C’est
-                            lui encore qui entre dans une église, et prenant l’aveugle qui est collé
-                            à la porte pour un pilier, et sa tasse pour le bénitier, y plonge la
-                            main, la porte à son front, lorsqu’il entend tout d’un coup le pilier
-                            qui parle, et qui lui offre des oraisons. Il s’avance dans la nef, il
-                            croit voir un prie-Dieu, il se jette lourdement dessus : la machine
-                            plie, s’enfonce, et fait des efforts pour crier ; Ménalque est surpris
-                            de se voir à genoux sur les jambes d’un fort petit homme, appuyé sur son
-                            dos, les deux bras passés sur ses épaules, et ses deux mains jointes et
-                            étendues qui lui prennent le nez et lui ferment la bouche ; il se re<pb
-                                n="355" source="#e8" resp="dash"/>tire confus, et va s’agenouiller
-                            ailleurs. Il tire un livre pour faire sa prière, et c’est sa pantoufle
-                            qu’il a prise pour ses Heures, et qu’il a mise dans sa poche avant que
-                            de sortir. Il n’est pas hors de l’église qu’un homme de livrée court
-                            après lui, le joint, lui demande en riant s’il n’a point la pantoufle de
-                            Monseigneur ; Ménalque lui montre la sienne, et lu dit : « Voilà toutes
-                            les pantoufles que j’ai sur moi » ; il se fouille néanmoins, et tire
-                            celle de l’évêque de, qu’il vient de quitter, qu’il a trouvé malade
-                            auprès de son feu, et dont, avant de prendre congé de lui, il a ramassé
-                            la pantoufle, comme l’un de ses gants qui était à terre : ainsi Ménalque
-                            s’en retourne chez soi avec une pantoufle de moins. Il a une fois perdu
-                            au jeu tout l’argent qui est dans sa bourse, et, voulant continuer de
-                            jouer, il entre dans son cabinet, ouvre une armoire, y prend sa
-                            cassette, en tire ce qu’il lui plaît, croit la remettre où il l’a prise
-                            : il entend aboyer dans son armoire qu’il vient de fermer ; étonné de ce
-                            prodige, il l’ouvre une seconde fois, et il éclate de rire d’y voir son
-                            chien, qu’il a serré pour sa cassette. Il joue au trictrac, il demande à
-                            boire, on lui en apporte ; c’est à lui à jouer, il tient le cornet d’une
-                            main et un verre de l’autre, et comme il a une grande soif, il avale les
-                            dés et presque le cornet, jette le verre d’eau dans le trictrac, et
-                            inonde celui contre qui il joue. Et dans une chambre où il est familier,
-                            il crache sur le lit et jette son chapeau à terre, en croyant faire tout
-                            le contraire. Il se promène sur l’eau, et il demande quelle heure il est
-                            : on lui présente une<pb n="356" source="#e8"/> montre ; à peine
-                            l’a-t-il reçue, que ne songeant plus ni à l’heure ni à la montre, il la
-                            jette dans la rivière, comme une chose qui l’embarrasse. Lui-même écrit
-                            une longue lettre, met de la poudre dessus à plusieurs reprises, et
-                            jette toujours la poudre dans l’encrier. Ce n’est pas tout : il écrit
-                            une seconde lettre, et après les avoir cachetées toutes deux, il se
-                            trompe à l’adresse ; un duc et pair reçoit l’une de ces deux lettres, et
-                            en l’ouvrant y lit ces mots : Maître Olivier, ne manquez ; sitôt la
+                                    <seg>Lui-même<note type="key">Il peut s'agir de <persName
+                                        type="key" ref="#key_reaux #key_orleans">Tallemant des
+                                        Réaux</persName>.</note></seg> se marie le matin, l’oublie
+                            le soir, et découche la nuit de ses noces ; et quelques années après il
+                            perd sa femme, elle meurt entre ses bras, il assiste à ses obsèques, et
+                            le lendemain, quand on lui vient dire qu’on a servi, il demande si sa
+                            femme est prête et si elle est avertie. C’est lui encore qui entre dans
+                            une église, et prenant l’aveugle qui est collé à la porte pour un
+                            pilier, et sa tasse pour le bénitier, y plonge la main, la porte à son
+                            front, lorsqu’il entend tout d’un coup le pilier qui parle, et qui lui
+                            offre des oraisons. Il s’avance dans la nef, il croit voir un prie-Dieu,
+                            il se jette lourdement dessus : la machine plie, s’enfonce, et fait des
+                            efforts pour crier ; Ménalque est surpris de se voir à genoux sur les
+                            jambes d’un fort petit homme, appuyé sur son dos, les deux bras passés
+                            sur ses épaules, et ses deux mains jointes et étendues qui lui prennent
+                            le nez et lui ferment la bouche ; il se re<pb n="355" source="#e8"
+                                resp="dash"/>tire confus, et va s’agenouiller ailleurs. Il tire un
+                            livre pour faire sa prière, et c’est sa pantoufle qu’il a prise pour ses
+                            Heures, et qu’il a mise dans sa poche avant que de sortir. Il n’est pas
+                            hors de l’église qu’un homme de livrée court après lui, le joint, lui
+                            demande en riant s’il n’a point la pantoufle de Monseigneur ; Ménalque
+                            lui montre la sienne, et lu dit : « Voilà toutes les pantoufles que j’ai
+                            sur moi » ; il se fouille néanmoins, et tire celle de l’évêque de, qu’il
+                            vient de quitter, qu’il a trouvé malade auprès de son feu, et dont,
+                            avant de prendre congé de lui, il a ramassé la pantoufle, comme l’un de
+                            ses gants qui était à terre : ainsi Ménalque s’en retourne chez soi avec
+                            une pantoufle de moins. Il a une fois perdu au jeu tout l’argent qui est
+                            dans sa bourse, et, voulant continuer de jouer, il entre dans son
+                            cabinet, ouvre une armoire, y prend sa cassette, en tire ce qu’il lui
+                            plaît, croit la remettre où il l’a prise : il entend aboyer dans son
+                            armoire qu’il vient de fermer ; étonné de ce prodige, il l’ouvre une
+                            seconde fois, et il éclate de rire d’y voir son chien, qu’il a serré
+                            pour sa cassette. Il joue au trictrac, il demande à boire, on lui en
+                            apporte ; c’est à lui à jouer, il tient le cornet d’une main et un verre
+                            de l’autre, et comme il a une grande soif, il avale les dés et presque
+                            le cornet, jette le verre d’eau dans le trictrac, et inonde celui contre
+                            qui il joue. Et dans une chambre où il est familier, il crache sur le
+                            lit et jette son chapeau à terre, en croyant faire tout le contraire. Il
+                            se promène sur l’eau, et il demande quelle heure il est : on lui
+                            présente une<pb n="356" source="#e8"/> montre ; à peine l’a-t-il reçue,
+                            que ne songeant plus ni à l’heure ni à la montre, il la jette dans la
+                            rivière, comme une chose qui l’embarrasse. Lui-même écrit une longue
+                            lettre, met de la poudre dessus à plusieurs reprises, et jette toujours
+                            la poudre dans l’encrier. Ce n’est pas tout : il écrit une seconde
+                            lettre, et après les avoir cachetées toutes deux, il se trompe à
+                            l’adresse ; un duc et pair reçoit l’une de ces deux lettres, et en
+                            l’ouvrant y lit ces mots : Maître Olivier, ne manquez ; sitôt la
                             présente reçue, de m’envoyer ma provision de foin… Son fermier reçoit
                             l’autre, il l’ouvre, et se la fait lire ; on y trouve : Monseigneur,
                             j’ai reçu avec une soumission aveugle les ordres qu’il a plu à Votre
