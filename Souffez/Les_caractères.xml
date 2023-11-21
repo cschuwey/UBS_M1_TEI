@@ -243,6 +243,8 @@
                 ajouter des informations des noms propres, des lieux, ainsi que des clés qui nous
                 ont été donné. Modification de "sourceDesc", ajout d'une liste de personnes et des
                 clés, avec leurs id.</change>
+            <change when="2023-11-21">Suppression de la redondance des clés, l'information textuelle
+                a été supprimée, étant déjà donné par les éléments TEI.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -326,8 +328,8 @@
                             est vrai néanmoins qu’elle existe, que tout ce qui ne l’est point est
                             faible, et ne satisfait point un homme d’esprit qui veut se faire
                             entendre.</p>
-                        <p source="#edition5 #edition8"><seg>On <note type="clé">Clés du XVIIIe
-                                    siècle: allusion à <persName ref="#fontenelle" source="#date"
+                        <p source="#edition5 #edition8"><seg>On <note type="clé">allusion à
+                                        <persName ref="#fontenelle" source="#date"
                                         >Fontenelle</persName>, "nourri" chez les jésuites et chez
                                     qui "les études classiques développèrent le talent qu'il tourna
                                     plus tard contre les auteurs classiques" (Servois, II, 321). Il
@@ -364,11 +366,10 @@
                         <p source="#edition5 #edition8"><seg>Quelques habiles<note type="clé">
                                     Allusion à <persName ref="#racine" source="#tous"
                                         >Racine</persName> et <persName ref="#boileau"
-                                        source="#tous">Boileau</persName> selon toutes les
-                                    clés.</note></seg> prononcent en faveur des anciens contre les
-                            modernes ; mais ils sont suspects et semblent juger en leur propre
-                            cause, tant leurs ouvrages sont faits sur le goût de l’antiquité : on
-                            les récuse. </p>
+                                        source="#tous">Boileau</persName>.</note></seg> prononcent
+                            en faveur des anciens contre les modernes ; mais ils sont suspects et
+                            semblent juger en leur propre cause, tant leurs ouvrages sont faits sur
+                            le goût de l’antiquité : on les récuse. </p>
                     </div3>
                     <div3 n="16">
                         <p source="#edition5 #edition8" xml:id="r2">
@@ -465,10 +466,10 @@
                     <div3 n="21">
                         <p source="#edition3 #edition5 #edition8">
                             <g ref="#char_pm0" source="#edition3 #edition5 #edition8"/><seg>Bien des
-                                gens <note type="clé">Clés du XVIIIe siècle: "Le présent livre des
-                                    Caractères". Selon ces mêmes clés et celle de l'édition de 1697,
-                                    cette remarque, tout comme la remarque 25 (Théocrine), viserait
-                                    particulièrement l'<persName ref="#abbéD" source="#date">abbé de
+                                gens <note type="clé">"Le présent livre des Caractères". Selon ces
+                                    mêmes clés et celle de l'édition de 1697, cette remarque, tout
+                                    comme la remarque 25 (Théocrine), viserait particulièrement
+                                        l'<persName ref="#abbéD" source="#date">abbé de
                                         Dangeau</persName>. Cf. <title>Mémoires</title> de
                                     Saint-Simon, éd. Y Coirault, Paris, Gallimard, "La Pléiade", t.
                                     VII, p. 714; et ci-dessus, clé ❡25.</note></seg>vont jusques à
