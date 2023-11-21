@@ -155,7 +155,7 @@
                         <p><g ref="#char_pdm"/>
                             <pb n="151" source="#editionneuf"/>
                             <seg> L’avare <note type="key" source="#cles_XVIII">
-                                    <persName type="key" source="#Morstein">Jean André de Morstein
+                                    <persName type="key" ref="#Morstein">Jean André de Morstein
                                     </persName> Fait référence à Jean André de Morstein </note>
                             </seg> dépense plus mort en un seul jour, qu’il ne faisait vivant en dix
                             années ; et son héritier plus en dix mois, qu’il n’a<app>
@@ -282,7 +282,7 @@
                     <div3 type="remarque" n="75" source="#editionneuf">
                         <p><g ref="#char_pdm"/>
                             <seg>Mille gens <note type="key" source="#cles_XVIII">
-                                    <persName type="key" source="#Robert">Le Président
+                                    <persName type="key" ref="#Robert">Le Président
                                         Robert</persName>Fait référence au Président
                                 Robert</note></seg> se ruinent au jeu, et vous disent froidement
                             qu’ils ne sauraient se passer de jouer : quelle excuse ! Y a-t-il une
