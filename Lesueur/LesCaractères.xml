@@ -67,15 +67,17 @@
                     </bibl>
 
                 </listBibl>
-                <listBibl>
-                    <bibl xml:id="cle_artemon">
-                        <name>Artémon</name>
-                    </bibl>
-                    <bibl xml:id="cle_fictive">
-                        <name>avances</name>
-                    </bibl>
+                <listPerson>
 
-                </listBibl>
+                    <person xml:id="marquis_de_varde">
+                        <persName>Artémon</persName>
+                    </person>
+                    <person xml:id="cle_bourogne">
+                        <persName>Le Duc de Bourgogne</persName>
+                        <!-- clé fictive -->
+                    </person>
+
+                </listPerson>
 
             </sourceDesc>
 
@@ -151,7 +153,9 @@
             <change when="2023-10-24">Ajout des annotations dans les trois éditions</change>
             <change when="2023-11-07">Création des glyphs et ajout</change>
             <change when="2023-11-13">Ajout d'une nouvelle variation</change>
-            <change when="2023-11-17">Création des page break et ajout de la clé et d'une clé fictive</change>
+            <change when="2023-11-17">Création des page break et ajout de la clé et d'une clé
+                fictive</change>
+            <change when="2023-11-21">Correction des clés</change>
 
         </revisionDesc>
 
@@ -207,12 +211,10 @@
                             /> Il <app>
                                 <lem>est</lem>
                                 <rdg source="#edition1688 #edition1691 #edition1694">eſt</rdg>
-                            </app> aussi dangereux à la cour de faire les <seg>avances<note
-                                    resp="#lesueur" type="clé" source="#cle_fictive">tentatives,
-                                    premières démarches en vue de nouer ou de renouer des relations
-                                    et, en particuliers, tentatives pour séduire
-                                quelqu'un</note></seg>, qu’il est embarrassant de ne les point
-                            faire.</p>
+                            </app> aussi dangereux à la cour de faire les avancestentatives,
+                            premières démarches en vue de nouer ou de renouer des relations et, en
+                            particuliers, tentatives pour séduire quelqu'un, qu’il est embarrassant
+                            de ne les point faire.</p>
                     </div3>
 
 
@@ -281,12 +283,11 @@
                             toutes les mesures sont bien prises, et l’on doit être servi selon ses
                             souhaits ; les uns doivent entamer, les autres appuyer ; l’amorce est
                             déjà conduite, et la mine prête à jouer : alors on s’éloigne de la cour.
-                            Qui oserait soupçonner <seg>d’Artémon<note place="margin" type="cle"
-                                    source="#edition1694 #cle_artemon"><persName
-                                        source="#cle_artemon">Artemon</persName>: "M. le marquis de
-                                    Varde qui, au retour de son exil de vingt années, avait fait une
-                                    grosse brigue pour être gouverneur de Monseigneur le duc de
-                                    Bourgogne ; à quoi il aurait réussi sans sa mort arrivée dans ce
+                            Qui oserait soupçonner <seg><note type="cle" source="#edition1694 #marquis_de_varde"><persName
+                                        ref="#marquis_de_varde">Artemon</persName>: "M. le marquis
+                                    de Varde qui, au retour de son exil de vingt années, avait fait
+                                    une grosse brigue pour être gouverneur de <persName ref="#cle_bourgogne">Monseigneur le duc de
+                                        Bourgogne</persName> ; à quoi il aurait réussi sans sa mort arrivée dans ce
                                     temps-là</note></seg> qu’il ait pensé à se mettre <pb
                                 source="#edition1694" n="309"/> dans une si belle place, lorsqu’on
                             le tire de sa terre ou de son gouvernement pour l’y faire asseoir ?
