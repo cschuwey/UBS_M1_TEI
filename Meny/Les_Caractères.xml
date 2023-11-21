@@ -62,6 +62,7 @@
                     </person>
                     <person xml:id="mme_la_duchesse_d_aumont">
                         <persName>Mme la duchesse d'Aumont</persName>
+                        <idno>https://data.bnf.fr/ark:/12148/cb162972609</idno>
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -140,7 +141,10 @@
             <change when="2023-11-13">Modification du lien inexacte de l'édition 8, ajout des
                 changements de page, ajout d'une balise <!--listPerson--> dans le
                 TeiHeader.</change>
-            <change when="2023-11-16">Ajout de clés dans le TeiHeader, ajout de person dans la ListPerson.</change>
+            <change when="2023-11-16">Ajout de clés dans le TeiHeader, ajout de person dans la
+                ListPerson.</change>
+            <change when="2023-11-21">Correction d'une erreur de balisage persName, ajout d'un idno
+                pour un person</change>
         </revisionDesc>
     </teiHeader>
 
@@ -218,8 +222,9 @@
                     <div3 n="35" source="#edition1 #edition6 #edition8">
                         <p><g ref="#char_pm"/><seg>Quelques femmes <note type="cle"
                                     source="#Cle_XVIIIeme"><persName ref="#Mme la duchesse d'Aumont"
-                                    > </persName>Mme la duchesse d'Aumont, fille de Mme la maréchale
-                                    de la Mothe, et Mme la maréchale de la Ferté [sa soeur]</note>
+                                        >Mme la duchesse d'Aumont</persName>, fille de Mme la
+                                    maréchale de la Mothe, et Mme la maréchale de la Ferté [sa
+                                    soeur]</note>
                                 <note type="cle" source="#cle_1697">Seconde femme du duc
                                     d'Aumont</note></seg> donnent aux couvents et à leurs amants :
                             galantes et bienfactrices, elles ont jusque dans l’enceinte de l’autel
