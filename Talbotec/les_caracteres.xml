@@ -175,23 +175,20 @@
                         <p source="#edition_9">
                             <pb source="#edition_9" n="261"> </pb>
                             <g ref="#char_pm"/>
-                            <seg> Démophile <note type="clé"> La clé de 1697 oppose le portrait
-                                        <persName source="#cle_1697" ref="#frondeurs"> des frondeurs
+                            <seg> Démophile <note type="clé" source="#cle_1697"> La clé de 1697 oppose le portrait des
+                                        <persName  ref="#frondeurs"> frondeurs
                                     </persName>
                                 </note>
-                                <note type="clé"> Les clés du XVIIIème siècle voient dans le premier
-                                        <persName source="#cle_18e_siecle"
-                                        ref="#l_abbe_de_Saint-Hélène">l'abbé de Saint-Hélène
-                                    </persName>
-                                </note>
-                                <note type="clé"> La clé insérée dans la traduction anglaise de 1702
-                                    nomme pour Démophile <persName
-                                        source="#cle_traduction_anglaise_1702"
+                                <note type="clé" source="#cle_18e_siecle"> Les clés du XVIIIème siècle voient dans le premier
+                                        <persName 
                                         ref="#l_abbe_de_Saint-Hélène"> L'abbé de Saint-Hélène
                                     </persName>
                                 </note>
-                                <note type="person" resp="#talbotec"> C'est un philosophe grec du
-                                    VIème siècle avant J-C.</note>
+                                <note type="clé" source="#cle_traduction_anglaise_1702"> La clé insérée dans la traduction anglaise de 1702 nomme pour Démophile <persName 
+                                        ref="#l_abbe_de_Saint-Hélène"> L'abbé de Saint-Hélène
+                                    </persName>
+                                </note>
+                                <note type="person" resp="#talbotec"> C'est un philosophe grec du VIème siècle avant J-C.</note>
                             </seg>, à ma droite, se lamente, et s’écrie : « Tout est perdu, c’est
                             fait de l’Etat ; il est du moins sur le penchant de sa ruine. Comment
                             résister à une si forte et si générale conjuration ? Quel moyen, je ne
@@ -221,23 +218,23 @@
                             et crier à l’alarme ; il songe à son bien et à ses terres : où
                             conduira-t-il son argent, ses meubles, sa famille ? où se réfugiera-t-il
                             ? en Suisse ou à Venise ? </p>
-                        <p source="#edition_9"> Mais, à ma gauche, <seg> Basilide <note type="clé"> La clé de 1697 oppose celui des 
-                                    <persName source="#cle_1697" ref="#antifrondeurs">
-                                        Anti-frondeurs </persName>
+                        <p source="#edition_9"> Mais, à ma gauche, <seg> Basilide <note type="clé" source="#cle_1697"> La clé de 1697 oppose celui des 
+                                    <persName ref="#antifrondeurs">
+                                        anti-frondeurs </persName>
                                 </note>
-                                <note type="clé"> les clés du 18e siècle voient dans le second 
-                                    <persName source="#cle_18e_siecle" ref="#le_sieur_du_moulinet">
+                                <note type="clé" source="#cle_18e_siecle"> les clés du 18e siècle voient dans le second 
+                                    <persName  ref="#le_sieur_du_moulinet">
                                         Le sieur du Moulinet </persName>
                                 </note>
-                                <note type="clé"> La clé Félibien nomme pour Basilide le notaire
-                                    <persName source="#cle_felibien" ref="#prieur"> Prieur
+                                <note type="clé" source="#cle_felibien"> La clé Félibien nomme pour Basilide le notaire
+                                    <persName  ref="#prieur"> Prieur
                                     </persName>
                                 </note>
-                                <note type="clé"> <persName source="#cle_servois" ref="#prieur_rolin">
+                                <note type="clé" source="#cle_servois"> <persName  ref="#prieur_rolin">
                                         Prieur-Rolin </persName> selon Servois, sans grande notoriété. </note>
-                                <note type="clé"> La clé insérée dans la tradution anglaise de 1702 nomme pour Basilide le
-                                    <persName source="#cle_traduction_anglaise_1702"
-                                        ref="#conseiller_aubray"> Conseiller Aubray </persName>
+                                <note type="clé" source="#cle_traduction_anglaise_1702"> La clé insérée dans la tradution anglaise de 1702 nomme pour Basilide.
+                                    <persName 
+                                        ref="#conseiller_aubray"> le Conseiller Aubray </persName>
                                 </note>
                             </seg> met tout d’un coup sur pied une armée de trois cent mille hommes
                             ; il n’en rabattrait pas une seule brigade : il a la liste des escadrons
@@ -280,8 +277,7 @@
                             est un Cerbère, et les ennemis autant de monstres à assommer. Il ne
                             parle que de lauriers, que de palmes, que de triomphes et que de
                             trophées. Il dit dans le discours familier : Notre auguste Héros, notre
-                            grand <seg> Potentat <note type="definition" resp="#talbotec"> C'est la
-                                    puissance politique, la souveraineté </note></seg>, notre
+                            grand <seg> Potentat <note type="definition" resp="#talbotec"> C'est la puissance politique, la souveraineté </note></seg>, notre
                             invincible Monarque. Réduisez-le, si vous pouvez, à dire simplement : Le
                             Roi a beaucoup d’ennemis, ils sont puissants, ils sont unis, ils sont
                             aigris : il les a vaincus, j’espère toujours qu’il les pourra vaincre.
@@ -429,12 +425,13 @@
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="14">
                         <p source="#edition_1 #edition_9">
-                            <g ref="#char_pm"/> L’un des malheurs <seg> du prince <note type="clé"> Les clés du XVIIIe siècle nomment 
-                                    <persName source="#cle_18e_siecle" ref="#mme_de_maintenon"
-                                    > Madame de Maintenon </persName> comme pour la remarque 17 (le mariage de Louis XIV avait eu lieu à la fin de 1684). 
+                            <g ref="#char_pm"/> L’un des malheurs <seg> du prince <note type="clé" source="#cle_18e_siecle"> Les clés du XVIIIe siècle nomment 
+                                    <persName  ref="#mme_de_maintenon"
+                                    > Mme de Maintenon </persName> comme pour la remarque 17 (le mariage de Louis XIV avait eu lieu à la fin de 1684). 
                                 </note></seg> est d’<app>
                                 <lem> estre </lem>
                                 <rdg source="#edition_9"> être </rdg>
+                                    
                             </app> souvent trop plein de son secret, par le péril qu’il y a à le
                             répandre : son bonheur est de rencontrer une personne sûre qui l’en
                             décharge. </p>
@@ -474,8 +471,8 @@
                     <div3 source="#edition_1 #edition_9" n="17">
                         <p source="#edition_1 #edition_9">
                             <g ref="#char_pm"/> Rien ne fait plus d’honneur <seg> au prince <note
-                                type="clé"> Les clés du XVIIIe siècle nomment 
-                                    <persName source="#cle_18e_siecle" ref="#mme_de_maintenon"
+                                type="clé" source="#cle_18e_siecle"> Les clés du XVIIIe siècle nomment 
+                                    <persName ref="#mme_de_maintenon"
                                         > Mme de Maintenon </persName> comme pour la remarque 14 (le mariage de Louis XIV avait eu lieu à la fin de 1684). 
                                 </note>
                             </seg> que la modestie de son <app>
