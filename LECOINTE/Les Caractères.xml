@@ -107,8 +107,8 @@
             <change when="20203-10-10">Ajout des méta-données au fichier</change>
         </revisionDesc>
     </teiHeader>
-    <body>
-        <front>
+    <text>
+        <body>
             <div1 type="ouvrage">
                 <head>Les Caractères de Théophraste traduit du grec. Avec les Caractères ou les
                     moeurs de ce siècle</head>
@@ -301,6 +301,7 @@
                     </div3>
                 </div2>
             </div1>
-        </front>
-    </body>
+        </body>
+    </text>
 </TEI>
+ 
