@@ -64,13 +64,13 @@
                         <idno>https://fr.wikipedia.org/wiki/Hermodore_d%27%C3%89ph%C3%A8se</idno>
                     </person>
                     <person xml:id="Anthime">
-                        <name>Anthime</name> 
+                        <name>Anthime</name>
                     </person>
                     <person xml:id="Fulvie">
                         <name>Fulvie</name>
                     </person>
                     <person xml:id="Mélanie">
-                        <name>Mélanie</name>   
+                        <name>Mélanie</name>
                     </person>
                     <person xml:id="Arsène">
                         <name>Arsène</name>
@@ -88,6 +88,21 @@
                     </person>
                     <person xml:id="Rabutin">
                         <name>Rabutin</name>
+                    </person>
+                    <person xml:id="Boursault">
+                        <name>Edme Boursault</name>
+                    </person>
+                    <person xml:id="Damis">
+                        <name>Damis</name>
+                    </person>
+                    <person xml:id="Boileau">
+                        <name>Boileau</name>
+                    </person>
+                    <person xml:id="Campistron">
+                        <name>Campistron</name>
+                    </person>
+                    <person xml:id="Abbé_Villiers">
+                        <name>l'abbé de Villiers</name>
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -139,68 +154,74 @@
                 <div2 type="chapitre" n="1">
                     <head>Des Ouvrages de l'Esprit</head>
                     <div3 source="#édition2 #édition8" type="remarque" n="22">
-                        <p source="#édition2"><g ref="#char_pdm1"/><seg>
-                            Quelques-uns de ceux qui ont
-                            lu <pb n="72" source="#édition2"/>un ouvrage en rapportent certains traits dont ils n’ont pas
-                            compris le sens, et qu’ils altèrent encore par tout ce qu’ils y
-                            mettent du leur ; ces traits ainsi corrompus et <app>
-                                <rdgGrp>
-                                    <lem>défigurez</lem>
-                                    <rdg wit="#édition2">défigurés</rdg>
-                                </rdgGrp>
-                            </app>, qui ne sont autre chose que leurs propres pensées et leurs
-                            expressions, ils les exposent à la censure, soutiennent qu’ils sont
-                            mauvais, et tout le monde convient qu’ils sont mauvais ; mais
-                            l’endroit de l’ouvrage que ces critiques croient citer, et qu’en
-                            effet ils ne citent point ; n’en est pas pire.<note resp="#lambotin"
-                                place="bottom" type="information" source="#lambotin">La remarque
-                                ne contient aucune note dans aucune des trois
+                        <p source="#édition2"><g ref="#char_pdm1"/><seg> Quelques-uns de ceux qui
+                                ont lu <pb n="72" source="#édition2"/>un ouvrage en rapportent
+                                certains traits dont ils n’ont pas compris le sens, et qu’ils
+                                altèrent encore par tout ce qu’ils y mettent du leur ; ces traits
+                                ainsi corrompus et <app>
+                                    <rdgGrp>
+                                        <lem>défigurez</lem>
+                                        <rdg wit="#édition2">défigurés</rdg>
+                                    </rdgGrp>
+                                </app>, qui ne sont autre chose que leurs propres pensées et leurs
+                                expressions, ils les exposent à la censure, soutiennent qu’ils sont
+                                mauvais, et tout le monde convient qu’ils sont mauvais ; mais
+                                l’endroit de l’ouvrage que ces critiques croient citer, et qu’en
+                                effet ils ne citent point ; n’en est pas pire.<note resp="#lambotin"
+                                    place="bottom" type="information" source="#lambotin">La remarque
+                                    ne contient aucune note dans aucune des trois
                                 éditions</note></seg></p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="23">
-                        <p source="#édition2 #édition8"><g ref="#char_pdm1"/>
-                            « Que dites-vous du livre <seg>d'<persName ref="#H_Héphèse">Hermodore</persName><note resp="#lambotin" type="biography"
-                                place="bottom" source="#lambotin">Hermodore d'Éphèse est un
-                                philosophe grec du Ve avant J.-C.</note></seg>? —Qu’il est
-                            mauvais, répond <persName ref="#Anthime">Anthime</persName>.—Qu’il est mauvais ? —Qu’il est tel,
-                            continue-t-il,que ce n’est pas un livre, ou qui mérite du moins que le
-                            monde en parle.—Mais l’avez-vous lu ? —Non », dit <persName ref="#Anthime">Anthime</persName>. Que
-                            n’ajoute-t-il que <persName ref="#Fulvie">Fulvie</persName> et <persName ref="#Mélanie">Mélanie</persName> l’ont condamné sans l’avoir lu, et
-                            qu’il est ami de <persName ref="#Fulvie">Fulvie</persName> et de <persName ref="#Mélanie">Mélanie</persName> ?</p>
+                        <p source="#édition2 #édition8"><g ref="#char_pdm1"/> « Que dites-vous du
+                            livre <seg>d'<persName ref="#H_Héphèse">Hermodore</persName><note
+                                    resp="#lambotin" type="biography" place="bottom"
+                                    source="#lambotin">Hermodore d'Éphèse est un philosophe grec du
+                                    Ve avant J.-C.</note></seg>? —Qu’il est mauvais, répond
+                                <persName ref="#Anthime">Anthime</persName>.—Qu’il est mauvais ?
+                            —Qu’il est tel, continue-t-il,que ce n’est pas un livre, ou qui mérite
+                            du moins que le monde en parle.—Mais l’avez-vous lu ? —Non », dit
+                                <persName ref="#Anthime">Anthime</persName>. Que n’ajoute-t-il que
+                                <persName ref="#Fulvie">Fulvie</persName> et <persName
+                                ref="#Mélanie">Mélanie</persName> l’ont condamné sans l’avoir lu, et
+                            qu’il est ami de <persName ref="#Fulvie">Fulvie</persName> et de
+                                <persName ref="#Mélanie">Mélanie</persName> ?</p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="24">
                         <p source="#édition2 #édition8"><g ref="#char_pdm1"/>
-                            <persName ref="#Arsène">Arsène</persName>, du plus haut
-                            de son esprit, contemple les hommes, et dans l’éloignement d’où il les
-                            voit, il est<pb n="42" source="#édition8"/> comme effrayé de leur petitesse ; loué, exalté, et porté
-                            jusqu’aux cieux par de certaines gens qui se sont promis<pb n="73" source="#édition2"/> de s’admirer
-                            réciproquement, il croit, avec quelque mérite qu’il a, posséder tout
-                            celui qu’on peut avoir, et qu’il n’aura jamais ; occupé et rempli de ses
-                            sublimes idées, il se donne à peine le loisir de prononcer quelques
-                            oracles ; élevé par son caractère au-dessus des jugements humains, il
-                            abandonne aux âmes communes le mérite d’une vie suivie et uniforme, et
-                            il n’est responsable de ses inconstances qu’à ce cercle d’amis qui les
-                            idolâtrent : eux seuls savent juger, savent penser, savent écrire,
-                            doivent écrire ; il n’y a point d’autre ouvrage d’esprit si bien reçu
-                            dans le monde, et si universellement goûté des honnêtes gens, je ne dis
-                            pas qu’il veuille approuver, mais qu’il daigne lire : incapable d’être
-                            corrigé par cette peinture qu’il ne lira point.</p>
+                            <persName ref="#Arsène">Arsène</persName>, du plus haut de son esprit,
+                            contemple les hommes, et dans l’éloignement d’où il les voit, il est<pb
+                                n="42" source="#édition8"/> comme effrayé de leur petitesse ; loué,
+                            exalté, et porté jusqu’aux cieux par de certaines gens qui se sont
+                                promis<pb n="73" source="#édition2"/> de s’admirer réciproquement,
+                            il croit, avec quelque mérite qu’il a, posséder tout celui qu’on peut
+                            avoir, et qu’il n’aura jamais ; occupé et rempli de ses sublimes idées,
+                            il se donne à peine le loisir de prononcer quelques oracles ; élevé par
+                            son caractère au-dessus des jugements humains, il abandonne aux âmes
+                            communes le mérite d’une vie suivie et uniforme, et il n’est responsable
+                            de ses inconstances qu’à ce cercle d’amis qui les idolâtrent : eux seuls
+                            savent juger, savent penser, savent écrire, doivent écrire ; il n’y a
+                            point d’autre ouvrage d’esprit si bien reçu dans le monde, et si
+                            universellement goûté des honnêtes gens, je ne dis pas qu’il veuille
+                            approuver, mais qu’il daigne lire : incapable d’être corrigé par cette
+                            peinture qu’il ne lira point.</p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="25">
-                        <p source="#édition2 #édition8"><g ref="#char_pdm1"/> <persName ref="#Théocrine">Théocrine</persName><app>
-                            <rdgGrp>
-                                <lem>sçait</lem>
-                                <rdg wit="#édition2">sait</rdg>
-                            </rdgGrp>
-                        </app>des choses assez inutiles ; il a des sentiments toujours
+                        <p source="#édition2 #édition8"><g ref="#char_pdm1"/>
+                            <persName ref="#Théocrine">Théocrine</persName><app>
+                                <rdgGrp>
+                                    <lem>sçait</lem>
+                                    <rdg wit="#édition2">sait</rdg>
+                                </rdgGrp>
+                            </app>des choses assez inutiles ; il a des sentiments toujours
                             singuliers ; il est moins profond que méthodique ; il n’exerce que sa
                             mémoire ; il est abstrait, <seg>dédaigneux<note resp="#labruyere"
-                                place="bottom" source="#labruyere">Se référer à la page
-                                11</note></seg>, et il semble toujours rire en lui-même de ceux
-                            qu’il croit ne le valoir pas. Le hasard fait que je lui lis mon<pb n="74" source="#édition2"/> ouvrage,
-                            il l’écoute. Est-il lu, il me parle du sien.« Et du vôtre, me
-                            direz-vous, qu’en pense-t-il ? » —Je vous l’ai déjà dit, il me parle du
-                            sien.</p>
+                                    place="bottom" source="#labruyere">Se référer à la page
+                                    11</note></seg>, et il semble toujours rire en lui-même de ceux
+                            qu’il croit ne le valoir pas. Le hasard fait que je lui lis mon<pb
+                                n="74" source="#édition2"/> ouvrage, il l’écoute. Est-il lu, il me
+                            parle du sien.« Et du vôtre, me direz-vous, qu’en pense-t-il ? » —Je
+                            vous l’ai déjà dit, il me parle du sien.</p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="26">
                         <p source="#édition2 #édition8"><g ref="#char_pdm1"/> Il n’y a point
@@ -215,19 +236,20 @@
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="27">
                         <p source="#édition2 #édition8"><g ref="#char_pdm1"/> C’est une expérience
-                            faite que, s’il se trouve dix<pb n="43" source="#édition8"/> personnes qui effacent d’un livre une
-                                expression ou un sentiment, l’on en fournit aisément un pareil nombre
-                                qui les réclame. Ceux-ci s’écrient :« Pourquoi supprimer cette pensée ?
-                                elle est neuve, elle est belle, et le tour en est admirable » ; et
-                                ceux-là affirment, au contraire, ou qu’ils auraient négligé cette
-                                pensée, ou qu’ils lui auraient donné un autre tour.« Il y a un terme,
-                                disent les uns, dans votre ouvrage, qui est rencontré et qui peint la
-                                chose au naturel ; il y a un mot, disent les autres, qui est hasardé, et
-                                qui d’ailleurs ne signifie pas assez ce que vous voulez peut-être faire
-                                entendre » ; et c’est du même trait et du même mot que tous<pb n="75" source="#édition2"/> ces gens
-                                s’expliquent ainsi, et tous sont connaisseurs et passent pour tels. Quel
-                                autre parti pour un auteur, que d’oser pour lors être de l’avis de ceux
-                                qui l’approuvent ?</p>
+                            faite que, s’il se trouve dix<pb n="43" source="#édition8"/> personnes
+                            qui effacent d’un livre une expression ou un sentiment, l’on en fournit
+                            aisément un pareil nombre qui les réclame. Ceux-ci s’écrient :« Pourquoi
+                            supprimer cette pensée ? elle est neuve, elle est belle, et le tour en
+                            est admirable » ; et ceux-là affirment, au contraire, ou qu’ils auraient
+                            négligé cette pensée, ou qu’ils lui auraient donné un autre tour.« Il y
+                            a un terme, disent les uns, dans votre ouvrage, qui est rencontré et qui
+                            peint la chose au naturel ; il y a un mot, disent les autres, qui est
+                            hasardé, et qui d’ailleurs ne signifie pas assez ce que vous voulez
+                            peut-être faire entendre » ; et c’est du même trait et du même mot que
+                                tous<pb n="75" source="#édition2"/> ces gens s’expliquent ainsi, et
+                            tous sont connaisseurs et passent pour tels. Quel autre parti pour un
+                            auteur, que d’oser pour lors être de l’avis de ceux qui l’approuvent
+                            ?</p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="28">
                         <p source="#édition2 #édition8"><g ref="#char_pdm1"/> Un auteur sérieux
@@ -244,32 +266,33 @@
                         <p source="#édition8"><g ref="#char_pdm2"/> Si certains esprits vifs et
                             décisifs étaient crus, ce serait encore trop que les termes pour
                             exprimer les sentiments : il faudrait leur parler par signes, ou sans
-                            parler se faire entendre. Quelque soin qu’on ap-<pb n="44" source="#édition8"/>porte à être serré et
-                            concis, et quelque réputation qu’on ait d’être tel, ils vous trouvent
-                            diffus. Il faut leur laisser tout à suppléer, et n’écrire que pour eux
-                            seuls. Ils conçoivent une période par le mot qui la commence, et par une
-                            période tout un chapitre : leur avez-vous lu un seul endroit de
-                            l’ouvrage, c’est assez, ils sont dans le fait et entendent l’ouvrage. Un
-                            tissu d’énigmes leur serait une lecture divertissante ; et c’est une
-                            perte pour eux que ce style estropié qui les enlève soit rare, et que
-                            peu d’écrivains s’en accommodent. Les comparaisons tirées d’un fleuve
-                            dont le cours, quoique rapide, est égal et uniforme, ou d’un embrasement
-                            qui, poussé par les vents, s’épand au loin dans une forêt où il consume
-                            les chênes et les pins, ne leur fournissent aucune idée de l’éloquence.
-                            Montrez-leur un feu grégeois qui les surprenne, ou un éclair qui les
-                            éblouisse, ils vous quittent du bon et du beau. Quelle prodigieuse
-                            distance entre un bel ouvrage, et un ouvrage parfait ou régulier ! Je ne
-                            sais s’il s’en est encore trouvé de ce dernier genre. Il est peut-être
-                            moins difficile aux rares génies de rencontrer le grand et le sublime,
-                            que d’éviter toute sorte de fautes. Le Cid n’a eu qu’une voix pour lui à
-                            sa naissance, qui a été celle de l’admiration ; il s’est vu plus fort
-                            que l’autorité et la politique, qui ont tenté vainement de le détruire ;
-                            il a réuni en sa faveur des esprits toujours partagés d’opinions et de
-                            sentiments ; les grands et le peuple : ils s’accordent tous à le savoir
-                            de mémoire, et à prévenir au théâtre les acteurs<pb n="45" source="#édition8"/> qui le récitent. Le Cid
-                            enfin est l’un des plus beaux poèmes que l’on puisse faire ; et l’une
-                            des meilleurs critiques qui aient été faites sur aucun sujet est celle
-                            du Cid.</p>
+                            parler se faire entendre. Quelque soin qu’on ap-<pb n="44"
+                                source="#édition8"/>porte à être serré et concis, et quelque
+                            réputation qu’on ait d’être tel, ils vous trouvent diffus. Il faut leur
+                            laisser tout à suppléer, et n’écrire que pour eux seuls. Ils conçoivent
+                            une période par le mot qui la commence, et par une période tout un
+                            chapitre : leur avez-vous lu un seul endroit de l’ouvrage, c’est assez,
+                            ils sont dans le fait et entendent l’ouvrage. Un tissu d’énigmes leur
+                            serait une lecture divertissante ; et c’est une perte pour eux que ce
+                            style estropié qui les enlève soit rare, et que peu d’écrivains s’en
+                            accommodent. Les comparaisons tirées d’un fleuve dont le cours, quoique
+                            rapide, est égal et uniforme, ou d’un embrasement qui, poussé par les
+                            vents, s’épand au loin dans une forêt où il consume les chênes et les
+                            pins, ne leur fournissent aucune idée de l’éloquence. Montrez-leur un
+                            feu grégeois qui les surprenne, ou un éclair qui les éblouisse, ils vous
+                            quittent du bon et du beau. Quelle prodigieuse distance entre un bel
+                            ouvrage, et un ouvrage parfait ou régulier ! Je ne sais s’il s’en est
+                            encore trouvé de ce dernier genre. Il est peut-être moins difficile aux
+                            rares génies de rencontrer le grand et le sublime, que d’éviter toute
+                            sorte de fautes. Le Cid n’a eu qu’une voix pour lui à sa naissance, qui
+                            a été celle de l’admiration ; il s’est vu plus fort que l’autorité et la
+                            politique, qui ont tenté vainement de le détruire ; il a réuni en sa
+                            faveur des esprits toujours partagés d’opinions et de sentiments ; les
+                            grands et le peuple : ils s’accordent tous à le savoir de mémoire, et à
+                            prévenir au théâtre les acteurs<pb n="45" source="#édition8"/> qui le
+                            récitent. Le Cid enfin est l’un des plus beaux poèmes que l’on puisse
+                            faire ; et l’une des meilleurs critiques qui aient été faites sur aucun
+                            sujet est celle du Cid.</p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="30">
                         <p source="#édition2 #édition8"><g ref="#char_pdm1"/> Quelle prodigieuse
@@ -277,18 +300,18 @@
                             sais s’il s’en est encore trouvé de ce dernier genre. Il est peut-être
                             moins difficile aux rares génies de rencontrer le grand et le sublime
                             que d’éviter toute sorte de fautes. <seg>Le Cid<note resp="#lambotin"
-                                type="definition" place="bottom" source="#lambotin">Le Cid est
-                                pièce de théâtre tragi-comique en vers (alexandrins
-                                essentiellement) de Pierre Corneille dont la première
-                                représentation eut lieu en 1637.</note></seg> n’a eu qu’une voix
-                            pour lui à sa naissance, qui a<pb n="76" source="#édition2"/> été celle de l’admiration ; il s’est vu
-                            plus fort que l’autorité et la politique, qui ont tenté vainement de le
-                            détruire ; il a réuni en sa faveur des esprits toujours partagés
-                            d’opinions et de sentiments : les grands et le peuple ; ils s’accordent
-                            tous à le savoir de mémoire et à prévenir au théâtre les acteurs qui le
-                            récitent. Le Cid, enfin, est l’un des plus beaux poèmes que l’on puisse
-                            faire, et l’une des meilleures critiques qui ait été faite sur aucun
-                            sujet est celle du Cid.</p>
+                                    type="definition" place="bottom" source="#lambotin">Le Cid est
+                                    pièce de théâtre tragi-comique en vers (alexandrins
+                                    essentiellement) de Pierre Corneille dont la première
+                                    représentation eut lieu en 1637.</note></seg> n’a eu qu’une voix
+                            pour lui à sa naissance, qui a<pb n="76" source="#édition2"/> été celle
+                            de l’admiration ; il s’est vu plus fort que l’autorité et la politique,
+                            qui ont tenté vainement de le détruire ; il a réuni en sa faveur des
+                            esprits toujours partagés d’opinions et de sentiments : les grands et le
+                            peuple ; ils s’accordent tous à le savoir de mémoire et à prévenir au
+                            théâtre les acteurs qui le récitent. Le Cid, enfin, est l’un des plus
+                            beaux poèmes que l’on puisse faire, et l’une des meilleures critiques
+                            qui ait été faite sur aucun sujet est celle du Cid.</p>
                     </div3>
                     <div3 source="#édition8" type="remarque" n="31">
                         <p source="#édition8"><g ref="#char_pdm2"/> Quand une lecture vous élève
@@ -297,16 +320,32 @@
                             de main d’ouvrier.</p>
                     </div3>
                     <div3 source="#édition2 #édition8" type="remarque" n="32">
-                        <p source="#édition2 #édition8"><g ref="#char_pdm1"/> <seg><persName ref="#Capys">Capys</persName><note type="clé" source="#clé_1689"><persName ref="#Capys">Capys</persName> désignerait, selon toutes les clés, Edme Bourseult et Damis serait Boileau ; pour le premier, les clés manuscrites ajoutent le nom de Campistron ou de l’abbé de Villiers (cf. ❡ 64, clé). Attaqué par Boileau  dans sa satire IX (v.98), Boursault, auteur dramatique et romancier, avait répliqué par une Satire des satires (1669). Ils s’étaient réconciliés en 1687 ; dans les éditions ultérieures des Satires, Boileau supprimera le nom de Boursault.</note></seg>, qui s’érige en
-                            juge du beau style et qui croit écrire comme <seg><persName ref="#Bouhours">Bouhours</persName><note
-                                resp="#lambotin" type="biography" place="bottom"
-                                source="#lambotin">Bouhours était un prêtre jésuite,
-                                grammairien, biographe et apologiste français.</note>et<persName ref="#Rabutin">Rabutin</persName>,
-                                résiste à la voix.</seg></p>
+                        <p source="#édition2 #édition8"><g ref="#char_pdm1"/>
+                            <seg><persName ref="#Capys">Capys</persName><note type="clé"
+                                    source="#clé_1689"><persName ref="#Capys">Capys</persName>
+                                    désignerait, selon toutes les clés, <persName ref="#Bourseult"
+                                        >Edme Bourseult</persName> et <persName ref="#Damis"
+                                        >Damis</persName> serait <persName ref="#Boileau"
+                                        >Boileau</persName> ; pour le premier, les clés manuscrites
+                                    ajoutent le nom de <persName>Campistron</persName> ou de
+                                        <persName>l’abbé de Villiers</persName> (cf. ❡ 64, clé).
+                                    Attaqué par <persName ref="#Boileau">Boileau</persName> dans sa
+                                    satire IX (v.98), <persName ref="#Bourseult"
+                                        >Boursault</persName>, auteur dramatique et romancier, avait
+                                    répliqué par une Satire des satires (1669). Ils s’étaient
+                                    réconciliés en 1687 ; dans les éditions ultérieures des Satires,
+                                        <persName ref="#Boileau">Boileau</persName> supprimera le
+                                    nom de <persName ref="#Bourseult"
+                                >Boursault</persName>.</note></seg>, qui s’érige en juge du beau
+                            style et qui croit écrire comme <seg><persName ref="#Bouhours"
+                                    >Bouhours</persName><note resp="#lambotin" type="biography"
+                                    place="bottom" source="#lambotin"><persName ref="#Bouhours"
+                                        >Bouhours</persName> était un prêtre jésuite, grammairien,
+                                    biographe et apologiste français.</note>et<persName
+                                    ref="#Rabutin">Rabutin</persName>, résiste à la voix.</seg></p>
                     </div3>
                 </div2>
             </div1>
         </body>
     </text>
 </TEI>
-
