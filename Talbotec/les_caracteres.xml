@@ -33,11 +33,12 @@
                     <placeName> Paris </placeName>
                     <idno type="url"> https://catalogue.bnf.fr/ark:/12148/cb30705991d </idno>
                 </bibl>
-                <bibl xml:id="cle_1697"> </bibl>
-                <bibl xml:id="cle_18e_siecle"> </bibl>
-                <bibl xml:id="cle_felibien"> </bibl>
-                <bibl xml:id="cle_servois"> </bibl>
-                <bibl xml:id="cle_traduction_anglaise_1702"> </bibl>
+                <bibl xml:id="cle_1697">
+                 <title> Clé 1697 </title> </bibl>
+                <bibl xml:id="cle_18e_siecle"> <title> Clé 18ème siècle </title></bibl>
+                <bibl xml:id="cle_felibien"> <title> Clé Félibien </title> </bibl>
+                <bibl xml:id="cle_servois"> <title> Clé Servois </title></bibl>
+                <bibl xml:id="cle_traduction_anglaise_1702"> <title> Clé traduction anglaise 1702 </title></bibl>
                 <listPerson>
                     <person xml:id="frondeurs">
                         <note> Cela renvoit aux frondeurs. </note>
