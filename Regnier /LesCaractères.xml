@@ -52,15 +52,15 @@
                         <idno>BNF </idno>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=21459;2</ref> <!--page 277-->
                     </bibl>
-                   
+                    
                 </listBibl>
                 
                 <listPerson>
-                    <person xml:id="andre">
+                    <person xml:id="cle_andre">
                         <name>M. de Pineresse</name>
                         <idno></idno>
                     </person>
-                    <person xml:id="theramene">
+                    <person xml:id="cle_theramene">
                         <name>M. de Terrat</name>
                         <idno></idno>
                     </person>
