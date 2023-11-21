@@ -39,18 +39,15 @@
                     </monogr>
                 </biblStruct>
                 <listPerson>
-                    <person xml:id="">
-                        <name/>
+                    <person xml:id="honnête_homme">
+                        <name>Jean de la Fontaine</name>
+                        <idno/>
+                    </person>
+                    <person xml:id="le_courtisan">
+                        <name>Racine</name>
                         <idno/>
                     </person>
                 </listPerson>
-                <listPlace>
-                    <place>
-                        <placeName xml:id="cle_I">La Cour</placeName>
-                        <placeName xml:id="cle_II">Regions en dehors de Paris</placeName>
-                    </place>
-                </listPlace>
-
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -100,7 +97,8 @@
                 remarques</change>
             <change when="2023-10-23">Encodage de note</change>
             <change when="2023-11-08">Encodage de variation et des glyph</change>
-            <change when="2023-11-17">Encodage des numéros de page des éditions et encodage de clés</change>
+            <change when="2023-11-17">Encodage des numéros de page des éditions et encodage de
+                clés</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -131,21 +129,22 @@
                                 <lem>sait</lem>
                                 <rdg wit="#Quatrieme_edition #Sixieme_edition">sçait</rdg>
                             </app> la cour est maître de son geste, de ses yeux et de son visage ;
-                            il est profond, <seg>impénétrable<note resp="#CleaB" type="glossaire" >Qu'il est difficile ou impossible de connaître</note></seg> ;
+                            il est profond, <seg>impénétrable<note resp="#CleaB" type="glossaire"
+                                    >Qu'il est difficile ou impossible de connaître</note></seg> ;
                             il dissimule les mauvais offices, sourit à ses ennemis, contraint son
-                            humeur, déguise ses passions, * dément son cœur, parle, agit contre ses sentiments.
-                            Tout ce grand raffinement n’est qu’un vice, que l’on appelle fausseté,
-                            quelquefois aussi inutile au courtisan pour sa fortune, que la
+                            humeur, déguise ses passions, * dément son cœur, parle, agit contre ses
+                            sentiments. Tout ce grand raffinement n’est qu’un vice, que l’on appelle
+                            fausseté, quelquefois aussi inutile au courtisan pour sa fortune, que la
                             franchise, la sincérité et la vertu.</p>
                     </div3>
 
                     <div3 n="3" source="#Quatrieme_edition #Sixieme_edition">
                         <p>
+        
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Qui
                             peut <seg>nommer<note resp="#LaBruyere">blablabla</note></seg> de
                             certaines couleurs changeantes, et qui sont diverses selon les divers
-                            jours dont on les regarde ? de même, qui peut définir <seg>la cour<note
-                                type="key" source="#cle_I">La Cour de France</note></seg> ? </p>
+                            jours dont on les regarde ? de même, qui peut définirla cour? </p>
                     </div3>
 
                     <div3 n="4" source="#Quatrieme_edition #Sixieme_edition">
@@ -153,7 +152,9 @@
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Se
                             dérober à la cour un seul <pb n="199" source="#Quatrieme_edition"/>
                                 mo<pb n="247" source="#Sixieme_edition" type="tiret"/>ment, c’est y
-                            renoncer : le courtisan qui l’a <app>
+                            renoncer : <seg>le courtisan<note type="key">Il s'agit de<name
+                                        type="key" source="#le_courtisan">Racine</name>homme de
+                                    lettre du 17ème siècle (clé fictive)</note></seg> qui l’a <app>
                                 <lem>vue</lem>
                                 <rdg wit="#Sixieme_edition #Quatrieme_edition">veuë</rdg>
                             </app> le matin la voit le soir pour la reconnaître le lendemain, ou
@@ -171,10 +172,10 @@
                         <p>
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> La
                                 <seg>province <note resp="#CleaB" type="glossaire"> Partie distincte
-                                    d'un pays</note><note type="key" source="#cle_II">Endroit qui n'est pas Paris</note></seg> est l’endroit d’où la cour, comme dans
-                            son point de vue, paraît une chose admirable : si l’on s’en approche,
-                            ses agréments diminuent, comme ceux d’une perspective que l’on voit de
-                            trop près.</p>
+                                    d'un pays</note></seg> est l’endroit d’où la cour, comme
+                            dans son point de vue, paraît une chose admirable : si l’on s’en
+                            approche, ses agréments diminuent, comme ceux d’une perspective que l’on
+                            voit de trop près.</p>
                     </div3>
 
                     <div3 n="7" source="#Quatrieme_edition #Sixieme_edition">
@@ -193,11 +194,14 @@
                     <div3 n="9" source="#Quatrieme_edition #Sixieme_edition">
                         <p>
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Il
-                            faut qu’un honnête homme ait tâté de la <seg>cour <note resp="#CleaB"
-                                    type="information">La Cour du Roi de France </note></seg> : il
-                            découvre en y entrant comme un nouveau monde qui lui était inconnu, où
-                            il voit régner également le vice et la politesse, et où tout lui est
-                            utile, le bon et le mauvais.</p>
+                            faut qu’un <seg>honnête homme<note type="key">Il s'agit de<name
+                                        type="key" source="#honnête_homme">Jean de la
+                                        Fontaine</name> homme de lettre du 17ème siècle (clé
+                                    fictive)</note></seg> ait tâté de la <seg>cour <note
+                                    resp="#CleaB" type="information">La Cour du Roi de France
+                                </note></seg> : il découvre en y entrant comme un nouveau monde qui
+                            lui était inconnu, où il voit régner également le vice et la politesse,
+                            et où tout lui est utile, le bon et le mauvais.</p>
                     </div3>
 
                     <div3 n="10" source="#Sixieme_edition">
