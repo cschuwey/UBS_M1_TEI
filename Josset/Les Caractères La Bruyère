@@ -40,29 +40,71 @@
                             <pubPlace>Lyon</pubPlace>
                         </imprint>
                     </monogr>
+                    <monogr xml:id="cle_fictive">
+                        <title>Clé fictive</title>
+                        <imprint>
+                            <date>Inconnue</date>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="cle_fictive2">
+                        <title>Clé fictive2</title>
+                        <imprint>
+                            <date>Inconnue</date>
+                        </imprint>
+                    </monogr>
                 </biblStruct>
 
 
                 <listPerson>
-                    <person xml:id="Criton">
+                    <person xml:id="Criton" source="clé_fictive1">
                         <name>Criton</name>
                         <idno type="URL">c</idno>
+
                     </person>
-                    <person xml:id="Périandre">
+                    <person xml:id="Périandre" source="clé_fictive1">
                         <name>Périandre</name>
                         <idno type="URL">p</idno>
                     </person>
-                    <person xml:id="Chrysippe">
+                    <person xml:id="Chrysippe" source="clé_fictive2">
                         <name>Chrysippe</name>
                         <idno type="URL">ch</idno>
                     </person>
-                    <person xml:id="Ergaste">
+                    <person xml:id="Ergaste" source="clé_fictive2">
                         <name>Ergaste</name>
                         <idno type="URL">e</idno>
                     </person>
-                    <person xml:id="Brontin">
+                    <person xml:id="Brontin" source="clé_fictive1">
                         <name>Brontin</name>
                         <idno type="URL">b</idno>
+                    </person>
+                    <person xml:id="Langlée" source="clé_fictive1">
+                        <name>Langlée</name>
+                        <idno type="URL">l</idno>
+                    </person>
+                    <person xml:id="Bossuet" source="clé_fictive2">
+                        <name>Bossuet</name>
+                        <idno type="URL">b</idno>
+                    </person>
+                    <person xml:id="M.Hemardinquer" source="clé_fictive2">
+                        <name>M. Hemardinquer</name>
+                        <idno type="URL">h</idno>
+                    </person>
+                    <person xml:id="lecomptedeGrammont" source="clé_fictive2">
+                        <name>le compte de Grammont</name>
+                        <idno type="URL">h</idno>
+                    </person>
+
+                    <person xml:id="Molière" source="clé_fictive1">
+                        <name>Molière</name>
+                        <idno type="URL">h</idno>
+                    </person>
+                    <person xml:id="LouisXIV" source="clé_fictive1">
+                        <name>LouisXIV</name>
+                        <idno type="URL"/>
+                    </person>
+                    <person xml:id="Orphée" source="clé_fictive1">
+                        <name>Orphée</name>
+                        <idno type="URL"/>
                     </person>
                 </listPerson>
                 <listPlace>
@@ -127,6 +169,12 @@
                 Ajout des @source dans chaque p et correction de la structure globale. Ajout des pb
                 et source dechaque pb. Invention de 2 notes key et enrichissement du TEIHeader avec
                 des attributs.</change>
+            <change when="2023-11-13">Correction du devoir : ajout de 2 clés fictives du fait de
+                l'absence de clés de Garapon (cle_fictive1 et 2). Encodage dand le listPerson de
+                tous les noms propres des textes avec la structure suivante(person xml:id="nom"
+                source="clé_fictive2"). Encodage des clés correspondantes dans le texte avec la
+                structure suivante(persName ref="#Bossuet" type="key" source="#cle_fictive2" nom
+                propre).</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -145,20 +193,21 @@
                                     <lem>user</lem>
                                     <rdg wit="#edition8">ufer</rdg>
                                 </rdgGrp>
-                            </app> de sa fortune que fait <seg>Périandre <note resp="#laBruyère"
-                                    place="margin" type="glossaire" source="#edition8"> PERIANDE. Il
-                                    s'agit d'un certain Langlée, que nous retrouverons plus loin au
-                                    chapitre de la Cour : "Les cours ne sauraient se passer,
-                                    etc."</note></seg>: elle <app>
-                                <rdgGrp>
-                                    <lem>lui</lem>
-                                    <rdg wit="#edition8">luy</rdg>
-                                </rdgGrp>
-                            </app> donne du rang, du crédit, de l’autorité ; déjà on ne le prie plus
-                            d’accorder son amitié, implore sa protection. Il a commencé par dire de
-                            soi-même : un homme de ma sorte ; il passe à dire : un homme de ma
-                            qualité ; il se donne pour tel, et il n’y a personne de ceux à qui il
-                            prête de l’argent, ou qu’il reçoit à sa table, qui est délicate, qui <app>
+                            </app> de sa fortune que fait <seg>Périandre <persName ref="#Périandre"
+                                    type="key" source="#clé_fictive1">Même personnage que
+                                    Langlée.</persName>
+                                <note resp="#laBruyère" place="margin" type="glossaire"
+                                    source="#edition8"> PERIANDE. Il s'agit d'un certain <persName
+                                        ref="#Langlée" type="key" source="clé_fictive1">Même
+                                        personnage que Périandre.</persName>, que nous retrouverons
+                                    plus loin au chapitre de la Cour : "Les cours ne sauraient se
+                                    passer, etc."</note></seg>: elle <app><rdgGrp><lem>lui</lem><rdg
+                                        wit="#edition8">luy</rdg></rdgGrp></app> donne du rang, du
+                            crédit, de l’autorité ; déjà on ne le prie plus d’accorder son amitié,
+                            implore sa protection. Il a commencé par dire de soi-même : un homme de
+                            ma sorte ; il passe à dire : un homme de ma qualité ; il se donne pour
+                            tel, et il n’y a personne de ceux à qui il prête de l’argent, ou qu’il
+                            reçoit à sa table, qui est délicate, qui <app>
                                 <rdgGrp>
                                     <lem>veuille </lem>
                                     <rdg wit="#edition8">veüille</rdg>
@@ -174,24 +223,23 @@
                             dont la femme, par son collier de perles, s’est fait des ennemies de
                             toutes les dames du voisinage. Tout se soutient dans cet homme ; rien
                             encore ne se dément dans cette grandeur qu’il a acquise, dont il ne doit
-                            rien, qu’il a payée. Que son père, si vieux et si <seg>caduc<note
-                                    type="key">Qui a cessé d'être valable, d'avoir cours ; périmé,
-                                    désuet.</note></seg>, n’est-il mort il y a vingt ans et avant
-                            qu’il se fît dans le monde aucune mention de Périandre ! Comment
-                            pourra-t-il soutenir ces odieuses <seg>pancartes <note resp="#laBruyère"
-                                    place="margin" type="glossaire" source="#edition8">PANCARTES.
-                                    Billets d'enterrement (note de la Bruyère).</note></seg> qui
-                            déchiffrent les conditions et qui souvent font rougir la veuve et les
-                            héritiers ? Les supprimera-t-il aux yeux de toute une ville jalouse,
-                            maligne, clairvoyante, et aux dépens de mille gens qui veulent
-                            absolument aller tenir leur rang à des obsèques ? Veut-on d’ailleurs
-                            qu’il fasse de son père un Noble homme, et peut-être un Honorable homme,
-                            lui qui est <seg>Messire ?<note resp="#laBruyère" place="margin"
-                                    type="glossaire" source="#edition8">MESSIRE. Noble homme était
-                                    le titre que prenaient, dans les contrats, les bourgeois de
-                                    quelque importance. Le petit bourgeois, le marchand, l'artisan
-                                    s'intitulaient honorable homme, le titre de messire était
-                                    réservé aux personnes de qualité.</note></seg>
+                            rien, qu’il a payée. Que son père, si vieux et si <seg>caduc qui a cessé
+                                d'être valable, d'avoir cours ; périmé, désuet.</seg>, n’est-il mort
+                            il y a vingt ans et avant qu’il se fît dans le monde aucune mention de
+                            Périandre ! Comment pourra-t-il soutenir ces odieuses <seg>pancartes
+                                    <note resp="#laBruyère" place="margin" type="glossaire"
+                                    source="#edition8">PANCARTES. Billets d'enterrement (note de la
+                                    Bruyère).</note></seg> qui déchiffrent les conditions et qui
+                            souvent font rougir la veuve et les héritiers ? Les supprimera-t-il aux
+                            yeux de toute une ville jalouse, maligne, clairvoyante, et aux dépens de
+                            mille gens qui veulent absolument aller tenir leur rang à des obsèques ?
+                            Veut-on d’ailleurs qu’il fasse de son père un Noble homme, et peut-être
+                            un Honorable homme, lui qui est <seg>Messire ?<note resp="#laBruyère"
+                                    place="margin" type="glossaire" source="#edition8">MESSIRE.
+                                    Noble homme était le titre que prenaient, dans les contrats, les
+                                    bourgeois de quelque importance. Le petit bourgeois, le
+                                    marchand, l'artisan s'intitulaient honorable homme, le titre de
+                                    messire était réservé aux personnes de qualité.</note></seg>
                             <note resp="#Josset"/>
                             <note resp="#laBruyère" type="inform"> lalala</note>
                         </p>
@@ -231,13 +279,14 @@
                             autres biens, que la dispensation qu’il en fait, et le genre d’hommes
                             qui en sont le mieux <seg>pourvus. <note resp="#laBruyère"
                                     place="margin" type="information" source="#edition8"> POURVUS.
-                                    Cf. Bossuet, Sermon sur la Providence : Quand, rappelant en mon
-                                    esprit à la mémoire de tous les siècles. Je vois si souvent les
-                                    grandeurs du mond enetre les mains des <seg>impies<note
-                                            resp="#Josset" type="key">Personne qui insulte à la
-                                            religion. </note></seg>,...ah !qu'il m'est aisé de
-                                    comprendre que Dieu fait peu d'état de telles faveurs et de tous
-                                    les biens qu'il donne pour la vie préscate !" </note>
+                                    Cf. <persName ref="#Bossuet" type="key" source="#cle_fictive2"
+                                        >Bossuet</persName>, Sermon sur la Providence : Quand,
+                                    rappelant en mon esprit à la mémoire de tous les siècles. Je
+                                    vois si souvent les grandeurs du mond enetre les mains des
+                                            <seg>impies<note resp="#Josset" type="key">Personne qui
+                                            insulte à la religion. </note></seg>,...ah !qu'il m'est
+                                    aisé de comprendre que Dieu fait peu d'état de telles faveurs et
+                                    de tous les biens qu'il donne pour la vie préscate !" </note>
                             </seg>
                         </p>
                     </div3>
@@ -267,9 +316,12 @@
                             De même n’approfondissez pas la fortune des <seg>partisans.<note
                                     resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">DES PARTISANS. La fortune de la plupart des
-                                    grands sortait de la même cuisine, dit M. Hemardinquer. "Presque
-                                    tous sollicitaient du roi des confliscations et des gains
-                                    honteux qu'on appelait affaires. Ainsi le compte de Grammont
+                                    grands sortait de la même cuisine, dit <persName
+                                        ref="#M.Hemardinquer" type="key" source="#cle_fictive2">M.
+                                        Hemardinquer</persName>. "Presque tous sollicitaient du roi
+                                    des confliscations et des gains honteux qu'on appelait affaires.
+                                    Ainsi <persName ref="#lecomptedeGramont" type="key"
+                                        source="#cle_fictive2">le compte de Grammont</persName>
                                     parvient à saisir un homme condddamné pour concussion à une
                                     amende de 12,000 écus et qui était en fuite; il demande au roi
                                     de lui abandonner cet homme, dont il tire de 40 à 50,000 livres
@@ -301,21 +353,23 @@
                     <div3 source="#edition10 #edition8" type="remarque" n="(27)">
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"
-                                    /><seg>Chrysippe<note resp="#laBruyère" place="margin"
-                                    type="information" source="#edition8">CHRYSIPPE.
-                                    (...)BonTemps.</note></seg>, homme nouveau, et le premier noble
-                            de sa race, aspirait, il y a trente années, à se voir un jour deux mille
-                            livres de rente pour tout bien : c’était là le comble de ses souhaits et
-                            sa plus haute ambition ; il l’a dit ainsi, et on s’en souvient. Il
-                            arrive, je ne sais par quels chemins, jusques à donner en revenu à l’une
-                            de ses filles, pour sa <seg>dot<note resp="#Josset" type="key">Bien
-                                    qu'une femme apporte en se mariant.</note></seg>, ce qu’il
-                            désirait lui-même d’avoir en fonds pour toute fortune pendant sa vie.
-                            Une pareille somme est comptée dans ses coffres pour chacun de ses
-                            autres enfants qu’il doit pourvoir, et il a un grand nombre d’enfants ;
-                            ce n’est qu’en avancement <seg>d’hoirie <note resp="#laBruyère"
-                                    place="margin" type="information" source="#edition8">HOIRIES.
-                                    (...) revenir.</note></seg> : il y a d’autres biens à<pb n="117"
+                                    /><seg><persName ref="#Chrysippe" type="key"
+                                    source="#cle_fictive2">Chrysippe</persName><note
+                                    resp="#laBruyère" place="margin" type="information"
+                                    source="#edition8">CHRYSIPPE. (...)BonTemps.</note></seg>, homme
+                            nouveau, et le premier noble de sa race, aspirait, il y a trente années,
+                            à se voir un jour deux mille livres de rente pour tout bien : c’était là
+                            le comble de ses souhaits et sa plus haute ambition ; il l’a dit ainsi,
+                            et on s’en souvient. Il arrive, je ne sais par quels chemins, jusques à
+                            donner en revenu à l’une de ses filles, pour sa <seg>dot<note
+                                    resp="#Josset" type="key">Bien qu'une femme apporte en se
+                                    mariant.</note></seg>, ce qu’il désirait lui-même d’avoir en
+                            fonds pour toute fortune pendant sa vie. Une pareille somme est comptée
+                            dans ses coffres pour chacun de ses autres enfants qu’il doit pourvoir,
+                            et il a un grand nombre d’enfants ; ce n’est qu’en avancement
+                                <seg>d’hoirie <note resp="#laBruyère" place="margin"
+                                    type="information" source="#edition8">HOIRIES. (...)
+                                    revenir.</note></seg> : il y a d’autres biens à<pb n="117"
                                 source="#edition10"/> espérer après sa mort. Il vit encore, quoique
                             assez avancé en âge, et il use le reste de ses jours à travailler pour
                             s’enrichir. </p>
@@ -325,35 +379,42 @@
                         <pb n="205" source="#edition8"/>
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"
-                            /> Laissez faire <seg>Ergaste<note resp="#laBruyère" place="margin"
-                                    type="information" source="#edition8">ERGASTE; (...)
-                                    revenir.</note></seg>, et il exigera un droit de tous ceux qui
-                            boivent de l’eau de la rivière, ou qui marchent sur la terre ferme : il
-                            sait convertir en or jusques aux roseaux, aux joncs et à l’ortie. Il
+                            /> Laissez faire <seg><persName ref="#Ergaste" type="key"
+                                    source="#cle_fictive2">Ergaste</persName><note resp="#laBruyère"
+                                    place="margin" type="information" source="#edition8">ERGASTE;
+                                    (...) revenir.</note></seg>, et il exigera un droit de tous ceux
+                            qui boivent de l’eau de la rivière, ou qui marchent sur la terre ferme :
+                            il sait convertir en or jusques aux roseaux, aux joncs et à l’ortie. Il
                             écoute tous les avis, et propose tous ceux <seg>qu’il a écoutés<note
                                     resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">QU'IL A ECOUTES. (...)tableau.</note></seg>.
-                            Le prince ne donne aux autres qu’aux dépens d’Ergaste, et ne leur fait
+                            Le prince ne donne aux autres qu’aux dépens d’<persName ref="#Ergaste"
+                                type="key" source="cle_fictive2">Ergaste</persName>, et ne leur fait
                             de grâces que celles qui lui étaient <seg>dues<note resp="#laBruyère"
                                     place="margin" type="glossaire" source="#edition8">DUES.Cf.
-                                    Molière (...)injustice.</note></seg>. C’est une faim insatiable
-                            d’avoir et de posséder. <seg>Il trafiquerait<note resp="#laBruyère"
-                                    place="margin" type="information" source="#edition8">IL
-                                    TRAFIQUERAIT.(...)Louis XIV.</note></seg> des arts et des
-                            sciences, et mettrait en parti jusques à <seg>l’harmonie<note
+                                        <persName ref="#Molière" type="key" source="cle_fictive1"
+                                        >Molière</persName> (...)injustice.</note></seg>. C’est une
+                            faim insatiable d’avoir et de posséder. <seg>Il trafiquerait<note
                                     resp="#laBruyère" place="margin" type="information"
-                                    source="#edition8">L'HARMONIE.(...)musique.</note>
+                                    source="#edition8">IL TRAFIQUERAIT.(...)<persName
+                                        ref="#LouisXIV" type="key" source="cle_fictive1">Louis
+                                        XIV</persName>.</note></seg> des arts et des sciences, et
+                            mettrait en parti jusques à <seg>l’harmonie<note resp="#laBruyère"
+                                    place="margin" type="information" source="#edition8"
+                                    >L'HARMONIE.(...)musique.</note>
                             </seg>: il faudrait, s’il en était cru, que le peuple, pour avoir le
                             plaisir de le voir riche, de lui voir une meute et une écurie, pût
-                            perdre le souvenir de la musique d’Orphée, et se contenter de la sienne.
-                        </p>
+                            perdre le souvenir de la musique d’<persName ref="#Orphée" type="key"
+                                source="cle_fictive1">Orphée</persName>, et se contenter de la
+                            sienne. </p>
                     </div3>
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(29)">
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"
-                            /> Ne traitez pas avec <seg>CRITON<note resp="#laBruyère" place="margin"
-                                    type="information" source="#edition8"
+                            /> Ne traitez pas avec <seg><persName ref="#Criton" type="key"
+                                    source="#cle_fictive1">Criton</persName><note resp="#laBruyère"
+                                    place="margin" type="information" source="#edition8"
                                     >CRITON.(...)laquais".</note></seg>, il n’est touché que de ses
                             seuls avantages. Le piège est tout dressé à ceux à qui sa charge, sa
                             terre, ou ce qu’il possède feront envie : il vous imposera des
@@ -366,12 +427,14 @@
                         <pb n="206" source="~edition8"/>
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"/>
-                            <seg>Brontin<note resp="#laBruyère" place="margin" type="information"
-                                    source="#edition8">BRONTIN.(...)laquais".</note></seg>, dit
-                                <seg>le peuple<note resp="#laBruyère" place="margin"
-                                    type="information" source="#edition8">LE PEUPLE.(...)sans
-                                    crier.</note></seg>, fait des retraites, et s’enferme huit jours
-                            avec des saints : ils ont leurs méditations, et il a les siennes. </p>
+                            <seg><persName ref="#Brontin" type="key" source="#cle_fictive1"
+                                    >Brontin</persName><note resp="#laBruyère" place="margin"
+                                    type="information" source="#edition8"
+                                    >BRONTIN.(...)laquais".</note></seg>, dit <seg>le peuple<note
+                                    resp="#laBruyère" place="margin" type="information"
+                                    source="#edition8">LE PEUPLE.(...)sans crier.</note></seg>, fait
+                            des retraites, et s’enferme huit jours avec des saints : ils ont leurs
+                            méditations, et il a les siennes. </p>
                     </div3>
                     <div3 source="#edition10 #edition8" type="remarque" n="(31)">
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"
