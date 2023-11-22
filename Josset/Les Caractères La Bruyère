@@ -106,6 +106,11 @@
                         <name>Orphée</name>
                         <idno type="URL"/>
                     </person>
+                        <person xml:id="Dieu" source="clé_fictive1">
+                            <name>Dieu</name>
+                            <idno type="URL"/>
+                        </person>
+                    
                 </listPerson>
                 <listPlace>
                     <place>
@@ -272,7 +277,8 @@
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(24)">
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="edition8"/>
-                            Rien ne fait mieux comprendre le peu de chose que Dieu croit donner aux
+                            Rien ne fait mieux comprendre le peu de chose que <persName ref="#Dieu" type="key" source="#cle_fictive1"
+                                >Dieu</persName>Dieu croit donner aux
                             hommes, en leur abandonnant les richesses, l’argent, les grands
                                     <seg>établissements<note resp="#Josset" place="margin"
                                     type="glossaire" source="#edition10">blabla</note></seg>et les
@@ -285,7 +291,8 @@
                                     vois si souvent les grandeurs du mond enetre les mains des
                                             <seg>impies<note resp="#Josset" type="key">Personne qui
                                             insulte à la religion. </note></seg>,...ah !qu'il m'est
-                                    aisé de comprendre que Dieu fait peu d'état de telles faveurs et
+                                aisé de comprendre que <persName ref="#Dieu" type="key" source="#cle_fictive1"
+                                    >Dieu</persName>Dieu fait peu d'état de telles faveurs et
                                     de tous les biens qu'il donne pour la vie préscate !" </note>
                             </seg>
                         </p>
