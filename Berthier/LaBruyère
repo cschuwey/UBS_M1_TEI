@@ -63,8 +63,8 @@
                         <name>Louis XIV</name>
                         <idno/>
                     </person>
-                   </listPerson>
-                
+                </listPerson>
+
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -124,12 +124,13 @@
                 de glyphes au début de remarques.</change>
             <change when="2023-11-16">Rajout de clés, une réelle et une fictive au sein des
                 remarques de La Bruyère.</change>
-            <change when="2023-11-21">Rajout de deux monogr dans BiblStruct. Modification du TEIHeader.</change>
+            <change when="2023-11-21">Rajout de deux monogr dans BiblStruct. Modification du
+                TEIHeader.</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            
+
             <div1 type="part" n="1">
                 <head>Les Caractères ou les Moeurs de ce Siècle</head>
                 <div2 type="chapter" n="5">
@@ -141,54 +142,56 @@
                     </div3>
                     <div3 n="54" source="#edition1 #edition2">
                         <p source="#edition1 #edition2"><g ref="#char_pdm"/><seg>Celui qui est d’une
-                            éminence<note type="key">Il s'agit du Roi<persName type="key" source="#cle_garapon">Louis XIV</persName> dans la clé
-                                <persName>Garapon</persName></note></seg> au-dessus des
+                                    éminence<note type="key">Il s'agit du Roi<persName type="key"
+                                        source="#cle_garapon"><persName ref="#LouisXIV">Louis XIV</persName></persName> dans la clé
+                                        <persName>Garapon</persName></note></seg> au-dessus des
                             autres qui le met à couvert de la repartie, ne doit jamais faire une
                             raillerie piquante.</p>
                     </div3>
                     <div3 n="55" source="#edition1 #edition2">
                         <p source="#edition1 #edition2"><g ref="#char_pdm"/>Il y a de petits <app>
-                            <rdgGrp>
-                                <lem>défauts</lem>
-                                <rdg source="#edition2">défauts</rdg>
-                            </rdgGrp>
-                            <rdgGrp>
-                                <rdg source="#edition1">defauts</rdg>
-                            </rdgGrp>
-                        </app> que l’on abandonne volontiers à la censure, et dont nous ne
+                                <rdgGrp>
+                                    <lem>défauts</lem>
+                                    <rdg source="#edition2">défauts</rdg>
+                                </rdgGrp>
+                                <rdgGrp>
+                                    <rdg source="#edition1">defauts</rdg>
+                                </rdgGrp>
+                            </app> que l’on abandonne volontiers à la censure, et dont nous ne
                             haïssons pas à être raillés <app>
                                 <rdgGrp>
                                     <lem>;</lem>
                                     <rdg source="#edition2">;</rdg>
                                 </rdgGrp>
-                                <rdg source="#edition1">:</rdg>
-                                <rdgGrp/>
+                                <rdgGrp>
+                                    <rdg source="#edition1">:</rdg>
+                                </rdgGrp>
                             </app> ce sont de pareils défauts que nous devons choisir pour railler
                             les autres.</p>
                     </div3>
                     <div3 n="56" source="#edition2">
                         <p source="#edition2"><g ref="#char_pdm"/>Rire des gens d’esprit, c’est le
                             privilège des sots : ils sont dans le monde ce que les fous sont à la
-                            <seg>cour<note type="key">Il s'agit de la cour de<persName
-                                type="key" source="#cle_fictive">Louis XIV</persName> dans la
-                                clé <persName>fictive</persName></note></seg>, je veux dire sans
-                            conséquence.</p>
+                                    <seg>cour<note type="key">Il s'agit de la cour de<persName
+                                        type="key" source="#cle_fictive">Louis XIV</persName> dans
+                                    la clé <persName>fictive</persName></note></seg>, je veux dire
+                            sans conséquence.</p>
                     </div3>
                     <div3 n="57" source="#edition1 #edition2">
                         <p source="#edition1 #edition2"><g ref="#char_pdm"/>La moquerie est souvent
-                            <seg>indigence d’esprit.<note resp="#berthier" place="bottom"
-                                type="definition" source="#edition2">Grande pauvreté, privation
-                                du nécessaire. Extrême indigence. Il est tombé dans l'indigence,
-                                dans la plus affreuse indigence. Être dans l'indigence. Fig.,
-                                Indigence d'idées. Indigence d'esprit. Il se dit spécialement de
-                                l'État de pauvreté qui appelle les secours publics ou privés.
-                                Certificat d'indigence. Il se dit absolument des Indigents en
-                                général. Secourir l'indigence.</note></seg></p>
+                                <seg>indigence d’esprit.<note resp="#berthier" place="bottom"
+                                    type="definition" source="#edition2">Grande pauvreté, privation
+                                    du nécessaire. Extrême indigence. Il est tombé dans l'indigence,
+                                    dans la plus affreuse indigence. Être dans l'indigence. Fig.,
+                                    Indigence d'idées. Indigence d'esprit. Il se dit spécialement de
+                                    l'État de pauvreté qui appelle les secours publics ou privés.
+                                    Certificat d'indigence. Il se dit absolument des Indigents en
+                                    général. Secourir l'indigence.</note></seg></p>
                     </div3>
                     <div3 n="58" source="#edition1 #edition2">
                         <p source="#edition1 #edition2"><g ref="#char_pdm"/>Vous le croyez votre
-                            <seg>dupe<note resp="#berthier" place="end" type="definition"
-                                source="#edition1">Personne trompée, ou facile à
+                                    <seg>dupe<note resp="#berthier" place="end" type="definition"
+                                    source="#edition1">Personne trompée, ou facile à
                                 tromper</note></seg> : s’il feint de l’être, qui est plus dupe de
                             lui ou de vous ?</p>
                     </div3>
@@ -215,8 +218,8 @@
                                     <rdg source="#edition1">goust</rdg>
                                 </rdgGrp>
                             </app>sur ce qui regarde les <seg>mœurs<note resp="#berthier"
-                                place="top" type="synonym" source="#edition1">Conduite, morale,
-                                principe</note></seg>, et par quelques différences d’opinions
+                                    place="top" type="synonym" source="#edition1">Conduite, morale,
+                                    principe</note></seg>, et par quelques différences d’opinions
                             sur les sciences : par là ou l’on s’affermit dans ses sentiments, ou
                             l’on s’exerce et l’on s’instruit par la dispute.</p>
                     </div3>
@@ -235,8 +238,8 @@
                                 froides, et qui réduisent à l’impossible. "Etês-vous raisonnable de
                                 vous tant inquiéter ? " n’est-ce pas dire : "Etes-vous fou d’être
                                 malheureux ? "<note resp="#berthier" place="margin" type="citation"
-                                    source="#edition2">Ce sont les paroles de J. de La
-                                    Bruyère</note></seg></p>
+                                    source="#edition2">Ce sont les paroles de <persName ref="#labruyere">J. de La
+                                        Bruyère</persName></note></seg></p>
                     </div3>
                 </div2>
             </div1>
