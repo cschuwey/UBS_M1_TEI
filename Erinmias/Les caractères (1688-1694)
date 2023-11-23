@@ -5,7 +5,7 @@
             <titleStmt>
                 <title>Les caractères de Théophraste traduits du grec</title>
                 <author>La Bruyère, Jean de</author>
-                    
+
                 <principal/>
             </titleStmt>
             <publicationStmt>
@@ -14,62 +14,90 @@
                 <distributor/>
             </publicationStmt>
             <sourceDesc>
-                
-<listBibl>
-                <bibl xml:id="edition3">
-                <author>La Bruyère, Jean de</author>
-                    <title>Les caractères de Théophraste traduits du grec</title>
-                    <placeName>Paris</placeName>
-                    <publisher>Etienne Michallet</publisher>
-                    <author>Erin Mias</author>
-                    <date>1688</date>
-                
-                </bibl></listBibl>
-            <listBibl>
-                <bibl xml:id="edition8">
-                  <author>La Bruyère, Jean de</author>
-                    <affiliation xml:id="invisihands">invisihands</affiliation>
-                    <author>Erin Mias</author>
-                    <publisher xml:id="Erin">erin</publisher>
-                    <title>Les caractères de Théophraste traduits du grec</title>
-                    <placeName>Lyon</placeName>
-                    <publisher> Thomas Amaulry </publisher>
-                    <date>1694</date>
-                </bibl></listBibl>
-               <listBibl>
-                <bibl xml:id="edition7">
-                    <author>La Bruyère, Jean de</author>
-                    <title>Les caractères de Théophraste traduits du grec</title>
-                    <placeName>Paris</placeName>
-                    <publisher>Etienne Michallet</publisher>
-                    <date>1692</date>
-                    
-                </bibl></listBibl>
+
+                <listBibl>
+                    <bibl xml:id="edition3">
+                        <author>La Bruyère, Jean de</author>
+                        <title>Les caractères de Théophraste traduits du grec</title>
+                        <placeName>Paris</placeName>
+                        <publisher>Etienne Michallet</publisher>
+                        <author>Erin Mias</author>
+                        <date>1688</date>
+                    </bibl>
+                </listBibl>
+                <listBibl>
+                    <bibl xml:id="edition8">
+                        <author>La Bruyère, Jean de</author>
+                        <affiliation xml:id="invisihands">invisihands</affiliation>
+                        <author>Erin Mias</author>
+                        <publisher xml:id="Erin">erin</publisher>
+                        <title>Les caractères de Théophraste traduits du grec</title>
+                        <placeName>Lyon</placeName>
+                        <publisher> Thomas Amaulry </publisher>
+                        <date>1694</date>
+                    </bibl>
+                </listBibl>
+                <listBibl>
+                    <bibl xml:id="edition7">
+                        <author>La Bruyère, Jean de</author>
+                        <title>Les caractères de Théophraste traduits du grec</title>
+                        <placeName>Paris</placeName>
+                        <publisher>Etienne Michallet</publisher>
+                        <date>1692</date>
+                    </bibl>
+                </listBibl>
                 <biblStruct>
-                                <monogr xml:id="cle_callot">
-                                    <title>Clé callot</title>
-                                    <imprint>
-                                        <date>Inconnue</date>
-                                    </imprint>
-                                </monogr>
-                                    <monogr xml:id="cle_catulle">
-                                        <title>Clé Garapon</title>
-                                        <imprint>
-                                            <date>Inconnue</date>
-                                        </imprint>
-                                    </monogr>
-                                   
+                    <monogr xml:id="cle_callot">
+                        <title>Clé callot</title>
+                        <imprint>
+                            <date>Inconnue</date>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="cle_catulle">
+                        <title>Clé Garapon</title>
+                        <imprint>
+                            <date>Inconnue</date>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="cle_fleuriste">
+                        <title>fleuriste</title>
+                        <imprint>
+                            <date>Inconnue</date>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="cle_diognète">
+                        <title>Diognète</title>
+                        <imprint>
+                            <date>Inconnue</date>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="cle_démocède">
+                        <title>Démocède</title>
+                        <imprint>
+                            <date>Inconnue</date>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="cle_diphile">
+                        <title>Diphile</title>
+                        <imprint>
+                            <date>Inconnue</date>
+                        </imprint>
+                    </monogr>
+                    <monogr xml:id="cle_tigillin">
+                        <title>Tigillin</title>
+                        <imprint>
+                            <date>Inconnue</date>
+                        </imprint>
+                    </monogr>
                 </biblStruct>
                 <listPerson>
-                    <person xml:id="Catulle" source="cle_catulle">
-                    </person>
-                    <person xml:id="Callot" source="cle_callot">
-                    </person>
+                    <person xml:id="Catulle" source="cle_catulle"> </person>
+                    <person xml:id="Callot" source="cle_callot"> </person>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
- <charDecl>
+            <charDecl>
                 <glyph xml:id="char_pm0">
                     <mapping>❡</mapping>
                     <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
@@ -78,12 +106,14 @@
                 <char xml:id="char_pm1">
                     <mapping>(❡)</mapping>
                     <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
-                        remarque. Il devait indiquer les remarques ajoutées à partir de l'édition 4.</desc>
+                        remarque. Il devait indiquer les remarques ajoutées à partir de l'édition
+                        4.</desc>
                 </char>
                 <char xml:id="char_pm2">
                     <mapping>((❡))</mapping>
                     <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
-                        remarque. Il devait indiquer les remarques ajoutées à partir de l'édition 5.</desc>
+                        remarque. Il devait indiquer les remarques ajoutées à partir de l'édition
+                        5.</desc>
                 </char>
                 <char xml:id="md">
                     <mapping>☜</mapping>
@@ -97,16 +127,22 @@
                 </char>
             </charDecl>
             <editorialDecl>
-                <normalization><p>graphie modernisée</p></normalization>
-                <normalization><p>ponctuation modernisée</p></normalization>
-                <segmentation><p>note ecrites par "invisihands" sont manuscrites</p></segmentation>
+                <normalization>
+                    <p>graphie modernisée</p>
+                </normalization>
+                <normalization>
+                    <p>ponctuation modernisée</p>
+                </normalization>
+                <segmentation>
+                    <p>note ecrites par "invisihands" sont manuscrites</p>
+                </segmentation>
             </editorialDecl>
             <editorialDecl>
                 <interpretation>
-                  <p>div1 pour les parties de l'ouvrage</p>
+                    <p>div1 pour les parties de l'ouvrage</p>
                     <p>div2 pour les chapitres</p>
                     <p>div3 pour les remarques</p>
-                     <p>lem pour la version moderne, de base, du texte</p>
+                    <p>lem pour la version moderne, de base, du texte</p>
                     <p>La position des notes de La Bruyère dans le texte est précisé comme attribut
                         dans la balise "note" car une seule note ne permet pas de généraliser.</p>
                 </interpretation>
@@ -118,20 +154,21 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-<listChange>
-               <change when="2023-10-11">Ajout des méta-données du fichier.</change>
+            <listChange>
+                <change when="2023-10-11">Ajout des méta-données du fichier.</change>
                 <change when="2023-10-20">Ajout de la numérotation des remarques.</change>
                 <change when="2023-10-23">Ajout des des sources</change>
-                 <change when="2023-10-23">Ajout d'une nouvelle édition</change>
-                  <change when="2023-11-07">Encodage de note</change>
-                 <change when="2023-11-07">Ajout de l'élément app pour comparer la langue,
+                <change when="2023-10-23">Ajout d'une nouvelle édition</change>
+                <change when="2023-11-07">Encodage de note</change>
+                <change when="2023-11-07">Ajout de l'élément app pour comparer la langue,
                     ponctuation. Encodage pieds de mouche et manicules.</change>
-                   <change when="2023-11-21">Rajout de deux monogr dans BiblStruct. Modification du
-        TEIHeader.</change>
+                <change when="2023-11-21">Rajout de deux monogr dans BiblStruct. Modification du
+                    TEIHeader.</change>
+                 <change when="2023-11-21">Rajout des PersName et de la pagination </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-       <text>
+    <text>
         <body>
             <div1>
                 <head>Les caractères de la Bruyère</head>
@@ -139,129 +176,135 @@
                     <head>De la mode</head>
 
 
-                    <div3 type="remarque" n="1"> 
+                    <div3 type="remarque" n="1">
                         <p source="#edition7 #edition8">
                             <g ref="#char_pm0"/>
-                             Une chose folle et qui découvre bien notre petitesse, c’est
-                            l’assujettissement aux modes quand on l’étend à ce qui concerne le goût,
-                            le vivre, la santé et la conscience. La viande noire est hors de mode,
-                            et par cette raison insipide ; ce serait pécher contre la mode que de
-                            guérir de la fièvre par la saignée. De même l’on ne mourait plus depuis
-                            longtemps par Théotime ; ses tendres exhortations ne sauvaient plus que
-                            le peuple, et Théotime a vu son successeur.
-                        </p>
+                            <pb source="#edition8" n="559"/> Une chose folle et qui découvre bien
+                            notre petitesse, c’est l’assujettissement aux modes quand on l’étend à
+                            ce qui concerne le goût, le vivre, la santé et la conscience. La viande
+                            noire est hors de mode, et par cette raison insipide ; ce serait pécher
+                            contre la mode que de guérir de la fièvre par la saignée. De même l’on
+                            ne mourait plus depuis longtemps par Théotime ; ses tendres exhortations
+                            ne sauvaient plus que le peuple, et Théotime a vu son successeur. </p><app type="graphie">
+                                <lem>une chose folle</lem> <rdg>une chofe folle</rdg>
+                            </app>
                     </div3>
                     <div3 type="remarque" n="2">
                         <p source="#edition7 #edition8">
-                            <g ref="#char_pm0"/>
-                            La curiosité n’est pas un goût pour ce qui est bon ou ce qui est beau,
-                            mais pour ce qui est rare, unique, pour ce qu’on a et ce que les autres
-                            n’ont point. Ce n’est pas un attachement à ce qui est parfait, mais à ce
-                            qui est couru, à ce qui est à la mode. Ce n’est pas un amusement, mais
-                            une passion, et souvent si violente, qu’elle ne cède à l’amour et à
-                            l’ambition que par la petitesse de son objet. Ce n’est pas une passion
-                            qu’on a généralement pour les choses rares et qui ont cours, mais qu’on
-                            a seulement pour une certaine chose, qui est rare, et pourtant à la
-                            mode
-                           
-                            <app type="ponctuation">
-                                <lem>.</lem> </app>
-                        
-                             Le fleuriste a un jardin dans un faubourg : il y court au lever du
-                            soleil, et il en revient à son coucher. Vous le voyez planté, et qui a
-                            pris racine au milieu de ses tulipes et devant la Solitaire : il ouvre
-                            de grands yeux, il frotte ses mains, il se baisse, il la voit de plus
-                            près, il ne l’a jamais vue si belle, il a le cœur épanoui de joie ; il
-                            la quitte pour l’Orientale, de là il va à la Veuve, il passe au Drap
-                            d’or, de celle-ci à l’Agathe, d’où il revient enfin à la Solitaire, où
-                            il se fixe, où il se lasse, où il s’assied, où il oublie de dîner :
-                            aussi est-elle nuancée, bordée, huilée, à pièces emportées ; elle a un
-                            beau vase ou un beau calice : il la contemple, il l’admire. Dieu et la
-                            nature sont en tout cela ce qu’il n’admire point ; il ne va pas plus
-                            loin que l’oignon de sa tulipe, qu’il ne livrerait pas pour mille écus,
-                            et qu’il donnera pour rien quand les tulipes seront négligées et que les
-                            œillets auront prévalu. Cet homme raisonnable, qui a une âme, qui a un
-                            culte et une religion, revient chez soi fatigué, affamé, mais fort
-                            content de sa journée : il a vu des tulipes. Parlez à cet autre de la
-                            richesse des moissons, d’une ample récolte, d’une bonne vendange : il
-                            est curieux de fruits ; vous n’articulez pas, vous ne vous faites pas
-                            entendre. Parlez-lui de figues et de melons, dites que les poiriers
-                            rompent de fruit cette année, que les pêchers ont donné avec abondance ;
-                            c’est pour lui un idiome inconnu : il s’attache aux seuls pruniers, il
-                            ne vous répond pas. Ne l’entretenez pas même de vos pruniers : il n’a de
-                            l’amour que pour une certaine espèce, toute autre que vous lui nommez le
-                            fait sourire et se moquer. Il vous mène à l’arbre, cueille artistement
-                            cette prune exquise ; il l’ouvre, vous en donne une moitié, et prend
-                            l’autre : « Quelle chair ! dit-il ; goûtez-vous cela ? cela est-il divin
-                            ? voilà ce que vous ne trouverez pas ailleurs. » Et là-dessus ses
-                            narines s’enflent ; il cache avec peine sa joie et sa vanité par
-                            quelques dehors de modestie. Ô l’homme divin en effet ! homme qu’on ne
-                            peut jamais assez louer et admirer ! homme dont il sera parlé dans
-                            plusieurs siècles ! que je voie sa taille et son visage pendant qu’il
-                            vit ; que j’observe les traits et la contenance d’un homme qui seul
-                            entre les mortels possède une telle prune ! 
+                            <g ref="#char_pm0"/> La curiosité n’est pas un goût pour ce qui est bon
+                            ou ce qui est beau, mais pour ce qui est rare, unique, pour ce qu’on a
+                            et ce que les autres n’ont point. Ce n’est pas un attachement à ce qui
+                            est parfait, mais à ce qui est couru, à ce qui est à la mode. Ce n’est
+                            pas un amusement, mais une passion, et souvent si violente, qu’elle ne
+                            cède à l’amour et à l’ambition que par la petitesse de son objet. Ce <pb
+                                source="#edition8" n="560"/>n’est pas une passion qu’on a
+                            généralement pour les choses rares et qui ont cours, mais qu’on a
+                            seulement pour une certaine chose, qui est rare, et pourtant à la mode
+                                <app type="ponctuation">
+                                <lem>.</lem>
+                            </app>
+                            <note type="key">fleuriste<persName type="key" source="#cle_fleuriste"
+                                /></note> Le fleuriste a un jardin dans un faubourg : il y court au
+                            lever du soleil, et il en revient à son coucher. Vous le voyez planté,
+                            et qui a pris racine au milieu de ses tulipes et devant la Solitaire :
+                            il ouvre de grands yeux, il frotte ses mains, il se baisse, il la voit
+                            de plus près, il ne l’a jamais vue si belle, il a le cœur épanoui de
+                            joie ; il la quitte pour l’Orientale, de là il va à la Veuve, il passe
+                            au Drap d’or, de celle-ci à l’Agathe, d’où il revient enfin à la
+                            Solitaire, où il se fixe, où il se lasse, où il s’assied, où il oublie
+                            de dîner : aussi est-elle nuancée, bordée, huilée, à pièces emportées ;
+                            elle a un beau vase ou un beau calice : il la contemple, il l’admire.
+                            Dieu et la nature sont en tout cela ce qu’il n’admire point ; il ne va
+                            pas plus loin que l’oignon de sa tulipe, qu’il ne livrerait pas pour
+                            mille écus, et qu’il donnera pour rien quand les tulipes seront
+                            négligées <pb source="#edition8" n="561"/> et que les œillets auront
+                            prévalu. Cet homme raisonnable, qui a une âme, qui a un culte et une
+                            religion, revient chez soi fatigué, affamé, mais fort content de sa
+                            journée : il a vu des tulipes. Parlez à cet autre de la richesse des
+                            moissons, d’une ample récolte, d’une bonne vendange : il est curieux de
+                            fruits ; vous n’articulez pas, vous ne vous faites pas entendre.
+                            Parlez-lui de figues et de melons, dites que les poiriers rompent de
+                            fruit cette année, que les pêchers ont donné avec abondance ; c’est pour
+                            lui un idiome inconnu : il s’attache aux seuls pruniers, il ne vous
+                            répond pas. Ne l’entretenez pas même de vos pruniers : il n’a de l’amour
+                            que pour une certaine espèce, toute autre que vous lui nommez le fait
+                            sourire et se moquer. Il vous mène à l’arbre, cueille artistement cette
+                            prune exquise ; il l’ouvre, vous en donne une moitié, et prend l’autre :
+                            « Quelle chair ! dit-il ; goûtez-vous cela ? cela est-il divin ? voilà
+                            ce que vous ne trouverez pas ailleurs. » Et là-dessus ses narines
+                            s’enflent ; il cache avec peine<pb source="#edition8" n="562"/> sa joie
+                            et sa vanité par quelques dehors de modestie. Ô l’homme divin en effet !
+                            homme qu’on ne peut jamais assez louer et admirer ! homme dont il sera
+                            parlé dans plusieurs siècles ! que je voie sa taille et son visage
+                            pendant qu’il vit ; que j’observe les traits et la contenance d’un homme
+                            qui seul entre les mortels possède une telle prune ! Un troisième que
+                            vous allez voir vous parle des curieux ses confrères, et surtout de
+                                Diognète.<seg>note inventée 1 <note resp="#Mias" place="side"
+                                    type="definition" source="#edition8"> définition Claudios
+                                    Diognetos, procurateur équestre en poste en Égypte entre 197 et
+                                    202 ; d'autres évoquent le philosophe stoïcien Diognète, un des
+                                    précepteurs de Marc-Aurèle.</note></seg> "Je l’admire, dit-il,
+                            et je le comprends moins que jamais. Pensez-vous qu’il cherche à
+                            s’instruire par des médailles, et qu’il les regarde comme des preuves
+                            parlantes de certains faits, et des monuments fixes et indubitables de
+                            l’ancienne histoire ? rien moins. Vous croyez peut-être que toute la
+                            peine qu’il se donne pour recouvrer une tête vient du plaisir qu’il se
+                            fait de ne voir pas une suite d’empereurs interrompue ? c’est encore
+                            moins. <note type="key">Diognète<persName type="key"
+                                    source="#cle_diognète"/></note> Diognète sait d’une médaille le
+                            fruste, le flou, et la fleur de coin ; il a une tablette dont toutes les
+                            places sont garnies à l’exception d’une seule : ce vide<pb
+                                source="#edition8" n="563"/> lui blesse la vue, et c’est précisément
+                            et à la lettre pour le remplir qu’il emploie son bien et sa vie. « Vous
+                            voulez, ajoute <note type="key">Démocède<persName type="key"
+                                    source="#cle_démocède"/></note> Démocède, voir mes estampes ? »
+                            et bientôt il les étale et vous les montre. Vous en rencontrez une qui
+                            n’est ni noire, ni nette, ni dessinée, et d’ailleurs moins propre à être
+                            gardée dans un cabinet qu’à tapisser, un jour de fête, le Petit-Pont ou
+                            la rue Neuve : il convient qu’elle est mal gravée, plus mal dessinée ;
+                            mais il assure qu’elle est d’un Italien qui a travaillé peu, qu’elle n’a
+                            presque pas été tirée, que c’est la seule qui soit en France de ce
+                            dessin, qu’il l’a achetée très cher, et qu’il ne la changerait pas pour
+                            ce qu’il a de meilleur. « J’ai, continue-t-il, une sensible affliction,
+                            et qui m’obligera de renoncer aux estampes pour le reste de mes jours :
+                            j’ai tout <note type="key">Callot<persName type="key"
+                                    source="#cle_callot"/></note>, hormis une seule, qui n’est pas,
+                            à la vérité, de ses bons ouvrages ; au contraire c’est un des moindres,
+                            mais qui m’achèverait Callot : je travaille depuis vingt ans à recouvrer
+                            cette estampe, et je désespère enfin d’y réussir ; cela est bien rude !
+                                <pb source="#edition8" n="564"/> » Tel autre fait la satire de ces
+                            gens qui s’engagent par inquiétude ou par curiosité dans de longs
+                            voyages, qui ne font ni mémoires ni relations, qui ne portent point de
+                            tablettes ; qui vont pour voir, et qui ne voient pas, ou qui oublient ce
+                            qu’ils ont vu ; qui désirent seulement de connaître de nouvelles tours
+                            ou de nouveaux clochers, et de passer des rivières qu’on n’appelle ni la
+                            Seine ni la Loire ; qui sortent de leur patrie pour y retourner, qui
+                            aiment à être absents, qui veulent un jour être revenus de loin : et ce
+                            satirique parle juste, et se fait écouter.</p>
 
-                             Un troisième que vous allez voir vous parle des curieux ses confrères,
-                            et surtout de Diognète.<seg>note inventée 1 
-                                <note resp="#Mias" place="side" type="definition" source="#edition8" >
-                                         définition  Claudios Diognetos, procurateur équestre en poste en Égypte entre 197 et 202 ; d'autres évoquent le philosophe stoïcien Diognète, 
-                            un des précepteurs de Marc-Aurèle.</note></seg>
-                                "Je l’admire, dit-il, et je le comprends moins
-                            que jamais. Pensez-vous qu’il cherche à s’instruire par des médailles,
-                            et qu’il les regarde comme des preuves parlantes de certains faits, et
-                            des monuments fixes et indubitables de l’ancienne histoire ? rien moins.
-                            Vous croyez peut-être que toute la peine qu’il se donne pour recouvrer
-                            une tête vient du plaisir qu’il se fait de ne voir pas une suite
-                            d’empereurs interrompue ? c’est encore moins. Diognète sait d’une
-                            médaille le fruste, le flou, et la fleur de coin ; il a une tablette
-                            dont toutes les places sont garnies à l’exception d’une seule : ce vide
-                            lui blesse la vue, et c’est précisément et à la lettre pour le remplir
-                            qu’il emploie son bien et sa vie. « Vous voulez, ajoute Démocède, voir
-                            mes estampes ? » et bientôt il les étale et vous les montre. Vous en
-                            rencontrez une qui n’est ni noire, ni nette, ni dessinée, et d’ailleurs
-                            moins propre à être gardée dans un cabinet qu’à tapisser, un jour de
-                            fête, le Petit-Pont ou la rue Neuve : il convient qu’elle est mal
-                            gravée, plus mal dessinée ; mais il assure qu’elle est d’un Italien qui
-                            a travaillé peu, qu’elle n’a presque pas été tirée, que c’est la seule
-                            qui soit en France de ce dessin, qu’il l’a achetée très cher, et qu’il
-                            ne la changerait pas pour ce qu’il a de meilleur. « J’ai, continue-t-il,
-                            une sensible affliction, et qui m’obligera de renoncer aux estampes pour
-                            le reste de mes jours : j’ai tout <note type="key">Callot<persName type="key" source="#cle_callot"></persName></note>, hormis une seule, qui n’est
-                            pas, à la vérité, de ses bons ouvrages ; au contraire c’est un des
-                            moindres, mais qui m’achèverait Callot : je travaille depuis vingt ans à
-                            recouvrer cette estampe, et je désespère enfin d’y réussir ; cela est
-                            bien rude ! » Tel autre fait la satire de ces gens qui s’engagent par
-                            inquiétude ou par curiosité dans de longs voyages, qui ne font ni
-                            mémoires ni relations, qui ne portent point de tablettes ; qui vont pour
-                            voir, et qui ne voient pas, ou qui oublient ce qu’ils ont vu ; qui
-                            désirent seulement de connaître de nouvelles tours ou de nouveaux
-                            clochers, et de passer des rivières qu’on n’appelle ni la Seine ni la
-                            Loire ; qui sortent de leur patrie pour y retourner, qui aiment à être
-                            absents, qui veulent un jour être revenus de loin : et ce satirique
-                            parle juste, et se fait écouter.</p> 
-
-                            <p> Mais quand il ajoute que les livres en apprennent plus que les voyages,
+                        <p> Mais quand il ajoute que les livres en apprennent plus que les voyages,
                             et qu’il m’a fait comprendre par ses discours qu’il a une bibliothèque,
                             je souhaite de la voir : je vais trouver cet homme, qui me reçoit dans
                             une maison où dès l’escalier je tombe en faiblesse d’une odeur de
                             maroquin noir dont ses livres sont tous couverts. Il a beau me crier aux
                             oreilles, pour me ranimer, qu’ils sont dorés sur tranche, ornés de
-                            filets d’or, et de la bonne édition, me nommer les meilleurs l’un après
-                            l’autre, dire que sa galerie est remplie à quelques endroits près, qui
-                            sont peints de manière qu’on les prend pour de vrais livres arrangés sur
-                            des tablettes, et que l’œil s’y trompe, ajouter qu’il ne lit jamais,
-                            qu’il met pas le pied dans cette galerie, qu’il y viendra pour me faire
-                            plaisir ; je le remercie de sa complaisance, et ne veux, non plus que
-                            lui, voir sa tannerie, qu’il appelle bibliothèque. Quelques-uns par une
-                            intempérance de savoir, et par ne pouvoir se résoudre à renoncer à
-                            aucune sorte de connaissance, les embrassent toutes et n’en possèdent
-                            aucune : ils aiment mieux savoir beaucoup que de savoir bien, et être
-                            faibles et superficiels dans diverses sciences que d’être sûrs et
-                            profonds dans une seule. Il trouvent en toutes rencontres celui qui est
-                            leur maître et qui les redresse ; ils sont les dupes de leur curiosité,
-                            et ne peuvent au plus, par de longs et pénibles efforts, que se tirer
-                            d’une ignorance crasse. D’autres ont la clef des sciences, où ils
-                            n’entrent jamais : ils passent leur vie à déchiffrer les langues
+                            filets d’or, et de la bonne édition, me nommer <pb source="#edition8"
+                                n="565"/>les meilleurs l’un après l’autre, dire que sa galerie est
+                            remplie à quelques endroits près, qui sont peints de manière qu’on les
+                            prend pour de vrais livres arrangés sur des tablettes, et que l’œil s’y
+                            trompe, ajouter qu’il ne lit jamais, qu’il met pas le pied dans cette
+                            galerie, qu’il y viendra pour me faire plaisir ; je le remercie de sa
+                            complaisance, et ne veux, non plus que lui, voir sa tannerie, qu’il
+                            appelle bibliothèque. Quelques-uns par une intempérance de savoir, et
+                            par ne pouvoir se résoudre à renoncer à aucune sorte de connaissance,
+                            les embrassent toutes et n’en possèdent aucune : ils aiment mieux savoir
+                            beaucoup que de savoir bien, et être faibles et superficiels dans
+                            diverses sciences que d’être sûrs et profonds dans une seule. Il
+                            trouvent en toutes rencontres celui qui est leur maître et qui les
+                            redresse ; ils sont les dupes de leur curiosité, et ne peuvent au plus,
+                            par de longs et pénibles efforts, que se tirer d’une ignorance crasse.
+                            D’autres ont la clef des sciences, où ils n’entrent jamais : ils passent
+                                leur<pb source="#edition8" n="566"/> vie à déchiffrer les langues
                             orientales et les langues du nord, celles des deux Indes, celles des
                             deux pôles, et celle qui se parle dans la lune. Les idiomes les plus
                             inutiles, avec les caractères les plus bizarres et les plus magiques,
@@ -276,151 +319,166 @@
                             esprit demeure vide. Un bourgeois aime les bâtiments ; il se fait bâtir
                             un hôtel si beau, si riche et si orné, qu’il est inhabitable. Le maître,
                             honteux de s’y loger, ne pouvant peut-être se résoudre à le louer à un
-                            prince ou à un homme d’affaires, se retire au galetas, où il achève sa
-                            vie, pendant que l’enfilade et les planchers de rapport sont en proie
-                            aux Anglais et aux Allemands qui voyagent, et qui viennent là du
-                            Palais-Royal, du palais L… G… et du Luxembourg. On heurte sans fin à
-                            cette porte ; tous demandent à voir la maison, et personne à voir
-                            Monsieur. </p>
+                            prince ou à un homme <pb source="#edition8" n="567"/>d’affaires, se
+                            retire au galetas, où il achève sa vie, pendant que l’enfilade et les
+                            planchers de rapport sont en proie aux Anglais et aux Allemands qui
+                            voyagent, et qui viennent là du Palais-Royal, du palais L… G… et du
+                            Luxembourg. On heurte sans fin à cette porte ; tous demandent à voir la
+                            maison, et personne à voir Monsieur. </p>
 
-                           <p> On en sait d’autres qui ont des filles devant leurs yeux, à qui ils ne
+                        <p> On en sait d’autres qui ont des filles devant leurs yeux, à qui ils ne
                             peuvent pas donner une dot, que dis-je ? elles ne sont pas vêtues, à
                             peine nourries ; qui se refusent un tour de lit et du linge blanc ; qui
                             sont pauvres ; et la source de leur misère n’est pas fort loin : c’est
                             un garde-meuble chargé et embarrassé de bustes rares, déjà poudreux et
                             couverts d’ordures, dont la vente les mettrait au large, mais qu’ils ne
-                            peuvent se résoudre à mettre en vente. Diphile commence par un oiseau et
-                            finit par mille : sa maison n’en est pas égayée, mais empestée. La cour,
-                            la salle, l’escalier, le vestibule, les chambres, le cabinet, tout est
-                            volière ; ce n’est plus un ramage, c’est un vacarme : les vents
-                            d’automne et les eaux dans leurs plus grandes crues ne font pas un bruit
-                            si perçant et si aigu ; on ne s’entend non plus parler les uns les
-                            autres que dans ces chambres où il faut attendre, pour faire le
-                            compliment d’entrée, que les petits chiens aient aboyé. Ce n’est plus
-                            pour Diphile un agréable amusement, c’est une affaire laborieuse, et à
-                            laquelle à peine il peut suffire. Il passe les jours, ces jours qui
-                            échappent et qui ne reviennent plus, à verser du grain et à nettoyer des
-                            ordures. Il donne pension à un homme qui n’a point d’autre ministère que
-                            de siffler des serins au flageolet e de faire couver des canaris. Il est
-                            vrai que ce qu’il dépense d’un côté, il l’épargne de l’autre, car ses
-                            enfants sont sans maîtres et sans éducation. Il se renferme le soir,
-                            fatigué de son propre plaisir, sans pouvoir jouir du moindre repos que
-                            ses oiseaux ne reposent, et que ce petit peuple, qu’il n’aime que parce
-                            qu’il chante, ne cesse de chanter. Il retrouve ses oiseaux dans son
-                            sommeil : lui-même il est oiseau, il est huppé, il gazouille, il perche
-                            ; il rêve la nuit qu’il mue ou qu’il couve.</p>
+                            peuvent se résoudre à mettre en vente. <note type="key">Diphile<persName
+                                    type="key" source="#cle_diphile"/></note>Diphile commence par un
+                            oiseau et finit par mille : sa maison n’en est pas égayée, mais
+                            empestée. La cour, la salle, l’escalier, le vestibule, les chambres, le
+                            cabinet, tout est volière ; ce n’est plus un ramage, c’est un <pb
+                                source="#edition8" n="568"/>vacarme : les vents d’automne et les
+                            eaux dans leurs plus grandes crues ne font pas un bruit si perçant et si
+                            aigu ; on ne s’entend non plus parler les uns les autres que dans ces
+                            chambres où il faut attendre, pour faire le compliment d’entrée, que les
+                            petits chiens aient aboyé. Ce n’est plus pour Diphile un agréable
+                            amusement, c’est une affaire laborieuse, et à laquelle à peine il peut
+                            suffire. Il passe les jours, ces jours qui échappent et qui ne
+                            reviennent plus, à verser du grain et à nettoyer des ordures. Il donne
+                            pension à un homme qui n’a point d’autre ministère que de siffler des
+                            serins au flageolet e de faire couver des canaris. Il est vrai que ce
+                            qu’il dépense d’un côté, il l’épargne de l’autre, car ses enfants sont
+                            sans maîtres et sans éducation. Il se renferme le soir, fatigué de son
+                            propre plaisir, sans pouvoir jouir du moindre repos que ses oiseaux ne
+                            reposent, et que ce petit peuple, qu’il n’aime que parce qu’il chante,
+                            ne cesse de chanter. Il retrouve ses oiseaux dans son sommeil : lui-même
+                            il est oiseau, il est huppé, il gazouille<pb source="#edition8" n="569"
+                            />, il perche ; il rêve la nuit qu’il mue ou qu’il couve.</p>
 
                     </div3>
                     <div3 type="remarque" n="3">
                         <p source="#edition7 #edition8">
-                            <g ref="#char_pm0" source="#edition7 #edition8"/>
-                            Le duel est le triomphe de la mode, et l’endroit où elle a exercé sa
-                            tyrannie avec plus d’éclat. Cet usage n’a pas laissé au poltron la
-                            liberté de vivre ; il l’a mené se faire tuer par un plus brave que soi,
-                            et l’a confondu avec un homme de cœur ; il a attaché de l’honneur et de
-                            la gloire à une action folle et extravagante ; il a été approuvé par la
-                            présence des rois ; il y a eu quelquefois une espèce de religion à le
-                            pratiquer ; il a décidé de l’innocence des hommes, des accusations
-                            fausses ou véritables sur des crimes capitaux ; il s’était enfin si
-                            profondément enraciné dans l’opinion de peuples ; et s’était si fort
-                            saisi de leur cœur et de leur esprit ; qu’un des plus beaux endroits de
-                            la vie d’un très grand roi a été de les guérir de cette folie. 
+                            <g ref="#char_pm0" source="#edition7 #edition8"/> Le duel est le
+                            triomphe de la mode, et l’endroit où elle a exercé sa tyrannie avec plus
+                            d’éclat. Cet usage <pb source="#edition8" n="570"/>n’a pas laissé au
+                            poltron la liberté de vivre ; il l’a mené se faire tuer par un plus
+                            brave que soi, et l’a confondu avec un homme de cœur ; il a attaché de
+                            l’honneur et de la gloire à une action folle et extravagante ; il a été
+                            approuvé par la présence des rois ; il y a eu quelquefois une espèce de
+                            religion à le pratiquer ; il a décidé de l’innocence des hommes, des
+                            accusations fausses ou véritables sur des crimes capitaux ; il s’était
+                            enfin si profondément enraciné dans l’opinion de peuples ; et s’était si
+                            fort saisi de leur cœur et de leur esprit ; qu’un des plus beaux
+                            endroits de la vie d’un très grand roi a été de les guérir de cette
+                            folie. </p>
+                        <app type="graphie">
+                                <lem>usage</lem> <rdg>ufage</rdg>
+                            </app>
                     </div3>
-                    <div3 type="remarque" n="4"> 
+                    <div3 type="remarque" n="4">
                         <p source="#edition7 #edition8">
-                        <g ref="#char_pm0" source="#edition7 #edition8"/>
-                             Tel a été à la mode, ou pour le commandement des armées et la
-                            négociation ou pour l’éloquence de la chaire, ou pour les vers, qui n’y
-                            est plus. Y a-t-il des hommes qui dégénèrent de ce qu’ils furent
-                            autrefois ? Est-ce leur mérite qui est usé, ou le goût que l’on avait
-                            pour eux ? 
+                            <g ref="#char_pm0" source="#edition7 #edition8"/> Tel a été à la mode,
+                            ou pour le commandement des armées et la négociation ou pour l’éloquence
+                            de la chaire, ou pour les vers, qui n’y est plus. Y a-t-il des hommes
+                            qui dégénèrent de ce qu’ils furent autrefois ? Est-ce leur mérite qui
+                            est usé, ou le goût que l’on avait pour eux ? </p><app type="typographie">
+                                <lem>chaire</lem> <rdg>Chaire</rdg>
+                            </app>
                     </div3>
-                    <div3 type="remarque" n="5"> 
+                    <div3 type="remarque" n="5">
                         <p source="#edition7 #edition8">
-                        <g ref="#char_pm0" source="#edition7 #edition8"/>
-                             Un homme à la mode dure peu, car les modes passent : s’il est par hasard
-                            homme de mérite, il n’est pas anéanti, et il subsiste encore par quelque
-                            endroit : également estimable, il est seulement moins estimé. (VI) La
-                            vertu a cela d’heureux, qu’elle se suffit à elle-même, et qu’elle sait
-                            se passer d’admirateurs, de partisans et de protecteurs ; le manque
-                            d’appui et d’approbation non seulement ne lui nuit pas, mais il la
-                            conserve, l’épure et la rend parfaite ; qu’elle soit à la mode, qu’elle
-                            n’y soit plus, elle demeure vertu. 
-                            
+                            <g ref="#char_pm0" source="#edition7 #edition8"/> Un homme à la mode
+                            dure peu, car les modes passent : s’il est par hasard homme de mérite,
+                            il n’est pas <pb source="#edition8" n="571"/>anéanti, et il subsiste
+                            encore par quelque endroit : également estimable, il est seulement moins
+                            estimé. (VI) La vertu a cela d’heureux, qu’elle se suffit à elle-même,
+                            et qu’elle sait se passer d’admirateurs, de partisans et de protecteurs
+                            ; le manque d’appui et d’approbation non seulement ne lui nuit pas, mais
+                            il la conserve, l’épure et la rend parfaite ; qu’elle soit à la mode,
+                            qu’elle n’y soit plus, elle demeure vertu. </p>
+
                     </div3>
                     <div3 type="remarque" n="6">
                         <p source="#edition7 #edition8">
-                            <g ref="#char_pm0" source="#edition7 #edition8"/>
-                             Si vous dites aux hommes, et surtout aux grands, qu’un tel a de la
-                            vertu, ils vous disent : « Qu’il la garde » ; qu’il a bien de l’esprit,
-                            de celui surtout qui plaît et qui amuse, ils vous répondent : « Tant
-                            mieux pour lui » ; qu’il a l’esprit fort cultivé, qu’il sait beaucoup,
-                            ils vous demandent quelle heure il est ou quel temps il fait. Mais si
-                            vous leur apprenez qu’il y a un Tigillin qui souffle ou qui jette en
-                            sable un verre d’eau-de-vie, et, chose merveilleuse ! qui y revient à
-                            plusieurs fois en un repas, alors ils disent : « Où est-il ?
+                            <g ref="#char_pm0" source="#edition7 #edition8"/> Si vous dites aux
+                            hommes, et surtout aux grands, qu’un tel a de la vertu, ils vous disent
+                            : « Qu’il la garde » ; qu’il a bien de l’esprit, de celui surtout qui
+                            plaît et qui amuse, ils vous répondent : « Tant mieux pour lui » ; qu’il
+                            a l’esprit fort cultivé, qu’il sait beaucoup, ils vous demandent quelle
+                            heure il est ou quel temps il fait. Mais si vous leur apprenez qu’il y a
+                                un<note type="key">Tigillin<persName type="key"
+                                    source="#cle_tigillin"/></note> Tigillin qui souffle ou qui
+                            jette en sable un verre d’eau-de-vie, et, chose merveilleuse ! qui y
+                            revient à plusieurs fois en un repas, alors ils disent : « Où est-il ?
                             amenez-le-moi demain, ce soir ; me l’amènerez-vous ? » On le leur amène
-                            ; et cet homme, propre à parer les avenues d’une foire et à être montré
-                            en chambre pour de l’argent, ils l’admettent dans leur familiarité. 
+                            ; et cet homme, propre à parer<pb source="#edition8" n="572"/> les
+                            avenues d’une foire et à être montré en chambre pour de l’argent, ils
+                            l’admettent dans leur familiarité. </p>
                     </div3>
                     <div3 type="remarque" n="7">
                         <p source="#edition3 #edition7 #edition8">
-                            <g ref="#char_pm0"/><seg>
-                             Il n’y a rien qui mette plus subitement un homme à la mode et qui le
-                            soulève davantage que le grand jeu : cela va du pair avec la crapule. Je
-                            voudrais bien voir <note type="key"> un homme poli, enjoué, spirituel, fût-il un <persName type="key" source="#cle_catulle"><persName ref="#Catulle">Catulle</persName>
-                            </persName></note></seg>ou son disciple, faire quelque comparaison avec celui qui vient de
-                            perdre huit perdre huit cents pistoles en une séance. 
+                            <g ref="#char_pm0"/><seg> Il n’y a rien qui mette plus subitement un
+                                homme à la mode et qui le soulève davantage que le grand jeu : cela
+                                va du pair avec la crapule. Je voudrais bien voir <note type="key">
+                                    un homme poli, enjoué, spirituel, fût-il un <persName type="key"
+                                        source="#cle_catulle"><persName ref="#Catulle"
+                                            >Catulle</persName>
+                                    </persName></note></seg>ou son disciple, faire quelque
+                            comparaison avec celui qui vient de perdre huit perdre huit cents
+                            pistoles en une séance. </p>
                     </div3>
                     <div3 type="remarque" n="8">
                         <p source="#edition7 #edition8">
-                            <g ref="#char_pm0" source="#edition7 #edition8"/>
-                             Une personne à la mode ressemble à une fleur bleue qui croît de soi-même
-                            dans les sillons, où elle étouffe les épis, diminue la moisson, et tient
-                            la place de quelque chose de meilleur ; qui n’a de prix et de beauté que
-                            ce qu’elle emprunte d’un caprice léger qui naît et qui tombe presque
-                            dans le même instant : aujourd’hui elle est courue, les femmes s’en
-                            parent ; demain elle est négligée, et rendue au peuple. Une personne de
-                            mérite, au contraire, est une fleur qu’on ne désigne pas par sa couleur,
-                            mais que l’on nomme par son nom, que l’on cultive pour sa beauté ou pour
-                            son odeur ; l’une des grâces de la nature, l’une de ces choses qui
-                            embellissent le monde ; qui est de tous les temps et d’une vogue
-                            ancienne et populaire ; que nos pères ont estimée, et que nous estimons
-                            après nos pères ; à qui le dégoût ou l’antipathie de quelques-uns ne
-                            sauraient nuire : un lis, une rose. 
+                            <g ref="#char_pm0" source="#edition7 #edition8"/> Une personne à la mode
+                            ressemble à une fleur bleue qui croît de soi-même dans les sillons, où
+                            elle étouffe les épis, diminue la moisson, et tient la place de quelque
+                            chose de meilleur ; qui n’a de prix et de beauté que ce qu’elle emprunte
+                            d’un caprice léger qui naît et qui tombe presque dans le même instant :
+                            aujourd’hui elle est courue, les femmes s’en parent ; demain elle est
+                            négligée, et rendue au peuple. Une personne de mérite, au contraire, est
+                            une fleur qu’on ne désigne pas par sa couleur, mais que l’on nomme par
+                            son nom, que l’on cultive pour sa beauté ou pour son odeur ; l’une
+                                des<pb source="#edition8" n="573"/> grâces de la nature, l’une de
+                            ces choses qui embellissent le monde ; qui est de tous les temps et
+                            d’une vogue ancienne et populaire ; que nos pères ont estimée, et que
+                            nous estimons après nos pères ; à qui le dégoût ou l’antipathie de
+                            quelques-uns ne sauraient nuire : un lis, une rose. </p>
                     </div3>
                     <div3 type="remarque" n="9">
                         <p source="#edition7 #edition8">
-                            <g ref="#char_pm0" source="#edition7 #edition8"/>
-                        <p> L’on voit Eustrate assis dans sa nacelle, où il jouit d’un air pur et
-                            d’un ciel serein : il avance d’un bon vent et qui a toutes les
-                            apparences de devoir durer ; mais il tombe tout d’un coup, le ciel se
-                            couvre, l’orage se déclare, un tourbillon enveloppe la nacelle, elle est
-                            submergée : on voit Eustrate revenir sur l’eau et faire quelques efforts
-                            ; on espère qu’il pourra du moins se sauver et venir à bord ; mais une
-                            vague l’enfonce, on le tient perdu ; il paraît une seconde fois, et les
-                            espérances se réveillent, lorsqu’un flot survient et l’abîme : on ne le
-                            revoit plus, il est noyé.<seg>note inventée 2 <note type="definition"
-                                    ref="Erinmias" place="bottom" source="#edition3">Eustrate de Nicée
-                      (en grec Εὐστράτιος Νικαίας) est un philosophe et théologien byzantin.</note></seg> </p>
+                            <g ref="#char_pm0" source="#edition7 #edition8"/> L’on voit Eustrate
+                            assis dans sa nacelle, où il jouit d’un air pur et d’un ciel serein : il
+                            avance d’un bon vent et qui a toutes les apparences de devoir durer ;
+                            mais il tombe tout d’un coup, le ciel se couvre, l’orage se déclare, un
+                            tourbillon enveloppe la nacelle, elle est submergée : on voit Eustrate
+                            revenir sur l’eau et faire quelques efforts ; on espère qu’il pourra du
+                            moins se sauver et venir à bord ; mais une vague l’enfonce, on le tient
+                            perdu ; il paraît une seconde fois, et les espérances se réveillent,
+                            lorsqu’un flot survient et l’abîme : on ne le revoit plus, il est
+                                noyé.<seg>note inventée 2 <note type="definition" resp="Mias"
+                                    place="bottom" source="#edition3">Eustrate de Nicée (en grec
+                                    Εὐστράτιος Νικαίας) est un philosophe et théologien
+                                    byzantin.</note></seg>
+                        </p>
                     </div3>
                     <div3 type="remarque" n="10">
                         <p source="#edition3 #edition5 #edition8">
-                            <g ref="#char_pm0" source="#edition3 #edition7 #edition8"/>
-                        <p> Voiture et Sarrazin étaient nés pour leur siècle, et ils ont paru dans
-                            un temps où il semble qu’ils étaient attendus. S’ils s’étaient moins
-                            pressés de venir, ils arrivaient trop tard ; et j’ose douter qu’ils
-                            fussent tels aujourd’hui qu’ils ont été alors. Les conversations
-                            légères, les cercles, la fine plaisanterie<seg>plaisanterie
-                            <note ref="#LaBruyere" place="bottom" source="#edition3">blablabla</note></seg>
-                            , les lettres enjouées et familières, les petites parties où l’on était admis seulement avec de
+                            <g ref="#char_pm0" source="#edition3 #edition7 #edition8"/> Voiture et
+                            Sarrazin étaient nés pour leur siècle, et ils ont paru dans un temps où
+                            il semble qu’ils étaient attendus. S’ils s’étaient moins pressés de
+                            venir, ils arrivaient trop<pb source="#edition8" n="574:"/> tard ; et
+                            j’ose douter qu’ils fussent tels aujourd’hui qu’ils ont été alors. Les
+                            conversations légères, les cercles, la fine
+                                plaisanterie<seg>plaisanterie <note resp="#LaBruyere" place="bottom"
+                                    source="#edition3">blablabla</note></seg> , les lettres enjouées
+                            et familières, les petites parties où l’on était admis seulement avec de
                             l’esprit, tout a disparu. Et qu’on ne dise point qu’ils les feraient
                             revivre : ce que je puis faire en faveur de leur esprit est de convenir
                             que peut-être ils excelleraient dans un autre genre ; mais les femmes
                             sont de nos jours ou dévotes, ou coquettes, ou joueuses, ou ambitieuses,
                             quelques-unes même tout cela à la fois ; le goût de la faveur, le jeu,
                             les galants, les directeurs ont pris la place, et la défendent contre
-                            les gens d’esprit. 
+                            les gens d’esprit. </p>
                     </div3>
 
 
@@ -429,6 +487,3 @@
         </body>
     </text>
 </TEI>
-
-</TEI>
-
