@@ -40,22 +40,32 @@
                     <publisher>Bibliothèque nationale de France.</publisher>
                     <date when-iso="2007-10-15">15/10/2007</date>
                 </bibl>
-                <bibl>
+                <bibl xml:id="1696">
                     <date when-iso="1696">1696</date>
-                    <publisher>Les éditions Coste</publisher>
                     <source>Clés des Caractères</source>
                     <author>Escola</author>
-                    <listPerson xml:id="deLouvois">M. de Louvois</listPerson>
-                    <!-- je ne sais pas lequel des deux dont il s'agit -->
-                    <idno>https://data.bnf.fr/fr/10697675</idno>
-                    <idno>https://data.bnf.fr/11961961</idno>
-                    <listPerson xml:id="deSeignelay">M. de Seignelay</listPerson>
-                    <idno>https://data.bnf.fr/13182885</idno>
-                    <listPerson xml:id="delaFeuillade">M. de la Feuillade</listPerson>
-                    <!-- Je ne sais pas non plus duquel il s'agit -->
-                    <idno>https://data.bnf.fr/fr/14536374</idno>
-                    <idno>https://data.bnf.fr/fr/12134945</idno>
                 </bibl>
+                <bibl xml:id="coste">
+                    <name>Les éditions Coste</name>
+                </bibl>
+                <listPerson>
+                    <person xml:id="deLouvois">
+                        <name>M. de Louvois</name>
+                        <!-- je ne sais pas lequel des deux dont il s'agit -->
+                        <idno>https://data.bnf.fr/fr/10697675</idno>
+                        <idno>https://data.bnf.fr/11961961</idno>
+                    </person>
+                    <person xml:id="deSeignelay">
+                        <name>M. de Seignelay</name>
+                        <idno>https://data.bnf.fr/13182885</idno>
+                    </person>
+                    <person xml:id="delaFeuillade">
+                        <name>M. de la Feuillade</name>
+                        <!-- Je ne sais pas non plus duquel il s'agit -->
+                        <idno>https://data.bnf.fr/fr/14536374</idno>
+                        <idno>https://data.bnf.fr/fr/12134945</idno>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -117,6 +127,8 @@
             <change when="2023-11-09">Ajout de variations dans des remarques avec les balise app,
                 lem et rdg, avec l'attribut wit pour les variantes dans les différentes
                 éditions.</change>
+            <change when="2023-11-23">Modification de la la clé dans la troisème Bibl dans SourceDesc.</change>
+            <change when="2023-11-23">Modification de l'attribut type "key" et des informations dans la clé.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -195,18 +207,19 @@
                     </div3>
                     <div3 n="18">
                         <p>(18) <g ref="#char_pdm1"/>
-                            <seg><note>il s'agit de<persName type="key" source="#deLouvois">M. de
-                                        Louvois</persName>ou de<persName type="key"
-                                        source="#deSeignelay">M. de Seignelay</persName>ou bien
-                                        de<persName type="key" source="#delaFeuillade">M. de la
-                                        Feuillade</persName></note></seg> Un grand croit s’évanouir,
-                            et il meurt ; un autre grand périt insensiblement, et perd chaque jour
-                            quelque chose de soi-même avant qu’il soit éteint : formidables leçons,
-                            mais inutiles ! Des circonstances si marquées et si sensiblement
-                            opposées ne se relèvent point et ne touchent personne : les hommes n’y
-                            ont pas plus d’attention qu’à une fleur qui se fane ou à une feuille qui
-                            tombe ; ils envient les places qui demeurent vacantes, ou ils
-                            s’informent si elles sont remplies, et par qui.</p>
+                            <seg><note type="key">il s'agit de<persName ref="#deLouvois"
+                                        source="#1696">M. de Louvois</persName>ou de<persName
+                                        ref="#deSeignelay" source="#1696">M. de
+                                    Seignelay</persName>ou bien de<persName ref="#delaFeuillade"
+                                        source="#coste">M. de la Feuillade</persName></note></seg>
+                            Un grand croit s’évanouir, et il meurt ; un autre grand périt
+                            insensiblement, et perd chaque jour quelque chose de soi-même avant
+                            qu’il soit éteint : formidables leçons, mais inutiles ! Des
+                            circonstances si marquées et si sensiblement opposées ne se relèvent
+                            point et ne touchent personne : les hommes n’y ont pas plus d’attention
+                            qu’à une fleur qui se fane ou à une feuille qui tombe ; ils envient les
+                            places qui demeurent vacantes, ou ils s’informent si elles sont
+                            remplies, et par qui.</p>
                     </div3>
                     <div3 n="19">
                         <p source="#edition4 #edition6">(19)<pb n="411" source="#edition6"/><pb
