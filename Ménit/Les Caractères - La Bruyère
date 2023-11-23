@@ -219,6 +219,9 @@
             <change when="2023-11-14">Ajout de la pagination des différentes éditions. Et début de
                 l'encodage des clés.</change>
             <change when="2023-11-16">Création de la liste de personne.</change>
+            <change when="2023-11-23">Ajout de balise persName et rattachement de certaines notes
+                manuscrites.</change>
+            <change when="2023-11-23">Suppresion des notes concernant les manicules vides.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -270,33 +273,33 @@
                             sur vos lambris ; tracez-y de vastes et de délicieux jardins, dont
                             l’enchantement soit tel qu’ils ne paraissent pas faits de la main des
                             hommes ; épuisez vos trésors et votre industrie sur cet ouvrage
-                            incomparable ; et après que vous y aurez mis, <seg>Zénobie<note
-                                    type="cle" source="#cle_XVIIIe">"<persName ref="#gourville">M.
-                                        de Gourville</persName>, [d'abord simple <roleName
+                            incomparable ; et après que vous y aurez mis,
+                                    <seg><persName>Zénobie</persName><note type="cle"
+                                    source="#cle_XVIIIe">"<persName ref="#gourville">M. de
+                                        Gourville</persName>, [d'abord simple <roleName
                                         ref="#gourville">valet de chambre de La
                                         Rochefoucauld</roleName>], intendant de feu <persName
-                                        ref="#pr_condé">M. <roleName type="nobility">le Prince</roleName> [de
-                                        Condé]</persName>, qui, non content du <placeName>château de
-                                        Saint-Maur</placeName>, quelque beau qu'il fût, et dont
-                                        <persName ref="#pr_condé">M. le Prince</persName> s'était
-                                    contenté, a fait beaucoup de dépense pour l'embellir." <persName
-                                        ref="#servois">Servois</persName> (II, 418) fait valoir que
-                                        <persName ref="#gourville">Gourville</persName> (1625-1703)
-                                    "n'avait pas acheté <placeName>Saint-Maur</placeName> et que
-                                    c'est par suite d'un engagement contracté envers <persName
-                                        ref="#pr_condé">le prince de Condé</persName> qu'il
-                                    embellissait". Il est l'auteur de Mémoires dont disposait
-                                        <persName ref="#st_simon">Saint-Simon</persName> (parus en
-                                        <date when="1724">1724</date>). Cf. <persName
-                                        ref="#Mme_de_Sévigné">Mme de Sévigné</persName> (index),
-                                        <persName ref="#dangeau"/>Dangeau (index), et <persName
-                                        ref="#st_simon"/>Saint-Simon (II, 147 n.,
-                                334-335).</note></seg>, la dernière main, quelqu’un de ces pâtres
-                            qui habitent les sables voisins de Palmyre, devenu riche par les péages
-                            de vos rivières, achètera un jour à deniers comptants cette royale
-                            maison, pour<pb n="263" source="#edition8"/> l’embellir, et la rendre
-                            plus digne de lui et de sa fortune.</p>
-                        <note source="#edition8" resp="#labruyere" type="manicule_vide"/>
+                                        ref="#pr_condé">M. <roleName type="nobility">le
+                                            Prince</roleName> [de Condé]</persName>, qui, non
+                                    content du <placeName>château de Saint-Maur</placeName>, quelque
+                                    beau qu'il fût, et dont <persName ref="#pr_condé">M. le
+                                        Prince</persName> s'était contenté, a fait beaucoup de
+                                    dépense pour l'embellir." <persName ref="#servois"
+                                        >Servois</persName> (II, 418) fait valoir que <persName
+                                        ref="#gourville">Gourville</persName> (1625-1703) "n'avait
+                                    pas acheté <placeName>Saint-Maur</placeName> et que c'est par
+                                    suite d'un engagement contracté envers <persName ref="#pr_condé"
+                                        >le prince de Condé</persName> qu'il embellissait". Il est
+                                    l'auteur de Mémoires dont disposait <persName ref="#st_simon"
+                                        >Saint-Simon</persName> (parus en <date when="1724"
+                                        >1724</date>). Cf. <persName ref="#Mme_de_Sévigné">Mme de
+                                        Sévigné</persName> (index), <persName ref="#dangeau"
+                                    />Dangeau (index), et <persName ref="#st_simon"/>Saint-Simon
+                                    (II, 147 n., 334-335).</note></seg>, la dernière main, quelqu’un
+                            de ces pâtres qui habitent les sables voisins de Palmyre, devenu riche
+                            par les péages de vos rivières, achètera un jour à deniers comptants
+                            cette royale maison, pour<pb n="263" source="#edition8"/> l’embellir, et
+                            la rendre plus digne de lui et de sa fortune.</p>
                     </div3>
                     <div3 type="caracter" n="79" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par"/><seg>Ce
@@ -310,10 +313,13 @@
                                     mais il n'est pas sûr que la famille en ait été chassée par des
                                     créanciers. Sur "Bordier est ses fils", cf. <persName
                                         ref="#des-reaux">Tallemant des Réaux</persName>, II, 179-184
-                                    (et index).</note></seg>, ces meubles, ces jardins, ces belles
-                            eaux vous enchantent et vous font récrier d’une première vue sur une
-                            maison si délicieuse, et sur l’extrême bonheur du maître qui la possède.
-                            Il n’est plus ; il n’en a pas joui si agréablement <app type="graphie">
+                                    (et index).</note><note source="#edition8" resp="#main_vide"
+                                    type="manuscrit">Le président Le bordin qui a bâti <placeName>le
+                                        Ranzay</placeName></note></seg>, ces meubles, ces jardins,
+                            ces belles eaux vous enchantent et vous font récrier d’une première vue
+                            sur une maison si délicieuse, et sur l’extrême bonheur du maître qui la
+                            possède. Il n’est plus ; il n’en a pas joui si agréablement <app
+                                type="graphie">
                                 <lem source="#edition5">ni</lem>
                                 <rdg source="#edition7">ny</rdg>
                             </app> si tranquillement que vous : il n’y a jamais eu un<pb n="224"
@@ -321,18 +327,19 @@
                             noyé de dettes pour la porter à ce degré de beauté où elle vous ravit.
                             Ses créanciers l’en ont chassé : il a tourné la tête, et il l’a regardée
                             de loin une dernière fois ; et il est mort de saisissement.</p>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit">Le président Le
-                            bordin qui a bâti <placeName>le Ranzay</placeName></note>
                     </div3>
                     <div3 type="caracter" n="80" source="#edition5 #edition7 #edition8">
-                        <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"/>L’on ne
-                            saurait s’empêcher de voir dans certaines familles ce qu’on appelle les
-                            caprices du hasard<pb n="235" source="#edition5"/> ou les jeux de la
-                            fortune. Il y a cent ans qu’on ne parlait point de ces familles,
-                            qu’elles n’étaient point : le ciel tout d’un coup s’ouvre en leur faveur
-                            ; les biens, les honneurs, les dignités fondent sur elles à plusieurs
-                            reprises ; elles nagent dans la prospérité.
-                                    <seg><persName>Eumolpe</persName><note source="#edition8"
+                        <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"/><seg>L’on
+                                ne saurait s’empêcher de voir dans certaines familles ce qu’on
+                                appelle les caprices du hasard<pb n="235" source="#edition5"/> ou
+                                les jeux de la fortune<note source="#edition8" resp="#main_vide"
+                                    type="manuscrit">[5] ponchartrain colbert<seg><note
+                                            resp="#menit" type="commentaire">difficilement
+                                            lisible</note></seg></note></seg>. Il y a cent ans qu’on
+                            ne parlait point de ces familles, qu’elles n’étaient point : le ciel
+                            tout d’un coup s’ouvre en leur faveur ; les biens, les honneurs, les
+                            dignités fondent sur elles à plusieurs reprises ; elles nagent dans la
+                            prospérité. <seg><persName>Eumolpe</persName><note source="#edition8"
                                     resp="#main_vide" type="manuscrit">Seignelay</note><note
                                     type="cle" source="#cle_1697 #cle_XVIIIe"><persName
                                         ref="#seignelay">M. de Seignelay</persName>La cinquième
@@ -349,9 +356,6 @@
                             capacité ? était-ce les conjonctures ? La fortune enfin ne leur rit plus
                             ; elle se joue ailleurs, et traite leur postérité comme leurs
                                 ancêtres.<pb n="225" source="#edition7"/></p>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit">[5] ponchartrain
-                                    colbert<seg><note resp="#menit" type="commentaire">difficilement
-                                    lisible</note></seg></note>
                     </div3>
                     <div3 type="caracter" n="81" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par"/>La cause la
@@ -370,8 +374,9 @@
                         <pb n="236" source="#edition5"/>
                     </div3>
                     <div3 type="caracter" n="83" source="#edition7 #edition8">
-                        <p source="#edition7 #edition8"><g ref="#char_pm"/><seg>Giton<note
-                                    type="cle" source="#cle_XVIIIe"><persName>Barbezieux, fils de
+                        <p source="#edition7 #edition8"><g ref="#char_pm"
+                                    /><seg><persName>Giton</persName><note type="cle"
+                                    source="#cle_XVIIIe"><persName>Barbezieux, fils de
                                         Louvois</persName> selon les clés du XVIIIe siècle. Cf.
                                         <persName ref="#st_simon">Saint-Simon</persName> (I, 798-801
                                     et index): "C'était un homme d'une figure frappante, extrêmement
@@ -465,15 +470,15 @@
                 <div2 type="chapter" n="9">
                     <head>Des Grands</head>
                     <div3 type="caracter" n="21" source="#edition5 #edition7 #edition8">
-                        <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"/>Il y en a
-                            de tels, que s’ils pouvaient connaître leurs subalternes et<pb n="296"
-                                source="#edition7"/> se connaître <app type="graphie">
+                        <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"/><seg>Il y
+                                en a de tels<note source="#edition8" resp="#main_vide"
+                                    type="manuscrit">barbazienne</note></seg>, que s’ils pouvaient
+                            connaître leurs subalternes et<pb n="296" source="#edition7"/> se
+                            connaître <app type="graphie">
                                 <lem>eux-mêmes</lem>
                                 <rdg source="#edition5">eux-meʃmes</rdg>
                                 <rdg source="#edition7">eux-mêmes</rdg>
                             </app>, ils auraient honte de primer.</p>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit"
-                            >barbazienne</note>
                     </div3>
                     <div3 type="caracter" n="22" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"/>S’il y a
@@ -649,7 +654,6 @@
                             mauvais conte : les gens moins heureux ne rient qu’à propos. </p>
                     </div3>
                     <div3 type="caracter" n="28" source="#edition8">
-                        <note source="#edition8" resp="#labruyere" type="manicule_vide"/>
                         <p source="#edition8"><g ref="#char_manic-g"/>Un grand aime la Champagne,
                             abhorre la Brie ; il s’enivre de meilleur vin que l’homme du peuple :
                             seule différence que la crapule laisse entre les conditions les plus
@@ -707,7 +711,6 @@
                             indifféremment au-dessous d’eux et de leurs maîtres : tant il est vrai
                             qu’on est destiné à souffrir des grands et de ce qui leur appartient.<pb
                                 n="302" source="#edition7"/></p>
-
                     </div3>
                     <div3 type="caracter" n="34" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par"/>Un homme en
@@ -875,37 +878,37 @@
                                     respectueux, mais à travers lequel pétillait l'audace et
                                     l'insolence, et des propos toujours composés, à travers lesquels
                                     sortaient toujours l'orgueil de toute espèce [...]." (II, 894
-                                    sq.).</note></seg> : il ne lui coûte rien d’être mo-<pb n="362"
+                                    sq.).</note><note source="#edition8" resp="#main_vide"
+                                    type="manuscrit">[1]<seg><note resp="#menit" type="commentaire"
+                                            >difficilement lisible</note></seg>président de
+                                    harlay</note></seg> : il ne lui coûte rien d’être mo-<pb n="362"
                                 source="#edition8"/>deste, de se mêler dans la multitude qui va
                             s’ouvrir pour lui, de prendre dans une assemblée une dernière place,
                             afin que tous l’y voient et s’empressent de l’en ôter. La modestie est
                             d’une pratique plus amère aux hommes d’une condition ordinaire : s’ils
                             se jettent dans la foule, on les écrase ; s’ils choisissent un poste
                             incommode, il leur demeure.</p>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit">[1]<seg><note
-                                    resp="#menit" type="commentaire">difficilement
-                                lisible</note></seg>président de harlay</note>
                     </div3>
                     <div3 type="caracter" n="45" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm-par2"
-                                    /><seg>Aristarque<note type="cle" source="#cle_XVIIIe"
-                                    >Aristarque: "Le même <persName ref="#pres_harlay"
-                                        >Harlay</persName>, premier président". On vint lui apporter
-                                    à <geogName>Beaumont</geogName> pendant les vacations vingt-cinq
-                                    mille livres que le président de la Barois lui avait léguées. Il
-                                    se transporta à <geogName>Fontainbleau</geogName>, où la cour
-                                    était alors; et, par-devant un notaire royal, il déclara cette
-                                    somme au profit des pauvres". Cf. <persName
-                                        ref="#Mme_de_Sévigné">Mme de Sévigné</persName> (13 octobre
-                                    1675, éd. cit., t. II, p. 128; et 9 octobre 1689, t. III, p.
-                                    720).</note></seg> se transporte dans la place avec un héraut et
-                            un trompette ; celui-ci commence : toute la multitude accourt et se
-                            rassemble. « Ecoutez, peuple, dit le héraut ; soyez attentifs ; silence,
-                            silence ! Aristarque, que vous voyez présent, doit faire demain une
-                            bonne action. » Je dirai plus simplement et sans figure : « Quelqu’un
-                            fait bien ; veut-il faire mieux ? que je<pb n="308" source="#edition7"/>
-                            ne sache pas qu’il fait bien, ou que je ne le soupçonne pas du moins de
-                            me l’avoir appris. »</p>
+                                    /><seg><persName>Aristarque</persName><note type="cle"
+                                    source="#cle_XVIIIe">Aristarque: "Le même <persName
+                                        ref="#pres_harlay">Harlay</persName>, premier président". On
+                                    vint lui apporter à <geogName>Beaumont</geogName> pendant les
+                                    vacations vingt-cinq mille livres que le président de la Barois
+                                    lui avait léguées. Il se transporta à
+                                        <geogName>Fontainbleau</geogName>, où la cour était alors;
+                                    et, par-devant un notaire royal, il déclara cette somme au
+                                    profit des pauvres". Cf. <persName ref="#Mme_de_Sévigné">Mme de
+                                        Sévigné</persName> (13 octobre 1675, éd. cit., t. II, p.
+                                    128; et 9 octobre 1689, t. III, p. 720).</note></seg> se
+                            transporte dans la place avec un héraut et un trompette ; celui-ci
+                            commence : toute la multitude accourt et se rassemble. « Ecoutez,
+                            peuple, dit le héraut ; soyez attentifs ; silence, silence ! Aristarque,
+                            que vous voyez présent, doit faire demain une bonne action. » Je dirai
+                            plus simplement et sans figure : « Quelqu’un fait bien ; veut-il faire
+                            mieux ? que je<pb n="308" source="#edition7"/> ne sache pas qu’il fait
+                            bien, ou que je ne le soupçonne pas du moins de me l’avoir appris. »</p>
                         <note source="#edition8" resp="#main_vide" type="manuscrit">[8] il
                             transporte aussitôt à la fontaine bleu où [2] est devenu un notaire il
                             [1] qu'il [6] prêchant [1]ou mieux selon monsieuraprès chez plusieurs
@@ -961,44 +964,46 @@
                                     lisible</note></seg></note>
                     </div3>
                     <div3 type="caracter" n="48" source="#edition7 #edition8">
-                        <p source="#edition7 #edition8"><g ref="#char_pm"/><seg>Théognis<note
-                                    resp="#menit" type="explication">Semble être la représentation
-                                    d'un homme ayant un certain rang puvant assumer une fonction
-                                    politique ou religieuse importante</note><note type="cle"
+                        <p source="#edition7 #edition8"><g ref="#char_pm"
+                                    /><seg><persName>Théognis</persName><note resp="#menit"
+                                    type="explication">Semble être la représentation d'un homme
+                                    ayant un certain rang puvant assumer une fonction politique ou
+                                    religieuse importante</note><note type="cle"
                                     source="#cle_1697 #cle_XVIIIe">Théognis: "<persName
                                         ref="#harlay">M. de Harlay</persName>, <roleName
                                         ref="#harlay">archevêque de Paris</roleName>", qui perdit
                                     très vite la faveur du roi. Cf. <persName ref="#st_simon"
-                                        >Saint-Simon</persName> (II, 892).</note></seg>est recherché
-                            dans son ajustement, et il sort paré comme une femme ; il n’est pas hors
-                            de sa maison, qu’il a déjà ajusté ses yeux<pb n="364" source="#edition8"
-                            /> et son visage afin que ce soit une chose faite quand il sera dans le
-                            public, qu’il y paraisse tout concerté, que ceux qui passent le trouvent
-                            déjà gracieux et leur souriant, et que nul ne lui échappe. Marche-t-il
-                            dans les salles, il se tourne à droit, où il y a un grand monde, et à
-                            gauche, où il n’y a personne ; il salue ceux qui y sont et ceux qui n’y
-                            sont pas. Il embrasse un homme qu’il trouve sous sa main, il lui presse
-                            la tête contre sa poitrine ; il demande ensuite qui est celui qu’il a
-                            embrassé. Quelqu’un a besoin de lui dans une affaire qui est facile ; il
-                            va le trouver, lui fait sa prière : Théognis l’écoute favorablement, il
-                            est ravi de lui être bon à quelque chose, il le conjure de faire naître
-                            des occasions de lui rendre service ; et comme celui-ci insiste sur son
-                            affaire, il lui dit qu’il ne la fera point ; il le prie de se mettre en
-                            sa place, il<pb n="310" source="#edition7"/> l’en fait juge. Le client
-                            sort, reconduit, caressé, confus, presque content d’être refusé.</p>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit">feu [1] de
-                            harlay [3]<seg><note resp="#menit" type="commentaire">difficilement
-                                    lisible</note></seg></note>
+                                        >Saint-Simon</persName> (II, 892).</note><note
+                                    source="#edition8" resp="#main_vide" type="manuscrit">feu [1] de
+                                    harlay [3]<seg><note resp="#menit" type="commentaire"
+                                            >difficilement lisible</note></seg></note></seg>est
+                            recherché dans son ajustement, et il sort paré comme une femme ; il
+                            n’est pas hors de sa maison, qu’il a déjà ajusté ses yeux<pb n="364"
+                                source="#edition8"/> et son visage afin que ce soit une chose faite
+                            quand il sera dans le public, qu’il y paraisse tout concerté, que ceux
+                            qui passent le trouvent déjà gracieux et leur souriant, et que nul ne
+                            lui échappe. Marche-t-il dans les salles, il se tourne à droit, où il y
+                            a un grand monde, et à gauche, où il n’y a personne ; il salue ceux qui
+                            y sont et ceux qui n’y sont pas. Il embrasse un homme qu’il trouve sous
+                            sa main, il lui presse la tête contre sa poitrine ; il demande ensuite
+                            qui est celui qu’il a embrassé. Quelqu’un a besoin de lui dans une
+                            affaire qui est facile ; il va le trouver, lui fait sa prière : Théognis
+                            l’écoute favorablement, il est ravi de lui être bon à quelque chose, il
+                            le conjure de faire naître des occasions de lui rendre service ; et
+                            comme celui-ci insiste sur son affaire, il lui dit qu’il ne la fera
+                            point ; il le prie de se mettre en sa place, il<pb n="310"
+                                source="#edition7"/> l’en fait juge. Le client sort, reconduit,
+                            caressé, confus, presque content d’être refusé.</p>
                     </div3>
                     <div3 type="caracter" n="49" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>C’est avoir une
                             très mauvaise opinion des hommes, et néanmoins les bien connaître, que
-                            de croire<pb n="365" source="#edition8"/> dans un grand poste leur
-                            imposer par des caresses étudiées, par de longs et stériles
-                            embrassements.</p>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit">feu [1] de
-                            harlay [5]<seg><note resp="#menit" type="commentaire">difficilement
-                                    lisible</note></seg></note>
+                                <seg>de croire<pb n="365" source="#edition8"/> dans un grand poste
+                                leur imposer par des caresses étudiées, par de longs et stériles
+                                    embrassements<note source="#edition8" resp="#main_vide"
+                                    type="manuscrit">feu [1] de harlay [5]<seg><note resp="#menit"
+                                            type="commentaire">difficilement
+                                    lisible</note></seg></note></seg>.</p>
                     </div3>
 
                     <div3 type="caracter" n="" source="#edition5 #edition7">
@@ -1018,16 +1023,17 @@
                     </div3>
 
                     <div3 type="caracter" n="50" source="#edition7 #edition8">
-                        <p source="#edition7 #edition8"><g ref="#char_pm"/><seg>Pamphile<note
-                                    type="cle" source="#cle_general">Pamphile: <persName
-                                        ref="#dangeau">le marquis de Dangeau</persName> (1638-1720)
-                                    - On ne peut pas savoir si les contemporains appliquèrent à
-                                    Dangeau le premier alinéa dès 1689 et 1690, lorsqu'il figurait
-                                    encore au chapitre "De la Société et de la Conversation": ce
-                                    n'est qu'avec le second alinéa, dans la sixième édition, que
-                                    Pamphile devient un "grand". <persName ref="#dangeau">Philippe
-                                        de Courcillon</persName>, <roleName ref="#dangeau">marquis
-                                        de Dangeau</roleName>, a environ cinquante ans en 1689. Cf.
+                        <p source="#edition7 #edition8"><g ref="#char_pm"
+                                    /><seg><persName>Pamphile</persName><note type="cle"
+                                    source="#cle_general">Pamphile: <persName ref="#dangeau">le
+                                        marquis de Dangeau</persName> (1638-1720) - On ne peut pas
+                                    savoir si les contemporains appliquèrent à Dangeau le premier
+                                    alinéa dès 1689 et 1690, lorsqu'il figurait encore au chapitre
+                                    "De la Société et de la Conversation": ce n'est qu'avec le
+                                    second alinéa, dans la sixième édition, que Pamphile devient un
+                                    "grand". <persName ref="#dangeau">Philippe de
+                                        Courcillon</persName>, <roleName ref="#dangeau">marquis de
+                                        Dangeau</roleName>, a environ cinquante ans en 1689. Cf.
                                         <persName ref="#st_simon">Saint-Simon</persName>
                                     (I,313-315); VII, 706-707): "à force de revêtements l'un sur
                                     l'autre, voilà un seigneur, et qui en affectait toutes les
@@ -1044,38 +1050,37 @@
                                     la maison de Condé, 1886; Slatkine Reprints, 1970, t. II, p.
                                     347) veut reconnaître en Pamphile <persName ref="#d_bourbon">M.
                                         le Duc de Bourbon</persName>. Il n'a pas convaincu <persName
-                                        ref="#servois">Servois</persName> (II, 465).</note></seg> ne
-                            s’entretient pas avec les gens qu’il rencontre dans les salles ou dans
-                            les cours : si l’on en croit sa gravité et l’élévation de sa voix, il
-                            les reçoit, leur donne audience, les congédie ; il a des termes tout à
-                            la fois civils et hautains, une honnêteté impérieuse et qu’il emploie
-                            sans discernement ; il a une fausse grandeur qui l’abaisse, et qui
-                            embarrasse fort ceux qui sont ses amis, et qui ne veulent pas le
-                            mépriser.</p>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit"><seg><note
-                                    resp="#menit" type="commentaire">difficilement
-                                lisible</note></seg></note>
-                        <p source="#edition7 #edition8"><seg>Un Pamphile<note type="cle"
-                                    source="#cle_general">Pamphile: <persName ref="#dangeau">le
-                                            <roleName type="nobility">marquis</roleName> de
-                                        Dangeau</persName> (1638-1720) - On ne peut pas savoir si
-                                    les contemporains appliquèrent à Dangeau le premier alinéa dès
-                                    1689 et 1690, lorsqu'il figurait encore au chapitre "De la
-                                    Société et de la Conversation": ce n'est qu'avec le second
-                                    alinéa, dans la sixième édition, que Pamphile devient un
-                                    "grand". Philippe de Courcillon, marquis de Dangeau, a environ
-                                    cinquante ans en 1689. Cf. <persName ref="#st_simon"
-                                        >Saint-Simon</persName> (I,313-315); VII, 706-707): "à force
-                                    de revêtements l'un sur l'autre, voilà un seigneur, et qui en
-                                    affectait toutes les manières à faire mourir de rire. Aussi La
-                                    Bruyère disait-il, dans ses excellents Caractères de
-                                    Théophraste, que Dangeau n'était pas un seigneur, mais d'après
-                                    un seigneur" (le mot est répété t. II, p. 671; et Mme de Sévigné
-                                    (index). - Les éditeurs du Journal de Dangeau (éd. cit., t. I,
-                                    notamment p. XCII). - <persName ref="#fournier">É.
-                                        Fournier</persName> (op. cit., p. 303) se demande si le nom
-                                    Pamphile n'a pas été choisi par La Bruyère parce que le valet de
-                                    trèfle, dans un jeu de cartes de l'époque, se nommait
+                                        ref="#servois">Servois</persName> (II, 465).</note><note
+                                    source="#edition8" resp="#main_vide" type="manuscrit"><seg><note
+                                            resp="#menit" type="commentaire">difficilement
+                                            lisible</note></seg></note></seg> ne s’entretient pas
+                            avec les gens qu’il rencontre dans les salles ou dans les cours : si
+                            l’on en croit sa gravité et l’élévation de sa voix, il les reçoit, leur
+                            donne audience, les congédie ; il a des termes tout à la fois civils et
+                            hautains, une honnêteté impérieuse et qu’il emploie sans discernement ;
+                            il a une fausse grandeur qui l’abaisse, et qui embarrasse fort ceux qui
+                            sont ses amis, et qui ne veulent pas le mépriser.</p>
+                        <p source="#edition7 #edition8"><seg>Un <persName>Pamphile</persName><note
+                                    type="cle" source="#cle_general">Pamphile: <persName
+                                        ref="#dangeau">le <roleName type="nobility"
+                                            >marquis</roleName> de Dangeau</persName> (1638-1720) -
+                                    On ne peut pas savoir si les contemporains appliquèrent à
+                                    Dangeau le premier alinéa dès 1689 et 1690, lorsqu'il figurait
+                                    encore au chapitre "De la Société et de la Conversation": ce
+                                    n'est qu'avec le second alinéa, dans la sixième édition, que
+                                    Pamphile devient un "grand". Philippe de Courcillon, marquis de
+                                    Dangeau, a environ cinquante ans en 1689. Cf. <persName
+                                        ref="#st_simon">Saint-Simon</persName> (I,313-315); VII,
+                                    706-707): "à force de revêtements l'un sur l'autre, voilà un
+                                    seigneur, et qui en affectait toutes les manières à faire mourir
+                                    de rire. Aussi La Bruyère disait-il, dans ses excellents
+                                    Caractères de Théophraste, que Dangeau n'était pas un seigneur,
+                                    mais d'après un seigneur" (le mot est répété t. II, p. 671; et
+                                    Mme de Sévigné (index). - Les éditeurs du Journal de Dangeau
+                                    (éd. cit., t. I, notamment p. XCII). - <persName ref="#fournier"
+                                        >É. Fournier</persName> (op. cit., p. 303) se demande si le
+                                    nom Pamphile n'a pas été choisi par La Bruyère parce que le
+                                    valet de trèfle, dans un jeu de cartes de l'époque, se nommait
                                     précisément Pamphile. <persName ref="#montespan">Mme de
                                         Montespan</persName> appelait Dangeau "le valet de carreau".
                                     - <persName ref="#allaire">Allaire</persName> (La Bruyère dans
@@ -1083,44 +1088,45 @@
                                     347) veut reconnaître en Pamphile <persName ref="#d_bourbon">M.
                                         le <roleName type="nobility">Duc</roleName> de
                                         Bourbon</persName>. Il n'a pas convaincu <persName
-                                        ref="#servois">Servois</persName> (II, 465).</note></seg>
-                            est plein de lui-même, ne se perd pas de vue, ne sort point de l’idée de
-                            sa grandeur, de ses alliances, de sa charge, de sa dignité ; il ramasse,
-                            pour ainsi dire, toutes ses pièces, s’en enveloppe pour se faire valoir
-                            ; il dit : Mon ordre, mon cordon bleu ; il l’étale ou<pb n="311"
-                                source="#edition7"/> il le cache par ostentation. Un Pamphile en un
-                            mot veut être grand, il croit l’être ; il ne l’est pas, il est d’après
-                            un grand. Si quelquefois il sourit à un homme du dernier ordre, à un
-                            homme d’esprit, il choisit son<pb n="366" source="#edition8"/> temps si
-                            juste, qu’il n’est jamais pris sur le fait : aussi la rougeur lui
-                            monterait-elle au visage s’il était malheureusement surpris dans la
-                            moindre familiarité avec quelqu’un qui n’est ni opulent, ni puissant, ni
-                            ami d’un ministre, ni son allié, ni son domestique. Il est sévère et
-                            inexorable à qui n’a point encore fait sa fortune. Il vous aperçoit un
-                            jour dans une galerie, et il vous fuit ; et le lendemain, s’il vous
-                            trouve en un endroit moins public, ou s’il est public, en la compagnie
-                            d’un grand, il prend courage, il vient à vous, et il vous dit : Vous ne
-                            faisiez pas hier semblant de nous voir. Tantôt il vous quitte
-                            brusquement pour joindre un seigneur ou un premier commis ; et tantôt
-                            s’il les trouve avec vous en conversation, il vous coupe et vous les
-                            enlève. Vous l’abordez une autre fois, et il ne s’arrête pas ; il se
-                            fait suivre, vous parle si haut que c’est une scène pour ceux qui
-                            passent. Aussi les Pamphiles sont-ils toujours comme sur un théâtre :
-                            gens nourris dans le faux, et qui ne haïssent rien tant que d’être
-                            naturels ; vrais personnages de comédie,<pb n="367" source="#edition8"/>
-                            des Floridors, des Mondoris.<pb n="312" source="#edition7"/></p>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit"><seg><note
-                                    resp="#menit" type="commentaire">difficilement
-                                lisible</note></seg></note>
-                        <p source="#edition8">On ne tarit point sur <seg>les Pamphiles<note
-                                    type="cle" source="#cle_general">Pamphile: <roleName
-                                        type="nobility" ref="#dangeau">le marquis de
-                                        Dangeau</roleName> (1638-1720) - On ne peut pas savoir si
-                                    les contemporains appliquèrent à Dangeau le premier alinéa dès
-                                    1689 et 1690, lorsqu'il figurait encore au chapitre "De la
-                                    Société et de la Conversation": ce n'est qu'avec le second
-                                    alinéa, dans la sixième édition, que Pamphile devient un
-                                    "grand". <persName ref="#dangeau"><forename>Philippe</forename>
+                                        ref="#servois">Servois</persName> (II, 465).</note><note
+                                    source="#edition8" resp="#main_vide" type="manuscrit"><seg><note
+                                            resp="#menit" type="commentaire">difficilement
+                                            lisible</note></seg></note></seg> est plein de lui-même,
+                            ne se perd pas de vue, ne sort point de l’idée de sa grandeur, de ses
+                            alliances, de sa charge, de sa dignité ; il ramasse, pour ainsi dire,
+                            toutes ses pièces, s’en enveloppe pour se faire valoir ; il dit : Mon
+                            ordre, mon cordon bleu ; il l’étale ou<pb n="311" source="#edition7"/>
+                            il le cache par ostentation. Un Pamphile en un mot veut être grand, il
+                            croit l’être ; il ne l’est pas, il est d’après un grand. Si quelquefois
+                            il sourit à un homme du dernier ordre, à un homme d’esprit, il choisit
+                                son<pb n="366" source="#edition8"/> temps si juste, qu’il n’est
+                            jamais pris sur le fait : aussi la rougeur lui monterait-elle au visage
+                            s’il était malheureusement surpris dans la moindre familiarité avec
+                            quelqu’un qui n’est ni opulent, ni puissant, ni ami d’un ministre, ni
+                            son allié, ni son domestique. Il est sévère et inexorable à qui n’a
+                            point encore fait sa fortune. Il vous aperçoit un jour dans une galerie,
+                            et il vous fuit ; et le lendemain, s’il vous trouve en un endroit moins
+                            public, ou s’il est public, en la compagnie d’un grand, il prend
+                            courage, il vient à vous, et il vous dit : Vous ne faisiez pas hier
+                            semblant de nous voir. Tantôt il vous quitte brusquement pour joindre un
+                            seigneur ou un premier commis ; et tantôt s’il les trouve avec vous en
+                            conversation, il vous coupe et vous les enlève. Vous l’abordez une autre
+                            fois, et il ne s’arrête pas ; il se fait suivre, vous parle si haut que
+                            c’est une scène pour ceux qui passent. Aussi les Pamphiles sont-ils
+                            toujours comme sur un théâtre : gens nourris dans le faux, et qui ne
+                            haïssent rien tant que d’être naturels ; vrais personnages de
+                                comédie,<pb n="367" source="#edition8"/> des Floridors, des
+                                Mondoris.<pb n="312" source="#edition7"/></p>
+                        <p source="#edition8">On ne tarit point sur <seg>les
+                                    <persName>Pamphiles</persName><note type="cle"
+                                    source="#cle_general">Pamphile: <roleName type="nobility"
+                                        ref="#dangeau">le marquis de Dangeau</roleName> (1638-1720)
+                                    - On ne peut pas savoir si les contemporains appliquèrent à
+                                    Dangeau le premier alinéa dès 1689 et 1690, lorsqu'il figurait
+                                    encore au chapitre "De la Société et de la Conversation": ce
+                                    n'est qu'avec le second alinéa, dans la sixième édition, que
+                                    Pamphile devient un "grand". <persName ref="#dangeau"
+                                            ><forename>Philippe</forename>
                                         <surname>de Courcillon</surname>, <roleName type="nobility"
                                             >marquis de Dangeau</roleName></persName>, a environ
                                     cinquante ans en 1689. Cf. Saint-Simon (I,313-315); VII,
@@ -1147,12 +1153,12 @@
                             pas ; de principes, encore moins : ils vivent à l’aventure, poussés et
                             entraînés par le vent de la faveur et par l’attrait des richesses. Ils
                             n’ont point d’opinion qui soit à eux, qui leur soit propre ; ils en
-                            empruntent à mesure qu’ils en ont besoin ; et celui à qui ils ont
-                            recours n’est guère un homme sage, ou habile, ou vertueux : c’est un
-                            homme à la mode.</p>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit">[1]
-                                    harlay<seg><note resp="#menit" type="commentaire">difficilement
-                                    lisible</note></seg></note>
+                            empruntent à mesure qu’ils en ont besoin ; et <seg>celui à qui ils ont
+                                recours n’est guère un homme sage, ou habile, ou vertueux : c’est un
+                                homme à la mode<note source="#edition8" resp="#main_vide"
+                                    type="manuscrit">[1] harlay<seg><note resp="#menit"
+                                            type="commentaire">difficilement
+                                    lisible</note></seg></note></seg>.</p>
                     </div3>
                     <div3 type="caracter" n="51" source="#edition7 #edition8">
                         <p source="#edition7 #edition8"><g ref="#char_pm"/>Nous avons pour les
@@ -1167,19 +1173,20 @@
                             un suisse ou de fléchir un commis ; d’être repoussé à une porte par la
                             foule innombrable de clients ou de courtisans dont la maison d’un
                                     <seg>ministre<note type="cle" source="#cle_XVIIIe">Le ministre
-                                    serait <persName ref="#louvois">Louvois</persName>.</note></seg>
-                            se dégorge plusieurs fois le jour ; de languir dans sa salle d’audience
-                            ; de lui demander en tremblant et en balbutiant une chose juste ;
-                            d’essuyer sa gravité, son ris amer et son laconisme. Alors je ne le hais
-                            plus, je ne lui porte plus d’envie ; il ne me fait aucune prière, je ne
-                            lui en fais pas ; nous sommes égaux, si ce n’est peut-être qu’il n’est
-                            pas tranquille, et que je le suis.</p>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit">chez de
-                                    Lonnoir<seg><note resp="#menit" type="commentaire">difficilement
-                                    lisible</note></seg></note>
-                        <note source="#edition8" resp="#main_vide" type="manuscrit">il parle de feu
-                            colbert qui [2] par monosyllabe<seg><note resp="#menit"
-                                    type="commentaire">difficilement lisible</note></seg></note>
+                                    serait <persName ref="#louvois">Louvois</persName>.</note><note
+                                    source="#edition8" resp="#main_vide" type="manuscrit">chez de
+                                            Lonnoir<seg><note resp="#menit" type="commentaire"
+                                            >difficilement lisible</note></seg></note></seg> se
+                            dégorge plusieurs fois le jour ; de languir dans sa salle d’audience ;
+                            de lui demander en tremblant et en balbutiant une chose juste ;
+                            d’essuyer sa gravité, son ris amer et son laconisme. <seg>Alors je ne le
+                                hais plus, je ne lui porte plus d’envie ; il ne me fait aucune
+                                prière, je ne lui en fais pas ; nous sommes égaux, si ce n’est
+                                peut-être qu’il n’est pas tranquille, et que je le suis<note
+                                    source="#edition8" resp="#main_vide" type="manuscrit">il parle
+                                    de feu colbert qui [2] par monosyllabe<seg><note resp="#menit"
+                                            type="commentaire">difficilement
+                                    lisible</note></seg></note></seg>.</p>
                     </div3>
                     <div3 type="caracter" n="52" source="#edition5 #edition7 #edition8">
                         <p source="#edition5 #edition7 #edition8"><g ref="#char_pm"/>Si les grands
