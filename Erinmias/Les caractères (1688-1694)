@@ -9,7 +9,7 @@
                 <principal/>
             </titleStmt>
             <publicationStmt>
-                <publisher>M. Erin</publisher>
+                <publisher xml:id="Mias">Mias</publisher>
                 <date when="2023-10-11">11 octobre 2023</date>
                 <distributor/>
             </publicationStmt>
@@ -21,7 +21,7 @@
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Paris</placeName>
                     <publisher>Etienne Michallet</publisher>
-                    <author xml:id="Erinmias">Erin Mias</author>
+                    <author>Erin Mias</author>
                     <date>1688</date>
                 
                 </bibl></listBibl>
@@ -29,7 +29,7 @@
                 <bibl xml:id="edition8">
                   <author>La Bruyère, Jean de</author>
                     <affiliation xml:id="invisihands">invisihands</affiliation>
-                    <author xml:id="Erinmias">Erin Mias</author>
+                    <author>Erin Mias</author>
                     <publisher xml:id="Erin">erin</publisher>
                     <title>Les caractères de Théophraste traduits du grec</title>
                     <placeName>Lyon</placeName>
@@ -46,33 +46,35 @@
                     
                 </bibl></listBibl>
                 <biblStruct>
-                        <monogr xml:id="clé_1688">
-                            <title>Clé Dangeau</title>
-                            <imprint>
-                                <date>Inconnue</date>
-                            </imprint>
-                        </monogr>
-                        <monogr xml:id="clé_1692">
-                            <title>Clé générale</title>
-                            <imprint>
-                                <date>Inconnue</date>
-                            </imprint>
-                            <monogr xml:id="clé_1694">
-                                <title>Clé générale</title>
-                                <imprint>
-                                    <date>Inconnue</date>
-                                </imprint>
-                        </monogr>
+                                <monogr xml:id="cle_callot">
+                                    <title>Clé callot</title>
+                                    <imprint>
+                                        <date>Inconnue</date>
+                                    </imprint>
+                                </monogr>
+                                    <monogr xml:id="cle_catulle">
+                                        <title>Clé Garapon</title>
+                                        <imprint>
+                                            <date>Inconnue</date>
+                                        </imprint>
+                                    </monogr>
+                                   
                 </biblStruct>
+                <listPerson>
+                    <person xml:id="Catulle" source="cle_catulle">
+                    </person>
+                    <person xml:id="Callot" source="cle_callot">
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
  <charDecl>
-                <char xml:id="char_pm0">
+                <glyph xml:id="char_pm0">
                     <mapping>❡</mapping>
                     <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
                         remarque.</desc>
-                </char>
+                </glyph>
                 <char xml:id="char_pm1">
                     <mapping>(❡)</mapping>
                     <desc>Pied-de-mouche sans parenthèse, déclare le commencement d'une nouvelle
@@ -124,6 +126,8 @@
                   <change when="2023-11-07">Encodage de note</change>
                  <change when="2023-11-07">Ajout de l'élément app pour comparer la langue,
                     ponctuation. Encodage pieds de mouche et manicules.</change>
+                   <change when="2023-11-21">Rajout de deux monogr dans BiblStruct. Modification du
+        TEIHeader.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -137,7 +141,7 @@
 
                     <div3 type="remarque" n="1"> 
                         <p source="#edition7 #edition8">
-                            <g ref="#char_pm0" source="#edition7 #edition8"/>
+                            <g ref="#char_pm0"/>
                              Une chose folle et qui découvre bien notre petitesse, c’est
                             l’assujettissement aux modes quand on l’étend à ce qui concerne le goût,
                             le vivre, la santé et la conscience. La viande noire est hors de mode,
@@ -145,10 +149,11 @@
                             guérir de la fièvre par la saignée. De même l’on ne mourait plus depuis
                             longtemps par Théotime ; ses tendres exhortations ne sauvaient plus que
                             le peuple, et Théotime a vu son successeur.
+                        </p>
                     </div3>
                     <div3 type="remarque" n="2">
                         <p source="#edition7 #edition8">
-                            <g ref="#char_pm0" source="#edition7 #edition8"/>
+                            <g ref="#char_pm0"/>
                             La curiosité n’est pas un goût pour ce qui est bon ou ce qui est beau,
                             mais pour ce qui est rare, unique, pour ce qu’on a et ce que les autres
                             n’ont point. Ce n’est pas un attachement à ce qui est parfait, mais à ce
@@ -158,6 +163,7 @@
                             qu’on a généralement pour les choses rares et qui ont cours, mais qu’on
                             a seulement pour une certaine chose, qui est rare, et pourtant à la
                             mode
+                           
                             <app type="ponctuation">
                                 <lem>.</lem> </app>
                         
@@ -197,12 +203,9 @@
 
                              Un troisième que vous allez voir vous parle des curieux ses confrères,
                             et surtout de Diognète.<seg>note inventée 1 
-                                <note type="definition"
-                                    ref="Erinmias" place="side" source="#edition8"><app type="morpho">
-                                        <lem>Erinmias</lem>
-                                        <rdg source="#edition5 #edition8">Erinmias</rdg> définition
-                            Claudios Diognetos, procurateur équestre en poste en Égypte entre 197 et 202 ; d'autres évoquent le philosophe stoïcien Diognète, 
-                            un des précepteurs de Marc-Aurèle.</note></seg> </app>
+                                <note resp="#Mias" place="side" type="definition" source="#edition8" >
+                                         définition  Claudios Diognetos, procurateur équestre en poste en Égypte entre 197 et 202 ; d'autres évoquent le philosophe stoïcien Diognète, 
+                            un des précepteurs de Marc-Aurèle.</note></seg>
                                 "Je l’admire, dit-il, et je le comprends moins
                             que jamais. Pensez-vous qu’il cherche à s’instruire par des médailles,
                             et qu’il les regarde comme des preuves parlantes de certains faits, et
@@ -223,7 +226,7 @@
                             qui soit en France de ce dessin, qu’il l’a achetée très cher, et qu’il
                             ne la changerait pas pour ce qu’il a de meilleur. « J’ai, continue-t-il,
                             une sensible affliction, et qui m’obligera de renoncer aux estampes pour
-                            le reste de mes jours : j’ai tout Callot, hormis une seule, qui n’est
+                            le reste de mes jours : j’ai tout <note type="key">Callot<persName type="key" source="#cle_callot"></persName></note>, hormis une seule, qui n’est
                             pas, à la vérité, de ses bons ouvrages ; au contraire c’est un des
                             moindres, mais qui m’achèverait Callot : je travaille depuis vingt ans à
                             recouvrer cette estampe, et je désespère enfin d’y réussir ; cela est
@@ -235,7 +238,7 @@
                             clochers, et de passer des rivières qu’on n’appelle ni la Seine ni la
                             Loire ; qui sortent de leur patrie pour y retourner, qui aiment à être
                             absents, qui veulent un jour être revenus de loin : et ce satirique
-                            parle juste, et se fait écouter. 
+                            parle juste, et se fait écouter.</p> 
 
                             <p> Mais quand il ajoute que les livres en apprennent plus que les voyages,
                             et qu’il m’a fait comprendre par ses discours qu’il a une bibliothèque,
@@ -343,6 +346,7 @@
                             d’appui et d’approbation non seulement ne lui nuit pas, mais il la
                             conserve, l’épure et la rend parfaite ; qu’elle soit à la mode, qu’elle
                             n’y soit plus, elle demeure vertu. 
+                            
                     </div3>
                     <div3 type="remarque" n="6">
                         <p source="#edition7 #edition8">
@@ -361,11 +365,11 @@
                     </div3>
                     <div3 type="remarque" n="7">
                         <p source="#edition3 #edition7 #edition8">
-                            <g ref="#char_pm0" source="#edition3 #edition7 #edition8"/>
+                            <g ref="#char_pm0"/><seg>
                              Il n’y a rien qui mette plus subitement un homme à la mode et qui le
                             soulève davantage que le grand jeu : cela va du pair avec la crapule. Je
-                            voudrais bien voir un homme poli, enjoué, spirituel, fût-il un Catulle
-                            ou son disciple, faire quelque comparaison avec celui qui vient de
+                            voudrais bien voir <note type="key"> un homme poli, enjoué, spirituel, fût-il un <persName type="key" source="#cle_catulle"><persName ref="#Catulle">Catulle</persName>
+                            </persName></note></seg>ou son disciple, faire quelque comparaison avec celui qui vient de
                             perdre huit perdre huit cents pistoles en une séance. 
                     </div3>
                     <div3 type="remarque" n="8">
@@ -427,3 +431,4 @@
 </TEI>
 
 </TEI>
+
