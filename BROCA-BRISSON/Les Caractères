@@ -36,18 +36,34 @@
                     <edition>Sixième édition.</edition>
                     <date when="1691">1691</date>
                 </bibl>
+                <bibl xml:id="servois">
+                    <title></title>
+                    <author>Gustave-Marie-Joseph Servois</author>
+                    <idno>https://data.bnf.fr/12548990/gustave_servois/</idno>
+                    <ref></ref>
+                    <publisher></publisher>
+                    <pubPlace></pubPlace>
+                    <edition></edition>
+                    <date></date>
+                </bibl>
+                <bibl xml:id="walckenaer">
+                    <title></title>
+                    <author>Charles-Athanase Walckenaer</author>
+                    <idno>https://data.bnf.fr/12754512/charles-athanase_walckenaer/</idno>
+                    <ref></ref>
+                    <publisher></publisher>
+                    <pubPlace></pubPlace>
+                    <edition></edition>
+                    <date></date>
+                </bibl>
                 <listPerson>
-                    <person xml:id="cochin">
-                        <name>Cochin</name>
-                        <idno></idno>
+                    <person xml:id="ravoye">
+                        <persName>Jean Neyret de la Ravoye</persName>
+                        <idno>Jean Neyret de la Ravoye, trésorier général de la marine</idno>
                     </person>
-                    <person xml:id="servois">
-                        <name>Gustave-Marie-Joseph Servois</name>
-                        <idno>https://data.bnf.fr/12548990/gustave_servois/</idno>
-                    </person>
-                    <person xml:id="walckenaer">
-                        <name>Charles-Athanase Walckenaer</name>
-                        <idno>https://data.bnf.fr/12754512/charles-athanase_walckenaer/</idno>
+                    <person xml:id="receveur">
+                        <persName>Receveur de la généralité de Poitiers</persName>
+                        <idno>Receveur de la généralité de Poitiers, allié à un de Vallière, receveur de la généralité de Tours</idno>
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -181,7 +197,7 @@
                     <div3 type="comment" n="60" source="#edition3 #edition6">
                         <!-- édition 3 page 175 -->
                         <!-- édition 6 page 216 -->
-                        <p><g ref="#char_pdm1" source="#edition3 #edition6"/>Pendant qu’<seg>Oronte<note type="key" resp="#servois">Servois suppose qu'il s'agit de Jean Neyret de la Ravoye, qui fut trésorier général de la marine</note><note type="key" resp="#walckenaer">Selon Walckenaer, il s'agirait du receveur de la généralité de Poitiers, allié à un de Vallière, receveur de la généralité de Tours</note></seg> augmente, avec ses années, son fonds et ses revenus,
+                        <p><g ref="#char_pdm1" source="#edition3 #edition6"/>Pendant qu’<seg>Oronte<note type="key" resp="#servois">Servois suppose qu'il s'agit de<persName type="key" ref="#ravoye">Jean Neyret de la Ravoye</persName>, qui fut trésorier général de la marine</note><note type="key" resp="#walckenaer">Selon Walckenaer, il s'agirait du <persName type="key" ref="#receveur">receveur de la généralité de Poitiers</persName>, allié à un de Vallière, receveur de la généralité de Tours</note></seg> augmente, avec ses années, son fonds et ses revenus,
                             une fille naît dans quelque famille, s’élève, croît, s’embellit, et
                             entre dans sa seizième année. Il se fait prier à cinquante ans pour
                             l’épouser, jeune, belle, spirituelle : cet homme sans naissance, sans
