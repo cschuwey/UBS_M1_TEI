@@ -138,8 +138,6 @@
                     <p> Les différentes clés uilisées ont été encodées dans bibl, en utilisant des
                         xml=id. </p>
                     <p> Les différents personnes sous-entendues ont été mentionnées dans sourceDesc. </p>
-                    <p> Utilisation de la balise note permettant de définir le rôle de chacun, appui
-                        sur la documentation. </p>
                     <p> Pas de référence d'autorité, elles servent juste à renvoyer les personnages.
                         On considère que toutes les versions se valent. </p>
                     <p> Utilisation d'un idno pour Madame de Maintenon, cela permet d'avoir des
@@ -147,6 +145,9 @@
                     <p> Les clés ont été encodées en utilisant la balise note et non app car la
                         lecture est moins violente pour le traitement de texte. On a mis la clé et à
                         quoi elle se réfère. </p>
+                    <p> La source de la clé est liée à la note type clé et non aux persName car c'est plus logique. </p>
+                    <p> Utilisation des clés Escola pour que celles-ci renvoient aux bons personnages </p>
+                    <p> Les personnages cités dans les différents clés sont encodés dans la balise persName </p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
