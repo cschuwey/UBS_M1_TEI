@@ -180,6 +180,8 @@
                 source="clé_fictive2"). Encodage des clés correspondantes dans le texte avec la
                 structure suivante(persName ref="#Bossuet" type="key" source="#cle_fictive2" nom
                 propre).</change>
+<change when="2023-11-26">Correction du devoir : correction des key et de la structure des notes <note type="key" source="clé_fictive1"><persName ref="#Bossuet">Bossuet</persName></note>. et 3 requêtes Xpath.
+</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -198,12 +200,12 @@
                                     <lem>user</lem>
                                     <rdg wit="#edition8">ufer</rdg>
                                 </rdgGrp>
-                            </app> de sa fortune que fait <seg>Périandre <persName ref="#Périandre"
-                                    type="key" source="#clé_fictive1">Même personnage que
-                                    Langlée.</persName>
-                                <note resp="#laBruyère" place="margin" type="glossaire"
+                            </app> de sa fortune que fait <seg>Périandre <note 
+                                    type="key" source="#clé_fictive1"><persNameref="#Périandre" >Même personnage que
+                                    Langlée.</persName></note>
+                                <note resp="#laBruyère" place="margin" type="glossaire  type="key" source="clé_fictive1""
                                     source="#edition8"> PERIANDE. Il s'agit d'un certain <persName
-                                        ref="#Langlée" type="key" source="clé_fictive1">Même
+                                        ref="#Langlée">Même
                                         personnage que Périandre.</persName>, que nous retrouverons
                                     plus loin au chapitre de la Cour : "Les cours ne sauraient se
                                     passer, etc."</note></seg>: elle <app><rdgGrp><lem>lui</lem><rdg
@@ -277,22 +279,21 @@
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(24)">
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="edition8"/>
-                            Rien ne fait mieux comprendre le peu de chose que <persName ref="#Dieu" type="key" source="#cle_fictive1"
-                                >Dieu</persName>Dieu croit donner aux
+                            Rien ne fait mieux comprendre le peu de chose que <note type="key" source="#cle_fictive1"<persName 
+                                >Dieu</persName ref="#Dieu"></note>Dieu croit donner aux
                             hommes, en leur abandonnant les richesses, l’argent, les grands
                                     <seg>établissements<note resp="#Josset" place="margin"
                                     type="glossaire" source="#edition10">blabla</note></seg>et les
                             autres biens, que la dispensation qu’il en fait, et le genre d’hommes
                             qui en sont le mieux <seg>pourvus. <note resp="#laBruyère"
                                     place="margin" type="information" source="#edition8"> POURVUS.
-                                    Cf. <persName ref="#Bossuet" type="key" source="#cle_fictive2"
-                                        >Bossuet</persName>, Sermon sur la Providence : Quand,
+                                    Cf. <note type="key" source="#cle_fictive2"><persName ref="#Bossuet">Bossuet</persName></note>, Sermon sur la Providence : Quand,
                                     rappelant en mon esprit à la mémoire de tous les siècles. Je
                                     vois si souvent les grandeurs du mond enetre les mains des
                                             <seg>impies<note resp="#Josset" type="key">Personne qui
                                             insulte à la religion. </note></seg>,...ah !qu'il m'est
-                                aisé de comprendre que <persName ref="#Dieu" type="key" source="#cle_fictive1"
-                                    >Dieu</persName>Dieu fait peu d'état de telles faveurs et
+                                aisé de comprendre que <note  type="key" source="#cle_fictive1"
+                                    ><persNameref="#Dieu">Dieu</persName></note>fait peu d'état de telles faveurs et
                                     de tous les biens qu'il donne pour la vie préscate !" </note>
                             </seg>
                         </p>
@@ -323,12 +324,12 @@
                             De même n’approfondissez pas la fortune des <seg>partisans.<note
                                     resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">DES PARTISANS. La fortune de la plupart des
-                                    grands sortait de la même cuisine, dit <persName
-                                        ref="#M.Hemardinquer" type="key" source="#cle_fictive2">M.
-                                        Hemardinquer</persName>. "Presque tous sollicitaient du roi
+                                    grands sortait de la même cuisine, dit <note type="key" source="#cle_fictive2"><persNameref="#M.Hemardinquer"
+                                       >M.
+                                        Hemardinquer</persName></note>. "Presque tous sollicitaient du roi
                                     des confliscations et des gains honteux qu'on appelait affaires.
-                                    Ainsi <persName ref="#lecomptedeGramont" type="key"
-                                        source="#cle_fictive2">le compte de Grammont</persName>
+                                    Ainsi <note  type="key"
+                                        source="#cle_fictive2"><persName ref="#lecomptedeGramont">le compte de Grammont</persName></note>
                                     parvient à saisir un homme condddamné pour concussion à une
                                     amende de 12,000 écus et qui était en fuite; il demande au roi
                                     de lui abandonner cet homme, dont il tire de 40 à 50,000 livres
@@ -360,8 +361,8 @@
                     <div3 source="#edition10 #edition8" type="remarque" n="(27)">
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"
-                                    /><seg><persName ref="#Chrysippe" type="key"
-                                    source="#cle_fictive2">Chrysippe</persName><note
+                                    /><seg><note type="key"
+                                    source="#cle_fictive2"><persName ref="#Chrysippe">Chrysippe</persName></note><note
                                     resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">CHRYSIPPE. (...)BonTemps.</note></seg>, homme
                             nouveau, et le premier noble de sa race, aspirait, il y a trente années,
@@ -386,8 +387,8 @@
                         <pb n="205" source="#edition8"/>
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"
-                            /> Laissez faire <seg><persName ref="#Ergaste" type="key"
-                                    source="#cle_fictive2">Ergaste</persName><note resp="#laBruyère"
+                            /> Laissez faire <seg><note  type="key"
+                                    source="#cle_fictive2"><persName ref="#Ergaste">Ergaste</persName></note><note resp="#laBruyère"
                                     place="margin" type="information" source="#edition8">ERGASTE;
                                     (...) revenir.</note></seg>, et il exigera un droit de tous ceux
                             qui boivent de l’eau de la rivière, ou qui marchent sur la terre ferme :
@@ -395,32 +396,31 @@
                             écoute tous les avis, et propose tous ceux <seg>qu’il a écoutés<note
                                     resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">QU'IL A ECOUTES. (...)tableau.</note></seg>.
-                            Le prince ne donne aux autres qu’aux dépens d’<persName ref="#Ergaste"
-                                type="key" source="cle_fictive2">Ergaste</persName>, et ne leur fait
+                            Le prince ne donne aux autres qu’aux dépens d’<note 
+                                type="key" source="cle_fictive2"><persNameref="#Ergaste">Ergaste</persName></note>, et ne leur fait
                             de grâces que celles qui lui étaient <seg>dues<note resp="#laBruyère"
                                     place="margin" type="glossaire" source="#edition8">DUES.Cf.
-                                        <persName ref="#Molière" type="key" source="cle_fictive1"
-                                        >Molière</persName> (...)injustice.</note></seg>. C’est une
+                                        <note ref="#Molière" type="key" source="cle_fictive1"><persName>Molière</persName></note> (...)injustice.</note></seg>. C’est une
                             faim insatiable d’avoir et de posséder. <seg>Il trafiquerait<note
                                     resp="#laBruyère" place="margin" type="information"
-                                    source="#edition8">IL TRAFIQUERAIT.(...)<persName
-                                        ref="#LouisXIV" type="key" source="cle_fictive1">Louis
-                                        XIV</persName>.</note></seg> des arts et des sciences, et
+                                    source="#edition8">IL TRAFIQUERAIT.(...) <note  type="key" source="cle_fictive1"><persName
+                                     ref="#LouisXIV"   >Louis
+                                        XIV</persName></note>.</note></seg> des arts et des sciences, et
                             mettrait en parti jusques à <seg>l’harmonie<note resp="#laBruyère"
                                     place="margin" type="information" source="#edition8"
                                     >L'HARMONIE.(...)musique.</note>
                             </seg>: il faudrait, s’il en était cru, que le peuple, pour avoir le
                             plaisir de le voir riche, de lui voir une meute et une écurie, pût
-                            perdre le souvenir de la musique d’<persName ref="#Orphée" type="key"
-                                source="cle_fictive1">Orphée</persName>, et se contenter de la
+                            perdre le souvenir de la musique d’<note type="key"
+                                source="cle_fictive1"><persName ref="#Orphée">Orphée</persName></note>, et se contenter de la
                             sienne. </p>
                     </div3>
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(29)">
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"
-                            /> Ne traitez pas avec <seg><persName ref="#Criton" type="key"
-                                    source="#cle_fictive1">Criton</persName><note resp="#laBruyère"
+                            /> Ne traitez pas avec <seg><note type="key"
+                                    source="#cle_fictive1"><persName ref="#Criton">Criton</persName></note><note resp="#laBruyère"
                                     place="margin" type="information" source="#edition8"
                                     >CRITON.(...)laquais".</note></seg>, il n’est touché que de ses
                             seuls avantages. Le piège est tout dressé à ceux à qui sa charge, sa
@@ -434,8 +434,8 @@
                         <pb n="206" source="~edition8"/>
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"/>
-                            <seg><persName ref="#Brontin" type="key" source="#cle_fictive1"
-                                    >Brontin</persName><note resp="#laBruyère" place="margin"
+                            <seg><note type="key" source="#cle_fictive1"><persName ref="#Brontin"
+                                    >Brontin</persName></note><note resp="#laBruyère" place="margin"
                                     type="information" source="#edition8"
                                     >BRONTIN.(...)laquais".</note></seg>, dit <seg>le peuple<note
                                     resp="#laBruyère" place="margin" type="information"
