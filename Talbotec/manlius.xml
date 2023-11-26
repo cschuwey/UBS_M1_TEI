@@ -32,7 +32,8 @@
                     <p> Graphie modernisée </p>
                     <p> Ponctuation modernisée </p>
                 </normalization>
-                <interpretation> <p> Informations du décor encodées dans élément "set" </p></interpretation>
+                <interpretation> <p> Informations du décor encodées dans élément "set". </p>
+                <p> Set placé après la CastList car présent sous cette forme dans le document source </p> </interpretation>
             </editorialDecl>
         </encodingDesc>
         <profileDesc> 
