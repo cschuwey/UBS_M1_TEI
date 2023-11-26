@@ -50,7 +50,6 @@
     </teiHeader>
     <text>
         <front> 
-            <set> <p> La Scène est au Camp des Romains devant les Tentes du Consul. </p></set>
             <castList> 
                 
                 <head> Personnages </head>
@@ -63,6 +62,7 @@
                     <roleDesc> Princesse d'Épire captive des Romains. </roleDesc>
                 </castItem>
             </castList>
+            <set> <p> La Scène est au Camp des Romains devant les Tentes du Consul. </p></set>
         </front>
         <body> <div1 type="act" n="2">
             <head> Acte II </head>
