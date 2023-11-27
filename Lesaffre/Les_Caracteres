@@ -59,13 +59,22 @@
                 </bibl>
                 <bibl xml:id="oeuvres">
                     <title>Oeuvres de la Bruyère</title>
-                    <desc>Version scannée d'une édition des oeuvres de La Bruyère, dont les Caractères. Volume II de cette édition. Version incluse dans une collection nommée "les grands écrivains de la France".</desc>
-                    <collection>Les grands écrivains de la France Nouvelles éditions sur les manuscrits, les copies les plus authentiques et les plus anciennes impressions avec variantes, notes, notices, portraits, etc.<editor>M. AD. Regnier</editor></collection>
+                    <desc>Version scannée d'une édition des oeuvres de La Bruyère, dont les
+                        Caractères. Volume II de cette édition. Version incluse dans une collection
+                        nommée "les grands écrivains de la France". Inclut notamment une clé par
+                        rapport à M. Le rebours.</desc>
+                    <collection>Les grands écrivains de la France Nouvelles éditions sur les
+                        manuscrits, les copies les plus authentiques et les plus anciennes
+                        impressions avec variantes, notes, notices, portraits, etc.<editor>M. AD.
+                            Regnier</editor></collection>
                     <distributor>inconnu</distributor>
-                    <edition>Nouvelle édition revue sur les plus anciennes impressions et les autographes et augmentée de morceaux inédits, des variantes, de notices, de notes, d'un lexique des mots et locutions remarquables, d'un portrait d'un fac-simile, etc. </edition>
+                    <edition>Nouvelle édition revue sur les plus anciennes impressions et les
+                        autographes et augmentée de morceaux inédits, des variantes, de notices, de
+                        notes, d'un lexique des mots et locutions remarquables, d'un portrait d'un
+                        fac-simile, etc. </edition>
                     <author>Jean de la Bruyère</author>
                     <editor>M.G. Servois<affiliation>M. AD. Regnier</affiliation></editor>
-                    <publisher>Librairie de L. Hachette et Cie</publisher>                    
+                    <publisher>Librairie de L. Hachette et Cie</publisher>
                     <date>1865</date>
                     <pubPlace>Paris, Boulevard Saint-Germain</pubPlace>
                     <ref type="URL"
@@ -97,6 +106,10 @@
                     <edition/>
                     <date/>
                     <editor/>
+                    <desc>Extrait d'un ouvrage de Marc Escola contenant des clés de lecture pour Les
+                        Caractères ou Moeurs de ce siècle de La Bruyère. Le titre de l'ouvrage n'est
+                        pas mentionné parmi les pages, nous ne connaissons donc pas son contexte
+                        d'édition non plus.</desc>
                     <ref type="URL"
                         >https://moodle.univ-ubs.fr/pluginfile.php/651932/mod_resource/content/0/Bruy%C3%83%C2%A8re%20-%20Cles%20-%20Escola.pdf</ref>
                 </bibl>
@@ -106,7 +119,7 @@
                     <desc>Exemplaire appartenant à un dénommé Félibien (peut-être André Félibien,
                         contemporain de l'édition en question), copie mentionnée parmi les sources
                         pour les clés proposées par Escola. La référence est évoquée comme
-                        "exemplaire de Félibien" par Escola, et l'année 1687 est évoquée dans le
+                        "exemplaire de Félibien" par Escola, et l'année 1696 est évoquée dans le
                         paragraphe le citant, ce qui nous fait supposer que l'édition qu'il
                         possédait datait de cette année. Cependant, faute d'avoir le texte complet
                         et la méthodologie de Marc Escola sur la manière dont il a noté ses sources,
@@ -121,26 +134,31 @@
                 <bibl xml:id="cleisolee">
                     <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
                         les mœurs de ce siècle</title>
-                    <desc>Exemplaire avec une clé isolée, provenant d'une édition de 1696 selon Escola, note manuscrite provenant d'une édition de 1691 d'après les Oeuvres de la Bruyère éditées en 1865.</desc>
+                    <desc>Exemplaire avec une clé isolée, provenant d'une édition de 1696 selon
+                        Escola, note manuscrite provenant d'une édition de 1691 d'après les Oeuvres
+                        de la Bruyère éditées en 1865.</desc>
                     <distributor>inconnu</distributor>
                     <edition>inconnu</edition>
                     <author>Jean de La Bruyère</author>
                     <editor>inconnu</editor>
                     <date>inconnue</date>
+                    <ref type="URL"/>
                 </bibl>
                 <listPerson>
-                    <person>
+                    <person xml:id="varillas">
                         <name>Antoine Varillas</name>
-                        <idno type= "URL">https://data.bnf.fr/fr/12311349/antoine_varillas</idno>
+                        <idno type="URL">https://data.bnf.fr/fr/12311349/antoine_varillas</idno>
                         <idno>ISNI 0000 0000 8122 7442</idno>
                     </person>
-                    <person>
+                    <person xml:id="rebours">
                         <name>M. le Rebours</name>
-                        <idno>https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;hl=fr&amp;pg=PA368#v=onepage&amp;q&amp;f=false</idno>
+                        <idno type="URL"
+                            >https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;hl=fr&amp;pg=PA368#v=onepage&amp;q&amp;f=false</idno>
                     </person>
                     <person>
-                        <name>La Basinière</name>
-                        <idno>https://man8rove.com/fr/profile/122ltj2ul-mace-bertrand-de-la-baziniere</idno>
+                        <name xml:id="basiniere">La Basinière</name>
+                        <idno type="URL"
+                            >https://man8rove.com/fr/profile/122ltj2ul-mace-bertrand-de-la-baziniere</idno>
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -238,8 +256,11 @@
                     novembre 2023. Proposition d'une correction pour l'élément app de la 11e
                     remarque. Ajout de la source de Marc Escola et de l'exemplaire de Félibien
                     (manquant tous deux des métadonnées exactes).</item>
-                <item><date when="2023-11-16">16 novembre 2023</date>Travail dans le
-                    teiHeader: ajout de référence et affinement de certaines références.</item>
+                <item><date when="2023-11-16">16 novembre 2023</date>Travail dans le teiHeader:
+                    ajout de référence et affinement de certaines références.</item>
+                <item><date when="2023-11-27">17 novembre 2023</date>Tentative de corrections pour
+                    les clés de lecture. Ajout d'une clé de lecture pour Iphis, approfondissant la
+                    piste sur l'identification de M. Le Rebours.</item>
 
             </list>
         </revisionDesc>
@@ -254,15 +275,15 @@
                         <p><g ref="char_pm"/><seg>Un homme fat et ridicule <note type="cle"
                                     source="#escola">"L'exemplaire de Félibien propose cette
                                     interprétation: l'homme fat et ridicule serait non pas l'homme à
-                                    la mode, mais<persName source="#felibien"
-                                    >Varillas</persName>(historiographe, 1624-1696), c'est-à-dire un
-                                    homme dont le costume suranné, chapeau, collet, manteau,
-                                    pourpoint, chausses, faisait "nargue à la mode et procès à la
-                                    vanité". Si cette interprétation est exacte, la réflexion peut
-                                    être daté de 1687; si, suivant l'avis de la plupart des
-                                    éditeurs; le portrait doit vraiment représenter un homme à la
-                                    mode, le costume dont La Bruyère habille l'homme "fat et
-                                    ridicule" étant passé de mode en 1687, on peut logiquement
+                                    la mode, mais<persName sameAs="#varillas" source="#escola"
+                                        >Varillas</persName>(historiographe, 1624-1696),
+                                    c'est-à-dire un homme dont le costume suranné, chapeau, collet,
+                                    manteau, pourpoint, chausses, faisait "nargue à la mode et
+                                    procès à la vanité". Si cette interprétation est exacte, la
+                                    réflexion peut être daté de 1687; si, suivant l'avis de la
+                                    plupart des éditeurs; le portrait doit vraiment représenter un
+                                    homme à la mode, le costume dont La Bruyère habille l'homme "fat
+                                    et ridicule" étant passé de mode en 1687, on peut logiquement
                                     supposer que la rédaction de la remarque est largement
                                     antérieure à la première édition." (-Marc Escola)</note></seg>
                             porte un long chapeau, un pourpoint à ailerons, des chausses à
@@ -329,31 +350,42 @@
                     </div3>
                     <div3 source="#edition8" n="14">
                         <p><g ref="char_pm"/>
-                            <name rend="italic"><seg>Iphis<note type="cle" source="#escola">Iphis:
-                                            "<persName source="#cleisolee">M. le Rebours</persName>,
-                                        avocat au grand conseil" selon une clé isolée; "<persName
-                                            source="felibien">La Basinière</persName> [mort en 1688]
-                                        qui eut le pied coupé pour avoir porté des souliers trop
-                                        petits", selon la clé Félibien (cf.Tallemant des Réaux,II,
-                                        201-212; Saint-Simon (IV, 379-380, et index); Dangeau
-                                        (index)." (-Marc Escola)</note></seg></name> voit à l’église
-                            un soulier d’une nouvelle mode ; il regarde le sien et en rougit ; il ne
-                            se croit plus habillé. Il était venu à la messe pour s’y montrer, et il
-                            se cache ; le voilà retenu par le pied dans sa chambre tout le reste du
-                            jour. Il a la main douce, et il l’entretien avec une <seg>pâte de
-                                    senteur<note resp="#lesaffre" type="explication">Équivalent à la
-                                    crème de soin ou la crème hydratante aujourd'hui.</note></seg> ;
-                            il a soin de rire pour montrer ses dents ; il fait la petite bouche, et
-                            il n’y a guère de moments où il ne veuille sourire ; il regarde ses
-                            jambes, et se voit au miroir : l’on ne peut être plus content de
-                            personne qu’il l’est de lui-même ; il s’est acquis une voix claire et
-                            délicate, et heureusement il parle gras ; il a un mouvement de tête, et
-                            je ne sais quel adoucissement dans les yeux, dont il n’oublie pas de
-                            s’embellir ; il a une démarche molle et le plus joli maintien qu’il est
-                            capable de se procurer ; il met du rouge, mais rarement, <seg><note
-                                    place="below" source="#edition8">il</note></seg><pb
-                                source="#edition8" n="577"/> il n’en fait pas habitude. Il est vrai
-                            aussi qu’il porte des <seg>chausses<note resp="#lesaffre" type="gloss"
+                            <name rend="italic"><seg>Iphis <note type="cle" source="#escola">Iphis:
+                                            "<persName sameAs="#rebours" source="#cleisolee">M. le
+                                            Rebours</persName>, avocat au grand conseil" selon une
+                                        clé isolée; "<persName sameAs="#basiniere"
+                                            source="#felibien">La Basinière</persName> [mort en
+                                        1688] qui eut le pied coupé pour avoir porté des souliers
+                                        trop petits", selon la clé Félibien (cf.Tallemant des
+                                        Réaux,II, 201-212; Saint-Simon (IV, 379-380, et index);
+                                        Dangeau (index)." (-Marc Escola)</note>
+                                    <note type="cle" source="#oeuvres">"Clef manuscrite: "<persName
+                                            sameAs="#rebours">M.Le Rebours</persName>, avocat au
+                                        grand conseil." Le pearsonnage dont il s'agit était sans
+                                        doute le fils, soit de M. Le Rebours, seigneur de Prunelay,
+                                        maître des comptes, mort en 1680, soit de Thierry le
+                                        Rebours, seigneur de Bertrandfosse, alors président
+                                        honoraire au grand conseil, soit enfin de Claude le Rebours,
+                                        alors conseiller au Parlement. Ces trois le Rebours étaient
+                                        frères." (-Édition des OEuvres de la Bruyère du XIXe
+                                        siècle)</note></seg></name> voit à l’église un soulier d’une
+                            nouvelle mode ; il regarde le sien et en rougit ; il ne se croit plus
+                            habillé. Il était venu à la messe pour s’y montrer, et il se cache ; le
+                            voilà retenu par le pied dans sa chambre tout le reste du jour. Il a la
+                            main douce, et il l’entretien avec une <seg>pâte de senteur<note
+                                    resp="#lesaffre" type="explication">Équivalent à la crème de
+                                    soin ou la crème hydratante aujourd'hui.</note></seg> ; il a
+                            soin de rire pour montrer ses dents ; il fait la petite bouche, et il
+                            n’y a guère de moments où il ne veuille sourire ; il regarde ses jambes,
+                            et se voit au miroir : l’on ne peut être plus content de personne qu’il
+                            l’est de lui-même ; il s’est acquis une voix claire et délicate, et
+                            heureusement il parle gras ; il a un mouvement de tête, et je ne sais
+                            quel adoucissement dans les yeux, dont il n’oublie pas de s’embellir ;
+                            il a une démarche molle et le plus joli maintien qu’il est capable de se
+                            procurer ; il met du rouge, mais rarement, <seg><note place="below"
+                                    source="#edition8">il</note></seg><pb source="#edition8" n="577"
+                            /> il n’en fait pas habitude. Il est vrai aussi qu’il porte des
+                                    <seg>chausses<note resp="#lesaffre" type="gloss"
                                     source="furetiere">"ou haut-de-chausses, signifie la partie
                                     inférieure de l'habit d'un homme, qui lui couvre les fesses, le
                                     ventre et les cuisses" (Furetière)</note></seg> et un chapeau,
