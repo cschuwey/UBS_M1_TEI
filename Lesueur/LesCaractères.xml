@@ -70,10 +70,11 @@
                 <listPerson>
 
                     <person xml:id="marquis_de_varde">
-                        <persName>Artémon</persName>
+                        <persName>Marquis de Varde</persName>
                     </person>
-                    <person xml:id="cle_bourogne">
-                        <persName>Le Duc de Bourgogne</persName>
+                    
+                    <person xml:id="louisxiv">
+                        <persName>Louis XIV</persName>
                         <!-- clé fictive -->
                     </person>
 
@@ -247,7 +248,7 @@
                     <div3 n="40" source="#edition1688 #edition1691 #edition1694">
                         <p><g ref="#char_pm_simple" source="#edition1688 #edition1691 #edition1694"
                             /> Vous êtes homme de bien, vous ne songez ni à plaire ni à déplaire aux
-                            favoris, uniquement attaché à votre maître et à votre devoir : vous êtes
+                            favoris, uniquement attaché à <seg>votre maître<note type="cle"><persName ref="#louisxiv">Louis XIV</persName></note> </seg>et à votre devoir : vous êtes
                             perdu.</p>
                     </div3>
 
@@ -283,11 +284,11 @@
                             toutes les mesures sont bien prises, et l’on doit être servi selon ses
                             souhaits ; les uns doivent entamer, les autres appuyer ; l’amorce est
                             déjà conduite, et la mine prête à jouer : alors on s’éloigne de la cour.
-                            Qui oserait soupçonner <seg><note type="cle" source="#edition1694 #marquis_de_varde"><persName
-                                        ref="#marquis_de_varde">Artemon</persName>: "M. le marquis
+                            Qui oserait soupçonner <seg>Artemon<note type="cle"><persName
+                                        ref="#marquis_de_varde">le marquis de Varde</persName>M. le marquis
                                     de Varde qui, au retour de son exil de vingt années, avait fait
-                                    une grosse brigue pour être gouverneur de <persName ref="#cle_bourgogne">Monseigneur le duc de
-                                        Bourgogne</persName> ; à quoi il aurait réussi sans sa mort arrivée dans ce
+                                    une grosse brigue pour être gouverneur de Monseigneur le duc de
+                                        Bourgogne ; à quoi il aurait réussi sans sa mort arrivée dans ce
                                     temps-là</note></seg> qu’il ait pensé à se mettre <pb
                                 source="#edition1694" n="309"/> dans une si belle place, lorsqu’on
                             le tire de sa terre ou de son gouvernement pour l’y faire asseoir ?
