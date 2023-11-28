@@ -112,6 +112,10 @@
                         <name>Le sage</name>
                         <idno/>
                     </person>
+                    <person xml:id="Perrault">
+                        <name>Perrault</name>
+                        <idno>https://fr.wikipedia.org/wiki/Charles_Perrault</idno>
+                    </person>
                 </listPerson>
             </sourceDesc>
         </fileDesc>
@@ -177,7 +181,8 @@
                 glyph au début de chaque remarques</change>
             <change when="2023-11-14">Encodage des pages, des personnages présents dans mon édition
                 ainsi que 2 clés</change>
-            <change when="2023-11-28">Encodage des personnages dans mes remarques à chaque fois qu'un y apparaît</change>
+            <change when="2023-11-28">Encodage des personnages dans mes remarques à chaque fois
+                qu'un y apparaît avec Perrault également</change>
         </revisionDesc>
 
     </teiHeader>
@@ -200,16 +205,17 @@
                                     l'onomastique est transparente (kûdian, se vanter), mais la
                                     remarque semble avoir d'abord découragé les applications; les
                                     premières clés restent silencieuses; la clé Cochin hasarde le
-                                    nom de Perrault, répété par toutes les clés postérieures: "M.
-                                    Perrault, de l'Académie française, s'était opposé à La Bruyère
-                                    pour être reçu académicien, ce qui fait qu'il le drape partout
-                                    où il le rencontre.[...] P. Soler note (2D. cit. p. 1176): "La
-                                    métaphore filée qui ouvre le portrait est une spirituelle
-                                    variation sur le mot, jamais écrit ici, de
-                                commerce".</note></seg> bel esprit, c’est sa profession. Il a une
-                            enseigne, un atelier, des ouvrages de commande, et des compagnons qui
-                            travaillent sous lui : il ne vous saurait rendre de plus d’un mois les
-                            stances qu’il vous a promises, s’il ne manque de parole à <persName
+                                    nom de <persName ref="#Perrault">Perrault</persName>, répété par
+                                    toutes les clés postérieures: "M. <persName ref="#Perrault"
+                                        >Perrault</persName>, de l'Académie française, s'était
+                                    opposé à La Bruyère pour être reçu académicien, ce qui fait
+                                    qu'il le drape partout où il le rencontre.[...] P. Soler note
+                                    (2D. cit. p. 1176): "La métaphore filée qui ouvre le portrait
+                                    est une spirituelle variation sur le mot, jamais écrit ici, de
+                                    commerce".</note></seg> bel esprit, c’est sa profession. Il a
+                            une enseigne, un atelier, des ouvrages de commande, et des compagnons
+                            qui travaillent sous lui : il ne vous saurait rendre de plus d’un mois
+                            les stances qu’il vous a promises, s’il ne manque de parole à <persName
                                 ref="#Dosithée">Dosithée</persName>, qui l’a engagé à faire une
                             élégie ; une idylle est sur le métier, c’est pour <persName
                                 ref="#Crantor">Crantor</persName>, qui le presse, et qui lui laisse
