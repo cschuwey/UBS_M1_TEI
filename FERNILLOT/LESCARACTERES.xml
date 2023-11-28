@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+                                                                                                                    
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -177,6 +177,7 @@
                 glyph au début de chaque remarques</change>
             <change when="2023-11-14">Encodage des pages, des personnages présents dans mon édition
                 ainsi que 2 clés</change>
+            <change when="2023-11-28">Encodage des personnages dans mes remarques à chaque fois qu'un y apparaît</change>
         </revisionDesc>
 
     </teiHeader>
@@ -192,67 +193,76 @@
 
 
                     <div3 n="75" source="#lescaracteres1696">
-                        <p><g ref="#char_pdm"/>Ascagne est statuaire, Hégion fondeur, Aeschine
-                            foulon, et <seg>Cydias<note type="key">l'onomastique est transparente
-                                    (kûdian, se vanter), mais la remarque semble avoir d'abord
-                                    découragé les applications; les premières clés restent
-                                    silencieuses; la clé Cochin hasarde le nom de Perrault, répété
-                                    par toutes les clés postérieures: "M. Perrault, de l'Académie
-                                    française, s'était opposé à La Bruyère pour être reçu
-                                    académicien, ce qui fait qu'il le drape partout où il le
-                                    rencontre.[...] P. Soler note (2D. cit. p. 1176): "La métaphore
-                                    filée qui ouvre le portrait est une spirituelle variation sur le
-                                    mot, jamais écrit ici, de commerce".</note></seg> bel esprit,
-                            c’est sa profession. Il a une enseigne, un atelier, des ouvrages de
-                            commande, et des compagnons qui travaillent sous lui : il ne vous
-                            saurait rendre de plus d’un mois les stances qu’il vous a promises, s’il
-                            ne manque de parole à Dosithée, qui l’a engagé à faire une élégie ; une
-                            idylle est sur le métier, c’est pour Crantor, qui le presse, et qui lui
-                            laisse espérer un riche salaire. Prose, vers, que voulez-vous ? Il
-                            réussit également en <pb n="106" source="#lescaracteres1696"/>l’un et en
+                        <p><g ref="#char_pdm"/><persName ref="#Ascagne">Ascagne</persName> est
+                            statuaire, <persName ref="#HégionFondeur">Hégion fondeur</persName>,
+                                <persName ref="#AeschineFoulon">Aeschine foulon</persName>, et
+                                    <seg><persName ref="#Cydias">Cydias</persName><note type="key">
+                                    l'onomastique est transparente (kûdian, se vanter), mais la
+                                    remarque semble avoir d'abord découragé les applications; les
+                                    premières clés restent silencieuses; la clé Cochin hasarde le
+                                    nom de Perrault, répété par toutes les clés postérieures: "M.
+                                    Perrault, de l'Académie française, s'était opposé à La Bruyère
+                                    pour être reçu académicien, ce qui fait qu'il le drape partout
+                                    où il le rencontre.[...] P. Soler note (2D. cit. p. 1176): "La
+                                    métaphore filée qui ouvre le portrait est une spirituelle
+                                    variation sur le mot, jamais écrit ici, de
+                                commerce".</note></seg> bel esprit, c’est sa profession. Il a une
+                            enseigne, un atelier, des ouvrages de commande, et des compagnons qui
+                            travaillent sous lui : il ne vous saurait rendre de plus d’un mois les
+                            stances qu’il vous a promises, s’il ne manque de parole à <persName
+                                ref="#Dosithée">Dosithée</persName>, qui l’a engagé à faire une
+                            élégie ; une idylle est sur le métier, c’est pour <persName
+                                ref="#Crantor">Crantor</persName>, qui le presse, et qui lui laisse
+                            espérer un riche salaire. Prose, vers, que voulez-vous ? Il réussit
+                            également en <pb n="106" source="#lescaracteres1696"/>l’un et en
                             l’autre. Demandez-lui des lettres de consolation, ou sur une absence, il
                             les entreprendra ; prenez-les toutes faites et entrez dans son magasin,
                             il y a à choisir. Il a un ami qui n’a point d’autre fonction sur la
                             terre que de le promettre longtemps à un certain monde, et de le
                             présenter enfin dans les maisons comme homme rare et d’une exquise
                             conversation ; et là, ainsi que le musicien chante et que le joueur de
-                            luth touche son luth devant les personnes à qui il a été promis, Cydias,
-                            après avoir toussé, relevé sa manchette, étendu la main et ouvert les
-                            doigts, débite gravement ses pensées quintessenciées et ses
-                            raisonnements sophistiqués. Différent de ceux qui convenant de
-                            principes, et connaissant la raison ou la vérité qui est une,
-                            s’arrachent la parole l’un à l’autre pour s’accorder sur leurs
-                            sentiments, il n’ouvre la bouche que pour contredire : "Il me semble,
-                            dit-il gracieusement, que c’est tout le contraire de ce que vous dites"
-                            ; ou : "Je ne saurais être de votre opinion" ; ou bien : "Ç’a été
-                            autrefois mon entêtement, comme il est le vôtre, mais… Il y a trois
-                            choses, ajoute-t-il, à considérer…", et il en ajoute une quatrième :
-                            fade discoureur, qui n’a pas mis plus tôt le pied dans une assemblée,
-                            qu’il cherche quelques femmes auprès de qui il puisse s’insinuer, se
-                            parer de son bel esprit ou de sa philosophie, et mettre en œuvre ses
-                            rares conceptions ; car soit qu’il parle ou qu’il écrive, il ne doit pas
-                            être soupçonné d’avoir en vue ni le vrai ni le faux, ni le raisonnable
-                            ni le ridicule : il évite uniquement de donner dans le sens des autres,
-                            et d’être de l’avis de quelqu’un ; aussi attend-il dans un cercle que
-                            chacun se soit expliqué sur le sujet qui s’est offert, ou souvent qu’il
-                            a amené lui-même, pour dire dogmatiquement des choses toutes nouvelles,
-                            mais à son gré décisives et sans réplique. <seg>Cydias s’égale à Lucien
-                                et à Sénèque<note resp="#LaBruyere" place="ext margin"
-                                    type="definition" source="#lescaracteres1696"> Philosophe et
-                                    poète tragique</note></seg>, se met au-dessus de Platon, de
-                            Virgile et de Théocrite ; et son flat<pb n="107"
-                                source="#lescaracteres1696" rend="tiret"/>teur a soin de le
+                            luth touche son luth devant les personnes à qui il a été promis,
+                                <persName ref="#Cydias">Cydias</persName>, après avoir toussé,
+                            relevé sa manchette, étendu la main et ouvert les doigts, débite
+                            gravement ses pensées quintessenciées et ses raisonnements sophistiqués.
+                            Différent de ceux qui convenant de principes, et connaissant la raison
+                            ou la vérité qui est une, s’arrachent la parole l’un à l’autre pour
+                            s’accorder sur leurs sentiments, il n’ouvre la bouche que pour
+                            contredire : "Il me semble, dit-il gracieusement, que c’est tout le
+                            contraire de ce que vous dites" ; ou : "Je ne saurais être de votre
+                            opinion" ; ou bien : "Ç’a été autrefois mon entêtement, comme il est le
+                            vôtre, mais… Il y a trois choses, ajoute-t-il, à considérer…", et il en
+                            ajoute une quatrième : fade discoureur, qui n’a pas mis plus tôt le pied
+                            dans une assemblée, qu’il cherche quelques femmes auprès de qui il
+                            puisse s’insinuer, se parer de son bel esprit ou de sa philosophie, et
+                            mettre en œuvre ses rares conceptions ; car soit qu’il parle ou qu’il
+                            écrive, il ne doit pas être soupçonné d’avoir en vue ni le vrai ni le
+                            faux, ni le raisonnable ni le ridicule : il évite uniquement de donner
+                            dans le sens des autres, et d’être de l’avis de quelqu’un ; aussi
+                            attend-il dans un cercle que chacun se soit expliqué sur le sujet qui
+                            s’est offert, ou souvent qu’il a amené lui-même, pour dire
+                            dogmatiquement des choses toutes nouvelles, mais à son gré décisives et
+                            sans réplique. <seg><persName ref="#Cydias">Cydias</persName> s’égale à
+                                    <persName ref="#Lucien">Lucien</persName> et à <persName
+                                    ref="#Sénèque">Sénèque</persName>
+                                <note resp="#LaBruyere" place="ext margin" type="definition"
+                                    source="#lescaracteres1696"> Philosophe et poète
+                                tragique</note></seg>, se met au-dessus de <persName ref="#Platon"
+                                >Platon</persName>, de <persName ref="#Virgile">Virgile</persName>
+                            et de <persName ref="#Théocrite"> Théocrite</persName> ; et son flat<pb
+                                n="107" source="#lescaracteres1696" rend="tiret"/>teur a soin de le
                             confirmer tous les matins dans cette opinion. Uni de goût et d’intérêt
-                            avec les contempteurs d’<seg>Homère<note type="key">qui veut dire
-                                    "otage" ou "celui qui est obligé de suivre" en grec ancien,
-                                    aurait été un poète de la fin du VIIIème siècle av. J-C et lui
-                                    sont attribués les oeuvres de l'Illiade et l'Odyssée poème
-                                    fondateur de la littérature grecque antique.</note></seg>, il
-                            attend paisiblement que les hommes détrompés lui préfèrent les poètes
-                            modernes : il se met en ce cas à la tête de ces derniers, et il sait à
-                            qui il adjuge la seconde place. C’est en un mot un composé du pédant et
-                            du précieux, fait pour être admiré de la bourgeoisie et de la province,
-                            en qui néanmoins on n’aperçoit rien de grand que l’opinion qu’il a de
+                            avec les contempteurs d’<seg><persName ref="#Homère"
+                                    >Homère</persName><note type="key">qui veut dire "otage" ou
+                                    "celui qui est obligé de suivre" en grec ancien, aurait été un
+                                    poète de la fin du VIIIème siècle av. J-C et lui sont attribués
+                                    les oeuvres de l'Illiade et l'Odyssée poème fondateur de la
+                                    littérature grecque antique.</note></seg>, il attend
+                            paisiblement que les hommes détrompés lui préfèrent les poètes modernes
+                            : il se met en ce cas à la tête de ces derniers, et il sait à qui il
+                            adjuge la seconde place. C’est en un mot un composé du pédant et du
+                            précieux, fait pour être admiré de la bourgeoisie et de la province, en
+                            qui néanmoins on n’aperçoit rien de grand que l’opinion qu’il a de
                             lui-même.</p>
                     </div3>
 
@@ -329,38 +339,43 @@
                     </div3>
 
                     <div3 n="82" source="#lescaracteres1696">
-                        <p><g ref="#char_pdm"/>Nicandre s’entretient avec Elise de la manière douce
-                            et complaisante dont il a vécu avec sa femme, depuis le jour qu’il en
-                            fit le choix jusques à sa mort ; il a déjà dit qu’il regrette qu’elle ne
-                            lui ait pas laissé des enfants, et il le répète ; il parle des maisons
-                            qu’il a à la ville, et bientôt d’une terre qu’il a à la campagne : il
-                            calcule le revenu qu’elle lui rapporte, il fait le plan des bâtiments,
-                            en décrit la situation, exagère la commodité des appartements, ainsi que
-                            la richesse et la propreté des meubles ; il assure qu’il aime la bonne
-                            chère, les équipages ; il se plaint que sa femme n’aimait point assez le
-                            jeu et la société. "Vous êtes si riche, lui disait l’un de ses amis, que
-                            n’achetez-vous cette <seg>charge<note resp="#fernillot" place="bottom"
-                                    type="synonym" source="#lescaracteres1696">Dépense</note></seg>
-                            ? pourquoi ne pas faire cette acquisition qui étendrait votre domaine ?
-                            On me croit, ajoute-t-il, plus de bien que je n’en possède." Il n’oublie
-                            pas son extraction et ses alliances : Monsieur le Surintendant, qui est
-                            mon cousin ; Madame la Chancelière, qui est ma parente ; voilà son
-                            style. Il raconte un fait qui prouve le mécontentement qu’il doit avoir
-                            de ses plus proches, et de ceux même qui sont ses héritiers : "Ai-je
-                            tort ? dit-il à Elise ; ai-je grand sujet de leur vouloir du bien ? " et
+                        <p><g ref="#char_pdm"/><persName ref="#Nicandre">Nicandre</persName>
+                            s’entretient avec <persName ref="#Elise">Elise</persName> de la manière
+                            douce et complaisante dont il a vécu avec sa femme, depuis le jour qu’il
+                            en fit le choix jusques à sa mort ; il a déjà dit qu’il regrette qu’elle
+                            ne lui ait pas laissé des enfants, et il le répète ; il parle des
+                            maisons qu’il a à la ville, et bientôt d’une terre qu’il a à la campagne
+                            : il calcule le revenu qu’elle lui rapporte, il fait le plan des
+                            bâtiments, en décrit la situation, exagère la commodité des
+                            appartements, ainsi que la richesse et la propreté des meubles ; il
+                            assure qu’il aime la bonne chère, les équipages ; il se plaint que sa
+                            femme n’aimait point assez le jeu et la société. "Vous êtes si riche,
+                            lui disait l’un de ses amis, que n’achetez-vous cette <seg>charge<note
+                                    resp="#fernillot" place="bottom" type="synonym"
+                                    source="#lescaracteres1696">Dépense</note></seg> ? pourquoi ne
+                            pas faire cette acquisition qui étendrait votre domaine ? On me croit,
+                            ajoute-t-il, plus de bien que je n’en possède." Il n’oublie pas son
+                            extraction et ses alliances : <persName ref="#MonsieurleSurintendant">
+                                Monsieur le Surintendant</persName>, qui est mon cousin ; <persName
+                                ref="#MadamelaChancelière">Madame la Chancelière</persName>, qui est
+                            ma parente ; voilà son style. Il raconte un fait qui prouve le
+                            mécontentement qu’il doit avoir de ses plus proches, et de ceux même qui
+                            sont ses héritiers : "Ai-je tort ? dit-il à <persName ref="#Elise">
+                                Elise</persName> ; ai-je grand sujet de leur vouloir du bien ? " et
                             il l’en fait juge. Il insinue ensuite qu’il a une santé faible et
                             languissante, et il parle de la cave où il doit être enterré. Il est
                             insinuant, flatteur, officieux à l’égard de tous ceux qu’il trouve
-                            auprès de la personne à qui il aspire. Mais Elise n’a pas le courage
-                            d’être riche en l’épousant. On annonce, au moment qu’il parle, un
-                            cavalier, qui de sa seule présence démonte la batterie de l’homme de
-                            ville : il se lève déconcerté et chagrin, et va dire ailleurs qu’il veut
-                            se remarier.</p>
+                            auprès de la personne à qui il aspire. Mais <persName ref="#Elise"
+                                >Elise</persName> n’a pas le courage d’être riche en l’épousant. On
+                            annonce, au moment qu’il parle, un <persName ref="#cavalier"
+                                >cavalier</persName>, qui de sa seule présence démonte la batterie
+                            de l’homme de ville : il se lève déconcerté et chagrin, et va dire
+                            ailleurs qu’il veut se remarier.</p>
                     </div3>
 
                     <div3 n="83" source="#lescaracteres1696">
-                        <p><g ref="#char_pdm"/>Le sage quelquefois évite le monde, de peur d’être
-                            ennuyé.</p>
+                        <p><g ref="#char_pdm"/>Le <persName ref="#sage">sage</persName> quelquefois
+                            évite le monde, de peur d’être ennuyé.</p>
                     </div3>
 
 
