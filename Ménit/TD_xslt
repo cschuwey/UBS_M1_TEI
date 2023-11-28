@@ -6,6 +6,7 @@
         <html>
             <head>
                 <xsl:apply-templates select="tei:teiHeader"/>
+                <title>Les Caractères de La Bruyère</title>
             </head>
             <body>
                 <xsl:apply-templates select="tei:text/tei:body"/>
