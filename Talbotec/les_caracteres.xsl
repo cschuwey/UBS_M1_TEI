@@ -14,6 +14,12 @@
         </xsl:template>
 <xsl:template match="tei:teiHeader">
 </xsl:template>
+    <xsl:template match="tei:div1">
+       <p>  <xsl:apply-templates/> </p>
+    </xsl:template>
+<xsl:template match="tei:div2">
+       <p>  <xsl:apply-templates/> </p>
+    </xsl:template>
    <xsl:template match="tei:p">
        <p>  <xsl:apply-templates/> </p>
     </xsl:template>
