@@ -39,6 +39,8 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    
+    <xsl:template match="tei:app/tei:rdg"/>
 
     <xsl:template match="tei:note"/>
 
