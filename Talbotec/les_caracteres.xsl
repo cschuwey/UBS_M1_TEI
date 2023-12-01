@@ -4,9 +4,7 @@
     exclude-result-prefixes="xs" version="2.0">
     <xsl:template match="tei:TEI">
         <html>
-            <head> 
-                <xsl:apply-templates select="tei:teiHeader"/> 
-            </head> 
+            <head/> 
                 <body> 
         <head> Les caractères de La Bruyère </head> 
           <xsl:apply-templates select="tei:text/tei:body"/> 
