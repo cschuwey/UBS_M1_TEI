@@ -15,7 +15,7 @@
        
    </xsl:template>
     
-    <xsl:template match="tei:body"/>
+    <xsl:template match="tei:body">
     <xsl:apply-templates/> 
 </xsl:template>
     
@@ -23,10 +23,11 @@
         <p> <xsl:apply-templates/></p>
     </xsl:template>
     
-        <xsl:template match="tei:app/ tei:lem"/>
+        <xsl:template match="tei:app/ tei:lem">
     <xsl:apply-templates/> 
     </xsl:template>
     
-    <xsl:apply-templates select="tei:app/ tei:rdg [position()>1] tei:teiHeader tei:note"/>
-
+    <xsl:template match="tei:app/tei:rdg">
+    <xsl:apply-templates select="tei:app/tei:rdg [position()>1]"> </xsl:apply-templates>
+    </xsl:template>
 </xsl:stylesheet>
