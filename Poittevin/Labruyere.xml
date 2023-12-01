@@ -15,8 +15,8 @@
             </publicationStmt>
             <sourceDesc>
                 <listPerson>
-                    <person xml:id="Cléante">
-                        <name>Cléante</name>
+                    <person xml:id="loiseau">
+                        <name>Loiseau</name>
                         <idno/>
                     </person>
                     <person xml:id="desoleure">
@@ -128,6 +128,7 @@
             <change when="2023-11-16">Fin de l'ajout des clés et ajout listPerson dans
                 teiHeader.</change>
             <change when="2023-11-21">Correction, ajout persName dans note type clé.</change>
+            <change when="2023-12-01">Correction des clés, noms identifiés corrigés.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -147,7 +148,7 @@
                     <div3 n="43" source="#édition3 #édition6 #édition8">
                         <p source="#édition3 #édition6 #édition8"><g ref="#char_pm"/><seg><note
                                     type="clé" source="#cléXVIII">(1688) - Cléante: <persName
-                                        ref="#Cléante">«M. Loiseau</persName>, ci-devant receveur à
+                                        ref="#loiseau">«M. Loiseau</persName>, ci-devant receveur à
                                     Nantes, qui a épousé <persName ref="#desoleure">Mlle de Soleure
                                         [ou de Solenne] de Beauce</persName>, assez jolie personne
                                     et séparée d'avec lui»</note></seg>
