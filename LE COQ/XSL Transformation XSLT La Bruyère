@@ -25,6 +25,5 @@
     <xsl:template match="tei:app">
         <xsl:apply-templates select="tei:lem"/>
     </xsl:template>
-    
-    
+
 </xsl:stylesheet>
