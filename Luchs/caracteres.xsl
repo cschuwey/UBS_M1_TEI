@@ -7,6 +7,7 @@
         <html>
             <head/>
             <body>
+                <h1>Les Caractères de La Bruyère</h1>
                 <xsl:apply-templates/>
             </body>
         </html>
@@ -19,6 +20,14 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
+    <xsl:template match="tei:note"/>
+    
+    <!-- Selon moi, pour seulement afficher les lem, il suffit de dire de ne pas afficher les rdg (dans le cadre de mon document de travail -->
+    
+    <xsl:template match="tei:rdg"/>
+    
+   <!-- Test pour colorer les notes différemment
 
     <xsl:template match="tei:note[@type='cle']">
         <note style="color:purple;">
@@ -31,5 +40,6 @@
             <xsl:apply-templates/>
         </note>
     </xsl:template>
+-->
 
 </xsl:stylesheet>
