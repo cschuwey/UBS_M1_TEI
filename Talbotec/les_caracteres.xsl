@@ -32,8 +32,8 @@
         </p>
     </xsl:template>
     <xsl:template match="tei:note"> </xsl:template>
-    <xsl:template match="tei:app/lem">
-        <lem> </lem>
+    <xsl:template match="tei:app/tei:lem">
+        <span> <xsl:apply-templates/> </span>
     </xsl:template>
     <xsl:template match="tei:rdg"> </xsl:template>
 </xsl:stylesheet>
