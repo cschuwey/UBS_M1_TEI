@@ -10,24 +10,20 @@
            <head></head>
            <body> <h1> Les caractères de la Bruyère</h1>
                <xsl:apply-templates select="//tei:body"/>
-           </body>
-       </html>
-       
-   </xsl:template>
-    
-    <xsl:template match="tei:body">
-    <xsl:apply-templates/> 
-</xsl:template>
-    
+              </body>
+        </html>
+    </xsl:template>
     <xsl:template match="tei:p">
-        <p> <xsl:apply-templates/></p>
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:note"/>
+    <xsl:template match="tei:teiHeader"/>
+    
+    <xsl:template match="tei:app">
+        <xsl:apply-templates select="tei:lem"/>
     </xsl:template>
     
-        <xsl:template match="tei:app/ tei:lem">
-    <xsl:apply-templates/> 
-    </xsl:template>
-    
-    <xsl:template match="tei:app/tei:rdg">
-    <xsl:apply-templates select="tei:app/tei:rdg [position()>1]"> </xsl:apply-templates>
-    </xsl:template>
+
 </xsl:stylesheet>
