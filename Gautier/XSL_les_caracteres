@@ -16,7 +16,13 @@
             <xsl:apply-templates select="tei:text/tei:body"/>
         </p>
     </xsl:template>
+    <xsl:template match="tei:app">
+        <app>
+            <xsl:apply-templates select="tei:text/tei:body/tei:p/tei:app/tei:lem"/>
+        </app>
+    </xsl:template>
     <xsl:template match="tei:teiHeader"/>
+    <xsl:template match="tei:note"/>
     <xsl:template match="tei:note"/>
 
 </xsl:stylesheet>
