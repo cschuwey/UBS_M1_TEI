@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Les caractères de Théophraste traduits du grec : avec Les caractères ou les
-                    mœurs de ce siècle</title>
+                    mœurs de ce siècle</title>                
                 <author xml:id="labruyere">Jean de La Bruyère</author>
             </titleStmt>
 
@@ -262,9 +262,10 @@
                     les clés de lecture. Ajout d'une clé de lecture pour Iphis, approfondissant la
                     piste sur l'identification de M. Le Rebours.</item>
                 <item><date when="2023-11-30">30 novembre 2023</date>Correction orthographique de
-                    conjugaison dans la seizième remarque. Ajustements pour le fichier xslt (créé le
+                    conjugaison dans la seizième remarque. Ajustements pour le fichier xsl (créé le
                         <date when="2023-11-27">27 novembre 2023</date>) lié au présent
                     encodage.</item>
+                <item><date when="2023-12-4">4 décembre 2023</date>Changement dans la variation de la remarque 13 : la graphie du texte informatisé de base est choisie comme lem et la graphie des éditions 4 et 8 sont choisies comme rdg.</item>
 
             </list>
         </revisionDesc>
@@ -294,8 +295,8 @@
                             aiguillettes et des bottines ; il rêve la veille par où et comment il
                             pourra se faire remarquer le jour qui suit. Un philosophe se laisse
                             habiller par son tailleur : il y a autant de <app>
-                                <lem source="#edition4 #edition8">foiblesse</lem>
-                                <rdg source="#edition19e">faiblesse</rdg>
+                                <lem source="#edition19e">faiblesse</lem>
+                                <rdg source="#edition4 #edition8">foiblesse</rdg>
                             </app> à fuir la mode qu’à l’<seg>affecter<note resp="#lesaffre"
                                     type="gloss" source="#furetiere">"Aimer, souhaiter quelque chose
                                     avec empressement et ostentation" (Furetière)</note></seg>.</p>
