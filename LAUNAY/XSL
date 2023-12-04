@@ -22,21 +22,8 @@
             </p>
         </html>
     </xsl:template>
-
+    
     <xsl:template match="tei:rdg"/>
     <xsl:template match="tei:note"/>
-
-
-
-    <xsl:template match="tei:TEI">
-        <html>
-            <head/>
-            <body>
-                <xsl:apply-templates/>
-            </body>
-        </html>
-    </xsl:template>
-
-
-
+    
 </xsl:stylesheet>
