@@ -33,7 +33,7 @@
     </xsl:template>
     <xsl:template match="tei:note"> </xsl:template>
     <xsl:template match="tei:app/tei:lem">
-        <span> <xsl:apply-templates/> </span>
+        <span class="variante"> <xsl:apply-templates/> </span>
     </xsl:template>
     <xsl:template match="tei:rdg"> </xsl:template>
 </xsl:stylesheet>
