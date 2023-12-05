@@ -4,21 +4,55 @@
     exclude-result-prefixes="xs" version="2.0">
     <xsl:template match="tei:TEI">
         <html>
-            <head/>
-            <body>
-                <p>Les Caractères de La Bruyère</p>
+            <head>
+                <xsl:value-of select="//titleStmt/tei:title[@type="main"]/>
                 <xsl:apply-templates select="tei:teiHeader"/>
+                <style type="text/css">
+                    .hidden {
+                    display: none;
+                    }
+                </style>
+            </head>
+            <body>
+                Nombre de variantes : <xsl:value-of select="count(//tei:rdg)"/>
+                <xsl:value-of select="count(//tei:div3)"/>
+                <g><span class="changer">
+                    <span><xsl:template match="lem"/></span>
+                    <span class="hidden"><xsl:template match="rdg"/></span>
+                </span></g>
+                <p>
+                    <xsl:apply-templates/>
+                </p>
             </body>
+            <script type="text/javascript">
+                
+                var elems = document.getElementsByClassName("changer");
+                for (var i = elems.length - 1; i >= 0; i--) {
+                elems[i].addEventListener('click', function handleClick(event) {
+                for (var i = this.children.length - 1; i >= 0; i--) {
+                if (this.children[i].classList.contains('hidden')) {
+                this.children[i].classList.remove('hidden');
+                }
+                else {
+                this.children[i].classList.add('hidden');
+                }
+                }
+                
+                });
+                }
+                
+            </script>
         </html>
     </xsl:template>
-    <xsl:template match="tei:p">
+    <xsl:template match="tei:div3/tei:p[position()>1>
         <p>
-            <xsl:apply-templates select="tei:text/tei:body"/>
+            <xsl:value-of select="../@n"></xsl:value-of>
+            <xsl:apply-templates/>
         </p>
     </xsl:template>
     <xsl:template match="tei:app">
         <app>
-            <xsl:apply-templates select="tei:text/tei:body/tei:p/tei:app/tei:lem"/>
+            <xsl:apply-templates select="tei:lem"/>
         </app>
     </xsl:template>
     <xsl:template match="tei:teiHeader"/>
