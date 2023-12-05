@@ -23,6 +23,5 @@
     </xsl:template>
     <xsl:template match="tei:teiHeader"/>
     <xsl:template match="tei:note"/>
-    <xsl:template match="tei:note"/>
 
 </xsl:stylesheet>
