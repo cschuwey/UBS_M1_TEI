@@ -56,7 +56,7 @@
     </xsl:template>
 
     <xsl:template match="tei:teiHeader"/>
-    <!-- présence de select="tei:teiHeader" la commande est contradictoire ici -->
+    <!-- présence de select="tei:teiHeader" : la commande est contradictoire ici, cependant @select peut nous offrir différentes possibilités par la suite -->
 
     <xsl:template match="tei:div1/tei:head">
         <h1>
