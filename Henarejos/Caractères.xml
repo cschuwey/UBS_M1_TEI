@@ -128,9 +128,7 @@
                             rarement.</p>
                     </div3>
                     <div3 type="remarque" n="22" source="#edx #ed4 #ed8">
-                        <!-- Est-ce nécessaire d'ajouter ub attribut source à p si les valeurs ne diffèrent pas de celles de div? -->
-
-                        <!-- Mettre des sources dans chaque g, faire les app -->
+                        
                         <g ref="#char_pdm" source="#ed4"/>
                         <p source="#ed4"> Il est si ordinaire à l'homme de estre pas heureux, et si
                             essentiel à tout ce qui est un bien d'être attaché par mille peines,
@@ -185,10 +183,10 @@
                     <div3 type="remarque" n="25" source="#edx #ed4 #ed8">
                         <g ref="#char_pdm" source="#ed4 #edx #ed8"/>
                         <p source="#edx #ed4 #ed8">A <seg>quelques-uns<note type="key">il s'agit de
-                                        <persName type="key" source="#cle_cassis" role="#martin"
+                                        <persName type="key" source="#cle_cassis" ref="#martin"
                                         >M.Martin</persName> dans la clé du 18e proposée par
                                     M.Cassis et de <persName type="key" source="#cle_delahouse"
-                                        role="#pierrot">M.Pierrot</persName> dans la clé
+                                        ref="#pierrot">M.Pierrot</persName> dans la clé
                                         <persName>Delahouse</persName>.<!-- Ajouter les id des clés dans bibl/ Clé imaginaire.--></note></seg>
                             l’arrogance tient lieu de grandeur, l’inhumanité de fermeté, et la
                             fourberie d’esprit.</p>
@@ -224,8 +222,9 @@
                             rempli de gens <pb n="430" source="#ed8"/>qui demandent froidement ce
                             qui ne leur est pas dû, ou qui refusent nettement de rendre ce qu’ils
                             doivent ?</p>
-                        <p source="#edx #ed8"><g ref="#char_maniD" source="#ed8"
-                                    /><seg>Parchemins<note>Il s'agit d'une référence au <objectName
+                        <p source="#edx #ed8"><g ref="#char_maniD" source="#ed8"/>
+                            <!-- Rajouter les type key dans les autres notes de clés -->
+                            <seg>Parchemins<note type="key">Il s'agit d'une référence au <objectName
                                         type="key" source="#cle_delahouse">Livre de la
                                         jungle</objectName> selon la clé
                                         <persName>DelaHouse</persName>. Cependant la clé <persName
