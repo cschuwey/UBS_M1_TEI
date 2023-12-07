@@ -5,18 +5,72 @@
     <xsl:template match="tei:TEI">
 
         <html>
-            <head> </head>
-           <body>
-               <p>Les caractères de La Bruyère</p>
-                <xsl:apply-templates/>
+            <head>
+                <style type="text/css">
+                    .hidden{
+                        display:none;
+                        color:red;
+                    }
+                .changer{
+                color:red;
+                }
+                </style>
+                <title>
+                    <xsl:value-of select="//tei:title"/>
+                </title>
+            </head>
+            <body> Nombre de variantes : <xsl:value-of select="count(//tei:rdg)"/>
+                <p><xsl:apply-templates/></p>
             </body>
+            <script type="text/javascript">
+                
+                var elems = document.getElementsByClassName("changer");
+                for (var i = elems.length - 1; i >= 0; i--) {
+                elems[i].addEventListener('click', function handleClick(event) {
+                for (var i = this.children.length - 1; i >= 0; i--) {
+                if (this.children[i].classList.contains('hidden')) {
+                this.children[i].classList.remove('hidden');
+                }
+                else {
+                this.children[i].classList.add('hidden');
+                }
+                }
+                
+                });
+                }
+                
+            </script>
         </html>
     </xsl:template>
-    <xsl:template match="tei:p">
-        <p><xsl:apply-templates/></p>
+    <xsl:template match="tei:div3/tei:p[position()=1]">
+<p><xsl:value-of select="../@n"/> 
+    <xsl:apply-templates/> </p>
     </xsl:template>
-<xsl:template match="tei:teiHeader"/>
-<xsl:template match="tei:lem"><p><xsl:apply-templates></xsl:apply-templates></p></xsl:template> <!--Comme les lem sont forcément dans les app, je ne sais pas si c'est vraiment nécessaire de préciser les app, je ne sais pas quoi ajouter comme balise, si on doit mettre <p> comme les lem ne sont pas dans un langage html...-->
-    <xsl:template match="tei:note"></xsl:template>
+
+    <xsl:template match="tei:p">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:teiHeader"/>
+    <xsl:template match="tei:lem">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <!--Comme les lem sont forcément dans les app, je ne sais pas si c'est vraiment nécessaire de préciser les app, je ne sais pas quoi ajouter comme balise, si on doit mettre <p> comme les lem ne sont pas dans un langage html...-->
+    <xsl:template match="tei:note"/>
+    <xsl:template match="tei:rdg"/>
+
+    <xsl:template match="tei:app">
+        <span class="changer">
+            <span>
+                <xsl:value-of select="//tei:lem"/>
+            </span>
+            <span class="hidden">
+                <xsl:value-of select="//tei:rdg[position()=1]"/>
+            </span> <!-- Avec les rdgGrp, tous mes lems et rdg sont remplacés par les premier du document(mesme et même). ON a essayé de trouver une solution avec Aude mais nous n'avons rien trouvé.-->
+        </span>
+    </xsl:template>
 
 </xsl:stylesheet>
