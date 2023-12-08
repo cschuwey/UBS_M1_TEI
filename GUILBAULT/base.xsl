@@ -62,15 +62,17 @@
     <xsl:template match="tei:note"/>
     <xsl:template match="tei:rdg"/>
 
-    <xsl:template match="tei:app">
-        <span class="changer">
-            <span>
-                <xsl:value-of select="//tei:lem"/>
-            </span>
-            <span class="hidden">
-                <xsl:value-of select="//tei:rdg[position()=1]"/>
-            </span> <!-- Avec les rdgGrp, tous mes lems et rdg sont remplacés par les premier du document(mesme et même). ON a essayé de trouver une solution avec Aude mais nous n'avons rien trouvé.-->
-        </span>
+    <xsl:template match="tei:app"> 
+        <span class="changer"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="tei:lem">
+        <span><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="tei:rdg">
+        <span class="hidden">
+            <xsl:apply-templates/></span>
     </xsl:template>
 
 </xsl:stylesheet>
