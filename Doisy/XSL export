@@ -21,9 +21,7 @@
     <xsl:template match="tei:note"/>
     <xsl:template match="tei:rdg"/>
     <xsl:template match="tei:app">
-        <p>
             <xsl:apply-templates/>
-        </p>
     </xsl:template>
 
 </xsl:stylesheet>
