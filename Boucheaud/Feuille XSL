@@ -24,9 +24,7 @@
     <xsl:template match="tei:rdgGrp"/>
 
     <xsl:template match="tei:app">
-        <p>
             <xsl:apply-templates/>
-        </p>
     </xsl:template>
 
 </xsl:stylesheet>
