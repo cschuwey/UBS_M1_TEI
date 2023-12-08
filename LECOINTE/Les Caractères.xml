@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="https://tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Les Caractères de Théophraste traduit du grec. Avec les Caractères ou les
+                <title type="main">Les Caractères de Théophraste traduit du grec. Avec les Caractères ou les
                     moeurs de ce siècle </title>
                 <author>Jean de La Bruyère</author>
                 <principal>C. Schuwey</principal>
@@ -304,4 +304,3 @@
         </body>
     </text>
 </TEI>
- 
