@@ -16,7 +16,8 @@
                 <style type="text/css">
                     .hidden {
                     display: none;
-                    }</style>
+                    }
+                </style>
             </head>
             <body>
                 Nombre de variantes : <xsl:value-of select="count(//tei:rdg)"/>
@@ -34,7 +35,8 @@
                 }
                 }
                 });
-                }</script>
+                }
+            </script>
         </html>
     </xsl:template>
     
@@ -53,10 +55,10 @@
 
     <xsl:template match="tei:teiHeader"/>
 
-    <xsl:template match="lem">
+    <xsl:template match="tei:app">
         <seg class="changer">
-            <seg><xsl:value-of select="//tei:lem"/></seg>
-            <seg class="hidden"><xsl:value-of select="//tei:lem/tei:rdg"/></seg>
+            <seg><xsl:value-of select="tei:lem"/></seg>
+            <seg class="hidden"><xsl:value-of select="tei:rdg[position()=1]"/></seg>
         </seg>
     </xsl:template>
     
