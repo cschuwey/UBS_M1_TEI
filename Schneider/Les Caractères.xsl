@@ -18,7 +18,7 @@
                 </title>
             </head>
             <body>
-                <h1>"Les Caractères de La Bruyère"</h1>
+                <h1>Les Caractères de La Bruyère</h1>
                 <p>Nombre de variantes : <xsl:value-of select="count(//tei:app)"/></p>
                 <xsl:apply-templates select="//tei:div3"/>
                 <span class="changer"><span>lem</span><span class="hidden">rdg</span></span>
