@@ -23,7 +23,7 @@
                     <date> 1688 </date>
                     <placeName> Paris </placeName>
                     <idno type="url">
-                        https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item.r=Les%20caract%C3%A8res%20La%20Bruy%C3%A8re
+                    https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item.r=Les%20caract%C3%A8res%20La%20Bruy%C3%A8re
                     </idno>
                 </bibl>
                 <bibl xml:id="edition_9">
@@ -109,7 +109,7 @@
                 </char>
             </charDecl>
             <projectDesc>
-                <p> Projet pédagogique M1 MLE</p>
+                    <p> Projet pédagogique M1 MLE</p>
             </projectDesc>
             <editorialDecl>
                 <normalization>
@@ -181,36 +181,36 @@
     <text>
         <body>
             <div1 type="ouvrage">
-                <head> Les caractères et les moeurs de ce siècle </head>
+                    <head> Les caractères et les moeurs de ce siècle </head>
                 <div2 type="chapitre">
                     <head> Du Souverain ou de la République </head>
                     <div3 source="#edition_9" n="11">
                         <p source="#edition_9">
                             <pb source="#edition_9" n="261"> </pb>
                             <g ref="#char_pm"/>
-                            <seg> Démophile <note type="clé" source="#cle_1697"> La clé de 1697
+                            <seg>   Démophile <note type="clé" source="#cle_1697"> La clé de 1697
                                     oppose le portrait des <persName ref="#frondeurs"> frondeurs
                                     </persName>
                                 </note>
                                 <note type="clé" source="#cle_18e_siecle"> Les clés du XVIIIème
-                                    siècle voient dans le premier <persName
-                                        ref="#l_abbe_de_Saint-Hélène"> L'abbé de Saint-Hélène
-                                    </persName>
+                                      siècle voient dans le premier <persName
+                                      ref="#l_abbe_de_Saint-Hélène"> L'abbé de Saint-Hélène
+                                      </persName>
                                 </note>
                                 <note type="clé" source="#cle_traduction_anglaise_1702"> La clé
-                                    insérée dans la traduction anglaise de 1702 nomme pour Démophile
-                                        <persName ref="#l_abbe_de_Saint-Hélène"> L'abbé de
-                                        Saint-Hélène </persName>
+                                      insérée dans la traduction anglaise de 1702 nomme pour Démophile
+                                      <persName ref="#l_abbe_de_Saint-Hélène"> L'abbé de
+                                      Saint-Hélène </persName>
                                 </note>
                                 <note type="person" resp="#talbotec"> C'est un philosophe grec du
-                                    VIème siècle avant J-C.</note>
+                                      VIème siècle avant J-C.</note>
                             </seg>, à ma droite, se lamente, et s’écrie : « Tout est perdu, c’est
                             fait de l’Etat ; il est du moins sur le penchant de sa ruine. Comment
                             résister à une si forte et si générale conjuration ? Quel moyen, je ne
                             dis pas d’être supérieur, mais de suffire seul à tant et de si puissants
                             ennemis ? Cela est sans exemple dans la monarchie. Un héros, un Achille
                             y succomberait. On a fait, ajoute-t-il, de lourdes fautes : je sais <pb
-                                source="#edition_9" n="262"> </pb> bien ce que je dis, je suis du
+                            source="#edition_9" n="262"> </pb> bien ce que je dis, je suis du
                             métier, j’ai vu la guerre, et l’histoire m’en a beaucoup appris. » Il
                             parle là-dessus avec admiration d’Olivier le Daim et de Jacques Cœur : «
                             C’étaient là des hommes, dit-il, c’étaient des ministres. » Il débite
@@ -235,21 +235,21 @@
                             ? en Suisse ou à Venise ? </p>
                         <p source="#edition_9"> Mais, à ma gauche, <seg> Basilide <note type="clé"
                                     source="#cle_1697"> La clé de 1697 oppose celui des <persName
-                                        ref="#antifrondeurs"> anti-frondeurs </persName>
+                                    ref="#antifrondeurs"> anti-frondeurs </persName>
                                 </note>
                                 <note type="clé" source="#cle_18e_siecle"> Les clés du 18e siècle
-                                    voient dans le second <persName ref="#le_sieur_du_moulinet"> Le
-                                        sieur du Moulinet </persName>
+                                      voient dans le second <persName ref="#le_sieur_du_moulinet"> Le
+                                      sieur du Moulinet </persName>
                                 </note>
                                 <note type="clé" source="#cle_felibien"> La clé Félibien nomme pour
-                                    Basilide le notaire <persName ref="#prieur"> Prieur </persName>
+                                      Basilide le notaire <persName ref="#prieur"> Prieur </persName>
                                 </note>
                                 <note type="clé" source="#cle_servois">
-                                    <persName ref="#prieur_rolin"> Prieur-Rolin </persName> selon
-                                    Servois, sans grande notoriété. </note>
+                                      <persName ref="#prieur_rolin"> Prieur-Rolin </persName> selon
+                                      Servois, sans grande notoriété. </note>
                                 <note type="clé" source="#cle_traduction_anglaise_1702"> La clé
-                                    insérée dans la tradution anglaise de 1702 nomme pour Basilide.
-                                        <persName ref="#conseiller_aubray"> le Conseiller Aubray
+                                      insérée dans la tradution anglaise de 1702 nomme pour Basilide.
+                                      <persName ref="#conseiller_aubray"> le Conseiller Aubray
                                     </persName>
                                 </note>
                             </seg> met tout d’un coup sur pied une armée de trois cent mille hommes
@@ -294,7 +294,7 @@
                             parle que de lauriers, que de palmes, que de triomphes et que de
                             trophées. Il dit dans le discours familier : Notre auguste Héros, notre
                             grand <seg> Potentat <note type="definition" resp="#talbotec"> C'est la
-                                    puissance politique, la souveraineté </note></seg>, notre
+                            puissance politique, la souveraineté </note></seg>, notre
                             invincible Monarque. Réduisez-le, si vous pouvez, à dire simplement : Le
                             Roi a beaucoup d’ennemis, ils sont puissants, ils sont unis, ils sont
                             aigris : il les a vaincus, j’espère toujours qu’il les pourra vaincre.
@@ -364,13 +364,13 @@
                             sera demandé, et qu’il ne veut pas octroyer : aussi soigneux alors
                             d’exagérer l’énormité de la demande, et de faire convenir, s’il se peut,
                             des raisons qu’il a de n’y pas entendre, <seg> que <note type="person"
-                                    resp="#la_bruyere">L'abbé de Choisy </note>
+                            resp="#la_bruyere">L'abbé de Choisy </note>
                             </seg> d’affaiblir celles qu’on prétend avoir de ne lui pas accorder ce
                             qu’il sollicite avec instance ; également appliqué à faire sonner haut
                             et à grossir dans l’idée des autres le peu qu’il offre, et à mépriser
                             ouvertement le peu que l’on consent de lui donner. Il fait de fausses
                             offres, mais extraordinaires, qui donnent de la défiance, et obligent
-                                <pb source="#edition_9" n="267"> </pb> de rejeter ce que l’on
+                            <pb source="#edition_9" n="267"> </pb> de rejeter ce que l’on
                             accepterait inutilement ; qui lui sont cependant une occasion de faire
                             des demandes exorbitantes, et mettent dans leur tort ceux qui les lui
                             refusent. Il accorde plus qu’on ne lui demande, pour avoir encore plus
@@ -425,7 +425,7 @@
                             presser la continuation et la fin. S’il survient un grand événement, il
                             se raidit ou il se relâche selon qu’il lui est utile ou préjudiciable ;
                             et si par une grande prudence il sait le prévoir, il presse et il tempo-
-                                <pb source="#edition_9" n="269"> </pb> rise selon que l’Etat pour
+                            <pb source="#edition_9" n="269"> </pb> rise selon que l’Etat pour
                             qui il travaille en doit craindre ou espérer ; et il règle sur ses
                             besoins ses conditions. Il prend conseil du temps, du lieu, des
                             occasions, de sa puissance ou de sa faiblesse, du génie des nations avec
@@ -444,14 +444,14 @@
                         <p source="#edition_1 #edition_9">
                             <g ref="#char_pm"/> L’un des malheurs <seg> du prince <note type="clé"
                                     source="#cle_18e_siecle"> Les clés du XVIIIe siècle nomment
-                                        <persName ref="#mme_de_maintenon"> Mme de Maintenon
+                                    <persName ref="#mme_de_maintenon"> Mme de Maintenon
                                     </persName> comme pour la remarque 17 (le mariage de Louis XIV
                                     avait eu lieu à la fin de 1684). </note></seg> est d’<app>
-                                <lem> estre </lem>
-                                <rdg source="#edition_9"> être </rdg>
-                            </app> souvent trop plein de son secret, par le péril qu’il y a à le
-                            répandre : son bonheur est de rencontrer une personne sûre qui l’en
-                            décharge. </p>
+                                    <lem> estre </lem>
+                                    <rdg source="#edition_9"> être </rdg>
+                                    </app> souvent trop plein de son secret, par le péril qu’il y a à le
+                                    répandre : son bonheur est de rencontrer une personne sûre qui l’en
+                                    décharge. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="15">
                         <p source="#edition_1 #edition_9">
@@ -459,31 +459,31 @@
                             <g ref="#char_pm"/> Il ne manque rien à un <app>
                                 <lem> Roy </lem>
                                 <rdg source="#edition_9"> Roi</rdg>
-                            </app> que les douceurs d’une vie privée ; il ne peut <app>
+                                </app> que les douceurs d’une vie privée ; il ne peut <app>
                                 <lem> estre </lem>
                                 <rdg source="#edition_9"> être </rdg>
-                            </app> consolé d’une si grande perte que par le charme de l’amitié, et
-                            par la fidélité de ses amis. </p>
+                                </app> consolé d’une si grande perte que par le charme de l’amitié, et
+                                par la fidélité de ses amis. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="16">
                         <p source="#edition_1 #edition_9">
                             <g ref="#char_pm"/> Le plaisir d’un <app>
                                 <lem> Roy </lem>
                                 <rdg source="#edition_9"> Roi </rdg>
-                            </app> qui <app>
+                                </app> qui <app>
                                 <lem> est digne de l'estre </lem>
                                 <rdg source="#edition_9"> mérite de l'être </rdg>
-                            </app> est de <app>
+                                </app> est de <app>
                                 <lem> l'estre </lem>
                                 <rdg source="#edition_9"> l'être </rdg>
-                            </app> moins quelquefois, de sortir du <app>
+                                </app> moins quelquefois, de sortir du <app>
                                 <lem> Theatre </lem>
                                 <rdg source="#edition_9"> theatre </rdg>
-                            </app>, de quitter le bas de <app>
+                                </app>, de quitter le bas de <app>
                                 <lem> soye </lem>
                                 <rdg source="#edition_9"> saye </rdg>
-                            </app> et les brodequins, et de jouer avec une personne de confiance un
-                            rôle plus familier. </p>
+                                </app> et les brodequins, et de jouer avec une personne de confiance un
+                                rôle plus familier. </p>
                     </div3>
                     <div3 source="#edition_1 #edition_9" n="17">
                         <p source="#edition_1 #edition_9">
@@ -492,10 +492,10 @@
                                     nomment <persName ref="#mme_de_maintenon"> Mme de Maintenon
                                     </persName> comme pour la remarque 14 (le mariage de Louis XIV
                                     avait eu lieu à la fin de 1684). </note>
-                            </seg> que la modestie de son <app>
-                                <lem> favory. </lem>
-                                <rdg source="#edition_9"> favori. </rdg>
-                            </app>
+                                    </seg> que la modestie de son <app>
+                                    <lem> favory. </lem>
+                                    <rdg source="#edition_9"> favori. </rdg>
+                                    </app>
                         </p>
                     </div3>
                     <div3 source="#edition_9" n="18">
@@ -510,7 +510,7 @@
                             un nouveau personnage si différent du premier qu’il a soutenu. Il
                             conserve au contraire le merveilleux de sa vie dans la solitude ; et,
                             mourant pour ainsi dire avant <seg> la caducité <note type="definition"
-                                    resp="#talbotec"> Ce qui est prêt à tomber </note></seg> , il ne
+                            resp="#talbotec"> Ce qui est prêt à tomber </note></seg> , il ne
                             laisse de soi qu’une brillante idée et une mémoire agréable. </p>
                     </div3>
                 </div2>
