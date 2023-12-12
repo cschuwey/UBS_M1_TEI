@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -139,6 +139,7 @@
             <change when-iso="2023-10-19">ajout des attributs d'éditions aux remarques</change>
             <change when-iso="2023-10-26">ajout des notes marginales et de notes inventées</change>
             <change when-iso="2023-11-09">ajout des balises app</change>
+            <change when-iso="2023-11-15">ajout des clés</change>
         </revisionDesc>
     </teiHeader>
 
@@ -309,3 +310,6 @@
 
 
 </TEI>
+
+
+
