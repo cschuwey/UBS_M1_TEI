@@ -17,9 +17,7 @@
                 </title>
             </head>
             <body>
-                <h1>
-                    <xsl:value-of select="//tei:title"/>
-                </h1>
+                <h1><xsl:value-of select="//tei:title"></xsl:value-of></h1>
                 <p>nombre de variantes : <xsl:value-of select="count(//tei:rdg)"/></p>
                 <xsl:apply-templates select="//tei:div3"/>
             </body>
@@ -46,7 +44,7 @@
 
     <xsl:template match="tei:teiHeader"/>
 
-
+ 
     <xsl:template match="tei:p">
         <p>
             <xsl:apply-templates/>
@@ -60,11 +58,12 @@
                 <xsl:value-of select="tei:lem"/>
             </span>
             <span class="hidden">
-                <xsl:value-of select="//tei:rdg[position()=1]"/>
+               
+                <xsl:value-of select=".//tei:rdg[position()=1]"/>
             </span>
         </span>
     </xsl:template>
-    <!--Cette solution ne marche pas puisque que si les lem sont bien retranscrits, pour les reg c'est toujours le premier rdg du document qui est retranscrit et non les premiers 
+<!--Cette solution ne marche pas puisque que si les lem sont bien retranscrits, pour les reg c'est toujours le premier rdg du document qui est retranscrit et non les premiers 
         rdg de chaque app (peu importe qu'il soit dans un rdgGrp ou non). Il s'agit sans doute d'un problème avec la position ou alors que la solution proposée n'est pas la
         bonne tout simplement auquel cas je ne sais pas comment faire.-->
 
@@ -85,7 +84,7 @@
     <xsl:template match="tei:app/lem">
         <xsl:apply-templates/>
     </xsl:template>
+  
     <xsl:template match="tei:note"/>
-
 
 </xsl:stylesheet>
