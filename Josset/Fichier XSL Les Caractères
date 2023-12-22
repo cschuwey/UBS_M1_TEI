@@ -28,6 +28,6 @@
     <xsl:apply-templates select="tei:lem"/>
     </xsl:template>
     
-    <xsl:template match="tei:app/tei:rdg[position()>1]"/> 
+  
     <xsl:template match="tei:note"/>
 </xsl:stylesheet>
