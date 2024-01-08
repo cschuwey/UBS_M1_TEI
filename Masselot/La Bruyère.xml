@@ -159,7 +159,7 @@
                 <char xml:id="MNCD">
                     <mapping type="standard">☞</mapping>
                     <desc>Une manicule indique le début d'une remarque à partir de l'édition
-                        6</desc>
+                        7</desc>
                 </char>
             </charDecl>
 
@@ -167,7 +167,7 @@
                 <char xml:id="MNCG">
                     <mapping type="standard">☚</mapping>
                     <desc>Une manicule indique le début d'une remarque à partir de l'édition
-                        6</desc>
+                        7</desc>
                 </char>
             </charDecl>
 
@@ -598,4 +598,3 @@
         </body>
     </text>
 </TEI>
-
