@@ -37,11 +37,11 @@
                     <p>Consultable en ligne</p>
                 </availability>
                 <publisher xml:id="dje">Djewel Bennoura</publisher>
-                <authority>Christophe Schuwey</authority>
+                <authority xml:id="chrichri">Christophe Schuwey</authority>
                 <date when="2023-10-09">09 Octobre 2023</date>
             </publicationStmt>
             <notesStmt>
-                <note>établi dans le cadre d'un projet du M1 MLE</note>
+                <note>établi dans le cadre d'un projet universitaire du M1 MLE de UBS</note>
             </notesStmt>
             <sourceDesc>
                 <bibl xml:lang="fr" xml:id="ed1">
@@ -55,7 +55,7 @@
                     <textLang>Francais</textLang>
                     <date when="1688">M. DC. LXXXVIII</date>
                     <pubPlace>Paris</pubPlace>
-                    <publisher>Etienne Michalet</publisher>
+                    <publisher xml:id="Michalet">Etienne Michalet</publisher>
                     <biblScope>Sign. A-C, p. 53-360 ; in-12 ; 368 pages</biblScope>
                     <idno type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k105077m/f236.item</idno>
                 </bibl>
@@ -112,9 +112,18 @@
                         <occupation>Héro de la mythologie grecque</occupation>
                         <idno>https://fr.wikipedia.org/wiki/Jason</idno>
                     </person>
-                    <person xml:id="Hippolyte"/>
-                    <person xml:id="Ménandre"/>
-                    <person xml:id="Thrason"/>
+                    <person xml:id="Hippolyte">
+                        <occupation>fils de du héro Thésée</occupation>
+                        <idno>https://fr.wikipedia.org/wiki/Hippolyte_(fils_de_Th%C3%A9s%C3%A9e)</idno>
+                    </person>
+                    <person xml:id="Ménandre">
+                        <occupation>auteur comic grec</occupation>
+                        <idno>https://fr.wikipedia.org/wiki/M%C3%A9nandre</idno>
+                    </person>
+                    <person xml:id="Thrason">
+                        <occupation>personnage fictif d'une pièce de Térence</occupation>
+                        <idno>https://fr.wikipedia.org/wiki/L%27Eunuque_(T%C3%A9rence)</idno>
+                    </person>
                     <personGrp xml:id="Bourbons">
                         <name>Les Bourbons</name>
                         <occupation>Famille noble</occupation>
@@ -209,6 +218,7 @@
                 la balise app.</change>
             <change when="2023-11-19" who="Djewel">Rajout des clés et des listplace et
                 listperson.</change>
+            <change when="2024-01-08" who="Djewel">Finalisation du document pour le dossier</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -229,10 +239,14 @@
                                 <rdg source="#ed1 #ed2 #ed3">mocque</rdg>
                             </app>.</p>
                         <p>L’on s’attend au passage réciproquement dans une promenade publique ;
-                            l’on y passe en revue l’un devant l’autre : carrosse, chevaux, livrées,
-                            armoiries, rien n’échappe aux yeux, tout est curieusement ou malignement
-                            observé ; et selon le plus ou le moins de l’équipage, ou l’on respecte
-                            les personnes, ou on les dédaigne.</p>
+                            l’on y <seg>passe en revue<note resp="#Hachette" type="définition"
+                                    place="end" source="#ed4" anchored="true">3. Passer en revue
+                                    avait, au dix-septième siècle, le sens actif et le sens neutre
+                                    tout ensemble. (Dictionnaire de l'Académie, 1694, aux mots Revue
+                                    et Passer.)</note></seg> l’un devant l’autre : carrosse,
+                            chevaux, livrées, armoiries, rien n’échappe aux yeux, tout est
+                            curieusement ou malignement observé ; et selon le plus ou le moins de
+                            l’équipage, ou l’on respecte les personnes, ou on les dédaigne.</p>
                     </div3>
                     <div3 type="remarque" n="2" source="#ed2 #ed3" change="#ed2">
                         <p><g source="#ed1 #ed2 #ed3" ref="#char_pdm"/> Tout le monde connaît cette
