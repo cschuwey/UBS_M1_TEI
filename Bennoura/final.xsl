@@ -13,17 +13,18 @@
                 <style type="text/css">
                     body {
                         font-family: 'Times New Roman', serif;
-                        line-height: 1.6;
+                        line-height: 1.5;
                         color: #333;
                         background-color: #f4f4f4;
-                        margin: 0;
-                        padding: 0;
+                        margin: auto;
+                        padding: auto;
                         font-size: 14px;
                     }
                     
                     .title,
                     .subtitle {
                         text-align: center;
+                        margin: auto;
                         margin-top: 1rem;
                         margin-bottom: 1rem;
                     }
@@ -58,7 +59,8 @@
                     
                     .hidden {
                         display: none;
-                    }</style>
+                    }
+                </style>
                 <script type="text/javascript">
                     function toggleVisibility(className) {
                         var elems = document.getElementsByClassName(className);
