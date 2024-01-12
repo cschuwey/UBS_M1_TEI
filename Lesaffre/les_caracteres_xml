@@ -4,22 +4,22 @@
         <fileDesc>
             <titleStmt>
                 <title>Les caractères de Théophraste traduits du grec : avec Les caractères ou les
-                    mœurs de ce siècle</title>                
+                    mœurs de ce siècle</title>
                 <author xml:id="labruyere">Jean de La Bruyère</author>
             </titleStmt>
 
             <publicationStmt>
                 <publisher xml:id="lesaffre">Lisa Lesaffre</publisher>
-                <date when="2023-10-11">11 octobre 2023</date>
+                <date when="2023-10-11">12 janvier 2024</date>
                 <authority>Université Bretagne Sud (UBS), Lorient</authority>
             </publicationStmt>
 
             <sourceDesc>
                 <bibl xml:id="edition4">
-                    <distributor>Librairie de Videcocq</distributor>
                     <title>Les caractères de Théophraste traduits du grec : avec Les Caractères ou
                         les mœurs de ce siècle</title>
                     <desc>Édition utilisée pour l'encodage du texte.</desc>
+                    <distributor>Librairie de Videcocq</distributor>
                     <edition>Quatrième édition, corrigée et augmentée</edition>
                     <author>Jean de La Bruyère</author>
                     <editor>Étienne Michallet</editor>
@@ -40,15 +40,16 @@
                     <pubPlace>Paris<country>France</country></pubPlace>
                     <biblScope>716 pages</biblScope>
                     <ref type="URL"
-                        >https://books.google.fr/books?id=2SeBerCnLvkC&amp;=1&amp;_redir=0&amp;dq=la%20bruyere%20caract%C3%A8res%201694&amp;hl=fr&amp;pg=PA580#v=onepage&amp;q&amp;f=false</ref>
+                        >https://books.google.fr/books?id=2SeBerCnLvkC&amp;newbks=1&amp;newbks_redir=0&amp;dq=la%20bruyere%20caract%C3%A8res%201694&amp;hl=fr&amp;pg=PA574#v=onepage&amp;q&amp;f=true</ref>
                 </bibl>
                 <bibl xml:id="edition19e">
                     <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
                         les mœurs de ce siècle</title>
                     <desc>Version informatisée (texte brut) d'une édition des Caractères de
                         Théophraste traduits du grec, avec Les caractères ou les mœurs de ce siècle,
-                        datant du 19e siècle. Version informatisée servant de base pour
-                        l'encodage.</desc>
+                        datant du 19e siècle. Version informatisée servant de base pour l'encodage.
+                        Version procurée sur la page Moodle du cours de XML et de TEI de Christophe
+                        Schuwey (Université Bretagne Sud)</desc>
                     <distributor>inconnu</distributor>
                     <edition>inconnue, version informatisée</edition>
                     <author>Jean de la Bruyère</author>
@@ -61,12 +62,11 @@
                     <title>Oeuvres de la Bruyère</title>
                     <desc>Version scannée d'une édition des oeuvres de La Bruyère, dont les
                         Caractères. Volume II de cette édition. Version incluse dans une collection
-                        nommée "les grands écrivains de la France". Inclut notamment une clé par
-                        rapport à M. Le rebours.</desc>
+                        nommée "les grands écrivains de la France". Inclut une clé par rapport à M.
+                        Le rebours.</desc>
                     <collection>Les grands écrivains de la France Nouvelles éditions sur les
                         manuscrits, les copies les plus authentiques et les plus anciennes
-                        impressions avec variantes, notes, notices, portraits, etc.<editor>M. AD.
-                            Regnier</editor></collection>
+                        impressions avec variantes, notes, notices, portraits, etc.</collection>
                     <distributor>inconnu</distributor>
                     <edition>Nouvelle édition revue sur les plus anciennes impressions et les
                         autographes et augmentée de morceaux inédits, des variantes, de notices, de
@@ -78,7 +78,7 @@
                     <date>1865</date>
                     <pubPlace>Paris, Boulevard Saint-Germain</pubPlace>
                     <ref type="URL"
-                        >https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;hl=fr&amp;pg=PP9#v=onepage&amp;q&amp;f=false</ref>
+                        >https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;hl=fr&amp;pg=PA368#v=onepage&amp;q=Iphis&amp;f=false</ref>
                 </bibl>
                 <bibl xml:id="TLFI">
                     <title>Trésor de la Langue Française Informatisé</title>
@@ -91,12 +91,12 @@
                     <title>Dictionnaire Universel</title>
                     <author>Antoine Furetière</author>
                     <edition>Version informatisée sur le site des Classiques Garnier</edition>
-                    <date>1690</date>
                     <editor>Claude Blum</editor>
                     <editor>Chantal Wionet <affiliation>Université d'Avignon et METADIF,
                             CNRS</affiliation></editor>
                     <affiliation>CNED, Ministère de l'Éducation Nationale, Ministère de la
                         Recherche, CNRS, Université Paris IV-Sorbonne.</affiliation>
+                    <date>1690</date>
                     <ref type="URL"
                         >https://num.classiques-garnier.com/index.php?module=App&amp;action=FrameMain</ref>
                 </bibl>
@@ -104,12 +104,13 @@
                     <title/>
                     <author>Marc Escola</author>
                     <edition/>
-                    <date/>
                     <editor/>
-                    <desc>Extrait d'un ouvrage de Marc Escola contenant des clés de lecture pour Les
-                        Caractères ou Moeurs de ce siècle de La Bruyère. Le titre de l'ouvrage n'est
-                        pas mentionné parmi les pages, nous ne connaissons donc pas son contexte
-                        d'édition non plus.</desc>
+                    <desc>Extrait d'un ouvrage de Marc Escola (ou dont il est co-auteur, étant donné
+                        qu'on ignore la référence exacte de l'ouvrage) contenant des clés de lecture
+                        pour Les Caractères ou Moeurs de ce siècle de La Bruyère. Le titre de
+                        l'ouvrage n'est pas mentionné parmi les pages, nous ne connaissons donc pas
+                        son contexte d'édition non plus.</desc>
+                    <date/>
                     <ref type="URL"
                         >https://moodle.univ-ubs.fr/pluginfile.php/651932/mod_resource/content/0/Bruy%C3%83%C2%A8re%20-%20Cles%20-%20Escola.pdf</ref>
                 </bibl>
@@ -120,11 +121,18 @@
                         contemporain de l'édition en question), copie mentionnée parmi les sources
                         pour les clés proposées par Escola. La référence est évoquée comme
                         "exemplaire de Félibien" par Escola, et l'année 1696 est évoquée dans le
-                        paragraphe le citant, ce qui nous fait supposer que l'édition qu'il
-                        possédait datait de cette année. Cependant, faute d'avoir le texte complet
-                        et la méthodologie de Marc Escola sur la manière dont il a noté ses sources,
-                        nous préférons appliquer le principe de précaution et prendre une position
-                        neutre sur l'année de publication de cet exemplaire.</desc>
+                        paragraphe le citant à la page 745 (dans l'ouvrage d'Escola), ce qui nous
+                        fait supposer que l'exemplaire datait de cette année. Cependant, étant donné
+                        que nous ne possédons pas l'ouvrage de Marc Escola, ainsi que la
+                        bibligraphie des clés qu'il propose, nous préférons appliquer le principe de
+                        précaution et prendre une position neutre sur l'année de publication de cet
+                        exemplaire. Notre prise de recul est accentuée par la clé d'Escola pour la
+                        remarque 11 (page 744 du livre d'Escola), qui cite ce même exemplaire tout
+                        en évoquant l'année 1687. Nous suspectons donc que les années mises entre
+                        parenthèses avant la clé proposée par Escola indique en réalité l'édition
+                        des Caractères utilisée par ce dernier pour établir sa clé. La date de
+                        l'exemplaire reste donc inconnue, étant donné que nous n'avons pas la
+                        bibliographie utilisée par Marc Escola.</desc>
                     <distributor>inconnu</distributor>
                     <edition>inconnu</edition>
                     <author>Jean de La Bruyère</author>
@@ -134,9 +142,18 @@
                 <bibl xml:id="cleisolee">
                     <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
                         les mœurs de ce siècle</title>
-                    <desc>Exemplaire avec une clé isolée, provenant d'une édition de 1696 selon
-                        Escola, note manuscrite provenant d'une édition de 1691 d'après les Oeuvres
-                        de la Bruyère éditées en 1865.</desc>
+                    <desc>Exemplaire (date de publication inconnue pour l'encodeuse) avec une clé
+                        isolée selon Escola, ou note manuscrite selon les Oeuvres de La Bruyère
+                        éditées en 1865. La nature et la date de l'exemplaire sont inconnues pour
+                        l'encodeuse : nous nous demandons si la "clé isolée" évoquée par Escola et
+                        la "clé manuscrite" évoquée dans Les Oeuvres de la Bruyère sont la même et
+                        viennent du même exemplaire, ou sont issues de deux exemplaires dont l'un a
+                        une note manuscrite et l'autre une note imprimée ou une autre note
+                        manuscrite. En tout cas, la "clé manuscrite" semble être utilisée pour
+                        commenter une édition des Caractères de 1691, dans Les Oeuvres de la Bruyère
+                        éditées en 1865. Exemplaire censé contenir une clé de lecture pour le
+                        personnage d'Iphis en tant que version fictionnalisée de M. le
+                        Rebours.</desc>
                     <distributor>inconnu</distributor>
                     <edition>inconnu</edition>
                     <author>Jean de La Bruyère</author>
@@ -153,12 +170,16 @@
                     <person xml:id="rebours">
                         <name>M. le Rebours</name>
                         <idno type="URL"
-                            >https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;hl=fr&amp;pg=PA368#v=onepage&amp;q&amp;f=false</idno>
+                            >https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;hl=fr&amp;pg=PA368#v=onepage&amp;q=Iphis&amp;f=false</idno>
+                        <idno>Inconnue</idno>
                     </person>
                     <person>
                         <name xml:id="basiniere">La Basinière</name>
+                        <name xml:id="basiniere">La Bazinière</name>
+                        <death><date source="#felibien">1688</date></death>
                         <idno type="URL"
                             >https://man8rove.com/fr/profile/122ltj2ul-mace-bertrand-de-la-baziniere</idno>
+                        <idno>Inconnue</idno>
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -201,8 +222,12 @@
                 </normalization>
                 <interpretation>
                     <p>Les notes ajoutées par l'encodeuse ont été marquées comme telles avec
-                        l'attribut resp="#lesaffre", et ne sont pas présentes dans les versions
-                        papier des textes encodés.</p>
+                        l'attribut resp="#lesaffre", et ne sont pas présentes dans les fac-similés
+                        des textes encodés.</p>
+                    <p>L'encodeuse évite les répétitions d'explications lexicales pour les termes
+                        récurrents : ainsi, les éléments explicatifs pour le terme "léger" ne seront
+                        présentés qu'une fois dans l'encodage, bien que le terme apparaisse à
+                        d'autres reprises;</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -265,7 +290,17 @@
                     conjugaison dans la seizième remarque. Ajustements pour le fichier xsl (créé le
                         <date when="2023-11-27">27 novembre 2023</date>) lié au présent
                     encodage.</item>
-                <item><date when="2023-12-4">4 décembre 2023</date>Changement dans la variation de la remarque 13 : la graphie du texte informatisé de base est choisie comme lem et la graphie des éditions 4 et 8 sont choisies comme rdg.</item>
+                <item><date when="2023-12-4">4 décembre 2023</date>Changement dans la variation de
+                    la remarque 13 : la graphie du texte informatisé de base est choisie comme lem
+                    et la graphie des éditions 4 et 8 sont choisies comme rdg.</item>
+                <item><date when="2024-01-12">12 janvier 2024</date>Relecture du document xml :
+                    régularisation des informations du teiHeader et du Filedesc. Ajout de notes
+                    évoquant les doutes de l'encodeuse concernant la date de parution des
+                    exemplaires d'où proviennet les clés que Marc Escola et les Oeuvres de La
+                    Bruyère utilisent pour évoquer M. le Rebours. Ajout d'une graphie possible pour
+                    La Basinière. Corrections orthographiques. Ajout de justifications concernant
+                    l'absence de répétition des définitions et explications pour les termes
+                    récurrents.</item>
 
             </list>
         </revisionDesc>
@@ -286,7 +321,7 @@
                                     manteau, pourpoint, chausses, faisait "nargue à la mode et
                                     procès à la vanité". Si cette interprétation est exacte, la
                                     réflexion peut être daté de 1687; si, suivant l'avis de la
-                                    plupart des éditeurs; le portrait doit vraiment représenter un
+                                    plupart des éditeurs, le portrait doit vraiment représenter un
                                     homme à la mode, le costume dont La Bruyère habille l'homme "fat
                                     et ridicule" étant passé de mode en 1687, on peut logiquement
                                     supposer que la rédaction de la remarque est largement
@@ -355,25 +390,25 @@
                     </div3>
                     <div3 source="#edition8" n="14">
                         <p><g ref="char_pm"/>
-                            <name rend="italic"><seg>Iphis <note type="cle" source="#escola">Iphis:
+                            <name rend="italic"><seg>Iphis<note type="cle" source="#escola">Iphis:
                                             "<persName sameAs="#rebours" source="#cleisolee">M. le
                                             Rebours</persName>, avocat au grand conseil" selon une
                                         clé isolée; "<persName sameAs="#basiniere"
                                             source="#felibien">La Basinière</persName> [mort en
                                         1688] qui eut le pied coupé pour avoir porté des souliers
-                                        trop petits", selon la clé Félibien (cf.Tallemant des
-                                        Réaux,II, 201-212; Saint-Simon (IV, 379-380, et index);
+                                        trop petits", selon la clé Félibien (cf. Tallemant des
+                                        Réaux, II, 201-212; Saint-Simon (IV, 379-380, et index);
                                         Dangeau (index)." (-Marc Escola)</note>
                                     <note type="cle" source="#oeuvres">"Clef manuscrite: "<persName
                                             sameAs="#rebours">M.Le Rebours</persName>, avocat au
-                                        grand conseil." Le pearsonnage dont il s'agit était sans
+                                        grand conseil." Le personnage dont il s'agit était sans
                                         doute le fils, soit de M. Le Rebours, seigneur de Prunelay,
                                         maître des comptes, mort en 1680, soit de Thierry le
                                         Rebours, seigneur de Bertrandfosse, alors président
                                         honoraire au grand conseil, soit enfin de Claude le Rebours,
                                         alors conseiller au Parlement. Ces trois le Rebours étaient
-                                        frères." (-Édition des OEuvres de la Bruyère du XIXe
-                                        siècle)</note></seg></name> voit à l’église un soulier d’une
+                                        frères." (-Édition des OEuvres de la Bruyère de
+                                    1865)</note></seg></name> voit à l’église un soulier d’une
                             nouvelle mode ; il regarde le sien et en rougit ; il ne se croit plus
                             habillé. Il était venu à la messe pour s’y montrer, et il se cache ; le
                             voilà retenu par le pied dans sa chambre tout le reste du jour. Il a la
@@ -409,24 +444,18 @@
                             </app> du peintre qui ne sont prises ni sur l’air ni sur le visage, qui
                             ne rappellent ni les mœurs ni la personne. Ils aiment des attitudes
                             forcées ou immodestes, une manière dure, sauvage, étrangère, qui font un
-                                    <seg>capitan<note resp="#lesaffre" type="explication"
-                                    >Personnage-type de la commedia dell' arte, prétentieux et
-                                    faisant preuve de fausse bravoure. Utilisé ici en
-                                    antonomase.</note></seg> d’un jeune abbé, et un
-                                    <seg>matamore<note resp="#lesaffre" type="gloss">Homme faisant
-                                    preuve de bravade, de fausse bravoure.</note></seg> d’un homme
-                            de robe ; une <seg>Diane<note resp="#lesaffre" type="gloss">Déesse
-                                    latine de la chasse. Son nom grec est Artémis. Utilisé ici en
-                                    antonomase.</note></seg> d’une femme de ville ; comme d’une
-                            femme simple et timide une amazone<seg><note resp="#lesaffre"
-                                    type="gloss">Femme issue du peuple de guerrières du même nom
-                                    dans la mythologie gréco-latine.</note></seg> ou une
-                                    <seg>Pallas<note resp="#lesaffre" type="gloss">Une des
-                                    épiclèses, ou un des surnoms de la déesse Athéna.</note></seg> ;
-                            une <seg>Laïs<note resp="#lesaffre" type="gloss">Antonomase
-                                    potentiellement issue du nom d'une courtisane grecque, censée
-                                    désigner une femme galante au sens du XVIIe siècle.</note></seg>
-                            d’une honnête fille ; un <seg>Scythe<note resp="#lesaffre" type="gloss"
+                            capitan d’un jeune abbé, et un <seg>matamore<note resp="#lesaffre"
+                                    type="gloss">Homme faisant preuve de bravade, de fausse
+                                    bravoure.</note></seg> d’un homme de robe ; une <seg>Diane<note
+                                    resp="#lesaffre" type="gloss">Déesse latine de la chasse. Son
+                                    nom grec est Artémis. Utilisé ici en antonomase.</note></seg>
+                            d’une femme de ville ; comme d’une femme simple et timide une
+                                    <seg>amazone<note resp="#lesaffre" type="gloss">Femme issue du
+                                    peuple de guerrières du même nom dans la mythologie
+                                    gréco-latine.</note></seg> ou une <seg>Pallas<note
+                                    resp="#lesaffre" type="gloss">Une des épiclèses, ou un des
+                                    surnoms de la déesse Athéna.</note></seg> ; une Laïs d’une
+                            honnête fille ; un <seg>Scythe<note resp="#lesaffre" type="gloss"
                                     source="#TLFI">Membre du peuple indo-européen antique scythe,
                                     sens déformé en "homme grossier, barbare" (TLFI)</note></seg>,
                             un Attila, d’un prince qui est bon et magnanime.</p>
@@ -446,22 +475,17 @@
                             dans nos peintures.</p>
                         <p>Nos pères nous ont transmis, avec la connaissance de leurs personnes,
                             celle de leurs habits, de leurs coiffures, de leurs <seg>armes<note
-                                    resp="#labruyere" place="margin" type="definition">offensives et
-                                    défensives</note></seg> , et des autres ornements qu’ils ont
+                                    resp="#labruyere" place="margin" type="explication">offensives
+                                    et défensives</note></seg> , et des autres ornements qu’ils ont
                             aimés pendant leur vie. Nous ne saurions bien reconnaître cette sorte de
                             bienfait qu’en traitant de même nos descendants.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="16">
                         <p><g ref="char_pm"/>Le courtisan autrefois avait ses<pb source="#edition4"
-                                n="376"/>
-                            <seg>cheveux<note resp="#lesaffre" type="explication">Étant donné le
-                                    contexte de la phrase, nous déduisons que les cheuveux naturels
-                                    sont portés non sous la forme de perruque pour cette occurence,
-                                    mais tels qu'ils poussent sur le crâne.</note></seg>, était en
-                            chausses et en pourpoint, portait de larges canons, et il<pb
-                                source="#edition8" n="579"/> était libertin. Cela ne sied plus : il
-                            porte une perruque, l’habit serré, le bas uni, et il est dévot : tout se
-                            règle par la mode.</p>
+                                n="376"/> cheveux, était en chausses et en pourpoint, portait de
+                            larges canons, et il<pb source="#edition8" n="579"/> était libertin.
+                            Cela ne sied plus : il porte une perruque, l’habit serré, le bas uni, et
+                            il est dévot : tout se règle par la mode.</p>
                     </div3>
                     <div3 source="#edition4 #edition8" n="17">
                         <p><g ref="char_pm"/>Celui qui depuis quelque temps à la cour était dévot,
