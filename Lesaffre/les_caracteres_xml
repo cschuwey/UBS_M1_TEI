@@ -176,7 +176,9 @@
                     <person>
                         <name xml:id="basiniere">La Basinière</name>
                         <name xml:id="basiniere">La Bazinière</name>
-                        <death><date source="#felibien">1688</date></death>
+                        <death>
+                            <date source="#felibien">1688</date>
+                        </death>
                         <idno type="URL"
                             >https://man8rove.com/fr/profile/122ltj2ul-mace-bertrand-de-la-baziniere</idno>
                         <idno>Inconnue</idno>
@@ -301,7 +303,8 @@
                     La Basinière. Corrections orthographiques. Ajout de justifications concernant
                     l'absence de répétition des définitions et explications pour les termes
                     récurrents.</item>
-
+                <item><date when="2024-01-14">14 janvier 2024</date>Correction des espaces dans le
+                    corps de texte.</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -338,11 +341,11 @@
                     </div3>
                     <div3 source="#edition4 #edition8" n="12">
                         <p><g ref="char_pm"/>L’on blâme une mode qui divisant la taille des hommes
-                            en deux<pb source="#edition8" n="575"/> parties égales, en prend une tout
-                            entière pour le buste, et laisse l’autre pour <seg><note place="below"
-                                    source="#edition4">le</note></seg><pb source="#edition4" n="375"
-                            /> reste du corps ; l’on condamne celle qui fait de la tête des femmes
-                            la <app>
+                            en deux<pb source="#edition8" n="575"/> parties égales, en prend une
+                            tout entière pour le buste, et laisse l’autre pour <seg><note
+                                    place="below" source="#edition4">le</note></seg><pb
+                                source="#edition4" n="375"/> reste du corps ; l’on condamne celle
+                            qui fait de la tête des femmes la <app>
                                 <lem source="#edition8">base</lem>
                                 <rdg source="#edition4">baze</rdg>
                             </app> d’un édifice à plusieurs étages dont l’ordre et la structure
@@ -469,14 +472,14 @@
                             années, elle a le même agrément dans les portraits qu’a la saye ou
                             l’habit romain sur les théâtres, qu’ont la <noteGrp resp="#labruyere"
                                 place="margin" type="definition"><seg>mante<note>Habits des
-                                        Orientaux</note></seg> , le <seg>voile<note>Habits des
+                                        Orientaux</note></seg>, le <seg>voile<note>Habits des
                                         Orientaux</note></seg> et la <seg>tiare<note>Habits des
                                         Orientaux</note></seg></noteGrp> dans nos tapisseries et
                             dans nos peintures.</p>
                         <p>Nos pères nous ont transmis, avec la connaissance de leurs personnes,
                             celle de leurs habits, de leurs coiffures, de leurs <seg>armes<note
                                     resp="#labruyere" place="margin" type="explication">offensives
-                                    et défensives</note></seg> , et des autres ornements qu’ils ont
+                                    et défensives</note></seg>, et des autres ornements qu’ils ont
                             aimés pendant leur vie. Nous ne saurions bien reconnaître cette sorte de
                             bienfait qu’en traitant de même nos descendants.</p>
                     </div3>
@@ -508,7 +511,7 @@
                     <div3 source="#edition8" n="20">
                         <p><g ref="char_pm"/>Celui qui a pénétré la cour connaît ce que c’est que
                             vertu et ce que c’est que <seg>dévotion<note resp="#labruyere"
-                                    place="margin" type="definition">fausse dévotion</note></seg>:
+                                    place="margin" type="definition">fausse dévotion</note></seg> :
                             il ne peut plus s’y tromper.</p>
                         <pb source="#edition8" n="580"/>
                     </div3>
