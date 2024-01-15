@@ -7,9 +7,7 @@
         <html>
             <head>
                 <title>
-                    <!-- marche parce que dans ce cas précis que du texte à traiter : <xsl:value-of select="//tei:titleStmt/tei:title"/> -->
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-                    <!-- avec select le contexte a son importance, on part de l'enfant du template-->
                 </title>
                 <style type="text/css">
                     .hidden{
@@ -17,8 +15,16 @@
                     }</style>
             </head>
             <body>
-                <p>Nombre de variantes : <xsl:value-of select="count(//tei:app)"/></p>
                 <h1>Les Caractères de La Bruyère</h1>
+                <!-- essayer plutôt -->
+                <h1>
+                    <xsl:apply-templates select="tei:text/tei:body/tei:div1/tei:head"/>
+                </h1>
+                <h2>
+                    <xsl:apply-templates select="tei:text/tei:body/tei:div1/tei:div2/tei:head"/>
+                </h2>
+                <p>&#40;Nombre de variantes : <xsl:value-of select="count(//tei:app)"/>&#41;</p>
+
                 <xsl:apply-templates select="//tei:div3"/>
 
             </body>
