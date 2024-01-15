@@ -8,45 +8,45 @@
             <head>
                 <!-- Style CSS -->
                 <style type="text/css">
-                    .hidden {
-                        display: none;
+                    .hidden{
+                        display:none;
                     }
-                    .head {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: row;
-                        color: rgb(48, 84, 150);
-                        font-size: 18px;
-                        height: 40px;
-                        background: FloralWhite;
-                        font-weight: bold}
-                    .head1 {
-                        display: flex;
-                        justify-content: center;
-                        flex-direction: row;
-                        align-items: center;
-                        font-weight: lighter;
-                        font-size: 11px;
-                        height: 24px;
-                        background: FloralWhite;
+                    .head{
+                        display:flex;
+                        justify-content:center;
+                        align-items:center;
+                        flex-direction:row;
+                        color:rgb(48, 84, 150);
+                        font-size:18px;
+                        height:36px;
+                        background:FloralWhite;
+                        font-weight:bold}
+                    .head1{
+                        display:flex;
+                        justify-content:center;
+                        flex-direction:row;
+                        align-items:center;
+                        font-weight:lighter;
+                        font-size:12px;
+                        height:24px;
+                        background:FloralWhite;
                     }
-                    .responsive {
-                        background-color: white;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                        align-content: space-around;
-                        font-size: 14px;
-                        transition: background-color 2s;
-                        transition: color 2s;
+                    .responsive{
+                        background-color:white;
+                        flex-direction:row;
+                        flex-wrap:wrap;
+                        align-content:space-around;
+                        font-size:14px;
+                        transition:background-color 2s, 
+                    color 2s;
                     }
-                    .responsive:hover {
-                        background-color: rgb(240, 255, 255);
-                        color: rgb(48, 84, 150);
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                        align-content: space-around;
-                        font-size: 14px;
+                    .responsive:hover{
+                        background-color:rgb(240, 255, 255);
+                        color:rgb(48, 84, 150);
+                        flex-direction:row;
+                        flex-wrap:wrap;
+                        align-content:space-around;
+                        font-size:14px;
                     }</style>
 
                 <!-- Titre page -->
@@ -71,14 +71,13 @@
                             select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:publisher"
                         /></i>
                 </span>
-                <span class="head">
-                    <!-- Numéros et titres de partie et chapitre -->
-                    <i>Partie <xsl:apply-templates select="/tei:TEI/tei:text/tei:body/tei:div1/@n"/> :
-                            <xsl:apply-templates select="//tei:div1/tei:head"/></i>
-                </span>
-                <span class="head"> Chapitre <xsl:apply-templates select="/tei:TEI/tei:text/tei:body/tei:div1/tei:div2/@n"/> :
-                        <xsl:apply-templates select="//tei:div2/tei:head"/>
-                </span>
+                <!-- Numéros et titres de partie et chapitre -->
+                <span class="head"> Partie <xsl:apply-templates
+                        select="/tei:TEI/tei:text/tei:body/tei:div1/@n"/> : <i><xsl:apply-templates
+                            select="//tei:div1/tei:head"/></i></span>
+                <span class="head"> Chapitre <xsl:apply-templates
+                        select="/tei:TEI/tei:text/tei:body/tei:div1/tei:div2/@n"/> :
+                        "<xsl:apply-templates select="//tei:div2/tei:head"/>" </span>
             </head>
 
             <!-- Corps de texte -->
