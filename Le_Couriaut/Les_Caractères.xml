@@ -69,6 +69,10 @@
                     <person xml:id="Henri_IV">
                         <name>Henri IV</name>
                     </person>
+                    <person xml:id="Molière">
+                        <name>Jean-Baptiste Poquelin, dit Molière</name>
+                        <idno>https://data.bnf.fr/11916418/moliere/</idno>
+                    </person>
                 </listPerson>
                 <bibl xml:id="edition1">
                     <author>Jean de La Bruyère</author>
@@ -185,6 +189,7 @@
                 "bibl"</change>
             <change when="2023-11-16">Inscription des trois clés dans les caractères et encodage des
                 "persName"</change>
+            <change when="2024-01-06"> Uniformisation du fichier et correction de la cohérence de certaines sources</change>
 
         </revisionDesc>
     </teiHeader>
@@ -242,7 +247,7 @@
                                     propose dans sa Satire X un tableau identique</note></seg>. Ils
                             laissaient au vulgaire l’art de parler d’une manière intelligible ; une
                             chose dite entre eux peu clairement en entraînait une autre encore plus
-                            obscure, sur laquelle on <pb n="205" source="#edition1"/> enchérissait
+                            obscure, sur laquelle on <pb n="205" source="#edition1"></pb> enchérissait
                             par de vraies énigmes, toujours suivies de longs applaudissements : par
                             tout ce qu’ils appelaient délicatesse, sentiments, tour et finesse
                             d’expression, ils étaient enfin parvenus à n’être plus entendus et à ne
@@ -251,7 +256,7 @@
                             fallait de l’esprit, non pas du meilleur, mais de celui qui est faux, et
                             où l’imagination a trop de part. </p>
                         <note type="explication" place="margin" resp="#manuscrit_edition2"
-                            source="#edition2"> [...] es grand lorsque Molière fines/finis
+                            source="#edition2"> [...] es grand lorsque <persName ref="#Molière">Molière</persName> fines/finis
                             précieuses ridicules qui est une piece admira(ble)</note>
 
                     </div3>
@@ -259,7 +264,7 @@
                         <p source="#edition2">
                             <g source="#edition2" ref="#PM"/> Je le <app type="morpho">
                                 <lem>sais</lem>
-                                <rdg source="#edition2">fçay</rdg>
+                                <rdg source="#Michallet_edition2">fçay</rdg>
                             </app>,<seg>Théobalde <note type="cle" source="#cle_1697">
                                     <persName ref="#Boursault">Boursault</persName> ou <persName
                                         ref="#Benserade">Benserade</persName></note>
@@ -294,13 +299,13 @@
                                     Mais dans "De quelques Usages", 74, La Bruyère est moins sévère
                                     à l'égard de l'auteur de rondeaux (p.556)</note>
                                 <note type="cle"> Dans la Préface au Discours à l'Académie (p.615)
-                                        <persName ref="#La_Bruyere">La Bruyère</persName>enveloppe
+                                        <persName ref="#La_Bruyere">La Bruyère</persName> enveloppe
                                     dans le même pluriel antonomastique des Théobaldes <persName
                                         ref="#Fontenelle"> Fontenelle</persName>, <persName
                                         ref="#Quinault">Quinault </persName>, <persName
                                         ref="Corneille">Thomas Corneille</persName>, <persName
                                         ref="#Pavillon">Pavillon</persName>, <persName
-                                        ref="#Perrault">Perrault</persName>, mais peu-être aussi
+                                        ref="#Perrault">Perrault</persName>, mais peut-être aussi
                                         <persName ref="#Benserade"
                                 >Benserade</persName>.</note></seg>, vous êtes vieilli ; mais
                             voudriez-vous que je crusse que vous êtes baissé, que vous <pb n="215"
@@ -345,13 +350,13 @@
                                     Mais dans "De quelques Usages", 74, La Bruyère est moins sévère
                                     à l'égard de l'auteur de rondeaux (p.556)</note>
                                 <note type="cle"> Dans la Préface au Discours à l'Académie (p.615)
-                                        <persName ref="#La_Bruyere">La Bruyère</persName>enveloppe
+                                        <persName ref="#La_Bruyere">La Bruyère</persName> enveloppe
                                     dans le même pluriel antonomastique des Théobaldes <persName
                                         ref="#Fontenelle"> Fontenelle</persName>, <persName
                                         ref="#Quinault">Quinault </persName>, <persName
                                         ref="Corneille">Thomas Corneille</persName>, <persName
                                         ref="#Pavillon">Pavillon</persName>, <persName
-                                        ref="#Perrault">Perrault</persName>, mais peu-être aussi
+                                        ref="#Perrault">Perrault</persName>, mais peut-être aussi
                                         <persName ref="#Benserade"
                                 >Benserade</persName>.</note></seg>, fallait-il vous donner dans
                             votre jeunesse, et lorsque vous étiez la Coqueluche ou l’entêtement de
@@ -364,7 +369,8 @@
                         <p source="#edition1 #edition2">
                             <g source="#edition1 #edition2" ref="#PM"/> L’on parle impétueusement
                             dans les entretiens, souvent par vanité ou par humeur, rarement avec
-                            assez d’attention : tout occupé du désir de répondre à ce <app>
+                            assez d’attention : tout occupé du désir de répondre à ce <app
+                                type="modification">
                                 <lem> qu'on n'écoute point</lem>
                                 <rdg source="#edition1">que l'on ne se donne pas même la
                                     peine d'écouter</rdg>
@@ -449,7 +455,7 @@
                     <div3 type="caractere" n="74" source="#edition2">
                         <p source="#edition2">
                             <g source="#edition2" ref="#PM"/>
-                            <seg>Hermagoras<note type="clé" source="#cle_mazarine"> l'érudit
+                            <seg>Hermagoras<note type="cle" source="#cle_mazarine"> l'érudit
                                         <persName ref="#Dacier">Dacier</persName></note>
                                 <note type="cle" source="#cle_generale">"Le P.Paul Pezron,
                                     bénédictin, auteur de l'Antiquité des temps rétablie et défendue
@@ -476,8 +482,8 @@
                             de Bavière : "Quelles minuties ! " dit-il, pendant qu’il récite de
                             mémoire toute une liste des rois des Mèdes ou de Babylone, et que les
                             noms d’<persName role="royauté">Apronal</persName>,
-                                d’<persName>Hérigebal</persName>, de <persName>
-                                Noesnemordach</persName>, de <persName>Mardokempad</persName>, lui
+                                d’<persName role="royauté">Hérigebal</persName>, de <persName role="royauté">
+                                Noesnemordach</persName>, de <persName role="royauté">Mardokempad</persName>, lui
                             sont aussi familiers qu’à nous ceux de Valois et de Bourbon. Il demande
                             si l’Empereur a jamais été marié ; mais personne ne lui apprendra que
                                 <persName role="royauté">Ninus</persName> a eu deux femmes. On lui
@@ -507,7 +513,6 @@
                             il ajoute qu’il y a des auteurs graves qui affirment que c’était la
                             droite, qu’il croit néanmoins être bien fondé à soutenir que c’est la
                             gauche. </p>
-                        <!-- Je n'ai pas référencé avec précision ou avec un "id" tous les noms de Roi, de Pharaon etc...Je ne possède malheureusement pas les même connaissances que le personnage de ce caractère -->
                     </div3>
                 </div2>
             </div1>
