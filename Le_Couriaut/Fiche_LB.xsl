@@ -13,12 +13,17 @@
                 <style type="text/css">
                     .hidden{
                         display:none;
-                    }</style>
+                    }
+                    body {
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    font-size: 16px;
+                    background-color: rgb(236, 229, 219);
+                    }
+                </style>
 
             </head>
             <body>
-                <h1>Les Caractères de La Bruyère</h1>
-                <p> Nombre de variantes: <xsl:value-of select="count(//tei:app)"/></p>
                 <xsl:apply-templates/>
             </body>
 
@@ -45,15 +50,32 @@
     </xsl:template>
 
     <xsl:template match="tei:teiHeader"/>
+    
+    <xsl:template match="tei:div1/tei:head">
+        <h1 style="text-align:center">
+            <xsl:apply-templates/>
+        </h1>
+        <p style="text-align:center"> Nombre de variantes: <xsl:value-of select="count(//tei:app)"/></p>
+    </xsl:template>
+    
+    <xsl:template match="tei:div2/tei:head">
+        <h2 style="color:rgb(116, 31, 31)">
+            <xsl:apply-templates></xsl:apply-templates>
+        </h2>
+        
+    </xsl:template>
 
     <xsl:template match="tei:div3/tei:p[position()=1]">
-        <p>
+        <p style="text-align:justify">
             <xsl:value-of select="../@n"/>. <xsl:apply-templates/>
         </p>
     </xsl:template>
 
     <xsl:template match="tei:div3/tei:p[position()>1]">
-        <p>
+        <p style="text-align:justify;  position: relative;
+            text-display: flex;
+            margin: 10%;">
+           
             <xsl:apply-templates/>
         </p>
     </xsl:template>
