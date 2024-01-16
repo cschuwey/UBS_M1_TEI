@@ -62,9 +62,7 @@
                     <title type="main">Les caractères ou les moeurs de ce siècle.</title>
                     <title type="sub">précédé de Les caractères de Théophraste</title>
                 </bibl>
-                <!-- <seg> <note type="key"> <persName type="key" source="#clesXVIII"> -->
                 <listPerson>
-                    <!-- <personGrp type="fictif"/> <personGrp type="réel"/> exemple liste pour persos réels/fictifs -->
                     <person xml:id="Morstein">
                         <persName>Jean André de Morstein</persName>
                         <idno>Monsieur de Morstein, ancien trésorier de Pologne et Ambassadeur de
