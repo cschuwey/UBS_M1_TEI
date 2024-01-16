@@ -2,28 +2,28 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs" version="2.0">
-
+    
     <!-- Racine du document -->
     <xsl:template match="/">
         <html>
             <head>
                 <style type="text/css">
                     .hidden {
-                        display: none;
+                    display: none;
                     }
-
+                    
                     body {
-                        font-family: 'Arial', sans-serif;
-                        line-height: 1.6;
-                        margin: 20px;
+                    font-family: 'Arial', sans-serif;
+                    line-height: 1.6;
+                    margin: 20px;
                     }
-
+                    
                     h1 {
-                        color: #333;
+                    color: #333;
                     }
-
+                    
                     p {
-                        margin-bottom: 15px;
+                    margin-bottom: 15px;
                     }
                 </style>
                 <title>
@@ -41,55 +41,50 @@
                 <script type="text/javascript">
                     var elems = document.getElementsByClassName("changer");
                     for (var i = elems.length - 1; i >= 0; i--) {
-                        elems[i].addEventListener('click', function handleClick(event) {
-                            for (var i = this.children.length - 1; i >= 0; i--) {
-                                if (this.children[i].classList.contains('hidden')) {
-                                    this.children[i].classList.remove('hidden');
-                                }
-                                else {
-                                    this.children[i].classList.add('hidden');
-                                }
-                            }
-                        });
+                    elems[i].addEventListener('click', function handleClick(event) {
+                    for (var i = this.children.length - 1; i >= 0; i--) {
+                    if (this.children[i].classList.contains('hidden')) {
+                    this.children[i].classList.remove('hidden');
+                    }
+                    else {
+                    this.children[i].classList.add('hidden');
+                    }
+                    }
+                    });
                     }
                 </script>
             </body>
         </html>
     </xsl:template>
-
-    <xsl:template match="tei:note"/>
-    <xsl:template match="tei:div3">
+    
+    <!-- Extraire le titre de l'ouvrage -->
+    <xsl:template match="tei:title">
+        <xsl:value-of select="."/>
+    </xsl:template>
+    
+    <!-- Extraire le titre du chapitre -->
+    <xsl:template match="tei:div2/tei:head">
+        <xsl:value-of select="."/>
+    </xsl:template>
+    
+    <!-- Contenu du document -->
+    <xsl:template match="tei:body">
+        <!-- Ajoutez ici le traitement du contenu du document en utilisant apply-templates -->
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <!-- Paragraphes -->
+    <xsl:template match="tei:p">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="tei:div3/tei:p[1]">
-        <p>
-            (
-            <xsl:value-of select="../@n"/>
-            )
+    
+    <!-- Titres de section -->
+    <xsl:template match="tei:head">
+        <h2>
             <xsl:apply-templates/>
-        </p>
+        </h2>
     </xsl:template>
-    <xsl:template match="tei:div3/tei:p[position()>1]">
-        <p>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    <xsl:template match="tei:app">
-        <span class="changer" style="color:red;">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    <xsl:template match="tei:lem">
-        <span>
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    <xsl:template match="tei:app//tei:rdg[1]">
-        <span class="hidden">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    <xsl:template match="tei:app//tei:rdg[not(position()=1)]"/>
+    
 </xsl:stylesheet>
