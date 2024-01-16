@@ -13,7 +13,9 @@
                     display:none;
                     }
                     body {
-                    background-color: #eee4ec
+                    background-color: #eee4ec;
+                    margin-left: 25%;
+                    margin-right: 25%;
                     }
                     h1 {
                     text-align: center;
@@ -29,8 +31,6 @@
                     p {
                     position: relative;
                     text-align: baseline;
-                    margin-left: 25%;
-                    margin-right: 25%;
                     font-size: 18px;
                     }
                     .n {
