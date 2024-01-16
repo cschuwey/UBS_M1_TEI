@@ -9,14 +9,10 @@
                     .hidden{
                         display:none;
                     }</style>
-
-
                 <title>
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
-
             </head>
-
             <body>
                 <h1
                     style="color:rgb(54, 95, 141);font-family: Georgia; font-size: 25px;text-align: center; text-decoration: underline; font-weight: 800;line-height : 2">
@@ -40,46 +36,33 @@
     </xsl:template>
     <xsl:template match="tei:note"/>
     <xsl:template match="tei:div3">
-
         <p>
             <xsl:apply-templates/>
         </p>
-
     </xsl:template>
-
     <xsl:template match="tei:div3/tei:p[1]">
         <p> ( <xsl:value-of select="../@n"/> ) <xsl:apply-templates/>
         </p>
-
     </xsl:template>
     <xsl:template match="tei:div3/tei:p[position()>1]">
-
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
     <xsl:template match="tei:app">
-
         <span class="changer" style="color:rgb(240, 138, 6);">
-
             <xsl:apply-templates/>
-
         </span>
     </xsl:template>
     <xsl:template match="tei:lem">
-
         <span>
             <xsl:apply-templates/>
         </span>
-
     </xsl:template>
     <xsl:template match="tei:app//tei:rdg[1]">
-
         <span class="hidden">
             <xsl:apply-templates/>
         </span>
-
     </xsl:template>
     <xsl:template match="tei:app//tei:rdg[not(position()=1)]"/>
-
 </xsl:stylesheet>
