@@ -7,7 +7,8 @@
         <html>
             <head>
                 <title>
-                    <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                    <xsl:apply-templates
+                        select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                 </title>
                 <style type="text/css">
                     .hidden{
@@ -15,14 +16,14 @@
                     }</style>
             </head>
             <body>
-                <h1>Les Caractères de La Bruyère</h1>
-                <!-- essayer plutôt -->
                 <h1>
-                    <xsl:apply-templates select="tei:text/tei:body/tei:div1/tei:head"/>
+                    <xsl:apply-templates select="//tei:div1/tei:head"/>
                 </h1>
+
                 <h2>
-                    <xsl:apply-templates select="tei:text/tei:body/tei:div1/tei:div2/tei:head"/>
+                    <xsl:apply-templates select="//tei:div2/tei:head"/>
                 </h2>
+
                 <p>&#40;Nombre de variantes : <xsl:value-of select="count(//tei:app)"/>&#41;</p>
 
                 <xsl:apply-templates select="//tei:div3"/>
@@ -50,7 +51,7 @@
     </xsl:template>
 
     <xsl:template match="tei:div3/tei:p[position()=1]">
-        <p>(<xsl:value-of select="../@n"/>)<xsl:apply-templates/>
+        <p>(<xsl:value-of select="../@n"/>) <xsl:apply-templates/>
         </p>
     </xsl:template>
     <xsl:template match="tei:div3/tei:p[position()>1]">
@@ -62,7 +63,7 @@
     <xsl:template match="tei:note"/>
 
     <xsl:template match="tei:app">
-        <span class="changer">
+        <span class="changer" style="color:red;">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -73,12 +74,12 @@
         </span>
     </xsl:template>
 
-    <xsl:template match="tei:rdg">
+    <xsl:template match="tei:rdg[1]">
         <span class="hidden">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
 
-
+    <xsl:template match="tei:app//tei:rdg[not(position()=1)]"/>
 
 </xsl:stylesheet>
