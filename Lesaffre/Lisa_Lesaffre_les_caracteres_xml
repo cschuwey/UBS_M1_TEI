@@ -15,71 +15,57 @@
             </publicationStmt>
 
             <sourceDesc>
+                <!-- Éditions utilisées-->
                 <bibl xml:id="edition4">
                     <title>Les caractères de Théophraste traduits du grec : avec Les Caractères ou
                         les mœurs de ce siècle</title>
-                    <desc>Édition utilisée pour l'encodage du texte.</desc>
-                    <distributor>Librairie de Videcocq</distributor>
-                    <edition>Quatrième édition, corrigée et augmentée</edition>
+                    <witDetail wit="#edition4" source="#edition4">Édition utilisée pour l'encodage
+                        du texte.</witDetail>
                     <author>Jean de La Bruyère</author>
+                    <edition>Quatrième édition, corrigée et augmentée</edition>
                     <editor>Étienne Michallet</editor>
+                    <distributor>Librairie de Videcocq</distributor>
                     <date>1689</date>
                     <pubPlace>Paris<country>France</country></pubPlace>
                     <biblScope>444 pages</biblScope>
+                    <biblScope unit="page" from="374" to="376">pp.374-376</biblScope>
                     <ref type="URL">https://gallica.bnf.fr/ark:/12148/bpt6k575649/f4.item</ref>
                 </bibl>
                 <bibl xml:id="edition8">
                     <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
                         les mœurs de ce siècle</title>
-                    <desc>Édition utilisée pour l'encodage du texte.</desc>
-                    <distributor>inconnu</distributor>
-                    <edition>Huitième édition, revue, corrigée et augmentée</edition>
+                    <witDetail wit="#edition8" source="#edition8">Édition utilisée pour l'encodage
+                        du texte.</witDetail>
                     <author>Jean de La Bruyère</author>
+                    <edition>Huitième édition, revue, corrigée et augmentée</edition>
                     <editor>Étienne Michallet</editor>
+                    <distributor>inconnu</distributor>
                     <date>1694</date>
                     <pubPlace>Paris<country>France</country></pubPlace>
                     <biblScope>716 pages</biblScope>
+                    <biblScope unit="page" from="574" to="581">pp.574-581</biblScope>
                     <ref type="URL"
                         >https://books.google.fr/books?id=2SeBerCnLvkC&amp;newbks=1&amp;newbks_redir=0&amp;dq=la%20bruyere%20caract%C3%A8res%201694&amp;hl=fr&amp;pg=PA574#v=onepage&amp;q&amp;f=true</ref>
                 </bibl>
+                <!-- Base du corps de texte -->
                 <bibl xml:id="edition19e">
                     <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
                         les mœurs de ce siècle</title>
-                    <desc>Version informatisée (texte brut) d'une édition des Caractères de
-                        Théophraste traduits du grec, avec Les caractères ou les mœurs de ce siècle,
-                        datant du 19e siècle. Version informatisée servant de base pour l'encodage.
-                        Version procurée sur la page Moodle du cours de XML et de TEI de Christophe
-                        Schuwey (Université Bretagne Sud)</desc>
-                    <distributor>inconnu</distributor>
-                    <edition>inconnue, version informatisée</edition>
+                    <witDetail wit="#edition19e" source="#edition19e">Version informatisée (texte
+                        brut) d'une édition des Caractères de Théophraste traduits du grec, avec Les
+                        caractères ou les mœurs de ce siècle, datant du 19e siècle. Version
+                        informatisée servant de base pour l'encodage, notamment avec la numérotation
+                        canonique. Version procurée sur la page Github du cours de XML et de TEI de
+                        Christophe Schuwey (Université Bretagne Sud)</witDetail>
+                    <edition>inconnue</edition>
                     <author>Jean de la Bruyère</author>
                     <editor>inconnu</editor>
+                    <distributor>inconnu</distributor>
                     <date>19e siècle, inconnue</date>
                     <ref type="URL"
                         >https://github.com/cschuwey/UBS_M1_TEI/blob/main/Texte_brut.txt</ref>
                 </bibl>
-                <bibl xml:id="oeuvres">
-                    <title>Oeuvres de la Bruyère</title>
-                    <desc>Version scannée d'une édition des oeuvres de La Bruyère, dont les
-                        Caractères. Volume II de cette édition. Version incluse dans une collection
-                        nommée "les grands écrivains de la France". Inclut une clé par rapport à M.
-                        Le rebours.</desc>
-                    <collection>Les grands écrivains de la France Nouvelles éditions sur les
-                        manuscrits, les copies les plus authentiques et les plus anciennes
-                        impressions avec variantes, notes, notices, portraits, etc.</collection>
-                    <distributor>inconnu</distributor>
-                    <edition>Nouvelle édition revue sur les plus anciennes impressions et les
-                        autographes et augmentée de morceaux inédits, des variantes, de notices, de
-                        notes, d'un lexique des mots et locutions remarquables, d'un portrait d'un
-                        fac-simile, etc. </edition>
-                    <author>Jean de la Bruyère</author>
-                    <editor>M.G. Servois<affiliation>M. AD. Regnier</affiliation></editor>
-                    <publisher>Librairie de L. Hachette et Cie</publisher>
-                    <date>1865</date>
-                    <pubPlace>Paris, Boulevard Saint-Germain</pubPlace>
-                    <ref type="URL"
-                        >https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;hl=fr&amp;pg=PA368#v=onepage&amp;q=Iphis&amp;f=false</ref>
-                </bibl>
+                <!-- Sources des ajouts pour les explications lexicographiques -->
                 <bibl xml:id="TLFI">
                     <title>Trésor de la Langue Française Informatisé</title>
                     <author>Laboratoire Analyse traitement informatique de la langue française
@@ -100,67 +86,102 @@
                     <ref type="URL"
                         >https://num.classiques-garnier.com/index.php?module=App&amp;action=FrameMain</ref>
                 </bibl>
+                <!-- Sources des ajouts pour les clés -->
                 <bibl xml:id="escola">
-                    <title/>
+                    <title>inconnu</title>
                     <author>Marc Escola</author>
-                    <edition/>
-                    <editor/>
-                    <desc>Extrait d'un ouvrage de Marc Escola (ou dont il est co-auteur, étant donné
-                        qu'on ignore la référence exacte de l'ouvrage) contenant des clés de lecture
-                        pour Les Caractères ou Moeurs de ce siècle de La Bruyère. Le titre de
-                        l'ouvrage n'est pas mentionné parmi les pages, nous ne connaissons donc pas
-                        son contexte d'édition non plus.</desc>
-                    <date/>
+                    <edition>inconnue</edition>
+                    <editor>inconnu</editor>
+                    <witDetail wit="#escola" source="#escola">Extrait d'un ouvrage de Marc Escola
+                        (ou dont il est co-auteur, étant donné qu'on ignore la référence exacte de
+                        l'ouvrage) contenant des clés de lecture pour Les Caractères ou Moeurs de ce
+                        siècle de La Bruyère. Le titre de l'ouvrage n'est pas mentionné parmi les
+                        pages, nous ne connaissons donc pas son contexte d'édition non plus. <gap
+                            reason="sampling"/>L'extrait mis à disposition sur le Moodle du cours de
+                        TEI, XML et XSL de Christophe Schuwey ne présentait pas les pages avec la
+                        bibliographie utilisée par Escola pour l'établissement des clés.</witDetail>
+                    <distributor>inconnu</distributor>
+                    <date>inconnue</date>
+                    <pubPlace>inconnue</pubPlace>
+                    <biblScope unit="page" from="744" to="745">pp.744-745</biblScope>
                     <ref type="URL"
                         >https://moodle.univ-ubs.fr/pluginfile.php/651932/mod_resource/content/0/Bruy%C3%83%C2%A8re%20-%20Cles%20-%20Escola.pdf</ref>
                 </bibl>
                 <bibl xml:id="felibien">
                     <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
                         les mœurs de ce siècle</title>
-                    <desc>Exemplaire appartenant à un dénommé Félibien (peut-être André Félibien,
-                        contemporain de l'édition en question), copie mentionnée parmi les sources
-                        pour les clés proposées par Escola. La référence est évoquée comme
-                        "exemplaire de Félibien" par Escola, et l'année 1696 est évoquée dans le
-                        paragraphe le citant à la page 745 (dans l'ouvrage d'Escola), ce qui nous
-                        fait supposer que l'exemplaire datait de cette année. Cependant, étant donné
-                        que nous ne possédons pas l'ouvrage de Marc Escola, ainsi que la
-                        bibligraphie des clés qu'il propose, nous préférons appliquer le principe de
-                        précaution et prendre une position neutre sur l'année de publication de cet
-                        exemplaire. Notre prise de recul est accentuée par la clé d'Escola pour la
-                        remarque 11 (page 744 du livre d'Escola), qui cite ce même exemplaire tout
-                        en évoquant l'année 1687. Nous suspectons donc que les années mises entre
-                        parenthèses avant la clé proposée par Escola indique en réalité l'édition
-                        des Caractères utilisée par ce dernier pour établir sa clé. La date de
-                        l'exemplaire reste donc inconnue, étant donné que nous n'avons pas la
-                        bibliographie utilisée par Marc Escola.</desc>
-                    <distributor>inconnu</distributor>
-                    <edition>inconnu</edition>
+                    <witDetail wit="#felibien" source="#escola">Exemplaire appartenant à un dénommé
+                        Félibien (peut-être André Félibien, contemporain de l'édition en question),
+                        copie citée parmi les sources pour les clés proposées par Escola. La
+                        référence est évoquée comme "exemplaire de Félibien" par Escola, et l'année
+                        1696 est évoquée dans le paragraphe le citant à la page 745 (dans l'ouvrage
+                        d'Escola), ce qui nous fait supposer que l'exemplaire datait de cette année.
+                        Cependant, étant donné que nous ne possédons pas l'ouvrage de Marc Escola,
+                        ainsi que la bibligraphie des clés qu'il propose, nous préférons appliquer
+                        le principe de précaution et prendre une position neutre sur l'année de
+                        publication de cet exemplaire. Notre prise de recul est accentuée par la clé
+                        d'Escola pour la remarque 11 (page 744 du livre d'Escola), qui cite ce même
+                        exemplaire tout en évoquant l'année 1687. Nous suspectons donc que les
+                        années mises entre parenthèses avant la clé proposée par Escola indique en
+                        réalité l'édition des Caractères utilisée par ce dernier pour établir sa
+                        clé. La date de l'exemplaire reste donc inconnue, étant donné que nous
+                        n'avons pas la bibliographie utilisée par Marc Escola.</witDetail>
                     <author>Jean de La Bruyère</author>
+                    <edition>inconnu</edition>
                     <editor>inconnu</editor>
+                    <distributor>inconnu</distributor>
                     <date>inconnue</date>
+                    <pubPlace>inconnu</pubPlace>
                 </bibl>
                 <bibl xml:id="cleisolee">
                     <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou
                         les mœurs de ce siècle</title>
-                    <desc>Exemplaire (date de publication inconnue pour l'encodeuse) avec une clé
+                    <witDetail wit="#cleisolee" source="#escola #oeuvres">Exemplaire avec une clé
                         isolée selon Escola, ou note manuscrite selon les Oeuvres de La Bruyère
                         éditées en 1865. La nature et la date de l'exemplaire sont inconnues pour
                         l'encodeuse : nous nous demandons si la "clé isolée" évoquée par Escola et
-                        la "clé manuscrite" évoquée dans Les Oeuvres de la Bruyère sont la même et
+                        la "clé manuscrite" évoquées dans Les Oeuvres de la Bruyère sont la même et
                         viennent du même exemplaire, ou sont issues de deux exemplaires dont l'un a
                         une note manuscrite et l'autre une note imprimée ou une autre note
-                        manuscrite. En tout cas, la "clé manuscrite" semble être utilisée pour
+                        manuscrite. Dans tous les cas, la "clé manuscrite" semble être utilisée pour
                         commenter une édition des Caractères de 1691, dans Les Oeuvres de la Bruyère
-                        éditées en 1865. Exemplaire censé contenir une clé de lecture pour le
-                        personnage d'Iphis en tant que version fictionnalisée de M. le
-                        Rebours.</desc>
-                    <distributor>inconnu</distributor>
-                    <edition>inconnu</edition>
+                        éditées en 1865 (en effet, Les Oeuvres de La Bruyère montrent la date de
+                        1691 pour donner une clé de la remarque). Exemplaire censé contenir une clé
+                        de lecture pour le personnage d'Iphis en tant que version fictionnalisée de
+                        M. le Rebours.</witDetail>
                     <author>Jean de La Bruyère</author>
+                    <edition>inconnu</edition>
                     <editor>inconnu</editor>
+                    <distributor>inconnu</distributor>
                     <date>inconnue</date>
-                    <ref type="URL"/>
+                    <pubPlace>inconnu</pubPlace>
                 </bibl>
+                <bibl xml:id="oeuvres">
+                    <title>Oeuvres de la Bruyère</title>
+                    <witDetail wit="#oeuvres" source="#oeuvres">Version numérisée d'une édition des
+                        oeuvres de La Bruyère, dont Les Caractères. Version incluse dans une
+                        collection nommée "Les grands écrivains de la France". Inclut une clé par
+                        rapport à M. Le rebours.</witDetail>
+                    <edition>Nouvelle édition revue sur les plus anciennes impressions et les
+                        autographes et augmentée de morceaux inédits, des variantes, de notices, de
+                        notes, d'un lexique des mots et locutions remarquables, d'un portrait, d'un
+                        fac-simile, etc. Tome second</edition>
+                    <series>Les grands écrivains de la France Nouvelles éditions sur les manuscrits,
+                        les copies les plus authentiques et les plus anciennes impressions avec
+                        variantes, notes, notices, portraits, etc.</series>
+                    <author>Jean de la Bruyère</author>
+                    <editor>M.G. Servois<affiliation>M. AD. Regnier</affiliation></editor>
+                    <publisher>Librairie de L. Hachette et Cie</publisher>
+                    <distributor>inconnu</distributor>
+                    <date>1865</date>
+                    <pubPlace>Paris, Boulevard Saint-Germain</pubPlace>
+                    <biblScope unit="volume">II</biblScope>
+                    <biblScope unit="page">p.368</biblScope>
+                    <biblScope>714 pages</biblScope>
+                    <ref type="URL"
+                        >https://books.google.fr/books?id=l_U5AAAAcAAJ&amp;hl=fr&amp;pg=PA368#v=onepage&amp;q=Iphis&amp;f=false</ref>
+                </bibl>
+                <!-- Personnes mentionnées dans les clés -->
                 <listPerson>
                     <person xml:id="varillas">
                         <name>Antoine Varillas</name>
@@ -221,6 +242,8 @@
                     <p>Graphie modernisée pour le texte principal et les citations dans les
                         notes</p>
                     <p>Ponctuation modernisée</p>
+                    <p>Remplacement des "E" majuscules quand l'usage moderne préfère un "É"
+                        majuscule (notamment pour les noms propres)</p>
                 </normalization>
                 <interpretation>
                     <p>Les notes ajoutées par l'encodeuse ont été marquées comme telles avec
@@ -229,7 +252,25 @@
                     <p>L'encodeuse évite les répétitions d'explications lexicales pour les termes
                         récurrents : ainsi, les éléments explicatifs pour le terme "léger" ne seront
                         présentés qu'une fois dans l'encodage, bien que le terme apparaisse à
-                        d'autres reprises;</p>
+                        d'autres reprises.</p>
+                    <p>L'encodeuse a utilisé des éléments witDesc pour donner des informations
+                        complémentaires sur l'usage et la connaissance des sources évoquées.
+                        L'attribut wit fait donc référence à la source livresque elle-même ;
+                        l'attribut source dans cet élément indique les sources des informations par
+                        rapport à l'exemplaire évoqué.</p>
+                    <p>Pour des raisons de validité syntaxique, l'encodeuse dû inclure la balise
+                        note dans l'élément noteGrp, qui est lui-même dans seg, pour encoder la note
+                        lexicale partagée par trois mots dans la quinzième remarque. En effet, si
+                        nous disposions les éléments autrement, cela affichait un message d'erreur.
+                        Nous avons donc choisi cette disposition, bien que la version imprimée de
+                        cette note n'apparaisse qu'une fois et est indiquée pour les trois mots à
+                        l'aide d'une astérisque à côté de chaque mot concerné (soit trois
+                        astérisques pour trois mots, partageant la même définition). L'encodeuse a
+                        donc choisi de symboliser cette relation entre les trois mots et leur
+                        définition en commun en indiquant le même numéro de balise pour noteGrp, et
+                        ce pour chaque balise apparition de la balise note, qui appartient à
+                        noteGrp.</p>
+
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -305,7 +346,13 @@
                     récurrents.</item>
                 <item><date when="2024-01-14">14 janvier 2024</date>Correction des espaces dans le
                     corps de texte.</item>
-                <item><date when="2024-01-15">15 janvier 2024</date>Correction des accents dans la remarque 21.</item>
+                <item><date when="2024-01-15">15 janvier 2024</date>Correction des accents dans la
+                    remarque 21.</item>
+                <item><date when="2024-01-16">16 janvier 2024</date>Correction et remplacement des
+                    desc dans bibl par witDetail. Réorganisation et régularisation du sourceDesc.
+                    Correction de la syntaxe autour de noteGrp, de la note et des seg qui y sont
+                    liés. Ajouts dans l'encodingDesc, notamment pour la normalisation et
+                    l'interprétation.</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -471,12 +518,16 @@
                             passées et qui ne sont plus. La mode alors la plus curieuse et qui fait
                             plus de plaisir à voir, c’est la plus ancienne : aidée du temps et des
                             années, elle a le même agrément dans les portraits qu’a la saye ou
-                            l’habit romain sur les théâtres, qu’ont la <noteGrp resp="#labruyere"
-                                place="margin" type="definition"><seg>mante<note>Habits des
-                                        Orientaux</note></seg>, le <seg>voile<note>Habits des
-                                        Orientaux</note></seg> et la <seg>tiare<note>Habits des
-                                        Orientaux</note></seg></noteGrp> dans nos tapisseries et
-                            dans nos peintures.</p>
+                            l’habit romain sur les théâtres, qu’ont la <seg>mante<noteGrp
+                                    resp="#labruyere" place="margin" type="definition" n="1">
+                                    <note>Habits des Orientaux</note>
+                                </noteGrp></seg>, le <seg>voile<noteGrp resp="#labruyere"
+                                    place="margin" type="definition" n="1">
+                                    <note>Habits des Orientaux</note>
+                                </noteGrp></seg> et la <seg>tiare<noteGrp resp="#labruyere"
+                                    place="margin" type="definition" n="1">
+                                    <note>Habits des Orientaux</note>
+                                </noteGrp></seg> dans nos tapisseries et dans nos peintures.</p>
                         <p>Nos pères nous ont transmis, avec la connaissance de leurs personnes,
                             celle de leurs habits, de leurs coiffures, de leurs <seg>armes<note
                                     resp="#labruyere" place="margin" type="explication">offensives
