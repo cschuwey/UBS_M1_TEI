@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Les Caractères</title>
+                <title type="main">Les Caractères</title>
                 <author xml:id="LaBruyere">Jean de La Bruyère</author>
                 <principal>C.Schuwey</principal>
             </titleStmt>
@@ -274,18 +274,17 @@
 
                     <div3 n="76" source="#lescaracteres1688 #lescaracteres1696">
                         <p><g ref="#char_pdm"/>C’est la profonde ignorance qui inspire le ton
-                            dogmatique. <app>
+                            dogmatique.<app>
                                 <rdgGrp>
                                     <lem>Celui</lem>
                                     <rdg source="#lescaracteres1688">celuy</rdg>
                                 </rdgGrp>
                                 <rdg source="#lescaracteres1696"/>
-                            </app>qui ne <app>
+                            </app> qui ne <app>
                                 <rdgGrp>
                                     <lem>sait</lem>
                                     <rdg source="#lescaracteres1688">sçait</rdg>
                                 </rdgGrp>
-                                <rdg source="#lescaracteres1696">sait</rdg>
                             </app> rien croit enseigner aux autres ce qu’il vient d’apprendre
                             lui-même ; celui qui sait beaucoup pense à peine que ce qu’il dit puisse
                             être ignoré, et parle plus indifféremment.</p>
@@ -297,7 +296,6 @@
                                     <lem>être</lem>
                                     <rdg source="#lescaracteres1688">estre</rdg>
                                 </rdgGrp>
-                                <rdg source="#lescaracteres1696">être</rdg>
                             </app> dites simplement : elles se gâtent par l’emphase. Il faut dire
                                 noble<pb n="212" source="#lescaracteres1688" rend="tiret"/> ment les
                             plus petites : elles ne se soutiennent que par l’expression, le ton et
