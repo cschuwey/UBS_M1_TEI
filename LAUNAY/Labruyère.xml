@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:/h:/Mes%20documents/XML%20TEI/exercice%20TD9/base.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Les Caractères</title>
+                <title type="main">Les Caractères de la Bruyère</title>
                 <author>Jean de La Bruyère</author>
                 <principal>C. Schuwey</principal>
             </titleStmt>
@@ -52,7 +53,6 @@
                         <idno> Personne inventée pour les besoins de l'exercice</idno>
                     </person>
                 </listPerson>
-
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -95,19 +95,19 @@
             <change when="2023-10-26"> N'ayant pas de notes écrites par l'éditeur ou l'auteur, j'ai
                 inventé une note pour l'exercice du TD5. J'ai ensuite ajouté trois notes écrites par
                 moi-même</change>
-            <change when="2023-11-07">Ajout schéma xml corrigé. Ajout de trois variantes.
+            <change when="2023-11-07"> Ajout schéma xml corrigé. Ajout de trois variantes.
                 Déclaration charactères spéciaux. Ajout des pieds de mouche devant les paragraphes </change>
             <change when="2023-11-15"> Ajout des pages breaks et de deux clés inventées </change>
+            <change when="2023-11-21"> Exercices Xpath </change>
+            <change when="2023-01-16"> Modification pour évaluation finale </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div1 type="ouvrage">
-                <p> Les caractères ou les moeurs de ce siècle</p>
-
+                <head>Les caractères ou les moeurs de ce siècle </head>
                 <div2 type="chapitre" n="2">
-                    <p>Du Mérite personnel</p>
-
+                    <head>Du Mérite personnel</head>
                     <div3 n="1" source="#edition1688 #edition1696">
                         <p>Qui peut, avec les plus rares talents et le plus excellent mérite, n’être
                             pas convaincu de son inutilité, quand il considère qu’il <app>
