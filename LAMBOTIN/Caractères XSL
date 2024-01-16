@@ -8,23 +8,23 @@
         <html>
             <head>
                 <style type="text/css">
-                        .hidden {
-                            display: none;
-                        }
-                    
-                        body {
-                            font-family: 'Arial', sans-serif;
-                            line-height: 1.6;
-                            margin: 20px;
-                        }
-                    
-                        h1 {
-                            color: #333;
-                        }
-                    
-                        p {
-                            margin-bottom: 15px;
-                        }
+                    .hidden {
+                        display: none;
+                    }
+
+                    body {
+                        font-family: 'Arial', sans-serif;
+                        line-height: 1.6;
+                        margin: 20px;
+                    }
+
+                    h1 {
+                        color: #333;
+                    }
+
+                    p {
+                        margin-bottom: 15px;
+                    }
                 </style>
                 <title>
                     <!-- Utilisez apply-templates pour extraire le titre de l'ouvrage -->
@@ -39,21 +39,19 @@
                 <!-- Appliquez les templates pour le contenu du document -->
                 <xsl:apply-templates select="//tei:body"/>
                 <script type="text/javascript">
-                
-                        var elems = document.getElementsByClassName("changer");
-                        for (var i = elems.length - 1; i >= 0; i--) {
+                    var elems = document.getElementsByClassName("changer");
+                    for (var i = elems.length - 1; i >= 0; i--) {
                         elems[i].addEventListener('click', function handleClick(event) {
-                        for (var i = this.children.length - 1; i >= 0; i--) {
-                        if (this.children[i].classList.contains('hidden')) {
-                        this.children[i].classList.remove('hidden');
-                        }
-                        else {
-                        this.children[i].classList.add('hidden');
-                        }
-                        }
-                        
+                            for (var i = this.children.length - 1; i >= 0; i--) {
+                                if (this.children[i].classList.contains('hidden')) {
+                                    this.children[i].classList.remove('hidden');
+                                }
+                                else {
+                                    this.children[i].classList.add('hidden');
+                                }
+                            }
                         });
-                        }
+                    }
                 </script>
             </body>
         </html>
@@ -72,6 +70,21 @@
     <!-- Modèle pour traiter le contenu du document -->
     <xsl:template match="tei:body">
         <!-- Ajoutez ici le traitement du contenu du document en utilisant apply-templates -->
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <!-- Modèle pour traiter les paragraphes -->
+    <xsl:template match="tei:p">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
+    <!-- Modèle pour traiter les titres de section -->
+    <xsl:template match="tei:head">
+        <h2>
+            <xsl:apply-templates/>
+        </h2>
     </xsl:template>
 
     <!-- Modèles supplémentaires pour les éléments spécifiques du TEI -->
