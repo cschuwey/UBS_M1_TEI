@@ -3,15 +3,46 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title> Manlius </title>
+                <author> Marie-Catherine Desjardins </author>
+                <funder> Université Bretagne Sud </funder>
+                <principal> C.Shuwey </principal>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher> K. CIFCI </publisher>
+                <date when-iso="2023-10-09">09/10/2023</date>
             </publicationStmt>
+            
             <sourceDesc>
-                <p/>
+                <bibl> 
+                    <author> Marie-Catherine Desjardins</author>
+                    <title> Manlius </title>
+                    <publisher> G.Quinet </publisher>
+                    <pubPlace> Paris </pubPlace>
+                    <date when ="1664"> 1664 </date>
+                    <idno type="ark"> ark:/12148/cb31581233s </idno>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc> <p> Projet pédagogique M1, UBS, MLE </p>
+            </projectDesc>
+            <editorialDecl> 
+                <normalization> <p> Nous avons choisi de moderniser le texte.</p></normalization>
+                <p> Nous n'avons pas tenu compte des aspects matériels de l'original</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-09"> Encodage de la scène II de l'acte V.</change>
+            <change when="2023-10-09"> Journal de bord </change>
+            <change when="2023-10-12"> J'ai terminée l'en-tête TEI de Manlius. </change>
+        </revisionDesc>
+        
     </teiHeader>
     <text>
         <front>
@@ -46,7 +77,7 @@
                     <roleDesc>Licteur.</roleDesc>
                 </castItem>
             </castList>
-
+            
             <set>
                 <p>La Scène est au Camp des Romains devant les Tentes du Consul.</p>
             </set>
@@ -60,7 +91,7 @@
                     <sp who="#torquatus">
                         <speaker>TORQUATUS.</speaker>
                         <l>Hé bien, belle inhumaine,</l>
-                        <l>e vous rendrez vous point à la grandeur Romaine ?</l>
+                        <l>Ne vous rendrez vous point à la grandeur Romaine ?</l>
                         <l>Exécuterez-vous d'un coup d'oeil enchanté</l>
                         <l>Ce que Mars et Bellone ont vainement tenté ?</l>
                         <l>Ne puis-je voir cesser un si cruel marture,</l>
@@ -226,3 +257,4 @@
         </body>
     </text>
 </TEI>
+
