@@ -11,14 +11,43 @@
                 <style type="text/css">
                     .hidden{
                     display:none;
-                    }</style>
+                    }
+                    body {
+                    background-color: #eee4ec
+                    }
+                    h1 {
+                    text-align: center;
+                    }
+                    h2 {
+                    text-align: center;
+                    font-size: 28px;
+                    }
+                    h3 {
+                    text-align: center;
+                    font-size: 22px;
+                    }
+                    p {
+                    position: relative;
+                    text-align: baseline;
+                    margin-left: 25%;
+                    margin-right: 25%;
+                    font-size: 18px;
+                    }
+                    .n {
+                    font-style: italic;
+                    }
+                </style>
                 <title>
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
             </head>
             <body>
-                <h1>Les Caractères de La Bruyères</h1>
-                <p>Nombre de variables: <xsl:value-of select="count(//tei:app)"/></p>
+                <br/>
+                <h1><xsl:apply-templates select="//tei:titleStmt/tei:title"/></h1>
+                <h2><xsl:apply-templates select="//tei:div1/tei:head"/></h2>
+                <h3><xsl:apply-templates select="//tei:body/tei:div1/tei:div2/tei:head"/></h3>
+                <br/>
+                <p class="n">Nombre de variables: <xsl:value-of select="count(//tei:app)"/></p>
                 <xsl:apply-templates select="//tei:div3"/>
             </body>
             <script type="text/javascript">
@@ -42,7 +71,7 @@
         </html>
     </xsl:template>
     <xsl:template match="tei:div3/tei:p[position()=1]">
-        <p> (<xsl:value-of select="../@n"/>)<xsl:apply-templates/>
+        <p> (<xsl:value-of select="../@n"/>) <xsl:apply-templates/>
         </p>
     </xsl:template>
     <xsl:template match="tei:div3/tei:p[position()>1]">
@@ -53,7 +82,7 @@
     <xsl:template match="tei:teiHeader"/>
     <xsl:template match="tei:note"/>
     <xsl:template match="tei:app">
-        <span class="changer" style="color:red;">
+        <span class="changer" style="color: #d47171">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -66,5 +95,6 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:app//tei:rdg[not(position()=1)]"/>
-
+    <xsl:template match="tei:div3/tei:p[@source='#edition3']"/>
+    <xsl:template match="tei:div3/tei:p[@source='#edition5']"/>
 </xsl:stylesheet>
