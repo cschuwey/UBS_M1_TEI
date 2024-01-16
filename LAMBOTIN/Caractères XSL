@@ -57,34 +57,39 @@
         </html>
     </xsl:template>
 
-    <!-- Extraire le titre de l'ouvrage -->
-    <xsl:template match="tei:title">
-        <xsl:value-of select="."/>
-    </xsl:template>
-
-    <!-- Extraire le titre du chapitre -->
-    <xsl:template match="tei:div2/tei:head">
-        <xsl:value-of select="."/>
-    </xsl:template>
-
-    <!-- Contenu du document -->
-    <xsl:template match="tei:body">
-        <!-- Ajoutez ici le traitement du contenu du document en utilisant apply-templates -->
-        <xsl:apply-templates/>
-    </xsl:template>
-
-    <!-- Paragraphes -->
-    <xsl:template match="tei:p">
+    <xsl:template match="tei:note"/>
+    <xsl:template match="tei:div3">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
-    <!-- Titres de section -->
-    <xsl:template match="tei:head">
-        <h2>
+    <xsl:template match="tei:div3/tei:p[1]">
+        <p>
+            (
+            <xsl:value-of select="../@n"/>
+            )
             <xsl:apply-templates/>
-        </h2>
+        </p>
     </xsl:template>
-
+    <xsl:template match="tei:div3/tei:p[position()>1]">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="tei:app">
+        <span class="changer" style="color:red;">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:lem">
+        <span>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:app//tei:rdg[1]">
+        <span class="hidden">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:app//tei:rdg[not(position()=1)]"/>
 </xsl:stylesheet>
