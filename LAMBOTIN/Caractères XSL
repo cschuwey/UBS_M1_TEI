@@ -3,7 +3,7 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs" version="2.0">
 
-    <!-- Modèle correspondant à la racine du document -->
+    <!-- Racine du document -->
     <xsl:template match="/">
         <html>
             <head>
@@ -27,16 +27,16 @@
                     }
                 </style>
                 <title>
-                    <!-- Utilisez apply-templates pour extraire le titre de l'ouvrage -->
+                    <!--Extraire le titre -->
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
             </head>
             <body>
                 <h1>
-                    <!-- Utilisez apply-templates pour extraire le titre du chapitre -->
+                    <!-- Extraire le titre du chapitre -->
                     <xsl:apply-templates select="//tei:div2/tei:head"/>
                 </h1>
-                <!-- Appliquez les templates pour le contenu du document -->
+                <!-- Contenu du document -->
                 <xsl:apply-templates select="//tei:body"/>
                 <script type="text/javascript">
                     var elems = document.getElementsByClassName("changer");
@@ -57,36 +57,34 @@
         </html>
     </xsl:template>
 
-    <!-- Modèle pour extraire le titre de l'ouvrage -->
+    <!-- Extraire le titre de l'ouvrage -->
     <xsl:template match="tei:title">
         <xsl:value-of select="."/>
     </xsl:template>
 
-    <!-- Modèle pour extraire le titre du chapitre -->
+    <!-- Extraire le titre du chapitre -->
     <xsl:template match="tei:div2/tei:head">
         <xsl:value-of select="."/>
     </xsl:template>
 
-    <!-- Modèle pour traiter le contenu du document -->
+    <!-- Contenu du document -->
     <xsl:template match="tei:body">
         <!-- Ajoutez ici le traitement du contenu du document en utilisant apply-templates -->
         <xsl:apply-templates/>
     </xsl:template>
 
-    <!-- Modèle pour traiter les paragraphes -->
+    <!-- Paragraphes -->
     <xsl:template match="tei:p">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
 
-    <!-- Modèle pour traiter les titres de section -->
+    <!-- Titres de section -->
     <xsl:template match="tei:head">
         <h2>
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-
-    <!-- Modèles supplémentaires pour les éléments spécifiques du TEI -->
 
 </xsl:stylesheet>
