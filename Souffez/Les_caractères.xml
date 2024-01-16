@@ -245,6 +245,18 @@
                 clés, avec leurs id.</change>
             <change when="2023-11-21">Suppression de la redondance des clés, l'information textuelle
                 a été supprimée, étant déjà donné par les éléments TEI.</change>
+            <change when="2024-01-16">Les paragraphes déplacés s'étaient vus attribués un numéro
+                vide n="\", ce qui apporte des difficultés dans mon travail de XSL. En effet,
+                puisque j'ai le même paragraphe à plusieurs endroits, les cacher me semblent évidant
+                pour éviter la répétition. Ainsi, j'ai changé leur numéro en n="0" et voir si ça
+                marche.</change>
+            <change when="2024-01-16">Finalement, j'ai remis "n=\", car cela me semble plus juste,
+                car ce sont des remarques sans numéro dans le texte actuel. De plus, cela ne n'avait
+                pas résolu le problème initial, car les paragraphes déplacés ne concernaient pas que
+                des div3, mais parfois des p. Finalement, afin d'éviter les doublons, j'ai décidé
+                d'afficher uniquement l'édition 8 en sortie. J'ai également choisi d'enlever les
+                tirets de liaisons d'un même mot entre deux pages, notamment car il apparaissait en
+                sorti et il s'agit d'une information d'affichage, donc non essentiel.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -257,7 +269,7 @@
                         <p source="#edition3 #edition5 #edition8">
                             <g ref="#char_pm0" source="#edition3 #edition5 #edition8"/>Il y a
                             beaucoup plus de vivacité que de goût parmi les hommes ; ou pour mieux
-                            dire, il <pb source="#edition3" n="109"/>y a peu d’hom-<pb
+                            dire, il <pb source="#edition3" n="109"/>y a peu d’hom<pb
                                 source="#edition8" n="66"/>mes dont l’esprit soit accompagné d’un
                                 <pb source="#edition5" n="89"/>goût sûr et d’une critique
                             judicieuse.</p>
