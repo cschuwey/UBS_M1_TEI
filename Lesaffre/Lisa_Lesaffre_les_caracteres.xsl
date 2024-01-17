@@ -8,45 +8,46 @@
             <head>
                 <!-- Style CSS -->
                 <style type="text/css">
-                    .hidden{
-                        display:none;
+                    .hidden {
+                        display: none;
                     }
-                    .head{
-                        display:flex;
-                        justify-content:center;
-                        align-items:center;
-                        flex-direction:row;
-                        color:rgb(48, 84, 150);
-                        font-size:18px;
-                        height:36px;
-                        background:FloralWhite;
-                        font-weight:bold}
-                    .head1{
-                        display:flex;
-                        justify-content:center;
-                        flex-direction:row;
-                        align-items:center;
-                        font-weight:lighter;
-                        font-size:12px;
-                        height:24px;
-                        background:FloralWhite;
+                    .head {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: rgb(48, 84, 150);
+                        font-size: 18px;
+                        height: 36px;
+                        background: FloralWhite;
+                        font-weight: bold;
                     }
-                    .responsive{
-                        background-color:white;
-                        flex-direction:row;
-                        flex-wrap:wrap;
-                        align-content:space-around;
-                        font-size:14px;
-                        transition:background-color 2s, 
+                    .head1 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-weight: lighter;
+                        font-size: 12px;
+                        height: 24px;
+                        background: FloralWhite;
+                    }
+                    .responsive {
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        text-align: justify;
+                        font-size: 14px;
+                        background: white;
+                        transition: background-color 2s, 
                     color 2s;
                     }
-                    .responsive:hover{
-                        background-color:rgb(240, 255, 255);
-                        color:rgb(48, 84, 150);
-                        flex-direction:row;
-                        flex-wrap:wrap;
-                        align-content:space-around;
-                        font-size:14px;
+                    .responsive:hover {
+                        color: rgb(48, 84, 150);
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        text-align: justify;
+                        font-size: 14px;
+                        background: rgb(240, 255, 255);
                     }</style>
 
                 <!-- Titre page -->
@@ -86,7 +87,7 @@
                 <span class="head1">
                     <i>Nombre de variantes encodées : <xsl:value-of select="count(//tei:app)"/></i>
                 </span>
-                <xsl:apply-templates select="//tei:div3"/>
+                    <xsl:apply-templates select="//tei:div3"/>
             </body>
 
             <!-- Script Javascript pour le changement de lem/rdg -->
@@ -130,8 +131,7 @@
     </xsl:template>
     <!--Élément app et ses enfants-->
     <xsl:template match="tei:app">
-        <span class="changer" style="color: maroon;
-            ">
+        <span class="changer" style="color: maroon;">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
