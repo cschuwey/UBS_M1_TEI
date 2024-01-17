@@ -46,8 +46,6 @@
 
     </xsl:template>
 
-    <xsl:template match="tei:teiHeader"/>
-
     <xsl:template match="tei:p">
         <p>
             <xsl:apply-templates/>
