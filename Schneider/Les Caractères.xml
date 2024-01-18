@@ -95,26 +95,33 @@
                     <p>Les div2 correspondent à des chapitres.</p>
                     <p>Les div3 correspondent aux remarques.</p>
                     <p>Les chapitres sont numérotés selon leur position dans l'ouvrage pour faire
-                        apparaître l'ordre, car cela devait être important pour l'auteur de les
-                        placer dans cet ordre-là. De plus, cela permet de mettre en valeur le nombre
-                        exact de chapitres que contient l'ouvrage.</p>
-                    <p>Les parenthèses entourant le numéro des remarques ont été supprimées car ce
-                        n'est pas un élément fait pour le traitement automatique.</p>
+                        apparaître l'ordre, car cela devait être important pour l'auteur et
+                        l'éditeur de les placer dans cet ordre-là. De plus, cela permet de mettre en
+                        valeur le nombre exact de chapitres que contient l'ouvrage.</p>
+                    <p>Dans l'attribut @n, les parenthèses entourant le numéro des remarques ont été
+                        supprimées car ce n'est pas un élément fait pour le traitement
+                        automatique.</p>
                     <p>Il a été choisi d'indiquer les sources de manière explicite, c'est-à-dire
                         intégrées à la fois dans le div3 et le p, afin qu'il n'y ait pas de
                         confusion concernant le moment d'entrée d'un paragraphe dans une
                         édition.</p>
-                    <p>Les notes suivies de l'attribut type sont toutes de l'éditeur numérique car
-                        ces notes ont été rajoutés par rapport à celles de l'auteur et car l'éditeur
-                        a un rôle de médiateur entre le texte et le lecteur pour permettre à ce
-                        dernier d'avoir une lecture fluide (notes de type gloss) et active (notes de
-                        type expl) dans le sens où elle l'aiderait à construire ou entretenir un
-                        mode de réflexion littéraire avancé.</p>
-                    <p>Lorsqu'il y a des variations entre l'édition 7 et l'édition 9, app encadre le
-                        mot entier concerné par la ou les variation(s) car ce travail est réalisé
-                        dans le cadre d'une étude littéraire.</p>
-                    <p>Les clés du chapitre Du Coeur ont été inventées car il n'y en avais pas dans les Clés des Caractères,
-                        d'Escola.</p>
+                    <p>Les notes avec l'attribut @type sont toutes de l'éditrice numérique car ces
+                        notes ont été rajoutés par rapport à celles de l'auteur et car l'éditeur a
+                        un rôle de médiateur entre le texte et le lecteur pour permettre à ce
+                        dernier d'avoir une lecture fluide (notes de type "gloss") et active (notes
+                        de type "expl") dans le sens où elle l'aiderait à construire ou entretenir
+                        un mode de réflexion littéraire avancé.</p>
+                    <p>L'absence de l'élément lem témoigne de la décision de l'éditrice numérique à
+                        ne pas établir une édition faisant autorité sur toutes les autres car elle
+                        estime que tous les textes se valent.</p>
+                    <p>Lorsqu'il y a des variations entre l'édition 7 et l'édition 9, l'élément app
+                        encadre uniquement la partie du mot concernée par la ou les variation(s) car
+                        ce travail est réalisé dans le cadre d'une étude linguistique.</p>
+                    <p>Les clés du chapitre Du Coeur ont été inventées car il n'y en avait pas dans
+                        les Clés des Caractères d'Escola.</p>
+                    <p>L'attribut @type a été rattaché aux éléments rdg pour indiquer les catégories
+                        grammaticales des mots faisant l'objet de variation dans le cadre du projet
+                        de l'étude linguistique.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
@@ -125,17 +132,19 @@
         </profileDesc>
         <revisionDesc>
             <change when="2023-10-10">Ajout des méta-données du fichier.</change>
-            <change when="2023-10-16">Ajout d'une partie de chapitre.</change>
+            <change when="2023-10-16">Ajout d'une partie du chapitre Du Coeur.</change>
             <change when="2023-10-17">Identification des éditions dans lesquelles se retrouvent (ou
                 non) certaines remarques.</change>
-            <change when="2023-10-25">Ajout des notes de La Bruyère et des notes de l'éditeur
+            <change when="2023-10-25">Ajout des notes de La Bruyère et des notes de l'éditrice
                 numérique.</change>
-            <change when="2023-11-07">Ajout de variations de graphie.</change>
+            <change when="2023-11-07">Ajout des variations de graphie.</change>
             <change when="2023-11-07">Définition des fonctions des caractères particuliers :
                 pied-de-mouches, pied-de-mouches à parenthèses simples, pied-de-mouches à
-                parenthèses doubles, manicules.</change>
+                parenthèses doubles et manicules.</change>
             <change when="2023-11-16">Ajout des changements de pages.</change>
-            <change when="2023-11-16">Ajout des clés inventées pour le chapitre Du Coeur.</change>
+            <change when="2023-11-16">Ajout des clés (inventées) pour le chapitre Du Coeur.</change>
+            <change when="2024-01-17">Ajout de l'attribut @type aux rdg pour préciser les catégories
+                grammaticales des variations.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -144,17 +153,18 @@
                 <head>Les caractères ou les moeurs de ce siècle</head>
                 <div2 type="chapitre" n="3">
                     <head>Du Coeur</head>
+                    
                     <div3 n="52" source="#edition9">
                         <p source="#edition9"><g source="#edition9" ref="#char_pm"/> On convie, on
                             invite, on offre sa maison, sa table, son bien et ses services : rien ne
                             coûte qu’à tenir parole.</p>
                     </div3>
-
+                    
                     <div3 n="53" source="#edition7 #edition9">
                         <p source="#edition7 #edition9"><g source="#edition7 #edition9"
-                                ref="#char_pm"/>C’est assez pour soi d’un <app>
-                                <rdg source="#edition7">fidel</rdg>
-                                <rdg source="#edition9">fidele</rdg>
+                                ref="#char_pm"/>C’est assez pour soi d’un fide<app>
+                                <rdg source="#edition7" type="adj">l</rdg>
+                                <rdg source="#edition9" type="adj">le</rdg>
                             </app> ami ; c’est même beaucoup de l’avoir rencontré on ne peut en
                             avoir trop pour le service des autres.</p>
                     </div3>
@@ -179,16 +189,18 @@
                         <p source="#edition7 #edition9"><g source="#edition7 #edition9"
                                 ref="#char_pm"/><seg>Vivre avec ses ennemis comme s’ils devaient un
                                 jour être nos amis, <pb source="#edition7" n="153"/> et vivre avec
-                                nos amis comme s’ils pouvaient devenir nos ennemis, n’est <app>
-                                    <rdg source="#edition7">ny</rdg>                                    
-                                    <rdg source="#edition9">ni</rdg>
+                                nos amis comme s’ils pouvaient devenir nos ennemis, n’est n<app>
+                                    <rdg source="#edition7" type="conj">y</rdg>
+                                    <rdg source="#edition9" type="conj">i</rdg>
                                 </app> selon la nature de la haine, ni selon les règles de l’amitié
-                                ; ce n’est point une maxime morale, mais politique.<note source="#cleAmis"><persName ref="#Fontenelle">Bernard de
-                                    Fontenelle</persName> : « Prétendre traiter un ennemi comme un ami et un
-                                    ami comme un ennemi est fort affligeant quand on sait que <persName ref="#Benserade">M. Isaac
-                                        de Benserade</persName> s’en alla le <date when="1691-10-19">19 octobre 1691</date>, quelques mois
-                                    seulement après la sixième publication de ce torchon.
-                                »</note></seg></p>
+                                ; ce n’est point une maxime morale, mais politique.<note
+                                    source="#cleAmis"><persName ref="#Fontenelle">Bernard de
+                                        Fontenelle</persName> : « Prétendre traiter un ennemi comme
+                                    un ami et un ami comme un ennemi est fort affligeant quand on
+                                    sait que <persName ref="#Benserade">M. Isaac de
+                                        Benserade</persName> s’en alla le <date when="1691-10-19">19
+                                        octobre 1691</date>, quelques mois seulement après la
+                                    sixième publication de ce torchon. »</note></seg></p>
                     </div3>
 
                     <div3 n="56" source="#edition7 #edition9">
@@ -198,9 +210,9 @@
                             d’amis si sûrs et d’une si exacte <seg>probité <note resp="#schneider"
                                     type="gloss">qualité à respecter ses devoirs et/ou le
                                     règlement.</note></seg>, que venant à cesser de l’être, ils ne
-                            veuillent pas abuser de notre confiance, <app>
-                                <rdg source="#edition7">ny</rdg>
-                                <rdg source="#edition9">ni</rdg>                                
+                            veuillent pas abuser de notre confiance, n<app>
+                                <rdg source="#edition7" type="conj">y</rdg>
+                                <rdg source="#edition9" type="conj">i</rdg>
                             </app> se faire craindre comme ennemis.</p>
                     </div3>
 
@@ -231,9 +243,9 @@
 
                     <div3 n="60" source="#edition7 #edition9">
                         <p source="#edition7 #edition9"><g source="#edition7 #edition9"
-                                ref="#char_pm"/><app>
-                                    <rdg source="#edition7">Celuy</rdg>
-                                    <rdg source="#edition9">Celui</rdg>
+                                ref="#char_pm"/>Celu<app>
+                                <rdg source="#edition7" type="pron_demon">y</rdg>
+                                <rdg source="#edition9" type="pron_demon">i</rdg>
                             </app> qui sait attendre le <pb source="#edition7" n="154"/>bien qu’il
                             souhaite, ne prend pas le chemin de se désespérer s’il ne lui arrive pas
                             ; et celui au contraire qui désire une chose avec une grande impatience,
