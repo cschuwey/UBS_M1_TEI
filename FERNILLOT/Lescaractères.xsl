@@ -10,8 +10,8 @@
 
             <head>
                 <title>
-                    <xsl:value-of select="tei:header/tei:fileDesc/tei:titleStmt/tei:title"/>
-                    <xsl:value-of select="/tei:text/tei:body/tei:div1/tei:head"/>
+                    <xsl:value-of select="//tei:header/tei:fileDesc/tei:titleStmt/tei:title"/>
+                    <xsl:value-of select="//tei:text/tei:body/tei:div1/tei:head"/>
                 </title>
                 <style type="text/css">
                     body {
@@ -46,8 +46,8 @@
             </head>
 
             <body>
-                <h1>Les Caractères</h1>
-                <h2>De la Société ou de la Conversation</h2>
+                 <xsl:value-of select="//tei:header/tei:fileDesc/tei:titleStmt/tei:title"/>
+                 <xsl:value-of select="//tei:text/tei:body/tei:div1/tei:head"/>
                 <p>Nombre de variantes : <xsl:value-of select="count(//tei:lem)"/></p>
                 <xsl:apply-templates select="//tei:div3"/>
             </body>
