@@ -3,8 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Les Caractères de Théophraste traduit du grec. Avec les Caractères ou les
-                    moeurs de ce siècle </title>
+                <title type="main">Les Caractères de Théophraste traduit du grec. Avec les
+                    Caractères ou les moeurs de ce siècle </title>
                 <author>Jean de La Bruyère</author>
                 <principal>C. Schuwey</principal>
             </titleStmt>
@@ -41,19 +41,21 @@
                         <publisher>Etienne Michallet</publisher>
                         <date>1694</date>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57577n?rk=214593;2</ref>
-                        <name type="owner" xml:id="unknown">Unknown</name>
+                        <name type="propriétaire" xml:id="inconnu">Inconnu</name>
                     </bibl>
                 </listBibl>
                 <listBibl>
-                    <bibl xml:id="key_XVIIIeme"/>
-                    <bibl xml:id="key_2023"/>
+                    <bibl xml:id="cle_XVIIIeme"/>
+                    <bibl xml:id="cle_2023"/>
                 </listBibl>
                 <listPerson>
                     <person xml:id="françois_de_montmorency_duc_de_Luxembourg">
                         <name>François de Montmorency, Duc de Luxembourg</name>
                         <idno>https://data.bnf.fr/15083085/francois-henri_de_montmorency_bouteville_luxembourg/</idno>
                     </person>
-                    <person xml:id="prince_de_Condé">Prince de Condé</person>
+                    <person xml:id="prince_de_Condé">
+                        <name>Prince de Condé</name>
+                    </person>
                 </listPerson>
                 <listPerson>
                     <person xml:id="une_personne_inconnue">
@@ -94,8 +96,9 @@
                 <normalization>
                     <p>Graphie modernisée</p>
                 </normalization>
-                <normalization>Les notes sont manuscrites et sont toutes présentes dans l'édition
-                    8</normalization>
+                <normalization>
+                    <p>Les notes sont manuscrites et sont toutes présentes dans l'édition 8 </p>
+                </normalization>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -138,7 +141,7 @@
                     <div3 n="23" source="#edition_8">
                         <p><g ref="#char_pm" source="#edition_8"/>Il n’y a rien à la cour de si
                             méprisable et de si indigne <seg>qu’un homme qui ne peut contribuer en
-                                rien à notre fortune<note type="key_2023">Allusion à <persName
+                                rien à notre fortune<note type="cl_2023">Allusion à <persName
                                         ref="#une_personne_inconnue">une personne
                                         inconnue</persName> que La Bruyère doit détester au vu de
                                     son comportement à la Cour et de la richesse, ce qui doit aussi
@@ -148,7 +151,7 @@
                     <div3 n="24" source="#edition_5 #edition_8">
                         <p><g ref="#char_pm" source="#edition_8"/><g ref="#char_pm-par"
                                 source="edition_5"/>Celui qui voit loin derrière soi <note
-                                place="margin" resp="#unknown">Note manuscrite qui est
+                                place="margin" resp="#inconnu">Note manuscrite qui est
                                 illisble</note> un homme de son temps et de sa condition, avec qui
                             il est venu à la cour la première fois, s’il croit avoir une raison
                             solide d’être prévenu de son propre mérite et s’estimer davantage que
@@ -163,7 +166,7 @@
                     <div3 n="26" source="#edition_5 #edition_8">
                         <p><g ref="#char_pm" source="#edition_8"/><g ref="#char_pm-par"
                                 source="edition_5"/>Si celui qui est en faveur ose s’en <note
-                                place="margin" resp="#unknown">Note manuscrite
+                                place="margin" resp="#inconnu">Note manuscrite
                             illisible</note>prévaloir avant qu’elle lui échappe, s’il se sert d’un
                             bon vent qui souffle pour faire son chemin, s’il a les yeux<pb
                                 source="#edition_5" n="263"/> ouverts sur tout ce qui vaque, poste,
@@ -172,7 +175,7 @@
                             et son ambition ; vous dites que tout le tente, que tout lui est propre,
                             aux siens, à ses créatures, et que par le nombre et la diversité des
                             grâces dont il se trouve comblé, lui seul a fait plusieurs<pb
-                                source="#edition_8" n="302"/><note place="margin" resp="#unknown"
+                                source="#edition_8" n="302"/><note place="margin" resp="#inconnu"
                                 >Note manuscrite illisible</note> fortunes. Cependant qu’a-t-il dû
                             faire ? Si j’en juge moins par vos discours que par le parti que vous
                             auriez pris vous-même en pareille situation, c’est qu’il a fait.</p>
@@ -188,8 +191,8 @@
                     <div3 n="27" source="#edition_5 #edition_8">
                         <p><g ref="#char_pm" source="#edition_8"/><g ref="#char_pm-par"
                                 source="#edition_5"/>Il ne faut rien exagérer, n<app>
-                                <rdg source="#edition_5">y</rdg>
                                 <lem>i</lem>
+                                <rdg source="#edition_5">y</rdg>
                                 <rdg source="#edition_8">i</rdg>
                             </app> dire des cours le mal qui n’y est point : l’on n’y attente rien
                             de pis contre le<pb source="#edition_5" n="264"/> vrai mérite que de le
@@ -220,8 +223,8 @@
                                     discret, dans le but d'éviter ses conséquences</note></seg>.
                             Chacun se souvient assez de tout ce que son établissement lui a coûté à
                             faire, ainsi que des secours qui lui en ont frayé le chemin ; on serait m<app>
-                                <rdg source="#edition_5">es</rdg>
                                 <lem>ê</lem>
+                                <rdg source="#edition_5">es</rdg>
                                 <rdg source="#edition_8">ê</rdg>
                             </app>me assez porté à justifier les services qu’on a reçus des uns par
                             ceux qu’en de pareils besoins on rendrait aux autres, si le premier et
@@ -288,7 +291,7 @@
                             faire tomber dans le dernier mépris : je veux dire qu’il n’y en a point
                             qui le dédaignent mieux, qui le blâment plus aigrement, et <seg>qui en
                                 disent plus de mal, que ceux qui s’étaient comme dévoués à la fureur
-                                d’en dire du bien.<note type="#key_XVIIIeme">Allusion au <persName
+                                d’en dire du bien.<note type="#cle_XVIIIeme">Allusion au <persName
                                         ref="#françois_de_montmorency_duc_de_Luxembourg">Duc de
                                         Luxembourg</persName>. <persName
                                         ref="#françois_de_montmorency_duc_de_Luxembourg">François de
