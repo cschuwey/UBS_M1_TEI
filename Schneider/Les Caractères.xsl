@@ -18,10 +18,13 @@
                 </title>
             </head>
             <body>
-                <h1>Les Caractères de La Bruyère</h1>
-                <p>Nombre de variantes : <xsl:value-of select="count(//tei:app)"/></p>
+                <h1 Style="text-align: center;"><i>Les Caractères</i> – Jean de La Bruyère</h1>
+                <h2 Style="text-align: center;">« Du Coeur »</h2>
+                <br></br>
+                <p Style="color:red;text-align: center;">Nombre de variantes : <b><xsl:value-of select="count(//tei:app)"/></b></p>
+                <br></br>
                 <xsl:apply-templates select="//tei:div3"/>
-                <span class="changer"><span>lem</span><span class="hidden">rdg</span></span>
+                <span class="changer"><span></span><span class="hidden"></span></span>
             </body>
             <script type="text/javascript">
                 
