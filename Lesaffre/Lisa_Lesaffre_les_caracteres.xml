@@ -11,7 +11,8 @@
             <publicationStmt>
                 <publisher xml:id="lesaffre">Lisa Lesaffre</publisher>
                 <date when="2023-10-11">12 janvier 2024</date>
-                <authority>Université Bretagne Sud (UBS), Lorient</authority>
+                <authority>Christophe Schuwey<affiliation>Université Bretagne Sud (UBS),
+                        Lorient</affiliation></authority>
             </publicationStmt>
 
             <sourceDesc>
@@ -353,6 +354,8 @@
                     Correction de la syntaxe autour de noteGrp, de la note et des seg qui y sont
                     liés. Ajouts dans l'encodingDesc, notamment pour la normalisation et
                     l'interprétation.</item>
+                <item><date when="2024-01-18">18 janvier 2024</date>Modification de l'élément
+                    authority et ajout d'une balise affiliation dans le publicationStmt.</item>
             </list>
         </revisionDesc>
     </teiHeader>
