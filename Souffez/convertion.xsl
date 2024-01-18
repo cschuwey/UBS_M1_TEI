@@ -10,42 +10,48 @@
             <head>
                 <style type="text/css">
                     .hidden{
-                    display:none;
+                        display:none;
                     }
-                    body {
-                    background-color: #eee4ec;
-                    margin-left: 25%;
-                    margin-right: 25%;
+                    body{
+                        background-color: #eee4ec;
+                        margin-left: 20%;
+                        margin-right: 20%;
+                        font-family: fantasy;
                     }
-                    h1 {
-                    text-align: center;
+                    h1{
+                        text-align:center;
                     }
-                    h2 {
-                    text-align: center;
-                    font-size: 28px;
+                    h2{
+                        text-align:center;
+                        font-size:28px;
                     }
-                    h3 {
-                    text-align: center;
-                    font-size: 22px;
+                    h3{
+                        text-align:center;
+                        font-size:22px;
                     }
-                    p {
-                    position: relative;
-                    text-align: baseline;
-                    font-size: 18px;
+                    p{
+                        position:relative;
+                        text-align:baseline;
+                        font-size:18px;
                     }
-                    .n {
-                    font-style: italic;
-                    }
-                </style>
+                    .n{
+                        font-style:italic;
+                    }</style>
                 <title>
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
             </head>
             <body>
                 <br/>
-                <h1><xsl:apply-templates select="//tei:titleStmt/tei:title"/></h1>
-                <h2><xsl:apply-templates select="//tei:div1/tei:head"/></h2>
-                <h3><xsl:apply-templates select="//tei:body/tei:div1/tei:div2/tei:head"/></h3>
+                <h1>
+                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                </h1>
+                <h2>
+                    <xsl:apply-templates select="//tei:div1/tei:head"/>
+                </h2>
+                <h3>
+                    <xsl:apply-templates select="//tei:body/tei:div1/tei:div2/tei:head"/>
+                </h3>
                 <br/>
                 <p class="n">Nombre de variables: <xsl:value-of select="count(//tei:app)"/></p>
                 <xsl:apply-templates select="//tei:div3"/>
@@ -87,7 +93,9 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:lem">
-        <span><xsl:apply-templates/></span>
+        <span>
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
     <xsl:template match="tei:app//tei:rdg[1]">
         <span class="hidden">
@@ -95,6 +103,9 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:app//tei:rdg[not(position()=1)]"/>
-    <xsl:template match="tei:div3/tei:p[@source='#edition3']"/>
-    <xsl:template match="tei:div3/tei:p[@source='#edition5']"/>
+    <xsl:template match="tei:div3[@n='15']/tei:p[position()=3]"/>
+    <!-- Enlevé, car il s'agit du même paragraphe que le premier p du div3 n="17". J'ai supprimé celui-ci, afin de correspondre à la version de base fourni. -->
+    <xsl:template match="tei:div3[@n='\']"/>
+    <!-- Comme précédemment, il s'agit de paragraphes qui existe ailleurs dans mon extrait, qui existaient en tant que remarque dans l'édition 3. -->
+
 </xsl:stylesheet>
