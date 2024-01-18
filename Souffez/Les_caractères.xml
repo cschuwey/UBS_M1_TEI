@@ -257,6 +257,13 @@
                 d'afficher uniquement l'édition 8 en sortie. J'ai également choisi d'enlever les
                 tirets de liaisons d'un même mot entre deux pages, notamment car il apparaissait en
                 sorti et il s'agit d'une information d'affichage, donc non essentiel.</change>
+            <change when="2024-01-18">Afin de n'afficher que l'édition 8, je demandais de ne pas
+                afficher l'édition 3 et 5, mais on m'a indiqué qu'il s'agissait d'une commande
+                ambiguë. Je me suis rendue compte que je n'avais pas pris le bon angle, il ne s'agit
+                pas d'un problème d'édition, mais que des paragraphes existent deux fois dans
+                l'extrait. Ce n'est pas une édition qui est à cacher, mais les paragraphes qui sont
+                "en trop". J'ai choisi de cacher ceux qui sont issus de l'édition 3, car ils ne
+                correspondent pas à la version de base donnée pour ce travail.</change>
         </revisionDesc>
     </teiHeader>
     <text>
