@@ -29,6 +29,15 @@
                 <title>
                     <!--Extraire le titre -->
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                    <xsl:value-of select="//tei:titleStmt/tei:title"/>
+                    <xsl:value-of select="//tei:div2/tei:head"/>
+<xsl:template match="tei:p">
+    <p>
+        <xsl:variable name="remarqueNum" select="./ancestor::tei:div2/@n"/>
+        <sup>[<xsl:value-of select="$remarqueNum"/>]</sup>
+        <xsl:apply-templates/>
+    </p>
+</xsl:template>
                 </title>
             </head>
             <body>
