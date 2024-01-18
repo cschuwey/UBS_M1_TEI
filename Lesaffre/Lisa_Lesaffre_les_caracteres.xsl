@@ -8,46 +8,44 @@
             <head>
                 <!-- Style CSS -->
                 <style type="text/css">
-                    .hidden {
-                        display: none;
+                    .hidden{
+                        display:none;
                     }
-                    .head {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        color: rgb(48, 84, 150);
-                        font-size: 18px;
-                        height: 36px;
-                        background: FloralWhite;
-                        font-weight: bold;
+                    .head{
+                        display:flex;
+                        justify-content:center;
+                        align-items:center;
+                        color:rgb(48, 84, 150);
+                        font-size:18px;
+                        height:36px;
+                        background:FloralWhite;
+                        font-weight:bold;
                     }
-                    .head1 {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        font-weight: lighter;
-                        font-size: 12px;
-                        height: 24px;
-                        background: FloralWhite;
+                    .head1{
+                        display:flex;
+                        justify-content:center;
+                        align-items:center;
+                        font-weight:lighter;
+                        font-size:12px;
+                        height:24px;
+                        background:FloralWhite;
                     }
-                    .responsive {
-                        display: flex;
-                        flex-wrap: wrap;
-                        flex-direction: row;
-                        text-align: justify;
-                        font-size: 14px;
-                        background: white;
-                        transition: background-color 2s, 
+                    .responsive{
+                        display:block;
+                        text-align:justify;
+                        font-size:14px;
+                        text-indent:3em;
+                        background:white;
+                        transition:background-color 2s, 
                     color 2s;
                     }
-                    .responsive:hover {
-                        color: rgb(48, 84, 150);
-                        display: flex;
-                        flex-wrap: wrap;
-                        flex-direction: row;
-                        text-align: justify;
-                        font-size: 14px;
-                        background: rgb(240, 255, 255);
+                    .responsive:hover{
+                        color:rgb(48, 84, 150);
+                        display:block;
+                        text-align:justify;
+                        text-indent:3em;
+                        font-size:14px;
+                        background:rgb(240, 255, 255);
                     }</style>
 
                 <!-- Titre page -->
@@ -87,7 +85,7 @@
                 <span class="head1">
                     <i>Nombre de variantes encodées : <xsl:value-of select="count(//tei:app)"/></i>
                 </span>
-                    <xsl:apply-templates select="//tei:div3"/>
+                <xsl:apply-templates select="//tei:div3"/>
             </body>
 
             <!-- Script Javascript pour le changement de lem/rdg -->
@@ -111,7 +109,9 @@
     <xsl:template match="tei:teiHeader"/>
     <xsl:template match="tei:div3/tei:p[position() = 1]">
         <p>
-            <b><xsl:value-of select="../@n"/>. </b>
+            <span style="color:rgb(48, 84, 150);">
+                <b><xsl:value-of select="../@n"/>.</b>
+            </span>
             <span class="responsive">
                 <xsl:apply-templates/>
             </span>
