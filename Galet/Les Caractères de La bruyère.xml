@@ -151,16 +151,17 @@
                                 source="edition4"/>
                             <g ref="#char_pdm1"/>Je voudrais voir un homme sobre, modéré, chaste,
                             équitable, prononcer qu’il n’y a point de Dieu : il parlerait du moins
-                            sans <app>
+                            sans <app type="orthographe">
                                 <lem>intérêt</lem>
                                 <rdg wit="#edition6">interêt</rdg>
                                 <rdg wit="#edition4">intereft</rdg>
                             </app>
-                            <app>
+                            <app type="ponctuation">
                                 <lem> ; </lem>
                                 <rdg wit="#edition4">;</rdg>
                                 <rdg wit="#edition6">,</rdg>
                             </app>mais cet homme ne se trouve point.</p>
+                        
                     </div3>
                     <div3 n="12">
                         <p source="#edition4 #edition6"><pb n="409" source="#edition6"/>
@@ -245,7 +246,7 @@
                     <div3 n="20">
                         <p source="#edition4 #edition6"><pb n="411" source="#edition6"/><pb n="570"
                                 source="edition4"/>
-                            <g ref="#char_pdm1"/>Si c’est le grand et le <app>
+                            <g ref="#char_pdm1"/>Si c’est le grand et le <app type="orthographe">
                                 <lem wit="#edMod"> sublime </lem>
                                 <rdg wit="#edition4">∫ublime</rdg>
                                 <rdg wit="#edition6">∫ublime</rdg>
