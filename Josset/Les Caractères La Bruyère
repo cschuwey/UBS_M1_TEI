@@ -3,7 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Les Caractères</title>
+                <title>Les Caractères, traduits du grec, avec Les caractères
+                    ou les moeurs de ce siècle</title>
                 <author xml:id="LaBruyère">La Bruyère</author>
             </titleStmt>
             <publicationStmt>
@@ -40,14 +41,14 @@
                             <pubPlace>Lyon</pubPlace>
                         </imprint>
                     </monogr>
-                
+
                 </biblStruct>
                 <bibl xml:id="cles_fictive">
                     <author>La Bruyère, Jean de</author>
                     <title type="main">Les caractères ou les moeurs de ce siècle.</title>
                     <title type="sub">précédé de Les caractères de Théophraste</title>
                 </bibl>
-                
+
                 <bibl xml:id="clé1692">
                     <author>La Bruyère, Jean de</author>
                     <title type="main">Les caractères ou les moeurs de ce siècle.</title>
@@ -58,61 +59,61 @@
                 <listPerson type="pseudo">
                     <person xml:id="Criton">
                         <name>Criton</name>
-                     
+
 
                     </person>
                     <person xml:id="Périandre">
                         <name>Périandre</name>
-                      
+
                     </person>
                     <person xml:id="Chrysippe">
                         <name>Chrysippe</name>
-                       
+
                     </person>
                     <person xml:id="Ergaste">
                         <name>Ergaste</name>
-                       
+
                     </person>
                     <person xml:id="Brontin">
                         <name>Brontin</name>
-                      
+
                     </person>
                     <person xml:id="Langlée">
                         <name>Langlée</name>
-                      
+
                     </person>
                     <person xml:id="Bossuet">
                         <name>Bossuet</name>
-                      
+
                     </person>
                     <person xml:id="M.Hemardinquer">
                         <name>M. Hemardinquer</name>
-                      
+
                     </person>
                     <person xml:id="lecomptedeGrammont">
                         <name>le compte de Grammont</name>
-                      
+
                     </person>
 
                     <person xml:id="Molière">
                         <name>Molière</name>
-                      
+
                     </person>
                     <person xml:id="LouisXIV">
                         <name>LouisXIV</name>
-                      
+
                     </person>
                     <person xml:id="Orphée">
                         <name>Orphée</name>
-                       
+
                     </person>
-                        <person xml:id="Dieu">
-                            <name>Dieu</name>
-                           
-                        </person>
-                    
+                    <person xml:id="Dieu">
+                        <name>Dieu</name>
+
+                    </person>
+
                 </listPerson>
-                
+
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -190,28 +191,33 @@
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"
                             /> On ne peut mieux <app>
-                                <rdgGrp>
-                                    <lem>user</lem>
-                                    <rdg wit="#edition8">ufer</rdg>
-                                </rdgGrp>
-                            </app> de sa fortune que fait <seg>Périandre<note type="key" source="#clé1692"><persName type="pseudo" ref="#Langlée"
-                                >Mr de Langlée</persName>Fait référence à Monsieur de Langlée</note></seg>
-                                <note resp="#laBruyère" place="margin" type="glossaire"
-                                    source="#edition8"> PERIANDE. Il s'agit d'un certain <persName
-                                        ref="#Langlée" type="key" source="clé_fictive1">Même
-                                        personnage que Périandre.</persName>, que nous retrouverons
-                                    plus loin au chapitre de la Cour : "Les cours ne sauraient se
-                                    passer, etc."</note>: elle <app><rdgGrp><lem>lui</lem><rdg
-                                        wit="#edition8">luy</rdg></rdgGrp></app> donne du rang, du
-                            crédit, de l’autorité ; déjà on ne le prie plus d’accorder son amitié,
-                            implore sa protection. Il a commencé par dire de soi-même : un homme de
-                            ma sorte ; il passe à dire : un homme de ma qualité ; il se donne pour
-                            tel, et il n’y a personne de ceux à qui il prête de l’argent, ou qu’il
-                            reçoit à sa table, qui est délicate, qui <app>
-                                <rdgGrp>
+
+                                <lem>user</lem>
+                                <rdg wit="#edition8">ufer</rdg>
+
+                            </app> de sa fortune que fait <seg>Périandre<note type="key"
+                                    source="#clé1692"><persName type="pseudo" ref="#Langlée">Mr de
+                                        Langlée</persName>Fait référence à Monsieur de
+                                    Langlée</note></seg>
+                            <note resp="#laBruyère" place="margin" type="glossaire"
+                                source="#edition8"> PERIANDE. Il s'agit d'un certain <persName
+                                    ref="#Langlée" type="key" source="clé_fictive1">Même personnage
+                                    que Périandre.</persName>, que nous retrouverons plus loin au
+                                chapitre de la Cour : "Les cours ne sauraient se passer,
+                                etc."</note>: elle <app>
+
+                                <lem>lui</lem>
+                                <rdg wit="#edition8">luy</rdg>
+
+                            </app> donne du rang, du crédit, de l’autorité ; déjà on ne le prie plus
+                            d’accorder son amitié, implore sa protection. Il a commencé par dire de
+                            soi-même : un homme de ma sorte ; il passe à dire : un homme de ma
+                            qualité ; il se donne pour tel, et il n’y a personne de ceux à qui il
+                            prête de l’argent, ou qu’il reçoit à sa table, qui est délicate, qui <app>
+                                
                                     <lem>veuille </lem>
                                     <rdg wit="#edition8">veüille</rdg>
-                                </rdgGrp>
+                                
                             </app> s’y opposer. Sa demeure est superbe ; un dorique règne dans tous
                             ses dehors ; ce n’est pas une porte, c’est un portique : est-ce la
                             maison d’un particulier ? est-ce un temple ? le peuple s’y trompe. Il
@@ -272,9 +278,9 @@
 
                     <div3 source="#edition10 #edition8" type="remarque" n="(24)">
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="edition8"/>
-                            Rien ne fait mieux comprendre le peu de chose que <persName ref="#Dieu" type="key" source="#cle_fictive1"
-                                >Dieu</persName>Dieu croit donner aux
-                            hommes, en leur abandonnant les richesses, l’argent, les grands
+                            Rien ne fait mieux comprendre le peu de chose que <persName ref="#Dieu"
+                                type="key" source="#cle_fictive1">Dieu</persName>Dieu croit donner
+                            aux hommes, en leur abandonnant les richesses, l’argent, les grands
                                     <seg>établissements<note resp="#Josset" place="margin"
                                     type="glossaire" source="#edition10">blabla</note></seg>et les
                             autres biens, que la dispensation qu’il en fait, et le genre d’hommes
@@ -286,9 +292,10 @@
                                     vois si souvent les grandeurs du mond enetre les mains des
                                             <seg>impies<note resp="#Josset" type="key">Personne qui
                                             insulte à la religion. </note></seg>,...ah !qu'il m'est
-                                aisé de comprendre que <persName ref="#Dieu" type="key" source="#cle_fictive1"
-                                    >Dieu</persName>Dieu fait peu d'état de telles faveurs et
-                                    de tous les biens qu'il donne pour la vie préscate !" </note>
+                                    aisé de comprendre que <persName ref="#Dieu" type="key"
+                                        source="#cle_fictive1">Dieu</persName> fait peu d'état de
+                                    telles faveurs et de tous les biens qu'il donne pour la vie
+                                    préscate !" </note>
                             </seg>
                         </p>
                     </div3>
@@ -297,7 +304,7 @@
                     <div3 source="#edition10 #edition8" type="remarque" n="(25)">
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"
-                            />Si vous entrez dans les cuisines, où l’on voit réduit en art et en
+                            /> Si vous entrez dans les cuisines, où l’on voit réduit en art et en
                             méthode le secret de flatter votre goût et de vous faire manger au delà
                             du nécessaire ; si vous examinez en détail tous les apprêts des viandes
                             qui doivent composer le festin que l’on vous prépare ; si vous regardez
@@ -334,7 +341,7 @@
                     <div3 source="#edition10 #edition8" type="remarque" n="(26)">
                         <pb n="116" source="#edition10"/>
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"/>
-                            <seg>Ce garçon <note resp="#laBruyère" place="margin" type="information"
+                            <seg> Ce garçon <note resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">CE GARCON (...)1671.</note></seg> si frais,
                             si fleuri et d’une si belle santé est seigneur d’une abbaye et de dix
                             autres <seg>bénéfices<note resp="#laBruyère" place="margin"
@@ -356,7 +363,7 @@
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"
                                     /><seg><persName ref="#Chrysippe" type="key"
-                                    source="#cle_fictive2">Chrysippe</persName><note
+                                    source="#cle_fictive2"> Chrysippe</persName><note
                                     resp="#laBruyère" place="margin" type="information"
                                     source="#edition8">CHRYSIPPE. (...)BonTemps.</note></seg>, homme
                             nouveau, et le premier noble de sa race, aspirait, il y a trente années,
@@ -429,8 +436,9 @@
                         <pb n="206" source="~edition8"/>
 
                         <p source="#edition8 #edition10"><g ref="#char_pdm1"/><g source="#edition8"/>
-                            <seg>Brontin<note type="key" source="#cles_fictive"><persName ref="#Brontin" type="key" 
-                                    >Intendant des finances en 1689</persName></note><note resp="#laBruyère" place="margin"
+                            <seg> Brontin<note type="key" source="#cles_fictive"><persName
+                                        ref="#Brontin" type="key">Intendant des finances en
+                                        1689</persName></note><note resp="#laBruyère" place="margin"
                                     type="information" source="#edition8"
                                     >BRONTIN.(...)laquais".</note></seg>, dit <seg>le peuple<note
                                     resp="#laBruyère" place="margin" type="information"
