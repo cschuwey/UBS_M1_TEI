@@ -13,6 +13,12 @@
                     .hidden {
                     display: none;
                     }
+                    body {
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    font-size: 16px;
+                    background-color: rgb(236, 229, 219);
+                    }
                 </style>
 
             </head>
@@ -46,7 +52,7 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="tei:teiHeader"> </xsl:template>
+    <xsl:template match="tei:teiHeader"/>
 
     <xsl:template match="tei:p">
         <p>
@@ -57,7 +63,9 @@
     <xsl:template match="tei:note"/>
     
     <xsl:template match="tei:app">
-        <span class="changer"><xsl:apply-templates/></span>
+        <span class="changer">
+            <span style="color:purple>
+                <xsl:apply-templates/></span>
     </xsl:template>
 
     <xsl:template match="tei:rdg">    
@@ -66,9 +74,12 @@
 
     <xsl:template match="tei:lem">     
         <span style="color:yellow">
-            <span><xsl:apply-templates/></span>
+            <span><xsl:apply-templates/>
+            </span>
         </span>
     </xsl:template>
+
+    <xsl:template match="tei:rdg[position()>1]"/>
 
     <xsl:template match="tei:div3/tei:p[position()=1]">
         <p>
