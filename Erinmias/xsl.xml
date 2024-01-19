@@ -8,6 +8,46 @@
                 <style type="text/css">
                     .hidden{
                     display:none;
+                    body {
+                    background-color: #eeeec; 
+                    margin-left: 20%;
+                    margin-right: 20%; 
+                    font-family: fantasy;
+                    ｝
+                    h1{
+                    letter-spacing: 2px; 
+                    word-spacing: 2px; 
+                    color: #000000; 
+                    font-weight: 800; 
+                    text-decoration: none;
+                    font-style: normal;
+                    font-variant: small-caps;
+                    text-align:center;
+                    ｝
+                    h2
+                    text-align:center; 
+                    font-size: 28px;
+                    letter-spacing: 2px;
+                    word-spacing: 2px;
+                    color: #000000;
+                    font-weight: 500; 
+                    text-decoration: none;
+
+                    font-style: normal; font-variant: small-caps;
+                    }
+                    h3
+                    text-align:center;
+                    font-size:22px;
+                    letter-spacing: 2px;
+                    word-spacing: 2px; 
+                    color: #000000;
+                    font-weight: 800;
+                    text-decoration: none;
+                    font-style: normal; 
+                    font-variant: small-caps;
+                    ｝
+                    •n{
+                    font-style:italic;
                     }</style> <title>
                         <xsl:apply-templates
                             select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/>
