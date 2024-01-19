@@ -8,13 +8,15 @@
         <html>
             <head>
                 <title>
-                    <xsl:apply-templates select="//tei:header/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/>
+                    <xsl:apply-templates
+                        select="tei:teiHeader/tei:FileDesc/tei:titleStmt/tei:title[@type='main']"/>
                 </title>
                 
                 <style type="text/css">
                     .hidden {
                     display: none;
                     }
+                    
                     body {
                     background-color: #fffff0;
                     margin-left: 10%;
@@ -22,14 +24,7 @@
                     font-family: Georgia;
                     color: #333;
                     font-size: 20px;
-                    }
-                    h1 {
-                    text-align: center;
-                    font-size: 48px;
-                    margin-top: 20px;
-                    margin-bottom: 15px;
-                    color: #8b4513;
-                    font-family: Georgia;
+                    
                     }
                     h2 {
                     text-align: center;
@@ -39,14 +34,7 @@
                     color: #5f4b32;
                     font-family: Times new roman;
                     }
-                    h3{
-                    text-align:center;
-                    font-size:30px;
-                    margin-top: 10px;
-                    margin-bottom: 8px;
-                    color: #5f4b32;
-                    font-family: Times new roman;
-                    }
+                    
                     p {
                     position: relative;
                     margin-top: 10px;
@@ -59,18 +47,16 @@
                 
             </head>
             <body>
-                <h1>
-                    <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
-                </h1>
+                <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']"/>
+                  
                 <h2>
-                    <xsl:apply-templates select="//tei:div1/tei:head"/>
-                </h2>
-                <h3>
-                    <xsl:apply-templates select="//tei:body/tei:div1/tei:div2/tei:head"/>
-                </h3>
-                
-                <p class="n">Nombre de variables: <xsl:value-of select="count(//tei:app)"/></p>
-                <xsl:apply-templates select="//tei:div3"/>
+                <xsl:value-of select="//tei:div2/tei:head"/>
+                <h2>
+
+                 <p>Nombre de variantes : 
+                    <xsl:value-of select="count(//tei:app)"/>
+                </p>
+                <xsl:apply-templates select="//tei:div3"/>   
             </body>
             
             <script type="text/javascript">
@@ -87,6 +73,7 @@
                 });
                 }</script>
         </html>
+        
     </xsl:template>
     
     <xsl:template match="tei:teiHeader"/>
@@ -99,7 +86,7 @@
   </xsl:template>
     
     <xsl:template match="tei:div3/tei:p[1]">
-        <p> (<xsl:value-of select="../@n"/>) <xsl:apply-templates/>
+        <p> ( <xsl:value-of select="../@n"/> ) <xsl:apply-templates/>
         </p>
     </xsl:template>
     
@@ -108,18 +95,18 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
     <xsl:template match="tei:app">
         <span class="changer" style="color:rgb(172, 221, 217);">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
     
-    <xsl:template match="tei:lem">
-        <span>
-            <xsl:apply-templates/>
-        </span>
+    <xsl:template match="tei:app/tei:lem">
+        <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="tei:app//tei:rdg[1]">
+    
+    <xsl:template match="tei:app//tei:rdg">
         <span class="hidden">
             <xsl:apply-templates/>
         </span>
