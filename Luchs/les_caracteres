@@ -68,6 +68,7 @@
                     </person>
                     <person role="compte" xml:id="tremoille">
                         <name>Louis de La Trémoille</name>
+                        <!-- Je n'ai pas trouvé d'informations sur cet homme, on parle seulement de ses prédécesseurs-->
                     </person>
                 </listPerson>
             </sourceDesc>
@@ -119,7 +120,7 @@
             <change when="2023-11-12">Ajout des glyches et de quelques variations.</change>
         </revisionDesc>
     </teiHeader>
-    
+
     <text>
         <body>
             <div1 type="ouvrage">
@@ -129,7 +130,7 @@
                     <div3 n="1">
                         <!-- (1) -->
                         <p source="#edit1 #edit5 #edit8"><pb source="#edit1" n="287"/><pb
-                            source="#edit5" n="482"/><pb source="#edit8" n="664"/>Les esprits
+                                source="#edit5" n="482"/><pb source="#edit8" n="664"/>Les esprits
                             forts savent-ils qu’on les appelle ainsi par ironie ? <app
                                 type="majuscule">
                                 <lem>Quelle</lem>
@@ -166,8 +167,8 @@
                                 n="483"/>est la terre ; qui n’estiment rien, qui n’aiment rien au
                             delà : gens aussi limités que ce qu’ils appellent leurs possessions ou
                             leur domaine, que l’on mesure, dont on compte les <seg>arpents<note
-                                resp="#luchs" type="glossaire">Ancienne mesure de surface qui
-                                valait, selon les régions, de 35 à 51 ares.</note></seg>, et
+                                    resp="#luchs" type="glossaire">Ancienne mesure de surface qui
+                                    valait, selon les régions, de 35 à 51 ares.</note></seg>, et
                             dont on montre les bornes. Je ne m’étonne pas que des hommes qui
                             s’appuient sur un atome chancellent dans les moindres efforts qu’ils
                             font pour sonder la vérité, si avec des vues si courtes ils ne percent
@@ -189,15 +190,15 @@
                     <div3 n="4">
                         <!-- (4) -->
                         <p source="#edit5 #edit8"><g ref="#char_pdm2"/><seg>Quelques-uns<note
-                            type="cle" source="#cle_1690">(1690) - Servois, suivi par tous les éditeurs
-                            postérieurs, évoque par hypothèse la figure du célèbre voyageur
-                            <persName ref="#bernier"
-                                ><forename>François</forename>
-                                <surname>Bernier</surname></persName>, qui après avoir
-                            publié des Voyages (1670-1671), fit paraître un Abrégé de la
-                            philosophie de Gassendi (1682). Ses voyages avaient été fort
-                            longs (il était notamment resté douze ans auprès du Grand
-                            Mongol). Il était mort en 1680.</note></seg> achèvent de se
+                                    type="cle" source="#cle_1690">(1690) - Servois, suivi par tous
+                                    les éditeurs postérieurs, évoque par hypothèse la figure du
+                                    célèbre voyageur <persName ref="#bernier"
+                                            ><forename>François</forename>
+                                        <surname>Bernier</surname></persName>, qui après avoir
+                                    publié des Voyages (1670-1671), fit paraître un Abrégé de la
+                                    philosophie de Gassendi (1682). Ses voyages avaient été fort
+                                    longs (il était notamment resté douze ans auprès du Grand
+                                    Mongol). Il était mort en 1680.</note></seg> achèvent de se
                             corrompre par de longs voyages, et perdent le peu de religion qui leur
                             restait. Ils voient de jour à autre un nouveau culte, diverses mœurs,
                             diverses cérémonies ; ils ressemblent à ceux qui entrent dans les
@@ -209,7 +210,7 @@
                     <div3 n="5">
                         <!-- (5) -->
                         <p source="#edit5 #edit8"><g ref="#char_pdm2"/><pb source="#edit8" n="667"
-                        />Il y a des hommes qui attendent à être dévots et religieux que tout le
+                            />Il y a des hommes qui attendent à être dévots et religieux que tout le
                             monde se déclare impie et libertin : ce sera alors le parti du vulgaire,
                             ils sauront s’en dégager. La singularité leur plaît dans une matière si
                             sérieuse et si profonde ; ils ne suivent la mode et le train commun que
@@ -225,7 +226,7 @@
                         <p source="#edit1 #edit5 #edit8"><g ref="#char_pdm0"/>L’on doute de Dieu
                             dans une pleine santé, comme l’on doute que ce soit pécher que d’avoir
                             un commerce avec <seg>une personne libre<note resp="#labruyere">Une
-                                fille</note></seg>. Quand l’on devient malade, et que
+                                    fille</note></seg>. Quand l’on devient malade, et que
                             l’hydropisie est formée, l’on quitte sa concubine, et l’on croit en
                             Dieu.</p>
                     </div3>
@@ -240,10 +241,18 @@
                     <div3 n="8">
                         <!-- (8) -->
                         <p source="#edit1 #edit5 #edit8"><g ref="#char_pdm0"/>Toute plaisanterie
-                            dans <seg>un homme mourant<note type="cle" source="#cle_coste">(1687) - Clé des éditions Coste : «<persName ref="#tremoille"><roleName>M. le comte d'Olonne</roleName></persName> dit au lit de mort, quand on vint l'avertir que M. de Cornouaille, vicaire de Saint-Eustache, entrait pour le confesser : "Serai-je encornaillé jusqu'à la mort ?"». L'épisode datait de janvier 1686; G. Servois (III-l, 427) cite un témoignage selon lequel le mot aurait été publiquement rapporté à Chantilly, devant le Grand Condé.</note></seg> est hors de sa <pb source="#edit1" n="289"/>place
-                            : si elle roule sur de certains chapitres, elle est funeste. C’est une
-                            extrême misère que de donner à ses dépens à ceux que l’on laisse le
-                            plaisir d’un bon mot.</p>
+                            dans <seg>un homme mourant<note type="cle" source="#cle_coste">(1687) -
+                                    Clé des éditions Coste : «<persName ref="#tremoille"
+                                            ><roleName>M. le comte d'Olonne</roleName></persName>
+                                    dit au lit de mort, quand on vint l'avertir que M. de
+                                    Cornouaille, vicaire de Saint-Eustache, entrait pour le
+                                    confesser : "Serai-je encornaillé jusqu'à la mort ?"». L'épisode
+                                    datait de janvier 1686; G. Servois (III-l, 427) cite un
+                                    témoignage selon lequel le mot aurait été publiquement rapporté
+                                    à Chantilly, devant le Grand Condé.</note></seg> est hors de sa
+                                <pb source="#edit1" n="289"/>place : si elle roule sur de certains
+                            chapitres, elle est funeste. C’est une extrême misère que de donner à
+                            ses dépens à ceux que l’on laisse le plaisir d’un bon mot.</p>
                         <p source="#edit8">(VI) Dans quelque prévention où l’on puisse être sur ce
                             qui doit suivre la mort, c’est une chose bien sérieuse que de mourir :
                             ce n’est point alors le badinage qui sied bien, mais la constance.</p>
@@ -255,7 +264,7 @@
                             temps de ces gens d’un bel esprit et d’une agréable littérature,
                             esclaves des grands, <pb source="#edit5" n="486"/>dont ils ont épousé le
                             libertinage et porté <seg>le joug<note resp="#luchs" type="glossaire"
-                                >Contrainte matérielle ou morale.</note></seg> toute leur vie,
+                                    >Contrainte matérielle ou morale.</note></seg> toute leur vie,
                             contre leurs propres lumières et contre leur conscience. Ces hommes
                             n’ont jamais vécu que pour d’autres hommes, et ils semblent les avoir
                             regardés comme leur dernière fin. Ils ont eu honte de se sauver à leurs
@@ -271,9 +280,9 @@
                     <div3 n="10">
                         <!-- (10) -->
                         <p source="#edit1 #edit5 #edit8"><g ref="#char_pdm0"/><app>
-                            <lem>J’exigerais</lem>
-                            <rdg source="#edit1 #edit5 #edit8">J'exigerois</rdg>
-                        </app> de ceux qui vont contre le train commun et les grandes règles
+                                <lem>J’exigerais</lem>
+                                <rdg source="#edit1 #edit5 #edit8">J'exigerois</rdg>
+                            </app> de ceux qui vont contre le train commun et les grandes règles
                             qu’il sussent plus que les autres, qu’ils eussent des raisons claires,
                             et de ces arguments qui emportent conviction.</p>
                     </div3>
