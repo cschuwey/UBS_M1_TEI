@@ -1,7 +1,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0">
     <xsl:output method="html" encoding="UTF-8"/>
-
+    <xsl:strip-space elements="*"/>
     <xsl:template match="/tei:TEI">
         <html>
             <head>
@@ -20,7 +20,6 @@
                         padding: auto;
                         font-size: 14px;
                     }
-                    
                     .title,
                     .subtitle {
                         text-align: center;
@@ -28,17 +27,14 @@
                         margin-top: 1rem;
                         margin-bottom: 1rem;
                     }
-                    
                     .title {
                         font-size: 2em;
                         color: #333;
                     }
-                    
                     .subtitle {
                         font-size: 1.5em;
                         color: #555;
                     }
-                    
                     .remarque {
                         margin: 1.5rem auto;
                         max-width: 600px;
@@ -47,7 +43,6 @@
                         border: 1px solid #ddd;
                         text-align: justify;
                     }
-                    
                     .variant {
                         color: red;
                         cursor: pointer;
@@ -56,11 +51,9 @@
                         color: blue;
                         cursor: pointer;
                     }
-                    
                     .hidden {
                         display: none;
-                    }
-                </style>
+                    }</style>
                 <script type="text/javascript">
                     function toggleVisibility(className) {
                         var elems = document.getElementsByClassName(className);
@@ -75,7 +68,6 @@
                             });
                         }
                     }
-                    
                     window.onload = function () {
                         toggleVisibility("variant");
                         toggleVisibility("key");
@@ -115,7 +107,6 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-
     <xsl:template match="tei:app">
         <span class="variant">
             <xsl:apply-templates select="tei:lem"/>
@@ -124,7 +115,6 @@
             <xsl:apply-templates select="tei:rdg"/>
         </span>
     </xsl:template>
-
     <xsl:template match="tei:app[@type = 'clé']">
         <span class="key">
             <xsl:apply-templates select="tei:lem"/>
@@ -133,10 +123,8 @@
             <xsl:apply-templates select="tei:rdg"/>
         </span>
     </xsl:template>
-
     <xsl:template match="tei:lem | tei:rdg | tei:g">
         <xsl:value-of select="."/>
-
     </xsl:template>
     <xsl:template match="tei:note">
         <xsl:variable name="noteNumber">
@@ -147,5 +135,4 @@
         <xsl:text>]</xsl:text>
         <!-- Je n'ai pas réussi avec python a affiché les notes en bas de page comme je le souhaitais initiallement -->
     </xsl:template>
-
 </xsl:stylesheet>
