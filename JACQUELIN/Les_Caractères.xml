@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">Les Caractères de Théophraste</title>
-                <title type="sub">Traduits du grec, Avec les Caractères ou les Moeurs de ce
+                <title type="sub">, traduits du grec, avec les Caractères ou les Mœurs de ce
                     siècle</title>
                 <author xml:id="labruyere">Jean de La Bruyère</author>
             </titleStmt>
@@ -15,14 +15,14 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl xml:id="edition1"><title>Les caractères de Théophraste, traduits du grec, avec
-                        Les caractères ou les moeurs de ce siècle</title>, <author>La
+                        Les caractères ou les mœurs de ce siècle</title>, <author>La
                         Bruyère</author>, <edition>Première édition</edition>, <date when="1688"
                         >1688</date>
                     <publisher xml:id="michallet">Estienne Michallet</publisher>,
                         <pubPlace>Paris</pubPlace>
                     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459"
                         >https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=21459</ref></bibl>
-                <bibl xml:id="edition9"><title>Les caractères ou les moeurs de ce siècle. Précédé de
+                <bibl xml:id="edition9"><title>Les caractères ou les mœurs de ce siècle. Précédé de
                         Les caractères de Théophraste</title>, <author>La Bruyère</author>,
                         <edition>Neuvième édition</edition>, <date when="1696">1696</date>
                     <publisher>Estienne Michallet</publisher>, <pubPlace>Paris</pubPlace>
@@ -114,17 +114,17 @@
                 <div2 type="chapter" n="12">
                     <head>Des Jugements</head>
 
+        <!-- Nous pouvons trouver dans cette remarque un personnage ainsi qu'une note -->
                     <div3 n="64" source="#edition9">
                         <p><g ref="#char_pdm"/>Hérille, soit qu’il parle, qu’il <seg
-                                type="glossaire" resp="#jacquelin">harangue<note>harangue : discours
-                                    solennel prononcé devant une assemblée, un haut
-                                    personnage</note></seg> ou qu’il écrive, veut citer : il fait
-                            dire au Prince des philosophes que le vin enivre, et à l’Orateur romain
-                            que l’eau le tempère. S’il se jette dans la morale, ce n’est pas lui,
-                            c’est le divin <seg type="index" resp="#jacquelin"
-                                    >Platon<note>Philosophe grec du Vème siècle (né en -428/-427,
-                                    mort en -348/-347)</note></seg> qui assure que la vertu est
-                            aimable, le vice odieux ; ou que l’un et l’autre se tournent en
+                            type="glossaire" resp="#jacquelin">harangue<note>harangue : discours
+                            solennel prononcé devant une assemblée, un haut personnage</note></seg>
+                            ou qu’il écrive, veut citer : il fait dire au Prince des philosophes que
+                            le vin enivre, et à l’Orateur romain que l’eau le tempère. S’il se jette
+                            dans la morale, ce n’est pas lui, c’est le divin <seg type="index"
+                            resp="#jacquelin">Platon<note>Philosophe grec du Vème siècle
+                            (né en -428/-427, mort en -348/-347)</note></seg> qui assure que la vertu
+                            est aimable, le vice odieux ; ou que l’un et l’autre se tournent en
                             habitude. Les choses les plus communes, les plus triviales, et qu’il est
                             même capable de penser, il veut les devoir aux anciens, aux Latins, aux
                             Grecs ; ce n’est ni pour donner plus d’autorité à ce qu’il dit, ni
@@ -141,43 +141,42 @@
                             admirer, on admire.</p>
                     </div3>
                     <div3 n="66" source="#edition9">
-                        <p><g ref="#char_pdm"/>On a dit de <seg type="index" resp="#jacquelin"
-                                    >Socrate<note>Philosophe grec du Vème siècle (né vers -470/469,
-                                    mort en -399)</note></seg> qu’il était en délire, et que c’était
+                        <p><g ref="#char_pdm"/>On a dit de <seg type="index" resp="#jacquelin">
+                            Socrate<note>Philosophe grec du Vème siècle (né vers -470/469,mort
+                            en -399)</note></seg> qu’il était en délire, et que c’était
                             un fou tout plein d’esprit ; mais ceux des <seg source="#edition9"
-                                type="manuscript" resp="#labruyere">Grecs<note place="inline"
-                                    >Blablabla</note></seg> qui parlaient ainsi d’un homme si sage
-                            passaient pour fous. Ils disaient : « Quels bizarres portraits nous fait
-                            ce philosophe ! quels mœurs étranges et particulières ne décrit-il point
-                                !<pb n="350" source="#edition9"/> où a-t-il rêvé, creusé, rassemblé
+                            type="manuscript" resp="#labruyere">Grecs<note place="inline">Blablabla
+                            </note></seg> qui parlaient ainsi d’un homme si sage passaient pour fous.
+                            Ils disaient : « Quels bizarres portraits nous fait
+                            ce philosophe ! quels mœurs étranges et particulières ne décrit-il point !
+                            <pb n="350" source="#edition9"/> où a-t-il rêvé, creusé, rassemblé
                             des idées si extraordinaires ? quelles couleurs ! quel pinceau ! ce sont
                             des chimères. » Ils se trompaient : c’étaient des monstres, c’étaient
                             des vices, mais peints au naturel ; on croyait les voir, ils faisaient
                             peur. Socrate s’éloignait du cynique ; il épargnait les personnes, et
                             blâmait les mœurs qui étaient mauvaises.</p>
                     </div3>
+                    
+        <!-- Nous pouvons trouver dans cette remarque une note de type "clé" (notée "key") -->
                     <div3 n="67" source="#edition9">
                         <p><g ref="#char_pdm"/>Celui qui est riche par son savoir-faire connaît
-                                <seg>un philosophe<note type="key"><persName type="key"
-                                        source="#key_1698-1690" ref="#socrate">Socrate</persName>
-                                    dans clé de 1689/1690</note></seg>, ses précèptes, sa morale et
-                            sa conduite, et n’imaginant pas dans tous les hommes une autre fin de
-                            toutes leurs actions que celle qu’il s’est proposée lui-même toute sa
-                            vie, dit en son cœur : « Je le plains, je le tiens échoué, ce rigide
-                            censeur ; il s’égare, et il est hors de route ; ce n’est pas ainsi qu’on
-                            prend le vent et que l’on arrive au délicieux port de la fortune » ; et
-                            selon ses principes il raisonne juste.</p>
+                           <seg>un philosophe<note type="key"><persName type="key" ref="#key_1698-1690">
+                           Socrate</persName> dans clé de 1689/1690</note></seg>, ses précèptes,
+                            sa morale et sa conduite, et n’imaginant pas dans tous les hommes une
+                            autre fin de toutes leurs actions que celle qu’il s’est proposée lui-même
+                            toute sa vie, dit en son cœur : « Je le plains, je le tiens échoué,
+                            ce rigide censeur ; il s’égare, et il est hors de route ; ce n’est
+                            pas ainsi qu’on prend le vent et que l’on arrive au délicieux port
+                            de la fortune » ; et selon ses principes il raisonne juste.</p>
                         <p>"Je pardonne, dit <seg>Antisthius<note type="key"><persName type="key"
-                                        source="#key_1689-1690" ref="#antisthius #labruyere"
-                                        >Antisthius </persName>correspondrait à La Bruyère lui-même
-                                    selon diverses clés (voir également clé 27 de Des Jugements)
-                                </note></seg>, à ceux que j’ai loués dans mon ouvrage s’ils
-                            m’oublient : qu’ai-je fait pour eux ? ils étaient louables. Je le
-                            pardonnerais moins à tous ceux dont j’ai attaqué les vices sans toucher
-                            à leurs personnes, s’ils me devaient un aussi grand bien que celui
-                            d’être corrigés ; mais comme c’est un événement qu’on ne voit point, il
-                            suit de là que ni les uns ni les autres ne sont tenus de me faire du
-                            bien.</p>
+                            ref="#key_1689-1690">Antisthius </persName>correspondrait à La Bruyère
+                            lui-même selon diverses clés (voir également clé 27 de Des Jugements)
+                        </note></seg>, à ceux que j’ai loués dans mon ouvrage s’ils m’oublient :
+                            qu’ai-je fait pour eux ? Ils étaient louables. Je le pardonnerais moins
+                            à tous ceux dont j’ai attaqué les vices sans toucher à leurs personnes,
+                            s’ils me devaient un aussi grand bien que celui d’être corrigés ; mais
+                            comme c’est un événement qu’on ne voit point, il suit de là que ni les
+                            uns ni les autres ne sont tenus de me faire du bien.</p>
                         <p>« L’on peut, ajoute ce philosophe, envier ou refuser à me écrits leur
                             récompense : on ne saurait en diminuer la réputation ; et si on le fait,
                             qui m’empêchera de le mépriser ? ».</p>
@@ -190,9 +189,11 @@
                             idée propre et convenable, de lui concilier toute l’estime qui lui est
                             due.</p>
                     </div3>
+                    
+        <!-- Nous pouvons trouver dans cette remarque un changement de page dans une remarque -->
                     <div3 n="69" source="#edition9">
                         <p><g ref="#char_pdm"/>Il y a une philosophie qui nous élève au-<pb n="351"
-                                source="#edition9" rend="tiret"/>dessus de l’ambition et de la
+                            source="#edition9" rend="tiret"/>dessus de l’ambition et de la
                             fortune, qui nous égale, que dis-je ? qui nous place plus haut que les
                             riches, que les grands et que les puissants ; qui nous fait négliger les
                             postes et ceux qui les procurent ; qui nous exempte de désirer, de
@@ -206,28 +207,14 @@
                             penser de certaines gens qu’ils sont incapables de parler juste, et de
                             condamner ce qu’ils disent, ce qu’ils ont dit, et ce qu’ils diront.</p>
                     </div3>
+                    
+        <!-- Nous pouvons trouver dans cette remarque trois variantes -->
                     <div3 n="71" source="#edition1 #edition9">
                         <p><g ref="#char_pdm"/>Nous n’approuvons les autres que par les rapports que
-                            nous sentons qu’ils ont avec <app>
-                                <rdgGrp>
-                                    <lem>nous-mêmes</lem>
-                                    <rdg source="#edition9">nous-mêmes</rdg>
-                                </rdgGrp>
-                                <rdg source="#edition1">nous-mesmes</rdg>
-                            </app> ; <app>
-                                <lem>et</lem>
-                                <rdgGrp>
-                                    <rdg source="#edition9">et</rdg>
-
-                                    <rdg source="#edition1">&amp;</rdg>
-                                </rdgGrp>
-                            </app> il semble qu’estimer quelqu’un, c’est l’égaler à <app>
-                                <lem>soi</lem>
-                                <rdgGrp>
-                                    <rdg source="#edition1">soy</rdg>
-                                    <rdg source="#edition9">soy</rdg>
-                                </rdgGrp>
-                            </app>.</p>
+                            nous sentons qu’ils ont avec <app><lem>nous-mêmes</lem><rdg source="#edition1">
+                            nous-mesmes</rdg></app> ; <app><lem>et</lem><rdg source="#edition1">&amp;</rdg>
+                            </app> il semble qu’estimer quelqu’un, c’est l’égaler à <app><lem>soi</lem>
+                            <rdg source="#edition1 #edition9">soy</rdg></app>.</p>
                     </div3>
                     <div3 n="72" source="#edition9">
                         <p><g ref="#char_pdm"/>Les mêmes défauts, qui dans les autres sont lourds et
@@ -248,16 +235,15 @@
                     </div3>
                     <div3 n="74" source="#edition9">
                         <p><g ref="#char_pdm"/>Le guerrier et le politique, non plus que le joueur
-                            habile, ne font pas le hasard, mais ils le <pb n="352"
-                                source="#edition9"/> préparent, ils l’attirent, et semblent presque
-                            le déterminer. Non seulement ils savent ce que le sot et le poltron
-                            ignorent, je veux dire se servir du hasard quand il arrive ; ils savent
-                            même profiter, par leurs précautions et leurs mesures, d’un tel ou d’un
-                            tel hasard, ou de plusieurs tout à la fois. Si ce point arrive, ils
-                            gagnent ; si c’est cet autre, ils gagnent encore ; un même point souvent
-                            les fait gagner de plusieurs manières. Ces hommes sages peuvent être
-                            loués de leur bonne fortune comme de leur bonne conduite, et le hasard
-                            doit être récompensé en eux comme la vertu.</p>
+                            habile, ne font pas le hasard, mais ils le <pb n="352" source="#edition9"/>
+                            préparent, ils l’attirent, et semblent presque le déterminer. Non seulement
+                            ils savent ce que le sot et le poltron ignorent, je veux dire se servir du
+                            hasard quand il arrive ; ils savent même profiter, par leurs précautions
+                            et leurs mesures, d’un tel ou d’un tel hasard, ou de plusieurs tout à la
+                            fois. Si ce point arrive, ils gagnent ; si c’est cet autre, ils gagnent
+                            encore ; un même point souvent les fait gagner de plusieurs manières. Ces
+                            hommes sages peuvent être loués de leur bonne fortune comme de leur bonne
+                            conduite, et le hasard doit être récompensé en eux comme la vertu.</p>
                     </div3>
 
                 </div2>
