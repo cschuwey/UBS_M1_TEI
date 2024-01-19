@@ -5,7 +5,7 @@
             <titleStmt>
                 <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
                     moeurs de ce siècle.</title>
-                <author xml:id="Jean">La Bruyère, Jean de (1645-1696)</author>
+                <author xml:id="Jean">Jean de La Bruyère (1645-1696)</author>
             </titleStmt>
             <publicationStmt>
                 <publisher xml:id="C_Galet">C. Galet</publisher>
@@ -27,7 +27,7 @@
                     <date when-iso="2018-08-05">05/08/2018</date>
                 </bibl>
                 <bibl xml:id="edition6">
-                    <author>La Bruyère, Jean de (1645-1696)</author>
+                    <author>Jean de La Bruyère (1645-1696)</author>
                     <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
                         moeurs de ce siècle.</title>
                     <title type="subtitle">Sixième Edition</title>
@@ -40,9 +40,9 @@
                     <publisher>Bibliothèque nationale de France.</publisher>
                     <date when-iso="2007-10-15">15/10/2007</date>
                 </bibl>
-                <bibl xml:id="1696">
+                <bibl>
                     <date when-iso="1696">1696</date>
-                    <source>Clés des Caractères</source>
+                    <title>Clés des Caractères</title>
                     <author>Escola</author>
                 </bibl>
                 <bibl xml:id="coste">
@@ -76,6 +76,8 @@
                     les div3.</p>
                 <p>les éditions sont caractérisées par l'attribut "source" dans la balise p de
                     chaque remarque.</p>
+                <p>Le nom des personnes qui ont effectué des remarques sur les remarques de La
+                    Bruyère sont identifiées par l'attribut xml:id</p>
             </editorialDecl>
             <charDecl>
                 <glyph xml:id="char_pdm1">
@@ -127,8 +129,13 @@
             <change when="2023-11-09">Ajout de variations dans des remarques avec les balise app,
                 lem et rdg, avec l'attribut wit pour les variantes dans les différentes
                 éditions.</change>
-            <change when="2023-11-23">Modification de la la clé dans la troisème Bibl dans SourceDesc.</change>
-            <change when="2023-11-23">Modification de l'attribut type "key" et des informations dans la clé.</change>
+            <change when="2023-11-23">Modification de la clé dans la troisème Bibl qui se trouve
+                dans SourceDesc.</change>
+            <change when="2023-11-23">Modification de l'attribut type "key" et des informations dans
+                la clé</change>
+            <change when="2023-12-05">Modification du document XSL</change>
+            <change when="2024-01-05">Révision du document pour le dossier</change>
+            <change when="2024-01-18">Révisions finales du document pour le dossier</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -139,39 +146,45 @@
                     <head>Des Esprits Forts</head>
 
 
-                    <div3 type="remarque" n="(11)">
-                        <p source="#edition4 #edition6"> (11)<pb n="409" source="#edition6"/><pb
-                                n="569" source="edition4"/>
+                    <div3 type="remarque" n="11">
+                        <p source="#edition4 #edition6"><pb n="409" source="#edition6"/><pb n="569"
+                                source="edition4"/>
                             <g ref="#char_pdm1"/>Je voudrais voir un homme sobre, modéré, chaste,
                             équitable, prononcer qu’il n’y a point de Dieu : il parlerait du moins
-                            sans <app><lem>intérêt</lem><rdg wit="#edition6">interêt</rdg><rdg
-                                    wit="#edition4">intereft</rdg></app>
-                            <app><lem> ; </lem><rdg wit="#edition4">;</rdg><rdg wit="#edition6"
-                                    >,</rdg></app>mais cet homme ne se trouve point.</p>
+                            sans <app>
+                                <lem>intérêt</lem>
+                                <rdg wit="#edition6">interêt</rdg>
+                                <rdg wit="#edition4">intereft</rdg>
+                            </app>
+                            <app>
+                                <lem> ; </lem>
+                                <rdg wit="#edition4">;</rdg>
+                                <rdg wit="#edition6">,</rdg>
+                            </app>mais cet homme ne se trouve point.</p>
                     </div3>
                     <div3 n="12">
-                        <p source="#edition4 #edition6">(12)<pb n="409" source="#edition6"/>
+                        <p source="#edition4 #edition6"><pb n="409" source="#edition6"/>
                             <g ref="#char_pdm1"/>J’aurais une extrême curiosité de voir celui qui
                             serait persuadé que <seg> Dieu n’est point<note source="#Jean">contenu
                                     de la note.</note></seg> : il me dirait du moins la raison
                             invincible qui a su le convaincre.</p>
                     </div3>
                     <div3 n="13">
-                        <p source="#edition4 #edition6">(13)<pb n="410" source="#edition6"/><pb
-                                n="569" source="edition4"/>
+                        <p source="#edition4 #edition6"><pb n="410" source="#edition6"/><pb n="569"
+                                source="edition4"/>
                             <g ref="#char_pdm1"/>L’impossibilité où je suis de prouver que Dieu
                             n’est pas me découvre son existence.</p>
                     </div3>
                     <div3 n="14">
-                        <p source="#edition4 #edition6">(14)<pb n="410" source="#edition6"/><pb
-                                n="569" source="edition4"/>
+                        <p source="#edition4 #edition6"><pb n="410" source="#edition6"/><pb n="569"
+                                source="edition4"/>
                             <g ref="#char_pdm1"/>Dieu condamne et punit ceux qui l’offensent, seul
                             juge en sa propre cause : ce qui répugne, s’il n’est lui-même la justice
                             et la vérité, c’est-à-dire s’il n’est Dieu.</p>
                     </div3>
                     <div3 n="15">
-                        <p source="#edition4 #edition6"> (15)<pb n="410" source="#edition6"/><pb
-                                n="569" source="edition4"/>
+                        <p source="#edition4 #edition6"><pb n="410" source="#edition6"/><pb n="569"
+                                source="edition4"/>
                             <g ref="#char_pdm1"/>Je sens qu’il y a un Dieu, et je ne sens pas qu’il
                             n’y en ait point ; cela me suffit, tout le raisonnement du monde m’est
                             inutile : <seg>je conclus que Dieu existe.<note source="#Jean">contenu
@@ -185,10 +198,10 @@
                     </div3>
 
                     <div3 n="16">
-                        <p source="#edition4 #edition6">(16)<pb n="410" source="#edition6"/><pb
-                                n="570" source="edition4"/><g ref="#char_pdm1"/><seg>L’athéisme
-                                n’est point.<note type="glossaire" source="#C_Galet">L'athéisme est
-                                    le refus de l'existence de Dieu.</note></seg> Les grands, qui en
+                        <p source="#edition4 #edition6"><pb n="410" source="#edition6"/><pb n="570"
+                                source="edition4"/><g ref="#char_pdm1"/><seg>L’athéisme n’est
+                                    point.<note type="glossaire" source="#C_Galet">L'athéisme est le
+                                    refus de l'existence de Dieu.</note></seg> Les grands, qui en
                             sont le plus soupçonnés, sont trop paresseux pour décider en leur esprit
                             que Dieu n’est pas ; leur indolence va jusqu’à les rendre froids et
                             indifférents sur cet article si capital,<pb n="411" source="#editio6"/>
@@ -198,7 +211,7 @@
                     </div3>
                     <div3 n="17">
                         <!-- les deux remarques ci-dessous ne figurent plus dans le chapitre Des Esprits Forts. -->
-                        <p>(17)<g ref="#char_pdm1"/> Nous n’avons pas trop de toute notre santé, de
+                        <p><g ref="#char_pdm1"/> Nous n’avons pas trop de toute notre santé, de
                             toutes nos forces et de tout notre esprit pour penser aux hommes ou au
                             plus petit intérêt : il semble au contraire que la bienséance et la
                             coutume exigent de nous que nous ne pensions à Dieu que dans un état où
@@ -206,7 +219,7 @@
                             qu’il n’y en a plus.</p>
                     </div3>
                     <div3 n="18">
-                        <p>(18) <g ref="#char_pdm1"/>
+                        <p><g ref="#char_pdm1"/>
                             <seg><note type="key">il s'agit de<persName ref="#deLouvois"
                                         source="#1696">M. de Louvois</persName>ou de<persName
                                         ref="#deSeignelay" source="#1696">M. de
@@ -222,8 +235,8 @@
                             remplies, et par qui.</p>
                     </div3>
                     <div3 n="19">
-                        <p source="#edition4 #edition6">(19)<pb n="411" source="#edition6"/><pb
-                                n="570" source="edition4"/><g ref="#char_pdm1"/>
+                        <p source="#edition4 #edition6"><pb n="411" source="#edition6"/><pb n="570"
+                                source="edition4"/><g ref="#char_pdm1"/>
                             <seg><note><persName type="key">nom</persName></note></seg> Les hommes
                             sont-ils assez bons, assez fidèles, assez équitables, pour mériter toute
                             notre confiance, et ne nous pas faire désirer du moins que Dieu existât,
@@ -231,25 +244,26 @@
                             nous en sommes persécutés ou trahis ?</p>
                     </div3>
                     <div3 n="20">
-                        <p source="#edition4 #edition6">(20)<pb n="411" source="#edition6"/><pb
-                                n="570" source="edition4"/>
-                            <g ref="#char_pdm1"/>Si c’est le grand et le <app><lem wit="#edMod">
-                                    sublime </lem><rdg wit="#edition4">∫ublime</rdg>
-                                <rdg wit="#edition6">∫ublime</rdg></app> de la religion qui éblouit
-                            ou qui confond les esprits forts, ils ne sont plus <pb n="571"
-                                source="edition4"/> des esprits forts, mais de faibles génies et de
-                            petits esprits ; et si c’est au contraire ce qu’il y a d’humble et de
-                            simple qui les rebute, ils sont à la vérité des esprits forts, et plus
-                            forts que tant de grands hommes si éclairés, si élevés, et néanmoins si
-                                fidèles,<seg>que les Léons, les Basiles, les Jéromes, les
-                                    Augustins.<note type="explication" source="#C_Galet">Les
-                                    Augustins viennent de l'ordre de Saint Augustin, qui est un
+                        <p source="#edition4 #edition6"><pb n="411" source="#edition6"/><pb n="570"
+                                source="edition4"/>
+                            <g ref="#char_pdm1"/>Si c’est le grand et le <app>
+                                <lem wit="#edMod"> sublime </lem>
+                                <rdg wit="#edition4">∫ublime</rdg>
+                                <rdg wit="#edition6">∫ublime</rdg>
+                            </app> de la religion qui éblouit ou qui confond les esprits forts, ils
+                            ne sont plus <pb n="571" source="edition4"/> des esprits forts, mais de
+                            faibles génies et de petits esprits ; et si c’est au contraire ce qu’il
+                            y a d’humble et de simple qui les rebute, ils sont à la vérité des
+                            esprits forts, et plus forts que tant de grands hommes si éclairés, si
+                            élevés, et néanmoins si fidèles,<seg>que les Léons, les Basiles, les
+                                Jéromes, les Augustins.<note type="explication" source="#C_Galet"
+                                    >Les Augustins viennent de l'ordre de Saint Augustin, qui est un
                                     ordre mendiant relevant du Siège Apostolique et non de l'Evêque
                                     du Diocèse.</note></seg></p>
                     </div3>
                     <div3 n="21">
-                        <p source="#edition4 #edition6">(21)<pb n="411" source="#edition6"/><pb
-                                n="571" source="edition4"/>
+                        <p source="#edition4 #edition6"><pb n="411" source="#edition6"/><pb n="571"
+                                source="edition4"/>
                             <g ref="#char_pdm1"/>« Un Père de l’Eglise, un docteur de l’Eglise,
                             quels noms ! quelle tristesse dans leurs écrits ! <seg> quelle
                                 sécheresse, quelle froide dévotion, et peut-être quelle scolastique
