@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste traduits du grec : avec les caractères ou les
+                    moeurs de ce siècle</title>
+                <author xml:id="jb">Jean de La Bruyère</author>
+                <editor>Thomas Amaulry</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="md">M. Doisy</publisher>
+                <authority>M. Doisy</authority>
+                <date when-iso="2023-10-11">11-10-2023</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="e1">
+                    <edition>Première édition</edition>
+                    <title type="main">Les Caractères</title>
+                    <title type="subtitle">de Théophraste traduits du grec : avec les caractères ou
+                        les moeurs de ce siècle</title>
+                    <!-- Il me semble plus pertinent d'inclure la suite du titre en sous-titre. -->
+                    <note type="edition">Première Edition</note>
+                    <author>La Bruyère</author>
+                    <date when-iso="1688">1688</date>
+                    <editor>Thomas Amaulry</editor>
+                    <publisher>Cambridge (Mass.) : Omnisys, [ca 1990]</publisher>
+                    <pubPlace>Lyon</pubPlace>
+                    <note type="translation">Texte traduit du grec en français. - Date d'éd. du
+                        microfilm provenant d'un catalogue d'éditeur</note>
+                    <distributor><idno type="library">BnF Gallica</idno></distributor>
+                    <note type="license">Conditions spécifiques d'utilisation - Collection French
+                        books</note>
+                    <idno type="notice">ark:/12148/cb37242745w</idno>
+                    <idno type="notice">FRBNF37242745</idno>
+                    <note type="type">Monographe imprimée</note>
+                    <note type="format">1 microfilm ; 35 mm</note>
+                    <!-- J'ai pensé pertinent de rajouter l'identité de chaque édition dans la balise <bibl> qui lui est attribuée. -->
+                </bibl>
+                <!-- Voici la séparation entre les deux éditions. -->
+                <bibl xml:id="e8">
+                    <edition>Huitième édition</edition>
+                    <title type="main">Les Caractères</title>
+                    <title type="subtitle">de Théophraste traduits du grec : avec les caractères ou
+                        les moeurs de ce siècle</title>
+                    <note type="edition">Huitième Edition</note>
+                    <author>La Bruyère</author>
+                    <date when-iso="1694">1694</date>
+                    <editor>Thomas Amaulry</editor>
+                    <publisher>Cambridge (Mass.) : Omnisys, [ca 1990]</publisher>
+                    <pubPlace>Lyon</pubPlace>
+                    <note type="translation">Texte traduit du grec. - Date d'éd. du microfilm
+                        provenant d'un catalogue d'éditeur</note>
+                    <distributor><idno type="library">BnF Gallica</idno></distributor>
+                    <note type="license">Conditions spécifiques d'utilisation - Collection French
+                        books</note>
+                    <idno type="notice">ark:/12148/cb372432312</idno>
+                    <idno type="notice">FRBNF37243231 </idno>
+                    <note type="type">Monographe imprimée</note>
+                    <note type="format">1 microfilm ; 35 mm</note>
+                </bibl>
+                <bibl type="key">
+                    <title>Clés des <title>Caractères</title></title>
+                    <author>Escola</author>
+                </bibl>
+                <!-- J'ai essayé d'encoder le texte qui compile les différentes clés. -->
+                <listPerson type="source">
+                    <person xml:id="key_sevigne">
+                        <name>Marie de Rabutin-Chantal marquise de Sévigné</name>
+                        <idno>https://data.bnf.fr/11924578</idno>
+                    </person>
+                    <person xml:id="key_bussy">
+                        <name>Bussy-Rabutin</name>
+                        <idno>https://data.bnf.fr/fr/12015994</idno>
+                    </person>
+                    <person xml:id="key_reaux">
+                        <name>Gédéon Tallemant des Réaux</name>
+                        <idno>https://data.bnf.fr/fr/11925964</idno>
+                    </person>
+                </listPerson>
+                <listPerson type="ref">
+                    <person xml:id="key_brancas">
+                        <name type="character">Charles de Brancas</name>
+                        <idno/>
+                    </person>
+                    <person xml:id="key_orleans">
+                        <name>Charlotte Elisabeth de Bavière Orléans</name>
+                        <idno>https://data.bnf.fr/11918198</idno>
+                    </person>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="menalque">
+                        <name type="character">Ménalque</name>
+                        <idno/>
+                    </person>
+                    <person xml:id="platon">
+                        <name type="person">Platon</name>
+                        <idno>https://data.bnf.fr/fr/11920019</idno>
+                    </person>
+                    <person xml:id="euthycrate">
+                        <name type="person">Euthycrate</name>
+                        <idno/>
+                        <!-- Euthycrate n'a pas de page sur data.bnf donc je ne lui ai pas mis de <idno>. Il existe très peu d'informations sur lui. -->
+                    </person>
+                </listPerson>
+                <!-- J'ai créé trois balises "listPerson" pour distinguer les références, les sources, et les personnes/personnages mentioné-es explicitement au sein du texte. Je ne suis pas certaine que se soit l'encodage le plus efficace, mais cela m'e permis de clarifier les différentes clés à encoder. -->
+                <!-- Deux "person" n'ont pas de "idno" car ce sont des personnages fictifs. Je ne sais pas si on peut renvoyer à une autre référence extérieure. -->
+                <listPlace>
+                    <place xml:id="fontainebleau">
+                        <name>Fontainebleau</name>
+                        <idno>https://data.bnf.fr/fr/11958185/15275526</idno>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet pédagogique M1, UBS, MLE</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Les balises "div1" correspondent aux sections.</p>
+                <p>Les balises "div2" correspondent aux chapitres.</p>
+                <p>Les attributs "n", au sein des balises "div2" correspondent au numéro de
+                    chapitre.</p>
+                <p>Les balises "div3" correspondent aux remarques.</p>
+                <p>Les attributs "n" au sein des balises "div3" correspondent aux chiffres attribués
+                    aux remarques dans l'édition critique, basée sur la dernière édition.</p>
+                <p>Les attributs "source" renvoient à l'édition dans laquelle se trouve ce
+                    paragraphe/cette remaruqe.</p>
+                <p>L'attribut "source" dans la balise "rdg" indique une variante orthographique qui
+                    est modifiée dans tous les exemplaires d'une édition.</p>
+                <p>L'attribut "wit" dans la balise "rdg" indique une variante d'un exemplaire
+                    particulier.</p>
+                <p>La balise "pb" est utilisée pour indiquer les numéros de page dans les
+                    différentes éditions.</p>
+                <p>Il existe trois balises "listPerson" afin de distinguer les références, les
+                    sources, et les personnes/personnages mentioné-es explicitement au sein du
+                    texte.</p>
+                <p>Au sein des balises "persName", il existe l'attribut "source" pour les origines
+                    des références et l'attribut "ref" pour les identités supposées. L'attribut
+                    "type=key" sert à identifier la présence de clés au sein du texte. Cela se fait
+                    grâce à l'utilisation des balises "seg" et "note".</p>
+            </editorialDecl>
+            <charDecl>
+                <glyph xml:id="char_pdm">
+                    <mapping>❡</mapping>
+                    <desc>Pied de mouche simple, marquant le début d'une remarque.</desc>
+                </glyph>
+                <glyph xml:id="char_pdm_brackets_1">
+                    <mapping>(❡)</mapping>
+                    <desc>Pied de mouche entre parenthèses simples, marquant le début d'une remarque
+                        rajoutée dans l'édition 4.</desc>
+                </glyph>
+                <glyph xml:id="char_pdm_brackets_2">
+                    <mapping>((❡))</mapping>
+                    <desc>Pied de mouche entre parenthèses doubles, marquant le début d'une remarque
+                        rajoutée dans l'édition 5.</desc>
+                </glyph>
+                <glyph>
+                    <mapping xml:id="manicule_right">☞</mapping>
+                    <mapping xml:id="manicule_left">☜</mapping>
+                    <desc>Manicules marquant une remarque rajoutée dans l'édition 7.</desc>
+                </glyph>
+            </charDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="FRA">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-11">Encodage du TEI Header : troisième et quatrième
+                éditions.</change>
+            <change when="2023-10-19">Changement de l'encodage du TEI Header : première et huitième
+                éditions.</change>
+            <change when="2023-10-19">Organisation du "body" et rajout des sources des
+                paragraphes/remarques.</change>
+            <change when="2023-10-23">Changement d'emplacement "xml:id".</change>
+            <change when="2023-10-26">Rajout des notes.</change>
+            <change when="2023-11-07">Rajout variantes.</change>
+            <change when="2023-11-07">Rajout glyphs.</change>
+            <change when="2023-11-14">Rajout numéros de pages.</change>
+            <change when="2023-11-14">Rajout clés.</change>
+            <change when="2023-11-21">Correction des clés.</change>
+            <change when="2024-01-13">Relecture et correction générale du document (correction des
+                ref/source ; rajout du reste des "persName" ; rajout des "placeName").</change>
+            <change when="2024-01-18">Rajout d'un espacement dans la première "div3" afin de
+                résoudre un problème d'évolution du texte.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="section" org="uniform">
+                <!-- L'attribut "org="uniform"" me semble intéressant pour le texte de La Bruyère puisque c'est une oeuvre qui suit une structure rigoureuse dans son organisation (parties>sections>chapitres) et ensuite dans le corps du texte lui-même (remqarques>paragraphes). Je pense que cet attribut peut aider à maintenir cette organisation. -->
+                <head> Les caractères ou les Moeurs de ce Siècle</head>
+                <div2 type="chapter" org="uniform" n="11">
+                    <head>De l'Homme</head>
+                    <div3 type="remark" org="uniform" n="1" source="#e1 #e8">
+                        <!-- Je crois que l'attribut "source" n'est pas accepté au sein des balises <div>, <p>, etc. dans les anciennes versions. -->
+                        <pb n="348" source="#e8"/>
+                        <p source="#e1 #8"> Ne nous emportons point contre les hommes en voyant leur
+                            dureté, leur <seg>ingratitude<note resp="#jb" type="invented">Note
+                                    inventée</note></seg>, leur injustice, leur fierté, l’amour <app>
+                                <lem>d’</lem>
+                                <rdg source="#e1">qu'ils ont pour </rdg>
+                                <rdg source="#e8">d'</rdg>
+                            </app>eux-mêmes, et l’<app>
+                                <lem>oubli</lem>
+                                <rdg source="#e1">oubly</rdg>
+                                <rdg source="#e8">oubli</rdg>
+                            </app><app>
+                                <lem> &#160;</lem>
+                                <!-- J'ai inséré un espace dans ce <lem> et dans le deuxième <rdg> pour que, suite à l'export en HTML, ce changement puisse être cliqué. En effet, vu que la version <lem> du texte est un espace blanc et que seule la version 1 contient du texte, il fallait rendre cela visible pour que l'utilisateur•ice puisse cliquer et voir apparaître l'ancienne version du texte. J'ai hésité à mettre un symbole pour rendre cela plus visible, mais je n'ai choisi de ne pas le faire car je craignais que cela ampute sur le texte lui-même vu que le symbole n'appartiendrait pas au texte. -->
+                                <rdg source="#e1"> où ils sont </rdg>
+                                <rdg source="#e8"> &#160;</rdg>
+                            </app>des autres : ils sont ainsi faits, c’est leur nature, c’est ne
+                            pouvoir supporter que la pierre tombe ou que le feu s’élève. </p>
+                    </div3>
+                    <!-- La seule remarque de ma sélection qui existait dans la première édition est la première. Toutes les autres sont apparues ensuite. -->
+                    <div3 type="remark" org="uniform" n="2" source="#e8">
+                        <p source="#e8"><g ref="#char_pdm"/> Les hommes en un sens ne sont point
+                            légers, ou ne le sont que dans les petites choses. Ils changent leurs
+                            habits, leur langage, les dehors, les bienséances ; ils changent de goût
+                            quelquefois : ils gardent leurs mœurs toujours mauvaises, fermes et
+                            constants dans le mal, ou dans l’indifférence pour la vertu. </p>
+                    </div3>
+                    <div3 type="remark" org="uniform" n="3" source="#e8">
+                        <p source="#e8"><g ref="#char_pdm"/> Le <seg>stoïcisme<note resp="#md"
+                                    type="explanation">Le stoïcisme est une doctrine philosophique à
+                                    la recherche de la sagesse et du véritable bonheur (la vertu),
+                                    opposant ainsi la recherche du plaisir.</note></seg> est un jeu
+                            d’esprit et une idée semblable à la République de <seg><persName
+                                    ref="#platon">Platon</persName><note resp="#md" type="glossary"
+                                    >Platon était un philosophe de le Grèce antique.</note></seg>.
+                            Les stoïques ont feint qu’on pouvait rire dans la pauvreté ; être
+                            insensible aux injures, à l’ingratitude, aux pertes de biens, comme à
+                            celles des parents et des amis ; regarder froidement la mort, et com<pb
+                                n="349" source="#e8" resp="dash"/>me une chose indifférente qui ne
+                            devait ni réjouir ni rendre triste ; n’être vaincu ni par le plaisir ni
+                            par la douleur ; sentir le fer ou le feu dans quelque partie de son
+                            corps sans pousser le moindre soupir, ni jeter une seule larme ; et ce
+                            fantôme de vertu et de constance ainsi imaginé, il leur a plu de
+                            l’appeler un sage. Ils ont laissé à l’homme tous les défauts qu’ils lui
+                            ont trouvés, et n’ont presque relevé aucun de ses faibles. Au lieu de
+                            faire de ses vices des peintures affreuses ou ridicules qui servissent à
+                            l’en corriger, ils lui ont tracé l’idée d’une perfection et d’un
+                            héroïsme dont il n’est point capable, et l’on exhorté à l’impossible.
+                            Ainsi le sage, qui n’est pas, ou qui n’est qu’imaginaire, se trouve
+                            naturellement et par lui-même au-dessus de tous les événements et de
+                            tous les maux : ni la goutte la plus douloureuse, ni la colique la plus
+                            aiguë ne sauraient lui arracher une plainte ; le ciel et la terre
+                            peuvent être renversés sans l’entraîner dans leur chute, et il
+                            demeurerait ferme sur les ruines de l’univers : pendant que<pb n="350"
+                                source="#e8"/> l’homme qui est en effet sort de son sens, crie, se
+                            désespère, étincelle des yeux, et perd la respiration pour un chien
+                            perdu ou pour une porcelaine qui est en pièces. </p>
+                    </div3>
+                    <div3 type="remark" org="uniform" n="4" source="#e8">
+                        <p source="#e8"><g ref="#char_pdm"/> Inquiétude d’esprit, inégalité
+                            d’humeur, inconstance de cœur, incertitude de conduite : tous vices de
+                            l’âme, mais différents, et qui avec tout le rapport qui paraît entre
+                            eux, ne se supposent pas toujours l’un l’autre dans un même sujet. </p>
+                    </div3>
+                    <div3 type="remark" org="uniform" n="5" source="#e8">
+                        <p source="#e8"><g ref="#char_pdm"/> Il est difficile de décider si
+                            l’irrésolution rend l’homme plus malheureux que méprisable ; de même
+                            s’il y a toujours plus d’inconvénient à prendre un mauvais parti, qu’à
+                            n’en prendre aucun. </p>
+                    </div3>
+                    <div3 type="remark" org="uniform" n="6" source="#e8">
+                        <p source="#e8"><g ref="#char_pdm"/> Un homme inégal n’est pas un seul
+                            homme, ce sont plusieurs : il se multiplie autant de fois qu’il a de
+                            nouveaux goûts et de manières différentes ; il est à chaque moment ce
+                            qu’il n’était point, et il va être bientôt ce qu’il n’a jamais été : il
+                            se succède à lui-même. Ne demandez pas de quelle complexion il est, mais
+                            quelles sont ses complexions ; ni de quelle humeur, mais combien il a de
+                                sor<pb n="351" source="#e8" resp="dash"/>tes d’humeurs. Ne vous
+                            trompez-vous point ? est-ce <seg><persName ref="#euthycrate"
+                                    >Euthycrate</persName><note resp="#md" type="glossary"
+                                    >Euthycrate était un sculpteur de la Grèce antique.</note></seg>
+                            que vous abordez ? aujourd’hui quelle glace pour vous ! hier il vous
+                            recherchait, il vous caressait, vous donniez de la jalousie à ses amis :
+                            vous reconnaît-il bien ? dites-lui votre nom. </p>
+                    </div3>
+                    <div3 type="remark" org="uniform" n="7" source="#e8">
+                        <p source="#e8"><g ref="#char_pdm"/>
+                            <seg><persName ref="#menalque"> Ménalque</persName><note type="key">Il
+                                    peut s'agir de <persName type="key" ref="#brancas"
+                                        source="#key_sevigne #key_bussy">Charles de
+                                        Brancas</persName>.</note></seg>
+                            <!-- "source" = les personnes qui prétendent que Ménalque est Charles de Brancas. "ref" = la personne sous-entendue par certains individus. -->
+                            descend son escalier, ouvre sa porte pour sortir, il la referme : il
+                            s’aperçoit qu’il est en bonnet de nuit ; et venant à mieux s’examiner,
+                            il se trouve rasé à moitié, il voit que son épée est mise du côté droit,
+                            que ses bas sont rabattus sur ses talons, et que sa chemise est
+                            par-dessus ses chausses. S’il marche dans les places, il se sent tout
+                            d’un coup rudement frappé à l’estomac ou au visage ; il ne soupçonne
+                            point ce que ce peut être, jusqu’à ce qu’ouvrant les yeux et se
+                            réveillant, il se trouve ou devant un limon de charrette, ou derrière un
+                            long ais de menuiserie que porte un ouvrier sur ses épaules. On l’a vu
+                            une fois heurter du front contre celui d’un aveugle, s’embarrasser dans
+                            ses jambes, et tomber avec lui chacun de son côté à la renverse. Il <pb
+                                n="352" source="#e8"/>lui est arrivé plusieurs fois de se trouver
+                            tête pour tête à la rencontre d’un prince et sur son passage, se
+                            reconnaître à peine, et n’avoir que le loisir de se coller à un mur pour
+                            lui faire place. Il cherche, il brouille, il crie, il s’échauffe, il
+                            appelle ses valets l’un après l’autre : on lui perd tout, on lui égare
+                            tout ; il demande ses gants, qu’il a dans ses mains, semblable à cette
+                            femme qui prenait le temps de demander son masque lorsqu’elle l’avait
+                            sur son visage. Il entre à l’appartement, et passe sous un lustre où sa
+                            perruque s’accroche et demeure suspendue : tous les courtisans regardent
+                            et rient ; <persName ref="#menalque">Ménalque</persName> regarde aussi
+                            et rit plus haut que les autres, il cherche des yeux dans toute
+                            l’assemblée où est celui qui montre ses oreilles, et à qui il manque une
+                            perruque. S’il va par la ville, après avoir fait quelque chemin, il se
+                            croit égaré, il s’émeut, et il demande où il est à des passants, qui lui
+                            disent précisément le nom de sa rue ; il entre ensuite dans sa maison,
+                            d’où il sort précipitamment, croyant qu’il s’est trompé. Il descend du
+                            Palais, et trou<pb n="353" source="#e8" resp="dash"/>vant au bas du
+                            grand degré un carrosse qu’il prend pour le sien, il se met dedans : le
+                            cocher touche et croit remener son maître dans sa maison ; <persName
+                                ref="#menalque">Ménalque</persName> se jette hors de la portière,
+                            traverse la cour, monte l’escalier, parcourt l’antichambre, la chambre,
+                            le cabinet ; tout lui est familier, rien ne lui est nouveau ; il
+                            s’assit, il se repose, il est chez soi. Le maître arrive : celui-ci se
+                            lève pour le recevoir ; il le traite fort civilement, le prie de
+                            s’asseoir, et croit faire les honneurs de sa chambre ; il parle, il
+                            rêve, il reprend la parole : le maître de la maison s’ennuie, et demeure
+                            étonné ; <persName ref="#menalque">Ménalque</persName> ne l’est pas
+                            moins, et ne dit pas ce qu’il en pense : il a affaire à un fâcheux, à un
+                            homme oisif, qui se retirera à la fin, il l’espère, et il prend patience
+                            : la nuit arrive qu’il est à peine détrompé. Une autre fois il rend
+                            visite à une femme, et, se persuadant bientôt que c’est lui qui la
+                            reçoit, il s’établit dans son fauteuil, et ne songe nullement à
+                            l’abandonner : il trouve ensuite que cette dame fait ses visites
+                            longues, il attend à tous moments qu’elle se lève et le laisse en li<pb
+                                n="354" source="#e8" resp="dash"/>berté ; mais comme cela tire en
+                            longueur, qu’il a faim, et que la nuit est déjà avancée, il la prie à
+                            souper : elle rit, et si haut, qu’elle le réveille. <seg>Lui-même<note
+                                    type="key">Il peut s'agir de <persName type="key"
+                                        ref="#key_reaux" source="#key_orleans">Tallemant des
+                                        Réaux</persName>.</note></seg> se marie le matin, l’oublie
+                            le soir, et découche la nuit de ses noces ; et quelques années après il
+                            perd sa femme, elle meurt entre ses bras, il assiste à ses obsèques, et
+                            le lendemain, quand on lui vient dire qu’on a servi, il demande si sa
+                            femme est prête et si elle est avertie. C’est lui encore qui entre dans
+                            une église, et prenant l’aveugle qui est collé à la porte pour un
+                            pilier, et sa tasse pour le bénitier, y plonge la main, la porte à son
+                            front, lorsqu’il entend tout d’un coup le pilier qui parle, et qui lui
+                            offre des oraisons. Il s’avance dans la nef, il croit voir un prie-Dieu,
+                            il se jette lourdement dessus : la machine plie, s’enfonce, et fait des
+                            efforts pour crier ; <persName ref="#menalque">Ménalque</persName> est
+                            surpris de se voir à genoux sur les jambes d’un fort petit homme, appuyé
+                            sur son dos, les deux bras passés sur ses épaules, et ses deux mains
+                            jointes et étendues qui lui prennent le nez et lui ferment la bouche ;
+                            il se re<pb n="355" source="#e8" resp="dash"/>tire confus, et va
+                            s’agenouiller ailleurs. Il tire un livre pour faire sa prière, et c’est
+                            sa pantoufle qu’il a prise pour ses Heures, et qu’il a mise dans sa
+                            poche avant que de sortir. Il n’est pas hors de l’église qu’un homme de
+                            livrée court après lui, le joint, lui demande en riant s’il n’a point la
+                            pantoufle de Monseigneur ; <persName ref="#menalque">Ménalque</persName>
+                            lui montre la sienne, et lu dit : « Voilà toutes les pantoufles que j’ai
+                            sur moi » ; il se fouille néanmoins, et tire celle de l’évêque de, qu’il
+                            vient de quitter, qu’il a trouvé malade auprès de son feu, et dont,
+                            avant de prendre congé de lui, il a ramassé la pantoufle, comme l’un de
+                            ses gants qui était à terre : ainsi <persName ref="#menalque"
+                                >Ménalque</persName> s’en retourne chez soi avec une pantoufle de
+                            moins. Il a une fois perdu au jeu tout l’argent qui est dans sa bourse,
+                            et, voulant continuer de jouer, il entre dans son cabinet, ouvre une
+                            armoire, y prend sa cassette, en tire ce qu’il lui plaît, croit la
+                            remettre où il l’a prise : il entend aboyer dans son armoire qu’il vient
+                            de fermer ; étonné de ce prodige, il l’ouvre une seconde fois, et il
+                            éclate de rire d’y voir son chien, qu’il a serré pour sa cassette. Il
+                            joue au trictrac, il demande à boire, on lui en apporte ; c’est à lui à
+                            jouer, il tient le cornet d’une main et un verre de l’autre, et comme il
+                            a une grande soif, il avale les dés et presque le cornet, jette le verre
+                            d’eau dans le trictrac, et inonde celui contre qui il joue. Et dans une
+                            chambre où il est familier, il crache sur le lit et jette son chapeau à
+                            terre, en croyant faire tout le contraire. Il se promène sur l’eau, et
+                            il demande quelle heure il est : on lui présente une<pb n="356"
+                                source="#e8"/> montre ; à peine l’a-t-il reçue, que ne songeant plus
+                            ni à l’heure ni à la montre, il la jette dans la rivière, comme une
+                            chose qui l’embarrasse. Lui-même écrit une longue lettre, met de la
+                            poudre dessus à plusieurs reprises, et jette toujours la poudre dans
+                            l’encrier. Ce n’est pas tout : il écrit une seconde lettre, et après les
+                            avoir cachetées toutes deux, il se trompe à l’adresse ; un duc et pair
+                            reçoit l’une de ces deux lettres, et en l’ouvrant y lit ces mots :
+                            Maître Olivier, ne manquez ; sitôt la présente reçue, de m’envoyer ma
+                            provision de foin… Son fermier reçoit l’autre, il l’ouvre, et se la fait
+                            lire ; on y trouve : Monseigneur, j’ai reçu avec une soumission aveugle
+                            les ordres qu’il a plu à Votre Grandeur… Lui-même encore écrit une
+                            lettre pendant la nuit, et après l’avoir cachetée, il éteint sa bougie :
+                            il ne laisse pas d’être surpris de ne voir goutte, et il sait à peine
+                            comment cela est arrivé. <persName ref="#menalque">Ménalque</persName>
+                            descend l’escalier du Louvre ; un autre le monte, à qui il dit : C’est
+                            vous que je cherche ; iLouvrel le prend par la main, le fait descendre
+                            avec lui, tra<pb n="357" source="#e8" resp="dash"/>verse plusieurs
+                            cours, entre dans les salles, en sort ; il va, il revient sur ses pas ;
+                            il regarde enfin celui qu’il traîne après soi depuis un quart d’heure :
+                            il est étonné que ce soit lui, il n’a rien à lui dire, il lui quitte la
+                            main, et tourne d’un autre côté. Souvent il vous interroge, et il est
+                            déjà bien loin de vous quand vous songez à lui répondre ; ou bien il
+                            vous demande en courant comment se porte votre père, et comme vous lui
+                            dites qu’il est fort mal, il vous crie qu’il en est bien aise. Il vous
+                            trouve quelque autre fois sur son chemin : Il est ravi de vous
+                            rencontrer ; il sort de chez vous pour vous entretenir d’une certaine
+                            chose ; il contemple votre main : « Vous avez là, dit-il, un beau rubis
+                            ; est-il balais ? », il vous quitte et continue sa route : voilà
+                            l’affaire importante dont il avait à vous parler. Se trouve-t-il en
+                            campagne, il dit à quelqu’un qu’il le trouve heureux d’avoir pu se
+                            dérober à la cour pendant l’automne, et d’avoir passé dans ses terres
+                            tout le temps de <placeName ref="fontainebleau"
+                                >Fontainebleau</placeName>, il tient à d’autres discours ; puis
+                            revenant à celui-ci : « Vous avez eu, lui dit-il, de beaux jours à
+                            Fontainebleau ; vous y avez sans doute beaucoup chassé. » Il commence
+                            ensuite un conte qu’il oublie d’achever ; il rit en lui-même, il éclate
+                            d’une chose qui lui passe par l’esprit, il répond à sa pensée, il chante
+                            entre ses dents, il siffle, il se renverse dans une chaise, il pousse un
+                            cri plaintif, il bâille, il se croit seul. S’il se trouve à un repas, on
+                            voit le pain se multiplier insensiblement sur son assiette : il est vrai
+                            que ses voisins<pb n="358" source="#e8"/> en manquent, aussi bien que de
+                            couteaux et de fourchettes, dont il ne les laisse pas jouir longtemps.
+                            On a inventé aux tables une grande cuillère pour la commodité du service
+                            : il la prend, la plonge dans le plat, l’emplit, la porte à sa bouche,
+                            et il ne sort pas d’étonnement de voir répandu sur son linge et sur ses
+                            habits le potage qu’il vient d’avaler. Il oublie de boire pendant tout
+                            le dîner ; ou s’il s’en souvient, et qu’il trouve que l’on lui donne
+                            trop de vin, il en flaque plus de la moitié au visage de celui qui est à
+                            sa droite ; il boit le reste tranquillement, et ne comprend pas pourquoi
+                            tout le monde éclate de rire de ce qu’il a jeté à terre ce qu’on lui a
+                            versé de trop. Il est un jour retenu au lit pour quelque incommodité :
+                            on lui rend visite ; il y a un cercle d’hommes et de femmes dans la
+                            ruelle qui l’entretiennent, et en leur présence il soulève sa couverture
+                            et crache dans ses draps. On le mène aux Chartreux ; on lui fait voir un
+                            cloître orné d’ouvrages, tous de la main d’un excellent peintre ; le
+                            religieux qui les lui explique parle de saint Bruno, du chanoine et de
+                            son aventure, en fait une longue histoire, et la montre dans l’un de ses
+                            tableaux : <persName ref="#menalque">Ménalque</persName>, qui pendant la
+                            narration est hors du cloître, et bien loin au delà, y revient enfin, et
+                            demande au<pb n="359" source="#e8"/> père si c’est le chanoine ou saint
+                            Bruno qui est damné. Il se trouve par hasard avec une jeune veuve ; il
+                            lui parle de son défunt mari, lui demande comment il est mort ; cette
+                            femme, à qui ce discours renouvelle ses douleurs, pleure, sanglote, et
+                            ne laisse pas de reprendre tous les détails de la maladie de son époux,
+                            qu’elle conduit depuis la veille de sa fièvre, qu’il se portait bien,
+                            jusqu’à l’agonie : Madame, lui demande <persName ref="#menalque"
+                                >Ménalque</persName>, qui l’avait apparemment écoutée avec
+                            attention, n’aviez-vous que celui-là ? Il s’avise un matin de faire tout
+                            hâter dans sa cuisine, il se lève avant le fruit, et prend congé de la
+                            compagnie : on le voit ce jour-là en tous les endroits de la ville,
+                            hormis en celui où il a donné un rendez-vous précis pour cette affaire
+                            qui l’a empêché de dîner, et l’a fait sortir à pied, de peur que son
+                            carrosse ne le fît attendre. L’entendez-vous crier, gronder, s’emporter
+                            contre l’un de ses domestiques ? il est étonné de ne le point voir : «
+                            Où peut-il être ? dit-il ; que fait-il ? qu’est-il devenu ?<pb n="360"
+                                source="#e8"/> qu’il ne se présente plus devant moi, je le chasse
+                            dès à cette heure. » Le valet arrive, à qui il demande fièrement d’où il
+                            vient ; il lui répond qu’il vient de l’endroit où il l’a envoyé, et il
+                            lu rend un fidèle compte de sa commission. Vous le prendriez souvent
+                            pour tout ce qu’il n’est pas : pour un stupide, car il n’écoute point,
+                            et il parle encore moins ; pour un fou, car outre qu’il parle tout seul,
+                            il est sujet à de certaines grimaces et à des mouvements de tête
+                            involontaires ; pour un homme fier et incivil, car vous le saluez, et il
+                            passe sans vous regarder, ou il vous regarde sans vous rendre le salut ;
+                            pour un inconsidéré, car il parle de banqueroute au milieu d’une famille
+                            où il y a cette tache, d’exécution et d’échafaud devant un homme dont le
+                            père y a monté, de roture devant des roturiers qui sont riches et qui se
+                            donnent pour nobles. De même il a dessein d’élever auprès de soi un fils
+                            naturel sous le nom et le personnage d’un valet ; et quoiqu’il veuille
+                            le dérober à la connaissance de sa femme et de ses enfants, il lui
+                            échappe de l’appeler son fils dix fois le jour. Il a <pb n="361"
+                                source="#e8"/>aussi la résolution de marier son fils à la fille d’un
+                            homme d’affaires, et il ne laisse pas de dire de temps en temps, en
+                            parlant de sa maison et de ses ancêtres, que les Ménalques ne se sont
+                            jamais mésalliés. Enfin il n’est ni présent ni attentif dans une
+                            compagnie à ce qui fait le sujet de la conversation. Il pense et il
+                            parle tout à la fois, mais la chose dont il parle est rarement celle à
+                            laquelle il pense ; aussi ne parle-t-il guère conséquemment et avec
+                            suite : où il dit non, souvent il faut dire oui, et où il dit oui,
+                            croyez qu’il veut dire non ; il a, en vous répondant si juste, les yeux
+                            fort ouverts, mais il ne s’en sert point : il ne regarde ni vous ni
+                            personne, ni rien qui soit au monde. Tout ce que vous pouvez tirer de
+                            lui, et encore dans le temps qu’il est le plus appliqué et d’un meilleur
+                            commerce, ce sont ces mots : Oui vraiment ; C’est vrai ; Bon ! Tout de
+                            bon ? Oui-da ! Je pense qu’oui ; Assurément ; Ah ! ciel ! et quelques
+                            autres monosyllabes qui ne sont pas même placés à propos. Jamais aussi
+                            il n’est avec ceux avec qui il paraît être : il appelle sérieusement<pb
+                                n="362" source="#e8"/> son laquais Monsieur ; et son ami, il
+                            l’appelle la Verdure ; il dit Votre Révérence à un prince du sang, et
+                            Votre Altesse à un jésuite. Il entend la messe : le prêtre vient à
+                            éternuer ; il lui dit : Dieu vous assiste ! Il se trouve avec un
+                            magistrat : cet homme, grave par son caractère, vénérable par son âge et
+                            par sa dignité, l’interroge sur un événement et lui demande si cela est
+                            ainsi ; <persName ref="#menalque">Ménalque</persName> lui répond : Oui,
+                            Mademoiselle. Il revient une fois de la campagne : ses laquais en
+                            livrées entreprennent de le voler et y réussissent ; ils descendent de
+                            son carrosse, lui portent un bout de flambeau sous la gorge, lui
+                            demandent la bourse, et il la rend. Arrivé chez soi, il raconte son
+                            aventure à ses amis, qui ne manquent pas de l’interroger sur les
+                            circonstances, et il leur dit : Demandez à mes gens, ils y étaient. </p>
+                    </div3>
+                    <div3 type="remark" org="uniform" n="8" source="#e8">
+                        <p source="#e8"><g ref="#char_pdm"/> L’incivilité n’est pas un vice de
+                            l’âme, elle est l’effet de plusieurs vices : de la sotte vanité, de
+                            l’ignorance de ses devoirs, de la paresse, de la stupidité, de la
+                            distraction, du mépris des autres, de la jalousie. Pour ne se répandre
+                            que sur les dehors, elle n’en est que plus haïssable, parce que c’est
+                            toujours un défaut visible et manifeste. Il est vrai cependant qu’il
+                            offense plus ou moins, selon la cause qui le produit. </p>
+                    </div3>
+                    <div3 type="remark" org="uniform" n="9" source="#e8">
+                        <p source="#e8"><g ref="#char_pdm"/> Dire d’un homme colère, inégal,
+                            querelleux, chagrin, pointilleux, capricieux : « c’est son humeur »
+                            n’est pas l’excuser, comme on le croit, mais avouer sans y penser que de
+                                si<pb n="363" source="#e8"/> grands défauts sont irrémédiables.</p>
+                        <p source="#e8">Ce qu’on appelle humeur est une chose trop négligée parmi
+                            les hommes : ils devraient comprendre qu’il ne leur suffit pas d’être
+                            bons, mais qu’ils doivent encore paraître tels, du moins s’ils tendent à
+                            être sociables, capables d’union et de commerce, c’est-à-dire à être des
+                            hommes. L’on n’exige pas des âmes malignes qu’elles aient de la douceur
+                            et de la souplesse ; elle ne leur manque jamais, et elle leur sert de
+                            piège pour surprendre les simples, et pour faire valoir leurs artifices
+                            : l’on désirerait de ceux qui ont un bon cœur qu’ils fussent toujours
+                            pliants, faciles, complaisants ; et qu’il fût moins vrai quelquefois que
+                            ce sont les méchants qui nuisent, et les bons qui font souffrir. </p>
+                    </div3>
+                    <div3 type="remark" org="uniform" n="10" source="#e8">
+                        <p source="#e8"><g ref="#char_pdm"/> Le commun des hommes va de la colère à
+                            l’injure. Quelques-uns en usent autrement : ils offensent, et puis ils
+                            se fâchent ; la surprise où l’on est toujours de ce procédé ne laisse
+                            pas de place au ressentiment. </p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
