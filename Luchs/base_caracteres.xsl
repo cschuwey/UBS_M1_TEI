@@ -12,6 +12,9 @@
                     <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                 </title>
                 <style type="text/css">
+                    body{
+                    background-color:#ddd1bc;
+                    }
                     .hidden{
                         display:none;
                     }
@@ -29,6 +32,7 @@
                         text-indent:20px;
                         font-family:Bookman Old Style, Book Antiqua, Garamond;
                         margin: 50px 250px 100px;
+                        
                     }</style>
             </head>
             <body>
