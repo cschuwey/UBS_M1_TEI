@@ -16,8 +16,8 @@
 
             <sourceDesc>
                 <bibl xml:id="edition1">
-                    <title> Les Caractères de Théophraste, traduits du grec</title>
-                    <title type="sub">Avec les Caractères ou les Moeurs de ce Siècle </title>
+                    <title>Les Caractères de Théophraste, traduits du grec</title>
+                    <title type="sub">Avec les Caractères ou les Moeurs de ce Siècle</title>
                     <edition> Première édition </edition>
                     <author>Jean de La Bruyère</author>
                     <publisher>Estienne Michallet</publisher>
@@ -164,7 +164,7 @@
     <text>
         <body>
             <div1 type="ouvrage">
-                <head> Les Caractères ou les Moeurs de ce Siècle</head>
+                <head>Les Caractères ou Les Moeurs de ce siècle</head>
                 <div2 type="chapitre" n="4">
                     <head>Du Coeur</head>
 
@@ -265,7 +265,7 @@
                     <div3 type="remarque" n="67" source="#edition5 #edition8">
                         <p source="#edition5 #edition8">
                             <g ref="#char_pdm1" source="edition5"/>
-                            <g ref="#char_pdm" source="#edition8"/>Il est pénible à un homme fier de
+                            <g ref="#char_pdm" source="#edition8"/> Il est pénible à un homme fier de
                             pardonner à <app>
                                 <lem> celui </lem>
                                 <rdg source="#edition5 #edition8"> celuy </rdg>
@@ -339,7 +339,7 @@
 
                     <div3 type="remarque" n="70" source="#edition8">
                         <p source="#edition8">
-                            <g ref="#char_pdm"/>C'est par <app>
+                            <g ref="#char_pdm"/> C'est par <app>
                                 <lem> faiblesse </lem>
                                 <rdg source="#edition8"> foibleſſe</rdg>
                             </app> que l'on hait un ennemi, et que l'on songe à s'en <app>
@@ -350,7 +350,7 @@
                     </div3>
                     <div3 type="remarque" n="71" source="#edition8">
                         <p source="#edition8">
-                            <g ref="#char_pdm"/>Il y a bien autant de paresse que de faiblesse à se
+                            <g ref="#char_pdm"/> Il y a bien autant de paresse que de faiblesse à se
                             laisser gouverner.</p>
                         <p source="#edition8"> Il ne faut pas penser à gouverner un homme tout d'un
                             coup, et sans autre préparation, dans une affaire importante et qui
