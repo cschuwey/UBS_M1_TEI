@@ -12,9 +12,33 @@
                         select="tei:teiHeader/tei:FileDesc/tei:titleStmt/tei:title[@type='main']"/>
                 </title>
                 <style type="text/css">
+                   title {
+                   font-family: 'Times New Roman', serif;
+                   line-height: 1.6;
+                   margin: 20px;
+                   font-size: 17px;
+                   text-align: center;
+                   }
+                   
+                   p {
+                    font-family: 'Didot', serif;
+                    line-height: 1.6;
+                    margin: 20px;
+                    font-size: 15px;
+                    }
+                    
+                    p {
+                    margin-bottom: 1.2em;
+                    }
                     .hidden{
                         display:none;
-                    }</style>
+                    }
+                    .changer {
+                    color: red;
+                    cursor: pointer;
+                    text-decoration: underline;
+                    }
+                </style>
             </head>
 
             <body>
@@ -22,7 +46,10 @@
                 <p>
                     <xsl:value-of select="//tei:div2/tei:head"/>
                 </p>
-                <p>Nombre de variantes : <xsl:value-of select="count(//tei:app)"/></p>
+                
+                <p>Nombre de variantes : 
+                    <xsl:value-of select="count(//tei:app)"/>
+                </p>
                 <xsl:apply-templates select="//tei:div3"/>
             </body>
 
@@ -41,11 +68,7 @@
         <p> ( <xsl:value-of select="../@n"/> ) <xsl:apply-templates/></p>
     </xsl:template>
 
-    <xsl:template match="tei:div3/tei:p[position()=1]">
-        <p> (<xsl:value-of select="../@n"/>) <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-
+    
     <xsl:template match="tei:div3/tei:p[position()>1]">
         <p>
             <xsl:apply-templates/>
@@ -60,7 +83,7 @@
         <xsl:apply-templates/>
     </xsl:template>
 
-    <xsl:template match="tei:app//tei:rdg[1]">
+    <xsl:template match="tei:app//tei:rdg">
         <span class="hidden">
             <xsl:apply-templates/>
         </span>
