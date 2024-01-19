@@ -7,53 +7,97 @@
 
         <html>
             <head>
-                <title>
-                    <xsl:apply-templates
-                        select="tei:teiHeader/tei:FileDesc/tei:titleStmt/tei:title[@type='main']"/>
-                </title>
+                
                 <style type="text/css">
-                   title {
-                   font-family: 'Times New Roman', serif;
+                   
+                   div1 {
+                   font-family: 'Palatino', serif;
                    line-height: 1.6;
                    margin: 20px;
-                   font-size: 17px;
+                   font-size: 30px;
                    text-align: center;
+                   color: green;
                    }
                    
-                   p {
-                    font-family: 'Didot', serif;
-                    line-height: 1.6;
-                    margin: 20px;
-                    font-size: 15px;
-                    }
-                    
-                    p {
-                    margin-bottom: 1.2em;
-                    }
+                   div2 {
+                   font-family: 'Baskerville', serif;
+                   line-height: 1.6;
+                   margin: 20px;
+                   font-size: 27px;
+                   text-align: center;
+                   font-weight: bold;
+                   color: purple;
+                   }
+                   
+                   div3 {
+                   font-family: 'Didot', serif;
+                   line-height: 1.6;
+                   margin: 50px;
+                   font-size: 18px;
+                   text-transform: uppercase;
+                   text-decoration: underline;
+                   }
+                   
+                   body {
+                   font-family: 'Didot', serif; 
+                   line-height: 1.6;
+                   margin: 50px;
+                   font-size: 16px;
+                   text-align: justify;
+                   }
+                   
                     .hidden{
                         display:none;
                     }
                     .changer {
-                    color: red;
+                    color: blue;
                     cursor: pointer;
                     text-decoration: underline;
                     }
                 </style>
+                
+                <title>
+                    <xsl:apply-templates select="tei:teiHeader/tei:FileDesc/tei:titleStmt/tei:title[@type='main']"/>
+                </title>
+                
+                
             </head>
 
             <body>
+                <div1>
+                    <p>
                 <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']"/>
-                <p>
-                    <xsl:value-of select="//tei:div2/tei:head"/>
-                </p>
+                    </p>
+                </div1>
                 
-                <p>Nombre de variantes : 
+                <div2>
+                    <p>
+                    <xsl:value-of select="//tei:div2/tei:head"/>
+                    </p>
+                </div2>
+                
+                
+                <div3>
+                <p>
+                    Nombre de variantes : 
                     <xsl:value-of select="count(//tei:app)"/>
                 </p>
+                </div3>
+            
                 <xsl:apply-templates select="//tei:div3"/>
             </body>
 
-            <script type="text/javascript"> var elems = document.getElementsByClassName("changer"); for (var i = elems.length - 1; i >= 0; i--) { elems[i].addEventListener('click', function handleClick(event) { for (var i = this.children.length - 1; i >= 0; i--) { if (this.children[i].classList.contains('hidden')) { this.children[i].classList.remove('hidden'); } else { this.children[i].classList.add('hidden'); } } }); } </script>
+            <script type="text/javascript"> 
+                var elems = document.getElementsByClassName("changer"); 
+                for (var i = elems.length - 1; i >= 0; i--)
+                { elems[i].addEventListener('click', function handleClick(event) 
+                { for (var i = this.children.length - 1; i >= 0; i--) 
+                { if (this.children[i].classList.contains('hidden')) 
+                { this.children[i].classList.remove('hidden');
+                } else { this.children[i].classList.add('hidden');
+                } } });
+                } 
+            </script>
         </html>
 
     </xsl:template>
@@ -90,7 +134,7 @@
     </xsl:template>
 
     <xsl:template match="tei:app">
-        <span class="changer" style="color:red;">
+        <span class="changer" style="color:blue;">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
