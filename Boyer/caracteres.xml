@@ -18,23 +18,23 @@
                 </bibl>
                 <biblStruct xml:id="Quatrieme_edition">
                     <monogr>
-                        <title>Les Caractères de Théophraste</title>
+                        <title>Les Caractères de Théophraste</title>                        
+                        <edition> Quatrième édition </edition>
                         <imprint>
                             <date when-iso="1689">1689</date>
-                            <edition> Quatrième édition </edition>
                             <publisher>Etienne Michallet</publisher>
-                            <idno>https://gallica.bnf.fr/ark:/12148/bpt6k575649/f235.item</idno>
+                            <!--https://gallica.bnf.fr/ark:/12148/bpt6k575649/f235.item -->
                         </imprint>
                     </monogr>
                 </biblStruct>
                 <biblStruct xml:id="Sixieme_edition">
                     <monogr>
                         <title>Les Caractères de Théophraste</title>
+                        <edition> Sixième édition </edition>
                         <imprint>
-                            <date when-iso="1691">1691</date>
-                            <edition> Sixième édition </edition>
+                            <date when-iso="1691">1691</date>                            
                             <publisher>Etienne Michallet</publisher>
-                            <idno>https://gallica.bnf.fr/ark:/12148/bpt6k57567b?rk=150215;2</idno>
+                            <!--https://gallica.bnf.fr/ark:/12148/bpt6k57567b?rk=150215;2 -->
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -104,13 +104,13 @@
     </teiHeader>
     <text>
         <body>
-
+            
             <div1>
                 <head>Les Caractères ou les Moeurs de ce Siècle</head>
-
+                
                 <div2 type="Chapitre" n="">
                     <head>De la Cour</head>
-
+                    
                     <div3 n="1" source="#Quatrieme_edition #Sixieme_edition">
                         <pb n="198" source="#Quatrieme_edition"/>
                         <pb n="246" source="#Sixieme_edition"/>
@@ -118,12 +118,12 @@
                             homme, c’est de <app>
                                 <lem>lui</lem>
                                 <rdg wit="#Quatrieme_edition #Sixieme_edition">luy</rdg>
-                            </app>lui dire qu’il ne sait pas la cour : il n’y a sorte de vertus
+                            </app>dire qu’il ne sait pas la cour : il n’y a sorte de vertus
                             qu’on ne rassemble en lui par ce seul mot.</p>
                     </div3>
-
+                    
                     <div3 n="2" source="#Quatrieme_edition #Sixieme_edition">
-
+                        
                         <p>
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Un
                             homme qui <app>
@@ -131,80 +131,80 @@
                                 <rdg wit="#Quatrieme_edition #Sixieme_edition">sçait</rdg>
                             </app> la cour est maître de son geste, de ses yeux et de son visage ;
                             il est profond, <seg>impénétrable<note resp="#CleaB" type="glossaire"
-                                    >Qu'il est difficile ou impossible de connaître</note></seg> ;
+                                >Qu'il est difficile ou impossible de connaître</note></seg> ;
                             il dissimule les mauvais offices, sourit à ses ennemis, contraint son
                             humeur, déguise ses passions, * dément son cœur, parle, agit contre ses
                             sentiments. Tout ce grand raffinement n’est qu’un vice, que l’on appelle
                             fausseté, quelquefois aussi inutile au courtisan pour sa fortune, que la
                             franchise, la sincérité et la vertu.</p>
                     </div3>
-
+                    
                     <div3 n="3" source="#Quatrieme_edition #Sixieme_edition">
                         <p>
-        
+                            
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Qui
                             peut <seg>nommer<note resp="#LaBruyere">blablabla</note></seg> de
                             certaines couleurs changeantes, et qui sont diverses selon les divers
-                            jours dont on les regarde ? de même, qui peut définirla cour? </p>
+                            jours dont on les regarde ? de même, qui peut définir la cour? </p>
                     </div3>
-
+                    
                     <div3 n="4" source="#Quatrieme_edition #Sixieme_edition">
                         <p>
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Se
                             dérober à la cour un seul <pb n="199" source="#Quatrieme_edition"/>
-                                mo<pb n="247" source="#Sixieme_edition" type="tiret"/>ment, c’est y
+                            mo<pb n="247" source="#Sixieme_edition" type="tiret"/>ment, c’est y
                             renoncer : <seg>le courtisan<note type="key">Il s'agit de<name
-                                        type="key" source="#le_courtisan">Racine</name>homme de
-                                    lettre du 17ème siècle (clé fictive)</note></seg> qui l’a <app>
-                                <lem>vue</lem>
-                                <rdg wit="#Sixieme_edition #Quatrieme_edition">veuë</rdg>
-                            </app> le matin la voit le soir pour la reconnaître le lendemain, ou
+                                type="key" source="#le_courtisan">Racine</name>homme de
+                                lettre du 17ème siècle (clé fictive)</note></seg> qui l’a <app>
+                                    <lem>vue</lem>
+                                    <rdg wit="#Sixieme_edition #Quatrieme_edition">veuë</rdg>
+                                </app> le matin la voit le soir pour la reconnaître le lendemain, ou
                             afin que lui-même y soit connu.</p>
                     </div3>
-
+                    
                     <div3 n="5" source="#Quatrieme_edition #Sixieme_edition">
                         <p>
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> L’on
                             est petit à la cour, et quelque vanité que l’on ait, on s’y trouve tel ;
                             mais le mal est commun, et les grands mêmes y sont petits.</p>
                     </div3>
-
+                    
                     <div3 n="6" source="#Quatrieme_edition #Sixieme_edition">
                         <p>
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> La
-                                <seg>province <note resp="#CleaB" type="glossaire"> Partie distincte
-                                    d'un pays</note></seg> est l’endroit d’où la cour, comme
+                            <seg>province <note resp="#CleaB" type="glossaire"> Partie distincte
+                                d'un pays</note></seg> est l’endroit d’où la cour, comme
                             dans son point de vue, paraît une chose admirable : si l’on s’en
                             approche, ses agréments diminuent, comme ceux d’une perspective que l’on
                             voit de trop près.</p>
                     </div3>
-
+                    
                     <div3 n="7" source="#Quatrieme_edition #Sixieme_edition">
                         <p>
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> L’on
                             s’accoutume difficilement à une vie qui se passe dans une antichambre,
                             dans des cours, ou sur l’escalier.</p>
                     </div3>
-
+                    
                     <div3 n="8">
                         <p>
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> La
                             cour ne rend pas content ; elle empêche qu’on ne le soit ailleurs.</p>
                     </div3>
-
+                    
                     <div3 n="9" source="#Quatrieme_edition #Sixieme_edition">
                         <p>
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> Il
                             faut qu’un <seg>honnête homme<note type="key">Il s'agit de<name
-                                        type="key" source="#honnete_homme">Jean de la
-                                        Fontaine</name> homme de lettre du 17ème siècle (clé
-                                    fictive)</note></seg> ait tâté de la <seg>cour <note
+                                type="key" source="#honnete_homme">Jean de la
+                                Fontaine</name> homme de lettre du 17ème siècle (clé
+                                fictive)</note></seg> ait tâté de la <seg>cour <note
                                     resp="#CleaB" type="information">La Cour du Roi de France
                                 </note></seg> : il découvre en y entrant comme un nouveau monde qui
                             lui était inconnu, où il voit régner également le vice et la politesse,
                             et où tout lui est utile, le bon et le mauvais.</p>
                     </div3>
-
+                    
                     <div3 n="10" source="#Sixieme_edition">
                         <p>
                             <g ref="#char_pdm" source="#Quatrieme_edition #Sixieme_edition"/> La
