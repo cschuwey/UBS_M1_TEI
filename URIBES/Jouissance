@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <!-- on met le p pour ne pas que la machine panique, c'est un paragraphe vide-->
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>Poésie choisies</head>
+            <!-- titre qui apparaiterais sur une autre page, age de garde, couverture -->
+        </front>
+        <body>
+            <div>
+                <head>Jouissance</head>
+                <!-- titre du poeme, juste avant -->
+                <lg rhyme="ABBA">
+                    <!-- mettre des attributs aide pour donner une analyse supplémentaire, et pour potentiellement plus tard -->
+                    <l> Aujourd'hui dans tes bras j'ai demeuré pâmée, </l>
+                    <l> Aujourd'hui, cher Tirsis, ton amoureuse ardeur </l>
+                    <l> Triomphe impunément de toute ma pudeur</l>
+                    <l> Et je cède aux transports dont mon âme est charmée.</l>
+                </lg>
+                <lg>
+                    <l> Ta flamme et ton respect m'ont enfin désarmée ;</l>
+                    <l> Dans nos embrassements, je mets tout mon bonheur </l>
+                    <l> Et je ne connais plus de vertu ni d'honneur</l>
+                    <l> Puisque j'aime Tirsis et que j'en suis aimée.</l>
+                </lg>
+                <lg>
+                    <l> O vous, faibles esprits, qui ne connaissez pas</l>
+                    <l> Les plaisirs les plus doux que l'on goûte ici-bas,</l>
+                    <l> Apprenez les transports dont mon âme est ravie !</l>
+                </lg>
+                <lg>
+                    <l> Une douce langueur m'ôte le sentiment,</l>
+                    <l> Je meurs entre les bras de mon fidèle Amant, </l>
+                    <l> Et c'est dans cette mort que je trouve la vie.</l>
+                </lg>
+                <!-- les éléments l sont les éléments enfants de lg qui est l'élément parent -->
+            </div>
+        </body>
+        <back/>
+    </text>
+</TEI>
