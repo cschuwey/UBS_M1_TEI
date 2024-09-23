@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title></title>
+        </titleStmt>
+        <!-- <p/> = paragraphe vide -->
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+    <!-- <front></front>  table des matières etc
+        <body></body> le texte / contenu
+        <back></back> 4e de couverture -->
+    
+    
+    <!-- COMMENTAIRE
+                    <lg> =line groupe -> permet de délimiter une strophe
+                    <l> = vers
+                    fonction rechercher / remplacer :
+                        -> cocher expressions régulières  
+                             - recherche chaque nouvelle ligne : \n
+                             - remplacer par : </l>\n<l>
+                             - rajouter un <l> au début, enlever un <l> à la fin
+                             - remplacer : </l>                <l> par : </lg><lg>
+                             
+                     Titre d'ouvrage = <title>
+                     Titre page de garde ou page qui précède la page de garde : <front> <head>Le titre</head> </front>
+                     Titre d'un chapitre / d'un poème : <head> situé dans le <body> ou <div>
+                -->
+    
+    <text>     
+        <body>
+             <div>
+                <head>Jouissance</head>
+                
+                <lg type="quatrain" rhyme="abba">
+                    <l>Aujourd'hui dans tes bras j'ai demeuré pâ<rhyme label="a">mée</rhyme>,</l>
+                    <l>Aujourd'hui, cher Tirsis, ton amoureuse ar<rhyme label="b">deur</rhyme></l>
+                    <l>Triomphe impunément de toute ma pu<rhyme label="b">deur</rhyme></l>
+                    <l>Et je cède aux transports dont mon âme est char<rhyme label="a">mée</rhyme>rhyme>.</l>
+                </lg>
+
+                <lg type="quatrain" rhyme="abba">
+                    <l>Ta flamme et ton respect m'ont enfin désar<rhyme label="a">mée</rhyme> ;</l>
+                    <l>Dans nos embrassements, je mets tout mon bonh<rhyme label="b">eur</rhyme></l>
+                    <l>Et je ne connais plus de vertu ni d'honn<rhyme label="b">eur</rhyme></l>
+                    <l>Puisque j'aime Tirsis et que j'en suis ai<rhyme label="a">mée</rhyme>.</l>
+                </lg>
+                
+                <lg type="tercet" rhyme="ccd">
+                    <l>O vous, faibles esprits, qui ne connaissez p<rhyme label="c">as</rhyme></l>
+                    <l>Les plaisirs les plus doux que l'on goûte ici-b<rhyme label="c">as</rhyme>,</l>
+                    <l>Apprenez les transports dont mon âme est ra<rhyme label="d">vie</rhyme> !</l>
+                </lg>
+                
+                <lg type="tercet" rhyme="eed">
+                    <l>Une douce langueur m'ôte le senti<rhyme label="e">ment</rhyme>,</l>
+                    <l>Je meurs entre les bras de mon fidèle A<rhyme label="e">mant</rhyme>,</l>
+                    <l>Et c'est dans cette mort que je trouve la <rhyme label="d">vie</rhyme>.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
