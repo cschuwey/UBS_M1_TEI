@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <front>
+           <castList> 
+               <castItem xml:id="Torquatus"><role> Torquatus</role>, <roleDesc> Consul Romain</roleDesc>.</castItem>
+               <castItem><role> Manlius </role>, <roleDesc> Fils du Consul</roleDesc> . </castItem>
+               <castItem><role> Camille </role> ,<roleDesc>Veuve de Décius</roleDesc>.  </castItem>
+               <castItem xml:id="Omphale"> <role>Omphale </role>, <roleDesc> Princesse d'Épire captive des Romains </roleDesc>.  </castItem>
+               <castItem> <role>Junius </role>, <roleDesc> Ami de Torquatus</roleDesc>.</castItem>
+               <castItem> <role>Phénice</role>, <roleDesc> Suivante d'Omphale</roleDesc>. </castItem>
+               <castItem> <role>Pison</role> , <roleDesc> Licteur</roleDesc>. </castItem>
+               <!--J'ai ajouté des xml id seulement aux personnages à qui on faisait référence dans cet exercice afin que je ne me perde pas lors des tours de jeu, j'ai fais le choix de ne pas tout faire parce que je me posais la question de l'intérêt vis à vis de ce codage là. Si j'avais codé l'ouvrage intégral je les aurais tous assimilés à un xml id.-->
+           </castList>
+        </front>
+        <body>
+            <stage type="location"> La Scène est au Camp des Romains devant les Tentes du Consul. </stage>
+            <div1 n="1" type="act">
+            <div2 n="5" type="scene">
+                <head> Scène 5 </head>
+                <stage type="setting"> Troqu <damage agent="ink"> a </damage>tus, Omphale, Phénice. </stage>
+                <sp who="#Torquatus"> 
+                <speaker> Troquatus </speaker>
+                        <l part="F"> Quel sujet dans ce lieu vous 
+                            <choice> 
+                                <orig> ameine </orig>
+                                <reg>amène </reg>
+                            </choice> ? </l>
+                        <l>Est-ce pitié, Madame, est-ce amour, est-ce haine?</l>
+                    </sp>   
+                <sp who="#Omphale">
+                <speaker> Omphale </speaker>
+                    <l>C'est l'estime, Seigneur, que conservent entre eux</l>
+                    <l> Les plus grands ennemis, quand ils sont <choice> <orig> genereux </orig> <reg> généreux </reg></choice> . </l>
+                    <l> De l'injuste destin, la <choice> <orig> fiere</orig> <reg> fière </reg></choice> Barbarie </l>
+                    <l> Me forçeant malgré 
+                        <choice> <orig> moy </orig> <reg> moi</reg></choice>d' 
+                        <choice> <orig> etre </orig> <reg> être</reg></choice>
+                        votre ennemie,</l>
+             </sp>
+            </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
