@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+          <castList> <!-- permet d'annoncer tous les personnages de toute la pièce de théâtre, et leur role--> 
+              <castItem xml:id="TORQUATUS"> <role>TORQUATUS </role>,  <roleDesc>   Consul Romain</roleDesc>         .</castItem>                  
+              <castItem> <role>MANLIUS   </role>,   <roleDesc>  Fils du Consul</roleDesc>                           .</castItem>                  
+              <castItem> <role>CAMILLE   </role>,   <roleDesc>  Veuve de Decius</roleDesc>                          .</castItem>                  
+              <castItem> <role>OMPHALE   </role>,   <roleDesc>  Princesse d'Épire captive des Romains</roleDesc>    .</castItem>                  
+              <castItem> <role>JUNIUS    </role>,   <roleDesc>  Ami de Torquatus</roleDesc>                         .</castItem>                  
+              <castItem> <role>PHÉNICE   </role>,  <roleDesc>   Suivante d'Omphale</roleDesc>                       .</castItem>                  
+              <castItem> <role>PISON     </role>,   <roleDesc>  Licteur</roleDesc>                                  .</castItem>
+          </castList>
+        </front>
+        <body>
+            <div1 type="act"> 
+                <div2 type="scene">
+                    <head>SCENE V.</head>  <pb n= "21"/>  <!--choix de rester fidèle au texte-->
+                    <stage type="setting"> TORQUATUS, OMPHALE, PHENICE.</stage> <!-- le choix de setting permet 
+d'annoncer les personnages dans la scène (donc utilisation de stage), contrairement à castList, qui sera utilisé 
+seulement au tout début de la pièce de théâtre, pour anoncer tous les membres du cast pour tous les actes.-->
+                    <sp who="#TORQUATUS"> <!-- permet de faire référence à la liste du cast, d'identifier plus facilement qui parle-->
+                        <speaker> TORQUATUS. </speaker>
+                        <!--part=F permet de dire que c'est un vers cassé, c'est un choix de l'encoder ou non-->
+                        <l part="F"> Quel sujet dans ce lieu vous ameine ? 
+                         <choice>
+                         <orig>ameine</orig> <!-- ces balises permettent de montrer qu'on peut montrer un choix, 
+                         ce n'est que de la description, qui ne sera pas nécessairement visibe. 
+                         TEI n'est pas fait pour être lu.-->
+                         <reg> amène</reg>
+                         </choice></l> 
+<!--correction : amène, mais nécessaire pour la rhyme-->
+                        <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ? </l>
+                    </sp>
+                    
+                    <sp>
+                        <speaker> OMPHALE. </speaker>
+                        <l> C'est l'eftime, Seigneur, que confervent entre eux</l>
+                        <l> Les plus grands ennemis, quand ils font genereux,</l>
+                        <l> De l'injufte deftin, la fiere Barbarie </l>
+                        <l> Me forçeant malgré moy d'eftre voftre ennemie, </l>
+                    </sp>
+                </div2>
+            </div1>
+            
+            
+            
+            
+        </body>
+    </text>
+</TEI>
+
