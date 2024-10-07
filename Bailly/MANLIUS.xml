@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+   
+    <text>
+        <front>
+            <castList>
+                <castItem xml:id="torquatus"> <!-- précision identifiant, lié à l'attribut who="" dans la balise speaker -->
+                    <role>TORQUATUS</role>,<!-- attention à mettre ce genre d'éléments hors des balises spécifique, pour qu'ils n'apparaissent pas dans une recherche--> 
+                    <roleDesc>Consul Romain</roleDesc>.
+                </castItem>
+                <castItem>
+                    <role>MANLIUS</role>, 
+                    <roleDesc>Fils du Consul</roleDesc>.
+                </castItem>
+                <castItem>
+                    <role>CAMILLE</role>, 
+                    <roleDesc>Veuve de Decius</roleDesc>.
+                </castItem>
+                <castItem  xml:id="omphale">
+                    <role>OMPHALE</role>, 
+                    <roleDesc>Princesse d'Épire captive des Romains</roleDesc>.
+                </castItem>
+                <castItem>
+                    <role>JUNIUS</role>, 
+                    <roleDesc>Ami de Torquatus</roleDesc>.
+                </castItem>
+                <castItem>
+                    <role>PHÉNICE</role>, 
+                    <roleDesc>Suivante d'Omphale</roleDesc>.
+                </castItem>
+                <castItem>
+                    <role>PISON</role>, 
+                    <roleDesc>Licteur</roleDesc>.
+                </castItem>
+            </castList>
+                       
+        </front>
+        <body>
+            <head>Manlius</head>
+            <div1 type="acte" n="2">
+                <div2 type="scene" n="1">
+                    <head>SCENE V.</head>
+                    <stage type="setting" rend="caps">TORQU<damage agent="ink-smudge" cert="high">A</damage>TUS, OMPHALE, PHENICE.</stage>  <!-- setting annonce qu'on va nommer les personnages, on peut avoir d'autres types de stage en fonction de ce à quoi on doit encoder -->
+                
+                    <sp who="#torquatus">
+                            <speaker>TORQUATUS.</speaker>
+                                    
+                            <l part="F"><!-- pour dire que c'est la fin de vers par rapport au vers précédent -->Quel ſujet dans ce lieu vous <choice>
+                                <orig>ameine</orig>
+                                <reg>amène</reg></choice> 
+                            ?</l>
+                        
+                            <l>Eſt-ce pitié, Madame, eſt-ce amour, eſt-haine ?</l>
+                       </sp>
+                    
+                    <sp who="#omphale">
+                            <speaker>OMPHALE.</speaker>
+                        
+                            <l>C'eſt l'eſtime, Seigneur, que conſervent entre eux</l>
+                        
+                            <l>Les pluss grands ennemis, quand ils font genereux,</l>
+                        
+                            <l>De l'injuſte deſtin, la fiere Barbarie</l>
+                        
+                            <l>Me forçaeant malgré moy d'eſtre voſtre ennemie,</l>
+                        </sp> 
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
