@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <castItem xml:id="torquatus">
+                    <role>TORQUATUS</role>, <roleDesc>Consul Romain</roleDesc>. </castItem>
+
+                <castItem xml:id="manlius">
+                    <role>MANLIUS</role>, <roleDesc>Fils du Consul</roleDesc>. </castItem>
+
+                <castItem xml:id="camille">
+                    <role>CAMILLE</role>, <roleDesc>Veuve de Decius</roleDesc>. </castItem>
+
+                <castItem xml:id="Omphale">
+                    <role>OMPHALE</role>, <roleDesc>Princesse d'Épire captive des
+                    Romains</roleDesc>. </castItem>
+
+                <castItem xml:id="junius">
+                    <role>JUNIUS</role>, <roleDesc>Ami de Torquatus</roleDesc>. </castItem>
+
+                <castItem xml:id="phénice">
+                    <role>PHÉNICE</role>, <roleDesc>Suivante d'Omphale</roleDesc>. </castItem>
+
+                <castItem xml:id="pison">
+                    <role>PISON</role>, <roleDesc>Licteur</roleDesc>. </castItem>
+            </castList>
+        </front>
+        <body>
+
+            <div1>
+                <p>Acte II</p>
+                <div2 type="scene" n="5">
+
+                    <stage>TORQUATUS, OMPHALE, PHENICE</stage>
+                    <sp who="#torquatus">
+                        <speaker>TORQUATUS</speaker>
+                        <l>Quel <choice>
+                                <orig>ſujet</orig>
+                                <reg>sujet</reg>
+                            </choice> dans ce lieu vous <choice>
+                                <orig>ameine</orig>
+                                <reg>amène</reg>
+                            </choice> ? Eſt-ce pitié, Madame, eſt-ce amour, eſt-ce haine</l>
+                    </sp>
+                    <sp who="#Omphale">
+                        <speaker>OMPHALE</speaker>
+                        <l>C'eſt l'eſtime, Seigneur, que conſervent entre eux Les plus grands
+                            ennemis, quand ils ſont généreux. De l'injuſte deſtin, la fière Barbarie
+                            Me forçeant malgré moy d'eſtre voſtre ennemie,</l>
+                    </sp>
+
+                </div2>
+                <p> </p>
+            </div1>
+        </body>
+    </text>
+</TEI>
