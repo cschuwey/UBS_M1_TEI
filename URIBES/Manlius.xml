@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <castItem xml:id="torquatus">
+                    <role>TORQUATUS</role>,
+                    <roleDesc>Consul Romain</roleDesc>.
+                </castItem>
+                <castItem xml:id="manlius">
+                    <role>MANLIUS</role>,
+                    <roleDesc>Fils du Consul.</roleDesc>.
+                </castItem>
+                <castItem xml:id= "camille">
+                    <role>CAMILLE</role>,
+                    <roleDesc>Veuve de Decius.</roleDesc>.
+                </castItem>
+                <castItem xml:id="omphale">
+                    <role>OMPHALE</role>,
+                    <roleDesc>Princesse d'Épire captive des Romains.</roleDesc>.
+                </castItem>
+                <castItem xml:id="junius">
+                    <role>JUNIUS</role>,
+                    <roleDesc>Ami de Torquatus.</roleDesc>.
+                </castItem>
+                <castItem xml:id="phenice">
+                    <role>PHÉNICE</role>,
+                    <roleDesc>Suivante d'Omphale.</roleDesc>.
+                </castItem>
+                <castItem xml:id="pison">
+                    <role>PISON</role>,
+                    <roleDesc>Licteur.</roleDesc>.
+                </castItem>
+            </castList>
+        </front>
+        <body>
+            <div1 type="act">
+                <head>Acte II</head>
+                <div2 type="scene">
+                    <head>Scene V</head>
+                    <stage type="setting">Torqu<damage agent="ink">a</damage>tus, Omphale, Phenice </stage>
+                    <sp who="#torquatus">
+                        <speaker> TORQUATUS. </speaker>
+                        <lg>
+                            <l part="F">Quel sujet dans ce lieu vous <choice>
+                                    <orig>ameine</orig>
+                                    <reg>amène</reg>
+                                </choice>?</l>
+                            <l>Est-ce pitié, Madame, est-ce l'amour, est-ce la haine</l>
+                        </lg>
+                    </sp>
+                    <sp who="#omphale">
+                        <speaker> OMPHALE. </speaker>
+                        <lg>
+                            <l>C'est l'estime, Seignueur, que confèrent entre eux</l>
+                            <l>Les plus grands ennemis, quand ils sont généreux</l>
+                            <l>De l'injuste destin, la fière Barbarie</l>
+                            <l>Me forçant malgré <choice> 
+                                <orig>moy<orig> 
+                                <reg>moi<reg> 
+                            </choice> d'être votre ennemie.<l>
+                        </lg>
+                    </sp>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
