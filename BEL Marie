@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <TeiHeader>    
+    </TeiHeader>
+    <!--L'objectif était d'avoir deux versions du texte, l'une au plus près de l'oeuvre d'origine avec ses particularités d'impression, l'autre claire et lisible.-->
+    <!--Plusieurs aspects m'ont posé problème : d'une part, choisir ce qui était à conserver ou non, d'autre part les formules que je peine à trouver dans la documentation.-->
+    <!--Enfin, je n'ai pas trouvé les formules pour "damage"-->
+    
+    <text>
+    <front>
+    <body>
+      <div1 type="act" n="2">
+      <div2 type="scene" n="5">
+       <castList>
+         <!--Quid des majuscules ?-->
+           <CastItem xml:id="Torquatus"><role>Torquatus</role></CastItem>
+           <CastItem xml:id="Omphale"><role>Omphale</role></CastItem>
+           <CastItem><role>Phénice</role></CastItem>
+        </castList>
+              
+         <sp who="#Torquatus">
+         <speaker>Torquatus</speaker>
+         <lg type="stanza" rhyme="AABB">
+         <l>Quel sujet dans ce lieu vous <choice><orig>ameine</orig><reg>amène</reg></choice> ?</l>
+         <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
+         </lg>
+         </sp>
+          
+          <sp who="#Omphale">
+          <speaker>Omphale</speaker>
+          <lg type="stanza" rhyme="AABB">
+            <l>C'est l'estime, Seigneur, que conservent entre eux</l>
+            <l>Les plus grands ennemis, quand ils sont généreux.</l>
+            <l>De l'injuste destin, la fière Barbarie</l>
+            <l>Me <choice><orig>forçeant</orig><reg>forçant</reg></choice>malgré <choice><orig>moy</orig><reg>moi</reg></choice>d'<choice><orig>estre vostre</orig><reg>être vôtre</reg></choice>ennemie.</l>
+            <l><choice><orig>Vostre</orig><reg>Votre</reg></choice>vertu <choice><orig>m'empesche</orig><reg>m'empêche</reg></choice>au moins de vous haïr</l>
+            <l>Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir.</l>
+            <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
+            <l>Et que de <choice><orig>vostre</orig><reg>votre</reg></choice>fils la funeste <choice><orig>avanture</orig><reg>aventure</reg></choice></l>
+            <l>Jette tant de fureur dans l'<choice><orig>ame</orig><reg>âme</reg></choice> des soldats</l>
+            <l>Que <choice><orig>vostre</orig><reg>vôtre</reg></choice>gloire <choice><orig>amp</orig><reg>et</reg></choice>vous, ne s'en sauveront pas.</l>
+          </lg>
+          </sp>
+          
+          <sp who="#Torquatus">
+          <speaker>Torquatus</speaker>
+          <lg type="stanza" rhyme="AABB">
+             <l><choice><orig>Quoy</orig><reg>Quoi</reg></choice>,la Princesse Omphale est sensible à ma gloire ?</l>
+          </lg>
+          </sp>
+          
+          <sp who="#Omphale">
+          <speaker>Omphale</speaker>
+          <lg type="stanza" rhyme="AABB">
+             <l>Je <choice><orig>l'ay toûjours esté</orig><reg>l'ai toujours été</reg></choice>; si j'en<choice><orig>croy</orig><reg>crois</reg></choice> ma <choice><orig>memoire</orig><reg>mémoire</reg></choice>,</l>
+             <l>Et c'est par ce motif, que <choice><orig>j'ay</orig><reg>j'ai</reg></choice>tant <choice><orig>combatu</orig><reg>combattu</reg></choice>,</l>
+             <l>Un amour dont l'effet <choice><orig>blessoit vostre</orig><reg>blessait votre</reg></choice>vertu.</l>
+          </lg>
+          </sp> 
+              
+          <sp who="#Torquatus">
+          <speaker>Torquatus</speaker>
+          <lg type="stanza" rhyme="AABB">
+              <l><choice><orig>Peut-estre cét</orig><reg>Peut-être cet</reg></choice>orgueil a-t'il une autre cause,</l>
+              <l>Car de tous vos secrets, nous <choice><orig>sçavons</orig><reg>savons</reg></choice> quelque chose,</l>
+              <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+          </lg>
+          </sp>
+          
+          <sp who="#Omphale">
+          <speaker>Omphale</speaker>
+          <lg type="stanza" rhyme="AABB">
+              <l>Il est <choice><orig>vray</orig><reg>vrai</reg></choice>, je le crains ; je ne m'en <choice><orig>deffens</orig><reg>défend</reg></choice>pas;</l>
+              
+           <!--Nouvelle page, numéro 22 avec le titre en majuscules dans l'en-tête-->
+              
+              <l>Si je plains d'un <choice><orig>heros</orig><reg>héros</reg></choice>la triste destinée,</l>
+              <l>Une pitié si noble, est d'une <choice><orig>ame</orig><reg>âme</reg></choice>bien née;</l>
+              <l>Et quand ce motif seul me <choice><orig>forceroit</orig><reg>forcerait</reg></choice>d'agir,</l>
+              <l>Ce n'est pas un secret dont je deusse rougir : </l>
+              <l>Un si beau mouvement ne <choice><orig>seroit</orig><reg>serait</reg></choice>pas un crime.</l>
+              </lg>
+            </sp>
+              
+           
+           <sp who="#Torquatus">
+           <speaker>Torquatus</speaker>
+           <lg type="stanza" rhyme="AABB">
+               <l><choice><orig>Pourquoy</orig><reg>pourquoi</reg></choice>donc le cacher, s'il est si <choice><orig>legitime</orig><reg>légitime</reg></choice>?</l>
+               <l><choice><orig>Pourquoy l'enveloper</orig><reg>Pourquoi l'envelopper</reg></choice> d'une <choice><orig>seinte</orig><reg>sainte</reg></choice>terreur,</l>
+               <l>Et donner des <choice><orig>advis</orig><reg>avis</reg></choice>d'une fausse rumeur ?</l>
+               <!--Graphie du "Q" et ponctuation du DIL, la parole simulée ou empruntée-->
+               <l>Que ne me dites vous, je crains pour ce que <choice><orig>j'ayme</orig><reg>j'aime</reg></choice>?</l>
+               <l>Accordez Manlius à mon amour <choice><orig>extréme</orig><reg>extrême</reg></choice>,</l>
+               <!--Problème des tirets et des accents-->
+               <l>Faites<choice><orig>moy</orig><reg>moi</reg></choice>ce <choice><orig>present</orig><reg>présent</reg></choice>.</l>
+           </lg>
+           </sp>
+               
+          <sp who="#Omphale">
+          <speaker>Omphale</speaker>
+          <lg type="stanza" rhyme="AABB">
+              <!--L'enjeu principal est ici la forme : le retrait puis ce qui ressemble à un rejet-->
+              <l>Pour conserver les jours</l>
+              <l>Une telle priere est un <choice><orig>foible</orig><reg>faible</reg></choice>secours :</l>
+              <l>La mort de ce <choice><orig>Heros</orig><reg>Héros</reg></choice> n'est que trop assurée,</l>
+              <l>Mes <choice><orig>mal-heurs, vostre</orig><reg>malheurs, votre</reg></choice> amour,<choice><orig>amp</orig><reg>et</reg></choice>le sort l'ont <choice><orig>ju-(rée</orig><reg>jurés</reg></choice>,</l>
+              <l>Je vois bien que je fais un inutile effort.</l>
+              <l>Hélas ! il <choice><orig>perira</orig><reg>périra</reg></choice>.</l>
+          </lg>
+          </sp> 
+          
+           <sp who="#Torquatus">
+           <speaker>Torquatus</speaker>
+           <lg type="stanza" rhyme="AABB">
+               <!--Retrait au 1r vers-->
+               <l><choice><orig>Moderez</orig><reg>Modérez</reg></choice> ce transport.</l>
+               <l>Vous pourrez le sauver, si son trépas vous touche;</l>
+               <l>Son <choice><orig>arrest luy</orig><reg>arrêt lui</reg></choice> sera donné par <choice><orig>vostre</orig><reg>votre</reg></choice>bouche:</l>
+               <l>Tout mon Rival qu'il est, la mort dépend de vous</l>
+               <l>Je vous laisse y penser. Camille vient à nous,</l>
+               <l>Un pareil entretien doit finir <choice><orig>aupres</orig><reg>auprès</reg></choice>d'elle.</l>
+           </lg>
+           </sp>
+         
+           <stage type="exit">Il sort.</stage>
+          
+          <!--Quid du dessin à la fin de la page ? Créer un lien vers l'image ?-->
+          <!--Quid de la mention "SCE-" ?-->
+               
+           </div2>
+           </div1>
+       </body>
+       </front> 
+    </text>
+</TEI>
