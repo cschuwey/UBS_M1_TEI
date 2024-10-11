@@ -1,0 +1,46 @@
+    </teiHeader>
+    <text>
+        <front>
+            <castlist>
+                <castItems>
+                   
+                    <role> Torquatus </role>, <roledesk> consul romain</roledesk>
+                </castItems>
+                <castItems xml:id="Manllius"> 
+                    <role> Manllius </role>, <roledesk>fils du consul</roledesk>
+                </castItems>
+                <castItems> 
+                    <role> Camille</role>, <roledesk>veuve de Decius</roledesk>
+                </castItems>
+           
+            </castlist>
+        </front>
+        <body>  
+            
+<div1 type="Act">
+    <div2 type="scene">
+        <head>Scene 5.</head>
+    <stage type="setting">Torqu<damage agent="ink">a</damage>tus, Omphale, Phenice</stage>
+        <sp>
+<speaker> Torquatus</speaker>
+           
+            <l part="F"> Quel fujet dans ce lieu vous ameine?<choice>
+            <orig>ameine</orig>
+            <reg>amene</reg>
+                </choice>
+            </l> 
+            <l> Eft-ce pitié, Madame, eft-ce amour, eft-ce haine ?</l></sp>
+           
+          <sp>
+<speaker>Omphale</speaker> 
+              <l> C'eft l'eftime, Seigneur, que confervent entre eux</l>
+              <l> Les plus grands ennemis, quand ils font genereux,</l>
+              <l> De l'injufte deftin, la fiere Barbarie</l>
+              <l> Me forçeant malgre moy d'êstre voftre ennemie,</l>
+           </sp>
+   </div2>
+</div1>
+
+        </body>
+        </text>
+    </TEI>
