@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste traduits du grec par La Bruyère</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Léia</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>Léia</authority>
+                <pubPlace>UBS</pubPlace>
+                <date when="2024-10-14">14 octobre 2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Jean de<name>La Bruyère</name></author>
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
+                    <publisher>Paris : E. Michallet</publisher>
+                    <date>1688</date>
+                </bibl>
+                <bibl>
+                    <author>Jean de<name>La Bruyère</name></author>
+                    <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec Les caractères ou les moeurs de ce siècle / [par Jean de La Bruyère]</title>
+                    <publisher>Cambridge (Mass.) : Omnisys, [ca 1990]</publisher>
+                    <date>1694</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
