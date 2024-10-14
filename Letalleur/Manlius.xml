@@ -3,15 +3,37 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius : tragi-comédie par Mademoiselle Desjardins</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Léia</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>Léia</authority>
+                <pubPlace>UBS</pubPlace>
+                <date when="2024-10-14"> 14 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author>Marie-Catherine<name>Desjardins</name></author>
+                    <title>Manlius</title>
+                    <publisher>Barbin</publisher>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Retranscrire le début de la scène 5 de l'acte II de Manlius jusqu'à la fin des quatre premiers vers de la réplique d'Omphal</p></projectDesc>
+            <editorialDecl>
+                <p>J'ai choisi de garder les s longues. J'ai choisi de retranscrire l'orthographe d'origine et de la régulariser.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <front>
@@ -44,7 +66,7 @@
                         <l>Les plus grands ennemis, quand ils font genereux.</l>
                         <l>De l'injuſte deſtin, la fiere Barbarie</l>
                         <l>Me forçeant malgré moy d'eſtre voſtre ennemie,</l>
-                        </sp>
+                    </sp>
                 </div2>
             </div1>
         </body>
