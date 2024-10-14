@@ -3,15 +3,41 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius, par Marie-Catherine Desjardins</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Chapelain</name>
+                    <roleName>étudiante</roleName>
+                    <affiliation>Université de Bretagne Sud</affiliation>
+                </publisher>
+                <pubPlace>Université de Bretagne Sud</pubPlace>
+                <date when="2024-10-14">14 Octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author> Villedieu Marie-Catherine-Hortense</author>
+                    <title>Manlius : tragi-comédie</title>
+                    <publisher>Sans nom</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>NUMM-57511</idno>
+                    <date when="1662">1662</date>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc> 
+            <langUsage>
+                <p xml:lang="fra">Français</p>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encodage du texte pour le cours de TEI</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>L'encodage contient la scène 5 de l'acte 2</p>
+            </samplingDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <front>
@@ -45,7 +71,8 @@
                     <roleDesc>Licteur</roleDesc>
                 </castItem>
             </castList>
-            <stage type="location"> La Scène est au Camp des Romains devant les Tentes du Consul</stage>
+            <stage type="location"> La Scène est au Camp des Romains devant les Tentes du
+                Consul</stage>
         </front>
         <body>
             <div1 type="act" n="2">
@@ -76,3 +103,4 @@
         </body>
     </text>
 </TEI>
+
