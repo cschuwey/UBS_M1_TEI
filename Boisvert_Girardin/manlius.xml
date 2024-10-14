@@ -3,15 +3,40 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius, par Marie-Catherine-Hortense Desjardins</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher> 
+                    <name>Ambre Boisvert Girardin</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>Boisvert Girardin</authority>
+                <pubPlace>UBS Lorient</pubPlace>
+                <date when="2024-10-14">14 ocotobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author>Mademoiselle Desjardins</author>
+                    <title>Manlius</title>
+                    <publisher>Barbin</publisher>
+                    <idno>NUMM-57511</idno>
+                </bibl>
             </sourceDesc>
-        </fileDesc>
+        </fileDesc> 
+        <encodingDesc>
+            <projectDesc><p>Retrancrire la republication de Manlius de Mademoiselle Desjardins,
+            via la retranscription de Marie-Catherine-Hortense Villedieu.</p></projectDesc>
+            <samplingDecl><p>Seul une partie du texte a été travaillé, 
+                le début de l'Acte 5 jusqu'à la réplique d'Omphale s'adressant à Torquatus.</p></samplingDecl>
+            <editorialDecl><normalization><p>Correction, retranscirption de tâches d'encre sur le
+            papier d'origine.</p></normalization></editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage><p
+            xml:lang="fra"/> 
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <front>
@@ -36,9 +61,9 @@
             <div1 type= "act" n="2">
                 <div2 type="scène" n="5">
                     <head>Scène 5</head>
-                <stage type="setting">
-                    <p>TORQU<damage agent="ink-smudge" cert="3">A</damage>TUS, OMPHALE, PHENICE</p>
-                </stage>
+                    <stage type="setting">
+                        <p>TORQU<damage agent="ink-smudge" cert="3">A</damage>TUS, OMPHALE, PHENICE</p>
+                    </stage>
                     <sp who="#TORQUATUS">
                         <speaker>TORQUATUS</speaker>
                         <l part="F">Quel sujet dans ce lieu vous <choice>
