@@ -3,15 +3,41 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius par Marie-Catherine Desjardins</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Allais</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>Université Bretagne Sud Lorient</affiliation>
+                </publisher>
+                <date when="2024-10-14">Le 14 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author><surname>Villedieu</surname><forename>Marie-Catherine-Hortense
+                            de</forename></author>
+                    <title>Manlius : tragi-comédie</title>
+                    <publisher>Sans nom</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1662">1662</date>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L'encodage d'une scène de la tragi-comédie de Marie-Catherine Desjardins</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Test d'encodage de la scène 5 de l'acte 2</p>
+            </samplingDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <p xml:lang="fra">Français</p>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <front>
