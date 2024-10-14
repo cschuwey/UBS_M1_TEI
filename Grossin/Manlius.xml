@@ -3,15 +3,37 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius : tragi-comédie, par Mademoiselle Desjardins</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Solene</name>
+                   <roleName>Solène</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>Solène</authority>
+                <pubPlace>UBS</pubPlace>
+                <date when="2024-10-14"> 14 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+               <bibl>
+                   <author>Marie-Catherine<name>Desjardins</name></author>
+                   <title>Manlius</title>
+                   <publisher>Barbin</publisher>
+               </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Retranscrire le début de Manlius</p></projectDesc>
+            <editorialDecl>
+                <p>Le s long a été conservé pour garder le texte original</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <front>
