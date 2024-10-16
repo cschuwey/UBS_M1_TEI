@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Manlius</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Tworek Eline</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                    <address><addrLine>Université Bretagne Sud</addrLine></address>
+                    <!--Adresse du lieu de publication-->
+                    <date when="2024"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author><forename>Marie-Catherine</forename> <name>Desjardins</name></author>
+                    <!--Sur-structurer permet d'aller chercher exactement ce que l'on veut-->
+                    <title>Manlius</title> Tragi-comédie
+                    <editor>Barbin</editor>
+                    <date>1662</date>
+                    <idno>NUMM-57511</idno>
+                    <!--Permet d'encoder la côte-->
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57511q</ref>
+                    <!--lien vers Gallica-->
+                 </bibl>
+                <!--Entrée bibliographique structurée-->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet d'édition numérique de Manlius</p>
+            </projectDesc>
+            <!--A quel projet appartient cette numérisation-->
+        <editorialDecl>
+            <p>Les s long ont été changés en s classique.</p>
+        </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <!-- CastItem permet de dire que le personnage aura le même rôle tout le long de la pièce-->
+                <castItem xml:id="Torquatus"> <role>TORQUATUS</role>,<roleDesc>Consul Romain</roleDesc>. 
+                </castItem>
+                <castItem xml:id="Manlius"> <role> MANLIUS</role>, <roleDesc>Fils du Consul</roleDesc>.
+                </castItem>
+                <castItem xml:id="Camille">
+                    <role>CAMILLE</role>,<roleDesc> Veuve de Decius</roleDesc>.
+                </castItem>
+                <castItem xml:id="Omphale">
+                    <role> OMPHALE </role>,<roleDesc>Princesse d'Epire capive des Romains</roleDesc>.
+                </castItem>
+                <castItem xml:id="Junius">
+                    <role>JUNIUS</role>,<roleDesc>Ami de Torquatus</roleDesc>.
+                </castItem>
+                <castItem xml:id="Phenice">
+                    <role>PHENICE</role>,<roleDesc>Suivante d'Omphale</roleDesc>.
+                </castItem>
+                <castItem xml:id="Pison">
+                    <role>PISON</role>,<roleDesc>Licteur</roleDesc>.
+                </castItem>
+            </castList>
+        </front>
+        <body>
+            <stage type="location">La Scène est au Camp des Romains devant les Tentes du Consul</stage>
+            <div1 type="Act">
+                <div2 type="scene">
+                    <head>SCENE V.</head>
+                    <stage type="setting">TORQU <damage agent="ink">A </damage>TUS, OMPHALE, PHENICE.</stage>
+                    <!-- Pour les didascalies--><!-- le damage permet de montrer la bavure qui existe dans la version original, on ajoute des informations sur ce mot là-->
+                    <sp who="#Torquatus">
+                    <!-- Permet de montrer le tour de jeu-->
+                       <speaker corresp="torquatus"> TORQUATUS</speaker>
+                       <!-- Permet de dire quel est le personnage qui parle actuellement et le corresppermet de lier le personnage à la castlist-->
+                          <l part="F">Quel <choice>
+                              <orig>fujet</orig>
+                              <reg>sujet</reg>
+                          </choice> dans ce lieu vous <choice>
+                              <orig>ameine</orig>
+                              <reg>amène</reg>
+                          </choice> ? </l>
+                          <!-- le part permet de dire que le vers n'est pas fini et qu'il a un avant et une fin qui ne sont pas sur la même ligne-->
+                          <!-- la balise choice montre qu'il y a une régularisation de l'ancien français, ce n'est que de la description et on choisit après si on veut afficher ou pas-->                     
+                          <l>Est-ce pitié, madame, est-ce amour, est-ce haine?</l>
+                    </sp>
+                    <sp who="#Omphale">
+                       <speaker>OMPHALE</speaker>
+                          <l><choice>
+                              <orig>C'esft</orig>
+                              <reg>C'est</reg>
+                          </choice> <choice>
+                              <orig>l'eftime</orig>
+                              <reg>l'estime</reg>
+                          </choice>, Seigneur, que <choice>
+                              <orig>confervent</orig>
+                              <reg>conservent</reg>
+                          </choice> entre eux</l>
+                          <l>les plus grands ennemis, quand ils <choice>
+                              <orig>font</orig>
+                              <reg>sont</reg>
+                          </choice> généreux,</l>
+                          <l>De l' <choice>
+                              <orig>injufte</orig>
+                              <reg>injuste</reg>
+                          </choice> <choice>
+                              <orig>deftin</orig>
+                              <reg>destin</reg>
+                          </choice>, la fiere Barbarie</l>
+                          <l>Me forçeant malgré <choice>
+                              <orig>moy</orig>
+                              <reg>moi</reg>
+                          </choice> d' <choice>
+                              <orig>eftre</orig>
+                              <reg>être</reg>
+                          </choice> <choice>
+                              <orig>voftre</orig>
+                              <reg>votre</reg>
+                          </choice> ennemie,</l>
+                   <!-- J'ai choisit de mettre tout les s (qui ont une typographie différente sur le document original) mais je pense que l'on est pas obligé de le faire, c'est un choix personnel-->
+                    </sp>
+                </div2> 
+            </div1>
+        </body>
+    </text>
+</TEI>
