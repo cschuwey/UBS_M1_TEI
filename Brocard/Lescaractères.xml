@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de la Bruyère</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Brocard </name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>Brocard </authority>
+                <pubPlace> UBS Lorient </pubPlace>
+                <date when="2024-10-16">16 octobre 2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author> Jean <name>De le Bruyère</name></author>
+                    <author>Théophraste </author> 
+                    <title>Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle </title>
+                    <publisher> E. Michallet </publisher> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b86070385"> BNF Gallica </ref>
+                    <idno> IFN-8607038 </idno>
+                    <date when="1688">M. DC. LXXXVIII.</date>
+                </bibl>
+                <bibl>
+                    <author> Jean <name>De le Bruyère</name></author>
+                    <author>Théophraste </author> 
+                    <title>Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle </title>
+                    <publisher> E. Michallet (Paris)</publisher> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k"> BNF Gallica </ref>
+                    <idno> NUMM-8712342 </idno>
+                    <date when="1691">M. DC. XCI.</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
