@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de la Bruyère</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <roleName>Cosson Stéphanie</roleName>
+                <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>Cosson Stéphanie</authority>
+                <pubPlace> Université de Bretagne Sud</pubPlace>
+                <date when="2024-10-16">16 octobre 2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Les caracteres ou les moeurs de ce siecle.</title>
+                    <author>Théophraste</author><author>Jean de la Bruyère</author>
+                    <date>1688</date>
+                    <publisher>Estienne Michallet</publisher>
+                    <idno>RES-R-2056</idno>
+                    <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385</ref>
+                    <pubPlace>Paris</pubPlace>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Texte encodé pour un cours de TEI</p>
+                <p>On se base sur l'édition de 1688 pour la mettre en relation avec une nouvelle édition celle des Caractères de La Bruyère, édition classique éditée en 1876 à Tours</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Page de titre</p>
+            </samplingDecl>
+<editorialDecl>
+    <normalization> 
+        <p>Les accents ont été supprimés</p>
+    </normalization>
+</editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
