@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="https://www.tei-c.org/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>Jean <name>de La Bruyère</name></author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    <name>Margot Bailly</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                    <date when="2024-10-16">16 octobe 2024</date>
+                    <authority>Margot bailly</authority> 
+                </publisher>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <editionStmt>
+                        <title>Première</title>
+                        <author>Jean <name>de La Bruyère</name></author>
+                        <publisher>Thomas Amaulry</publisher>
+                        <pubPlace>Lyon</pubPlace>
+                        <date>1688</date>
+                        <idno>RES-R-2058</idno>
+                        <ref target="https://catalogue.bnf.fr/ark:/12148/cb307059813">Catalogue de la BNF</ref>
+                    </editionStmt>
+                    <editionStmt>
+                        <title>Deuxième</title>
+                        <author>Jean <name>de La Bruyère</name></author>
+                        <publisher>E. Michallet</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1692</date>
+                        <idno>8-Z LE SENNE-13968</idno>
+                        <ref target="https://catalogue.bnf.fr/ark:/12148/cb323333021">Catalogue de la BNF</ref>
+                    </editionStmt>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+</TEI>
