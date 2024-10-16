@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste , traduits du grec, avec Les caractères ou les
+                    moeurs de ce siècle [Par J. de La Bruyère]</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Evren FEVE</name>
+                    <affiliation>Université Bretagne Sud</affiliation>
+                    <roleName>Etudiante</roleName>
+                </publisher>
+                <pubPlace>UBS</pubPlace>
+                <date when="2010-04-10">10 avril 2010</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Les caracteres de Theophraste , traduits du grec, avec Les caracteres ou
+                        les moeurs de ce siecle</title>
+                    <author>Théophraste</author>
+                    <editor>Michallet</editor>
+                    <date>1688</date>
+                    <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385.r=caract%C3%A8res%20la%20bruy%C3%A8re?rk=21459;2</ref>
+                    <date>10/04/2010</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet d'édition numérique des Caractères de Théophraste pour un TD de XML
+                    TEI</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Nous nous basons sur l'édition de 1688 qui n'a pas d'accent pour la mettre en
+                    parallèle avec l'édition de 1876 qui a les accents.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
