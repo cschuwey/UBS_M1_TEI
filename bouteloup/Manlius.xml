@@ -3,15 +3,44 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <!-- ici je dirais que l'attribut lg fr serait en français alors que tout le texte est en français (aussi norme ISO des lg -->
+                <title xml:lang="fr">Manlius</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <!--on peut tout détailler avec name, roleName, affiliation etc...-->
+                <publisher>Bouteloup Amandine</publisher>
+                <pubPlace>Université Bretagne Sud, Lorient</pubPlace>
+                <!--oui pr la date faut la mettre en anglais dans l'attrib when-->
+                <date when="2024-10-14">14 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <!--ici le bibl n'est pas une balise structurante-->
+                <bibl>
+                    <title>Manlius: tragi-comédie</title>
+                    <author>Marie-Catherine-Hortense Desjardins</author>
+                    <publisher>Barbin</publisher>
+                    <idno>NUMM-57511</idno> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k57511q"/>
+                    <date when="1662">CIƆ IƆC LXII</date>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc> <!-- but de la numérisation -->
+                <p>Texte de théâtre encodé dans le cadre d'un cours de TEI</p>
+            </projectDesc>
+            <samplingDecl><p>Ce texte provient uniquement de la scène V de l'acte II, débutant à la réplique de Torquatus débutant par "quel sujet" et terminant à l'intérieur d'une réplique d'Omphale "d'être votre ennemie"</p></samplingDecl>
+            <editorialDecl>
+                <normalization><p>Les ſ longues ont été gardés et nous avons décrit les bavures d'encres rencontrées</p></normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <!-- donc ici on indique que tt le txt est en fr -->
+        <profileDesc>
+            <langUsage>
+                <p xml:lang="fr">Français</p>
+            </langUsage>
+        </profileDesc>
+        
     </teiHeader>
     <text>
         <front>
