@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères, par Jean de la Bruyère</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Ambre Boisvert Girardin</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS Lorient</affiliation>
+                </publisher>
+                <authority>Boisvert Girardin</authority>
+                <pubPlace>Université de Bretagne Sud Lorient</pubPlace>
+                <date when="2024-10-21">21 octobre 2024</date>
+            </publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <author>Théophraste</author>
+                    <title>Les caractères ou les moeurs de ce siècle</title>
+                    <publisher>E.Michallet (Paris)</publisher>
+                    <idno>RES-R-2056</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Retrancrire la republication des Caractères de Théophraste, via deux éditions de la retranscription de La Bruyère.</p></projectDesc>
+            <samplingDecl><p>Travail sur une partie du texte des Caractères de la Bruyère de 1688, mis en comparaison avec la réédition de 1876; l'édition classique éditée à Tours.</p></samplingDecl>
+            <editorialDecl><correction><p>Edition de 1876 présente des accents contrairement à celle de 1688.</p></correction></editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
