@@ -3,15 +3,47 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius - Tragi-comédie</title>
+                <author>
+                    <name>Marie-Cathrine</name>Desjardins</author>
             </titleStmt>
+       
+            <!--Contenu du document : qui la créé, quand ...-->
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Manon Pahour</name>
+                    <affiliation>UBS</affiliation>
+                    <roleName> étudiante M1 métiers du livre et de l'édition</roleName>
+                    <!-- When="" - Pas forcément affiché sur le document final alors que la version <date>15/10/2007</date> sera affichée en toutes lettres (si on le décide)--> 
+                    <date when="2024-10-14"/>
+                </publisher>
+                <!-- Désigne l'organisme qui prend en charge la publication-->
+                <address>
+                    <addrLine>Université de Bretagne SUD</addrLine>
+                </address>
             </publicationStmt>
+            
+            <!--Information de publication-->    
             <sourceDesc>
-                <p/>
+               <!--bibl permet de dire qu'il s'agit d'une référence bibliographique-->
+               <bibl>
+                <title>Manlius - Tragi-comédie</title>
+                <author> <name>Marie-Catherine</name>Desjardins</author>
+                <publisher>Barbin</publisher>
+                <idno>NUMM-57511</idno>
+                <date>1662</date>
+                <pubPlace>Paris</pubPlace>
+                <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57511q.r=manlius?rk=21459;2</ref>
+               </bibl>
             </sourceDesc>
+            
         </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc><p>Projet d'édition numérique de Manlius</p></projectDesc>
+            <editorialDecl><p>Les s long ont été modernisés</p></editorialDecl>
+        </encodingDesc>
+        
     </teiHeader>
     <text>
         
