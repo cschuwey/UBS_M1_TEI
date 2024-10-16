@@ -3,15 +3,38 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title> Manlius, Mademoiselle Desjardins</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name> Belinda Ratinho </name>
+                    <affiliation> UBS </affiliation>
+                    <roleName> étudiante </roleName>
+                    <origDate> 07/10/2024 </origDate>
+                    <date when="2024"> </date>
+                </publisher>
+                <address>
+                    <addrLine> Université Bretagne Sud, 56100 </addrLine>
+                      </address>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl> 
+                    <author> <forename>Marie-Catherine </forename> <name>Desjardins </name> </author>
+                    <title> Manlius</title>, tragi-comédie
+                    <editor>Barbin  </editor>
+                    <date> 1662 </date>
+                    <idno> cote du livre </idno>
+                    <ref> https://gallica.bnf.fr/ark:/12148/bpt6k57511q.r=manlius?rk=21459;2</ref>
+                   <date when="2007-10-15"/>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+       <encodingDesc> 
+           <projectDesc>
+               <p> Projet d'édition numérique de Manlius </p> 
+           </projectDesc>
+       <editorialDecl> <p> les s longs sont modernisés </p> </editorialDecl>
+       </encodingDesc>
     </teiHeader>
     
     
