@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+	<teiHeader>
+   	 
+    	<fileDesc>
+       	 
+        	<titleStmt>
+           	 
+            	<title xml:lang="fra"> Les Caractères, de La Bruyère</title>
+           	 
+        	</titleStmt>
+       	 
+        	<publicationStmt>
+            	<publisher>
+                	<name>GUY</name>
+                	<roleName>Etudiante</roleName>
+                	<affiliation>UBS</affiliation>
+            	</publisher>
+            	<authority>GUY</authority>
+            	<pubPlace>UBS</pubPlace>
+            	<date when="2024-10-16"></date>
+        	</publicationStmt>
+        	<sourceDesc>
+            	<bibl>
+                	<author> Jean <name>de La Bruyère</name> </author>
+                	<title>Les Caractères</title>
+                	<publisher> ex-libris Alfred Piat</publisher>
+                	<idno></idno>
+            	</bibl>
+           	 
+        	</sourceDesc>    
+       	 
+    	</fileDesc>
+   	 
+    	<encodingDesc>
+        	<projectDesc> <p>Retranscrire</p> </projectDesc>
+        	<samplingDecl> <p></p> </samplingDecl>
+        	<editorialDecl>
+            	<normalization> <p>Choix</p> </normalization>
+            	<quotation marks="all">
+                	<p>Tous les guillemets ont été supprimés. Le discours direct est représenté par l’usage de la balise <gi>said</gi>, et les autres passages cités au moyen de la balise <gi>q</gi>.</p>
+            	</quotation>
+        	</editorialDecl>
+    	</encodingDesc>
+   	 
+    	<profileDesc>
+        	<langUsage> <p xml:lang="fra">Français</p> </langUsage>
+       	 
+    	</profileDesc>
+   	 
+	</teiHeader>
