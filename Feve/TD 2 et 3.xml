@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Manlius : tragi-comédie ([Reprod.])</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Evren FEVE</name>
+                    <affiliation>Université Bretagne Sud</affiliation>
+                    <roleName>Etudiante</roleName>
+                </publisher>
+                <address><addrLine>UBS</addrLine></address>
+                <date when="2007-10-15">15 octobre 2007</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Manlius Tragi-comédie</title>
+                    <author><forename>Marie-Catherine</forename>
+                        <name>Desjardins</name></author>
+                    <editor>Barbin</editor>
+                    <date>1662</date>
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57511q/f2.item</ref>
+                    <date>15/10/2007</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Projet d'édition numérique de Manlius</p></projectDesc>
+            <editorialDecl><p>Deux possibilités pour les s long</p></editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <castItem xml:id="Torquatus">
+                    <role>Torquatus </role>
+                    <roleDesc> Consul Romain</roleDesc>
+                </castItem>
+            </castList>
+            <castList>
+                <castItem xml:id="Manlius">
+                    <role>Manlius</role>
+                    <roleDesc>Fils du Consul</roleDesc>
+                </castItem>
+            </castList>
+            <castList>
+                <castItem xml:id="Camille"><role>Camille</role>
+                    <roleDesc>Veuve de Decius</roleDesc>
+                </castItem>
+            </castList>
+            <castList>
+                <castItem xml:id="Omphale">
+                    <role>Omphale</role>
+                    <roleDesc>Princesse d'Épire captive des Romains</roleDesc>
+                </castItem>
+            </castList>
+            <castList>
+                <castItem xml:id="Junius"><role>Junius</role>
+                    <roleDesc>Ami de Torquatus</roleDesc>
+                </castItem>
+            </castList>
+            <castList>
+                <castItem xml:id="Phenice">
+                    <role>Phenice</role>
+                    <roleDesc>Suivante d'Omphale</roleDesc>
+                </castItem>
+            </castList>
+            <castList>
+                <castItem xml:id="Pison"><role>Pison</role>
+                    <roleDesc>Licteur</roleDesc>
+                </castItem>
+            </castList>
+        </front>
+        <body>
+            <stage type="location">La Scène est au Camp des Romains devant les Tentes du
+                Consul.</stage>
+            <div1 type="act" n="2">
+                <div2 type="scene" n="5">
+                    <head>Scène 5</head>
+                    <stage type="setting">Torqu<damage agent="ink">a</damage>tus, Omphale,
+                        Phenice</stage>
+                    <!-- J'ai décidé d'encoder le s long dans une variante afin de laisser le choix à l'utilisateur. Je ne suis pas sûre de mon choix comme il concerne plus l'apparence que le contenu, mais j'ai tout de même décidé de l'inclure pour sa connotation historique. Je n'étais pas non plus sûre de s'il était nécessaire d'encoder la variante du mot entier ou simplement de la lettre. Je me suis inspirée de la technique utilisée pour la bavure de la lettre "a". -->
+                    <sp who="#Torquatus">
+                        <speaker>Torquatus</speaker>
+                        <l part="F">Quel <choice>
+                                <orig>ſ</orig>
+                                <reg>s</reg>
+                            </choice>ujet dans ce lieu vous <choice>
+                                <orig>ameine</orig>
+                                <reg>amène</reg>
+                            </choice>?</l>
+                        <l>E<choice>
+                                <orig>ſ</orig>
+                                <reg>s</reg>
+                            </choice>t-ce pitié, Madame, e<choice>
+                                <orig>ſ</orig>
+                                <reg>s</reg>
+                            </choice>t-ce amour, e<choice>
+                                <orig>ſ</orig>
+                                <reg>s</reg>
+                            </choice>t-ce haine? </l>
+                    </sp>
+                    <sp who="#Omphale">
+                        <speaker>Omphale</speaker>
+                        <l>C'e<choice>
+                                <orig>ſ</orig>
+                                <reg>s</reg>
+                            </choice>t l'e<choice>
+                                <orig>ſ</orig>
+                                <reg>s</reg>
+                            </choice>time, Seigneur, que con<choice>
+                                <orig>ſ</orig>
+                                <reg>s</reg>
+                            </choice>ervent entre eux</l>
+                        <l>Les plus grands ennemis, quand ils <choice>
+                                <orig>ſ</orig>
+                                <reg>s</reg>
+                            </choice>ont genereux.</l>
+                        <l>De l'inju<choice>
+                                <orig>ſ</orig>
+                                <reg>s</reg>
+                            </choice>te destin, la fiere Barbarie </l>
+                        <l>Me forçeant malgré mo<choice>
+                                <orig>y</orig>
+                                <reg>i</reg>
+                            </choice> d'être votre ennemie.</l>
+
+                    </sp>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
