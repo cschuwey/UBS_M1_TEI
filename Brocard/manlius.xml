@@ -3,20 +3,58 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title> Manlius, par Marie-Catherine Desjardins </title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Brocard </name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>Brocard </authority>
+                <pubPlace> UBS Lorient </pubPlace>
+                <date when="2024-10-14">14 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author> Marie-Catherine-Hortense <name>Desjardins</name></author>
+                    <title> Manlius : tragi-comédie </title>
+                    <publisher>Barbin</publisher> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k57511q">BNF Gallica</ref>
+                    <idno> NUMM-57511</idno>
+                    <date when="1662">CIƆ IƆC LXII</date>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p> Texte encodé dans le cadre d'un cours de TEI</p>
+            </projectDesc>
+            <samplingDecl>
+                <p> Ce texte vient de la scène V de l'acte II, débutant de la réplique de Torquatus
+                    "Quel Sujet" et se finissant sur la réplique de Ompahle "Jusqu'à vous trahir"
+                </p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization>
+                    <p> Les ſ longues ont été gardés </p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <p xml:lang="fra">Français</p>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
+
+
+
     <text>
         <front>
             <castList>
-                <castItem  xml:id="torquatus">
+                <castItem xml:id="torquatus">
                     <role> TORQUATUS</role>, <roleDesc>Consul Romain</roleDesc>. </castItem>
                 <castItem>
                     <role>MANLIUS</role>, <roleDesc>Fils du Consul</roleDesc>. </castItem>
@@ -33,6 +71,7 @@
                     <role>PISON</role>, <roleDesc>Licteur</roleDesc>. </castItem>
             </castList>
         </front>
+
         <body>
             <div1 type="act" n="2">
                 <div2 type="scene" n="5">
