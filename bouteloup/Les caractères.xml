@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de la Bruyère</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Bouteloup Amandine</publisher>
+                <pubPlace>Université Bretagne Sud, Lorient</pubPlace>
+                <date when="2024-10-16">16 octobre 2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <author>Jean de la Bruyère</author>
+                    <author>Théophraste</author>
+                    <publisher>E. Michallet</publisher>
+                    <idno>IFN-8607038</idno> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f1.item"/>
+                    <date when="1688">M. DC. LXXXVIII.</date>
+                </bibl>
+                <bibl>
+                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <author>Jean de la Bruyère</author>
+                    <author>Théophraste</author>
+                    <publisher>E. Michallet</publisher>
+                    <idno>NUMM-57564</idno>
+                    Available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k575649?rk=21459;2"/>
+                    <date when="1689">M. DC. LXXXIX.</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
