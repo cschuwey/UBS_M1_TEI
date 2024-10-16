@@ -17,19 +17,28 @@
                 <bibl>
                     <title> Les caracteres de Theophraste , traduits du grec, avec Les caractères ou les moeurs de ce siecle.</title>
                     <author>Théophraste</author>
-                    <author> Jean de La Bruyère</author>
-                    <date> 1688 </date>
+                    <author> Jean <name> de La Bruyère </name></author>
+                    <date when="1688"> M. DC. LXXXVIII </date>
                     <publisher> Estienne Michallet</publisher>
-                    <ref> https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item </ref>
+                    <ref> https://gallica.bnf.fr/ark:/12148/btv1b86070385/f1.item </ref>
                     <idno> RES-R-2056 </idno>
                     <pubPlace> Paris </pubPlace>
+                </bibl>
+                <bibl>
+                    <title> Les caractères de Theophraste, traduits du grec avec les caractères ou les moeurs de ce siecle. Huitieme edition. Revue corrigée & augmentée. </title>
+                    <author> Théophraste </author>
+                    <author> Jean <name> de la Bruyère </name> </author>
+                    <date when="1694"> M. DC. XCIV. </date>
+                    <publisher> Estienne Michallet </publisher>
+                    <pubPlace> Paris </pubPlace>
+                    <ref> https://gallica.bnf.fr/ark:/12148/bpt6k57577n/f2.item </ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
                 <p> texte encodé pour un cours de TEI</p>
-                <p> On se base sur l'édition de 1688 pour la mettre en relation avec une nouvelle édition des Caractères de La Bruyère, édition classique éditée en 1876 à Tours</p>
+                <p> On se base sur l'édition originale de 1688 pour la mettre en relation avec la huitième édition des Caractères de La Bruyère, éditée en 1694 à Paris </p>
             </projectDesc>
             <samplingDecl>
                 <p>Page de titre </p>
