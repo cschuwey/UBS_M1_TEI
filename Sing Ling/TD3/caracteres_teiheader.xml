@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères, avec Les caractères ou les moeurs de ce siècle</title>
+                <author>de Théophraste</author>
+                <respStmt><resp>traduits du grec ancien par</resp><name>La Bruyère</name></respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Gaëlle Sing Ling <roleName>étudiante</roleName></publisher>
+                <address>
+                    <addrLine>27 rue Armand Guillemot</addrLine>
+                    <addrLine>CS 7030</addrLine>
+                    <addrLine>56321 Lorient Cedex</addrLine>
+                    <addrLine>Campus de Lorient</addrLine>
+                    <addrLine>Université Bretagne-Sud</addrLine>
+                    <addrLine>France</addrLine>
+                </address>
+                <authority>UBS</authority>
+                <date when="2024-10-16"/>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Théophraste</author>
+                        <title n="1" when="1688">Les Caractères</title>
+                        <title n="2" when="1694">Les Caractères</title>
+                        <title n="1;2" type="sub">Les caractères ou les moeurs de ce siècle</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>E. Michallet</publisher>
+                            <date n="1" when="1688">1688</date>
+                            <date n="2" when="1694">1694</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <idno n="1">https://gallica.bnf.fr/ark:/12148/btv1b86070385</idno>
+                    <idno n="2">ark:/12148/bpt6k57577n</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Projet d'édition numérique des Caractères de Théophraste traduits du grec ancien par Jean de la Bruyère</p></projectDesc>
+            <editorialDecl><p>(à voir)</p></editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+</TEI>
+
