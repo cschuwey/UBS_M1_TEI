@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Noémie Masclef</name>
+                    <roleName>Étudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <address><addrLine>Université Bretagne Sud</addrLine></address>
+                <date when="2024"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author><forename>Jean</forename><name>de La Bruyère</name></author>
+                    <author><forename>Théophraste</forename></author>
+                    <editor>E.Michallet</editor>
+                    <country>France<district>Paris</district></country>
+                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <date type="publication">1688</date>
+                    <idno>RES-R-2056</idno>
+                    <ref>https://catalogue.bnf.fr/ark:/12148/btv1b86070385</ref>
+                    <date type="digitalization" when="2010-10-04">04 octobre 2010</date>
+                </bibl>
+                <bibl>
+                    <relatedItem> <!--La consigne pour cette exercice nous a été transmise sur notre groupe classe mais elle 
+                        n'était pas complètement clair. Je ne savais pas si on devait coder une autre édition des 
+                        Caractères dans un autre <bibl> ou s'ils ont devait chercher dans <bibl> une balise précise coder 
+                        une version alternative des Caractères de 1688. J'ai donc utilisé <relatedItem>-->
+                        <author><forename>Jean</forename><name>de La Bruyère</name></author>
+                        <editor>E.Michallet</editor>
+                        <country>France<district>Paris</district></country>
+                        <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle<edition>Cinquième édition</edition></title>
+                        <date type="publication">1690</date>
+                        <idno> R-18790</idno>
+                        <ref>http://catalogue.bnf.fr/ark:/12148</ref>
+                        <date type="digitalization" when="2023-11-22">22 novembre 2023</date>
+                    </relatedItem>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Projet d'édition numérique de Manlius</p></projectDesc>
+            <editorialDecl><p>Les s long ont été modernisés</p></editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+<body>
+    <p/>
+</body>
+    </text>
+</TEI>
