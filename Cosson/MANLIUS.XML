@@ -1,17 +1,49 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title xml:lang="fra">Manlius, par Marie-Catherine</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                <roleName>Cosson Stéphanie</roleName>
+                <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>Cosson Stéphanie</authority>
+                <pubPlace>Université de Bretagne Sud</pubPlace>
+                <date when="2024-10-14">14 Octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                <title>Manlius : tragedi-comédie par Mademoiselle Desjardins</title>
+                <author>Marie-Catherine<name>Des Jardins</name></author>
+                    <date>1662</date>
+                    <publisher>Barbin</publisher>
+                    <idno>NUMM-57511</idno>
+                    <pubPlace>Paris</pubPlace>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc> 
+            <langUsage>
+                <p xml:lang="fra">Francais</p>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Texte encodé pour un cours de TEI</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Encodage uniquement de la scène V de l'acte II, à partir de la réplique Torquatus "Quel sujet" jusqu'à la réplique de Omphalie "Il est vray"</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization> 
+                    <p>Dans ce codage les s longue ont été transformés en s</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <front>
@@ -33,8 +65,7 @@
                     <roleDesc>Licteur</roleDesc>.</castItem>
 
             </castList>
-            
-            
+
         </front>
         <body>
 <div1 type="acte" n="2"> 
@@ -42,8 +73,6 @@
         <head> Scène V</head>
     <stage type="setting" rend="caps">
         <p>TORQU<damage agent="ink-smudge" cert="3">A</damage>TUS , OMPHALE , PHENICE.</p>
-        
-
     </stage>
         <sp who="#TORQUATUS">
     <speaker>Torquatus</speaker>
@@ -63,27 +92,9 @@
                 <reg>moi</reg>
             </choice> d'etre votre ennemie</l>
             <l>Votre vertu m'empeche au moins de vous haïr</l>
-
-            
-            
-            
         </sp>
-        
-        
-        
-        
-        
-        
     </div2>
-
-
-
-
-</div1>
-                    
-
-                    
-                    
+</div1>      
         </body>
     </text>
 </TEI>
