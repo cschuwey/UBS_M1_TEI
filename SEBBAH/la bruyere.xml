@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste traduits du grec.</title>
+                <author>
+                    <forename>Jean</forename>
+                    <name>de La Bruyère</name>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Lamia SEBBAH</name>
+                    <affiliation>UBS</affiliation>
+                    <rolename>Etudiante</rolename>
+                    <date when="2024"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <!-- Première édition de l'oeuvre -->
+                <biblFull>
+                    <title>Les Caractères de Théophraste traduits du grec.</title>
+                    <subtitle>Les caractères ou les moeurs de ce siècle.</subtitle>
+                    <author>
+                        <forename>Jean</forename>
+                        <name>de La Bruyère</name>
+                    </author>
+                    <editor>Estienne Michallet</editor>
+                    <pubPlace>Paris</pubPlace>
+                    <editionStmt>
+                        <edition n="1">Première édition</edition>
+                    </editionStmt>
+                    <date when="1688">M. DC. LXXXVIII.</date>
+                    <idno>ark:/12148/btv1b86070385</idno>
+                    <Availability>
+                        <ref target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item#"
+                            >https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item#</ref>
+                    </Availability>
+                </biblFull>
+                <!-- Sixième édition de l'oeuvre -->
+                <biblFull>
+                    <title>Les Caractères de Théophraste traduits du grec :</title>
+                    <subtitle>Avec les caractères ou les moeurs de ce siècle.</subtitle>
+                    <author>
+                        <forename>Jean</forename>
+                        <name>de La Bruyère</name>
+                    </author>
+                    <editor>Estienne Michallet</editor>
+                    <pubPlace>Paris</pubPlace>
+                    <editionStmt>
+                        <edition n="6">Sixième édition</edition>
+                    </editionStmt>
+                    <date when="1691">M. DC. XCI.</date>
+                    <idno>ark:/12148/bpt6k8712342k</idno>
+                    <Availability>
+                        <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2"
+                            >https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2</ref>
+                    </Availability>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingdesc>
+            <projectDesc>projet numérique universitaire</projectDesc>
+            <editorialDecl/>
+        </encodingdesc>
+    </teiHeader>
+</TEI>
