@@ -3,15 +3,38 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title> Manlius</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Elsa PAlermo</name>
+                    <affiliation>UBS</affiliation>
+                    <roleName>Etudiante</roleName>
+                </publisher>
+                <address><addrLine>Université Bretagne Sud</addrLine></address>
+                <date when="2024-10-14"/>
+                  
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <title>Manlius tragi-comédie</title>
+                    <author>Marie-Catherine Desjardins</author>
+                    <editor>Barbin</editor>
+                    <date>1662</date>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k57511q"/>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet d'édition numérique de Manlius</p>
+                <!-- explique à quel projet appartient l'élément-->
+            </projectDesc>
+            <editorialDecl>
+                <p>les s long ont été modernisés</p>
+                <!-- chaque semaine il doit y avoir une nouvelle balise comme ça pour préciser comment travailler le doc -->
+            </editorialDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <front>
