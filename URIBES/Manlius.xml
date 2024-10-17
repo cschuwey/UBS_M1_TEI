@@ -3,15 +3,35 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Amandine URIBES</name>
+                    <affiliation>UBS</affiliation>
+                    <roleName>Etudiante</roleName>
+                    <date when="2024-10-14">14 Octobre 2024</date>
+                    <!-- Date dans when = traitable automatiquement - et date hors when uniquement pour nous - on pourra le voir -->
+                </publisher>
+                <address><addrLine>Université Bretagne SUD</addrLine></address>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <title>Manlius Tragi-comédie</title>
+                    <author><forename>Marie-Catherine</forename> <name>Des Jardin</name></author>
+                    <!-- Mettre les sous famille name et forename c'est pour aider à retrouver pour après = facile de trouver des infos dns les balises, mais dure hors des balises -->
+                    <date>1662</date>
+                    <editor>Claude Barbin</editor>
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57511q</ref>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Prejet d'éditin numérique de Manlius</p></projectDesc>
+            <!-- pourquoi, à quel projet appartient cet numérisation -->
+            <editorialDecl><p>les s long on été modernisé</p></editorialDecl>
+            <!-- nos décisions, et ce qu'on fait au fur et à mesur -->
+        </encodingDesc>
     </teiHeader>
     <text>
         <front>
@@ -56,9 +76,9 @@
                         <speaker> TORQUATUS. </speaker>
                         <lg>
                             <l part="F">Quel sujet dans ce lieu vous <choice>
-                                    <orig>ameine</orig>
-                                    <reg>amène</reg>
-                                </choice>?</l>
+                                <orig>ameine</orig>
+                                <reg>amène</reg>
+                            </choice>?</l>
                             <l>Est-ce pitié, Madame, est-ce l'amour, est-ce la haine</l>
                         </lg>
                     </sp>
@@ -69,9 +89,9 @@
                             <l>Les plus grands ennemis, quand ils sont généreux</l>
                             <l>De l'injuste destin, la fière Barbarie</l>
                             <l>Me forçant malgré <choice> 
-                                <orig>moy<orig> 
-                                <reg>moi<reg> 
-                            </choice> d'être votre ennemie.<l>
+                                <orig>moy</orig> 
+                                    <reg>moi</reg> 
+                            </choice> d'être votre ennemie.</l>
                         </lg>
                     </sp>
                 </div2>
