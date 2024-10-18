@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Manlius, par Marie-Catherine-Hortense Desjardins</title>
+                <title>Manlius, par Marie-Catherine-Hortense Villedieu</title>
             </titleStmt>
             <publicationStmt>
                 <publisher> 
@@ -26,15 +26,15 @@
         </fileDesc> 
         <encodingDesc>
             <projectDesc><p>Retrancrire la republication de Manlius de Mademoiselle Desjardins,
-            via la retranscription de Marie-Catherine-Hortense Villedieu.</p></projectDesc>
+                via la retranscription de Marie-Catherine-Hortense Villedieu.</p></projectDesc>
             <samplingDecl><p>Seul une partie du texte a été travaillé, 
                 le début de l'Acte 5 jusqu'à la réplique d'Omphale s'adressant à Torquatus.</p></samplingDecl>
             <editorialDecl><normalization><p>Correction, retranscirption de tâches d'encre sur le
-            papier d'origine.</p></normalization></editorialDecl>
+                papier d'origine.</p></normalization></editorialDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage><p
-            xml:lang="fra"/> 
+                xml:lang="fra"/> 
             </langUsage>
         </profileDesc>
     </teiHeader>
@@ -43,17 +43,17 @@
             <castList>
                 <castItem xml:id="TORQUATUS"><role>TORQUATUS</role>,
                     <roleDesc>Consul Romain</roleDesc>.</castItem>
-                <castItem><role>MANLIUS</role>,
+                <castItem xml:id="MANLIUS"><role>MANLIUS</role>,
                     <roleDesc>Fils du Consul</roleDesc>.</castItem>
-                <castItem><role>CAMILLE</role>,
+                <castItem xml:id="CAMILLE"><role>CAMILLE</role>,
                     <roleDesc>Veuve de Decius</roleDesc>.</castItem>
                 <castItem xml:id="OMPHALE"><role>OMPHALE</role>,
                     <roleDesc>Princesse d'Epire captive des Romains</roleDesc>.</castItem>
-                <castItem><role>JUNIUS</role>,
+                <castItem xml:id="JUNIUS"><role>JUNIUS</role>,
                     <roleDesc>Ami de Torquatus</roleDesc>.</castItem>
-                <castItem><role>PHENICE</role>,
+                <castItem xml:id="PHENICE"><role>PHENICE</role>,
                     <roleDesc>Suivante d'Omphale</roleDesc>.</castItem>
-                <castItem><role>PISON</role>,
+                <castItem xml:id="PISON"><role>PISON</role>,
                     <roleDesc>Liceur</roleDesc>.</castItem>
             </castList>
         </front>
@@ -82,8 +82,66 @@
                             <reg>moi</reg></choice>d'etre votre ennemie</l>
                         <l>Votre vertu m'empeche au moins de vous haïr</l>
                         <l>Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir.</l>
+                        <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
+                        <l>Et que de votre fils la funeste aventure</l>
+                        <l>Jette tant la fureur dans l'âme des soldats,</l>
+                        <l>Que votre gloire et vous, ne s'en sauveront pas.</l>
                     </sp>
+                    <sp who="#TORQUATUS">
+                        <speaker>TORQUATUS</speaker>
+                        <l>Quoi, la Princesse Omphale est sensible à ma gloire ?</l> 
+                    </sp>
+                    <sp who="#OMPHALE">
+                        <speaker>OMPHALE</speaker>
+                        <l>Je l'ai toujours été, si j'en crois ma mémoire,</l>
+                        <l>Et c'est par ce motif, que j'ai tant combattu,</l>
+                        <l>Un amour dont l'effet blessait votre vertu.</l>
+                    </sp>
+                    <sp who="#TORQUATUS">
+                        <speaker>TORQUATUS</speaker>
+                        <l>Peut-être cet orgueil a t'il une autre cause,</l> 
+                        <l>Car de tout vos secrets, nous savons quelque chose,</l>
+                        <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+                    </sp>
+                    <sp who="#OMPHALE">
+                        <speaker>OMPHALE</speaker>
+                        <l>Il est vrai, je le crains ; je ne m'en défends pas;</l>
+                        <l>Si je plains d'un héros la triste destinée,</l>
+                        <l>Une pitié si noble, est d'une âme bien née;</l>
+                        <l>Et quand ce motif seul me forcerait d'agir,</l>
+                        <l>Ce n'est pas un secret dont je dusse rougir:</l>
+                        <l>Un si beau mouvement ne serait pas un crime.</l>
+                    </sp>
+                    <sp who="#TORQUATUS">
+                        <speaker>TORQUATUS</speaker>
+                        <l>Pourquoi donc le cacher, s'il est si légitime ?</l> 
+                        <l>Pourquoi l'envelopper d'une feinte terreur,</l>
+                        <l>Et donnser des avis d'une fausse rumeur ?</l>
+                        <l>Que ne me dites vous, je crains pour ce que j'aime ?</l>
+                        <l>Accordez Manlius à mon amour extrême,</l>
+                        <l>Faites moi ce présent</l>
+                    </sp>
+                    <sp who="#OMPHALE">
+                        <speaker>OMPHALE</speaker>
+                        <l>Pour conserver ses jours</l>
+                        <l>Une telle pruère est un faible secours:</l>
+                        <l>La mort de  ce héros n'est que trop assurée,</l>
+                        <l>Mes malheurs, votre amour, et le sort l'ont jurée,</l>
+                        <l>Je vois bien que je fais un inutile effort.</l>
+                        <l>Hélas ! Il périra.</l>
+                    </sp>
+                    <sp who="#TORQUATUS">
+                        <speaker>TORQUATUS</speaker>
+                        <l>Modérez ce transport.</l> 
+                        <l>Vous pourrez le sauvez, si son trépas vous touche,</l>
+                        <l>Son arrêt lui sera donné par votre bouche:</l>
+                        <l>Tout mon rival qu'il est, sa mort dépend de vous</l>
+                        <l>Je vous laisse y penser. Camille vient à nous,</l>
+                        <l>Un pareil entretien doit finir auprès d'elle.</l>
+                    </sp>
+                    <stage type="business">Il sort.</stage>
                 </div2></div1>
         </body>
     </text>
 </TEI>
+
