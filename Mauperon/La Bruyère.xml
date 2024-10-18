@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Numérisation De La Bruyère</title>  
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    <name>Camille Mauperon</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <author>Théophraste</author>
+                    <author><forename>Jean</forename> <name>De La Bruyère</name></author>
+                    <title>Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title> 
+                    <editor>Michallet</editor>
+                    <date>1688</date>
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m.r=Les%20Caract%C3%A8res%20La%20Bruy%C3%A8re?rk=42918;4</ref>
+                    <date when="2007-10-15"/>
+                </bibl>
+                
+                <bibl>
+                    <author><forename>Jean</forename> <name>De La Bruyère</name></author>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle</title> 
+                    <editor>Michallet</editor>
+                    <date>1699</date>
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8716771x.r=Les%20Caract%C3%A8res%20La%20Bruy%C3%A8re?rk=128756;0</ref>
+                    <date when="2007-10-15"/>    
+                </bibl>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet d'édition numérique De La Bruyère</p>
+            </projectDesc>
+        </encodingDesc>
+        
+        
+    </teiHeader>
+    <text> 
+        <body>
+            <p>  </p>
+        </body>
+    </text>
+</TEI>
