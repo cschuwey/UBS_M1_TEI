@@ -32,7 +32,7 @@
     <text>
         <front>
             <castList>
-                <castItem>
+                <castItem xml:id="Torquatus">
                     <!-- castItems pour dire que on repete l'info, que le role sera le meme tout le long de la pièce -->
                     <role> Torquatus </role>, <roleDesc> consul romain</roleDesc>
                 </castItem>
@@ -52,7 +52,7 @@
         <head>Scene 5.</head>
     <stage type="setting">Torqu<damage agent="ink">a</damage>tus, Omphale, Phenice</stage>
         <!-- damage pour préciser une imperfection qui peut être utile pour des données -->
-        <sp>
+        <sp who="#Torquatus">
 <speaker> Torquatus</speaker>
            
             <l part="F"> Quel fujet dans ce lieu vous ameine?<choice>
@@ -63,7 +63,7 @@
             <!-- part="F" pour dire que le vers pas finit -->
             <l> Eft-ce pitié, Madame, eft-ce amour, eft-ce haine ?</l></sp>
            
-          <sp>
+          <sp who="#Omphale">
 <speaker>Omphale</speaker> 
               <l> C'eft l'eftime, Seigneur, que confervent entre eux</l>
               <l> Les plus grands ennemis, quand ils font genereux,</l>
