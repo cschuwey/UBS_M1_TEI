@@ -13,7 +13,7 @@
                     <roleName>Etudiante</roleName>
                 </publisher>
                 <pubPlace>UBS</pubPlace>
-                <date when="2010-04-10">10 avril 2010</date>
+                <date when="2024-10-18">18 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -24,6 +24,17 @@
                     <date>1688</date>
                     <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385.r=caract%C3%A8res%20la%20bruy%C3%A8re?rk=21459;2</ref>
                     <date>10/04/2010</date>
+                    <idno>RES-R-2056</idno>
+                </bibl>
+                <bibl>
+                    <title>Les caracteres de Theophraste , traduits du grec, avec Les caracteres ou
+                        les moeurs de ce siecle</title>
+                    <author>Théophraste</author>
+                    <editor>Michallet</editor>
+                    <date>1699</date>
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8716750r.r=caract%C3%A8res%20la%20bruy%C3%A8re?rk=128756;0</ref>
+                    <date>22-11-2023</date>
+                    <idno>R-18798</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -33,8 +44,7 @@
                     TEI</p>
             </projectDesc>
             <editorialDecl>
-                <p>Nous nous basons sur l'édition de 1688 qui n'a pas d'accent pour la mettre en
-                    parallèle avec l'édition de 1876 qui a les accents.</p>
+                <p>Nous mettons en parallèle deux éditions numériques des Caractères de La Bruyère, la première publiée en 1688 et la seconde en 1699.</p>
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
