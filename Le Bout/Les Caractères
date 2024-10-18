@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>La Bruyère</author>
+                <respStmt>
+                    <resp>Retranscri en xml tei par</resp>
+                    <name>Marie Le Bout</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Marie Le Bout</name><affiliation>UBS</affiliation><roleName>étudiante</roleName><date when="2024"/>
+                </publisher>
+                <pubPlace>Lorient, France</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <author>Théophraste</author>
+                    <editor role="translator"><forename>Jean</forename> de <name>La Bruyère</name></editor>
+                    <editor> E. Michallet (Paris)</editor>
+                    <date type="publication">1688</date>
+                    <date type="digitalisation" when="2010-10-04">04/10/2010</date>
+                    <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385</ref>
+                    <idno>Bibliothèque nationale de France, département Réserve des livres rares, RES-R-2056 </idno>
+                </bibl>
+                <bibl>
+                    <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
+                    <author><forename>Jean</forename> de <name>La Bruyère</name></author>
+                    <editor>chez Estienne Michallet (Paris)</editor>
+                    <date type="publication" when="1690">1690</date>
+                    <date type="digitalisation" when="2007-10-15">15/10/2007</date>
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575660</ref>
+                    <idno>Bibliothèque nationale de France</idno>
+                    </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Encodage des Caractères de La Bruyère en version numérique XML TEI</p></projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage><language ident="fr">Français</language></langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p></p>
+        </body>
+    </text>
+</TEI>
