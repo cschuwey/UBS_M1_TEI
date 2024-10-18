@@ -52,7 +52,7 @@
                     <role>MANLIUS</role>
                     <roleDesc>Fils du Consul</roleDesc>
                 </castItem>
-                <castItem>
+                    <castItem xml:id="omphale">
                     <role>CAMILLE</role>
                     <roleDesc>Veuve de Decius</roleDesc>
                 </castItem>
@@ -90,7 +90,7 @@
                             </choice>ameine ?</l>
                         <l>Eſt-ce pitié, Madame, eſt-ce l'amour, eſt-ce haine ?</l>
                     </sp>
-                    <sp>
+                    <sp who="#omphale">
                         <speaker>OMPHALE.</speaker>
                         <l>C'eſt l'eſtime, Seigneur, que conſervent entre eux</l>
                         <l>Les plus grands ennemis, quand ils ſont genereux,</l>
