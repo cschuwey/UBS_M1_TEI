@@ -3,15 +3,41 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius, par Mademoiselle Desjardins</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Lavogez</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <pubPlace>UBS</pubPlace>
+                <date when="2024-10-14">14 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author>Marie-Catherine <name>Des Jardins</name></author>
+                    <title>Manlius</title>
+                    <publisher>Barbin</publisher>
+                    <idno>ark:/12148/cb37241510f</idno>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Retranscrire Manlius dans le cadre du cours de XML</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>encodage d'une parti de la page 21</p>
+            </samplingDecl>
+            <editorialDecl>
+                <interpretation>
+                    <p>Choix d'interprétation d'un point, pas clair pourrait-être une virgule, mais choisi de mettre un point et de préciser la certitude.</p>
+                </interpretation>
+            </editorialDecl>
+       </encodingDesc>
+     
     </teiHeader>
     <text>
         <front>
