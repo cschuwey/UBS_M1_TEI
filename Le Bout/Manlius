@@ -3,15 +3,43 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Marie Le Bout</name><affiliation>UBS</affiliation><roleName>étudiante</roleName><date when="2024"/>
+                </publisher>
+                <pubPlace>Lorient, France</pubPlace>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author><forename>Marie-Catherine</forename> <name>Des jardins</name></author><title>Manlius</title>Tragi-comédie<editor>Barbin</editor>
+                    <date>1662</date>
+                    <date type="publication" when="2007-10-15">15 Octobre 2007</date>
+                </bibl>
+                <bibl>
+                    <author><forename>Hélène</forename> <name>Canini</name></author>
+                    <roleName>Mémoire de master 1 réalisé sous la direction de M. le Professeur Georges FORESTIER Université Paris IV Sorbonne 2007-2008</roleName>
+                    <date type="publication" when="2023-11">Novembre 2023</date>
+                    <publisher><name>Ernest Fièvre</name> et <name>Paul Fièvre</name></publisher></bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>La version moderne de Manlius</p></projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage><language ident="fr">Français</language></langUsage>
+            <textDesc n="théâtre">
+                <channel mode="w">extrait</channel>
+                <constitution></constitution>
+                <derivation></derivation>
+                <domain></domain>
+                <factuality></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose></purpose>
+            </textDesc>
+        </profileDesc>
     </teiHeader>
     <text>
         <front>
