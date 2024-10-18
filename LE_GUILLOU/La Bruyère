@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author> Jean de La Bruyère(1645-1696)</author>
+                <respStmt>
+                    <name>Camille LE GUILLOU</name>
+                    <resp>conversion en encodage conforme à la TEI</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Camille Le Guillou</name>
+                    <affiliation>UBS</affiliation>
+                    <roleName>Etudiante</roleName>
+                </publisher>
+                <address> <addrLine> Université Bretagne Sud</addrLine></address>
+                <date when="2024"/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                <bibl>
+                    <author><name>Théophraste</name></author>
+                    <title> Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <editor>E. Michallet</editor>
+                    <editor role="translator"> Jean de La Bruyère</editor>
+                    <date type="publication">1688</date>
+                    <idno>Bibliothèque nationale de France, département Réserve des livres rares, RES-R-2056</idno>
+                    <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385</ref>
+                    <date type="digitalization" when="2010-10-04"/>
+                    <!-- <idno/> = référence, numéro d'identification -->
+                </bibl>
+                <bibl>
+                    <author><forename>Jean</forename> <surname>de La Bruyère</surname></author>
+                    <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle</title>
+                    <editor>E. Michallet</editor>
+                    <date type="publication">1691</date>
+                    <idno>Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, R-52303</idno>
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8712342k</ref>
+                    <date type="digitalization" when="2018-08-05"/>
+                </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc> 
+            <projectDesc> 
+                <p>Transcription des Caractères de La Bruyère en document XML TEI par C.LE GUILLOU à partir des éditions de 1688 et de 1691.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Français</language> 
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2024-10-18"> 18 octobre 2024 </date>Création du document par C.LE GUILLOU
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            
+        </front>
+        <body>
+          <p></p>  
+        </body>
+    </text>
+</TEI>
