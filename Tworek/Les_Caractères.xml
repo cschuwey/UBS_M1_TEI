@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<!--Je n'arrive pas à régler le problème-->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,11 +8,12 @@
             <publicationStmt>
                 <publisher>
                     <name>Tworek Eline</name>
-                    <rolename>Etudiante</rolename>
+                    <roleName>Etudiante</roleName>
                     <affiliation>UBS</affiliation>
                 </publisher>
+                    <authority>Tworek</authority>
                     <address><addrLine>Université Bretagne Sud</addrLine></address>
-                    <date when="2024">16 octobre 2024</date>
+                    <date when="2024-10-16">16 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -26,12 +26,20 @@
                     <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385</ref>
                     <pubPlace>Paris</pubPlace>
                 </bibl>
+                <bibl>
+                    <author>Jean <name>De La Bruyère</name></author>
+                    <author>Théophraste</author>
+                    <title>Les caractères de Theophraste, traduits du grec, avec Les Caractères ou les moeurs de ce siècle</title>
+                    <publisher>Estienne Michallet</publisher> 
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57579b</ref>
+                    <date when="1696">M. DC. XCVI.</date>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
                 <p>Texte encodé pour un cours de TEI</p>
-                <p>On se base sur l'édition de 1688 pour la mettre en relation avec une nouvelle édition, celle des Caractères de la Bruyère, l'édition classique édité en 1876 à Tours</p>
+                <p>On se base sur l'édition de 1688 pour la mettre en relation avec une nouvelle édition, celle des Caractères de la Bruyère, l'édition classique édité en 1696</p>
             </projectDesc>
             <samplingDecl>
                 <p>Page de titre</p>
@@ -42,11 +50,6 @@
                 </normalization>
             </editorialDecl>
         </encodingDesc>
-        <revisionDesc>
-            <listChange>
-                <change when="1876">Edition classique</change>
-            </listChange>
-        </revisionDesc>
     </teiHeader>
     <text>
         <body>
