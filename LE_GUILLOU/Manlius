@@ -3,15 +3,52 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Manlius</title> 
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Camille Le Guillou</name>
+                    <affiliation>UBS</affiliation>
+                    <roleName>Etudiante</roleName>
+                </publisher>
+                <address> <addrLine> Université Bretagne Sud</addrLine></address>
+                <date when="2024"/>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author><forename>Marie-Catherine</forename> <surname>Desjardins</surname></author>
+                    <title>Manlius</title>Tragi-comédie
+                    <editor>Barbin</editor>
+                    <date type="publication">1662</date>
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57511q</ref>
+                    <date type="digitalization" when="2007-10-15"/>
+                    <!-- <idno/> = référence, numéro d'identification -->
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc> 
+            <projectDesc> 
+                <p>Transcription de Manlius en document XML TEI par C.LE GUILLOU à partir de l'édition de 1662. A essayé de rester fidèle au document original.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Français</language> 
+            </langUsage>
+        </profileDesc>
+      <revisionDesc>
+        <list>
+          <item>
+            <date when="2024-10-17"> 17 octobre 2024 </date>Modification du teiHeader par CLG
+          </item>
+          <item>
+            <date when="2024-10-14"> 14 octobre 2024 </date>CLG a rempli le teiHeader
+          </item>
+          <item>
+            <date when="2024-10-07"> 7 octobre 2024 </date>Création du document par C.LE GUILLOU
+          </item>
+        </list>
+      </revisionDesc>
     </teiHeader>
     <text>
         <front>
