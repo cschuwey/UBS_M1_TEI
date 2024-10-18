@@ -62,11 +62,11 @@
 
         </front>
         <body>
-            <div1 type="acte">
+            <div1 type="acte" n="2">
                 <div2 type="scene" n="5">
                     <p>SCENE V</p>
                     <stage type="setting" rend="cops">TORQUATUS, OMPHALE, PHENICE.</stage>
-                    <sp who="TORQUATUS">
+                    <sp who="#TORQUATUS">
                         <speaker>TORQU<damage agent="link-smudge" cert="high"></damage>ATUS.</speaker>
                         <l part="F">Quel ſujet dans ce lieu vous ameine ? </l>
                         <l>Eſt-ce pitié, Madame, eſt-ce amour, eſt-ce haine ?</l>
