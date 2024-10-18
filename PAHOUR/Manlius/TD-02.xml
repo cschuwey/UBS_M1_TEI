@@ -18,7 +18,7 @@
         <front>
            <!--caslist = élément parent = block liste personnages + fonctions -->
            <castList>
-               <!-- cstitem = élément enfant de castlist = liste chaque personnage individuellement -->
+               <!-- castitem = élément enfant de castlist = liste chaque personnage individuellement -->
                <castItem xml:id="torquatus"><role>TORQUATUS</role>,<roleDesc>Consul Romain</roleDesc>.</castItem>
                <castItem><role>MANLIUS</role>,<roleDesc>Fils du Consul</roleDesc>.</castItem>
                <castItem><role>CAMILLE</role>,<roleDesc>Veuve de Decius</roleDesc>.</castItem>
