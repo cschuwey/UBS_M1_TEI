@@ -3,15 +3,37 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Numérisation de Manlius</title>  
             </titleStmt>
+            
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Camille Mauperon</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
             </publicationStmt>
+            
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author><forename>Marie-Catherine</forename> <name>Desjardins</name></author>
+                    <title>Manlius</title> Tragedi-comedie
+                    <editor>Bardin</editor>
+                    <date>1662</date>
+                    <ref>https://catalogue.bnf.fr/ark:/12148/cb37241510f</ref>
+                    <date when="2007-10-15"/>
+                </bibl>
             </sourceDesc>
+
         </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet d'édition numérique de Manlius</p>
+                </projectDesc>
+        </encodingDesc>
+            
+
     </teiHeader>
     <text>
         <front>
