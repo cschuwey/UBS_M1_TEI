@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de la Bruyère</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Valentin Gavaud </name>
+                    <roleName>Etudiant</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>VG </authority>
+                <pubPlace> UBS Lorient </pubPlace>
+                <date when="2024-10-19">19 octobre 2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author> Jean <name>De le Bruyère</name></author>
+                    <author>Théophraste </author> 
+                    <title>Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle </title>
+                    <publisher> E. Michallet </publisher> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item"> BNF Gallica </ref>
+                    <date when="1688">1688</date>
+                </bibl>
+                <bibl>
+                    <author> Jean <name>De le Bruyère</name></author>
+                    <author>Théophraste </author> 
+                    <title>Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle </title>
+                    <publisher> E. Michallet (Paris)</publisher> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k/f7.item"> BNF Gallica </ref>
+                    <date when="1691">1691</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p> Texte </p>
+            </div>
+        </body>
+    </text>
+</TEI>
