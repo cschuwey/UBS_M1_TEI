@@ -3,15 +3,39 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Manlius</title>
+                <title> Manlius, par Mademoiselle Desjardins </title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name>Valentin Gavaud </name>
+                    <roleName>Etudiant</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>VG</authority>
+                <pubPlace> UBS Lorient </pubPlace>
+                <date when="2024-10-14">14 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <author> Marie-Catherine-Hortense <name>Desjardins</name></author>
+                    <title> Manlius : tragi-comédie </title>
+                    <publisher>Barbin</publisher> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k57511q/f21.image">Gallica</ref>
+                    <date when="1662">1662</date>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p> Retranscrire en TEI le texte d'origine</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <p xml:lang="fra">Français</p>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <front>
