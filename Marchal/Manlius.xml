@@ -3,15 +3,30 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title> Manlius </title>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <publisher>
+                    <name> Léo Marchal</name>
+                    <affiliation> UBS </affiliation>
+                    <roleName> étudiant </roleName>
+                </publisher>
+                <date when="2024-10-14"> 14 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <p/>
+                <bibl>
+                    <title> Manlius Tragi-Comedie </title>
+                    <author> Mademoiselle des Jardins</author>
+                    <date>1662</date>
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57511q/f2.item.r=bpt6k57511q#</ref>
+                    <pubPlace> Paris </pubPlace>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc> <p> Projet d'édition numérique de Manlius</p></projectDesc>
+            <editorialDecl> <p>Les s long ont été modernisés </p></editorialDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <front>
