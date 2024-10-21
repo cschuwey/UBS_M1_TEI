@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org">
+    <teiHeader> <!-- TD3 TEIHeader -->
+        
+        <fileDesc>
+            <titleStmt> <!-- titre que l'on va donner au document numérique-->
+                <title> Les Caractères </title>
+                <author> <name> Jean </name> de La Bruyère </author>
+            </titleStmt>
+            
+            <!-- Contenu du doc : qui l'a créé, quand... -->
+            <publicationStmt>
+                <publisher> 
+                    <name> Auréline Maillard</name>
+                    <affiliation>UBS</affiliation> <!--l'organisme qui nous charge de coder, qui prend en charge-->
+                    <roleName>Etudiante</roleName>
+                </publisher>
+                <date when="2024-10-16"/> <!--cette date ne sera pas visible-->
+            </publicationStmt>
+            
+            <!-- Information de publication -->
+            <sourceDesc>
+                <bibl>
+                    <editionStmt>
+                    <p>Première édition, <date>1688</date></p>
+                    <author> <name> Jean </name> de La Bruyère </author> <!-- commencer dès maintenant à préciser le + possible les noms des auteurs pour M2-->
+                    <title>Les Caractères</title>
+                    <publisher>Thomas Amaulry</publisher>
+                    <date>1688</date>
+                    <idno>RES-R-2058</idno>
+                    <pubplace> Lyon </pubplace> <!-- endroit ou ca a été publié -->
+                        <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385/f1.planchecontact.r=les%20carct%C3%A8res%20de%20th%C3%A8ophaste</ref>
+                        <!-- cette balise sert à mettre le lien d'ou est ce que l'on a tiré le document, comme Gallica, très utile--> 
+                    </editionStmt>
+                    
+                    <editionStmt>
+                        <p>Deuxième édition, <date>1694</date></p>
+                        <author> <name> Jean </name> de La Bruyère </author> 
+                        <title>Les Caractères</title>
+                        <publisher>E. Michallet</publisher>
+                        <date>1694</date>
+                        <idno>8-Z LE SENNE-13969</idno>
+                        <pubplace> Paris </pubplace> 
+                        <ref>https://catalogue.bnf.fr/ark:/12148/cb32333303c</ref>        
+                    </editionStmt>
+                    
+                </bibl> <!-- il s'agit d'entrée bibliographique, faiblement/sous structurée, cela signifie que l'on fait la description 
+                du document, précisement la bibliographie du livre-->
+            
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc> 
+            <editorialDecl>
+                <p></p> <!-- decrit nos choix pr encodage -->
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+<text>
+    <front>
+        
+        <div1 type="Preface"> <!-- Discours sur Theophraste --> 
+        <div2> <!-- Sommaire -->
+        <div3> <!-- chapitre--> 
+        <div4> <!-- pied de mouche, paragraphes-->
+            
+            <head> Titre </head>
+            <p> ... </p>
+            
+    </div4>    </div3>        </div2>        </div1>   
+            
+        <div1 type="Preface"> <!-- Les caractères ou les moeurs -->   <!-- il s'agit de niveau de profondeur, 
+                                                                      il faut penser structure avant tout, commebnt les diff éléments 
+                                                                      du doc s'imbriquent ensemble, savoir organiser, structurer est essentiel-->
+        <div2> <!-- Sommaire -->
+        <div3> <!-- chapitre--> 
+        <div4> <!-- pied de mouche, paragraphes-->
+        
+            <head> Titre </head>
+            <p> ... </p>
+            
+     </div4>         </div3>        </div2>        </div1>  
+        
+        
+       
+ 
+             
+             
+    </front>
+    
+    
+<body>
+    
+</body>
+    
+</text> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+    
+  
+</TEI>
