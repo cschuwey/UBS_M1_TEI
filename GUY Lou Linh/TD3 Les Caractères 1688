@@ -21,21 +21,40 @@
                 <pubPlace>UBS</pubPlace>
                 <date when="2024-10-16"></date>
             </publicationStmt>
+            
             <sourceDesc>
+                <editionStmt>
+                
                 <bibl>
                     <author> Jean <name>de La Bruyère</name> </author>
-                    <title>Les Caractères</title>
-                    <publisher> E.Michallet </publisher>
-                    <idno>RES-R-2056</idno>
+                    <date> 1688 </date>
+                    <title> Les Caractères </title>
+                    <publisher> Estienne Michallet </publisher>
+                    <pubPlace> Paris </pubPlace>
+                    <idno> RES-R-2056 </idno>
                     <ref> http://catalogue.bnf.fr/ark:/12148/cb120117553 </ref>
                 </bibl>
+                
+                </editionStmt>
+                
+               <editionStmt> 
+                    <author> Jean <name>de La Bruyère</name> </author>
+                    <date> 1694 </date>
+                    <title> Les Caractères </title>
+                    <publisher> Thomas Almaury </publisher>
+                    <pubPlace> Lyon </pubPlace>
+                    <idno> R-18792 </idno>
+                   <ref> https://catalogue.bnf.fr/ark:/12148/cb30705989v </ref>
+                    
+                    
+                </editionStmt>
                 
             </sourceDesc>    
             
         </fileDesc>
         
         <encodingDesc>
-            <projectDesc> <p>Retranscrire</p> </projectDesc>
+            <projectDesc> <p>Nouvelle traduction</p> </projectDesc>
             <samplingDecl> <p></p> </samplingDecl>
             <editorialDecl>
                 <normalization> <p>Choix</p> </normalization>
