@@ -1,82 +1,5 @@
-<TEI>
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title/>
-            </titleStmt>
-            <publicationStmt>
-                <p/>
-            </publicationStmt>
-            <sourceDesc>
-                <p/>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <castlist>
-                <castitem>
-                    <role xml:id="Torquatus">TORQUATUS</role>,<roleDesc>Consul Romain</roleDesc>.
-                </castitem>
-                <castitem>
-                    <role xml:id="Manlius">MANLIUS</role>, <roleDesc>Fils du Consul</roleDesc>.
-                </castitem> 
-                <castitem>
-                    <role xml:id="Camille">CAMILLE</role>, <roleDesc>Veuve de Decius</roleDesc>.
-                </castitem>
-                <castitem>
-                    <role xml:id="Omphale">OMPHALE</role>, <roleDesc>Princesse d'Épire captive des Romains</roleDesc>.
-                </castitem>
-                <castitem>
-                    <role xml:id="Junius">JUNIUS</role>, <roleDesc>Ami de Torquatus</roleDesc>.
-                </castitem>                
-                <castitem>
-                    <role xml:id="Phénice">PHÉNICE</role>, <roleDesc>Suivante d'Omphale</roleDesc>.
-                </castitem>                
-                <castitem>
-                    <role xml:id="Pison">PISON</role>, <roleDesc>Licteur.</roleDesc>
-                </castitem>
-                </castlist>   
-            <set><p>La Scène est au Camp des Romains devant les Tentes du Consul.</p></set>
-        </front>
-        <body>
-            <div2 type='scene'><head>Scene V</head>
-                <stage type="setting">Torqu<damage agent='ink'>a</damage>tus, Omphale,Phenice.</stage> <!-- Bavuvre sur le 'a' de Torquatus -->
-                <sp who='#Torquatus'> 
-                <speaker>Torquatus</speaker>
-                    <l part='F'>Quel sujet dans ce lieu vous <choice>
-                        <orig>ameine</orig>
-                        <reg>amène</reg>
-                </choice> ?</l>
-                    <l>Est-ce pitié, Madame, est-ce amour, est-ce haine?</l>
-                </sp>
-                <sp who="#Omphale">
-                <speaker>Omphale</speaker>
-                <l>C'est l'estime, Seigneur, que conservent entre eux</l>
-                <l>Les plus grands ennemis, quand ils sont généreux,</l>
-                    <l>De l'injuste destin, la <choice>
-                        <orig>fiere</orig>
-                        <reg>fière</reg>
-                    </choice> Barbarie</l>
-                    <l>Me <choice>
-                        <orig>forçeant</orig>
-                        <reg>forçant</reg>
-                    </choice> malgré <choice>
-                        <orig>moy</orig>
-                        <reg>moi</reg>
-                    </choice> d'<choice>
-                        <orig>estre</orig>
-                        <reg>être</reg>
-                    </choice> <choice>
-                        <orig>vostre</orig>
-                        <reg>vôtre</reg>
-                    </choice> ennemie,</l></sp>
-            </div2>
-        </body>
-    </text>
-</TEI>
-
-<TEI>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns= "http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -86,88 +9,91 @@
             <publicationStmt>
                 <publisher>
                     <name>Lamia SEBBAH</name>
-                    <affiliation>UBS</affiliation>
-                    <rolename>Etudiante</rolename>
+                    <affiliation>Etudiante, UBS</affiliation>
                     <date when="2024"/>
                 </publisher>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                <title>Manlius</title>
-                <subtitle>Tragi-comédie. Par Mademoiselle DES JARDINS</subtitle>
-                <editor>Barbin</editor>
-                <pubPlace>Paris</pubPlace>
-                <date when ="1662">CDIX LXII</date>
+                    <title type="main">Manlius</title>
+                    <title type="subtitle">Tragi-comédie. Par Mademoiselle DES JARDINS</title>
+                    <editor>Barbin</editor>
+                    <pubPlace>Paris</pubPlace>
+                    <date when ="1662">CDIX LXII</date>
                     <idno>"ark:/12148/bpt6k57511q"</idno>
-                    <Availability> <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k57511q/f2.item.r=manlius#">https://gallica.bnf.fr/ark:/12148/bpt6k57511q/f2.item.r=manlius#</ref></Availability>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k57511q/f2.item.r=manlius#">https://gallica.bnf.fr/ark:/12148/bpt6k57511q/f2.item.r=manlius#</ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <encodingdesc>
-            <projectDesc>projet numérique</projectDesc>
-            <editorialDecl> les s long ont été modernisés</editorialDecl>
-        </encodingdesc>
+        <encodingDesc>
+            <projectDesc><p>projet numérique</p></projectDesc>
+            <editorialDecl><p>les s long ont été modernisés</p></editorialDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <front>
-            <castlist>
-                <castitem>
-                    <role xml:id="Torquatus">TORQUATUS</role>,<roleDesc>Consul Romain</roleDesc>.
-                </castitem>
-                <castitem>
-                    <role xml:id="Manlius">MANLIUS</role>, <roleDesc>Fils du Consul</roleDesc>.
-                </castitem>
-                <castitem>
-                    <role xml:id="Camille">CAMILLE</role>, <roleDesc>Veuve de Decius</roleDesc>.
-                </castitem>
-                <castitem>
-                    <role xml:id="Omphale">OMPHALE</role>, <roleDesc>Princesse d'Épire captive des Romains</roleDesc>.
-                </castitem>
-                <castitem>
-                    <role xml:id="Junius">JUNIUS</role>, <roleDesc>Ami de Torquatus</roleDesc>.
-                </castitem>                
-                <castitem>
-                    <role xml:id="Phénice">PHÉNICE</role>, <roleDesc>Suivante d'Omphale</roleDesc>.
-                </castitem>                
-                <castitem>
-                    <role xml:id="Pison">PISON</role>, <roleDesc>Licteur</roleDesc>.
-                </castitem>
-            </castlist>   
+            <div1>
+                <castList>
+                    <castItem>
+                        <role xml:id="Torquatus">TORQUATUS</role>,<roleDesc>Consul Romain</roleDesc>.
+                    </castItem>
+                    <castItem>
+                        <role xml:id="Manlius">MANLIUS</role>, <roleDesc>Fils du Consul</roleDesc>.
+                    </castItem>
+                    <castItem>
+                        <role xml:id="Camille">CAMILLE</role>, <roleDesc>Veuve de Decius</roleDesc>.
+                    </castItem>
+                    <castItem>
+                        <role xml:id="Omphale">OMPHALE</role>, <roleDesc>Princesse d'Épire captive des Romains</roleDesc>.
+                    </castItem>
+                    <castItem>
+                        <role xml:id="Junius">JUNIUS</role>, <roleDesc>Ami de Torquatus</roleDesc>.
+                    </castItem>                
+                    <castItem>
+                        <role xml:id="Phénice">PHÉNICE</role>, <roleDesc>Suivante d'Omphale</roleDesc>.
+                    </castItem>                
+                    <castItem>
+                        <role xml:id="Pison">PISON</role>, <roleDesc>Licteur</roleDesc>.
+                    </castItem>
+                </castList>   
+            </div1>
             <set><p>La Scène est au Camp des Romains devant les Tentes du Consul.</p></set>
+            
         </front>
         <body>
-            <div2 type='scene'><head>Scene V</head>
-                <stage type="setting">Torqu<damage agent='ink'>a</damage>tus, Omphale,Phenice.</stage> <!-- Bavuvre sur le 'a' de Torquatus -->
-                <sp who='#Torquatus'>
-                    <speaker>Torquatus</speaker>
-                    <l part='F'>Quel sujet dans ce lieu vous <choice>
-                        <orig>ameine</orig>
-                        <reg>amène</reg>
-                    </choice> ?</l>
-                    <l>Est-ce pitié, Madame, est-ce amour, est-ce haine?</l>
-                </sp>
-                <sp who="#Omphale">
-                    <speaker>Omphale</speaker>
-                    <l>C'est l'estime, Seigneur, que conservent entre eux</l>
-                    <l>Les plus grands ennemis, quand ils sont généreux,</l>
-                    <l>De l'injuste destin, la <choice>
-                        <orig>fiere</orig>
-                        <reg>fière</reg>
-                    </choice> Barbarie</l>
-                    <l>Me <choice>
-                        <orig>forçeant</orig>
-                        <reg>forçant</reg>
-                    </choice> malgré <choice>
-                        <orig>moy</orig>
-                        <reg>moi</reg>
-                    </choice> d'<choice>
-                        <orig>estre</orig>
-                        <reg>être</reg>
-                    </choice> <choice>
-                        <orig>vostre</orig>
-                        <reg>vôtre</reg>
-                    </choice> ennemie,</l></sp>
-            </div2>
+            <div1 type="act">
+                <div2 type='scene'><head>Scene V</head>
+                    <stage type="setting">Torqu<damage agent='ink'>a</damage>tus, Omphale,Phenice.</stage> <!-- Bavure sur le 'a' de Torquatus -->
+                    <sp who='#Torquatus'>
+                        <speaker>Torquatus</speaker>
+                        <l part='F'>Quel sujet dans ce lieu vous <choice>
+                            <orig>ameine</orig>
+                            <reg>amène</reg>
+                        </choice> ?</l>
+                        <l>Est-ce pitié, Madame, est-ce amour, est-ce haine?</l>
+                    </sp>
+                    <sp who="#Omphale">
+                        <speaker>Omphale</speaker>
+                        <l>C'est l'estime, Seigneur, que conservent entre eux</l>
+                        <l>Les plus grands ennemis, quand ils sont généreux,</l>
+                        <l>De l'injuste destin, la <choice>
+                            <orig>fiere</orig>
+                            <reg>fière</reg>
+                        </choice> Barbarie</l>
+                        <l>Me <choice>
+                            <orig>forçeant</orig>
+                            <reg>forçant</reg>
+                        </choice> malgré <choice>
+                            <orig>moy</orig>
+                            <reg>moi</reg>
+                        </choice> d'<choice>
+                            <orig>estre</orig>
+                            <reg>être</reg>
+                        </choice> <choice>
+                            <orig>vostre</orig>
+                            <reg>vôtre</reg>
+                        </choice> ennemie,</l></sp>
+                </div2></div1>
         </body>
     </text>
 </TEI>
