@@ -52,11 +52,11 @@
                     <role>MANLIUS</role>
                     <roleDesc>Fils du Consul</roleDesc>
                 </castItem>
-                    <castItem xml:id="omphale">
+                    <castItem>
                     <role>CAMILLE</role>
                     <roleDesc>Veuve de Decius</roleDesc>
                 </castItem>
-                <castItem>
+                <castItem xml:id="omphale">
                     <role>OMPHALE</role>
                     <roleDesc>Princesse d'Épire captive des Romains</roleDesc>
                 </castItem>
