@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fra">Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>de Paola, Lisa</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Jean<name>de la Bruyère</name></author>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                    <date>1691</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <p xml:lang="fra">Français</p>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc><p>TD XML 21.10</p></projectDesc>
+        </encodingDesc>
+    </teiHeader>
