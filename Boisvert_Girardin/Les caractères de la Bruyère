@@ -31,10 +31,44 @@
         </encodingDesc>
     </teiHeader>
     <text>
+        <front>
+           <div1>
+               <div2><!-- préface de Théophraste par la bruyère --></div2>
+               <div2><!-- préface de Théophraste par lui-même --></div2>
+               <div2><!-- sommaire --></div2>   <!-- on peut sortir de la logique de  l'ordre des éléments, pas forcément besoin de les coder dans l'ordre où elles apparaissent. il vaut peut-être mieux ne pas 
+               privilégier des div numérotés donc, pour simplemen avoir des blocs de texte réutilisables à l'affichage-->
+           </div1>
+        </front>
         <body>
-            <div>
-                <p> </p>
-            </div>
+            <div1> <!-- préface à théophraste -->
+                <p>Dans cette division, on présente la première partie de l'ouvrage, la partie sur Théophraste. Dans cette partie appelée "Discours sur Théophraste", il y a une préface sur Théophraste, suivi de 
+                "Les caractères de Théophraste" et d'un sommaire. Une fois la sous-division sur les caractères commenncées, le texte se dépare en chapitres selon les caractères. Cette division va se concentrer
+                sur le Discours sur Théophraste.</p>
+            <div2> <!-- caractères -->
+                <p>Dans cette sous-division, on s'attarde donc sur "Les caractères de Théophraste", avec une liste des caractères dont il parle dans son oeuvre originale. Sur la page de présentation, 
+                La Bruyère précise que les caractères ont été traduits du grec, quand ils l'ont été du latin, en réalité. On présente donc l'introduction aux caractères en trois pages.</p> </div2>
+           <div2> <!-- donc le sommaire -->
+               <p>La liste des caractères comme présentée sur les deux pages de sommaire.</p>
+                <div3 type="chapter"> <!-- les caractères ici, chacuns avec son div3 -->
+                    <p>De la Diffamation</p>
+                    <div4 type="remark">
+                        <p></p>
+                    </div4>
+                </div3>
+                <div3 type="chapter">
+                    <p>De la Flatterie</p>
+                </div3>
+               <div3 type="chapter">
+                   <p>De l'Impertinent, ou du diseur de rien</p>
+               </div3>
+               <div3 type="chapter">
+                   <p>(...)</p>
+               </div3>
+           </div2>
+            <div2>
+                <p></p>
+            </div2>
+            </div1>  
         </body>
     </text>
 </TEI>
