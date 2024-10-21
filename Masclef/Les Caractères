@@ -23,7 +23,7 @@
                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
                     <date type="publication">1688</date>
                     <idno>RES-R-2056</idno>
-                    <ref>https://catalogue.bnf.fr/ark:/12148/btv1b86070385</ref>
+                    <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item#</ref>
                     <date type="digitalization" when="2010-10-04">04 octobre 2010</date>
                 </bibl>
                 <bibl>
@@ -49,8 +49,27 @@
         </encodingDesc>
     </teiHeader>
     <text>
-<body>
-    <p/>
-</body>
+        <body>
+            <div1><!--La première préface avec le "Discours sur Théophraste"--></div1>
+            
+            <div1><!--La première partie de l'ouvrage avec "Les caractères de Théophraste"-->
+            <div2><!--La préface de Théophraste--></div2>
+            <div2><!--Table des matières--></div2>
+            <div2><!--Corps de l'ouvrage de Théophraste-->
+                <div3><!--Premier chapitre--></div3>
+            </div2>
+                </div1>
+            
+            <div1><!--La seconde partie de l'ouvrage avec "Les caractères ou les moeurs de ce siècle" de La Bruyère-->
+                <div2><!--la préface de La Bruyère--></div2>
+                <div2><!--Table des matières--></div2>
+                <div2><!--corps de l'ouvrage de La Bruyère-->
+                    <div3><!--Premier chapitre--></div3>
+                </div2>
+            </div1>
+        </body>
+        
+        <back><!--Extrait du privilège du Roy--></back>
+        
     </text>
 </TEI>
