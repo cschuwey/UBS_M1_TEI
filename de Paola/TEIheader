@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                 <title xml:lang="fra">Manlius : tragi-comédie</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>de Paola, Lisa</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Marie-Catherine <name>Desjardins</name></author>
+                    <title>Manlius</title>
+                    <date>1662</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <p xml:lang="fra">Français</p>
+                </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc><p>TD XML 14.10</p></projectDesc>
+            <editorialDecl>
+                <normalization><p>traduction en français moderne à partir de la réplique 2</p></normalization>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <castItem xml:id="torquatus">
+                    <role>TORQUATUS</role>,
+                    <roleDesc>Consul Romain</roleDesc>
+                </castItem>
+                <castItem xml:id="manlius">
+                    <role>MANLIUS</role>,
+                    <roleDesc>Fils du Consul</roleDesc>.
+                </castItem>
+                <castItem xml:id="camille">
+                    <role>CAMILLE</role>,
+                    <roleDesc>Veuve Decius</roleDesc>.
+                </castItem>
+                <castItem xml:id="omphale">
+                    <role>OMPHALE</role>,
+                    <roleDesc>Princesse d'Epire captive des Romains</roleDesc>.
+                </castItem>
+                <castItem xml:id="junius">
+                    <role>JUNIUS</role>,
+                    <roleDesc>Ami de Torquatus</roleDesc>.
+                </castItem>
+                <castItem xml:id="phénice">
+                    <role>PHENICE</role>,
+                    <roleDesc>Suivante d'Omphale</roleDesc>.
+                </castItem>
+                <castItem xml:id="pison">
+                    <role>PISON</role>,
+                    <roleDesc>Licteur</roleDesc>.
+                </castItem>
+            </castList>
+        </front>
+        <body>
+                       <div1>
+                <p>Acte 1</p>
+                <div2 type="scene" n="5">
+                    <stage>TORQUATUS, OMPHALE, PHENICE</stage>
+                    <sp who="#torquatus">
+                        <speaker>TORQUATUS</speaker>
+                        <l>Quel <choice>
+                                <orig>ſujet</orig>
+                                <reg>sujet</reg>
+                            </choice> dans ce lieu vous <choice>
+                                <orig>ameine</orig>
+                                <reg>amène</reg>
+                            </choice> ? <choice>
+                                <orig>Eſt-ce</orig>
+                                <reg>Est-ce</reg>
+                            </choice> pitié, Madame, <choice>
+                                <orig>eſt-ce</orig>
+                                <reg>est-ce</reg>
+                            </choice> amour, <choice>
+                                <orig>eſt-ce</orig>
+                                <reg>est-ce</reg>
+                            </choice> haine ?</l>
+                    </sp>
+                    <sp who="#omphale">
+                        <speaker>OMPHALE</speaker>
+                        <l>C'est l'estime, Seigneur, que conservent entre eux Les plus grands</l>
+                        <l>ennemis, quand ils font généreux, De l'injuste destin, la fière Barbarie</l>
+                        <l>Me forçant malgré moi d'être vôtre ennemie,</l>
+                        <l>Votre vertu, m'empêche au moins de vous haïr</l>
+                    </sp>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
