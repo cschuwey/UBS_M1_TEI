@@ -18,13 +18,16 @@
             <sourceDesc>
                 <bibl>
                     <author>Jean de<name>La Bruyère</name></author>
-                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
+                        les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
                     <publisher>Paris : E. Michallet</publisher>
                     <date>1688</date>
+                    <idno>ark:/12148/cb31452154x</idno>
                 </bibl>
                 <bibl>
                     <author>Jean de<name>La Bruyère</name></author>
-                    <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec Les caractères ou les moeurs de ce siècle / [par Jean de La Bruyère]</title>
+                    <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec Les
+                        caractères ou les moeurs de ce siècle / [par Jean de La Bruyère]</title>
                     <publisher>Cambridge (Mass.) : Omnisys, [ca 1990]</publisher>
                     <date>1694</date>
                 </bibl>
@@ -38,9 +41,24 @@
     </teiHeader>
     <text>
         <body>
-            <div>
-                <p> </p>
-            </div>
+            <div1><!--Discours sur Théophraste-->
+                <div2><!--Préface par La Bruyère--></div2>
+                <div2><!--Préface par Théophraste--></div2>
+                <div2><!--Sommaire--></div2>
+                <div2><!--Caractères-->
+                    <div3><!-- Chapitres de Théophraste --></div3>
+                </div2>
+            </div1>
+            <div1><!--Caractères-->
+                <div2><!--Préface par La Bruyère--></div2>
+                <div2><!--Sommaire-->
+                    <div3><!-- Du coeur -->
+                        <p>Il y a un gouſt dans la pure amitié où ne peuvent atteindre ceux qui font nez mediocres.</p>
+                        <p>L'amitié peut ſubſiſter entre des gens de differens ſexes, exempte meſme de toute groſſiereté ; une femme cependant regarde toûjours un homme comme un homme, &amp; reciproquement un homme regarde une femme  comme une femme regarde une femme : cette liaiſon n'eſt ni paſſion, ni amitié pure ; elle fait une claſſ à part.</p>
+                        <p>L'amour n'aiſt bruſquement, ſans autre reflexion, par temperament ou par foibleſſe ; un trait de beauté nous fixe, nous détermine. L'amitié au contraire ſe forme peu à peu, avec le temps, par la pratique, par un long commerce : combien d'eſprit, de bonté de coeur, d'attachement, de ſervices &amp; de complaiſance dans les amis, pour faire en pluſieurs années bien moins que ne fait quelques fois en un moment un beau viſage ou une belle main.</p>
+                    </div3>
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
