@@ -44,15 +44,56 @@
                     TEI</p>
             </projectDesc>
             <editorialDecl>
-                <p>Nous mettons en parallèle deux éditions numériques des Caractères de La Bruyère, la première publiée en 1688 et la seconde en 1699.</p>
+                <p>Nous mettons en parallèle deux éditions numériques des Caractères de La Bruyère,
+                    la première publiée en 1688 et la seconde en 1699.</p>
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
     <text>
+        <front> </front>
+
         <body>
-            <div>
-                <p> </p>
-            </div>
+            <div1>
+                <!-- Texte de Théophraste -->
+                <div2>
+                    <!-- Discours --></div2>
+                <div2><!-- Préface de Théophraste --></div2>
+                <div2><!-- Sommaire --></div2>
+                <div2>
+                    <!-- Caractères de Théophraste -->
+                    <div3 type="chapter"/>
+                    <div3 type="chapter"/>
+                    <div3 type="chapter"/>
+                </div2>
+            </div1>
+            <div1>
+                <!-- Texte de La Bruyère -->
+                <div2>
+                    <!-- Faux titre -->
+                </div2>
+                <div2><!-- Préface --></div2>
+                <div2><!-- Sommaire --></div2>
+                <div2>
+                    <!-- Texte de La Bruyère -->
+                    <div3 type="chapter"/>
+                    <div3 type="chapter"/>
+                    <div3 type="chapter"/>
+                    <div3 type="chapter">
+                        <head>De la Chaire</head>
+                        <div4 type="remarque">
+                            <p>LE diſcours Chrétien eſt devenu un ſpectacle; cette trſteſſe Evangelique qui en eſt l'ame ne s'y remarque plus ; elle eſt ſuppléée par les avantages de la mine, par les inflexions de la voic, par la regularité du geſte, par le choix des mots, & par les longues énumerations : on n'écoute plus ſerieuſement la parole ſainte ; c'eſt une forte d'amuſement entre mille autres, c'eſt un jeu où il y a de l'émulation & des parieurs.</p>
+                            <p>L'Eloquence profane eſt tranſpoſée, pour ainſi dire, du Bareau, où LE MAÎTRE, PUCELLE, & FOURCROY l'ont fait regner, & où elle n'eſt plus d'uſage, à la Chaire où elle ne doit pas être. 
+                                <p>L'on fait aſſaut d'éloquence juſqu'au pied de l'Autel, & en la préſence des Myſteres : celuy qui écoute s'établit Juge de celuy qui prêche, pour condamner ou pour applaudir ; & n'eſt pas plus converti par le diſcours qu'il favoriſe, que par celuy auquel il eſt contraire. L'Orateur plaît aux uns, déplaît aux autres, & convient avec tous une choſe ; que comme il ne cherche point à les rendre meilleurs, ils ne penſent pas auſſi à le devenir.</p></p>
+                        </div4>
+                    </div3>
+                </div2>
+
+            </div1>
         </body>
+        <back>
+            <div>
+                <p/>
+            </div>
+        </back>
     </text>
 </TEI>
