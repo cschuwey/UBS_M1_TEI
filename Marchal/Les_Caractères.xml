@@ -15,7 +15,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <title> Les caracteres de Theophraste , traduits du grec, avec Les caractères ou les moeurs de ce siecle.</title>
+                    <title> Les caracteres de Theophraste , traduits du grec, avec Les caractères ou
+                        les moeurs de ce siecle.</title>
                     <author>Théophraste</author>
                     <author> Jean <name> de La Bruyère </name></author>
                     <date when="1688"> M. DC. LXXXVIII </date>
@@ -25,9 +26,11 @@
                     <pubPlace> Paris </pubPlace>
                 </bibl>
                 <bibl>
-                    <title> Les caractères de Theophraste, traduits du grec avec les caractères ou les moeurs de ce siecle. Huitieme edition. Revue corrigée & augmentée. </title>
+                    <title> Les caractères de Theophraste, traduits du grec avec les caractères ou
+                        les moeurs de ce siecle. Huitieme edition. Revue corrigée et augmentée. </title>
                     <author> Théophraste </author>
-                    <author> Jean <name> de la Bruyère </name> </author>
+                    <author> Jean <name> de la Bruyère </name>
+                    </author>
                     <date when="1694"> M. DC. XCIV. </date>
                     <publisher> Estienne Michallet </publisher>
                     <pubPlace> Paris </pubPlace>
@@ -38,7 +41,8 @@
         <encodingDesc>
             <projectDesc>
                 <p> texte encodé pour un cours de TEI</p>
-                <p> On se base sur l'édition originale de 1688 pour la mettre en relation avec la huitième édition des Caractères de La Bruyère, éditée en 1694 à Paris </p>
+                <p> On se base sur l'édition originale de 1688 pour la mettre en relation avec la
+                    huitième édition des Caractères de La Bruyère, éditée en 1694 à Paris </p>
             </projectDesc>
             <samplingDecl>
                 <p>Page de titre </p>
@@ -51,10 +55,59 @@
         </encodingDesc>
     </teiHeader>
     <text>
+
         <body>
-            <div>
-                <p> </p>
-            </div>
+            <div1>
+                <!-- Texte de théorphraste -->
+                <div2>
+                    <!--  Discours -->
+                </div2>
+                <div2>
+                    <!--  Préface Théophraste --></div2>
+                <div2>
+                    <!--  Sommaire --></div2>
+                <div2>
+                    <!--  Caractères de Théophraste -->
+                    <div3 type="chapter">
+                        <p>
+                            <!--Texte des caractères  --></p>
+                    </div3>
+                    <div3 type="remark">
+                        <p/>
+                    </div3>
+                </div2>
+            </div1>
+            <div1>
+                <!-- Texte de La Bruyère -->
+                <div2>
+                    <!-- Faux titre  --></div2>
+                <div2>
+                    <!-- Préface de La Bruyère  --></div2>
+                <div2>
+                    <!-- Sommaire  --></div2>
+                <div2>
+                    <!-- Texte de La Bruyère  -->
+                    <div3 type="chapter">
+                        <head> Du Merite Personnel. </head>
+                        <div4 type="remark">
+                            <p> Le ſage quelquefois évite
+                                le monde de peur d'eſstre en-
+                            nuyé.</p>
+                            <p> Il n'y a rien de ſi délié, de
+                                ſi ſimple, &amp; <!-- Sur Oxygen il n'est pas possble de coder une esperluette donc j'ai décidé d'aller chercher la méthode pour le coder sur internet --> de ſi impercepti-
+                            ble, où il n'entre des manie-
+                            res qui nous decelent. Un ſot,
+                            ny n'entre, ny ne ſort, ny ne
+                            s'aſſied, ny ne ſe leve, ny ne ſe
+                            tait, ny n'eſt ſur ſes jambes com-
+                            me un homme d'eſprit.</p> 
+                     </div4>
+                       <div4 type="figure">
+                           <!-- Le monogramme à la fin est a codé mais je n'ai pas réussi à trouver comment faire. Je pense qu'il faut mettre l'attribut "figure" qui permet d'indiquer la présence d'une image mais je ne sais pas comment coder ce genre d'images correctement -->
+                       </div4> 
+                    </div3>
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
