@@ -67,9 +67,40 @@
                     <div3><!--Premier chapitre--></div3>
                 </div2>
             </div1>
+            
+            
+            
+            <div1>
+                <head>Les Caractèrs ou les moeurs de ce siècle</head>
+                <div2>
+                    <head>Préface de La bruyère</head>
+                    <p/>
+                </div2>
+                <div2>
+                    <head>Table des matières</head>
+                    <p/>
+                </div2>
+                <div2>
+                    <head>Les Caractères</head>
+                    <div3 type="chapter">
+                        <head>De l'homme</head>
+                        <div4 type="remark">
+                        <p n="1">Ne nous emportons point contre les hommes envoyant leur dureté, 
+                            leur ingratitude, leur injustice, leur fierté, l'amour qu'ils ont pour 
+                            eux-mefmes, & <!--le logiciel n'accepte pas & mais c'est ce qui est marqué dans le texte--> 
+                            l'oubli où ils font des autres; ils font ainfi faits, c'eft leur nature, c'eft ne pouvoir 
+                            fupporter que la pierre tombe, ou que le feu s'éleve.</p>
+                        <p n="2">Les hommes ne s'attachent pas affez à ne point manquer les occasions 
+                            de faire plaifir; il femble que l'on n'entre dans un employ que pour pouvoir obliger, 
+                            & n'en rien faire la chofe la plus prompte & & <!--il semble y avoir un double & par erreur-->
+                            qui fe prefente d'abord, c'eft le refus, & l'on n'accorde que par reflexion</p>
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+
+
         </body>
-        
         <back><!--Extrait du privilège du Roy--></back>
-        
     </text>
 </TEI>
