@@ -12,7 +12,7 @@
                     <roleName>Etudiante</roleName>
                     <date when="2024-10-17">17 Octobre 2024</date>
                 </publisher>
-                <address><addrLine>Université Bretagne SUD</addrLine></address>
+                <address><addrLine>Université Bretagne Sud</addrLine></address>
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
@@ -40,18 +40,133 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Projet d'édition numérique des Caractères de La Bruyère</p>
+                <p>Projet d'édition numérique des Caractères de la Bruyère</p>
             </projectDesc>
             <editorialDecl>
-                <p>les s long ont été modernisé</p>
+                <p>les s long ont été laissés</p>
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
     <text>
+        <front>
+            <!-- Selon cours, possibilité : 
+                div1 = dscours sur théophraste
+                
+                div1 = préface théo
+                div 2 = sommaire
+                
+                div1 = les caractères
+                div2 = préface
+                div3 = sommaire
+                -->
+            <head>Les caractères de Théophraste traduit du grec ancien avec les caractères ou les moeurs de ce siècle</head>
+         
+           
+            <div1>
+                <head>Discours sur Théophraste</head>
+                <p>le contenu</p>
+            </div1> 
+            <div1>
+                    <head>Préface</head>
+                <div2>
+                    <head>Le sommaire</head>
+                    <list type="gloss">
+                        <item> </item>
+                        <item> </item>
+                        <!-- ... -->
+                    </list>
+                </div2>   
+           </div1>
+            <div1> 
+                <head>Les caractères de la Bruyère</head>
+                <div2>
+                    <head>Préface</head>
+                    <p>contenu</p>
+                </div2>
+                <div2>
+                    <head>Sommaire</head>
+                    <list type="gloss">
+                        <item> </item>
+                        <item> </item>
+                        <!-- ... -->
+                    </list>
+                </div2>
+            </div1>
+            
+            
+        </front>
         <body>
-            <div>
-                <p> </p>
-            </div>
+            <!-- Selon cours 
+                Autre solution: pas de front on code tout dans le body
+                div1 = txt théo
+                div2 = discours
+                div2 = préface théo
+                div2 = sommaire
+                div2 = les caractères
+                    div3 type="chapter" = <p>
+                       plein de div 3
+                
+                div1= La BRuyère
+                div2 = faux titre
+                same
+            -->
+            
+            <div1>
+                <head>Les caractères de Théophraste</head>
+                <div2 type="chapter">
+                    <head>Nom du chapitre</head>
+                    <div3 type="remark">
+                        <p>paragraphe</p>
+                    </div3>
+                    <!-- Répéter la div3 x fois -->
+                </div2>
+                    <!-- Répéter la div 2 autant que nécessaire -->
+            </div1>
+            
+            <div1>
+                <head>Les caractères ou les moeurs de ce siècle</head>
+                <div2 type="chapter">
+                    <head>chapitre 1</head>
+                    <div3 type="remark">
+                        <p>paragraphe</p>
+                    </div3>
+                    <div3 type="remark">
+                        <p>autant que nécessaire</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter">
+                    <head>Chapitre x</head>
+                    <div3 type="remark">
+                        <p>paragraphe</p>
+                    </div3>
+                </div2>
+                <div2 type="Chapter">
+                    <head>Des Grands</head>
+                    <!-- page 252 -->
+                    <div3 type="remark">
+                        <p>La prevention du peuple en faveur de <g ref="#long-s">s</g>es Princes e<g ref="#long-s">s</g>t <g ref="#long-s">s</g>i
+                            aveugle, &amp; l'ente<g ref="#long-s">s</g>tement pour leur ge<g ref="#long-s">s</g>te, leur vi<g ref="#long-s">s</g>age, leur ton de voix
+                            &amp; leurs manieres <g ref="#long-s">s</g>i general;que s'ils s'avi<g ref="#long-s">s</g>oient d'e<g ref="#long-s">s</g>tre bons,
+                            cela iroit à l'idolâtrie, le <g ref="#long-s">s</g>eul mal <g ref="#long-s">s</g>ous ce regne que l'on pouvoit craindre.
+                        </p>
+               <!-- Dans le TEI guideline on a trouvé <g ref="#long-s">s</g> pour coder les S longs, et <g> représente les glyphs et les caractères non standard (section 17 Guideline) -->
+               <!-- Pour & on a trouvé : &amp;-->
+                        <!-- J'ai décidé de faire des retours à la ligne de temps en temps pour me faciliter la lecture, vu que cela ne  change rien au code-->
+                        <p><g ref="pied de mouche"/> L'avantage des Grands <g ref="#long-s">s</g>ur les autres hommes e<g ref="#long-s">s</g>t immen<g ref="#long-s">s</g>e
+                            par un endroit : je leur cede leur bonne chere, leurs riches, ameublemens , leurs chiens , leurs chevaux, leurs <g ref="#long-s">s</g>inges,
+                            leurs nains, leurs fous &amp; leurs flateurs ; mais je leur envie le bonheur d'avir à leur <g ref="#long-s">s</g>ervice
+                            des gens qui les égalent par le cœur, &amp; par l'e<g ref="#long-s">s</g>prit, &amp; qui les pa<g ref="#long-s">ss</g>ent quelquefois.
+                        </p>
+                        <!-- pour enoder le pied de mouche je suis partie sur <g ref ="pied de mouche"/> -->
+   
+                    </div3>
+                </div2>
+            </div1>
         </body>
+        <back>
+            <head>Privilège du roi</head>
+            <p>Texte</p>
+            <!--privilège du roi-->
+        </back>
     </text>
 </TEI>
