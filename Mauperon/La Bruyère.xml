@@ -47,8 +47,62 @@
         
     </teiHeader>
     <text> 
+        <front>
+            
+        </front>
+        
+        
         <body>
-            <p>  </p>
+            <div1><!-- Théophraste-->
+                <div2><!-- Discours sur Théophraste--></div2>
+                <div2><!-- Préface de Théophraste--></div2>
+                <div2><!-- Sommaire--></div2>
+                <div2><!-- Les Caractère de Théophraste-->
+                    <div3 type="chapitre">
+                        <head></head>
+                        <p></p>
+                    </div3>
+               </div2>
+            </div1>
+            
+            <div1><!-- La Bruyère-->
+                <div2><!-- faux titre--></div2>
+                <div2><!-- Préface de La Bruyère--></div2>
+                <div2><!-- Sommaire--></div2>
+                <div2><!-- Les Caractères ou les meours de ce siècle-->
+                    <div3 type="Chapter">
+                        <head>Du Coeur.</head>
+                        <div4 type="remark">
+                            <p>Quelques-uns ſe défendent 
+                                d'aimer &amp; de faire des vers,
+                                comme de deux foibles qu'ils n'oſent avouer ; l'un du coeur, 
+                                l'autre de l'eſprit.</p>
+                            <!-- Pour le "&" j'ai trouvé cette solution sur internet &amp;-->
+                            
+                            <p>Regretter ce que l'on aime
+                                eſt un bien, en comparaiſon
+                                de vivre avec ce que l'on hait.</p>
+                            
+                            <p>Vouloir oublier quelqu'un,
+                               c'eſt y penſer. L'amour a cela 
+                               de commun avec les ſcrupules,
+                               qu'il s'aigrit par les reflexions
+                               &amp;les retours que l'on fait pour
+                               s'en délivrer. Il faut, s'il ſe
+                               peut, ne point ſonger à la 
+                               paſſion pour l'affoiblir.
+                            </p>
+                            
+                            <p> </p>
+                        </div4></div3></div2></div1>
+                        
+                   
+            
+            
         </body>
+        
+        <back>
+            
+        </back>
     </text>
 </TEI>
