@@ -12,7 +12,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle</title>
                     <author>Jean de la Bruyère</author>
                     <author>Théophraste</author>
                     <publisher>E. Michallet</publisher>
@@ -21,22 +22,62 @@
                     <date when="1688">M. DC. LXXXVIII.</date>
                 </bibl>
                 <bibl>
-                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle</title>
                     <author>Jean de la Bruyère</author>
                     <author>Théophraste</author>
                     <publisher>E. Michallet</publisher>
-                    <idno>NUMM-57564</idno>
-                    Available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k575649?rk=21459;2"/>
+                    <idno>NUMM-57564</idno> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k575649?rk=21459;2"/>
                     <date when="1689">M. DC. LXXXIX.</date>
                 </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
+        <!--front avec titlePage-->
         <body>
-            <div>
-                <p> </p>
-            </div>
+            <div1>
+                <!--Discours sur Théophraste -->
+                <p/>
+            </div1>
+            <div1>
+                <!-- Les caractères de Théophraste. Traduits du grecs.-->
+                <div2>
+                    <!--préface de Théophraste-->
+                    <p/>
+                </div2>
+                <div2>
+                    <!--Sommaire-->
+                </div2>
+                <div2>
+                    <!--Les Caractères de Théophraste-->
+                    <div3 type="chapter">
+                        <head>De la dissimulation.</head>
+                    </div3>
+                </div2>
+            </div1>
+
+
+            <div1>
+                <!--Les caractères ou les moeurs de ce siècle-->
+                <head>Les caractères ou les moeurs de ce siècle</head>
+                <div2><!--préface de Théophraste qui est la bruyère--></div2>
+                <div2><!--Sommaire--></div2>
+                <div2>
+                    <!--Les caractères-->
+                    <div3 type="chapter">
+                        <head>Des femmes.</head>
+                        <div4 type="remark">
+                            <!-- p194-193 -->
+                            <p n="35">Les femmes gueriffent de leur pareſſe par a vanité ou par l'amour.</p>
+                            <p n="36">Un homme de la ville eſt pour une femme de Provincce, ce qu'eſt pour une femme de ville un homme de la Cour.</p>
+                            <p n="37">Ne pourroit-on point découvrir l'art de ſe faire aimer de ſa femme ?</p>
+                        </div4>
+                    </div3>
+                </div2>
+
+            </div1>
         </body>
     </text>
 </TEI>
