@@ -15,27 +15,27 @@
                 <address><addrLine>Université Bretagne SUD</addrLine></address>
             </publicationStmt>
             <sourceDesc>
-<!--Il faut trouver comment on fait pour mettre deux édition, deux ref-->
+                <!--Il faut trouver comment on fait pour mettre deux édition, deux ref-->
                 <listBibl>
-                <bibl>
-                    <title>Les Caractères ou les Moeurs de ce siècle</title>
-                    <author><forename>Jean</forename>
-                        <name>De La Bruyère</name></author>
-                    <date>1688</date>
-                    <publisher>Estienne Michallet</publisher>
-                    <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
-                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=42918;4</ref>
-                </bibl>
-                <bibl>
-                    <title>Les Caractères ou les Moeurs de ce siècle</title>
-                    <title type="sub">Neuvième édition</title>
-                    <author><forename>Jean</forename>
-                        <name>De La Bruyère</name></author>
-                    <date>1696</date>
-                    <publisher>Estienne Michallet</publisher>
-                    <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
-                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57579b?rk=42918;4</ref>
-                </bibl>
+                    <bibl>
+                        <title>Les Caractères ou les Moeurs de ce siècle</title>
+                        <author><forename>Jean</forename>
+                            <name>De La Bruyère</name></author>
+                        <date>1688</date>
+                        <publisher>Estienne Michallet</publisher>
+                        <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=42918;4</ref>
+                    </bibl>
+                    <bibl>
+                        <title>Les Caractères ou les Moeurs de ce siècle</title>
+                        <title type="sub">Neuvième édition</title>
+                        <author><forename>Jean</forename>
+                            <name>De La Bruyère</name></author>
+                        <date>1696</date>
+                        <publisher>Estienne Michallet</publisher>
+                        <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57579b?rk=42918;4</ref>
+                    </bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -44,14 +44,379 @@
                 <p>Prejet d'édition numérique des Caractères de la Bruyère</p>
             </projectDesc>
             <editorialDecl>
-                <p>les s long on été modernisé</p>
+                <p>On a décidé de mettre les deux textes, ainsi que leur préfaces respective dans le body</p>
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
     <text>
+        <front>
+            <head>Les caractère de Théophraste traduit du grec avec les caractères ou les moeurs de
+                ce siècle</head>
+            <!--On peut mettre des div dans le front mais après le head-->
+        </front>
         <body>
-            <head>Discours sur Theophraste</head>
-            <p>...</p>
+            <!-- Avec technique tout dans le body-->
+            <div1>
+                <!-- Théophraste -->
+                <div2 type="preface">
+                    <head>Discours sur Théophraste</head>
+                    <p>...</p>
+                </div2>
+                <div2>
+                    <head>Les caractères de Théophraste, traduits du Grec</head>
+                    <p><!--Introduction--></p>
+                    <list type="gloss">
+                        <item>De la Di<g ref="#long-s">ss</g>imulation</item>
+                        <!-- Il a fallu tregarder sur TEi guideline pour trouver comment coder les s long. 
+                        J'ai donc trouver qu'il fallait utiliser la balise g qui indique un caractère spécial. -->
+                        <item>De la Flatterie</item>
+                        <item>De l'Impertinent, ou du diseur de rien</item>
+                        <item>De la Rusticité</item>
+                        <item>Du Complaifant</item>
+                        <item>De l'image d'un Coquin</item>
+                        <item>Du grand Parleur</item>
+                        <!-- ... -->
+                    </list>
+                    <!-- Je ne savais pas comment faire la table des matières, j'ai donc fait des recherches sur TEI Guideline.
+                    J'ai donc trouvercomment faire une liste et j'ai pensé que ça suffierais pour le sommaire. -->
+                    <div3 type="chapter">
+                        <head>De la Di<g ref="#long-s">ss</g>imulation</head>
+                        <p>...</p>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>De la Flaterie</head>
+                        <p>...</p>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>De l'Impertinent ou du diseur de rien</head>
+                        <p>...</p>
+                    </div3>
+                    <!-- ... -->
+                </div2>
+            </div1>
+            <div1>
+                <!-- La Bruyère -->
+                <div2>
+                    <p>Les Caractères ou les Moeurs de ce siècle</p>
+                    <!-- Faux titre -->
+                </div2>
+                <div2 type="preface">
+                    <head>Les caractères de Théophraste, traduits du Grec</head>
+                    <p>...</p>
+                <list type="gloss">
+                    <item>De l'Ouvrages de l'e<g ref="#long-s">s</g>prit.</item>
+                    <item>Du Merite Per<g ref="#long-s">s</g>onnel.</item>
+                    <item>Des Femmes.</item>
+                    <item>Du Coeur.</item>
+                    <item>De la Société &amp; de la Conver<g ref="#long-s">s</g>ation.</item>
+                    <item>Des biens de Fortune.</item>
+                    <item>De la Ville.</item>
+                    <item>De la Cours.</item>
+                    <item>Des Grands.</item>
+                    <item>Du Souverin.</item>
+                    <item>De l'Homme.</item>
+                    <item>Des Jugements.</item>
+                    <item>De la Mode.</item>
+                    <item>De quelques U<g ref="#long-s">s</g>ages.</item>
+                    <item>De la Chaire.</item>
+                    <item>Des E<g ref="#long-s">s</g>prits forts.</item>
+                </list>
+                    <div3 type="chapter">
+                        <head>De l'Ouvrages de l'e<g ref="#long-s">s</g>prit.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>Du Merite Per<g ref="#long-s">s</g>onnel.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>Des Femmes.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>Du Coeur.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>De la Société &amp; de la Conver<g ref="#long-s">s</g>ation.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>Des biens de Fortune.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>De la Ville.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>De la Cours.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                    <head>Des Grands.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p><g ref="pied de mouche"/>Si les Gronds ont les occa<g ref="#long-s">s</g>ions de nous faire du bien, ils en ont rarement la volonté; &amp; s'ils de<g ref="#long-s">s</g>irent de nous faire du mal, ils n'en trouvent pas toûjours les occa<g ref="#long-s">s</g>ions; ain<g ref="#long-s">s</g>i l'on peut e<g ref="#long-s">s</g>tre trompé dans l'e<g ref="#long-s">s</g>pèce de culte que l'on leur rend; s'il n'e<g ref="#long-s">s</g>t fondé que <g ref="#long-s">s</g>ur la crainte; &amp; une longue vie <g ref="#long-s">s</g>e termine quelquefois <g ref="#long-s">s</g>ans qu'il arrive de dépendre d'aux pour le moindre intére<g ref="#long-s">s</g>t, ou que l'on leur doive <g ref="#long-s">s</g>a bonne ou <g ref="#long-s">s</g>a mauvai<g ref="#long-s">s</g>e fortune: nous devons les honorer parce qu'ils <g ref="#long-s">s</g>ont grands &amp; que nous <g ref="#long-s">s</g>ommes petits; &amp; qu'il y en a d'autres plus petit que nous qui nous honorent.</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p><g ref="pied de mouche"/>Ne parler aux jeune Princes que du <g ref="#long-s">s</g>oin de leur rang; e<g ref="#long-s">s</g>t un excez de précaution; lor<g ref="#long-s">s</g>que toute une Cour met <g ref="#long-s">s</g>on devoir &amp; une partie de <g ref="#long-s">s</g>a polite<g ref="#long-s">ss</g>e à les re<g ref="#long-s">s</g>pecter, &amp; qu'ils <g ref="#long-s">s</g>ont dûs à leur nai<g ref="#long-s">ss</g>ance, quà confondre les per<g ref="#long-s">s</g>onnes, &amp; et les traier indifferemment &amp; <g ref="#long-s">s</g>ans di<g ref="#long-s">s</g>tinction des conditions &amp; des titres: ils ont une fierté naturelle qu'ils retrouvent dans les occa<g ref="#long-s">s</g>ions; il ne leur faut des leçons que pour la regler, que pour leur in<g ref="#long-s">s</g>pirer la bonté, l'honne<g ref="#long-s">s</g>teté, &amp; l'e<g ref="#long-s">s</g>prit de di<g ref="#long-s">s</g>cernement.</p>
+                        </div4>
+                        <!-- Pour trouver les pied de mouche, j'ai encore une fois rehcrehcer sur TEI Guideline qui 'a dit d'utiliser encore une fois g avec l'attribut ref pour lui donner une valeur -->
+                    </div3>
+                    <div3 type="chapter">
+                        <head>Du Souverin.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>De l'Homme.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>Des Jugements.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>De la Mode.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>De quelques U<g ref="#long-s">s</g>ages.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>De la Chaire.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter">
+                        <head>Des E<g ref="#long-s">s</g>prits forts.</head>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>...</p>
+                            <p>...</p>
+                            <p>...</p>
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
         </body>
+        <back>
+            <head>Extrait du Privilège du Roi</head>
+            <p/>
+        </back>
     </text>
 </TEI>
