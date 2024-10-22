@@ -18,8 +18,9 @@
                 <bibl>
                     <author>Jean de <name>La Bruyère </name></author>
                     <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
+                    <edition>3ème édition</edition>
                     <publisher>Paris : E. Michallet, 1688</publisher>
-                    <idno>ark:/12148/cb30705982f</idno>
+                    <idno>ark:/12148/cb30705982f</idno> <!-- https://gallica.bnf.fr/ark:/12148/bpt6k87040224/f70.planchecontact -->
                 </bibl>
                 <bibl>
                     <author>Jean de <name>La Bruyère </name></author>
@@ -30,4 +31,49 @@
             </sourceDesc>
         </fileDesc>        
     </teiHeader>
+    <text>
+        <front>
+            <div1>
+                <div2>
+                    <!--Pour la préface de discours sur théophraste par la bruyère-->
+                </div2>
+                <div2>
+                    <!--Pour la préface des caractères de théophraste par théophraste-->
+                </div2>
+                <div2>
+                    <!--Pour le sommaire de théophraste-->
+                </div2>
+            </div1>
+            <div1>
+                <div2>
+                    <!--Pour la préface les caractères ou les moeurs de ce siècle de la bruyère-->
+                </div2>
+                <div2>
+                    <!--Pour le sommaire des caractères ou les moeurs de ce siècle de la bruyère-->
+                </div2>
+            </div1>
+        </front>
+
+
+        <body>
+            <div1>
+                <!--Pour le contenu des caractères de théophraste--> 
+                <div2> <!--Pour les différents chapitres--> 
+                        <p><!--Pour les différents paragraphes de chaque chapitre--></p>
+                </div2>
+            </div1>
+            <div1>
+                <!--Pour le contenu des caractères ou les moeurs de ce siècle de la bruyère--> 
+                <div2> <!--Pour les différents chapitres--> 
+                        <p><!--Pour les différents paragraphes de chaque chapitre--></p>
+                </div2>
+                <div2 type="chapitre">
+                    <head>Des Esprits Forts.</head>
+                    <p>Les eſprits forts ſçavent-ils qu'on les appelle ainſi par ironie? quelle plus grande foibleffe que d'eſtre incertains quel eſt le principe de ſon eſtre, de la vie, de ſes ſens, de ſes connoiſſances, &amp;quelle en doit eſtre la fin? quel découragement plus grand que de douter ſi ſon ame n'eſt point matiere comme la pierre &amp; le reptile, &amp; ſi elle n'eſt point corruptible comme ces viles creatures ? n'y a-t'il pas plus de force &amp; plus de grandeur à recevoir dans noſtre eſprit l'idée d'un eſtre ſuperieur à tous les eſtres, qui les a tous faits, &amp; à qui tous ſe doivent rapporter? d'un eſtre ſouverainement parfait, qui eſt pur, qui n'a point commencé &amp; qui ne peut finir, dont noſtre ame eſt l'image, &amp; meſme une portion comme eſprit, &amp; comme immortelle. </p>
+                    <p>L'on doute de Dieu dans une pleine ſanté, comme l'on doute que ce ſoit pecher que d'avoir un commerce avec une perſonne libre* <note place="foot">*Une fille.</note>: quand l'on devient malade, &amp;que l'hydropifie eſt formée, l'on quitte ſa concubine, &amp; l'on croit en Dieu.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
 </TEI>
+
