@@ -18,13 +18,17 @@
             <sourceDesc>
                 <bibl>
                     <author>Jean de<name>La Bruyère</name></author>
-                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
+                        les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
+                    <edition>3e édition</edition>
                     <publisher>Paris : E. Michallet</publisher>
                     <date>1688</date>
+                    <idno>ark:/12148/cb30705982f</idno>
                 </bibl>
                 <bibl>
                     <author>Jean de<name>La Bruyère</name></author>
-                    <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec Les caractères ou les moeurs de ce siècle / [par Jean de La Bruyère]</title>
+                    <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec Les
+                        caractères ou les moeurs de ce siècle / [par Jean de La Bruyère]</title>
                     <publisher>Cambridge (Mass.) : Omnisys, [ca 1990]</publisher>
                     <date>1694</date>
                 </bibl>
@@ -38,9 +42,24 @@
     </teiHeader>
     <text>
         <body>
-            <div>
-                <p> </p>
-            </div>
+            <div1>
+                <!--Pour Théophraste -->
+                <div2><!--Préface par La Bruyère--></div2>
+                <div2><!--Préface Théophraste--></div2>
+                <div2><!--Sommaire--></div2>
+            </div1>
+            <div1>
+                <!--Pour Les Caractères ou Moeurs-->
+                <div2><!--Préface par La Bruyère--></div2>
+                <div2><!--Sommaire--></div2>
+                <div2><!-- Pour le texte -->
+                    <div3><!--Des Esprits Forts-->
+                        <p>Je ne conçois point qu'une ame que Dieu a voulu remplir de l'idée de ſon eſtre infini, &amp; ſouverainement parfait, doive eſtre aneantie.</p>
+                        <p>Si l'on ne goûte point ces remarques que j'ay écrites, je m'en étonne, &amp; ſi on les goûte, je m'en étonne de meſme.</p>
+                        <p>FIN.</p>
+                    </div3>
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
