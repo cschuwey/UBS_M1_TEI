@@ -7,8 +7,8 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <Name>Cosson Stéphanie</Name>
-                <affiliation>UBS</affiliation>
+                    <name>Cosson Stéphanie</name>
+                    <affiliation>UBS</affiliation>
                 </publisher>
                 <authority>Cosson Stéphanie</authority>
                 <pubPlace> Université de Bretagne Sud</pubPlace>
@@ -16,7 +16,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <title>Les caractères de Theophraste traduits du grec avec les caracteres ou les moeurs de ce siecle.</title>
+                    <title>Les caractères de Theophraste traduits du grec avec les caracteres ou les
+                        moeurs de ce siecle.</title>
                     <author>Théophraste</author><author>Jean de la Bruyère</author>
                     <date>1688</date>
                     <publisher>Estienne Michallet</publisher>
@@ -27,7 +28,9 @@
                 <bibl>
                     <author>Jean De La bruyère</author>
                     <author>Théophraste</author>
-                    <title>Les caractères de Theophraste traduits du grec: avec les caractères ou les moeurs de ce siècle. Cinquième edition augmentée de plusieurs remarques</title>
+                    <title>Les caractères de Theophraste traduits du grec: avec les caractères ou
+                        les moeurs de ce siècle. Cinquième edition augmentée de plusieurs
+                        remarques</title>
                     <date>1690</date>
                     <publisher>Estienne Michallet</publisher>
                     <idno>R-18790</idno>
@@ -39,23 +42,75 @@
         <encodingDesc>
             <projectDesc>
                 <p>Texte encodé pour un cours de TEI</p>
-                <p>On se base sur l'édition de 1688 pour la mettre en relation avec une nouvelle édition celle des Caractères de La Bruyère, édition classique éditée en 1876 à Tours</p>
+                <p>On se base sur l'édition de 1688 pour la mettre en relation avec une nouvelle
+                    édition celle des Caractères de La Bruyère, édition classique éditée en 1876 à
+                    Tours</p>
             </projectDesc>
             <samplingDecl>
                 <p>Page de titre</p>
             </samplingDecl>
-<editorialDecl>
-    <normalization> 
-        <p>Les accents ont été supprimés</p>
-    </normalization>
-</editorialDecl>
+            <editorialDecl>
+                <normalization>
+                    <p>Les accents ont été supprimés</p>
+                </normalization>
+            </editorialDecl>
         </encodingDesc>
     </teiHeader>
     <text>
+        <front> </front>
         <body>
-            <div>
+            <div1>
+                <head>Les caractères de Théophraste: traduit du grec</head>
                 <p> </p>
-            </div>
+                <div2>
+                    <head>Discours sur Théophraste</head>
+                    <!-->preface : discours de théophraste<!-->
+                </div2>
+                <div2>
+                    <head>Sommaire</head>
+                    <!-->Sommaire<!-->
+                </div2>
+                <div2>
+                    <head> Les caractères</head>
+                    <!-->Caractères<!-->
+                    <div3>
+                        <head/>
+                        <!-->les caractères/paragraphes<!-->
+                        <p/>
+
+                    </div3>
+                </div2>
+            </div1>
+            <div1>
+                <head>Les carctères ou les meours de ce siècle </head>
+                <p> </p>
+                <div2>
+                    <head/>
+                    <!-->preface : discours de théophraste<!-->
+                </div2>
+                <div2>
+                    <!-->Sommmaire<!-->
+                    <!-->Les caractères<!-->
+                    <div3 type="chapter">
+                        <head>Du mérite personnel</head>
+                        <!-->Subdivision<!-->
+                        <div4 type="remark">
+                            <p>QUI peut avec les plus rares talents & le plus excellent merite
+                                n'eſtre pas convaincu de ſon inutilité, quand il conſidere qu'il
+                                laiſſe, en mourant, un monde qui ne ſe ſent pas de ſa parte,& où
+                                tant de gens ſe trouvent pour le remplacer? </p>
+                            <p>De bien des gens il n'y a que le nom qui vale quelque choſe ; quand
+                                vous les voyez de fort prés, c'eſt moins que rien ; de loin ils
+                                impoſent.</p>
+                            <p>Combien d'hommes admirables, & qui avoient de tresbeauxgenies ſont
+                                morts ſans qu'on en ait parlé ? Combien vivent encore dont on ne
+                                parle point, & dont on ne parlera jamais?</p>
+                        </div4>
+                    </div3>
+                </div2>
+
+            </div1>
+
         </body>
     </text>
 </TEI>
