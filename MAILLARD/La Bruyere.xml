@@ -66,64 +66,54 @@
     <front>
         
         <div1 type="Preface"> <!-- Discours sur Theophraste --> 
+            <div2> <!-- Sommaire --> </div2>
+            <div2> <!-- les caractères de Théophraste --> 
+            
+                <div3 type="Chapter"> <!-- chapitre--> 
+            <head> <!-- titre du chapitre--> </head>           
+            
+                     <div4> <!-- pied de mouche, paragraphes-->
+                         
+                         <head type="paragraph mark"></head>
+                         <p> ... </p>
+                         
+                     </div4>
+                </div3>
+            </div2>
+        </div1>
+            
+        <div1 type="Preface"> <!-- Les caractères ou les moeurs -->  <!-- il s'agit de niveau de profondeur, 
+                                                                      il faut penser structure avant tout, comment les diff éléments 
+                                                                      du doc s'imbriquent ensemble, savoir organiser, structurer -->
         <div2> <!-- Sommaire -->
-        <div3> <!-- chapitre--> 
-        <div4> <!-- pied de mouche, paragraphes-->
+        <div3 type="Chapter">
+            <head> De la Cour </head> <!-- chapitre--> 
+        <div4> <!-- pied de mouche, paragraphes-->        
             
-            <head> Titre </head>
-            <p> ... </p>
+            <p> <ab type="pilcrow"/> <!--Pied de mouche--> Le favory n'a point de fuites, il eft fans engagement &amp; 
+                fans liaifons , il peut eftre entouré de parens &amp; de creatures , mais il n'y tient pas ; il eft détaché de tout , 
+                &amp; comme ifolé.
+            </p>            
+            <p> <ab type="pilcrow"/> Une grande parure pour le favory difgracié , c'eft la retraitte : il luy eft avantageux de 
+                difparoiftre , plûtoft que de traîner dans la Ville le debris d'une faveur qu'il a perduë , &amp; de faire un
+                nouveau perfonnage fi different du premier qu'il a foûtenu : il conferve au contraire le merveilleux de fa vie
+                dans la folitude ; &amp; mourant pour ainfi dire avant la caducité , il ne laiffe de foy qu'une belle idée &amp;
+                une memoire agreable.            
+            </p>
             
-    </div4>    </div3>        </div2>        </div1>   
-            
-        <div1 type="Preface"> <!-- Les caractères ou les moeurs -->   <!-- il s'agit de niveau de profondeur, 
-                                                                      il faut penser structure avant tout, commebnt les diff éléments 
-                                                                      du doc s'imbriquent ensemble, savoir organiser, structurer est essentiel-->
-        <div2> <!-- Sommaire -->
-        <div3> <!-- chapitre--> 
-        <div4> <!-- pied de mouche, paragraphes-->
-        
-            <head> Titre </head>
-            <p> ... </p>
-            
-     </div4>         </div3>        </div2>        </div1>  
+        </div4>         
+        </div3>        
+        </div2>   
+        </div1>        
         
         
        
  
              
              
-    </front>
-    
-    
-<body>
-    
-</body>
-    
+    </front>    
 </text> 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+   
  
     
   
