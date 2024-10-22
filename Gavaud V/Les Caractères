@@ -39,9 +39,32 @@
     </teiHeader>
     <text>
         <body>
-            <div>
-                <p> Texte </p>
-            </div>
+            <div1><!-- Théophrastes -->
+            <div2><!-- Discours sur Theophraste --></div2>
+            <div2><!-- Préface des caractères de Théophraste --></div2>
+            <div2><!-- Sommaire --></div2>
+            <div2><!-- Les Caractères de Théophraste -->
+                <div3 type="chapter"> 
+                <head>De la Dissimulation</head>
+                    <p>
+                        etc avec tous les chapitres
+                    </p>
+                </div3>
+                </div2>
+            </div1>
+            <div1><!-- La Bruyère -->
+                <div2><!-- Préface des caractères de La Bruyère --></div2>
+                <div2><!-- Sommaire --></div2>
+                <div2><!-- Les Caractères ou les Moeurs de ce Siècle -->
+                    <div3 type="chapter"> 
+                        <head>Des Ouvrages de l'esprit</head>
+                        <p>Il ne faut point mettre un ridicule où il n'y en a point; c'eſt ſe gâter le goût, c'eſt corrompre ſon jugement &amp; celuy des autres; mais le ridicule qui eſt quelque part, il faut l'y voir, l'en tirer avec grace, &amp; d'une maniere qui plaiſe &amp; qui inſtruiſe.
+                        </p>
+                        <p>Horace oou Despreaux l'a dit avant vous; je le crois ſur voſtre parole; mais je l'ay dit comme mien; ne puis-je pas penſer une choſe vraie, &amp; que d'autres encore penſeront aprés moy?</p>
+                    </div3>
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
+
