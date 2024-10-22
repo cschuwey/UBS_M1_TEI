@@ -52,10 +52,57 @@
         </encodingDesc>
     </teiHeader>
     <text>
+        <front>
+            <p></p>
+        </front>
         <body>
-            <div>
-                <p/>
-            </div>
+            <div1><!--Théophraste-->
+                <div2><!--Discours--></div2>
+                <div2><!--Préface de Théophraste--></div2>
+                <div2><!--Sommaire--></div2>
+                <div2><!--Carcatères de Théophraste-->
+                    <div3 type="chapter">
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter">
+                        <p></p>
+                    </div3>
+                 </div2>
+            </div1>
+            <div1><!--La Bruyère-->
+                <div2><!--faux titre--></div2>
+                <div2><!--Préface de LB--></div2>
+                <div2><!--Somaire--></div2>
+                <div2><!--Texte de LB-->
+                    <div3 type="chapter">
+                    <head>Des Jugements</head>
+                        <div4 type="remark">
+                            <p>Rien ne reſſemble mieux
+                                à la vive perſuaſion que
+                                les mauvais entêtement : de là
+                                les partis, les cabales, le he-
+                                reſies. </p>
+                            <p>L'on ne penſe pas toû-
+                                jours conſtamment d'un meſ-
+                                me fuſet : l'entêtement &amp; le
+                                dégoût ſe ſuivent de prés.</p>
+                            <p>Les grandes choſes étonnent
+                                &amp; les petites rebutent ; nous
+                                nous apprivoiſons avec les unes
+                                &amp; les autres par l'habitude.</p>
+                            <p>Il n'y a rien de plus bas &amp;
+                                qui convienne mieux au pleu-
+                                ple, que de parler en des ter-
+                                mes magnifiques de ceux-meſ-
+                                me dont l'on penſoit tres-mo-
+                                deſtement avant leur élevation</p>
+                            <!-- Pour les esperluettes, comme oxygen ne les valide pas, en cherchant sur Internet, j'ai trouvé que la solution était de coder &amp;-->
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
         </body>
+        <back>
+        </back>
     </text>
 </TEI>
