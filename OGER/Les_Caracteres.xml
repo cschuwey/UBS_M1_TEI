@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères, première et sixième éditions</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
+                    <author><name>Théophraste</name></author>
+                    <author><name>La Bruyère</name><forename>Jean de</forename></author> <!-- Je l'ai mis en auteur car il partage aussi ses propres pensées. Les Caractères de Théophraste sont un prétexte pour lui d'écrire les siens. -->
+                    <imprint>
+                        <publisher>Estienne Michallet</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date type="publication" when="1688">M. DC. LXXXVIII</date>
+                    </imprint>
+                    <idno>FRBNF31452154</idno>
+                    Available from <ref target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item">Gallica</ref>
+                    <date type="digitalization" when="2010-10-04"/>
+                </bibl>
+                <bibl>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle. Sixième édition.</title>
+                    <author><name>Théophraste</name></author>
+                    <author><name>La Bruyère</name><forename>Jean de</forename></author> <!-- Même remarque -->
+                    <imprint>
+                        <publisher>Estienne Michallet</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date type="publication" when="1691">M. DC. XCI</date>
+                    </imprint>
+                    <idno>FRBNF30705987</idno>
+                    Available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k/f5.item">Gallica</ref>
+                    <date type="digitalization" when="2018-08-05"/>
+                </bibl>
+            </sourceDesc>
+            <encodingDesc>
+                <editorialDecl>
+                    <interpretation>
+                        <p>Il a été choisi de mettre les préface dans le body car elles ont été interprêtées comme partie intégrante du texte.</p>
+                    </interpretation>
+                </editorialDecl>
+            </encodingDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+        </front>
+        <body> <!-- tout coder dans body -->
+            <div1><!-- Téophraste -->
+                <div2 type="preface">
+                    <head>Discours sur Théophraste</head>
+                    <p></p>
+                </div2>
+                <div2 type="preface">
+                    <head>Les caractères de Théophraste. Traduits du grec.</head>
+                    <p></p>
+                </div2>
+                <div2><!-- Table des matières --></div2> 
+                <div2> <!-- Texte des Caractères de Théophraste -->
+                    <div3 type="chapter" n="01">
+                        <head>De la dissimulation.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="02">
+                        <head>De la flatterie.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="03">
+                        <head>De l'Impertinent, ou du diſeur de rien.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="04">
+                        <head>De la Ruſticité.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="05">
+                        <head>De Complaiſant.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="06">
+                        <head>De l'image d'un Coquin.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="07">
+                        <head>Du grand Parleur.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="08">
+                        <head>Du debit des nouvelles.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="09">
+                        <head>De l'Effronterie causée par l'avarice.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="10">
+                        <head>De l'Epargne ſordide.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="11">
+                        <head>De l'Impudent ou de celuy qui ne rougit de rien.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="12">
+                        <head>Du Contre-temps.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="13">
+                        <head>De l'Air empreßé.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="14">
+                        <head>De la Stupidité.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="15">
+                        <head>De la Brutalité.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="16">
+                        <head>De la ſuperſtition.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="17">
+                        <head>De l'Eſprit chagrin.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="18">
+                        <head>De la Déſiance.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="19">
+                        <head>D'un Vilain homme.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="20">
+                        <head>D'un homme Incommode.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="21">
+                        <head>De la ſotte vanité.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="22">
+                        <head>De l'Avarice.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="23">
+                        <head>De l'Oſtentation.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="24">
+                        <head>De l'Oſtentation.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="25">
+                        <head>De l'Orgüeil.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="26">
+                        <head>De la Peur ou du defaut de courage.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="27">
+                        <head>De Grands d'une Republique.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="28">
+                        <head>D'une tardive Inſtruction.</head>
+                        <p></p>
+                    </div3>
+                    <div3 type="chapter" n="29">
+                        <head>De la Médiſance.</head>
+                        <p></p>
+                    </div3>
+                </div2>
+            </div1>
+            <div1> <!-- La Bruyère -->
+                <div2 type="preface">
+                    <head>Les Caractères ou les moeurs de ce siècle.</head>
+                </div2><!--faux titre-->
+                <div2>
+                    <head>Les Carctères ou les moeurs de ce siècle.</head>
+                </div2> 
+                <div2><!-- Table des matières --></div2>
+                <div2> <!-- Texte des Caractères de La Bruyère -->
+                    <div3 type="chapter" n="01">
+                        <head>Des Ouvrages de l'Eſprit.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="02">
+                        <head>Du Merite Perſonnel.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="03">
+                        <head>Des Femmes.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="04">
+                        <head>Du Coeur.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="05">
+                        <head>De la Société & de la Converſation.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="06">
+                        <head>Des Biens de fortune.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="07">
+                        <head>De la Ville.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="08">
+                        <head>De la Cour.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="09">
+                        <head>Des Grands.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="10">
+                        <head>Du Souverain.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="11">
+                        <head>De l'Homme.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="12">
+                        <head>Des Jugemens.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="13">
+                        <head>De la Mode.</head>
+                        <div4 type="remark">
+                            <p>¶ L'on croit que la devotion de la Cour inſpirera enfin la reſidence.</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>¶ C'eſt une choſe délicate à un Prince Religieux de reformer la Cour & la rendre pieuſe : inſtruit juſque où le Courtiſan veut luy plaire , & aux dépens de quoy il feroit ſa fortune, il le ménage avec prudence, il tolere, il diſſimule de peur de le jetter dans l'hypocriſie ou le ſacrilege ; il attend plus de Dieu & du temps, que de ſon zele & de ſon induſtrie.</p>
+                        </div4>
+                        <div4 type="ab"> <!-- Numérotation du cahier -->
+                            <p>Ovj</p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="14">
+                        <head>De quelques Uſages.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="15">
+                        <head>De la Chaire.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>
+                    <div3 type="chapter" n="16">
+                        <head>Des Eſprits forts.</head>
+                        <div4 type="remark">
+                            <p></p>
+                        </div4>
+                    </div3>   
+                </div2>
+            </div1>
+        </body>
+        <back>
+            <div1>
+                <head>Extrait du privilège du roi</head>
+                <p></p>
+            </div1>
+        </back>
+    </text>
+</TEI>
