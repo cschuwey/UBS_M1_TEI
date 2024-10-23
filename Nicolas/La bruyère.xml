@@ -33,10 +33,90 @@
             </sourceDesc>
         </fileDesc>
 </teiHeader>
- <text>
-     <body>
-         <div>      
-         </div>
-     </body>
- </text>
-    </TEI>
+
+
+<text>
+
+        <body>
+            <div1>
+                <head>Discours sur Théophraste</head>
+                <!--Discours de Théophraste-->
+                <p> </p>
+
+                <div2>
+                    <head>Les caractères de Théophraste. Traduits du Grec.</head>
+                    <!--Préface : Discours sur Théophraste-->
+                    <p/>
+                </div2>
+                <div2>
+                    <head>Sommaire</head>
+                    <!--Les caractères de théophraste-->
+                    <p/>
+                </div2>
+
+                <div2>
+                    <head>Les caractères</head>
+                    <!--Sommaire-->
+                    <p/>
+                    <div3>
+                        <head>De la Dissimulation</head>
+                        <p/>
+                    </div3>
+                </div2>
+
+            </div1>
+
+            <div1>
+                <head>Les cractères ou les moeurs de ce siècle.</head>
+                <!--Discours de Théophraste-->
+                <p> </p>
+
+                <div2>
+                    <head>Les cractères ou les moeurs de ce siècle.</head>
+                    <!--Préface-->
+                    <p/>
+                </div2>
+                <div2>
+                    <head>Sommaire</head>
+
+                    <p/>
+                </div2>
+
+                <div2>
+                    <head>Les caractères</head>
+
+                    <p/>
+                    <div3 type="chapter">
+                        <head>De la ville</head>
+                        <p/>
+                        <div4 type="remark">
+                          <p n="1">L'utile et la louable pratique de perdre en frais
+                          de noces le tiers de la dot qu'une femme apporte ! de
+                          commencer par s'appauvrir de concert par l'amas et l'en-
+                          tassement de choses superflues, et de prendre déjà sur
+                          son fonds de quoi payer Gaultier, les meubles et la toi-
+                          lette !
+                            
+                          </p>
+                            <p n="2">Pénible coutume,asservissement incommode! se 
+                            chercher incessamment les unes et les autres avec l'impa-
+                            tience de ne point se rencontrer; ne se rencontrer que pour 
+                            se dire des riens, que pour s'apprendre réciproquement 
+                            des choses dont on est également instruite, et dont il 
+                            importe peu que l'on soit instruite; n'entrer dans une 
+                            chambre précisément que pour en sortir; ne sortir de 
+                            chez soi l'après-dînée que pour y rentrer le soir, fort satis-
+                            faite d'avoir vu en cinq petites heures trois suisses, une 
+                            femme que l'on connoît à peine, et une autre que l'on 
+                            n'aime guère ! Qui considéroit bien le prix du temps, 
+                            et combien sa perte est irréparable, pleuroient amèrement 
+                            sur de si grandes misères. 
+                            </p>
+                        </div4>
+                    </div3>
+                </div2>
+
+            </div1>
+        </body>
+    </text>
+</TEI>
