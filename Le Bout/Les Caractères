@@ -22,11 +22,12 @@
                     <author>Théophraste</author>
                     <editor role="translator"><forename>Jean</forename> de <name>La Bruyère</name></editor>
                     <editor> E. Michallet (Paris)</editor>
-                    <date type="publication">1688</date>
+                    <date type="publication" when="1688">1688</date>
                     <date type="digitalisation" when="2010-10-04">04/10/2010</date>
                     <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385</ref>
                     <idno>Bibliothèque nationale de France, département Réserve des livres rares, RES-R-2056 </idno>
                 </bibl>
+                <!-- <idno/> = ref / numéro d'identificatioin -->
                 <bibl>
                     <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
                     <author><forename>Jean</forename> de <name>La Bruyère</name></author>
@@ -45,9 +46,64 @@
             <langUsage><language ident="fr">Français</language></langUsage>
         </profileDesc>
     </teiHeader>
+    <!-- Discour sur Théophraste
+                1a préface
+                sommaire
+                chapitre
+                    remarques
+                        n paragraphes
+                        notes dans la marge, lettres en bas de pages (=les cahiers utilisés), pieds de mouche (permet de mettre un paragraphe dans un paragraphe))
+                les caractères de La Bruyère
+                2ème préface
+                2e sommaire
+                    ...
+                 -->
     <text>
+        <front>
+            <div1><!-- Théophraste -->
+                <head>Discours sur Théophraste</head>
+                <div2><!-- préface Théophraste --></div2>
+            </div1>
+            <div1><!-- La Bruyère -->
+                <head>Les Caractères ou les Moeurs de ce siècle</head>
+                <div2><!-- préface La Bruyère --></div2>
+            </div1>
+        </front>
         <body>
-            <p></p>
+            <div1><!-- Les Caractères de Théophraste -->
+                <head>Les Caractères de Théophraste traduits du grec</head>
+                <div2><!-- lien vers la préface de Théophraste qui est dans le <front> --></div2>
+                <div2><!-- lien vers le sommaire de Théophraste qui est dans le <back> --></div2>
+                <div2><head><!-- chapitre --></head>
+                </div2>
+            </div1>
+            <div1><!-- Les Caractères de La Bruyère -->
+                <head>Les Caractères ou les Moeurs de ce siècle</head>
+                <div2><!-- lien vers la préface de Théophraste qui est dans le <front>--></div2>
+                <div2><!-- lien vers le sommaire de La Bruyère qui est dans le <back> --></div2>
+                <div2 type="chapter" n="1">
+                    <head><!-- chapitre --></head>
+                    <p><!-- texte de La Bruyère --></p>
+                    <div3 type="remark"><p><!-- la remarque --></p>
+                        <div4 type="remark"><p><!-- la sous remarque --></p></div4>
+                    </div3>
+                </div2>
+                <div2 type="chapter">
+                    <head>De quelques usages</head>
+                    <p></p>
+                    <div3 type="remark">
+                        <p>Il ſuſſit de n'eſtre point né dans une ville, mais ſous une chaumiere répandüe dans la campagne, ou ſous une ruine qui trempe dans un marecage &amp; qu'on appelle Château, pour eſtre crû noble ſur parole.</p>
+                    </div3>
+                    <div3 type="remark"><p>Le beſoin d’argent a reconcilié la nobleſſs avec la roture, &amp; a fait évanoüir la preuve des quatre quartiers.</p></div3>
+                </div2>
+            </div1>
         </body>
+        <back>
+            <div1><!-- Sommaire Théophraste --></div1>
+            <div1><!-- Sommaire La Bruyère --></div1>
+            <div1><!-- le privilège du roi -->
+                <head>Extrait du privilège du roi</head>
+            </div1>
+        </back>
     </text>
 </TEI>
