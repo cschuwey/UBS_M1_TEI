@@ -74,7 +74,9 @@
                 <head>Les Caractères de Théophraste traduits du grec</head>
                 <div2><!-- lien vers la préface de Théophraste qui est dans le <front> --></div2>
                 <div2><!-- lien vers le sommaire de Théophraste qui est dans le <back> --></div2>
-                <div2><head><!-- chapitre --></head>
+                <div2 type="chapter" n="1">
+                    <head><!-- nom du chapitre --></head>
+                    <p><!-- traduction de Théophraste --></p>
                 </div2>
             </div1>
             <div1><!-- Les Caractères de La Bruyère -->
@@ -82,7 +84,7 @@
                 <div2><!-- lien vers la préface de Théophraste qui est dans le <front>--></div2>
                 <div2><!-- lien vers le sommaire de La Bruyère qui est dans le <back> --></div2>
                 <div2 type="chapter" n="1">
-                    <head><!-- chapitre --></head>
+                    <head><!-- nom du chapitre --></head>
                     <p><!-- texte de La Bruyère --></p>
                     <div3 type="remark"><p><!-- la remarque --></p>
                         <div4 type="remark"><p><!-- la sous remarque --></p></div4>
