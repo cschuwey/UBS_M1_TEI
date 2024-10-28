@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     
-    <TeiHeader>   
+    <TeiHeader>
+
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères</title>
@@ -15,31 +15,77 @@
                 </publisher>
                 <authority>BEL</authority><pubPlace>UBS</pubPlace>
                 <date when="2024-10-16">16 octobre 2024</date>
+                <date when="2024-10-28">28 octobre 2024</date>
             </publicationStmt>
-            
+
+            <!--Mauvaise compréhension de la consigne du devoir pour le TD3 ; j'avais pris des ouvrages publiés entre 1688 et 1694 soit les éditions de 1689 et 1692. J'ai donc modifié le code et repris les versions de 1688 et 1694-->
             <SourceDesc>
                 <bibl>
                 <author>
-                   Jean <name>de La Bruyère</name>
+                    <name>Théophraste</name>
                 </author>
-                <title>Les caractères de Théophraste traduits du grec : avec Les caractères ou Les moeurs de ce siècle</title>
+                <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
                 <publisher>Etienne<name>Michallet</name></publisher>
-                <idno>NUMM-57564</idno>
-                    Available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k575649?rk=21459;2"/>
-                <date when="1689">M.DC.LXXXIX.</date>
+                <idno>NUMM-105077</idno>
+                    Available from <ref target="https://gallica.bnf.fr/ark:/12148/btv1b86070385"/>
+                <date when="1688">M.DC.LXXXVIII.</date>
                 </bibl>
-                
                 <bibl>
                 <author>
+                <!--CF. traitement du prénom et du nom. Est-ce pertinent de faire la distinction ? Quid des auteurs étrangers et des usages différents des noms ?-->
                    Jean <name>de La Bruyère</name>
                 </author>
-                <title>Les caractères de Théophraste traduits du grec : avec Les caractères ou Les moeurs de ce siècle</title>
-                <publisher>Etienne<name>Michallet</name></publisher>
-                <idno>NUMM-57575</idno>
-                    Available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k57575z"/>
-                <date when="1692">M.DC.XCII.</date>
+                <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
+                <publisher>Estienne<name>Michallet</name></publisher>
+                <idno>NUMM-57577</idno>
+                    Available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k57577n"/>
+                <date when="1694">M.DC.XCIV.</date>
                 </bibl>
              </SourceDesc>
         </fileDesc>
+
+        <!--Les balises "profileDesc" ont été remplies à la suite d'une relecture des cours post-contrôle et à l'aide du site de référence-->
+        <profileDesc>
+        <langUsage>
+        <language ident="fr">Français</language>
+        </langUsage>
+        </profileDesc>
         
     </TeiHeader>
+
+    <text>
+    <front> <!--Structure réalisée en essayant de suivre la proposition d'Adeline présentée lors du dernier TD-->
+        <div1><!--Page de titre-->Les caracteres de Theophraste traduits du grec. avec Les caracteres ou les moeurs de ce siecle.
+        
+        <div2><!--Préface du discours de Théophraste par La Bruyère-->
+        <div3><!--Préface de Théophraste-->
+        <div4><!--Sommaire--></div4>
+        </div3>
+        </div2>
+
+        <div2><!--Page de titre-->Les caractères ou les moeurs de ce siècle
+        <div3><!--Préface de La Bruyère--> 
+        <div4><!--Sommaire--></div4>
+        </div3>
+        </div2>
+
+        </div1>
+    </front>
+    <body>
+        <div1><!--Les caractères de Théophraste--></div1>
+
+        <div1><!--Les caractères de La Bruyère-->
+            <div2 type="chapter" n="1">
+            <head>Des Ouvrages de l'Esprit</head>
+            <div3>
+                <p type="remark" n="1">TOut e&s-long;t dit, &amp; l'on vient trop tard depuis plus de &s-long;ept mille ans qu'il y a des hom-mes, &amp; qui pen&s-long;ent. Sur ce qui concerne les moeurs le plus beau &amp; le meilleur e&s-long;t enlevé; l'on ne fait que glaner aprés les Anciens &amp; les habiles d'entre les Modernes.</p>
+                <p type="remark" n="2">&para;Il faut chercher &s-long;eulement à pen&s-long;er &amp; à parler ju&s-long;te, &s-long;ans vou-loir amener les autres à no&s-long;tre goût &amp; à nos &s-long;entiemens ; c'e&s-long;t une trop grande entrepri&s-long;e.</p>
+            </div3>
+            </div2>
+        </div1>
+
+    </body>
+    <back>
+        <p><!--Privilège royal--></p>
+    </back>
+    </text>
