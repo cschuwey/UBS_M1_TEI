@@ -44,14 +44,14 @@
                 </listBibl>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc> 
-            <projectDesc> 
+        <encodingDesc>
+            <projectDesc>
                 <p>Transcription des Caractères de La Bruyère en document XML TEI par C.LE GUILLOU à partir des éditions de 1688 et de 1691.</p>
             </projectDesc>
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="fr">Français</language> 
+                <language ident="fr">Français</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -64,10 +64,46 @@
     </teiHeader>
     <text>
         <front>
-            
+          <!-- possibilité d'encoder toutes les préfaces ici -->  
         </front>
         <body>
-          <p></p>  
-        </body>
+           
+            <div1><!-- compte comme préface de théophraste -->
+                <head>LES CARACTERES DE THEOPHRASTE TRADUITS DU GREC.</head>
+                <div2>
+                    <head>Discours sur Théophraste</head>
+                </div2>
+                <div2>
+                    <head>Les caractères de Theophraste</head>
+                  <div3 type="preface">
+                    <!-- préface -->
+                  </div3>
+                  <div3>
+                    <!-- les caractères de Théophraste -->
+                  </div3>
+                </div2>  
+            </div1>
+   
+            <div1>
+                <head>LES CARACTERES OU LES MOEURS DE CE SIECLE</head>
+                <div2 type="preface">
+                    <!-- préface -->
+                </div2>
+                <div2>
+                    <div3 type="chapter" n="10">
+                        <head>Du Souverain</head>
+                        <div4 type="remark" n="1">
+                            <p> ¶ Le caractère des François demande du ſerieux dans le Souverain.</p>  
+                        </div4>
+                        <div4 type="remark" n="2">
+                            <p> ¶ L'un des malheurs du Prince eſt d'eſtre ſouvent trop plein de ſon ſecret, par le peril qu'il y a à le répandre ; ſon bonheur eſt de rencontrer une perſonne ſeure qui l'en décharge.</p>
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+         </body>
+        <back>
+            <head>Extrait du privilège du roi</head>
+        </back>
     </text>
 </TEI>
