@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <fileDesc>
+      <fileDesc>
             <titleStmt>
-                <title></title>
+                <title>Extrait de Manlius, par Catherine Desjardins</title>
+                <author>Marie-Catherine <name>Desjardins</name></author>
             </titleStmt>
-            <publicationStmt><p/></publicationStmt>
-            <sourceDesc><p/></sourceDesc>
+            
+            <publicationStmt>
+                <publisher>
+                    <name>Margot Bailly</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                    <date when="2024-10-14">14 octobe 2024</date> <!-- on peut en mettre plusieurs, mais de manière général, c'est la date de publication qui compte -->
+                    <authority>Margot bailly</authority> <!-- qui en assume l'autorité -->
+                </publisher>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title>Manlius</title>
+                    <author>Marie-Catherine <name>Desjardins</name></author>
+                    <publisher>Barbin</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date>1662</date>
+                    <idno>NUMM-57511 <!-- toute information qui permet de retrouver la cote du document > quand on enrefistre depuis un numérique alors, on donne la localisation de ce document-là  --></idno>
+                    <ref target="https://catalogue.bnf.fr/ark:/12148/cb307059813">Catalogue de la BNF</ref> 
+                </bibl>
+                <!-- ou <biblStruct> -->
+                <p>Extrait de Manlius : tragi-comédie par Mademoiselle Desjardins publié en 1662 à Paris, page 22</p>
+            </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Retranscrire un extrait de Manlius de Marie-Catherine Desjardins pour une étude sur la TEI</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Extrait de la scène 5 de Manlius</p>
+            </samplingDecl>
+            <editorialDecl>
+                <p>
+                Encodage avancé, avec deux versions de langage, originale et modernisée, utilisation des caractères originaux et détail des éléments de fond du document
+                </p>
+            </editorialDecl>
+        </encodingDesc>
     </teiHeader>
     
    
