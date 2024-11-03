@@ -70,3 +70,38 @@
         </profileDesc>
         
     </teiHeader>
+
+<TEI>
+    <text>
+        <front> 
+        </front>
+        <body>
+           
+            <div1> <!-- Préface de Théophraste -->
+                <head>Les Caractères de Théophraste traduits du grec.</head>
+                <div2>
+                    <head>Discours sur Théophraste</head>
+                </div2>
+                <div3>
+                    <head>Les Caractères de Théophraste</head>
+                  <div3 type="preface">
+                  </div3> 
+            </div1>
+   
+            <div1>
+                <head>Les Caractères ou les moeurs de ce siècle</head>
+                <div2 type="preface">
+                    <div3 type="chapter" n="10">
+                        <head>Du Souverain</head>
+                        <div4 type="remark" n="1">
+                            <p> Le caractère des François demande du ſerieux dans le Souverain.</p>  
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+         </body>
+        <back>
+            <head>Extrait du privilège du roi</head>
+        </back>
+    </text>
+</TEI>
