@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,60 +9,136 @@
                     <name>de La Bruyère</name>
                 </author>
             </titleStmt>
+
             <publicationStmt>
                 <publisher>
                     <name>Lamia SEBBAH</name>
-                    <affiliation>UBS</affiliation>
-                    <rolename>Etudiante</rolename>
+                    <affiliation>Etudiante, UBS</affiliation>
                     <date when="2024"/>
                 </publisher>
             </publicationStmt>
+
             <sourceDesc>
                 <!-- Première édition de l'oeuvre -->
-                <biblFull>
-                    <title>Les Caractères de Théophraste traduits du grec.</title>
-                    <subtitle>Les caractères ou les moeurs de ce siècle.</subtitle>
+                <bibl>
+                    <title type="main">Les Caractères de Théophraste traduits du grec.</title>
+                    <title type="subtitle">Les caractères ou les moeurs de ce siècle.</title>
                     <author>
                         <forename>Jean</forename>
                         <name>de La Bruyère</name>
                     </author>
                     <editor>Estienne Michallet</editor>
                     <pubPlace>Paris</pubPlace>
-                    <editionStmt>
-                        <edition n="1">Première édition</edition>
-                    </editionStmt>
+                    <edition n="1">Première édition</edition>
                     <date when="1688">M. DC. LXXXVIII.</date>
                     <idno>ark:/12148/btv1b86070385</idno>
-                    <Availability>
-                        <ref target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item#"
-                            >https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item#</ref>
-                    </Availability>
-                </biblFull>
+                    <availability>
+                        <p>
+                            <ref target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item#"
+                                >https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item#</ref></p>
+                    </availability>
+                </bibl>
                 <!-- Sixième édition de l'oeuvre -->
-                <biblFull>
-                    <title>Les Caractères de Théophraste traduits du grec :</title>
-                    <subtitle>Avec les caractères ou les moeurs de ce siècle.</subtitle>
+                <bibl>
+                    <title type="main">Les Caractères de Théophraste traduits du grec :</title>
+                    <title type="subtitle">Avec les caractères ou les moeurs de ce siècle.</title>
                     <author>
                         <forename>Jean</forename>
                         <name>de La Bruyère</name>
                     </author>
                     <editor>Estienne Michallet</editor>
                     <pubPlace>Paris</pubPlace>
-                    <editionStmt>
-                        <edition n="6">Sixième édition</edition>
-                    </editionStmt>
+                    <edition n="6">Sixième édition</edition>
                     <date when="1691">M. DC. XCI.</date>
                     <idno>ark:/12148/bpt6k8712342k</idno>
-                    <Availability>
-                        <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2"
-                            >https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2</ref>
-                    </Availability>
-                </biblFull>
+                    <availability>
+                        <p><ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2"
+                                >https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2</ref></p>
+                    </availability>
+                </bibl>
             </sourceDesc>
         </fileDesc>
-        <encodingdesc>
-            <projectDesc>projet numérique universitaire</projectDesc>
-            <editorialDecl/>
-        </encodingdesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>projet numérique universitaire</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>La graphie d'époque est conservé</p>
+            </editorialDecl>
+        </encodingDesc>
     </teiHeader>
+
+    <text>
+        <front>
+            <head>Les caractères de Théophraste traduits du grec. </head>
+            <div1 type="preface" n="1"><!-- préface de théophraste --></div1>
+
+            <div1 type="preface" n="2"><!-- préface de la bruyère --></div1>
+
+        </front>
+        <body>
+            <div1>
+                <!-- les caractères de Théophraste traduits du grec. -->
+                <div2><!-- discours --></div2>
+                <div2>
+                    <!-- sommaire --></div2>
+                <div2>
+                    <!-- caractères -->
+                    <div3 type="chapter">
+                        <!-- chapitre -->
+                        <p/>
+                    </div3>
+                </div2>
+            </div1>
+            <div1>
+                <!-- les caractères ou les moeurs de ce siècle. -->
+                <div2><!-- Avant propos de la bruyère --></div2>
+                <div2>
+                    <!-- sommaire -->
+                </div2>
+                <div2>
+                    <!-- caractères -->
+                    <div3 type="chapter">
+                        <fw type="header" place="top">ou les Moeurs de ce ſiecle</fw>
+                        <head>De la ville.</head>
+                        <pb n="229"/>
+                        <p>L'on ſe donne à Paris ſans ſe parler comme un rendez-vous general mais
+                            fort
+                            exact<!-- Graphie du "c" particulière, on la retrouve aussi dans le titre de page. Je ne l'ai pas trouvé dans les caractères unicode.
+                                Ce que j'ai trouvé pour l'encoder, c'est d'utiliser la balise <g> avec un attribut ref pour décrire le glyphe -->,
+                            tous les ſoirs au Cours ou aux Tuilleries, pour ſe regarder au viſage,
+                            &amp; <!-- encodage de l'esperluette : "&" --> ſe deſapprouver les uns
+                            les autres.</p>
+                        <p>L'on ne peut ſe paſſer de ce meſme monde que l'on n'aime point, &amp;
+                            dont l'on ſe mocque.</p>
+                        <div4 type="pilcrow">
+                            <!-- les pieds-de-mouches -->
+                            <p> ¶ <hi rend="italique">Narciſſe</hi><!-- nom en italique --> ſe leve
+                                le matin pour ſe coucher le ſoir, il a ſes heures de toilette comme
+                                une femme; il va tous les jours fort regulierement à la belle Meſſe
+                                aux Feüillans, ou aux Minimes; il eſt homme d'un bon commerce, &amp;
+                                l'on compte ſur luy au quartier de ** pour un tiers ou pour un
+                                cinquiéme à l'ombre ou au reverſis ; là il tient le fauteüil</p>
+                            <pb/>
+                            <fw type="header" place="top">Les Caractères</fw>
+                            <pb n="230"/>
+                            <p>quatre heures de ſuite chez <hi rend="italique">Aricie</hi>, où il
+                                riſque chaque ſoir cinq piſtolles d'or. Il lit exactement la gazette
+                                d'Hollande &amp; le Mercure Galant : il a lû <hi rend="italique"
+                                    >Bergerac</hi>✝<!--note dans la marge gauche, ancrage au caractère-->,
+                                    <hi rend="italique">Des Maretz</hi>
+                                *<!-- note dans la marge gauche, ancrage au caractère -->; <hi
+                                    rend="italique">Leſclache</hi>, les Hiſtoriettes de <hi
+                                    rend="italique">Rabbin</hi>, &amp; quelques recüils de Poëſies.
+                                Il e promene avec des femmes à la Plaine ou au Cours, &amp; il eſt
+                                d'une ponctualité religieuſe ſur les viſites. Il fera demain ce
+                                qu'il fait aujourd huy, &amp; il meurt ainſi aprés avoir veſcu.</p>
+
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+        <back><!-- extrait privilège du roi --></back>
+    </text>
 </TEI>
