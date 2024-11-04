@@ -7,7 +7,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name>Brocard </name>
+                    <name xml:id="NB">Brocard </name>
                     <roleName>Etudiante</roleName>
                     <affiliation>UBS</affiliation>
                 </publisher>
@@ -17,13 +17,12 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <author> Jean <name>De le Bruyère</name></author>
+                    <author> Jean <name xml:id="JB">De le Bruyère</name></author>
                     <author>Théophraste </author>
                     <title>Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
                         les moeurs de ce siècle </title>
-                    <publisher> E. Michallet </publisher> 
-                    <edition> Première Edition </edition>
-                    Available from <ref
+                    <publisher> E. Michallet </publisher>
+                    <edition> Première Edition </edition> Available from <ref
                         target="https://gallica.bnf.fr/ark:/12148/btv1b86070385"> BNF Gallica </ref>
                     <idno> IFN-8607038 </idno>
                     <date when="1688">M. DC. LXXXVIII.</date>
@@ -33,9 +32,8 @@
                     <author>Théophraste </author>
                     <title>Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
                         les moeurs de ce siècle </title>
-                    <publisher> E. Michallet (Paris)</publisher> 
-                    <edition> Quatrième Edition </edition>
-                    Available from <ref
+                    <publisher> E. Michallet (Paris)</publisher>
+                    <edition> Quatrième Edition </edition> Available from <ref
                         target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k"> BNF Gallica </ref>
                     <idno> NUMM-8712342 </idno>
                     <date when="1691">M. DC. XCI.</date>
@@ -98,29 +96,34 @@
                         <head>Des Femmes</head>
                         <p/>
                         <div4 type="remark">
-                            <p n="1">LEs hommes & les femmes conviennent rarement ſur le merite d’une
+                            <p>LEs hommes &amp; les femmes conviennent rarement ſur le merite d’une
                                 femme ; leurs inſereſts ſont trop differens : les femmes ne ſe
-                                plaiſent point les unes aux autres par les meſmes agréemens qu’elles
-                                plaiſent aux hommes ; mille manieres qui allument dans ceux-cy les
-                                grandes, paſſions forment entre elles l’averſion ou l’antipathie. </p>
-                            <p n="2">Il y a dans quelques femmes une grandeur artificielle, attachée au
-                                mouvement des yeux, à un air de teſte, aux façons de marcher, & qui
-                                ne va pas plus loin ; un eſprit ébloüiſſant qui impoſe, & que l’on
-                                n’eſtime que parce qu’il n’eſt pas approfondi. Il y a dans quelques
-                                autres une grandeur ſimple, naturelle, indépendante du geſte & de la
-                                démarche ; qui a ſa ſource dans le cœur, & qui eſt comme une fuite
-                                de leur haute naiſſance ; un merite paiſible, mais ſolide,
-                                accompagné de mille vertus qu’elles ne peuvent couvrir de toute leur
-                                modeſtie, qui échapent, & qui ſe montrent à ceux qui ont des yeux.
-                            </p>
+                                plaiſent point les unes aux autres par les meſmes <seg> agréemens
+                                        <note type="gloss" resp="#JB"> Permission émanant d'une
+                                        autorité</note></seg> qu’elles plaiſent aux hommes ; mille
+                                manieres qui allument dans ceux-cy les grandes, paſſions forment
+                                    <seg>entre elles l’averſion <note type="correction" resp="#NB">
+                                        entre elles l'horreur </note>
+                                </seg> ou l’antipathie. </p>
+
+                        </div4>
+                        <div4 type="remark">
+                            <p>Il y a dans quelques femmes une grandeur artificielle, attachée au
+                                mouvement des yeux, à un air de teſte, aux façons de marcher, &amp;
+                                qui ne va pas plus loin ; un eſprit ébloüiſſant qui impoſe, &amp;
+                                que l’on n’eſtime que parce qu’il n’eſt pas approfondi. Il y a dans
+                                quelques autres une grandeur ſimple, naturelle, indépendante du
+                                geſte &amp; de la démarche ; qui a ſa ſource dans le cœur, &amp; qui
+                                eſt comme une fuite de leur haute naiſſance ; un merite paiſible,
+                                mais <seg>ſolide<note type="variant" resp="#NB">solide</note>
+                                </seg>, accompagné de mille vertus qu’elles ne peuvent couvrir de
+                                toute leur modeſtie, qui échapent, &amp; qui ſe montrent à ceux qui
+                                ont des yeux. </p>
                         </div4>
                     </div3>
                 </div2>
 
             </div1>
-
-
-
         </body>
     </text>
 </TEI>
