@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> <!-- xmlns="" = espace de nom -> lien vers fichier local ou site qui donne les règles 
+                                                        -> ne peut pas être valide s'il n'y a pas d'espace de nom -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -36,7 +37,7 @@
                     <date type="digitalisation" when="2007-10-15">15/10/2007</date>
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575660</ref>
                     <idno>Bibliothèque nationale de France</idno>
-                    </bibl>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -73,7 +74,7 @@
             <div1><!-- Les Caractères de Théophraste -->
                 <head>Les Caractères de Théophraste traduits du grec</head>
                 <div2><!-- lien vers la préface de Théophraste qui est dans le <front> --></div2>
-                <div2><!-- lien vers le sommaire de Théophraste qui est dans le <back> --></div2>
+                <div2><!-- sommaire --></div2>
                 <div2 type="chapter" n="1">
                     <head><!-- nom du chapitre --></head>
                     <p><!-- traduction de Théophraste --></p>
@@ -82,7 +83,7 @@
             <div1><!-- Les Caractères de La Bruyère -->
                 <head>Les Caractères ou les Moeurs de ce siècle</head>
                 <div2><!-- lien vers la préface de Théophraste qui est dans le <front>--></div2>
-                <div2><!-- lien vers le sommaire de La Bruyère qui est dans le <back> --></div2>
+                <div2><!-- sommaire --></div2>
                 <div2 type="chapter" n="1">
                     <head><!-- nom du chapitre --></head>
                     <p><!-- texte de La Bruyère --></p>
@@ -92,20 +93,27 @@
                 </div2>
                 <div2 type="chapter">
                     <head>De quelques usages</head>
-                    <p></p>
+                    <p>Quelques autres ſe couchent roturiers, &amp; ſe levent <seg>nobles<note type ="gloss">Veterans</note></seg> :</p>
+                    <p>Combien de nobles dont le pere &amp; les aînez ſont roturiers?</p>
                     <div3 type="remark">
-                        <p>Il ſuſſit de n'eſtre point né dans une ville, mais ſous une chaumiere répandüe dans la campagne, ou ſous une ruine qui trempe dans un marecage &amp; qu'on appelle Château, pour eſtre crû noble ſur parole.</p>
-                    </div3>
-                    <div3 type="remark"><p>Le beſoin d’argent a reconcilié la nobleſſs avec la roture, &amp; a fait évanoüir la preuve des quatre quartiers.</p></div3>
+                        <p>Il ſuſſit de n'eſtre point né dans une ville, mais ſous une chaumiere répandüe dans la campagne, ou ſous une ruine qui trempe dans un marecage &amp; qu'on appelle Château, pour eſtre crû noble ſur parole.</p></div3>
+                    <div3 type="remark">
+                        <p>Le beſoin d’argent a reconcilié la nobleſſs avec la <seg>roture<note type="gloss">État d'une personne qui n'est pas noble; condition de roturier.</note></seg>, &amp; a fait évanoüir la preuve des quatre quartiers.</p></div3>
                 </div2>
             </div1>
         </body>
         <back>
-            <div1><!-- Sommaire Théophraste --></div1>
-            <div1><!-- Sommaire La Bruyère --></div1>
             <div1><!-- le privilège du roi -->
                 <head>Extrait du privilège du roi</head>
             </div1>
         </back>
     </text>
 </TEI>
+
+<!-- exam = document à encoder en cours (exam de 2h, à la dernère séance) et non un dossier finalement, avec petit exercice de xslt -->
+
+<!-- Pour associer une note à un morceau du texte : <seg> ou <div> : 
+        <seg>exemple<note>Note sur l'exemple</note></seg> 
+    Autre possiblité mais moins conseillé :
+        <seg corresp="#n1">exemple<seg><note xmlid="n1">Note sur l'exemple<note>
+-->
