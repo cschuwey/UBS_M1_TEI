@@ -4,21 +4,24 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères de Théophraste traduits du grec.</title>
-                <author>
+                <author xml:id="LB">
                     <forename>Jean</forename>
                     <name>de La Bruyère</name>
                 </author>
+
             </titleStmt>
 
             <publicationStmt>
                 <publisher>
-                    <name>Lamia SEBBAH</name>
+                    <name xml:id="LS">Lamia SEBBAH</name>
                     <affiliation>Etudiante, UBS</affiliation>
                     <date when="2024"/>
                 </publisher>
+
             </publicationStmt>
 
             <sourceDesc>
+
                 <!-- Première édition de l'oeuvre -->
                 <bibl>
                     <title type="main">Les Caractères de Théophraste traduits du grec.</title>
@@ -66,6 +69,7 @@
                 <p>La graphie d'époque est conservé</p>
             </editorialDecl>
         </encodingDesc>
+
     </teiHeader>
 
     <text>
@@ -102,37 +106,52 @@
                         <fw type="header" place="top">ou les Moeurs de ce ſiecle</fw>
                         <head>De la ville.</head>
                         <pb n="229"/>
-                        <p>L'on ſe donne à Paris ſans ſe parler comme un rendez-vous general mais
-                            fort
-                            exact<!-- Graphie du "c" particulière, on la retrouve aussi dans le titre de page. Je ne l'ai pas trouvé dans les caractères unicode.
+                        <div4 type="remark">
+                            <p>L'on ſe donne à Paris ſans ſe parler comme un rendez-vous general
+                                mais fort
+                                exact<!-- Graphie du "c" particulière, on la retrouve aussi dans le titre de page. Je ne l'ai pas trouvé dans les caractères unicode.
                                 Ce que j'ai trouvé pour l'encoder, c'est d'utiliser la balise <g> avec un attribut ref pour décrire le glyphe -->,
-                            tous les ſoirs au Cours ou aux Tuilleries, pour ſe regarder au viſage,
-                            &amp; <!-- encodage de l'esperluette : "&" --> ſe deſapprouver les uns
-                            les autres.</p>
-                        <p>L'on ne peut ſe paſſer de ce meſme monde que l'on n'aime point, &amp;
-                            dont l'on ſe mocque.</p>
+                                tous les ſoirs au Cours ou aux Tuilleries, pour ſe regarder au
+                                viſage, &amp; <!-- encodage de l'esperluette : "&" --> ſe
+                                deſapprouver les uns les autres.</p>
+                            <p>L'on ne peut ſe paſſer de ce meſme monde que l'on n'aime point, &amp;
+                                dont l'on ſe mocque.</p>
+                        </div4>
                         <div4 type="pilcrow">
                             <!-- les pieds-de-mouches -->
                             <p> ¶ <hi rend="italique">Narciſſe</hi><!-- nom en italique --> ſe leve
                                 le matin pour ſe coucher le ſoir, il a ſes heures de toilette comme
-                                une femme; il va tous les jours fort regulierement à la belle Meſſe
-                                aux Feüillans, ou aux Minimes; il eſt homme d'un bon commerce, &amp;
-                                l'on compte ſur luy au quartier de ** pour un tiers ou pour un
-                                cinquiéme à l'ombre ou au reverſis ; là il tient le fauteüil</p>
+                                une femme; il va tous les jours fort regulierement à la belle
+                                        <seg>Meſſe<note type="gloss" resp="#LS">Dans le langage de
+                                        l'Église, le sacrifice du corps et du sang de Jésus-Christ,
+                                        suivant le rit prescrit. Le sacrifice de la messe. Célébrer
+                                        la messe. Dire des messes pour quelqu'un, pour le repos de
+                                        l'âme de quelqu'un. </note></seg> aux Feüillans, ou aux
+                                Minimes; il eſt homme d'un bon commerce, &amp; l'on compte ſur luy
+                                au quartier de ** pour un tiers ou pour un cinquiéme à l'ombre ou au
+                                reverſis ; là il tient le fauteüil</p>
                             <pb/>
                             <fw type="header" place="top">Les Caractères</fw>
                             <pb n="230"/>
                             <p>quatre heures de ſuite chez <hi rend="italique">Aricie</hi>, où il
-                                riſque chaque ſoir cinq piſtolles d'or. Il lit exactement la gazette
-                                d'Hollande &amp; le Mercure Galant : il a lû <hi rend="italique"
-                                    >Bergerac</hi>✝<!--note dans la marge gauche, ancrage au caractère-->,
-                                    <hi rend="italique">Des Maretz</hi>
+                                riſque chaque ſoir cinq <seg>piſtolles d'or<note type="gloss"
+                                        xml:id="LS">La pistole est une appellation qui servait, en
+                                        français, à qualifier notamment certaines pièces d'or émises
+                                        d'abord en Italie et en Espagne à partir du XVIe siècle.
+                                    </note></seg>. Il lit exactement la gazette d'Hollande &amp; le
+                                Mercure Galant : il a lû <seg><hi rend="italique">Bergerac</hi><note
+                                        type="gloss" resp="#LB">S.
+                                Sorlin</note></seg>✝<!--note dans la marge gauche, ancrage au caractère-->,
+                                        <seg><hi rend="italique">Des Maretz</hi><note type="gloss"
+                                        resp="#LB">Cyrano</note></seg>
                                 *<!-- note dans la marge gauche, ancrage au caractère -->; <hi
                                     rend="italique">Leſclache</hi>, les Hiſtoriettes de <hi
                                     rend="italique">Rabbin</hi>, &amp; quelques recüils de Poëſies.
                                 Il e promene avec des femmes à la Plaine ou au Cours, &amp; il eſt
                                 d'une ponctualité religieuſe ſur les viſites. Il fera demain ce
-                                qu'il fait aujourd huy, &amp; il meurt ainſi aprés avoir veſcu.</p>
+                                qu'il fait <seg>aujourd huy<note type="gloss" resp="#LS">L'écriture
+                                        modernisée ajoute une apostrophe et le y devient un
+                                        i.</note></seg>, &amp; il meurt ainſi aprés avoir veſcu.</p>
 
                         </div4>
                     </div3>
