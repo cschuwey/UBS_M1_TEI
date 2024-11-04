@@ -7,13 +7,13 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name>Tworek Eline</name>
+                    <name xml:id="ET">Tworek Eline</name>
                     <roleName>Etudiante</roleName>
                     <affiliation>UBS</affiliation>
                 </publisher>
-                    <authority>Tworek</authority>
-                    <address><addrLine>Université Bretagne Sud</addrLine></address>
-                    <date when="2024-10-16">16 octobre 2024</date>
+                <authority>Tworek</authority>
+                <address><addrLine>Université Bretagne Sud</addrLine></address>
+                <date when="2024-10-16">16 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -29,8 +29,9 @@
                 <bibl>
                     <author>Jean <name>De La Bruyère</name></author>
                     <author>Théophraste</author>
-                    <title>Les caractères de Theophraste, traduits du grec, avec Les Caractères ou les moeurs de ce siècle</title>
-                    <publisher>Estienne Michallet</publisher> 
+                    <title>Les caractères de Theophraste, traduits du grec, avec Les Caractères ou
+                        les moeurs de ce siècle</title>
+                    <publisher>Estienne Michallet</publisher>
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57579b</ref>
                     <date when="1696">M. DC. XCVI.</date>
                 </bibl>
@@ -39,7 +40,9 @@
         <encodingDesc>
             <projectDesc>
                 <p>Texte encodé pour un cours de TEI</p>
-                <p>On se base sur l'édition de 1688 pour la mettre en relation avec une nouvelle édition, celle des Caractères de la Bruyère, l'édition classique édité en 1696</p>
+                <p>On se base sur l'édition de 1688 pour la mettre en relation avec une nouvelle
+                    édition, celle des Caractères de la Bruyère, l'édition classique édité en
+                    1696</p>
             </projectDesc>
             <samplingDecl>
                 <p>Page de titre</p>
@@ -53,56 +56,55 @@
     </teiHeader>
     <text>
         <front>
-            <p></p>
+            <p/>
         </front>
         <body>
-            <div1><!--Théophraste-->
+            <div1>
+                <!--Théophraste-->
                 <div2><!--Discours--></div2>
                 <div2><!--Préface de Théophraste--></div2>
                 <div2><!--Sommaire--></div2>
-                <div2><!--Carcatères de Théophraste-->
+                <div2>
+                    <!--Carcatères de Théophraste-->
                     <div3 type="chapter">
-                        <p></p>
+                        <p/>
                     </div3>
                     <div3 type="chapter">
-                        <p></p>
+                        <p/>
                     </div3>
-                 </div2>
+                </div2>
             </div1>
-            <div1><!--La Bruyère-->
+            <div1>
+                <!--La Bruyère-->
                 <div2><!--faux titre--></div2>
                 <div2><!--Préface de LB--></div2>
                 <div2><!--Somaire--></div2>
-                <div2><!--Texte de LB-->
+                <div2>
+                    <!--Texte de LB-->
                     <div3 type="chapter">
-                    <head>Des Jugements</head>
+                        <head>Des Jugements</head>
+                        <p>Rien ne <seg>reſſemble<note type="context" resp="#ET">le s s'écrivait ſ, ce qui correspond à un s long.</note></seg> mieux à la vive perſuaſion que les <seg>mauvais
+                            entêtement<note type="gloss" resp="#ET">Fait de persister dans un comportement volontaire sans tenir compte des circonstances</note></seg> : de là les partis, les cabales, le he- reſies. </p>
+                        <!--Je ne l'ai pas mis dans une div remarque car il n'est pas marqué comme remarque avec le signe dans le texte original-->
                         <div4 type="remark">
-                            <p>Rien ne reſſemble mieux
-                                à la vive perſuaſion que
-                                les mauvais entêtement : de là
-                                les partis, les cabales, le he-
-                                reſies. </p>
-                            <p>L'on ne penſe pas toû-
-                                jours conſtamment d'un meſ-
-                                me fuſet : l'entêtement &amp; le
-                                dégoût ſe ſuivent de prés.</p>
-                            <p>Les grandes choſes étonnent
-                                &amp; les petites rebutent ; nous
-                                nous apprivoiſons avec les unes
-                                &amp; les autres par l'habitude.</p>
-                            <p>Il n'y a rien de plus bas &amp;
-                                qui convienne mieux au pleu-
-                                ple, que de parler en des ter-
-                                mes magnifiques de ceux-meſ-
-                                me dont l'on penſoit tres-mo-
-                                deſtement avant leur élevation</p>
+                            <p>L'on ne penſe pas toûjours conſtamment d'un meſme fuſet :
+                                l'entêtement &amp; le <seg>dégoût <note type="gloss" resp="#ET">Aversion (pour qqch., qqn).</note></seg> ſe ſuivent de prés.</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>Les grandes choſes étonnent &amp; les petites rebuten ; nous nous
+                                apprivoiſons avec les unes &amp; les autres par l'habitude.</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>Il n'y a rien de plus bas &amp; qui convienne mieux au pleuple, que
+                                de parler en des termes magnifiques de ceux-meſme dont l'on penſoit
+                                tres-modeſtement avant leur élevation</p>
+                            <!--@place indique place qu'occupe la note dans le document original et non dans le document créé par la suite--> 
                             <!-- Pour les esperluettes, comme oxygen ne les valide pas, en cherchant sur Internet, j'ai trouvé que la solution était de coder &amp;-->
                         </div4>
                     </div3>
                 </div2>
             </div1>
         </body>
-        <back>
-        </back>
+        <back> </back>
     </text>
 </TEI>
