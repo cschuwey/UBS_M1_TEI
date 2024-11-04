@@ -24,27 +24,27 @@
             
             <sourceDesc>
                 <editionStmt>
-                
-                <bibl>
-                    <author> Jean <name>de La Bruyère</name> </author>
-                    <date> 1688 </date>
-                    <title> Les Caractères </title>
-                    <publisher> Estienne Michallet </publisher>
-                    <pubPlace> Paris </pubPlace>
-                    <idno> RES-R-2056 </idno>
-                    <ref> http://catalogue.bnf.fr/ark:/12148/cb120117553 </ref>
-                </bibl>
-                
+                    
+                    <bibl>
+                        <author> Jean <name>de La Bruyère</name> </author>
+                        <date> 1688 </date>
+                        <title> Les Caractères </title>
+                        <publisher> Estienne Michallet </publisher>
+                        <pubPlace> Paris </pubPlace>
+                        <idno> RES-R-2056 </idno>
+                        <ref> http://catalogue.bnf.fr/ark:/12148/cb120117553 </ref>
+                    </bibl>
+                    
                 </editionStmt>
                 
-               <editionStmt> 
+                <editionStmt> 
                     <author> Jean <name>de La Bruyère</name> </author>
                     <date> 1694 </date>
                     <title> Les Caractères </title>
                     <publisher> Thomas Almaury </publisher>
                     <pubPlace> Lyon </pubPlace>
                     <idno> R-18792 </idno>
-                   <ref> https://catalogue.bnf.fr/ark:/12148/cb30705989v </ref>
+                    <ref> https://catalogue.bnf.fr/ark:/12148/cb30705989v </ref>
                     
                     
                 </editionStmt>
@@ -70,38 +70,38 @@
         </profileDesc>
         
     </teiHeader>
-
-<TEI>
-    <text>
-        <front> 
-        </front>
-        <body>
-           
-            <div1> <!-- Préface de Théophraste -->
-                <head>Les Caractères de Théophraste traduits du grec.</head>
-                <div2>
-                    <head>Discours sur Théophraste</head>
-                </div2>
-                <div3>
-                    <head>Les Caractères de Théophraste</head>
-                  <div3 type="preface">
-                  </div3> 
-            </div1>
-   
-            <div1>
-                <head>Les Caractères ou les moeurs de ce siècle</head>
-                <div2 type="preface">
-                    <div3 type="chapter" n="10">
-                        <head>Du Souverain</head>
-                        <div4 type="remark" n="1">
-                            <p> Le caractère des François demande du ſerieux dans le Souverain.</p>  
-                        </div4>
+    
+    <TEI>
+        <text>
+            <front> 
+            </front>
+            <body>
+                
+                <div1> <!-- Préface de Théophraste -->
+                    <head>Les Caractères de Théophraste traduits du grec.</head>
+                    <div2>
+                        <head>Discours sur Théophraste</head>
+                    </div2>
+                    <div3>
+                        <p> J'ay admiré ſouvent, &amp; j'avouë que je ne puis encore comprendre, quelque ſerieuſe reflexion que je faſſe, pourquoy toute la Grece eſtant placée ſous un meſme ciel, &amp; les Grecs nourris &amp; 
+                            élevez de la <seg>meſme<note type="comment" place="margin">Par rapport aux Barbares, dont les moeurs étoient tres differentes de celles des Grecs.</note></seg> manière, il ſe trouve nanmoins ſi 
+                            peu de reſſemblance dans leurs <seg>moeurs.<note type="gloss" place="top">Ensemble de comportements propres à un groupe humain ou à un individu et considérés dans leurs rapports avec une morale collective (source : CNRTL)</note></seg></p>
                     </div3>
-                </div2>
-            </div1>
-         </body>
-        <back>
-            <head>Extrait du privilège du roi</head>
-        </back>
-    </text>
-</TEI>
+                </div1>
+                
+                <div1>
+                        <head>Les Caractères</head>
+                    <div2>
+                        <head>De la dissimulation</head>
+                            <div3>
+                                <p>La <note type="gloss" resp="édition" place="margin">L'Auteur parle de celle qui ne vient pas de la prudence, &amp; que les Grecs appelloient ironie.</note>diſſimulation n'eſt pas aiſée à bien définir ; 
+                                    ſi l'on ſe contente d'en faire une ſimple deſcription, l'on peut dire que c'eſt un certain art de compoſer ſes paroles &amp; ſes actions pour une mauvaiſe <seg>fin. <note type="gloss" place="margin">On définit "fin" ici par "But qui constitue le terme de quelque chose" (source : CNRTL).</note></seg></p>
+                            </div3>
+                    </div2>
+                </div1>
+            </body>
+            <back>
+                <head>Extrait du privilège du roi</head>
+            </back>
+        </text>
+    </TEI>
