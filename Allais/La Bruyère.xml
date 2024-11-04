@@ -7,7 +7,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name>Allais</name>
+                    <name xml:id="A">Allais</name>
                     <roleName>Etudiante</roleName>
                     <affiliation>Université Bretagne Sud Lorient</affiliation>
                 </publisher>
@@ -28,7 +28,8 @@
                         </imprint>
                     </monogr>
                     <monogr>
-                        <author><surname>de la Bruyère</surname><forename>Jean</forename></author>
+                        <author xml:id="LB"><surname>de la
+                                Bruyère</surname><forename>Jean</forename></author>
                         <title>Les caractères de Théophraste,traduits du grec, avec les Caractères
                             ou moeurs de ce siècle par J.de La Bruyère</title>
                         <imprint>
@@ -52,20 +53,47 @@
                 <!--Les Caractères de Théophraste-->
                 <div2><!-- Préface de Théophraste par La Bruyère --></div2>
                 <div2><!-- Sommaire --></div2>
-                <div2><!-- Les caractères de Théophraste -->
-                <div3><!-- Chapires de Théophraste --></div3>
+                <div2>
+                    <!-- Les caractères de Théophraste -->
+                    <div3><!-- Chapires de Théophraste --></div3>
                 </div2>
             </div1>
             <div1>
                 <!-- Les Caractères ou les moeurs de ce siècle de La Bruyère -->
                 <div2><!-- Préface de La Bruyère --></div2>
-                <div2><!-- Sommaire des Remarques -->
-                    <div3><!-- Les Remarques de La Bruyère -->
-                    <div4 type="chapter" n="8">
-                        <head><title>De La cour</title></head>
-                        <p><choice><orig>¶</orig></choice>Il y a quelques rencontres dans la vie, où la vérité <choice><abbr>&amp;</abbr><expan>et</expan></choice>la <choice><orig>ſ</orig></choice>implicité font le meilleur manege du monde.</p>
-                        <p><choice><orig>¶</orig></choice>C'e<choice><orig>ſ</orig></choice>t avoir fait un grand pas dans la fine<choice><orig>ſſ</orig></choice>e <damage agent="ink">q</damage>ue de faire pen<choice><orig>ſ</orig></choice>er de <choice><orig>ſoy</orig><reg>soi</reg></choice>que l'on n'e<choice><orig>ſ</orig></choice>t que mediocrement fin.</p>
-                    </div4>
+                <div2>
+                    <!-- Sommaire des Remarques -->
+                    <div3>
+                        <!-- Les Remarques de La Bruyère -->
+                        <div4 type="chapter" n="8">
+                            <head><title>De La cour</title></head>
+                            <p><choice>
+                                    <orig>¶</orig>
+                                </choice>Il y a quelques rencontres dans la vie, où la vérité <choice>
+                                    <abbr>&amp;</abbr>
+                                    <expan>et</expan>
+                                </choice>la <choice>
+                                    <orig>ſ</orig>
+                                </choice>implicité font le meilleur <seg>manege<note resp="#A"
+                                        type="comment">le mot manège ne prend pas l'accent au
+                                        XVII</note></seg> du monde.</p>
+                            <p><choice>
+                                    <orig>¶</orig>
+                                </choice>C'e<choice>
+                                    <orig>ſ</orig>
+                                </choice>t avoir fait un grand pas dans la fine<choice>
+                                    <orig>ſſ</orig>
+                                </choice>e <seg>q<note resp="#A" type="damage">un problème
+                                        d'impression, l'encre a bavé sur le q</note></seg>ue de
+                                faire pen<choice>
+                                    <orig>ſ</orig>
+                                </choice>er de <choice>
+                                    <orig>ſoy</orig>
+                                    <reg>soi</reg>
+                                </choice>que l'on n'e<choice>
+                                    <orig>ſ</orig>
+                                </choice>t que mediocrement fin.</p>
+                        </div4>
                     </div3>
                 </div2>
             </div1>
