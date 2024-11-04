@@ -3,8 +3,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les
+                    moeurs de ce siècle</title>
+                <editor xml:id="EDT">Editor</editor>
+                <editor xml:id="ENC">Encodeur</editor>
             </titleStmt>
+
             <publicationStmt>
                 <publisher>
                     <name>Noémie Masclef</name>
@@ -20,62 +24,72 @@
                     <author><forename>Théophraste</forename></author>
                     <editor>E.Michallet</editor>
                     <country>France<district>Paris</district></country>
-                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle</title>
                     <date type="publication">1688</date>
                     <idno>RES-R-2056</idno>
                     <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item#</ref>
                     <date type="digitalization" when="2010-10-04">04 octobre 2010</date>
                 </bibl>
                 <bibl>
-                    <relatedItem> <!--La consigne pour cette exercice nous a été transmise sur notre groupe classe mais elle 
-                        n'était pas complètement clair. Je ne savais pas si on devait coder une autre édition des 
-                        Caractères dans un autre <bibl> ou s'ils ont devait chercher dans <bibl> une balise précise coder 
-                        une version alternative des Caractères de 1688. J'ai donc utilisé <relatedItem>-->
-                        <author><forename>Jean</forename><name>de La Bruyère</name></author>
-                        <editor>E.Michallet</editor>
-                        <country>France<district>Paris</district></country>
-                        <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle<edition>Cinquième édition</edition></title>
-                        <date type="publication">1690</date>
-                        <idno> R-18790</idno>
-                        <ref>http://catalogue.bnf.fr/ark:/12148</ref>
-                        <date type="digitalization" when="2023-11-22">22 novembre 2023</date>
-                    </relatedItem>
+                    <author><forename>Jean</forename><name>de La Bruyère</name></author>
+                    <editor>E.Michallet</editor>
+                    <country>France<district>Paris</district></country>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                        les moeurs de ce siècle,Cinquième édition</title>
+                    <date type="publication">1690</date>
+                    <idno> R-18790</idno>
+                    <ref>http://catalogue.bnf.fr/ark:/12148</ref>
+                    <date type="digitalization" when="2023-11-22">22 novembre 2023</date>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <projectDesc><p>Projet d'édition numérique de Manlius</p></projectDesc>
-            <editorialDecl><p>Les s long ont été modernisés</p></editorialDecl>
+            <projectDesc>
+                <p>Projet d'édition numérique de Manlius</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Les s long ont été modernisés</p>
+            </editorialDecl>
         </encodingDesc>
     </teiHeader>
     <text>
         <body>
             <div1><!--La première préface avec le "Discours sur Théophraste"--></div1>
-            
-            <div1><!--La première partie de l'ouvrage avec "Les caractères de Théophraste"-->
-            <div2><!--La préface de Théophraste--></div2>
-            <div2><!--Table des matières--></div2>
-            <div2><!--Corps de l'ouvrage de Théophraste-->
-                <div3><!--Premier chapitre--></div3>
-            </div2>
-                </div1>
-            
-            <div1><!--La seconde partie de l'ouvrage avec "Les caractères ou les moeurs de ce siècle" de La Bruyère-->
+
+            <div1>
+                <!--La première partie de l'ouvrage avec "Les caractères de Théophraste"-->
+                <div2><!--La préface de Théophraste--></div2>
+                <div2><!--Table des matières--></div2>
+                <div2>
+                    <!--Corps de l'ouvrage de Théophraste-->
+                    <div3><!--Premier chapitre--></div3>
+                </div2>
+            </div1>
+
+            <div1>
+                <!--La seconde partie de l'ouvrage avec "Les caractères ou les moeurs de ce siècle" de La Bruyère-->
                 <div2><!--la préface de La Bruyère--></div2>
                 <div2><!--Table des matières--></div2>
-                <div2><!--corps de l'ouvrage de La Bruyère-->
+                <div2>
+                    <!--corps de l'ouvrage de La Bruyère-->
                     <div3 type="chapter">
                         <head>De l'Homme</head>
                         <div4 type="remark">
-                            <p n="1">Ne nous emportons point contre les hommes envoyant leur dureté, 
-                                leur ingratitude, leur injustice, leur fierté, l'amour qu'ils ont pour 
-                                eux-mefmes, & <!--le logiciel n'accepte pas & mais c'est ce qui est marqué dans le texte--> 
-                                l'oubli où ils font des autres; ils font ainfi faits, c'eft leur nature, c'eft ne pouvoir 
-                                fupporter que la pierre tombe, ou que le feu s'éleve.</p>
-                            <p n="2">Les hommes ne s'attachent pas affez à ne point manquer les occasions 
-                                de faire plaifir; il femble que l'on n'entre dans un employ que pour pouvoir obliger, 
-                                & n'en rien faire la chofe la plus prompte & & <!--il semble y avoir un double & par erreur-->
-                                qui fe prefente d'abord, c'eft le refus, & l'on n'accorde que par reflexion</p>
+                            <p n="1"><seg>Ne nous emportons point contre les hommes<note
+                                        type="gloss" resp="EDT">L'auteur nous demande de ne pas
+                                        reprocher aux hommes leurs défauts</note></seg> envoyant
+                                leur dureté, leur ingratitude, leur injustice, leur fierté, l'amour
+                                qu'ils ont pour eux-mefmes, &amp; l'oubli où ils font des autres;
+                                ils font ainfi faits, c'eft leur nature, c'eft ne pouvoir fupporter
+                                que la pierre tombe, ou que le feu s'éleve.</p>
+                            <p n="2">Les hommes <seg>ne s'attachent pas affez à ne point manquer les
+                                    occasions de faire plaifir<note type="gloss" resp="ENC">La
+                                        double négation donne l'idée suivante; Les hommes ne se
+                                        préoccupent pas de faire plaisir</note></seg>; il femble que
+                                l'on n'entre dans un employ que pour pouvoir obliger, &amp; n'en
+                                rien faire la chofe la plus prompte &amp; &amp; qui fe prefente
+                                d'abord, c'eft le refus, &amp; l'on n'accorde que par reflexion</p>
                         </div4>
                     </div3>
                 </div2>
