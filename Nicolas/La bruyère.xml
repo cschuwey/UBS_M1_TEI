@@ -1,39 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères</title>
+                <author xml:id="OC"></author>
             </titleStmt>
             <publicationStmt>
-                <publisher> 
+                <publisher>
                     <name>Oceane</name>
                     <affiliation>UBS</affiliation>
                     <roleName>Student</roleName>
-                </publisher> 
+                </publisher>
                 <date when="2024-10-16"> 16 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
-                    <author> <forename>Jean</forename><name>De la Bruyère</name> </author> 
-                    <ref target= "https://gallica.bnf.fr/ark:/12148/bpt6k87040224?rk=21459;2"> BNF Gallica</ref>
+                    <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou
+                        les moeurs de ce siècle</title>
+                    <author>
+                        <forename>Jean</forename><name>De la Bruyère</name>
+                    </author>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k87040224?rk=21459;2"> BNF
+                        Gallica</ref>
                     <publisher><forename>E</forename><name> Michallet </name></publisher>
-                   <date when="1688">M. DC. -LXXXVIII.</date>
+                    <date when="1688">M. DC. -LXXXVIII.</date>
                     <idno> NUMM-8704022 </idno>
                 </bibl>
                 <bibl>
-                    <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
-                    <author> <forename>Jean</forename><name>De la Bruyère</name> </author>
-                    <ref target= "https://gallica.bnf.fr/ark:/12148/bpt6k8704023j?rk=150215;2"> BNF Gallica</ref>
+                    <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou
+                        les moeurs de ce siècle</title>
+                    <author>
+                        <forename>Jean</forename><name>De la Bruyère</name>
+                    </author>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704023j?rk=150215;2"> BNF
+                        Gallica</ref>
                     <publisher><forename>E</forename><name> Michallet </name></publisher>
                     <date when="1690">M. DC. -LXXXIX.</date>
                     <idno> NUMM-8704023 </idno>
-                   </bibl>
+                </bibl>
             </sourceDesc>
         </fileDesc>
-</teiHeader>
-<text>
+    </teiHeader>
+    <text>
         <body>
             <div1>
                 <head>Discours sur Théophraste</head>
@@ -79,26 +88,25 @@
                         <head>De la ville</head>
                         <p/>
                         <div4 type="remark">
-                          <p n="1">L'utile et la louable pratique de perdre en frais
-                          de noces le tiers de la dot qu'une femme apporte ! de
-                          commencer par s'appauvrir de concert par l'amas et l'en-
-                          tassement de choses superflues, et de prendre déjà sur
-                          son fonds de quoi payer Gaultier, les meubles et la toi-
-                          lette !</p>
-                            <p n="2">Pénible coutume,asservissement incommode! se 
-                            chercher incessamment les unes et les autres avec l'impa-
-                            tience de ne point se rencontrer; ne se rencontrer que pour 
-                            se dire des riens, que pour s'apprendre réciproquement 
-                            des choses dont on est également instruite, et dont il 
-                            importe peu que l'on soit instruite; n'entrer dans une 
-                            chambre précisément que pour en sortir; ne sortir de 
-                            chez soi l'après-dînée que pour y rentrer le soir, fort satis-
-                            faite d'avoir vu en cinq petites heures trois suisses, une 
-                            femme que l'on connoît à peine, et une autre que l'on 
-                            n'aime guère ! Qui considéroit bien le prix du temps, 
-                            et combien sa perte est irréparable, pleuroient amèrement 
-                            sur de si grandes misères. 
-                            </p>
+                            <p>L'utile et la louable pratique de perdre en frais de noces le tiers
+                                de la dot qu'une femme apporte ! <seg> commencer par s'appauvrir<note place="inline"> ici une note inventée </note></seg>de de
+                                concert par l'amas et l'en- tassement de choses superflues, et de
+                                prendre déjà sur son fonds de quoi payer Gaultier, les meubles et la
+                                toi- lette !</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p>Pénible coutume,asservissement incommode! se chercher incessamment
+                                les unes et les autres avec l'impa- tience de ne point se
+                                rencontrer; ne se rencontrer que pour se dire des riens, que pour
+                                s'apprendre réciproquement des choses dont on est également
+                                instruite, et dont il<seg> importe peu que l'on soit instruite<note resp="#OC"> test note resp</note></seg>; n'entrer
+                                dans une chambre précisément que pour en sortir; ne sortir de chez
+                                soi l'après-dînée que pour y rentrer le soir, fort satis- faite
+                                d'avoir vu en cinq petites heures trois suisses, une femme que l'on
+                                connoît à peine, et une autre que l'on n'aime guère ! Qui
+                                considéroit bien le prix du temps, et combien sa perte est
+                                irréparable, <seg>pleuroient<note n="1"> note de bas de page</note> </seg>amèrement sur de si grandes misères. </p>
+
                         </div4>
                     </div3>
                 </div2>
