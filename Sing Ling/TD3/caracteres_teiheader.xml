@@ -6,6 +6,8 @@
                 <title>Les Caractères, avec Les caractères ou les moeurs de ce siècle</title>
                 <author>de Théophraste</author>
                 <respStmt><resp>traduits du grec ancien par</resp><name>La Bruyère</name></respStmt>
+                <author xml:id="GSL">Gaëlle Sing Ling</author>
+                <editor xml:id="LB">La Bruyère</editor> 
             </titleStmt>
             <publicationStmt>
                 <publisher>Gaëlle Sing Ling <roleName>étudiante</roleName></publisher>
@@ -21,23 +23,22 @@
                 <date when="2024-10-16"/>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Théophraste</author>
-                        <title n="1" when="1688">Les Caractères</title>
-                        <title n="2" when="1694">Les Caractères</title>
-                        <title n="1;2" type="sub">Les caractères ou les moeurs de ce siècle</title>
-                        <imprint>
-                            <pubPlace>Paris</pubPlace>
-                            <publisher>E. Michallet</publisher>
-                            <date n="1" when="1688">1688</date>
-                            <date n="2" when="1694">1694</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>
-                    <idno n="1">https://gallica.bnf.fr/ark:/12148/btv1b86070385</idno>
-                    <idno n="2">ark:/12148/bpt6k57577n</idno>
+                 <bibl>
+                    <title when="1688">Les Caractères</title>
+                    <title when="1694"></title>
+                    <title type="sub">Les Caractères ou les moeurs de ce siècle</title>
+                    <author xml:id="théophraste"><name>Théophraste</name></author>
+                    <author xml:id="bruyère"><name>Jean de la Bruyère</name></author>
+                    <respStmt>
+                        <resp>Traducteur : </resp>
+                        <name>Jean de la Bruyère</name>
+                    </respStmt>
+                    <editor>E. Michallet</editor>
+                    <publisher>Paris</publisher>
+                    <date>1688</date>
+                    <idno n="1" when="1688">ark:/12148/btv1b86070385</idno>
+                    <idno n="2" when="1694">ark:/12148/bpt6k57577n</idno>
+                    <ref>Bibliothèque nationale de France</ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -141,16 +142,28 @@
             
             
             <div2 type="chapter"> <head>DE LA MODE </head>
-            <div3 type="remark" n="1"> 
-                <p>Une chose folle et qui découvre bien notre petitesse, c'est l'asssujettissement aux modes quand on l'étend à ce qui concerne le goût, le vivre, la santé et la conscience.
-                La viande noire est hors de mode et par cette raison insipide : ce serait pécher contre la mode que de guérir de la fièvre par la saignée : de même l'on ne mourrait plus depuis
-                longtemps par Theotime ; festendres exhortations ne fauvoient plus que le peuple, et Theot. a veu fon fucceffeur.</p></div3>
-            <div3 type="remark" n="2">
-                <p>Le duel est le triomphe de la mode, et l'endroit où elle a exercé la tyrannie avec plus d'éclat ; cet usage n'a pas laissé au poltron la liberté de vivre, il l'a mené se faire tuer par
-                un plus brave que soi, et l'a confondu avec un homme de coeur, il a attaché de l'honneur, et de la gloire à une action folle et extravagante ; il a été approuvé par la présence des rois ; il y a eu quelquefois
-                une espèce de religion à le pratiquer ; il a décidé de l'innocence des hommes, des accusations fausses ou véritables sur des crimes capitaux ; il s'était enfin si profondément enraciné dans l'opinion
-                des peuples, et s'était si fort saisit de leur coeur et de leur esprit, qu'un des plus beaux endroits de la vie d'un très grand Roi a été de les guérir de cette folie.</p></div3>
-            </div2>
+             <div3 type="remark" n="1">
+                        <p>Une choſe folle &amp; qui découvre bien noſtre petiteſſe, c'eſt
+                            l'aſſujettissement aux modes quand on l'étend à ce qui concerne le
+                            gouſt, le vivre, la ſanté et la conſcience. La viande noire eſt hors de
+                            mode &amp; par cette raiſon inſipide : ce ſeroit pecher contre la mode que
+                            de guerir de la fiévre par la ſaignée : de meſme l'on ne mourroit plus
+                            depuis long temps par Theotime ; festendres exhortations ne fauvoient
+                            plus que le peuple, &amp; Theot. a veu fon <seg>fucceffeur.<note type="gloss" resp="#GSL">successeur (graphie du FMC)</note></seg></p>
+                    </div3>
+                    <div3 type="remark" n="2">
+                        <p>Le duel eſt le triomphe de la mode, &amp; l'endroit où elle a exercé la
+                            tyrannie avec plus d'éclat ; cet uſage n'a pas laiſſé au poltron la
+                            liberté de vivre, il l'a mené ſe faire tuer par un plus brave que foy,
+                            &amp; l'a confondu avec un homme de coeur, il a attaché de l'honneur, &amp; de
+                            la gloire à une action folle &amp; extravagante ; il a efté approuvé par la
+                            prefence des Rois ; il y a eu quelquefois une efpèce de religion à le
+                            pratiquer ; il a décidé de l'innocence des hommes, des accufations
+                            fauſſes ou veritables sur des crimes capitaux ; il s'eſtoit enfin fi
+                            profondement enraciné dans l'opinion des peuples, &amp; s'eftpot fi fort
+                            faifit de leur coeur &amp; de leur esprit, qu'un des plus beaux endroits de
+                            la vie d'un tres grand Roy a efté de les guerir de cette <seg>folie.<note type="gloss" resp="#LB">Folie dans le sens de "maladie"</note></seg></p>
+                    </div3></div2>
             
             
             <div2 type="chapter"> <head>DE QUELQUES USAFES</head>
