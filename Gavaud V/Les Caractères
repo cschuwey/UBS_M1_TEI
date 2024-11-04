@@ -18,20 +18,22 @@
             <sourceDesc>
                 <bibl>
                     <author> Jean <name>De le Bruyère</name></author>
-                    <author>Théophraste </author> 
+                    <author>Théophraste </author>
                     <title>Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
                         les moeurs de ce siècle </title>
                     <publisher> E. Michallet </publisher> Available from <ref
-                        target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item"> BNF Gallica </ref>
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item"> BNF
+                        Gallica </ref>
                     <date when="1688">1688</date>
                 </bibl>
                 <bibl>
                     <author> Jean <name>De le Bruyère</name></author>
-                    <author>Théophraste </author> 
+                    <author>Théophraste </author>
                     <title>Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
                         les moeurs de ce siècle </title>
                     <publisher> E. Michallet (Paris)</publisher> Available from <ref
-                        target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k/f7.item"> BNF Gallica </ref>
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k/f7.item"> BNF
+                        Gallica </ref>
                     <date when="1691">1691</date>
                 </bibl>
             </sourceDesc>
@@ -39,30 +41,42 @@
     </teiHeader>
     <text>
         <body>
-            <div1><!-- Théophrastes -->
-            <div2><!-- Discours sur Theophraste --></div2>
-            <div2><!-- Préface des caractères de Théophraste --></div2>
-            <div2><!-- Sommaire --></div2>
-            <div2><!-- Les Caractères de Théophraste -->
-                <div3 type="chapter"> 
-                <head>De la Dissimulation</head>
-                    <p>
-                        etc avec tous les chapitres
-                    </p>
-                </div3>
+            <div1>
+                <!-- Théophrastes -->
+                <div2><!-- Discours sur Theophraste --></div2>
+                <div2><!-- Préface des caractères de Théophraste --></div2>
+                <div2><!-- Sommaire --></div2>
+                <div2>
+                    <!-- Les Caractères de Théophraste -->
+                    <div3 type="chapter">
+                        <head>De la Dissimulation</head>
+                        <p> etc avec tous les chapitres </p>
+                    </div3>
                 </div2>
             </div1>
-            <div1><!-- La Bruyère -->
+            <div1>
+                <!-- La Bruyère -->
                 <div2><!-- Préface des caractères de La Bruyère --></div2>
                 <div2><!-- Sommaire --></div2>
-                <div2><!-- Les Caractères ou les Moeurs de ce Siècle -->
-                    <div3 type="chapter"> 
+                <div2>
+                    <!-- Les Caractères ou les Moeurs de ce Siècle -->
+                    <div3 type="chapter">
                         <head>Des Ouvrages de l'esprit</head>
                         <div4 type="remark">
-                        <p>Il ne faut point mettre un ridicule où il n'y en a point; c'eſt ſe gâter le goût, c'eſt corrompre ſon jugement &amp; celuy des autres; mais le ridicule qui eſt quelque part, il faut l'y voir, l'en tirer avec grace, &amp; d'une maniere qui plaiſe &amp; qui inſtruiſe.
-                        </p>
+                            <p>Il ne faut point mettre un ridicule où il n'y en a point; c'eſt ſe
+                                gâter le goût, c'eſt corrompre ſon jugement &amp; celuy des autres;
+                                mais le ridicule qui eſt quelque part, il faut l'y voir, l'en tirer
+                                avec grace, &amp; d'une maniere qui plaiſe &amp; qui inſtruiſe.</p>
+                        </div4>
                         <div4 type="remark">
-                        <p>Horace ou Despreaux l'a dit avant vous; je le crois ſur voſtre parole; mais je l'ay dit comme mien; ne puis-je pas penſer une choſe vraie, &amp; que d'autres encore penſeront aprés moy?</p>
+                            <p><seg>Horace <note resp="#VG" type="bio">Poète latin du 1er siècle
+                                        avant JC</note>
+                                </seg>ou <seg>Despreaux <note resp="#VG" type="bio">Nicolas Boileau
+                                        Despréaux, auteur contemporain de La Bruyère</note>
+                                </seg> l'a dit avant vous; je le crois ſur voſtre parole; mais je
+                                l'ay dit comme mien; ne puis-je pas penſer une choſe vraie, &amp;
+                                que d'autres encore penſeront aprés moy?</p>
+                        </div4>
                     </div3>
                 </div2>
             </div1>
