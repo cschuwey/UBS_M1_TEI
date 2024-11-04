@@ -7,7 +7,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name>Léia</name>
+                    <name xml:id="L">Léia</name>
                     <roleName>Etudiante</roleName>
                     <affiliation>UBS</affiliation>
                 </publisher>
@@ -29,10 +29,10 @@
                     <author>Jean de<name>La Bruyère</name></author>
                     <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec Les
                         caractères ou les moeurs de ce siècle / [par Jean de La Bruyère]</title>
-                    <edition>1e édition</edition>
+                    <edition>reproduction de la 8e édition</edition>
                     <publisher>Cambridge (Mass.) : Omnisys, [ca 1990]</publisher>
                     <date>1694</date>
-                    <idno>ark:/12148/bpt6k57577n</idno>
+                    <idno>ark:/12148/cb372432254</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -49,16 +49,22 @@
                 <div2><!--Préface par Théophraste--></div2>
                 <div2><!--Sommaire--></div2>
                 <div2><!--Caractères-->
-                    <div3><!-- Chapitres de Théophraste --></div3>
+                    <div3><!--Chapitres de Théophraste--></div3>
                 </div2>
             </div1>
             <div1><!--Caractères-->
                 <div2><!--Préface par La Bruyère--></div2>
                 <div2><!--Sommaire-->
-                    <div3><!-- Du coeur -->
-                        <p>Il y a un gouſt dans la pure amitié où ne peuvent atteindre ceux qui font nez mediocres.</p>
-                        <p>L'amitié peut ſubſiſter entre des gens de differens ſexes, exempte meſme de toute groſſiereté ; une femme cependant regarde toûjours un homme comme un homme, &amp; reciproquement un homme regarde une femme  comme une femme regarde une femme : cette liaiſon n'eſt ni paſſion, ni amitié pure ; elle fait une claſſ à part.</p>
+                    <div3><!--Du coeur-->
+                        <div4>
+                        <p>Il y a un <seg>gouſt<note resp="#L">maintient de l'orthographe d'origine, à traduire par "s" en français moderne</note></seg>dans la pure amitié où ne peuvent atteindre ceux qui font nez mediocres.</p>
+                        </div4>
+                        <div4>
+                        <p>L'amitié peut ſubſiſter entre des gens de differens ſexes, exempte meſme de toute groſſiereté ; une femme cependant regarde toûjours un homme comme un homme, <seg>&amp;<note resp="#L">signifie "et"</note></seg>reciproquement un homme regarde une femme  comme une femme regarde une femme : cette liaiſon n'eſt ni paſſion, ni amitié pure ; elle fait une claſſ à part.</p>
+                        </div4>
+                        <div4>
                         <p>L'amour n'aiſt bruſquement, ſans autre reflexion, par temperament ou par foibleſſe ; un trait de beauté nous fixe, nous détermine. L'amitié au contraire ſe forme peu à peu, avec le temps, par la pratique, par un long commerce : combien d'eſprit, de bonté de coeur, d'attachement, de ſervices &amp; de complaiſance dans les amis, pour faire en pluſieurs années bien moins que ne fait quelques fois en un moment un beau viſage ou une belle main.</p>
+                        </div4>
                     </div3>
                 </div2>
             </div1>
