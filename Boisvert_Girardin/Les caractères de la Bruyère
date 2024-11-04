@@ -7,7 +7,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name>Ambre Boisvert Girardin</name>
+                    <name xml:id="ABG">Ambre Boisvert Girardin</name>
                     <roleName>Etudiante</roleName>
                     <affiliation>UBS Lorient</affiliation>
                 </publisher>
@@ -17,7 +17,7 @@
             </publicationStmt>
             <sourceDesc> 
                 <bibl>
-                    <author>Théophraste</author>
+                    <author xml:id="Théophraste">Théophraste</author>
                     <title>Les caractères ou les moeurs de ce siècle</title>
                     <publisher>E.Michallet (Paris)</publisher>
                     <idno>RES-R-2056</idno>
@@ -52,11 +52,11 @@
                     <div3 type="chapter"> <!-- les caractères ici, chacuns avec son div3 -->
                         <p>De la Chaire</p>
                         <div4 type="remark">
-                            <p>L'Orateur cherche par ſes diſcours un Evefché ; l'Apoſtre fait des converſions, il merite de trouver ce que l'autre cherche.</p>
+                            <p>L'Orateur cherche par ſes diſcours un Eveſché ; l'Apoſtre fait des converſions, il merite de trouver ce que l'autre cherche.</p>
                         </div4>
                         <div4 type="remark">
-                            <p>L'on voit des Clercs revenir de quelques Provinces où ils n'ont pas fait un long ſejour; vains des converſions qu'ils ont trouvées toutes faites, comme de celles qu'ils n'ont 
-                                pû faire ſe comparer déja aux VINCENS &amp; aux XAVIERS, &amp; ſe croire des hommes Apoſtoliques: de ſi grands travaux &amp; de ſi heureuſes miſſions ne ſeroient pas à leur gré payérs 
+                            <p>L'on voit des <seg>Clercs <note resp="#Théophraste" type="gloss">Eccleſiaſtiques.</note></seg> revenir de quelques Provinces où ils n'ont pas fait un long ſejour; vains des converſions qu'ils ont trouvées toutes faites, comme de celles qu'ils n'ont 
+                                pû faire ſe comparer déja aux VINCENS &amp; aux XAVIERS, &amp; ſe croire des hommes <seg>Apoſtoliques<note resp="#ABG" type="gloss">relatifs aux apôtres</note></seg>: de ſi grands travaux &amp; de ſi heureuſes miſſions ne ſeroient pas à leur gré payérs 
                                 d'une Abbaye.</p>
                         </div4>
                         <div4 type="remark">
