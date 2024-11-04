@@ -3,7 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fra">Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                <title xml:lang="fra">Les Caractères de Théophraste, traduits du grec, avec les
+                    Caractères ou moeurs de ce siècle.</title>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -15,7 +16,8 @@
             <sourceDesc>
                 <bibl>
                     <author>Jean<name>de la Bruyère</name></author>
-                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle.</title>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                        moeurs de ce siècle.</title>
                     <date>1691</date>
                 </bibl>
             </sourceDesc>
@@ -26,24 +28,44 @@
             </langUsage>
         </profileDesc>
         <encodingDesc>
-            <projectDesc><p>TD XML 21.10</p></projectDesc>
+            <projectDesc>
+                <p>TD XML 21.10</p>
+            </projectDesc>
         </encodingDesc>
     </teiHeader>
     <text>
         <front>
-            <div1><p>Discours sur Théophraste</p></div1>
-            <div1><p>Les caractères de Théophraste, traduits du grec</p></div1>
-            <div2><p>Sommaire</p></div2>
+            <div1><!-->Discours sur Théophraste<!--></div1>
+            <div1><!-->Les caractères de Théophraste, traduits du grec<!--></div1>
+            <div2><!-->Sommaire<!--></div2>
         </front>
-    
-<body>
-<head>Les caractères ou les moeurs de ce siècle</head>
-       <div1><p>Les caractères ou les moeurs de ce siècle</p></div1>
-            <div2><p>Sommaire</p></div2>
-            <div2><p>Des Biens de Fortune</p></div2>
-    <div3><p>Un homme fort riche peut manger deſ entremets, faire peindre ſes lambris &amp; ſes alcoves, jouir d’un Palais à la campagne, &amp; d’un autre à la ville, avoir un grand équipage, mettre un Duc dans ſa famille, &amp; faire de ſon fils un grand Seigneur : cela eſt juſte &amp; de ſon reſſort : mais il appartient peut-eſtre à d’autres de vivre contents.</p>
-        
-       <p>¶ Une grande naiſſance, ou une grande fortune annonce le mérite, &amp; le fait plûtôt remarquer.</p></div3>
-</body>
-        </text>
+
+        <body>
+            <head><!-->Les caractères ou les moeurs de ce siècle<!--></head>
+            <div1><!-->Les caractères ou les moeurs de ce siècle<!--></div1>
+            <div2><!-->Sommaire<!--></div2>
+            <div3><!-->Des Biens de Fortune<!--></div3>
+            <div4>
+                <p>Un homme fort riche peut manger deſ <seg>entremets<note resp="#LDP"
+                            type="glossaire" place="margin">Ce qui, dans un repas, se sert après le rôti ou le
+                            fromage et avant le dessert</note></seg>, faire peindre ſes lambris
+                    &amp; ſes alcoves, jouir d’un Palais à la campagne, &amp; d’un autre à la ville,
+                    avoir un grand équipage, mettre un Duc dans ſa famille, &amp; faire de ſon fils
+                    un grand Seigneur : cela eſt juſte &amp; de ſon reſſort : mais il appartient
+                    peut-eſtre à d’autres de vivre contents.</p>
+                <p>A meſure que la faveur et les grands biens ſe retirent d'un homme, ils laiſſent
+                    voir en luy le ridicule qu'ils couvroient, &amp; qui y éſtoient ſans que
+                    perſonne s'en apperceut</p>
+                <p>Si l'on ne le voyoit de ſes yeux, pourroit on jamais s'imaginer l'étrange
+                    diſproportion que le plus ou le moins de pie- ces de monnoyes met entre les
+                    hommes.</p>
+            </div4>
+            <div4>
+                <p>Ce plus ou ce moins détermi- ne à l'épée; à la Robe ou à l'Egiſe; il n'y a que
+                    preſque point d'autres vocations </p>
+                <p>Une grande naiſſance, ou une grande fortune annonce le mérite, &amp; le fait
+                    plûtôt remarquer.</p>
+            </div4>
+        </body>
+    </text>
 </TEI>
