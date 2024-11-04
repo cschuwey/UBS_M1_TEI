@@ -6,7 +6,7 @@
                 <title>Les Caractères de la Bruyère</title>
             </titleStmt>
             <publicationStmt>
-                <publisher>Bouteloup Amandine</publisher>
+                <publisher><name xml:id="BA"></name>Bouteloup Amandine</publisher>
                 <pubPlace>Université Bretagne Sud, Lorient</pubPlace>
                 <date when="2024-10-16">16 octobre 2024</date>
             </publicationStmt>
@@ -20,6 +20,7 @@
                     <idno>IFN-8607038</idno> Available from <ref
                         target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f1.item"/>
                     <date when="1688">M. DC. LXXXVIII.</date>
+                    <edition>Première édition</edition>
                 </bibl>
                 <bibl>
                     <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou
@@ -30,6 +31,7 @@
                     <idno>NUMM-57564</idno> Available from <ref
                         target="https://gallica.bnf.fr/ark:/12148/bpt6k575649?rk=21459;2"/>
                     <date when="1689">M. DC. LXXXIX.</date>
+                    <edition>Deuxième édition</edition>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -69,10 +71,22 @@
                     <div3 type="chapter">
                         <head>Des femmes.</head>
                         <div4 type="remark">
+                            <!--remark = pied de mouches-->
+                            <!--pas besoin de compter les p car l'ordi le fera -->
                             <!-- p194-193 -->
-                            <p n="35">Les femmes gueriffent de leur pareſſe par a vanité ou par l'amour.</p>
-                            <p n="36">Un homme de la ville eſt pour une femme de Provincce, ce qu'eſt pour une femme de ville un homme de la Cour.</p>
-                            <p n="37">Ne pourroit-on point découvrir l'art de ſe faire aimer de ſa femme ?</p>
+                            <!--n="35"-->
+                            <p>Les femmes <seg>gueriffent<note place="margin_left" resp="La Bruyère"></note>à bon entendeur bien sur.</seg>de leur pareſſe par la vanité ou par
+                                l'amour.</p>
+                        </div4>
+                        <div4 type="remark">
+                            <!--n="36"-->
+                            <p>Un homme de la ville eſt pour <seg>une femme de Province<note type="gloss" resp="#BA"> une péquenaude en soit</note></seg>, ce qu'eſt pour
+                                une femme de ville un homme de la Cour.</p>
+                        </div4>
+                        <div4 type="remark">
+                            <!--n="37"-->
+                            <p>Ne pourroit-on point découvrir l'art de ſe faire aimer de ſa femme
+                                ?</p>
                         </div4>
                     </div3>
                 </div2>
