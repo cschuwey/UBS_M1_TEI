@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name>Chapelain</name>
+                    <name xml:id="LC">Chapelain</name>
                     <roleName>étudiante</roleName>
                     <affiliation>Université de Bretagne Sud</affiliation>
                 </publisher>
@@ -36,6 +36,7 @@
                         <monogr>
                             <author>Jean de La Bruyère</author>
                             <title>Les caractères de Théophraste</title>
+                            <indo>NUMM-8712342</indo>
                             <imprint>
                                 <publisher>E.Michallet</publisher>
                                 <pubPlace>Paris</pubPlace>
@@ -91,8 +92,8 @@
                         </div4>
                         <div4 type="remark" n="28">
                             <p>L'on ne reconnoît plus en ceux que le jeu &amp; le gain ont illuſtrez
-                                , la moindre trace de leur premiere condition: ils perdent de veuë
-                                leurs égaux, &amp; atteingent les plus grands Seigneurs. Il eſt vray
+                                , la moindre trace de leur premiere condition: ils perdent de <seg>veuë<note resp="#LC" type="comment">ancienne graphie de 'vue'.</note></seg>
+                                leurs égaux, &amp; atteingent les plus grands Seigneurs. Il eſt <seg>vray<note resp="#LC" type="comment">ancienne graphie de 'vrai'.</note></seg>
                                 que la fortune du dé , ou du lanſquener les remet ſouvent où elle
                                 les a pris.</p>
                         </div4>
@@ -102,3 +103,4 @@
         </body>
     </text>
 </TEI>
+
