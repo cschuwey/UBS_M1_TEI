@@ -7,7 +7,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name>Léo Marchal</name>
+                    <name xml:id="Marchal">Léo Marchal</name>
                     <affiliation> UBS </affiliation>
                     <roleName> étudiant</roleName>
                 </publisher>
@@ -29,7 +29,7 @@
                     <title> Les caractères de Theophraste, traduits du grec avec les caractères ou
                         les moeurs de ce siecle. Huitieme edition. Revue corrigée et augmentée. </title>
                     <author> Théophraste </author>
-                    <author> Jean <name> de la Bruyère </name>
+                    <author xml:id="LaBruyère"> Jean <name> de la Bruyère </name>
                     </author>
                     <date when="1694"> M. DC. XCIV. </date>
                     <publisher> Estienne Michallet </publisher>
@@ -89,22 +89,24 @@
                     <!-- Texte de La Bruyère  -->
                     <div3 type="chapter">
                         <head> Du Merite Personnel. </head>
+                        <!-- Page 182 -->
                         <div4 type="remark">
-                            <p> Le ſage quelquefois évite
-                                le monde de peur d'eſstre en-
-                            nuyé.</p>
-                            <p> Il n'y a rien de ſi délié, de
-                                ſi ſimple, &amp; <!-- Sur Oxygen il n'est pas possble de coder une esperluette donc j'ai décidé d'aller chercher la méthode pour le coder sur internet --> de ſi impercepti-
-                            ble, où il n'entre des manie-
-                            res qui nous decelent. Un ſot,
-                            ny n'entre, ny ne ſort, ny ne
-                            s'aſſied, ny ne ſe leve, ny ne ſe
-                            tait, ny n'eſt ſur ſes jambes com-
-                            me un homme d'eſprit.</p> 
-                     </div4>
-                       <div4 type="figure">
-                           <!-- Le monogramme à la fin est a codé mais je n'ai pas réussi à trouver comment faire. Je pense qu'il faut mettre l'attribut "figure" qui permet d'indiquer la présence d'une image mais je ne sais pas comment coder ce genre d'images correctement -->
-                       </div4> 
+                            <p> Le ſage quelquefois évite le <seg>monde <note resp="#Marchal"
+                                        type="gloss" place="margin">L'ensemble de tout ce qui
+                                        existe.</note></seg> de peur d'eſstre en- nuyé.</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p> Il n'y a rien de ſi délié, de ſi ſimple, &amp; de ſi impercepti-
+                                ble, où il n'entre des manie- res qui nous decelent. Un <seg> ſot<note type="gloss" resp="#Marchal" place="margin"> Qui a peu d'intelligence et peu de jugement.</note></seg>, ny
+                                n'entre, ny ne ſort, ny ne s'aſſied, ny ne ſe leve, ny ne ſe tait,
+                                ny n'eſt ſur ſes jambes com- me un <seg>homme d'eſprit.<note
+                                        type="context" resp="#LaBruyère" place="margin"> Au XVIIe
+                                        siècle, un homme d'esprit est une personne qui représente
+                                        l'idéal moral</note></seg></p>
+                        </div4>
+                        <div4 type="figure">
+                            <!-- Le monogramme à la fin est a codé mais je n'ai pas réussi à trouver comment faire. Je pense qu'il faut mettre l'attribut "figure" qui permet d'indiquer la présence d'une image mais je ne sais pas comment coder ce genre d'images correctement -->
+                        </div4>
                     </div3>
                 </div2>
             </div1>
