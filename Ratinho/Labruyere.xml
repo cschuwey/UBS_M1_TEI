@@ -4,6 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title> Les caractères ou les moeurs de ce siècle, La Bruyère</title>
+                <author xml:id="BR"> BR </author>
+                <author xml:id="Labruyere"> La Bruyère </author>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -17,19 +19,25 @@
                       </address>
             </publicationStmt>
             <sourceDesc>
-                <bibl> 
+                <bibl>
                     <author> Théophraste </author>
-                    <author> <surname> Jean </surname> de <name> La Bruyère </name> 
-                    <roleName> Traducteur </roleName> </author>
-                    <title>  Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle </title>
+                    <author>
+                        <surname> Jean </surname> de <name> La Bruyère </name>
+                        <roleName> Traducteur </roleName>
+                    </author>
+                    <title> Les caractères de Théophraste , traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle </title>
                     <editor> E. Michallet </editor>
                     <date> 1688 </date>
                     <ref> https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=42918;4#</ref>
                     <date when="2007-10-15"/>
                 </bibl>
                 <bibl>
-                    <author> <surname> Jean </surname> de <name> La Bruyère </name> </author>
-                    <title> Les caractères de Theophraste traduit du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <author>
+                        <surname> Jean </surname> de <name> La Bruyère </name>
+                    </author>
+                    <title> Les caractères de Theophraste traduit du grec, avec Les caractères ou
+                        les moeurs de ce siècle</title>
                     <editor> Estienne Michallet </editor>
                     <edition n="huit"/>
                     <date> 1694 </date>
@@ -38,65 +46,104 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-       <encodingDesc> 
+        <encodingDesc>
             <projectDesc>
-                <p> Projet d'édition numérique des caractères</p> 
+                <p> Projet d'édition numérique des caractères</p>
             </projectDesc>
-            <editorialDecl> <p> Modernisation de l'édition trouvée sur Gallica </p> </editorialDecl>
+            <editorialDecl>
+                <p> Modernisation de l'édition trouvée sur Gallica </p>
+            </editorialDecl>
         </encodingDesc>
-    </teiHeader> 
-   <text> 
-       <front></front>
-       <body>
-         <div1> <!-- theophraste--> 
-           <div2> <!--discours sur Theophraste--> </div2>
-             <div2> <!-- Préface de Théophraste--> </div2>
-             <div2> <!-- sommaire--> </div2>
-             <div2> <!-- les caractères de Theophraste--> 
-             <div3 type="chapter">  
-                <head/>
-                 <p/>
-             </div3>
-              </div2>
-           </div1>
-           <div1> <!-- La Bruyère--> 
-           <div2> <!-- faux titre : les caractères ou les moeurs de ce siècle--> </div2>
-               <div2> <!--préface de La Bruyère--> </div2>
-               <div2> <!--sommaire--> </div2>
-               <div2> <!--les caractères de La Bruyère--> 
-               <div3 type="chapter"> 
-                   <head> De l'homme </head>
-                   <div4 type="remark">
-                       <p> l'affection dans le geste, dans le parler, &amp; 
-                       <!-- j'ai trouvé cette solution pour le "&" mais aussi le &lt; sur le site de la TEI-->
-                           dans les <choice> <orig> manieres</orig> <reg> manières</reg></choice> est souvent une suite de l'oisiveté, 
-                           ou de l'<choice> <orig> indifference</orig> <reg> indifférence</reg></choice>;
-                           &amp; il semble qu'un grand attachement ou de <choice> <orig> serieuses </orig> <reg> sérieuses</reg></choice>
-                           affaires jettent l'homme dans son naturel.
-                       </p> </div4>
-                       <div4 type="remark">
-                           <p> Tout le monde dit d'un sot, qu'il est un sot; personne n'ose lui dire à lui-<choice> <orig> meme</orig> <reg> même</reg></choice>  
-                           , il meurt sans le savoir, &amp; sans que personne se soit vangé. </p>
-                           
-                       </div4>
-               </div3>
-               
-               </div2>
-           </div1>
-       </body>
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       <back> <!-- Extrait du privilège du roi--> </back>
-   </text>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div1>
+                <!-- theophraste-->
+                <div2>
+                    <!--discours sur Theophraste-->
+                </div2>
+                <div2>
+                    <!-- Préface de Théophraste-->
+                </div2>
+                <div2>
+                    <!-- sommaire-->
+                </div2>
+                <div2>
+                    <!-- les caractères de Theophraste-->
+                    <div3 type="chapter">
+                        <head/>
+                        <p/>
+                    </div3>
+                </div2>
+            </div1>
+            <div1>
+                <!-- La Bruyère-->
+                <div2>
+                    <!-- faux titre : les caractères ou les moeurs de ce siècle-->
+                </div2>
+                <div2>
+                    <!--préface de La Bruyère-->
+                </div2>
+                <div2>
+                    <!--sommaire-->
+                </div2>
+                <div2>
+                    <!--les caractères de La Bruyère-->
+                    <div3 type="chapter">
+                        <head> De l'homme </head>
+                        <div4 type="remark">
+                            <p> l'affection dans le geste, dans le parler, &amp;
+                                <!-- j'ai trouvé cette solution pour le "&" mais aussi le &lt; sur le site de la TEI-->
+                                dans les <choice>
+                                    <orig> manieres</orig>
+                                    <reg> manières</reg>
+                                </choice> est souvent une suite de l'oisiveté, ou de l'<choice>
+                                    <orig> indifference</orig>
+                                    <reg> indifférence</reg>
+                                </choice>; &amp; il semble qu'un grand attachement ou de <choice>
+                                    <orig> serieuses </orig>
+                                    <reg> sérieuses</reg>
+                                </choice> affaires jettent <seg> l'homme dans son naturel.<note
+                                        resp="#BR" type="quote" place="bottom">
+                                        On pourrait faire un lien avec le naturel sauvage de l'homme (par exemple pour une aide d'analyse)
+                                    </note>
+                                </seg></p>
+                        </div4>
+                        <div4 type="remark">
+                            <p> Tout le monde dit d'un sot, qu'il est un <seg>  sot <note
+                                        type="gloss" n="1" target="Labruyere">
+                                <!-- fausse note --> 
+                                1.Qui a peu d'intelligence et peu de jugement.
+                                2. Qui dénote un manque d'intelligence et de jugement.
+                            </note></seg>
+                                ; personne n'ose lui dire à lui-<choice>
+                                    <orig> meme</orig>
+                                    <reg> même</reg>
+                                </choice> , il meurt sans le savoir, &amp; sans que personne se soit
+                                vangé. </p>
+
+                        </div4>
+                    </div3>
+
+                </div2>
+            </div1>
+        </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <back>
+            <!-- Extrait du privilège du roi-->
+        </back>
+    </text>
 </TEI>
