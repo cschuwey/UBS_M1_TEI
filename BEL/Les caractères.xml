@@ -8,7 +8,7 @@
                 <title>Les Caractères</title>
             </titleStmt>
             <publicationStmt>
-                <publisher>
+                <publisher xml:id="Bel">
                     <name>BEL</name>
                     <rolename>Etudiante</rolename>
                     <affiliation>UBS</affiliation>
@@ -16,9 +16,10 @@
                 <authority>BEL</authority><pubPlace>UBS</pubPlace>
                 <date when="2024-10-16">16 octobre 2024</date>
                 <date when="2024-10-28">28 octobre 2024</date>
+                <date when="2024-11-04">04 octobre 2024</date>
             </publicationStmt>
 
-            <!--Mauvaise compréhension de la consigne du devoir pour le TD3 ; j'avais pris des ouvrages publiés entre 1688 et 1694 soit les éditions de 1689 et 1692. J'ai donc modifié le code et repris les versions de 1688 et 1694-->
+ <!--Mauvaise compréhension de la consigne du devoir pour le TD3 ; j'avais pris des ouvrages publiés entre 1688 et 1694 soit les éditions de 1689 et 1692. J'ai donc modifié le code et repris les versions de 1688 et 1694-->
             <SourceDesc>
                 <bibl>
                 <author>
@@ -53,8 +54,7 @@
                 </bibl>
              </SourceDesc>
         </fileDesc>
-
-        <!--Les balises "profileDesc" ont été remplies à la suite d'une relecture des cours post-contrôle et à l'aide du site de référence-->
+         <!--Les balises "profileDesc" ont été remplies à la suite d'une relecture des cours post-contrôle et à l'aide du site de référence-->
         <profileDesc>
         <langUsage>
         <language ident="fr">Français</language>
@@ -80,16 +80,18 @@
         </div2>
         </div1>
     </front>
-
     <body>
         <div1><!--Les caractères de Théophraste--></div1>
 
         <div1><!--Les caractères de La Bruyère-->
             <div2 type="chapter" n="1">
             <head>Des Ouvrages de l'Esprit</head>
-            <div3>
-                <p type="remark" n="1">TOut e&s-long;t dit, &amp; l'on vient trop tard depuis plus de &s-long;ept mille ans qu'il y a des hom-mes, &amp; qui pen&s-long;ent. Sur ce qui concerne les moeurs le plus beau &amp; le meilleur e&s-long;t enlevé; l'on ne fait que glaner aprés les Anciens &amp; les habiles d'entre les Modernes.</p>
-                <p type="remark" n="2">&para;Il faut chercher &s-long;eulement à pen&s-long;er &amp; à parler ju&s-long;te, &s-long;ans vou-loir amener les autres à no&s-long;tre goût &amp; à nos &s-long;entiemens ; c'e&s-long;t une trop grande entrepri&s-long;e.</p>
+            <div3 type="remark">
+            <p>TOut eſt dit, &amp; l'on vient trop tard depuis plus de ſept mille ans qu'il y a des hom-mes, &amp; qui penſent. 
+            Sur ce qui concerne les moeurs le plus beau &amp; le meilleur eſt enlevé; l'on ne fait que glaner aprés <seg>les Anciens<note resp="#Bel" type="glossaire">ou Classiques sont les partisans de la supériorité du latin et du grec sur le français dans la querelle de 1687</note></seg> &amp; les habiles d'entre les Modernes.</p>
+            </div3>
+            <div3 type="remark">
+            <p>&para;Il faut chercher <seg>ſeulement<note resp="#Bel" status="en_cours" type="commentaire">le s long peut être inscrit grâce à la fonction copier et coller ou sous la forme suivante &s-long;</note></seg>à penſer &amp; à parler juſte, ſans vou-loir amener les autres à noſtre goût &amp; à nos ſentiemens ; c'eſt une trop grande entrepriſe.</p>
             </div3>
             </div2>
         </div1>
