@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name>Evren FEVE</name>
+                    <name xml:id="Feve">Evren FEVE</name>
                     <affiliation>Université Bretagne Sud</affiliation>
                     <roleName>Etudiante</roleName>
                 </publisher>
@@ -19,8 +19,9 @@
                 <bibl>
                     <title>Les caracteres de Theophraste , traduits du grec, avec Les caracteres ou
                         les moeurs de ce siecle</title>
-                    <author>Théophraste</author>
-                    <editor>Michallet</editor>
+                    <author xml:id="LaBruyère">La Bruyère</author>
+                    <editor xml:id="Michallet">Michallet</editor>
+                    <edition>Huitième édition augmentée</edition>
                     <date>1688</date>
                     <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385.r=caract%C3%A8res%20la%20bruy%C3%A8re?rk=21459;2</ref>
                     <date>10/04/2010</date>
@@ -80,10 +81,34 @@
                     <div3 type="chapter"/>
                     <div3 type="chapter">
                         <head>De la Chaire</head>
+                        <!-- Page 588 -->
                         <div4 type="remarque">
-                            <p>LE diſcours Chrétien eſt devenu un ſpectacle; cette trſteſſe Evangelique qui en eſt l'ame ne s'y remarque plus ; elle eſt ſuppléée par les avantages de la mine, par les inflexions de la voic, par la regularité du geſte, par le choix des mots, & par les longues énumerations : on n'écoute plus ſerieuſement la parole ſainte ; c'eſt une forte d'amuſement entre mille autres, c'eſt un jeu où il y a de l'émulation & des parieurs.</p>
-                            <p>L'Eloquence profane eſt tranſpoſée, pour ainſi dire, du Bareau, où LE MAÎTRE, PUCELLE, & FOURCROY l'ont fait regner, & où elle n'eſt plus d'uſage, à la Chaire où elle ne doit pas être. 
-                                <p>L'on fait aſſaut d'éloquence juſqu'au pied de l'Autel, & en la préſence des Myſteres : celuy qui écoute s'établit Juge de celuy qui prêche, pour condamner ou pour applaudir ; & n'eſt pas plus converti par le diſcours qu'il favoriſe, que par celuy auquel il eſt contraire. L'Orateur plaît aux uns, déplaît aux autres, & convient avec tous une choſe ; que comme il ne cherche point à les rendre meilleurs, ils ne penſent pas auſſi à le devenir.</p></p>
+                            <p>LE diſcours Chrétien eſt devenu un ſpectacle; cette trſteſſe
+                                Evangelique qui en eſt l'ame ne s'y remarque plus ; elle eſt
+                                ſuppléée par les avantages de la mine, par les inflexions de la
+                                voic, par la regularité du geſte, par le choix des mots, &amp; par
+                                les longues énumerations : on n'écoute plus ſerieuſement la parole
+                                ſainte ; c'eſt une forte d'amuſement entre mille autres, c'eſt un
+                                jeu où il y a de l'émulation &amp; des parieurs.</p>
+                        </div4>
+                        <div4 type="remarque">
+                            <p><seg>L'Eloquence profane eſt tranſpoſée<note place="margin"
+                                        type="context" resp="#LaBruyère">De façon non
+                                        littérale...</note></seg>, pour ainſi dire, du Bareau, où LE
+                                MAÎTRE, PUCELLE, &amp; FOURCROY l'ont fait regner, &amp; où elle
+                                n'eſt plus d'uſage, à la Chaire où elle ne doit pas être.</p>
+                            <p> L'on fait aſſaut d'éloquence juſqu'au pied de l'<seg>Autel<note
+                                        place="margin" type="gloss" resp="#Feve">Hi</note>Tertre ou
+                                    table de pierre à l'usage des sacrifices offerts aux
+                                    dieux.</seg>, &amp; en la préſence des Myſteres : celuy qui
+                                écoute s'établit Juge de celuy qui prêche, pour condamner ou pour
+                                applaudir ; &amp; n'eſt pas plus converti par le diſcours qu'il
+                                favoriſe, que par celuy auquel il eſt contraire. <seg>L'Orateur<note
+                                        place="margin" type="gloss" resp="#Feve">Personne qui
+                                        compose ou prononce des discours.</note></seg> plaît aux
+                                uns, déplaît aux autres, &amp; convient avec tous une choſe ; que
+                                comme il ne cherche point à les rendre meilleurs, ils ne penſent pas
+                                auſſi à le devenir.</p>
                         </div4>
                     </div3>
                 </div2>
