@@ -3,106 +3,115 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Numérisation De La Bruyère</title>  
+                <title>Numérisation De La Bruyère</title>
             </titleStmt>
-            
             <publicationStmt>
-                <publisher>
-                    <name>Camille Mauperon</name>
-                    <roleName>Etudiante</roleName>
+                    <publisher>
+                     <name xml:id="CM">Camille Mauperon</name>                    
+                     <roleName>Etudiante</roleName>
                     <affiliation>UBS</affiliation>
                 </publisher>
             </publicationStmt>
-            
+
             <sourceDesc>
                 <bibl>
                     <author>Théophraste</author>
-                    <author><forename>Jean</forename> <name>De La Bruyère</name></author>
-                    <title>Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title> 
+                    <author><forename>Jean</forename>
+                        <name>De La Bruyère</name></author>
+                    <title>Les caractères de Théophraste , traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle</title>
                     <editor>Michallet</editor>
                     <date>1688</date>
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m.r=Les%20Caract%C3%A8res%20La%20Bruy%C3%A8re?rk=42918;4</ref>
                     <date when="2007-10-15"/>
                 </bibl>
-                
+
                 <bibl>
-                    <author><forename>Jean</forename> <name>De La Bruyère</name></author>
-                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle</title> 
+                    <author><forename>Jean</forename>
+                        <name>De La Bruyère</name></author>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                        les moeurs de ce siècle</title>
                     <editor>Michallet</editor>
                     <date>1699</date>
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8716771x.r=Les%20Caract%C3%A8res%20La%20Bruy%C3%A8re?rk=128756;0</ref>
-                    <date when="2007-10-15"/>    
+                    <date when="2007-10-15"/>
                 </bibl>
-                
+
             </sourceDesc>
-            
+
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
                 <p>Projet d'édition numérique De La Bruyère</p>
             </projectDesc>
         </encodingDesc>
-        
-        
+
+
     </teiHeader>
-    <text> 
-        <front>
-            
-        </front>
-        
-        
+    <text>
+        <front> </front>
+
+
         <body>
-            <div1><!-- Théophraste-->
+            <div1>
+                <!-- Théophraste-->
                 <div2><!-- Discours sur Théophraste--></div2>
                 <div2><!-- Préface de Théophraste--></div2>
                 <div2><!-- Sommaire--></div2>
-                <div2><!-- Les Caractère de Théophraste-->
+                <div2>
+                    <!-- Les Caractère de Théophraste-->
                     <div3 type="chapitre">
-                        <head></head>
-                        <p></p>
+                        <head/>
+                        <p/>
                     </div3>
-               </div2>
+                </div2>
             </div1>
-            
-            <div1><!-- La Bruyère-->
+
+            <div1>
+                <!-- La Bruyère-->
                 <div2><!-- faux titre--></div2>
                 <div2><!-- Préface de La Bruyère--></div2>
                 <div2><!-- Sommaire--></div2>
-                <div2><!-- Les Caractères ou les meours de ce siècle-->
+                <div2>
+                    <!-- Les Caractères ou les meours de ce siècle-->
                     <div3 type="Chapter">
                         <head>Du Coeur.</head>
                         <div4 type="remark">
-                            <p>Quelques-uns ſe défendent 
-                                d'aimer &amp; de faire des vers,
-                                comme de deux foibles qu'ils n'oſent avouer ; l'un du coeur, 
-                                l'autre de l'eſprit.</p>
+                            <p>Quelques-uns 
+                                <seg>ſe<note resp="#CM" type="gloss" place="bottom">Le s long (ſ) est la forme ancienne de la lettre s minuscule. Depuis l'uniformisation de l'écriture par Charlemagne et l'apparition de la caroline ou minuscule carolingienne, on n'utilisait que le s long, qu'un lecteur non averti confondrait aujourd'hui avec un f.</note></seg> 
+                                défendent d'aimer &amp; de faire des vers, comme de
+                                deux foibles qu'ils n'oſent avouer ; l'un du 
+                                <seg>coeur<note resp="#CM" type="definition" place="margin">Organe musculaire creux, qui constitue l'élément moteur central de la circulation du sang</note></seg>
+                                , l'autre de
+                                l'eſprit.</p>
                             <!-- Pour le "&" j'ai trouvé cette solution sur internet &amp;-->
-                            
-                            <p>Regretter ce que l'on aime
-                                eſt un bien, en comparaiſon
-                                de vivre avec ce que l'on hait.</p>
-                            
-                            <p>Vouloir oublier quelqu'un,
-                               c'eſt y penſer. L'amour a cela 
-                               de commun avec les ſcrupules,
-                               qu'il s'aigrit par les reflexions
-                               &amp;les retours que l'on fait pour
-                               s'en délivrer. Il faut, s'il ſe
-                               peut, ne point ſonger à la 
-                               paſſion pour l'affoiblir.
-                            </p>
-                            
+                        </div4>
+
+                        <div4>
+
+                            <p>Regretter ce que l'on aime eſt un bien, en comparaiſon de vivre avec
+                                ce que l'on hait.</p>
+                        </div4>
+
+                        <div4>
+
+                            <p>Vouloir oublier quelqu'un, c'eſt y penſer. L'amour a cela de commun
+                                avec les ſcrupules, qu'il s'aigrit par les reflexions &amp;les
+                                retours que l'on fait pour s'en délivrer. Il faut, s'il ſe peut, ne
+                                point ſonger à la paſſion pour l'affoiblir. </p>
+
                             <p> </p>
-                        </div4></div3></div2></div1>
-                        
-                   
-            
-            
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+
+
+
+
         </body>
-        
-        <back>
-            
-        </back>
+
+        <back> </back>
     </text>
 </TEI>
