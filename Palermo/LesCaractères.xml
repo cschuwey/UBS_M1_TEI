@@ -4,6 +4,10 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères</title>
+                <principal xml:id="Elsa">Elsa</principal>
+                <author xml:id="LaBruyère">La Bruyère</author>
+                <!-- Comment on met un responsable de note ? On est quoi ? -->
+
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -12,38 +16,38 @@
                     <roleName>Etudiante</roleName>
                     <date when="2024-10-17">17 Octobre 2024</date>
                 </publisher>
-                <address><addrLine>Université Bretagne Sud</addrLine></address>
+                <address><addrLine>Université Bretagne SUD</addrLine></address>
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                <bibl>
-                    <title>Les Caractères ou les Moeurs de ce siècle</title>
-                    <author><forename>Jean</forename>
-                        <name>De La Bruyère</name></author>
-                    <date>1688</date>
-                    <publisher>Estienne Michallet</publisher>
-                    <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
-                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=42918;4</ref>
-                </bibl>
-                <bibl>
-                    <title>Les Caractères ou les Moeurs de ce siècle</title>
-                    <title type="sub">Neuvième édition</title>
-                    <author><forename>Jean</forename>
-                        <name>De La Bruyère</name></author>
-                    <date>1696</date>
-                    <publisher>Estienne Michallet</publisher>
-                    <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
-                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57579b?rk=42918;4</ref>
-                </bibl>
+                    <bibl>
+                        <title>Les Caractères ou les Moeurs de ce siècle</title>
+                        <author><forename>Jean</forename>
+                            <name>De La Bruyère</name></author>
+                        <date>1688</date>
+                        <publisher>Estienne Michallet</publisher>
+                        <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=42918;4</ref>
+                    </bibl>
+                    <bibl>
+                        <title>Les Caractères ou les Moeurs de ce siècle</title>
+                        <title type="sub">Neuvième édition</title>
+                        <author><forename>Jean</forename>
+                            <name>De La Bruyère</name></author>
+                        <date>1696</date>
+                        <publisher>Estienne Michallet</publisher>
+                        <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57579b?rk=42918;4</ref>
+                    </bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Projet d'édition numérique des Caractères de la Bruyère</p>
+                <p>Prejet d'édition numérique des Caractères de la Bruyère</p>
             </projectDesc>
             <editorialDecl>
-                <p>les s long ont été laissés</p>
+                <p>les s long on été modernisé</p>
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
@@ -59,15 +63,16 @@
                 div2 = préface
                 div3 = sommaire
                 -->
-            <head>Les caractères de Théophraste traduit du grec ancien avec les caractères ou les moeurs de ce siècle</head>
-         
-           
+            <head>Les caractères de Théophraste traduit du grec ancien avec les caractères ou les
+                moeurs de ce siècle</head>
+
+
             <div1>
                 <head>Discours sur Théophraste</head>
                 <p>le contenu</p>
-            </div1> 
+            </div1>
             <div1>
-                    <head>Préface</head>
+                <head>Préface</head>
                 <div2>
                     <head>Le sommaire</head>
                     <list type="gloss">
@@ -75,9 +80,9 @@
                         <item> </item>
                         <!-- ... -->
                     </list>
-                </div2>   
-           </div1>
-            <div1> 
+                </div2>
+            </div1>
+            <div1>
                 <head>Les caractères de la Bruyère</head>
                 <div2>
                     <head>Préface</head>
@@ -92,8 +97,8 @@
                     </list>
                 </div2>
             </div1>
-            
-            
+
+
         </front>
         <body>
             <!-- Selon cours 
@@ -110,7 +115,7 @@
                 div2 = faux titre
                 same
             -->
-            
+
             <div1>
                 <head>Les caractères de Théophraste</head>
                 <div2 type="chapter">
@@ -120,9 +125,9 @@
                     </div3>
                     <!-- Répéter la div3 x fois -->
                 </div2>
-                    <!-- Répéter la div 2 autant que nécessaire -->
+                <!-- Répéter la div 2 autant que nécessaire -->
             </div1>
-            
+
             <div1>
                 <head>Les caractères ou les moeurs de ce siècle</head>
                 <div2 type="chapter">
@@ -144,21 +149,30 @@
                     <head>Des Grands</head>
                     <!-- page 252 -->
                     <div3 type="remark">
-                        <p>La prevention du peuple en faveur de <g ref="#long-s">s</g>es Princes e<g ref="#long-s">s</g>t <g ref="#long-s">s</g>i
-                            aveugle, &amp; l'ente<g ref="#long-s">s</g>tement pour leur ge<g ref="#long-s">s</g>te, leur vi<g ref="#long-s">s</g>age, leur ton de voix
-                            &amp; leurs manieres <g ref="#long-s">s</g>i general;que s'ils s'avi<g ref="#long-s">s</g>oient d'e<g ref="#long-s">s</g>tre bons,
-                            cela iroit à l'idolâtrie, le <g ref="#long-s">s</g>eul mal <g ref="#long-s">s</g>ous ce regne que l'on pouvoit craindre.
-                        </p>
-               <!-- Dans le TEI guideline on a trouvé <g ref="#long-s">s</g> pour coder les S longs, et <g> représente les glyphs et les caractères non standard (section 17 Guideline) -->
-               <!-- Pour & on a trouvé : &amp;-->
+                        <p><seg>La prevention du peuple en faveur de ſes Princes eſt ſi aveugle<note
+                                    type="edit">Ici LaBruyère met en avant l'aveuglement du peuple,
+                                    suivant ses princes sans réfléchir </note></seg>, &amp;
+                            l'enteſtement pour leur geſte, leur viſage, leur ton de voix &amp; leurs
+                            manieres ſi general;que s'ils s'aviſoient d'eſtre bons, cela iroit à
+                                    l'<seg>idolâtrie<note type="gloss" resp="#Elsa"> Passion ou
+                                    admiration excessive vouée à quelqu'un, attachement aveugle,
+                                    quasi religieux, à quelque chose (Larousse) </note></seg>, le
+                            ſeul mal ſous ce regne que l'on pouvoit craindre. </p>
+                        <!-- Dans le TEI guideline on a trouvé <g ref="#long-s">s</g> pour coder les S longs, et <g> représente les glyphs et les caractères non standard (section 17 Guideline) -->
+                        <!-- Pour & on a trouvé : &amp;-->
                         <!-- J'ai décidé de faire des retours à la ligne de temps en temps pour me faciliter la lecture, vu que cela ne  change rien au code-->
-                        <p><g ref="pied de mouche"/> L'avantage des Grands <g ref="#long-s">s</g>ur les autres hommes e<g ref="#long-s">s</g>t immen<g ref="#long-s">s</g>e
-                            par un endroit : je leur cede leur bonne chere, leurs riches, ameublemens , leurs chiens , leurs chevaux, leurs <g ref="#long-s">s</g>inges,
-                            leurs nains, leurs fous &amp; leurs flateurs ; mais je leur envie le bonheur d'avir à leur <g ref="#long-s">s</g>ervice
-                            des gens qui les égalent par le cœur, &amp; par l'e<g ref="#long-s">s</g>prit, &amp; qui les pa<g ref="#long-s">ss</g>ent quelquefois.
-                        </p>
+                        <p><g ref="pied de mouche"/> L'avantage des Grands ſur les autres hommes eſt
+                            immenſe par un endroit : je leur cede leur bonne chere, leurs riches,
+                            ameublemens , leurs chiens , leurs chevaux, leurs ſinges, leurs nains,
+                            leurs fous &amp; leurs flateurs ; mais je leur envie le bonheur d'avir à
+                            leur ſervice des gens qui les égalent par le cœur, &amp; par l'eſprit,
+                            &amp; qui les paſſent <seg> quelquefois <note type="author"
+                                    resp="#LaBruyère">parfois</note></seg>.</p>
                         <!-- pour enoder le pied de mouche je suis partie sur <g ref ="pied de mouche"/> -->
-   
+                        <!-- Il n'y a pas de notes dans l'extrait, elles sont fictives
+                        on peut donner quoi comme type à une note ? 
+                        Comment intituler les types ? si c'est une variante, une explication de l'éditeur, on appelle ça comment ? -->
+
                     </div3>
                 </div2>
             </div1>
