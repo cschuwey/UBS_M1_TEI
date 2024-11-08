@@ -1,143 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org">
-    <teiHeader> <!-- TD3 TEIHeader -->
-        
+    <teiHeader>
+        <!-- TD3 TEIHeader -->
+
         <fileDesc>
-            <titleStmt> <!-- titre que l'on va donner au document numérique-->
+            <titleStmt>
+                <!-- titre que l'on va donner au document numérique-->
                 <title> Les Caractères </title>
-                <author> <name> Jean </name> de La Bruyère </author>
+                <author xml:id="LaBruyere">
+                    <name> Jean </name> de La Bruyère </author>
+                <title> Les caractères de Théophraste</title>
+                <author>Théophraste</author>
             </titleStmt>
-            
+
             <!-- Contenu du doc : qui l'a créé, quand... -->
             <publicationStmt>
-                <publisher> 
-                    <name> Auréline Maillard</name>
-                    <affiliation>UBS</affiliation> <!--l'organisme qui nous charge de coder, qui prend en charge-->
+                <publisher>
+                    <name xml:id="Aureline"> Auréline Maillard</name>
+                    <affiliation>UBS</affiliation>
+                    <!--l'organisme qui nous charge de coder, qui prend en charge-->
                     <roleName>Etudiante</roleName>
                 </publisher>
-                <date when="2024-10-16"/> <!--cette date ne sera pas visible-->
+                <date when="2024-10-16"/>
+                <!--cette date ne sera pas visible-->
             </publicationStmt>
-            
+
             <!-- Information de publication -->
             <sourceDesc>
                 <bibl>
                     <editionStmt>
-                    <p>Première édition, <date>1688</date></p>
-                    <author> <name> Jean </name> de La Bruyère </author> <!-- commencer dès maintenant à préciser le + possible les noms des auteurs pour M2-->
-                    <title>Les Caractères</title>
-                    <publisher>Thomas Amaulry</publisher>
-                    <date>1688</date>
-                    <idno>RES-R-2058</idno>
-                    <pubplace> Lyon </pubplace> <!-- endroit ou ca a été publié -->
+                        <p>Première édition, <date>1688</date></p>
+                        <author>
+                            <name> Jean </name> de La Bruyère </author>
+                        <!-- commencer dès maintenant à préciser le + possible les noms des auteurs pour M2-->
+                        <title>Les Caractères</title>
+                        <publisher>Thomas Amaulry</publisher>
+                        <date>1688</date>
+                        <idno>RES-R-2058</idno>
+                        <pubplace> Lyon </pubplace>
+                        <!-- endroit ou ca a été publié -->
                         <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385/f1.planchecontact.r=les%20carct%C3%A8res%20de%20th%C3%A8ophaste</ref>
-                        <!-- cette balise sert à mettre le lien d'ou est ce que l'on a tiré le document, comme Gallica, très utile--> 
+                        <!-- cette balise sert à mettre le lien d'ou est ce que l'on a tiré le document, comme Gallica, très utile-->
                     </editionStmt>
-                    
+
                     <editionStmt>
                         <p>Deuxième édition, <date>1694</date></p>
-                        <author> <name> Jean </name> de La Bruyère </author> 
+                        <author>
+                            <name> Jean </name> de La Bruyère </author>
                         <title>Les Caractères</title>
                         <publisher>E. Michallet</publisher>
                         <date>1694</date>
                         <idno>8-Z LE SENNE-13969</idno>
-                        <pubplace> Paris </pubplace> 
-                        <ref>https://catalogue.bnf.fr/ark:/12148/cb32333303c</ref>        
+                        <pubplace> Paris </pubplace>
+                        <ref>https://catalogue.bnf.fr/ark:/12148/cb32333303c</ref>
                     </editionStmt>
-                    
-                </bibl> <!-- il s'agit d'entrée bibliographique, faiblement/sous structurée, cela signifie que l'on fait la description 
+
+                </bibl>
+                <!-- il s'agit d'entrée bibliographique, faiblement/sous structurée, cela signifie que l'on fait la description 
                 du document, précisement la bibliographie du livre-->
-            
-                
+
+
             </sourceDesc>
-            
+
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
-                <p></p>
-            </projectDesc> 
+                <p/>
+            </projectDesc>
             <editorialDecl>
-                <p></p> <!-- decrit nos choix pr encodage -->
+                <p/>
+                <!-- decrit nos choix pr encodage -->
             </editorialDecl>
         </encodingDesc>
     </teiHeader>
-    
-<text>
-    <front>
-        
-        <div1 type="Preface"> <!-- Discours sur Theophraste --> 
-            <div2> <!-- Sommaire --> </div2>
-            <div2> <!-- les caractères de Théophraste --> 
-            
-                <div3 type="Chapter"> <!-- chapitre--> 
-            <head> <!-- titre du chapitre--> </head>           
-            
-                     <div4> <!-- pied de mouche, paragraphes-->
-                         
-                         <head type="paragraph mark"></head>
-                         <p> ... </p>
-                         
-                     </div4>
-                </div3>
-            </div2>
-        </div1>
-            
-        <div1 type="Preface"> <!-- Les caractères ou les moeurs -->  <!-- il s'agit de niveau de profondeur, 
+
+    <text>
+        <front>
+
+            <div1 type="Preface">
+                <!-- Discours sur Theophraste -->
+                <div2>
+                    <!-- Sommaire -->
+                </div2>
+                <div2>
+                    <!-- les caractères de Théophraste -->
+
+                    <div3 type="Chapter">
+                        <!-- chapitre-->
+                        <head>
+                            <!-- titre du chapitre-->
+                        </head>
+
+                        <div4>
+                            <!-- pied de mouche, paragraphes-->
+
+                            <head type="paragraph mark"/>
+                            <p> ... </p>
+
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+
+            <div1 type="Preface">
+                <!-- Les caractères ou les moeurs -->
+                <!-- il s'agit de niveau de profondeur, 
                                                                       il faut penser structure avant tout, comment les diff éléments 
                                                                       du doc s'imbriquent ensemble, savoir organiser, structurer -->
-        <div2> <!-- Sommaire -->
-        <div3 type="Chapter">
-            <head> De la Cour </head> <!-- chapitre--> 
-        <div4> <!-- pied de mouche, paragraphes-->        
-            
-            <p> <ab type="pilcrow"/> <!--Pied de mouche--> Le favory n'a point de fuites, il eft fans engagement &amp; 
-                fans liaifons , il peut eftre entouré de parens &amp; de creatures , mais il n'y tient pas ; il eft détaché de tout , 
-                &amp; comme ifolé.
-            </p>            
-            <p> <ab type="pilcrow"/> Une grande parure pour le favory difgracié , c'eft la retraitte : il luy eft avantageux de 
-                difparoiftre , plûtoft que de traîner dans la Ville le debris d'une faveur qu'il a perduë , &amp; de faire un
-                nouveau perfonnage fi different du premier qu'il a foûtenu : il conferve au contraire le merveilleux de fa vie
-                dans la folitude ; &amp; mourant pour ainfi dire avant la caducité , il ne laiffe de foy qu'une belle idée &amp;
-                une memoire agreable.            
-            </p>
-            
-        </div4>         
-        </div3>        
-        </div2>   
-        </div1>        
-        
-        
-       
- 
-             
-             
-    </front>    
-</text> 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- 
-    
-  
+                <div2>
+                    <!-- Sommaire -->
+                    <div3 type="Chapter">
+                        <head> De la Cour </head>
+                        <!-- chapitre-->
+                        <div4>
+                            <!-- pied de mouche, paragraphes : parfois des paragraphes vont ensemble, il faut donc une Div4 pour les mettre ensemble. 
+        puis, a chaque nouveau pied de mouche, une nouvelle balise div4 sera utilisé puis refermée, ainsi de suite-->
+
+                            <p>
+                                <ab type="pilcrow"/>
+                                <!--Pied de mouche--> Le favory n'a point de fuites, il eft fans
+                                engagement &amp; fans liaifons , il peut eftre entouré de parens
+                                &amp; de creatures , mais il n'y tient pas ; il eft détaché de tout
+                                , &amp; comme ifolé. </p>
+                            <p>
+                                <ab type="pilcrow"/> Une grande parure pour le <seg>favory<note
+                                        type="comment" resp="#Aureline" place="top"> Petit café ?
+                                    </note></seg> difgracié , c'eft la retraitte : il luy eft
+                                avantageux de difparoiftre , plûtoft que de traîner dans la Ville le
+                                debris d'une faveur qu'il a perduë , &amp; de faire <seg> un nouveau
+                                    perfonnage fi different du premier <note type="gloss"
+                                        resp="#LaBruyere" place="bottom"> c'est la Bruyère qui a
+                                        écrit donc faire une #resp paraît pertinent</note></seg>
+                                qu'il a foûtenu : il conferve au contraire le merveilleux de fa vie
+                                dans la folitude ; &amp; <seg>mourant<note type="des"
+                                        place="margin" resp="#Aureline">Contenu de la
+                                    note</note></seg> pour ainfi dire avant la caducité , il ne
+                                laiffe de foy qu'une belle idée &amp; une memoire agreable. </p>
+
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+
+
+
+
+
+
+        </front>
+    </text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </TEI>
