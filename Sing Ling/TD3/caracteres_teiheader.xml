@@ -38,11 +38,25 @@
                     <date>1688</date>
                     <idno n="1" when="1688">ark:/12148/btv1b86070385</idno>
                     <idno n="2" when="1694">ark:/12148/bpt6k57577n</idno>
+                    <edition n="1" xml:id="C_1">PREMIERE EDITION</edition>
+                    <edition n="2" xml:id="C_2">DEUXIEME EDITION</edition>
                     <ref>Bibliothèque nationale de France</ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+                <glyph xml:id="pied_de_mouche">
+                    <desc> ¶ pied de mouche : remarque apparue à la première édition</desc>
+                </glyph>
+                <glyph xml:id="pied_de_mouche_simple">
+                    <desc>(¶) pied de mouche parenthèse simple : remarque apparue à la quatrième
+                        édition</desc>
+                </glyph>
+                <glyph xml:id="pied_de_mouche_double">
+                    <desc> ((¶)) pied de mouche parenthèse double : remarque apparue à la cinquième
+                        édition</desc>
+                </glyph>
+            </charDecl>
             <projectDesc><p>Projet d'édition numérique des Caractères de Théophraste traduits du grec ancien par Jean de la Bruyère</p></projectDesc>
             <editorialDecl><p>(à voir)</p></editorialDecl>
         </encodingDesc>
@@ -142,17 +156,38 @@
             
             
             <div2 type="chapter"> <head>DE LA MODE </head>
-             <div3 type="remark" n="1">
-                        <p>Une choſe folle &amp; qui découvre bien noſtre petiteſſe, c'eſt
+             <div3 type="remark" source="#C_1 #C_2">
+                        <p>Une choſe folle &amp; qui découvre bien <app>
+                                <lem>noſtre</lem>
+                                <rdg wit="#C_2">nôtre</rdg>
+                            </app> noſtre petiteſſe, c'eſt
                             l'aſſujettissement aux modes quand on l'étend à ce qui concerne le
                             gouſt, le vivre, la ſanté et la conſcience. La viande noire eſt hors de
-                            mode &amp; par cette raiſon inſipide : ce ſeroit pecher contre la mode que
-                            de guerir de la fiévre par la ſaignée : de meſme l'on ne mourroit plus
+                            mode &amp; par cette raiſon inſipide : ce ſeroit <seg>p<app type="spell">
+                                    <rdg wit="#C_1">e</rdg>
+                                    <rdg wit="#C_2">é</rdg>
+                                </app>echer </seg> contre la mode que
+                            de <seg>gu<app type="spell">
+                                        <rdg wit="#C_1">e</rdg>
+                                        <rdg wit="#C_2">é</rdg>
+                                    </app>rir </seg> de la fiévre par la ſaignée : de meſme l'on ne mourroit plus
                             depuis long temps par Theotime ; festendres exhortations ne fauvoient
                             plus que le peuple, &amp; Theot. a veu fon <seg>fucceffeur.<note type="gloss" resp="#GSL">successeur (graphie du FMC)</note></seg></p>
                     </div3>
-                    <div3 type="remark" n="2">
-                        <p>Le duel eſt le triomphe de la mode, &amp; l'endroit où elle a exercé la
+                 <div3 type="remark" source="#C_2">
+                        <p>
+                            <g ref="#pied_de_mouche" source="#C_2"/>La curiofité n'eft pas un goût
+                            pour ce qui eft bon ou ce qui eft beau, mais pour ce qui eft rare,
+                            unique, pour ce qu'on a, &amp; ce que les n'ont point. Ce n'eft pas un
+                            attachement à ce qui eft parfait, mais à ce qui eft couru, à ce qui eft
+                            à la mode. Ce n'eft pas un amufement, mais une paffion, &amp; fouvent fi
+                            violente, qu'elle ne cede à l'amour &amp; à l'ambition que par la
+                            petiteffe de fon objet. Ce n'eft pas une paffion qu'on a generalement
+                            pour les chofes rares &amp; qui ont cours ; mais qu'on a feulement pour
+                            une certaine chofe qui eft rare, &amp; pourtant à la mode. </p>
+                    </div3>
+                    <div3 type="remark" source="#C_1 #C_2">
+                        <p> <g ref="#pied_de_mouche" source="#C_1"/> Le duel eſt le triomphe de la mode, &amp; l'endroit où elle a exercé la
                             tyrannie avec plus d'éclat ; cet uſage n'a pas laiſſé au poltron la
                             liberté de vivre, il l'a mené ſe faire tuer par un plus brave que foy,
                             &amp; l'a confondu avec un homme de coeur, il a attaché de l'honneur, &amp; de
