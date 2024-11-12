@@ -21,7 +21,7 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl>
+                    <bibl xml:id="version1688">
                         <author><name>Théophraste</name></author>
                         <title> Les caractères de Théophraste , traduits du grec, avec Les
                             caractères ou les moeurs de ce siècle</title>
@@ -34,7 +34,7 @@
                         <date type="digitalization" when="2010-10-04"/>
                         <!-- <idno/> = référence, numéro d'identification -->
                     </bibl>
-                    <bibl>
+                    <bibl xml:id="version1691">
                         <author><forename>Jean</forename>
                             <surname>de La Bruyère</surname></author>
                         <title> Les Caractères de Théophraste, traduits du grec, avec les Caractères
@@ -54,6 +54,20 @@
                 <p>Transcription des Caractères de La Bruyère en document XML TEI par C.LE GUILLOU à
                     partir des éditions de 1688 et de 1691.</p>
             </projectDesc>
+            <charDecl>
+                <glyph xml:id="pdm1">
+                    <desc>¶</desc>
+                    <localProp value="affiche le début d'une nouvelle remarque" name="entity"/>
+                </glyph>
+                <glyph xml:id="pdm4">
+                    <desc>(¶)</desc>
+                    <localProp value="ajout remarque édition 4" name="entity"/>
+                </glyph>
+                <glyph xml:id="pdm5">
+                    <desc>((¶))</desc>
+                    <localProp value="ajout remarque édition 5" name="entity"/>
+                </glyph>
+            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -98,15 +112,18 @@
                 </div2>
                 <div2>
                     <div3 type="chapter" n="10">
-                        <head>Du Souverain</head>
-                        <div4 type="remark" n="1">
-                            <p> ¶ Le caractère des <seg>François<note type="gloss" n="1" resp="#CLG"> <!-- note --></note></seg> demande du
+                        <head source="#version1688">Du Souverain<app><rdg wit="#version1688"/><rdg wit="#version1691">, ou De La Republique.</rdg></app></head>
+                        <div4 type="remark">
+                            <p source="#version1688"><g ref="#pdm1"/> Le caract<app type="spell"><rdg wit="#version1688">è</rdg><rdg wit="#version1691">e</rdg></app>re des <seg>François<note type="gloss" n="1" resp="#CLG"> <!-- note --></note></seg> demande du
                                 ſerieux dans le Souverain.</p>
                         </div4>
-                        <div4 type="remark" n="2">
-                            <p> ¶ L'un des malheurs du Prince eſt d'eſtre ſouvent trop plein de ſon
+                        <div4 type="remark">
+                            <p source="#version1688"><g ref="#pdm1"/> L'un des malheurs du Prince eſt d'eſtre ſouvent trop plein de ſon
                                 ſecret, par le peril qu'il y a à le répandre ; ſon bonheur eſt de
                                 rencontrer <seg>une perſonne ſeure<note type="footnote" n="2" resp="#EM"><!-- note de bas de page --></note></seg> qui l'en décharge.</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p source="#version1691"><g ref="#pdm1"/> Quand le peuple eſt en mouvement, on ne comprend pas par où le calme y peut rentrer; &amp; quand il eſt paiſible, on ne voit pas par où le calme en peut ſortir.</p>
                         </div4>
                     </div3>
                 </div2>
