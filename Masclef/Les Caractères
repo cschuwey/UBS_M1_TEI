@@ -30,6 +30,7 @@
                     <idno>RES-R-2056</idno>
                     <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item#</ref>
                     <date type="digitalization" when="2010-10-04">04 octobre 2010</date>
+                    <edition xml:id="version1">Version 1</edition>
                 </bibl>
                 <bibl>
                     <author><forename>Jean</forename><name>de La Bruyère</name></author>
@@ -39,8 +40,9 @@
                         les moeurs de ce siècle,Cinquième édition</title>
                     <date type="publication">1690</date>
                     <idno> R-18790</idno>
-                    <ref>http://catalogue.bnf.fr/ark:/12148</ref>
+                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8704023j?rk=42918;4</ref>
                     <date type="digitalization" when="2023-11-22">22 novembre 2023</date>
+                    <edition xml:id="Version5">Version 5</edition>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -51,6 +53,17 @@
             <editorialDecl>
                 <p>Les s long ont été modernisés</p>
             </editorialDecl>
+            <charDecl>
+                <glyph xml:id="PdmSimple">
+                    <desc>pied de mouche simple ¶</desc>
+                </glyph>
+                <glyph xml:id="ParSimple">
+                    <desc>pied de mouche avec parenthèse (¶)</desc>
+                </glyph>
+                <glyph xml:id="ParDouble">
+                    <desc>pied de mouche avec double parenthèses ((¶))</desc>
+                </glyph>
+            </charDecl>
         </encodingDesc>
     </teiHeader>
     <text>
@@ -76,20 +89,36 @@
                     <div3 type="chapter">
                         <head>De l'Homme</head>
                         <div4 type="remark">
-                            <p n="1"><seg>Ne nous emportons point contre les hommes<note
-                                        type="gloss" resp="EDT">L'auteur nous demande de ne pas
-                                        reprocher aux hommes leurs défauts</note></seg> envoyant
-                                leur dureté, leur ingratitude, leur injustice, leur fierté, l'amour
-                                qu'ils ont pour eux-mefmes, &amp; l'oubli où ils font des autres;
-                                ils font ainfi faits, c'eft leur nature, c'eft ne pouvoir fupporter
-                                que la pierre tombe, ou que le feu s'éleve.</p>
-                            <p n="2">Les hommes <seg>ne s'attachent pas affez à ne point manquer les
+                            <p><seg>Ne nous emportons point contre les hommes<note type="gloss"
+                                        resp="EDT">L'auteur nous demande de ne pas reprocher aux
+                                        hommes leurs défauts</note></seg> envoyant leur dureté, leur
+                                ingratitude, leur injustice, leur fierté, l'amour <app>
+                                    <lem wit="#version1">
+                                        <!--Le document TEI semble accepté que l'on rajoute l'attribut "version 1" dans le <lem> mais je ne suis pas sûre
+                                        que ça soit pertinant, vu qu'on en a pas parlé en cours-->
+                                        qu'ils ont pour</lem>
+                                    <rdg wit="#Version5">d'</rdg>
+                                </app> eux-mefmes, &amp; l'oubl <app>
+                                    <lem wit="#version1">i où ils font</lem>
+                                    <rdg wit="#Version5">y</rdg>
+                                </app> des autres; ils font ainfi faits, c'eft leur nature, c'eft ne
+                                pouvoir fupporter que la pierre tombe, ou que le feu s'éleve.</p>
+
+                            <p source="#Version5"> <g source="#Version5" ref="#PdmSimple"/> les hommes en un fens ne font point legers, ou ne
+                                le font que dans les petites chofes : ils changent de goût
+                                quelquefois; ils gardent leurs moeurs toûjours mauvaifes, fermes
+                                &amp; conftant dans le mal, ou dans l'indifference pour la vertu. </p>
+
+                            <p><g source="#version1 #Version5" ref="#PdmSimple"/>Les hommes <seg>ne s'attachent pas affez à ne point manquer les
                                     occasions de faire plaifir<note type="gloss" resp="ENC">La
                                         double négation donne l'idée suivante; Les hommes ne se
                                         préoccupent pas de faire plaisir</note></seg>; il femble que
                                 l'on n'entre dans un employ que pour pouvoir obliger, &amp; n'en
-                                rien faire la chofe la plus prompte &amp; &amp; qui fe prefente
-                                d'abord, c'eft le refus, &amp; l'on n'accorde que par reflexion</p>
+                                rien faire la chofe la plus prompte &amp; <app>
+                                    <lem wit="#version1">&amp;</lem>
+                                    <rdg wit="#Version5"/>
+                                </app> qui fe prefente d'abord, c'eft le refus, &amp; l'on n'accorde
+                                que par reflexion</p>
                         </div4>
                     </div3>
                 </div2>
