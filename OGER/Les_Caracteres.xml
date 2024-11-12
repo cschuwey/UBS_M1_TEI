@@ -4,14 +4,15 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères, première et sixième éditions</title>
-                <author xml:id="La Bruyère"></author> <!-- les notes sont fictives, il n'y en avait pas dans ma partie -->
-                <author xml:id="Miranda Oger"></author>
+                <author xml:id="La Bruyère"/>
+                <!-- les notes sont fictives, il n'y en avait pas dans ma partie -->
+                <author xml:id="Miranda Oger"/>
             </titleStmt>
             <publicationStmt>
                 <p/>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="version1">
                     <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
                         les moeurs de ce siècle.</title>
                     <edition>Première édition</edition>
@@ -23,13 +24,15 @@
                         <pubPlace>Paris</pubPlace>
                         <date type="publication" when="1688">M. DC. LXXXVIII</date>
                     </imprint>
-                    <idno>FRBNF31452154</idno> 
-                    <availability status="free"><p>Available from <ref
-                        target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item"
-                        >Gallica</ref></p></availability>
+                    <idno>FRBNF31452154</idno>
+                    <availability status="free">
+                        <p>Available from <ref
+                                target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f5.item"
+                                >Gallica</ref></p>
+                    </availability>
                     <date type="digitalization" when="2010-10-04"/>
                 </bibl>
-                <bibl>
+                <bibl xml:id="version2">
                     <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
                         moeurs de ce siècle. Sixième édition.</title>
                     <author><name>Théophraste</name></author>
@@ -40,14 +43,20 @@
                         <pubPlace>Paris</pubPlace>
                         <date type="publication" when="1691">M. DC. XCI</date>
                     </imprint>
-                    <idno>FRBNF30705987</idno> 
-                    <availability status="free"><p>Available from <ref
-                        target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k/f5.item"
-                        >Gallica</ref></p></availability>
+                    <idno>FRBNF30705987</idno>
+                    <availability status="free">
+                        <p>Available from <ref
+                                target="https://gallica.bnf.fr/ark:/12148/bpt6k8712342k/f5.item"
+                                >Gallica</ref></p>
+                    </availability>
                     <date type="digitalization" when="2018-08-05"/>
                 </bibl>
             </sourceDesc>
             <encodingDesc>
+                <charDecl><glyph xml:id="pieddemouche1"><desc>¶</desc></glyph>
+                    <glyph xml:id="pieddemouche2"><desc>(¶)</desc></glyph>
+                    <glyph xml:id="pieddemouche3"><desc>((¶))</desc></glyph>
+                </charDecl>
                 <editorialDecl>
                     <interpretation>
                         <p>Il a été choisi de mettre les préface dans le body car elles ont été
@@ -279,16 +288,32 @@
                     <div3 type="chapter" n="13">
                         <head>De la Mode.</head>
                         <div4 type="remark">
-                            <p>¶ L'on croit que la <seg>devotion de la Cour inſpirera enfin la
-                                reſidence.<note type="handNote" place="margin" resp="#La Bruyère">Cette note vise telle personne...</note></seg></p>
+                            <p source="#version1 #version2"><g ref="#pieddemouche1"/>¶ L'on croit que la <seg>devotion de la
+                                    Cour inſpirera enfin la reſidence.<note type="handNote"
+                                        place="margin" resp="#La Bruyère">Cette note vise telle
+                                        personne...</note></seg></p>
                         </div4>
                         <div4 type="remark">
-                            <p>¶ C'eſt une choſe délicate à un Prince Religieux de reformer la Cour
-                                <seg>&amp;<note type="footnote" resp="#Miranda Oger">Il était courant d'utiliser une esperluette pour remplacer le mot "et" au XVIIème siècle. On la retrouve tout au long du texte.</note></seg> la rendre pieuſe : inſtruit juſque où le Courtiſan veut luy
-                                plaire , &amp; aux dépens de quoy il feroit ſa fortune, il le ménage
-                                avec prudence, il tolere, il diſſimule de peur de le jetter dans
-                                l'hypocriſie ou le ſacrilege ; il attend plus de Dieu &amp; du
-                                temps, que de ſon zele &amp; de ſon induſtrie.</p>
+                            <p source="#version1 #version2"> <g ref="#pieddemouche1"/>¶ C'eſt une choſe délicate à un Prince
+                                Religieux de reformer la Cour <seg>&amp;<note type="footnote"
+                                        resp="#Miranda Oger">Il était courant d'utiliser une
+                                        esperluette pour remplacer le mot "et" au XVIIème siècle. On
+                                        la retrouve tout au long du texte.</note></seg> la rendre
+                                pieuſe : inſtruit juſque où le Courtiſan veut luy plaire , &amp; aux
+                                dépens de quoy il feroit ſa fortune, il le m<app type="spell">
+                                    <rdg wit="#version1">é</rdg>
+                                    <rdg wit="#version2">e</rdg>
+                                </app>nage avec prudence, il tolere, il diſſimule de peur de le
+                                jetter dans l'hypocriſie ou le ſacrilege <app type="punct">
+                                    <rdg wit="#version1">;</rdg>
+                                    <rdg wit="#version2">:</rdg>
+                                </app> il attend plus de Dieu &amp; du temps, que de ſon zele &amp;
+                                de ſon induſtrie.</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p source="#version2"><g ref="#pieddemouche1"/>¶ Je ne doute point que la vraye devotion ne ſoit
+                                la ſource du repos ; elle fait ſupporter la vie &amp; rend la mort
+                                douce, on n'en tire pas tant de l'hyppocriſie.</p>
                         </div4>
                         <div4 type="ab">
                             <!-- Numérotation du cahier -->
