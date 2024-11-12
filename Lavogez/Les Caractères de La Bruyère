@@ -15,7 +15,7 @@
                 <date when="2024-10-18">18 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="E1">
                     <author>Jean de <name>La Bruyère </name></author>
                     <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
                         les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
@@ -24,7 +24,7 @@
                     <idno>ark:/12148/cb30705982f</idno>
                     <!-- https://gallica.bnf.fr/ark:/12148/bpt6k87040224/f70.planchecontact -->
                 </bibl>
-                <bibl>
+                <bibl xml:id="E2">
                     <author xml:id="La-bruyère">Jean de <name>La Bruyère </name></author>
                     <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec les
                         caractères ou les moeurs de ce siècle / [par Jean de La Bruyère]</title>
@@ -83,24 +83,54 @@
                 <div2 type="chapitre">
                     <head>Des Esprits Forts.</head>
                     <div3>
-                        <p>Les eſprits forts ſçavent-ils qu'on les appelle ainſi par ironie? quelle
-                            plus grande foibleffe que d'eſtre incertains quel eſt le principe de ſon
-                            eſtre, de la vie, de ſes ſens, de ſes connoiſſances, <seg>&amp;<note
-                                    resp="#A.L" type="translation">et</note></seg>quelle en doit
-                            eſtre la fin? quel découragement plus grand que de douter ſi ſon ame
+                        <p source="#E1">Les Eſprits forts ſçavent-ils qu'on les appelle ainſi par
+                            ironie ? quelle plus grande foibleffe que d'eſtre incertains quel eſt le
+                            principe de ſon eſtre, de la vie, de ſes ſens, de ſes connoiſſances,
+                                    <seg>&amp;<note resp="#A.L" type="translation">et</note></seg>
+                            quelle en doit eſtre la fin ? <seg><app>
+                                    <rdg wit="#E1">q</rdg>
+                                    <rdg wit="#E2">Q</rdg>
+                                </app>uel</seg> découragement plus grand que de douter ſi ſon ame
                             n'eſt point matiere comme la pierre &amp; le reptile, &amp; ſi elle
-                            n'eſt point corruptible comme ces viles creatures ? n'y a-t'il pas plus
-                            de force &amp; plus de grandeur à recevoir dans noſtre eſprit l'idée
-                            d'un eſtre ſuperieur à tous les eſtres, qui les a tous faits, &amp; à
-                            qui tous ſe doivent rapporter? d'un eſtre ſouverainement parfait, qui
-                            eſt pur, qui n'a point commencé &amp; qui ne peut finir, dont noſtre ame
-                            eſt l'image, &amp; meſme une portion comme eſprit, &amp; comme
-                            immortelle. </p>
+                            n'eſt point corruptible comme ces viles creatures <app>
+                                <rdg wit="#E1">?</rdg>
+                                <rdg wit="#E2">.</rdg>
+                            </app>
+                            <seg><app>
+                                    <rdg wit="#E1">n</rdg>
+                                    <rdg wit="#E2">N</rdg>
+                                </app>'y a-t'il</seg> pas plus de force &amp; <app>
+                                <rdg wit="#E1">plus</rdg>
+                                <rdg wit="#E2"/>
+                            </app> de grandeur à recevoir dans <app>
+                                <rdg wit="E1">noſtre</rdg>
+                                <rdg wit="E2">nôtre</rdg>
+                            </app> eſprit l'idée d'un eſtre ſuperieur à tous les eſtres, qui les a
+                            tous faits, &amp; à qui tous ſe doivent rapporter? d'un eſtre
+                            ſouverainement parfait, qui eſt pur, qui n'a point commencé &amp; qui ne
+                            peut finir, dont noſtre ame eſt l'image, &amp; meſme une portion comme
+                            eſprit, &amp; comme immortelle. </p>
                     </div3>
                     <div3>
-                        <p>L'on doute de Dieu dans une pleine ſanté, comme l'on doute que ce ſoit
-                            pecher que d'avoir un commerce avec <seg>une perſonne libre* <note
-                                    resp="#La-bruyère" type="comment" place="foot">*Une
+                        <p source="#E2"/>
+                    </div3>
+                    <div3>
+                        <p source="#E2">¶ Quelques-uns achevent de ſe corrompre par de longs
+                            voyages, &amp; perdent le peu de religion qui leur reſtoit; ils voyent
+                            de jour à autre un nouveau culte, diverſes mœurs, diverſes ceremonies :
+                            ils reſſemblent à ceux qui entrent dans les magazins, indéterminez fur
+                            le choix des étoffes qu'ils veulent acheter, le grand nombre de celles
+                            qu'on leur montre les rend plus indifferens, elles ont chacune leurs
+                            agréemens &amp; leur bienfeance; ils ne ſe fixent point, ils ſortent
+                            ſans emplette.</p>
+                    </div3>
+                    <div3>
+                        <p source="#E2"/>
+                    </div3>
+                    <div3>
+                        <p source="#E1">¶ L'on doute de Dieu dans une pleine ſanté, comme l'on doute
+                            que ce ſoit pecher que d'avoir un commerce avec <seg>une perſonne libre*
+                                    <note resp="#La-bruyère" type="comment" place="foot">*Une
                                     fille.</note></seg>: quand l'on devient malade, &amp;que
                             l'hydropifie eſt formée, l'on quitte ſa concubine, &amp; l'on croit en
                             Dieu.</p>
