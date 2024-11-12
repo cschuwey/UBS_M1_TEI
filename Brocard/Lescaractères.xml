@@ -16,7 +16,7 @@
                 <date when="2024-10-16">16 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="original">
                     <author> Jean <name xml:id="JB">De le Bruyère</name></author>
                     <author>Théophraste </author>
                     <title>Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
@@ -27,7 +27,7 @@
                     <idno> IFN-8607038 </idno>
                     <date when="1688">M. DC. LXXXVIII.</date>
                 </bibl>
-                <bibl>
+                <bibl xml:id="quatrieme">
                     <author> Jean <name>De le Bruyère</name></author>
                     <author>Théophraste </author>
                     <title>Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
@@ -96,29 +96,64 @@
                         <head>Des Femmes</head>
                         <p/>
                         <div4 type="remark">
-                            <p>LEs hommes &amp; les femmes conviennent rarement ſur le merite d’une
-                                femme ; leurs inſereſts ſont trop differens : les femmes ne ſe
-                                plaiſent point les unes aux autres par les meſmes <seg> agréemens
-                                        <note type="gloss" resp="#JB"> Permission émanant d'une
-                                        autorité</note></seg> qu’elles plaiſent aux hommes ; mille
-                                manieres qui allument dans ceux-cy les grandes, paſſions forment
-                                    <seg>entre elles l’averſion <note type="correction" resp="#NB">
-                                        entre elles l'horreur </note>
+                            <p source="#original #quatrieme">LEs hommes &amp; les femmes conviennent
+                                rarement ſur le merite d’une femme ; leurs <app>
+                                    <lem wit="#original">intereſts</lem>
+                                    <rdg wit="#quatrieme" type="ortographic">intérêts</rdg>
+                                </app> ſont trop differens : les femmes ne ſe plaiſent point les
+                                unes aux autres par les meſmes <seg> agréemens <note type="gloss"
+                                        resp="#JB"> Permission émanant d'une autorité</note></seg>
+                                qu’elles plaiſent aux hommes ; mille manieres qui allument dans
+                                ceux-cy les grandes, paſſions forment <seg>entre elles l’averſion
+                                        <note type="correction" resp="#NB"> entre elles l'horreur
+                                    </note>
                                 </seg> ou l’antipathie. </p>
 
                         </div4>
                         <div4 type="remark">
-                            <p>Il y a dans quelques femmes une grandeur artificielle, attachée au
-                                mouvement des yeux, à un air de teſte, aux façons de marcher, &amp;
-                                qui ne va pas plus loin ; un eſprit ébloüiſſant qui impoſe, &amp;
-                                que l’on n’eſtime que parce qu’il n’eſt pas approfondi. Il y a dans
-                                quelques autres une grandeur ſimple, naturelle, indépendante du
-                                geſte &amp; de la démarche ; qui a ſa ſource dans le cœur, &amp; qui
-                                eſt comme une fuite de leur haute naiſſance ; un merite paiſible,
-                                mais <seg>ſolide<note type="variant" resp="#NB">solide</note>
+                            <p source="#original #quatrieme">Il y a dans quelques femmes une
+                                grandeur artificielle, attachée au mouvement des yeux, à un air de <app>
+                                    <lem wit="#orignal">teſte</lem>
+                                    <rdg wit="#quatrieme" type="ortographic">tête</rdg>
+                                </app>, aux façons de marcher, &amp; qui ne va pas plus loin ; un
+                                eſprit ébloüiſſant qui impoſe, &amp; que l’on n’eſtime que parce
+                                qu’il n’eſt pas approfondi. Il y a dans quelques autres une grandeur
+                                ſimple, naturelle, indépendante du geſte &amp; de la démarche ; qui
+                                a ſa ſource dans le cœur, &amp; qui eſt comme une fuite de leur
+                                haute naiſſance ; un merite paiſible, mais <seg>ſolide<note
+                                        type="variant" resp="#NB">solide</note>
                                 </seg>, accompagné de mille vertus qu’elles ne peuvent couvrir de
                                 toute leur modeſtie, qui échapent, &amp; qui ſe montrent à ceux qui
                                 ont des yeux. </p>
+                        </div4>
+                        <div4 type="remark">
+                            <p source="#original #quatrieme"> J'ay veu ſouhaiter d'eſtre fille,
+                                &amp; une belle fille depuis treize ans..... </p>
+                        </div4>
+                        <div4 type="remark">
+                            <p source="#quatrieme"> Quelques jeunes perſonnes ne connoiſſent point
+                                aſſez les avantages d'une heureuſe nature, &amp; combien il leur
+                                ſeroit utile de s'y abandonner; elles affoibliſſent ces dons du Ciel
+                                ſi rares &amp; par une mauvaiſe imitation; leur ſon de voix, &amp;
+                                leur démarche ſont empruntées, elles ſe compoſent, eles ſe
+                                recherchent, regardent dans un miroire ſi elles s'éloignent aſſez de
+                                leur naturel; ce n'eſt pas ſans peine qu'elles plaiſent moins.</p>
+                        </div4>
+                        <div4>
+                            <p source="#quatrieme">Si les femmes veulent ſeulement être belles à
+                                leurs propres yeux....</p>
+                        </div4>
+                        <div4>
+                            <p source="#quatrieme">Les femmes ſe preparent pour leurs amans, ſi
+                                elles les attendent;mais ſi elles en ſont ſurpriſes, elles oublient
+                                à leur arrivée l'état où elles ſe trouvent, elles ne ſe voyent plus:
+                                elles ont plus de loiſir avec les indifferen; elles ſenrent le
+                                deſordre où elles ſont, s'ajuſtent en leur preſence, ou
+                                diſparoiſſent un moment &amp; reviennent parées.</p>
+                        </div4>
+                        <div4>
+                            <p source="#original #quatrieme"> Un beau viſage eſt le plus beau de
+                                tous les ſpectacles... </p>
                         </div4>
                     </div3>
                 </div2>
