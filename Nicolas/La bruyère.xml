@@ -15,7 +15,7 @@
                 <date when="2024-10-16"> 16 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="Version1688">
                     <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou
                         les moeurs de ce siècle</title>
                     <author>
@@ -27,7 +27,7 @@
                     <date when="1688">M. DC. -LXXXVIII.</date>
                     <idno> NUMM-8704022 </idno>
                 </bibl>
-                <bibl>
+                <bibl xml:id="Version1690">
                     <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou
                         les moeurs de ce siècle</title>
                     <author>
@@ -41,6 +41,19 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <charDecl>
+                <glyph xml:id="Pied_de_mouche">
+                    <desc>¶</desc>
+                </glyph>
+                <glyph xml:id="Pied_de_mouche_simple">
+                    <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="Pied_de_mouche_double">
+                    <desc>((¶))</desc>
+                </glyph>
+            </charDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
@@ -88,14 +101,14 @@
                         <head>De la ville</head>
                         <p/>
                         <div4 type="remark">
-                            <p>L'utile et la louable pratique de perdre en frais de noces le tiers
-                                de la <seg>dot<note type="gloss">Bien qu'une femme apporte en se mariant</note></seg> qu'une femme apporte ! commencer par s'appauvririci de de
+                            <p><app><lem>L'utile et la louable pratique de perdre en frais de noces le tiers
+                                de la <seg>dot<note type="gloss">Bien qu'une femme apporte en se mariant</note></seg> qu'une femme apporte ! commencer par s'appauvrir ici de de
                                 concert par l'amas et l'en- tassement de choses superflues, et de
                                 prendre déjà sur son fonds de quoi payer Gaultier, les meubles et la
-                                toi- lette !</p>
+                                toi- lette !</lem><rdg wit="#Version1690">/</rdg></app>/p>
                         </div4>
                         <div4 type="remark">
-                            <p>Pénible coutume,asservissement incommode! se chercher incessamment
+                            <p source="#Version1688"><g ref="#Pied_de_mouche"/>Pénible coutume <app><lem>,</lem><rdg wit="#Version1690">!</rdg></app>asservissement incommode! se chercher incessamment
                                 les unes et les autres avec l'impa- tience de ne point se
                                 rencontrer; ne se rencontrer que pour se dire des riens, que pour
                                 s'apprendre réciproquement des choses dont on est également
@@ -104,7 +117,7 @@
                                 soi l'après-dînée que pour y rentrer le soir, fort satis- faite
                                 d'avoir vu en cinq petites heures trois suisses, une femme que l'on
                                 connoît à peine, et une autre que l'on n'aime guère ! Qui
-                                considéroit bien le prix du temps, et combien sa perte est
+                                considéroit bien le prix du temps, &amp; combien sa perte est
                                 irréparable, <seg>pleuroient<note resp="#OC">vieux français</note> </seg>amèrement sur de si grandes misères. </p>
                             
                         </div4>
@@ -115,3 +128,4 @@
         </body>
     </text>
 </TEI>
+
