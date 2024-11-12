@@ -28,6 +28,7 @@
                         <publisher>Estienne Michallet</publisher>
                         <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=42918;4</ref>
+                        <edition xml:id="Version1">Première édition (1688)</edition>
                     </bibl>
                     <bibl>
                         <title>Les Caractères ou les Moeurs de ce siècle</title>
@@ -38,17 +39,30 @@
                         <publisher>Estienne Michallet</publisher>
                         <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
                         <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57579b?rk=42918;4</ref>
+                        <edition xml:id="Version9">Version de 1696</edition>
                     </bibl>
                 </listBibl>
+                
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+           
             <projectDesc>
                 <p>Prejet d'édition numérique des Caractères de la Bruyère</p>
             </projectDesc>
             <editorialDecl>
                 <p>les s long on été modernisé</p>
+                
             </editorialDecl>
+            <charDecl>
+                <glyph xml:id="pied-de-mouche">
+                    <mapping>¶</mapping>
+                </glyph>
+                <glyph xml:id="Pied-de-mouche-simple">
+                    <mapping>(¶)</mapping>
+                </glyph>
+            </charDecl>
+          
         </encodingDesc>
     </teiHeader>
     <text>
@@ -148,24 +162,47 @@
                 <div2 type="Chapter">
                     <head>Des Grands</head>
                     <!-- page 252 -->
+                    <!-- pour le texte de 1696 = page 238 -->
                     <div3 type="remark">
-                        <p><seg>La prevention du peuple en faveur de ſes Princes eſt ſi aveugle<note
-                                    type="edit">Ici LaBruyère met en avant l'aveuglement du peuple,
-                                    suivant ses princes sans réfléchir </note></seg>, &amp;
-                            l'enteſtement pour leur geſte, leur viſage, leur ton de voix &amp; leurs
-                            manieres ſi general;que s'ils s'aviſoient d'eſtre bons, cela iroit à
-                                    l'<seg>idolâtrie<note type="gloss" resp="#Elsa"> Passion ou
-                                    admiration excessive vouée à quelqu'un, attachement aveugle,
-                                    quasi religieux, à quelque chose (Larousse) </note></seg>, le
-                            ſeul mal ſous ce regne que l'on pouvoit craindre. </p>
+                        <p source="#Version1 #Version9"><seg>La prevention du peuple en faveur de <app>
+                                    <rdg wit="#Version1">ſes Princes</rdg>
+                                    <rdg wit="#Version9">de Grands</rdg>
+                                </app> eſt ſi aveugle<note type="edit">Ici LaBruyère met en avant
+                                    l'aveuglement du peuple, suivant ses princes sans réfléchir
+                                </note></seg>, &amp; l'enteſtement pour leur geſte, leur viſage,
+                            leur ton de voix &amp; leurs manieres ſi general;que s'ils s'aviſoient
+                            d'eſtre bons, cela iroit à l'<seg>idolâtrie<note type="gloss"
+                                    resp="#Elsa"> Passion ou admiration excessive vouée à quelqu'un,
+                                    attachement aveugle, quasi religieux, à quelque chose (Larousse)
+                                </note></seg><app>
+                                <rdg wit="#Version9">.</rdg>
+                                <rdg wit="#Version1">, le ſeul mal ſous ce regne que l'on pouvoit
+                                    craindre.</rdg>
+                            </app>
+                        </p>
                         <!-- Dans le TEI guideline on a trouvé <g ref="#long-s">s</g> pour coder les S longs, et <g> représente les glyphs et les caractères non standard (section 17 Guideline) -->
                         <!-- Pour & on a trouvé : &amp;-->
                         <!-- J'ai décidé de faire des retours à la ligne de temps en temps pour me faciliter la lecture, vu que cela ne  change rien au code-->
-                        <p><g ref="pied de mouche"/> L'avantage des Grands ſur les autres hommes eſt
+                        <p source="#Version9"><g ref="#pied-de-mouche"/>Si vous étes né vicieux, ô
+                            Thoagene, je vous plains : ſi vous le devenez par foibleſſe pour ceux
+                            qui ont intérêt que vous le ſoiez, qui ont juré entr'eux de vous
+                            corrompre, &amp; qui ſe vantent déjà de pouvoir y réüſſir, ſouffrez que
+                            je vous méprise. Mais ſi vous étes ſage, temperant, modeſtie, civil,
+                            genereux, reconnaiſſant, laborieux, d'un rang d'ailleurs &amp; d'une
+                            naiſſance à donner des exemples plutôt qu'à les prendre d'autrui, &amp;
+                            à faire les regles plutôt qu'à les recevoir ; convenez avec cette forte
+                            de gens de ſuivre par complaiſance leurs déreglemens, leurs vices &amp;
+                            leur folie, quand ils auront par la déférence qu'ils vous doivent,
+                            exercé toutes les vertus que vous cheriſſez : ironie forte, mais utile,
+                            très propre à mettre vos moeurs en ſeureté, à renverſer tous leurs
+                            projets, &amp; à les jetter dans le parti de continuer d'être ce qu'ils
+                            ſont, &amp; de vous laiſſer tel que vous étes. </p>
+                        
+                        <p source="#Version1 #Version9"><g ref="#pied-de-mouche"/> L'avantage des Grands ſur les autres hommes eſt
                             immenſe par un endroit : je leur cede leur bonne chere, leurs riches,
                             ameublemens , leurs chiens , leurs chevaux, leurs ſinges, leurs nains,
-                            leurs fous &amp; leurs flateurs ; mais je leur envie le bonheur d'avir à
-                            leur ſervice des gens qui les égalent par le cœur, &amp; par l'eſprit,
+                            leurs fous &amp; leurs flateurs ; mais je leur envie le bonheur d'avoir
+                            à leur ſervice des gens qui les égalent par le cœur, &amp; par l'eſprit,
                             &amp; qui les paſſent <seg> quelquefois <note type="author"
                                     resp="#LaBruyère">parfois</note></seg>.</p>
                         <!-- pour enoder le pied de mouche je suis partie sur <g ref ="pied de mouche"/> -->
