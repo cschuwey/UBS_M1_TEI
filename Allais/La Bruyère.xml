@@ -15,7 +15,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
-                    <monogr>
+                    <monogr xml:id="E1">
                         <author>Théophraste</author>
                         <title>Les caractères de Théophraste,traduits du grec, avec les Caractères
                             ou moeurs de ce siècle par J.de La Bruyère</title>
@@ -27,7 +27,7 @@
                             <date when="1688">1688</date>
                         </imprint>
                     </monogr>
-                    <monogr>
+                    <monogr xml:id="E2">
                         <author xml:id="LB"><surname>de la
                                 Bruyère</surname><forename>Jean</forename></author>
                         <title>Les caractères de Théophraste,traduits du grec, avec les Caractères
@@ -68,31 +68,40 @@
                         <!-- Les Remarques de La Bruyère -->
                         <div4 type="chapter" n="8">
                             <head><title>De La cour</title></head>
-                            <p><choice>
+                            <p source="#E1 #E2"><choice>
                                     <orig>¶</orig>
                                 </choice>Il y a quelques rencontres dans la vie, où la vérité <choice>
                                     <abbr>&amp;</abbr>
                                     <expan>et</expan>
                                 </choice>la <choice>
-                                    <orig>ſ</orig> <reg>s</reg>
+                                    <orig>ſ</orig>
+                                    <reg>s</reg>
                                 </choice>implicité font le meilleur <seg>manege<note resp="#A"
                                         type="comment">le mot manège ne prend pas l'accent au
                                         XVII</note></seg> du monde.</p>
-                            <p><choice>
-                                    <orig>¶</orig>
-                                </choice>C'e<choice>
-                                    <orig>ſ</orig> <reg>s</reg>
+                            <p source="#E2"><orig>¶</orig>Comment nommeray-je cette sorte de gens
+                                qui ne sont fins que pour les sots : je sçay du moins que les
+                                habiles les confondent avec ceux qu'ils sçavent tromper. </p>
+                            <p source="#E1 #E2"><choice> </choice>C'e<choice>
+                                    <orig>ſ</orig>
+                                    <reg>s</reg>
                                 </choice>t avoir fait un grand pas dans la fine<choice>
-                                    <orig>ſſ</orig> <reg>ss</reg>
-                                </choice>e <seg>q<note resp="#A" type="damage">un problème
-                                        d'impression, l'encre a bavé sur le q</note></seg>ue de
-                                faire pen<choice>
-                                    <orig>ſ</orig> <reg>s</reg>
+                                    <orig>ſſ</orig>
+                                    <reg>ss</reg>
+                                </choice>e <app>
+                                    <rdg wit="#E1"/>
+                                    <rdg wit="#E2"> , </rdg>
+                                </app>
+                                <seg>q<note resp="#A" type="damage">un problème d'impression,
+                                        l'encre a bavé sur le q</note></seg>ue de faire pen<choice>
+                                    <orig>ſ</orig>
+                                    <reg>s</reg>
                                 </choice>er de <choice>
                                     <orig>ſoy</orig>
                                     <reg>soi</reg>
                                 </choice>que l'on n'e<choice>
-                                    <orig>ſ</orig> <reg>s</reg>
+                                    <orig>ſ</orig>
+                                    <reg>s</reg>
                                 </choice>t que mediocrement fin.</p>
                         </div4>
                     </div3>
