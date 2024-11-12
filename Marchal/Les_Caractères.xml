@@ -14,7 +14,7 @@
                 <date when="2024-10-16"> 16 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="Version1688">
                     <title> Les caracteres de Theophraste , traduits du grec, avec Les caractères ou
                         les moeurs de ce siecle.</title>
                     <author>Théophraste</author>
@@ -25,7 +25,7 @@
                     <idno> RES-R-2056 </idno>
                     <pubPlace> Paris </pubPlace>
                 </bibl>
-                <bibl>
+                <bibl xml:id="Version1694">
                     <title> Les caractères de Theophraste, traduits du grec avec les caractères ou
                         les moeurs de ce siecle. Huitieme edition. Revue corrigée et augmentée. </title>
                     <author> Théophraste </author>
@@ -47,6 +47,17 @@
             <samplingDecl>
                 <p>Page de titre </p>
             </samplingDecl>
+            <charDecl>
+                <glyph xml:id="PieddeMouche">
+                    <desc> ¶ </desc>
+                </glyph>
+                <glyph xml:id="PieddeMouche1parenthèse">
+                    <desc> (¶) </desc>
+                </glyph>
+                <glyph xml:id="PieddeMouche2parenthèses">
+                    <desc> ((¶))</desc>
+                </glyph>
+            </charDecl>
             <editorialDecl>
                 <normalization>
                     <p> Les accents ont été supprimés </p>
@@ -91,21 +102,34 @@
                         <head> Du Merite Personnel. </head>
                         <!-- Page 182 -->
                         <div4 type="remark">
-                            <p> Le ſage quelquefois évite le <seg>monde <note resp="#Marchal"
-                                        type="gloss" place="margin">L'ensemble de tout ce qui
-                                        existe.</note></seg> de peur d'eſstre en- nuyé.</p>
+                            <p source="#Version1688">
+                                <g ref="#PieddeMouche"/> Le ſage quelquefois évite le <seg>monde
+                                        <note resp="#Marchal" type="gloss" place="margin">L'ensemble
+                                        de tout ce qui existe.</note></seg> de peur d'eſstre en-
+                                nuyé.</p>
                         </div4>
                         <div4 type="remark">
-                            <p> Il n'y a rien de ſi délié, de ſi ſimple, &amp; de ſi impercepti-
-                                ble, où il n'entre des manie- res qui nous decelent. Un <seg> ſot<note type="gloss" resp="#Marchal" place="margin"> Qui a peu d'intelligence et peu de jugement.</note></seg>, ny
-                                n'entre, ny ne ſort, ny ne s'aſſied, ny ne ſe leve, ny ne ſe tait,
-                                ny n'eſt ſur ſes jambes com- me un <seg>homme d'eſprit.<note
-                                        type="context" resp="#LaBruyère" place="margin"> Au XVIIe
-                                        siècle, un homme d'esprit est une personne qui représente
-                                        l'idéal moral</note></seg></p>
+                            <p source="#Version1688">
+                                <g ref="#PieddeMouche"/> Il n'y a rien de ſi délié, de ſi ſimple,
+                                &amp; de ſi impercepti- ble, où il n'entre des manie- res qui nous <app>
+                                    <lem>decelent</lem>
+                                    <rdg wit="#Version1694"> décelent</rdg>
+                                </app>. Un <seg> ſot<note type="gloss" resp="#Marchal"
+                                        place="margin"> Qui a peu d'intelligence et peu de
+                                        jugement.</note></seg>, ny n'entre, ny ne ſort, ny ne
+                                s'aſſied, ny ne ſe leve, ny ne ſe tait, ny n'eſt ſur ſes jambes com-
+                                me un <seg>homme d'eſprit.<note type="context" resp="#LaBruyère"
+                                        place="margin"> Au XVIIe siècle, un homme d'esprit est une
+                                        personne qui représente l'idéal moral</note></seg></p>
                         </div4>
                         <div4 type="figure">
                             <!-- Le monogramme à la fin est a codé mais je n'ai pas réussi à trouver comment faire. Je pense qu'il faut mettre l'attribut "figure" qui permet d'indiquer la présence d'une image mais je ne sais pas comment coder ce genre d'images correctement -->
+                        </div4>
+                        <div4 type="remark">
+                            <p source="#Version1694">
+                                <g ref="#PieddeMouche"/>Il n'y a gueres d'homme ſi ac-compli &amp;
+                                ſi neceſſaire aux ſiens, qu'il n'ait de quoi ſe faire moins
+                                re-gretter. </p>
                         </div4>
                     </div3>
                 </div2>
