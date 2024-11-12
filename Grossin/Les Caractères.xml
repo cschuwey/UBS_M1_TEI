@@ -16,7 +16,7 @@
                 <date when="2024-10-14"> 14 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="E1">
                     <author>Jean de<name>La Bruyère</name></author>
                     <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
                         les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
@@ -25,14 +25,14 @@
                     <date>1688</date>
                     <idno>ark:/12148/cb30705982f</idno>
                 </bibl>
-                <bibl>
+                <bibl xml:id="E2">
                     <author>Jean de<name>La Bruyère</name></author>
-                    <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec Les
-                        caractères ou les moeurs de ce siècle / [par Jean de La Bruyère]</title>
+                    <title> Les caracteres de Theophraste traduits du grec : avec Les caracteres ou
+                        Les moeurs de ce siecle [par La Bruyère]. Huitième edition</title>
                     <edition>8e édition</edition>
-                    <publisher>Cambridge (Mass.) : Omnisys, [ca 1990]</publisher>
+                    <publisher>A Lyonchez Thomas Amaulry ruë Merciere au Mercure Galant</publisher>
                     <date>1694</date>
-                    <idno>ark:/75584/pf0000282818</idno>
+                    <idno>https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100729370#</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -59,21 +59,43 @@
                     <div3>
                         <!--Des Esprits Forts-->
                         <div4>
-                            <!-- En rapport au pied de page-->
-                            <p>Je ne conçois point qu'une ame que Dieu a voulu remplir de l'idée de
-                                ſon eſtre infini, &amp; <seg>ſouverainement<note resp="#S.G">Le s
-                                        long a été gardé</note></seg> parfait, doive eſtre
-                                aneantie.</p>
+                            <p source="#E2">
+                                Tout est grand et admirable dans la nature ; il ne s’y voit rien qui ne soit
+                                marqué au coin de l’ouvrier ; ce qui s’y voit quelquefois d’irrégulier et
+                                d’imparfait suppose règle et perfection. Homme vain et présomptueux ! faites
+                                un vermisseau que vous foulez aux pieds, que vous méprisez ; vous avez
+                                horreur du crapaud, faites un crapaud, s’il est possible. Quel excellent
+                                maître que celui qui fait des ouvrages, je ne dis pas que les hommes
+                                admirent, mais qu’ils craignent ! Je ne vous demande pas de vous mettre à
+                                votre atelier pour faire un homme d’esprit, un homme bien fait, une belle
+                                femme : l’entreprise est forte et au-dessus de vous ; essayez seulement de
+                                faire un bossu, un fou, un monstre, je suis content.  
+                            </p>
                         </div4>
                         <div4>
                             <!-- En rapport au pied de page-->
-                            <p>Si l'on ne goûte point ces remarques que j'ay écrites, je m'en
-                                étonne, <seg>&amp;<note resp="#S.G"/>C'est pour esperluette</seg> ſi
-                                on les goûte, je m'en étonne de meſme.</p>
+                            <p source="#E1">Je ne <app>
+                                    <rdg wit="#E1">conçois</rdg>
+                                    <rdg wit="#E2">concois</rdg>
+                                </app> point qu'une ame que Dieu a voulu remplir de l'idée de ſon
+                                eſtre infini, &amp; <seg>ſouverainement<note resp="#S.G">Le s long a
+                                        été gardé</note></seg> parfait, doive eſtre aneantie.</p>
+                        </div4>
+                        <div4>
+                            <!-- En rapport au pied de page-->
+                            <p source="#E1">Si l'on ne goûte point ces <app>
+                                    <rdg wit="#E1">remarques</rdg>
+                                    <rdg wit="#E2">caracteres</rdg>
+                                </app>
+                                <app>
+                                    <rdg wit="#E1">que j'ay écrites</rdg>
+                                    <rdg wit="#E2"/>
+                                </app>, je m'en étonne, <seg>&amp;<note resp="#S.G"/>C'est pour
+                                    esperluette</seg> ſi on les goûte, je m'en étonne de meſme.</p>
                         </div4>
                         <div4>
                             <!-- En rapport au changement de paragraphe-->
-                            <p>FIN.</p>
+                            <p source="#E1 #E2">FIN.</p>
                         </div4>
                     </div3>
                 </div2>
