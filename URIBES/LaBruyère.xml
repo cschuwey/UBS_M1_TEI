@@ -19,16 +19,15 @@
             <sourceDesc>
                 <!--Il faut trouver comment on fait pour mettre deux édition, deux ref-->
                 <listBibl>
-                    <bibl>
+                    <bibl xml:id="Version1">
                         <title>Les Caractères ou les Moeurs de ce siècle</title>
                         <author><forename>Jean</forename>
                             <name>De La Bruyère</name></author>
                         <date>1688</date>
                         <publisher>Estienne Michallet</publisher>
                         <pubPlace>Rue S.Jacques à l'Image Saint Paul</pubPlace>
-                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=42918;4</ref>
-                    </bibl>
-                    <bibl>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k105077m?rk=42918;4</ref>> </bibl>
+                    <bibl xml:id="Version9">
                         <title>Les Caractères ou les Moeurs de ce siècle</title>
                         <title type="sub">Neuvième édition</title>
                         <author><forename>Jean</forename>
@@ -49,6 +48,17 @@
                 <p>On a décidé de mettre les deux textes, ainsi que leur préfaces respective dans le
                     body</p>
             </editorialDecl>
+            <charDecl>
+                <glyph xml:id="pied_de_mouche_seul">
+                    <mapping>¶</mapping>
+                </glyph>
+                <glyph xml:id="pied_de_mouche_simple">
+                    <mapping>(¶)</mapping>
+                </glyph>
+                <glyph xml:id="pied_de_mouche_double">
+                    <mapping>((¶))</mapping>
+                </glyph>
+            </charDecl>
         </encodingDesc>
     </teiHeader>
     <text>
@@ -282,42 +292,71 @@
                             <p>...</p>
                         </div4>
                         <div4 type="remark">
-                            <!--p259-->
-                            <p><g ref="pied de mouche"/>Si les Grands ont les occaſions de nous
-                                faire du bien, ils en ont rarement; &amp; s'ils deſirent de nous
-                                faire du mal, ils n'en trouvent pas toûjours les occaſions; ainſi
-                                l'on peut eſtre trompé dans <seg>l'eſpèce de culte <note
-                                        type="explanatory" resp="#LB" n="a">Le culte est censé être
-                                        un hommage rendu à la divinité ou à un saint personnage et
-                                        non aux grands juste parce qi'oms sont grands</note></seg>
-                                que l'on leur rend; s'il n'eſt fondé que ſur la crainte; &amp; une
-                                longue vie ſe termine quelquefois ſans qu'il arrive de dépendre
-                                d'eux pour le moindre intéreſt, ou que l'on leur doive ſa bonne ou
-                                    <seg>ſa mauvaiſe fortune <note type="gloss" resp="#AMU" n="1"
-                                        >Mauvaise fortune dans le sens de malheur</note></seg>: nous
-                                devons les honorer parce qu'ils ſont grands &amp; que nous ſommes
-                                petits; &amp; qu'il y en a d'autres plus petit que nous qui nous
-                                honorent.</p>
+                            <!--première édition = p259-->
+                            <!--deuxième édition = p255-->
+                            <p source="#Version1 #Version9"><g ref="#pied_de_mouche_simple"
+                                    source="#Version1"/>Si les Grands ont les occaſions de nous
+                                faire du bien, ils en ont rarement <app>
+                                    <rdg source="#Version9">la volonté</rdg>
+                                </app>; &amp; s'ils deſirent de nous faire du mal, ils n'en trouvent
+                                pas toûjours les occaſions; ainſi l'on peut eſtre trompé dans
+                                    <seg>l'eſpèce de culte <note type="explanatory" resp="#LB" n="a"
+                                        >Le culte est censé être un hommage rendu à la divinité ou à
+                                        un saint personnage et non aux grands juste parce qi'oms
+                                        sont grands</note></seg> que l'on leur rend, s'il n'eſt
+                                fondé que <app>
+                                    <rdg source="#Version9">ſur l'eſpérence, ou</rdg>
+                                </app> ſur la crainte; &amp; une longue vie ſe termine quelquefois
+                                ſans qu'il arrive de dépendre d'eux pour le moindre intéreſt, ou que
+                                l'on leur doive ſa bonne ou <seg>ſa mauvaiſe fortune <note
+                                        type="gloss" resp="#AMU" n="1">Mauvaise fortune dans le sens
+                                        de malheur</note></seg>: nous devons les honorer parce
+                                qu'ils ſont grands &amp; que nous ſommes petits; &amp; qu'il y en a
+                                d'autres plus petit que nous qui nous honorent.</p>
                             <!-- Les notes faites par moi portent des chiffres tandis que les notes faites par l'auteur portent des lettres -->
+                            <!-- On a rajoutter les variation entre les deux éditions -->
                         </div4>
                         <div4 type="remark">
-                            <p><g ref="pied de mouche"/><seg>Ne parler aux jeune Princes que du ſoin
-                                    de leur rang; eſt un excez de précaution; lorſque toute une Cour
-                                    met ſon devoir &amp; une partie de ſa politeſſe à les reſpecter,
-                                    &amp; qu'ils ſont dûs à leur naiſſance, qu'à confondre les
-                                    perſonnes, &amp; et les traier indifferemment &amp; ſans
-                                    diſtinction des conditions &amp; des titres: ils ont une fierté
-                                    naturelle qu'ils retrouvent dans les occaſions; il ne leur faut
-                                    des leçons que pour la regler, que pour leur inſpirer la bonté,
-                                    l'honneſteté, &amp; l'eſprit de diſcernement. <note
-                                        type="explanatory" n="2" resp="#AMU">Ici, dans ce passage,
-                                        La Bruyère suggère qu'au lieu de rappeler aux jeunes princes
-                                        leur rang, il vaut mieux leur enseigner la bonté et le
-                                        discernement pour équilibrer leur fierté
-                                    naturelle.</note></seg></p>
+                            <!-- dans l'édition de 1696, se trouve p.251, donc avant-->
+                            <p source="#Version1 #Version9">
+                                <g ref="#pied_de_mouche_simple" source="#Version1"/><seg>Ne parler
+                                    aux jeune Princes que du ſoin de leur rang; eſt un excez de
+                                    précaution; lorſque toute une Cour met ſon devoir &amp; une
+                                    partie de ſa politeſſe à les reſpecter, &amp; qu'ils ſont <app>
+                                        <rdg source="#Version9">bien moins sujets à ignorer aucun
+                                            des égards</rdg>
+                                    </app>dûs à leur naiſſance, qu'à confondre les perſonnes, &amp;
+                                    &amp; les traier indifferemment &amp; ſans diſtinction des
+                                    conditions &amp; des titres: ils ont une fierté naturelle qu'ils
+                                    retrouvent dans les occaſions; il ne leur faut des leçons que
+                                    pour la regler, que pour leur inſpirer la bonté, l'honneſteté,
+                                    &amp; l'eſprit de diſcernement. <note type="explanatory" n="2"
+                                        resp="#AMU">Ici, dans ce passage, La Bruyère suggère qu'au
+                                        lieu de rappeler aux jeunes princes leur rang, il vaut mieux
+                                        leur enseigner la bonté et le discernement pour équilibrer
+                                        leur fierté naturelle.</note></seg></p>
                             <!-- Je n'avais aucune idée de quoi mettre en note, du coup c'est très simple, c'est une analyse très succinte de l'argument, ou alors une définition rapide d'un terme -->
+                            <!-- Cette remarque a changer de place de la première à la neuvième édition = comment coder ça -->
                         </div4>
-                        <!-- Pour trouver les pied de mouche, j'ai encore une fois rehcrehcer sur TEI Guideline qui 'a dit d'utiliser encore une fois g avec l'attribut ref pour lui donner une valeur -->
+                        <!-- Pour trouver les pied de mouche, j'ai encore une fois rehcrehcer sur TEI Guideline qui 'a dit d'utiliser encore une fois g avec l'attribut ref pour lui donner une valeur
+                        Ou alors est-ce qu'on peut utiliser ¶
+                        ou encore : <g ref="#pied_de_mouche_simple" source="version1"/> <g ref="#pied_de_mouche_double" source="Version9"/>-->
+                        <div4 type="remark">
+                            <p source="#Version9">
+                                <g ref="#pied_de_mouche_double" source="#Version9"/> L'on ſe porte
+                                aux extrémitez oppoſées à l'agard de certains perſonnages ; la
+                                ſatire après leur mort court parmi le peuple, pendant que les voûtes
+                                des temps retentiſſent de leurs élogent; ils ne méritent quelquefois
+                                ni libelles ni diſcours funebres, quelquefois auſſi ils ſont dignes
+                                de tous les deux. </p>
+                        </div4>
+                        <div4 type="remark">
+                            <p source="#Version9"><g ref="#pied_de_mouche_double" source="#Version9"
+                                /> L'on doit ſe taire ſur les Puiſſants; il y a preſque toûjours de
+                                la flatterie à en dire du bien; il y a du peril à en dre du mal
+                                pendant qu'ils vivent, &amp; de la lâcheté quand ils ſont morts.
+                            </p>
+                        </div4>
                     </div3>
                     <div3 type="chapter">
                         <head>Du Souverin.</head>
