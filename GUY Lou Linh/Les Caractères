@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/">
     
     <teiHeader>
         
@@ -23,9 +23,8 @@
             </publicationStmt>
             
             <sourceDesc>
-                <editionStmt>
                     
-                    <bibl>
+                    <bibl xml:id="#E1">
                         <author> Jean <name>de La Bruyère</name> </author>
                         <date> 1688 </date>
                         <title> Les Caractères </title>
@@ -35,19 +34,16 @@
                         <ref> http://catalogue.bnf.fr/ark:/12148/cb120117553 </ref>
                     </bibl>
                     
-                </editionStmt>
-                
-                <editionStmt> 
+                <bibl xml:id="#E2">
                     <author> Jean <name>de La Bruyère</name> </author>
                     <date> 1694 </date>
                     <title> Les Caractères </title>
                     <publisher> Thomas Almaury </publisher>
                     <pubPlace> Lyon </pubPlace>
                     <idno> R-18792 </idno>
-                    <ref> https://catalogue.bnf.fr/ark:/12148/cb30705989v </ref>
+                    <ref> https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100729370/IMG00000001# </ref>
+                    </bibl>
                     
-                    
-                </editionStmt>
                 
             </sourceDesc>    
             
@@ -83,6 +79,19 @@
                         <head>Discours sur Théophraste</head>
                     </div2>
                     <div3>
+                        <p>Les femmes au contraire, les gens de la Cour, &amp; tous ceux qui n'ont que beaucoup d'eſprit ſans érudition, indifferens pour toutes les choſes qui les ont précedé <seg><app><lem wit="#E1"/><rdg wit="#E2">,</rdg></app></seg>
+                            ſont avides de celles qui ſe paſſent à leurs yeux; &amp; qui font comme ſous leurs mains ; ils les examinent, ils les diſcernent, ils ne perdent pas de veuë les
+                            perſonnes qui les entourent, ſi charmez des deſcriptions &amp; des peintures que l'on fait de leurs contemporains, de leurs concitoyens, de ceux enfin qui leur reſſesemblent,
+                            &amp; à qui ils ne croyent pas reſſembler ;</p>
+                    </div3>
+                    <div3>
+                        &amp; ſi au contraire l'on peint la Cour, comme c'eſt toûjours avec les ménagemens qui luy font dûs <seg><app><lem wit="#E1">;</lem><rdg wit="#E2">,</rdg></app></seg> la ville ne tire pas de cet ébauche de quoy remplir ſa curioſité,&amp;ſe faire
+                        juſte idée d'un pa s <seg>pa<app>
+                                            <lem wit="E1">y</lem>
+                                            <rdg wit="E2" type="orthographic">ï</rdg></app>s</seg>où il faut meſme avoir vêcu pour le conoiſtre.
+                    </div3>
+                    
+                    <div3>
                         <p> J'ay admiré ſouvent, &amp; j'avouë que je ne puis encore comprendre, quelque ſerieuſe reflexion que je faſſe, pourquoy toute la Grece eſtant placée ſous un meſme ciel, &amp; les Grecs nourris &amp; 
                             élevez de la <seg>meſme<note type="comment" place="margin">Par rapport aux Barbares, dont les moeurs étoient tres differentes de celles des Grecs.</note></seg> manière, il ſe trouve nanmoins ſi 
                             peu de reſſemblance dans leurs <seg>moeurs.<note type="gloss" place="top">Ensemble de comportements propres à un groupe humain ou à un individu et considérés dans leurs rapports avec une morale collective (source : CNRTL)</note></seg></p>
@@ -90,13 +99,13 @@
                 </div1>
                 
                 <div1>
-                        <head>Les Caractères</head>
+                    <head>Les Caractères</head>
                     <div2>
                         <head>De la dissimulation</head>
-                            <div3>
-                                <p>La <note type="gloss" resp="édition" place="margin">L'Auteur parle de celle qui ne vient pas de la prudence, &amp; que les Grecs appelloient ironie.</note>diſſimulation n'eſt pas aiſée à bien définir ; 
-                                    ſi l'on ſe contente d'en faire une ſimple deſcription, l'on peut dire que c'eſt un certain art de compoſer ſes paroles &amp; ſes actions pour une mauvaiſe <seg>fin. <note type="gloss" place="margin">On définit "fin" ici par "But qui constitue le terme de quelque chose" (source : CNRTL).</note></seg></p>
-                            </div3>
+                        <div3>
+                            <p>La <note type="gloss" resp="édition" place="margin">L'Auteur parle de celle qui ne vient pas de la prudence, &amp; que les Grecs appelloient ironie.</note>diſſimulation n'eſt pas aiſée à bien définir ; 
+                                ſi l'on ſe contente d'en faire une ſimple deſcription, l'on peut dire que c'eſt un certain art de compoſer ſes paroles &amp; ſes actions pour une mauvaiſe <seg>fin. <note type="gloss" place="margin">On définit "fin" ici par "But qui constitue le terme de quelque chose" (source : CNRTL).</note></seg></p>
+                        </div3>
                     </div2>
                 </div1>
             </body>
