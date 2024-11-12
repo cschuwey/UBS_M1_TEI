@@ -15,19 +15,41 @@
                 <pubPlace>Université de Bretagne Sud Lorient</pubPlace>
                 <date when="2024-10-21">21 octobre 2024</date>
             </publicationStmt>
-            <sourceDesc> 
-                <bibl>
+            <sourceDesc>
+                <bibl xml:id="e1688">
                     <author xml:id="Théophraste">Théophraste</author>
                     <title>Les caractères ou les moeurs de ce siècle</title>
                     <publisher>E.Michallet (Paris)</publisher>
                     <idno>RES-R-2056</idno>
+                    <idno>https://gallica.bnf.fr/ark:/12148/btv1b86070385/f350.double</idno>
+                </bibl>
+                <bibl xml:id="e1690">
+                    <author>Théophraste</author>
+                    <title>Les caractères de la Buyère</title>
+                    <publisher>E.Michallet (Paris)</publisher>
+                    <idno>R-18790</idno>
+                    <idno>https://gallica.bnf.fr/ark:/12148/bpt6k8704023j/f530.double</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <projectDesc><p>Retrancrire la republication des Caractères de Théophraste, via deux éditions de la retranscription de La Bruyère.</p></projectDesc>
-            <samplingDecl><p>Travail sur une partie du texte des Caractères de la Bruyère de 1688, mis en comparaison avec une réédition de 1690; l'édition de la bibliothèque nationale.</p></samplingDecl>
-            <editorialDecl><correction><p>Edition de 1688 est elle marquée du sceau de la bibliothèque royale.</p></correction></editorialDecl>
+            <projectDesc>
+                <p>Retrancrire la republication des Caractères de Théophraste, via deux éditions de
+                    la retranscription de La Bruyère.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Travail sur une partie du texte des Caractères de la Bruyère de 1688, mis en
+                    comparaison avec une réédition de 1690; l'édition de la bibliothèque
+                    nationale.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>Edition de 1688 est elle marquée du sceau de la bibliothèque royale.</p>
+                </correction>
+            </editorialDecl>
+            <charDecl><glyph xml:id="pieddemouche"><desc>¶</desc></glyph>
+                <glyph xml:id="pieddemoucheparenthèse"><desc>(¶)</desc></glyph>
+                <glyph xml:id="pieddemouchedouble"><desc>((¶))</desc></glyph></charDecl>
         </encodingDesc>
     </teiHeader>
     <text>
@@ -35,41 +57,82 @@
             <div1>
                 <div2><!-- préface de Théophraste par la bruyère --></div2>
                 <div2><!-- préface de Théophraste par lui-même --></div2>
-                <div2><!-- sommaire --></div2>   <!-- on peut sortir de la logique de  l'ordre des éléments, pas forcément besoin de les coder dans l'ordre où elles apparaissent. il vaut peut-être mieux ne pas 
+                <div2><!-- sommaire --></div2>
+                <!-- on peut sortir de la logique de  l'ordre des éléments, pas forcément besoin de les coder dans l'ordre où elles apparaissent. il vaut peut-être mieux ne pas 
                privilégier des div numérotés donc, pour simplemen avoir des blocs de texte réutilisables à l'affichage-->
             </div1>
         </front>
         <body>
-            <div1> <!-- préface à théophraste -->
-                <p>Dans cette division, on présente la première partie de l'ouvrage, la partie sur Théophraste. Dans cette partie appelée "Discours sur Théophraste", il y a une préface sur Théophraste, suivi de 
-                    "Les caractères de Théophraste" et d'un sommaire. Une fois la sous-division sur les caractères commenncées, le texte se dépare en chapitres selon les caractères. Cette division va se concentrer
-                    sur le Discours sur Théophraste.</p>
-                <div2> <!-- caractères -->
-                    <p>Dans cette sous-division, on s'attarde donc sur "Les caractères de Théophraste", avec une liste des caractères dont il parle dans son oeuvre originale. Sur la page de présentation, 
-                        La Bruyère précise que les caractères ont été traduits du grec, quand ils l'ont été du latin, en réalité. On présente donc l'introduction aux caractères en trois pages.</p> </div2>
-                <div2> <!-- donc le sommaire -->
+            <div1>
+                <!-- préface à théophraste -->
+                <p>Dans cette division, on présente la première partie de l'ouvrage, la partie sur
+                    Théophraste. Dans cette partie appelée "Discours sur Théophraste", il y a une
+                    préface sur Théophraste, suivi de "Les caractères de Théophraste" et d'un
+                    sommaire. Une fois la sous-division sur les caractères commenncées, le texte se
+                    dépare en chapitres selon les caractères. Cette division va se concentrer sur le
+                    Discours sur Théophraste.</p>
+                <div2>
+                    <!-- caractères -->
+                    <p>Dans cette sous-division, on s'attarde donc sur "Les caractères de
+                        Théophraste", avec une liste des caractères dont il parle dans son oeuvre
+                        originale. Sur la page de présentation, La Bruyère précise que les
+                        caractères ont été traduits du grec, quand ils l'ont été du latin, en
+                        réalité. On présente donc l'introduction aux caractères en trois pages.</p>
+                </div2>
+                <div2>
+                    <!-- donc le sommaire -->
                     <p>La liste des caractères comme présentée sur les deux pages de sommaire.</p>
-                    <div3 type="chapter"> <!-- les caractères ici, chacuns avec son div3 -->
+                    <div3 type="chapter">
+                        <!-- les caractères ici, chacuns avec son div3 -->
                         <p>De la Chaire</p>
                         <div4 type="remark">
-                            <p>L'Orateur cherche par ſes diſcours un Eveſché ; l'Apoſtre fait des converſions, il merite de trouver ce que l'autre cherche.</p>
+                            <p source="#e1688"><g source="#e1688" ref="#pieddemouche"/>
+                                L'Orateur cherche par ſes diſcours un <app>
+                                    <lem wit="#e1688">Eveſché</lem>
+                                    <rdg wit="#e1690">Evêché</rdg>
+                                </app>; l'Ap<app>
+                                    <lem wit="#e1688">oſ</lem>
+                                    <rdg wit="#e1690">ô</rdg>
+                                </app>tre fait des converſions, il merite de trouver ce que l'autre
+                                cherche.</p>
                         </div4>
                         <div4 type="remark">
-                            <p>L'on voit des <seg>Clercs <note resp="#Théophraste" type="gloss">Eccleſiaſtiques.</note></seg> revenir de quelques Provinces où ils n'ont pas fait un long ſejour; vains des converſions qu'ils ont trouvées toutes faites, comme de celles qu'ils n'ont 
-                                pû faire ſe comparer déja aux VINCENS &amp; aux XAVIERS, &amp; ſe croire des hommes <seg>Apoſtoliques<note resp="#ABG" type="gloss">relatifs aux apôtres</note></seg>: de ſi grands travaux &amp; de ſi heureuſes miſſions ne ſeroient pas à leur gré payérs 
+                            <p source="#e1688">L'on voit des <seg>Clercs <note resp="#Théophraste" type="gloss"
+                                        >Eccleſiaſtiques.</note></seg> revenir de quelques Provinces
+                                où ils n'ont pas fait un long ſejour; vains des converſions qu'ils
+                                ont trouvées toutes faites, comme de celles qu'ils n'ont pû faire<app>
+                                    <lem wit="#e1688"/>
+                                    <rdg wit="#e1690">,</rdg>
+                                </app> ſe comparer déja aux VINCENS &amp; aux XAVIERS, &amp; ſe
+                                croire des hommes <seg>Apoſtoliques<note resp="#ABG" type="gloss">
+                                    relatifs aux apôtres</note></seg>: de ſi grands travaux
+                                &amp; de ſi heureuſes miſſions ne ſeroient pas à leur gré payées
                                 d'une Abbaye.</p>
                         </div4>
                         <div4 type="remark">
-                            <p>Un Clerc mondain ou irreligieux, s'il monte en Chaire, eſt declamateur. 
-                                Il y a au contraire des hommes ſaints, &amp; dont le ſeul caractere eſt efficace pour la perſuaſion: ils paroiſſent, &amp; tout un peuple qui doit les écouter eſt déja émû &amp; comme 
-                                perſuadé par leur preſence ; le diſcours qu'ils vont prononcer fera le reſte.</p>
+                            <p source="#e1688">Un Clerc mondain ou irreligieux, s'il monte en <app>
+                                <lem wit="#e1688">C</lem>
+                                <rdg wit="#e1690">c</rdg>
+                            </app>haire, eſt declamateur. Il y a au contraire des hommes ſaints, &amp; dont le
+                                ſeul caractere eſt efficace pour la perſuaſion: ils paroiſſent,
+                                &amp; tout un peuple qui doit les écouter eſt déja émû &amp; comme
+                                perſuadé par leur preſence ; le diſcours qu'ils vont prononcer<app>
+                                    <lem wit="#e1688"/>
+                                    <rdg wit="#e1690">,</rdg>
+                                </app> fera le reſte.</p>
+                        </div4>
+                        <div4 type="remark">
+                            <p source="#e1690"><g source="#e1690" ref="#pieddemoucheparenthèse"/>
+                                L'. de MEAUX &amp; le P. BOURDALOUË me rappellent DEMOSTHENES &amp;
+                                CICERON. Tous deux maîtres dans l'Eloquence de la Chaire, ont eu le deſtin des grands
+                                modeles : l'un a fait de mauvais cenſeurs ; l'autre de mauvais copiſtes.</p>
                         </div4>
                     </div3>
                 </div2>
                 <div2>
-                    <p></p>
+                    <p/>
                 </div2>
-            </div1>  
+            </div1>
         </body>
     </text>
 </TEI>
