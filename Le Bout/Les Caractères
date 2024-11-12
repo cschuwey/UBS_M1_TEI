@@ -18,7 +18,8 @@
                 <pubPlace>Lorient, France</pubPlace>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <listBibl>
+                <bibl xml:id="version1688">
                     <title>Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
                     <author>Théophraste</author>
                     <editor role="translator"><forename>Jean</forename> de <name>La Bruyère</name></editor>
@@ -26,10 +27,11 @@
                     <date type="publication" when="1688">1688</date>
                     <date type="digitalisation" when="2010-10-04">04/10/2010</date>
                     <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385</ref>
+                    <ref>https://fr.wikisource.org/wiki/Livre:La_Bruy%C3%A8re_-_Les_Caract%C3%A8res,_Michallet,_1688.djvu</ref>
                     <idno>Bibliothèque nationale de France, département Réserve des livres rares, RES-R-2056 </idno>
                 </bibl>
                 <!-- <idno/> = ref / numéro d'identificatioin -->
-                <bibl>
+                <bibl xml:id="version1690">
                     <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
                     <author><forename>Jean</forename> de <name>La Bruyère</name></author>
                     <editor>chez Estienne Michallet (Paris)</editor>
@@ -38,10 +40,21 @@
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575660</ref>
                     <idno>Bibliothèque nationale de France</idno>
                 </bibl>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc><p>Encodage des Caractères de La Bruyère en version numérique XML TEI</p></projectDesc>
+            <charDecl>
+                <glyph xml:id="pdm1">
+                    <desc>¶</desc>
+                    <localProp name="entity" value="affiche le débit d'un nouvelle remarque de la première édition"/>
+                </glyph>
+                <glyph xml:id="pdm2">
+                    <desc>(¶)</desc>
+                    <localProp name="entity" value="affiche le débit d'un nouvelle remarque de la deuxième édition"/>
+                </glyph>
+            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage><language ident="fr">Français</language></langUsage>
@@ -93,12 +106,24 @@
                 </div2>
                 <div2 type="chapter">
                     <head>De quelques usages</head>
-                    <p>Quelques autres ſe couchent roturiers, &amp; ſe levent <seg>nobles<note type ="gloss" resp="La Bruyère">Veterans</note></seg> :</p>
-                    <p>Combien de nobles dont le pere &amp; les aînez ſont roturiers?</p>
+                    <p source="#version1688">Il y a des gens qui n’ont pas le moyen d’eſtre <seg>nobles<note type="gloss" resp="La Bruyère">* Secretaires du Roy</note></seg>.</p>
+                    <p source="#version1688">Il y en a de tels que s’ils euſſent obtenu ſix mois de delay de leurs creanciers, ils eſtoient <seg>nobles <note type="gloss" resp="La Bruyère">✝ Veterans</note></seg>.</p>
+                    <p source="#version1688">Quelques autres ſe couchent roturiers, &amp; ſe levent <seg>nobles<note type ="gloss" resp="La Bruyère">* Veterans</note></seg> :</p>
+                    <p source="#version1688">Combien de nobles dont le pere &amp; les aînez ſont roturiers?</p>
                     <div3 type="remark">
-                        <p>Il ſuſſit de n'eſtre point né dans une ville, mais ſous une chaumiere répandüe dans la campagne, ou ſous une ruine qui trempe dans un marecage &amp; qu'on appelle Château, pour <seg>eſtre<note type="translation" resp="Marie Le Bout">être</note></seg> crû noble ſur parole.</p></div3>
+                        <p source="#version1688"><g ref="#pdm1"/>l ſuſſit de n'eſtre point né dans une ville, mais ſous une chaumiere répandüe dans la campagne, ou ſous une ruine qui trempe dans un marecage &amp; qu'on appelle Château, pour <seg>eſtre<note type="translation" resp="Marie Le Bout">être</note></seg> crû noble ſur 
+                            <app>
+                                <rdgGrp>
+                                    <rdg wit="#version1688"></rdg>
+                                    <rdg wit="#version1690">la </rdg>
+                                </rdgGrp>
+                            </app>
+                            parole.</p></div3>
                     <div3 type="remark">
-                        <p>Le beſoin d’argent a reconcilié la nobleſſs avec la <seg>roture<note type="gloss" resp="Marie Le Bout">État d'une personne qui n'est pas noble; condition de roturier.</note></seg>, &amp; a fait évanoüir la preuve des quatre quartiers.</p></div3>
+                        <p source="#version1690"><g ref="#pdm2"/>Un bon Gentilhomme veut paſſer pour un petit Seigneur, &amp; il y parvient : un grand Seigneur affecte la principauté, &amp; il uſe de tant de précautions, qu'à force de beaux noms, de diſputes ſur le rang &amp; les preſeances, de nouvelles armes, &amp; d'une genealogie que d'HOSIER ne luy a pas faite, il devient enfin un petit Prince.</p>
+                    </div3>
+                    <div3 type="remark">
+                        <p source="#version1688"><g ref="#pdm1"/>Le beſoin d’argent a reconcilié la nobleſſs avec la <seg>roture<note type="gloss" resp="Marie Le Bout">État d'une personne qui n'est pas noble; condition de roturier.</note></seg>, &amp; a fait évanoüir la preuve des quatre quartiers.</p></div3>
                 </div2>
             </div1>
         </body>
