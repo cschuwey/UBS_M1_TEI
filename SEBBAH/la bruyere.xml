@@ -32,7 +32,7 @@
                     </author>
                     <editor>Estienne Michallet</editor>
                     <pubPlace>Paris</pubPlace>
-                    <edition n="1">Première édition</edition>
+                    <edition n="1" xml:id="première">Première édition</edition>
                     <date when="1688">M. DC. LXXXVIII.</date>
                     <idno>ark:/12148/btv1b86070385</idno>
                     <availability>
@@ -51,7 +51,7 @@
                     </author>
                     <editor>Estienne Michallet</editor>
                     <pubPlace>Paris</pubPlace>
-                    <edition n="6">Sixième édition</edition>
+                    <edition n="6" xml:id="sixième">Sixième édition</edition>
                     <date when="1691">M. DC. XCI.</date>
                     <idno>ark:/12148/bpt6k8712342k</idno>
                     <availability>
@@ -68,6 +68,23 @@
             <editorialDecl>
                 <p>La graphie d'époque est conservé</p>
             </editorialDecl>
+            <charDecl>
+                <glyph xml:id="pdm">
+                    <desc>¶</desc>
+                    <localProp name="pieddemouche" value="paragraphe"/>
+                    <!--remarques de la première édition-->
+                </glyph>
+                <glyph xml:id="pdmpara">
+                    <desc>(¶)</desc>
+                    <localProp name="piedpara" value="paragraphe_parenthese"/>
+                    <!--remarques de la quatrième édition-->
+                </glyph>
+                <glyph xml:id="pdmdbpara">
+                    <desc>((¶))</desc>
+                    <localProp name="pieddoublepara" value="paragraphe_dbpara"/>
+                    <!--remarques de la cinquième édition-->
+                </glyph>
+            </charDecl>
         </encodingDesc>
 
     </teiHeader>
@@ -107,21 +124,43 @@
                         <head>De la ville.</head>
                         <pb n="229"/>
                         <div4 type="remark">
-                            <p>L'on ſe donne à Paris ſans ſe parler comme un rendez-vous general
-                                mais fort
+                            <p source="#première">L'on ſe donne à Paris ſans ſe parler comme un
+                                rendez-vous <app type="spell">
+                                    <lem>general</lem>
+                                    <rdg wit="#première">general</rdg>
+                                    <rdg wit="#sixième">public</rdg>
+                                </app> mais fort
                                 exact<!-- Graphie du "c" particulière, on la retrouve aussi dans le titre de page. Je ne l'ai pas trouvé dans les caractères unicode.
                                 Ce que j'ai trouvé pour l'encoder, c'est d'utiliser la balise <g> avec un attribut ref pour décrire le glyphe -->,
                                 tous les ſoirs au Cours ou aux Tuilleries, pour ſe regarder au
                                 viſage, &amp; <!-- encodage de l'esperluette : "&" --> ſe
                                 deſapprouver les uns les autres.</p>
-                            <p>L'on ne peut ſe paſſer de ce meſme monde que l'on n'aime point, &amp;
-                                dont l'on ſe mocque.</p>
+                            <p source="#première">L'on ne peut ſe paſſer de ce m<app type="spell">
+                                    <lem>meſme</lem>
+                                    <rdg wit="#première">eſ</rdg>
+                                    <rdg wit="#sixième">ê</rdg>
+                                </app>me monde que l'on n'aime point, &amp; dont l'on ſe mocque.</p>
                         </div4>
                         <div4 type="pilcrow">
+                            <p source="#sixième"><g ref="#pdm" source="#première"/> Tout le monde
+                                connoît cette longue levée qui borne &amp; qui reſſerre le lit de la
+                                Seine, du côté où elle entre à Paris avec la Marne qu'elle vient de
+                                recevoir ; les hommes s'y baignent au pied pendant les chaleurs de
+                                la canicule, on les voit de fort prés ſe jetter dans l'eau, on les
+                                en voit ſortir, c'eſt un amuſement : quand cette ſaiſon n'eſt pas
+                                venuë,les femmes de la ville ne s'y promenent pas encore ; &amp;
+                                quand elle eſt paſſée, elles ne s'y promenent plus. </p>
+                        </div4>
+                        <div4 type="pilcrow" source="#première">
                             <!-- les pieds-de-mouches -->
-                            <p> ¶ <hi rend="italique">Narciſſe</hi><!-- nom en italique --> ſe leve
-                                le matin pour ſe coucher le ſoir, il a ſes heures de toilette comme
-                                une femme; il va tous les jours fort regulierement à la belle
+                            <p><g ref="#pdm" source="#première"/><hi rend="italique"
+                                >Narciſſe</hi><!-- nom en italique --> ſe leve le matin pour ſe
+                                coucher le ſoir, il a ſes heures de toilette comme une femme<app
+                                    type="punct">
+                                    <lem>;</lem>
+                                    <rdg wit="#première">;</rdg>
+                                    <rdg wit="#sixième">,</rdg>
+                                </app> il va tous les jours fort regulierement à la belle
                                         <seg>Meſſe<note type="gloss" resp="#LS">Office qui commémore
                                         le sacrifice du corps et du sang de Jésus-Christ présent
                                         sous les espèces du pain et du vin et qui est célébré par le
@@ -132,16 +171,18 @@
                                 aux Feüillans, ou aux Minimes; il eſt homme d'un bon commerce, &amp;
                                 l'on compte ſur luy au quartier de ** pour un tiers ou pour un
                                 cinquiéme à l'ombre ou au reverſis ; là il tient le fauteüil</p>
-                            <pb/>
-                            <fw type="header" place="top">Les Caractères</fw>
                             <pb n="230"/>
+                            <fw type="header" place="top">Les Caractères</fw>
                             <p>quatre heures de ſuite chez <hi rend="italique">Aricie</hi>, où il
                                 riſque chaque ſoir cinq <seg>piſtolles <note type="gloss" resp="LS"
                                         >Monnaie d'or battue au XVIe et au XVIIes. en Espagne et en
                                         Italie, de titre et de poids analogues à ceux du
                                             louis.<ref>https://www.cnrtl.fr/definition/pistole</ref>
-                                    </note></seg>d'or. Il lit exactement la gazette
-                                        <seg>d'Hollande<note type="editorial" resp="#LS">Presse
+                                    </note></seg>d'or. Il lit exactement la <app type="spell">
+                                    <lem>gazette</lem>
+                                    <rdg wit="#première">g</rdg>
+                                    <rdg wit="#sixième">G</rdg>
+                                </app>azette <seg>d'Hollande<note type="editorial" resp="#LS">Presse
                                         clandestine, connue aussi sous le nom de Gazette
                                         d'Amsterdam</note></seg> &amp; le Mercure Galant : il a lû
                                         <seg><hi rend="italique">Bergerac</hi><note type="gloss"
