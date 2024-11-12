@@ -16,7 +16,7 @@
                 <date when="2024-10-14">14 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="e1">
                     <author>Jean de<name>La Bruyère</name></author>
                     <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
                         les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
@@ -25,7 +25,7 @@
                     <date>1688</date>
                     <idno>ark:/12148/cb31452154x</idno>
                 </bibl>
-                <bibl>
+                <bibl xml:id="e8">
                     <author>Jean de<name>La Bruyère</name></author>
                     <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec Les
                         caractères ou les moeurs de ce siècle / [par Jean de La Bruyère]</title>
@@ -44,26 +44,58 @@
     </teiHeader>
     <text>
         <body>
-            <div1><!--Discours sur Théophraste-->
+            <div1>
+                <!--Discours sur Théophraste-->
                 <div2><!--Préface par La Bruyère--></div2>
                 <div2><!--Préface par Théophraste--></div2>
                 <div2><!--Sommaire--></div2>
-                <div2><!--Caractères-->
+                <div2>
+                    <!--Caractères-->
                     <div3><!--Chapitres de Théophraste--></div3>
                 </div2>
             </div1>
-            <div1><!--Caractères-->
+            <div1>
+                <!--Caractères-->
                 <div2><!--Préface par La Bruyère--></div2>
-                <div2><!--Sommaire-->
-                    <div3><!--Du coeur-->
+                <div2>
+                    <!--Sommaire-->
+                    <div3>
+                        <!--Du coeur-->
                         <div4>
-                        <p>Il y a un <seg>gouſt<note resp="#L">maintient de l'orthographe d'origine, à traduire par "s" en français moderne</note></seg>dans la pure amitié où ne peuvent atteindre ceux qui font nez mediocres.</p>
+                            <p>Il y a un <seg><app>
+                                        <rdg wit="#e1">gouſt</rdg>
+                                        <rdg wit="#e8">goût</rdg>
+                                    </app><note resp="#L">maintient de l'orthographe d'origine, à
+                                        traduire par "s" en français moderne</note></seg>dans la
+                                pure amitié où ne peuvent atteindre ceux qui font nez mediocres.</p>
                         </div4>
                         <div4>
-                        <p>L'amitié peut ſubſiſter entre des gens de differens ſexes, exempte meſme de toute groſſiereté ; une femme cependant regarde toûjours un homme comme un homme, <seg>&amp;<note resp="#L">signifie "et"</note></seg>reciproquement un homme regarde une femme  comme une femme regarde une femme : cette liaiſon n'eſt ni paſſion, ni amitié pure ; elle fait une claſſ à part.</p>
+                            <p source="#e1">L'amitié peut ſubſiſter entre des gens de differens
+                                ſexes, exempte <app>
+                                    <rdg wit="#e1">meſme</rdg>
+                                    <rdg wit="#e8">même</rdg>
+                                </app> de toute groſſiereté ; une femme cependant regarde toûjours
+                                un homme comme un homme, <seg>&amp;<note resp="#L">signifie
+                                        "et"</note></seg>reciproquement un homme regarde une femme
+                                comme une femme : cette liaiſon n'eſt <app>
+                                    <rdg wit="#e1">ni</rdg>
+                                    <rdg wit="#e8">ny</rdg>
+                                </app> paſſion, <app>
+                                    <rdg wit="#e1">ni</rdg>
+                                    <rdg wit="#e8">ny</rdg>
+                                </app> amitié pure ; elle fait une claſſ à part.</p>
                         </div4>
                         <div4>
-                        <p>L'amour n'aiſt bruſquement, ſans autre reflexion, par temperament ou par foibleſſe ; un trait de beauté nous fixe, nous détermine. L'amitié au contraire ſe forme peu à peu, avec le temps, par la pratique, par un long commerce : combien d'eſprit, de bonté de coeur, d'attachement, de ſervices &amp; de complaiſance dans les amis, pour faire en pluſieurs années bien moins que ne fait quelques fois en un moment un beau viſage ou une belle main.</p>
+                            <p source="#e1">L'amour n'aiſt bruſquement, ſans autre reflexion, par
+                                temperament ou par foibleſſe ; un trait de beauté nous fixe, nous
+                                détermine. L'amitié au contraire ſe forme peu à peu, avec le temps,
+                                par la pratique, par un long commerce <app>
+                                    <rdg wit="#e1">: combien</rdg>
+                                    <rdg wit="#e8">. Combien</rdg>
+                                </app> d'eſprit, de bonté de coeur, d'attachement, de ſervices &amp;
+                                de complaiſance dans les amis, pour faire en pluſieurs années bien
+                                moins que ne fait quelques fois en un moment un beau viſage ou une
+                                belle main.</p>
                         </div4>
                     </div3>
                 </div2>
