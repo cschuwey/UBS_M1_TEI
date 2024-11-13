@@ -29,7 +29,8 @@
             <sourceDesc>
                 <bibl>
                     <editionStmt>
-                        <p>Première édition, <date>1688</date></p>
+                        <name xml:id="version1688">Première édition </name>
+                        <date>1688</date>
                         <author>
                             <name> Jean </name> de La Bruyère </author>
                         <!-- commencer dès maintenant à préciser le + possible les noms des auteurs pour M2-->
@@ -44,15 +45,15 @@
                     </editionStmt>
 
                     <editionStmt>
-                        <p>Deuxième édition, <date>1694</date></p>
-                        <author>
-                            <name> Jean </name> de La Bruyère </author>
+                        <name xml:id="version1694">Deuxième édition </name>
+                        <date>1694</date>
+                        <author><name> Jean </name> de La Bruyère </author>
                         <title>Les Caractères</title>
                         <publisher>E. Michallet</publisher>
                         <date>1694</date>
                         <idno>8-Z LE SENNE-13969</idno>
-                        <pubplace> Paris </pubplace>
-                        <ref>https://catalogue.bnf.fr/ark:/12148/cb32333303c</ref>
+                        <pubplace> Lyon </pubplace>
+                        <ref>https://www.google.fr/books/edition/Les_caracteres_de_Theophraste_traduits_d/k4fMnPZDHfcC?hl=fr&amp;gbpv=1&amp;dq=E.+Michallet,+1694+les+caractere&amp;printsec=frontcover</ref>
                     </editionStmt>
 
                 </bibl>
@@ -112,31 +113,54 @@
                     <!-- Sommaire -->
                     <div3 type="Chapter">
                         <head> De la Cour </head>
+                        <!-- Pages: edition 1694 : p391 
+                                    edition 1688 :p250 -->
                         <!-- chapitre-->
                         <div4>
                             <!-- pied de mouche, paragraphes : parfois des paragraphes vont ensemble, il faut donc une Div4 pour les mettre ensemble. 
         puis, a chaque nouveau pied de mouche, une nouvelle balise div4 sera utilisé puis refermée, ainsi de suite-->
 
+                            <p> <g ref="#Pdm"/> <!-- balise servant à encoder les glyphs -> caractère comme un pied de mouche mais composé de signe distinct), mais il n'y en a pas dans les 2 remarques que j'ai encodé -->
+                                <app>
+                                    <!-- TD6 : les variables -->
+                                    <lem>
+                                        <!-- texte sur lequel on se réfère -->
+                                        <ab type="pilcrow"/>
+                                        <!--Pied de mouche--> Le favory n'a point de fuites, il eft
+                                        fans engagement &amp; fans liaifons , il peut eftre entouré
+                                        de parens &amp; de creatures , mais il n'y tient pas ; il
+                                        eft détaché de tout , &amp; comme ifolé. </lem>
+                                    <rdg wit="#version1694"> Le favori n'a point de fuite ; il eft
+                                        fans engagement &amp; fans liaifons ; il peut être entouré
+                                        de parens &amp; de creatures, mais il n'y tient pas ; il eft
+                                        détaché de tout, &amp; comme ifolé. </rdg>
+                                </app>
+                            </p>
+                            
+                            <p source="#version1694"> Nombres de remarques supplémantaires ajoutées entres les deux
+                                remarques encodées entre les version 1688 et 1694 </p>  <!-- source = sert à dire qu'il y a des remarques qui ont été ajouté au fil du temps par La Bruyère et leur nombre -->
+                                                      
                             <p>
-                                <ab type="pilcrow"/>
-                                <!--Pied de mouche--> Le favory n'a point de fuites, il eft fans
-                                engagement &amp; fans liaifons , il peut eftre entouré de parens
-                                &amp; de creatures , mais il n'y tient pas ; il eft détaché de tout
-                                , &amp; comme ifolé. </p>
-                            <p>
+                                <app>
+                                    <lem>
                                 <ab type="pilcrow"/> Une grande parure pour le <seg>favory<note
                                         type="comment" resp="#Aureline" place="top"> Petit café ?
                                     </note></seg> difgracié , c'eft la retraitte : il luy eft
                                 avantageux de difparoiftre , plûtoft que de traîner dans la Ville le
                                 debris d'une faveur qu'il a perduë , &amp; de faire <seg> un nouveau
-                                    perfonnage fi different du premier <note type="gloss"
-                                        resp="#LaBruyere" place="bottom"> c'est la Bruyère qui a
-                                        écrit donc faire une #resp paraît pertinent</note></seg>
+                                    perfonnage fi different du premier 
+                                    <note type="gloss" resp="#LaBruyere" place="bottom">RIP la note qui a disparu </note></seg>
                                 qu'il a foûtenu : il conferve au contraire le merveilleux de fa vie
-                                dans la folitude ; &amp; <seg>mourant<note type="des"
-                                        place="margin" resp="#Aureline">Contenu de la
-                                    note</note></seg> pour ainfi dire avant la caducité , il ne
-                                laiffe de foy qu'une belle idée &amp; une memoire agreable. </p>
+                                dans la folitude ; &amp; <seg>mourant<note type="des" place="margin" resp="#Aureline">
+                                Contenu de la note TD5</note></seg> pour ainfi
+                                dire avant la caducité , il ne laiffe de foy qu'une belle idée &amp;
+                                une memoire agreable. </lem>
+                                    <rdg>
+                                        
+                                    </rdg>
+                                    
+                                </app>
+                            </p>
 
                         </div4>
                     </div3>
