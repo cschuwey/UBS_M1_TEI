@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/">
+<TEI xmlns="http://www.tei-c.org/>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,31 +20,28 @@
                 <bibl xml:id="#E1">
                     <title>Première</title>
                     <author>Jean <name>de La Bruyère</name></author>
-                    <publisher>Thomas Amaulry</publisher>
-                    <pubPlace>Lyon</pubPlace>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
                     <edition>Première édition</edition>
                     <date>1688</date>
-                    <idno>RES-R-2058</idno>
-                    <ref target="https://catalogue.bnf.fr/ark:/12148/cb307059813">Catalogue de la
-                        BNF</ref>
+                    <idno>RES-R-2056</idno>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/btv1b86070385/f1.planchecontact.r=les%20carct%C3%A8res%20de%20th%C3%A8ophaste">Lien Gallica</ref>
                 </bibl>
                 <bibl xml:id="#E2">
                     <title>Deuxième</title>
                     <author>Jean <name>de La Bruyère</name></author>
                     <publisher>E. Michallet</publisher>
                     <pubPlace>Paris</pubPlace>
-                    <edition>Deuxième édition</edition>
+                    <edition>Septième édition</edition>
                     <date>1692</date>
                     <idno>8-Z LE SENNE-13968</idno>
-                    <ref
-                        target="https://www.google.fr/books/edition/Les_caract%C3%A8res_de_Th%C3%A9ophraste/gtk5AAAAcAAJ?hl=fr&gbpv=1&dq=bruy%C3%A8re+caract%C3%A8res&printsec=frontcover"
-                        >Catalogue de la BNF</ref>
+                    <ref target="https://www.google.fr/books/edition/Les_caracteres_de_Theophraste_traduits_d/FHfcrDmnOJ0C?hl=en&gbpv=1&dq=les+caract%C3%A8res+la+bruy%C3%A8re&pg=PA440&printsec=frontcover">Lien Books</ref>
                 </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
 
-    <front/>
+    <front><front/>
 
     <body>
         <div1>
@@ -65,19 +62,25 @@
                     <!--Chapitres de La Bruyère-->
                     <head>De la société et de la conversation</head>
                     <div4 type="remark">
+                        <p source="#E2">
+                            Il est souvent plus court et plus utile de cadrer aux autres, que de faire
+                            que les autres s’ajustent à nous. 
+                        </p>
+                    </div4>
+                    <div4 type="remark">
                         <p source="#E1">
-                            <ab type="pilcrow"/> C'eſt le rôle d'un ſot d'<seg><app>
-                                    <lem wit="#E1">eſ</lem>
-                                    <rdg wit="#E2" type="ortographic">ê</rdg></app>tre</seg>
-                            <seg>importun <note resp="#JDLB" type="desc" place="top"> Qui gêne par
-                                    sa conduite </note>
-                            </seg>:un homme habile ſent s'il convient, ou s'il ennuye<seg><app>
+                            <ab type="pilcrow"/> C'eſt le rôle d'un ſot d'eſtre importun <note resp="#JDLB" type="desc" place="top"> Qui gêne par
+                                    sa conduite</note>
+                                    </seg><seg><app>
+                                        <lem wit="#E1">:</lem>
+                                        <rdg wit="#E2"> : </rdg>
+                                    </app></seg>un homme habile ſent s'il convient, ou s'il ennuye<seg><app>
                                     <lem wit="#E1">,</lem>
                                     <rdg wit="#E2" type="ortographic"> :</rdg></app></seg> il fçait <seg>diſparo<app>
                                     <lem wit="#E1">iſ</lem>
                                     <rdg wit="#E2" type="ortographic">î</rdg></app>tre <note
                                     resp="MB" type="reg" place="bottom"> disparaître </note>
-                            </seg> le moment qui précede celuy où il feroit de trop quelque part.
+                            </seg>le moment qui précede celuy où il feroit de trop quelque part.
                         </p>
                     </div4>
                     <div4 type="remark">
@@ -85,27 +88,19 @@
                             <ab type="pilcrow"/>L'on marche ſur les mauvais plaiſans, &amp; il pleut
                             par tout <seg>pa<app>
                                     <lem wit="E1">y</lem>
-                                    <rdg wit="E2">ï</rdg></app>s</seg> de cette ſorte d'inſectes <seg><app>
-                                    <lem wit="E1">:</lem>
-                                    <rdg wit="E2" type="punctuation">;</rdg></app></seg> un bon
-                            plaiſant eſt une piece rare ; <seg>à un homme qui eſt né tel il eſt
-                                encore fort délicat d'enfoûtenir long-temps le perſonnage ; il n'eſt
-                                pas ordinaire que celui qui fait rire ſe faſſe eſtimer. <note
+                                    <rdg wit="E2">ï</rdg></app>s</seg> de cette ſorte d'inſectes : un bon
+                            plaiſant eſt une piece rare ; <seg>à un homme qui eſt<app>
+                                <lem wit="#E1"/>
+                                <rdg wit="#E2">eſt</rdg></app> né tel<app>
+                                    <lem wit="#E1"/>
+                                    <rdg wit="#E2">,</rdg></app> il eſt encore fort délicat d'en ſoûtenir long-temps le perſonnage ; il n'eſt
+                                pas ordinaire que <seg>celu<app>
+                                    <lem it="#E1">i</lem>
+                                    <rdg wit="#E2">y</rdg></app></seg> qui fait rire ſe faſſe eſtimer. <note
                                     resp="#JDLB" type="comment" place="margin"> Ceci est à remettre
-                                    en contexte. </note>
+                                    en contexte.</note>
                             </seg>
                         </p>
-                   <div4>
-                       <p source="#E2">
-                           Tout persuadé que je suis que ceux que l’on choisit pour de différents
-                           emplois, chacun selon son génie et sa profession font bien, je me hasarde de
-                           dire qu’il se peut faire qu’il y ait au monde plusieurs personnes connues ou
-                           inconnues, que l’on n’emploie pas, qui feraient très bien ; et je suis
-                           induit à ce sentiment par le merveilleux succès de certaines gens que le
-                           hasard seul a placés, et de qui jusques alors on n’avait pas attendu de fort
-                           grandes choses. 
-                       </p>
-                   </div4>
                     </div4>
                 </div3>
             </div2>
