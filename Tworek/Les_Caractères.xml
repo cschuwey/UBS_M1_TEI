@@ -16,7 +16,7 @@
                 <date when="2024-10-16">16 octobre 2024</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="version1688">
                     <title>Les caracteres ou les moeurs de ce siècle</title>
                     <author>Théophraste</author>
                     <author><forename>Jean</forename><name>de La Bruyère</name></author>
@@ -26,8 +26,8 @@
                     <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385</ref>
                     <pubPlace>Paris</pubPlace>
                 </bibl>
-                <bibl>
-                    <author>Jean <name>De La Bruyère</name></author>
+                <bibl xml:id="version1696">
+                    <author> Jean <name>De La Bruyère</name></author>
                     <author>Théophraste</author>
                     <title>Les caractères de Theophraste, traduits du grec, avec Les Caractères ou
                         les moeurs de ce siècle</title>
@@ -52,6 +52,17 @@
                     <p>Les accents ont été supprimés</p>
                 </normalization>
             </editorialDecl>
+            <charDecl>
+                <glyph xml:id="Pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
+                <glyph xml:id="Piedemouchesimple">
+                    <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="Piedemouchedouble">
+                    <desc>((¶))</desc>
+                </glyph>
+            </charDecl>
         </encodingDesc>
     </teiHeader>
     <text>
@@ -83,22 +94,45 @@
                     <!--Texte de LB-->
                     <div3 type="chapter">
                         <head>Des Jugements</head>
-                        <p>Rien ne <seg>reſſemble<note type="context" resp="#ET">le s s'écrivait ſ, ce qui correspond à un s long.</note></seg> mieux à la vive perſuaſion que les <seg>mauvais
-                            entêtement<note type="gloss" resp="#ET">Fait de persister dans un comportement volontaire sans tenir compte des circonstances</note></seg> : de là les partis, les cabales, le he- reſies. </p>
+                        <!-- page 329 -->
+                        <p source="#version1688">Rien ne <seg>reſſemble<note type="context"
+                                    resp="#ET">le s s'écrivait ſ, ce qui correspond à un s
+                                    long.</note></seg>
+                            <app>
+                                <lem>mieux</lem>
+                                <rdg wit="#version1696" source="#version1696">plus</rdg>
+                            </app> à la vive perſuaſion que <app>
+                                <lem>les</lem>
+                                <rdg wit="#version1696">le</rdg>
+                            </app>
+                            <seg>mauvais entêtement<note type="gloss" resp="#ET">Fait de persister
+                                    dans un comportement volontaire sans tenir compte des
+                                    circonstances</note></seg> : de là les partis, les cabales, le
+                            hereſies. </p>
                         <!--Je ne l'ai pas mis dans une div remarque car il n'est pas marqué comme remarque avec le signe dans le texte original-->
+                        <!-- L'attribut source peut s'utiliser dans n'importe quel élément -->
                         <div4 type="remark">
-                            <p>L'on ne penſe pas toûjours conſtamment d'un meſme fuſet :
-                                l'entêtement &amp; le <seg>dégoût <note type="gloss" resp="#ET">Aversion (pour qqch., qqn).</note></seg> ſe ſuivent de prés.</p>
+                            <p source="#version1688"><g ref="#Pieddemouche"/>L'on ne penſe pas
+                                toûjours conſtamment d'un meſme fuſet : l'entêtement &amp; le
+                                    <seg>dégoût <note type="gloss" resp="#ET">Aversion (pour qqch.,
+                                        qqn).</note></seg> ſe ſuivent de prés.</p>
                         </div4>
                         <div4 type="remark">
-                            <p>Les grandes choſes étonnent &amp; les petites rebuten ; nous nous
-                                apprivoiſons avec les unes &amp; les autres par l'habitude.</p>
+                            <p source="#version1688"><g ref="#Pieddemouche"/>Les grandes choſes
+                                étonnent &amp; les petites rebutent ; nous nous apprivoiſons avec les
+                                unes &amp; les autres par l'habitude.</p>
                         </div4>
                         <div4 type="remark">
-                            <p>Il n'y a rien de plus bas &amp; qui convienne mieux au pleuple, que
-                                de parler en des termes magnifiques de ceux-meſme dont l'on penſoit
-                                tres-modeſtement avant leur élevation</p>
-                            <!--@place indique place qu'occupe la note dans le document original et non dans le document créé par la suite--> 
+                            <p source="#version1696"><g ref="#Pieddemouche"/>Deux choſes toutes
+                                contraires nous préviennent également , l'habitude &amp; la
+                                nouveauté. </p>
+                        </div4>
+                        <div4 type="remark">
+                            <p source="#version1688"><g ref="#Pieddemouche"/>Il n'y a rien de plus
+                                bas &amp; qui convienne mieux au pleuple, que de parler en des
+                                termes magnifiques de ceux-meſme dont l'on penſoit tres-modeſtement
+                                avant leur élevation.</p>
+                            <!--@place indique la place qu'occupe la note dans le document original et non dans le document créé par la suite-->
                             <!-- Pour les esperluettes, comme oxygen ne les valide pas, en cherchant sur Internet, j'ai trouvé que la solution était de coder &amp;-->
                         </div4>
                     </div3>
@@ -107,4 +141,5 @@
         </body>
         <back> </back>
     </text>
+</TEI>>
 </TEI>
