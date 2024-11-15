@@ -6,15 +6,15 @@
                 <title>Numérisation De La Bruyère</title>
             </titleStmt>
             <publicationStmt>
-                    <publisher>
-                     <name xml:id="CM">Camille Mauperon</name>                    
-                     <roleName>Etudiante</roleName>
+                <publisher>
+                    <name xml:id="CM">Camille Mauperon</name>
+                    <roleName>Etudiante</roleName>
                     <affiliation>UBS</affiliation>
                 </publisher>
             </publicationStmt>
 
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="version1688">
                     <author>Théophraste</author>
                     <author><forename>Jean</forename>
                         <name>De La Bruyère</name></author>
@@ -26,7 +26,7 @@
                     <date when="2007-10-15"/>
                 </bibl>
 
-                <bibl>
+                <bibl xml:id="version1699">
                     <author><forename>Jean</forename>
                         <name>De La Bruyère</name></author>
                     <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
@@ -42,6 +42,20 @@
         </fileDesc>
 
         <encodingDesc>
+            <charDecl>
+                <glyph xml:id="pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
+
+                <glyph xml:id="pieddemouchesimple">
+                    <desc>(¶)</desc>
+                </glyph>
+
+                <glyph xml:id="pieddemouchedouble">
+                    <desc>((¶))</desc> 
+                </glyph>
+                
+            </charDecl>
             <projectDesc>
                 <p>Projet d'édition numérique De La Bruyère</p>
             </projectDesc>
@@ -78,40 +92,54 @@
                     <div3 type="Chapter">
                         <head>Du Coeur.</head>
                         <div4 type="remark">
-                            <p>Quelques-uns 
-                                <seg>ſe<note resp="#CM" type="gloss" place="bottom">Le s long (ſ) est la forme ancienne de la lettre s minuscule. Depuis l'uniformisation de l'écriture par Charlemagne et l'apparition de la caroline ou minuscule carolingienne, on n'utilisait que le s long, qu'un lecteur non averti confondrait aujourd'hui avec un f.</note></seg> 
-                                défendent d'aimer &amp; de faire des vers, comme de
-                                deux foibles qu'ils n'oſent avouer ; l'un du 
-                                <seg>coeur<note resp="#CM" type="definition" place="margin">Organe musculaire creux, qui constitue l'élément moteur central de la circulation du sang</note></seg>
-                                , l'autre de
-                                l'eſprit.</p>
+                            <p><g ref="#pieddemouche"/> Quelques-uns <seg>ſe<note resp="#CM" type="gloss" place="bottom">Le s
+                                        long (ſ) est la forme ancienne de la lettre s minuscule.
+                                        Depuis l'uniformisation de l'écriture par Charlemagne et
+                                        l'apparition de la caroline ou minuscule carolingienne, on
+                                        n'utilisait que le s long, qu'un lecteur non averti
+                                        confondrait aujourd'hui avec un f.</note></seg> défendent
+                                d'aimer &amp; de faire des vers, comme de deux foibles qu'ils
+                                n'oſent <app>
+                                    <lem wit="#version1688">avouer ;</lem>
+                                    <rdg wit="#version1699">avouer,</rdg>
+                                </app>l'un du <seg>coeur<note resp="#CM" type="definition"
+                                        place="margin">Organe musculaire creux, qui constitue
+                                        l'élément moteur central de la circulation du
+                                    sang</note></seg> , l'autre de l'eſprit.</p>
                             <!-- Pour le "&" j'ai trouvé cette solution sur internet &amp;-->
                         </div4>
 
                         <div4>
 
-                            <p>Regretter ce que l'on aime eſt un bien, en comparaiſon de vivre avec
-                                ce que l'on hait.</p>
+                            <p source="#version1688"><g ref="#pieddemouche"/>Regretter ce que l'on aime eſt un bien, en
+                                comparaiſon de vivre avec ce que l'on hait.</p>
+                            <!--La remarque a été déplacée dans la version de 1699, elle ne se trouve donc pas au même endroit, mais elle reste tout de même dans le même chapitre-->
+
                         </div4>
 
                         <div4>
 
-                            <p>Vouloir oublier quelqu'un, c'eſt y penſer. L'amour a cela de commun
+                            <p><g ref="#pieddemouche"/>Vouloir oublier quelqu'un, c'eſt y penſer. L'amour a cela de commun
                                 avec les ſcrupules, qu'il s'aigrit par les reflexions &amp;les
                                 retours que l'on fait pour s'en délivrer. Il faut, s'il ſe peut, ne
-                                point ſonger à la paſſion pour l'affoiblir. </p>
+                                point ſonger à la paſſion pour <app>
+                                    <lem wit="#version1688">l'affoiblir.</lem>
+                                    <rdg wit="#version1699">l'afoiblir.
+                                        <!--La remarque a été déplacée et ne se trouve donc pas au même endroit, mais se trouve dans le même chapitre-->
+                                    </rdg>
+                                </app></p>
 
                             <p> </p>
                         </div4>
                     </div3>
                 </div2>
             </div1>
-
-
-
-
+            
         </body>
 
         <back> </back>
+    </text>
+</TEI>
+
     </text>
 </TEI>
