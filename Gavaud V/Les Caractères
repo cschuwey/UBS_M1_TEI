@@ -38,6 +38,13 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
+                    <encodingdesc>
+                        <charDecl>
+                            <glyph xml:id="pieddemouche"><desc>¶</desc></glyph>
+                            <glyph xml:id="pieddemoucheparenthèse"><desc>(¶)</desc></glyph>
+                            <glyph xml:id="pieddemouchedouble"><desc>((¶))</desc></glyph>
+                        </charDecl>
+                    </encodingdesc>
     </teiHeader>
     <text>
         <body>
@@ -73,9 +80,19 @@
                                         avant JC</note>
                                 </seg>ou <seg>Despreaux <note resp="#VG" type="bio">Nicolas Boileau
                                         Despréaux, auteur contemporain de La Bruyère</note>
-                                </seg> l'a dit avant vous; je le crois ſur voſtre parole; mais je
-                                l'ay dit comme mien; ne puis-je pas penſer une choſe vraie, &amp;
-                                que d'autres encore penſeront aprés moy?</p>
+                                </seg> l'a dit avant vous; je le 
+                                <app> <lem wit="#e1688">crois</lem>
+                                      <rdg wit="#e1691" type="ortographic">croy</rdg></app>
+                                ſur 
+                                <app> <lem wit="#e1688">voſtre</lem>
+                                      <rdg wit="#e1691" type="ortographic">vôſtre</rdg></app>
+                                parole; mais je l'ay dit comme mien; ne puis-je pas penſer
+                                <app> <lem wit="#e1688">une choſe vraie</lem>
+                                      <rdg wit="#e1691" type="ortographic">aprés eux une choſe vraye</rdg></app>
+                                , &amp;
+                                que d'autres encore penſeront aprés moy 
+                                <app><lem wit="e1688">?</lem>
+                                     <rdg wit="e1691">.</rdg></app></p>
                         </div4>
                     </div3>
                 </div2>
