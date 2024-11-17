@@ -48,11 +48,11 @@
             <charDecl>
                 <glyph xml:id="pdm1">
                     <desc>¶</desc>
-                    <localProp name="entity" value="affiche le débit d'un nouvelle remarque de la première édition"/>
+                    <localProp name="entity" value="affiche le début d'un nouvelle remarque de la première édition"/>
                 </glyph>
                 <glyph xml:id="pdm2">
                     <desc>(¶)</desc>
-                    <localProp name="entity" value="affiche le débit d'un nouvelle remarque de la deuxième édition"/>
+                    <localProp name="entity" value="affiche le début d'un nouvelle remarque de la deuxième édition"/>
                 </glyph>
             </charDecl>
         </encodingDesc>
