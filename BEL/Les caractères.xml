@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     
     <TeiHeader>
@@ -60,6 +61,16 @@
             <langUsage>
                 <language ident="fr">Français</language>
             </langUsage>
+            <particDesc>
+                <org xml:id="org1">
+                <personGrp>
+                </personGrp>
+                </org>
+                <org xml:id="org2">
+                <personGrp>
+                </personGrp>
+                </org>
+            </particDesc>
         </profileDesc>
         
     </TeiHeader>
@@ -89,15 +100,19 @@
                     <head>Des Ouvrages de l'Esprit</head>
                     <div3 type="remark">
                         <p source="#E1 #E2">TOut eſt dit, &amp; l'on vient trop tard depuis plus de ſept mille ans qu'il y a des hommes, &amp; qui penſent. 
-                            Sur ce qui concerne les moeurs le plus beau &amp; le meilleur eſt enlevé; l'on ne fait que glaner aprés <seg>les Anciens<note resp="#Bel" type="glossaire">ou Classiques sont les partisans de la supériorité du latin et du grec sur le français dans la querelle de 1687</note></seg> &amp; les habiles d'entre les <app><lem from="#E1">Modernes</lem><rdg wit="#E2">modernes</rdg></app>.</p>
+                            Sur ce qui concerne les moeurs le plus beau &amp; le meilleur eſt enlevé; l'on ne fait que glaner aprés <seg>les <orgName ref=>Anciens</orgName>
+                                <note resp="#Bel" type="glossaire">ou Classiques sont les partisans de la supériorité du latin et du grec sur le français dans la querelle de 1687</note></seg>
+                            &amp; les habiles d'entre les <app><lem from="#E1"><orgName ref=>Modernes</orgName>
+                                </lem><rdg wit="#E2">modernes</rdg></app>.
+                        </p>
                     </div3>
                     <div3 type="remark">
                         <p source="#E1 #E2">&para;Il faut chercher <seg>ſeulement<note resp="#Bel" status="en_cours" type="commentaire">le s long peut être inscrit grâce à la fonction copier et coller ou sous la forme suivante &s-long;</note></seg>à penſer &amp; à parler juſte, ſans vouloir amener les autres à <app><lem from="#E1">noſtre</lem><rdg wit="#E2">nôtre</rdg></app> goût &amp; à nos ſentimens ; c'eſt une trop grande entrepriſe <app><lem from="#E1">.</lem><rdg wit="#E2">,</rdg></app></p>
                     </div3>
                     <seg>
-                    <div3 type="remark">
-                        <p source="#E2">Quand une lecture vous élève l'esprit, et qu'elle vous inspire des sentiments nobles et courageux, ne cherchez pas une autre règle pour juger de l'ouvrage, il et bon, et fait de main d'ouvrier.</p>
-                    </div3>
+                        <div3 type="remark">
+                            <p source="#E2">Quand une lecture vous élève l'esprit, et qu'elle vous inspire des sentiments nobles et courageux, ne cherchez pas une autre règle pour juger de l'ouvrage, il et bon, et fait de main d'ouvrier.</p>
+                        </div3>
                     </seg>
                 </div2>
             </div1>
