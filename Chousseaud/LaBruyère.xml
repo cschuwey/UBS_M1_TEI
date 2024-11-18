@@ -3,7 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Les Caractères de Théophraste, avec les caractères ou les mœurs de ce siècle</title>
+                <title> Les Caractères de Théophraste, avec les caractères ou les mœurs de ce
+                    siècle</title>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -14,26 +15,43 @@
                 <date when="2024-10-18"> 18 octobre 2024 </date>
             </publicationStmt>
             <sourceDesc>
+                
                 <bibl xml:id="Ed1688">
                     <author>La Bruyère</author>
-                    <name> Les Caractères de Théophraste, avec les caractères ou les mœurs de ce siècle</name>
+                    <name> Les Caractères de Théophraste, avec les caractères ou les mœurs de ce
+                        siècle</name>
                     <publisher>Michallet</publisher>
                     <date>1688</date>
-                    
                 </bibl>
                 <bibl xml:id="Ed1694">
                     <author>La Bruyère</author>
-                    <name>Les caractères de Théophraste traduits du grec ; avec Les caractères ou les moeurs de ce siècle. Huitième édition</name>
+                    <name>Les caractères de Théophraste traduits du grec ; avec Les caractères ou
+                        les moeurs de ce siècle. Huitième édition</name>
                     <publisher>chez Estienne Michallet</publisher>
                     <date>1694</date>
                 </bibl>
+                <listOrg>
+                    <org xml:id="D">
+                        <name>Dieux</name>
+                        <desc>Ne réfère pas à un seul Dieu, on parle ici d'une autorité indéfinie.</desc>
+                        </org>
+                </listOrg>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <p></p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <p xml:lang="fra">Français</p>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
-        
+
         <front>
-            <head>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</head>
+            <head>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs
+                de ce siècle</head>
             <div>
                 <p>Traduits du grec</p>
                 <div>
@@ -44,7 +62,6 @@
                 </div>
             </div>
         </front>
-        
         <body>
             <div1>
                 <p>Théophraste</p>
@@ -71,147 +88,91 @@
                 </div2>
                 <div2>
                     <p>Texte des Caractères</p>
-                </div2>
                 <div3 type="chapter">
                     <p>De l'Effronterie cauſée par l'avarice.</p>
                     <div4>
-                        <p>Pour faire connoîſtre ce vi
-                            ce, il faut dire que c’eſt un
-                            mépris de l’honneur dans la vûë
-                            d’un vil intereſt. Un homme que
-                            l’avarice rend effronté, oſe em
-                            prunter une ſomme d’argent à
-                            celuy à qui il en doit déja, &amp;
-                            qu’il luy retient avec injuſtice.
-                            Le jour meſme qu’il aura ſacri
-                            fié aux Dieux, au lieu de <seg>man
-                                ger *<note type="glossaire">C'ettoit le coûtume des Grecs.V. le chap. du contretemps.</note>religieuſement chez ſoy
-                                une partie des viandes conſa
-                                crées</seg>, il les fait ſaler pour luy
-                            ſervir dans pluſieurs repas, &amp;
-                            va souper chez l’un de ſes amis,
-                            &amp; là à table à la v<app><rdg wit="#Ed1694">û</rdg><rdg wit="#Ed1688">eu</rdg></app>ë de tout
-                            e monde il appelle ſon vaſet
-                            qu’il veut encore nourrir aux
-                            depens de ſon hoſte, et luy cou
-                            pant un morceau de viande qu’il
-                            met ſur un quartier de pain, te
-                            nez, mon ami, luy dit-il, faites
-                            bonne chere. Il va luy-meſme
-                            au marché acheter * des
-                            viandes cuites, &amp; avant que de
-                            convenir du prix, pour avoir
-                            une meilleure compoſition du
-                            marchand, il le fait reſſouvenir
-                            qu’il luy a autrefois rendu ſer
-                            vice ; il fait enſuite peſer ces
-                            viandes, &amp; il en enfaſle le plus
-                            qu’il peut ; ſi’il en eſt empeſché
-                            par celui qui les luy vend, il
-                            jette du moins quelque os dans
-                            la balance ; ſi elle peut tout con
-                            tenir il eſt ſatisfait, ſinon il
-                            rammaſſe ſur la table des mor
-                            ceaux de rebut comme pour ſe
-                            dedommager, ſoubit et s’en va.
-                            Une autre fois fur l’argent qu’il
-                            aura reçu de quelques étrangers
-                            pour leur loüer des places au
-                            theatre, il trouve le ſecret d’a
-                            voir ſa part franche du ſpecta
-                            cle, &amp; d’y envoyer le lende
-                            main ſes enfans &amp; leur Precep
-                            teur. Tout luy fait envie, il veut
-                            profiter des bons marchez, &amp;
-                            demande hardiment au premier
-                            venu une choſe qu’il ne vient
-                            que d’acheter ; ſe trouve-t’il
-                            dans une maiſon étrangere, il
-                            emprunte juſques à l’orge &amp; à
-                            la paille, encore faut-il que ce
-                            luy qui les luy prête, faſſe les
-                            frais de les faire porter juſques
-                            chez luy. Cet effronté en un
-                            mot entre ſans payer dans un
-                            bain public, &amp; là en preſence du
-                            baigneur qui crie inutilement
-                            contre luy, prenant le premier
-                            vaſe qu’il rencontre, <seg>il le plon
-                                ge dans une cuve d’airain qui eſt
-                                remplie d’eau, &amp; la *<note type="comment"> Les plus pauvres se lavoient ainſi pour payer moins.</note> répand ſur
-                                tout le corps</seg> ; me voila lavé,
-                            ajoute-t’il, autant que j’en ay
-                            beſoin, &amp; ſans en avoir obliga-
-                            tion à perſonne, remet ſa robe &amp;
+                        <p>Pour faire connoîſtre ce vi ce, il faut dire que c’eſt un mépris de
+                            l’honneur dans la vûë d’un vil intereſt. Un homme que l’avarice rend
+                            effronté, oſe em prunter une ſomme d’argent à celuy à qui il en doit
+                            déja, &amp; qu’il luy retient avec injuſtice. Le jour meſme qu’il aura
+                            ſacrifié aux <orgName ref="#D">Dieux</orgName>, au lieu de <seg>manger *<note
+                            type="glossaire">C'ettoit le coûtume des <orgName ref="People">Grecs</orgName>.V. 
+                            le chap. du contretemps.</note>religieuſement chez ſoy une partie des 
+                            viandes conſa crées</seg>, il les fait ſaler pour luy ſervir dans pluſieurs
+                            repas, &amp; va souper chez l’un de ſes amis, &amp; là à table à la v<app>
+                                <rdg wit="#Ed1694">û</rdg>
+                                <rdg wit="#Ed1688">eu</rdg>
+                            </app>ë de tout e monde il appelle ſon vaſet qu’il veut encore nourrir
+                            aux depens de ſon hoſte, et luy cou pant un morceau de viande qu’il met
+                            ſur un quartier de pain, te nez, mon ami, luy dit-il, faites bonne
+                            chere. Il va luy-meſme au <placeName>marché</placeName> acheter * des
+                            <objectName>viandes cuites</objectName>, &amp; avant que de convenir
+                            du prix, pour avoir une meilleure compoſition du marchand, il le fait
+                            reſſouvenir qu’il luy a autrefois rendu ſer vice ; il fait enſuite peſer
+                            ces viandes, &amp; il en enfaſle le plus qu’il peut ; ſi’il en eſt
+                            empeſché par celui qui les luy vend, il jette du moins quelque os dans
+                            la balance ; ſi elle peut tout con tenir il eſt ſatisfait, ſinon il
+                            rammaſſe ſur la table des mor ceaux de rebut comme pour ſe dedommager,
+                            ſoubit et s’en va. Une autre fois fur l’argent qu’il aura reçu de
+                            quelques étrangers pour leur loüer des places au theatre, il trouve le
+                            ſecret d’a voir ſa part franche du ſpecta cle, &amp; d’y envoyer le
+                            lende main ſes enfans &amp; leur <name>Precepteur</name>. Tout luy fait
+                            envie, il veut profiter des bons marchez, &amp; demande hardiment au
+                            premier venu une choſe qu’il ne vient que d’acheter ; ſe trouve-t’il
+                            dans une maiſon étrangere, il emprunte juſques à l’orge &amp; à la
+                            paille, encore faut-il que ce luy qui les luy prête, faſſe les frais de
+                            les faire porter juſques chez luy. Cet effronté en un mot entre ſans
+                            payer dans un <placeName>bain public</placeName>, &amp; là en preſence
+                            du baigneur qui crie inutilement contre luy, prenant le premier vaſe
+                            qu’il rencontre, <seg>il le plonge dans une cuve d’airain qui eſt
+                            remplie d’eau, &amp; la *<note type="comment"> Les plus pauvres se
+                            lavoient ainſi pour payer moins.</note> répand ſur tout le
+                            corps</seg> ; me voila lavé, ajoute-t’il, autant que j’en ay beſoin,
+                            &amp; ſans en avoir obliga- tion à perſonne, remet ſa robe &amp;
                             diſparoît.</p>
                     </div4>
                 </div3>
+                </div2>
+                <div2>
                 <div3 type="chapter">
                     <p>Du Contre-temps</p>
                     <div4>
-                        <p>Cette ignorance du temps
-                            &amp; de l'occaſion eſt une ma-
-                            nière d'aborder les gens ou d'a-
-                            gir avec eux, toûjourss incom-
-                            mod et embaraſſante. un im-
-                            portun eſt celui qui choiſit le 
-                            moment que ſon ami eſt accablé
-                            de ſes propres affaires, pou luy
-                            parler des ſiennes ; qui va ſou-
-                            per chez ſa ma<app><rdg wit="Ed1688">iſ</rdg><rdg wit="ed1694">î</rdg></app>treſſe le ſoir
-                            meſme qu'elle a la fiévre ; qui
-                            voyant que quelqu'un vient d'e-
-                            ſtre condamné en juſtice de
-                            payer pour un autre pour qui il
-                            s'eſt obligé, le prie néanmoins
-                            de répondre pour luy ; qui com-
-                            paroiſt pour ſervir de témoin
-                            dans un procez que l'on vient
-                            de juger ; qui prend le temps
-                            des nôces où il eſt invité pour 
-                            ſe déchaîner contre les femmes;
-                            qui entraîne à la promenade des
-                            gens à peine arrivez d'un long 
-                            voyage, &amp; qui n'aſpirent qu'à
-                            ſe repoſer : fort capable d'ame-
-                            ner des MArchand pour offrir 
-                            d'une choſe plus qu'elle eſt ne vaut
-                            après qu'elle eſt venduë ; de ſe 
-                            lever au milieu d'une aſſemblée
-                            pour reprendre un fait dés ſes
-                            commencemens, &amp; en inſtrui-
-                            re à fond ceux qui en ont les 
-                            oreilles rebatuës, &amp; qui le ſça-
-                            vent mieux que luy : ſouvent 
-                            empreſſé pour engager dans une 
-                            affaire des perſonnes qui ne l'af-
-                            fectionnant point, n'oſent pour
-                            tant refuſer d'y entrer. S'il arri-
-                            ve que quelqu'un dans la ville 
-                            doive faire un feſtin + après
-                            avoir ſacrifié, il va luy deman-
-                            der ne portion des viandes
-                            qu'il a préparées. Une autre fois
-                            s'il voit qu'un Maître châtie de-
-                            vant luy ſon eſclave ; j'ay per-
-                            du, dit-il, un des miens dans
-                            une pareille occaſion, je le fis
-                            foüetter, il ſe deſeſpera, &amp;
-                            s'alla prendre. Enfin il n'eſt pro-
-                            pre qu'à commettre de nou-
-                            veau deux perſonnes qui veu-
-                            lent s'accommoder, s'ils l'ont 
-                            fait arbitre de leur différent.
-                            C'eſt encore une action qui luy
-                            convient fort, que <seg>d'aller pren-
-                                dre au milieu du repas pour
-                                danſer *<note type="glossaire">Cela ne se faiſoit chez les Grecs qu'après le repas, &amp; lorſque les tables eſtoient enlevées.</note> un homme qui eſt de
-                                ſang-froid, &amp; qui n'a bû que mo-
-                                derément.</seg></p>
+                        <p>Cette ignorance du temps &amp; de l'occaſion eſt une ma- nière d'aborder
+                            les gens ou d'a- gir avec eux, toûjourss incom- mod et embaraſſante. un
+                            im- portun eſt celui qui choiſit le moment que ſon ami eſt accablé de
+                            ſes propres affaires, pou luy parler des ſiennes ; qui va ſou- per chez
+                            ſa ma<app>
+                                <rdg wit="Ed1688">iſ</rdg>
+                                <rdg wit="ed1694">î</rdg>
+                            </app>treſſe le ſoir meſme qu'elle a la fiévre ; qui voyant que
+                            quelqu'un vient d'e- ſtre condamné en juſtice de payer pour un autre
+                            pour qui il s'eſt obligé, le prie néanmoins de répondre pour luy ; qui
+                            com- paroiſt pour ſervir de témoin dans un procez que l'on vient de
+                            juger ; qui prend le temps des nôces où il eſt invité pour ſe déchaîner
+                            contre les femmes; qui entraîne à la promenade des gens à peine arrivez
+                            d'un long voyage, &amp; qui n'aſpirent qu'à ſe repoſer : fort capable
+                            d'ame- ner des <orgName>Marchands</orgName> pour offrir d'une choſe plus
+                            qu'elle eſt ne vaut après qu'elle eſt venduë ; de ſe lever au milieu
+                            d'une aſſemblée pour reprendre un fait dés ſes commencemens, &amp; en
+                            inſtrui- re à fond ceux qui en ont les oreilles rebatuës, &amp; qui le
+                            ſça- vent mieux que luy : ſouvent empreſſé pour engager dans une affaire
+                            des perſonnes qui ne l'af-fectionnant point, n'oſent pour tant refuſer
+                            d'y entrer. S'il arri- ve que quelqu'un dans la ville doive faire un
+                            feſtin + après avoir ſacrifié, il va luy deman- der ne portion des
+                            viandes qu'il a préparées. Une autre fois s'il voit qu'un Maître châtie
+                            de- vant luy ſon eſclave ; j'ay per- du, dit-il, un des miens dans une
+                            pareille occaſion, je le fis foüetter, il ſe deſeſpera, &amp; s'alla
+                            prendre. Enfin il n'eſt pro- pre qu'à commettre de nou-veau deux
+                            perſonnes qui veu- lent s'accommoder, s'ils l'ont fait arbitre de leur
+                            différent. C'eſt encore une action qui luy convient fort, que
+                                <seg>d'aller pren- dre au milieu du repas pour danſer *<note
+                                    type="glossaire">Cela ne se faiſoit chez les <orgName ref="people">Grecs</orgName> qu'après le
+                            repas, &amp; lorſque les tables eſtoient enlevées.</note> un
+                            homme qui eſt de ſang-froid, &amp; qui n'a bû que moderément.</seg>
+                        </p>
                     </div4>
                 </div3>
-                </div3>
-                </div3>
+              </div2>
             </div1>
         </body>
     </text>
