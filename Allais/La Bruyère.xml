@@ -17,14 +17,14 @@
                 <biblStruct>
                     <monogr xml:id="E1">
                         <taxonomy>
-                            <category xml:id="S">
+                        <category xml:id="S">
+                            <!-- les sots et le habiles étant des concepts,noms communs, je n'ai pas retrouvé d'idno pour les définir, sauf le lien vers leur page cnrtl... -->
                                 <catDesc>Expression substantivée renvoyant à un type de
                                     personne</catDesc>
-                                <idno type="VIAF"></idno>
                             </category>
-                            <category xml:id="H"/>
+                            <category xml:id="H">
                             <catDesc>Expression substantivée renvoyant à un type de
-                                personne</catDesc>
+                                personne</catDesc> </category>
                         </taxonomy>
                         <author>Théophraste</author>
                         <title>Les caractères de Théophraste,traduits du grec, avec les Caractères
@@ -56,7 +56,6 @@
             <langUsage>
                 <p xml:lang="fra">Français</p>
             </langUsage>
-
         </profileDesc>
     </teiHeader>
     <text>
@@ -94,7 +93,7 @@
                                 qui ne sont fins que pour <persName ref="#S" type="expression">les
                                     sots</persName> : je sçay du moins que <persName ref="#H"
                                     type="expression">les habiles</persName>
-                                <!-- j'ai utilisé le type expression car le persname contient une expression nominale, j'ai ausis décidé de prendre le déterminant qui pour moi permet d'identifier autrement les substantifs "sots" et "habiles" -->
+                                <!-- j'ai utilisé le type expression car le persname contient une expression nominale, j'ai aussi décidé de prendre le déterminant qui pour moi permet d'identifier autrement les substantifs "sots" et "habiles" -->
                                 les confondent avec ceux qu'ils sçavent tromper. </p>
                             <p source="#E1 #E2">C'e<choice>
                                     <orig>ſ</orig>
