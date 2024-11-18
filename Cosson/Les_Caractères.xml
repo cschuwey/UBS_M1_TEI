@@ -38,14 +38,16 @@
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8704023j.r=les%20caract%C3%A8res%20bruy%C3%A8res?rk=321890;0</ref>
                 </bibl>
                 <listPlace type="affected">
-                        <place xml:id="monde">
-                            <name>Monde</name>
-                            <desc>l'ensemble formé par la Terre et les astres visibles, conçu comme un système organisé</desc>
-                            <location>
-                                <geo>
-                                    <!-->point GPS du lieu<!-->
-                                </geo>
-                            </location>   
+                    <place xml:id="monde">
+                        <name>Monde</name>
+                        <desc>l'ensemble formé par la Terre et les astres visibles, conçu comme un
+                            système organisé</desc>
+                        <location>
+                            <geo>
+                                48.866667 2.333333
+                                <!-->point GPS du lieu mais étant donné que c'est le monde je met le lieux de la ou il a été édité<!-->
+                            </geo>
+                        </location>
                     </place>
                 </listPlace>
             </sourceDesc>
@@ -60,15 +62,25 @@
             <samplingDecl>
                 <p>Page de titre</p>
             </samplingDecl>
+
             <editorialDecl>
                 <normalization>
                     <p>Les accents ont été supprimés</p>
                 </normalization>
             </editorialDecl>
+            <charDecl>
+                <glyph xml:id="pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
+                <glyph xml:id="pieddemoucheparenthèse">
+                    <desc>(¶)</desc>
+                </glyph>
+            </charDecl>
+
         </encodingDesc>
         <profileDesc>
             <particDesc>
-<p></p>
+                <p/>
             </particDesc>
         </profileDesc>
     </teiHeader>
@@ -118,25 +130,25 @@
                                         qui vit et, spécialement, individu d'une espèce
                                         animale;créature</note></seg> pas convaincu de ſon
                                 inutilité, quand il conſidere qu'il laiſſe, en mourant, un
-                                    <placeName ref="#monde" type="region">monde</placeName> 
-                                qui ne
+                                    <placeName ref="#monde" type="region">monde</placeName> qui ne
                                 ſe ſent pas de ſa parte,&amp; où tant de gens ſe trouvent pour le
-                                remplacer <app>
-                                    <lem wit="#original" type="orthographic">?</lem>
+                                remplacer <app type="orthographic">
+                                    <lem wit="#original">?</lem>
                                     <rdg wit="#version1690">.</rdg>
                                 </app></p>
-                            <p source="#original">De bien des gens il n'y a que le nom qui vale
-                                quelque choſe ; quand vous les voyez de fort prés, c'eſt moins que
-                                rien ; de loin ils impoſent.</p>
+                            <p source="#original"><g source="#original" ref="#pieddemouche"/>De bien
+                                des gens il n'y a que le nom qui vale quelque choſe ; quand vous les
+                                voyez de fort prés, c'eſt moins que rien ; de loin ils impoſent.</p>
                             <p source="#original">Combien d'hommes admirables, &amp; qui avoient de
                                 tres beaux genies ſont morts ſans qu'on en ait parlé ? Combien
                                 vivent encore dont on ne parle point, &amp; dont on ne parlera
                                 jamais?</p>
 
                             <!--5 remarques plus tard<!-->
-                            <p source="#versions1690">Il eſt moins rare de trouver de l'eſprit que
-                                des gens qui ſe ſervent du leur, ou qui faſſent valoir celuy des
-                                autres, &amp; le mettent à quelque uſage.</p>
+                            <p source="#versions1690"><g source="#version1690" ref="#pieddemouche"
+                                />Il eſt moins rare de trouver de l'eſprit que des gens qui ſe
+                                ſervent du leur, ou qui faſſent valoir celuy des autres, &amp; le
+                                mettent à quelque uſage.</p>
                         </div4>
                     </div3>
 
