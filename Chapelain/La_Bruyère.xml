@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <fileDesc>   
+        <fileDesc>
             <titleStmt>
                 <title>Les caractères de Théophraste avec les Caractères ou moeurs de ce
                     siècle.</title>
@@ -52,11 +52,23 @@
                         <orgName>Seigneur</orgName>
                         <desc>Maître, dans le système des relations féodales</desc>
                     </org>
-                    <org xml:id="L">
-                        <orgName>laſquener</orgName>
-                        <desc>Jeu de cartes (introduit en France par les lansquenets).</desc>
-                    </org>
                 </listOrg>
+                <listObject>
+                    <object xml:id="L">
+                        <objectIdentifier>
+                            <objectName>laſquener</objectName>
+                            <idno type="gallica"
+                                >https://gallica.bnf.fr/ark:/12148/cb328953556/date</idno>
+                        </objectIdentifier>
+                        <history>
+                            <origin>Jeu de cartes (introduit en France par les
+                                lansquenets).</origin>
+                            <provenance when="1600">Le lansquenet est un jeu de cartes qui fut très
+                                populaire en France au cours du XVIIe siècle et au début du XVIIIe
+                                siècle. </provenance>
+                        </history>
+                    </object>
+                </listObject>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -96,9 +108,9 @@
                         </head>
                         <div4 type="remark" n="27">
                             <p source="#E1 #E6">Le mariage qui devroit <app>
-                                <rdg wit="#E1" type="#spell">eſtre</rdg>
-                                <rdg wit="#E6">être</rdg>
-                            </app> à l'homme une ſource de tous les biens , luy eſt ſouvent par
+                                    <rdg wit="#E1" type="#spell">eſtre</rdg>
+                                    <rdg wit="#E6">être</rdg>
+                                </app> à l'homme une ſource de tous les biens , luy eſt ſouvent par
                                 la diſpoſition de la fortune un lourd fardeau ſous lequel il
                                 ſuccombe : c'est alors qu'une femme &amp; des enfants font une
                                 violente tentation à la fraude, au menſonge, &amp; aux gains
@@ -111,17 +123,18 @@
                                 d'heritiers.</p>
                         </div4>
                         <div4 type="remark" n="28">
-                            <p source="#E1 #E6">L'on ne reconnoît plus en ceux que le jeu &amp; le gain
-                                ont illuſtrez , la moindre trace de leur premiere condition : ils
-                                perdent de <seg>veuë<note resp="#LC" type="comment">ancienne graphie
-                                    de 'vue'.</note></seg> leurs égaux, &amp; atteingent les
-                                plus grands <orgName ref="#S" type="nobility">Seigneurs.</orgName><!-- Peut permettre d'analyser la vision des seigneurs dans plrs textes, majuscule? pas majuscule... -->
-                                Il eſt <seg>vray<note resp="#LC"
-                                    type="comment">ancienne graphie de 'vrai'.</note></seg> que
-                                la fortune du dé , ou du <app>
-                                    <rdg wit="#E1"><orgName ref="#L">lanſquener</orgName></rdg>
+                            <p source="#E1 #E6">L'on ne reconnoît plus en ceux que le jeu &amp; le
+                                gain ont illuſtrez , la moindre trace de leur premiere condition :
+                                ils perdent de <seg>veuë<note resp="#LC" type="comment">ancienne
+                                        graphie de 'vue'.</note></seg> leurs égaux, &amp; atteingent
+                                les plus grands <orgName ref="#S" type="nobility"
+                                    >Seigneurs.</orgName><!-- Peut permettre d'analyser la vision des seigneurs dans plrs textes, majuscule? pas majuscule... -->
+                                Il eſt <seg>vray<note resp="#LC" type="comment">ancienne graphie de
+                                        'vrai'.</note></seg> que la fortune du dé , ou du
+                                    <objectName ref="#L"><app>
+                                        <rdg wit="#E1">lanſquener</rdg>
                                         <rdg wit="#E1"><name rend="#italic">lanſquener</name></rdg>
-                                </app> les remet ſouvent où elle les a pris.</p>
+                                    </app></objectName> les remet ſouvent où elle les a pris.</p>
                         </div4>
                     </div3>
                 </div2>
