@@ -33,6 +33,20 @@
                     <idno>ark:/12148/cb372431533</idno>
                     <!-- https://gallica.bnf.fr/ark:/12148/bpt6k57567b.r=Les%20Caract%C3%A8res%20de%20Th%C3%A9ophraste%20traduits%20du%20grec%20avec%20les%20Caract%C3%A8res%20ou%20les%20moeurs%20de%20ce%20si%C3%A8cle.?rk=236052;4 -->
                 </bibl>
+                <listPerson>
+                    <listPerson type="Religious_entity">
+                        <person xml:id="D">
+                            <name>Dieu</name>
+                        </person>
+                    </listPerson>
+                </listPerson>
+                <listOrg>
+                    <listOrg>
+                        <org xml:id="EF">
+                            <name>Les Eſprits forts</name>
+                        </org>
+                    </listOrg>
+                </listOrg>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -83,9 +97,10 @@
                 <div2 type="chapitre">
                     <head>Des Esprits Forts.</head>
                     <div3>
-                        <p source="#E1">Les Eſprits forts ſçavent-ils qu'on les appelle ainſi par
-                            ironie ? quelle plus grande foibleffe que d'eſtre incertains quel eſt le
-                            principe de ſon eſtre, de la vie, de ſes ſens, de ſes connoiſſances,
+                        <p source="#E1"><orgName type="concept" ref="#EF">Les Eſprits
+                                forts</orgName> ſçavent-ils qu'on les appelle ainſi par ironie ?
+                            quelle plus grande foibleffe que d'eſtre incertains quel eſt le principe
+                            de ſon eſtre, de la vie, de ſes ſens, de ſes connoiſſances,
                                     <seg>&amp;<note resp="#A.L" type="translation">et</note></seg>
                             quelle en doit eſtre la fin ? <seg><app>
                                     <rdg wit="#E1">q</rdg>
@@ -128,12 +143,13 @@
                         <p source="#E2"/>
                     </div3>
                     <div3>
-                        <p source="#E1">¶ L'on doute de Dieu dans une pleine ſanté, comme l'on doute
-                            que ce ſoit pecher que d'avoir un commerce avec <seg>une perſonne libre*
-                                    <note resp="#La-bruyère" type="comment" place="foot">*Une
+                        <p source="#E1">¶ L'on doute de <persName type="Religious_entity" ref="#D"
+                                >Dieu</persName> dans une pleine ſanté, comme l'on doute que ce ſoit
+                            pecher que d'avoir un commerce avec <seg>une perſonne libre* <note
+                                    resp="#La-bruyère" type="comment" place="foot">*Une
                                     fille.</note></seg>: quand l'on devient malade, &amp;que
                             l'hydropifie eſt formée, l'on quitte ſa concubine, &amp; l'on croit en
-                            Dieu.</p>
+                                <persName type="Religious_entity" ref="#D">Dieu</persName>.</p>
                     </div3>
                 </div2>
             </div1>
