@@ -37,6 +37,17 @@
                     <pubPlace>Paris</pubPlace>
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8704023j.r=les%20caract%C3%A8res%20bruy%C3%A8res?rk=321890;0</ref>
                 </bibl>
+                <listPlace type="affected">
+                        <place xml:id="monde">
+                            <name>Monde</name>
+                            <desc>l'ensemble formé par la Terre et les astres visibles, conçu comme un système organisé</desc>
+                            <location>
+                                <geo>
+                                    <!-->point GPS du lieu<!-->
+                                </geo>
+                            </location>   
+                    </place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -55,6 +66,11 @@
                 </normalization>
             </editorialDecl>
         </encodingDesc>
+        <profileDesc>
+            <particDesc>
+<p></p>
+            </particDesc>
+        </profileDesc>
     </teiHeader>
     <text>
         <front> </front>
@@ -101,8 +117,10 @@
                                 excellent merite <seg>n'eſtre<note resp="#ST" type="gloss">Tout ce
                                         qui vit et, spécialement, individu d'une espèce
                                         animale;créature</note></seg> pas convaincu de ſon
-                                inutilité, quand il conſidere qu'il laiſſe, en mourant, un monde qui
-                                ne ſe ſent pas de ſa parte,&amp; où tant de gens ſe trouvent pour le
+                                inutilité, quand il conſidere qu'il laiſſe, en mourant, un
+                                    <placeName ref="#monde" type="region">monde</placeName> 
+                                qui ne
+                                ſe ſent pas de ſa parte,&amp; où tant de gens ſe trouvent pour le
                                 remplacer <app>
                                     <lem wit="#original" type="orthographic">?</lem>
                                     <rdg wit="#version1690">.</rdg>
@@ -117,7 +135,7 @@
 
                             <!--5 remarques plus tard<!-->
                             <p source="#versions1690">Il eſt moins rare de trouver de l'eſprit que
-                                des gens qui ſe ſervent du leur, ou qui fſſent valoir celuy des
+                                des gens qui ſe ſervent du leur, ou qui faſſent valoir celuy des
                                 autres, &amp; le mettent à quelque uſage.</p>
                         </div4>
                     </div3>
