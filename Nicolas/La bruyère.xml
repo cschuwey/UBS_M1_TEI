@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères</title>
-                <author xml:id="OC"></author>
+                <author xml:id="OC"/>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -39,6 +39,12 @@
                     <date when="1690">M. DC. -LXXXIX.</date>
                     <idno> NUMM-8704023 </idno>
                 </bibl>
+                <listPerson>
+                    <person xml:id="Gaultier">
+                        <name>Gaultier</name>
+                    </person>
+
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -101,31 +107,41 @@
                         <head>De la ville</head>
                         <p/>
                         <div4 type="remark">
-                            <p><app><lem>L'utile et la louable pratique de perdre en frais de noces le tiers
-                                de la <seg>dot<note type="gloss">Bien qu'une femme apporte en se mariant</note></seg> qu'une femme apporte ! commencer par s'appauvrir ici de de
-                                concert par l'amas et l'en- tassement de choses superflues, et de
-                                prendre déjà sur son fonds de quoi payer Gaultier, les meubles et la
-                                toi- lette !</lem><rdg wit="#Version1690">/</rdg></app></p>
+                            <p><app>
+                                    <lem>L'utile et la louable pratique de perdre en frais de noces
+                                        le tiers de la <seg>dot<note type="gloss">Bien qu'une femme
+                                                apporte en se mariant</note></seg> qu'une femme
+                                        apporte ! commencer par s'appauvrir ici de de concert par
+                                        l'amas et l'en- tassement de choses superflues, et de
+                                        prendre déjà sur son fonds de quoi payer
+                                            <forename ref="#Gaultier">Gaultier</forename>,les meubles et la toi-
+                                        lette !</lem>
+                                    <rdg wit="#Version1690">/</rdg>
+                                </app></p>
                         </div4>
                         <div4 type="remark">
-                            <p source="#Version1688"><g ref="#Pied_de_mouche"/>Pénible coutume <app><lem>,</lem><rdg wit="#Version1690">!</rdg></app>asservissement incommode! se chercher incessamment
-                                les unes et les autres avec l'impa- tience de ne point se
-                                rencontrer; ne se rencontrer que pour se dire des riens, que pour
-                                s'apprendre réciproquement des choses dont on est également
-                                instruite, et dont il importe peu que l'on soit instruite; n'entrer
-                                dans une chambre précisément que pour en sortir; ne sortir de chez
-                                soi l'après-dînée que pour y rentrer le soir, fort satis- faite
-                                d'avoir vu en cinq petites heures trois suisses, une femme que l'on
-                                connoît à peine, et une autre que l'on n'aime guère ! Qui
-                                considéroit bien le prix du temps, &amp; combien sa perte est
-                                irréparable, <seg>pleuroient<note resp="#OC">vieux français</note> </seg>amèrement sur de si grandes misères. </p>
-                            
+                            <p source="#Version1688"><g ref="#Pied_de_mouche"/>Pénible coutume <app>
+                                    <lem>,</lem>
+                                    <rdg wit="#Version1690">!</rdg>
+                                </app>asservissement incommode! se chercher incessamment les unes et
+                                les autres avec l'impa- tience de ne point se rencontrer; ne se
+                                rencontrer que pour se dire des riens, que pour s'apprendre
+                                réciproquement des choses dont on est également instruite, et dont
+                                il importe peu que l'on soit instruite; n'entrer dans une <placeName
+                                    type="room">chambre</placeName> précisément que pour en sortir;
+                                ne sortir de chez soi <time>l'après-dînée</time> que pour y rentrer
+                                le <time>soir</time>, fort satis- faite d'avoir vu en cinq petites
+                                heures trois suisses, une femme que l'on connoît à peine, et une
+                                autre que l'on n'aime guère ! Qui considéroit bien le prix du temps,
+                                &amp; combien sa perte est irréparable, <seg>pleuroient<note
+                                        resp="#OC">vieux français</note>
+                                </seg>amèrement sur de si grandes misères. </p>
+
                         </div4>
                     </div3>
                 </div2>
-                
+
             </div1>
         </body>
     </text>
 </TEI>
-
