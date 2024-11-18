@@ -37,6 +37,11 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+            <abstract>
+                <list>
+                    <item xml:id="concept"/>
+                </list>
+            </abstract>
             <langUsage>
                 <language ident="fra">Français</language>
             </langUsage>
@@ -86,10 +91,11 @@
                                 </app> amitié pure ; elle fait une claſſ à part.</p>
                         </div4>
                         <div4>
-                            <p source="#e1">L'amour n'aiſt bruſquement, ſans autre reflexion, par
-                                temperament ou par foibleſſe ; un trait de beauté nous fixe, nous
-                                détermine. L'amitié au contraire ſe forme peu à peu, avec le temps,
-                                par la pratique, par un long commerce <app>
+                            <p source="#e1"><ident type="concept">L'amour</ident> n'aiſt
+                                bruſquement, ſans autre reflexion, par temperament ou par foibleſſe
+                                ; un trait de beauté nous fixe, nous détermine. L'amitié au
+                                contraire ſe forme peu à peu, avec le temps, par la pratique, par un
+                                long commerce <app>
                                     <rdg wit="#e1">: combien</rdg>
                                     <rdg wit="#e8">. Combien</rdg>
                                 </app> d'eſprit, de bonté de coeur, d'attachement, de ſervices &amp;
@@ -98,8 +104,9 @@
                                 belle main.</p>
                         </div4>
                         <div4>
-                            <p source="#e8">La modestie est au mérite ce que les ombres sont aux figures dans un tableau
-                                : elle lui donne de la force et du relief.</p>
+                            <p source="#e8">La modestie est au mérite ce que les ombres sont aux
+                                figures dans un tableau : elle lui donne de la force et du
+                                relief.</p>
                         </div4>
                     </div3>
                 </div2>
