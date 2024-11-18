@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     
     <TeiHeader>
-        
         <fileDesc>
             <titleStmt>
                 <title>Les Caractères</title>
@@ -19,6 +16,7 @@
                 <date when="2024-10-16">16 octobre 2024</date>
                 <date when="2024-10-28">28 octobre 2024</date>
                 <date when="2024-11-04">04 novembre 2024</date>
+                <date when="2024-11-18">18 novembre 2024</date>
             </publicationStmt>
             
             <!--Mauvaise compréhension de la consigne du devoir pour le TD3 ; j'avais pris des ouvrages publiés entre 1688 et 1694 soit les éditions de 1689 et 1692. J'ai donc modifié le code et repris les versions de 1688 et 1694-->
@@ -61,18 +59,15 @@
             <langUsage>
                 <language ident="fr">Français</language>
             </langUsage>
-            <particDesc>
+            <!--Malgré la consultation de VIAF et Data BNF; je n'ai pas trouvé de document permettant d'inscrire un identifiant standardisé--> 
                 <org xml:id="org1">
-                <personGrp>
-                </personGrp>
+                    <personGrp>Anciens</personGrp>
                 </org>
                 <org xml:id="org2">
-                <personGrp>
-                </personGrp>
+                    <personGrp>Modernes</personGrp>
                 </org>
             </particDesc>
         </profileDesc>
-        
     </TeiHeader>
     
     <text>
@@ -100,10 +95,14 @@
                     <head>Des Ouvrages de l'Esprit</head>
                     <div3 type="remark">
                         <p source="#E1 #E2">TOut eſt dit, &amp; l'on vient trop tard depuis plus de ſept mille ans qu'il y a des hommes, &amp; qui penſent. 
-                            Sur ce qui concerne les moeurs le plus beau &amp; le meilleur eſt enlevé; l'on ne fait que glaner aprés <seg>les <orgName ref=>Anciens</orgName>
+                            Sur ce qui concerne les moeurs le plus beau &amp; le meilleur eſt enlevé; l'on ne fait que glaner aprés 
+                            <seg>les 
+                                <orgName ref="#org1">Anciens</orgName>
                                 <note resp="#Bel" type="glossaire">ou Classiques sont les partisans de la supériorité du latin et du grec sur le français dans la querelle de 1687</note></seg>
-                            &amp; les habiles d'entre les <app><lem from="#E1"><orgName ref=>Modernes</orgName>
-                                </lem><rdg wit="#E2">modernes</rdg></app>.
+                            &amp; les habiles d'entre les 
+                            <app><lem from="#E1">
+                                <orgName ref="#org2">Modernes</orgName>
+                            </lem><rdg wit="#E2">modernes</rdg></app>.
                         </p>
                     </div3>
                     <div3 type="remark">
