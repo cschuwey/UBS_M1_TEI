@@ -42,6 +42,12 @@
                     <edition n="2" xml:id="C_2">DEUXIEME EDITION</edition>
                     <ref>Bibliothèque nationale de France</ref>
                 </bibl>
+
+                 <listPerson>
+                    <person xml:id="Theotime"><name>Theotime</name></person>
+                </listPerson>
+            
+            
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -171,8 +177,10 @@
                                         <rdg wit="#C_1">e</rdg>
                                         <rdg wit="#C_2">é</rdg>
                                     </app>rir </seg> de la fiévre par la ſaignée : de meſme l'on ne mourroit plus
-                            depuis long temps par Theotime ; festendres exhortations ne fauvoient
-                            plus que le peuple, &amp; Theot. a veu fon <seg>fucceffeur.<note type="gloss" resp="#GSL">successeur (graphie du FMC)</note></seg></p>
+                            depuis long temps par <persName role="historique"
+                                type="person" ref="#Theotime">Theotime</persName> ; festendres exhortations ne
+                            fauvoient plus que le peuple, &amp; <forename role="historique"
+                                type="person" ref="#Theotime">Theot.</forename> a veu fon <seg>fucceffeur.<note type="gloss" resp="#GSL">successeur (graphie du FMC)</note></seg></p>
                     </div3>
                  <div3 type="remark" source="#C_2">
                         <p>
@@ -192,12 +200,14 @@
                             liberté de vivre, il l'a mené ſe faire tuer par un plus brave que foy,
                             &amp; l'a confondu avec un homme de coeur, il a attaché de l'honneur, &amp; de
                             la gloire à une action folle &amp; extravagante ; il a efté approuvé par la
-                            prefence des Rois ; il y a eu quelquefois une efpèce de religion à le
+                            prefence des <orgName type="royalty">Rois</orgName> ; il y a eu quelquefois une efpèce de religion à le
                             pratiquer ; il a décidé de l'innocence des hommes, des accufations
                             fauſſes ou veritables sur des crimes capitaux ; il s'eſtoit enfin fi
                             profondement enraciné dans l'opinion des peuples, &amp; s'eftpot fi fort
                             faifit de leur coeur &amp; de leur esprit, qu'un des plus beaux endroits de
-                            la vie d'un tres grand Roy a efté de les guerir de cette <seg>folie.<note type="gloss" resp="#LB">Folie dans le sens de "maladie"</note></seg></p>
+                            la vie d'un tres grand <roleName type="royalty">Roy</roleName> a efté de les guerir de cette <seg>folie.<note type="gloss" resp="#LB">Folie dans le sens de "maladie"</note></seg></p>
+                        
+                                                <!-- Pour les Rois : hésitation avec orgName et roleName mais peut-on estimer que les Rois représentent un groupe de personnes ? -->
                     </div3></div2>
             
             
