@@ -35,6 +35,33 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <!--analyse de l'oeuvre et là c'est utilisé comme si c'était un lieu  -->
+            <settingDesc>
+                <listPlace>
+                    <place>
+                        <desc type="conceptual" xml:id="Cour">Cour, lieu de réunion des
+                            nobles...</desc>
+                    </place>
+                </listPlace>
+                <!--<listPerson> si on a des perso
+                    <person/>
+                    <idno type="VIAF">num viaf etc ou l'url</idno>
+                </listPerson>-->
+            </settingDesc>
+        
+        </profileDesc>
+
+        <encodingDesc><!-- utilisation ici comme si c'était un élément contextuel et pas traité comme un lieu -->
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="Province">
+                        <!--  -->
+                        <catDesc/>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <!--front avec titlePage-->
@@ -100,10 +127,11 @@
                         <!--une remarque avec une note dedans-->
                         <div4 type="remark">
                             <!--n="36"-->
-                            <p>Un homme de la ville eſt pour <seg>une femme de Province<note
+                            <p>Un homme de la ville eſt pour <seg>une femme de <placeName
+                                        type="state" ref="#Province">Province</placeName><note
                                         type="gloss" resp="#BA"> une péquenaude en
                                 soit</note></seg>, ce qu'eſt pour une femme de ville un homme de la
-                                Cour.</p>
+                                    <placeName type="state" ref="#Cour">Cour</placeName>.</p>
                         </div4>
 
                         <!--une remarque avec un ajout de bloc entre deux éditions v1 et v2-->
