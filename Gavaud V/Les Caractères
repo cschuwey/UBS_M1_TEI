@@ -7,11 +7,11 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name>Valentin Gavaud </name>
+                    <name xml:id="VG">Valentin Gavaud </name>
                     <roleName>Etudiant</roleName>
                     <affiliation>UBS</affiliation>
                 </publisher>
-                <authority>VG </authority>
+                <authority ref="#VG">VG</authority>
                 <pubPlace> UBS Lorient </pubPlace>
                 <date when="2024-10-19">19 octobre 2024</date>
             </publicationStmt>
@@ -38,13 +38,36 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-                    <encodingdesc>
-                        <charDecl>
-                            <glyph xml:id="pieddemouche"><desc>¶</desc></glyph>
-                            <glyph xml:id="pieddemoucheparenthèse"><desc>(¶)</desc></glyph>
-                            <glyph xml:id="pieddemouchedouble"><desc>((¶))</desc></glyph>
-                        </charDecl>
-                    </encodingdesc>
+        <encodingDesc>
+            <charDecl>
+                <glyph xml:id="pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
+                <glyph xml:id="pieddemoucheparenthèse">
+                    <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="pieddemouchedouble">
+                    <desc>((¶))</desc>
+                </glyph>
+            </charDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="H1">
+                        <name>Horace</name>
+                        <idno type="ARK">ark:/12148/cb11886570b</idno>
+                    </person>
+                    <person xml:id="NBP1">
+                        <name>Nicols Boileau Despréaux</name>
+                        <idno type="ARK">ark:/12148/cb120405448</idno>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <langUsage>
+                <language ident="fr">français</language>
+            </langUsage>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
@@ -76,23 +99,25 @@
                                 avec grace, &amp; d'une maniere qui plaiſe &amp; qui inſtruiſe.</p>
                         </div4>
                         <div4 type="remark">
-                            <p><seg>Horace <note resp="#VG" type="bio">Poète latin du 1er siècle
-                                        avant JC</note>
-                                </seg>ou <seg>Despreaux <note resp="#VG" type="bio">Nicolas Boileau
-                                        Despréaux, auteur contemporain de La Bruyère</note>
-                                </seg> l'a dit avant vous; je le 
-                                <app> <lem wit="#e1688">crois</lem>
-                                      <rdg wit="#e1691" type="ortographic">croy</rdg></app>
-                                ſur 
-                                <app> <lem wit="#e1688">voſtre</lem>
-                                      <rdg wit="#e1691" type="ortographic">vôſtre</rdg></app>
-                                parole; mais je l'ay dit comme mien; ne puis-je pas penſer
-                                <app> <lem wit="#e1688">une choſe vraie</lem>
-                                      <rdg wit="#e1691" type="ortographic">aprés eux une choſe vraye</rdg></app>
-                                , &amp;
-                                que d'autres encore penſeront aprés moy 
-                                <app><lem wit="e1688">?</lem>
-                                     <rdg wit="e1691">.</rdg></app></p>
+                            <p><seg><persName ref="#H1" type="person">Horace</persName>
+                                    <note resp="#VG" type="bio">Poète latin du 1er siècle avant JC</note>
+                            </seg>ou<seg>
+                                    <persName ref="#NBP1" type="person">Despreaux</persName>
+                                    <note resp="#VG" type="bio">Nicolas Boileau Despréaux, auteur contemporain de La Bruyère</note>
+                                </seg> l'a dit avant vous; je le <app>
+                                    <lem wit="#e1688">crois</lem>
+                                    <rdg wit="#e1691" type="ortographic">croy</rdg>
+                                </app> ſur <app>
+                                    <lem wit="#e1688">voſtre</lem>
+                                    <rdg wit="#e1691" type="ortographic">vôſtre</rdg>
+                                </app> parole; mais je l'ay dit comme mien; ne puis-je pas penſer <app>
+                                    <lem wit="#e1688">une choſe vraie</lem>
+                                    <rdg wit="#e1691" type="ortographic">aprés eux une choſe
+                                        vraye</rdg>
+                                </app> , &amp; que d'autres encore penſeront aprés moy <app>
+                                    <lem wit="e1688">?</lem>
+                                    <rdg wit="e1691">.</rdg>
+                                </app></p>
                         </div4>
                     </div3>
                 </div2>
@@ -100,4 +125,3 @@
         </body>
     </text>
 </TEI>
-
