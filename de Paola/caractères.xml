@@ -14,11 +14,18 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
+                <bibl xml:id="Ed1691">
                     <author>Jean<name>de la Bruyère</name></author>
                     <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
                         moeurs de ce siècle.</title>
-                    <date>1691</date>
+                    <edition>1691</edition>
+                </bibl>
+                <bibl xml:id>
+                    <author>Jean<name>de la Bruyère</name></author>
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                        moeurs de ce siècle.</title>
+                    <edition>1691</edition>
+                    <publisher>Estienne Michallet</publisher>
                 </bibl>
                 <listOrg>
                     <org xml:id="E">
@@ -53,7 +60,9 @@
             <div3><!-->Des Biens de Fortune<!--></div3>
             <div4>
                 <p>Un homme fort riche peut
-                    manger deſ <seg>entremets<note resp="#LDP" type="glossaire" place="margin"> Ce qui, dans un repas, se sert après le rôti ou le fromage et avant le dessert</note></seg>,
+                    manger de<app>
+                        <rdg wit="#Ed1691">ſ><rdg>
+                        <rdg wit="#Ed1692">s<rdg><app> <seg>entremets<note resp="#LDP" type="glossaire" place="margin"> Ce qui, dans un repas, se sert après le rôti ou le fromage et avant le dessert</note></seg>,
                     faire peindre ſes lambris &amp; ſes
                     alcoves, jouir d’un Palais à la
                     campagne, &amp; d’un autre à la
@@ -62,7 +71,9 @@
                     &amp; faire de ſon fils un grand Sei-
                     gneur : cela eſt juſte &amp; de ſon
                     reſſort : mais il appartient peut-
-                    <seg>eſtre<note resp="#LDP" type="comment">l'accent circonflexe, bien qu'apparu en français dès le XVIe siècle, ne remplace le s long qu'au XVIIIe siècle</note></seg> à d’autres de vivre con-
+                    <seg><app>
+                        <rdg wit="#Ed1691">eſ><rdg>
+                        <rdg wit="#Ed1692">ê<rdg><app>tre<note resp="#LDP" type="comment">l'accent circonflexe, bien qu'apparu en français dès le XVIe siècle, ne remplace le s long qu'au XVIIIe siècle</note></seg> à d’autres de vivre con-
                     tents.</p>
                 <p>¶ Une grande naiſſance, ou
                     une grande fortune annonce le
@@ -73,7 +84,9 @@
                     homme, ils laiſſent voir en luy
                     le ridicule qu'ils couvroient,
                     &amp; qui y éſtoient ſans que per-
-                    ſonne s'en apperceut.</p>
+                    ſonne s'en apperc<app>
+                        <rdg wit="#Ed1691">eu><rdg>
+                        <rdg wit="#Ed1692">û<rdg><app>t.</p>
                 <p>¶ Si l'on ne le voyoit de ſes yeux,
                     pourroit on jamais s'ima-
                     giner l'étrange diſproportion
