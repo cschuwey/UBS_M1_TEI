@@ -34,9 +34,17 @@
                     <date>1694</date>
                     <idno>https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100729370#</idno>
                 </bibl>
+                <listPerson>
+                    <person xml:id="Dieu">
+                    <name>Dieu</name>
+                    </person>
+                </listPerson>
+               
+               
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+           
             <langUsage>
                 <language ident="fra">Français</language>
             </langUsage>
@@ -67,7 +75,7 @@
                                 horreur du crapaud, faites un crapaud, s’il est possible. Quel excellent
                                 maître que celui qui fait des ouvrages, je ne dis pas que les hommes
                                 admirent, mais qu’ils craignent ! Je ne vous demande pas de vous mettre à
-                                votre atelier pour faire un homme d’esprit, un homme bien fait, une belle
+                                votre atelier pour faire un <orgName type="philosophicalconcept">homme d’esprit</orgName>, un homme bien fait, une belle
                                 femme : l’entreprise est forte et au-dessus de vous ; essayez seulement de
                                 faire un bossu, un fou, un monstre, je suis content.  
                             </p>
@@ -77,8 +85,8 @@
                             <p source="#E1">Je ne <app>
                                     <rdg wit="#E1">conçois</rdg>
                                     <rdg wit="#E2">concois</rdg>
-                                </app> point qu'une ame que Dieu a voulu remplir de l'idée de ſon
-                                eſtre infini, &amp; <seg>ſouverainement<note resp="#S.G">Le s long a
+                            </app> point qu'une ame que <persName ref="#Dieu">Dieu</persName> a voulu remplir de l'idée de ſon
+                                <persName ref="#Dieu">eſtre infini</persName>, &amp; <seg><persName ref="#Dieu">ſouverainement</persName><note resp="#S.G">Le s long a
                                         été gardé</note></seg> parfait, doive eſtre aneantie.</p>
                         </div4>
                         <div4>
@@ -103,4 +111,3 @@
         </body>
     </text>
 </TEI>
-
