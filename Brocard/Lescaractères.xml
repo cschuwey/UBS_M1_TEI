@@ -40,15 +40,27 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="concept">
+                    <category>
+                        <catDesc> Religion </catDesc>
+                    </category>
+                    <!-- Le mot ciel étant un concept il n'y a pas de référenciel de concept -->
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
-        
+
         <body>
             <div1>
                 <head>Discours sur Théophraste</head>
                 <!--Discours de Théophraste-->
                 <p> </p>
-                
+
                 <div2>
                     <head>Les caractères de Théophraste. Traduits du Grec.</head>
                     <!--Préface : Discours sur Théophraste-->
@@ -59,7 +71,7 @@
                     <!--Les caractères de théophraste-->
                     <p/>
                 </div2>
-                
+
                 <div2>
                     <head>Les caractères</head>
                     <!--Sommaire-->
@@ -69,14 +81,14 @@
                         <p/>
                     </div3>
                 </div2>
-                
+
             </div1>
-            
+
             <div1>
                 <head>Les cractères ou les moeurs de ce siècle.</head>
                 <!--Discours de Théophraste-->
                 <p> </p>
-                
+
                 <div2>
                     <head>Les cractères ou les moeurs de ce siècle.</head>
                     <!--Préface-->
@@ -84,13 +96,13 @@
                 </div2>
                 <div2>
                     <head>Sommaire</head>
-                    
+
                     <p/>
                 </div2>
-                
+
                 <div2>
                     <head>Les caractères</head>
-                    
+
                     <p/>
                     <div3 type="chapter">
                         <head>Des Femmes</head>
@@ -98,30 +110,30 @@
                         <div4 type="remark">
                             <p source="#original #quatrieme">LEs hommes &amp; les femmes conviennent
                                 rarement ſur le merite d’une femme ; leurs inter<app>
-                                    <lem wit="#original">eſts</lem>
-                                    <rdg wit="#quatrieme" type="ortographic">êts</rdg>
-                                    </app> ſont trop differens : les femmes ne ſe plaiſent point les
+                                    <lem wit="#original">eſ</lem>
+                                    <rdg wit="#quatrieme" type="ortographic">ê</rdg>
+                                </app> ts ſont trop differens : les femmes ne ſe plaiſent point les
                                 unes aux autres par les meſmes <seg> agréemens <note type="gloss"
-                                    resp="#JB"> Permission émanant d'une autorité</note></seg>
+                                        resp="#JB"> Permission émanant d'une autorité</note></seg>
                                 qu’elles plaiſent aux hommes ; mille manieres qui allument dans
                                 ceux-cy les grandes, paſſions forment <seg>entre elles l’averſion
-                                    <note type="correction" resp="#NB"> entre elles l'horreur
+                                        <note type="correction" resp="#NB"> entre elles l'horreur
                                     </note>
                                 </seg> ou l’antipathie. </p>
-                            
+
                         </div4>
                         <div4 type="remark">
                             <p source="#original #quatrieme">Il y a dans quelques femmes une
                                 grandeur artificielle, attachée au mouvement des yeux, à un air de t<app>
-                                    <lem wit="#orignal">eſte</lem>
-                                    <rdg wit="#quatrieme" type="ortographic">ête</rdg>
-                                    </app>, aux façons de marcher, &amp; qui ne va pas plus loin ; un
+                                    <lem wit="#orignal">eſ</lem>
+                                    <rdg wit="#quatrieme" type="ortographic">ê</rdg>
+                                </app> te, aux façons de marcher, &amp; qui ne va pas plus loin ; un
                                 eſprit ébloüiſſant qui impoſe, &amp; que l’on n’eſtime que parce
                                 qu’il n’eſt pas approfondi. Il y a dans quelques autres une grandeur
                                 ſimple, naturelle, indépendante du geſte &amp; de la démarche ; qui
                                 a ſa ſource dans le cœur, &amp; qui eſt comme une fuite de leur
                                 haute naiſſance ; un merite paiſible, mais <seg>ſolide<note
-                                    type="variant" resp="#NB">solide</note>
+                                        type="variant" resp="#NB">solide</note>
                                 </seg>, accompagné de mille vertus qu’elles ne peuvent couvrir de
                                 toute leur modeſtie, qui échapent, &amp; qui ſe montrent à ceux qui
                                 ont des yeux. </p>
@@ -133,11 +145,13 @@
                         <div4 type="remark">
                             <p source="#quatrieme"> Quelques jeunes perſonnes ne connoiſſent point
                                 aſſez les avantages d'une heureuſe nature, &amp; combien il leur
-                                ſeroit utile de s'y abandonner; elles affoibliſſent ces dons du Ciel
-                                ſi rares &amp; par une mauvaiſe imitation; leur ſon de voix, &amp;
-                                leur démarche ſont empruntées, elles ſe compoſent, eles ſe
-                                recherchent, regardent dans un miroire ſi elles s'éloignent aſſez de
-                                leur naturel; ce n'eſt pas ſans peine qu'elles plaiſent moins.</p>
+                                ſeroit utile de s'y abandonner; elles affoibliſſent ces dons du
+                                    <placeName ref="#concept" type="conceptual" subtype="religion"
+                                    >Ciel</placeName> ſi rares &amp; par une mauvaiſe imitation;
+                                leur ſon de voix, &amp; leur démarche ſont empruntées, elles ſe
+                                compoſent, eles ſe recherchent, regardent dans un miroire ſi elles
+                                s'éloignent aſſez de leur naturel; ce n'eſt pas ſans peine qu'elles
+                                plaiſent moins.</p>
                         </div4>
                         <div4>
                             <p source="#quatrieme">Si les femmes veulent ſeulement être belles à
@@ -157,7 +171,7 @@
                         </div4>
                     </div3>
                 </div2>
-                
+
             </div1>
         </body>
     </text>
