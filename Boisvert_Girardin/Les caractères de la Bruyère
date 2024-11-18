@@ -47,10 +47,39 @@
                     <p>Edition de 1688 est elle marquée du sceau de la bibliothèque royale.</p>
                 </correction>
             </editorialDecl>
-            <charDecl><glyph xml:id="pieddemouche"><desc>¶</desc></glyph>
-                <glyph xml:id="pieddemoucheparenthèse"><desc>(¶)</desc></glyph>
-                <glyph xml:id="pieddemouchedouble"><desc>((¶))</desc></glyph></charDecl>
+            <charDecl>
+                <glyph xml:id="pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
+                <glyph xml:id="pieddemoucheparenthèse">
+                    <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="pieddemouchedouble">
+                    <desc>((¶))</desc>
+                </glyph>
+            </charDecl>
         </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="LdeMEAUX"/>
+                    <person xml:id="PBOURDALOUË">
+                        <name>Louis BOURDALOUË</name>
+                        <occupation>jésuite</occupation>
+                        <nationality>Français</nationality>
+                    </person>
+                    <person xml:id="DESMOSTHENES">
+                        <occupation>Orateur</occupation>
+                        <nationality>Grecque</nationality>
+                    </person>
+                    <person xml:id="CICERON">
+                        <name>Marcus Tullius Cicero</name>
+                        <occupation>Avocat, philosophe, écrivain</occupation>
+                        <nationality>Romain</nationality>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
     </teiHeader>
     <text>
         <front>
@@ -86,8 +115,8 @@
                         <!-- les caractères ici, chacuns avec son div3 -->
                         <p>De la Chaire</p>
                         <div4 type="remark">
-                            <p source="#e1688"><g source="#e1688" ref="#pieddemouche"/>
-                                L'Orateur cherche par ſes diſcours un <app>
+                            <p source="#e1688"><g source="#e1688" ref="#pieddemouche"/> L'Orateur
+                                cherche par ſes diſcours un <app>
                                     <lem wit="#e1688">Eveſché</lem>
                                     <rdg wit="#e1690">Evêché</rdg>
                                 </app>; l'Ap<app>
@@ -97,35 +126,39 @@
                                 cherche.</p>
                         </div4>
                         <div4 type="remark">
-                            <p source="#e1688">L'on voit des <seg>Clercs <note resp="#Théophraste" type="gloss"
-                                        >Eccleſiaſtiques.</note></seg> revenir de quelques Provinces
-                                où ils n'ont pas fait un long ſejour; vains des converſions qu'ils
-                                ont trouvées toutes faites, comme de celles qu'ils n'ont pû faire<app>
+                            <p source="#e1688">L'on voit des <seg>Clercs <note resp="#Théophraste"
+                                        type="gloss">Eccleſiaſtiques.</note></seg> revenir de
+                                quelques Provinces où ils n'ont pas fait un long ſejour; vains des
+                                converſions qu'ils ont trouvées toutes faites, comme de celles
+                                qu'ils n'ont pû faire<app>
                                     <lem wit="#e1688"/>
                                     <rdg wit="#e1690">,</rdg>
                                 </app> ſe comparer déja aux VINCENS &amp; aux XAVIERS, &amp; ſe
                                 croire des hommes <seg>Apoſtoliques<note resp="#ABG" type="gloss">
-                                    relatifs aux apôtres</note></seg>: de ſi grands travaux
+                                        relatifs aux apôtres</note></seg>: de ſi grands travaux
                                 &amp; de ſi heureuſes miſſions ne ſeroient pas à leur gré payées
                                 d'une Abbaye.</p>
                         </div4>
                         <div4 type="remark">
                             <p source="#e1688">Un Clerc mondain ou irreligieux, s'il monte en <app>
-                                <lem wit="#e1688">C</lem>
-                                <rdg wit="#e1690">c</rdg>
-                            </app>haire, eſt declamateur. Il y a au contraire des hommes ſaints, &amp; dont le
-                                ſeul caractere eſt efficace pour la perſuaſion: ils paroiſſent,
-                                &amp; tout un peuple qui doit les écouter eſt déja émû &amp; comme
-                                perſuadé par leur preſence ; le diſcours qu'ils vont prononcer<app>
+                                    <lem wit="#e1688">C</lem>
+                                    <rdg wit="#e1690">c</rdg>
+                                </app>haire, eſt declamateur. Il y a au contraire des hommes ſaints,
+                                &amp; dont le ſeul caractere eſt efficace pour la perſuaſion: ils
+                                paroiſſent, &amp; tout un peuple qui doit les écouter eſt déja émû
+                                &amp; comme perſuadé par leur preſence ; le diſcours qu'ils vont prononcer<app>
                                     <lem wit="#e1688"/>
                                     <rdg wit="#e1690">,</rdg>
                                 </app> fera le reſte.</p>
                         </div4>
                         <div4 type="remark">
                             <p source="#e1690"><g source="#e1690" ref="#pieddemoucheparenthèse"/>
-                                L'. de MEAUX &amp; le P. BOURDALOUË me rappellent DEMOSTHENES &amp;
-                                CICERON. Tous deux maîtres dans l'Eloquence de la Chaire, ont eu le deſtin des grands
-                                modeles : l'un a fait de mauvais cenſeurs ; l'autre de mauvais copiſtes.</p>
+                                <persName ref="#LdeMEAUX">L'. de MEAUX</persName> &amp; le <persName
+                                    ref="#PBOURDALOUË">P. BOURDALOUË</persName> me rappellent
+                                    <persName ref="#DESMOSTHENES">DEMOSTHENES</persName> &amp;
+                                    <persName ref="#CICERON">CICERON</persName>. Tous deux maîtres
+                                dans l'Eloquence de la Chaire, ont eu le deſtin des grands modeles :
+                                l'un a fait de mauvais cenſeurs ; l'autre de mauvais copiſtes.</p>
                         </div4>
                     </div3>
                 </div2>
