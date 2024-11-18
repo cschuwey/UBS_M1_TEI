@@ -19,28 +19,41 @@
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                <bibl xml:id="version1688">
-                    <title>Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
-                    <author>Théophraste</author>
-                    <editor role="translator"><forename>Jean</forename> de <name>La Bruyère</name></editor>
-                    <editor> E. Michallet (Paris)</editor>
-                    <date type="publication" when="1688">1688</date>
-                    <date type="digitalisation" when="2010-10-04">04/10/2010</date>
-                    <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385</ref>
-                    <ref>https://fr.wikisource.org/wiki/Livre:La_Bruy%C3%A8re_-_Les_Caract%C3%A8res,_Michallet,_1688.djvu</ref>
-                    <idno>Bibliothèque nationale de France, département Réserve des livres rares, RES-R-2056 </idno>
-                </bibl>
-                <!-- <idno/> = ref / numéro d'identificatioin -->
-                <bibl xml:id="version1690">
-                    <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
-                    <author><forename>Jean</forename> de <name>La Bruyère</name></author>
-                    <editor>chez Estienne Michallet (Paris)</editor>
-                    <date type="publication" when="1690">1690</date>
-                    <date type="digitalisation" when="2007-10-15">15/10/2007</date>
-                    <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575660</ref>
-                    <idno>Bibliothèque nationale de France</idno>
-                </bibl>
+                    <bibl xml:id="version1688">
+                        <title>Les caractères de Théophraste , traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                        <author>Théophraste</author>
+                        <editor role="translator"><forename>Jean</forename> de <name>La Bruyère</name></editor>
+                        <editor> E. Michallet (Paris)</editor>
+                        <date type="publication" when="1688">1688</date>
+                        <date type="digitalisation" when="2010-10-04">04/10/2010</date>
+                        <ref>https://gallica.bnf.fr/ark:/12148/btv1b86070385</ref>
+                        <ref>https://fr.wikisource.org/wiki/Livre:La_Bruy%C3%A8re_-_Les_Caract%C3%A8res,_Michallet,_1688.djvu</ref>
+                        <idno>Bibliothèque nationale de France, département Réserve des livres rares, RES-R-2056 </idno>
+                    </bibl>
+                    <!-- <idno/> = ref / numéro d'identificatioin -->
+                    <bibl xml:id="version1690">
+                        <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle</title>
+                        <author><forename>Jean</forename> de <name>La Bruyère</name></author>
+                        <editor>chez Estienne Michallet (Paris)</editor>
+                        <date type="publication" when="1690">1690</date>
+                        <date type="digitalisation" when="2007-10-15">15/10/2007</date>
+                        <ref>https://gallica.bnf.fr/ark:/12148/bpt6k575660</ref>
+                        <idno>Bibliothèque nationale de France</idno>
+                    </bibl>
                 </listBibl>
+                <listPerson>
+                    <person xml:id="Hozier">
+                        <name><forename>Charles René</forename> <addName>d'</addName><surname>Hozier</surname></name>
+                        <occupation>conseiller du roi, généalogiste, juge général des armes et blasons de France</occupation>
+                        <birth><date when="1640-02-24">24 février 1640</date><placeName>Paris</placeName></birth>
+                        <idno type="VIAF">71392389</idno>
+                        <!-- <idno type="URI"> pour un lien BnF -->
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="Château">
+                        <placeName>Château</placeName></place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -106,12 +119,12 @@
                 </div2>
                 <div2 type="chapter">
                     <head>De quelques usages</head>
-                    <p source="#version1688">Il y a des gens qui n’ont pas le moyen d’eſtre <seg>nobles<note type="gloss" resp="La Bruyère">* Secretaires du Roy</note></seg>.</p>
-                    <p source="#version1688">Il y en a de tels que s’ils euſſent obtenu ſix mois de delay de leurs creanciers, ils eſtoient <seg>nobles <note type="gloss" resp="La Bruyère">✝ Veterans</note></seg>.</p>
-                    <p source="#version1688">Quelques autres ſe couchent roturiers, &amp; ſe levent <seg>nobles<note type ="gloss" resp="La Bruyère">* Veterans</note></seg> :</p>
-                    <p source="#version1688">Combien de nobles dont le pere &amp; les aînez ſont roturiers?</p>
+                    <p source="#version1688">Il y a des <rs type="person">gens</rs> qui n’ont pas le moyen d’eſtre <seg>nobles<note type="gloss" resp="La Bruyère">* Secretaires du Roy</note></seg>.</p>
+                    <p source="#version1688">Il y en a de tels que s’ils euſſent obtenu ſix mois de delay de leurs <rs type="person">creanciers</rs>, ils eſtoient <seg>nobles <note type="gloss" resp="La Bruyère">✝ Veterans</note></seg>.</p>
+                    <p source="#version1688">Quelques <rs type="person">autres</rs> ſe couchent roturiers, &amp; ſe levent <seg>nobles<note type ="gloss" resp="La Bruyère">* Veterans</note></seg> :</p>
+                    <p source="#version1688">Combien de <rs type="person">nobles</rs> dont le <rs type="person">pere</rs> &amp; les <rs type="person">aînez</rs> ſont roturiers?</p>
                     <div3 type="remark">
-                        <p source="#version1688"><g ref="#pdm1"/>l ſuſſit de n'eſtre point né dans une ville, mais ſous une chaumiere répandüe dans la campagne, ou ſous une ruine qui trempe dans un marecage &amp; qu'on appelle Château, pour <seg>eſtre<note type="translation" resp="Marie Le Bout">être</note></seg> crû noble ſur 
+                        <p source="#version1688"><g ref="#pdm1"/>Il ſuſſit de n'eſtre point né dans une <rs type="place">ville</rs>, mais ſous une chaumiere répandüe dans la campagne, ou ſous une <rs type="place" ref="#Château">ruine qui trempe dans un marecage</rs> &amp; qu'on appelle <rs type="place">Château</rs>, pour <seg>eſtre<note type="translation" resp="Marie Le Bout">être</note></seg> crû noble ſur 
                             <app>
                                 <rdgGrp>
                                     <rdg wit="#version1688"></rdg>
@@ -120,10 +133,10 @@
                             </app>
                             parole.</p></div3>
                     <div3 type="remark">
-                        <p source="#version1690"><g ref="#pdm2"/>Un bon Gentilhomme veut paſſer pour un petit Seigneur, &amp; il y parvient : un grand Seigneur affecte la principauté, &amp; il uſe de tant de précautions, qu'à force de beaux noms, de diſputes ſur le rang &amp; les preſeances, de nouvelles armes, &amp; d'une genealogie que d'HOSIER ne luy a pas faite, il devient enfin un petit Prince.</p>
+                        <p source="#version1690"><g ref="#pdm2"/>Un bon <persName type="person">Gentilhomme</persName> veut paſſer pour un petit Seigneur, &amp; il y parvient : un <persName type="person">grand Seigneur</persName> affecte <orgName type="org">la principauté</orgName>, &amp; il uſe de tant de précautions, qu'à force de beaux noms, de diſputes ſur le rang &amp; les preſeances, de nouvelles armes, &amp; d'une genealogie que d'<seg><persName type="person" ref="#Hozier">HOSIER</persName><note type="comment" resp="Marie Le Bout">Il s'agit probablement de Charles René d'Hozier, conseiller du roi, généalogiste, juge général des armes et blasons de France au XVIIIe siècle.</note></seg> ne luy a pas faite, il devient enfin un <persName type="person"><roleName type="prince">petit Prince</roleName></persName>.</p>
                     </div3>
                     <div3 type="remark">
-                        <p source="#version1688"><g ref="#pdm1"/>Le beſoin d’argent a reconcilié la nobleſſs avec la <seg>roture<note type="gloss" resp="Marie Le Bout">État d'une personne qui n'est pas noble; condition de roturier.</note></seg>, &amp; a fait évanoüir la preuve des quatre quartiers.</p></div3>
+                        <p source="#version1688"><g ref="#pdm1"/>Le beſoin d’argent a reconcilié <orgName>la nobleſſs</orgName> avec <orgName>la <seg>roture<note type="gloss" resp="Marie Le Bout">État d'une personne qui n'est pas noble; condition de roturier.</note></seg></orgName>, &amp; a fait évanoüir la preuve des quatre quartiers.</p></div3>
                 </div2>
             </div1>
         </body>
@@ -141,4 +154,11 @@
         <seg>exemple<note>Note sur l'exemple</note></seg> 
     Autre possiblité mais moins conseillé :
         <seg corresp="#n1">exemple<seg><note xmlid="n1">Note sur l'exemple<note>
+        
+        ctrl + E = créer une balise autour d'un segment séléctionné
+        
+        références d'autorités :
+            viaf
+            wikidata
+            databnf
 -->
