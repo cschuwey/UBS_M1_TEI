@@ -44,8 +44,8 @@
 
         <encodingDesc>
             <classDecl>
-                <taxonomy xml:id="concept">
-                    <category>
+                <taxonomy >
+                    <category xml:id="concept">
                         <catDesc> Religion </catDesc>
                     </category>
                     <!-- Le mot ciel étant un concept il n'y a pas de référenciel de concept -->
