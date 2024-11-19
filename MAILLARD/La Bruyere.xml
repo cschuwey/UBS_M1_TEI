@@ -59,8 +59,12 @@
                 </bibl>
                 <!-- il s'agit d'entrée bibliographique, faiblement/sous structurée, cela signifie que l'on fait la description 
                 du document, précisement la bibliographie du livre-->
-
-
+                <listObject>
+                    <object xml:id="parure">Parure</object>
+                </listObject>
+                <listPlace>
+                    <place xml:id="Ville"> Ville <country> France </country></place>
+                </listPlace>
             </sourceDesc>
 
         </fileDesc>
@@ -76,8 +80,13 @@
         </encodingDesc>
     </teiHeader>
 
+
+
     <text>
-        <front>
+        
+        <front> </front>
+        
+        
 
             <div1 type="Preface">
                 <!-- Discours sur Theophraste -->
@@ -120,47 +129,43 @@
                             <!-- pied de mouche, paragraphes : parfois des paragraphes vont ensemble, il faut donc une Div4 pour les mettre ensemble. 
         puis, a chaque nouveau pied de mouche, une nouvelle balise div4 sera utilisé puis refermée, ainsi de suite-->
 
-                            <p> <g ref="#Pdm"/> <!-- balise servant à encoder les glyphs -> caractère comme un pied de mouche mais composé de signe distinct), mais il n'y en a pas dans les 2 remarques que j'ai encodé -->
+                            <p>
+                                <g ref="#Pdm"/>
+                                <!-- balise servant à encoder les glyphs -> caractère comme un pied de mouche mais composé de signe distinct), mais il n'y en a pas dans les 2 remarques que j'ai encodé -->
                                 <app>
                                     <!-- TD6 : les variables -->
-                                    <lem>
-                                        <!-- texte sur lequel on se réfère -->
-                                        <ab type="pilcrow"/>
-                                        <!--Pied de mouche--> Le favory n'a point de fuites, il eft
-                                        fans engagement &amp; fans liaifons , il peut eftre entouré
-                                        de parens &amp; de creatures , mais il n'y tient pas ; il
-                                        eft détaché de tout , &amp; comme ifolé. </lem>
-                                    <rdg wit="#version1694"> Le favori n'a point de fuite ; il eft
-                                        fans engagement &amp; fans liaifons ; il peut être entouré
-                                        de parens &amp; de creatures, mais il n'y tient pas ; il eft
-                                        détaché de tout, &amp; comme ifolé. </rdg>
-                                </app>
+                                    <!-- texte sur lequel on se réfère -->
+                                    <ab type="pilcrow"/>
+                                    <!--Pied de mouche--> Le <lem>favory</lem><rdg
+                                        wit="#version1694">favori</rdg> n'a point de
+                                        <lem>fuites,</lem>
+                                    <rdg wit="#version1694">fuite ;</rdg> il eft fans engagement
+                                    &amp; fans liaifons , il peut <lem>eftre</lem>
+                                    <rdg wit="#version1694">être</rdg> entouré de parens &amp; de
+                                    creatures , mais il n'y tient pas ; il eft détaché de tout ,
+                                    &amp; comme ifolé. </app>
                             </p>
-                            
-                            <p source="#version1694"> Nombres de remarques supplémantaires ajoutées entres les deux
-                                remarques encodées entre les version 1688 et 1694 </p>  <!-- source = sert à dire qu'il y a des remarques qui ont été ajouté au fil du temps par La Bruyère et leur nombre -->
-                                                      
+
+                            <p source="#version1694"> Nombres de remarques supplémantaires ajoutées
+                                entres les deux remarques encodées entre les version 1688 et 1694 </p>
+                            <!-- source = sert à dire qu'il y a des remarques qui ont été ajouté au fil du temps par La Bruyère et leur nombre -->
+
                             <p>
-                                <app>
-                                    <lem>
-                                <ab type="pilcrow"/> Une grande parure pour le <seg>favory<note
+                                <ab type="pilcrow"/> Une grande <objectName ref="#parure"
+                                    type="ornament">parure</objectName>
+                                <!-- TD7 Les entités nommées --> pour le <seg>favory<note
                                         type="comment" resp="#Aureline" place="top"> Petit café ?
                                     </note></seg> difgracié , c'eft la retraitte : il luy eft
-                                avantageux de difparoiftre , plûtoft que de traîner dans la Ville le
+                                avantageux de difparoiftre , plûtoft que de traîner dans la
+                                    <placeName ref="#Ville" type="settlement">Ville</placeName> le
                                 debris d'une faveur qu'il a perduë , &amp; de faire <seg> un nouveau
-                                    perfonnage fi different du premier 
-                                    <note type="gloss" resp="#LaBruyere" place="bottom">RIP la note qui a disparu </note></seg>
-                                qu'il a foûtenu : il conferve au contraire le merveilleux de fa vie
-                                dans la folitude ; &amp; <seg>mourant<note type="des" place="margin" resp="#Aureline">
-                                Contenu de la note TD5</note></seg> pour ainfi
-                                dire avant la caducité , il ne laiffe de foy qu'une belle idée &amp;
-                                une memoire agreable. </lem>
-                                    <rdg>
-                                        
-                                    </rdg>
-                                    
-                                </app>
-                            </p>
+                                    perfonnage fi different du premier <note type="gloss"
+                                        resp="#LaBruyere" place="bottom">RIP la note qui a disparu
+                                    </note></seg> qu'il a foûtenu : il conferve au contraire le
+                                merveilleux de fa vie dans la folitude ; &amp; <seg>mourant<note
+                                        type="des" place="margin" resp="#Aureline"> Contenu de la
+                                        note TD5</note></seg> pour ainfi dire avant la caducité , il
+                                ne laiffe de foy qu'une belle idée &amp; une memoire agreable. </p>
 
                         </div4>
                     </div3>
@@ -170,30 +175,7 @@
 
 
 
-
-
-        </front>
     </text>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
