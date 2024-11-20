@@ -58,6 +58,19 @@
                     <desc> ((¶))</desc>
                 </glyph>
             </charDecl>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="sot">
+                        <catDesc>Sot</catDesc>
+                    </category>
+                    <category xml:id="hesprit">
+                        <catDesc>Homme d'eſprit</catDesc>
+                    </category>
+                    <category xml:id="sage">
+                        <catDesc>sage</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
             <editorialDecl>
                 <normalization>
                     <p> Les accents ont été supprimés </p>
@@ -103,10 +116,10 @@
                         <!-- Page 182 -->
                         <div4 type="remark">
                             <p source="#Version1688">
-                                <g ref="#PieddeMouche"/> Le ſage quelquefois évite le <seg>monde
-                                        <note resp="#Marchal" type="gloss" place="margin">L'ensemble
-                                        de tout ce qui existe.</note></seg> de peur d'eſstre en-
-                                nuyé.</p>
+                                <g ref="#PieddeMouche"/> Le <rs type="qualification" ref="#sage"
+                                    >ſage </rs>quelquefois évite le <seg>monde <note resp="#Marchal"
+                                        type="gloss" place="margin">L'ensemble de tout ce qui
+                                        existe.</note></seg> de peur d'eſstre en- nuyé.</p>
                         </div4>
                         <div4 type="remark">
                             <p source="#Version1688">
@@ -114,16 +127,19 @@
                                 &amp; de ſi impercepti- ble, où il n'entre des manie- res qui nous <app>
                                     <lem>decelent</lem>
                                     <rdg wit="#Version1694"> décelent</rdg>
-                                </app>. Un <seg> ſot<note type="gloss" resp="#Marchal"
-                                        place="margin"> Qui a peu d'intelligence et peu de
-                                        jugement.</note></seg>, ny n'entre, ny ne ſort, ny ne
+                                </app>. Un <seg>
+                                    <rs type="qualification" ref="#sot">ſot</rs><note type="gloss"
+                                        resp="#Marchal" place="margin"> Qui a peu d'intelligence et
+                                        peu de jugement.</note></seg>, ny n'entre, ny ne ſort, ny ne
                                 s'aſſied, ny ne ſe leve, ny ne ſe tait, ny n'eſt ſur ſes jambes com-
-                                me un <seg>homme d'eſprit.<note type="context" resp="#LaBruyère"
+                                me un <seg>
+                                    <rs type="qualification" ref="#hesprit">homme
+                                        d'eſprit</rs>.<note type="context" resp="#LaBruyère"
                                         place="margin"> Au XVIIe siècle, un homme d'esprit est une
                                         personne qui représente l'idéal moral</note></seg></p>
                         </div4>
                         <div4 type="figure">
-                            <!-- Le monogramme à la fin est a codé mais je n'ai pas réussi à trouver comment faire. Je pense qu'il faut mettre l'attribut "figure" qui permet d'indiquer la présence d'une image mais je ne sais pas comment coder ce genre d'images correctement -->
+                            <!-- Le monogramme à la fin est à coder mais je n'ai pas réussi à trouver comment faire. Je pense qu'il faut mettre l'attribut "figure" qui permet d'indiquer la présence d'une image mais je ne sais pas comment coder ce genre d'images correctement -->
                         </div4>
                         <div4 type="remark">
                             <p source="#Version1694">
