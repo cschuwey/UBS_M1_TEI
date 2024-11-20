@@ -36,7 +36,7 @@
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k8716771x.r=Les%20Caract%C3%A8res%20La%20Bruy%C3%A8re?rk=128756;0</ref>
                     <date when="2007-10-15"/>
                 </bibl>
-
+                
             </sourceDesc>
 
         </fileDesc>
@@ -59,6 +59,14 @@
             <projectDesc>
                 <p>Projet d'édition numérique De La Bruyère</p>
             </projectDesc>
+            
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="Coeur">
+                        <gloss>Champ lexical de l'amour</gloss>
+                    </category>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
 
 
@@ -98,11 +106,11 @@
                                         l'apparition de la caroline ou minuscule carolingienne, on
                                         n'utilisait que le s long, qu'un lecteur non averti
                                         confondrait aujourd'hui avec un f.</note></seg> défendent
-                                d'aimer &amp; de faire des vers, comme de deux foibles qu'ils
-                                n'oſent <app>
-                                    <lem wit="#version1688">avouer ;</lem>
-                                    <rdg wit="#version1699">avouer,</rdg>
-                                </app>l'un du <seg>coeur<note resp="#CM" type="definition"
+                                <term source="#Coeur">d'aimer</term> &amp; de faire des vers, comme de deux foibles qu'ils
+                                n'oſent avouer <app>
+                                    <lem wit="#version1688">;</lem>
+                                    <rdg wit="#version1699">,</rdg>
+                                </app>l'un du <seg> <term source="#Coeur">coeur</term><note resp="#CM" type="definition"
                                         place="margin">Organe musculaire creux, qui constitue
                                         l'élément moteur central de la circulation du
                                     sang</note></seg> , l'autre de l'eſprit.</p>
@@ -111,7 +119,7 @@
 
                         <div4>
 
-                            <p source="#version1688"><g ref="#pieddemouche"/>Regretter ce que l'on aime eſt un bien, en
+                            <p source="#version1688"><g ref="#pieddemouche"/>Regretter ce que l'on <term source="#Coeur">aime</term> eſt un bien, en
                                 comparaiſon de vivre avec ce que l'on hait.</p>
                             <!--La remarque a été déplacée dans la version de 1699, elle ne se trouve donc pas au même endroit, mais elle reste tout de même dans le même chapitre-->
 
@@ -119,10 +127,10 @@
 
                         <div4>
 
-                            <p><g ref="#pieddemouche"/>Vouloir oublier quelqu'un, c'eſt y penſer. L'amour a cela de commun
+                            <p><g ref="#pieddemouche"/>Vouloir oublier quelqu'un, c'eſt y penſer. <term source="#Coeur">L'amour</term> a cela de commun
                                 avec les ſcrupules, qu'il s'aigrit par les reflexions &amp;les
                                 retours que l'on fait pour s'en délivrer. Il faut, s'il ſe peut, ne
-                                point ſonger à la paſſion pour <app>
+                                point ſonger à la <term source="#Coeur"> paſſion</term> pour <app>
                                     <lem wit="#version1688">l'affoiblir.</lem>
                                     <rdg wit="#version1699">l'afoiblir.
                                         <!--La remarque a été déplacée et ne se trouve donc pas au même endroit, mais se trouve dans le même chapitre-->
@@ -134,12 +142,12 @@
                     </div3>
                 </div2>
             </div1>
-            
+
+
+
+
         </body>
 
         <back> </back>
-    </text>
-</TEI>
-
     </text>
 </TEI>
