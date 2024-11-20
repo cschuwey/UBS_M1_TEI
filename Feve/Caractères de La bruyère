@@ -59,6 +59,19 @@
                 </glyph>
             </charDecl>
         </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="Maitre"/>
+                    <person xml:id="Pucelle"/>
+                    <person xml:id="Fourcroy">
+                        <name>Antoine François Fourcroy</name>
+                        <occupation>Médecin et chimiste</occupation>
+                        <nationality>Française</nationality>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
     </teiHeader>
     <text>
         <front> </front>
@@ -109,8 +122,10 @@
                             <p source="#version2"><seg>L'Eloquence profane eſt tranſpoſée<note
                                         place="margin" type="context" resp="#LaBruyère">De façon non
                                         littérale...</note></seg>, pour ainſi dire, du Bareau, où LE
-                                MAÎTRE, PUCELLE, &amp; FOURCROY l'ont fait regner, &amp; où elle
-                                n'eſt plus d'uſage, à la Chaire où elle ne doit pas être.</p>
+                                    <persName ref="#Maitre">MAÎTRE</persName>, <persName
+                                    ref="#Pucelle">PUCELLE</persName>, &amp; <persName
+                                    ref="#Fourcroy">FOURCROY</persName> l'ont fait regner, &amp; où
+                                elle n'eſt plus d'uſage, à la Chaire où elle ne doit pas être.</p>
                             <p source="#version1"> L'on fait aſſaut d'<app>
                                     <lem>E</lem>
                                     <rdg wit="#version2">é</rdg>
@@ -122,11 +137,12 @@
                                 </app> : celuy qui écoute s'établit Juge de celuy qui prêche, pour
                                 condamner ou pour applaudir ; &amp; n'eſt pas plus converti par le
                                 diſcours qu'il favoriſe, que par celuy auquel il eſt contraire.
-                                        <seg>L'Orateur<note place="margin" type="gloss" resp="#Feve"
-                                        >Personne qui compose ou prononce des discours.</note></seg>
-                                plaît aux uns, déplaît aux autres, &amp; convient avec tous une
-                                choſe ; que comme il ne cherche point à les rendre meilleurs, ils ne
-                                penſent pas auſſi à le devenir.</p>
+                                        <seg><addName type="surname">L'Orateur</addName><note
+                                        place="margin" type="gloss" resp="#Feve">Personne qui
+                                        compose ou prononce des discours.</note></seg> plaît aux
+                                uns, déplaît aux autres, &amp; convient avec tous une choſe ; que
+                                comme il ne cherche point à les rendre meilleurs, ils ne penſent pas
+                                auſſi à le devenir.</p>
                         </div4>
                     </div3>
                 </div2>
