@@ -35,6 +35,11 @@
                     <ref>https://gallica.bnf.fr/ark:/12148/bpt6k57579b</ref>
                     <date when="1696">M. DC. XCVI.</date>
                 </bibl>
+                <listOrg>
+                    <org xml:id="Peuple">
+                        <roleName>ensemble de personnes soumises aux mêmes lois</roleName>
+                    </org>
+                </listOrg>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -63,6 +68,14 @@
                     <desc>((¶))</desc>
                 </glyph>
             </charDecl>
+            <classDecl>
+                <taxonomy>
+                    <!--Il se code toujours dans encodingdesc-->
+                    <category xml:id="Niveau">
+                        <gloss>Caractère noble</gloss>
+                    </category>
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
     </teiHeader>
     <text>
@@ -109,7 +122,7 @@
                                     dans un comportement volontaire sans tenir compte des
                                     circonstances</note></seg> : de là les partis, les cabales, le
                             hereſies. </p>
-                        <!--Je ne l'ai pas mis dans une div remarque car il n'est pas marqué comme remarque avec le signe dans le texte original-->
+                        <!--Je ne l'ai pas mis dans une div remarque car il n'est pas marqué comme remarque avec le pied de mouche dans le texte original-->
                         <!-- L'attribut source peut s'utiliser dans n'importe quel élément -->
                         <div4 type="remark">
                             <p source="#version1688"><g ref="#Pieddemouche"/>L'on ne penſe pas
@@ -119,8 +132,8 @@
                         </div4>
                         <div4 type="remark">
                             <p source="#version1688"><g ref="#Pieddemouche"/>Les grandes choſes
-                                étonnent &amp; les petites rebutent ; nous nous apprivoiſons avec les
-                                unes &amp; les autres par l'habitude.</p>
+                                étonnent &amp; les petites rebutent ; nous nous apprivoiſons avec
+                                les unes &amp; les autres par l'habitude.</p>
                         </div4>
                         <div4 type="remark">
                             <p source="#version1696"><g ref="#Pieddemouche"/>Deux choſes toutes
@@ -129,9 +142,12 @@
                         </div4>
                         <div4 type="remark">
                             <p source="#version1688"><g ref="#Pieddemouche"/>Il n'y a rien de plus
-                                bas &amp; qui convienne mieux au pleuple, que de parler en des
-                                termes magnifiques de ceux-meſme dont l'on penſoit tres-modeſtement
-                                avant leur élevation.</p>
+                                bas &amp; qui convienne mieux au <orgName type="group"
+                                    source="#Peuple">pleuple</orgName>
+                                <!-- orgName permet de donner une identité au terme "peuple", on peut l'identifier dans le teiHeader et ainsi l'identifier dans le texte -->
+                                ,que de parler en des termes magnifiques de ceux-meſme dont l'on
+                                penſoit tres-modeſtement avant leur 
+                                <term type="society" source="#Niveau">élevation</term>.</p>
                             <!--@place indique la place qu'occupe la note dans le document original et non dans le document créé par la suite-->
                             <!-- Pour les esperluettes, comme oxygen ne les valide pas, en cherchant sur Internet, j'ai trouvé que la solution était de coder &amp;-->
                         </div4>
@@ -141,5 +157,4 @@
         </body>
         <back> </back>
     </text>
-</TEI>>
 </TEI>
