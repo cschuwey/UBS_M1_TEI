@@ -64,8 +64,16 @@
                     <desc> ((¶))</desc>
                 </glyph>
             </charDecl>
+            <classDecl>
+                <taxonomy> 
+                    <category xml:id="sot"/>
+                    <!-- on peut rajouter un idno pour apporter des informations supplémentaires sur une personne ou autre, 
+                    ici on pourrait mettre un site expliquant la place du sot dans la société par exemple.-->  
+                </taxonomy>
+            </classDecl>
         </encodingDesc>
     </teiHeader>
+    
     <text>
         <front/>
         <body>
@@ -107,54 +115,47 @@
                            
                             <p source="#version1688"> 
                                 <g ref="#pieddemouche"/>
-                                l'affection dans le geſte, danſ le parler, &amp;
-                                <!-- j'ai trouvé cette solution pour le "&" mais aussi le &lt; sur le site de la TEI-->
+                                l'affection dans le geſte, danſ le parler, &amp; 
                                 danſ leſ <choice>
                                     <orig> maniereſ</orig>
                                     <reg> manières</reg>
-                                </choice> eſt ſouvent une ſuite de <app> <lem>l'oyſiveté</lem> <rdg wit="#version1694"> l'oiſiveté</rdg></app>, ou de l'<choice>
+                                </choice> eſt ſouvent une ſuite de l'o <app><lem>y</lem> <rdg wit="#version1694"> i</rdg></app>ſiveté, ou de l'<choice>
                                     <orig> indifference</orig>
                                     <reg> indifférence</reg>
                                 </choice>; &amp; il ſemble qu'un grand attachement ou de <choice>
                                     <orig> ſerieuseſ </orig>
                                     <reg> sérieuses</reg>
-                                </choice> affaireſ jettent <seg> l'homme danſ ſon naturel.<note
-                                        resp="#BR" type="quote" place="bottom">
+                                </choice> affaireſ jettent 
+                                <seg> l'homme danſ ſon naturel.
+                                    <note resp="#BR" type="quote" place="bottom">
                                         On pourrait faire un lien avec le naturel sauvage de l'homme (par exemple pour une aide d'analyse)
                                     </note>
-                                </seg></p>
+                                </seg> 
+                               </p>
                         </div4>
                         <div4 type="remark">
                             <p source="#version1688"> 
                                 <g ref="#pieddemouche"/> 
-                                Tout le monde dit d'un <app> <lem> ſot</lem> <rdg wit="#version1694"> ſat </rdg></app> , qu'il eſt un <seg>  
-                                <app> <lem >ſot</lem> <rdg wit="#version1694"> ſat </rdg></app> 
+                                Tout le monde dit d'un  
+                                ſ<app> <lem>o</lem> <rdg wit="#version1694"> a </rdg></app> t , 
+                                qu'<rs ref="#sot">il</rs> eſt un 
+                                <seg>  
+                                <rs type="qualification"> ſ<app> <lem >o</lem> <rdg wit="#version1694"> a </rdg></app> t </rs>
                                 <note type="gloss" n="1" target="Labruyere">
                                 <!-- fausse note --> 
                                 1.Qui a peu d'intelligence et peu de jugement.
-                                2. Qui dénote un manque d'intelligence et de jugement.
-                            </note></seg>
-                                ; perſonne n'oſe luy dire à luy-
-                                <app> <lem >meſme</lem> <rdg wit="#version1694"> même</rdg></app>,
-                                il meurt ſans le ſçavoir, &amp; ſans que perſonne ſe ſoit
+                                2.Qui dénote un manque d'intelligence et de jugement.
+                            </note>
+                                </seg>
+                                ; perſonne n'oſe luy dire à 
+                                <rs ref="#sot">luy- me<app> <lem >ſ</lem> <rdg wit="#version1694">ê</rdg></app>me </rs>,
+                                <rs ref="#sot">il </rs> meurt ſans le ſçavoir, &amp; ſans que perſonne ſe ſoit
                                 vangé. </p>
-
                         </div4>
                     </div3>
-
                 </div2>
             </div1>
         </body>
-
-
-
-
-
-
-
-
-
-
 
 
 
