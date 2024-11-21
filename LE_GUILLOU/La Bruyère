@@ -47,9 +47,25 @@
                         <date type="digitalization" when="2018-08-05"/>
                     </bibl>
                 </listBibl>
+                <!-- entités nommées -->
+                <listPerson>
+                    <person xml:id="LOUISXIV">
+                        <name>
+                            <forename>Louis</forename>
+                            <nameLink>de</nameLink>
+                            <surname>Bourbon</surname> dit <addName>Louis<genName>XIV</genName></addName>
+                        </name>
+                        <idno type="VIAF">268675767</idno>
+                        <!-- <idno type="URI"> pour lien type BnF </idno> -->
+                        <birth>1638</birth>
+                        <death>1715</death>
+                        <occupation>Roi de France</occupation>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <!-- <classDecl><taxonomy> </taxonomy></classDecl> -->
             <projectDesc>
                 <p>Transcription des Caractères de La Bruyère en document XML TEI par C.LE GUILLOU à
                     partir des éditions de 1688 et de 1691.</p>
@@ -112,18 +128,33 @@
                 </div2>
                 <div2>
                     <div3 type="chapter" n="10">
-                        <head source="#version1688">Du Souverain<app><rdg wit="#version1688"/><rdg wit="#version1691">, ou De La Republique.</rdg></app></head>
+                        <head source="#version1688">Du <persName ref="#LOUISXIV"><roleName
+                                    type="king">Souverain</roleName></persName><app>
+                                <rdg wit="#version1688"/>
+                                <rdg wit="#version1691">, ou De La <term>Republique</term>.</rdg>
+                            </app></head>
                         <div4 type="remark">
-                            <p source="#version1688"><g ref="#pdm1"/> Le caract<app type="spell"><rdg wit="#version1688">è</rdg><rdg wit="#version1691">e</rdg></app>re des <seg>François<note type="gloss" n="1" resp="#CLG"> <!-- note --></note></seg> demande du
-                                ſerieux dans le Souverain.</p>
+                            <p source="#version1688"><g ref="#pdm1"/> Le caract<app type="spell">
+                                    <rdg wit="#version1688">è</rdg>
+                                    <rdg wit="#version1691">e</rdg>
+                                </app>re des <seg><orgName type="people">François</orgName><note
+                                        type="gloss" n="1" resp="#CLG">
+                                        <!-- note --></note></seg> demande du ſerieux dans le
+                                    <persName ref="#LOUISXIV"><roleName type="king">Souverain</roleName></persName>.</p>
                         </div4>
                         <div4 type="remark">
-                            <p source="#version1688"><g ref="#pdm1"/> L'un des malheurs du Prince eſt d'eſtre ſouvent trop plein de ſon
-                                ſecret, par le peril qu'il y a à le répandre ; ſon bonheur eſt de
-                                rencontrer <seg>une perſonne ſeure<note type="footnote" n="2" resp="#EM"><!-- note de bas de page --></note></seg> qui l'en décharge.</p>
+                            <p source="#version1688"><g ref="#pdm1"/> L'un des malheurs du <persName
+                                    ref="#LOUISXIV"><roleName type="king">Prince</roleName></persName> eſt d'eſtre ſouvent trop plein de
+                                ſon ſecret, par le peril qu'il y a à le répandre ; ſon bonheur eſt
+                                de rencontrer <seg>une perſonne ſeure<note type="footnote" n="2"
+                                        resp="#EM"><!-- note de bas de page --></note></seg> qui
+                                l'en décharge.</p>
                         </div4>
                         <div4 type="remark">
-                            <p source="#version1691"><g ref="#pdm1"/> Quand le peuple eſt en mouvement, on ne comprend pas par où le calme y peut rentrer; &amp; quand il eſt paiſible, on ne voit pas par où le calme en peut ſortir.</p>
+                            <p source="#version1691"><g ref="#pdm1"/> Quand le <orgName
+                                    type="people">peuple</orgName> eſt en mouvement, on ne comprend
+                                pas par où le calme y peut rentrer; &amp; quand il eſt paiſible, on
+                                ne voit pas par où le calme en peut ſortir.</p>
                         </div4>
                     </div3>
                 </div2>
@@ -133,4 +164,5 @@
             <head>Extrait du privilège du roi</head>
         </back>
     </text>
+    <!-- ctrl + E (raccourci balise) -->
 </TEI>
