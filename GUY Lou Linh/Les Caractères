@@ -25,25 +25,31 @@
             <sourceDesc>
                     
                     <bibl xml:id="#E1">
-                        <author> Jean <name>de La Bruyère</name> </author>
-                        <date> 1688 </date>
-                        <title> Les Caractères </title>
-                        <publisher> Estienne Michallet </publisher>
-                        <pubPlace> Paris </pubPlace>
-                        <idno> RES-R-2056 </idno>
-                        <ref> http://catalogue.bnf.fr/ark:/12148/cb120117553 </ref>
+                        <author xml:id="laBruyere">
+                            <name>Jean de La Bruyère</name>
+                            <ref target="http://catalogue.bnf.fr/ark:/12148/cb120117553">BNF</ref>
+                            <ref target="https://viaf.org/viaf/14864931">VIAF</ref>
+                        </author>
+                        <date>1688</date>
+                        <title>Les Caractères</title>
+                        <publisher>Estienne Michallet</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <idno>RES-R-2056</idno>
+                        <ref>http://catalogue.bnf.fr/ark:/12148/cb120117553</ref>
                     </bibl>
                     
                 <bibl xml:id="#E2">
-                    <author> Jean <name>de La Bruyère</name> </author>
-                    <date> 1694 </date>
-                    <title> Les Caractères </title>
-                    <publisher> Thomas Almaury </publisher>
-                    <pubPlace> Lyon </pubPlace>
-                    <idno> R-18792 </idno>
-                    <ref> https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100729370/IMG00000001# </ref>
-                    </bibl>
-                    
+                    <author xml:id="laBruyere">
+                        <name>Jean de La Bruyère</name>
+                        <ref target="http://viaf.org/viaf/44301038">VIAF</ref>
+                    </author>
+                    <date>1694</date>
+                    <title>Les Caractères</title>
+                    <publisher>Thomas Almaury</publisher>
+                    <pubPlace>Lyon</pubPlace>
+                    <idno>R-18792</idno>
+                    <ref>https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100729370/IMG00000001#</ref>
+                </bibl>
                 
             </sourceDesc>    
             
@@ -55,15 +61,19 @@
             <editorialDecl>
                 <normalization> <p>Choix</p> </normalization>
                 <quotation marks="all">
-                    <p> Les S sont en forme de f sans barre horizontale, des astérisques sur le côté pour les annotations</p>
+                    <p>Les S sont en forme de f sans barre horizontale, des astérisques sur le côté pour les annotations</p>
                 </quotation>
             </editorialDecl>
         </encodingDesc>
         
         <profileDesc>
             <langUsage> <p xml:lang="fra">Français</p> </langUsage>
-            
         </profileDesc>
+
+        <authority>
+            <name xml:id="VIAF">VIAF</name>
+            <uri>http://viaf.org/viaf/44301038</uri>
+        </authority>
         
     </teiHeader>
     
