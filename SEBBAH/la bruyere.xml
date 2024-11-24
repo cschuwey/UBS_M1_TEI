@@ -59,6 +59,75 @@
                                 >https://gallica.bnf.fr/ark:/12148/bpt6k8712342k?rk=21459;2</ref></p>
                     </availability>
                 </bibl>
+
+                <bibl>
+                    <title xml:id="LMG">Le Mercure Galant <idno type="viaf"
+                            >284149662171607020009</idno>
+                        <note>Titre de revue, Le Mercure Galant</note>
+                    </title>
+                    <title xml:id="LGH">La Gazette d'Hollande <idno type="viaf">194865953</idno>
+                        <note>Titre de revue, La gazette d'Hollande</note>
+                    </title>
+                </bibl>
+
+                <listPerson>
+                    <person xml:id="Nars">
+                        <name>Narcisse</name>
+                        <note>personnage de la mythologie grecque</note>
+                    </person>
+                    <person xml:id="Ari">
+                        <name>Aricie</name>
+                        <note>Aricie est une princesse athénienne présentée par Philostrate, dans
+                            ses Tableaux, en tant qu'épouse d'Hippolyte.</note>
+                    </person>
+                    <person xml:id="Barb">
+                        <name>Barbin</name>
+                        <note>Les historiettes de Barbin</note>
+                    </person>
+
+                </listPerson>
+                <listPlace>
+                    <place xml:id="Paris">
+                        <note>Ville, capitale de la France</note>
+                        <idno type="GEONAMES">2988507</idno>
+                    </place>
+                    <place xml:id="astero">
+                        <note>astéronyme de "quartier de"</note>
+                    </place>
+                    <place xml:id="Seine">
+                        <note>La Seine, fleuve parisien</note>
+                        <idno type="WIKIDATA">Q1471</idno>
+                    </place>
+                    <place xml:id="Marne">
+                        <note>La Marne, riviere affluent de la Seine</note>
+                        <idno type="WIKIDATA">Q41983</idno>
+                    </place>
+                    <place xml:id="cours">
+                        <note>au Cours</note>
+                    </place>
+                    <place xml:id="tuilleries">
+                        <note>les Tuilleries</note>
+                    </place>
+                    <place xml:id="feuillans">
+                        <note>aux Feüillans</note>
+                    </place>
+                    <place xml:id="minimes">
+                        <note>aux Minimes</note>
+                    </place>
+
+                </listPlace>
+                <listObject>
+                    <object>
+                        <objectIdentifier>
+                            <objectName xml:id="tie">tiers</objectName>
+                            <objectName xml:id="cin">cinquieme</objectName>
+                            <objectName xml:id="rev">reversis <note>sorte de jeu de cartes qui vient
+                                    d’Espagne</note><idno type="URI"
+                                    >https://fr.wiktionary.org/wiki/reversis</idno></objectName>
+                        </objectIdentifier>
+                    </object>
+                </listObject>
+
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -124,81 +193,106 @@
                         <head>De la ville.</head>
                         <pb n="229"/>
                         <div4 type="remark">
-                            <p source="#première">L'on ſe donne à Paris ſans ſe parler comme un
-                                rendez-vous <app type="spell">
-                                    <lem>general</lem>
-                                    <rdg wit="#première">general</rdg>
+                            <p source="#première #sixième">L'on ſe donne à <placeName><settlement
+                                        ref="#Paris">Paris</settlement></placeName> ſans ſe parler
+                                comme un rendez-vous <app type="spell">
+                                    <lem wit="#première">general</lem>
                                     <rdg wit="#sixième">public</rdg>
                                 </app> mais fort
                                 exact<!-- Graphie du "c" particulière, on la retrouve aussi dans le titre de page. Je ne l'ai pas trouvé dans les caractères unicode.
                                 Ce que j'ai trouvé pour l'encoder, c'est d'utiliser la balise <g> avec un attribut ref pour décrire le glyphe -->,
-                                tous les ſoirs au Cours ou aux Tuilleries, pour ſe regarder au
-                                viſage, &amp; <!-- encodage de l'esperluette : "&" --> ſe
-                                deſapprouver les uns les autres.</p>
-                            <p source="#première">L'on ne peut ſe paſſer de ce m<app type="spell">
-                                    <lem>meſme</lem>
-                                    <rdg wit="#première">eſ</rdg>
-                                    <rdg wit="#sixième">ê</rdg>
+                                tous les ſoirs au <placeName ref="cours">Cours</placeName> ou aux
+                                    <placeName ref="tuilleries" type="building"
+                                    >Tuilleries</placeName>, pour ſe regarder au viſage, &amp;
+                                <!-- encodage de l'esperluette : "&" --> ſe deſapprouver les uns les
+                                autres.</p>
+                            <p source="#première #sixième">L'on ne peut ſe paſſer de ce <app
+                                    type="spell">
+                                    <lem wit="#première">meſme</lem>
+                                    <rdg wit="#sixième">même</rdg>
                                 </app>me monde que l'on n'aime point, &amp; dont l'on ſe mocque.</p>
                         </div4>
                         <div4 type="pilcrow">
-                            <p source="#sixième"><g ref="#pdm" source="#première"/> Tout le monde
-                                connoît cette longue levée qui borne &amp; qui reſſerre le lit de la
-                                Seine, du côté où elle entre à Paris avec la Marne qu'elle vient de
-                                recevoir ; les hommes s'y baignent au pied pendant les chaleurs de
-                                la canicule, on les voit de fort prés ſe jetter dans l'eau, on les
-                                en voit ſortir, c'eſt un amuſement : quand cette ſaiſon n'eſt pas
-                                venuë,les femmes de la ville ne s'y promenent pas encore ; &amp;
-                                quand elle eſt paſſée, elles ne s'y promenent plus. </p>
+                            <p source="#sixième"><g ref="#pdm"/> Tout le monde connoît cette longue
+                                levée qui borne &amp; qui reſſerre le lit de la <geogName><geogFeat
+                                        type="river">Seine</geogFeat></geogName>, du côté où elle
+                                entre à Paris avec la <geogName><geogFeat type="river"
+                                        >Marne</geogFeat></geogName> qu'elle vient de recevoir ; les
+                                hommes s'y baignent au pied pendant les chaleurs de la canicule, on
+                                les voit de fort prés ſe jetter dans l'eau, on les en voit ſortir,
+                                c'eſt un amuſement : quand cette ſaiſon n'eſt pas venuë,les femmes
+                                de la ville ne s'y promenent pas encore ; &amp; quand elle eſt
+                                paſſée, elles ne s'y promenent plus. </p>
                         </div4>
                         <div4 type="pilcrow" source="#première">
                             <!-- les pieds-de-mouches -->
-                            <p><g ref="#pdm" source="#première"/><hi rend="italique"
-                                >Narciſſe</hi><!-- nom en italique --> ſe leve le matin pour ſe
-                                coucher le ſoir, il a ſes heures de toilette comme une femme<app
+                            <p source="#première #sixième"><g ref="#pdm"/><hi rend="italique"
+                                        ><persName ref="#Nars"
+                                        ><forename>Narciſſe</forename></persName></hi><!-- nom en italique -->
+                                ſe leve le <time>matin</time> pour ſe coucher le <time>ſoir</time>,
+                                il a <time>ſes heures</time> de toilette comme une femme<app
                                     type="punct">
-                                    <lem>;</lem>
-                                    <rdg wit="#première">;</rdg>
+                                    <lem wit="#première">;</lem>
                                     <rdg wit="#sixième">,</rdg>
                                 </app> il va tous les jours fort regulierement à la belle
-                                        <seg>Meſſe<note type="gloss" resp="#LS">Office qui commémore
-                                        le sacrifice du corps et du sang de Jésus-Christ présent
-                                        sous les espèces du pain et du vin et qui est célébré par le
-                                        ministère du prêtre selon un rite dont les parties
-                                        essentielles sont l'offertoire, la consécration et la
-                                        communion.
-                                        <ref>https://www.cnrtl.fr/definition/messe</ref></note></seg>
-                                aux Feüillans, ou aux Minimes; il eſt homme d'un bon commerce, &amp;
-                                l'on compte ſur luy au quartier de ** pour un tiers ou pour un
-                                cinquiéme à l'ombre ou au reverſis ; là il tient le fauteüil</p>
+                                        <seg><eventName type="religous">Meſſe</eventName><note
+                                        type="gloss" resp="#LS">Office qui commémore le sacrifice du
+                                        corps et du sang de Jésus-Christ présent sous les espèces du
+                                        pain et du vin et qui est célébré par le ministère du prêtre
+                                        selon un rite dont les parties essentielles sont
+                                        l'offertoire, la consécration et la communion.
+                                            <ref>https://www.cnrtl.fr/definition/messe</ref></note></seg>
+                                aux <placeName ref="#feuillans">Feüillans</placeName>, ou aux
+                                    <placeName ref="#minimes">Minimes</placeName>; il eſt homme d'un
+                                bon commerce, &amp; l'on compte ſur luy au quartier de <placeName
+                                    ref="astero" type="hidden">**</placeName> pour un <objectName
+                                    ref="#tie">tiers</objectName> ou pour un <objectName ref="#cin"
+                                    >cinquiéme</objectName> à
+                                l'ombre<!-- peut-être aussi un objet ? avec un h j'ai trouvé le jeu de l'hombre
+                                    (jeu de cartes d'origine espagnole -
+                                    https://gallica.bnf.fr/essentiels/parcours-pedagogiques/jeux-societe ) -->
+                                ou au <objectName ref="rev">reverſis</objectName>; là il tient le
+                                fauteüil</p>
                             <pb n="230"/>
                             <fw type="header" place="top">Les Caractères</fw>
-                            <p>quatre heures de ſuite chez <hi rend="italique">Aricie</hi>, où il
-                                riſque chaque ſoir cinq <seg>piſtolles <note type="gloss" resp="LS"
-                                        >Monnaie d'or battue au XVIe et au XVIIes. en Espagne et en
-                                        Italie, de titre et de poids analogues à ceux du
+                            <p><time dur="PT4H">quatre heures</time> de ſuite chez <hi
+                                    rend="italique"><persName ref="Ari"
+                                        ><forename>Aricie</forename></persName></hi>, où il riſque
+                                chaque ſoir cinq <seg>piſtolles <note type="gloss" resp="LS">Monnaie
+                                        d'or battue au XVIe et au XVIIes. en Espagne et en Italie,
+                                        de titre et de poids analogues à ceux du
                                             louis.<ref>https://www.cnrtl.fr/definition/pistole</ref>
-                                    </note></seg>d'or. Il lit exactement la <app type="spell">
-                                    <lem>gazette</lem>
-                                    <rdg wit="#première">g</rdg>
-                                    <rdg wit="#sixième">G</rdg>
-                                </app>azette <seg>d'Hollande<note type="editorial" resp="#LS">Presse
-                                        clandestine, connue aussi sous le nom de Gazette
-                                        d'Amsterdam</note></seg> &amp; le Mercure Galant : il a lû
-                                        <seg><hi rend="italique">Bergerac</hi><note type="gloss"
-                                        resp="#LB">S.
+                                    </note></seg>d'or. Il lit exactement la <title level="j"
+                                    ref="LGH"><app type="spell">
+                                        <lem wit="#première">gazette</lem>
+                                        <rdg wit="#sixième">Gazette</rdg>
+                                    </app>
+                                    <seg>d'Hollande<note type="editorial" resp="#LS">Presse
+                                            clandestine, connue aussi sous le nom de Gazette
+                                            d'Amsterdam</note></seg></title> &amp; <title level="j"
+                                    ref="LMG">le Mercure Galant</title> : il a lû <seg><hi
+                                        rend="italique"><persName>Bergerac</persName></hi><note
+                                        type="gloss" resp="#LB">S.
                                 Sorlin</note></seg>✝<!--note dans la marge gauche, ancrage au caractère-->,
-                                        <seg><hi rend="italique">Des Maretz</hi><note type="gloss"
-                                        resp="#LB">Cyrano</note></seg>
+                                        <seg><hi rend="italique"><persName>Des
+                                        Maretz</persName></hi><note type="gloss" resp="#LB"
+                                        >Cyrano</note></seg>
                                 *<!-- note dans la marge gauche, ancrage au caractère -->; <hi
-                                    rend="italique">Leſclache</hi>, les Hiſtoriettes de <hi
-                                    rend="italique">Rabbin</hi>, &amp; quelques recüils de Poëſies.
-                                Il ſe promene avec des femmes à la Plaine ou au Cours, &amp; il eſt
-                                d'une ponctualité religieuſe ſur les viſites. Il fera demain ce
-                                qu'il fait <seg>aujourd huy<note type="textual" resp="#LS"
-                                        >L'écriture modernisée ajoute une apostrophe et le y devient
-                                        un i.</note></seg>, &amp; il meurt ainſi aprés avoir
-                                veſcu.</p>
+                                    rend="italique"><persName>Leſclache</persName></hi>, <title>les
+                                    Hiſtoriettes de <hi rend="italique"><app>
+                                            <lem wit="première"><persName>Rabbin</persName></lem>
+                                            <rdg wit="sixième"><persName ref="Barb"
+                                                  >Barbin</persName></rdg>
+                                        </app></hi></title>, &amp; quelques recüils de Poëſies. Il
+                                ſe promene avec des femmes à la <placeName>Plaine</placeName> ou au
+                                    <placeName>Cours</placeName>, &amp; il eſt d'une ponctualité
+                                religieuſe ſur les viſites. Il fera demain ce qu'il fait
+                                    <seg>aujourd huy<note type="textual" resp="#LS">L'écriture
+                                        modernisée ajoute une apostrophe et le y devient un
+                                        i.</note></seg>, &amp; <app>
+                                    <lem wit="première">ce</lem>
+                                    <rdg wit="sixième"/>
+                                </app> ce qu'il fit hier ; il meurt ainſi aprés avoir veſcu.</p>
 
                         </div4>
                     </div3>
