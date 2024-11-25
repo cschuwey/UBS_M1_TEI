@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="Bel">
+                    <name>BEL</name>
+                    <roleName>Etudiante</roleName>
+                    <affiliation>UBS</affiliation>
+                </publisher>
+                <authority>BEL</authority><pubPlace>UBS</pubPlace>
+                <date when="2024-10-16">16 octobre 2024</date>
+                <date when="2024-10-28">28 octobre 2024</date>
+                <date when="2024-11-04">04 novembre 2024</date>
+                <date when="2024-11-18">18 novembre 2024</date>
+            </publicationStmt>
+            
+            <!--Mauvaise compréhension de la consigne du devoir pour le TD3 ; j'avais pris des ouvrages publiés entre 1688 et 1694 soit les éditions de 1689 et 1692. J'ai donc modifié le code et repris les versions de 1688 et 1694-->
+            <sourceDesc>
+                <bibl xml:id="E1">
+                    <author>
+                        <name>Théophraste</name>
+                    </author>
+                    <title>Les caractères de Théophraste traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                    <publisher>Etienne<name>Michallet</name></publisher>
+                    <idno>NUMM-105077</idno>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/btv1b86070385">Lien vers le document</ref>
+                        <edition>
+                            <date when="1688">M.DC.LXXXVIII.</date>
+                        </edition>
+                </bibl>
+                <bibl xml:id="E2">
+                    <author>
+                        <!--CF. traitement du prénom et du nom. Est-ce pertinent de faire la distinction ? Quid des auteurs étrangers et des usages différents des noms ?-->
+                        Jean <name>de La Bruyère</name>
+                    </author>
+                    <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou Les moeurs de ce siècle</title>
+                    <publisher>Estienne<name>Michallet</name></publisher>
+                    <idno>NUMM-57577</idno>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k57577n">Lien vers le document</ref>                   
+                        <edition>
+                            <date when="1694">M.DC.XCIV.</date>
+                        </edition>
+                </bibl>
+                <listPerson>
+                    <personGrp xml:id="org1">
+                        <name>Anciens</name>
+                    </personGrp>
+                    <personGrp xml:id="org2">
+                        <name>Modernes</name>
+                    </personGrp>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <!--Les balises "profileDesc" ont été remplies à la suite d'une relecture des cours post-contrôle et à l'aide du site de référence-->
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Français</language>
+            </langUsage>
+            <!--Malgré la consultation de VIAF et Data BNF; je n'ai pas trouvé de document permettant d'inscrire un identifiant standardisé--> 
+            
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <front> <!--Structure réalisée en essayant de suivre la proposition d'Adeline présentée lors du dernier TD-->
+            <div1><!--Page de titre-->Les caracteres de Theophraste traduits du grec. avec Les caracteres ou les moeurs de ce siecle.
+                
+                <div2><!--Préface du discours de Théophraste par La Bruyère-->
+                    <div3><!--Préface de Théophraste-->
+                        <div4><!--Sommaire--></div4>
+                    </div3>
+                </div2>
+                
+                <div2><!--Page de titre-->Les caractères ou les moeurs de ce siècle
+                    <div3><!--Préface de La Bruyère--> 
+                        <div4><!--Sommaire--></div4>
+                    </div3>
+                </div2>
+            </div1>
+        </front>
+        <body>
+            <div1><!--Les caractères de Théophraste--></div1>
+            
+            <div1><!--Les caractères de La Bruyère-->
+                <div2 type="chapter" n="1">
+                    <head>Des Ouvrages de l'Esprit</head>
+                    <div3 type="remark">
+                        <p source="#E1 #E2">TOut eſt dit, &amp; l'on vient trop tard depuis plus de ſept mille ans qu'il y a des hommes, &amp; qui penſent. 
+                            Sur ce qui concerne les moeurs le plus beau &amp; le meilleur eſt enlevé; l'on ne fait que glaner aprés 
+                            <seg>les 
+                                <orgName ref="#org1">Anciens</orgName>
+                                <note resp="#Bel" type="glossaire">ou Classiques sont les partisans de la supériorité du latin et du grec sur le français dans la querelle de 1687</note></seg>
+                            &amp; les habiles d'entre les 
+                            <app><lem from="#E1">
+                                <orgName ref="#org2">Modernes</orgName>
+                            </lem><rdg wit="#E2">modernes</rdg></app>.
+                        </p>
+                    </div3>
+                    <div3 type="remark">
+                        <p source="#E1 #E2">&para;Il faut chercher <seg>ſeulement<note resp="#Bel" status="en_cours" type="commentaire">le s long peut être inscrit grâce à la fonction copier et coller ou sous la forme suivante &s-long;</note></seg>à penſer &amp; à parler juſte, ſans vouloir amener les autres à <app><lem from="#E1">noſtre</lem><rdg wit="#E2">nôtre</rdg></app> goût &amp; à nos ſentimens ; c'eſt une trop grande entrepriſe <app><lem from="#E1">.</lem><rdg wit="#E2">,</rdg></app></p>
+                    </div3>
+                    <seg>
+                        <div3 type="remark">
+                            <p source="#E2">Quand une lecture vous élève l'esprit, et qu'elle vous inspire des sentiments nobles et courageux, ne cherchez pas une autre règle pour juger de l'ouvrage, il et bon, et fait de main d'ouvrier.</p>
+                        </div3>
+                    </seg>
+                </div2>
+            </div1>
+        </body>
+        
+        <back>
+            <p><!--Privilège royal--></p>
+        </back>
+    </text>
