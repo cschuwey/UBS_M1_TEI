@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    
-    <TeiHeader>   
+
+<!--Modifié le 28 nov. car à la suite des difficultés rencontrées lors du TD8 il est apparu que certains exercices présentaient des fautes de casse-->
+    <teiHeader>   
         <fileDesc>
             <titleStmt>
                 <title>Manlius, Marie-Catherine DESJARDINS (acte II scène 5)</title>
@@ -13,13 +12,13 @@
                 <authority>BEL</authority><pubPlace>UBS</pubPlace>
                 <date when="2024-10-14">14 octobre 2024</date>
             </publicationStmt>
-            <SourceDesc><p> </p></SourceDesc>
-            <SourceDesc><bibl>
+            <sourceDesc><p> </p></sourceDesc>
+            <sourceDesc><bibl>
                 <author>Marie-Catherine Desjardins</author>
                 <title>Manlius</title>
                 <publisher>Barbin</publisher>
                 <idno>NUMM-57511</idno>
-            </bibl></SourceDesc>
+            </bibl></sourceDesc>
         </fileDesc>
         
         <encodingDesc>
@@ -31,7 +30,7 @@
         </encodingDesc>
         
         
-    </TeiHeader>
+    </teiHeader>
     
     
     <!--L'objectif était d'avoir deux versions du texte, l'une au plus près de l'oeuvre d'origine avec ses particularités d'impression, l'autre claire et lisible.-->
