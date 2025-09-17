@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+           <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+         <head>IOVISSANCE.</head>
+           <head type="subtitle">SONNET</head>
+        </front>
+        <body>
+            <lg type="quatrain" rhyme="ABBA">
+                <l>Avjourd'hyu dans tes bras i'ay demeuré pafmée,</l>
+                <l>Aujourd'huy, cher Tirfis, ton amoureufe ardeur</l>
+                <l>Triomphe impunément de tout ma pudeur,</l>
+                <l>Et ie code aix tranfports dont mon ame eft charmée,</l>
+            </lg>
+            <lg type="quatrain" rhyme="ABBA">
+                <l>Ta flame &amp; ton refpeEt m'ont defarmée,</l>
+                <l>Dans nos embrassemens ie mets tout mon bon-heurs</l>
+                <l>Et ie ne connois plus de vertu ny d'honneur,</l>
+                <l>Puis que i'ayme Tirfis, &amp; que i'en fui aimée.</l>
+            </lg>
+                <lg type="tercet" rhyme="AAB">
+                    <l>O vous! foibles efprit qui ne connoiffez pas</l>
+                    <l>Les plaifirs les plus doux que l'on goufte icy bas,</l>
+                    <l>Apprenez les tranfports dont mon ame eft rauie.</l>
+                </lg>
+                    <lg type="tercet" rhyme="ABB">
+                         <l>Vne douce langueur m'ofte le fentiment,</l>
+                         <l>Ie meurs entre les bras de mon fidelle Amant,</l>
+                         <l>Et c'eft dans cette mort que ie trouve la vie,</l>
+                    </lg>
+        </body>
+    </text>
+</TEI>
