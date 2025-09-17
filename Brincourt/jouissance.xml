@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prison</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Ceci est un fichier scientifique</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head><choice>
+                    <orig> IOVISSANCE.</orig>
+                    <reg>JOUISSANCE</reg>
+                </choice></head>
+            <head><caption>SONNET.</caption></head>
+        </front>
+        <body>
+            <lg met="alexandrin" type="sonnet">
+                <lg type="quatrain">
+                    <lg rhyme="ABBA">
+                        <l>Aujourd'hui dans tes bras j'ai demeuré <rhyme label="A"
+                            >pasmée</rhyme></l>
+                        <l>Aujourd'hui, cher Tirsis, ton amoureuse <rhyme label="B"
+                            >ardeur</rhyme></l>
+                        <l>Triomphe impunément de toute ma <rhyme label="B">pudeur</rhyme>,</l>
+                        <l>Et je code aux transports dont mon âme est <rhyme label="A"
+                                >charmée</rhyme>.</l>
+                    </lg>
+                    <lg type="quatrain">
+                        <l met="alexandrin">Ta flamme &amp; ton respect m'ont
+                                enfin<rhyme>désarmée</rhyme>,</l>
+                        <l met="alexandrin">Dans nos embrasements je mets tout mon
+                                <rhyme>bonheur</rhyme></l>
+                        <l met="alexandrin"/>
+                    </lg>
+                </lg>
+            </lg>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
