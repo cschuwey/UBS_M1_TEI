@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Jouissance</head>
+            <head type="subtitle">SONNET</head>
+            <lg met="alexandrin" rhyme="abba" type="quatrain">
+                
+                <l>Aujourd'hui dans tes bras j'ai demeuré pasmée</l>
+                <l>Aujourd'hui, cher Tirfis, ton amoureuse ardeur</l> 
+                <l>Triomphe impunément de toute ma pudeur,</l>
+                <l>Et je code aux transports dont mon âme est charmée,</l>
+            </lg>
+            <lg met="alexandrin" rhyme="abba" type="quatrain">
+                <l>Ta flame et ton respect m'ont enfin desarmée,</l>
+                <l>Dans nos embarassements je mets tout mon bonheur</l>
+                <l>et je ne connais plus de vertu ni d'honneur,</l>
+                <l>Puis que j'aime Tirsis, et que j'en suis aimée.</l>
+            </lg>
+            <lg met="alexandrin" rhyme="aab" type="tercet">
+                <l>O vous! Faibles esprits qui ne connaissez pas</l>
+                <l>Les plaisirs les plus doux que l'on goûte ici bas,</l>
+                <l>Apprenez les transports dont mon âme est ravie.</l>
+            </lg>
+            <lg met="alexandrin" rhyme="ccb" type="tercet">
+                <l>Une douce langueur m'ôte le sentiment,</l>
+                <l>Je meurs entre les bras de mon fidèle Amanr,</l>
+                <l>Et c'est dans cette mort que je trouve la vie,</l>
+            </lg>
+          
+                     
+        </body>
+    </text>
+</TEI>
