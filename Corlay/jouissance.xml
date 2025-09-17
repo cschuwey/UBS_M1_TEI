@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head type="Titre">Jouissance</head>
+            <head type="soustitre"> Sonnet</head>
+            
+            <lg type="quatrain" rhyme="abba" met="alexandrin">
+                <l>Aujourd'hui dans tes bras j'ai demueuré pasmée,</l>
+                <l>Aujourd'hui, cher Tirsis, ton amoureuse ardeur</l>
+                <l>Triomphe impunément de toute ma pudeur,</l>
+                <l>Et je code au transport dont mon ame est charmée,</l> 
+            </lg>
+            
+            <lg type="quatrain" rhyme="abba" met="alexandrin">
+                <l>Ta flame et ton respect m'ont enfin desarmée,</l>
+                <l>Dans nos embrassement je mets tout mon bonheur</l>
+                <l>Et je ne connais plus de vertu ni d'honneur,</l>
+                <l>Puis que j'aime Tirsis, et que j'en suis aimée.</l>
+            </lg>
+            <lg type="tercet" met="alexandrin" rhyme="aab">
+                <l>O vous ! faibles esprits qui ne conaissez pas</l>
+                <l>Les plaisirs les plus doux que l'on goûte ici bas,</l>
+                <l>Apprennez les transports dont mon âme est ravie</l>
+            </lg>
+            <lg type="tercet" met="alexandrin" rhyme="ccb">
+                <l>Une douce langueur m'ôte les fentiment,</l>
+                <l>Je meurs entre les bras de mon fidèle Amant,</l>
+                <l>Et c'est dans cette mort que je trouve la vie</l>
+            </lg>
+            
+            <div>
+                <p>
+                    
+                    
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
