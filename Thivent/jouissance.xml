@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="maintitle">Jouissance</head>
+                <head type="subtitle">Sonnet</head>
+                   <lg type="quatrain" rhyme="ABBA">
+                       <l>Aujourd'hui dans tes bras j'ai demeuré <rhyme label="A">pasmée,</rhyme></l>
+                       <l>Aujourd'hui, cher Tirsis, ton amoureuse <rhyme label="B">ardeur</rhyme></l>
+                       <l>Triomphe impunément de toute ma <rhyme label="B">pudeur,</rhyme></l>
+                       <l>Et je code aux transports dont mon âme est <rhyme label="A">charmée.</rhyme></l>
+                   </lg>
+                   <lg type="quatrain" rhyme="ABBA">
+                       <l>Ta flamme et ton respect m'ont enfin <rhyme label="A">désarmée,</rhyme></l>
+                       <l>Dans nos embrassements je mets tout mon <rhyme label="B">bonheur :</rhyme></l>
+                       <l>Et je ne connais plus de vertu ni <rhyme label="B">d'honneur,</rhyme></l>
+                       <l>Plus que j'aime Tirsis et que j'en fuis <rhyme label="A">aimée.</rhyme></l>
+                   </lg>
+                  <lg type="tercet" rhyme="CCD">
+                      <l>O vous ! Faibles esprits qui ne connaissez <rhyme label="C">pas</rhyme></l>
+                      <l>Les plaisirs les plus doux que l'on goûte ici <rhyme label="C">bas,</rhyme></l>
+                      <l>Apprenez les transports dont mon âme est <rhyme label="D">ravie.</rhyme></l>
+                  </lg>
+                <lg type="tercet" rhyme="CCD">
+                    <l>Une douceur langue m'offre le <rhyme label="C">sentiment,</rhyme></l>
+                    <l>Je meurs entre les bras de mon fidèle <rhyme label="C">amant,</rhyme></l>
+                    <l>Et c'est dans cette mort que je trouve la <rhyme label="D">vie.</rhyme></l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
