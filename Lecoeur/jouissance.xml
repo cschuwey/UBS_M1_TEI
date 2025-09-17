@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="maintitle">IOVSSANCE.</head>
+                <head type="subtitle">SONNET.</head>
+                <lg met="12">
+
+
+                    <lg type="quatrain" rhyme="abba">
+                        <l><hi>A</hi><choice>
+                                <orig>Vjourd'huy</orig>
+                                <reg>ujourd'hui</reg>
+                            </choice> dans tes bras <choice>
+                                <orig>i'ay</orig>
+                                <reg>j'ai</reg>
+                            </choice> demeuré <choice>
+                                <orig>paſ<rhyme label="a">mée</rhyme></orig>
+                                <reg>pâ<rhyme label="a">mée</rhyme></reg>
+                            </choice>,</l>
+                        <l>Aujourd'huy, cher Tirſis, ton amoureuſe ar<rhyme label="b"
+                            >deur</rhyme></l>
+                        <l>Triomphe impunément de toute ma pu<rhyme label="b">deur</rhyme>,</l>
+                        <l>Et ie code aux tranſports dont mon ame eſt char<rhyme label="a"
+                                >mée</rhyme>,</l>
+                    </lg>
+
+                    <lg type="quatrain" rhyme="abba">
+                        <l>Ta flame &amp; ton reſpect m'ont enfin deſar<rhyme label="a"
+                            >mée</rhyme>,</l>
+                        <l>Dans nos embraſſemens ie mets tout mon b<rhyme label="b"
+                            >on-heur</rhyme>:</l>
+                        <l>Et ie ne connois plus de vertu ny d'<rhyme label="b">honneur</rhyme>,</l>
+                        <l>Puisque i'ayme Tirſis, &amp; que i'en fuis ai<rhyme label="a"
+                            >mée</rhyme>.</l>
+                    </lg>
+
+                    <lg type="tercet" rhyme="aab">
+                        <l>O vous! foibles eſprits qui ne connoiſſez p<rhyme label="a"
+                            >as</rhyme></l>
+                        <l>Les plaiſirs les plus doux que l'on gouſte icy b<rhyme label="a"
+                                >as</rhyme>,</l>
+                        <l>Apprenez les tranſports dont mon ame eſt <rhyme label="b"
+                            >rauie</rhyme>.</l>
+                    </lg>
+
+                    <lg type="tercet" rhyme="aab">
+                        <l>Vne douce langueur m'oſte le ſenti<rhyme label="a">ment</rhyme>,</l>
+                        <l>Ie meurs entre les bras de mon fidelle A<rhyme label="a"
+                            >mant</rhyme>,</l>
+                        <l>Et c'eſt dans cette mort que ie trouue la <rhyme label="b"
+                            >vie</rhyme>.</l>
+                    </lg>
+                </lg>
+                <!-- please no, stop it with the original version -->
+            </div>
+        </body>
+    </text>
+</TEI>
