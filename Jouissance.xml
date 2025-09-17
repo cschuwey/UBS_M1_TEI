@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="maintitle">IOVISSANCE.</head>
+            <head type="subtitle">SONNET.</head>
+        </front>
+        <body>
+            <lg type="quatrain" rhyme="abba">
+                <l>Avjourdh'uy dans tes bras <caesura/> i'ay demeuré<rhyme label="a"
+                    >paſmée</rhyme>,</l>
+                <l>Aujourdh'uy, cher Tirſis,<caesura/> ton amoureuſe<rhyme label="b"
+                    >ardeur</rhyme></l>
+                <l>Triomphe impunément <caesura/> de toute ma<rhyme label="b"
+                    >pudeur</rhyme>,</l>
+                <l>Et ie code aux tranſports <caesura/> dont mon ame eſt<rhyme label="a"
+                    >charmée</rhyme></l>
+            </lg>
+            <lg type="quatrain" rhyme="cddc">
+                <l>Ta flame &amp; et ton reſpect<caesura/> m'ont enfin<rhyme label="c"
+                    >deſarmée</rhyme></l>
+                <l>Dans nos embraſſements<caesura/> ie mets tout mon<rhyme label="d"
+                    >bon-heur</rhyme>:</l>
+                <l>Et ie ne connois plus <caesura/> de vertu ny d'<rhyme label="d"
+                    >honneur</rhyme>,</l>
+                <l>Puis que i'ayme Tirſis,<caesura/> &amp; que i'en ſuis<rhyme label="c"
+                    >aimée</rhyme>.</l>
+            </lg>
+            <lg type="tercet" rhyme="eef">
+                <l>O vous ! foibles eſprits<caesura/> qui ne connoiſſez<rhyme label="e"
+                    >pas</rhyme></l>
+                <l>Les plaiſirs les plus doux<caesura/> que l'on gouſte icy<rhyme label="e"
+                    >bas</rhyme>,</l>
+                <l>Apprenez les tranſports<caesura/> dont mon ame eſt<rhyme label="f"
+                    >rauie</rhyme>.</l>
+            </lg>
+            <lg type="tercet" rhyme="ggf">
+                <l>Vne douce langueur<caesura/> m'oſte le<rhyme label="g"
+                    >ſentiment</rhyme>,</l>
+                <l>Ie meurs entre les bras<caesura/> de mon fidelle<rhyme label="g"
+                    >Amant</rhyme>,</l>
+                <l>Et c'eſt dans cette mort<caesura/> que ie trouue la<rhyme label="f"
+                    >vie</rhyme>.</l>
+            </lg>
+        </body>
+    </text>
+</TEI>
