@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="maintitle"> JOUISSANCE.</head>
+                <head type="subtitle"> SONNET.</head>
+               <lg>
+                   <lg type=" quatrin " rhyme="abba"> 
+                       <l>Aujourd'huyi dans tes bras j'ai demeuré pasmée,<rhyme label="a"> affrétée</rhyme>,</l>
+                       <l>Aujourd'hui,cher Tirsis,ton amourseardeur,<rhyme label="b"> affrétée</rhyme>, </l>
+                       <l>Triomphe impunément de toute ma pudeur,<rhyme label="b"> affrétée</rhyme>,</l>
+                       <l>Et je code au trassports dont mon ame est chamée.<rhyme label="a"> affrétée</rhyme>,</l>
+                   </lg>
+                   <lg>
+                       <lg type="quatrin " rhyme="abba">
+                           <l>Ta flamme et ton respect m'ont enfin désarmée,<rhyme label="a">affrétée</rhyme></l>
+                           <l>Dans nos embrassement je mets tout mon bon-heur<rhyme label="b"> affrétée</rhyme></l>
+                           <l>Et je ne onnois plus de vetru ny d'honneur,<rhyme label="b">affrétée</rhyme></l>
+                           <l>Puisque j'aime Tirsis, et que j'ensuis aimée.<rhyme label="a"> affrétée</rhyme></l>
+                       </lg>
+                       <lg>
+                           <lg type="terset ">
+                               <l>O vous! faibles esprites qui ne connaissez pas</l>
+                               <l>Les plaisirs les plus doux que l'on goufte icy bas,</l>
+                               <l>Apprenez les transports dont mon ame est rauie.</l>
+                           </lg>
+                           <lg type="terset">
+                               <l> Une douce langueur m'ofte le sentiment,</l>
+                               <l>Le meurs entre les bras de mon fidelle Amant,</l>
+                               <l> Et c'est dans cette mort que je trouve la vie,</l>
+                           </lg>
+                                       
+              
+                   
+            </div>
+        </body>
+    </text>
+</TEI>
