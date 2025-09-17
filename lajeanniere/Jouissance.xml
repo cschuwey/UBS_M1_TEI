@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type= "maintitle">IOVISSANCE.</head>
+                <head type="subtitle">Sonnet.</head>
+                    <lg type="quatrain" rhyme="abba">
+                        <l>Aujoud'huy dans tes bras i'ay demeuré <rhyme label="a">paſmée</rhyme></l>
+                        <l>Aujourd'huy, cher Tirſis, ton amoureuſe <rhyme label="b">ardeur</rhyme></l>
+                        <l>Triomphe impunément de toute ma <rhyme label="b">pudeur</rhyme>,</l>
+                        <l>Et ie code aux tranſports dont mon ame eſt <rhyme label="a">charmée</rhyme>,</l>
+                    </lg>
+                    <lg type="quatrain" rhyme="abba">
+                        <l>Ta flame &amp; ton reſpect m'ont enfin <rhyme label="a">déſarmée</rhyme>,</l>
+                        <l>Dans nos embraſſemens ie mets toutmon <rhyme label="b">bon-heur</rhyme></l>
+                        <l>Et ie ne connois plus de vertu ny d' <rhyme label="b">honneur</rhyme>,</l> 
+                        <l>Puis que i'ayme Tirſis, &amp; que i'en ſuis <rhyme label="a">aimée</rhyme>.</l>
+                    </lg>
+                    <lg type="tercet" rhyme="ccd">
+                        <l>O vous!foibles eſprits qui ne connoiſſez <rhyme label="c">pas</rhyme></l>
+                        <l>Les plaiſirs les plus doux que l'on goutte icy <rhyme label="c">bas</rhyme>,</l>
+                        <l>Apprenez les tranſports dont mon ame eſt <rhyme label="d">rauie</rhyme>.</l>
+                    </lg>
+                    <lg type="tercet" rhyme="eed">
+                        <l>Vne douce langueur m'oſte le <rhyme label="e">ſentiment</rhyme>,</l>
+                        <l>Ie meurs entre les bras de mon fidelle <rhyme label="e">Amant</rhyme>,</l>
+                        <l>Et c'eſt dans cette mort que ie trouue la <rhyme label="d">vie</rhyme>.</l>
+                    </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
