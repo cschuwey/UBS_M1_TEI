@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+            <head type="main">Jouissance</head>
+            <head type="subtitle">Sonnet</head>
+            <lg type="quatrain"
+                rhym="abba">
+                <l>Aujourd'hui dans tes bras j'ai demeuré pâmé,</l>
+                <l>Aujourd'hui, cher Tissis, ton amoureuse ardeur</l>
+                <l>Triomphe impunément de toute ma pudeur,</l>
+                <l>Et je code aux transports dont mon âme est charmée,</l>
+            </lg>
+           <lg type="quatrain">j
+               <l>Ta flamme et ton respect m'ont enfin désarmé</l>
+               <l>Dans nos embrassements je mets tout mon bonheur</l>
+               <l>Et je ne connais plus de vertu ni d'honneur,</l>
+               <l>Puisque j'aime Tissis, et que j'en fus aimé.</l>
+           </lg>
+            <lg type="tercet">
+                <l>Ô vous ! Faibles esprits qui ne connaissez pas</l>
+                <l>Les plaisirs les plus doux que l'on gonfle ici bas,</l>
+                <l>Apprenez les transports dont mon âme est ravie.</l>
+            </lg>
+            <lg type="tercet">
+                <l>Une douce langueur m'ôte le sentiment,</l>
+                <l>Je meurs entre les braas de mon fidèle amant,</l>
+                <l>Et c'est dans cette mort que je trouve la vie.</l>
+            </lg>
+        </div>
+                    
+                    
+              
+            
+        </body>
+    </text>
+</TEI>
