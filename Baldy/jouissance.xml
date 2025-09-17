@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+
+
+    </teiHeader>
+    <text>
+        <front>
+            <head><reg>JOUISSANCE.</reg>
+                <orig>IOVISSANCE.</orig></head>
+            <head><caption>SONNET.</caption></head>
+        </front>
+        <body>
+            <lg met="alexandrin" type="sonnet">
+                <lg type="quatrain" rhyme="abba">
+                    <l>Aujourd'hui dans tes bras j'ai demeuré<rhyme label="a">pasmée</rhyme>,</l>
+                    <l>Aujourd'hui, chez Tirsis, ton amoureuse <rhyme label="b">ardeur</rhyme></l>
+                    <l>Triomphe impunément de toute ma <rhyme label="b">pudeur</rhyme>,</l>
+                    <l>Et je code aux transports dont mon ame est <rhyme label="a"
+                        >charmée</rhyme>,</l>
+                </lg>
+                <lg type="quatrain" rhyme="abba">
+                    <l>Ta flame &amp; ton respect m'ont enfin <rhyme label="a">desarmée</rhyme>,</l>
+                    <l>Dans nos embrassement je mets tout mon <rhyme label="b">bonheur</rhyme></l>
+                    <l>Et je ne connais plus de vertu ni d'<rhyme label="b">honneur</rhyme></l>
+                    <l>Puis que j'aime Tirsis, &amp; que j'en fus <rhyme label="a"
+                        >aimée</rhyme>.</l>
+                </lg>
+                <lg type="tercet" rhyme="ccd">
+                    <l>O vous! faibles esprits qui ne connaissez <rhyme label="c">pas</rhyme></l>
+                    <l>Les plaisirs les plus doux que l'on goûte ici <rhyme label="c"
+                        >bas</rhyme>,</l>
+                    <l>Apprenez les transports dont mon âme est <rhyme label="d">ravie</rhyme>.</l>
+                </lg>
+                <lg type="tercet" rhyme="eed">
+                    <l>Une douce langueur m'ote le <rhyme label="e">sentiment</rhyme>,</l>
+                    <l>Je meurs entre les bras de mon fidel <rhyme label="e">Amant</rhyme>,</l>
+                    <l>Et c'est dans cette mort que je trouve la <rhyme label="d">vie</rhyme>.</l>
+                </lg>
+
+            </lg>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
