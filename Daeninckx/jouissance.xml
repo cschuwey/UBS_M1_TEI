@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head type="mainTitle">IOVISSANCE.</head>
+            <head type="subTitle">SONNET.</head>
+        </front>
+        <body>
+            <lg type="sonnet" met="alexandrine">
+                <lg type="quatrain" rhyme="abba">
+                    <l>Aujourd'huy dans tes bras i'ay demeuré paſmée,</l>
+                    <l enjamb="yes">Aujourd'huy, cher Tirſis, ton amoureuſe ardeur</l>
+                    <l>Triomphe impunément de toute ma pudeur,</l>
+                    <l>Et ie code tranſports dont mon ame eſt charmée,</l>
+                </lg>
+                <lg type="quatrain" rhyme="abba">
+                    <l>Ta flame &amp; ton reſpect m'ont enfin deſarmée,</l>
+                    <l>Dans nos embraſſemens ie mets tout mon bon-heur:</l>
+                    <l>Et ie ne connois plus de vertu ny d'honneur,</l>
+                    <l>Puis que i'ayme Tirſis, &amp; que i'en ſuis aimée.</l>
+                </lg>
+                <lg type="tercet" rhyme="ccd">
+                    <l enjamb="yes">O vous ! foibles eſprits qui ne connoiſſez pas</l>
+                    <l>Les plaiſirs les plus doux que l'on gouſte icy bas,</l>
+                    <l>Apprenez les tranſports dont mon ame eſt rauie,</l>
+                </lg>
+                <lg type="tercet" rhyme="ccd">
+                    <l>Vne douce langueur m'oſte le ſentiment,</l>
+                    <l>Ie meurs entre les bras de mon fidelle Amant,</l>
+                    <l>Et c'eſt dans cette mort que ie trouve la vie.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
