@@ -33,18 +33,32 @@
                         <l>Et je code aux transports dont mon âme est <rhyme label="A"
                                 >charmée</rhyme>.</l>
                     </lg>
-                    <lg type="quatrain">
-                        <l met="alexandrin">Ta flamme &amp; ton respect m'ont
-                                enfin<rhyme>désarmée</rhyme>,</l>
-                        <l met="alexandrin">Dans nos embrasements je mets tout mon
-                                <rhyme>bonheur</rhyme></l>
-                        <l met="alexandrin"/>
+                    <lg>
+                        <l>Ta flamme &amp; ton respect m'ont enfin <rhyme label="A"
+                            >désarmée</rhyme>,</l>
+                        <l>Dans nos embrasements je mets tout mon <rhyme label="B"
+                            >bonheur</rhyme></l>
+                        <l>Et jene connais plus de vertu ni d'<rhyme label="B">honneur</rhyme></l>
+                        <l>Puis que j'aime Tirsis, &amp; que j'en suis <rhyme label="A"
+                                >aimée</rhyme></l>
+                    </lg>
+                 <lg type="tercet">
+                      <lg>
+                         <l>O vous! Faibles esprits qui ne connaissez <rhyme label="C"
+                                    >pas</rhyme></l>
+                         <l>Les plaisirs les plus doux que l'on goutte icy <rhyme label="C"
+                                    >bas</rhyme>,</l>
+                         <l>Apprenez les transports dont moname est <rhyme label="D"
+                                    >ravie</rhyme>.</l>
+                      </lg>
+                      <lg>
+                         <l>Une douce langueur ù'ffre le <rhyme label="E">sentiment</rhyme></l>
+                         <l>Je meurs entre les bras de ùon fidèle <rhyme label="E">Amant</rhyme>,</l>
+                         <l>Et c'est dans cette mort que je trouve la <rhyme label="D">vie</rhyme>,</l>
+                      </lg>
                     </lg>
                 </lg>
             </lg>
-            <div>
-                <p> </p>
-            </div>
         </body>
     </text>
 </TEI>
