@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <castItem xml:id="torquatus">
+                    <role>Torquatus</role>
+                    <roleDesc>Empereur romain</roleDesc>
+                </castItem>
+                <castItem xml:id="manlius">
+                    <role>Manlius</role>
+                    <roleDesc>Son fils</roleDesc>
+                </castItem>
+            </castList>
+        </front>
+        <body>
+            <sp who="#torquatus" toWhom="#manlius #manlius #torquatus">
+                <speaker>Torquatus</speaker>
+                <l>Un pareil entretien</l>
+                <!-- J'ai choisi ici de faire un élément l parce que…
+                Et la je continue -->
+                
+            </sp>
+            <stage who="#torquatus">Il sort</stage>
+        </body>
+    </text>
+</TEI>
