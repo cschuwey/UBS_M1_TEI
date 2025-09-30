@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+          <front>
+                 <castList>
+                     
+                     <castItem xml:id="torquatus"> 
+                      <role>TORQUATUS</role>
+                      <roleDesc>Conful Romain</roleDesc>
+                 </castItem>
+                     
+                     <castItem xml:id="manlius">
+                         <role>MANLIUS</role>
+                         <roleDesc>fils du Conful</roleDesc>
+                     </castItem>
+                     
+                         <castItem xml:id="camille"> 
+                         <role>CAMILLE</role>
+                         <roleDesc>Vefue de Decins</roleDesc>
+                     </castItem>
+                     
+                         <castItem xml:id="omphale">
+                         <role>OMPHALE</role>
+                         <roleDesc>Princeſſe d'Empire captive des Romains </roleDesc>
+                     </castItem>
+                     
+                         <castItem xml:id="junius">
+                         <role>JUNIUS</role>
+                         <roleDesc>Amy de Torquatus</roleDesc>
+                     </castItem>
+                     
+                         <castItem xml:id="phenice">
+                         <role>PHENICE</role>
+                         <roleDesc>Suivante d'Omphale</roleDesc>
+                     </castItem>
+                     
+                         <castItem xml:id="pison">
+                         <role>PISON</role>
+                         <roleDesc>Lideur</roleDesc>
+                     </castItem>
+                     
+                 </castList>
+              
+                 <set><p>La scène est au camps des Romains devant la tente du Conful </p></set>
+          </front>
+        <body>
+            <div>
+                <sp who="#manlius">
+                    <speaker>Manlius</speaker>
+                    <p> Si je plains d'un heros la triste destinée,
+                    Une pitié si noble, est d'une ame bien née ; 
+                    Et quand ce motif seul me forcerait d'agir,
+                    Ce n'est pas un secret done je dois rougir :
+                    Un fi beau mouvement ne ferait pas un crime</p>
+                </sp>
+                
+                <sp who='#torquatus'>
+                    <speaker>Troquatus</speaker>
+                    <p> Pourquoi donc le cacher, s'il est si legitime ?
+                    Pourquoi l'envelopper d'une feint terreur,
+                    Et donner des avis d'une fausse rumeur ?
+                    Que ne me dites vous, je crains pour ce que j'aime?
+                    Accordez Manlius à mon amour extréme,
+                    Faites moi ce present.</p>
+                </sp>
+                
+                <sp who='#omphale'>
+                    <speaker>Omphale</speaker>
+                    <p> Pour conserver ses jours
+                    Une telle prière est un faible secours :
+                    La mort de ce Heros n'est que trop assurée,
+                    Mes malheures, votre amours, et le fort l'ont jurée,
+                    Je vois bien que je fais un inutile effort.
+                    Helas ! il perira.</p>
+                </sp>
+                
+                <sp who='#torquatus'>
+                    <speaker>Troquatus</speaker>
+                    <p>Moderez ce transport.
+                    Vous pourrez le sauver, si son trépas vous touche ;
+                    Son arret sera donné par votre bouche :
+                    Tout mon Rival qu'il est, sa mort dépend de vous
+                    Je vous laisse y penser. Camille vient à nous,
+                    Un pareil entretien doit finir auprés d'elle. 
+                    <stage who="#torquatus">Il sort</stage>
+                    </p>
+                </sp>
+            </div>
+        </body>
+    </text>
+</TEI>
