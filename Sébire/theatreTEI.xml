@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> TRAGICOMEDIE</title>
+            </titleStmt>
+
+
+
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+
+
+    <text>
+        <front>
+            <head type="main">Personnages</head>
+            <castList>
+                <castItem xml:id="Torquatus"> <role>Torquartus</role>
+                    <roleDesc>Consul Romain.</roleDesc>
+                </castItem>
+                <castItem xml:id="MANLIUS"><role>MANLIUS</role>
+                    <roleDesc>Fils du Consul.</roleDesc>
+                </castItem>
+                <castItem xml:id="CAMILLE"> <role>CAMILLE</role>
+                    <roleDesc> Veuve de Decius.</roleDesc>
+                </castItem>
+                <castItem xml:id="OMPHALE"> <role>OMPHALE</role>
+                    <roleDesc> Princesse d'Épire captive des Romains.</roleDesc>
+                </castItem>
+                <castItem xml:id="JUNIUS"> <role>JUNIUS</role>
+                    <roleDesc>Ami de Torquatus.</roleDesc>
+                </castItem>
+                <castItem xml:id="PHÉNICE"> <role>PHÉNICE</role>
+                    <roleDesc>Suivante d'Omphale.</roleDesc>
+                </castItem>
+                <castItem xml:id="PISON"> <role>PISON</role>
+                    <roleDesc>Licteur.</roleDesc>
+                </castItem>
+            </castList>
+            <div type="stage">
+                <stage type="setting">La Scène est au Camp des Romains devant les Tentes du
+                    Consul.</stage>
+            </div>
+        </front>
+        <body>
+            <div type="scene"> 
+            <head type="main">SCENE V </head>
+            <stage type="setting" who= "#TORQUATUS #OMPHALE #PHENICE"> TORQUATUS OMPHALE PHENICE</stage>
+            <sp who=" #Torquatus">
+                <speaker>Torquaus</speaker>
+                <l> Quel sujet dans ce lieu vous amène</l>
+                <l>Est-ce pitié,Madame,est-ce amour, est-ce haine?</l>
+            </sp>
+            </div>
+        </body>
+    </text>
+</TEI>
