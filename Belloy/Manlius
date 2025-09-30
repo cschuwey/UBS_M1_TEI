@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+<front>
+    <castList>
+        <head>PERSONNAGES.</head>
+        <castItem xml:id="torquatus">
+            <role rend="big">Torcatus</role>,
+            <roleDesc>Conful Romain</roleDesc>.
+        </castItem>
+        <castItem xml:id="manlius">
+            <role rend="big">Manlius</role>,
+            <roleDesc>Fils du Conful</roleDesc>.
+        </castItem>
+        <castItem xml:id="camille">
+            <role rend="big">Camille</role>,
+            <roleDesc>Vefve de Decins</roleDesc>.
+        </castItem>
+        <castItem xml:id="omphale">
+            <role rend="big">Omphale</role>,
+            <roleDesc>Princeffe d'Epire captive des Romains</roleDesc>.
+        </castItem>
+        <castItem xml:id="julius">
+            <role rend="big">Julius</role>,
+            <roleDesc>Amy de Torquatus</roleDesc>.
+        </castItem>
+        <castItem xml:id="phenice">
+            <role rend="big">Phenice</role>,
+            <roleDesc>Suivante d'Omphale</roleDesc>.
+        </castItem>
+        <castItem xml:id="pison">
+            <role rend="big">Pison</role>,
+            <roleDesc>Litteur</roleDesc>.
+        </castItem>
+    </castList>
+    <set>
+        <p>La Scene eft au Camp des Romains devant les Tentes des Confuls.</p>
+    </set>
+</front>
+    <body>
+        <div1 type="act" n="5">
+            <head>SCENE V</head>
+                <stage type="half-title" rend="big"> Torquatus, Omphale, Phenice.</stage>
+    <sp>
+        <speaker>Torquatus</speaker>
+        <lg>
+        <l>Quel fujet dans ce lieu vous ameine ?</l>
+        <l>Est-ce pitié, Madame, eft-ce amour, eft-ce haine ?</l>
+        </lg>
+    </sp>
+    <sp>
+        <speaker>Omphale</speaker>
+        <lg>
+        <l>C'eft l'eftime, Seigneur, que confervent entre eux</l>
+        <l>Les plus grands ennemis, quand ils font genereux.</l>
+        <l>De l'injufte destin; la fiere Barbarie</l>
+        <l>Me forçeant malgré moy d'eftre voftre ennemie,</l>
+        <l>Voftre vertu m'empechefche au moins de vous haïr</l>
+        <l>Jufqu'à vouloir vous perdre, ou jufqu'à vous trahir.</l>
+        <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
+        <l>Et que de voftre fils la funefte avanture</l>
+        <l>Jette tant de fureur dans l'ame des foldats,</l>
+        <l>Que voftre gloire &amp; vous, ne s'en fauverons par.</l>
+        </lg>
+    </sp>
+    <sp>
+        <speaker>Torquatus</speaker>
+        <lg>
+        <l>Quoy, la princeffe Omphale eftl'enfible à ma gloire ?</l>
+        </lg>
+    </sp>
+    <sp>
+        <speaker>Omphale</speaker>
+        <lg>
+    <l>Je l'ay toûjours efté ; fi j'en croy ma memoire,</l>
+    <l>Et c'eft par ce motif, que j'ay tant combatu,</l>
+    <l>Un amour dont l'effet bleffoit vonftre vertu</l>
+        </lg>
+    </sp>
+    <sp>
+        <speaker>Torquatus</speaker>
+        <lg>
+        <l>Peut-eftre cét rgueil a t'il une autre caufe,</l>
+        <l>Car de tous vos fecrets, nous fçavons quelque chofe,</l>
+        <l>Mon fils vous fait pitié, vous craignez fon trépas.</l>
+        </lg>
+    </sp>
+    <sp>
+        <speaker>Omphale</speaker>
+        <lg>
+    <l>Il eft vray, je le crains ; je ne m'en déffens pas ;</l>
+        </lg>
+    </sp>
+    </div1>
+</body>
+</text>
+</TEI>
