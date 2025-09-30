@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList><head>PERSONNAGES.</head>
+                <castItem xml:id="torquatus">
+                    <roleName>Torquatus</roleName>
+                    <roleDesc>Couful Romain</roleDesc>
+                </castItem>
+                <castItem xml:id="manlius">
+                    <roleName> Manlius</roleName>
+                    <roleDesc> Fils du Conful</roleDesc>
+                </castItem>
+                <castItem xml:id="camille">
+                    <roleName>Camille</roleName>
+                    <roleDesc>Veuve de Dessius</roleDesc>
+                </castItem>
+                <castItem xml:id="omphale">
+                    <roleName>Omphale</roleName>
+                    <roleDesc>Princesse d'Empire captive des Romains</roleDesc>
+                </castItem>
+                <castItem xml:id="junieus">
+                    <roleName>Junieus</roleName>
+                    <roleDesc>Amy de Torquatus</roleDesc>
+                </castItem>
+                <castItem xml:id="phenice">
+                    <roleName>Phenice</roleName>
+                    <roleDesc>Suivante d'Omphale</roleDesc>
+                </castItem>
+                <castItem xml:id="pison">
+                    <roleName>Pison</roleName>
+                    <roleDesc>Litteur</roleDesc>
+                </castItem>
+            </castList>
+            <set>
+                <p> La Scène est au Camp des Romains devant la tente du Consule </p>
+            </set>
+            
+        </front>
+        <body>
+            <div>
+               <sp who="#manlius">
+                   <speaker>MANLIUS</speaker>
+                   
+                       <l>Si je plains d'un heros la trifle deſtinée </l>
+                       <l>Une pitié ſi noble, est d'une ame bien née</l>
+                       <l>Et quand ce motif ſeul me forceroit d'agir,</l>
+                       <l>Ce n'eſt pas un ſecret dont je deuſfe rougir :</l>
+                       <l>Un ſi beau mouvement ne ſeroit pas un crime.</l>
+                   
+               </sp>
+                <sp who="#torquatus">
+                    <speaker>TORQUATUS</speaker>
+                   
+                        <l>Pourquoy donc le cacher, s'il eſt ſi legitime ?</l>
+                        <l> Pourquoy l'enveloper d'une feinte terreur,</l>
+                        <l>Et donner des advis d'une ſauſſe rumeur ?</l>
+                        <l>Que ne me dites vous je crains pour ce que j'ayme </l>
+                        <l>Accordez <roleName ref="#manlius"></roleName>Manlius à mon amour extréme,</l>
+                        <l part="I">Faites moy ce preſent.</l>
+                    
+                </sp>
+                <sp who="#omphale">
+                    <speaker>OMPHALE</speaker>
+                    
+                        <l part="F">Pour conſerver ſes jours</l>
+                        <l>Une telle priere eſt un faible ſesours</l>
+                        <l>La mort de ce Heros n'eſt que trop aſſurée,</l>
+                        <l>Mes mal-heurs, votre amour,et le fort l'ont jurée,</l>
+                        <l>Je vois bien que je fais un inutile effort.</l>
+                        <l part="I"> Helas ! il perira.</l>
+                    
+                </sp>
+                <sp who="#torquatus">
+                    <speaker>TORQUATUS</speaker>
+                        <l part="M">Moderez ce tranſport.</l>
+                        <l>Vous pourrez le ſauver, ſi ſon trépas vous touche;</l>
+                        <l>Son arreſt luy ſera donné par voftre bouche:</l>
+                        <l>Tout mon Rival qu'il eſt, ſa mort dépend de vous</l>
+                        <l>Je vous laiſſe y penſer.<roleName ref="#camille"></roleName>Camille vient à nous,</l>
+                        <l>Un pareil entretien doit finir aupres d'elle.</l>
+                </sp>
+                <stage type="mix"> il ſort.</stage>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
