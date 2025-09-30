@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList><head>PERSONNAGES</head>
+                <castItem xml:id="torquatus">
+                    <roleName>Torquatus</roleName>
+                    <roleDesc>Consul Romain</roleDesc>
+                </castItem>
+                <castItem xml:id="manlius">
+                    <roleName>Manlius</roleName>
+                    <roleDesc>Fils du Consul</roleDesc>
+                </castItem>
+                <castItem xml:id="camille">
+                    <roleName>Camille</roleName>
+                    <roleDesc>Veuve de Decius</roleDesc>
+                </castItem>
+                <castItem xml:id="omphale">
+                    <roleName>Omphale</roleName>
+                    <roleDesc>Princesse d'Epire captive des Romains</roleDesc>
+                </castItem>
+                <castItem xml:id="junius">
+                    <roleName>Junius</roleName>
+                    <roleDesc>Amy de Torquarius</roleDesc>
+                </castItem>
+                <castItem xml:id="phenice">
+                    <roleName>Phenice</roleName>
+                    <roleDesc>Suivante d'Omphale</roleDesc>
+                </castItem>
+                <castItem xml:id="pison">
+                    <roleName>Pison</roleName>
+                    <roleDesc>Litteur</roleDesc>
+                </castItem>
+            </castList>
+            <set><p>La scène est au Camp des Romains devant la tente du Consul</p></set>
+        </front>
+        <body>
+            <div>
+                <sp who="#manlius">
+                    <speaker>Manlius</speaker>
+                        <l>Si je plains d'un héros la trite deftinée,</l>
+                        <l>Une pitié fi noble, eft d'une âme bien née;</l>
+                        <l>Et quand ce motif feul me forceroit d'agir,</l>
+                        <l>Ce n'eft pas un fecret dont je feuffe rougir:</l>
+                        <l>Un fi beau mouvement ne feroit pas un crime.</l>
+                </sp>
+                <sp who="#torquatus">
+                    <speaker>Torquatus</speaker>
+                        <l>Pourquoy donc le cacher, s'il eft fi legitime?</l>
+                        <l>Pourquoy l'enveloper d'une feinte terreur,</l>
+                        <l>Et donner des advis d'une fauffe rumeur?</l>
+                        <l>Que ne me dites vous, je crains pour ce que j'ayme?</l>
+                        <l>Accordez <roleName ref="#manlius">Manlius</roleName> à mon amour extréme,</l>
+                        <l part="I">Faites moy ce prefent.</l>
+                </sp>
+                <sp who="#omphale">
+                    <speaker>Omphale</speaker>
+                        <l part="F">Pour conferver les jours</l>
+                        <l>La mort de ce Heros n'eft que trop affurée,</l>
+                        <l>Mes mal-heurs, votre amour, et le fort l'ont jurée,</l>
+                        <l>Je vois bien que je fais un inutile effort.</l>
+                        <l>Helas! il perira.</l>
+                </sp>
+                <sp who="#torquatus">
+                    <speaker>Torquatus</speaker>
+                        <l part="M">Moderez ce tranfport.</l>
+                        <l>Vous pourrez le fauver, fi fon trépas vous touche;</l>
+                        <l>Son arreft luy fera donné par votre bouche:</l>
+                        <l>Tout mon Rival qu'il eft, fa mort dépend de vous</l>
+                        <l>Je vous laiffe y penfer. <roleName ref="#camille">Camille</roleName> vient à nous,</l>
+                        <l>Un pareil entretien doit finir aupres d'elle.</l>
+                </sp>
+                <stage type="mix">Il fort</stage>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
