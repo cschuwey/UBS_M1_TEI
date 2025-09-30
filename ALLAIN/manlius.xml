@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <head>PERSONNAGES</head>
+                <castItem>
+                    <roleName>TORQUATUS</roleName>, <roleDesc>Consul Romain</roleDesc>. </castItem>
+                <castItem>
+                    <roleName>MANLIUS</roleName>, <roleDesc>Fils du Consul</roleDesc>. </castItem>
+                <castItem>
+                    <roleName>CAMILLE</roleName>, <roleDesc> </roleDesc>. </castItem>
+                <castItem>
+                    <roleName>OMPHALE</roleName>, <roleDesc>Princesse d'Epire captive des
+                        Romains</roleDesc>. </castItem>
+                <castItem>
+                    <roleName>JUNIUS</roleName>, <roleDesc>Ami de Torquatus</roleDesc>. </castItem>
+                <castItem>
+                    <roleName>PHENICE</roleName>, <roleDesc>Servante d'Omphale</roleDesc>. </castItem>
+                <castItem>
+                    <roleName>PISON</roleName>, <roleDesc>Lisseur</roleDesc>. </castItem>
+            </castList>
+
+        </front>
+        <body>
+            <div type="scene" n="5">
+                <head>Scene V</head>
+
+                <stage>TORQUATUS, OMPHALE, PHENICE.</stage>
+                <sp who="#Torquatus">
+                    <speaker>TORQUATUCE</speaker>
+                    <lg>
+                        <l>Quel sujet dans ce lieu vous ameine?</l>
+                        <l>Est-ce pitié, Madame, est-ce amour, est-ce haine?</l>
+                    </lg>
+                </sp>
+                <sp who="#Omphale">
+                    <speaker>OMPHALE</speaker>
+                    <lg>
+                        <l>C'est l'estime, Seigneur, que conservent entre eux</l>
+                        <l>Les plus grads ennemeis, quand ils sont genereux.</l>
+                        <l>De l'injuste destin, la fiere barabrie</l>
+                        <l>Me forçeant malgré moy d'estre vostre ennemie,</l>
+                        <l>Vostre vertu m'empesche au moins de vous haïr</l>
+                        <l>Jusqu'à vouloir vous perdre, ou jusqu'a vous trahir.</l>
+                        <l>Apprenez donc, Seigneur, que tout le camp murmure,</l>
+                        <l>Et que votre fils la funsetre aventure</l>
+                        <l>Jette tant de fureur dans l'ame des soldats,</l>
+                        <l>Que votre gloire et vous, ne s'en sauveront pas.</l>
+                    </lg>
+                </sp>
+                <sp who="#Torquatus">
+                    <speaker>TORQUATUS</speaker>
+                    <lg>
+                        <l>Quoy, la princesse Omphale est sensible à ma gloire ?</l>
+                    </lg>
+                </sp>
+                <sp who="#Omphale">
+                    <speaker>Omphale</speaker>
+                    <lg>
+                        <l>Je l'ay toujours esté; si j'en crois ma memoire,</l>
+                        <l>Et c'estpar ce motif, que j'ay tant combtu,</l>
+                        <l>Un amour dont l'effet blessoit votre vertu.</l>
+                    </lg>
+                </sp>
+                <sp who="#torquatus">
+                    <speaker>TORQUATUS</speaker>
+                    <lg>
+                        <l>Peut-estre cét orgueil a t'il une autre cause,</l>
+                        <l>Car de tus vos secrets, nous sçavons quelques choses,</l>
+                        <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+                    </lg>
+                </sp>
+                <sp who="#Omphale">
+                    <speaker>OMPHALE</speaker>
+                    <lg>
+                        <l>Il est vray, je le crains; je ne m'en deffens pas;</l>
+                    </lg>
+                </sp>
+            </div>
+        </body>
+    </text>
+</TEI>
