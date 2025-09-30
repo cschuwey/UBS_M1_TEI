@@ -13,36 +13,37 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text>
+   <text>
         <body>
             <div>
                 <head type="main"> IOVISSANCE.</head>
                 <head type="sub"> SONNET.</head>
-
+                
                 <lg type="quatrain">
                     <l>Avjourd'huy dasn tes bras i'ay demeuré pafmée</l>
                     <l>Aujourd'huy, cher Tirſis, ton amoureuſe ardeur</l>
                     <l>Triomphe impunément de toute ma pudeur,</l>
                     <l>Et ie code aux tranſports dont moname eſt charmée,</l>
                 </lg>
-
+                
                 <lg type="quatrain">
                     <l>Ta flame et ton reſpect m'ont deſarmée,</l>
                     <l>Dans nos embraſſèmens ie mets tout mon bon-heure</l>
                     <l>Et ie ne connois plus de vertu ny d'honneur,</l>
                     <l>Puis que i'ayme Tirſis, et que i'en fuis aimée.</l></lg>   
                 
-                <lg
+                <lg type="tercet">
                     <l> O vous ! foibles eſprits qui ne connoiſſez pas</l>
                     <l>Les plaiſirs les plus doux que l'on gouſte icy bas,</l>
-                    <l>Apprenez les tranſports dont mon ame eſt rauie</l></lg>
+                    <l>Apprenez les tranſports dont mon ame eſt rauie</l>
+                </lg>
                 
-                <lg>
+                <lg type="tercet">
                     <l>Vne douce langueur m'ofle le ſentiment,</l>
                     <l>Ie meurs entre les bras de mon fidelle Amant,</l>
                     <l>Et  c'eſt dasn cette mort que ie trouue la vie.</l></lg>
-
+                
             </div>
         </body>
     </text>
-</TEI>
+
