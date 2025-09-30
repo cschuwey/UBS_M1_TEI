@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+        <head>PERSONNAGES</head>
+        <castList>
+            <castItem xml:id="torquatus"><roleName>TORQUATUS</roleName>, <roleDesc>Consul Romain</roleDesc>.</castItem>
+            <castItem xml:id="manlius"><roleName>MANLIUS</roleName>,<roleDesc>Fils du Consul</roleDesc>.</castItem>
+            <castItem xml:id="camille"><roleName>CAMILLE</roleName>,<roleDesc>Veuve de Decins</roleDesc>.</castItem>
+            <castItem xml:id="Omphale"><roleName>OMPHALE</roleName>,<roleDesc> Princesse d'Empire captive des Romains</roleDesc>.</castItem>
+            <castItem xml:id="junius"><roleName>JUNIUS</roleName>, <roleDesc>Ami de Torquatus</roleDesc>.</castItem>
+            <castItem xml:id="phenice"><roleName>PHENICE</roleName>, <roleDesc>Suivante d'Omphale</roleDesc>.</castItem>
+            <castItem xml:id="pison"><roleName>PISON</roleName>,<roleName>Lisseur</roleName>.</castItem>
+        </castList>
+            <set><p>La Scène est au Camp des Romains devant les tentes du Consul</p></set>
+        </front>
+        <body>
+            <div type="scene" n="5"><head>Scène V</head>
+                <stage who="#torquatus #Omphale #phenice"></stage>
+            <sp who="#torquatus">
+            <speaker>Torquatus</speaker>
+                <l>Quel sujet dans ce lieu vous amène ?</l>
+                <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
+            </sp>
+                <sp who="#Omphale">
+                 <l>C'est l'estime, Seigneur, que conservent entre eux</l>
+                 <l>Les plus grands ennemis, quand ils sont généreux.</l> 
+                 <l>De l'injuste, de la fière barbarie</l>
+                 <l>Me forgeant malgré moi d'être votre ennemie,</l>
+                 <l>Votre vertue m'empêche au moins de vous haïr</l>
+                 <l>Jusqu'à vouloir vous perdre, où jusqu'à vous trahir.</l>
+                 <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
+                 <l>Et que votre fils la funeste aventure</l>
+                 <l>Jette tant de fureur dans l'âme des soldats</l>
+                 <l>Que votre gloire et vous ne s'en sauveront pas.</l>   
+                </sp>
+                <sp who="#torquatus">
+                 <l>Quoi, la Princesse Omphale est sensible à ma gloire ?</l>   
+                </sp>
+                <sp who="#Omphale">
+                 <l>Je l'ai toujours été ; si j'en crois ma mémoire,</l>
+                 <l>Et c'est par ce motif, que j'ai tant combattu,</l>
+                 <l>Un amour dont l'effet blessait votre vertu.</l>
+                </sp>
+                <sp who="#torquatus">
+                  <l>Peut-être cet orgueil a-t-il une autre cause,</l>
+                  <l>Car de tout vos secrets, nous savons quelque chose,</l>
+                  <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+                </sp>
+                <sp who="#Omphale">
+                  <l>Il est vrai, je le crains, je ne me défends pas.</l>  
+                </sp>   
+            
+            </div>
+            
+                    
+                    
+              
+            
+        </body>
+    </text>
+</TEI>
