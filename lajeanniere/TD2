@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList> 
+                <castItem xml:id="torquatus">
+                    <role>torquatus</role>
+                    <roleDesc>consul comain</roleDesc>
+                 </castItem>
+                <castItem xml:id="manlius">
+                    <role>manlius</role>
+                    <roleDesc>fils du consul</roleDesc>
+                </castItem>
+                <castItem xml:id="camille">
+                    <role>camille</role>
+                    <roleDesc>veuve de decins</roleDesc>
+                </castItem>
+                <castItem xml:id="omphale">
+                    <role>omphale</role>
+                    <roleDesc>princesse d'epire captive des romains</roleDesc>
+                </castItem>
+                <castItem xml:id="junius">
+                    <role>junius</role>
+                    <roleDesc>amy de toquatus</roleDesc>
+                </castItem>
+                <castItem xml:id="phenice">
+                    <role>phenice</role>
+                    <roleDesc>sauivante d'omphale</roleDesc>
+                </castItem>
+                <castItem xml:id="pison">
+                    <role>pison</role>
+                    <roleDesc>litteur</roleDesc>
+                </castItem>
+             </castList>
+                <set><p>la scene est au camp des romains devant les tentes du consul</p></set>
+        </front>
+        <body>
+            <lg>
+                <sp who="#manlius">
+                    <l>si je plains d'un heros la triste destinée,</l>
+                    <l>une pitié si noble, est d'une ame bien née;</l>
+                    <l>et quand ce motif seul me forceroit d'agir,</l>
+                    <l>ce n'est pas un secret dont je deusse rougir:</l>
+                    <l>un si beau mouvement ne feroit pas un crime</l>
+                </sp>
+                <sp who="#torquatus">
+                    <l>pourquoy donc le cacher, s'il est si legitime?</l>
+                    <l>pourquoi l'enveloper d'une feinte terreur,</l>
+                    <l>et donner des advis d'une fausse rumeu?</l>
+                    <l>quen ne me dites vous, je crains pour ce que j'ayme?</l>
+                    <l>accordez <roleName who="#manlius">Manlius</roleName> à mon amour extréme,</l>
+                    <l>faites moy ce present.</l>
+                </sp>
+                <sp who="#omphale">
+                    <l>pour conserver les jours</l>
+                    <l>une telle priere est un faible secours:</l>
+                    <l>mes mal-heurs, vostre amour, &amp; le fort l'ont jurée</l>
+                    <l>je vois bien que je fais un inutile effort.</l>
+                    <l>helas! il perira.</l>
+                </sp>
+                <sp who="#toquatus">
+                    <l>moderez ce transport.</l>
+                    <l>son arrest luy sera donné par vostre bouche:</l>
+                    <l>tout mon rival qu'il est, sa mort dépend de vous</l>
+                    <l>je vous laisse y penser. <roleName who="#camille">Camille</roleName> vient à nous,</l>
+                    <l>un pareil entretie doit finir aupres d'elle."</l><stage>il sort</stage>
+                </sp>
+            </lg>
+            <div>
+                <p>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
