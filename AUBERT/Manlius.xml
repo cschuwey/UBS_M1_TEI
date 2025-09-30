@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+ 
+        <fileDesc>
+           
+           
+            <titleStmt>
+                <title/>
+            </titleStmt> 
+            
+            <publicationStmt>
+            
+                <p/>
+               
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+                
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        
+        <front>
+            <head>PERSONNAGES.</head>
+            
+          <p>  <castList> 
+              <castItem xml:id="TORQUATUS"> 
+               <role>TORQUATUS</role>,
+                <roleDesc>Consul romain.</roleDesc>
+            </castItem>
+          </castList>
+          </p> 
+            <p>
+             <castList>
+                 <castItem xml:id="MANLIUS"> 
+                <role>MANLIUS</role>,
+                    <roleDesc>Fils du Consul.</roleDesc>
+                </castItem>  
+                </castList>
+            </p>
+            <p>
+                <castList>
+                    <castItem xml:id="CAMILLE">
+                        <role>CAMILLE</role>,
+                        <roleDesc>Veuve de Decins.</roleDesc>
+                    </castItem>
+                    
+                </castList>
+                
+            </p>
+            <p>
+                <castList>
+                    <castItem xml:id="OMPHALE">
+                        <role>OMPHALE</role>,
+                        <roleDesc>princesse d'Epire, captive des Romains.</roleDesc>
+                        
+                    </castItem>
+                    
+                    
+                </castList>
+                
+                
+            </p>
+            <p>
+                <castList> 
+                <castItem xml:id="JUNIUS">
+                    <role>JUNIUS</role>,
+                    <roleDesc>ami de Torquatus.</roleDesc>
+                </castItem>
+                </castList>
+            </p>
+            <p>
+                <castList> 
+                    <castItem xml:id="PHENICE">
+                        <role>PHENICE</role>,
+                        <roleDesc>suivante d'Omphale.</roleDesc>
+                    </castItem>
+                </castList>
+            </p>
+            <p>
+                <castList> 
+                    <castItem xml:id="PISON">
+                        <role>PISON</role>,
+                        <roleDesc>licteur.</roleDesc>
+                    </castItem>
+                </castList>
+            </p>
+            
+            
+            
+        </front>
+        <body>
+            <sp who="#MANLIUS"> 
+            <speaker>MANLIUS</speaker>
+                <l>Si je plains d'un héros la triste destinée,</l>
+                <l>Une pitié si noble, est d'une arme bien née ;</l>
+                <l>Et quand ce motif seul me forcerait d'agir</l>
+                <l>Ce n'est pas un secret dont je deusse rougir ;</l>
+                <l>Un si beau mouvement ne ferait pas un crime.</l>
+            </sp>
+            <sp who="#TORQUATUS"> 
+                <speaker>TORQUATUS</speaker>
+                <l>Pourquoi donc le cacher s'il est si légitime ?</l>
+                <l>Pourquoi l'envelopper d'une feinte terreur,</l>
+                <l>Et donner des avis d'une fausse rumeur ?</l>
+                <l>Que me dites-vous, je crains pour ce que j'aime</l>
+                <l>Accordez Manlius à mon amour extrême,</l>
+                <l part="I">Faites-moi ce présent.</l>
+            </sp>
+            <sp who="#OMPHALE"> 
+                <speaker>OMPHALE</speaker>
+                <l part="F">Pour conserver les jours</l>
+                <l>Une telle prière est un faible secours :</l>
+                <l>La mort de ce Héros n'est que trop assuré,</l>
+                <l>Mes malheurs, votre amour, le fort l'ont ju-</l>
+                <l>Je vois bien que je ferais un inutile dans effort.          (rée,</l>
+                <l part="I">Hélas ! Il périra.</l>
+            </sp>
+            
+            <sp who="#TORQUATUS"> 
+                <speaker>TORQUATUS</speaker>
+                <l part="F">Modérez ce transport.</l>
+                <l>Vous pourrez le sauver, si ce trépas vous touche ;</l>
+                <l>Son arrêt lui sera donné par votre bouche :</l>
+                <l>Tout mon rival qu'il est, la mort dépend de vous</l>
+                <l>Je vous laisse y penser. Camille vient à nous,</l>
+                <l>Un pareil entretien doit finir auprès d'elle.<stage><tag>Il sort.</tag></stage></l>
+                
+            </sp>
+        </body>
+    </text>
+</TEI>
