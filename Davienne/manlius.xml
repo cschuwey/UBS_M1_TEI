@@ -37,7 +37,7 @@
                         <head rend="caps">Scene V.</head>
                         
                         <stage>
-                            <persName ref="#torquatus">Torquatus</persName>, <persName ref="#omphale">Omphale</persName>, <persName ref="#phenice">Phenice</persName>.
+                            <persName ref="#torquatus" rend="caps">Torquatus</persName>, <persName ref="#omphale" rend="caps">Omphale</persName>, <persName ref="#phenice" rend="caps">Phenice</persName>.
                         </stage>
                       
                         <sp who="#torquatus" toWhom="#omphale">
@@ -51,8 +51,8 @@
                                     <l>C'est l'estime, Seigneur, que conservent entre eux</l>
                                     <l>Les plus grands ennemis, quand ils sont généreux,</l>
                                     <l>De l'injuste destin, la fière Barbarie</l>
-                                    <l>Me forçant malgré moi, d'être votre ennemie,</l>
-                                    <l>Votre vertue m'empeche au moins de vous haïr</l>
+                                    <l>Me forçant malgré moi d'être votre ennemie,</l>
+                                    <l>Votre vertu m'empeche au moins de vous haïr</l>
                                     <l>Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir.</l>
                                     <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
                                     <l>Et que de votre fils la funeste aventure</l>
@@ -68,7 +68,7 @@
                         <sp who="#omphale" toWhom="#torquatus">
                             <speaker rend="caps">Omphale.</speaker>
                             <l>Je l'ai toujours été ; si j'en crois ma mémoire,</l>
-                            <l>Et c'est par ce motif, que j'ai tant combattu</l>
+                            <l>Et c'est par ce motif, que j'ai tant combattu,</l>
                             <l>Un amour dont l'effet blessait votre vertu.</l>
                         </sp>
                         
