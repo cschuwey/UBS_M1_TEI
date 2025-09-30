@@ -1,0 +1,90 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <head>Personnages</head>
+                <castItem xml:id="torquatus">
+                    <roleName>Torquatus</roleName>
+                    <roleDesc>consul romain</roleDesc>
+                </castItem>
+                <castItem xml:id="manlius">
+                    <roleName>Manlius</roleName>
+                    <roleDesc>fils du consul</roleDesc>
+                </castItem>
+                <castItem xml:id="camille"> 
+                    <roleName>Camille</roleName>
+                    <roleDesc>veuve de decius</roleDesc>
+                </castItem>
+                <castItem xml:id="omphale">
+                    <roleName>Omphale</roleName>
+                    <roleDesc>princesse d'epire captive des romains</roleDesc>
+                </castItem>
+                <castItem xml:id="junius">
+                    <roleName>Junius</roleName>
+                    <roleDesc>ami de torquatus</roleDesc>
+                </castItem>
+                <castItem xml:id="phénice">
+                    <roleName>Phenice</roleName>
+                    <roleDesc>suivante d'omphale</roleDesc>
+                </castItem>
+                <castItem xml:id="pison">
+                    <roleName>Pison</roleName>
+                    <roleDesc>licteur</roleDesc>
+                </castItem>
+            </castList>  
+            <set><p>La scène est au camp des Romains devant les tntes du Consul.</p></set>
+        </front>
+        <body>
+            <div>
+                <sp who="#manlius">
+                    <speaker>manlius</speaker>
+                    <l>Si je plains d'un heros la triste destinée,</l>
+                    <l>Une pitié si noble, est d'une ame bien née;</l>
+                    <l>Et quand ce motif seul me forceroit d'agir,</l>
+                    <l>Ce n'est pas un secret dont je deusse rougir :</l>
+                    <l>Un si beau mouvement ne serait pas un crime.</l>
+                </sp>
+                <sp who="#torquatus">
+                    <speaker>Torquatus</speaker>
+                    <l>Pourquoy donc le cacher, s'il est si legitime ?</l>
+                    <l>Pourquoy l'enveloper d'une feinte terreur,</l>
+                    <l>Et donner des advis d'une fausse rumeur ?</l>
+                    <l>Que ne me dites vous, je crains pour ce que j'ayme ?</l>
+                    <l>Accordez<roleName ref="#manlius">Manlius</roleName> à mon amour extréme,</l>
+                    <l part="I">Faites moy ce present</l>
+                </sp>
+                <sp who="#omphale">
+                    <speaker>Omphale</speaker>
+                    <l part="F">Pour conserver les jours</l>
+                    <l>Une telle priere est un foible secours :</l>
+                    <l>La mort de ce Heros n'est que trop assurée,</l>
+                    <l>Mes mal-heurs, vostre amour, et le sort l'ont jurée,</l>
+                    <l>Je vois bien que je fais un inutile effort.</l>
+                    <l part="I">Helas ! il perira.</l>
+                </sp>
+                <sp who="#torquatus">
+                    <speaker>Torquatus</speaker>
+                    <l part="F">Moderez ce transport.</l>
+                    <l>Son arrestluy fera donné par vostre bouche :</l>
+                    <l>Tout mon Rival qu'il est, sa mort dépend de vous</l>
+                    <l>Je vous laisse y penser. <roleName ref="#camille">Camille</roleName> vient à nous,</l>
+                    <l>Un pareil entretien doit finir aupres d'elle.</l>
+                </sp>
+                <stage type="exit">Il sort.</stage>
+            </div>
+        </body>
+    </text>
+</TEI>
