@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        
+        <front>
+            
+                <castList>
+                    <head>Personnages</head>
+                <castItem xml:id="Torquatus">
+                <roleName>Torquatus</roleName>
+                    <roleDesc>Consul Romain</roleDesc>     
+               </castItem>
+                    <castItem xml:id="Manlius">
+                        <roleName>Manlius</roleName>  
+                    <roleDesc>Fils du Consul</roleDesc>
+                 </castItem>
+                    <castItem xml:id="Camille">
+                        <roleName>Camille</roleName> 
+                        <roleDesc>Veuve deDecius</roleDesc>
+                    </castItem>
+                    <castItem xml:id="Omphale">
+                        <roleName>Omphale</roleName> 
+                        <roleDesc>Princesse d'Empire captivedes Romains</roleDesc>
+                    </castItem>
+                    <castItem xml:id="Junius">
+                        <roleName>Junius</roleName> 
+                        <roleDesc>Ami de Torquatus</roleDesc>
+                    </castItem>
+                    <castItem xml:id="Phenice">
+                        <roleName>Phenice</roleName> 
+                        <roleDesc>Suivante d'Omphale</roleDesc>
+                    </castItem>
+                    <castItem xml:id="Pison">
+                        <roleName>Pison</roleName> 
+                        <roleDesc>Litter</roleDesc>
+                    </castItem>
+                </castList>
+                <set>  
+                    <p>La scène est au camp des Romains devant les tentes du Consul</p> 
+                </set> 
+                   </front>
+        <body>
+                <sp who="#Manlius">
+                <speaker>Manlius</speaker>
+                    <l>Si je plains d'un héros la triste destinée</l>
+                    <l>Une pitié si noble, est d'une âme bien née ;</l>
+                    <l>Et quand ce motif seul me forcerait d'agir,</l>
+                    <l>Ce n'est pas un secret dont je dusse rougir :</l>
+                    <l>Un si beau mouvement ne serait pas un crime.</l>
+                </sp>
+            <sp who="#Torquatus">
+                <speaker>Torquatus</speaker>
+                <l>Pourquoi donc le cacher, s'il est si légitime ?</l>
+                <l>Pourquoi l'envelopper d'une feinte terreur,</l>
+                <l>Et donner des avis d'une fausse rumeur ?</l>
+                <l>Que ne me dites vous, je crains pour ce que j'aime ?</l>
+                <l>Accordez Manlius à mon amour extrême,</l>
+                <l part="I">Faites moi ce présent.</l>
+                 </sp>
+            <sp who="#Omphale">
+                <speaker>Omphale</speaker>
+                <l part="F">Pour conserver ses jours</l>
+                <l>Une telle prière est un faible secours :</l>
+                <l>La mort de ce héros n'est que trop assurée</l>
+                <l>Mes malheurs, votre amour, et le sort l'ont jurée,</l>
+                <l>Je vois bien que je fais un inutile effort.</l>
+                <l part="I">Hélas ! Il périra.</l>
+            </sp>
+            <sp who="#Torquatus">
+                <speaker>Torquatus</speaker>
+                <l part="F"> Modérez ce transport.</l>
+                <l>Vous pourrez le sauvez, si son trépas vous touche</l>
+                <l>Son arrêt lui sera donné par votre bouche :</l>
+                <l>Tout mon rival qu'il est, sa mort dépend de vous</l>
+                <l>Je vous laisse y penser. Camille vient à nous, </l>
+                <l>Un pareil entretien doit finir auprès d'elle.</l>
+                <stage type="exit">Il sort</stage>
+            </sp>
+ 
+        </body>
+    </text>
+</TEI>
