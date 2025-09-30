@@ -66,41 +66,41 @@
 
                 <sp who="#torquatus" toWhom="#omphale">
                     <speaker>Torquatus</speaker>
-                    <l part="F">Quel ſujet dans ce lieu vous ameine ?</l>
-                    <l>Eſt-ce pitié, Madame, eſt-ce amour, eſt-ce haine ?</l>
+                    <l part="F">Quel ſujet dans ce lieu vous am<rhyme>eine</rhyme> ?</l>
+                    <l>Eſt-ce pitié, Madame, eſt-ce amour, eſt-ce <rhyme>haine</rhyme> ?</l>
                 </sp>
                 <!-- ... <stage who="#omphale">Elle claque la porte</stage> -->
                 <sp who="#omphale" toWhom="#torquatus">
                     <speaker>Omphale</speaker>
-                    <l>C'eſt l'eſtime, Seigneur, que conſervent entre eux</l>
-                    <l>Les plus grands ennemis, quand ils ſont genereux.</l>
-                    <l>De l'injuſte deſtin, la fiere Barbarie</l>
-                    <l>Me forçeant malgré moy d'eſtre voſtre ennemie.</l>
-                    <l>Voſtre vertu m'empeſche au moins de vous haïr</l>
-                    <l>Juſqu'à vouloir vous perdre, ou juſqu'à vous trahir</l>
-                    <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
-                    <l>Et que voſtre fils la funeſte avanture</l>
-                    <l>Jette tant de fureur dans l'ame des ſoldats,</l>
-                    <l>Que votre gloire &amp; vous, ne s'en ſauveront pas.</l>
+                    <l>C'eſt l'eſtime, Seigneur, que conſervent entre <rhyme>eux</rhyme></l>
+                    <l>Les plus grands ennemis, quand ils ſont gener<rhyme>eux</rhyme>.</l>
+                    <l>De l'injuſte deſtin, la fiere Barbar<rhyme>ie</rhyme></l>
+                    <l>Me forçeant malgré moy d'eſtre voſtre ennem<rhyme>ie</rhyme>.</l>
+                    <l>Voſtre vertu m'empeſche au moins de vous <rhyme>haïr</rhyme></l>
+                    <l>Juſqu'à vouloir vous perdre, ou juſqu'à vous tr<rhyme>ahir</rhyme></l>
+                    <l>Apprenez donc, Seigneur, que tout le Camp murm<rhyme>ure</rhyme>,</l>
+                    <l>Et que voſtre fils la funeſte avant<rhyme>ure</rhyme></l>
+                    <l>Jette tant de fureur dans l'ame des ſold<rhyme>ats</rhyme>,</l>
+                    <l>Que votre gloire &amp; vous, ne s'en ſauveront p<rhyme>as</rhyme>.</l>
                 </sp>
 
                 <sp who="#torquatus" toWhom="#omphale">
                     <l>Quoy, la Princeſſe <name type="person">Omphale</name> eſt ſenſible à ma
-                        gloire ?</l>
+                        gl<rhyme>oire</rhyme> ?</l>
                   <!-- ... <name> ne me convient pas, peut être qu'avec la balise <person> il est possible d'avoir un who="#omphale" ? ... -->
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus">
-                    <l>Je l'ay toûjours eſté ; ſi j'en croy ma memoire,</l>
-                    <l>Et c'eſt par ce motif; que j'ay tant combattu,</l>
-                    <l>Un amour dont l'effet bleſſoit votre vertu.</l>
+                    <l>Je l'ay toûjours eſté ; ſi j'en croy ma mem<rhyme>oire</rhyme>,</l>
+                    <l>Et c'eſt par ce motif; que j'ay tant comba<rhyme>ttu</rhyme>,</l>
+                    <l>Un amour dont l'effet bleſſoit votre ver<rhyme>tu</rhyme>.</l>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale">
-                    <l>Peut-eſtre cét orgueil a t'il une autre cauſe,</l>
-                    <l>Car de tous vos ſecrets, nous ſçavon quelque choſe,</l>
-                    <l>Mon fils vous fait pitié, vous craignez ſon trépas.</l>
+                    <l>Peut-eſtre cét orgueil a t'il une autre c<rhyme>auſe</rhyme>,</l>
+                    <l>Car de tous vos ſecrets, nous ſçavon quelque ch<rhyme>oſe</rhyme>,</l>
+                    <l>Mon fils vous fait pitié, vous craignez ſon tré<rhyme>pas</rhyme>.</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus">
-                    <l>Il eſt vray, je le crains ; je ne m'en deffens pas ;</l>
+                    <l>Il eſt vray, je le crains ; je ne m'en deffens <rhyme>pas</rhyme> ;</l>
                 </sp>
 
             </div>
