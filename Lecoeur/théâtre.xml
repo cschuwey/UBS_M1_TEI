@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="Personnages">
+                <!-- ... -->
+                <head>PERSONNAGES</head>
+                <castList>
+                    <castItem xml:id="torquatus">
+                        <role>Torquatus</role>
+                        <roleDesc>Conſul Romain</roleDesc>
+                    </castItem>
+                    <castItem xml:id="manlius">
+                        <role>Manlius</role>
+                        <roleDesc>Fils du Conſul</roleDesc>
+                    </castItem>
+                    <castItem xml:id="camille">
+                        <role>Camille</role>
+                        <roleDesc>Veſve de Decius</roleDesc>
+                    </castItem>
+                    <castItem xml:id="omphale">
+                        <role>Omphale</role>
+                        <roleDesc>Princeſſe d'Epire captive des Romains</roleDesc>
+                    </castItem>
+                    <castItem xml:id="junius">
+                        <role>Junius</role>
+                        <roleDesc>Amy de Torquatus</roleDesc>
+                    </castItem>
+                    <castItem xml:id="phenice">
+                        <role>Phenice</role>
+                        <roleDesc>Suivante d'Omphale</roleDesc>
+                    </castItem>
+                    <castItem xml:id="pison">
+                        <role>Pison</role>
+                        <roleDesc>Licteur</roleDesc>
+                    </castItem>
+                </castList>
+
+            </div>
+            <set>
+                <p>La Scene eſt au Camp des Romains devant les Tentes du Conſul.</p>
+            </set>
+        </front>
+        <body>
+            <div>
+                <!-- ... je choisis de ne pas écrire Tragi-comédie ... -->
+                <head>Scene V</head>
+                <!-- la balise <particDesc> (avec <listPerson>) pourrait fonctionner, à voir -->
+                <stage type="setting" who="#torquatus #omphale #phenice"> Torquatus, Omphale,
+                    Phenice </stage>
+            </div>
+            <div met="12">
+
+                <sp who="#torquatus">
+                    <speaker>Torquatus</speaker>
+                    <l part="F">Quel ſujet dans ce lieu vous ameine ?</l>
+                    <l>Eſt-ce pitié, Madame, eſt-ce amour, eſt-ce haine ?</l>
+                </sp>
+                <!-- ... <stage who="#omphale">Elle claque la porte</stage> -->
+                <sp who="#omphale">
+                    <speaker>Omphale</speaker>
+                    <l>C'eſt l'eſtime, Seigneur, que conſervent entre eux</l>
+                    <l>Les plus grands ennemis, quand ils ſont genereux.</l>
+                    <l>De l'injuſte deſtin, la fiere Barbarie</l>
+                    <l>Me forçeant malgré moy d'eſtre voſtre ennemie.</l>
+                    <l>Voſtre vertu m'empeſche au moins de vous haïr</l>
+                    <l>Juſqu'à vouloir vous perdre, ou juſqu'à vous trahir</l>
+                    <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
+                    <l>Et que voſtre fils la funeſte avanture</l>
+                    <l>Jette tant de fureur dans l'ame des ſoldats,</l>
+                    <l>Que votre gloire &amp; vous, ne s'en ſauveront pas.</l>
+                </sp>
+
+                <sp who="#torquatus">
+                    <l>Quoy, la Princeſſe <name type="person">Omphale</name> eſt ſenſible à ma
+                        gloire ?</l>
+                  <!-- ... <name> ne me convient pas, peut être qu'avec la balise <person> il est possible d'avoir un who="#omphale" ? ... -->
+                </sp>
+                <sp who="#omphale">
+                    <l>Je l'ay toûjours eſté ; ſi j'en croy ma memoire,</l>
+                    <l>Et c'eſt par ce motif; que j'ay tant combattu,</l>
+                    <l>Un amour dont l'effet bleſſoit votre vertu.</l>
+                </sp>
+                <sp who="#torquatus">
+                    <l>Peut-eſtre cét orgueil a t'il une autre cauſe,</l>
+                    <l>Car de tous vos ſecrets, nous ſçavon quelque choſe,</l>
+                    <l>Mon fils vous fait pitié, vous craignez ſon trépas.</l>
+                </sp>
+                <sp who="#omphale">
+                    <l>Il eſt vray, je le crains ; je ne m'en deffens pas ;</l>
+                </sp>
+
+            </div>
+        </body>
+    </text>
+</TEI>
