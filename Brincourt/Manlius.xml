@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <castlist>
+                <head rend="caps">PERSONNAGES.</head>
+                <roleName rend="caps">
+                    <castItem xml:id="Torquatus"><roleName>TORQUATUS</roleName>, <roleDesc>Consul
+                            Romain</roleDesc>.</castItem>
+                    <castItem xml:id="Manlius"><roleName>MANLIUS</roleName>, <roleDesc>Fils du
+                            Consul</roleDesc>.</castItem>
+                    <castItem xml:id="Camille"><roleName>CAMILLE</roleName>, <roleDesc>Veuve de
+                            Decins</roleDesc>.</castItem>
+                    <castItem xml:id="Omphale"><roleName>OMPHALE</roleName>, <roleDesc>Princesse
+                                d'<placeName>Epire</placeName>captive
+                            des<name>Romains</name></roleDesc>.</castItem>
+                    <castItem xml:id="Junius"><roleName>Junius</roleName>, <roleDesc>Ami de
+                            Torquatus</roleDesc>.</castItem>
+                    <castItem xml:id="Phenice"><roleName>PHENICE</roleName>, <roleDesc>Servante
+                            d'Omphale</roleDesc>.</castItem>
+                    <castItem xml:id="Pison"><roleName>PISON</roleName>,
+                            <roleDesc>Lecteur</roleDesc>.</castItem>
+                </roleName>
+            </castlist>
+            <set>
+                <p>La Scene est au<place>Camp des<name>Romains</name>devant les Tentes
+                            du<roleDesc>Consul</roleDesc></place></p>
+            </set>
+            
+            <div type="scene" n="5">
+                <head rend="caps">SCENE V</head>
+                <castlist>
+                    <castGroup>TORQUATUS, OMPHALE, PHENICE</castGroup>
+                </castlist>
+<sp who="#Torquatus" toWhom="Omphale"> 
+   <speaker who="#Torquatus"></speaker>
+    <l>Quel sujet dans ce lieu vous am<rhyme>ène</rhyme>?</l>
+    <l>Est-ce pitié, Madame, est-ce amour, est-ce haine?</l>
+   </sp>
+
+             
+                            <!-- Commentaire -->
+                
+
+
+
+            
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
