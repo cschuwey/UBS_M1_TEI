@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front> 
+            <castList>
+                <head>Personnages</head>
+                <castItem xml:id="torquatus">
+                    <roleName>Torquatus</roleName>
+                    <roleDesc>Consul Romain</roleDesc>
+                    </castItem>
+                <castItem xml:id="manlius">
+                    <roleName>Manlius</roleName>
+                    <roleDesc>Fils de consul</roleDesc>
+                </castItem>
+                <castItem xml:id="camille">
+                    <roleName>Camille</roleName>
+                    <roleDesc>Veuve de Decius</roleDesc>
+                </castItem>
+                <castItem xml:id="omphale"> 
+                    <roleName>Omphale</roleName> 
+                    <roleDesc>Princesse d'Empire captive des romains</roleDesc>
+                </castItem>
+                <castItem xml:id="junius"> 
+                    <roleName>Junius</roleName>
+                    <roleDesc>Amy de Torquatus</roleDesc>
+                </castItem>
+                <castItem xml:id="phenice"> 
+                    <roleName>Phenice</roleName> 
+                    <roleDesc>Suivante d'Omphale</roleDesc>
+                </castItem>
+                <castItem xml:id="pison"> 
+                    <roleName>Pison</roleName> 
+                    <roleDesc>Litteur</roleDesc>
+                </castItem>
+            </castList>
+            <set><p>La scene est au Camp des Romains devant les Tentes du Consul</p></set>
+        </front>
+        <body>
+              <sp who="#manlius">
+                    <speaker>manlius</speaker>
+                    <l>Si je plains d'un héros la triste destinée,</l>
+                    <l>Une pitié si noble, est d'une âme bien née;</l>
+                    <l>Et quand ce motif seule me forcerait à agir,</l>
+                    <l>Ce n'est pas un secret dont dû rougir;</l>
+                    <l>Un si beau mouvement ne ferait pas un crime.</l>
+                </sp>
+                <sp who="#torquatus">
+                    <speaker>torquatus</speaker>
+                    <l>Pourquoi donc le cacher, s'il est si légtimie?</l>
+                    <l>Pourquoi l'envelopper d'une feinte terreur</l>
+                    <l>Et donner des advis d'une fausse ruemur?</l>
+                    <l>Que ne me ditevous, je crains pour ce que j'aime?</l>
+                    <l>Accordez Manlius à mon amour extreme,</l>
+                    <l part="I">Faites moi ce présent.</l>
+                </sp>     
+            <sp who="#omphale">
+                <speaker>omphale</speaker>
+                <l part="F">Pour conserver les jours</l>
+                <l>Une telle prière est un faible secours:</l>
+                <l>La mort de ce Heros n'est que trop assurée,</l>
+                <l>Mes malheurs, votre amour, et le sort l'ont jurée,</l>
+                <l>Je vois bien que je fais un inutile effort.</l>
+                <l part="I">Helas! il perira</l>
+            </sp>
+            <sp who="#torquatus">
+                <speaker>torquatus</speaker>
+                <l part="F">Moderez ce transport</l>
+                <l>Vous pourrez le sauver, si son trépas vous touche;</l>
+                <l>Son arrêt lui sera donné par votre bouche;</l>
+                <l>Tout mon rival qu'il est, sa mort dépend de vous</l>
+                <l>Je vous laisse y penser. Camille vient à nous,</l>
+                <l>Un pareil entretien doit finir aauprès d'elle.</l>
+                <stage type="exit">Il sort.</stage>
+            </sp>
+        </body>
+    </text>
+</TEI>
