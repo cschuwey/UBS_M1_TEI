@@ -57,27 +57,36 @@
                                     <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
                                     <l>Et que de votre fils la funeste aventure</l>
                                     <l>Jette tant de fureur dans l'ame des soldats,</l>
-                                    <l>Que votre gloire et vous ne sauverons pas.</l>
+                                    <l>Que votre gloire et vous, ne s'en sauveront pas.</l>
                             </sp>
-                     
+
                         <sp who="#torquatus" toWhom="#omphale">
                             <speaker rend="caps">Torquatus.</speaker>
-                            <l></l>
+                            <l>Quoi, la pricesse Omphale est sensible à ma gloire ?</l>
+                        </sp>
+                    
+                        <sp who="#omphale" toWhom="#torquatus">
+                            <speaker rend="caps">Omphale.</speaker>
+                            <l>Je l'ai toujours été ; si j'en crois ma mémoire,</l>
+                            <l>Et c'est par ce motif, que j'ai tant combattu</l>
+                            <l>Un amour dont l'effet blessait votre vertu.</l>
                         </sp>
                         
+                        <sp who="#torquatus" toWhom="#omphale">
+                            <speaker rend="caps">Torquatus.</speaker>
+                            <l>Peut-etre cet orgueil a t'il une autre cause,</l>
+                            <l>Car de tous vos secrets, nous savons quelque chose,</l>
+                            <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+                        </sp>
+
+                        <sp who="#torquatus" toWhom="#omphale">
+                            <speaker rend="caps">Torquatus.</speaker>
+                            <l>Il est vrai, je le crains ; je ne m'en défend pas ;</l>
+                        </sp>
                         
-                   
-                   
                     </div2>
                 </div1>
-        </body>
-        
-        
-        
-        
-        
+        </body>       
         
     </text>
 </TEI>
-
-<!-- la balise part suivie de l'attribut i/m/f permet de montrer qu'un alexandrin s'étend sur plusieurs répliques -->
