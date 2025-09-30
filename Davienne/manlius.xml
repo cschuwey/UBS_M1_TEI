@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <front>
+            <castList>
+                <head rend="caps">personnages.</head>
+                <castItem xml:id="torquatus"><roleName rend="caps">Torquatus</roleName>, <roleDesc>Consul Romain</roleDesc>.</castItem>
+                <castItem xml:id="manlius"><roleName rend="caps">Manlius</roleName>, <roleDesc>Fils du Consul</roleDesc>.</castItem>
+                <castItem xml:id="camille"><roleName rend="caps">Camille</roleName>, <roleDesc>Veuve de <persName>Decins</persName></roleDesc>.</castItem>
+                <castItem xml:id="omphale"><roleName rend="caps">Omphale</roleName>, <roleDesc>Princesse d'<placeName>Epire</placeName> captive des Romains</roleDesc>.</castItem>
+                <castItem xml:id="junius"><roleName rend="caps">Junius</roleName>, <roleDesc>Ami de <persName ref="#torquatus">Torquatus</persName></roleDesc>.</castItem>
+                <castItem xml:id="phenice"><roleName rend="caps">Phenice</roleName>, <roleDesc>Servante d'<persName ref="#omphale">Omphale</persName></roleDesc>.</castItem>
+                <castItem xml:id="pison"><roleName rend="caps">Pison</roleName>, <roleDesc>Lecteur</roleDesc>.</castItem>
+            </castList>
+            <set><p>La Scène est au Camp des Romains devant les Tentes du Consul.</p></set>
+        </front>
+        
+        <body>
+           
+                <div1 type="act" n="1">
+                    <div2 type="scene" n="5">
+                        <head rend="caps">Scene V.</head>
+                        
+                        <stage>
+                            <persName ref="#torquatus">Torquatus</persName>, <persName ref="#omphale">Omphale</persName>, <persName ref="#phenice">Phenice</persName>.
+                        </stage>
+                      
+                        <sp who="#torquatus" toWhom="#omphale">
+                            <speaker rend="caps">Torquatus.</speaker>
+                                <l>Quel sujet dans ce lieu vous amène ?</l>
+                                <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
+                        </sp>
+                            
+                            <sp who="#omphale" toWhom="#torquatus">
+                                <speaker rend="caps">Omphale.</speaker>
+                                    <l>C'est l'estime, Seigneur, que conservent entre eux</l>
+                                    <l>Les plus grands ennemis, quand ils sont généreux,</l>
+                                    <l>De l'injuste destin, la fière Barbarie</l>
+                                    <l>Me forçant malgré moi, d'être votre ennemie,</l>
+                                    <l>Votre vertue m'empeche au moins de vous haïr</l>
+                                    <l>Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir.</l>
+                                    <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
+                                    <l>Et que de votre fils la funeste aventure</l>
+                                    <l>Jette tant de fureur dans l'ame des soldats,</l>
+                                    <l>Que votre gloire et vous ne sauverons pas.</l>
+                            </sp>
+                     
+                        <sp who="#torquatus" toWhom="#omphale">
+                            <speaker rend="caps">Torquatus.</speaker>
+                            <l>Quel sujet dans ce lieu vous amène ?</l>
+                        </sp>
+                        
+                        
+                   
+                   
+                    </div2>
+                </div1>
+        </body>
+        
+        
+        
+        
+        
+        
+    </text>
+</TEI>
+
+<!-- la balise part suivie de l'attribut i/m/f permet de montrer qu'un alexandrin s'étend sur plusieurs répliques -->
