@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author resp="translator author">La Bruyère</author>
+                <author>Theophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Aony</authority>
+                <distributor>UBS - GitHub</distributor>
+                <availability>
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="NUMM-8704022">
+                    <author ref="ark:/12148/cb11910249z">J. De la Bryuère</author>
+                    <title level="m">Les Caractères de Théophraste traduits du grec : avec les
+                        Caractères ou les moeurs de ce siècle. [Par J. de La Bruyère.] (3e
+                        éd.)</title>
+                    <edition>3e. édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF - R-18787</idno>
+                    <date when="1688">1688</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Reproduction du texte, encodé en TEI.</p>
+            </projectDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>Orthographe modernisé.</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="2014-06-04">Le 4 juin 2014</date>
+            </creation>
+            <langUsage>
+                <language ident="fr">Français</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://catalogue.bnf.fr/ark:/12148/cb30705982f">
+                    <term>Roman</term>
+                    <term>La Bruyère</term>
+                    <term>Les Caractères</term>
+                    <term>1688</term>
+                    <term>XVIIe siècle</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-04">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <div type="remark">
+                    <p>Un bon Auteur, et qui écrit avec soin, éprouve souvent que l'expression qu'il
+                        cherchait depuis longtemps sans la connaître, et qu'il a enfin trouvée, est
+                        celle qui était la plus simple, la plus naturelle, qui semblait devoir se
+                        présenter d'abord et sans effort. </p>
+                </div>
+            </div>
+            <div type="chapter">
+                <div type="remark">
+                    <p>Ceux qui par leur condition se trouvent exempts de la joulise d'Auteur, ont
+                        ou des passions, ou des besoins qui les distraient, et les rendent froids
+                        sur les conceptions d'autrui : personne presque par la disposition de son
+                        esprit, de son coeur, et de sa fortune n'est en état de se livrer au plaisir
+                        que la perfection d'un ouvrage.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
