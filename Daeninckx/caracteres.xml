@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author resp="author">Theophraste</author>
+                <author ref="ark:/12148/cb11910249z" resp="translator author">La Bruyère</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority>Mickaël Daeninckx</authority>
+                <distributor>Université Bretagne Sud de Lorient</distributor>
+                <availability>
+                    <licence></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère</author>
+                    <edition>3e édition</edition>
+                    <publisher>Estienne Michallet</publisher>
+                    <pubPlace>rue S.Jacques, Paris</pubPlace>
+                    <date when="1688">M. DC. LXXXVIII</date>
+                    <idno type="Bnf">Bnf R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed6">
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère</author>
+                    <edition>6e édition</edition>
+                    <publisher>Estienne Michallet</publisher>
+                    <pubPlace>rue S.Jacques, Paris</pubPlace>
+                    <date when="1691">M. DC. XCI.</date>
+                    <idno type="Bnf">Bnf R-52303</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <div type="remark">
+                    <p>Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à notre goût et à nos sentiments ; c'est une trop grande entreprise.</p>
+                    <p>Compléter le teiHeader avec encodingDesc et profilDesc + encodage de deux remarques</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
