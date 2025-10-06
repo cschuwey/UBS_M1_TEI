@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Les Caractères </title>
+                <author ref="ark:/12148/cb11910249z" resp="translator author"> La bruyère </author>
+                <author> Theophraste </author>
+            </titleStmt>
+            <publicationStmt>
+                <authority> Cloé Godart </authority>
+                <distributor> UBS - GitHub</distributor>
+                <availability>
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title> Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle. </title>
+                    <author ref="ark:/12148/cb11910249z"> Jean De La Bruyère </author>
+                    <edition>3e édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">1688</date>
+                    <idno>BnF - R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed4">
+                    <title> Les Caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle. </title>
+                    <author ref="ark:/12148/cb11910249z"> Jean De La Bruyère </author>
+                    <edition>3e édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">1688</date>
+                    <idno>BnF - R-18787</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> encodage réalisé sur <title> Les caractères </title>, de <name
+                        ref="ark:/12148/cb11910249z" resp="#ed3"> La Bruyère </name>, d'après
+                    l'édition <date when="1688">1688</date>. Le chapitre qui sera encodé ici est
+                        <title> De l'Homme </title>
+                </p>
+            </projectDesc>
+            <editorialDecl>
+                <p>L'orthogaphe du texte a été modernisé pour en facilité l'écriture. L'oeuvre sera
+                    donc retranscrite en français moderne.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2025-10-06"> première version réalisé en français moderne de l'encodage
+                    <title ref="#ed3"> Les caractères </title></change>
+            <change> les &amp; seront réecrit en lettre et non sous forme de symbôle </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <head> De l'Homme </head>
+                <div type="remark">
+                    <p> Les hommes ne s'attachent pas assez à ne pas manquer les occasions de faire
+                        plaisir; il semble que l'on n'entre dans un emploi que pour pouvoir obliger,
+                        et n'en rien faire : la chose la plus prompte et qui se présente d'abord,
+                        c'est le refus, et l'on n'accorde que par reflexion.</p>
+                    
+                    <p> Il est difficile qu'un fort malhonnête homme ait assez d'esprit; un genie
+                        qui est droit et perçant conduit enfin à la règle, à la probité, à la vertu
+                        : il manque du sens et de la penetration à celui qui s'opiniâtre dans le
+                        mauvais comme dans le faux; l'on cherche en vain à le corriger par des
+                        traits de satyre qui le désignent aux autres, et où il ne se reconnait pas
+                        lui-même; ce sont des injures dites à un sourd. Il serait désirable pour le
+                        plaisir des honnêtes gens et pour la vengeance publique, qu'un coquin ne le
+                        fût pas au point d'etre privé de tout sentiment.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
