@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères</title>
+                <author>Jean de la Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>E. Michallet</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date when="1688">1688</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="#ark:/12148/cb11910249z">Jean de la Bruyère</author>
+                    available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k87040224"></ref>
+                    <date when="1688">1688</date>
+                    <edition n="3">Troisième édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed5">
+                    <title>Les caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="#ark:/12148/cb11910249z">Jean de la Bruyère</author>
+                    available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k87040224"></ref>
+                    <date when="1690">1690</date>
+                    <edition n="5">Cinquième édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-18790</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Le document est composé de deux extraits des Caractères, la troisième édition datant de 1688 et la cinquième datant de 1690.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Chaque extrait contient une remarque d'un chapitre différent de chaque version.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <normalization> <p>Les textes ont été modernisés, les majuscules et esperluettes gardées.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+           <listChange>
+               <change when="2025-10-06">Première version réalisée le 6 octobre 2025 par A. Trajkovic.</change>
+           </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter"><div type="#ed3">
+                <head>Des Ouvrages de l'esprit</head></div>
+            <div type="remark">
+                <p>Le peuple appelle Eloquence la facilité que quelques-uns ont de parler seuls &amp; longtemps, jointe à l'emportement du geste, à l'éclat de la voix, &amp; à la force des poumons. Les Pedans ne l'admettent aussi que dans le discours oratoire, &amp; ne la distinguent pas de l'entassement des figures, de l'usage des grands mots, &amp; de la rondeur des periodes.</p>
+                <p>Il semble que la Logisque est l'art de convaincre de quelque verité, &amp; l'Eloquence un don de l'ame, lequel nous rend maitres du coeur et de l'esprit des autres, qui fait que nous leur inspirons ou que nous leur persuadons tout ce qui nous plait.</p>
+                <p>L'Eloquence peut se trouver dans les entretiens &amp; dans tout genre d'écrire; elle est rarement où on la cherche, &amp; elle est quelquefois où on ne la cherche point.</p>
+            </div></div>
+            <div type="chapter"><div type="#ed5">
+            <head>Du Merite personnel</head></div>
+            <div type="remark">
+                <p>De bien des gens il n'y a que le nom qui vale quelque chose; quand vous les voyez de fort prés,  c'est moins que rien; de loin ils s'imposent.</p>
+            </div></div>
+        </body>    
+    </text>
+</TEI>
