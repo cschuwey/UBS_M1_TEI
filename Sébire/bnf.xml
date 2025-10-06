@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou
+                        moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
+                    <author ref="ark:/12148/cb11910249z">
+                        <surname>La bruyère</surname>
+                        <name> Jean de </name> Available from <ref
+                            target="https://gallica.bnf.fr/ark:/12148/bpt6k87040224#"
+                            >http://tcp.hypotheses.org/318</ref>
+                        <idno>RES-R-2058</idno>
+                    </author>
+                    <date when="1688"> 1688</date>
+                    <edition> 3e édition</edition>
+                    <publisher> E. Michallet (</publisher>
+                    <pubPlace> Lyon </pubPlace>
+                </bibl>
+                <bibl xml:id="ed5">
+                    <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou
+                        les moeurs de ce siècle. [Par J. de La Bruyère.] (5e éd.) </title>
+                    <author ref=" ark:/12148/bpt6k8704023j">
+                        <surname>La bruyère</surname>
+                        <name> Jean de </name>
+                        <idno>R-18790 </idno>
+                    </author>
+                    <date when="1690"> 1690</date>
+                    <edition> 5e édition</edition>
+                    <publisher> E. Michallet (</publisher>
+                    <pubPlace> Lyon </pubPlace>
+                </bibl>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p> ajouter un revision desc, comment j'ai structuré les remarques, quelle est la
+                structure qui permettrait de representer cette structure, ex : div 1 : chapitre, div
+                2 remarques, encore div type="chapter" div type=""remark" 2 remarques dans le body
+                dans lequel jindique l'exemplaire de source; le source desc doit être complètement
+                rempli pour les deux versions des 2 ouvrages : celui de 1688 et l'autre entre 1690
+                et 1694 et le revision desc</p>
+            <div>
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
