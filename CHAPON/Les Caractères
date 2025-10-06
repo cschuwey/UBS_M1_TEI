@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author resp="transalator author" ref="ark:/12148/cb11910249z">La Bruyère</author>
+                <author>Théophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:id="AxelanneChapon">Axelanne Chapon</authority>
+                <distributor>UBS</distributor>
+                <availability><licence> <!-- si y a une licence à mettre --></licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de théophraste, traduits du grec :avec les Caractères ou les moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z"><surname>La Bruyère</surname>,<forename>Jean de</forename></author>
+                    <edition>3e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k87040224/f8.item">https://gallica.bnf.fr/ark:/12148/bpt6k87040224/f8.item</ref>
+                    <idno>R-18787</idno>
+                    <date when="1688">1688</date>   
+                </bibl>
+                <bibl xml:id="ed5">
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb11910249z"><surname>La Bruyère</surname>,<forename>Jean de</forename></author>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704023j/f17.item">https://gallica.bnf.fr/ark:/12148/bpt6k8704023j/f17.item</ref>
+                    <idno>BNF R-18790</idno>
+                    <date when="1690">1690</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> Encodage de deux remarques <title>des Caractères</title> de La Bruyère en proposant deux variantes dans le même fichier, la troisième édition datant de 1688 et la cinquième édition datant de 1690</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>deux remarques pas trop longues</p>
+            </samplingDecl>
+            <editorialDecl>
+                <p>texte retranscrit tel que l'original dans un vieux français avec les s long et les esperluettes</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="2025-10-06"/></creation>
+            <langUsage>
+                <language ident="fr-FR">vieux Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-10-06" who="#AxelanneChapon"> création du header et encodage des deux remarques de l'édition 3 de 1688</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" n="1"><head rend="caps">Discours sur Theophraste</head>
+                <div type="remark">
+                    <p>La Cour ou ne connoiſt pas la ville, ou par le mépris qu'elle a pour elle neglige d'en relever le ridicule,
+                        &amp; n'eſt point frapée des images qu'il peut fournir ; &amp;fi au contraire l'on peint la Cour, comme 
+                        c'eſt toûjours avec les ménagements qui luy ſont dûs, la ville ne tire pas de cette ébauche de quoy remplir ſa curioſiré, 
+                        &amp; ſe faire une juſte idée d'un pays où il faut meſme avoir vêcu pour le cõnoiſtre.</p>
+                </div>
+                <div>
+                    <p>D'autre part il eſt naturel aux hommes de ne point convenir de la beauté ou de la morale qui les peint, qui les déſigne, 
+                        &amp; où ils ſe reconnoiſſent eux-meſme; ils ſe tirent d'embarras en le condammant ;
+                        &amp;tels n'approuvent laſatyre, que lorſque commençant à lâcher priſe, &amp;s'éloigner de leurs perſonnes, elle va modre queque autre.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
