@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+
+        <fileDesc>
+            <titleStmt>
+                <!-- ref à la bruyère hors du document. Site pour trouver des id en lien avec tout le monde : data.bnf.fr ou viaf.org ou isni.fr !-->
+                <title>Les Caractères</title>
+                <author resp="translator author" ref="ark:/12148/cb11910249z">Jean De La
+                    Bruyère</author>
+                <author>Théophraste</author>
+            </titleStmt>
+
+            <publicationStmt>
+                <!--  publication statement du fichier xml et non des caractères !-->
+                <authority>Matéo Davienne</authority>
+                <distributor>UBS - GitHub</distributor>
+                <availability>
+                    <licence/>
+                </availability>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
+                        les moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb11910249z">Jean de la Bruyère</author>
+                    <publisher>Etienne Michalet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <ref>https://catalogue.bnf.fr/ark:/12148/cb30705982f</ref>
+                    <date when="1688-02-23">1688</date>
+                    <idno>BnF R-18787</idno>
+                    <edition n="3">3e édition</edition>
+                </bibl>
+
+                <bibl xml:id="ed7">
+                    <title>Les caractères de Théophraste, traduits du grec, avec les Caractères ou
+                        Les moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb11910249z">Jean de la Bruyère</author>
+                    <publisher>Etienne Michalet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <ref>https://catalogue.bnf.fr/ark:/12148/cb30705988h</ref>
+                    <date>1692</date>
+                    <idno>BnF R-18791</idno>
+                    <edition n="7">7e édition</edition>
+                </bibl>
+
+
+            </sourceDesc>
+        </fileDesc>
+
+        <!--  
+        <encodingDesc></encodingDesc>
+        <profileDesc></profileDesc>
+        <revisionDesc></revisionDesc>
+         !-->
+
+
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <div type="chapter">
+                <div type="remark">
+                    <p>blablabla</p>
+                </div>
+            </div>
+
+        </body>
+
+    </text>
+
+
+</TEI>
+
+<!--  encoder deux remarques pas trop longues mais avec suffisamment de variantes, et l'encodingdesc et le revisiondesc !-->
