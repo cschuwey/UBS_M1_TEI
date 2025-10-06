@@ -8,33 +8,67 @@
                 <author>Théophraste</author>
             </titleStmt>
             <publicationStmt>
-                
-                <authority>Romane baldy</authority>
+
+                <authority xml:id="RomaneBaldy">Romane baldy</authority>
                 <date when="2025-10-06">2025/10/06</date>
                 <distributor>UBS</distributor>
-                
+
             </publicationStmt>
             <sourceDesc>
                 <bibl xml:id="ed3">
+                 
                     <author ref="ark:/12148/cb11910249z">Jean de La Bruyère</author>
                     <title type="main">Les caractères</title>
                     <title type="desc">Les caractères de Théophraste, traduit du grec, avec les
                         Caractères ou moeurs du siècle.</title>
-                        <date when="1688">1688</date>
-                        <pubPlace>Lyon</pubPlace>
-                        <publisher>Amaulry</publisher>
-                        <idno>RES-R-2058</idno>
+                    <date when="1688">1688</date>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>E. Michallet</publisher>
+                    <idno>R-18787</idno>
                     <edition>3e edition</edition>
-                    
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Transcription numérique d'une séléction de caractères de La Bruyère</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization source="https://gallica.bnf.fr/ark:/12148/bpt6k87040224">
+                    <p>Le document transcrit est la troisième édition de 1688 des caractères de la
+                        bruyère.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2025-10-06" who="#RomaneBaldy"> p.247 et 248 et header mis à jour</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="chapter">
-                <div type="remark">
-                    <p>¶</p>
+            <div type="chapter" n="11" corresp="de l'homme">
+                <pb n="247" ed="ed3"/>
+                <fw place="top-center" type="head"><hi rend="it">ou les Moeurs de ce
+                    siecle</hi></fw>
+                <fw place="top-right" type="pageNum">247</fw>
+                <div type="remark" n="61">
+                    <p>¶La plûpart des hommes pour arriver à leurs fins sont plus capables d'un
+                        grand effort que d'une longue perseverance:leur paresse ou leur inconstance
+                        leur fait perdre le fruit des meilleurs commencemens;ils se laissent souvent
+                        devancer par d'autres qui sont partis aprés eux, &amp; qui marchent
+                        lentement, mais constamment.</p>
+                </div>
+                <div type="remark" n="62">
+                    <p>¶Les hommes agissent mollement dans les choses qui sont de leur devoir,
+                        pendant qu'ils se font un merite ou plûtost <fw place="bot-right" type="sig"
+                            >L iiij</fw></p>
+                    <pb n="248" ed="ed3"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-left" type="pageNum">248</fw>
+
+                    <p>une vanité de s'empresser pour celles qui leur sont étrangeres, &amp; qui ne
+                        conviennent ny à leur état, ny à leur caractere.</p>
+
                 </div>
             </div>
         </body>
