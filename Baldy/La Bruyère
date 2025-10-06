@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères</title>
+                <author ref="ark:/12148/cb11910249z" resp="translator author">La Bruyère</author>
+                <author>Théophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                
+                <authority>Romane baldy</authority>
+                <date when="2025-10-06">2025/10/06</date>
+                <distributor>UBS</distributor>
+                
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <author ref="ark:/12148/cb11910249z">Jean de La Bruyère</author>
+                    <title type="main">Les caractères</title>
+                    <title type="desc">Les caractères de Théophraste, traduit du grec, avec les
+                        Caractères ou moeurs du siècle.</title>
+                        <date when="1688">1688</date>
+                        <pubPlace>Lyon</pubPlace>
+                        <publisher>Amaulry</publisher>
+                        <idno>RES-R-2058</idno>
+                    <edition>3e edition</edition>
+                    
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <div type="remark">
+                    <p>¶</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
