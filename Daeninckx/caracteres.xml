@@ -9,7 +9,7 @@
             </titleStmt>
             
             <publicationStmt>
-                <authority>Mickaël Daeninckx</authority>
+                <authority xml:id="mdaeninckx">Mickaël Daeninckx</authority>
                 <distributor>Université Bretagne Sud de Lorient</distributor>
                 <availability>
                     <licence></licence>
@@ -37,13 +37,57 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce projet a pour but de comparer deux remarques de deux éditions de "Les Caractères" : une édition de 1988 et une autre de 1991.</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Les mots faisant l'objet d'une césure ont été reconstruits. Les mots ont été retranscrit avec leur orthographe d'origine.
+                        Au début de chaque remarque, il y a dans le texte original un pied-de-mouche, qui n'est pas retranscrit ici.</p>
+                </normalization>
+                <quotation>
+                    <p>Les livre contiennent plusieurs chapitres qui sont représentés par des balises <gi>div</gi> avec l'attribut <att>remark</att>, dans lesquels
+                        sont représentés plusieurs remarques par la balise <gi>div</gi> avec l'attribut <att>remark</att>. Ces remarques contiennent des balises <gi>p</gi>.</p>
+                </quotation>
+            </editorialDecl>
+        </encodingDesc>
+        
+        <profileDesc>
+            <creation>
+                <date when="2025-10-06">Le 6 octobre 2025</date>
+            </creation>
+            <langUsage>
+                <language ident="fr-FR">Français</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item>philosophie</item>
+                        <item>histoire</item>
+                        <item>remarques</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change who="#mdaeninckx" when="2025-10-06">Encodage de deux remarques issues de l'édition de 1688.</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
+    
     <text>
         <body>
             <div type="chapter">
-                <div type="remark">
-                    <p>Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à notre goût et à nos sentiments ; c'est une trop grande entreprise.</p>
-                    <p>Compléter le teiHeader avec encodingDesc et profilDesc + encodage de deux remarques</p>
+                <head>Des Ouvrages de l'Esprit</head>
+                <div type="remark" n="107">
+                    <p>Quel ſupplice que celuy d'entendre prononcer de mediocres vers avec toute l'em<pb/>phaſe d'un mauvais Poëte ?</p>
+                </div>
+                <div type="remark" n="108">
+                    <p>Il y a de certaines choſes dont la mediocrité eſt inſupportable, la Poëſie, la Muſique, la Peinture, le Diſcours public.</p>
                 </div>
             </div>
         </body>
