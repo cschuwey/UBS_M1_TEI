@@ -10,35 +10,70 @@
             </titleStmt>
             <publicationStmt>
                 <p>Il s'agit d'une transcription des caractères de la Bruyère par Rémi Brincourt</p>
-                <authority resp="Rémi Brincourt">Rémi Brincourt</authority>
+                <authority resp="RémiBrincourt">Rémi Brincourt</authority>
                 <distributor>UBS-GitHub</distributor>
             </publicationStmt>
             <sourceDesc>
                 <bible xml:id="ed3">
-                    <docTitle>
-                        <titlePart type="main">Les caractères</titlePart>
-                        <titlePart type="desc">Les Caractères de Théophraste traduits du grec : avec
-                            les Caractères ou les moeurs de ce siècle. </titlePart>
+                    <title type="desc">Les Caractères de Théophraste traduits du grec : avec
+                        les Caractères ou les moeurs de ce siècle.</title>
                         <author ref="ark:/12148/cb30705982f" resp="translator author">Jean de la Bruyère</author> Available From <ref
                             target="https://catalogue.bnf.fr/ark:/12148/cb30705982f#main"
                             >https://catalogue.bnf.fr/ark:/12148/cb30705982f#main</ref>
                         <imprint>
                             <publisher>E.Michallet</publisher>
+                            <pubplace>Paris</pubplace>
                             <idno>BNF-"R-18787"</idno>
-                        <date when="1688">1688</date>
-                        </imprint>
-                        <ref
-                    </docTitle>
+                            <date when="1688">1688</date>
+                        </imprint>                                  
+                </bible>
+                <bible xml:id="ed5">
+                    <title type="desc">Les Caractères de Théophraste traduits du grec : avec
+                        les Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb30705985g" resp="translator author">Jean de la Bruyère</author> Available From <ref
+                        target="https://catalogue.bnf.fr/ark:/12148/cb30705985g"
+                        >https://catalogue.bnf.fr/ark:/12148/cb30705982f#main</ref>
+                    <imprint>
+                        <publisher>E.Michallet</publisher>
+                        <pubplace>Paris</pubplace>
+                        <idno>BNF-"R-18790"</idno>
+                        <date when="1690">1690</date>
+                    </imprint>                                  
                 </bible>
             </sourceDesc>
+            <encodingDesc>
+                <projectDesc>                  
+                    <p>l'objectif est d'identifier et rassembler le plus de remarques différentes
+                        se trouvant sur des pages et des chapitres similaires à travers les éditions de l'ouvrage.</p>
+                </projectDesc>
+                <samplingDecl>
+                    <p>Choses à dire</p>
+                </samplingDecl>
+                <editorialeDecl>
+                    <p>Choses à dire</p>
+                </editorialeDecl>
+            </encodingDesc>
+            <!-- Je ne sais pas si <encodingDesc> et <revisionDesc> appartiennent à <filesDesc> où pas. -->
+            <revisionDesc>
+                <change when="2025-06-10" ref="#RémiBrincourt"></change>
+            </revisionDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="chapter">
-                <div type="remark"
-                <p> </p>
-            </div>
-        </body>
+            <div type="chapter" n="2"> <!-- Je ne comprends pas où se trouvent les chapitres -->
+                <pb n="122"></pb> 
+                <head rends="caps">Du Merite personnel </head>
+                 <div type="remark" n="2">
+                    <p>Combien d'hommes admirables, &amp; qui avaient de tresbeaux genies
+                        sont morts sans qu'on en ait parlé? Combien vivent encore dont on ne parle point,&amp;dont on ne parlera jamais?</p>                     
+                </div>
+                <div type="remark" n="3">
+                    <p>Quelle horrible peine à un homme qui est sans (prosneurs) &amp;sans cabale,
+                        qui n'est engagé dans aucun corps, mais qui est seul,&amp;
+                        qui n'a que beaucoup de mérite pour toute recommendation, dese faire jour à travers
+                        l'obscurité où il se trouve,&amp;de venir au niveau d'un fat qui est en credir</p>
+              </div>                    
+         </body> <!-- Je ne comprends pas pourquoi il me déclare une erreur sur <body> -->
     </text>
 </TEI>
