@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmls="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères</title>
+                <author xml:id="" resp="translator author">La Bruyère</author>
+                <!-- Resp =  contient une expression décrivant la nature de la responsabilité intellectuelle d'une personne -->
+                <author>Théophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Il s'agit d'une transcription des caractères de la Bruyère par Rémi Brincourt</p>
+                <authority resp="Rémi Brincourt">Rémi Brincourt</authority>
+                <distributor>UBS-GitHub</distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <bible xml:id="ed3">
+                    <docTitle>
+                        <titlePart type="main">Les caractères</titlePart>
+                        <titlePart type="desc">Les Caractères de Théophraste traduits du grec : avec
+                            les Caractères ou les moeurs de ce siècle. </titlePart>
+                        <author ref="ark:/12148/cb30705982f" resp="translator author">Jean de la Bruyère</author> Available From <ref
+                            target="https://catalogue.bnf.fr/ark:/12148/cb30705982f#main"
+                            >https://catalogue.bnf.fr/ark:/12148/cb30705982f#main</ref>
+                        <imprint>
+                            <publisher>E.Michallet</publisher>
+                            <idno>BNF-"R-18787"</idno>
+                        <date when="1688">1688</date>
+                        </imprint>
+                        <ref
+                    </docTitle>
+                </bible>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <div type="remark"
+                <p> </p>
+            </div>
+        </body>
+    </text>
+</TEI>
