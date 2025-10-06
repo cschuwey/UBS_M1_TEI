@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle</title>
+        </titleStmt>
+        <publicationStmt>
+            <p></p>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl xml:id="ed3">
+                <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle</title>
+                <author ref="ark:/12148/cb11910249z">La bruyère, Jean de</author>
+                <date when="1688">LXXXVIII</date>
+                <edition n="3">Troisième édition </edition>
+                <publisher>E. Michallet</publisher>
+                <idno>BnF R-18787</idno>
+            </bibl>
+            <bibl xml:id="ed5">
+                <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle</title>
+                <author ref="ark:/12148/cb11910249z">La bruyère, Jean de</author>
+                <date when="1690">MDCXC</date>
+                <edition n="5">Cinquième édition</edition>
+                <publisher>E. Michallet</publisher>
+                <idno>BnF R-18790</idno>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc> 
+        <projectDesc>
+            <p>J'ai choisi de moderniser afin de faciliter la compréhension du texte.</p>   
+    </projectDesc>
+    </encodingDesc>
+    <revisionDesc> <listChange>
+        <change when="2025-10-06">Créé l’en-tête, la structure du document et les sources bibliographiques, et l'après-midi, c</change>
+    </listChange></revisionDesc>
+</teiHeader>
+    <text>
+        <body source="#ed3">
+            <div  type =" chapter " n="1">
+              <head>Des Ouvrages de l'Esprit</head>
+                
+              <div type="remark" n="1">  
+                  <p>Tout est dit, et l'οn vient trop tard depuis plus de sept mille ans qu'il y a des hommes, et qui pensent.
+                      Sur ce qui concerne les mœurs le plus beau et le meilleur est enlevé ; 
+                      l'on ne fait que glaner aprés les Anciens et les habiles d'entre les Modernes.</p>
+                  <div type="remark" n="15">  
+                      <p>Combien de siecles se sont écoulez avant que les hommes dans les sciences et dans les arts ayent pû revenir an goût des Anciens, 
+                          et reprendre enfîn le simple et le naturel</p>
+                      <p>Entre toutes les différentes expressions qui peuvent rendre une seule de nos pensées,
+                      il n'y en a qu'une qui soit la bonne ;
+                      on ne la rencontre pas toûjours en parlant, ou en écrivant ;
+                      il est vrai neanmoins qu'elle existe, que tout ce qui ne l'est point est faible,
+                      et ne satisfait point un homme d'esprit qui veut se faire entendre.</p>
+            </div>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
