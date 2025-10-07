@@ -51,15 +51,12 @@
             <head>SCENE V</head>
                 <stage type="half-title" rend="big"> Torquatus, Omphale, Phenice.</stage>
     <sp>
-        <speaker>Torquatus</speaker>
-        <lg>
+        <speaker ref="torquatus">Torquatus</speaker>
         <l>Quel fujet dans ce lieu vous ameine ?</l>
         <l>Est-ce pitié, Madame, eft-ce amour, eft-ce haine ?</l>
-        </lg>
     </sp>
     <sp>
-        <speaker>Omphale</speaker>
-        <lg>
+        <speaker ref="omphale">Omphale</speaker>
         <l>C'eft l'eftime, Seigneur, que confervent entre eux</l>
         <l>Les plus grands ennemis, quand ils font genereux.</l>
         <l>De l'injufte destin; la fiere Barbarie</l>
@@ -70,35 +67,26 @@
         <l>Et que de voftre fils la funefte avanture</l>
         <l>Jette tant de fureur dans l'ame des foldats,</l>
         <l>Que voftre gloire &amp; vous, ne s'en fauverons par.</l>
-        </lg>
     </sp>
     <sp>
-        <speaker>Torquatus</speaker>
-        <lg>
+        <speaker ref="torquatus">Torquatus</speaker>
         <l>Quoy, la princeffe Omphale eftl'enfible à ma gloire ?</l>
-        </lg>
     </sp>
     <sp>
-        <speaker>Omphale</speaker>
-        <lg>
+        <speaker ref="omphale">Omphale</speaker>
     <l>Je l'ay toûjours efté ; fi j'en croy ma memoire,</l>
     <l>Et c'eft par ce motif, que j'ay tant combatu,</l>
     <l>Un amour dont l'effet bleffoit vonftre vertu</l>
-        </lg>
     </sp>
     <sp>
-        <speaker>Torquatus</speaker>
-        <lg>
-        <l>Peut-eftre cét rgueil a t'il une autre caufe,</l>
+        <speaker ref="torquatus">Torquatus</speaker>
+        <l>Peut-eftre cét orgueil a t'il une autre caufe,</l>
         <l>Car de tous vos fecrets, nous fçavons quelque chofe,</l>
         <l>Mon fils vous fait pitié, vous craignez fon trépas.</l>
-        </lg>
     </sp>
     <sp>
-        <speaker>Omphale</speaker>
-        <lg>
+        <speaker ref="omphale">Omphale</speaker>
     <l>Il eft vray, je le crains ; je ne m'en déffens pas ;</l>
-        </lg>
     </sp>
     </div1>
 </body>
