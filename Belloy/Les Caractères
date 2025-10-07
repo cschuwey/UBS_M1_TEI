@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author>Theophraste</author>
+                <author xml:id="ark:/12148/bpt6k57572x" resp="translator author">La Bruyère</author> 
+            </titleStmt> 
+           <editionStmt><edition></edition></editionStmt>
+            <publicationStmt> 
+                <authority>Aurélie Belloy</authority>
+                <availability><licence></licence></availability>  
+            </publicationStmt>
+            <sourceDesc> 
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Theophraste...</title>
+                    <author ref="#ark:/12148/bpt6k57572x">J. de La Bruyère</author>
+                     <publisher>Etienne Michalet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">1688</date>
+                    <idno>BNF - FRBNF37242743</idno>
+                </bibl>
+                <bibl xml:id="ed7">
+                    <title>Les Caractères de Theophraste...</title>
+                    <author ref="#ark:/12148/bpt6k57572x">J. de La Bruyère</author>
+                    <publisher>Etienne Michalet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1692">1692</date>
+                    <idno>BNF - FRBNF37243213</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <div type="remark">
+                <p ref="#ed3"><pb n="135" ref="#ed3">
+                <l>plus à plaindre, ou d'une femme </l>
+                <l>avancée en âge qui a le besoin d'un </l>
+                <l>cavalier, ou d'un cavalier qui a </l>
+                <l>besoin d'une vieille.</l>
+                </p> 
+                <p ref="#ed7"><pb n="139" ref="#ed7">
+                <l>fi jeune, fi belle &amp; fi ferieufe ; je </l>
+                <l>[...]</l>
+                 <l>un Jardinier eft un homme. </l>
+                 <l>Tout eft tentation à qui la craint.</l><p>
+                    <p>
+                    <seg ref="#ed3" corresp="#ed7">
+                    <l>¶ Quelques femmes donnent </l> 
+                    <l>aux couvents &amp; à leurs amans; </l>
+                    <l>galantes &amp; bienfaitrices elles </l>
+                    <l>ont jufques dans l'enceinte de </l>
+                    <l>l'Autel des tribunes &amp; des ora-</l>
+                    <l>toires où elles lifent des bil-</l>
+                    <l>lets tendres &amp; où perfonne ne </l>
+                    <l>voit qu'elles ne prient point </l>
+                    <l>Dieu.</l>
+                    </seg>
+                    <seg ref="#ed7" corresp="#ed3">
+                    <l>¶ Quelques femmes donnent aux </l>
+                    <l>convents &amp; à leur amans; galantes </l>
+                    <l>&amp; bienfaitrices elles ont jufques dans </l>
+                    <l>l'enceinte de l'Autel des tribunes &amp; </l>
+                    <l>des oratoires où elles lifent des bil-</l>
+                    <l>lets tendres, &amp; où perfonne ne voit </l>
+                    <l>qu'elles ne prient point Dieu.</l>
+                    </p>
+                 <p ref="#ed3">
+                 <l>¶ Il y a telle femme qui aime </l>
+                 <l>mieux son argent que fes amis, </l>
+                 <l>&amp; fes amans que fon argent.</l>
+                 </p>
+                <p ref="#ed7">
+                <l>¶ Qu'eft ce qu'une femme que l'on </l>
+                <l>dirige ? eft-ce une femme plus comp-</l>
+                <pb n="140" ref="ed7">
+                <l>plaifante pour fon mari, plus dou-</l>
+                <l>ce pour fes domestiques, plus appli-</l>
+                <l>quée à fa famille &amp; à fes affaires, </l>
+                <l>plus ardente &amp; plus fincere pour fes </l>
+                <l>amis; qui foit moins efclave de fon </l>
+                <l>humeur, moins attachée à fes inte-</l>
+                <l>rêts, qui aime moins les commodi-</l>
+                <l>tez de la vie; je ne dis pas qui faffe des </l>
+                <l>largeffes à fes enfants qui feroient dé-</l>
+                <l>ja riches, mais qui opulente elle-mê-</l>
+                <l>me &amp; accablée du fuperflu leur four-</l>
+                <l>niffe le neceffaire, &amp; leur rende </l>
+                <l>au moins la juftice qu'elle leur doit; </l>
+                <l>qui foit plus exempte d'amour de </l>
+                <l>foy-même &amp; d'éloignement pour </l>
+                <l>les autres, qui foit plus libre de </l>
+                <l>tous attachement humains ? non, </l>
+                <l>dites-vous, ce n'est rient de toutes </l>
+                <l>ces chofes; j'infifte &amp; je vous de-</l>
+                <l>mande qu'eft ce donc qu'une fem-</l>
+                <l>me que l'on dirige ? je vous en-</l>
+                <l>tends, c'eft une femme qui a un Di-</l>
+                <l>recteur.</l>
+                </p>
+            </div>
+                </div>
+        </body>
+    </text>
+</TEI>
