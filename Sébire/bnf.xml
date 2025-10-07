@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
+
         <fileDesc>
+
             <titleStmt>
                 <title/>
             </titleStmt>
@@ -37,19 +39,42 @@
                     <publisher> E. Michallet (</publisher>
                     <pubPlace> Lyon </pubPlace>
                 </bibl>
-
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <p>Les remarques traduites ont été modernisées, elles ne sont pas propres à la version
+                originale.</p>
+            <p>Le texte a été encodé selon les normes TEI pour la représentation des annotations et
+                des métadonnées.</p>
+        </encodingDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when=" 2025-10-07 "> 7 octobre 2025</date> Dernière révision par Yness,
+                    encodage de la page 108 de "ed3", version de 1688 </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <p> ajouter un revision desc, comment j'ai structuré les remarques, quelle est la
-                structure qui permettrait de representer cette structure, ex : div 1 : chapitre, div
-                2 remarques, encore div type="chapter" div type=""remark" 2 remarques dans le body
-                dans lequel jindique l'exemplaire de source; le source desc doit être complètement
-                rempli pour les deux versions des 2 ouvrages : celui de 1688 et l'autre entre 1690
-                et 1694 et le revision desc</p>
-            <div>
+            <div type="Titre">
+                <head> Les caractères</head>
+
+
+                <p>
+                    <pb n="108" ed="ed3"/> Il y a de certaines choses dont la médiocrité est
+                    insupportable, la Poésie, la Musique, la Peinture, Le discours public.</p>
+
+                <p> L'on n'a guère vu jusqu'à présent un chef d'oeuvre d'esprit qui fait l'ouvrage
+                    de plusieurs; Homère a fait l'illiade, Virgile l'Eneide, Tite-Live ses decades,
+                    et L'orateur romain ses oraisons</p>
+                <p> ajouter un revision desc, comment j'ai structuré les remarques, quelle est la
+                    structure qui permettrait de representer cette structure, ex : div 1 : chapitre,
+                    div 2 remarques, encore div type="chapter" div type=""remark" 2 remarques dans
+                    le body dans lequel jindique l'exemplaire de source; le source desc doit être
+                    complètement rempli pour les deux versions des 2 ouvrages : celui de 1688 et
+                    l'autre entre 1690 et 1694 et le revision desc</p>
+
                 <p> </p>
             </div>
         </body>
