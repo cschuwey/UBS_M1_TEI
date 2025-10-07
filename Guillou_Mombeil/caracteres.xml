@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+     <fileDesc>
+         <titleStmt>
+             <title>Les Caractères de Théocraste, traduit du Grec...</title>
+         </titleStmt>
+         <publicationStmt>
+             <p>Louise Guillou Mombeil</p>
+         </publicationStmt>
+         <sourceDesc>
+             <bibl xml:id="ed3">
+                 <title>Les Cractères</title>
+                 <author ref="ark:/12148/cb11910249z">Jean De La Bruyère</author>
+                 <date when="1688">1688</date>
+                <edition n="1">1ère édition</edition>
+                 <publisher>E.Michallet</publisher>
+                 <pubPlace>Paris</pubPlace>
+                 <idno>BnF R-18787</idno>
+             </bibl>
+             <bibl xml:id="ed5">
+                 <title>Les Cractères</title>
+                 <author ref="ark:/12148/cb11910249z">Jean De La Bruyère</author>
+                 <date when="1690">1690</date>
+                 <edition n="5">5ème édition</edition>
+                 <publisher>E.Michallet</publisher>
+                 <pubPlace>Paris</pubPlace>
+                 <idno>BnF R-18790</idno>
+             </bibl>
+         </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+         <projectDesc>
+             <p>Extraits de deux éditions des Caractères de La Bruyère pour exercice au langage TEI.</p>
+         </projectDesc>
+         <editorialDecl>
+             <normalization><p>Utilisation de l'alphabet moderne. Maintient de l'orthographe du texte source.</p>
+             </normalization>
+         </editorialDecl>
+     </encodingDesc>
+     <revisionDesc>
+         <listChange>
+             <change when="2025-10-06">Création des métadonnées.</change>
+         </listChange>
+     </revisionDesc>
+ </teiHeader>
+ <text>
+     <body>
+        <div type="chapter">
+            <div type="remark">
+                <div type="paragraph">
+                <p decls="#ed3">C'est beaucoup tirer de nôtre amy, si ayant monté à une grande faveur, il est encore un homme de nôtre connoissance.</p>
+                </div>
+            </div>
+            <div type="remark">
+                <div type="paragraph">
+                <p decls="#ed3">Un esprit sain puise à la Cour le goût de la solitude et de la retraite.</p>
+                </div>
+            </div>
+        </div>
+     </body>
+ </text>
+</TEI>
