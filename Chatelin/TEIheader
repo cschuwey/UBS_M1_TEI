@@ -13,15 +13,6 @@
                 <idno></idno>
             </publicationStmt>
             <sourceDesc>
-                
-                <bibl xml:id="ed7">
-                    <title>Les Caractères</title>
-                    <author ref="#	ark:/12148/cb11910249z">La Bruyère</author>
-                    <edition>7ème édition</edition>
-                    <publisher>E.Michallet</publisher>
-                    <idno>BnF - R-18791</idno>
-                    <date when="1692">1692</date>
-                </bibl>
                 <bibl xml:id="ed3">
                     <title>Les Caractères</title>
                     <author ref="#	ark:/12148/cb11910249z">La Bruyère</author>
@@ -30,7 +21,6 @@
                     <idno>BnF - R-18787</idno>
                     <date when="1688">1688</date>
                 </bibl>
-
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -45,46 +35,27 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <front>
-            <div type="chapter">
-                <head> Du Complaisant</head>
-                <div type="remark">
-                    <p>Ou de l'envie de plaire</p>
-                </div>   
-            </div>
-        </front>
         <body>
-            <p>[...] il se récrie sur la ressemblance qu'ils ont avec leur père et que deux figues ne se ressemblent pas mieux,
-            Il les fait approcher de lui, il les baise et, les ayant fait s'asseoir à ses deux côtés, il badine avec eux,
-            à qui est, dit-il, la petite bouteille ? A qui est la jolie coignée* ? [...]</p>
-            <note>
-                <p>*Petits jouets que le grecs pendaient au cou de leurs enfants. </p>
-            </note>
-            <p>Il les prend ensuite et les laisse dormir sur son estomac[...]</p>
-            
-            <p>[...] Celui enfin qui veut plaire se fait raser souvent, a un fort grand soin de ses dents, change tout les jours
-            d'habits et les quitte presque neuf, il ne sort point en public qu'il ne soit parfumé, on ne le voit guère dans les salles
-            publiques qu'auprès des comptoirs de banquiers*</p>
-            <note>*C'était l'endroit ou s'assemblaient les plus honnêtes gens de la ville.</note>
-            <p> et dans les écoles, qu'aux endroits seulement ou s'exercent les jeunes gens [...]</p>
-            <div>
-            <front>
-                   <div type="chapter">
-                       <head> Les caractères de Theophraste traduit du grec</head>
-                       <div type="remark">
-                           <p>Ou de l'envie de plaire</p>
-                       </div>   
-                   </div>
-               </front>
-                <p>J'ai admiré souvent et j'avoue que je ne puis encore comprendre, quelques sérieuse réflexion que je fasse,
-                pourquoi toute la Grèce étant placé sous un même ciel et les grecs nourris et élevés de la* même manière</p>
-                <note>Par rapport aux barbares dont les moeurs étaient différentes</note>
-                <p>Il se trouve néanmoins si peu de ressemblance dans leurs moeurs.[...]</p>
-                <p>[...]Comme ceux qui n'étaient connus que par leurs vices, il semble que j'ai dû marquer les* caractères des uns et des autres</p>
-                <note>Theophraste avait dessein de traiter toutes les vertus et tout les vices</note>
-                <p>Et ne pas me contenter de peindre les grecs en général[...]</p>
+            <div type="chapter">
+                <head> Des ouvrages de l'esprit</head>
+                <div type="remark">
+                    <p>Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à notre goût et à nos sentiments ; 
+                    C'est une trop grande entreprise.</p>
+                </div>
+                <div type="chapter">
+                    <head> Des ouvrages de l'esprit</head>
+                    <div type="remark">
+                    <p>C'est un métier que de faire un livre comme de faire un pendule ; Il faut plus que de l'esprit pour être Auteur.
+                    Un Magistrat allait par son mérite à la première dignité, il était homme délié et pratique dans les affaires, où
+                    il fait imprimer un ouvrage moral qui est rare par le ridicule.</p>    
+            </div>
+                </div> 
             </div>
         </body>
+        
+
+        
+        
     </text>
 
 </TEI>
