@@ -52,6 +52,9 @@
                 <item>
                     <date when=" 2025-10-07 "> 7 octobre 2025</date> Dernière révision par Yness,
                     encodage de la page 108 de "ed3", version de 1688 </item>
+                <item>
+                      <date when=" 2025-10-10 "> 10 octobre 2025</date> Dernière révision par Yness,
+                    encodage de la page 120 de la"ed5", version de 1690</item>
             </list>
         </revisionDesc>
     </teiHeader>
@@ -68,14 +71,20 @@
                 <p> L'on n'a guère vu jusqu'à présent un chef d'oeuvre d'esprit qui fait l'ouvrage
                     de plusieurs; Homère a fait l'illiade, Virgile l'Eneide, Tite-Live ses decades,
                     et L'orateur romain ses oraisons</p>
-                <p> ajouter un revision desc, comment j'ai structuré les remarques, quelle est la
-                    structure qui permettrait de representer cette structure, ex : div 1 : chapitre,
-                    div 2 remarques, encore div type="chapter" div type=""remark" 2 remarques dans
-                    le body dans lequel jindique l'exemplaire de source; le source desc doit être
-                    complètement rempli pour les deux versions des 2 ouvrages : celui de 1688 et
-                    l'autre entre 1690 et 1694 et le revision desc</p>
-
-                <p> </p>
+               
+                <div type="remarque1">
+                    <p>
+                    <pb n="120" ed="ed5"/> 
+                        <p>Un homme né chrétien et français se trouve contraint dans la satyre, les grands sujets lui sont défendus; 
+                            il les entames quelquefois, et se détourne ensuite sur de petites choses qu'il relève par ma beauté de son génie et de son style</p>
+                        
+                <div type="remarque2">
+                        <p> Il faut éviter le style vain et puéril, de peur se ressembler à Dorilas et Handburg: l'on peut au contraire en une forte d'écrits hazarder de certaines expressions
+                            , user de termes transposés et qui peignent vivement, et plaindre ceux qui ne tentent pas le plaisir qu'il y a à s'en servir
+                            , ou à les entendre</p>
+                        
+                    
+        
             </div>
         </body>
     </text>
