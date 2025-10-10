@@ -34,18 +34,21 @@
     </encodingDesc>
     <revisionDesc> <listChange>
         <change when="2025-10-06">Créé l’en-tête, la structure du document et les sources bibliographiques, et l'après-midi, c</change>
+        <change when="2025-10-10"> J'ai changé les divisions et rajouté div1, div2, div3... </change>
     </listChange></revisionDesc>
 </teiHeader>
     <text>
-        <body source="#ed3">
-            <div  type =" chapter " n="1">
+        <body> 
+            <div1 type="book" n="1" source="ed3"> 
+            <div2  type ="chapter" n="1">
               <head>Des Ouvrages de l'Esprit</head>
                 
-              <div type="remark" n="1">  
+              <div3 type="remark" n="1">  
                   <p>Tout est dit, et l'οn vient trop tard depuis plus de sept mille ans qu'il y a des hommes, et qui pensent.
                       Sur ce qui concerne les mœurs le plus beau et le meilleur est enlevé ; 
-                      l'on ne fait que glaner aprés les Anciens et les habiles d'entre les Modernes.</p>
-                  <div type="remark" n="15">  
+                      l'on ne fait que glaner aprés les Anciens et les habiles d'entre les Modernes.</p> </div3>
+                 
+                  <div3 type="remark" n="15">  
                       <p>Combien de siecles se sont écoulez avant que les hommes dans les sciences et dans les arts ayent pû revenir an goût des Anciens, 
                           et reprendre enfîn le simple et le naturel</p>
                       <p>Entre toutes les différentes expressions qui peuvent rendre une seule de nos pensées,
@@ -53,9 +56,10 @@
                       on ne la rencontre pas toûjours en parlant, ou en écrivant ;
                       il est vrai neanmoins qu'elle existe, que tout ce qui ne l'est point est faible,
                       et ne satisfait point un homme d'esprit qui veut se faire entendre.</p>
-            </div>
-            </div>
-            </div>
+            
+            </div3>
+            </div2>
+                  </div1>
         </body>
     </text>
 </TEI>
