@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Téophraste traduits du grec, avec Les Caractères ou Moeurs de ce siècle</title>
+            </titleStmt>
+            <publicationStmt>
+                <p></p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Téophraste traduits du grec, avec Les Caractères ou Moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">Jean de la Bruyère</author>
+                    <date when="1688">M.LC.LXXXVIII</date>
+                    <edition n="1">1ère édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed7">
+                    <title>Les Caractères de Téophraste traduits du grec, avec Les Caractères ou Moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">Jean de la Bruyère</author>
+                    <date when="1692">1692</date>
+                    <edition n="7">7ème édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-18791</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encodage partiel des Caractères de Jean de la Bruyère (édition de 1692), dans le cadre du TD3 de TEI.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-10-11">11 octobre 2025</date>
+                    Dernière révision par Alicia MAIGRET.
+                </item>
+            </list>     
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter" xml:id="dissimulation">
+                <head>La Dissimulation</head>
+                <div type="remark" n="1">
+                    <p>La dissimulation<note>L'auteur parle de celle qui ne vient pas de la prudence et que les Grecs appelaient ironie</note>n'est pas aidée à bien définir, si l'on se contente d'en faire une simple description, l'on peut dire que c'est un certain art de composer ses paroles et ses actions pour une mauvaise fin.</p>
+                    <p>Il dit à celui qui lui emprunte de l'argent à intérêt, ou qui le prie de contribuer<note>L'auteur parle de celle qui ne vient pas de la prudence et que les Grecs appelaient ironie</note>de sa part à une somme que ses amis se contentent de lui prêter, qu'il ne vend rien, qu'il ne s'est jamais vu si dénué d'argent;</p>
+                </div>
+            </div>
+            <div type="chapter" xml:id="rusticite">
+                <head>De la Rusticite</head>
+                <div type="remark" n="8">
+                    <p>L'on voit en effet des gens rustiques et sans réflexion, sortir un jour de médecine,<note>Le texte Grec nomme une certaine drogue qui rendait l'haleine fort mauvaise le jour qu'on l'avait prise</note>et se trouver en cet état dans un lien public parmi le monde; ne pas faire la différence de l'odeur forte du thym ou de la marjolaine, d'avec les parfums les plus délicieux;</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
