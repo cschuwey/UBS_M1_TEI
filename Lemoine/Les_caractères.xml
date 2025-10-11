@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+<fileDesc>
+<titleStmt>
+    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
+    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+<respStmt>
+    <name>Lemoine Baptiste</name>
+    <resp>conversion en encodage conforme à la TEI</resp>
+</respStmt>                
+    </titleStmt>
+    <publicationStmt>
+    <p></p>
+    </publicationStmt>
+<sourceDesc>
+<bibl xml:id="ed3">
+    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
+    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+    <date when="1688">1688</date>
+    <edition n="3">3ème édition</edition>
+    <publisher>E. Michallet</publisher>
+    <pubPlace>Paris</pubPlace>
+    <idno>BnF R-18787</idno>    
+</bibl>
+<bibl xml:id="reprod">
+    <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec les caractères ou les moeurs de ce siècle</title>
+    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+    <date when="1690">1688</date>
+    <edition n="reprod">Reprod</edition>
+    <publisher>Omnisys</publisher>
+    <pubPlace>Cambridge</pubPlace>            
+</bibl>
+    </sourceDesc>            
+        </fileDesc> 
+        <encodingDesc> 
+            <projectDesc>
+                <p>Projet réalisé dans le cadre d'un cours de TEI. Le texte est structuré en chapitre puis en remarques.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Le texte a été quasiment gardé intégralement dans sa forme originale, j'ai seulement transcris les f en s</p>
+            </editorialDecl>         
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2025-10-11" who="Lemoine Baptiste">Ajout des deux remarquesn de l'encodingDesc, ProjectDesc, editorial desc et du revision desc.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+          <div type="chapter">
+              <head>Des ouvrages de l'esprit</head>              
+          <div type="remark" n="2" source="ed3">
+              <p>Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à nostre goust et à nos sentiments ; c'est un trop grande entreprise</p>
+          </div>
+              <div type="remark" n="3" source="ed3">
+              <p>C'est un métier que de faire un livre comme de faire une pendule ; il faut plus que de l'esprit pour estre auteur. Un Magistrat alloit par son mérite à la première dignité, il estoit homme délié et pratic dans les ou les Moeurs de ce Siecle. affaires : il a fait imrpimer un ouvrage qui est rare par le ridicule.</p>              
+          </div>     
+          </div>
+      </body>                                  
+    </text>
+</TEI>
