@@ -7,7 +7,9 @@
                     moeurs de ce siècle.</title>
             </titleStmt>
             <publicationStmt>
-                <p>Informations sur la publication de l’œuvre.</p>
+                <p>Encodage d'un texte de La Bruyère.</p>
+                <authority resp="LLecoeur">Louis Lecoeur</authority>
+                <distributor>Github_UBS_M1_TEI_2025</distributor>
             </publicationStmt>
             <sourceDesc>
                 <bibl xml:id="ed3-88">
@@ -38,6 +40,16 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Texte encodé en format TEI.</p>
+            </projectDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>Orthographe d'origine.</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
