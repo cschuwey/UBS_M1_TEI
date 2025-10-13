@@ -14,7 +14,7 @@
                 <distributor>UBS-GitHub</distributor>
             </publicationStmt>
             <sourceDesc>
-                <bible xml:id="ed3">
+                <bibl xml:id="ed3">
                     <title type="desc">Les Caractères de Théophraste traduits du grec : avec
                         les Caractères ou les moeurs de ce siècle.</title>
                         <author ref="ark:/12148/cb30705982f" resp="translator author">Jean de la Bruyère</author> Available From <ref
@@ -26,8 +26,8 @@
                             <idno>BNF-"R-18787"</idno>
                             <date when="1688">1688</date>
                         </imprint>                                  
-                </bible>
-                <bible xml:id="ed5">
+                </bibl>
+                <bibl xml:id="ed5">
                     <title type="desc">Les Caractères de Théophraste traduits du grec : avec
                         les Caractères ou les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb30705985g" resp="translator author">Jean de la Bruyère</author> Available From <ref
@@ -39,7 +39,7 @@
                         <idno>BNF-"R-18790"</idno>
                         <date when="1690">1690</date>
                     </imprint>                                  
-                </bible>
+                </bibl>
             </sourceDesc>
             <encodingDesc>
                 <projectDesc>                  
