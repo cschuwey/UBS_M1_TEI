@@ -1,73 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
-        <titleStmt>
-            <title>Les Caractères</title>
-            <author resp="translator author">Jean de la Bruyère</author>
-            <author>Théophraste</author>
-        </titleStmt>
-        <publicationStmt>
-            <authority>Moi</authority>
-            <distributor>UBS - Github</distributor>
-            <availability><licence></licence></availability>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl xml:id="NUMM-8704022">
-                <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
-                <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910249z"> J. de La Bruyère.</author>
-                Available from <ref target="https://catalogue.bnf.fr/ark:/12148/cb30705982f"></ref>
-                <date when="1688"/>
-                <publisher>E. Michallet</publisher>
-                <pubPlace>Paris </pubPlace>
-                <idno>BnF -  R-18787</idno>
-                <edition>3e éd.</edition>
-            </bibl>
-        </sourceDesc>
-    </fileDesc>
-    <encodingDesc> 
-        <projectDesc> 
-            <p>Texte orignellement en ancien français va être modernisé. La structure du livre a été reprise cependant. Conservation des majuscule et des spécificité propre à la forme du texte.</p>
-        </projectDesc>
-        <samplingDecl> 
-            <p> Seul deux remarque a été transcrit (p.266 à 267). Réinscription du nom du chapitre et des deuxx remarques qui suive. La ponctuation, les majuscules et tout autres détails infographique est reprit tel qu'il a présenté dans le texte.</p> 
-        </samplingDecl>
-    </encodingDesc>
-    <profileDesc> 
-        <abstract> 
-            <p>La balise "chapter" permet d'introduire un titre de chapitre et "remark" un paragraphe.</p>
-            <p>Contexte d'adaptation à la langue français moderne pour qu'il soit lisible par toute et tous. Objectif de pouvoir lire et comparer les deux éditions du textes.</p>
-            <p>Ce texte provient du chapitre "De la mode" du livre "Les caractères" de J. La Bruyère. Les deux remarques retranscripte évoque le phénomène des modes, les comportement qui en découle,
-               et prend le modèle du duel pour l'illustrer. On lira le contexte dans lequel le duel est pratiquer ainsi que son objectif, mais également la manière dont il est perçut par la société.</p> 
-        </abstract> 
-    </profileDesc>
-   <revisionDesc> 
-        <change><date  when =" 2025-08-08 "></date></change> 
-    </revisionDesc>
-</teiHeader>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author resp="translator author">Jean de la Bruyère</author>
+                <author>Théophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Moi</authority>
+                <distributor>UBS - Github</distributor>
+                <availability><licence></licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="NUMM-8704022">
+                    <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910249z"> J. de La Bruyère.</author>
+                    Available from <ref target="https://catalogue.bnf.fr/ark:/12148/cb30705982f"></ref>
+                    <date when="1688"/>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris </pubPlace>
+                    <idno>BnF -  R-18787</idno>
+                    <edition>3e éd.</edition>
+                </bibl>
+                <bibl xml:id="NUMM-30706001">
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle. [Par J. de La Bruyère.]</title>
+                    <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910249z"> J. de La Bruyère.</author>
+                    Available from <ref target="https://catalogue.bnf.fr/ark:/12148/cb307059875"></ref>
+                    <date when="1691"/>
+                    <publisher> E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF - R-52303</idno>
+                    <edition>6e éd.</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc> 
+            <projectDesc> 
+                <p>Texte orignellement en ancien français va être modernisé. La structure du livre a été reprise cependant. Conservation des majuscule et des spécificité propre à la forme du texte.</p>
+            </projectDesc>
+            <samplingDecl> 
+                <p> Seul deux remarque a été transcrit (p.266 à 267). Réinscription du nom du chapitre et des deuxx remarques qui suive. La ponctuation, les majuscules et tout autres détails infographique est reprit tel qu'il a présenté dans le texte.</p> 
+            </samplingDecl>
+        </encodingDesc>
+        <profileDesc> 
+            <abstract> 
+                <p>La balise "chapter" permet d'introduire un titre de chapitre et "remark" un paragraphe.</p>
+                <p>Contexte d'adaptation à la langue français moderne pour qu'il soit lisible par toute et tous. Objectif de pouvoir lire et comparer les deux éditions du textes.</p>
+                <p>Ce texte provient du chapitre "De la mode" du livre "Les caractères" de J. La Bruyère. Les deux remarques retranscripte évoque le phénomène des modes, les comportement qui en découle,
+                    et prend le modèle du duel pour l'illustrer. On lira le contexte dans lequel le duel est pratiquer ainsi que son objectif, mais également la manière dont il est perçut par la société.</p> 
+            </abstract> 
+        </profileDesc>
+        <revisionDesc> 
+            <change><date  when =" 2025-08-08 "></date></change> 
+        </revisionDesc>
+    </teiHeader>
     <text>
         <body>
             <div type="chapter"><head>De La Mode.</head>
                 <div type="remark">
                     <p>Une chose folle et qui découvre nostre petitesse, c'est l'assujettissement aux modes
-                    quand on l'étend à ce qui concerne le goust, le vivre, la fanté et la conscience. La viande
-                    noire est hors de mode et par cette raison insipide : ce seroit pecher contre la mode que de
-                    guerir de ma fièvre par la faignée : de même l'on ne mouroit plus depuis long temps par <tag>Théotime ; </tag>
-                    ses tendres exhortations ne fauvoient plus que le peuple, et <tag>Theot. </tag>a veu son successeur.</p>
-            </div>
+                        quand on l'étend à ce qui concerne le goust, le vivre, la fanté et la conscience. La viande
+                        noire est hors de mode et par cette raison insipide : ce seroit pecher contre la mode que de
+                        guerir de ma fièvre par la faignée : de même l'on ne mouroit plus depuis long temps par <tag>Théotime ; </tag>
+                        ses tendres exhortations ne fauvoient plus que le peuple, et <tag>Theot. </tag>a veu son successeur.</p>
+                </div>
                 <div type="remark">
                     <p>Le duel est le triomphe de la mode, et l'endroit où elle a exercé
-                    sa tyrannie avec plus d'éclat ; cet usage n'a pas laissé au  poltron
-                    la liberté de vivre, il l'a mené se faire tuer par un plus brave que soi,
-                    et l'a confondu avec un homme de cœur ; il a attaché de l'honneur et de la gloire
-                    à une action folle et extravagante ; il a esté approuvé par la presence des Rois ; 
-                    il y a eu quelquefois une espece de religion à le pratiquer ; il a decidé
-                    de l'innocence des hommes, des accusations fausses ou veritables sur des crimes
-                    capitaux ; il sestoit enfin si profondement enraciné dans l'opinion des peuples,
-                    et s'estoit si fort saisi de leur cœur et de leur esprit, qu'un des plus beaux
-                    endroits de la vie d'un très-grand Roi a esté de les guerir de cette folie.</p>
+                        sa tyrannie avec plus d'éclat ; cet usage n'a pas laissé au  poltron
+                        la liberté de vivre, il l'a mené se faire tuer par un plus brave que soi,
+                        et l'a confondu avec un homme de cœur ; il a attaché de l'honneur et de la gloire
+                        à une action folle et extravagante ; il a esté approuvé par la presence des Rois ; 
+                        il y a eu quelquefois une espece de religion à le pratiquer ; il a decidé
+                        de l'innocence des hommes, des accusations fausses ou veritables sur des crimes
+                        capitaux ; il sestoit enfin si profondement enraciné dans l'opinion des peuples,
+                        et s'estoit si fort saisi de leur cœur et de leur esprit, qu'un des plus beaux
+                        endroits de la vie d'un très-grand Roi a esté de les guerir de cette folie.</p>
                 </div>
             </div>
         </body>
     </text>
 </TEI>
+
+
