@@ -1,4 +1,6 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -16,7 +18,6 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl xml:id="ed3">
-                 
                     <author ref="ark:/12148/cb11910249z">Jean de La Bruyère</author>
                     <title type="main">Les caractères</title>
                     <title type="desc">Les caractères de Théophraste, traduit du grec, avec les
@@ -25,7 +26,18 @@
                     <pubPlace>Paris</pubPlace>
                     <publisher>E. Michallet</publisher>
                     <idno>R-18787</idno>
-                    <edition>3e edition</edition>
+                    <edition>3e édition</edition>
+                </bibl>
+                <bibl xml:id="ed7">
+                    <author ref="ark:/12148/cb11910249z">Jean de La Bruyère</author>
+                    <title type="main">Les caractères</title>
+                    <title type="desc">Les caractères de Théophraste, traduit du grec, avec les
+                        Caractères ou Les moeurs de ce siècle.</title>
+                    <date when="1692">1692</date>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>E. Michallet</publisher>
+                    <idno>R-18791</idno>
+                    <edition>7e édition</edition>
                 </bibl>
             </sourceDesc>
         </fileDesc>
