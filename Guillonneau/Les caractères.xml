@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophrase; traduits du Grec,avec les Caractères ou les
+                    moeurs de ce siècle. </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Pauline Guillonneau</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les caractères de Théophrase; traduits du Grec,avec les Caractères ou les
+                        moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère</author>
+                    <date when="1688">M.LC.LXXXVIII</date>
+                    <edition n="3">3ère édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno type="COTE">BnF R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed5">
+                    <title>Les caractères de Théophrase; traduits du Grec,avec les Caractères ou les
+                        moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                    <date when="1690" xml:id="r1688">M.LC.LXXXVIII</date>
+                    <edition n="5">5ème édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno type="COTE">BnF R-18790</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier a été encodé dans le cadre du cours XML/TEI à l'université Bretagne
+                    sud, en suivant les recommandations TEI P5.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Les abréviations du manuscrit ont été développées, les variantes orthographiques
+                    conservées, et les notes de bas de page modernisées.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2025-10-17">17 Octobre 2025</date> Dernière modification <date
+                        when="2025-10-06">06 Octobre 2025</date> Première modification </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapitre">
+                <p> Des grands</p>
+            </div>  
+            <div type="remark" corresp="r1688" >
+                <p>L'avantage des grands fut les autres hommes est immense par un endroit : je leur
+                    cède leur bonne chere, leurs riches ameublements, leurs chiens, leurs chevaux,
+                    leurs finges, leurs nains, leurs fous et leurs flateurs ; mais je leur envie le
+                    bonheur d'avoir à leur service des gens qui les égalent par le coeur et par
+                    l'esprit, et qui les passent quelque fois.</p>
+            </div>
+            <div type="chapitre">
+                <p>Des jugements</p>
+            </div>
+            <div type="remark" corresp="r1688" >
+                <p>Il n'y a rien de plus bas et qui convienne mieux au peuple, que de parler en des
+                    termes magnifiques de ceux-même dont l'on perçoit très modestement avant leur
+                    élevation. L'on ne pense as toujours constamment d'un même sujet : l'entêtement
+                    et le dégoût de suivent de près. Les grandes choses étonnent et les petites
+                    rebutent ; nous nous apprivoisons avec les uns et les autre par habitude. </p>
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>
