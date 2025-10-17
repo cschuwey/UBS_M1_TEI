@@ -1,57 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-    <fileDesc>
-        <titleStmt>
-            <title>Les Caractères ou Les Moeurs de ce siècle.</title>
-            <author ref="ark:/12148/cb11910249z" resp="translator author">La Bruyère</author>
-            <author>Théophraste</author>
-        </titleStmt>
-        <publicationStmt>
-            <authority>Luna CHRISTOPHE ISKANDAR</authority>
-            <distributor>UBS - GitHub</distributor>
-            <availability>
-                <licence></licence>
-            </availability>
-            <p>Ceci est une édition numérique des Caractères de La Bruyère</p>
-        </publicationStmt>
-        <sourceDesc>
-            <bibl xml:id="ed3">
-                <author ref="ark:/12148/cb11910249z">
-                    <surname>Jean de</surname>,<forename>La Bruyère</forename>
-                </author>
-                <edition>3e édition</edition>
-                <publisher>E.Michallet</publisher>
-                <pubPlace>Paris</pubPlace>
-                <date when="1688">MDCLXXXVIII</date>
-                <idNo>BnF - R-18787</idNo>
-            </bibl>
-            <bibl xml:id="ed5">
-                <author ref="ark:/12148/cb11910249z">
-                    <surname>Jean de</surname>,<forename>La Bruyère</forename>
-                </author>
-                <edition>5e édition</edition>
-                <publisher>E.Michallet</publisher>
-                <pubPlace>Paris</pubPlace>
-                <date when="1690">MDCXC</date>
-                <idNo>BnF - R-18790</idNo>
-                <!-- Suite à l'ajout de la balise <TEI>, c'est passé en erreur mais je n'arrive pas à comprendre pourquoi. Pareil pour le <p> au-dessus.-->
-            </bibl>
-        </sourceDesc>
-    </fileDesc>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères ou Les Moeurs de ce siècle.</title>
+                <author ref="ark:/12148/cb11910249z" resp="translator author">La Bruyère</author>
+                <author>Théophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:id="LunaCI">Luna CHRISTOPHE ISKANDAR</authority>
+                <distributor>UBS - GitHub</distributor>
+                <availability>
+                    <licence/>
+                </availability>
+                <p>Ceci est une édition numérique des Caractères de La Bruyère</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <author ref="ark:/12148/cb11910249z">
+                        <surname>Jean de</surname>,<forename>La Bruyère</forename>
+                    </author>
+                    <edition>3e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">MDCLXXXVIII</date>
+                    <idNo>BnF - R-18787</idNo>
+                </bibl>
+                <bibl xml:id="ed5">
+                    <author ref="ark:/12148/cb11910249z">
+                        <surname>Jean de</surname>,<forename>La Bruyère</forename>
+                    </author>
+                    <edition>5e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1690">MDCXC</date>
+                    <idNo>BnF - R-18790</idNo>
+                    <!-- Suite à l'ajout de la balise <TEI>, c'est passé en erreur mais je n'arrive pas à comprendre pourquoi. Pareil pour le <p> au-dessus.-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Edition de 1688 pour les deux remarques suivantes.</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>La grammaire et l'orthographe ont été respectées comme dans le texte
+                        original.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2025-10-17" who="#LunaCI">Ajout de deux remarques
+                supplémentaires.</change>
+        </revisionDesc>
 
-</teiHeader>
-<text>
-    <body>
-        <div type="chapter">
-            <head>Des Jugemens.</head>
-            <div type="remark">
-                <p>RIen ne ressemble mieux à la vive persuasion que le mauvais entêtement ; de là les partis, les cabales, les heresies.</p>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <head>Des Jugemens.</head>
                 <div type="remark">
-                <p>L'on ne pense pas toûjours constamment d'un mesme sujet : l'entêtement &amp; le dégoût se suivent de prés</p>
+                    <p>RIen ne ressemble mieux à la vive persuasion que le mauvais entêtement ; de
+                        là les partis, les cabales, les heresies.</p>
+                    <div type="remark">
+                        <p>L'on ne pense pas toûjours constamment d'un mesme sujet : l'entêtement
+                            &amp; le dégoût se suivent de prés</p>
+                        <div type="remark">
+                            <p>Les grandes choses étonnent &amp; les petites rebutent;nous nous
+                                apprivoisons avecles unes &amp; les autres par l'habitude.</p>
+                            <div type="remark">
+                                <p>Il n'y a rien de plus bas &amp; qui convienne mieux au peuple,
+                                    que de parler en des termes magnifiques de ceux- mesme dont l'on
+                                    pensoit tres-modestement avant leur élevation.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </body>
-</text>
+        </body>
+    </text>
 </TEI>
