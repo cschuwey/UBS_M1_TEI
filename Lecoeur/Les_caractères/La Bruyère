@@ -46,17 +46,27 @@
             </projectDesc>
             <editorialDecl>
                 <interpretation>
-                    <p>Orthographe d'origine.</p>
+                    <p>Transcription avec l'orthographe d'origine.</p>
                 </interpretation>
             </editorialDecl>
         </encodingDesc>
+        <revisionDesc>
+            <change when="2025-10-18" who="#LLecoeur">Devoir rendu.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="chapter">
-                <div type="remark">
-                    <p/>
-                    <p/>
+            <!-- j'hésite à inclure ces deux chapitres dans un div qui correspond au volume traité, ou alors utiliser comme j'ai fait le tag défini plus haut -->
+            <div source="#ed3-88" type="chapter" n="34"> <!-- en començant à compter les chapitres à partir de la page 1 du livre et non pas NP -->
+                <head>De la Societe' et de la Conservation</head>
+                <div type="remark" n="1"> <!-- page 147 -->
+                    <p>¶ C'eſt le rôle d'un ſot d'eſtre importun : un homme habile ſent s'il convient, ou s'il ennuye, il ſçait diſparoiſtre le moment qui précède celuy où il ſeroit de trop quelque part.</p>
+                </div>
+            </div>
+            <div source="#ed3-88" type="chapter" n="40"> <!-- en començant à compter les chapitres à partir de la page 1 du livre et non pas NP -->
+                <head>De l'Homme</head> <!-- page 219 -->
+                <div type="remark" n="62"> <!-- page 247 à 248 -->
+                    <p>¶ Les hommes agiſſent mollement dans les choſes qui ſont de leur devoir, pendant qu'ils ſe font un merite ou plûtoſt une vanité de s'empreſſer pour celles qui leur ſont étrangeres, &amp; qui ne conviennent ny à leur état, ny à leur caractere.</p>
                 </div>
             </div>
         </body>
