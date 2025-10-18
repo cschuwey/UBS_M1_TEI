@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title> <Les caractères de Théophraste></title>
+            <subtitle>Avec les caractères ou les Mœurs de ce Siècle‎</subtitle>
+        </titleStmt> 
+    <profileDesc>
+        <langUsage>
+            <language ident="fr">Français</language>
+        </langUsage>
+        </profileDesc>
+        <SourceDesc>
+            <bibl xml:id="ed3">
+                <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
+                <author>La Bruyère, Jean de</author>
+                <date when="1688">1688</date>
+                <edition n="3">Troisième édition</edition>
+                <publisher>Michallet, Estienne</publisher>
+                <pubPlace><town>Paris</town><country>France</country></pubPlace>
+                <idno>BnF R-18787</idno>
+                </bibl>
+            <bibl xml:id="ed5">
+                <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
+                <author>La Bruyère, Jean de</author>
+                <date when="1690">1690</date>
+                <edition n="5">Cinquième édition</edition>
+                <publisher>Michallet, Estienne</publisher>
+                <pubPlace></pubPlace><town>Paris</town><country>France</country></pubPlace>
+                <idno>BnF R-18790</idno>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+            <projectDesc>Travail/test de comparaisons de versions des Caractères, quelques exemples.
+            Version 3 dès page 182, version 5 dès page 253</projectDesc>
+</teiHeader>
+<text>
+    <body>
+        <div type="chapitre" n="8">
+            <head>De la Cour</head>
+            <p type='unique ed3'>Toutes les vues, toutes les maximes et tous les raffinements de la politique tendent à une seule fin, qui est de n'être point trompé, et de tromper les autres.</p>
+            <p type='rajout ed5'>Qui peut nommer de certaines couleurs changeantes, et qui sont diverses selon les divers jours dont on les regarde ; de même qui peut définir la Cour ?</p>
+            <p type='rajout ed5'>Se dérober un seul moment à la Cour, c'est y renoncer. Le courtisan qui l'a vue le matin, qui la voie le soir, pour la reconnaître le lendemain, ou afin que lui-mêm y soit connu.
+        </div>
+    </body>
+</text>
