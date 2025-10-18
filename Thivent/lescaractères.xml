@@ -4,8 +4,8 @@
         <fileDesc>
             <titleStmt>
                 <title>Les caractères de Théophraste</title>
-                <author></author>
-                
+                <author/>
+
             </titleStmt>
             <publicationStmt>
                 <p>Nova Thivent</p>
@@ -13,8 +13,9 @@
             <sourceDesc>
                 <bibl xml:id="ed3-88">
                     <title>Les caractères de Théophraste</title>
-                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
-                    Available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704021q">https://gallica.bnf.fr/ark:/12148/bpt6k8704021q</ref>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author> Available from
+                        <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704021q"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k8704021q</ref>
                     <date when="1688">1688</date>
                     <edition n="3">Troisième édition</edition>
                     <publisher>E.Michallet</publisher>
@@ -22,25 +23,35 @@
                 </bibl>
                 <bibl xml:id="ed3-90">
                     <title>Les caractères de Théophraste</title>
-                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
-                    Available from <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704021q">https://gallica.bnf.fr/ark:/12148/bpt6k8704021q</ref>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author> Available from
+                        <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704021q"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k8704021q</ref>
                     <date when="1690">1690</date>
                     <edition n="3">Troisième édition</edition>
                     <publisher>E.Michallet</publisher>
                     <idno>BNF R-18787</idno>
-                </bibl>  
+                </bibl>
             </sourceDesc>
         </fileDesc>
-    </teiHeader>   
+        <encodingDesc>
+            <projectDesc>
+                <p>Texte encodé au format XML</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Transcription en français moderne.</p>
+            </editorialDecl>
+        </encodingDesc>
+        
+    </teiHeader>
     <text>
         <body>
             <div type="chapter">
-            <div type="remark">
-                <p>Un homme né chrétien et français est embarassé dans la satyre, les grands sujets lui sont défendus, il les entame quelques fois</p> 
-            </div>
-            <div type="remark">
-                <p></p>
+                <div type="remark">
+                    <p>Un homme né chrétien et français est embarassé dans la satyre, les grands
+                        sujets lui sont défendus, il les entame quelques fois</p>
+                    <p>Ici la deuxième remarque </p>
                 </div>
+                
             </div>
         </body>
     </text>
