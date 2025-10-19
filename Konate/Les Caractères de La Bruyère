@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les caractères de Théophraste traduits du grec : avec les caractères ou les moeurs de ce siècle</title>
+        <author>Jean de La Bruyere</author>
+        <respStmt>
+          <resp>Encodage TEI</resp>
+          <name>Konate</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>chez Etienne Michalletchez Etienne Michallet</publisher>
+        <pubPlace>Paris</pubPlace>
+        <date>1688</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl xml:id="edition1688">
+          <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle ([Reprod.]) / [par Jean de La Bruyère]</title>
+          <author>Jean de La Bruyère</author>
+          <publisher>chez Etienne Michalletchez Etienne Michallet</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date when="1688">1688</date>
+          <idno type="url">https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22Les%20Caract%C3%A8res%20de%20Th%C3%A9ophraste%2C%20traduits%20du%20grec%2C%20avec%20les%20Caract%C3%A8res%20ou%20les%20m%C5%93urs%20de%20ce%20si%C3%A8cle.%22%29&lang=fr&suggest=0</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>Transcription de deux remarques du "CHAPITRE I. DES OUVRAGES DE L’ESPRIT" issues de l’édition de 1688</p>
+      </projectDesc>
+    </encodingDesc>
+
+    <revisionDesc>
+      <change when="2025-10-18" who="#konate">Création du fichier TEI, encodage du teiHeader, transcription de deux remarques du "CHAPITRE I. DES OUVRAGES DE L’ESPRIT" depuis l’édition de 1688</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="chapitre" xml:id="DES OUVRAGES DE L’ESPRIT">
+        <head>CHAPITRE I : DES OUVRAGES DE L’ESPRIT</head>
+
+        <div type="remarque" xml:id="remarque1" source="#edition1688">
+          <p>Tout est dit, et l’on vient trop tard depuis plus de sept mille ans qu’il y a 
+            des hommes, et qui pensent. Sur ce qui concerne les mœurs, le plus beau et 
+            le meilleur est enlevé ; l’on ne fait que glaner après les anciens et les 
+            habiles d’entre les modernes.
+              Il faut chercher seulement à penser et à parler juste, sans vouloir amener 
+            les autres à notre goût et à nos sentiments : c’est une trop grande 
+            entreprise.</p>
+        </div>
+
+        <div type="remarque" xml:id="remarque2" source="#edition1688">
+          <p>Un ouvrage satirique ou qui contient des faits, qui est donné en feuilles 
+            sous le manteau aux conditions d’être rendu de même, s’il est médiocre, 
+            passe pour merveilleux, l’impression est l’écueil.
+              Si l’on ôte de beaucoup d’ouvrages de morale l’avertissement au lecteur, 
+            l’épitre dédicatoire, la préface, la table, les approbations, il reste à peine 
+            assez de pages pour mériter le nom de livre.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
