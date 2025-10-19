@@ -1,0 +1,47 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head type="principal">IOVISSANCE.</head>
+            <head type="soustitre">SONNET.</head>
+            <lg type="quatrain" rhyme="abba">
+                <l>Aujour'huy dans tes bras i'ay demeuré paſmée,</l>
+                <l>Aujourd'huy, chère Tirſis, ton amoureuſe ardeur</l>
+                <l>Triomphe impunément de toute ma pudeur,</l>
+                <l>Et ie code aux tranſports dont mon ame eſt charmée,</l>
+            </lg>
+            <lg type="quatrain" rhyme="abba">
+                <l>Ta flamme &amp; ton reſpect m'ont enfin deſarmée,</l>
+                <l>Dans nos embraſſemens ie mets tout mon bon-heur</l>
+                <l>Et ie ne connois plus de vertu ny d'honneur,</l>
+                <l>Puis que i'ayme Tirſis, &amp; que i'en ſuis aimée.</l>
+            </lg>
+            <lg type="tercet" rhyme="ccd">
+                <l>O vous ! foibles eſprits qui ne conoiſſez pas</l>
+                <l>Les plaiſirs les plus doux que l'on gouſte icy bas,</l>
+                <l>Apprenez les traſports dont mon ame eſt rauie.</l>
+            </lg>
+            <lg type="tercet" rhyme="eed">
+                <l>Vne douce langueur m'oſte le ſentiment,</l>
+                <l>I meurs entre les bras de mon fidelle Amant,</l>
+                <l>Et c'eſt dans cette mort que ie trouue la vie</l>
+            </lg>
+        </body>
+    </text>
+    
+</TEI>
