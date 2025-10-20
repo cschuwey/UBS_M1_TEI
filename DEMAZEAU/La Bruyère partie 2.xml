@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author resp="translator author">La Bruyère</author>
+                <author>Theophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Aony</authority>
+                <distributor>UBS - GitHub</distributor>
+                <availability>
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3_NUMM-8704022">
+                    <author ref="ark:/12148/cb30705982f">J. De la Bruyère</author>
+                    <title level="m">Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé])</title>
+                    <edition>3e. édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF - R-18787</idno>
+                    <date when="1688">1688</date>
+                </bibl>
+                <bibl xml:id="ed6_NUMM-8712342">
+                    <author ref="ark:/12148/cb307059875">J. De la Bruyère</author>
+                    <title level="m">Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
+                    <edition>6e. édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF - R-52303</idno>
+                    <date when="1691">1691</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Reproduction du texte, encodé en TEI.</p>
+            </projectDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p>Orthographe modernisé.</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="2014-06-04">Le 4 juin 2014</date>
+            </creation>
+            <langUsage>
+                <language ident="fr">Français</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://catalogue.bnf.fr/ark:/12148/cb30705982f">
+                    <term>Roman</term>
+                    <term>La Bruyère</term>
+                    <term>Les Caractères</term>
+                    <term>1688</term>
+                    <term>XVIIe siècle</term>
+                </keywords>
+            </textClass>
+            <creation>
+                <date when="2016-06-29">Le 29 juin 2016</date>
+            </creation>
+            <langUsage>
+                <language ident="fr">Français</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://catalogue.bnf.fr/ark:/12148/cb307059875">
+                    <term>Roman</term>
+                    <term>La Bruyère</term>
+                    <term>Les Caractères</term>
+                    <term>1691</term>
+                    <term>XVIIe siècle</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-04">Création du fichier de 1688</change>
+            <change when="2016-06-29">Création du fichier de 1691</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div1><head>Les caractères de Théophraste traduit du grec : avec les caractères ou les moeurs de ce siècle</head>
+            </div1>
+        </front>
+        <body>
+            <div1><head>Discours sur Théophraste</head>
+                <div2 type="foreword" xml:id="avant_propos1"></div2></div1>
+            <div1><head>Les caractères de Théophraste traduit du grec</head>
+                <div2 type="foreword" xml:id="avant_propos2"></div2>
+                <div2 type="toc"><head>Table des matières</head></div2>
+            </div1>
+            <div1><head>Les caractères ou les moeurs de ce siècle</head>
+                <div2 type="foreword" xml:id="avant_propos3"></div2>
+                <div2 type="toc"><head>Table des matières</head></div2>
+                
+            <div2 type="chapter" n="1" source="Les caractères ou les moeurs de ce siècle">
+                <head>Les ouvrages de l'Esprit</head>
+                <div3 type="remark" n="16">
+                    <div4>
+                    <p source="ed3_NUMM-8704022"> Un bon Auteur, et qui écrit avec soin, éprouve souvent que l'expression qu'il
+                        cherchait depuis longtemps sans la connaître, et qu'il a enfin trouvée, est
+                        celle qui était la plus simple, la plus naturelle, qui semblait devoir se
+                        présenter d'abord et sans effort.</p>
+                    </div4>
+                </div3>
+                <div3 type="remark" n="22">
+                    <div4>
+                    <p source="ed3_NUMM-8704022">Ceux qui par leur condition se trouvent exempts de la joulise d'Auteur, ont
+                        ou des passions, ou des besoins qui les distraient, et les rendent froids
+                        sur les conceptions d'autrui : personne presque par la disposition de son
+                        esprit, de son coeur, et de sa fortune n'est en état de se livrer au plaisir
+                        que la perfection d'un ouvrage.</p>
+                    </div4>
+                </div3>
+            </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
