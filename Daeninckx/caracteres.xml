@@ -75,29 +75,69 @@
         <revisionDesc>
             <listChange>
                 <change who="#mdaeninckx" when="2025-10-06">Encodage de deux remarques issues de l'édition de 1688.</change>
-                <change who="#mdaeninckx" when="2025-10-20">Ajout de la source de chaque remarque.</change>
+                <change who="#mdaeninckx" when="2025-10-20">Ajout de la structure générale de l'ouvrage, ainsi que changement des deux remarques choisies, afin d'avoir plus de </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     
-    <!-- L'élément <front> pourrait contenir le discours sur Theophraste, car cette partie n'est pas paginée, et ressemble à une préface. -->
-    <!-- L'élément <body> pourrait contenir deux <div>, l'un étant "Les caractères de Theophraste traduits du grec",
-        et l'autre étant "Les caractères ou les moeurs de ce siècle". Chacuns de ces éléments contiennent des chapitres, et ces chapitres contiennent des remarques,
-        qui contiennent elles-mêmes des paragraphes.-->
-    <!-- Une division <back> pourrait ensuite être utilisée pour la partie "Extrait du Privilege du Roy." -->
-    
-    <!-- Pour la prochaine fois, structurer le texte selon les divers éléments, et commenter ce que chaque partie est -->
     <text>
         <body>
-            <div type="chapter">
-                <head>Des Ouvrages de l'Esprit</head>
-                <div type="remark" n="110">
-                    <p source="#ed3_ex1">Un bon Auteur, &amp; qui écrit avec ſoin, éprouve ſouvent que l'expreſſion qu'il cherchoir depuis long-temps ſans la connoître,
-                        &amp; qu'il a enfin trouvée, eſt celle qui eſtoit la plus simple, la plus naturelle, qui ſembloit devoir ſe presenter d'abord &amp; ſans effort.<pb /></p>
+            <div type="part" n="1">
+                <head>Discours sur Theophraste</head>
+                <!-- Cette partie contient le contenu de la partie "Discours sur Theophraste" -->
+            </div>
+            
+            <div type="part" n="2">
+                <head type="title">Les caractères de Théophraste</head>
+                <head type="subtitle">traduits du grec</head>
+                <div type="part_introduction">
+                    <!-- Cette partie contient l'introduction de la partie "Les caractères de Théophraste traduits du grec" -->
                 </div>
-                <div type="remark" n="111">
-                    <p source="#ed3_ex1">Ceux qui écrivent par humeur, ſont ſujets à retoucher à leurs ouvrages;comme elle n'eſt pas toûjours fixe, &amp; qu'elle varie en eux ſelon
-                        les occaſions, ils ſe refroidiſſent bien-toſt pour les expreſſions &amp; les termes qu'ils ont le plus aimez.</p>
+                <div type="table_of_contents">
+                    <!-- Cette partie contient la table des matières de la partie "Les caractères de Théophraste traduits du grec" -->
+                </div>
+                <div type="chapter" n="1">
+                    <head rend="uppercase">De la dissimulation</head>
+                    <!-- Cette partie contient le contenu du premier chapitre de la partie "Les caractères de Théophraste traduits du grec" -->
+                    <p></p>
+                </div>
+            </div>
+            
+            <div type="part" n="3">
+                <head type="title">Les caractères</head>
+                <head type="subtitle">ou les moeurs de ce siècle</head>
+                <div type="part_introduction">
+                    <!-- Cette partie contient l'introduction de la partie "Les caractères ou les moeurs de ce siècle" -->
+                </div>
+                <div type="table_of_contents">
+                    <!-- Cette partie contient la table des matières de la partie "Les caractères ou les moeurs de ce siècle" -->
+                    <list>
+                        <item n="1">Des ouvrages de l'eſprit</item>
+                        <item n="2">Du merite perſonnel</item>
+                        <item n="3">Des femmes</item>
+                        <item n="4">Du cœur</item>
+                        <item n="5">De la société &amp; de la Converſation</item>
+                        <!-- Cette partie contient la liste des chapitres de la table des matières -->
+                    </list>
+                </div>
+                <div type="chapter" n="1">
+                    <head rend="uppercase">Des ouvrages de l'esprit</head>
+                    <div type="chapter_introduction">
+                        <!-- Cette partie contient le contenu de l'introduction du premier chapitre de la partie "Les caractères ou les moeurs de ce siècle" -->
+                        <p></p>
+                    </div>
+                    <div type="remark" n="1">
+                        <!-- Cette partie contient le contenu de la première remarque du premier chapitre de la partie "Les caractères ou les moeurs de ce siècle" -->
+                        <p></p>
+                    </div>
+                    <div type="remark" n="15">
+                        <p source="#ed3_ex1">Un bon Auteur, &amp; qui écrit avec ſoin, éprouve ſouvent que l'expreſſion qu'il cherchoir depuis long-temps ſans la connoître,
+                            &amp; qu'il a enfin trouvée, eſt celle qui eſtoit la plus simple, la plus naturelle, qui ſembloit devoir ſe presenter d'abord &amp; ſans effort.<pb type="pageNum" n="111" /></p>
+                    </div>
+                    <div type="remark" n="16">
+                        <p source="#ed3_ex1">Ceux qui écrivent par humeur, ſont ſujets à retoucher à leurs ouvrages;comme elle n'eſt pas toûjours fixe, &amp; qu'elle varie en eux ſelon
+                            les occaſions, ils ſe refroidiſſent bien-toſt pour les expreſſions &amp; les termes qu'ils ont le plus aimez.</p>
+                    </div>
                 </div>
             </div>
         </body>
