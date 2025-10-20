@@ -11,7 +11,7 @@
                 <p>Nova Thivent</p>
             </publicationStmt>
             <sourceDesc>
-                <bibl xml:id="ed3-88">
+                <bibl xml:id="ed3_ex1">
                     <title>Les caractères de Théophraste</title>
                     <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author> Available from
                         <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704021q"
@@ -21,7 +21,7 @@
                     <publisher>E.Michallet</publisher>
                     <idno>BNF R-18787</idno>
                 </bibl>
-                <bibl xml:id="ed3-90">
+                <bibl xml:id="ed3_ex2">
                     <title>Les caractères de Théophraste</title>
                     <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author> Available from
                         <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704021q"
@@ -47,8 +47,8 @@
     </teiHeader>
     <text>
         <body>
-            <div type="chapter">
-                <head type="chaptertitle">Des ouvrages de l'esprit</head>
+            <div type="chapter" source="#ed3_ex1">
+                <head>Des ouvrages de l'esprit</head>
                 <div type="remark">
                     <p>C'est un métier que de faire un livre comme de faire une pendule. IL faut
                         plus que de l'esprit pour être auteur. Un magistrat allait par son mérite à
