@@ -2,7 +2,7 @@
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-
+        
         <fileDesc>
             <titleStmt>
                 <!-- ref à la bruyère hors du document. Site pour trouver des id en lien avec tout le monde : data.bnf.fr ou viaf.org ou isni.fr !-->
@@ -11,7 +11,7 @@
                     Bruyère</author>
                 <author>Théophraste</author>
             </titleStmt>
-
+            
             <publicationStmt>
                 <!--  publication statement du fichier xml et non des caractères !-->
                 <authority>Matéo Davienne</authority>
@@ -20,8 +20,8 @@
                     <licence/>
                 </availability>
             </publicationStmt>
-
-
+            
+            
             <sourceDesc>
                 <bibl xml:id="ed3">
                     <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
@@ -34,7 +34,7 @@
                     <idno>BnF R-18787</idno>
                     <edition n="3">3e édition</edition>
                 </bibl>
-
+                
                 <bibl xml:id="ed7">
                     <title>Les caractères de Théophraste, traduits du grec, avec les Caractères ou
                         Les moeurs de ce siècle.</title>
@@ -46,18 +46,18 @@
                     <idno>BnF R-18791</idno>
                     <edition n="7">7e édition</edition>
                 </bibl>
-
-
+                
+                
             </sourceDesc>
         </fileDesc>
-
+        
         <encodingDesc>
             <projectDesc>
                 <p>Encodage de remarques des Caractères de La Bruyère et de ses variantes, entre les versions de 1688 et 1692</p>
             </projectDesc>
         </encodingDesc>
-
-
+        
+        
         <revisionDesc>
             <listChange>
                 <change when="2025-10-06">Création du dcoument et du fileDesc</change>
@@ -65,14 +65,14 @@
                     + encodingDesc</change>
             </listChange>
         </revisionDesc>
-
-
-
+        
+        
+        
     </teiHeader>
-
+    
     <text>
         <body>
-
+            
             <div type="chapter">
                 <div type="remark">
                     <!--  version de 1688 : page 286-287 // version de 1692 : page 434 !-->
@@ -91,11 +91,20 @@
                         &amp; conſtans dans le mal, ou dans l'indifference pour la vertu.</p>
                 </div>
             </div>
-
+            
         </body>
-
+        
     </text>
-
-
+    
+    
 </TEI>
-<!--  encoder deux remarques pas trop longues mais avec suffisamment de variantes, et l'encodingdesc et le revisiondesc !-->
+
+<!--  
+    hierarchie des caracteres : 
+    - discours sur théophraste
+    - les caractères de théophraste (introduction, puis sommaire, puis texte classé par chapitre)
+    - les caractères ou les moeurs de ce siècle (introduction, puis sommaire, puis texte classé par chapitre (avec dedans des remarques))
+    - extrait du privilège du roy
+    !-->
+
+<!-- pour la prochaine fois, mettre en place cette hierarchie à l'aide des div (préciser les div n dans l'encodingdesc !-->
