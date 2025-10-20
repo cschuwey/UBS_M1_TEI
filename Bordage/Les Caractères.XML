@@ -55,43 +55,100 @@
             <change><date  when =" 2025-08-08 "></date></change> 
         </revisionDesc>
     </teiHeader>
-    <text>
-        <front>  
-                <div1><p>Discours sur THEOPHRASTE</p>
-                    <div2><p>Discours sur THEOPHRASTE - Traduit du Grec</p>
-                        <div3><p>table des matières</p>
+    
+    <text>   
+        <front>
+            <div1>
+                <div2>
+                <head>Discours sur THEOPHRASTE</head>
+                <p>texte</p>
+                </div2>
+                
+                <div2>
+                <head>Discours sur THEOPHRASTE - Traduit du Grec</head>
+                <p>texte</p>
+        
+                     <div3 type= "toc"> 
+                     <head>TABLE DES MATIRES</head>
+                     </div3>                  
+                </div2>
+            </div1>
+        </front>
+        
+        <body>
+            <div1 source="#ed3_1688">
+                <head>Les caractères de THEOPHRASTE</head>
+                    <div2 type="chapter_1"><head>titre du chapitre 1</head>
+                        <div3 type="remark_1" n="pX">
+                            <p>texte de la remarque</p>
+                        </div3>
+                        
+                        <div3 type="remark_2" n="pX">
+                            <p>blabla et cetera, on reprend les mêmes éléments jusqu'au dernier chapitre</p>
                         </div3>
                     </div2>
-                </div1>
-        </front>
-        <body>
-            <div type= "chapter" n="1"><head>De la Diffimulation</head>    
-            </div>
-            <div type= "chapter" n="2"><head>De la Flatterie</head></div>
                         
-            <div type="chapter"><head>De La Mode.</head>
-                <div type="remark" source="#ed3_1688" n="p267">
-                    <p>Une chose folle et qui découvre nostre petitesse, c'est l'assujettissement aux modes
-                        quand on l'étend à ce qui concerne le goust, le vivre, la fanté et la conscience. La viande
-                        noire est hors de mode et par cette raison insipide : ce seroit pecher contre la mode que de
-                        guerir de ma fièvre par la faignée : de même l'on ne mouroit plus depuis long temps par <tag>Théotime ; </tag>
-                        ses tendres exhortations ne fauvoient plus que le peuple, et <tag>Theot. </tag>a veu son successeur.</p>
-                </div>
-                <div type="remark" source="#ed3_1688" n="p267-268">
-                    <p>Le duel est le triomphe de la mode, et l'endroit où elle a exercé
-                        sa tyrannie avec plus d'éclat ; cet usage n'a pas laissé au  poltron
-                        la liberté de vivre, il l'a mené se faire tuer par un plus brave que soi,
-                        et l'a confondu avec un homme de cœur ; il a attaché de l'honneur et de la gloire
-                        à une action folle et extravagante ; il a esté approuvé par la presence des Rois ; 
-                        il y a eu quelquefois une espece de religion à le pratiquer ; il a decidé
-                        de l'innocence des hommes, des accusations fausses ou veritables sur des crimes
-                        capitaux ; il sestoit enfin si profondement enraciné dans l'opinion des peuples,
-                        et s'estoit si fort saisi de leur cœur et de leur esprit, qu'un des plus beaux
-                        endroits de la vie d'un très-grand Roi a esté de les guerir de cette folie.</p>
-                </div>
-            </div>
+                    <div2 type="chapter_2"><head>titre du chapitre 2</head>
+                            <div3 type="remark_1" n="pX">
+                                <p>texte de la remarque</p>
+                            </div3>
+                    </div2>
+            </div1>
+            
+            <div1 source="#ed3_1688">
+                <head>Les Caractères ou Les Moeurs de ce siècle.</head>
+                    <div2 type="foreword" xml:id="avantpropos">
+                    <head>Avant-propos</head>
+                        <p>Texte de l'avant propos de la second partie de l'ouvrage</p>
+                        <div3 type= "toc"> 
+                            <head>TABLE DES MATIRES</head>
+                    
+                     <div4 type="chapter_1"><head>Titre du chapitre 1</head>
+                               <div5 type="remark_1" n="pX">
+                                   <p>texte de la remarque</p>
+                               </div5>
+                     </div4>
+                     <div4 type="chapter_13"><head>De La Mode.</head>
+                
+                             <div5 type="remark" n="p267">
+                               <p>Une chose folle et qui découvre nostre petitesse, c'est l'assujettissement aux modes
+                               quand on l'étend à ce qui concerne le goust, le vivre, la fanté et la conscience. La viande
+                               noire est hors de mode et par cette raison insipide : ce seroit pecher contre la mode que de
+                               guerir de ma fièvre par la faignée : de même l'on ne mouroit plus depuis long temps par <tag>Théotime ; </tag>
+                               ses tendres exhortations ne fauvoient plus que le peuple, et <tag>Theot. </tag>a veu son successeur.</p>
+                             </div5>
+                             <div5 type="remark" source="#ed3_1688" n="p267-268">
+                             <p>Le duel est le triomphe de la mode, et l'endroit où elle a exercé
+                              sa tyrannie avec plus d'éclat ; cet usage n'a pas laissé au  poltron
+                              la liberté de vivre, il l'a mené se faire tuer par un plus brave que soi,
+                              et l'a confondu avec un homme de cœur ; il a attaché de l'honneur et de la gloire
+                              à une action folle et extravagante ; il a esté approuvé par la presence des Rois ; 
+                              il y a eu quelquefois une espece de religion à le pratiquer ; il a decidé
+                              de l'innocence des hommes, des accusations fausses ou veritables sur des crimes
+                              capitaux ; il sestoit enfin si profondement enraciné dans l'opinion des peuples,
+                              et s'estoit si fort saisi de leur cœur et de leur esprit, qu'un des plus beaux
+                              endroits de la vie d'un très-grand Roi a esté de les guerir de cette folie.</p>
+                             </div5>
+                    </div4>
+                    </div3>
+                    </div2>
+            </div1>
         </body>
+        
+        <back>
+            <div type="privilege" xml:id="priv1">
+                <head>Extrait du Privilège de Roi.</head>
+                <p>
+                    texte 
+                </p>
+                <signed>Signé, COIGNARD, Syndie.</signed>
+            </div>
+                <div type="impression" xml:id="imprimeur">
+                    <head>Mention de l’imprimeur</head>
+                    <p>
+                        Texte blabla qui dit qui est l'imprimeur
+                    </p>
+                </div>
+        </back>
     </text>
 </TEI>
-
-
