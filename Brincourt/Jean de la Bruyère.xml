@@ -65,15 +65,16 @@
             <div type="chapter" n="2"> <!-- Je ne comprends pas où se trouvent les chapitres -->
                 <pb n="122"></pb> 
                 <head rends="caps">Du Merite personnel </head>
-                 <div type="remark" n="2">
+                 <div type="remark" source="#ed3_ex1" n="2">
                     <p>Combien d'hommes admirables, &amp; qui avaient de tresbeaux genies
                         sont morts sans qu'on en ait parlé? Combien vivent encore dont on ne parle point,&amp;dont on ne parlera jamais?</p>                     
                 </div>
-                <div type="remark" n="3">
+                <div type="remark" source="#ed3_ex1" n="3">
                     <p>Quelle horrible peine à un homme qui est sans (prosneurs) &amp;sans cabale,
                         qui n'est engagé dans aucun corps, mais qui est seul,&amp;
                         qui n'a que beaucoup de mérite pour toute recommendation, dese faire jour à travers
                         l'obscurité où il se trouve,&amp;de venir au niveau d'un fat qui est en credir</p>
+                </div>
               </div>                    
          </body> <!-- Je ne comprends pas pourquoi il me déclare une erreur sur <body> -->
     </text>
