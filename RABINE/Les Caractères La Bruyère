@@ -46,15 +46,15 @@
     </teiHeader>     
     <text>
         <body>
-            <div type="chapter">
+            <div type="chapter" source="#ed3">
                 <head>De la société et de la conversation</head>
-                <div type="remark" xml:id="ed3">
+                <div type="remark">
                     <p>C'eſt une grande miſere que de n'avoir pas aſſez d'eſprit pour bien parler, ny aſſez de jugement pour ſe taire : voilà le principe de toute impertinence.</p>
                 </div>
             </div>    
-            <div type="chapter">
+            <div type="chapter" source="#ed3">
                 <head>De la Cour</head>
-                <div type="remark" xml:id="ed3">
+                <div type="remark">
                     <p>Un noble, s'il vit chez luy dans ſa Province, il vit libre, mais ſans appuy:s"il vit à la Cour il eſt protégé, mais i eſt eſclave ; cela ſe compenſe.</p>
                 </div>
             </div>    
