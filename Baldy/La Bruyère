@@ -57,37 +57,227 @@
     </teiHeader>
     <text>
         <body>
-            <div n="1"><p>Discours sur theophraste</p>
-            </div>
-            <div n="1"><p>Les caractères de theophraste<hi rend="it">traduits du Grec.</hi></p>
-            <div n="2"><p>Table des matières</p></div>
-            <div n="2"><p>Chapitres</p></div></div>
-            <div type="chapter" n="11" corresp="de l'homme">
-                <pb n="247" ed=""/>
-                <fw place="top-center" type="head"><hi rend="it">ou les Moeurs de ce
-                    siecle</hi></fw>
-                <fw place="top-right" type="pageNum">247</fw>
-                <div type="remark" n="61">
-                    <p source="#ed3_ex1">¶La plûpart des hommes pour arriver à leurs fins sont plus
-                        capables d'un grand effort que d'une longue perseverance:leur paresse ou
-                        leur inconstance leur fait perdre le fruit des meilleurs commencemens;ils se
-                        laissent souvent devancer par d'autres qui sont partis aprés eux, &amp; qui
-                        marchent lentement, mais constamment.</p>
-                </div>
-                <div type="remark" n="62">
-                    <p source="#ed3_ex1">¶Les hommes agissent mollement dans les choses qui sont de
-                        leur devoir, pendant qu'ils se font un merite ou plûtost <fw
-                            place="bot-right" type="sig">L iiij</fw></p>
-                    <pb n="248" ed="#ed3_ex1"/>
+            <div1>
+                <p>Discours sur theophraste</p>
+            </div1>
+            <div1>
+                <p>Les caractères de theophraste<hi rend="it">traduits du Grec.</hi></p>
+                <div2>
+                    <head>LES CARACTERES DE THEOPRASTE <hi rend="it">TRADUITS DU GREC.</hi></head>
+                    <p>préface</p>
+                </div2>
+                <div2>
+                    <p>Table des matières</p>
+                </div2>
+                <div2 type="chapter" n="1" xml:id="DeLaDissimulation">
+                    <pb n="6" ed="#ed3_ex1"/>
                     <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
-                    <fw place="top-left" type="pageNum">248</fw>
+                    <fw place="top-right" type="pageNum">6</fw>
+                    <head>DE LA DISSIMULATION.</head>
+                </div2>
+                <!--  répéter pour chaque chapitre: <div2 type="chapter" n="x" xml:id="NomDuChapitre">
+                               <pb n="page n°" ed="#ed3_ex1"/>
+                               <fw place="top-center" type="head"><hi rend="it">Les Caracteres OU ou les Moeurs de ce siecle.</hi></fw>
+                               <fw place="top-right" type="pageNum">n° page</fw>
+                               <head>Nom du Chapitre (comme il apparait sur le document)</head></div2>-->
+            </div1>
+            <div1>
+                <div2>
+                    <head>LES CARACTERES OU LES MOEURS DE CE SIECLE.</head>
+                    <p>préface</p>
+                </div2>
+                <div2>
+                    <p>Table des matières</p>
+                </div2>
+                <div2 type="chapter" n="1" xml:id="DesOuvragesdelEsprit">
+                    <pb n="106" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-right" type="pageNum">106</fw>
+                    <head>Des Ouvrages de l'Esprit.</head>
 
-                    <p>une vanité de s'empresser pour celles qui leur sont étrangeres, &amp; qui ne
-                        conviennent ny à leur état, ny à leur caractere.</p>
+                    <div3 type="remark" n="1">
+                        <p>Remarques 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="2" xml:id="DuMéritePersonnel">
+                    <pb n="122" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-right" type="pageNum">122</fw>
+                    <head>Du Mérite Personnel.</head>
+                    <div3 type="remark" n="1">
+                        <p>Remarque 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="3" xml:id="DesFemmes">
+                    <pb n="131" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">ou les Moeurs de ce
+                            siecle.</hi></fw>
+                    <fw place="top-right" type="pageNum">131</fw>
+                    <head>Des Femmes.</head>
+                    <div3 type="remark" n="1">
+                        <p>Remarque 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="4" xml:id="DuCoeur">
+                    <pb n="142" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-right" type="pageNum">142</fw>
+                    <head>Du Coeur.</head>
+                    <div3 type="remark" n="1">
+                        <p>Remarque 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="5" xml:id="DelaSociétéetdelaConversation">
+                    <pb n="147" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">ou les Moeurs de ce
+                            siecle.</hi></fw>
+                    <fw place="top-right" type="pageNum">147</fw>
+                    <head>De la Société et de la Conversation.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="6" xml:id="DesBiensdeFortune">
+                    <pb n="164" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-right" type="pageNum">164</fw>
+                    <head>Des Biens de Fortune.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="7" xml:id="DelaVille">
+                    <pb n="177" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">ou les Moeurs de ce
+                            siecle.</hi></fw>
+                    <fw place="top-right" type="pageNum">177</fw>
+                    <head>De la Ville.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="8" xml:id="DelaCour">
+                    <pb n="182" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-right" type="pageNum">182</fw>
+                    <head>De la Cour.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="9" xml:id="DesGrands">
+                    <pb n="200" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-right" type="pageNum">200</fw>
+                    <head>Des Grands.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="10" xml:id="DusouverainoudelaRépublique">
+                    <pb n="210" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-right" type="pageNum">210</fw>
+                    <head>Du souverain.</head>
+
+                    <div3 type="remark" n="1">
+                        <p>remarque 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="11" xml:id="DelHomme">
+                    <pb n="219" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-right" type="pageNum">219</fw>
+                    <head>De l'Homme.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque 1 blablabla</p>
+                    </div3>
+                    <div3 type="remark" n="61">
+                        <pb n="247" ed="#ed3_ex1"/>
+                        <fw place="top-center" type="head"><hi rend="it">ou les Moeurs de ce
+                                siecle.</hi></fw>
+                        <fw place="top-right" type="pageNum">247</fw>
+                        <p source="#ed3_ex1">¶La plûpart des hommes pour arriver à leurs fins sont
+                            plus capables d'un grand effort que d'une longue perseverance:leur
+                            paresse ou leur inconstance leur fait perdre le fruit des meilleurs
+                            commencemens;ils se laissent souvent devancer par d'autres qui sont
+                            partis aprés eux, &amp; qui marchent lentement, mais constamment.</p>
+                    </div3>
+                    <div3 type="remark" n="62">
+                        <p source="#ed3_ex1">¶Les hommes agissent mollement dans les choses qui sont
+                            de leur devoir, pendant qu'ils se font un merite ou plûtost <fw
+                                place="bot-right" type="sig">L iiij</fw></p>
+                        <pb n="248" ed="#ed3_ex1"/>
+                        <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                        <fw place="top-left" type="pageNum">248</fw>
+
+                        <p>une vanité de s'empresser pour celles qui leur sont étrangeres, &amp; qui
+                            ne conviennent ny à leur état, ny à leur caractere.</p>
+                    </div3>
+
+                </div2>
+                <div2 type="chapter" n="12" xml:id="DesJugements">
+                    <pb n="251" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">ou les Moeurs de ce
+                            siecle.</hi></fw>
+                    <fw place="top-right" type="pageNum">251</fw>
+                    <head>Des Jugements.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque 1 blablabla</p>
+                    </div3>
+
+                </div2>
+                <div2 type="chapter" n="13" xml:id="DelaMode">
+                    <pb n="267" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">ou les Moeurs de ce
+                            siecle.</hi></fw>
+                    <fw place="top-right" type="pageNum">267</fw>
+                    <head>De la Mode.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="14" xml:id="DeQuelquesUsages">
+                    <pb n="272" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-right" type="pageNum">272</fw>
+                    <head>De Quelques Usages.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="15" xml:id="DelaChaire">
+                    <pb n="280" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
+                    <fw place="top-right" type="pageNum">280</fw>
+                    <head>De la Chaire.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque 1 blablabla</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" n="16" xml:id="DesEspritsForts">
+                    <pb n="287" ed="#ed3_ex1"/>
+                    <fw place="top-center" type="head"><hi rend="it">ou les Moeurs de ce
+                            siecle.</hi></fw>
+                    <fw place="top-right" type="pageNum">287</fw>
+                    <head>Des Esprits Forts.</head>
+                    <div3 type="remark" n="1">
+                        <p>remarque1blablabla</p>
+                    </div3>
+                </div2>
+                <div2>
+                    <p><hi rend="it">Extrait du privilege du Roi.</hi></p>
+                </div2>
+            </div1>
 
 
-                </div>
-            </div>
+
+
+
+
+
+
+
 
         </body>
     </text>
