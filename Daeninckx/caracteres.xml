@@ -48,7 +48,7 @@
                         Au début de chaque remarque, il y a dans le texte original un pied-de-mouche, qui n'est pas retranscrit ici.</p>
                 </normalization>
                 <quotation>
-                    <p>Les livre contiennent plusieurs chapitres qui sont représentés par des balises <gi>div</gi> avec l'attribut <att>remark</att>, dans lesquels
+                    <p>Les livre contiennent plusieurs chapitres qui sont représentés par des balises <gi>div</gi> avec l'attribut <att>chapter</att>, dans lesquels
                         sont représentés plusieurs remarques par la balise <gi>div</gi> avec l'attribut <att>remark</att>. Ces remarques contiennent des balises <gi>p</gi>.</p>
                 </quotation>
             </editorialDecl>
