@@ -17,7 +17,7 @@
             </publicationStmt>
             
             <sourceDesc>
-                <bibl xml:id="ed3">
+                <bibl xml:id="ed3_ex1">
                     <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb11910249z">La Bruyère</author>
                     <edition>3e édition</edition>
@@ -26,7 +26,7 @@
                     <date when="1688">M. DC. LXXXVIII</date>
                     <idno type="Bnf">Bnf R-18787</idno>
                 </bibl>
-                <bibl xml:id="ed6">
+                <bibl xml:id="ed6_ex1">
                     <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb11910249z">La Bruyère</author>
                     <edition>6e édition</edition>
@@ -75,21 +75,29 @@
         <revisionDesc>
             <listChange>
                 <change who="#mdaeninckx" when="2025-10-06">Encodage de deux remarques issues de l'édition de 1688.</change>
+                <change who="#mdaeninckx" when="2025-10-20">Ajout de la source de chaque remarque.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     
+    <!-- L'élément <front> pourrait contenir le discours sur Theophraste, car cette partie n'est pas paginée, et ressemble à une préface. -->
+    <!-- L'élément <body> pourrait contenir deux <div>, l'un étant "Les caractères de Theophraste traduits du grec",
+        et l'autre étant "Les caractères ou les moeurs de ce siècle". Chacuns de ces éléments contiennent des chapitres, et ces chapitres contiennent des remarques,
+        qui contiennent elles-mêmes des paragraphes.-->
+    <!-- Une division <back> pourrait ensuite être utilisée pour la partie "Extrait du Privilege du Roy." -->
+    
+    <!-- Pour la prochaine fois, structurer le texte selon les divers éléments, et commenter ce que chaque partie est -->
     <text>
         <body>
             <div type="chapter">
                 <head>Des Ouvrages de l'Esprit</head>
                 <div type="remark" n="110">
-                    <p>Un bon Auteur, &amp; qui écrit avec ſoin, érpouve ſouvent que l'expreſſion qu'il cherchoir depuis long-temps ſans la connoître,
-                    &amp; qu'il a enfin trouvée, eſt celle qui eſtoit la plus simple, la plus naturelle, qui ſembloit devoir ſe presenter d'abord & ſans effort.<pb /></p>
+                    <p source="#ed3_ex1">Un bon Auteur, &amp; qui écrit avec ſoin, éprouve ſouvent que l'expreſſion qu'il cherchoir depuis long-temps ſans la connoître,
+                        &amp; qu'il a enfin trouvée, eſt celle qui eſtoit la plus simple, la plus naturelle, qui ſembloit devoir ſe presenter d'abord &amp; ſans effort.<pb /></p>
                 </div>
                 <div type="remark" n="111">
-                    <p>Ceux qui écrivent par humeur, ſont ſujets à retoucher à leurs ouvrages;comme elle n'eſt pas toûjours fixe, &amp; qu'elle varie en eux ſelon
-                    les occaſions, ils ſe refroidiſſent bien-toſt pour les expreſſions & les termes qu'ils ont le plus aimez.</p>
+                    <p source="#ed3_ex1">Ceux qui écrivent par humeur, ſont ſujets à retoucher à leurs ouvrages;comme elle n'eſt pas toûjours fixe, &amp; qu'elle varie en eux ſelon
+                        les occaſions, ils ſe refroidiſſent bien-toſt pour les expreſſions &amp; les termes qu'ils ont le plus aimez.</p>
                 </div>
             </div>
         </body>
