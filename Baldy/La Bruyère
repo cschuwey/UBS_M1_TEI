@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -17,7 +16,7 @@
 
             </publicationStmt>
             <sourceDesc>
-                <bibl xml:id="ed3">
+                <bibl xml:id="ed3_ex1">
                     <author ref="ark:/12148/cb11910249z">Jean de La Bruyère</author>
                     <title type="main">Les caractères</title>
                     <title type="desc">Les caractères de Théophraste, traduit du grec, avec les
@@ -58,31 +57,38 @@
     </teiHeader>
     <text>
         <body>
+            <div n="1"><p>Discours sur theophraste</p>
+            </div>
+            <div n="1"><p>Les caractères de theophraste<hi rend="it">traduits du Grec.</hi></p>
+            <div n="2"><p>Table des matières</p></div>
+            <div n="2"><p>Chapitres</p></div></div>
             <div type="chapter" n="11" corresp="de l'homme">
-                <pb n="247" ed="ed3"/>
+                <pb n="247" ed=""/>
                 <fw place="top-center" type="head"><hi rend="it">ou les Moeurs de ce
                     siecle</hi></fw>
                 <fw place="top-right" type="pageNum">247</fw>
                 <div type="remark" n="61">
-                    <p>¶La plûpart des hommes pour arriver à leurs fins sont plus capables d'un
-                        grand effort que d'une longue perseverance:leur paresse ou leur inconstance
-                        leur fait perdre le fruit des meilleurs commencemens;ils se laissent souvent
-                        devancer par d'autres qui sont partis aprés eux, &amp; qui marchent
-                        lentement, mais constamment.</p>
+                    <p source="#ed3_ex1">¶La plûpart des hommes pour arriver à leurs fins sont plus
+                        capables d'un grand effort que d'une longue perseverance:leur paresse ou
+                        leur inconstance leur fait perdre le fruit des meilleurs commencemens;ils se
+                        laissent souvent devancer par d'autres qui sont partis aprés eux, &amp; qui
+                        marchent lentement, mais constamment.</p>
                 </div>
                 <div type="remark" n="62">
-                    <p>¶Les hommes agissent mollement dans les choses qui sont de leur devoir,
-                        pendant qu'ils se font un merite ou plûtost <fw place="bot-right" type="sig"
-                            >L iiij</fw></p>
-                    <pb n="248" ed="ed3"/>
+                    <p source="#ed3_ex1">¶Les hommes agissent mollement dans les choses qui sont de
+                        leur devoir, pendant qu'ils se font un merite ou plûtost <fw
+                            place="bot-right" type="sig">L iiij</fw></p>
+                    <pb n="248" ed="#ed3_ex1"/>
                     <fw place="top-center" type="head"><hi rend="it">Les Caracteres</hi></fw>
                     <fw place="top-left" type="pageNum">248</fw>
 
                     <p>une vanité de s'empresser pour celles qui leur sont étrangeres, &amp; qui ne
                         conviennent ny à leur état, ny à leur caractere.</p>
 
+
                 </div>
             </div>
+
         </body>
     </text>
 </TEI>
