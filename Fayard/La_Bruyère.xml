@@ -3,44 +3,51 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Les caractères de Theophraste traduits du grec : avec les caractères ou les moeurs de ce siècle.</title>
-                <author resp="translator author" ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                <title> Les caractères de Theophraste traduits du grec : avec les caractères ou les
+                    moeurs de ce siècle.</title>
+                <author resp="translator author" ref="ark:/12148/cb11910249z">La Bruyère, Jean
+                    de</author>
                 <author>Théophraste</author>
             </titleStmt>
             <publicationStmt>
                 <authority>Flavie Fayard</authority>
                 <distributor>UBS - GitHub</distributor>
-                <date when="2025-10-06"></date>
-                <availability><licence></licence></availability>
+                <date when="2025-10-06"/>
+                <availability>
+                    <licence/>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl xml:id="ed2">
-                    <title>Les caractères de Theophraste traduits du grec : avec les caractères ou les moeurs de ce siècle.</title>
+                <bibl xml:id="ed2_ex1">
+                    <title>Les caractères de Theophraste traduits du grec : avec les caractères ou
+                        les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
                     <edition>Seconde édition</edition>
                     <publisher>E. Michallet</publisher>
-                    <PubPlace>Paris</PubPlace>
+                    <pubPlace>Paris</pubPlace>
                     <date when="1688">1688</date>
                     <idno>BNF-R-18786</idno>
                 </bibl>
-                <bibl xml:id="ed5">
-                    <title>Les caractères de Theophraste traduits du grec : avec les caractères ou les moeurs de ce siècle.</title>
+                <bibl xml:id="ed5_ex1">
+                    <title>Les caractères de Theophraste traduits du grec : avec les caractères ou
+                        les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
                     <edition>Cinquième édition</edition>
                     <publisher>E. Michallet</publisher>
-                    <PubPlace>Paris</PubPlace>
+                    <pubPlace>Paris</pubPlace>
                     <date when="1690">1690</date>
                     <idno>BNF-R-18790</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            orthographe modernisé pour faciliter la lecture
+            <p>orthographe modernisé pour faciliter la lecture</p>
         </encodingDesc>
         <revisionDesc>
             <listChange>
-                <change when="2025-10-06">creéation du TeiHeader</change>
+                <change when="2025-10-06">création du TeiHeader</change>
                 <change when="2025-10-09">encodage de deux remarques</change>
+                <change when="2025-10-20">correction de l'encodage des remarques</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -49,14 +56,19 @@
             <div type="chapter">
                 <head>DU COEUR.</head>
                 <div type="remark">
-                    <p>Vouloir oublier quelqu'un, c'est y penser. L'amour a cela de commun avec les scrupules, qu'il s'aigrit par les réflexions et les retours que l'on fait pour s'en délivrer. Il faut s'il se peut ne point songer à sa passion pour l'affaiblir.</p>
-                </div>    
+                    <p source="#ed2_ex1">Vouloir oublier quelqu'un, c'est y penser. L'amour a cela de commun avec les
+                        scrupules, qu'il s'aigrit par les réflexions et les retours que l'on fait
+                        pour s'en délivrer. Il faut s'il se peut ne point songer à sa passion pour
+                        l'affaiblir.</p>
+                </div>
             </div>
             <div type="chapter">
                 <head>DE LA SOCIÉTÉ ET DE LA CONVERSATION.</head>
                 <div type="remark">
-                    <p>C'est une grande misère que de n'avoir pas assez d'esprit pour bien parler, ni assez de jugement pour se taire : voilà le principe de toute impertinence.</p>
-                </div>    
+                    <p source="#ed2_ex1">C'est une grande misère que de n'avoir pas assez d'esprit pour bien parler,
+                        ni assez de jugement pour se taire : voilà le principe de toute
+                        impertinence.</p>
+                </div>
             </div>
         </body>
     </text>
