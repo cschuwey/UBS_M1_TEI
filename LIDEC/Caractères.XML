@@ -46,8 +46,11 @@
                 <p>Mise en relation des édition dess Caractère de 1688 et 1694</p>
             </projectDesc>
             <editorialDecl>
+                <correction>
+                    <p>Certains mots coupés par soucis de place en fin de ligne ont été réassemblés</p>
+                </correction>
                 <normalization>
-                    <p>l'orthographe et la graphie originelles ont été conservées</p>
+                    <p>L'orthographe et la graphie originelles ont été conservées, notamment les esperluettes et les s longs.</p>
                 </normalization>
             </editorialDecl>
         </encodingDesc>
@@ -55,7 +58,7 @@
             <list>
                 <item>
                     <date when="2025-10-07">7 octobre 2025</date>Dernière révision par K.Lidec -
-                    </item>
+                </item>
             </list>
         </revisionDesc>
         
@@ -64,7 +67,7 @@
         <body>
             <div type="Chapter">
                 <head>De quelques Usages - page 594 (Page 627 du document pdf)</head>
-                <div type="remark" n="1">
+                <div type="remark" source="#car1694">
                     <p>Il y a des gens qui n'ont pas le moyen d'êtres nobles.</p>
                     <p>Il y en a de tels, que s'ils euſſent obtenu ſix mois de delay de leurs
                         creanciers, ils étoient nobles*. </p>
@@ -72,7 +75,7 @@
                     <p>Quelques autres ſe couchent roturiers &amp; ſe levent nobles*.</p>
                     <p>Combien de nobles dont le pere &amp; les aînez ſont roturiers ?</p>
                 </div>
-                <div type="remark" n="1">
+                <div type="remark" source="#car1694">
                     <p>¶ Tel abandonne ſon pere qui eſt connu, &amp; dont l'on cite le greffe ou la
                         boutique, pour ſe retrancher ſur ſon ayeul, qui mort depuis long temps eſt
                         inconnu &amp; hors de priſe ; il montre enſuite un gros revenu, une grande
