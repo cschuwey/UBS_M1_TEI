@@ -52,24 +52,46 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>
-            <div type="chapter">
-                <head>DU COEUR.</head>
-                <div type="remark">
-                    <p source="#ed2_ex1">Vouloir oublier quelqu'un, c'est y penser. L'amour a cela de commun avec les
-                        scrupules, qu'il s'aigrit par les réflexions et les retours que l'on fait
-                        pour s'en délivrer. Il faut s'il se peut ne point songer à sa passion pour
-                        l'affaiblir.</p>
+        <front>
+            <div>
+                <head>Discours sur Theophraste</head>
+                <p>discours</p>
+            </div>
+            <div>
+                <head>Les Caractères de Theophraste</head>
+                <div type="chapter">
+                    <p>Introduction</p>
+                    <p>Remarque</p>
                 </div>
             </div>
-            <div type="chapter">
-                <head>DE LA SOCIÉTÉ ET DE LA CONVERSATION.</head>
-                <div type="remark">
-                    <p source="#ed2_ex1">C'est une grande misère que de n'avoir pas assez d'esprit pour bien parler,
-                        ni assez de jugement pour se taire : voilà le principe de toute
-                        impertinence.</p>
+        </front>
+        <body> 
+            <div>
+                <head>Les caractères ou les moeurs de ce siècle.</head>
+                <div type="chapter">
+                    <head>DU COEUR.</head>
+                    <div type="remark">
+                        <p source="#ed2_ex1">Vouloir oublier quelqu'un, c'est y penser. L'amour a
+                            cela de commun avec les scrupules, qu'il s'aigrit par les réflexions et
+                            les retours que l'on fait pour s'en délivrer. Il faut s'il se peut ne
+                            point songer à sa passion pour l'affaiblir.</p>
+                    </div>
+                </div>
+                <div type="chapter">
+                    <head>DE LA SOCIÉTÉ ET DE LA CONVERSATION.</head>
+                    <div type="remark">
+                        <p source="#ed2_ex1">C'est une grande misère que de n'avoir pas assez
+                            d'esprit pour bien parler, ni assez de jugement pour se taire : voilà le
+                            principe de toute impertinence.</p>
+                    </div>
                 </div>
             </div>
-        </body>
+            <div>
+                <head>fautes d'impression</head>
+            </div>
+            <div>
+                <head>Extrait du privilège du roi</head>
+            </div>
+        </body>   
     </text>
 </TEI>
