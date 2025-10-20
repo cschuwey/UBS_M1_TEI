@@ -13,7 +13,7 @@
                 <availability><licence></licence></availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl xml:id="NUMM-8704022">
+                <bibl xml:id="ed3_1688">
                     <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
                     <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910249z"> J. de La Bruyère.</author>
                     Available from <ref target="https://catalogue.bnf.fr/ark:/12148/cb30705982f"></ref>
@@ -23,7 +23,7 @@
                     <idno>BnF -  R-18787</idno>
                     <edition>3e éd.</edition>
                 </bibl>
-                <bibl xml:id="NUMM-30706001">
+                <bibl xml:id="ed6_1691">
                     <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle. [Par J. de La Bruyère.]</title>
                     <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910249z"> J. de La Bruyère.</author>
                     Available from <ref target="https://catalogue.bnf.fr/ark:/12148/cb307059875"></ref>
@@ -58,14 +58,14 @@
     <text>
         <body>
             <div type="chapter"><head>De La Mode.</head>
-                <div type="remark">
+                <div type="remark" source="#ed3_1688" n="p267">
                     <p>Une chose folle et qui découvre nostre petitesse, c'est l'assujettissement aux modes
                         quand on l'étend à ce qui concerne le goust, le vivre, la fanté et la conscience. La viande
                         noire est hors de mode et par cette raison insipide : ce seroit pecher contre la mode que de
                         guerir de ma fièvre par la faignée : de même l'on ne mouroit plus depuis long temps par <tag>Théotime ; </tag>
                         ses tendres exhortations ne fauvoient plus que le peuple, et <tag>Theot. </tag>a veu son successeur.</p>
                 </div>
-                <div type="remark">
+                <div type="remark" source="#ed3_1688" n="p267-268">
                     <p>Le duel est le triomphe de la mode, et l'endroit où elle a exercé
                         sa tyrannie avec plus d'éclat ; cet usage n'a pas laissé au  poltron
                         la liberté de vivre, il l'a mené se faire tuer par un plus brave que soi,
