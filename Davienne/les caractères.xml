@@ -2,7 +2,7 @@
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        
+
         <fileDesc>
             <titleStmt>
                 <!-- ref à la bruyère hors du document. Site pour trouver des id en lien avec tout le monde : data.bnf.fr ou viaf.org ou isni.fr !-->
@@ -11,7 +11,7 @@
                     Bruyère</author>
                 <author>Théophraste</author>
             </titleStmt>
-            
+
             <publicationStmt>
                 <!--  publication statement du fichier xml et non des caractères !-->
                 <authority>Matéo Davienne</authority>
@@ -20,8 +20,8 @@
                     <licence/>
                 </availability>
             </publicationStmt>
-            
-            
+
+
             <sourceDesc>
                 <bibl xml:id="ed3">
                     <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
@@ -34,7 +34,7 @@
                     <idno>BnF R-18787</idno>
                     <edition n="3">3e édition</edition>
                 </bibl>
-                
+
                 <bibl xml:id="ed7">
                     <title>Les caractères de Théophraste, traduits du grec, avec les Caractères ou
                         Les moeurs de ce siècle.</title>
@@ -46,59 +46,121 @@
                     <idno>BnF R-18791</idno>
                     <edition n="7">7e édition</edition>
                 </bibl>
-                
-                
+
+
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
-                <p>Encodage de remarques des Caractères de La Bruyère et de ses variantes, entre les versions de 1688 et 1692</p>
+                <p>Encodage de remarques des Caractères de La Bruyère et de ses variantes, entre les
+                    versions de 1688 et 1692</p>
+                <p>Nous utilisons ici les balises div numérotées afin de hierarchiser le document,
+                    et l'attribut @n afin de numéroter les chapitres dans l'ordre.</p>
             </projectDesc>
         </encodingDesc>
-        
-        
+
+
         <revisionDesc>
             <listChange>
-                <change when="2025-10-06">Création du dcoument et du fileDesc</change>
+                <change when="2025-10-06">Création du document et du fileDesc</change>
                 <change when="2025-10-09">Ecriture de la première remarque et de sa variante de 1692
                     + encodingDesc</change>
+                <change when="2025-10-20">ajout d'une hierarchie au document grace aux div</change>
             </listChange>
         </revisionDesc>
-        
-        
-        
+
+
+
     </teiHeader>
-    
+
     <text>
         <body>
-            
-            <div type="chapter">
-                <div type="remark">
-                    <!--  version de 1688 : page 286-287 // version de 1692 : page 434 !-->
-                    <p>Les hommes en un ſens ne ſont point leger, ou ne le ſont que dans les petites
-                        choses : Ils changent leurs habits, leur langage <app>
-                            <rdg wit="1688">;</rdg>
-                            <rdg wit="1692">,</rdg>
-                        </app> les dehors, les <app>
-                            <!-- dans la version de 1688, le mot bien-ſeances étant en bout de ligne, on ne sait pas si le tiret est présent naturellement dans le mot ou s'il signifie juste un renvoie à la ligne !-->
-                            <rdg wit="1688">bien-ſeances,</rdg>
-                            <rdg wit="1692">bien-ſéances ;</rdg>
-                        </app> ils changent de <app>
-                            <rdg wit="1688">gouſt</rdg>
-                            <rdg wit="1692">goût</rdg>
-                        </app> quelquefois ; ils gardent leurs moeurs toûjours mauvaiſes, fermes
-                        &amp; conſtans dans le mal, ou dans l'indifference pour la vertu.</p>
-                </div>
-            </div>
-            
-        </body>
-        
-    </text>
-    
-    
-</TEI>
+            <div1 type="section">
+                <head>Discours sur Theophraste.</head>
+            </div1>
+            <div1 type="section">
+                <head>Les Caractères de Theophraste traduits du grec.</head>
+            </div1>
 
+
+            <div1 type="section">
+                <head>Les Caractères ou les Moeurs de ce siècle.</head>
+
+                <div2 type="chapter" n="1">
+                    <head>Des Ouvrages de l'eſprit.</head>
+                </div2>
+                <div2 type="chapter" n="2">
+                    <head>Du Merite perſonnel.</head>
+                </div2>
+                <div2 type="chapter" n="3">
+                    <head>Des Femmes.</head>
+                </div2>
+                <div2 type="chapter" n="4">
+                    <head>Du Coeur.</head>
+                </div2>
+                <div2 type="chapter" n="5">
+                    <head>De la Société &amp; de la Converſation.</head>
+                </div2>
+                <div2 type="chapter" n="6">
+                    <head>Des Biens de Fortune.</head>
+                </div2>
+                <div2 type="chapter" n="7">
+                    <head>De la Ville.</head>
+                </div2>
+                <div2 type="chapter" n="8">
+                    <head>De la Cour.</head>
+                </div2>
+                <div2 type="chapter" n="9">
+                    <head>Des Grands.</head>
+                </div2>
+                <div2 type="chapter" n="10">
+                    <head>Du Souverain.</head>
+                </div2>
+
+                <div2 type="chapter" n="11">
+                    <head>De l'Homme.</head>
+                    <div3 type="remark" source="#ed3 #ed7">
+                        <!--  version de 1688 : page 286-287 // version de 1692 : page 434 !-->
+                        <p>Les hommes en un ſens ne ſont point leger, ou ne le ſont que dans les
+                            petites choses : Ils changent leurs habits, leur langage <app>
+                                <rdg wit="1688">;</rdg>
+                                <rdg wit="1692">,</rdg>
+                            </app> les dehors, les <app>
+                                <!-- dans la version de 1688, le mot bien-ſeances étant en bout de ligne, on ne sait pas si le tiret est présent naturellement dans le mot ou s'il signifie juste un renvoie à la ligne !-->
+                                <rdg wit="1688">bien-ſeances,</rdg>
+                                <rdg wit="1692">bien-ſéances ;</rdg>
+                            </app> ils changent de <app>
+                                <rdg wit="1688">gouſt</rdg>
+                                <rdg wit="1692">goût</rdg>
+                            </app> quelquefois ; ils gardent leurs moeurs toûjours mauvaiſes, fermes
+                            &amp; conſtans dans le mal, ou dans l'indifference pour la vertu.</p>
+                    </div3>
+                </div2>
+
+                <div2 type="chapter" n="12">
+                    <head>Des Jugemens.</head>
+                </div2>
+                <div2 type="chapter" n="13">
+                    <head>De la Mode.</head>
+                </div2>
+                <div2 type="chapter" n="14">
+                    <head>De quelques Uſages.</head>
+                </div2>
+                <div2 type="chapter" n="15">
+                    <head>De la Chaire.</head>
+                </div2>
+                <div2 type="chapter" n="16">
+                    <head>Des Eſprits forts.</head>
+                </div2>
+
+            </div1>
+        </body>
+
+    </text>
+
+
+</TEI>
 <!--  
     hierarchie des caracteres : 
     - discours sur théophraste
@@ -106,5 +168,4 @@
     - les caractères ou les moeurs de ce siècle (introduction, puis sommaire, puis texte classé par chapitre (avec dedans des remarques))
     - extrait du privilège du roy
     !-->
-
-<!-- pour la prochaine fois, mettre en place cette hierarchie à l'aide des div (préciser les div n dans l'encodingdesc !-->
+<!-- pour la prochaine fois, mettre en place cette hierarchie à l'aide des div (préciser les div n dans l'encodingdesc) !-->
