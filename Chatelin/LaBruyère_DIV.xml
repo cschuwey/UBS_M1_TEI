@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères ou les Moeurs de ce siècle</title>
+                <author resp="translator author" ref="#	ark:/12148/cb11910249z">La Bruyère</author>
+                <author>Théopraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:id="Thomas_Chatelin">Thomas Chatelin</authority>
+                <distributor>UBS - Github</distributor>
+                <idno></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères</title>
+                    <author ref="#	ark:/12148/cb11910249z">La Bruyère</author>
+                    <edition>3ème édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <idno>BnF - R-18787</idno>
+                    <date when="1688">1688</date>
+                </bibl>
+                <bibl xml:id="ed7">
+                    <title>Les Caractères</title>
+                    <author ref="#	ark:/12148/bpt6k8704024z">La Bruyère</author>
+                    <edition>3ème édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <idno>BnF - R-18791 </idno>
+                    <date when="1692">1692</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Les extraits sont écris en langue moderne.</p>
+                <p>Les remarques proviennent de la troisième édition de 1688.</p>
+                <p>Le discours de Théophraste est séparé des deux autres Caractères car je l'identifie comme une introduction,
+                   donc différente des deux autres grandes parties. Le DIV n3 présente les introductions des deux Caractères DIV n2, et le
+                   Div n4 présente les chapitres. Le DIV n5 sert à présenter les chapitres des deux discours en DIV n2, et le 
+                   DIV n6 présente les remarques présentes dans discours.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#Thomas_Chatelin"> Mise en forme selon la langue moderne.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="1">
+            <head>Discours sur Théophraste</head>
+            <div n="2">
+            <head>Les Caractères de Théophraste</head>
+            <div n="3">
+                <p>Introduction des Caractères de Théophraste</p>
+            <div n="4">
+            <p>Les Chapitres des Caractères de Théophraste</p>    
+            <div n="2">
+                <head>Les Caractères ou les moeurs de ce siècle</head>
+            <div type="chapter" n="5">
+                <head> Des ouvrages de l'esprit</head>
+                <div type="remark" corresp="#ed3" n="6">
+                    <p>Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à notre goût et à nos sentiments ; 
+                    C'est une trop grande entreprise.</p>
+                </div>
+                <div type="chapter" n="5">
+                    <head> Des ouvrages de l'esprit</head>
+                    <div type="remark" corresp="#ed3" n="6">
+                    <p>C'est un métier que de faire un livre comme de faire un pendule ; Il faut plus que de l'esprit pour être Auteur.
+                    Un Magistrat allait par son mérite à la première dignité, il était homme délié et pratique dans les affaires, où
+                    il fait imprimer un ouvrage moral qui est rare par le ridicule.</p>    
+            </div>
+            </div> 
+            </div>
+            </div>    
+            </div> 
+            </div>
+            </div>    
+            </div>
+        </body>
+        
+
+        
+        
+    </text>
+
+</TEI>
