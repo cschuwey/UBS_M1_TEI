@@ -41,56 +41,58 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <p>orthographe modernisé pour faciliter la lecture</p>
+            <p>orthographe modernisé</p>
+            <p>J'ai choisi de mettre "Les Caractères de Theophraste" et "Les Caractères ou les moeurs de ce siècle" au même niveau dans le body car ils sont annoncés au début du livre par le titre, c'est le contenu du livre qu'on attend. Je vois le "discours sur Theophraste" comme une sorte de préface, que je l'ai donc placé dans front<p>
+            <p>Dans "Les Caractères de Théophraste", l'introduction, le sommaire et les chapitres sont au même niveau car chacun est une partie distincte et pas l'enfant d'une autre.<p>
+            <p>Dans "Les Caractères ou les moeurs de ce siècle", on a plusieurs remarques dans un chapitre et c'est pour cela que les remarques ne sont pas au même niveau que les chapitres mais sont bien enfants de chapitre.<p>
         </encodingDesc>
         <revisionDesc>
             <listChange>
                 <change when="2025-10-06">création du TeiHeader</change>
                 <change when="2025-10-09">encodage de deux remarques</change>
                 <change when="2025-10-20">correction de l'encodage des remarques</change>
+                <change when="2025-10-21">structuration des Caractères</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <text>
         <front>
             <div>
-                <head>Discours sur Theophraste</head>
-                <p>discours</p>
-            </div>
-            <div>
-                <head>Les Caractères de Theophraste</head>
-                <div type="chapter">
-                    <p>Introduction</p>
-                    <p>Remarque</p>
-                </div>
+                <!--Discours sur Theophraste-->
             </div>
         </front>
+            <div1>
+                <!--Les Caractères de Theophraste-->
+                <div2 type="introduction"></div2>
+                <div2 type="summary"></div2>
+                <div2 type="chapter"></div2>
+            </div1>
         <body> 
-            <div>
-                <head>Les caractères ou les moeurs de ce siècle.</head>
-                <div type="chapter">
+            <div1>
+                <!--Les Caractères ou les moeurs de ce siècle.-->
+                <div2 type="chapter">
                     <head>DU COEUR.</head>
-                    <div type="remark">
+                    <div3 type="remark">
                         <p source="#ed2_ex1">Vouloir oublier quelqu'un, c'est y penser. L'amour a
                             cela de commun avec les scrupules, qu'il s'aigrit par les réflexions et
                             les retours que l'on fait pour s'en délivrer. Il faut s'il se peut ne
                             point songer à sa passion pour l'affaiblir.</p>
-                    </div>
-                </div>
-                <div type="chapter">
+                    </div3>
+                </div2>
+                <div2 type="chapter">
                     <head>DE LA SOCIÉTÉ ET DE LA CONVERSATION.</head>
-                    <div type="remark">
+                    <div3 type="remark">
                         <p source="#ed2_ex1">C'est une grande misère que de n'avoir pas assez
                             d'esprit pour bien parler, ni assez de jugement pour se taire : voilà le
                             principe de toute impertinence.</p>
-                    </div>
-                </div>
+                    </div3>
+                </div2>
+            </div1>
+            <div>
+                <!--Fautes d'impression-->
             </div>
             <div>
-                <head>fautes d'impression</head>
-            </div>
-            <div>
-                <head>Extrait du privilège du roi</head>
+                <!--Extrait du privilège du roi-->
             </div>
         </body>   
     </text>
