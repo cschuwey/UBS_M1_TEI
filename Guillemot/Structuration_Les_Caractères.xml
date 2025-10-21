@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères ou les Moeurs de ce siècle</title>
+                <author ref="ark:/12148/cb11910249z" resp="translator author">La Bruyère</author>
+                <author>Téophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Oriane Guillemot</authority>
+                <distributor>UBS</distributor>
+                <availability>
+                    <licence/>
+                </availability>
+                <p>Ceci est une édition numérique des Caractères de la Bruyère</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3_ex1">
+                    <title>Les Caractères de Théophraste traduit du Grec : avec les Caractères ou
+                        les Moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">
+                        <surname>Jean de</surname>
+                        <forename>La Bruyère</forename>
+                    </author>
+                    <edition>Troisème édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">MDCLXXXVIII</date>
+                    <idno>BnF - R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed5_ex1">
+                    <author ref="ark:/12148/cb11910249z">
+                        <surname>Jean de</surname>
+                        <forename>La Bruyère</forename>
+                    </author>
+                    <edition>Cinquième édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1690">MDCXC</date>
+                    <idno>BnF - R-18790</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> L'objectif est la numérisation des Caractères de La Bruyère.</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>La grammaire et l'orthographe ont été conservées comme dans le texte
+                        original. La ponctuation a également été conservé comme telle. Seules les
+                        majuscules en début de phrase on été concervé.</p>
+                    <p>J'ai choisi de séparé l'ouvrage en trois parties de même niveau : Le Discours
+                        sur Théophraste ; Les caractères de Théophraste ; les Caractères de la
+                        Bruyère, car ils sont présentés de la même manière dans l'ouvrage original.
+                        C'est également pourquoi, par la suite, j'ai choisi de mettre les
+                        introductions, le sommaire et les chapitres au même niveau. De plus, les
+                        remarques sont placées à l'intérieur des chapitres, suivant la même
+                        logique.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-10-17">17 octobre 2025</date>Dernière révision faite </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="1" type="preface">
+                <head>Discours sur Théophraste</head>
+                <p><!-- le discours. --></p>
+            </div>
+
+            <div n="1">
+                <head type="main">Les Caractères de Théophraste</head>
+                <head type="sub">Traduits du Grec.</head>
+                <div n="2" type="introduction">
+                    <p><!-- L'introduction des Caractères de Théophraste --></p>
+                </div>
+                <div n="2" type="contents">
+                    <list>
+                        <head>De la Dissimulation</head>
+                        <item>De la Dissimulation.<ptr target="#chapter_1_p6"/></item>
+                    </list>
+                    <!-- Le sommaire fonctionne de la même manière pour tous les titres de chapitres.  -->
+                </div>
+                <div n="2" type="chapter" xml:id="chapter_1_p6">
+                    <head>De la Dissimulation.</head>
+                    <div n="3" type="remark" source="#ed3_ex1">
+                        <p>
+                            <!--La remarque.-->
+                        </p>
+                    </div>
+                </div>
+                <!--Le reste des chapitres et des remarques fonctionnent sur le même principe.-->
+            </div>
+
+            <div n="1">
+                <head>Les caractères ou les moeurs de ce siècle</head>
+                <div n="2" type="introduction">
+                    <p><!-- L'introduction des Caractères de la Bruyère.--></p>
+                </div>
+                <div n="2" type="contents">
+                    <list>
+                        <head>Des Ouvrages de l'Esprit.</head>
+                        <item>Des ouvrages de l'Esprit.<ptr target="#chapter_1_p106"/></item>
+                    </list>
+                    <!-- Le sommaire fonctionne de la même manière pour tous les titres de chapitres.  -->
+                </div>
+
+                <div n="2" type="chapter" xml:id="chapter_1_p106">
+                    <head>Des Ouvrages de l'Esprit.</head>
+                    <div n="3" type="remark" source="#ed3_ex1">
+                        <p>Tout est dit, &amp; l'on vient trop tard depuis plus de sept mille ans
+                            qu'il y a des hommes, &amp; qui pensent. Sur ce qui concerne les moeurs
+                            le plus beau &amp; le meilleur est enlevé ; l'on ne fait que glaner
+                            après les Anciens &amp; les habiles d'entre les Modernes. </p>
+                    </div>
+                </div>
+
+                <div n="2" type="chapter">
+                    <head>Du Merite Personnel.</head>
+                    <div n="3" type="remark" source="#ed3_ex1">
+                        <p>Qui peut avec les plus rares talents &amp; le plus excellent merite
+                            n'estre pas convaincu de son inutilité, quand il considere qu'il laisse,
+                            en mourant, un monde qui ne se sent pas de sa perte, &amp; où tant de
+                            gens se trouvent pour le remplacer ?</p>
+                    </div>
+                </div>
+                <!--Le reste des chapitres et des remarques fonctionnent sur le même principe.-->
+            </div>
+        </body>
+    </text>
+</TEI>
