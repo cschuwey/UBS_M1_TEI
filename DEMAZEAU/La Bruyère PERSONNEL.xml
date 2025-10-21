@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author resp="translator author">La Bruyère</author>
+                <author>Theophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:id="Aony">Aony</authority>
+                <distributor>UBS - GitHub</distributor>
+                <availability>
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3_NUMM-8704022">
+                    <author ref="ark:/12148/cb30705982f">J. De la Bruyère</author>
+                    <title level="m">Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé])</title>
+                    <edition>3e. édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF - R-18787</idno>
+                    <date when="1688">1688</date>
+                </bibl>
+                <bibl xml:id="ed6_NUMM-8712342">
+                    <author ref="ark:/12148/cb307059875">J. De la Bruyère</author>
+                    <title level="m">Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
+                    <edition>6e. édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF - R-52303</idno>
+                    <date when="1691">1691</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc source="#ed3_NUMM-8704022">
+                <p>Reproduction du texte, encodé en TEI.</p>
+            </projectDesc>
+            <projectDesc source="#ed6_NUMM-8712342">
+                <p>Reproduction du texte, encodé en TEI.</p>
+            </projectDesc>
+            <editorialDecl source="#ed3_NUMM-8704022">
+                <interpretation>
+                    <p>Le texte est dans une orthographe modernisée, et stucturé en trois parties à des fins de distinction claire du contenu et dans l'ordre de lecture de l'ouvrage.
+                        Les trois parties structurées sont les suivantes : Discours de Théophraste, Les Caractères de Théophraste, et les caractères ou les moeurs de ce siècle.
+                        La première partie est composée uniquement de son avant-propos, alias "avant_propos1"
+                        La deuxième partie est composée de son avant-propos, alias "avant_propos2, de sa table des matières, ainsi que de ses 28 chapitres.
+                        La troisième partie est composée de son avant-propos, alias "avant_propos3, de sa table des matières, de ses 16 chapitres, ainsi que de 2 remarques du chapitre 1.
+                    
+                    La disposition se lit de la manière suivante : div1 = partie concernée ; div2 = compositions des parties (avant-propos, table des matières, chapitres) ; div3 = chapitres composant directement la table des matières ; 
+                    </p>
+                
+                </interpretation>
+            </editorialDecl>
+            <editorialDecl source="#ed3_NUMM-8704022">
+                <interpretation>
+                    <p>Orthographe modernisé.</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation source="#ed3_NUMM-8704022">
+                <date when="2014-06-04">Le 4 juin 2014</date>
+            </creation>
+            <langUsage source="#ed3_NUMM-8704022">
+                <language ident="fr">Français contemporain</language>
+            </langUsage>
+            <textClass source="#ed3_NUMM-8704022">
+                <keywords scheme="https://catalogue.bnf.fr/ark:/12148/cb30705982f">
+                    <term>Roman</term>
+                    <term>La Bruyère</term>
+                    <term>Les Caractères</term>
+                    <term>1688</term>
+                    <term>XVIIe siècle</term>
+                </keywords>
+            </textClass>
+            <creation source="#ed6_NUMM-8712342">
+                <date when="2016-06-29">Le 29 juin 2016</date>
+            </creation>
+            <langUsage source="#ed6_NUMM-8712342">
+                <language ident="fr">Français contemporain</language>
+            </langUsage>
+            <textClass source="#ed6_NUMM-8712342">
+                <keywords scheme="https://catalogue.bnf.fr/ark:/12148/cb307059875">
+                    <term>Roman</term>
+                    <term>La Bruyère</term>
+                    <term>Les Caractères</term>
+                    <term>1691</term>
+                    <term>XVIIe siècle</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-06-04" source="#ed3_NUMM-8704022" who="#Aony">Création du fichier de 1688</change>
+            <change when="2025-10-21" source="#ed3_NUMM-8704022" who="#Aony">Evolution du fichier de 1688</change>
+            <change when="2016-06-29" source="#ed6_NUMM-8712342" who="#Aony">Création du fichier de 1691</change>
+            <change when="2025-10-21" source="#ed3_NUMM-8712342" who="#Aony">Evolution du fichier de 1691</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div1><head>Les caractères de Théophraste traduit du grec : avec les caractères ou les moeurs de ce siècle</head>
+            </div1>
+        </front>
+        <body>
+            <div1 source="#ed3_NUMM-8704022" type="part" xml:id="partie_1"><head>Discours sur Théophraste</head>
+                <div2 type="foreword" xml:id="avant_propos1"></div2></div1>
+            
+            <div1 source="#ed3_NUMM-8704022" type="part" xml:id="partie_2">
+                        <head>Les caractères de Théophraste traduit du grec</head>
+                <div2 type="foreword" xml:id="avant_propos2"></div2>
+                <div2 type="toc"><head>Table des matières</head>
+                    <div3 type="chapter" n="1" xml:id="chapitre1">
+                        <head>De la dissimulation</head></div3>
+                    <div3 type="chapter" n="2" xml:id="chapitre2">
+                        <head>De la Flatterie</head></div3>
+                    <div3 type="chapter" n="3" xml:id="chapitre3">
+                        <head>De l'Impertient, ou du diseur de rien</head></div3>
+                    <div3 type="chapter" n="4" xml:id="chapitre4">
+                        <head>De la Rusticité</head></div3>
+                    <div3 type="chapter" n="5" xml:id="chapitre5">
+                        <head>Du Complaisant</head></div3>
+                    <div3 type="chapter" n="6" xml:id="chapitre6">
+                        <head>De l'image d'un Coquin</head></div3>
+                    <div3 type="chapter" n="7" xml:id="chapitre7">
+                        <head>Du grand Parleur</head></div3>
+                    <div3 type="chapter" n="8" xml:id="chapitre8">
+                        <head>Du Débit des nouvelles</head></div3>
+                    <div3 type="chapter" n="9" xml:id="chapitre9">
+                        <head>De l'effronterie causée par l'avarice</head></div3>
+                    <div3 type="chapter" n="10" xml:id="chapitre10">
+                        <head>De l'Epargne sordide</head></div3>
+                    <div3 type="chapter" n="11" xml:id="chapitre11">
+                        <head>De l'Impudent ou de celui qui ne rougit de rien</head></div3>
+                    <div3 type="chapter" n="12" xml:id="chapitre12">
+                        <head>Du Contre-temps</head></div3>
+                    <div3 type="chapter" n="13" xml:id="chapitre13">
+                        <head>De l'Air empressé</head></div3>
+                    <div3 type="chapter" n="14" xml:id="chapitre14">
+                        <head>De la Stupidité</head></div3>
+                    <div3 type="chapter" n="15" xml:id="chapitre15">
+                        <head>De la Brutalité</head></div3>
+                    <div3 type="chapter" n="16" xml:id="chapitre16">
+                        <head>De la Superstition</head></div3>
+                    <div3 type="chapter" n="17" xml:id="chapitre17">
+                        <head>De l'Esprit chagrin</head></div3>
+                    <div3 type="chapter" n="18" xml:id="chapitre18">
+                        <head>De la Défiance</head></div3>
+                    <div3 type="chapter" n="19" xml:id="chapitre19">
+                        <head>D'un Vilain homme</head></div3>
+                    <div3 type="chapter" n="20" xml:id="chapitre20">
+                        <head>D'un homme Incommode</head></div3>
+                        <div3 type="chapter" n="21" xml:id="chapitre21">
+                        <head>De la sotte Vanité.</head></div3>
+                    <div3 type="chapter" n="22" xml:id="chapitre22">
+                        <head>De l'Avarice</head></div3>
+                    <div3 type="chapter" n="23" xml:id="chapitre23">
+                        <head>De l'Ostentation</head></div3>
+                    <div3 type="chapter" n="24" xml:id="chapitre24">
+                        <head>De l'Orgueil.</head></div3>
+                    <div3 type="chapter" n="25" xml:id="chapitre25">
+                        <head>De la peur ou du défaut de courage</head></div3>
+                    <div3 type="chapter" n="26" xml:id="chapitre26">
+                        <head>Des Grands d'une République</head></div3>
+                    <div3 type="chapter" n="27" xml:id="chapitre27">
+                        <head>D'une tardive Instruction.</head></div3>
+                    <div3 type="chapter" n="28" xml:id="chapitre28">
+                        <head>De la Médisance</head></div3>
+                </div2>
+            </div1>
+            <div1 source="#ed3_NUMM-8704022" type="part" xml:id="partie_3">
+                      <head>Les caractères ou les moeurs de ce siècle</head>
+                <div2 type="foreword" xml:id="avant_propos3"></div2>
+                <div2 type="toc"><head>Table des matières</head>
+                    <div3 type="chapter" n="1" xml:id="chapitre_1">
+                        <head>Des ouvrages de l'esprit.</head></div3>
+                    <div3 type="chapter" n="2" xml:id="chapitre_2">
+                        <head>Du Mérite personnel.</head></div3>
+                    <div3 type="chapter" n="3" xml:id="chapitre_3">
+                        <head>Des Femmes.</head></div3>
+                    <div3 type="chapter" n="4" xml:id="chapitre_4">
+                        <head>Du Coeur.</head></div3>
+                    <div3 type="chapter" n="5" xml:id="chapitre_5">
+                        <head>De la Société et de la Conversation.</head></div3>
+                    <div3 type="chapter" n="6" xml:id="chapitre_6">
+                        <head>Des Biens de Fortune</head></div3>
+                    <div3 type="chapter" n="7" xml:id="chapitre_7">
+                        <head>De la Ville</head></div3>
+                    <div3 type="chapter" n="8" xml:id="chapitre_8">
+                        <head>De la Cour</head></div3>
+                    <div3 type="chapter" n="9" xml:id="chapitre_9">
+                        <head>Des Grands</head></div3>
+                    <div3 type="chapter" n="10" xml:id="chapitre_10">
+                        <head>Du Souverain.</head></div3>
+                    <div3 type="chapter" n="11" xml:id="chapitre_11">
+                        <head>De l'Homme</head></div3>
+                    <div3 type="chapter" n="12" xml:id="chapitre_12">
+                        <head>Des Jugements.</head></div3>
+                    <div3 type="chapter" n="13" xml:id="chapitre_13">
+                        <head>De la Mode.</head></div3>
+                    <div3 type="chapter" n="14" xml:id="chapitre_14">
+                        <head>De quelques Usages.</head></div3>
+                    <div3 type="chapter" n="15" xml:id="chapitre_15">
+                        <head>De la Chaire.</head></div3>
+                    <div3 type="chapter" n="16" xml:id="chapitre_16">
+                        <head>Des Esprits forts.</head></div3></div2>      
+                
+                <div2 source="#chapitre_1">
+                <div3 type="remark" n="16">
+                    <div4>
+                        <p source="ed3_NUMM-8704022"> Un bon Auteur, et qui écrit avec soin, éprouve souvent que l'expression qu'il
+                            cherchait depuis longtemps sans la connaître, et qu'il a enfin trouvée, est
+                            celle qui était la plus simple, la plus naturelle, qui semblait devoir se
+                            présenter d'abord et sans effort.</p>
+                    </div4>
+                </div3>
+                <div3 type="remark" n="22">
+                    <div4>
+                        <p source="ed3_NUMM-8704022">Ceux qui par leur condition se trouvent exempts de la joulise d'Auteur, ont
+                            ou des passions, ou des besoins qui les distraient, et les rendent froids
+                            sur les conceptions d'autrui : personne presque par la disposition de son
+                            esprit, de son coeur, et de sa fortune n'est en état de se livrer au plaisir
+                            que la perfection d'un ouvrage.</p>
+                    </div4>
+                </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
