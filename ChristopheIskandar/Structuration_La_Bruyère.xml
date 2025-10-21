@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères ou Les Moeurs de ce siècle.</title>
+                <author ref="ark:/12148/cb11910249z" resp="translator author">La Bruyère</author>
+                <author>Théophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:id="LunaCI">Luna CHRISTOPHE ISKANDAR</authority>
+                <distributor>UBS - GitHub</distributor>
+                <availability>
+                    <licence/>
+                </availability>
+                <p>Ceci est une édition numérique des Caractères de La Bruyère</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3_ex1">
+                    <author ref="ark:/12148/cb11910249z">
+                        <surname>Jean de</surname>,<forename>La Bruyère</forename>
+                    </author>
+                    <edition>3e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">MDCLXXXVIII</date>
+                    <idno>BnF - R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed5_ex1">
+                    <author ref="ark:/12148/cb11910249z">
+                        <surname>Jean de</surname>,<forename>La Bruyère</forename>
+                    </author>
+                    <edition>5e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1690">MDCXC</date>
+                    <idno>BnF - R-18790</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Numérisation des Caractères de la Bruyère.</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>La grammaire et l'orthographe ont été respectées comme dans le texte
+                        original. De plus les majuscules présentes dans le texte original sont
+                        gardées également, peu importe leurs emplacements.</p>
+                    <p>Le texte a été coupé en trois grandes parties, le discours de Théophraste,
+                        Les caractères de Théophraste et les caractères de La Bruyère qui ont été
+                        mis au même niveau dans les div. Les introductions qui s'ensuivent par la
+                        suite sont au même niveau que les sommaires et chapitres puisqu'ils sont mis
+                        en forme au même niveau dans l'oeuvre. Les remarques sont enfants des div des chapitres.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2025-10-17" who="#LunaCI">Ajout de deux remarques
+                supplémentaires.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <div n="1" type="preface">
+                <head>Discours sur Théophraste</head>
+                <p>Le discours.</p>
+            </div>
+            <div n="1">
+                <head type="main">Les caractères de Théophraste.</head>
+                <head type="sub">Traduits du Grec.</head>
+                <div n="2" type="introduction">
+                    <p>L'introduction aux caractères de Théophraste.</p>
+                </div>
+                <div n="2" type="contents">
+                    <list>
+                        <head>De la Dissimulation.</head>
+                        <item> De la Dissimulation. <ptr target="#chapter1-p6"/>
+                        </item>
+                    </list>
+                    <!-- La démarche sera la même pour tous les chapitres contenus dans le sommaire. -->
+                </div>
+                <div n="2" type="chapter" xml:id="chapter1-p6">
+                    <head>De la Dissimulation</head>
+                    <div n="3" type="remark" source="#chapter1-p6">
+                        <p><!--La remarque.--></p>
+                        <!-- Le reste des chapitres ainsi que les autres remarquent fonctionnent sur le même système. -->
+                    </div>
+                </div>
+            </div>
+            <div n="1">
+                <head>Les caractères ou les moeurs de ce siècle.</head>
+                <div n="2" type="introduction">
+                    <p>L'introduction aux caractères de La Bruyère.</p>
+                </div>
+                <div n="2" type="contents">
+                    <list>
+                        <head>Des Jugemens</head>
+                        <item> Des Jugemens. <ptr target="#chapter12-p251"/>
+                        </item>
+                    </list>
+                    <!-- La démarche sera la même pour tous les chapitres contenus dans le sommaire. -->
+                </div>
+                <div n="2" type="chapter" xml:id="chapter12-p251">
+                    <head>Des Jugemens.</head>
+                    <div n="3" type="remark" source="#ed3_ex1">
+                        <p>RIen ne ressemble mieux à la vive persuasion que le mauvais entêtement ;
+                            de là les partis, les cabales, les heresies.</p>
+                    </div>
+                    <div n="3" type="remark" source="#ed3_ex1">
+                        <p>L'on ne pense pas toûjours constamment d'un mesme sujet : l'entêtement
+                            &amp; le dégoût se suivent de prés</p>
+                    </div>
+                    <div n="3" type="remark" source="#ed3_ex1">
+                        <p>Les grandes choses étonnent &amp; les petites rebutent;nous nous
+                            apprivoisons avecles unes &amp; les autres par l'habitude.</p>
+                    </div>
+                    <div n="3" type="remark" source="#ed3_ex1">
+                        <p>Il n'y a rien de plus bas &amp; qui convienne mieux au peuple, que de
+                            parler en des termes magnifiques de ceux- mesme dont l'on pensoit
+                            tres-modestement avant leur élevation.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
