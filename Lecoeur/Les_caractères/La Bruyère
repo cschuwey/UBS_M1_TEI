@@ -7,7 +7,7 @@
                     moeurs de ce siècle.</title>
             </titleStmt>
             <publicationStmt>
-                <p>Encodage d'un texte de La Bruyère.</p>
+                <!-- <p>Encodage d'un texte de La Bruyère.</p> -->
                 <authority resp="LLecoeur">Louis Lecoeur</authority>
                 <distributor>Github_UBS_M1_TEI_2025</distributor>
             </publicationStmt>
@@ -17,7 +17,8 @@
                         les moeurs de ce siècle</title>
                     <author ref="ark:/12148/cb11910249z">
                         <surname>La Bruyère</surname>
-                        <forename>Jean de</forename>
+                        <nameLink>de</nameLink>
+                        <forename>Jean</forename>
                     </author>
                     <date when="1688">1688</date>
                     <edition n="3">Troisième édition</edition>
@@ -30,7 +31,8 @@
                         les moeurs de ce siècle</title>
                     <author ref="ark:/12148/cb11910249z">
                         <surname>La Bruyère</surname>
-                        <forename>Jean de</forename>
+                        <nameLink>de</nameLink>
+                        <forename>Jean</forename>
                     </author>
                     <date when="1690">1690</date>
                     <edition n="5">Cinquième édition</edition>
@@ -55,20 +57,235 @@
         </revisionDesc>
     </teiHeader>
     <text>
+        <front>
+            <!-- Je trouve que c'est un peu trop un <front> seulement pour un simple <div> et <head>, mais soit. -->
+            <div type="title">
+                <head>Les caracteres de Theophraste trdauits du grec : avec Les caracteres ou Les
+                    moeurs de ce siecle.</head>
+                <head>Troisième edition.</head>
+                <!-- je ne sais pas si je dois afficher cela ou alors réutiliser la balise <edition> dans <fileDesc>...-->
+            </div>
+        </front>
         <body>
-            <!-- j'hésite à inclure ces deux chapitres dans un div qui correspond au volume traité, ou alors utiliser comme j'ai fait le tag défini plus haut -->
-            <div source="#ed3-88" type="chapter" n="34"> <!-- en començant à compter les chapitres à partir de la page 1 du livre et non pas NP -->
+
+            <div type="book" n="1">
+                <head>Discours sur Theophraste</head>
+                <div type="chapter" n="1">
+                    <p><hi>J</hi>En'estime pas que [...]</p>
+                    <p>[...]</p>
+                    <p>[...] il eut pour premier Maiſtre dans ſon païs un certain
+                            <name>Leucipe</name><note type="indication" place="margin">Un autre que
+                                <name ref="ark:/12148/cb16572998t">Leucipe</name> Philosophe
+                            celebre, &amp; diſciple de <name ref="ark:/12148/cb11941408s"
+                                >Zenon</name>.</note> qui eſtoit de meſme [...]</p>
+                    <p>[...]</p>
+                </div>
+            </div>
+
+            <div type="book" n="2">
+                <div type="chapter" n="0">
+                    <head>Les caracteres de Theophraste</head>
+                    <head>Traduits du grec.</head>
+                    <p>[...]</p>
+                    <p>[...]</p>
+                </div>
+                <div type="toc">
+                    <div type="chapter" n="1" xml:id="B2CH1">
+                        <head>De la Diſſimulation</head>
+                    </div>
+                    <div type="chapter" n="2" xml:id="B2CH2">
+                        <head>De la Flatterie</head>
+                    </div>
+                    <div type="chapter" n="3" xml:id="B2CH3">
+                        <head>De l'Impertinent, ou du diſeur de rien</head>
+                    </div>
+                    <div type="chapter" n="4" xml:id="B2CH4">
+                        <head>De la Ruſticité</head>
+                    </div>
+                    <div type="chapter" n="5" xml:id="B2CH5">
+                        <head>Du Complaiſant</head>
+                    </div>
+                    <div type="chapter" n="6" xml:id="B2CH6">
+                        <head>De l'image d'un Coquin</head>
+                    </div>
+                    <div type="chapter" n="7" xml:id="B2CH7">
+                        <head>Du grand Parleur</head>
+                    </div>
+                    <div type="chapter" n="8" xml:id="B2CH8">
+                        <head>Du Debit des nouvelles</head>
+                    </div>
+                    <div type="chapter" n="9" xml:id="B2CH9">
+                        <head>De l'effronterie causée par l'avarice</head>
+                    </div>
+                    <div type="chapter" n="10" xml:id="B2CH10">
+                        <head>De l'Epargne ſordide</head>
+                    </div>
+                    <div type="chapter" n="11" xml:id="B2CH11">
+                        <head>De l'Impudent ou de celuy qui ne rougit de rien</head>
+                    </div>
+                    <div type="chapter" n="12" xml:id="B2CH12">
+                        <head>Du Contre-temps</head>
+                    </div>
+                    <div type="chapter" n="13" xml:id="B2CH13">
+                        <head>De l'Air empreſsé</head>
+                    </div>
+                    <div type="chapter" n="14" xml:id="B2CH14">
+                        <head>De la Stupidité</head>
+                    </div>
+                    <div type="chapter" n="15" xml:id="B2CH15">
+                        <head>De la Brutalité</head>
+                    </div>
+                    <div type="chapter" n="16" xml:id="B2CH16">
+                        <head>De la Superſtition</head>
+                    </div>
+                    <div type="chapter" n="17" xml:id="B2CH17">
+                        <head>De l'Eſprit chagrin</head>
+                    </div>
+                    <div type="chapter" n="18" xml:id="B2CH18">
+                        <head>De la Défiance</head>
+                    </div>
+                    <div type="chapter" n="19" xml:id="B2CH19">
+                        <head>D'un Vilain homme</head>
+                    </div>
+                    <div type="chapter" n="20" xml:id="B2CH20">
+                        <head>D'un homme Incommode</head>
+                    </div>
+                    <div type="chapter" n="21" xml:id="B2CH21">
+                        <head>De la ſotte Vanité</head>
+                    </div>
+                    <div type="chapter" n="22" xml:id="B2CH22">
+                        <head>De l'Avarice</head>
+                    </div>
+                    <div type="chapter" n="23" xml:id="B2CH23">
+                        <head>De l'Oſtentation</head>
+                    </div>
+                    <div type="chapter" n="24" xml:id="B2CH24">
+                        <head>De l'orgüeil</head>
+                    </div>
+                    <div type="chapter" n="25" xml:id="B2CH25">
+                        <head>De la peur ou du defaut de courage</head>
+                    </div>
+                    <div type="chapter" n="26" xml:id="B2CH26">
+                        <head>Des Grands d'une Republique</head>
+                    </div>
+                    <div type="chapter" n="27" xml:id="B2CH27">
+                        <head>D'une tardive Inſtruction</head>
+                    </div>
+                    <div type="chapter" n="28" xml:id="B2CH28">
+                        <head>De la Médiſance</head>
+                    </div>
+                </div>
+                <div corresp="#B2CH1">
+                    <!-- Je ne sais pas si ce que je veux faire fonctionne comme je le veux. Ici je ne veux pas réécrire le <head> du chapitre car pour moi il est récupérable avec le @corresp. -->
+                    <p><hi>L</hi>A <note type="indication" place="margin"
+                                >L'<persName>auteur</persName> parle de celle qui ne vient pas de la
+                            prudence, &amp; que les Grecs appelloient ironie.</note> diſſimulation
+                        n'eſt pas aiſée à bien définir; [...]</p>
+                </div>
+                <div corresp="#B2CH2">
+                    <p><hi>L</hi>A flatterie eſt un commerce honteux [...]</p>
+                </div>
+                <!-- etc..., s'il y a d'autres paragraphes, on rajoute un autre <p>. -->
+            </div>
+
+            <div type="book" n="3">
+                <div type="chapter" n="0">
+                    <head>Les caracteres ou Les moeurs de ce siecle</head>
+                    <p>[...]</p>
+                    <p>[...]</p>
+                </div>
+
+                <div type="toc">
+                    <div type="chapter" n="1" xml:id="B3CH1">
+                        <head>Des ouvrages de l'eſprit</head>
+                        <!-- Ici je n'écris pas "page" car il n'est pas nécessaire. -->
+                    </div>
+                    <div type="chapter" n="2" xml:id="B3CH2">
+                        <head>Du Merite Perſonnel</head>
+                    </div>
+                    <div type="chapter" n="3" xml:id="B3CH3">
+                        <head>Des Femmes</head>
+                    </div>
+                    <div type="chapter" n="4" xml:id="B3CH4">
+                        <head>Du Coeur</head>
+                    </div>
+                    <div type="chapter" n="5" xml:id="B3CH5">
+                        <head>De la Société &amp; de la Converſation</head>
+                        <!-- Pas sûr pour le "&". -->
+                    </div>
+                    <div type="chapter" n="6" xml:id="B3CH6">
+                        <head>Des Biens de Fortune</head>
+                    </div>
+                    <div type="chapter" n="7" xml:id="B3CH7">
+                        <head>De la Ville</head>
+                    </div>
+                    <div type="chapter" n="8" xml:id="B3CH8">
+                        <head>De la Cour</head>
+                    </div>
+                    <div type="chapter" n="9" xml:id="B3CH9">
+                        <head>Des Grands</head>
+                    </div>
+                    <div type="chapter" n="10" xml:id="B3CH10">
+                        <head>Du Souverain</head>
+                    </div>
+                    <div type="chapter" n="11" xml:id="B3CH11">
+                        <head>De l'Homme</head>
+                    </div>
+                    <div type="chapter" n="12" xml:id="B3CH12">
+                        <head>Des Jugemens</head>
+                    </div>
+                    <div type="chapter" n="13" xml:id="B3CH13">
+                        <head>De la Mode</head>
+                    </div>
+                    <div type="chapter" n="14" xml:id="B3CH14">
+                        <head>De quelques Usages</head>
+                    </div>
+                    <div type="chapter" n="15" xml:id="B3CH15">
+                        <head>De la Chaire</head>
+                    </div>
+                    <div type="chapter" n="16" xml:id="B3CH16">
+                        <head>Des Eſprits forts</head>
+                    </div>
+                </div>
+                <div corresp="#B3CH1">
+                    <!-- Je ne sais pas si ce que je veux faire fonctionne comme je le veux. Ici je ne veux pas réécrire le <head> du chapitre car pour moi il est récupérable avec le @corresp. -->
+                    <p><hi>T</hi>OuT eſt dit, [...]</p>
+                    <div type="remark" n="1" source="#ed3-88" xml:id="B3CH2R1">
+                        <p>¶ Il faut chercher ſeulement à penſer &amp; à parler juſte, [...]</p>
+                    </div>
+                    <div type="remark" n="2" source="#ed3-88" xml:id="B3CH2R2">
+                        <p>¶ C'eſt un métier  que de faire un livre [...]</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- 
+            <div source="#ed3-88" type="chapter" n="34">
+                <!- en commençant à compter les chapitres à partir de la page 1 du livre et non pas NP 
                 <head>De la Societe' et de la Conservation</head>
-                <div type="remark" n="1"> <!-- page 147 -->
-                    <p>¶ C'eſt le rôle d'un ſot d'eſtre importun : un homme habile ſent s'il convient, ou s'il ennuye, il ſçait diſparoiſtre le moment qui précède celuy où il ſeroit de trop quelque part.</p>
+                <div type="remark" n="1">
+                    <!- page 147 
+                    <p>¶ C'eſt le rôle d'un ſot d'eſtre importun : un homme habile ſent s'il
+                        convient, ou s'il ennuye, il ſçait diſparoiſtre le moment qui précède celuy
+                        où il ſeroit de trop quelque part.</p>
                 </div>
             </div>
-            <div source="#ed3-88" type="chapter" n="40"> <!-- en començant à compter les chapitres à partir de la page 1 du livre et non pas NP -->
-                <head>De l'Homme</head> <!-- page 219 -->
-                <div type="remark" n="62"> <!-- page 247 à 248 -->
-                    <p>¶ Les hommes agiſſent mollement dans les choſes qui ſont de leur devoir, pendant qu'ils ſe font un merite ou plûtoſt une vanité de s'empreſſer pour celles qui leur ſont étrangeres, &amp; qui ne conviennent ny à leur état, ny à leur caractere.</p>
+            <div source="#ed3-88" type="chapter" n="40">
+                <!- en començant à compter les chapitres à partir de la page 1 du livre et non pas NP 
+                <head>De l'Homme</head>
+                <!- page 219 
+                <div type="remark" n="62">
+                    <!- page 247 à 248 
+                    <p>¶ Les hommes agiſſent mollement dans les choſes qui ſont de leur devoir,
+                        pendant qu'ils ſe font un merite ou plûtoſt une vanité de s'empreſſer pour
+                        celles qui leur ſont étrangeres, &amp; qui ne conviennent ny à leur état, ny
+                        à leur caractere.</p>
                 </div>
-            </div>
+            </div> -->
         </body>
     </text>
 
