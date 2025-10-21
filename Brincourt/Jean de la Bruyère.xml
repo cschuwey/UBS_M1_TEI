@@ -15,22 +15,24 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl xml:id="ed3">
-                    <title type="desc">Les Caractères de Théophraste traduits du grec : avec
-                        les Caractères ou les moeurs de ce siècle.</title>
-                        <author ref="ark:/12148/cb30705982f" resp="translator author">Jean de la Bruyère</author> Available From <ref
-                            target="https://catalogue.bnf.fr/ark:/12148/cb30705982f#main"
-                            >https://catalogue.bnf.fr/ark:/12148/cb30705982f#main</ref>
-                        <imprint>
-                            <publisher>E.Michallet</publisher>
-                            <pubplace>Paris</pubplace>
-                            <idno>BNF-"R-18787"</idno>
-                            <date when="1688">1688</date>
-                        </imprint>                                  
+                    <title type="desc">Les Caractères de Théophraste traduits du grec : avec les
+                        Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb30705982f" resp="translator author">Jean de la
+                        Bruyère</author> Available From <ref
+                        target="https://catalogue.bnf.fr/ark:/12148/cb30705982f#main"
+                        >https://catalogue.bnf.fr/ark:/12148/cb30705982f#main</ref>
+                    <imprint>
+                        <publisher>E.Michallet</publisher>
+                        <pubplace>Paris</pubplace>
+                        <idno>BNF-"R-18787"</idno>
+                        <date when="1688">1688</date>
+                    </imprint>
                 </bibl>
                 <bibl xml:id="ed5">
-                    <title type="desc">Les Caractères de Théophraste traduits du grec : avec
-                        les Caractères ou les moeurs de ce siècle.</title>
-                    <author ref="ark:/12148/cb30705985g" resp="translator author">Jean de la Bruyère</author> Available From <ref
+                    <title type="desc">Les Caractères de Théophraste traduits du grec : avec les
+                        Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb30705985g" resp="translator author">Jean de la
+                        Bruyère</author> Available From <ref
                         target="https://catalogue.bnf.fr/ark:/12148/cb30705985g"
                         >https://catalogue.bnf.fr/ark:/12148/cb30705982f#main</ref>
                     <imprint>
@@ -38,13 +40,14 @@
                         <pubplace>Paris</pubplace>
                         <idno>BNF-"R-18790"</idno>
                         <date when="1690">1690</date>
-                    </imprint>                                  
+                    </imprint>
                 </bibl>
             </sourceDesc>
             <encodingDesc>
-                <projectDesc>                  
-                    <p>l'objectif est d'identifier et rassembler le plus de remarques différentes
-                        se trouvant sur des pages et des chapitres similaires à travers les éditions de l'ouvrage.</p>
+                <projectDesc>
+                    <p>l'objectif est d'identifier et rassembler le plus de remarques différentes se
+                        trouvant sur des pages et des chapitres similaires à travers les éditions de
+                        l'ouvrage.</p>
                 </projectDesc>
                 <samplingDecl>
                     <p>Choses à dire</p>
@@ -55,27 +58,68 @@
             </encodingDesc>
             <!-- Je ne sais pas si <encodingDesc> et <revisionDesc> appartiennent à <filesDesc> où pas. -->
             <revisionDesc>
-                <change when="2025-06-10" ref="#RémiBrincourt"></change>
+                <change when="2025-06-10" ref="#RémiBrincourt"/>
             </revisionDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
-<!-- La page 330 de la cinquième édition correspond à la page 219-->
-            <div type="chapter" n="2"> <!-- Je ne comprends pas où se trouvent les chapitres -->
-                <pb n="122"></pb> 
-                <head rends="caps">Du Merite personnel </head>
-                 <div type="remark" source="#ed3_ex1" n="2">
-                    <p>Combien d'hommes admirables, &amp; qui avaient de tresbeaux genies
-                        sont morts sans qu'on en ait parlé? Combien vivent encore dont on ne parle point,&amp;dont on ne parlera jamais?</p>                     
+            <div1 type="part" n="1">
+                <head>Discours sur Théophraste</head>
+            </div1>
+            <div1>
+                <head type="title">Les Caractères de Théophrastes</head>
+                <head type="subtitle.">Traduit du grec</head>
+                <div2 type="Introduction">
+                    <p>(...)</p>
+                </div2>
+                <div2 type="toc">table des matières <list type="chapter">
+                        <item n="1">De la Diſſimulation.</item>
+                        <item n="2">De la Flaterie.</item>
+                        <item n="3">De l'Impertinent, ou du diſeur de rien.</item>
+                        <item n="4">De la Rufticité.</item>
+                        <item n="5">Du Complaiſant.</item>
+                        <item n="6">De l'image d'un Coquin.</item>
+                        <item n="7">Du grand Parleur</item>
+                        <item n="X+1"/>
+                    </list>
+                </div2>
+                <div2 type="chapter" n="1" xml:id="Chapitre 1" source="#BNF-R-18787">
+                    <head rend="uppercase">De la Diſſimulation</head>
+                    <div3 type="introduction-part">
+                        <!-- Ici serait écrit l'introduction du chapitre-->
+                    </div3>
+                    <div3>
+                        <p>(...)</p>
+                    </div3>
+                </div2>
+            </div1>
+        <div1>
+            
+            
+        </div1>
+
+
+
+            <!-- La page 330 de la cinquième édition correspond à la page 219-->
+            <div type="chapter" n="2">
+                <!-- Je ne comprends pas où se trouvent les chapitres -->
+                <pb n="122"/>
+                <head rends="uppercase">Du Merite personnel </head>
+                <div type="remark" source="#ed3_ex1" n="2">
+                    <p>Combien d'hommes admirables, &amp; qui avaient de tresbeaux genies sont morts
+                        sans qu'on en ait parlé? Combien vivent encore dont on ne parle
+                        point,&amp;dont on ne parlera jamais?</p>
                 </div>
                 <div type="remark" source="#ed3_ex1" n="3">
                     <p>Quelle horrible peine à un homme qui est sans (prosneurs) &amp;sans cabale,
-                        qui n'est engagé dans aucun corps, mais qui est seul,&amp;
-                        qui n'a que beaucoup de mérite pour toute recommendation, dese faire jour à travers
-                        l'obscurité où il se trouve,&amp;de venir au niveau d'un fat qui est en credir</p>
+                        qui n'est engagé dans aucun corps, mais qui est seul,&amp; qui n'a que
+                        beaucoup de mérite pour toute recommendation, dese faire jour à travers
+                        l'obscurité où il se trouve,&amp;de venir au niveau d'un fat qui est en
+                        credir</p>
                 </div>
-              </div>                    
-         </body> <!-- Je ne comprends pas pourquoi il me déclare une erreur sur <body> -->
+            </div>
+        </body>
+        <!-- Je ne comprends pas pourquoi il me déclare une erreur sur <body> -->
     </text>
 </TEI>
