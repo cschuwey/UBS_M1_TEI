@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle</title>
+            </titleStmt>
+            <publicationStmt>
+                <p></p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">La bruyère, Jean de</author>
+                    <date when="1688">LXXXVIII</date>
+                    <edition n="3">Troisième édition </edition>
+                    <publisher>E. Michallet</publisher>
+                    <idno>BnF R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed5">
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">La bruyère, Jean de</author>
+                    <date when="1690">MDCXC</date>
+                    <edition n="5">Cinquième édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <idno>BnF R-18790</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc> 
+            <projectDesc>
+                <p>J'ai choisi de moderniser afin de faciliter la compréhension du texte.</p>
+                <p>J'ai décidé de mettre les divisions des deux préfaces, du sommaires dans
+                    l'élément front car je considère que ce sont des informations préliminaires qui doivent être séparés du corps du texte. Je les ai d'ailleurs mis en div1 
+                    car je les considère au même niveau que les chapitres (ce sont des divisions principales). Au niveau de la deuxième préface, j'ai mis en sous division (div2) sa 
+                table des matières puisqu'elle concerne seuelment la deuxième préface.</p>   
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc> <listChange>
+            <change when="2025-10-06">Créé l’en-tête, la structure du document et les sources bibliographiques, et l'après-midi, c</change>
+            <change when="2025-10-10"> J'ai changé les divisions et rajouté div1, div2, div3... </change>
+            <change when="2025-10-20"> J'ai rajouté les divisions concernant la préface ainsi que le sommaire.</change>
+            <change when="2025-10-21"> J'ai rajouté la deuxième préface et sa table des matières et j'ai identifié clairement leur id et les chapitres également. </change>
+        </listChange></revisionDesc>
+    </teiHeader>
+    <text>
+        <front> 
+            <div1 type="preface" xml:id="preface1"> <head>Discours sur Théophraste</head>
+                <p source="#ed3">Je n'estime pas que l'homme soit capable de former dans son esprit un projet plus vain et plus chimérique, 
+                    que de prétendre en écrivant de quelque art ou de quelque science que ce soit, échaper à toutes sortes de critiques, 
+                    et enlever les suffrages de tous les lecteurs.</p>
+            </div1>
+                <div1 type="preface" xml:id="preface2"> <head>Les Caractères de Théophraste traduits du grec</head>
+                   <div2 type="toc" xml:id="tocpreface2">
+                       <list source="#ed3">
+                           <item>De la dissimulation</item>
+                           <item>De la flatterie</item>
+                           <item>De l'impertinent, ou du diseur de rien</item>
+                           <item>De la rusticité</item>
+                           <item>Du complaisant</item>
+                           <item>De l'image d'un coquin</item>
+                           <item>...</item>
+                       </list> 
+                   </div2>
+                    <div2 type="chapter"> <head>De la dissimulation</head>
+                    <p source="#ed3"> La dissimulation n'est pas aisé à bien définir ; si l'on se contente d'en faire une simple description, 
+                    l'on peut dire que c'est un certain art de composer les paroles et les actions pour une mauvaise fin...</p></div2>
+                    
+                </div1>
+            
+            <div1 type="toc"> <head> Les caractères ou moeurs de de ce siècle</head>
+                <p source="#ed3">Je rends au public ce qu'il m'a presté j'ai emprunté de lui la matière de cet ouvrage, il est juste que 
+                l'ayant achever vec toute l'attention pour la vérité dont je fus capable, ...</p>
+                
+                <list source="#ed3">
+                <item xml:id="Chapter1">Des ouvrages de l'esprit </item>
+                <item xml:id="Chapter2">Du mérite personnel</item>
+                <item xml:id="Chapter3">Des Femmes</item>
+                <item xml:id="Chapter4">Du coeur</item>
+                <item xml:id="Chapter5">De la société et de la conversation</item>
+                <item xml:id="Chapter6">Des Biens de Fortune</item>
+                <item>...</item>
+                </list>
+            </div1>
+                </front>
+        <body> 
+                <div1  type="chapter" n="1" corresp="#Chapter1">
+                    <head>Des Ouvrages de l'Esprit</head>
+                    
+                    <div2 type="remark" n="1">  
+                        <p source="#ed3"> Tout est dit, et l'οn vient trop tard depuis plus de sept mille ans qu'il y a des hommes, et qui pensent.
+                            Sur ce qui concerne les mœurs le plus beau et le meilleur est enlevé ; 
+                            l'on ne fait que glaner aprés les Anciens et les habiles d'entre les Modernes.</p> </div2>
+                    
+                    <div2 type="remark" n="15">  
+                        <p source="#ed3">Combien de siecles se sont écoulez avant que les hommes dans les sciences et dans les arts ayent pû revenir an goût des Anciens, 
+                            et reprendre enfîn le simple et le naturel</p>
+                        <p>Entre toutes les différentes expressions qui peuvent rendre une seule de nos pensées,
+                            il n'y en a qu'une qui soit la bonne ;
+                            on ne la rencontre pas toûjours en parlant, ou en écrivant ;
+                            il est vrai neanmoins qu'elle existe, que tout ce qui ne l'est point est faible,
+                            et ne satisfait point un homme d'esprit qui veut se faire entendre.</p>
+                        
+                    </div2>
+                </div1>
+            <div1  type="chapter" n="2" corresp="#Chapter2">
+                <head>Du mérite personnel</head>
+                
+                <div2 type="remark" n="1">  
+                    <p source="#ed3"> ... </p> </div2>
+            
+            </div1>
+        </body>
+    </text>
+</TEI>
