@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <title>Traduit du grec : avec les caractères et les moeurs de ce siècle</title>
+                <author resp="translator author" ref="ark:/12148/cb11910249z">La Bruyère, Jean
+                    de</author>
+                <author>Théophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority> Amélie Corlay</authority>
+                <distributor> UBS - GitHub</distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3_ex1">
+                    <title>Les Caractères de Théophraste</title>
+                    <title>Traduit du grec : avec les caractères ou les moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                    <publisher>Estienne Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">LXXXVIII</date>
+                    <idno>BnF - R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed5_ex1">
+                    <title>Les Caractères de Théophraste</title>
+                    <title>Traduit du grec : avec les caractères ou les moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                    <publisher>Estienne Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1690">1690</date>
+                    <idno>BnF - R18790</idno>
+                </bibl>
+            </sourceDesc>
+
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encodage de deux ramarques des Caractères de la Bruyère de la troisième edition
+                    de 1688</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Structure de l'ouvrage avec les div. Séparation du texte en trois grandes parties
+                    avec les Div de niveau 1 pour le "Discours sur Théophraste", "Les Carctères de
+                    Théophraste" et "Les Caractères de la Bruyère". Dans les "Div2" se trouvent les
+                    éléments principaux contenus dans chaque grandes parties, soit : l'introduction,
+                    les sommaires et les chapitres. Puis pour les caractères de la Bruyère, j'ai
+                    séparé les chapitres en deux avec les "div3", une première pour le texte
+                    introductif au début des chapitres et une deuxième "div3" pour les remarques. </p>
+                <correction>
+                    <p>Transcription du texte en orthographe moderne</p>
+                </correction>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date when="2025-10-06">6 Octobre 2025</date>
+                <name>Corlay Amélie</name> Création du TEI Header pour "Les Caractères" de La
+                Bruyère et encodage de deux remarques du chapitre "De la société et de la
+                conversation" </change>
+            <change>
+                <date when="2025-10-22">22 Octobre 2025</date>
+                <name>Corlay Amélie</name> Structure de l'ouvrage dans différents niveaux de
+                l'élément Div </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="préface">
+                <!-- Div qui concerne Le discours sur Théophraste -->
+                <head>Discours sur Théophraste</head>
+            </div1>
+            <div1 n="1" xml:id="LesCaractèresdeThéophraste">
+                <!-- Div de niveau 1 qui concerne toute la partie des caractères de Théophraste  -->
+                <head>Les Caractères de Théophraste - Traduit du grec</head>
+                <div2 type="Introduction" corresp="#LesCaractèresdeThéophraste">
+                    <!-- Texte introductif des Caractères de Théophraste -->
+                </div2>
+                <div2 type="sommaire" corresp="#LesCaractèresdeThéophraste">
+                    <!-- Sommaire des Caractères de Théophraste. J'ai aussi tenté d'encoder une partie en utilisant l'élément lb mais j'ai pas réussi  ¯\_(ツ)_/¯ -->
+                </div2>
+
+                <div2 type="chapitres" corresp="#LesCaractèresdeThéophraste">
+                    <head>De la Dissimulation</head>
+                    <!-- Chapitres des Caractères de Théophraste -->
+
+                </div2>
+            </div1>
+            <div1 n="2" xml:id="LesCaractèredeLaBruyère">
+                <!-- Div de niveau 1 qui concerne la deuxieme grande partie de l'ouvrage et qui reprend la même séparation -->
+                <head>Les Caractères ou les moeurs de ce siècle</head>
+                <div2 type="introduction" corresp="#LesCaractèredeLaBruyère"/>
+                <!-- Introduction des Caractères de La Bruyère -->
+                <div2 type="sommaire" corresp="#LesCaractèredeLaBruyère"/>
+                <div2 type="chapter" corresp="#LesCaractèredeLaBruyère">
+                    <div3 type="introduction" corresp="#LesCaractèredeLaBruyère #chapitreX">
+                        <!-- Dans cette div3 on pourrait faire référence au  chapitre dans lequel se trouve l'introduction et les remarques qui seraient identifiés dans le sommaire avec xml:id-->
+                    </div3>
+                    <div3 type="remarque" corresp="chapterX #ed3_ex1">
+                        <p> ¶C'est le rôle d'un sot d'être importun : un homme habile sent qu'il
+                            convient, ou s'il ennuie, il sait disparaître le moment qui précède
+                            celui où Il ferait de trop quelque part</p>
+                        <p> ¶ L'on marche sur les mauvais plaisants, et il pleut partout dans tous
+                            les pays cette forte d'insectes : un bon plaisant est une pièce rare ; à
+                            un homme qui est né tel, il est encore fort délicat d'en soutenir
+                            longtemps le personnage ; Il n'est pas ordinaire que celui qui fait rire
+                            se fasse estimer.</p>
+                    </div3>
+
+                </div2>
+
+            </div1>
+
+
+        </body>
+    </text>
+</TEI>
+
