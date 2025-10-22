@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Deux rééditions différentes de 1688 et 1694</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="car1688">
+                    <author ref="ark:/12148/cb118876987">Théophraste</author>
+                    <title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou
+                        les moeurs de ce siècle</title>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">1688</date>
+                    <edition n="1">1ère édition</edition>
+                    <idno>Bnf R-2056</idno> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k105077m.r=les%20caract%C3%A8res%20th%C3%A9ophraste?rk=42918;4#"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k105077m.r=les%20caract%C3%A8res%20th%C3%A9ophraste?rk=42918;4#</ref>
+                </bibl>
+                <bibl xml:id="car1694">
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                    <title>Les caractères de Théophraste traduits du grec ; avec Les caractères ou
+                        les moeurs de ce siècle </title>
+                    <publisher>Omnisys</publisher>
+                    <pubPlace>Cambridge</pubPlace>
+                    <date when="1694">1694</date>
+                    <edition n="2">2ème édition</edition>
+                    <idno>?</idno> Available from <ref
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k57577n.r=caract%C3%A8re%20th%C3%A9ophraste?rk=2381986;0"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k57577n.r=caract%C3%A8re%20th%C3%A9ophraste?rk=2381986;0</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Mise en relation des édition dess Caractère de 1688 et 1694</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Certains mots coupés par soucis de place en fin de ligne ont été
+                        réassemblés</p>
+                </correction>
+                <normalization>
+                    <p>L'orthographe et la graphie originelles ont été conservées, notamment les
+                        esperluettes et les s longs. Les titres étant uniquement constitués de
+                        majuscules, la liberté à été prise de ne conserver des majuscules que sur
+                        certains mots considérés importants</p>
+                    <p>Au niveau de la structure, la préface des Caractères à été considérée comme
+                        "front". Les privilèges du roy ont été considéré comme "back", puisque cela
+                        consititue une addition au texte original (selon ma compréhension du titre
+                        de l'oeuvre).Le reste fait partie du "body".</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-10-07">22 octobre 2025</date>Dernière révision par K.Lidec -
+                    Ajout de la structure des Caractères </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div1 type="preface">
+                <head>Discours sur Théophraste</head>
+                <p>Contenu du discours</p>
+            </div1>
+        </front>
+        <body>
+            <div1 type="Caracteres">
+                <head type="main">Caractères de Théophraste</head>
+                <head type="sub">Traduits du Grec</head>
+                <p>Présentation des Caractères</p>
+                <div2 type="Chapter" xml:id="chapter1-p2">
+                    <head type="main">De la Dissimulation</head>
+                    <div3 type="remark" n="1-1" source="#car1694">
+                        <p>La Diſſimulation...</p>
+                    </div3>
+                </div2>
+                <div2 type="Chapter" xml:id="chapter2-p4">
+                    <head type="main">De la Flatterie</head>
+                    <div3 type="remark" n="2-1" source="#car1694">
+                        <p>La Flatterie...</p>
+                    </div3>
+                </div2>
+                <div2 type="Chapter" xml:id="chapter3-p7">
+                    <head type="main">De l'Impertinent</head>
+                    <head type="sub">Ou du diseur de Rien</head>
+                    <div3 type="remark" n="3-1" source="#car1694">
+                        <p>La forte envie...</p>
+                    </div3>
+                </div2>
+                <div2 type="Chapter" xml:id="chapter42-p594">
+                    <head>De quelques Usages - page 594 (Page 627 du document pdf)</head>
+                    <div3 type="remark" n="42-1" source="#car1694">
+                        <p>Il y a des gens qui n'ont pas le moyen d'êtres nobles.</p>
+                        <p>Il y en a de tels, que s'ils euſſent obtenu ſix mois de delay de leurs
+                            creanciers, ils étoient nobles*. </p>
+                        <note>**Veterans</note>
+                        <p>Quelques autres ſe couchent roturiers &amp; ſe levent nobles*.</p>
+                        <p>Combien de nobles dont le pere &amp; les aînez ſont roturiers ?</p>
+                    </div3>
+                    <div3 type="remark" n="42-2" source="#car1694">
+                        <p>¶ Tel abandonne ſon pere qui eſt connu, &amp; dont l'on cite le greffe ou
+                            la boutique, pour ſe retrancher ſur ſon ayeul, qui mort depuis long
+                            temps eſt inconnu &amp; hors de priſe ; il montre enſuite un gros
+                            revenu, une grande charge, de belles alliances, &amp; pour être noble,
+                            il ne luy manque que des titres. </p>
+                        <!-- Le reste des chapitres et des remarques se basent sur ce même principe de structure. -->
+                    </div3>
+                </div2>
+            </div1>
+            <div1 type="Discours">
+                <head type="main">Discours prononcé dans l'Académie Françoise</head>
+                <div2 type="prefaceD">
+                    <head type="main">Préface</head>
+                    <p>Ceux qui interrogez...</p>
+                </div2>
+                <div2 type="Discours">
+                    <head type="main">Discours prononcé dans l'Académie Françoise</head>
+                    <head type="sub">Le lundy quizième Juin 1693</head>
+                    <p>Messieurs,</p>
+                    <p>Il ſeroit difficile...</p>
+                </div2>
+            </div1>
+            <div1 type="sommaire">
+                <p>(Contenu du Sommaire)</p>
+            </div1>
+        </body>
+        <back>
+            <div1 type="back">
+                <head type="main">Privilège du Roy</head>
+                <p>LOUIS par la grace de Dieu...</p>
+            </div1>
+        </back>
+    </text>
+</TEI>
