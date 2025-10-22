@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste traduits du grec: avec les Caractères ou les moeurs de ce siècle</title>
+                <author>J. La Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Estienne Michallet</publisher>
+                <pubPlace>Paris</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="P-03">
+                    <title>Les Caractères de Théophraste, traduit du grec: avec les Caractères ou les moeurs de ce siècle</title>
+                    <author ref="BNF|11910249">J. La Bruyère</author>
+                    <date when="1688">1688</date>
+                    <edition n="3">3e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-18787</idno>
+                </bibl>
+                <bibl xml:id="P-06">
+                    <title>Les Caractères de Théophraste, traduit du grec: avec les Caractères ou les moeurs de ce siècle</title>
+                    <author ref="BNF|11910249">J.La Bruyère</author>
+                    <date when="1691">1691</date>
+                    <edition n="3">6e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-52303</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Corpus de la structure et de l'opposition de deux éditions (3ème et 6ème) de Les Caractères de Théophraste, traduit du grec: avec les Caractères ou les moeurs de ce siècle</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Pour la structuration j'ai décidé de faire un div 1 (le parent) qui englobe toute l'oeuvre avec l'intitulé de l'ouvrage, car le titre concerne le livre en entier. 
+                    Ensuite comme enfants j'ai mis les deux parties qui construisent le livre: la première les discours de Théophraste et la seconde les caractères ou les moeurs du siècle, ainsi que l'épilogue du livre, car lorsqu'on parcours l'ouvrage on s'aperçoit des espaces plus conséquents face aux enfants de ce div 2 mis en place par l'éditeur pour couper chacune de ses parties, de plus ces 3 sontenus sont les seuls à apparaître en haut de page.
+                    Comme enfants de ses deux parties, j'ai mis la préface, le sommaire et les chapitres pour chacune des parties respectives, car de manière logique ses contenus se suivent les uns les autres, nous pouvons aussi noter la même mise en page utilisées et la même typographie.
+                    Puis, en enfants des chapitres nous trouvons les remarques et donc les unités inclu dans les différents chapitres.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <p>j'ai optée pour moderniser la transcription en transformant les s "longs" en s "courts" tout en gardant les esperluettes originelles.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-10-06">6 octobre 2025</date>Dernière modification par E.L.
+                </item>
+                <item>
+                    <date when="2025-10-22">22 octobre</date>
+                    Ajout de la structure de l'édition de 1688 avec l'item div.
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="title" source="#P-03">
+                <!--Discours sur Théophraste-->
+                <div2 type="préface"></div2>
+                <div2 type="part">
+                        <head>Les caractères ou les moeurs du siècle</head>
+                    <div3 type="préface"></div3>
+                    <div3 type="sommaire"></div3>
+                    <div3 type="chapitre">
+                        <head>De la Dissimulation</head>
+                    </div3>
+                    <div3 type="chapitre">
+                        <head>De la Médisance</head>
+                    </div3>
+                </div2>
+                <div2 type="part">
+                        <head>Les caractères de Theophraste traduit du grec</head>
+                     <div3 type="préface"></div3> 
+                     <div3 type="sommaire"></div3>
+                     <div3 type="chapitre">
+                        <head>Des Ouvrages de l'esprit</head>
+                        <div4 type="remarque">
+                             <p>il faut chercher seulement à penser &amp; à parler juste, sans vouloir amener les autres à nostre goust &amp; à nos sentiments ; c'est une trop grande entreprise.</p>
+                        </div4>
+                        </div3>
+                        <div3 type="chapitre">
+                            <head>Des Biens de Fortune</head>
+                            <div4 type="remarque">
+                                <p>Si l'on ne le voyoit de ses yeux, pourroit-on jamais s'imaginer l'étrange disproportion que le plus ou le moins de pieces de monnoye met entre les hommes.
+                                    Ce plus ou ce moins détermine à l'Epée; il n'y a presque point d'autre vocation.</p>
+                            </div4>
+                       </div3>
+                    <div3 type="chapitre">
+                        <head>Des Esprits forts</head>
+                    </div3>
+                </div2>
+                <div2 type="épilogue">
+                    <head>Extrait du Privilege du Roy</head>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
