@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste</title>
+                <author>J. La Bruyère</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>E.Michallet</publisher>
+                <pubPlace>Paris</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="P-03">
+                    <title>Les Caractères de Théophraste, traduit...</title>
+                    <author ref="BNF|11910249">J. La Bruyère</author>
+                    <date when="1688">1688</date>
+                    <edition n="3">3e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-18787</idno>
+                </bibl>
+                <bibl xml:id="P-06">
+                    <title>Les Caractères de Théophraste, traduit...</title>
+                    <author ref="BNF|11910249">J.La Bruyère</author>
+                    <date when="1691">1691</date>
+                    <edition n="3">6e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-52303</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Corpus d'une opposition de deux versions des Caractères de Théophratse de J de la Bruyère, une de 1688 et une autre de 1691</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Parallèle entre deux remarques du même ouvrage, pour faire une opposition des métadonnées</p>
+            </samplingDecl>
+            <editorialDecl>
+                <p>pour cet encodage j'ai décidé de moderniser le texte en transformant le s dit "long" en s dit "court", j'ai tout de fois garder l'esperluette</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-10-06">6 octobre 2025</date>Dernière modification par E.L.</item>
+                <item>
+                    <date when="2025-10-22"></date>Ajout modification TD05 par E.L</item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="title" source="#P-03">
+                <!--Discours sur Theophraste-->
+                <div2 type="préface"></div2>
+                <div2 type="part">
+                    <!--Les caractères de Theophraste-->
+                
+                    <div3 type="sommaire">
+                        <div4 type="chapter">
+                            <head>De la Dissimulation</head>
+                        </div4>
+                        <div4 type="chapter">
+                            <head>De la Flatterie</head>
+                        </div4>
+                        <div4 type="chapter">
+                            <head>De la Médisance</head>
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+            <div1>
+                <div2 type="part">
+                    <!--Les Caracteres ou les Moeurs de ce siècle-->
+                    <div3 type="préface"></div3>
+                    <div3 type="sommaire">
+                        <div4 type="chapter">
+                            <head>Des Ouvrages de l'esprit</head>
+                            <div5 type="remarque">
+                                <p>I faut chercher seulement à penser &amp; à parler juste à nostre goust &amp; a nos sentiments; c'est une trop grande entreprise.</p>
+                            </div5>
+                        </div4>
+                        <div4 type="chapter">
+                            <head>Du Merite Personnel</head>
+                        </div4>
+                        <div4 type="chapter">
+                            <head>Des Femmes</head>
+                            <div5 type="remarque">
+                                <p>Il échape à une jeune personne de petites choses qui persuadent beaucoup, &amp; qui flattent sensiblement celuy pour qui elles sont faites: il n'échappe presque rien aux hommes, leurs caresses sont volontairement, ils parlent, ils agissent, ils sont em pressez, &amp; persuadent moins.</p>
+                            </div5>
+                        </div4>
+                        <div4 type="chapter">
+                            <head>Des Esprits forts</head>
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
