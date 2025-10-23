@@ -49,11 +49,14 @@
                         trouvant sur des pages et des chapitres similaires à travers les éditions de
                         l'ouvrage.</p>
                 </projectDesc>
-                <samplingDecl>
-                    <p>Choses à dire</p>
-                </samplingDecl>
+                <samplingDesc>
+                    <p><!-- Je crois ne pas avoir bien compris la différence entre le <samplingDesc> et le <editorialeDesc> --></p>
+                </samplingDesc>
                 <editorialeDecl>
-                    <p>Choses à dire</p>
+                    <p>Les pratiques d'édition que j'ai utilisé sont la division du texte en trois
+                        grandes parties de texte. La première est "Discours sur Théophraste." La
+                        deuxième est Les Caractères de Théophraste." La troisième est "Les
+                        caractères où les moeurs de ce siècle."</p>
                 </editorialeDecl>
             </encodingDesc>
             <!-- Je ne sais pas si <encodingDesc> et <revisionDesc> appartiennent à <filesDesc> où pas. -->
@@ -67,13 +70,14 @@
             <div1 type="part" n="1">
                 <head>Discours sur Théophraste</head>
             </div1>
-            <div1>
+            <div1 type="part" n="2">
                 <head type="title">Les Caractères de Théophrastes</head>
                 <head type="subtitle.">Traduit du grec</head>
                 <div2 type="Introduction">
                     <p>(...)</p>
                 </div2>
-                <div2 type="toc">table des matières <list type="chapter">
+                <div2 type="toc">table des matières.
+                <list type="chapter">
                         <item n="1">De la Diſſimulation.</item>
                         <item n="2">De la Flaterie.</item>
                         <item n="3">De l'Impertinent, ou du diſeur de rien.</item>
@@ -86,39 +90,45 @@
                 </div2>
                 <div2 type="chapter" n="1" xml:id="Chapitre 1" source="#BNF-R-18787">
                     <head rend="uppercase">De la Diſſimulation</head>
+                    <p>La* dissimulation n'est pas aisée à bien définir;(...)Moins à craindre </p>
+                </div2>
+            </div1>
+            <div1 type="part" n="1">
+                <head type="title">Les Caractères où les moeurs de ce siècle</head>
+                <!-- La page 330 de la cinquième édition correspond à la page 219-->
+                <div2 type="toc">table des matières.
+                    <list type="chapter">
+                        <item n="1">DDes OUvrages de l'Esprit.</item>
+                        <item n="2">Du Merite Personnel</item>
+                        <item n="3">Des Femmes</item>
+                        <item n="4">Du Coeur</item>
+                        <item n="5">De la Société &amp; de la Conversation.</item>
+                        <item n="6">Des Biens de fortune</item>
+                        <item n="7">De la Ville</item>
+                        <item n="X+1"/>
+                    </list>
+                </div2>    
+                <div2 type="chapter" n="2" xml:id="Chapitre2">
+                    <!-- J'ai un doute sur xml:id="Chapitre2" -->
+                    <pb n="122"/>
+                    <head rends="uppercase">Du Merite personnel </head>
                     <div3 type="introduction-part">
-                        <!-- Ici serait écrit l'introduction du chapitre-->
+                        <p>Qui peut avec les plus rares talents &amp; (...) pour le remplacer</p>
                     </div3>
-                    <div3>
-                        <p>(...)</p>
+                    <div3 type="remark" source="#ed3_ex1" n="2">
+                        <p>Combien d'hommes admirables, &amp; qui avaient de tresbeaux genies sont
+                            morts sans qu'on en ait parlé? Combien vivent encore dont on ne parle
+                            point,&amp;dont on ne parlera jamais?</p>
+                    </div3>
+                    <div3 type="remark" source="#ed3_ex1" n="3">
+                        <p>Quelle horrible peine à un homme qui est sans (prosneurs) &amp;sans
+                            cabale, qui n'est engagé dans aucun corps, mais qui est seul,&amp; qui
+                            n'a que beaucoup de mérite pour toute recommendation, dese faire jour à
+                            travers l'obscurité où il se trouve,&amp;de venir au niveau d'un fat qui
+                            est en credir</p>
                     </div3>
                 </div2>
             </div1>
-        <div1>
-            
-            
-        </div1>
-
-
-
-            <!-- La page 330 de la cinquième édition correspond à la page 219-->
-            <div type="chapter" n="2">
-                <!-- Je ne comprends pas où se trouvent les chapitres -->
-                <pb n="122"/>
-                <head rends="uppercase">Du Merite personnel </head>
-                <div type="remark" source="#ed3_ex1" n="2">
-                    <p>Combien d'hommes admirables, &amp; qui avaient de tresbeaux genies sont morts
-                        sans qu'on en ait parlé? Combien vivent encore dont on ne parle
-                        point,&amp;dont on ne parlera jamais?</p>
-                </div>
-                <div type="remark" source="#ed3_ex1" n="3">
-                    <p>Quelle horrible peine à un homme qui est sans (prosneurs) &amp;sans cabale,
-                        qui n'est engagé dans aucun corps, mais qui est seul,&amp; qui n'a que
-                        beaucoup de mérite pour toute recommendation, dese faire jour à travers
-                        l'obscurité où il se trouve,&amp;de venir au niveau d'un fat qui est en
-                        credir</p>
-                </div>
-            </div>
         </body>
         <!-- Je ne comprends pas pourquoi il me déclare une erreur sur <body> -->
     </text>
