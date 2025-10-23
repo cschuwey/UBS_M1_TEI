@@ -5,60 +5,94 @@
             <titleStmt>
                 <title>Les Caractères de Théophraste Traduit du grec: avec Les Caractères ou  Les Moeurs de ce siècle</title>
             </titleStmt>
-        <publicationStmt><p/></publicationStmt>   
-    <sourceDesc>
-        <bibl xml:id="ed3">
-            <title>Les Caractères de Théophraste Traduit du grec: avec Les Caractères ou Les Moeurs de ce siècle</title>
-            <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
-            <date when="1688">M.LC.LXXXVIII></date>
-            <edition n="3">troisième édition</edition>
-            <publisher>E.Michallet</publisher>
-            <pubPlace>Paris</pubPlace>
-            <idno>BnF R-18787</idno>
-</bibl>
-            <bibl xml:id="ed5">
-                <title>Les Caractères de Théophraste Traduit du grec: avec Les Caractères ou Les Moeurs de ce siècle</title>
-                <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
-                <date when="1690">1690</date>
-                <edition n="5">Cinquième édition</edition>
-                <publisher>E.Michallet</publisher>
-                <pubPlace>Paris</pubPlace>
-                <idno>BnF R-18790</idno>
-                
-    </bibl>
-</sourceDesc>
+            <publicationStmt><p/></publicationStmt>   
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Théophraste Traduit du grec: avec Les Caractères ou Les Moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                    <date when="1688">M.LC.LXXXVIII></date>
+                    <edition n="3">troisième édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed5">
+                    <title>Les Caractères de Théophraste Traduit du grec: avec Les Caractères ou Les Moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                    <date when="1690">1690</date>
+                    <edition n="5">Cinquième édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-18790</idno>
+                    
+                </bibl>
+            </sourceDesc>
         </fileDesc>
-    </teiHeader>
     <encodingDesc>
-<projectDesc>
-<p>Extrait de deux éditions Les Caractères de la Bruyère pour s'entrainer a la TEI</p>
-</projectDesc>
-<editorialDecl>
-<normalization>
-<p>L'orthographe est conservé</p>
-</normalization>
-</editorialDecl>    
+        <projectDesc>
+            <p>Extrait de deux éditions Les Caractères de la Bruyère pour s'entrainer a la TEI</p>
+            <p>J'ai voulu garde la même structure que l'édition 3 de 1688.</p>
+            <p>La préface dans front car c'est avant le commencement des chapitres.</p>
+            <p> En div1 la première partie du livre "Les caractères de théophraste".</p>
+            <p> La div2 c'est la table des matières</p>
+            <p>La div3 c'est la partie ou l'on trouve les chapitres </p>
+            <p> J'ai repris le même procéder pour la deuxième partie "Les caractère ou les moeurs de ce siècle"</p>
+        </projectDesc>
+        <editorialDecl>
+            <normalization>
+                <p>L'orthographe est conservé</p>
+            </normalization>
+        </editorialDecl>    
     </encodingDesc>
-<revisionDesc>
-    <listChange>
-<change when="2025-10-16">Création les métadonnées></change>
-</listChange>
-</revisionDesc>
-</teiHeader>
+    <revisionDesc>
+        <listChange>
+            <change when="2025-10-16">Création les métadonnées></change>
+        </listChange>
+    </revisionDesc>
+    </teiHeader>
     <text>
         <body>
-            <div type="chapter">
-                 <head>Des ouvrages de l'esprit p106 (pdf 172)</head>
+            <div type="chapter" source="#ed3">
+                <head>Des ouvrages de l'esprit p106 (pdf 172)</head>
                 <div type="remark">
-                    <p decls="#ed3">❡ Il faut chercher ſeulement à penſer & à parler juſte, ſans vousloir amener les autres à noſtre gouſt & à nos ſentiments; c'eſt une trop grande entrepriſe.</p>
+                    <p decls="#ed3">❡ Il faut chercher ſeulement à penſer &amp; à parler juſte, ſans vousloir amener les autres à noſtre gouſt &amp; à nos ſentiments; c'eſt une trop grande entrepriſe.</p>
+                </div>
             </div>
-</div>
-<div type="chapter">
-<head>Des ouvrages de l'esprit p82 (pdf 142)</head>
-<div type="remark">
-<p decls="#ed5">❡ Il n'eſt pas ſi aiſé de ſe faire un nom par un ouvrage parfait, que d'en faire valoir un médiocre par le nom qu'on s'eſt déjà acquis.</p>
-</div>
-</div>
+            <div type="chapter">
+                <head>Des ouvrages de l'esprit p82 (pdf 142)</head>
+                <div type="remark">
+                    <p decls="#ed5">❡ Il n'eſt pas ſi aiſé de ſe faire un nom par un ouvrage parfait, que d'en faire valoir un médiocre par le nom qu'on s'eſt déjà acquis.</p>
+                </div>
+            </div>
         </body>
     </text>
+    <text> 
+    <front>
+        <div type="preface">
+            <head>Les caractères de Theophraste</head>
+        </div>
+    </front>
+    <body> 
+    <div1 type="part">
+        <head> Les caractères de Theophraste</head>
+        <div2 type="summary">
+            <head>Les chapitres les caractères de Theophraste</head>
+            <p></p>
+            <div3 type="chapter">
+                <head>Les chapitres les caractères de Theophraste</head>
+                <p></p>
+            </div3>
+        </div2>
+    </div1>
+    <div1 type="part">
+        <head>Les caractères ou les moeurs de ce siècle</head>
+        <div2 type="summary">
+            <head> Les chapitres les caractères ou les moeurs de ce siècle</head>
+            <p></p>
+            <div3 type="chapter">
+                <head> Les chapitres les caractères ou les moeurs de ce siècle </head>
+            </div3>
+        </div2>
+    </div1></body></text>
 </TEI>
+
