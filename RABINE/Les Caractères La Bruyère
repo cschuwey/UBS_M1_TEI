@@ -31,6 +31,15 @@
         <projectDesc>
             <p>Extraits de l'édition de 1688 de Les Caractères de La Bruyère dans le cadre du cours de TEI</p>
         </projectDesc>
+        <projectDesc>
+            <p>Voici la structuration de l'édition 3 de 1688 des Caractères de La Bruyère.</p>
+            <p>Dans un premier temps, j'ai mis une div préface dans front car il s'agit d'un contenu extérieur au texte.</p>
+            <p>Ensuite, j'ai mis une div1 pour représenter la partie 1 dans le body car c'est le début du contenu de l'ouvrage.</p>
+            <p>Après une div1, j'ai écris une div2 pour évoquer la table des matières qui est à l'intérieur de la première partie et donc de div1.</p>
+            <p>Une div3 est ensuite ajoutée après la div2 car elle décrit les chapitres qui font partie de la table des matières, à l'intérieur desquels j'ai ajouté un paragraphe.</p>
+            <p>Enfin, j'ai ajouté une div4 qui détermine les remarques au sein des chapitres et paragraphes.</p>
+            <p>J'ai gardé la même structure pour la deuxième partie en enlevant la div de la table des matières.</p>
+        </projectDesc>
         <editorialDecl>
             <normalization>
                 <p>L'orthographe des mots est conservé. Aucun changement ne sera ajouté.</p>
@@ -39,7 +48,8 @@
     </encodingDesc>
     <revisionDesc>
         <listChange>
-            <change when="2025-10-20">Correction suite au feedback</change>
+            <change when="2025-10-23">Structuration du texte de la troisième édition de 1688</change>
+            <change when="2025-10-20">Correction suite au feeback</change>
             <change when="2025-10-17">Version complète</change>
             <change when="2025-09-30">Création du document</change>
         </listChange>
@@ -60,5 +70,40 @@
                 </div>
             </div>    
         </body>
-    </text>   
+    </text>
+    <text>
+        <front>
+            <div type="preface">
+                <head>Discours sur Théophraste</head>
+            </div>
+        </front>
+        <body>
+            <div1 type="part" n="1">
+                <head>Les caractères de Théophraste</head>
+                <div2 type="summary">
+                    <head>Les caractères de Théophraste</head>
+                    <div3 type="chapter">
+                        <head>Nom de chapitre</head>
+                        <p>texte</p>
+                        <div4 type="remark">
+                            <p>remark</p>
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+            <div1 type="part" n="2">
+                <head>Les caractères ou les moeurs de ce siècle</head>
+                <div2 type="summary">
+                    <head>Les caractères ou les moeurs de ce siècle</head>
+                    <div3 type="chapter">
+                        <head>Nom de chapitre</head>
+                        <p>texte</p>
+                        <div4 type="remark">
+                            <p>remark</p>
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
 </TEI>
