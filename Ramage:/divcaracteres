@@ -51,23 +51,23 @@
     <text>
         <body>
                                            <!--Théophraste -->
-            <div type="préface" n="1" xml:id="prefacetheophraste" corresp="DiscoursdeThéophraste">
+            <div type="préface" n="1" xml:id="prefacetheophraste">
                 <head> Préface du discours </head>
-                <!-- contenu de la préface -->
+                <p> contenu de la préface</p>
             </div>
             
             <div n="1" xml:id="LescaractèresdeThéophraste">
                 <head> Les caractères de Théophraste - Traduit du Grec </head>
                 
-                <div n="2" xml:id="Introduction" corresp="#LescaractèresdeThéophraste">
-                    <!-- Introduction des caractères de Théophraste -->
+                <div n="2" xml:id="préface">
+                    <p>contenu de la préface</p>
                 </div>
                 
-                <div n="2" xml:id="Sommaire" corresp="#LescaractèresdeThéophraste">
-                    <!-- Sommaire des Caractères de Théophraste-->
+                <div n="2" xml:id="Sommaire">
+                 <p>sommaire...</p>
                 </div>
                 
-                <div n="2" type="chapter" xml:id="chapter1théophraste" corresp="#LescaractèresdeThéophraste">
+                <div n="2" type="chapter" xml:id="chapter1théophraste" >
                     <head> >De la Dissimulation page6</head>
                     <div n="3" type="remark">
                       <p source="#ed3">La dissimulation n'est pas aisée à bien définir ; si l'on se
@@ -82,15 +82,15 @@
             <div n="1" xml:id="LescaractèresdelaBruyère">
                 <head> Les Caractères ou les Moeurs de ce Siècle </head>
                 
-                <div n="2" xml:id="Préface"  corresp="#LescaractèresdelaBruyère">
-                    <!-- contenu de la préface -->
+                <div n="2" xml:id="Préface">
+                    <p> contenu de la préface</p>
                 </div>
 
-                <div xml:id="sommaire" n="2" corresp="#LescaractèresdelaBruyère">
-                    <!-- sommaire Les Caractères ou les Moeurs de ce Siècle -->
+                <div xml:id="sommaire" n="2">
+                    <p>sommaire...</p>
                 </div>
                 
-                <div   n="2" type="chapter" xml:id="chapter1LaBruyère" corresp="#LescaractèresdelaBruyère">
+                <div   n="2" type="chapter" xml:id="chapter1LaBruyère">
                     <head> Des ouvrages de l'esprit page 107</head>
                    
                     <div n="3" type="remark">      
@@ -103,3 +103,4 @@
         </body>
     </text>
 </TEI>
+
