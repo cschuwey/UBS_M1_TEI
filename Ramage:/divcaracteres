@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste, traduits du grec</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Informations sur la publication de l'oeuvre</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Théophraste traduits du grec</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère</author>
+                    <date when="1688">1688</date>
+                    <edition n="3">Troisième édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed5">
+                    <title>Les Caractères de Théophraste traduits du grec</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère</author>
+                    <date when="1690">1690</date>
+                    <edition n="5">Cinquième édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>R-18790</idno>
+                </bibl>
+
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encodage de la structure hiérarchique</p>
+            </projectDesc>
+            <editorialDecl>
+
+                <p>Les préfaces sont encodées au même niveau que les sommaires div1.  
+                    À l'intérieur des sommaires, les chapitres sont placés en div2.  
+                    Enfin, les div3 servent à intégrer les remarques à l'intérieur des chapitres.</p>
+
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2025-10-06">Les Caractères</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                                           <!--Théophraste -->
+            <div type="préface" n="1" xml:id="prefacetheophraste" corresp="DiscoursdeThéophraste">
+                <head> Préface du discours </head>
+                <!-- contenu de la préface -->
+            </div>
+            
+            <div n="1" xml:id="LescaractèresdeThéophraste">
+                <head> Les caractères de Théophraste - Traduit du Grec </head>
+                
+                <div n="2" xml:id="Introduction" corresp="#LescaractèresdeThéophraste">
+                    <!-- Introduction des caractères de Théophraste -->
+                </div>
+                
+                <div n="2" xml:id="Sommaire" corresp="#LescaractèresdeThéophraste">
+                    <!-- Sommaire des Caractères de Théophraste-->
+                </div>
+                
+                <div n="2" type="chapter" xml:id="chapter1théophraste" corresp="#LescaractèresdeThéophraste">
+                    <head> >De la Dissimulation page6</head>
+                    <div n="3" type="remark">
+                      <p source="#ed3">La dissimulation n'est pas aisée à bien définir ; si l'on se
+                        contente d'en faire une simple description, l'on peut que c'est un certain
+                        art de composer ses paroles &amp; ses actions pour une mauvaise fin.</p>
+                    </div>
+                </div>
+            </div>
+
+                                        <!--La Bruyère -->
+            
+            <div n="1" xml:id="LescaractèresdelaBruyère">
+                <head> Les Caractères ou les Moeurs de ce Siècle </head>
+                
+                <div n="2" xml:id="Préface"  corresp="#LescaractèresdelaBruyère">
+                    <!-- contenu de la préface -->
+                </div>
+
+                <div xml:id="sommaire" n="2" corresp="#LescaractèresdelaBruyère">
+                    <!-- sommaire Les Caractères ou les Moeurs de ce Siècle -->
+                </div>
+                
+                <div   n="2" type="chapter" xml:id="chapter1LaBruyère" corresp="#LescaractèresdelaBruyère">
+                    <head> Des ouvrages de l'esprit page 107</head>
+                   
+                    <div n="3" type="remark">      
+                    <p source="#ed3">¶ Quel supplice que celui d'entendre prononcer de médiocres vers avec toute
+                        l'emphasez d'un mauvais Poete ?</p> 
+                   
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
