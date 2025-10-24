@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -41,6 +42,11 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <p>div1= 3 grandes divisions de l'oeuvre (discours sur theophraste, caractères de
+                theophraste et caractères ou les moeurs de ce siècle) dans ces div1, les div2 sont
+                les sous partie (préfaces, tables de matiere et chapitres) et dans le cas des
+                caractères de la bruyère les div3 sont les sous parties des chapitres, les
+                remarques</p>
             <projectDesc>
                 <p>Transcription numérique d'une séléction de caractères de La Bruyère</p>
             </projectDesc>
@@ -53,21 +59,26 @@
         </encodingDesc>
         <revisionDesc>
             <change when="2025-10-06" who="#RomaneBaldy"> p.247 et 248 et header mis à jour</change>
+            <change when="2025-10-20" who="#RomaneBaldy"> ajout des div1,2 et 3, structure du
+                document</change>
+            <change when="2025-10-24" who="#RomaneBaldy"> précisions encoding desc et auto correction</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div1>
-                <p>Discours sur theophraste</p>
+            <div1 type="part">
+                <!--Discours sur theophraste<-->
             </div1>
             <div1>
+                <!-- les caractères de theophraste -->
                 <p>Les caractères de theophraste<hi rend="it">traduits du Grec.</hi></p>
                 <div2>
+                    <!--préface-->
                     <head>LES CARACTERES DE THEOPRASTE <hi rend="it">TRADUITS DU GREC.</hi></head>
-                    <p>préface</p>
+
                 </div2>
                 <div2>
-                    <p>Table des matières</p>
+                    <!-- table des matieres-->
                 </div2>
                 <div2 type="chapter" n="1" xml:id="DeLaDissimulation">
                     <pb n="6" ed="#ed3_ex1"/>
@@ -82,12 +93,14 @@
                                <head>Nom du Chapitre (comme il apparait sur le document)</head></div2>-->
             </div1>
             <div1>
+                <!--les caractères ou les moeurs de ce siècle-->
                 <div2>
+                    <!--préface-->
                     <head>LES CARACTERES OU LES MOEURS DE CE SIECLE.</head>
-                    <p>préface</p>
+
                 </div2>
                 <div2>
-                    <p>Table des matières</p>
+                    <!--Table des matières-->
                 </div2>
                 <div2 type="chapter" n="1" xml:id="DesOuvragesdelEsprit">
                     <pb n="106" ed="#ed3_ex1"/>
@@ -96,7 +109,9 @@
                     <head>Des Ouvrages de l'Esprit.</head>
 
                     <div3 type="remark" n="1">
-                        <p>Remarques 1 blablabla</p>
+                        <!--Remarques 1 blablabla
+                        répéter <div3 type="remark" n="x">
+                        pour le nombre de remarque par chapitre-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="2" xml:id="DuMéritePersonnel">
@@ -105,7 +120,7 @@
                     <fw place="top-right" type="pageNum">122</fw>
                     <head>Du Mérite Personnel.</head>
                     <div3 type="remark" n="1">
-                        <p>Remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="3" xml:id="DesFemmes">
@@ -115,7 +130,7 @@
                     <fw place="top-right" type="pageNum">131</fw>
                     <head>Des Femmes.</head>
                     <div3 type="remark" n="1">
-                        <p>Remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="4" xml:id="DuCoeur">
@@ -124,7 +139,7 @@
                     <fw place="top-right" type="pageNum">142</fw>
                     <head>Du Coeur.</head>
                     <div3 type="remark" n="1">
-                        <p>Remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="5" xml:id="DelaSociétéetdelaConversation">
@@ -134,7 +149,7 @@
                     <fw place="top-right" type="pageNum">147</fw>
                     <head>De la Société et de la Conversation.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="6" xml:id="DesBiensdeFortune">
@@ -143,7 +158,7 @@
                     <fw place="top-right" type="pageNum">164</fw>
                     <head>Des Biens de Fortune.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="7" xml:id="DelaVille">
@@ -153,7 +168,7 @@
                     <fw place="top-right" type="pageNum">177</fw>
                     <head>De la Ville.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="8" xml:id="DelaCour">
@@ -162,7 +177,7 @@
                     <fw place="top-right" type="pageNum">182</fw>
                     <head>De la Cour.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="9" xml:id="DesGrands">
@@ -171,7 +186,7 @@
                     <fw place="top-right" type="pageNum">200</fw>
                     <head>Des Grands.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="10" xml:id="DusouverainoudelaRépublique">
@@ -181,7 +196,7 @@
                     <head>Du souverain.</head>
 
                     <div3 type="remark" n="1">
-                        <p>remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="11" xml:id="DelHomme">
@@ -190,7 +205,7 @@
                     <fw place="top-right" type="pageNum">219</fw>
                     <head>De l'Homme.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                     <div3 type="remark" n="61">
                         <pb n="247" ed="#ed3_ex1"/>
@@ -223,7 +238,7 @@
                     <fw place="top-right" type="pageNum">251</fw>
                     <head>Des Jugements.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
 
                 </div2>
@@ -234,7 +249,7 @@
                     <fw place="top-right" type="pageNum">267</fw>
                     <head>De la Mode.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="14" xml:id="DeQuelquesUsages">
@@ -243,7 +258,7 @@
                     <fw place="top-right" type="pageNum">272</fw>
                     <head>De Quelques Usages.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="15" xml:id="DelaChaire">
@@ -252,7 +267,7 @@
                     <fw place="top-right" type="pageNum">280</fw>
                     <head>De la Chaire.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque 1 blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2 type="chapter" n="16" xml:id="DesEspritsForts">
@@ -262,23 +277,14 @@
                     <fw place="top-right" type="pageNum">287</fw>
                     <head>Des Esprits Forts.</head>
                     <div3 type="remark" n="1">
-                        <p>remarque1blablabla</p>
+                        <!--Remarques 1 blablabla-->
                     </div3>
                 </div2>
                 <div2>
+                    <!-- privilege du roi-->
                     <p><hi rend="it">Extrait du privilege du Roi.</hi></p>
                 </div2>
             </div1>
-
-
-
-
-
-
-
-
-
-
         </body>
     </text>
 </TEI>
