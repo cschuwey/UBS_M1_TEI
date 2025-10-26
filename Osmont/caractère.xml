@@ -16,6 +16,7 @@
                     <publisher>E. Michallet</publisher>
                     <pubPlace>Paris</pubPlace>
                     <date when="1688">1688</date>
+                	<ref target="http://ark.bnf.fr/ark:/12148/cb30705982f">http://ark.bnf.fr/ark:/12148/cb30705982f</ref>
                     <idno>BNF R-18787</idno>
                 </bibl>
                 <bibl xml:id="ed5">
@@ -25,6 +26,7 @@
                     <publisher>E. Michallet</publisher>
                     <pubPlace>Paris</pubPlace>
                     <date when="1690">1690</date>
+                	<ref target="http://ark.bnf.fr/ark:/12148/cb30705985g">http://ark.bnf.fr/ark:/12148/cb30705985g</ref>
                     <idno>BNF R-18790</idno>
                 </bibl>
             </sourceDesc>
@@ -32,29 +34,85 @@
 		<encodingDesc>
 			<projectDesc>
 				<p>Encodage de Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.
-				en modernisant le français ancien utilisé dans le texte.</p> 
+				en modernisant le français ancien utilisé dans le texte.</p>
+				<p>Pour l'encodage du document, j'ai choisi de garder la structure stricte. C'est à dire d'utiliser plusieurs div pour
+				chaque partie afin de garder la préface de chaque partie à l'intérieur de celle-ci. A la suite des préfaces, j'ai décidé d'ajouter un div pour
+				le sommaire, puis un autre pour le chapitre, en gardant ces deux div à la même hauteur puisqu'ils sont à la suite dans l'oeuvre
+				et non l'un dans l'autre. A l'intérieur du chapitre, j'ai choisi d'utiliser un div pour les différentes remarques.</p>
 			</projectDesc>
 		</encodingDesc>
 		<revisionDesc>
 			<change>
 				<date when="2025-10-06">6 Octobre 2025</date>Encodage de deux remarques et rajout de l'encodingDesc et du revisionDesc
 			</change>
+			<change>
+				<date when="2025-10-21">21 Octobre 2025</date>Définition de la structure du document avec les différents div, plus rajout de l'explication de ce choix de le projectDesc.
+			</change>
 		</revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="chapter">
-                <head>De la société et de la conversation</head>
-				<div type="remark">
-                    <p corresp="#ed3">C'est le rôle d'un sot d'être importun : un homme
-					habile sent s'il convient, ou s'il ennuie, il sait disparaitre le moment
-					qui précede celui où il serait de trop quelque part.</p>
-					          <p corresp="#ed3">L'on marche sur les mauvais plaisans, &amp; il pleut par tout pays
-					de cette sorte d'insectes : un bon plaisant est une piece rare ; à un homme qui est né
-					tel il est encore fort délicat d'en soutenir long-temps le personnage : il n'est pas 
-					ordinaire que celui qui fait rire se fasse estimer.</p>
-                </div>
-            </div>
+			<div1 type="preface">
+				<head>Discours sur Theophraste</head>
+				<!-- Dans cette partie, il s'agirait de retrouver la préface globale de l'ouvrage, qui, pour moi, est différentes de celles qui se trouvent au début de chaque parties.-->
+			</div1>
+			<div1 type="part">
+				<head type="maintitle"> Les caractères de Theophraste</head>
+				<head type="subtitle">Traduits du Grec</head>
+				<div2 type="preface">
+					<!-- J'ai choisi de garder la préface de a partie à l'intérieur de celle-ci dans l'encodage
+					car pour moi, il est plus simple de savoir à quoi nous faisons référence. De plus, je pense qu'elle fait
+					partie entière de cette partie. Ainsi, j'estime qu'il faudrait la garder à cette place.-->
+				</div2>
+				<div2 type="sommaire">
+					<!--Pour le sommaire de la partie, je pense qu'il faut utiliser un nouveau div. Cela permet de
+					le séparer de la préface et du contenu global du texte.-->
+				</div2>
+				<div2 type="chapter">
+					<head>De la société et de la conversation</head>
+					<div3 type="remark">
+						<p source="#ed3">
+							<pb n="147" type ="imprimé"/>
+							<pb n="213" type="pdf"/>C'est le rôle d'un sot d'être importun : un homme
+						habile sent s'il convient, ou s'il ennuie, il sait disparaitre le moment
+						qui précede celui où il serait de trop quelque part.</p>
+						<p source="#ed3">
+							<pb n="147" type ="imprimé"/>
+							<pb n="213" type="pdf"/>L'on marche sur les mauvais plaisans, &amp; il pleut par tout pays
+						de cette sorte d'insectes : un bon plaisant est une piece rare ; à un homme qui est né
+						tel il est encore fort délicat d'en soutenir long-temps le personnage : il n'est pas 
+						ordinaire que celui qui fait rire se fasse estimer.</p>
+						
+						<!--Ce div permet d'encoder les remarques à l'intérieur des chapitres
+						avec un élément p pour chaque nouveau paragraphe. Il faut aussi indiquer
+						pour chaque paragraphe de quel édition il provient.-->
+					</div3>
+				</div2>
+			</div1>
+			<div1 type="part">
+				<head type="maintitle">Les caractères ou les moeurs</head>
+				<head type="subtitle">De ce siècle</head>
+				<div2 type="preface">
+					<!--J'ai choisi de garder la préface de a partie à l'intérieur de celle-ci dans l'encodage
+					car pour moi, il est plus simple de savoir à quoi nous faisons référence. De plus, je pense qu'elle fait
+					partie entière de cette partie. Ainsi, j'estime qu'il faudrait la garder à cette place.-->
+				</div2>
+				<div2 type="sommaire">
+					<!--Pour le sommaire de la partie, je pense qu'il faut utiliser un nouveau div. Cela permet de
+					le séparer de la préface et du contenu global du texte.-->
+				</div2>
+				<div2 type="chapter">
+					<head></head>
+					<div3 type="remark">
+						<p source="..."></p>
+						<p source="..."></p>
+						
+						<!--Ce div permet d'encoder les remarques à l'intérieur des chapitres
+						avec un élément p pour chaque nouveau paragraphe. Il faut aussi indiquer
+						pour chaque paragraphe de quel édition il provient.-->
+					</div3>
+				</div2>
+			</div1>
         </body>
     </text>
 </TEI>
