@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+    	<fileDesc>
+       	 
+        	<titleStmt>
+            	<title>Les Caractères</title>
+        	</titleStmt>
+        	<publicationStmt>
+            	<p>Une édition de 1688 et une édition de 1694</p>
+           	 
+        	</publicationStmt>
+       	 
+        	<sourceDesc>
+            	<bibl xml:id="car1688">
+                	<author ref="ark:/12148/cb118876987">La Bruyère, Jean de</author>
+                	<title>Les caractères de Théophraste, traduits du grec, avec Les caractères ou les moeurs de ce siècle</title>
+                	<publisher>E.Michallet</publisher>
+                	<pubPlace>Paris</pubPlace>
+                	<date when="1688">1688</date>
+                	<edition n="3">3e édition</edition>
+                	<idno>BnF R-18787</idno>
+            	</bibl>
+            	<bibl xml:id="car1690">
+                	<author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                	<title>Les caractères de Théophraste traduits du grec ; avec Les caravtères ou les moeurs de ce siècle</title>
+                	<publisher>E. Michallet</publisher>
+                	<pubPlace>Paris</pubPlace>
+                	<date when="1690">1690</date>
+                	<edition n="5">5ème édition</edition>
+                	<idno>BnF R-18790</idno>
+            	</bibl>
+        	</sourceDesc>
+    	</fileDesc>
+    	<encodingDesc>
+        	<projectDesc>
+            	<p>Texte imprimé en langue française de 1688.</p>
+        	</projectDesc>
+        	<samplingDecl>
+            	<p>Pour le corpus, les deux premières remarques page 86 ont été choisies. La langue d'origine et la graphie originelless ont été conservées.</p>
+        	</samplingDecl>
+    	</encodingDesc>
+    	<revisionDesc>
+        	<list>
+            	<item>
+                	<date when="2025-10-13">13 octobre 2025</date>Révision par Gaëlle Kermoal</item>
+        	</list>
+    	</revisionDesc>
+	</teiHeader>
+	<text>
+    	<body>
+        	<div type="Chapter">
+            	<head>Des ouvrages de l’Esprit - page 86</head>
+            	<div type="remark">
+                	<p>Tout est dit, et l’on vient trop tard depuis plus de sept mille ans qu’il y a des hommes, et qui pensent.
+                    	Sur ce qui concerne les mœurs, le plus beau et le meilleur est enlevé ; l’on ne fait que glaner après les anciens
+                    	et les habiles d’entre les modernes.</p>
+            	</div>
+            	<div type="remark">
+                	<p>¶ Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à notre goût et à nos sentiments ;
+                    	c’est une trop grande entreprise.</p>
+            	</div>
+        	</div>
+    	</body>
+	</text>
+</TEI>
