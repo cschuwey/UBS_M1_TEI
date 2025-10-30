@@ -31,33 +31,39 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Encodage partiel des Caractères de Jean de la Bruyère (édition de 1692), dans le cadre du TD3 de TEI.</p>
+                <p>Encodage partiel des Caractères de Jean de la Bruyère (édition de 1692), dans le cadre du TD de TEI.</p>
             </projectDesc>
+            <editorialDecl>
+                <p>Le texte a été structuré de façon hiérarchique, sur 3 niveaux : div1 correspond à l'ouvrage et à sa préface, div2 correspond aux chapitres composant l'oeuvre, div3 correspond aux remarques à l'intérieur de chaque chapitre.</p>
+            </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <list>
-                <item>
-                    <date when="2025-10-11">11 octobre 2025</date>
-                    Dernière révision par Alicia MAIGRET.
-                </item>
-            </list>     
+            <change when="2025-10-11" who="Alicia MAIGRET">Modification encodingDesc, projectDesc et sourceDesc</change>
+            <change when="2025-10-30" who="Alicia MAIGRET">Ajout div1, div2, div3</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="chapter" xml:id="dissimulation">
-                <head>La Dissimulation</head>
-                <div type="remark" n="1">
-                    <p>La dissimulation<note>L'auteur parle de celle qui ne vient pas de la prudence et que les Grecs appelaient ironie</note>n'est pas aidée à bien définir, si l'on se contente d'en faire une simple description, l'on peut dire que c'est un certain art de composer ses paroles et ses actions pour une mauvaise fin.</p>
-                    <p>Il dit à celui qui lui emprunte de l'argent à intérêt, ou qui le prie de contribuer<note>L'auteur parle de celle qui ne vient pas de la prudence et que les Grecs appelaient ironie</note>de sa part à une somme que ses amis se contentent de lui prêter, qu'il ne vend rien, qu'il ne s'est jamais vu si dénué d'argent;</p>
-                </div>
-            </div>
-            <div type="chapter" xml:id="rusticite">
-                <head>De la Rusticite</head>
-                <div type="remark" n="8">
-                    <p>L'on voit en effet des gens rustiques et sans réflexion, sortir un jour de médecine,<note>Le texte Grec nomme une certaine drogue qui rendait l'haleine fort mauvaise le jour qu'on l'avait prise</note>et se trouver en cet état dans un lien public parmi le monde; ne pas faire la différence de l'odeur forte du thym ou de la marjolaine, d'avec les parfums les plus délicieux;</p>
-                </div>
-            </div>
+            <div1 type="preface" xml:id="discours_de_teophraste">
+                <head>Discours sur Téophraste</head>
+                <p>Texte de la préface</p>
+            </div1>
+          <div1 type="book" xml:id="les_caracteres">
+              <head>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les Moeurs de ce siècle.</head>
+              <div2 type="chapter" xml:id="dissimulation">
+                  <head>La dissimulation</head>
+                  <div3 type="remark" n="1" source="BnF R-18787">
+                      <p>La dissimulation<note>L'auteur parle de celle qui ne vient pas de la prudence et que les Grecs appelaient ironie</note>n'est pas aidée à bien définir, si l'on se contente d'en faire une simple description, l'on peut dire que c'est un certain art de composer ses paroles et ses actions pour une mauvaise fin.</p>
+                  </div3>
+              </div2>
+              <div2 type="chapter" xml:id="rusticite">
+                  <head>De la Rusticité</head>
+                  <div3 type="remark" n="8" source="BnF R-18787">
+                      <p>L'on voit en effet des gens rustiques et sans réflexion, sortir un jour de médecine,<note>Le texte Grec nomme une certaine drogue qui rendait l'haleine fort mauvaise le jour qu'on l'avait prise</note>et se trouver en cet état dans un lien public parmi le monde; ne pas faire la différence de l'odeur forte du thym ou de la marjolaine, d'avec les parfums les plus délicieux;</p>
+                  </div3>
+              </div2>
+          </div1>
         </body>
     </text>
 </TEI>
+
