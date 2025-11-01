@@ -60,6 +60,128 @@
     </teiHeader>
     <text>
         <body>
+              <div1 type="book" n="1" source="#ed3">
+                <!--Les Caractères de Théophraste-->
+                <div2 type="part" n="1">
+                    <!--Discours sur Théophraste--></div2>
+                <div2 type="part" n="2">
+                    <!--Les Caractères de Théophraste-->
+                    <div3 type="preface"></div3>
+                    <div3 type="toc"></div3>
+                    <item>
+        <label>De la Dissimulation</label>
+        <num type="page">6</num>
+      </item>
+      <item>
+        <label>De la Flatterie</label>
+        <num type="page">9</num>
+      </item>
+      <item>
+        <label>De l’Impertinent, ou du diseur de rien</label>
+        <num type="page">14</num>
+      </item>
+      <item>
+        <label>De la Rusticité</label>
+        <num type="page">17</num>
+      </item>
+      <item>
+        <label>Du Complaisant</label>
+        <num type="page">21</num>
+      </item>
+      <item>
+        <label>De l’Image d’un Coquin</label>
+        <num type="page">25</num>
+      </item>
+      <item>
+        <label>Du Grand Parleur</label>
+        <num type="page">29</num>
+      </item>
+      <item>
+        <label>Du Débit des nouvelles</label>
+        <num type="page">33</num>
+      </item>
+      <item>
+        <label>De l’Effronterie causée par l’avarice</label>
+        <num type="page">37</num>
+      </item>
+      <item>
+        <label>De l’Épargne sordide</label>
+        <num type="page">40</num>
+      </item>
+      <item>
+        <label>De l’Impudent, ou de celui qui ne rougit de rien</label>
+        <num type="page">44</num>
+      </item>
+      <item>
+        <label>Du Contre-temps</label>
+        <num type="page">49</num>
+      </item>
+      <item>
+        <label>De l’Air empressé</label>
+        <num type="page">52</num>
+      </item>
+      <item>
+        <label>De la Stupidité</label>
+        <num type="page">54</num>
+      </item>
+      <item>
+        <label>De la Brutalité</label>
+        <num type="page">57</num>
+      </item>
+      <item>
+        <label>De la Superfition</label>
+        <num type="page">59</num>
+      </item>
+      <item>
+        <label>De l’Efrit chagrin</label>
+        <num type="page">62</num>
+      </item>
+      <item>
+        <label>De la Défiance</label>
+        <num type="page">65</num>
+      </item>
+      <item>
+        <label>D’un Vilain homme</label>
+        <num type="page">68</num>
+      </item>
+      <item>
+        <label>D’un homme Incommode</label>
+        <num type="page">71</num>
+      </item>
+      <item>
+        <label>De la fotte Vanité</label>
+        <num type="page">73</num>
+      </item>
+      <item>
+        <label>De l’Avarice</label>
+        <num type="page">76</num>
+      </item>
+      <item>
+        <label>De l’Oftentation</label>
+        <num type="page">79</num>
+      </item>
+      <item>
+        <label>De l’Orgueil</label>
+        <num type="page">83</num>
+      </item>
+      <item>
+        <label>De la peur, ou du defaut de courage</label>
+        <num type="page">86</num>
+      </item>
+      <item>
+        <label>Des Grands d’une Republique</label>
+        <num type="page">90</num>
+      </item>
+      <item>
+        <label>D’une tardive Inftruction</label>
+        <num type="page">93</num>
+      </item>
+      <item>
+        <label>De la Médifance</label>
+        <num type="page">95</num>
+      </item>
+    </list>
+                        <!--De la Dissimulation-->
             <div type="Titre" source="#ed3">
                 <head> Les caractères</head>
 
