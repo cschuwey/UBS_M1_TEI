@@ -1,1 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste</title>
+                <author/>
+
+            </titleStmt>
+            <publicationStmt>
+                <p>Nova Thivent</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3_ex1">
+                    <title>Les caractères de Théophraste</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author> Available from
+                        <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704021q"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k8704021q</ref>
+                    <date when="1688">1688</date>
+                    <edition n="3">Troisième édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <idno>BNF R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed3_ex2">
+                    <title>Les caractères de Théophraste</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author> Available from
+                        <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704021q"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k8704021q</ref>
+                    <date when="1690">1690</date>
+                    <edition n="3">Troisième édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <idno>BNF R-18787</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Texte encodé au format XML. Nous avons choisi d'utiliser les balises numérotés
+                    "div1, div2" puisque nous trouvons que ces dernières permettent une
+                    hiérarchisation plus fluide des catégories. Div1 correspondent aux différents
+                    livres, div2 aux chapitres et div3 aux sommaires et paragraphes. Les sommaires
+                    étant inclus dans les chapitres, nous trouvons que c'est plus cohérent d'ouvrir
+                    une troisième div après le paragraphe d'introduction pour les y inclure.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Transcription en français moderne.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2025-10-19">Devoir à rendre</change>
+            <change when="2025-11-01">Rajout des noms de chapitre, modification de l'encoding desk,
+                hiérarchisation des div.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="book" xml:id="b1">
+                <head>Discours sur Theophraste</head>
+                <div2 type="chapter">
+                    <p>[...]</p>
+                    <p>[...]</p>
+                </div2>
+            </div1>
+            <div1 type="book2" xml:id="b2">
+                <div2 type="chapter" xml:id="b2ch0">
+                    <head>Les caractères de Theophraste, traduits du grec</head>
+                    <p>[...}</p>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch1">
+                    <head>De la Dissimulation</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch2">
+                    <head>De la Flatterie</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch3">
+                    <head>De l'impertinent ou du diseur de rien</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch4">
+                    <head>De la rusticité</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch5">
+                    <head>Du complaisant</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch6">
+                    <head>De l'image d'un coquin</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch7">
+                    <head>Du grand parleur</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch8">
+                    <head>Du débit des nouvelles</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch9">
+                    <head>De l'Effronterie causée par l'avarice</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch10">
+                    <head>De l'Epargne sordide</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch11">
+                    <head>De l'Impudent ou de celui qui ne rougit de rien</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch12">
+                    <head>Du contre-temps</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch13">
+                    <head>De l'Air empressé</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch14">
+                    <head>De la stupidité</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch15">
+                    <head>De la brutalité</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch16">
+                    <head>De la superstition </head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch17">
+                    <head>De l'esprit chagrin</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch18">
+                    <head>De la défiance</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch19">
+                    <head>D'un vilain homme</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch20">
+                    <head>D'un homme incommode</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch21">
+                    <head>De la sotte vanité</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch22">
+                    <head>De l'Avarice</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch23">
+                    <head>De l'ostentation</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch24">
+                    <head>De l'orgueil</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch25">
+                    <head>De la peur ou du défaut de courage</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch26">
+                    <head>Des grands d'une république</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch27">
+                    <head>D'une tardive instruction</head>
+                </div2>
+                <div2 type="chapter" xml:id="b2ch28">
+                    <head>De la médisance</head>
+                </div2>
+            </div1>
+            <div1 type="book3" xml:id="b3">
+                <head>Les caractères ou les moeurs de ce siècle</head>
+                <div2 type="chapter" xml:id="b3ch0">
+                    <p>[...]</p>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch1">
+                    <head>Des ouvrages de l'esprit</head>
+                    <div3 type="remark" xml:id="b3ch1r1">
+                        <p>C'est un métier que de faire un livre comme de faire une pendule. IL faut
+                            plus que de l'esprit pour être auteur. Un magistrat allait par son
+                            mérite à la première dignitié, il était homme délié, et pratique dans
+                            les affaires, il a fait imprimer un ouvrage moral, qui est rare par le
+                            ridicule.</p>
+                    </div3>
+                    <div3 type="remark" xml:id="b3ch1r2">
+                        <p>Il y a dans l'art un point de perfection, comme de bonté ou de maturité
+                            dans la nature, celui qui le sent et qui l'aime a le goût parfait, celui
+                            qui ne le sent pas et qui aime en de ça ou delà, a le goût défectueux.
+                            Il y a donc un bon et un mauvais goût et l'on dispute des goûts avec
+                            fondement.</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch2">
+                    <head>Du mérite personnel</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch3">
+                    <head>Des femmes</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch4">
+                    <head>Du coeur</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch5">
+                    <head>De la société et de la conversation</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch6">
+                    <head>Des biens de fortune</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch7">
+                    <head>De la Ville</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch8">
+                    <head>De la Cour</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch9">
+                    <head>Des Grands</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch10">
+                    <head>Du souverain</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch11">
+                    <head>De l'Homme</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch12">
+                    <head>Des jugements</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch13">
+                    <head>De la Mode</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch14">
+                    <head>De quelques usages</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch15">
+                    <head>De la chaire</head>
+                </div2>
+                <div2 type="chapter" xml:id="b3ch16">
+                    <head>Des esprits fous</head>
+                </div2>
+            </div1>
+            <!--
+            <div type="chapter" source="#ed3_ex1">
+                <head>Des ouvrages de l'esprit</head>
+                <div type="remark">
+                    <p>C'est un métier que de faire un livre comme de faire une pendule. IL faut
+                        plus que de l'esprit pour être auteur. Un magistrat allait par son mérite à
+                        la première dignitié, il était homme délié, et pratique dans les affaires,
+                        il a fait imprimer un ouvrage moral, qui est rare par le ridicule.</p>
+                    <p>Il y a dans l'art un point de perfection, comme de bonté ou de maturité dans
+                        la nature, celui qui le sent et qui l'aime a le goût parfait, celui qui ne
+                        le sent pas et qui aime en de ça ou delà, a le goût défectueux. Il y a donc
+                        un bon et un mauvais goût et l'on dispute des goûts avec fondement.</p>
+                    
+                </div>
+                
+            </div>-->
+        </body>
+    </text>
+</TEI>
 
