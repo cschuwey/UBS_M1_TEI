@@ -35,7 +35,7 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Texte encodé au format XML</p>
+                <p>Texte encodé au format XML. Nous avons choisi d'utiliser les balises numérotés "div1, div2" puisque nous trouvons que ces dernières permettent une hiérarchisation plus fluide des catégories. Div1 correspondent aux différentes livres, div2 aux chapitres et div3 aux sommaires et paragraphes.</p>
             </projectDesc>
             <editorialDecl>
                 <p>Transcription en français moderne.</p>
@@ -44,7 +44,7 @@
         <revisionDesc>
             <change when="2025-10-19">Devoir à rendre</change>
             <change when="2025-11-01">Rajout des noms de chapitre, modification de l'encoding desk,
-                hyerarchisation des div.</change>
+                hiérarchisation des div.</change>
         </revisionDesc>
     </teiHeader>
     <text>
