@@ -46,6 +46,8 @@
                 originale.</p>
             <p>Le texte a été encodé selon les normes TEI pour la représentation des annotations et
                 des métadonnées.</p>
+            <p>J'ai choisi de mettre le privilège du roi dans le back car pour moi ça ne fait pas partie du coeur de l'oeuvre,
+                j'ai chosi de mettre le reste dans body car ça me paraissait plus important.</p>
         </encodingDesc>
         <revisionDesc>
             <list>
@@ -55,6 +57,10 @@
                 <item>
                       <date when=" 2025-10-10 "> 10 octobre 2025</date> Dernière révision par Yness,
                     encodage de la page 120 de la"ed5", version de 1690</item>
+                   <item>
+                      <date when=" 2025-11-01 "> 01 novembre 2025</date> Dernière révision par Yness,
+                    encodage en div de la version de 1688 pour structurer l'oeuvre ( choix expliqués dans encoding desc)</item>
+                
             </list>
         </revisionDesc>
     </teiHeader>
@@ -67,7 +73,8 @@
                 <div2 type="part" n="2">
                     <!--Les Caractères de Théophraste-->
                     <div3 type="preface"></div3>
-                    <div3 type="toc"></div3>
+                    <div3 type="toc">
+                    <list>
                     <item>
         <label>De la Dissimulation</label>
         <num type="page">6</num>
@@ -129,11 +136,11 @@
         <num type="page">57</num>
       </item>
       <item>
-        <label>De la Superfition</label>
+        <label>De la Supersition</label>
         <num type="page">59</num>
       </item>
       <item>
-        <label>De l’Efrit chagrin</label>
+        <label>De l’Esrit chagrin</label>
         <num type="page">62</num>
       </item>
       <item>
@@ -149,7 +156,7 @@
         <num type="page">71</num>
       </item>
       <item>
-        <label>De la fotte Vanité</label>
+        <label>De la sotte Vanité</label>
         <num type="page">73</num>
       </item>
       <item>
@@ -157,7 +164,7 @@
         <num type="page">76</num>
       </item>
       <item>
-        <label>De l’Oftentation</label>
+        <label>De l’Ostentation</label>
         <num type="page">79</num>
       </item>
       <item>
@@ -165,7 +172,7 @@
         <num type="page">83</num>
       </item>
       <item>
-        <label>De la peur, ou du defaut de courage</label>
+        <label>De la peur, ou du défaut de courage</label>
         <num type="page">86</num>
       </item>
       <item>
@@ -173,15 +180,91 @@
         <num type="page">90</num>
       </item>
       <item>
-        <label>D’une tardive Inftruction</label>
+        <label>D’une tardive Instruction</label>
         <num type="page">93</num>
       </item>
       <item>
-        <label>De la Médifance</label>
+        <label>De la Médisance</label>
         <num type="page">95</num>
+   
+      </item>
+    </list>   
+    </div3>
+                        
+    <div4 type="part" n="3">
+        <!--Les caractères ou les moeurs de ce siècle-->
+    </div4>
+                     <div4 type="toc">  
+                         <!-- J'ai vu qu'on pouvait utiliser toc pour expliquer une table des matières, je ne sais pas si c'est juste-->
+                    <list>
+                        <item>
+         <label>Des Ouvrages de l’esprit</label>
+        <num type="page">106</num>
+      </item>
+      <item>
+        <label>Du Merite Personnel</label>
+        <num type="page">122</num>
+      </item>
+      <item>
+        <label>Des Femmes</label>
+        <num type="page">131</num>
+      </item>
+      <item>
+        <label>Du Cœur</label>
+        <num type="page">142</num>
+      </item>
+      <item>
+        <label>De la Societé et de la Conversation</label>
+        <num type="page">147</num>
+      </item>
+      <item>
+        <label>Des Biens de Fortune</label>
+        <num type="page">164</num>
+      </item>
+      <item>
+        <label>De la Ville</label>
+        <num type="page">177</num>
+      </item>
+      <item>
+        <label>De la Cour</label>
+        <num type="page">182</num>
+      </item>
+      <item>
+        <label>Des Grands</label>
+        <num type="page">200</num>
+      </item>
+      <item>
+        <label>Du Souverain</label>
+        <num type="page">210</num>
+      </item>
+      <item>
+        <label>De l’Homme</label>
+        <num type="page">219</num>
+      </item>
+      <item>
+        <label>Des Jugemens</label>
+        <num type="page">257</num>
+      </item>
+      <item>
+        <label>De la Mode</label>
+        <num type="page">267</num>
+      </item>
+      <item>
+        <label>De quelques Usages</label>
+        <num type="page">272</num>
+      </item>
+      <item>
+        <label>De la Chaire</label>
+        <num type="page">280</num>
+      </item>
+      <item>
+        <label>Des Esprits forts</label>
+        <num type="page">287</num>
       </item>
     </list>
-                        <!--De la Dissimulation-->
+       </div4>
+                    
+                            
             <div type="Titre" source="#ed3">
                 <head> Les caractères</head>
 
@@ -209,5 +292,11 @@
         
             </div>
         </body>
+        <back>
+            <div type="privilège">
+                 <!--Extrait du privilège du Roy-->
+            </div>
+        </back>
+                
     </text>
 </TEI>
