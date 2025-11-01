@@ -35,12 +35,7 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Texte encodé au format XML. Nous avons choisi d'utiliser les balises numérotés
-                    "div1, div2" puisque nous trouvons que ces dernières permettent une
-                    hiérarchisation plus fluide des catégories. Div1 correspondent aux différents
-                    livres, div2 aux chapitres et div3 aux sommaires et paragraphes. Les sommaires
-                    étant inclus dans les chapitres, nous trouvons que c'est plus cohérent d'ouvrir
-                    une troisième div après le paragraphe d'introduction pour les y inclure.</p>
+                <p>Texte encodé au format XML. Div1 correspond aux livres, div2 aux chapitres, div3 au remarques. La numérotation générale du chapitre est repérable au xml:id. On a structuré en faisant du plus global (le livre) au plus précis (les remarques)</p>
             </projectDesc>
             <editorialDecl>
                 <p>Transcription en français moderne.</p>
