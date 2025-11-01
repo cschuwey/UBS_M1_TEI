@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste</title>
+                <author>Jean de la Bruyère</author>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title ref="ark:/12148/cb11910249z">Les caractères de Théophraste, traduit du Grec</title>
+                    <author>La Bruyère, Jean de</author>
+                    <date when="1688">M.DC.LXXXVIII</date>
+                    <edition n="3">Troisième édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed6">
+                    <title>Les caractères de Théophraste, traduit du Grec</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                    <date when="1691">M.DC.XCI</date>
+                    <edition n="6">Sixième édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-52303</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>La saisie du texte a été réalisé en concervant l'usage des s long.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <list>
+                    <item>
+                        <date when="2025-10-16"></date>
+                        <p>Insertion des remarques sur les chapitres "Des ouvrages de l'Esprit" et "Du Mérite personnel" de l'édition de 1688</p>
+                    </item>
+                </list>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="préface">
+                <!-- Discours sur Théophraste -->
+                <p></p>
+            </div1>
+            <div1 type="partie1">
+                <!-- Les caractères de Théophraste -->
+                <div2 type="préface">
+                    <!-- texte introductif : Les caractères ou les moeurs de ce siècle -->
+                </div2>
+                <div2 type="sommaire">
+                    <!-- Deux page de sommaire -->
+                </div2>
+                <div2 type="chapter">
+                    <!-- Les chapitres -->
+                </div2>
+            </div1>
+            <div1 type="partie2">
+                <div2 type="préface">
+                    <!-- Adresse aux lecteurs -->
+                </div2>
+                <div2 type="sommaire">
+                    <!-- Noms des chapitres -->
+                </div2>
+                <div2 type="chapter">
+                    <!-- Contenu du chapitre -->
+                    <div3 type="remark">
+                        <!-- paragraphe de remarque -->
+                        <p>
+                            <pb/>
+                        </p>
+                    </div3>
+                </div2>
+                <div2 type="chapter">
+                    <head>Des ouvrages de l'Esprit</head>
+                    <div3 type="remark">
+                        <p source="#ed3">
+                            <pb n="106" type="imprimé"/>
+                            <pb n="172" type="pdf"/>
+                            Il faut chercher ſeulement à penſer &amp; à parler juſte, ſans vouloir amener les autres à noſtre gouſt &amp; à nos ſentiments ; c'eſt une trop grande entrepriſe.
+                        </p>
+                    </div3>
+                </div2>
+                <div2 type="chapter">
+                    <head>Du Mérite personnel</head>
+                    <div3 type="remark">
+                        <p source="#ed3">
+                            <pb n="123" type="imprimé"/>
+                            <pb n="189" type="pdf"/>
+                            Quelle horrible peine à un homme qui eſt ſans proſneurs &amp; ſans cabale, qui n'eſt engagé dans aucun corps, mais qui eſt ſeul, &amp; qui n'a que beaucoup de merite pour toute recommendation, de ſe faire jour à travers l'obſcurité où il ſe trouve, &amp; de venir au niveau d'un fat qui eſt en credit.
+                        </p>
+                    </div3>      
+                </div2>
+            </div1>
+            
+        </body>
+    </text>
+</TEI>
