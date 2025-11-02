@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                    <title> <Les caractères de Théophraste></title>
+                    <subtitle>Avec les caractères ou les Mœurs de ce Siècle‎</subtitle>
+                <profileDesc>
+                    <langUsage>
+                        <language ident="fr">Français contemporain, avec ponctuation d'origine</language>
+                    </langUsage>
+                </profileDesc>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Projet d'encodage TEI : comment imaginer un sommaire pour l'oeuvre des caractères</publisher>
+                <date when="2025-11-02"></date>
+            </publicationStmt>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="plan" xml:id="plan-labruyere">
+                <head>Plan général</head>
+                
+                <!-- I. NOTICE -->
+                <div type="part" n="I" xml:id="part-I">
+                    <head>I. NOTICE</head>
+                    Précisions sur les Neuf éditions avec variantes. Chaque caractère se présentera sous forme chiffre arabe correspondant à une numérotation des caractères allant jusqu'à 1073. 
+                    Chaque chiffre arabe sera suivi par une lettre correspondant à la version dont elle est issue. Puis, un chiffre arabe type DATE, entre parenthèses.
+                    Exemple 20c (1688)
+                </div>
+                
+                <!-- II. PREFACE -->
+                <div type="part" n="II" xml:id="part-II">
+                    <head>II. PRÉFACE</head>
+                </div>
+                
+                <!-- III. DISCOURS SUR THÉOPHRASTE -->
+                <div type="part" n="III" xml:id="part-III">
+                    <head>III. DISCOURS SUR THÉOPHRASTE</head>
+                </div>
+                
+                <!-- IV. LES CARACTÉRISTIQUES DE THÉOPHRASTE -->
+                <div type="part" n="IV" xml:id="part-IV">
+                    <head>IV. LES CARACTÉRISTIQUES DE THÉOPHRASTE</head>
+                    
+                    <!-- a) De la dissimulation -->
+                    <div type="section" n="a" xml:id="sec-IV-a">
+                        <head>a) De la dissimulation</head>
+                    </div>
+                    
+                    <!-- b) De la flatterie -->
+                    <div type="section" n="b" xml:id="sec-IV-b">
+                        <head>b) De la flatterie</head>
+                    </div>
+                </div>
+                    
+                    <div type="section" n="1" xml:id="sec-V-1">
+                        <head>1. Les Caractères de La Bruyère</head>
+                        
+                        <div type="chapter" n="I" xml:id="chap-I">
+                            <head>Chapitre I</head>
+                          <subtitle>Des ouvrages de l'esprit</subtitle>
+                        </div>
+                        
+                        <div type="chapter" n="II" xml:id="chap-II">
+                            <head>Chapitre II</head>
+                            <subtitle>Du mérite personnel</subtitle>
+                        </div>
+                    </div>
+            </div>
+        </body>
+    </text>
