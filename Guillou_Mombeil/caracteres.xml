@@ -36,6 +36,8 @@
          <editorialDecl>
              <normalization><p>Utilisation de l'alphabet moderne. Maintient de l'orthographe du texte source.</p>
              </normalization>
+             <segmentation>Choix de placer les préfaces dans le body car ils sont ici considérés comme un discours propre au texte des caractères. Choix de placer les sommaires dans le front car ils sont ici considérés comme des éléments de structuration.
+             </segmentation>
          </editorialDecl>
      </encodingDesc>
      <revisionDesc>
@@ -45,10 +47,23 @@
      </revisionDesc>
  </teiHeader>
  <text>
+<front>
+  <div1 type="sommaire">
+  <div2 xml:id="les caractères de Théophraste"> 
+     <p type="chapter">De la diffamation.</p>
+  </div2>
+  <div3 xml:id="les caractères ou les mœurs de ce siècle">
+     <p type="chapter">Des ouvrages de l'esprit.</p>
+  </div3>
+  </div1>
      <body>
-        <div type="chapter">
-            <div type="remark">
-                <div type="paragraph">
+<div type="préface">Discours sur Théophraste</div>
+<div1>
+<!--Les caractères de Théophraste, traduits du grec-->
+      <div2 type="preface"></div2>
+        <div3 type="chapter">
+            <div4 type="remark">
+                <div5 type="paragraph">
                 <p decls="#ed3">C'est beaucoup tirer de nôtre amy, si ayant monté à une grande faveur, il est encore un homme de nôtre connoissance.</p>
                 </div>
             </div>
