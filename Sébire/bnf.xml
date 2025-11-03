@@ -190,11 +190,12 @@
       </item>
     </list>   
     </div3>
+    </div2>                
                         
-    <div4 type="part" n="3">
+    <div2 type="part" n="3">
         <!--Les caractères ou les moeurs de ce siècle-->
-    </div4>
-                     <div4 type="toc">  
+  
+                     <div3 type="toc">  
                          <!-- J'ai vu qu'on pouvait utiliser toc pour expliquer une table des matières, je ne sais pas si c'est juste-->
                     <list>
                         <item>
@@ -262,8 +263,9 @@
         <num type="page">287</num>
       </item>
     </list>
-       </div4>
-                    
+       </div3>
+          </div2>
+              </div1>
                             
             <div type="Titre" source="#ed3">
                 <head> Les caractères</head>
