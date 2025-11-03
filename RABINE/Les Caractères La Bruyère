@@ -48,6 +48,7 @@
     </encodingDesc>
     <revisionDesc>
         <listChange>
+            <change when="2025-11-03"> Correction suite au feedback</change>
             <change when="2025-10-23">Structuration du texte de la troisième édition de 1688</change>
             <change when="2025-10-20">Correction suite au feeback</change>
             <change when="2025-10-17">Version complète</change>
@@ -82,12 +83,13 @@
                 <head>Les caractères de Théophraste</head>
                 <div2 type="summary">
                     <head>Les caractères de Théophraste</head>
-                    <div3 type="chapter">
+                </div2>
+                <div2 type="chapter">
                         <head>Nom de chapitre</head>
                         <p>texte</p>
-                        <div4 type="remark">
-                            <p>remark</p>
-                        </div4>
+                    <div3 type="remark" source="#ed3">
+                            <p>C'eſt une grande miſere que de n'avoir pas aſſez d'eſprit pour bien parler, ny aſſez de jugement pour ſe taire : voilà le principe de toute impertinence.</p>
+                            <p>Un noble, s'il vit chez luy dans ſa Province, il vit libre, mais ſans appuy:s"il vit à la Cour il eſt protégé, mais i eſt eſclave ; cela ſe compenſe.</p>
                     </div3>
                 </div2>
             </div1>
@@ -95,12 +97,12 @@
                 <head>Les caractères ou les moeurs de ce siècle</head>
                 <div2 type="summary">
                     <head>Les caractères ou les moeurs de ce siècle</head>
-                    <div3 type="chapter">
+                </div2>
+                <div2 type="chapter">
                         <head>Nom de chapitre</head>
                         <p>texte</p>
-                        <div4 type="remark">
+                    <div3 type="remark">
                             <p>remark</p>
-                        </div4>
                     </div3>
                 </div2>
             </div1>
