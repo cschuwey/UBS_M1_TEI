@@ -36,9 +36,8 @@
             <p>Dans un premier temps, j'ai mis une div préface dans front car il s'agit d'un contenu extérieur au texte.</p>
             <p>Ensuite, j'ai mis une div1 pour représenter la partie 1 dans le body car c'est le début du contenu de l'ouvrage.</p>
             <p>Après une div1, j'ai écris une div2 pour évoquer la table des matières qui est à l'intérieur de la première partie et donc de div1.</p>
-            <p>Une div3 est ensuite ajoutée après la div2 car elle décrit les chapitres qui font partie de la table des matières, à l'intérieur desquels j'ai ajouté un paragraphe.</p>
-            <p>Enfin, j'ai ajouté une div4 qui détermine les remarques au sein des chapitres et paragraphes.</p>
-            <p>J'ai gardé la même structure pour la deuxième partie en enlevant la div de la table des matières.</p>
+            <p>Une deuxième div2 est ensuite ajoutée après la première div2 car elle décrit les chapitres, à l'intérieur desquels j'ai ajouté un paragraphe.</p>
+            <p>Enfin, j'ai ajouté une div3 qui détermine les remarques au sein des chapitres et paragraphes.</p>
         </projectDesc>
         <editorialDecl>
             <normalization>
