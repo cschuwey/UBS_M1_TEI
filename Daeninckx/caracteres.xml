@@ -7,18 +7,19 @@
                 <author resp="author">Theophraste</author>
                 <author ref="ark:/12148/cb11910249z" resp="translator author">La Bruyère</author>
             </titleStmt>
-            
+
             <publicationStmt>
                 <authority xml:id="mdaeninckx">Mickaël Daeninckx</authority>
                 <distributor>Université Bretagne Sud de Lorient</distributor>
                 <availability>
-                    <licence></licence>
+                    <licence/>
                 </availability>
             </publicationStmt>
-            
+
             <sourceDesc>
                 <bibl xml:id="ed3_ex1">
-                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
+                        les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb11910249z">La Bruyère</author>
                     <edition>3e édition</edition>
                     <publisher>Estienne Michallet</publisher>
@@ -27,7 +28,8 @@
                     <idno type="Bnf">Bnf R-18787</idno>
                 </bibl>
                 <bibl xml:id="ed6_ex1">
-                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
+                        les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb11910249z">La Bruyère</author>
                     <edition>6e édition</edition>
                     <publisher>Estienne Michallet</publisher>
@@ -37,28 +39,40 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        
+
         <encodingDesc>
             <projectDesc>
-                <p>Ce projet a pour but de comparer deux remarques de deux éditions de "Les Caractères" : une édition de 1988 et une autre de 1991.</p>
+                <p>Ce projet a pour but de comparer deux remarques de deux éditions de "Les
+                    Caractères" : une édition de 1988 et une autre de 1991.</p>
             </projectDesc>
             <editorialDecl>
                 <segmentation>
-                    <p>L'ouvrage a été séparé en trois parties, sous une balise <gi>div1</gi> définit par la valeur "part" de l'attribut <att>type</att>.
-                    Ces trois parties contiennent des <gi>div2</gi> qui peuvent être définit par la valeur "part_introduction", "table_of_contents" ou "chapter" de l'attribut <att>type</att>.
-                    Les chapitres contiennent des remarques, définit par des balises <gi>div3</gi> dont la valeur de l'attribut <att>type</att> est "remark".</p>
-                    <p>Il m'a semblé pertinent de mettre les trois parties de l'ouvrage au même niveau hiérarchique, puisqu'elles sont toutes indépendantes entre elles.
-                    Elles sont le premier niveau hiérarchique, contenant l'ensemble du contenu de l'ouvrage. Nous pouvons ensuite repérer plusieurs niveaux inférieurs indépendants
-                    (en terme de structure du document) : l'introduction de la partie, la table des matières ainsi que les divers chapitres. Dans les chapitres se trouvent ensuite deux parties
-                    distinctes : l'introduction au chapitre et son contenu. Son contenu est divisé en plusieurs remarques, elles mêmes divisées en plusieurs paragraphes.</p>
+                    <p>L'ouvrage a été séparé en trois parties, sous une balise <gi>div1</gi>
+                        définit par la valeur "part" de l'attribut <att>type</att>. Ces trois
+                        parties contiennent des <gi>div2</gi> qui peuvent être définit par la valeur
+                        "part_introduction", "table_of_contents" ou "chapter" de l'attribut
+                            <att>type</att>. Les chapitres contiennent des remarques, définit par
+                        des balises <gi>div3</gi> dont la valeur de l'attribut <att>type</att> est
+                        "remark".</p>
+                    <p>Il m'a semblé pertinent de mettre les trois parties de l'ouvrage au même
+                        niveau hiérarchique, puisqu'elles sont toutes indépendantes entre elles.
+                        Elles sont le premier niveau hiérarchique, contenant l'ensemble du contenu
+                        de l'ouvrage. Nous pouvons ensuite repérer plusieurs niveaux inférieurs
+                        indépendants (en terme de structure du document) : l'introduction de la
+                        partie, la table des matières ainsi que les divers chapitres. Dans les
+                        chapitres se trouvent ensuite deux parties distinctes : l'introduction au
+                        chapitre et son contenu. Son contenu est divisé en plusieurs remarques,
+                        elles mêmes divisées en plusieurs paragraphes.</p>
                 </segmentation>
                 <normalization>
-                    <p>Les mots faisant l'objet d'une césure ont été reconstruits. Les mots ont été retranscrit avec leur orthographe d'origine.
-                        Au début de chaque remarque, il y a dans le texte original un pied-de-mouche, qui n'est pas retranscrit ici.</p>
+                    <p>Les mots faisant l'objet d'une césure ont été reconstruits. Les mots ont été
+                        retranscrit avec leur orthographe d'origine. Au début de chaque remarque, il
+                        y a dans le texte original un pied-de-mouche, qui n'est pas retranscrit
+                        ici.</p>
                 </normalization>
             </editorialDecl>
         </encodingDesc>
-        
+
         <profileDesc>
             <creation>
                 <date when="2025-10-06">Le 6 octobre 2025</date>
@@ -76,33 +90,57 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        
+
         <revisionDesc>
             <listChange>
-                <change who="#mdaeninckx" when="2025-10-06">Encodage de deux remarques issues de l'édition de 1688.</change>
-                <change who="#mdaeninckx" when="2025-10-21">Ajout de la structure générale de l'ouvrage dans le body et dans le revisionDesc. J'ai également changer les deux remarques choisies pour l'ouvrage de 1688..</change>
+                <change who="#mdaeninckx" when="2025-10-06">Encodage de deux remarques issues de
+                    l'édition de 1688.</change>
+                <change who="#mdaeninckx" when="2025-10-21">Ajout de la structure générale de
+                    l'ouvrage dans le body et dans le revisionDesc. J'ai également changer les deux
+                    remarques choisies pour l'ouvrage de 1688..</change>
+                <change who="#mdaeninckx" when="2025-11-03">Encodage des variantes et différences entre
+                l'édition de 1688 et celle 1691.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-    
+
     <text>
         <body>
             <div1 type="part" n="1">
                 <head>Discours sur Theophraste</head>
                 <!-- Cette partie contient le contenu de la partie "Discours sur Theophraste" -->
-                <p source="#ed3_ex1">Je n'eſtime pas que l'homme ſoit capable de former dans ſon eſprit un projet plus vain &amp; plus chimerique, que de prétendre en écrivant de quelque art
-                    ou de quelque ſcience que ce ſoit, échaper à toute ſorte de critique, &amp; enlever les ſuffrages de tous ſes Lecteurs. [...]</p>
+                <p source="#ed3_ex1 #ed6_ex1">Je n'eſtime pas que l'homme ſoit capable de former
+                    dans ſon eſprit un projet plus vain &amp; plus chimerique, que de prétendre en
+                    écrivant de quelque art ou de quelque ſcience que ce ſoit, échaper à toute ſorte
+                    de critique, &amp; enlever les ſuffrages de tous ſes Lecteurs. [...]</p>
             </div1>
-            
+
             <div1 type="part" n="2">
                 <head type="title">Les caractères de Théophraste</head>
                 <head type="subtitle">traduits du grec</head>
                 <div2 type="part_introduction">
                     <!-- Cette partie contient l'introduction de la partie "Les caractères de Théophraste traduits du grec" -->
-                    <p source="#ed3_ex1">J'ay admiré ſouvent , &amp; j'avoüe que je ne puis encore comprendre, quelque ſerieuſe reflexion que je ſaſſe, pourquoy toute la Grece eſtant placée
-                        ſous un même ciel, &amp; les Grecs nourris &amp; élevez de la meſme maniere, il ſe trouve neanmoins ſi peu de reſſemblance dans leurs mœurs. [...]</p>
+                    <p source="#ed3_ex1 #ed6_ex1">J'ay admiré ſouvent , &amp; j' 
+                        <app>
+                            <rdg source="#ed3_ex1">avoüe</rdg>
+                            <rdg source="#ed6_ex1">avouë</rdg>
+                        </app>
+                        que je ne puis encore comprendre, quelque ſerieuſe reflexion que je
+                        ſaſſe, pourquoy toute 
+                        <app>
+                            <rdg source="#ed3_ex1">la</rdg>
+                            <rdg source="#ed6_ex1">ja</rdg>
+                        </app>
+                         Grece eſtant placée ſous un même ciel, &amp; les Grecs nourris &amp;
+                        élevez de la 
+                        <app>
+                            <rdg source="#ed3_ex1">meſme</rdg>
+                            <rdg source="#ed6_ex1">même</rdg>
+                        </app>
+                         maniere, il ſe trouve neanmoins ſi peu de reſſemblance
+                        dans leurs mœurs. [...]</p>
                 </div2>
-                <div2 type="table_of_contents">
+                <div2 type="table_of_contents" source="#ed3_ex1">
                     <!-- Cette partie contient la table des matières de la partie "Les caractères de Théophraste traduits du grec" -->
                     <list type="chapter">
                         <!-- Cette partie contient la liste des chapitres de la table des matières -->
@@ -116,28 +154,56 @@
                 <div2 type="chapter" n="1">
                     <head rend="uppercase">De la dissimulation</head>
                     <!-- Cette partie contient le contenu du premier chapitre de la partie "Les caractères de Théophraste traduits du grec" -->
-                    <p source="#ed3_ex1">La diſſimulation n'eſt pas aiſée à bien définir ; ſi l'on ſe contente d'en faire une ſimple deſcription, l'on peut dire que c'eſt un certain art de compoſer
-                        ſes paroles &amp; ſes actions pour une mauvaiſe fin. [...]</p>
+                    <p source="#ed3_ex1 #ed6_ex1">La diſſimulation n'eſt pas aiſée à bien définir ; ſi l'on
+                        ſe contente d'en faire une ſimple deſcription, l'on peut dire que c'eſt un
+                        certain art de compoſer ſes paroles &amp; ſes actions pour une mauvaiſe fin.
+                        [...]</p>
                 </div2>
                 <div2 type="chapter" n="2">
                     <head rend="uppercase">De la flatterie</head>
                     <!-- Cette partie contient le contenu du deuxième chapitre de la partie "Les caractères de Théophraste traduits du grec" -->
-                    <p source="#ed3_ex1">La flatterie eſt un commerce honteux qui n'eſt utile qu'au flatteur. Si un flatteur ſe promene avec quelqu'un dans la place, remarquez-vous, luy dit-il,
-                        comme tout le monde a les yeux ſur vous ? [...]</p>
+                    <p source="#ed3_ex1 #ed6_ex1">La flatterie eſt un commerce honteux qui n'eſt utile qu'au
+                        flatteur. Si un flatteur ſe promene avec quelqu'un dans la place,
+                        remarquez-vous, luy dit-il, comme tout le monde a les yeux ſur vous ?
+                        [...]</p>
                 </div2>
                 <!-- Il reste encore à encoder les chapitres suivants -->
             </div1>
-            
+
             <div1 type="part" n="3">
                 <head type="title">Les caractères</head>
                 <head type="subtitle">ou les moeurs de ce siècle</head>
                 <div2 type="part_introduction">
                     <!-- Cette partie contient l'introduction de la partie "Les caractères ou les moeurs de ce siècle" -->
-                    <p source="#ed3_ex1">Je rends au Public ce qu'il m'a preſté ; j'ay emprunté de luy la matiere de cet ouvrage, il eſt juſte que l'ayant achevé avec toute l'attention pour la verité
-                        dont je ſuis capable, &amp; qu'il merite de moy, je luy en faſſe la reſtitution : il peut regarder avec loiſir ce portrait que j'ay fait de luy d'aprés nature ;
-                        &amp; s'il ſe connoiſt quelqu'uns des defauts que je touche, s'en corriger. [...]</p>
+                    <p source="#ed3_ex1 #ed6_ex1">Je rends au Public ce qu'il m'a 
+                        <app>
+                            <rdg source="#ed3_ex1">preſté</rdg>
+                            <rdg source="#ed6_ex1">prêté</rdg>
+                        </app> 
+                        <app>
+                            <rdg source="#ed3_ex1">;</rdg>
+                            <rdg source="#ed6_ex1">:</rdg>
+                        </app>
+                        j'ay emprunté de luy la matiere de cet ouvrage
+                        <app>
+                            <rdg source="#ed3_ex1">,</rdg>
+                            <rdg source="#ed6_ex1">;</rdg>
+                        </app>
+                         il eſt juſte que l'ayant achevé avec toute l'attention pour la verité dont je ſuis capable, &amp; qu'il merite de moy,
+                        je luy en faſſe la reſtitution : il peut regarder avec loiſir ce portrait
+                        que j'ay fait de luy d'aprés nature
+                        <app>
+                            <rdg source="#ed3_ex1">;</rdg>
+                            <rdg source="#ed6_ex1">,</rdg>
+                        </app>
+                        &amp; s'il ſe connoiſt quelques-uns des 
+                        <app>
+                            <rdg source="#ed3_ex1">defauts</rdg>
+                            <rdg source="#ed6_ex1">défauts</rdg>
+                        </app>
+                         que je touche, s'en corriger. [...]</p>
                 </div2>
-                <div2 type="table_of_contents">
+                <div2 type="table_of_contents" source="#ed3_ex1">
                     <!-- Cette partie contient la table des matières de la partie "Les caractères ou les moeurs de ce siècle" -->
                     <list type="chapter">
                         <!-- Cette partie contient la liste des chapitres de la table des matières -->
@@ -152,20 +218,59 @@
                     <head rend="uppercase">Des ouvrages de l'esprit</head>
                     <div3 type="chapter_introduction">
                         <!-- Cette partie contient le contenu de l'introduction du premier chapitre de la partie "Les caractères ou les moeurs de ce siècle" -->
-                        <p source="#ed3_ex1">Tout eſt dit, &amp; l'on vient trop tard depuis plus de ſept mille ans qu'il y a des hommes, &amp; qui penſent. Sur ce qui concerne les mœurs le plus beau
-                            &amp; le meilleur eſt enlevé ; l'on ne fait que glaner aprés les Anciens &amp; les habiles d'entre les Modernes.</p>
+                        <p source="#ed3_ex1 #ed6_ex1">Tout eſt dit, &amp; l'on vient trop tard depuis plus de
+                            ſept mille ans qu'il y a des hommes, &amp; qui penſent. Sur ce qui
+                            concerne les mœurs le plus beau &amp; le meilleur eſt enlevé ; l'on ne
+                            fait que glaner aprés les 
+                            <app>
+                                <rdg source="#ed3_ex1">Anciens</rdg>
+                                <rdg source="#ed6_ex1">anciens</rdg>
+                            </app>
+                             &amp; les habiles d'entre les
+                            <app>
+                                <rdg source="#ed3_ex1">Modernes</rdg>
+                                <rdg source="#ed6_ex1">modernes</rdg>
+                            </app>.</p>
                     </div3>
-                    <div3 type="remark" n="1">
+                    <div3 type="remark">
                         <!-- Cette partie contient le contenu de la première remarque du premier chapitre de la partie "Les caractères ou les moeurs de ce siècle" -->
-                        <p source="#ed3_ex1">Il faut chercher ſeulement à penſer &amp; à parler juſte, ſans vouloir amener les autres à noſtre gouſt &amp; à nos ſentimens ; c'eſt une trop grande entrepriſe.</p>
+                        <p source="#ed3_ex1 #ed6_ex1">Il faut chercher ſeulement à penſer &amp; à
+                            parler juſte 
+                            <app>
+                                <rdg source="#ed3_ex1"/>
+                                <rdg source="#ed6_ex1">,</rdg>
+                            </app>
+                            ſans vouloir amener les autres à 
+                            <app>
+                                <rdg source="#ed3_ex1">noſtre</rdg>
+                                <rdg source="#ed6_ex1">nôtre</rdg>
+                            </app> 
+                            <app>
+                                <rdg source="#ed3_ex1">gouſt</rdg>
+                                <rdg source="#ed6_ex1">goût</rdg>
+                            </app>
+                             &amp; à nos ſentimens ; c'eſt une trop grande entrepriſe.</p>
+                    </div3>
+                    <div3 type="remark">
+                        <p source="#ed6_ex1">Entre toutes les differences expreſſions qui peuvent rendre une ſeule de nos penſées,
+                            il n'y en a qu'une qui ſoit la bonne ; on ne la rencontre pas toûjours en parlant, ou en écrivant il eſt
+                            vray neanmoins qu'elle exiſte, que tout ce qui ne l'eſt point eſt foible, &amp; ne ſatisfait point un homme
+                            d'eſprit qui veut ſe faire entendre.</p>
+                        <p source="#ed6_ex1" corresp="#r_15"/>
+                        <p source="#ed6_ex1" corresp="#r_16"/>
                     </div3>
                     <div3 type="remark" n="15">
-                        <p source="#ed3_ex1">Un bon Auteur, &amp; qui écrit avec ſoin, éprouve ſouvent que l'expreſſion qu'il cherchoir depuis long-temps ſans la connoître,
-                            &amp; qu'il a enfin trouvée, eſt celle qui eſtoit la plus simple, la plus naturelle, qui ſembloit devoir ſe presenter d'abord &amp; ſans effort.<pb type="pageNum" n="111" /></p>
+                        <p source="#ed3_ex1" xml:id="r_15">Un bon Auteur, &amp; qui écrit avec ſoin, éprouve
+                            ſouvent que l'expreſſion qu'il cherchoir depuis long-temps ſans la
+                            connoître, &amp; qu'il a enfin trouvée, eſt celle qui eſtoit la plus
+                            simple, la plus naturelle, qui ſembloit devoir ſe presenter d'abord
+                            &amp; ſans effort.</p>
                     </div3>
                     <div3 type="remark" n="16">
-                        <p source="#ed3_ex1">Ceux qui écrivent par humeur, ſont ſujets à retoucher à leurs ouvrages;comme elle n'eſt pas toûjours fixe, &amp; qu'elle varie en eux ſelon
-                            les occaſions, ils ſe refroidiſſent bien-toſt pour les expreſſions &amp; les termes qu'ils ont le plus aimez.</p>
+                        <p source="#ed3_ex1" xml:id="r_16">Ceux qui écrivent par humeur, ſont ſujets à retoucher à
+                            leurs ouvrages; comme elle n'eſt pas toûjours fixe, &amp; qu'elle varie
+                            en eux ſelon les occaſions, ils ſe refroidiſſent bien-toſt pour les
+                            expreſſions &amp; les termes qu'ils ont le plus aimez.</p>
                     </div3>
                     <!-- Il reste encore à encoder les chapitres suivants -->
                 </div2>
