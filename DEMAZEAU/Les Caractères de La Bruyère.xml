@@ -49,17 +49,16 @@
                         La première partie est composée uniquement de son avant-propos, alias "avant_propos1"
                         La deuxième partie est composée de son avant-propos, alias "avant_propos2, de sa table des matières, ainsi que de ses 28 chapitres.
                         La troisième partie est composée de son avant-propos, alias "avant_propos3, de sa table des matières, de ses 16 chapitres, ainsi que de 2 remarques du chapitre 1.
+                        
+                        La structure se lit ainsi :
+                        div1 correspond à chaque grande partie de l’ouvrage ; 
+                        div2 regroupe les éléments qui composent ces parties (avant-propos, table des matières, chapitres) ; 
+                        div3 sert à identifier les chapitres eux-mêmes ou certaines remarques choisies ; enfin, 
+                        div4 contient le texte complet des remarques.                    
+                     Ce découpage a été choisi pour rendre compte à la fois de la composition éditoriale du livre et du sens de sa progression. 
+                     Chaque niveau de division correspond à un degré de lecture : la partie dans son ensemble, ses composantes principales, puis les unités textuelles. Aussi, placer les remarques à un niveau proche des chapitres permet aussi de montrer leur valeur propre dans le discours moral de La Bruyère. 
+                     L’ensemble constitue ainsi une lecture claire, ordonnée et fidèle à la structure originale du texte. </p>
                     
-La structure se lit ainsi :
-                        <div1> correspond à chaque grande partie de l’ouvrage ; 
-                        <div2> regroupe les éléments qui composent ces parties (avant-propos, table des matières, chapitres) ; 
-                        <div3> sert à identifier les chapitres eux-mêmes ou certaines remarques choisies ; enfin, 
-                        <div4> contient le texte complet des remarques.                    
-Ce découpage a été choisi pour rendre compte à la fois de la composition éditoriale du livre et du sens de sa progression. 
-Chaque niveau de division correspond à un degré de lecture : la partie dans son ensemble, ses composantes principales, puis les unités textuelles. Aussi, placer les remarques à un niveau proche des chapitres permet aussi de montrer leur valeur propre dans le discours moral de La Bruyère. 
-L’ensemble constitue ainsi une lecture claire, ordonnée et fidèle à la structure originale du texte.
-                    </p>
-                
                 </interpretation>
             </editorialDecl>
             <editorialDecl source="#ed3_NUMM-8704022">
@@ -117,7 +116,7 @@ L’ensemble constitue ainsi une lecture claire, ordonnée et fidèle à la stru
                 <div2 type="foreword" xml:id="avant_propos1"></div2></div1>
             
             <div1 source="#ed3_NUMM-8704022" type="part" xml:id="partie_2">
-                        <head>Les caractères de Théophraste traduit du grec</head>
+                <head>Les caractères de Théophraste traduit du grec</head>
                 <div2 type="foreword" xml:id="avant_propos2"></div2>
                 <div2 type="toc"><head>Table des matières</head>
                     <div3 type="chapter" n="1" xml:id="chapitre1">
@@ -160,7 +159,7 @@ L’ensemble constitue ainsi une lecture claire, ordonnée et fidèle à la stru
                         <head>D'un Vilain homme</head></div3>
                     <div3 type="chapter" n="20" xml:id="chapitre20">
                         <head>D'un homme Incommode</head></div3>
-                        <div3 type="chapter" n="21" xml:id="chapitre21">
+                    <div3 type="chapter" n="21" xml:id="chapitre21">
                         <head>De la sotte Vanité.</head></div3>
                     <div3 type="chapter" n="22" xml:id="chapitre22">
                         <head>De l'Avarice</head></div3>
@@ -179,7 +178,7 @@ L’ensemble constitue ainsi une lecture claire, ordonnée et fidèle à la stru
                 </div2>
             </div1>
             <div1 source="#ed3_NUMM-8704022" type="part" xml:id="partie_3">
-                      <head>Les caractères ou les moeurs de ce siècle</head>
+                <head>Les caractères ou les moeurs de ce siècle</head>
                 <div2 type="foreword" xml:id="avant_propos3"></div2>
                 <div2 type="toc"><head>Table des matières</head>
                     <div3 type="chapter" n="1" xml:id="chapitre_1">
@@ -213,28 +212,50 @@ L’ensemble constitue ainsi une lecture claire, ordonnée et fidèle à la stru
                     <div3 type="chapter" n="15" xml:id="chapitre_15">
                         <head>De la Chaire.</head></div3>
                     <div3 type="chapter" n="16" xml:id="chapitre_16">
-                        <head>Des Esprits forts.</head></div3></div2>      
+                        <head>Des Esprits forts.</head></div3></div2> 
+            </div1>
                 
-                <div2 source="#chapitre_1">
-                <div3 type="remark" n="16">
-                    <div4>
-                        <p source="ed3_NUMM-8704022"> Un bon Auteur, et qui écrit avec soin, éprouve souvent que l'expression qu'il
+                <div1 source="#ed6_NUMM-8712342" type="part" xml:id="partie3">
+                    <head>Les caractères ou les moeurs de ce siècle</head>
+                    <div2 type="foreword" xml:id="avantpropos3"></div2>
+                    <div2 type="toc"><head>Table des matières</head>
+                        <div3 type="chapter" n="1" xml:id="chapitre_A">
+                            <head>Des ouvrages de l'esprit.</head></div3></div2></div1>
+                
+                <div1 source="#chapitre_1 #chapitre_A">
+                    <div2 type="remark" n="16">
+                        <p source="#ed3_NUMM-8704022 #ed6_NUMM-8712342"> 
+                            Un bon Auteur, et qui écrit avec soin, éprouve souvent que l'expression qu'il
                             cherchait depuis longtemps sans la connaître, et qu'il a enfin trouvée, est
                             celle qui était la plus simple, la plus naturelle, qui semblait devoir se
-                            présenter d'abord et sans effort.</p>
-                    </div4>
-                </div3>
-                <div3 type="remark" n="22">
-                    <div4>
-                        <p source="ed3_NUMM-8704022">Ceux qui par leur condition se trouvent exempts de la joulise d'Auteur, ont
-                            ou des passions, ou des besoins qui les distraient, et les rendent froids
-                            sur les conceptions d'autrui : personne presque par la disposition de son
-                            esprit, de son coeur, et de sa fortune n'est en état de se livrer au plaisir
-                            que la perfection d'un ouvrage.</p>
-                    </div4>
-                </div3>
-                </div2>
-            </div1>
+                            présenter d'abord et sans effort.</p>                      
+                    </div2>
+                    <div2 type="remark" n="22">
+                        <p source="#ed3_NUMM-8704022 #ed6_NUMM-8712342">
+                            <app><rdg source="#ed3_NUMM-8704022"/>
+                                <rdg source="#ed6_NUMM-8712342">
+                                    L'on m'a engagé, dit riste, à li-
+                                    re mes ouvrages à Zoile, je l'ai fait,
+                                    ils l'ont saisi d'abord, et avant qu'il
+                                    ait eu le loisir de les trouver mauvais,
+                                    il les a louez modestement en ma pré-
+                                    sence, et il e les a pas louez depuis
+                                    devant personne : je l'excuse et n'en
+                                    emande pas davantage à un auteur,
+                                    je le plains même d'avoir écouté de
+                                    belles choses qu'il n'a point faites.
+                                </rdg></app>
+                                Ceux qui par leur condition se trouvent exempts de la jalousie 
+                            <app><rdg source="#ed3_NUMM-8704022">d'Auteur</rdg>
+                            <rdg source="#ed6_NUMM-8712342">d'auteur</rdg></app>, ont
+                            ou des passions, ou des besoins qui les distraient
+                            <app><rdg source="#ed3_NUMM-8704022">,</rdg>
+                            <rdg source="#ed6_NUMM-8712342"/></app> et les rendent froids
+                                sur les conceptions d'autrui : personne presque par la disposition de son
+                                esprit, de son coeur, et de sa fortune n'est en état de se livrer au plaisir
+                                que la perfection d'un ouvrage.</p>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
