@@ -51,8 +51,15 @@
                     <p>Transcription avec l'orthographe d'origine.</p>
                 </interpretation>
             </editorialDecl>
+            <p>L'ouvrage est découpé en 3 div type="book"
+                Chaque book est découpé en div type="chapter"
+                Chaque chapter est découpé en p et div type="remark"
+                    ces éléments ont des @source
+                Les tables de matières sont des list d' item où sont créés des xml:id pour chaque remark.</p>
         </encodingDesc>
         <revisionDesc>
+            <change when="2025-11-03" who="#LLecoeur">Devoir rendu TD6.</change>
+            <change when="2025-10-20" who="#LLecoeur">Devoir rendu TD5.</change>
             <change when="2025-10-18" who="#LLecoeur">Devoir rendu.</change>
         </revisionDesc>
     </teiHeader>
