@@ -36,8 +36,9 @@
             <p>Dans un premier temps, j'ai mis une div préface dans front car il s'agit d'un contenu extérieur au texte.</p>
             <p>Ensuite, j'ai mis une div1 pour représenter la partie 1 dans le body car c'est le début du contenu de l'ouvrage.</p>
             <p>Après une div1, j'ai écris une div2 pour évoquer la table des matières qui est à l'intérieur de la première partie et donc de div1.</p>
-            <p>Une deuxième div2 est ensuite ajoutée après la première div2 car elle décrit les chapitres, à l'intérieur desquels j'ai ajouté un paragraphe.</p>
-            <p>Enfin, j'ai ajouté une div3 qui détermine les remarques au sein des chapitres et paragraphes.</p>
+            <p>Une div3 est ensuite ajoutée après la div2 car elle décrit les chapitres qui font partie de la table des matières, à l'intérieur desquels j'ai ajouté un paragraphe.</p>
+            <p>Enfin, j'ai ajouté une div4 qui détermine les remarques au sein des chapitres et paragraphes.</p>
+            <p>J'ai gardé la même structure pour la deuxième partie en enlevant la div de la table des matières.</p>
         </projectDesc>
         <editorialDecl>
             <normalization>
@@ -86,9 +87,9 @@
                 <div2 type="chapter">
                         <head>Nom de chapitre</head>
                         <p>texte</p>
-                    <div3 type="remark" source="#ed3">
-                            <p>C'eſt une grande miſere que de n'avoir pas aſſez d'eſprit pour bien parler, ny aſſez de jugement pour ſe taire : voilà le principe de toute impertinence.</p>
-                            <p>Un noble, s'il vit chez luy dans ſa Province, il vit libre, mais ſans appuy:s"il vit à la Cour il eſt protégé, mais i eſt eſclave ; cela ſe compenſe.</p>
+                    <div3 type="remark">
+                        <p source="#ed3">C'eſt une grande miſere que de n'avoir pas aſſez d'eſprit pour bien parler, ny aſſez de jugement pour ſe taire : voilà le principe de toute impertinence.</p>
+                        <p source="#ed3">Un noble, s'il vit chez luy dans ſa Province, il vit libre, mais ſans appuy:s"il vit à la Cour il eſt protégé, mais i eſt eſclave ; cela ſe compenſe.</p>
                     </div3>
                 </div2>
             </div1>
