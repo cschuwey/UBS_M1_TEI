@@ -6,10 +6,13 @@
                 <title>Les caractères de Théophraste</title>
                 <author>Jean de la Bruyère</author>
             </titleStmt>
-            <publicationStmt><p></p></publicationStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
             <sourceDesc>
                 <bibl xml:id="ed3">
-                    <title ref="ark:/12148/cb11910249z">Les caractères de Théophraste, traduit du Grec</title>
+                    <title ref="ark:/12148/cb11910249z">Les caractères de Théophraste, traduit du
+                        Grec</title>
                     <author>La Bruyère, Jean de</author>
                     <date when="1688">M.DC.LXXXVIII</date>
                     <edition n="3">Troisième édition</edition>
@@ -37,8 +40,9 @@
             <change>
                 <list>
                     <item>
-                        <date when="2025-10-16"></date>
-                        <p>Insertion des remarques sur les chapitres "Des ouvrages de l'Esprit" et "Du Mérite personnel" de l'édition de 1688</p>
+                        <date when="2025-10-16"/>
+                        <p>Insertion des remarques sur les chapitres "Des ouvrages de l'Esprit" et
+                            "Du Mérite personnel" de l'édition de 1688</p>
                     </item>
                 </list>
             </change>
@@ -48,7 +52,7 @@
         <body>
             <div1 type="préface">
                 <!-- Discours sur Théophraste -->
-                <p></p>
+                <p/>
             </div1>
             <div1 type="partie1">
                 <!-- Les caractères de Théophraste -->
@@ -71,6 +75,7 @@
                 </div2>
                 <div2 type="chapter">
                     <!-- Contenu du chapitre -->
+                    <head><!-- Nom du chapitre --></head>
                     <div3 type="remark">
                         <!-- paragraphe de remarque -->
                         <p>
@@ -81,11 +86,49 @@
                 <div2 type="chapter">
                     <head>Des ouvrages de l'Esprit</head>
                     <div3 type="remark">
+                        <p source="#ed3 #ed6">
+                            <pb source="#ed3" n="106" type="imprimé"/>
+                            <pb source="#ed3" n="172" type="pdf"/>
+                            <pb source="#ed6" n="64" type="imprimé"/>
+                            <pb source="#ed6" n="102" type="pdf"/> Tout eſt dit, &amp; l'on vient
+                            trop tard depuis plus de ſept mille ans qu'il y a des hommes, &amp; qui
+                            penſent. Sur ce qui concerne les moeurs le plus beau &amp; le meilleur
+                            eſt enlevé ; l'on ne fait que glaner aprés les <app>
+                                <rdg source="#ed3">A</rdg>
+                                <rdg source="#ed6">a</rdg>
+                            </app>nciens &amp; les habiles d'entre les <app>
+                                <rdg source="#ed3">M</rdg>
+                                <rdg source="#ed6">m</rdg>
+                            </app>odernes. </p>
+                    </div3>
+                    <div3 type="remark">
                         <p source="#ed3">
                             <pb n="106" type="imprimé"/>
-                            <pb n="172" type="pdf"/>
-                            Il faut chercher ſeulement à penſer &amp; à parler juſte, ſans vouloir amener les autres à noſtre gouſt &amp; à nos ſentiments ; c'eſt une trop grande entrepriſe.
-                        </p>
+                            <pb n="172" type="pdf"/> Il faut chercher ſeulement à penſer &amp; à
+                            parler juſte, ſans vouloir amener les autres à noſtre gouſt &amp; à nos
+                            ſentiments ; c'eſt une trop grande entrepriſe. </p>
+                    </div3>
+                    <div3 type="remark">
+                        <p source="#ed3 #ed6">
+                            <pb source="#ed3" n="106-7" type="imprimé"/>
+                            <pb source="#ed3" n="172-3" type="pdf"/>
+                            <pb source="#ed6" n="64" type="imprimé"/>
+                            <pb source="#ed6" n="102" type="pdf"/> C'eſt un métierr que de faire un
+                            livre comme de faire une pendule ; <app>
+                                <rdg source="#ed3">I</rdg>
+                                <rdg source="#ed6">i</rdg>
+                            </app>l faut plus que de l'eſprit pour <app>
+                                <rdg source="#ed6">ê</rdg>
+                                <rdg source="#ed3">eſ</rdg>
+                            </app>tre <app>
+                                <rdg source="#ed3">A</rdg>
+                                <rdg source="#ed6">a</rdg>
+                            </app>uteur. Un Magiſtrat alloit par ſon merite à la premiere dignité ,
+                            il <app>
+                                <rdg source="#ed3">eſ</rdg>
+                                <rdg source="#ed6">é</rdg>
+                            </app>toit homme délié &amp; pratic dans les affaires ; il a fait
+                            imprimer un ouvrage moral qui eſt rare par le ridicule. </p>
                     </div3>
                 </div2>
                 <div2 type="chapter">
@@ -93,13 +136,27 @@
                     <div3 type="remark">
                         <p source="#ed3">
                             <pb n="123" type="imprimé"/>
-                            <pb n="189" type="pdf"/>
-                            Quelle horrible peine à un homme qui eſt ſans proſneurs &amp; ſans cabale, qui n'eſt engagé dans aucun corps, mais qui eſt ſeul, &amp; qui n'a que beaucoup de merite pour toute recommendation, de ſe faire jour à travers l'obſcurité où il ſe trouve, &amp; de venir au niveau d'un fat qui eſt en credit.
-                        </p>
-                    </div3>      
+                            <pb n="189" type="pdf"/> Quelle horrible peine à un homme qui eſt ſans
+                            proſneurs &amp; ſans cabale, qui n'eſt engagé dans aucun corps, mais qui
+                            eſt ſeul, &amp; qui n'a que beaucoup de merite pour toute
+                            recommendation, de ſe faire jour à travers l'obſcurité où il ſe trouve,
+                            &amp; de venir au niveau d'un fat qui eſt en credit. </p>
+                    </div3>
+                    <div3 type="remark">
+                        <p source="#ed3 #ed6">
+                            <pb source="#ed3" n="123" type="imprimé"/>
+                            <pb source="#ed3" n="189" type="pdf"/>
+                            <pb source="#ed6" n="104" type="imprimé"/>
+                            <pb source="#ed6" n="142" type="pdf"/> Le génie &amp; les grands talens
+                            manquent ſouvent <app>
+                                <rdg source="#ed3">,</rdg>
+                                <rdg source="#ed6">;</rdg>
+                            </app> quelquefois auſſi les ſeules occaſions : tels peuvent être loüez
+                            de ce qu'ils ont fait , &amp; tels de ce qu'ils auroient fait. </p>
+                    </div3>
                 </div2>
             </div1>
-            
+
         </body>
     </text>
 </TEI>
