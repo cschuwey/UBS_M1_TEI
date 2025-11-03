@@ -211,7 +211,6 @@
                     </div>
                     <div type="chapter" n="5" xml:id="B3CH5">
                         <head>De la Société &amp; de la Converſation</head>
-                        <!-- Pas sûr pour le "&". -->
                     </div>
                     <div type="chapter" n="6" xml:id="B3CH6">
                         <head>Des Biens de Fortune</head>
@@ -247,7 +246,7 @@
                         <head>Des Eſprits forts</head>
                     </div>
                 </div>
-                <div corresp="#B3CH1">
+                <div corresp="#B3CH1"> <!-- <head corresp="#B3CH1">Des ouvrages de l'eſprit</head> -->
                     <!-- Je ne sais pas si ce que je veux faire fonctionne comme je le veux. Ici je ne veux pas réécrire le <head> du chapitre car pour moi il est récupérable avec le @corresp. -->
                     <p><hi>T</hi>OuT eſt dit, [...]</p>
                     <div type="remark" n="1" source="#ed3-88" xml:id="B3CH2R1">
@@ -255,6 +254,16 @@
                     </div>
                     <div type="remark" n="2" source="#ed3-88" xml:id="B3CH2R2">
                         <p>¶ C'eſt un métier  que de faire un livre [...]</p>
+                    </div>
+                    
+                    <div> <!-- page 147 de 88 page 175 de 90 -->
+                        <head corresp="B3CH5">De la Société &amp; de la Converſation</head>
+                        <p>[...]</p>
+                        <div type="remark" n="1" source="#ed3-88 ed5-90" xml:id="B3CH5R1">
+                            <p>¶ C'eſt le rôle d'un ſot d'eſtre importun : un homme habile ſent s'il
+                                convient,<app><rdg corresp="#ed3-88"> </rdg><rdg corresp="#ed5-90"></rdg></app>ou s'il ennuye<app><rdg corresp="#ed3-88">, </rdg><rdg corresp="#ed5-90">;</rdg></app>il ſçait diſparoiſtre le moment qui préc<app><rdg corresp="#ed3-88">è</rdg><rdg corresp="#ed5-90">e</rdg></app>de celuy
+                                où il ſeroit de trop quelque part.</p>
+                        </div>
                     </div>
 
                 </div>
@@ -279,7 +288,7 @@
                 <head>De l'Homme</head>
                 <!- page 219 
                 <div type="remark" n="62">
-                    <!- page 247 à 248 
+                    <!- page 247 à 248 page 315 sur le pdf
                     <p>¶ Les hommes agiſſent mollement dans les choſes qui ſont de leur devoir,
                         pendant qu'ils ſe font un merite ou plûtoſt une vanité de s'empreſſer pour
                         celles qui leur ſont étrangeres, &amp; qui ne conviennent ny à leur état, ny
