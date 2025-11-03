@@ -76,8 +76,7 @@
                 <div2 type="Introduction">
                     <p>(...)</p>
                 </div2>
-                <div2 type="toc">table des matières.
-                <list type="chapter">
+                <div2 type="toc">table des matières. <list type="chapter">
                         <item n="1">De la Diſſimulation.</item>
                         <item n="2">De la Flaterie.</item>
                         <item n="3">De l'Impertinent, ou du diſeur de rien.</item>
@@ -96,8 +95,7 @@
             <div1 type="part" n="3">
                 <head type="title">Les Caractères où les moeurs de ce siècle</head>
                 <!-- La page 330 de la cinquième édition correspond à la page 219-->
-                <div2 type="toc">table des matières.
-                    <list type="chapter">
+                <div2 type="toc">table des matières. <list type="chapter">
                         <item n="1">Des Ouvrages de l'Esprit.</item>
                         <item n="2">Du Merite Personnel</item>
                         <item n="3">Des Femmes</item>
@@ -107,18 +105,49 @@
                         <item n="7">De la Ville</item>
                         <item n="X+1"/>
                     </list>
-                </div2>    
+                </div2>
                 <div2 type="chapter" n="2" xml:id="Chapitre2">
                     <!-- J'ai un doute sur xml:id="Chapitre2" -->
                     <pb n="122"/>
                     <head rends="uppercase">Du Merite personnel </head>
+                    <!-- L'élément <app> c'est comme un aiguillage de chemin de fer.
+                    Ex : amener et amené :
+                    <app>amener</app> et <app>amené</app> -->
+                    <!-- Structure :
+                    <app>
+                       <rdg source="ed3" >;</rdg>
+                       <rdg source="ed6">,<rdg>
+                    <app> -->
+
                     <div3 type="introduction-part">
                         <p>Qui peut avec les plus rares talents &amp; (...) pour le remplacer</p>
                     </div3>
-                    <div3 type="remark" source="#ed3_ex1" n="2">
-                        <p>Combien d'hommes admirables, &amp; qui avaient de tresbeaux genies sont
-                            morts sans qu'on en ait parlé? Combien vivent encore dont on ne parle
-                            point,&amp;dont on ne parlera jamais?</p>
+                    <div3 type="remark" source="#ed3_ex1 #ed7" n="2">
+                        <pb source="ed7" n="103"/>
+                        <pb source="ed3_ex1" n="175"/>
+                        <app>
+                            <!-- Rémi, t'as deux possibilités, soit tu mets l'attribut source dans le paragraphe, et tu
+                            n'as pas besoin de conserver <app> et <rdg> soit tu continues de la même manière.
+                            Dilemme entre Implicite et Explicite.
+                            Dans tous les cas, le choix que tu fais doit se poursuivre pour tout le document.
+                            Cohérence;-->
+                            <rdg source="ed7">
+                                <p>Tout persuadé que je sois que ceux que l'on choisit pour
+                                    différents emplois, chacun selon son génie &amp; sa profession
+                                    sont font bien, je me hasarde de dire qu'il se peut faire qu'il
+                                    ait au monde plusieurs personnes connues ou inconnues que l'on
+                                    n'employe pas, qui feraient très-bien(...) de forts grandes
+                                    choses.</p>
+                            </rdg>
+                            <rdg source="#ed3_ex1"/>
+                        </app>
+                        <p>Combien d'hommes admirables, &amp; qui avaient de <app>
+                                <rdg source="#ed3_ex1">tresbeaux</rdg>
+                                <rdg source="#ed7"> tres beaux</rdg></app> genies<app><rdg
+                                    source="#ed3_ex1"/>
+                                <rdg source="#ed7">,</rdg></app> sont morts sans qu'on en ait parlé?
+                            Combien vivent encore dont on ne parle point,&amp;dont on ne parlera
+                            jamais?</p>
                     </div3>
                     <div3 type="remark" source="#ed3_ex1" n="3">
                         <p>Quelle horrible peine à un homme qui est sans (prosneurs) &amp;sans
