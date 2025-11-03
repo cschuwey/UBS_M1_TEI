@@ -30,24 +30,89 @@
         <encodingDesc> 
             <projectDesc>
                 <p>J'ai choisi de moderniser pour faciliter la compréhension du texte</p>
+                <p> j'ai choisis de mettre les préfaces et les sommaires dans front car pour moi ça ne fait pas partie du corps du texte et ce sont des éléments qui le precédent. Pour la seconde préface j'ai mis en sous division son sommaire car ça conserne que cette préface</p>
             </projectDesc>
         </encodingDesc>
-        <revisionDesc> <listChange> <change when="2025-10-06">sourcer le texte en disant qu'il provient de l'edition de 1688,et coder les remarques</change></listChange></revisionDesc>
+        <revisionDesc> <listChange> <change when="2025-10-06">sourcer le texte en disant qu'il provient de l'edition de 1688,et coder les remarques</change> 
+            <change when="2025-10-21"> j'ai mis les péefaces et les sommaires dans front, j'ai aussi modifier la structure du corps du texte du premier chapitre en rajoutant les numérotations des div comme vu au précédent cours et j'ai fini par reprendre la même structure pour encoder le second chapitre</change></listChange></revisionDesc>
+            <change when="2025-11-3"> j'ai ajouté une variante dans la préface et un paragraphe dans le premier chapitre, la  variation de la première remarque de remier chapitre est inventé</change>
     </teiHeader>
     <text>
-        <body>
-            <div type="chapter" n="1">
-                <head>Des Ouvrages de l'esprit</head>
-                <div type="remark">  
-                    <p source="#ed3">Tout est dit, et l'οn vient trop tard depuis plus de sept mille ans qu'il y a des hommes et qui pensent. Sur ce qui concerne les mœurs le plus beau et le meilleur est enlevé;l'on ne fait que glaner aprés les Anciens et les habiles d'entre les Modernes,</p>
-                </div>
-                <div type="remark">
-                    <p source="#ed3">Combien de siècles se sont écoulez avant qne les hommes dans les sciences et dans les arts aient pû revenir au goût des Anciens,et reprendre enfin le simple et le naturel.</p>
-                    <p source="#ed3"> Entre toutes les differentes expressions qui peuvent rendre une seule de nos pensées , il n'y en a qu'une qui soit la bonne; on ne la rencontre pas toûjours en parlant, ou en écrivant ; il est vrai neanmoins qu'elle existe, que tout ce qui ne l'est point est faible, et ne satisfait point un homme d'esprit qui veut se faire entendre</p>
-                </div>
-            </div>
+        <front> 
+            <div1 type="preface" xml:id="preface1"> <head>Discours sur Théophraste</head>
+                <p source="#ed3">Je n'estime pas que l'homme soit capable de former dans son esprit un projet plus vain et plus chimérique, 
+                    que de prétendre en écrivant de quelque art ou de quelque science que ce soit, échaper à toutes sortes de critiques, 
+                    et enlever les suffrages de tous les lecteurs.</p>
+            </div1>
+            <div1 type="preface" xml:id="preface2"> <head>Les Caractères de Théophraste traduits du grec</head>
+                <div2 type="toc" xml:id="tocpreface2">
+                    <list source="#ed3">
+                        <item>De la dissimulation</item>
+                        <item>De la flatterie</item>
+                        <item>De l'impertinent, ou du diseur de rien</item>
+                        <item>De la rusticité</item>
+                        <item>Du complaisant</item>
+                        <item>De l'image d'un coquin</item>
+                        <item>...</item>
+                    </list> 
+                </div2>
+                <div2 type="chapter"> <head>De la dissimulation</head>
+                    <p source="#ed3"> La dissimulation n'est pas aisé à bien définir ; si l'on se contente d'en faire une simple description, 
+                        l'on peut dire que c'est un certain art de composer les paroles et les actions pour une mauvaise fin...</p></div2>
+                
+            </div1>
+            
+            <div1 type="toc"> <head> Les caractères ou moeurs de de ce siècle</head>
+                <p source="#ed3">Je rends au public ce qu'il m'a presté j'ai emprunté de lui la matière de cet ouvrage
+                    <app><rdg source="#ed3">,</rdg> 
+                        <rdg source="#ed5">;</rdg></app> 
+                    il est juste que l'ayant achever vec toute l'attention pour la vérité dont je fus capable, ...</p>
+                
+                <list source="ed3">
+                    <item xml:id="Chapter1">Des ouvrages de l'esprit </item>
+                    <item xml:id="Chapter2">Du mérite personnel</item>
+                    <item xml:id="Chapter3">Des Femmes</item>
+                    <item xml:id="Chapter4">Du coeur</item>
+                    <item xml:id="Chapter5">De la société et de la conversation</item>
+                    <item xml:id="Chapter6">Des Biens de Fortune</item>
+                    <item>...</item>
+                </list>
+            </div1>
+        </front>
+        <body> 
+            <div1  type="chapter" n="1" corresp="#Chapter1">
+                <head>Des Ouvrages de l'Esprit</head>
+                
+                <div2 type="remark" n="1">  
+                    <p source="#ed3"> Tout est dit
+                        <app><rdg source="#ed3">,</rdg>
+                        <rdg source="#ed5">;</rdg></app> 
+                        et l'οn vient trop tard depuis plus de sept mille ans qu'il y a des hommes, et qui pensent.
+                        Sur ce qui concerne les mœurs le plus beau et le meilleur est enlevé ; 
+                        l'on ne fait que glaner aprés les Anciens et les habiles d'entre les Modernes.</p> </div2>
+                
+                <div2 type="remark" n="15">  
+                    <p source="#ed3">Combien de siecles se sont écoulez avant que les hommes dans les sciences et dans les arts ayent pû revenir an goût des Anciens, 
+                        et reprendre enfîn le simple et le naturel</p>
+                    <p><app>
+                        <rdg source="#ed3">Entre toutes les différentes expressions qui peuvent rendre une seule de nos pensées,
+                        il n'y en a qu'une qui soit la bonne ;
+                        on ne la rencontre pas toûjours en parlant, ou en écrivant ;
+                        il est vrai neanmoins qu'elle existe, que tout ce qui ne l'est point est faible,
+                        et ne satisfait point un homme d'esprit qui veut se faire entendre.</rdg>
+                        <rdg source="#ed5">On se nourrit des Anciens et des habiles Modernes, on les presse, on e tire le plus que l'on peut, on en renfle les ouvrages; et quand enfin l'on est auteur, et que l'on croit marcher tout seul, on s'élève contre eux, on les maltraite; semblables à ces enfants drus et forts d'un bon lait qu'ils ont succé, qui battent leur nourricité.</rdg>
+                    </app></p>
+                    
+                </div2>
+            </div1>
+            <div1  type="chapter" n="2" corresp="#Chapter2">
+                <head>Du mérite personnel</head>
+                
+                <div2 type="remark" n="1">  
+                    <p source="#ed3"> ... </p> </div2>
+                
+            </div1>
         </body>
     </text>
 </TEI>
-
 
