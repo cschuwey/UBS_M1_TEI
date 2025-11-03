@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author resp="translator author">Jean de la Bruyère</author>
+                <author>Théophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Moi</authority>
+                <distributor>UBS - Github</distributor>
+                <availability><licence></licence></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3_1688">
+                    <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910249z"> J. de La Bruyère.</author>
+                    Available from <ref target="https://catalogue.bnf.fr/ark:/12148/cb30705982f"></ref>
+                    <date when="1688"/>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris </pubPlace>
+                    <idno>BnF -  R-18787</idno>
+                    <edition>3e éd.</edition>
+                </bibl>
+                <bibl xml:id="ed6_1691">
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle. [Par J. de La Bruyère.]</title>
+                    <author ref="https://catalogue.bnf.fr/ark:/12148/cb11910249z"> J. de La Bruyère.</author>
+                    Available from <ref target="https://catalogue.bnf.fr/ark:/12148/cb307059875"></ref>
+                    <date when="1691"/>
+                    <publisher> E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF - R-52303</idno>
+                    <edition>6e éd.</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc> 
+            <projectDesc> 
+                <p>Texte orignellement en ancien français va être modernisé. La structure du livre a été reprise cependant. Conservation des majuscule et des spécificité propre à la forme du texte.</p>
+            </projectDesc>
+            <samplingDecl> 
+                <p> Seul deux remarque a été transcrit (p.266 à 267). Réinscription du nom du chapitre et des deuxx remarques qui suive. La ponctuation, les majuscules et tout autres détails infographique est reprit tel qu'il a présenté dans le texte.</p> 
+            </samplingDecl>
+        </encodingDesc>
+        <profileDesc> 
+            <abstract> 
+                <p>La balise "chapter" permet d'introduire un titre de chapitre et "remark" un paragraphe.</p>
+                <p>Contexte d'adaptation à la langue français moderne pour qu'il soit lisible par toute et tous. Objectif de pouvoir lire et comparer les deux éditions du textes.</p>
+                <p>Ce texte provient du chapitre "De la mode" du livre "Les caractères" de J. La Bruyère. Les deux remarques retranscripte évoque le phénomène des modes, les comportement qui en découle,
+                    et prend le modèle du duel pour l'illustrer. On lira le contexte dans lequel le duel est pratiquer ainsi que son objectif, mais également la manière dont il est perçut par la société.</p> 
+                <p>Les remarks inscript sont de celle de<seg corresp="#ed3_1688">l'édition de 1688</seg>et elle est comparer avec<seg corresp="#ed6_1691">l'édition de 1691</seg></p>    
+                </abstract>
+        </profileDesc>
+        <revisionDesc> 
+            <change><date  when =" 2025-08-08 "></date></change> 
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>   
+        <front>
+            <div1>
+                <div2>
+                    <head>Discours sur THEOPHRASTE</head>
+                    <p>texte</p>
+                </div2>
+                
+                <div2>
+                    <head>Discours sur THEOPHRASTE - Traduit du Grec</head>
+                    <p>texte</p>
+                    
+                    <div3 type= "toc"> 
+                        <head>TABLE DES MATIRES</head>
+                    </div3>                  
+                </div2>
+            </div1>
+        </front>
+        
+        <body>
+            <div1 source="#ed3_1688">
+                <head>Les caractères de THEOPHRASTE</head>
+                <div2 type="chapter_1"><head>titre du chapitre 1</head>
+                    <div3 type="remark_1" n="pX">
+                        <p>texte de la remarque</p>
+                    </div3>
+                    
+                    <div3 type="remark_2" n="pX">
+                        <p>blabla et cetera, on reprend les mêmes éléments jusqu'au dernier chapitre</p>
+                    </div3>
+                </div2>
+                
+                <div2 type="chapter_2"><head>titre du chapitre 2</head>
+                    <div3 type="remark_1" n="pX">
+                        <p>texte de la remarque</p>
+                    </div3>
+                </div2>
+            </div1>
+            
+            <div1 source="#ed3_1688">
+                <head>Les Caractères ou Les Moeurs de ce siècle.</head>
+                <div2 type="foreword" xml:id="avantpropos">
+                    <head>Avant-propos</head>
+                    <p>Texte de l'avant propos de la second partie de l'ouvrage</p>
+                    <div3 type= "toc"> 
+                        <head>TABLE DES MATIRES</head>
+                        
+                        <div4 type="chapter_1"><head>Titre du chapitre 1</head>
+                            <div5 type="remark_1" n="pX">
+                                <p>texte de la remarque</p>
+                            </div5>
+                        </div4>
+                        <div4 type="chapter_13"><head>De La Mode.</head>
+                            
+                            <div5 type="remark" n="p267">
+                                <p>Une chose folle &amp; qui découvre bien notre petitesse, c'est l'assujettissement aux modes
+                                    quand on l'étend à ce qui concerne le goût, le vivre, la santé &amp; la conscience. La viande
+                                    noire est hors de mode  
+                                    <app>
+                                        <rdg source ="#ed6_1691">,</rdg>
+                                    </app> 
+                                    &amp; par cette raison insipide : ce seroit pecher contre la mode que de
+                                    guerir de la fièvre par la saignée : de même l'on ne mouroit plus depuis long temps
+                                    <app>
+                                        <rdg source="#ed6_1691">long-temps</rdg>
+                                    </app>
+                                    par <tag>Théotime ; </tag>
+                                    ses tendres exhortations ne fauvoient plus que le peuple, &amp; <tag>Theot. </tag>
+                                    <app>
+                                        <rdg source ="#ed6_1691"><tag>Théotime</tag></rdg>
+                                    </app>
+                                    a veu son successeur.</p>
+                            </div5>
+                            <div5 type="remark" source="#ed3_1688" n="p267-268">
+                                <p>Le duel est le triomphe de la mode, &amp; l'endroit où elle a exercé
+                                    sa tyrannie avec plus d'éclat ; cet usage n'a pas laissé au  poltron
+                                    la liberté de vivre, il l'a mené se faire tuer par un plus brave que soi,
+                                    &amp;l'a confondu avec un homme de cœur ; il a attaché de l'honneur &amp; de la gloire
+                                    à une action folle et extravagante ; il a esté
+                                    <app>
+                                        <rdg source="#ed6_1691">été</rdg>
+                                    </app>
+                                    approuvé par la presence des Rois ; 
+                                    <app>
+                                        <rdg source="#ed6_1691">Rois,</rdg>
+                                    </app>
+                                    il y a eu quelquefois une espece de religion
+                                    <app>
+                                        <rdg source="#ed6_1691">Religion</rdg>
+                                    </app>
+                                    à le pratiquer ; il a decidé
+                                    de l'innocence des hommes, des accusations fausses ou veritables sur des crimes
+                                    capitaux ; il sestoit enfin si profondement enraciné dans l'opinion des peuples,
+                                    &amp; s'estoit si fort saisi de leur cœur et de leur esprit, qu'un des plus beaux
+                                    endroits de la vie d'un très-grand Roi a esté de les guerir de cette folie.</p>
+                           <!-- il y a des espaces entre chaque virgule mais je sais pas si c'est dû à l'imprimeur ou à une interprétation teologie... et j'ai pas fait toute les modifications de ce paragraphe par manque de temps mais j'en est 5 !-->
+                            </div5>
+                        </div4>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+        
+        <back>
+            <div type="privilege" xml:id="priv1">
+                <head>Extrait du Privilège de Roi.</head>
+                <p>
+                    texte 
+                </p>
+                <signed>Signé, COIGNARD, Syndie.</signed>
+            </div>
+            <div type="impression" xml:id="imprimeur">
+                <head>Mention de l’imprimeur</head>
+                <p>
+                    Texte blabla qui dit qui est l'imprimeur
+                </p>
+            </div>
+        </back>
+    </text>
+</TEI>
