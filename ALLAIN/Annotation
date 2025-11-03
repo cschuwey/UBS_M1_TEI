@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les
+                    moeurs de ce siècle</title>
+                <author ref="ark:/12148/cb11910249z" resp="translator author">Jean de La
+                    Bruyère</author>
+                <author>Théophraste</author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority>Allain Lou-Ann</authority>
+                <distributor>UBS - GitHub</distributor>
+                <availability>
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
+                        les moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z" resp="translator author">Jean de La
+                        Bruyère</author>
+                    <author>Théophraste</author>
+                    <date when="1688">1688</date>
+                    <edition>3e Edition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BNF - R-18787</idno>
+                </bibl>
+                
+                <bibl xml:id="ed9">
+                    <title> Les Caracteres de Theophraste traduits du grec, avec les Caractères ou
+                        les Moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb11910249z" resp="translator author">Jean de La
+                        Bruyère</author>
+                    <author>Théophraste</author>
+                    <edition>9e Edition</edition>
+                    <publisher>E. Michallet </publisher>
+                    <pubPlace>Paris, Chez Estienne Michallet premier Imprimeur du Roy, ruë S.
+                        Jacques</pubPlace>
+                    <date when="1696">1696</date>
+                    <idno>BNF - R-18795</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="discours">
+                <head> DISCOURS SUR THEOPHRASTE</head>
+            </div1>
+            
+            <div1 type="ouvrage">
+                <head>LES CARACTERES DE THEOPHRASTE</head>
+            </div1>
+            
+            <div1 type="ouvrage">
+                <head>LES CARACTERES OU LES MOEURS DE CE SIECLE</head>
+                
+                <div2 type="chapter" n="11">
+                    <head>Des ouvrages de l'esprit</head>
+                    <div3 type="remark" source="#ed9">
+                        <p>Il y a dans l'art un point de perfection comme de bonté ou de maturité dans la nature<app><rdg source="#ed9">,</rdg><rdg source="#ed3">;</rdg></app>
+                            celuy qui le fent<app><rdg source="#ed3">,</rdg></app> &amp; qui l'aime a le goût parfait; celuy qui ne le fent pas, &amp; qui aime 
+                            en deçà ou au delà, a le <app><rdg source="#ed9">goût</rdg><rdg source="#ed3">goust</rdg></app> défectueux. Il y a donc un bon &amp; un mauvais <app><rdg source="#ed9">goût</rdg><rdg source="#ed3">goust</rdg></app>, &amp; l'on dispute 
+                            des goûts avec fondement.</p>
+                        <p>L'on n'a gueres <app><rdg source="#ed9">vû</rdg><rdg source="#ed3">veu</rdg></app>jusques à present un chef-d'oeuvre d'esprit qui soit l'ouvrage 
+                            de plusieurs <app><rdg source="#ed9">:</rdg><rdg source="#ed3">;</rdg></app> Homere a fait l'Illiade , Virgile l'Eneïde , Tite-live ses Decades,
+                            &amp; l'Orateur Romain ses Oraisons.</p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
