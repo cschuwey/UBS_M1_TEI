@@ -120,19 +120,46 @@
 
                 <div2 type="chapter" n="11">
                     <head>De l'Homme.</head>
+
+                    <div3 type="remark" source="#ed3 #ed7">
+                        <!--  version de 1688 : page 286 // version de 1692 : page 450-451 !-->
+                        <p>Il eſt difficile qu'un fort <app>
+                                <rdg source="#ed3">malhonneſte</rdg>
+                                <rdg source="#ed7">mal honnête</rdg>
+                            </app> homme ait aſſez d'eſprit ; un génie qui eſt droit &amp; perçant
+                            conduit enfin à la règle, à la probité, à la vertu : il manque du ſens
+                            &amp; de la penetration à celuy qui s'opinâtre dans le mauvais comme
+                            dans le faux ; l'on cherche en vain à le corriger par des traits de
+                            ſatyre qui le déſignent aux autres, &amp; où il ne ſe <app>
+                                <rdg source="#ed3">reconnoiſt</rdg>
+                                <rdg source="#ed7">reconnoît</rdg>
+                            </app> pas luy-<app>
+                                <rdg source="#ed3">meſme</rdg>
+                                <rdg source="#ed7">même</rdg>
+                            </app> ; ce ſont des injures dites à un ſourd. Il ſeroit deſirable pour
+                            le plaiſir des <app>
+                                <rdg source="#ed3">honneſtes</rdg>
+                                <rdg source="#ed7">honnêtes</rdg>
+                            </app> gens &amp; pour la vengeance publique, qu'un
+                            coquin ne le fût pas au point d'<app>
+                                <rdg source="#ed3">eſtre</rdg>
+                                <rdg source="#ed7">être</rdg>
+                            </app> privé de tout ſentiment.</p>
+                    </div3>
+
                     <div3 type="remark" source="#ed3 #ed7">
                         <!--  version de 1688 : page 286-287 // version de 1692 : page 434 !-->
                         <p>Les hommes en un ſens ne ſont point leger, ou ne le ſont que dans les
-                            petites choses : Ils changent leurs habits, leur langage <app>
-                                <rdg wit="1688">;</rdg>
-                                <rdg wit="1692">,</rdg>
+                            petites choses : Ils changent leurs habits, leur langage<app>
+                                <rdg source="#ed3"> ;</rdg>
+                                <rdg source="#ed7">,</rdg>
                             </app> les dehors, les <app>
                                 <!-- dans la version de 1688, le mot bien-ſeances étant en bout de ligne, on ne sait pas si le tiret est présent naturellement dans le mot ou s'il signifie juste un renvoie à la ligne !-->
-                                <rdg wit="1688">bien-ſeances,</rdg>
-                                <rdg wit="1692">bien-ſéances ;</rdg>
+                                <rdg source="#ed3">bien-ſeances,</rdg>
+                                <rdg source="#ed7">bien-ſéances ;</rdg>
                             </app> ils changent de <app>
-                                <rdg wit="1688">gouſt</rdg>
-                                <rdg wit="1692">goût</rdg>
+                                <rdg source="#ed3">gouſt</rdg>
+                                <rdg source="#ed7">goût</rdg>
                             </app> quelquefois ; ils gardent leurs moeurs toûjours mauvaiſes, fermes
                             &amp; conſtans dans le mal, ou dans l'indifference pour la vertu.</p>
                     </div3>
@@ -168,4 +195,8 @@
     - les caractères ou les moeurs de ce siècle (introduction, puis sommaire, puis texte classé par chapitre (avec dedans des remarques))
     - extrait du privilège du roy
     !-->
-<!-- pour la prochaine fois, mettre en place cette hierarchie à l'aide des div (préciser les div n dans l'encodingdesc) !-->
+<!-- 
+    <p></p> avec rien à l'interieur = <p/>
+    pour définir un mot : <persName> <placeName> <date>
+    multiplier les attributs différents alourdit le doc au moment de la transormation. plutot que wit, utiliser source
+    !-->
