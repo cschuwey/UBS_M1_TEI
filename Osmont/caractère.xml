@@ -43,10 +43,13 @@
 		</encodingDesc>
 		<revisionDesc>
 			<change>
-				<date when="2025-10-06">6 Octobre 2025</date>Encodage de deux remarques et rajout de l'encodingDesc et du revisionDesc
+				<date when="2025-10-06">6 Octobre 2025</date>Encodage de deux remarques et rajout de l'encodingDesc et du revisionDesc.
 			</change>
 			<change>
 				<date when="2025-10-21">21 Octobre 2025</date>Définition de la structure du document avec les différents div, plus rajout de l'explication de ce choix de le projectDesc.
+			</change>
+			<change>
+				<date when="2025-11-03">3 Novembre 2025</date>Encodage des changements dans les éditions avec la balise app.
 			</change>
 		</revisionDesc>
     </teiHeader>
@@ -69,24 +72,8 @@
 					le séparer de la préface et du contenu global du texte.-->
 				</div2>
 				<div2 type="chapter">
-					<head>De la société et de la conversation</head>
-					<div3 type="remark">
-						<p source="#ed3">
-							<pb n="147" type ="imprimé"/>
-							<pb n="213" type="pdf"/>C'est le rôle d'un sot d'être importun : un homme
-						habile sent s'il convient, ou s'il ennuie, il sait disparaitre le moment
-						qui précede celui où il serait de trop quelque part.</p>
-						<p source="#ed3">
-							<pb n="147" type ="imprimé"/>
-							<pb n="213" type="pdf"/>L'on marche sur les mauvais plaisans, &amp; il pleut par tout pays
-						de cette sorte d'insectes : un bon plaisant est une piece rare ; à un homme qui est né
-						tel il est encore fort délicat d'en soutenir long-temps le personnage : il n'est pas 
-						ordinaire que celui qui fait rire se fasse estimer.</p>
-						
-						<!--Ce div permet d'encoder les remarques à l'intérieur des chapitres
-						avec un élément p pour chaque nouveau paragraphe. Il faut aussi indiquer
-						pour chaque paragraphe de quel édition il provient.-->
-					</div3>
+					<head></head>
+					<p></p>
 				</div2>
 			</div1>
 			<div1 type="part">
@@ -102,10 +89,47 @@
 					le séparer de la préface et du contenu global du texte.-->
 				</div2>
 				<div2 type="chapter">
-					<head></head>
-					<div3 type="remark">
-						<p source="..."></p>
-						<p source="..."></p>
+					<head><app>
+						<rdg source="#ed3" rend="uppercase">De la société et de la conversation</rdg>
+						<rdg source="#ed5" rend="lowercase">De la société &amp; de la conversation</rdg>
+					</app></head>
+						<div3 type="remark">
+							<p source="#ed3 #ed5">
+								<pb source="#ed3" n="147" type ="imprimé"/>
+								<pb source="#ed3" n="213" type="pdf"/>
+								<pb source="#ed5" n="174" type ="imprimé"/>
+								<pb source="#ed5" n="230" type="pdf"/>C'est le rôle d'un sot d'être importun : un homme
+								habile sent s'il convient, ou s'il ennuie
+								<app>
+									<rdg source="#ed3">,</rdg>
+									<rdg source="#ed5"> ;</rdg>
+								</app> il sait disparaitre le moment
+								qui précede celui où il serait de trop quelque part.</p>
+							<p source="#ed3 #ed5">
+								<pb source="#ed3" n="147" type ="imprimé"/>
+								<pb source="#ed3" n="213" type="pdf"/>
+								<pb source="#ed5" n="174" type ="imprimé"/>
+								<pb source="#ed5" n="230" type="pdf"/>L'on marche sur les mauvais plaisans
+								<app>
+									<rdg source="#ed3">,</rdg>
+									<rdg source="#ed5">, </rdg>
+								</app>&amp; il pleut par tout 
+								<app>
+									<rdg source="#ed3">pays</rdg>
+									<rdg source="#ed5">païs</rdg>
+								</app>de cette sorte d'insectes : un bon plaisant est une piece rare
+								<app>
+									<rdg source="#ed3"> ; </rdg>
+									<rdg source="#ed5">;</rdg>
+								</app>à un homme qui est né
+								tel
+								<app>
+									<rdg source="#ed5">,</rdg>
+								</app> il est encore fort délicat d'en soutenir long-temps le personnage<app>
+									<rdg source="#ed3"> ;</rdg>
+									<rdg source="#ed5">;</rdg>
+								</app> il n'est pas 
+								ordinaire que celui qui fait rire se fasse estimer.</p>
 						
 						<!--Ce div permet d'encoder les remarques à l'intérieur des chapitres
 						avec un élément p pour chaque nouveau paragraphe. Il faut aussi indiquer
