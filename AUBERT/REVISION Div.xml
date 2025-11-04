@@ -1,0 +1,91 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author resp="translator author" ref="ark:/12148/cb11910249z">De La Bruyère, Jean</author>
+                <author>Théophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Jade Aubert</authority>
+                <distributor>UBS - GithHub</distributor>
+                
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="Ed7_ex1"> 
+                    <!--Lien 7e édition : https://gallica.bnf.fr/ark:/12148/bpt6k8704024z-->
+                    <title>Les Caractères</title>
+                    <author ref="ark:/12148/cb11910249z">De La Bruyère, Jean</author>
+                    <edition>Septième édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1692">1692</date>
+                    <idno>BNF R-18791</idno>
+                </bibl>
+                
+                <bibl xml:id="Ed2_ex2">
+                    <!--Lien 2e édition : https://gallica.bnf.fr/ark:/12148/bpt6k8704021q--> 
+                    <title>Les Caractères</title>
+                    <author ref="ark:/12148/cb11910249z">De La Bruyère, Jean</author>
+                    <edition>Seconde édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">1688</date>
+                    <idno>BNF R-18786</idno>
+                </bibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc> 
+            <projectDesc><p><date when="2025-10-06"/>Nous comparons deux textes de Jean de la Bruyère : le premier est la septième édition de 1692 des Caractères
+                et le deuxième est la deuxième édition de 1688.</p>
+                <p><date when="2025-10-20"/>Modification du TEI Header pour qu'il soit valide.</p>
+                <p><date when="2025-10-21"/>Nous avons organisé les documents grâce à la structure "div".</p>
+                <p><date when="2025-11-03"/>Nous avons fait une révision des "div" pour qu'ils correspondent à la bonne hiérarchisation.</p>
+                <p><date when="2025-11-04"/>Nous avons utilisé l'élément "app" afin de montrer les différences entre deux versions des Caractères.</p>
+            </projectDesc>
+            <editorialDecl><p>La langue a été modernisée afin de permettre la compréhension de nos lecteurs et lectrices d'aujourd'hui.</p>
+                <p>Le document a été organisé selon les titres de chapitres et de rubriques, les hiérarchisant afin de former un tout cohérent.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage><language ident="fr" xml:lang="french">français</language></langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2025-10-06" who="Jade Aubert"/>
+            <change when="2025-10-20" who="Jade Aubert"/>
+            <change when="2025-10-21" who="Jade Aubert"/>
+            <change when="2025-11-03" who="Jade Aubert"/>
+            <change when="2025-11-04" who="Jade Aubert"/>
+        </revisionDesc>
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div1><head>Discours sur Théophraste</head></div1>
+            <div1><head>Les caractères de Theophraste</head>
+                <div2 type="rubrique"><!--Blah blah blah les autres titres de rubriques--></div2>
+                <div2 type="rubrique"><!--Blah blah blah les autres titres de rubriques--></div2></div1>
+            <div1><head>Les Caractères ou les moeurs de ce siècle</head>
+            <div2 type="rubrique"><head><!--Blah blah blah les autres titres de rubriques--></head></div2>
+            <div2 type="rubrique"><head>Les Femmes</head>
+            <div3 type="remark">
+                <p source="Ed7_ex1">Je ne comprends pas comment un mari qui s'abandonne à son humeur et à la complexion, qui ne cache
+                    aucun de ses défauts, et le montre au contraire par les mauvais endroits ; qui est avare, qui est trop négligé dans 
+                    son ajustement, brusque dans ses réponses, incivil, froid, et taciturne, peut espérer de défendre le coeur d'une 
+                    jeune femme contre les entreprises de son galant, qui employe la parure et la magnificience, la complaisance, les soins,
+                    l'empressement, les dons, la flatterie.</p> 
+                <!--Edition 7 = page 199, édition 2 = page 205-206-->
+                <p source="Ed2_ex2">Je ne comprends point comment un mari qui s'abandonne à son humeur et à sa complexion ; qui ne cache
+                    aucun de ses défauts et le montre au contraire par ses mauvai s endroits ; qui est avare, qui est trop négligé dans son ajustement,
+                    brusque dans ses réponses, incivil, froid et taciturne, peut espérer de défendre le coeur d'une jeune femme contre les entreprises de 
+                    son galant, qui employe la parure et la magnificience, la complaisance, les soins, l'empressement, les dons, la flatterie.</p>
+            </div3>
+                <p></p>
+            </div2>
+                </div1>
+        </body>
+    </text>
+</TEI>
