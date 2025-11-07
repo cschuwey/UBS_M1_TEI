@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophrase; traduits du Grec,avec les Caractères ou les moeurs de ce siècle. </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Pauline Guillonneau</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les caractères de Théophrase; traduits du Grec,avec les Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère</author>
+                    <date when="1688">M.LC.LXXXVIII</date>
+                    <edition n="3">3ère édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno type="COTE">BnF R-18787</idno>
+                </bibl>
+                <bibl xml:id="ed5">
+                    <title>Les caractères de Théophrase; traduits du Grec,avec les Caractères ou les moeurs de ce siècle.</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                    <date when="1690" xml:id="r1688">M.LC.LXXXVIII</date>
+                    <edition n="5">5ème édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno type="COTE">BnF R-18790</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Ce fichier a été encodé dans le cadre du cours XML/TEI à l'université Bretagne sud, en suivant les recommandations TEI P5.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Les div sont répartis en trois niveaux, avec les div de niveau 1 pour les titres tel que 
+                    le "Discours sur Théophraste", "Les Caractères de
+                    Théophraste" et "Les Caractères de la Bruyère".  Les "Div2" se trouvent les
+                    éléments principaux contenus dans chaque grandes parties, soit : l'introduction,
+                    les sommaires et les chapitres. Les div3 correspondes aux remarques.</p>
+                <correction>
+                    <p>Transcription du texte en orthographe moderne en enlevant complètement des ancienes lettres françaises</p>
+                </correction>
+            </editorialDecl>
+            <editorialDecl>
+                <p>Les abréviations du manuscrit ont été développées, les variantes orthographiques conservées, et les notes de bas de page modernisées.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date when="2025-11-07"> 07 Novembre 2025</date>
+                    <p> Ajout des différentes parties et des différences entre les deux versions </p>
+                    <date when="2025-10-17">17 Octobre 2025</date>
+                    <p> Ajout des remarques </p>
+                    <date when="2025-10-06">06 Octobre 2025</date>
+                    <p> Première écriture avec le TEIheader</p>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="front">
+                <!--  Discours sur Théophraste  -->
+                <div1 type="head"> Les caractères de théophraste </div1>
+                <div2 type="preface"/>
+                 <div2 type="contents"/>
+                <div2 type="sommaire"><p> Contenue du sommaire</p></div2>
+                <div2 type="chapter" n="1">
+                    <head>Des Ouvrages de l'esprit</head>
+                </div2>
+                <div2 type="chapter" n="2">
+                    <head>Du merite personnel</head>
+                </div2>
+                <div2 type="chapter" n="3">
+                    <head>Des femmes</head>
+                </div2>
+                <div2 type="chapter" n="4">
+                    <head>Du coeur</head>
+                </div2>
+                <div2 type="chapter" n="5">
+                    <head>De la Société &amp; de la Conversation</head>
+                </div2>
+                <div2 type="chapter" n="6">
+                    <head>Des biens de fortune</head>
+                </div2>
+                <div2 type="chapter" n="7">
+                    <head>De la ville.</head>
+                </div2>
+                <div2 type="chapter" n="8">
+                    <head>De la cour</head>
+                </div2>
+                <div2 type="chapter" n="9">
+                    <head>Des grands</head>
+                </div2>
+                <div3 type="remark" corresp="r1688">
+                    <!--  Cette partie contient le contenu de remarques contenue dans le chapitre ci-dessus  -->
+                    <p>L'avantage des grands fut les autres hommes est immense par un endroit : je leur cède leur bonne chere, leurs riches ameublements, leurs chiens, leurs chevaux, leurs singes, leurs nains, leurs fous et leurs flateurs ; mais je leur envie le bonheur d'avoir à leur service des gens qui les égalent par le coeur et par l'esprit, et qui les passent quelque fois.</p>
+                </div3>
+                <div2 type="chapter" n="10">
+                    <head>Du Souverain.</head>
+                </div2>
+                
+                <div2 type="chapter" n="11">
+                    <head>De l'homme</head>
+                    
+                    <div2 type="chapter" n="12">
+                        <head>Des jugemens</head>
+                    </div2>
+                    
+                    <div3 type="remark" corresp="r1688">
+                        <p>
+                            Il n'y a rien de plus bas
+                            <app>
+                                <rdg source="#ed5"> , </rdg>
+                            </app>
+                            et qui convienne mieux au peuple, que de parler en des termes magnifiques de
+                            <app>
+                                <rdg source="#ed5"> ceux mêmes</rdg>
+                                <rdg source="#ed3">ceux-même</rdg>
+                            </app>
+                            dont l'on perçoit très modestement avant leur élevation. L'on ne pense pas toujours constamment d'un même sujet : l'entêtement et le dégoût se suivent de près. Les grandes choses étonnent
+                            <app>
+                                <rdg source="#ed5"> , </rdg>
+                            </app>
+                            et les petites rebutent ; nous nous apprivoisons avec les
+                            <app>
+                                <rdg source="#ed5"> unes</rdg>
+                                <rdg source="#ed5">uns</rdg>
+                            </app>
+                            et les autres par habitude.
+                        </p>
+                        <p/>
+                    </div3>
+                    <div2 type="chapter" n="13">
+                        <head>De la mode</head>
+                    </div2>
+                    <div2 type="chapter" n="14">
+                        <head>De quelques usages</head>
+                    </div2>
+                    <div2 type="chapter" n="15">
+                        <head>De la chaire</head>
+                    </div2>
+                    <div2 type="chapter" n="16">
+                        <head>Des esprits forts</head>
+                    </div2>
+                    
+                    
+                    
+            </div1>
+        </body>
+    </text>
+    <standoff>
+        <seg corresp="" ana=""/>
+    </standoff>
+ <!--  Désolé pour l'attente, je serais exemplaire à l'avenir :)  -->
