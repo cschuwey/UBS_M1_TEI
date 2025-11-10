@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères</title>
+                <author ref="ark:/12148/cb11910249z" resp="translator author">La Bruyère</author>
+                <author>Théophraste</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Axelle Charlet</authority>
+                <distributor>UBS-Github</distributor>
+                <availability>
+                    <licence/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Theophraste traduit du grec, avec les Caractères ou les
+                        Moeurs de ce Siècle</title>
+                    <author ref="ark:/12148/cb11910249z">Jean de La Bruyère</author>
+                    <edition>1e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">1688</date>
+                    <idno>RES-R-2056</idno>
+                </bibl>
+                <bibl xml:id="ed7">
+                    <title>Les Caractères de Theophraste traduit du grec, avec les Caractères ou les
+                        Moeurs de ce Siècle. </title>
+                    <author ref="ark:/12148/cb11910249z">Jean de La Bruyère</author>
+                    <edition>7e édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1692">1692</date>
+                    <idno>R-18791</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encodage de la troisième édition des caractères de La Bruyère</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Le discours sur Théophrastre, Les caractères de Théophrastre et les caractères de
+                    La bruyère sont au même niveau : div1. Les deux sommaires (Caractères de
+                    Théophrastre et La Bruyère), les chapitres et les introducitons des chapitres
+                    sont aussi au même niveau : div2. Les remarques quant à elles sont en div3 car
+                    elles sont en-dessous des chapitres en terme de hiérarchie. </p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <div n="1" type="préface">
+                <head> Discours sur Théophraste</head>
+            </div>
+            <!-- contient tout le discours sur Théophraste -->
+            <div n="1">
+                <head type="title">Les caractères de Théophraste</head>
+                <head type="subtitle">Traduits du grec</head>
+                <!-- carateres de theophrastre, sous titre séparer du titre -->
+                <div n="2" type="introduction">
+                    <p>introduction des caractères de Théophraste</p>
+                </div>
+                <div n="2" type="summary">
+                    <p>Sommaire des chapitres des caractères</p>
+                </div>
+                <div n="2" type="chapter">
+                    <p>Chapitres des caractères</p>
+                </div>
+            </div>
+            <div n="1" corresp="ark:/12148/cb11942641d">
+                <head>Les caratères ou les moeurs de ce siècle</head>
+                <div n="2" type="introduction">
+                    <p>introduction de La Bruyère</p>
+                </div>
+                <div n="2" type="summary">
+                    <p>Sommaire des chapitres</p>
+                </div>
+                <div n="2" type="chapter">
+                    <head>Du Coeur.</head>
+                    <div n="3" type="remark">
+                        <p source="#ed3">L'amitié peut subsister entre des gens de différents sexes,
+                            exempte <app>
+                                <rdg source="#ed3">mesme</rdg>
+                                <rdg source="#ed7">même</rdg>
+                            </app> de toute grossièreté; une femme cepandant regarde toujours un
+                            homme comme un homme, &amp; reciproquement un homme regarde une femme
+                            comme une femme : cette liaison n'est <app>
+                                <rdg source="#ed3">ni</rdg>
+                                <rdg source="#ed7">ny</rdg>
+                            </app> ni passion, ni amitié pure; elle fait une classe à part</p>
+                        <p>L'amour nait brusquement<app>
+                                <rdg source="#ed3">,</rdg>
+                                <rdg source="#ed7"/>
+                            </app> sans autre réfléxion, par tempérament ou par faiblesse; un trait
+                            de beauté nous fixe, nous détermine. L'amitié au contraire se forme peu
+                            à peu, avec le temps, par la pratique, par un long commerce:<app>
+                                <rdg source="#ed3">:</rdg>
+                                <rdg source="#ed7">.</rdg>
+                            </app> combien d'esprit, de bonté de coeur, d'attachement, de services
+                            &amp; de complaisance dans les amis, pour faire en plusieurs années bien
+                            moins que ne fait quelquefois en un moment un beau visage ou une belle
+                            main.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
