@@ -63,49 +63,68 @@
                 <date when="2025-10-22">22 Octobre 2025</date>
                 <name>Corlay Amélie</name> Structure de l'ouvrage dans différents niveaux de
                 l'élément Div </change>
+            <change>
+                <date when="2025-11-03">03 novembre 2025</date>
+                <name>Colray Amélie</name> Ajout d'une troisième remarque et ajout des variantes de
+                l'eidition de 1690 </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div1 type="préface">
+            <div1 type="preface">
                 <!-- Div qui concerne Le discours sur Théophraste -->
                 <head>Discours sur Théophraste</head>
             </div1>
-            <div1 n="1" xml:id="LesCaractèresdeThéophraste">
+            <div1 n="1" xml:id="LesCaracteresdeTheophraste">
                 <!-- Div de niveau 1 qui concerne toute la partie des caractères de Théophraste  -->
                 <head>Les Caractères de Théophraste - Traduit du grec</head>
-                <div2 type="Introduction" corresp="#LesCaractèresdeThéophraste">
+                <div2 type="Introduction" corresp="#LesCaracteresdeTheophraste">
                     <!-- Texte introductif des Caractères de Théophraste -->
                 </div2>
-                <div2 type="sommaire" corresp="#LesCaractèresdeThéophraste">
+                <div2 type="sommaire" corresp="#LesCaracteresdeTheophraste">
                     <!-- Sommaire des Caractères de Théophraste. J'ai aussi tenté d'encoder une partie en utilisant l'élément lb mais j'ai pas réussi  ¯\_(ツ)_/¯ -->
                 </div2>
 
-                <div2 type="chapitres" corresp="#LesCaractèresdeThéophraste">
+                <div2 type="chapitres" corresp="#LesCaracteresdeTheophraste">
                     <head>De la Dissimulation</head>
                     <!-- Chapitres des Caractères de Théophraste -->
 
                 </div2>
             </div1>
-            <div1 n="2" xml:id="LesCaractèredeLaBruyère">
+            <div1 n="2" xml:id="LesCaracteredeLaBruyere">
                 <!-- Div de niveau 1 qui concerne la deuxieme grande partie de l'ouvrage et qui reprend la même séparation -->
                 <head>Les Caractères ou les moeurs de ce siècle</head>
-                <div2 type="introduction" corresp="#LesCaractèredeLaBruyère"/>
+                <div2 type="introduction" corresp="#LesCaracteredeLaBruyere"/>
                 <!-- Introduction des Caractères de La Bruyère -->
-                <div2 type="sommaire" corresp="#LesCaractèredeLaBruyère"/>
-                <div2 type="chapter" corresp="#LesCaractèredeLaBruyère">
-                    <div3 type="introduction" corresp="#LesCaractèredeLaBruyère #chapitreX">
+                <div2 type="sommaire" corresp="#LesCaracteredeLaBruyere"/>
+                <div2 type="chapter" corresp="#LesCaracteredeLaBruyere">
+                    <div3 type="introduction" corresp="#LesCaracteredeLaBruyere #chapitreX">
                         <!-- Dans cette div3 on pourrait faire référence au  chapitre dans lequel se trouve l'introduction et les remarques qui seraient identifiés dans le sommaire avec xml:id-->
                     </div3>
                     <div3 type="remarque" corresp="chapterX #ed3_ex1">
                         <p> ¶C'est le rôle d'un sot d'être importun : un homme habile sent qu'il
                             convient, ou s'il ennuie, il sait disparaître le moment qui précède
                             celui où Il ferait de trop quelque part</p>
-                        <p> ¶ L'on marche sur les mauvais plaisants, et il pleut partout dans tous
-                            les pays cette forte d'insectes : un bon plaisant est une pièce rare ; à
-                            un homme qui est né tel, il est encore fort délicat d'en soutenir
-                            longtemps le personnage ; Il n'est pas ordinaire que celui qui fait rire
-                            se fasse estimer.</p>
+                        <p> ¶ L'on marche sur les mauvais plaisants, &amp; il pleut partout dans
+                            tous les <app>
+                                <rdg source="#ed3_ex1">pays</rdg>
+                                <rdg source="#ed5_ex1">païs</rdg>
+                            </app>cette forte d'insectes : un bon plaisant est une pièce rare ; à un
+                            homme qui est né tel <app>
+                                <rdg source="#ed3_ex1"/>
+                                <rdg source="#ed5_ex1">,</rdg>
+                            </app> il est encore fort délicat d'en soutenir longtemps le personnage
+                            ; Il n'est pas ordinaire que celui qui fait rire se fasse estimer.</p>
+                        <p> Il y a beaucoup d'esprits obscenes, encore plus de médisans ou de
+                            satiriques, peu de délicats <app>
+                                <rdg source="#ed3_ex1"/>
+                                <rdg source="#ed5_ex1"> : </rdg>
+                            </app>pour badiner avec grace, &amp; renconter heuresement sur les plus
+                            petits sujets, il faut trop de manières, top de politesse <app>
+                                <rdg source="#ed3_ex1"/>
+                                <rdg source="#ed5_ex1">, </rdg>
+                            </app> &amp; meme trop de fecondité ; c'est créer que de railler ainsi,
+                            &amp; faire quelque chose de rien</p>
                     </div3>
 
                 </div2>
@@ -116,4 +135,3 @@
         </body>
     </text>
 </TEI>
-
