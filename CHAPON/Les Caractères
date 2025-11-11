@@ -51,8 +51,16 @@
                     J'ai choisi de considérer le Discour de Théophraste, les Caractères de Théophaste et les Caractères ou les moeurs de
                     ce siécle comme de niveau égaux, ils sont donc dans des <gi>div</gi> avec l'attribut <att>n</att> 1.
                     Dans les <gi>pb</gi> l'attribut<att>n</att> correspond aux numéros de page du PDF télécharger depuis Gallica et non aux 
-                    numéros de pages de l'exemplaire original pour povoir travailler plus rapidement à travers le PDF</p>
+                    numéros de pages de l'exemplaire original pour povoir travailler plus rapidement à travers le PDF
+                    Lorsque dans un mot le ſ est remplacé par un accent circonflex sur la lettre qui le précedait, la variante est notée uniquement sur cette lettre ci, 
+                    afin d'être en capacité de determiner quand le ſ est remplacé par un ^ et de sortir les données de ce phénomène. </p>
             </refsDecl>
+            <charDecl>
+                <char xml:id="pm1">
+                    <unicodeProp >U+00B6</unicodeProp>
+                    <desc>Le pied de mouche est utilisé pour signaler le début d'une remarque dans les Caractère de Théophraste et dans les Caractères de La Bruyère.<desc>
+                </char> <!--vraiment pas sure de celle la, à revoir avec oxygene si il le valide ou pas-->
+            </charDecl>
         </encodingDesc>
         <profileDesc>
             <creation><date when="2025-10-06"/></creation>
@@ -61,6 +69,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2025-11-03" who="#AxelanneChapon">encodage de la cinquième édition des caractères en notant les variantes par rapport à la troisième, test de l'encodage d'un glyphe.</change>
             <change when="2025-10-28" who="#AxelanneChapon"> changement de la signalisation des niveux des balises <gi>div</gi>, à l'origine l''attribut <att>n</att> 
             signalait le niveau de la div mais cela créait de la confusion dans le travail, l'attricut <att>n</att> signale donc le numéro de la remarque ou du chapitre </change>
             <change when="2025-10-20" who="#AxelanneChapon"> encodage de l'architecture du document avec des divisions</change>
@@ -68,34 +77,32 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>
+        <front>
             <pb n="9"/>
-            <div type="part" n="1"><head rend="caps">Discours sur Theophraste</head>
-                <div type="remark">
+            <div type="part"><head rend="caps">Discours sur Theophraste</head>
                     <p source="#ed3" >La Cour ou ne connoiſt pas la ville, ou par le mépris qu'elle a pour elle neglige d'en relever le ridicule,
                         &amp; n'eſt point frapée des images qu'il peut fournir ; &amp;fi au contraire l'on peint la Cour, comme 
                         c'eſt toûjours avec les ménagements qui luy ſont dûs, la ville ne tire pas de cette ébauche de quoy remplir ſa curioſiré, 
                         &amp; ſe faire une juſte idée d'un pays où il faut meſme avoir vêcu pour le cõnoiſtre.</p>
-                </div>
-                <div>
                     <p source="#ed3">D'autre part il eſt naturel aux hommes de ne point convenir de la beauté ou de la morale qui les peint, qui les déſigne, 
                         &amp; où ils ſe reconnoiſſent eux-meſme; ils ſe tirent d'embarras en le condammant ;
                         &amp;tels n'approuvent laſatyre, que lorſque commençant à lâcher priſe, &amp;s'éloigner de leurs perſonnes, elle va modre quelque autre.</p>
-                </div>
             </div>
-            <!-- Début du texte des caractères de theophaste-->
-            <div type="part" n="2" ><pb n="67"/>
+        </front>
+        <body>
+            <!-- Début du texte des caractères de theophraste-->
+            <div type="part" n="1" ><pb n="67"/>
                 <head type="main" rend="caps">Les caracteres de Theophraste</head>
                 <head type="sub" rend="caps">Traduits du grec</head>
-                <div type="introduction"><p> introduction de la partie des caractères de theophaste </p> </div>
+                <div type="introduction"><p> introduction de la partie des caractères de theophraste </p> </div>
                 <div type="Sommaire"><pb n="70"/>
                     <list>
-                        <item corresp="#Caracteres_theophaste_chap1">nom du chapitre 1</item>
+                        <item corresp="#Caracteres_theophraste_chap1">nom du chapitre 1</item>
                         <!--reste de la table des matières-->
                     </list>
                 </div>
                 <div type="body">
-                    <div type="chapter" n="1" xml:id="Caracteres_theophaste_chap1"><pb n="72"/>
+                    <div type="chapter" n="1" xml:id="Caracteres_theophraste_chap1"><pb n="72"/>
                         <head>titre du chapitre 1</head>
                         <div type="remark" n="1"> 
                             <p>contenu de la remarque</p>
@@ -106,7 +113,7 @@
                 </div>
             </div>
             <!-- Début du texte des caractères ou les moeurs de ce siecle-->
-            <div type="part" n="3"><pb n="165"/> <!-- page 101 sur gallica-->
+            <div type="part" n="2"><pb n="165"/> <!-- page 101 sur gallica-->
                 <head type="main" rend="caps">Les caracteres ou les moeurs de ce siècle</head>
                 <div type="introduction"><pb n="167"/><p> introduction de la partie des caractères de la bruyere </p> </div>
                 <div type="sommaire"><pb n="170"/>
@@ -116,16 +123,29 @@
                     </list>
                 </div>
                 <div type="body">
-                    <div type="chapter" n="1" xml:id="Caracteres_laBruyere_chap1"><pb n="172"/><!--page 106 sur Gallica-->
+                    <div type="chapter" n="1" xml:id="Caracteres_laBruyere_chap1"><pb n="172"/><!--page 106 de l'édition 3-->
                         <head rend="caps">Des Ouvrages de l'Esprit</head>
-                        <div type="remark" n="15"><!-- page 110 sur gallica-->
-                            <p source="#ed3">Un bon Auteur, &amp; qui écrit avec ſoin, éprouve ſouvent que l'expreſſion qu'il cherchoit 
-                                depuis long-temps ſans la connaoître, &amp;qu'il a enfin trouvée, eſt celle qui eſtoit la 
-                                plus ſimple, le plus naturelle, qui ſembloit devoir ſe preſenter d'abord &amp;ſans effort.</p>
+                        <div type="remark" n="14">
+                            <p source="#ed3" xml:id="rem14p2">Entre toutes les differentes expreſſions qui peuvent rendre une ſeule de nos penſées, 
+                                il n'y a qu'une qui ſoit la bonne ; on ne la rencontre pas toûjours en parlant, ou en écrivant : il eſt vrai neanmoins 
+                                qu'elle exiſte, que tout ce qui ne l'eſt point eſt foible, &amp; ne satisfait point un homme d'eſprit qui veut ſe faire entendre.</p>
                         </div>
-                        <div type="remark" n="18"><!-- page 111 sur gallica-->
-                            <p source="#ed3">La meſme juſteſſe d'eſprit qui nous fait écrire de bonnes choſes, nous fait apprenhender 
-                                qu'elles ne le ſoient pas aſſez pour meriter d'eſtre leuës.</p><!-- page 111 sur gallica-->
+                        <div type="remark" n="15"><!-- page 110 de l'edition 3-->
+                            <app>
+                                <rdg source="#ed3"><g ref="#pm1"></rdg source="#ed3">
+                                <rdg source="#ed5"><g ref="#pm1"><p corresp="#rem14p2"/></rdg>
+                            </app>
+                            <p source="#ed3 #ed5">Un bon Auteur, &amp; qui écrit avec ſoin, éprouve ſouvent que l'expreſſion qu'il cherchoit 
+                                depuis long-temps ſans la connao<app><rdg source="#ed3">î</rdg><rdg source="#ed5">iſ</rdg></app>tre, &amp; qu'il a enfin trouvée, eſt celle qui eſtoit la 
+                                plus ſimple, le plus naturelle, qui ſembloit devoir ſe preſenter d'abord &amp;ſans effort.</p>
+                            <p source="#ed5">Ceux qui écrivent par humeur, ſont ſujets à retoucher à leurs ouvrages ; 
+                                comme elle n'est pas toûjours fixe, &amp; qu'elle varie en eux ſelon les occaſions, ils ſe refroidiſſent bien-toſt 
+                                pour les expreſſions &amp; les termes qu'ils ont le plus aimez.</p>
+                        </div>
+                        <div type="remark" n="18"><!-- page 111 de l'édition 3-->
+                            <p source="#ed3 #ed5">La m<app><rdg source="#ed3">eſ</rdg><rdg source="#ed5">ê</rdg></app>me juſteſſe d'eſprit qui nous fait écrire de bonnes choſes, nous fait apprenhender 
+                                qu'elles ne le ſoient pas aſſez pour meriter d'eſtre leuës.</p>
+                            <p source="#ed5">Un eſprit mediore croit écrire divinement ; un bon eſprit mediocrecroitécrire raiſonnablement.</p>
                         </div>
                         <!--toutes les remarques du chapitre-->
                     </div>
