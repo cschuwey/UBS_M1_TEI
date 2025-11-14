@@ -123,8 +123,11 @@
                         <p>Qui peut avec les plus rares talents &amp; (...) pour le remplacer</p>
                     </div3>
                     <div3 type="remark" source="#ed3_ex1 #ed7" n="2">
-                        <pb source="ed7" n="103"/>
-                        <pb source="ed3_ex1" n="175"/>
+                        <pb source="ed7" n="105"/>
+                        <pb source="ed3_ex1" n="122"/>
+                        <!-- Ici les liens des deux éditions; 
+                        https://gallica.bnf.fr/ark:/12148/bpt6k87040224/f181.item#   Édition 3>
+                        https://gallica.bnf.fr/ark:/12148/bpt6k8704024z/f104.item.zoom Édition 7-->
                         <app>
                             <!-- Rémi, t'as deux possibilités, soit tu mets l'attribut source dans le paragraphe, et tu
                             n'as pas besoin de conserver <app> et <rdg> soit tu continues de la même manière.
@@ -149,16 +152,23 @@
                             Combien vivent encore dont on ne parle point,&amp;dont on ne parlera
                             jamais?</p>
                     </div3>
-                    <div3 type="remark" source="#ed3_ex1" n="3">
-                        <p>Quelle horrible peine à un homme qui est sans (prosneurs) &amp;sans
-                            cabale, qui n'est engagé dans aucun corps, mais qui est seul,&amp; qui
-                            n'a que beaucoup de mérite pour toute recommendation, dese faire jour à
-                            travers l'obscurité où il se trouve,&amp;de venir au niveau d'un fat qui
-                            est en credir</p>
+                    <div3 type="remark" source="#ed3_ex1" xml:id="r_4">
+                        <p>Personne presque ne s'avise de lui-même du mérite d'un autre?</p>
+                    </div3>
+                    <div3 type="remark" source="#ed3_ex1 #ed7" xml:id="r_5">
+                    <app> 
+                        <rdg source="ed7" corresp="#r_4">
+                        <p>Les hommes sont trop occupé d'eux-même pour avoir le loisir
+                        de pénétrer où de discerner les autres de la vient qu'avec un grand mérite
+                        &amp; et une plus grande modestie l'on peut être longtemps ignoré.</p>
+                        </rdg>
+                    </app>
                     </div3>
                 </div2>
             </div1>
         </body>
-        <!-- Je ne comprends pas pourquoi il me déclare une erreur sur <body> -->
+        <!-- Je ne sais pas si cette manière de fonctionner fonctionne. Avec <rdg corresp="#r_4"
+        Devrais-je mettre dans source du div3, les deux éditions? Où je conserve l'édition trois dans le div et 
+        en dessous, dans le rdg je mets le source="ed7"?> -->
     </text>
 </TEI>
