@@ -50,7 +50,7 @@
             </list>
         </revisionDesc>
     </teiHeader>  
-<SMS>
+<text>
     <body>
         
         <div1 type="title" source="ed3">
@@ -72,12 +72,18 @@
             <div2 type="title" n="2" source="ed3">
                 <!-- Les Cactères ou les Moeurs de ce siècle -->
                 <div3 type="chapitre" n="2"></div3>
-                <div3 type="chapitre" n="16">
-                    <!-- Des Espirts forts --></div3>
+                <div3 type="chapitre">
+                    <!-- Des Ouvrages de l'esprit -->
+                <div4 type="remarque">
+                    <p>Il faut chercher seulement à penser & à parler juste, sans vouloir amener les autres à notre <app type="accent"><Le source="#P-e3">goust</Le><Le source="#P-e5">goût</Le></app> à nos sentimens ; c'est une tro grande entreprise.</p>>
+                    <p>Si l'on <app type="accent"><Le source="#P-e3">oste</Le><Le source="#P-e5">ôte</Le></app> de beaucoup d'ouvrages de morale l'Avertissement au Lecteur,l'Epistre dicatoire, la Preface, la Table, les Approbation, il reste à peine assez de pages pour meriter le nom de livre.<p>
+                    <p>La vie des Heros a enrichi l'histoire, & <app type="majuscule"><Le source="#P-e3">l'histoire</Le><Le source="#P-e5">l'Histoire</Le></app> a embelli les actions des Heros : ainsi je sais qui sont plus redevables, ou ceux qui ont écrit <app type="majuscule"><Le source="#P-e3">l'histoire</Le><Le source="#P-e5">l'Histoire</Le></app> à ceux qui leur en ont fourni une si noble matiere, ou ces grands Hommes à leurs Historiens.</p>
+                    </div4>
+                </div3>
                 <div3 type="épilogue">
                     <!-- Extrait du Privilege du Roy --></div3>
                </div2>
             </div1>
        </body>
-   </SMS> 
+   </text> 
 </TEI>
