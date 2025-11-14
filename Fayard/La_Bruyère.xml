@@ -57,43 +57,58 @@
     </teiHeader>
     <text>
         <front>
-            <div>
+            <div1>
                 <!--Discours sur Theophraste-->
-            </div>
-        </front>
+            </div1>
             <div1>
                 <!--Les Caractères de Theophraste-->
                 <div2 type="introduction"></div2>
                 <div2 type="summary"></div2>
                 <div2 type="chapter"></div2>
             </div1>
+        </front>
         <body> 
             <div1>
                 <!--Les Caractères ou les moeurs de ce siècle.-->
                 <div2 type="chapter">
                     <head>DU COEUR.</head>
                     <div3 type="remark">
-                        <p source="#ed2_ex1">Vouloir oublier quelqu'un, c'est y penser. L'amour a
+                        <p>
+                            <app>
+                                <rdg wit="#ed2_ex1 #ed5_ex1"/> Vouloir oublier quelqu'un, c'est y penser. L'amour a
                             cela de commun avec les scrupules, qu'il s'aigrit par les réflexions et
-                            les retours que l'on fait pour s'en délivrer. Il faut s'il se peut ne
-                            point songer à sa passion pour l'affaiblir.</p>
+                            les retours que l'on fait pour s'en délivrer. Il faut, s'il se peut, ne
+                            point songer à sa passion pour l'affaiblir.
+                            </app>
+                        </p>
                     </div3>
                 </div2>
                 <div2 type="chapter">
                     <head>DE LA SOCIÉTÉ ET DE LA CONVERSATION.</head>
                     <div3 type="remark">
-                        <p source="#ed2_ex1">C'est une grande misère que de n'avoir pas assez
-                            d'esprit pour bien parler, ni assez de jugement pour se taire : voilà le
-                            principe de toute impertinence.</p>
+                        <p>C'est une grande misère que de n'avoir pas assez
+                            d'esprit pour bien parler, 
+                            <app>
+                                <rdg corresp="#ed2_ex1">ny</rdg>
+                                <rdg corresp="#ed5_ex1">ni<rdg>
+                            </app>
+                            assez de jugement pour se taire
+                            <app>
+                                <rdg corresp="#ed2_ex1"> : voilà</rdg>
+                                <rdg corresp="#ed5_ex1">. Voilà</rdg>
+                            </app> 
+                            le principe de toute impertinence.</p>
                     </div3>
                 </div2>
             </div1>
-            <div>
+        </body>
+        <back>
+            <div1>
                 <!--Fautes d'impression-->
-            </div>
-            <div>
+            </div1>
+            <div1>
                 <!--Extrait du privilège du roi-->
-            </div>
-        </body>   
+            </div1>
+        </back>
     </text>
 </TEI>
