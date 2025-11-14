@@ -53,10 +53,15 @@
                     <p><!-- Je crois ne pas avoir bien compris la différence entre le <samplingDesc> et le <editorialeDesc> --></p>
                 </samplingDesc>
                 <editorialeDecl>
+                  <segmentation> 
                     <p>Les pratiques d'édition que j'ai utilisé sont la division du texte en trois
                         grandes parties de texte. La première est "Discours sur Théophraste." La
                         deuxième est Les Caractères de Théophraste." La troisième est "Les
                         caractères où les moeurs de ce siècle."</p>
+                    <p>La première <gi>div1</gi> représente lestrois grandes parties de l'ouvrage.
+                        Celles déclarées dans le paragraphe plus haut. Ensuite, la deuxième division <gi>div2</gi>
+                        représente les différents chapitres à l'intérieur dans ces trois parties. 
+                        Pour finir <gi>div3</gi> représente les remarques à l'intérieur des chapitres.</p>
                 </editorialeDecl>
             </encodingDesc>
             <!-- Je ne sais pas si <encodingDesc> et <revisionDesc> appartiennent à <filesDesc> où pas? -->
