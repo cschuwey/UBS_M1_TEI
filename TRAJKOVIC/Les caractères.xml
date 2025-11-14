@@ -9,7 +9,6 @@
             <publicationStmt>
                 <publisher>E. Michallet</publisher>
                 <pubPlace>Paris</pubPlace>
-                <date when="1688">1688</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl xml:id="ed3">
@@ -41,9 +40,7 @@
                 <p>Le document est composé de deux extraits des Caractères, la troisième édition datant de 1688 et la cinquième datant de 1690.</p>
             </projectDesc>
             <samplingDecl>
-                <p>Chaque extrait contient une remarque d'un chapitre différent de chaque version.</p>
-                <p>J'ai choisi de diviser chaque édition en deux livres, l'un représentant "Les Caractères de Théophraste" et l'autre "Les Caractères ou les Moeurs de ce siècle", ainsi chacun se trouve au niveau 1. Ces deux livres sont donc au même niveau. Dans le premier livre, j'ai donc placé "Discours sur Théophraste" et "Les Caractères de Théophraste au niveau 2, en me fiant à la mise en page. Ensuite, j'ai placé la préface, la table des matières et les chapitres au niveau 3. Enfin, s'il y avait eu retranscription du texte interne aux chapitres, il se serait retrouvé au niveau 4, tandis que celui interne au Discours aurauit été au niveau 3.</p>
-                <p>Dans le second livre, la transcription est différente, la préface, la table des matières et les chapitres se trouvent au niveau 2, les textes et remarques internes aux chapitres, préface et table des matières au niveau 3.</p>
+                <p>Chaque extrait contient la même remarque de chaque version, avec les modifications apportées sur chacune des versions.</p>
             </samplingDecl>
             <editorialDecl>
                 <normalization>
@@ -54,13 +51,14 @@
         <revisionDesc>
             <listChange>
                 <change when="2025-10-06">Première version réalisée le 6 octobre 2025 par A. Trajkovic.</change>
-                <change when="2025-10-22">Seconde version réalisée le 22 octobre 2025 par A. Trajkovic.</change>
+                <change when="2025-10-22">Deuxième version réalisée le 22 octobre 2025 par A. Trajkovic.</change>
+                <change when="2025-11-14">Troisième version réalisée le 14 novembre 2025 par A. Trajkovic.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div1 type="book" n="1" source="#ed3">
+            <div1 type="book" n="1">
                 <!--Les Caractères de Théophraste-->
                 <div2 type="part" n="1">
                     <!--Discours sur Théophraste--></div2>
@@ -68,57 +66,46 @@
                     <!--Les Caractères de Théophraste-->
                     <div3 type="preface"></div3>
                     <div3 type="content"></div3>
-                    <div3 type="chapter" n="1">
-                        <!--De la Dissimulation-->
-                    </div3>
-                    <div3 type="chapter" n="28">
-                        <!--De la Médisance-->
+                    <div3 type="chapter" n="21">
+                    <head>De la Sotte Vanité</head>
+                            <p> espérez donc toutes choses heureuses de cette Déesse : Après avoir parlé ainsi<app>
+                               <rdg corresp="#ed3"> </rdg>
+                               <rdg corresp="#ed5"/>
+                            </app>, il se retire dans sa maison <app> 
+                               <rdg corresp="#ed3"/>
+                               <rdg corresp="#ed5">, </rdg>
+                            </app>où il fait un long récit à sa femme de la manière dont<app>
+                               <rdg corresp="#ed3"> toutes choses se sont passées , &amp comme elles lui ont </rdg> 
+                               <rdg corresp="#ed5"> tout lui a </rdg>
+                            </app>réussi au-delà <app>
+                               <rdg corresp="#ed3"/>
+                               <rdg corresp="#ed5"> même </rdg>
+                            </app>de ses souhaits.<p>
                     </div3>
                 </div2>
             </div1>
-            <div1 type="book" n="2" source="#ed3">
+            <div1 type="book" n="2">
                 <!--Les Caractères ou les Mœurs de ce siècle-->
                 <div2 type="preface"></div2>
                 <div2 type="contents"></div2>
-                <div2 type="chapter" n="1">
+                <div2 type="chapter" n="2">
                     <head>Des Ouvrages de l'esprit</head>
                         <div3 type="remark">
-                            <p>Le peuple appelle Eloquence la facilité que quelques-uns ont de parler seuls &amp; longtemps, jointe à l'emportement du geste, à l'éclat de la voix, &amp; à la force des poumons. Les Pedans ne l'admettent aussi que dans le discours oratoire, &amp; ne la distinguent pas de l'entassement des figures, de l'usage des grands mots, &amp; de la rondeur des periodes.</p>
-                            <p>Il semble que la Logisque est l'art de convaincre de quelque verité, &amp; l'Eloquence un don de l'ame, lequel nous rend maitres du coeur et de l'esprit des autres, qui fait que nous leur inspirons ou que nous leur persuadons tout ce qui nous plait.</p>
-                            <p>L'Eloquence peut se trouver dans les entretiens &amp; dans tout genre d'écrire; elle est rarement où on la cherche, &amp; elle est quelquefois où on ne la cherche point.</p>
+                            <p>Qui peut avec les plus rares talens &amp le plus excellent merite n’être pas convaincu de son inutilité<app>
+                               <rdg corresp="#ed3">,</rdg>
+                               <rdg corresp="#ed5"> ; </rdg>
+                            </app>quand il considere qu’il laisse<app>
+                               <rdg corresp="#ed3"> </rdg>
+                               <rdg corresp="#ed5"/>
+                            </app>, en mourant , un monde qui ne se sent pas de sa perte<app>
+                               <rdg corresp="#ed3"> </rdg>
+                               <rdg corresp="#ed5"/>
+                            </app>, &amp où tant de gens se trouvent pour le remplacer<app>
+                               <rdg corresp="#ed3"> ?</rdg>
+                               <rdg corresp="#ed5">.</rdg>
+                            </app>
                         </div3>
                 </div2>
-                <div2 type="chapter" n="16">
-                    <!--Des Esprits forts-->
-                </div2>
-            </div1>
-            
-            <div1 type="book" n="1" source="#ed5">
-                <!--Discours sur Théophraste-->
-                <div2 type="part" n="1">
-                    <!--Les Caractères de Théophraste-->
-                    <div3 type="preface"></div3>
-                    <div3 type="chapter" n="1">
-                        <!--De la Dissimulation-->
-                    </div3>
-                    <div3 type="chapter" n="28">
-                        <!--De la Médisance-->
-                    </div3>
-                </div2>
-            </div1>
-            <div1 type="book" n="2" source="#ed5">
-                <!--Les Caractères ou les Mœurs de ce siècle-->
-                <div2 type="chapter" n="2">
-                    <head>Du Merite personnel</head>
-                        <div3 type="remark">
-                            <p>De bien des gens il n'y a que le nom qui vale quelque chose; quand vous les voyez de fort prés, c'est moins que rien; de loin ils s'imposent.</p>
-                        </div3>
-                </div2>
-                <div2 type="chapter" n="16">
-                    <!--Des Esprits forts-->
-                </div2>
-                <div2 type="contentbook1"></div2>
-                <div2 type="contentbook2"></div2>
             </div1>
         </body>
     </text>
