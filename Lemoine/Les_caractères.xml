@@ -1,70 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-<fileDesc>
-<titleStmt>
-    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
-    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
-<respStmt>
-    <name>Lemoine Baptiste</name>
-    <resp>conversion en encodage conforme à la TEI</resp>
-</respStmt>                
-    </titleStmt>
-    <publicationStmt>
-    <p></p>
-    </publicationStmt>
-<sourceDesc>
-<bibl xml:id="ed3">
-    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
-    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
-    <date when="1688">1688</date>
-    <edition n="3">3ème édition</edition>
-    <publisher>E. Michallet</publisher>
-    <pubPlace>Paris</pubPlace>
-    <idno>BnF R-18787</idno>    
-</bibl>
-<bibl xml:id="reprod">
-    <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec les caractères ou les moeurs de ce siècle</title>
-    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
-    <date when="1690">1688</date>
-    <edition n="reprod">Reprod</edition>
-    <publisher>Omnisys</publisher>
-    <pubPlace>Cambridge</pubPlace>            
-</bibl>
-    </sourceDesc>            
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
+                <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                <respStmt>
+                    <name>Lemoine Baptiste</name>
+                    <resp>conversion en encodage conforme à la TEI</resp>
+                </respStmt>                
+            </titleStmt>
+            <publicationStmt>
+                <p></p>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="wit-ed3">Édition 1688, 3ème édition, E. Michallet, Paris</witness>
+                    <witness xml:id="wit-reprod">Reproduction 1690, Omnisys, Cambridge</witness>
+                </listWit>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                    <date when="1688">1688</date>
+                    <edition n="3">3ème édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BnF R-18787</idno>    
+                </bibl>
+                <bibl xml:id="reprod">
+                    <title>Les caractères de Théophraste traduits du grec [Microforme] ; avec les caractères ou les moeurs de ce siècle</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
+                    <date when="1690">1688</date>
+                    <edition n="reprod">Reprod</edition>
+                    <publisher>Omnisys</publisher>
+                    <pubPlace>Cambridge</pubPlace>            
+                </bibl>
+            </sourceDesc>            
         </fileDesc> 
         <encodingDesc> 
             <projectDesc>
                 <p>Projet réalisé dans le cadre d'un cours de TEI. Le texte est structuré en chapitre puis en remarques.</p>
             </projectDesc>
             <editorialDecl>
-                <p>Le texte a été quasiment gardé intégralement dans sa forme originale, j'ai seulement transcris les f en s</p>
+                <p>Le texte a été transcrit fidèlement. Les anciens "f" ont été transcrits en "s" lorsqu’il s’agissait de "faux-s". Les accents et ponctuations sont conservés tels qu’ils apparaissent.</p>
                 <p>J'ai structuré le texte de façon hiérarchique, ce qui fait div1=Preface et livre, div2 les chapitres et div 3 les remarques.</p>
+                <p>Les variantes entre éditions sont codées avec les balises app et rdg, et chaque balise est reliée à un témoin par l'attribut wit qui pointe vers les éléments de listWit</p>
             </editorialDecl>         
         </encodingDesc>
         <revisionDesc>
             <change when="2025-10-11" who="Lemoine Baptiste">Ajout des deux remarquesn de l'encodingDesc, ProjectDesc, editorial desc et du revision desc.</change>
-            <change when="2025-10-27" who="Lemoine Baptiste">Ajout des div1,2,3</change>
+            <change when="2025-10-27" who="Lemoine Baptiste">Ajout des div1 pour la préface du livre,2 pour les chapitres,3 pour les remarques.</change>
+            <change when="2025-11-15" who="Lemoine Baptiste"> Ajout des balises app et rdg, ainsique modification de l'encodingDesc</change>
         </revisionDesc>
     </teiHeader>
     <text>
-      <body>
-          <div1 type="preface" xml:id="discours_theophraste">
-              <head>Les Caractères de Théophraste, traduits du grec.</head> 
-              <p></p>
-          </div1>
-          <div1 type="book" xml:id="caracteres">
-              <head>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</head>                                                                
-              <div2 type="chapter" xml:id="chapitre1">
-              <head>Des ouvrages de l'esprit</head>                             
-               <div3 type="remark" n="2" source="BnF R-18787">
-                   <p source="#ed3 #reprod">Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à no<app><rdg>stre</rdg></app> go<app><rdg>ust</rdg></app> et à nos sentiments ; c'est un trop grande entreprise</p>
-          </div3>
-              <div3 type="remark" n="3" source="BnF R-18787">
-                  <p source="#ed3 #reprod">C'est un métier que de faire un livre<app><rdg>,</rdg></app> comme de faire une pendule ; il faut plus que de l'esprit pour estre auteur. Un Magistrat alloit par son mérite à la première dignité, il <app><rdg>es</rdg></app>toit homme délié <app><rdg>,</rdg></app> et pratic dans les affaires <app><rdg>;</rdg></app> il a fait imrpimer un ouvrage moral <app><rdg>,</rdg></app> qui est rare par le ridicule.</p>              
-          </div3>
-          </div2>          
-          </div1>
-      </body>                                  
+        <body>
+            <div1 type="preface" xml:id="discours_theophraste">
+                <head>Les Caractères de Théophraste, traduits du grec.</head> 
+                <p></p>
+            </div1>
+            <div1 type="book" xml:id="caracteres">
+                <head>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</head>                                                                
+                <div2 type="chapter" xml:id="chapitre1">
+                    <head>Des ouvrages de l'esprit</head>                             
+                    <div3 type="remark" n="2" source="#ed3 #reprod">
+                        <p source="#ed3 #reprod">Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à <app><rdg wit="#wit-ed3">nostre</rdg> <rdg wit="#wit-reprod">nôtre</rdg></app><app><rdg wit="#wit-ed3">goust</rdg><rdg wit="#wit-reprod">goût</rdg></app> et à nos sentiments ; c'est une trop grande entreprise</p>
+                    </div3>
+                    <div3 type="remark" n="3" source="#ed3 #reprod">
+                        <p source="#ed3 #reprod">C'est un métier que de faire un livre<app><rdg wit="#wit-ed3"></rdg><rdg wit="#wit-reprod">,</rdg></app> comme de faire une pendule ; il faut plus que de l'esprit pour estre auteur. Un Magistrat alloit par son mérite à la première dignité, il <app><rdg wit="#wit-ed3">estoit</rdg><rdg wit="#wit-reprod">êtoit</rdg></app>homme délié <app><rdg wit="#wit-ed3"></rdg><rdg wit="#wit-reprod">,</rdg></app> et pratic dans les affaires <app><rdg wit="#wit-ed3">;</rdg><rdg wit="#wit-reprod">,</rdg></app> il a fait imrpimer un ouvrage moral <app><rdg wit="#wit-ed3"></rdg><rdg wit="#wit-reprod">,</rdg></app> qui est rare par le ridicule.</p>              
+                    </div3>
+                </div2>          
+            </div1>
+        </body>                                  
     </text>
 </TEI>
