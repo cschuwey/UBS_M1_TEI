@@ -36,18 +36,34 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Texte encodé au format XML. Nous avons choisi d'utiliser les balises numérotés
-                    "div1, div2" puisque nous trouvons que ces dernières permettent une
-                    hiérarchisation plus fluide des catégories. Div1 correspondent aux différents
-                    livres, div2 aux chapitres et div3 aux sommaires et paragraphes. Les sommaires
-                    étant inclus dans les chapitres, nous trouvons que c'est plus cohérent d'ouvrir
-                    une troisième div après le paragraphe d'introduction pour les y inclure.</p>
+                <p>Texte encodé au format XML. 
+                    div1 correspond à l'ensemble de l'oeuvre. 
+                    div2 correspond à chaque chapitre 
+                    div3 correspond aux remarques. C'est une approche zoomée sur l'oeuvre. </p>
             </projectDesc>
+            <charDecl>
+                <glyph xml:id="pieddemouche">
+                    <desc>¶</desc>
+                </glyph>
+                <glyph xml:id="pieddemoucheuneparenthèse">
+                    <desc>(¶)</desc>
+                </glyph>
+                <glyph xml:id="piedemouchedeuxparenthèses">
+                    <desc>((¶))</desc>
+                </glyph>
+                <glyph xml:id="esperluette">
+                    <desc>&amp;</desc>
+                </glyph>
+                <glyph xml:id="croixdejésus">
+                    <desc>✝</desc>
+                </glyph>
+            </charDecl>
             <editorialDecl>
                 <p>Transcription en français moderne.</p>
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
+            <change when="2025-11-16">Devoir à rendre.</change>
             <change when="2025-10-19">Devoir à rendre</change>
             <change when="2025-11-01">Rajout des noms de chapitre, modification de l'encoding desk,
                 hiérarchisation des div.</change>
@@ -214,7 +230,8 @@
                 <div2 type="chapter" corresp="#b3ch1">
                     <head>Des ouvrages de l'esprit</head>
                     <div3 type="remark" source="#ed3_ex1">
-                        <p>C'est un métier que de faire un livre comme de faire une pendule<app>
+                        <p><g ref="#pieddemouche">¶</g>C'est un métier que de faire un livre comme
+                            de faire une pendule<app>
                                 <rdg corresp="#ed3_ex1">.</rdg>
                                 <rdg corresp="#ed3_ex2">;</rdg>
                             </app> Il faut plus que de l'esprit pour être auteur. Un magistrat
@@ -228,7 +245,7 @@
                                 <rdg corresp="#ed3_ex1">,</rdg>
                                 <rdg corresp="#ed3_ex2"/>
                             </app> qui est rare par le ridicule.</p>
-                        <p>Il y a dans l'art un point de perfection<app>
+                        <p><g ref="#pieddemouche">¶</g>Il y a dans l'art un point de perfection<app>
                                 <rdg corresp="#ed3_ex1">,</rdg>
                                 <rdg corresp="#ed3_ex2"/>
                             </app> comme de bonté ou de maturité dans la nature<app>
