@@ -40,11 +40,12 @@
         <revisionDesc>
             <change when="2025-10-11" who="Alicia MAIGRET">Modification encodingDesc, projectDesc et sourceDesc</change>
             <change when="2025-10-30" who="Alicia MAIGRET">Ajout div1, div2, div3</change>
-            <change when="2025-10-30" who="Alicia MAIGRET">Ajout balises app et rdg pour les éditions 3 et 7.</change>
+            <change when="2025-11-16" who="Alicia MAIGRET">Ajout balises app et rdg pour les éditions 3 et 7.</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
+            <p> Je m'excuse d'avance, je n'ai vraiment pas compris les glyphes, donc j'ai juste mis à jour avec les balises app et rgd ;-;.</p>
             <div1 type="preface" xml:id="discours_de_teophraste">
                 <head>Discours sur Téophraste</head>
                 <p>Texte de la préface</p>
@@ -83,4 +84,3 @@
         </body>
     </text>
 </TEI>
-
