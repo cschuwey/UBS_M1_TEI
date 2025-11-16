@@ -13,7 +13,7 @@
                     <title>Les Caractères de Téophraste traduits du grec, avec Les Caractères ou Moeurs de ce siècle</title>
                     <author ref="ark:/12148/cb11910249z">Jean de la Bruyère</author>
                     <date when="1688">M.LC.LXXXVIII</date>
-                    <edition n="1">1ère édition</edition>
+                    <edition n="3">3ème édition</edition>
                     <publisher>E. Michallet</publisher>
                     <pubPlace>Paris</pubPlace>
                     <idno>BnF R-18787</idno>
@@ -40,6 +40,7 @@
         <revisionDesc>
             <change when="2025-10-11" who="Alicia MAIGRET">Modification encodingDesc, projectDesc et sourceDesc</change>
             <change when="2025-10-30" who="Alicia MAIGRET">Ajout div1, div2, div3</change>
+            <change when="2025-10-30" who="Alicia MAIGRET">Ajout balises app et rdg pour les éditions 3 et 7.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -53,13 +54,29 @@
               <div2 type="chapter" xml:id="dissimulation">
                   <head>La dissimulation</head>
                   <div3 type="remark" n="1" source="BnF R-18787">
-                      <p>La dissimulation<note>L'auteur parle de celle qui ne vient pas de la prudence et que les Grecs appelaient ironie</note>n'est pas aidée à bien définir, si l'on se contente d'en faire une simple description, l'on peut dire que c'est un certain art de composer ses paroles et ses actions pour une mauvaise fin.</p>
+                      <p>La dissimulation, l'auteur parle de celle qui ne vient pas de la prudence et que les Grecs appelaient ironien, n'est pas aidée à bien définir
+                          <app>
+                              <rdg wit="#ed3">;</rdg>
+                              <rdg wit="#ed7">:</rdg>
+                          </app> 
+                      si l'on se contente d'en faire une simple description, l'on peut dire que c'est un certain art de composer ses paroles et ses actions pour une mauvaise fin.</p>
+                      <p> Souvent après lui avoir écouté ce qu'on lui a dit, il veut faire croire qu'il n'y a pas eu la moindre attention ; il feint de n'avoir pas aperçu les choses où il vient de jeter les yeux, ou s'il est convenu d'un fait, de ne plus s'en souvenir : il n'a pour ceux qui lui parle d'affaires, que cette seule réponse, j'y penserai : il fait de certaines choses, il en ignore d'autres
+                          <app>
+                              <rdg wit="#ed3">:</rdg>
+                              <rdg wit="#ed7">,</rdg>
+                          </app> 
+                      il est saisi d'admiration; d'autres fois il aura pensé comme vous sur cet événement, et cela selon les différents intérêts.</p>
                   </div3>
               </div2>
               <div2 type="chapter" xml:id="rusticite">
                   <head>De la Rusticité</head>
                   <div3 type="remark" n="8" source="BnF R-18787">
-                      <p>L'on voit en effet des gens rustiques et sans réflexion, sortir un jour de médecine,<note>Le texte Grec nomme une certaine drogue qui rendait l'haleine fort mauvaise le jour qu'on l'avait prise</note>et se trouver en cet état dans un lien public parmi le monde; ne pas faire la différence de l'odeur forte du thym ou de la marjolaine, d'avec les parfums les plus délicieux;</p>
+                      <p>Il semble que la rusticité n'est autre chose qu'une ignorance grossière des
+                          <app>
+                              <rdg wit="#ed3">bien-séances.</rdg>
+                              <rdg wit="#ed7">bienséances.</rdg>
+                          </app> 
+                      </p>
                   </div3>
               </div2>
           </div1>
