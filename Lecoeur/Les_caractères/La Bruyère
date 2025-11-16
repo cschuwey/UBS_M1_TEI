@@ -3,236 +3,290 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou les
-                    moeurs de ce siècle.</title>
+                <title>Les caractères de Théophraste</title>
+                <author/>
+
             </titleStmt>
             <publicationStmt>
-                <!-- <p>Encodage d'un texte de La Bruyère.</p> -->
-                <authority resp="LLecoeur">Louis Lecoeur</authority>
-                <distributor>Github_UBS_M1_TEI_2025</distributor>
+                <p>Nova Thivent</p>
             </publicationStmt>
             <sourceDesc>
-                <bibl xml:id="ed3-88">
-                    <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou
-                        les moeurs de ce siècle</title>
-                    <author ref="ark:/12148/cb11910249z">
-                        <surname>La Bruyère</surname>
-                        <nameLink>de</nameLink>
-                        <forename>Jean</forename>
-                    </author>
+                <bibl xml:id="ed3_ex1">
+                    <title>Les caractères de Théophraste</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author> Available from
+                        <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704021q"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k8704021q</ref>
                     <date when="1688">1688</date>
                     <edition n="3">Troisième édition</edition>
-                    <publisher>E. Michallet</publisher>
-                    <pubPlace>Paris</pubPlace>
-                    <idno>BnF R-18787</idno>
+                    <publisher>E.Michallet</publisher>
+                    <idno>BNF R-18787</idno>
                 </bibl>
-                <bibl xml:id="ed5-90">
-                    <title> Les Caractères de Théophraste traduits du grec : avec les Caractères ou
-                        les moeurs de ce siècle</title>
-                    <author ref="ark:/12148/cb11910249z">
-                        <surname>La Bruyère</surname>
-                        <nameLink>de</nameLink>
-                        <forename>Jean</forename>
-                    </author>
+                <bibl xml:id="ed3_ex2">
+                    <title>Les caractères de Théophraste</title>
+                    <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author> Available from
+                        <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704021q"
+                        >https://gallica.bnf.fr/ark:/12148/bpt6k8704021q</ref>
                     <date when="1690">1690</date>
-                    <edition n="5">Cinquième édition</edition>
-                    <publisher>E. Michallet</publisher>
-                    <pubPlace>Paris</pubPlace>
-                    <idno>BnF R-18790</idno>
+                    <edition n="3">Troisième édition</edition>
+                    <publisher>E.Michallet</publisher>
+                    <idno>BNF R-18787</idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Texte encodé en format TEI.</p>
+                <p>Texte encodé au format XML. Nous avons choisi d'utiliser les balises numérotés
+                    "div1, div2" puisque nous trouvons que ces dernières permettent une
+                    hiérarchisation plus fluide des catégories. Div1 correspondent aux différents
+                    livres, div2 aux chapitres et div3 aux sommaires et paragraphes. Les sommaires
+                    étant inclus dans les chapitres, nous trouvons que c'est plus cohérent d'ouvrir
+                    une troisième div après le paragraphe d'introduction pour les y inclure.</p>
             </projectDesc>
             <editorialDecl>
-                <interpretation>
-                    <p>Transcription avec l'orthographe d'origine.</p>
-                </interpretation>
+                <p>Transcription en français moderne.</p>
             </editorialDecl>
-            <p>L'ouvrage est découpé en 3 div type="book"
-                Chaque book est découpé en div type="chapter"
-                Chaque chapter est découpé en p et div type="remark"
-                    ces éléments ont des @source
-                Les tables de matières sont des list d' item où sont créés des xml:id pour chaque remark.</p>
         </encodingDesc>
         <revisionDesc>
-            <change when="2025-11-03" who="#LLecoeur">Devoir rendu TD6.</change>
-            <change when="2025-10-20" who="#LLecoeur">Devoir rendu TD5.</change>
-            <change when="2025-10-18" who="#LLecoeur">Devoir rendu.</change>
+            <change when="2025-10-19">Devoir à rendre</change>
+            <change when="2025-11-01">Rajout des noms de chapitre, modification de l'encoding desk,
+                hiérarchisation des div.</change>
         </revisionDesc>
     </teiHeader>
     <text>
-        <front>
-            <div type="title">
-                <head>Les caracteres de Theophraste trdauits du grec : avec Les caracteres ou Les
-                    moeurs de ce siecle.</head>
-                <head>Troisième edition.</head>
-            </div>
-        </front>
         <body>
-
-            <div type="book" n="1">
+            <div1 type="book" xml:id="b1">
                 <head>Discours sur Theophraste</head>
-                <div type="chapter" n="1">
-                    <p><hi>J</hi>En'estime pas que [...]</p>
+                <div2 type="chapter">
                     <p>[...]</p>
-                    <p>[...] il eut pour premier Maiſtre dans ſon païs un certain
-                            <name>Leucipe</name><note type="indication" place="margin">Un autre que
-                                <name ref="ark:/12148/cb16572998t">Leucipe</name> Philosophe
-                            celebre, &amp; diſciple de <name ref="ark:/12148/cb11941408s"
-                                >Zenon</name>.</note> qui eſtoit de meſme [...]</p>
                     <p>[...]</p>
-                </div>
-            </div>
+                </div2>
 
-            <div type="book" n="2">
-                <div type="chapter" n="0">
-                    <head>Les caracteres de Theophraste</head>
-                    <head>Traduits du grec.</head>
-                    <p>[...]</p>
-                    <p>[...]</p>
-                </div>
-                <div type="toc">
-                    <list type="listofchapters">
-                        <item n="1" xml:id="B2CH1"> De la Diſſimulation </item>
-                        <!-- Etant donné que j'ai transformé le sommaire un peu simplement, il reste des espaces autour de chaque titre... -->
-                        <item n="2" xml:id="B2CH2"> De la Flatterie </item>
-                        <item n="3" xml:id="B2CH3"> De l'Impertinent, ou du diſeur de rien </item>
-                        <item n="4" xml:id="B2CH4"> De la Ruſticité </item>
-                        <item n="5" xml:id="B2CH5"> Du Complaiſant </item>
-                        <item n="6" xml:id="B2CH6"> De l'image d'un Coquin </item>
-                        <item n="7" xml:id="B2CH7"> Du grand Parleur </item>
-                        <item n="8" xml:id="B2CH8"> Du Debit des nouvelles </item>
-                        <item n="9" xml:id="B2CH9"> De l'effronterie causée par l'avarice </item>
-                        <item n="10" xml:id="B2CH10"> De l'Epargne ſordide </item>
-                        <item n="11" xml:id="B2CH11"> De l'Impudent ou de celuy qui ne rougit de
-                            rien </item>
-                        <item n="12" xml:id="B2CH12"> Du Contre-temps </item>
-                        <item n="13" xml:id="B2CH13"> De l'Air empreſsé </item>
-                        <item n="14" xml:id="B2CH14"> De la Stupidité </item>
-                        <item n="15" xml:id="B2CH15"> De la Brutalité </item>
-                        <item n="16" xml:id="B2CH16"> De la Superſtition </item>
-                        <item n="17" xml:id="B2CH17"> De l'Eſprit chagrin </item>
-                        <item n="18" xml:id="B2CH18"> De la Défiance </item>
-                        <item n="19" xml:id="B2CH19"> D'un Vilain homme </item>
-                        <item n="20" xml:id="B2CH20"> D'un homme Incommode </item>
-                        <item n="21" xml:id="B2CH21"> De la ſotte Vanité </item>
-                        <item n="22" xml:id="B2CH22"> De l'Avarice </item>
-                        <item n="23" xml:id="B2CH23"> De l'Oſtentation </item>
-                        <item n="24" xml:id="B2CH24"> De l'orgüeil </item>
-                        <item n="25" xml:id="B2CH25"> De la peur ou du defaut de courage </item>
-                        <item n="26" xml:id="B2CH26"> Des Grands d'une Republique </item>
-                        <item n="27" xml:id="B2CH27"> D'une tardive Inſtruction </item>
-                        <item n="28" xml:id="B2CH28"> De la Médiſance </item>
+            </div1>
+            <div1 type="book2" xml:id="b2">
+                <!-- Je suis honnêtement vraiment perdu dans ce que j'ai à faire, j'arrive pas à réfléchir donc je suis désolée si j'ai du mal à avancer.-->
+                <div2 type="chapter" xml:id="b2ch0">
+                    <head>Les caractères de Theophraste, traduits du grec</head>
+                    <p>[...}</p>
+
+                    <p>Sommaire :</p>
+                    <list xml:id="b2sommaire">
+                        <item xml:id="b2ch1">De la dissimulation </item>
+                        <item xml:id="b2ch2"> De la Flatterie </item>
+                        <item xml:id="b2ch3"> De l'Impertinent, ou du diseur de rien </item>
+                        <item xml:id="b2ch4"> De la rusticité </item>
+                        <item xml:id="b2ch5"> Du complaisant </item>
+                        <item xml:id="b2ch6"> De l'image d'un coquin </item>
+                        <item xml:id="b2ch7"> Du grand parleur </item>
+                        <item xml:id="b2ch8"> Du débit des nouvelles </item>
+                        <item xml:id="b2ch9"> De l'effronterie causée par l'avarice </item>
+                        <item xml:id="b2ch10"> e l'Epargne sordide </item>
+                        <item xml:id="b2ch11"> De l'impudent ou de celui qui ne rougit de rien </item>
+                        <item xml:id="b2ch12"> Du Contre-Temps </item>
+                        <item xml:id="b2ch13"> De l'air empressé </item>
+                        <item xml:id="b2ch14"> De la stupidité </item>
+                        <item xml:id="b2ch15"> De la brutalité </item>
+                        <item xml:id="b2ch16"> De la superstition </item>
+                        <item xml:id="b2ch17"> De l'esprit chagrin </item>
+                        <item xml:id="b2ch18"> De la défiance </item>
+                        <item xml:id="b2ch19"> D'un vilain homme </item>
+                        <item xml:id="b2ch20"> D'un homme incommode </item>
+                        <item xml:id="b2ch21"> De la sotte vanité </item>
+                        <item xml:id="b2ch23"> De l'Avarice </item>
+                        <item xml:id="b2ch24"> De l'osentation </item>
+                        <item xml:id="b2ch25">
+                            <ref>De l'orgueil</ref>
+                        </item>
+                        <item xml:id="b2ch26"> De la peur ou du défait de courage </item>
+                        <item xml:id="b2ch27"> Des Grands d'une République </item>
+                        <item xml:id="b2ch28"> D'une tardive instruction </item>
+                        <item xml:id="b2ch29"> De la médisance </item>
                     </list>
-                </div>
-                <div type="chapter">
-                    <!-- Ici, ne pouvant pas mettre ce @type à l'élément <item> je le mets ici mais je trouve que ce n'est pas parfait du tout -->
-                    <head corresp="#B2CH1">De la Diſſimulation</head>
-                    <p><hi>L</hi>A <note type="indication" place="margin"
-                                >L'<persName>auteur</persName> parle de celle qui ne vient pas de la
-                            prudence, &amp; que les Grecs appelloient ironie.</note> diſſimulation
-                        n'eſt pas aiſée à bien définir; [...]</p>
-                </div>
-                <div>
-                    <head corresp="#B2CH2">De la Flatterie</head>
-                    <p><hi>L</hi>A flatterie eſt un commerce honteux [...]</p>
-                </div>
-                <!-- etc... -->
-            </div>
-
-            <div type="book" n="3">
-                <div type="chapter" n="0">
-                    <head>Les caracteres ou Les moeurs de ce siecle</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch1">
+                    <head>De la Dissimulation</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch2">
+                    <head>De la Flatterie</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch3">
+                    <head>De l'impertinent ou du diseur de rien</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch4">
+                    <head>De la rusticité</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch5">
+                    <head>Du complaisant</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch6">
+                    <head>De l'image d'un coquin</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch7">
+                    <head>Du grand parleur</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch8">
+                    <head>Du débit des nouvelles</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch9">
+                    <head>De l'Effronterie causée par l'avarice</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch10">
+                    <head>De l'Epargne sordide</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch11">
+                    <head>De l'Impudent ou de celui qui ne rougit de rien</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch12">
+                    <head>Du contre-temps</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch13">
+                    <head>De l'Air empressé</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch14">
+                    <head>De la stupidité</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch15">
+                    <head>De la brutalité</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch16">
+                    <head>De la superstition </head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch17">
+                    <head>De l'esprit chagrin</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch18">
+                    <head>De la défiance</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch19">
+                    <head>D'un vilain homme</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch20">
+                    <head>D'un homme incommode</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch21">
+                    <head>De la sotte vanité</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch22">
+                    <head>De l'Avarice</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch23">
+                    <head>De l'ostentation</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch24">
+                    <head>De l'orgueil</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch25">
+                    <head>De la peur ou du défaut de courage</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch26">
+                    <head>Des grands d'une république</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch27">
+                    <head>D'une tardive instruction</head>
+                </div2>
+                <div2 type="chapter" corresp="#b2ch28">
+                    <head>De la médisance</head>
+                </div2>
+            </div1>
+            <div1 type="book3" xml:id="b3">
+                <head>Les caractères ou les moeurs de ce siècle</head>
+                <div2 type="chapter" xml:id="b3ch0">
                     <p>[...]</p>
-                    <p>[...]</p>
-                </div>
-
-                <div type="toc">
-                    <list type="listofchapters">
-                        <item n="1" xml:id="B3CH1"> Des ouvrages de l'eſprit </item>
-                        <!-- Ici je n'écris pas "page" car il n'est pas nécessaire. -->
-                        <item n="2" xml:id="B3CH2"> Du Merite Perſonnel </item>
-                        <item n="3" xml:id="B3CH3"> Des Femmes </item>
-                        <item n="4" xml:id="B3CH4"> Du Coeur </item>
-                        <item n="5" xml:id="B3CH5"> De la Société &amp; de la Converſation </item>
-                        <item n="6" xml:id="B3CH6"> Des Biens de Fortune </item>
-                        <item n="7" xml:id="B3CH7"> De la Ville </item>
-                        <item n="8" xml:id="B3CH8"> De la Cour </item>
-                        <item n="9" xml:id="B3CH9"> Des Grands </item>
-                        <item n="10" xml:id="B3CH10"> Du Souverain </item>
-                        <item n="11" xml:id="B3CH11"> De l'Homme </item>
-                        <item n="12" xml:id="B3CH12"> Des Jugemens </item>
-                        <item n="13" xml:id="B3CH13"> De la Mode </item>
-                        <item n="14" xml:id="B3CH14"> De quelques Usages </item>
-                        <item n="15" xml:id="B3CH15"> De la Chaire </item>
-                        <item n="16" xml:id="B3CH16"> Des Eſprits forts </item>
+                    <list>
+                        <item xml:id="b3ch1"> Des ouvrages de l'esprit </item>
+                        <item xml:id="b3ch2"> Du mérite personnel </item>
+                        <item xml:id="b3ch3"> Des femmes. </item>
+                        <item xml:id="b3ch4"> Du coeur. </item>
+                        <item xml:id="b3ch5"> De la société et de la conversation. </item>
+                        <item xml:id="b3ch6"> Des biens de fortune </item>
+                        <item xml:id="b3ch7"> De la ville </item>
+                        <item xml:id="b3ch8"> De la Cour </item>
+                        <item xml:id="b3ch9"> Des grands </item>
+                        <item xml:id="b3ch10"> Du Souverain </item>
+                        <item xml:id="b3ch11"> De l'Homme </item>
+                        <item xml:id="b3ch12"> Des jugements </item>
+                        <item xml:id="b3ch13"> De la Mode </item>
+                        <item xml:id="b3ch14"> De quelques usages </item>
+                        <item xml:id="b3ch15"> De la Chaire </item>
+                        <item xml:id="b3ch16"> Des esprits forts. </item>
                     </list>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch1">
+                    <head>Des ouvrages de l'esprit</head>
+                    <div3 type="remark" source="#ed3_ex1">
+                        <p>C'est un métier que de faire un livre comme de faire une pendule. IL faut
+                            plus que de l'esprit pour être auteur. Un magistrat allait par son
+                            mérite à la première dignitié, il était homme délié, et pratique dans
+                            les affaires, il a fait imprimer un ouvrage moral, qui est rare par le
+                            ridicule.</p>
+                        <p>Il y a dans l'art un point de perfection, comme de bonté ou de maturité
+                            dans la nature, celui qui le sent et qui l'aime a le goût parfait, celui
+                            qui ne le sent pas et qui aime en de ça ou delà, a le goût défectueux.
+                            Il y a donc un bon et un mauvais goût et l'on dispute des goûts avec
+                            fondement.</p>
+                    </div3>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch2">
+                    <head>Du mérite personnel</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch3">
+                    <head>Des femmes</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch4">
+                    <head>Du coeur</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch5">
+                    <head>De la société et de la conversation</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch6">
+                    <head>Des biens de fortune</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch7">
+                    <head>De la Ville</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch8">
+                    <head>De la Cour</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch9">
+                    <head>Des Grands</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch10">
+                    <head>Du souverain</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch11">
+                    <head>De l'Homme</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch12">
+                    <head>Des jugements</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch13">
+                    <head>De la Mode</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch14">
+                    <head>De quelques usages</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch15">
+                    <head>De la chaire</head>
+                </div2>
+                <div2 type="chapter" corresp="#b3ch16">
+                    <head>Des esprits fous</head>
+                </div2>
+            </div1>
+            <!--
+            <div type="chapter" source="#ed3_ex1">
+                <head>Des ouvrages de l'esprit</head>
+                <div type="remark">
+                    <p>C'est un métier que de faire un livre comme de faire une pendule. IL faut
+                        plus que de l'esprit pour être auteur. Un magistrat allait par son mérite à
+                        la première dignitié, il était homme délié, et pratique dans les affaires,
+                        il a fait imprimer un ouvrage moral, qui est rare par le ridicule.</p>
+                    <p>Il y a dans l'art un point de perfection, comme de bonté ou de maturité dans
+                        la nature, celui qui le sent et qui l'aime a le goût parfait, celui qui ne
+                        le sent pas et qui aime en de ça ou delà, a le goût défectueux. Il y a donc
+                        un bon et un mauvais goût et l'on dispute des goûts avec fondement.</p>
+                    
                 </div>
-                <div type="chapter">
-                    <!-- Ici, ne pouvant pas mettre ce @type à l'élément <item> je le mets ici mais ce n'est pas parfait du tout -->
-                    <head corresp="#B3CH1">Des ouvrages de l'eſprit</head>
-                    <p><hi>T</hi>OuT eſt dit, [...]</p>
-                    <div type="remark" n="1" source="#ed3-88" xml:id="B3CH2R1">
-                        <p>¶ Il faut chercher ſeulement à penſer &amp; à parler juſte, [...]</p>
-                    </div>
-                    <div type="remark" n="2" source="#ed3-88" xml:id="B3CH2R2">
-                        <p>¶ C'eſt un métier que de faire un livre [...]</p>
-                    </div>
-                </div>
-                <div type="chapter">
-                    <!-- Ici, ne pouvant pas mettre ce @type à l'élément <item> je le mets ici mais ce n'est pas parfait du tout -->
-                    <!-- page imprimé/pdf 147/213 de 88 page 175/230 de 90 -->
-                    <head corresp="#B3CH5">De la Société &amp; de la Converſation</head>
-                    <p>[...]</p>
-                    <div type="remark" n="1" source="#ed3-88 ed5-90" xml:id="B3CH5R1">
-                        <p>¶ C'eſt le rôle d'un ſot d'eſtre importun : un homme habile ſent s'il convient,<app>
-                                <rdg corresp="#ed3-88"> </rdg>
-                                <rdg corresp="#ed5-90"/>
-                            </app>ou s'il ennuye<app>
-                                <rdg corresp="#ed3-88">, </rdg>
-                                <rdg corresp="#ed5-90">;</rdg>
-                            </app>il ſçait diſparoiſtre le moment qui préc<app>
-                                <rdg corresp="#ed3-88">è</rdg>
-                                <rdg corresp="#ed5-90">e</rdg>
-                            </app>de celuy où il ſeroit de trop quelque part.</p>
-                    </div>
-                </div>
-
-                <div type="chapter" n="11">
-                    <head corresp="#B3CH11">De l'Homme</head>
-                    <p>[...]</p>
-                    <div type="remark" n="1" source="#ed3-88 ed5-90" xml:id="B3CH11R1">
-                        <p>[...]</p>
-                    </div>
-
-                    <div type="remark" n="63-88 61-90" source="#ed3-88 ed5-90" xml:id="B3CH11R63">
-                        <!-- Ici, le numéro de la remarque n'est pas le même pour les deux éditions, de plus dans l'édition de 90 il y a des "enfants" ou "petits-enfants" des remarques, ex : (¶) ou ((¶)); je ne les ai pas comptées comme remarques. -->
-                        <p>¶ Les hommes agiſſent mollement dans les choſes qui ſont de leur devoir ,
-                            pendant qu'ils ſe font un merite<app>
-                                <!-- page imprimé/pdf 247/313 de 88 et 385/443 de 90 -->
-                                <rdg corresp="#ed3-88"/>
-                                <rdg corresp="#ed5-90"> ,</rdg>
-                            </app> ou plûtoſt une vanité de s'empreſſer pour celles qui leur ſont étrangeres,<app>
-                                <rdg corresp="#ed3-88"> </rdg>
-                                <rdg corresp="#ed5-90"/>
-                            </app>&amp; qui ne conviennent n<app>
-                                <rdg corresp="#ed3-88">y</rdg>
-                                <rdg corresp="#ed5-90">i</rdg>
-                            </app> à leur état<app>
-                                <rdg corresp="#ed3-88"> </rdg>
-                                <rdg corresp="#ed5-90"/>
-                            </app>, n<app>
-                                <rdg corresp="#ed3-88">y</rdg>
-                                <rdg corresp="#ed5-90">i</rdg>
-                            </app> à leur caractere.</p>
-                    </div>
-                </div>
-
-            </div>
+                
+            </div>-->
         </body>
     </text>
-
 </TEI>
