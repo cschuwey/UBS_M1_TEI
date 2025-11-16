@@ -289,6 +289,36 @@
                         <p> Il faut éviter le style vain et puéril, de peur se ressembler à Dorilas et Handburg: l'on peut au contraire en une forte d'écrits hazarder de certaines expressions
                             , user de termes transposés et qui peignent vivement, et plaindre ceux qui ne tentent pas le plaisir qu'il y a à s'en servir
                             , ou à les entendre</p>
+                    <!-- Variante 1 : Préface -->
+                     <!-- Je ne sais pas où encoder les variantes de mon fichier car j'ai du mal avec les div -->
+                      <!-- Je n'ai pas compris cette consigne sur Moodle même en regardant la documentation TEI : " Encodez les cinq glyphes propres aux Caractères à l'endroit idoine, et ajoutez la bonne glyph au début de chaque remarque"-->
+<p xml:id="variante préface">
+<app>
+<lem>Il n'y a rien de plus difficile que d'éviter la critique.</lem>
+<rdg wit="#ed3">Il n'y a rien de plus difficile que d'éviter la critique.</rdg>
+<rdg wit="#ed5">la censure des esprits.</rdg>
+</app>
+</p>
+
+
+<!-- Variante 2 : Chapitre sur la Cour -->
+<p xml:id="variante cour">
+<app>
+<lem>La Cour ne rend pas les hommes meilleurs, mais plus polis.</lem>
+<rdg wit="#ed3">La Cour ne rend pas les hommes meilleurs, mais plus polis.</rdg>
+<rdg wit="#ed5">mais elle les adoucit et les façonne.</rdg>
+</app>
+</p>
+
+
+<!-- Variante 3 : Portrait moral -->
+<p xml:id="variante portrait">
+<app>
+<lem>Un homme orgueilleux ne voit que lui-même.</lem>
+<rdg wit="#ed3">Un homme orgueilleux ne voit que lui-même.</rdg>
+<rdg wit="#ed5"> n'aperçoit les autres que pour se préférer à eux.</rdg>
+</app>
+</p>
                         
                     
         
