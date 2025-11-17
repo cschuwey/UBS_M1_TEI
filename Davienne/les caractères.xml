@@ -199,4 +199,7 @@
     <p></p> avec rien à l'interieur = <p/>
     pour définir un mot : <persName> <placeName> <date>
     multiplier les attributs différents alourdit le doc au moment de la transormation. plutot que wit, utiliser source
+
+dans l'encodingDesc (TEIheader) on peut rajouter un charDecl avec nos caractères spéciaux et leur signification, et en créant un xmlid pour chaque glyph
+ensuite, on pourra y référer dans le body avec la balise <g/> et l'attribut ref
     !-->
