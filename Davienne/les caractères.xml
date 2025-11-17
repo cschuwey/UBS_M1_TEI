@@ -140,8 +140,8 @@
                             le plaiſir des <app>
                                 <rdg source="#ed3">honneſtes</rdg>
                                 <rdg source="#ed7">honnêtes</rdg>
-                            </app> gens &amp; pour la vengeance publique, qu'un
-                            coquin ne le fût pas au point d'<app>
+                            </app> gens &amp; pour la vengeance publique, qu'un coquin ne le fût pas
+                            au point d'<app>
                                 <rdg source="#ed3">eſtre</rdg>
                                 <rdg source="#ed7">être</rdg>
                             </app> privé de tout ſentiment.</p>
@@ -199,7 +199,8 @@
     <p></p> avec rien à l'interieur = <p/>
     pour définir un mot : <persName> <placeName> <date>
     multiplier les attributs différents alourdit le doc au moment de la transormation. plutot que wit, utiliser source
-
-dans l'encodingDesc (TEIheader) on peut rajouter un charDecl avec nos caractères spéciaux et leur signification, et en créant un xmlid pour chaque glyph
-ensuite, on pourra y référer dans le body avec la balise <g/> et l'attribut ref
+    paragraphes mouvants avec l'attribut corresp
+    
+    dans l'encodingDesc (TEIheader) on peut rajouter un charDecl avec nos caractères spéciaux et leur signification, et en créant un xmlid pour chaque glyph
+    ensuite, on pourra y référer dans le body avec la balise <g/> et l'attribut ref
     !-->
