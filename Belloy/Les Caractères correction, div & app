@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
-             <titleStmt>
+            <titleStmt>
                 <title>Les Caractères</title>
                 <author>Theophraste</author>
                 <author xml:id="ref12148-bpt6k57572x" resp="translator author">La Bruyère</author> 
@@ -29,68 +29,72 @@
                     <date when="1692">1692</date>
                     <idno>BNF - FRBNF37243213</idno>
                 </bibl>
-            </sourceDesc>
+            </sourceDesc> 
         </fileDesc>
+       <char xml:id="pm1">
+            <unicodeProp>
+                <value></value>
+            </unicodeProp>
+        </char>
         <encodingDesc>
-        <projectDesc>
-        <p>Remarques encodées dans le cadre d'un cours</p>
-        </projectDesc>
-        <samplingDecl>
-        <p>Echantillon de remarque pris dans deux éditions différentes. Pour l'édition de 1688, l'extrait vient de la page 135. Pour l'édition de 1692, l'échantillon provient des pages 139 et 140
-        </p>
-        </samplingDecl>
+            <projectDesc>
+                <p>Remarques encodées dans le cadre d'un cours</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Echantillon de remarque pris dans deux éditions différentes. Pour l'édition de 1688, l'extrait vient de la page 135. Pour l'édition de 1692, l'échantillon provient des pages 139 et 140
+                </p>
+            </samplingDecl>
         </encodingDesc>
         <revisionDesc>
-        <change>
-        <date normal="2025-10">Octobre 2025</date>
-        <item>Création du document pour encoder des remarques. Modification par l'indication de ligne et ajout d'informations relatives à la production du fichier.</item>
-        </change>
+            <change>
+                <date calendar="2025-10">Octobre 2025</date>
+                <item>Création du document pour encoder des remarques. Modification par l'indication de ligne et ajout d'informations relatives à la production du fichier.</item>
+            </change>
         </revisionDesc>
     </teiHeader>
     <text>
-    
+        
         <body>   
-         <div1 type="title">
-            <title>Les Caractères de Théophaste ou les moeurs de ce siècle</title>
-            <div2 type="citation" source="ed07">
-                <foreign type="latin"><q>Admonere voluimus, non modere; prodeffe non laedere: confulere moribus hominum, non officere, Erafm....
-            </q></foreign>
-        </div2>
-            <div2 type="chapter">
-            <pb n="1"/>
-            <p>J'ay admiré fouvent, &amp; j'avoüe que je ne puis encore comprendre, quelque ferieuse reflexion que je fasse, pourquoy toute la Grece eftant placée fous un même ciel, &amp; les Grecs nouris &amp;
-    élevez de la <app>
-        <rdg source="ed3">*</rdg>
-        <rdg source="ed7">°</rdg>
-            </app> 
-        </p>
-    <p> même maniere, il fe trouve neanmoins fi peu de reffemblance dans leurs moeurs.
-    </p>
-    <p type="remarque">*Par Rapport aux Barbares, dont les moeurs étaient très différentes de celles des Grec.
-    </p>
-           </div2>
-            <div2 type="chapter">
-                <head type="sub">Des Femmes</head>
+            <div1 type="title">
+                <head>Les Caractères de Théophaste ou les moeurs de ce siècle</head>
+                <div2 type="citation" source="ed07">
+                    <q type="latin">Admonere voluimus, non modere; prodeffe non laedere: confulere moribus hominum, non officere, Erafm.... </q>
+                </div2>
+                <div2 type="chapter">
+                    <pb n="1"/>
+                    <div3 type="remarque"><p>J'ay admiré fouvent, &amp; j'avoüe que je ne puis encore comprendre, quelque ferieuse reflexion que je fasse, pourquoy toute la Grece eftant placée fous un même ciel, &amp; les Grecs nouris &amp;
+                        élevez de la <app>
+                            <rdg source="ed3">*</rdg>
+                            <rdg source="ed7">°</rdg>
+                        </app> 
+                    </p></div3>
+                    <div3 type="remarque"><p> même maniere, il fe trouve neanmoins fi peu de reffemblance dans leurs moeurs.
+                    </p></div3>
+                    <div3 type="note"><p>*Par Rapport aux Barbares, dont les moeurs étaient très différentes de celles des Grec.
+                    </p></div3>
+                </div2>
+                <div2 type="chapter">
+                    <head type="sub">Des Femmes</head>
                     <div3 type="remark">
                         <pb n="135" corresp="#ed3" source="#ed3"/>
-                            <p>
-                        <lb/>plus à plaindre, ou d'une femme 
-                        <lb/>avancée en âge qui a le besoin d'un 
-                        <lb/>cavalier, ou d'un cavalier qui a 
-                        <lb/>besoin d'une vieille.
-                           </p>
+                        <p>
+                            <lb/>plus à plaindre, ou d'une femme 
+                            <lb/>avancée en âge qui a le besoin d'un 
+                            <lb/>cavalier, ou d'un cavalier qui a 
+                            <lb/>besoin d'une vieille.
+                        </p>
                         <pb n="139" corresp="#ed7" source="#ed7"/>
-                            <p>
+                        <p>
                             <lb/>fi jeune, fi belle &amp; fi ferieufe ; je 
                             <lb/>[...]
                             <lb/>un Jardinier eft un homme. 
                             <lb/>Tout eft tentation à qui la craint.
-                           </p>   
-                        </div3>
-                        <div3 type="remark">
-                                <p>
-                                    <app>
-                                    <rdg source="#ed3">
+                        </p>   
+                    </div3>
+                    <div3 type="remark">
+                        <p>
+                            <app>
+                                <rdg source="#ed3">
                                     <seg source="#ed3" corresp="#ed7">
                                         <lb/>¶ Quelques femmes donnent  
                                         <lb/>aux couvents &amp; à leurs amans; 
@@ -101,9 +105,9 @@
                                         <lb rend="hyphen"/>lets tendres &amp; où perfonne ne 
                                         <lb/>voit qu'elles ne prient point 
                                         <lb/>Dieu.
-                                       </seg> 
-                                    </rdg>
-                                    <rdg source="#ed7">
+                                    </seg> 
+                                </rdg>
+                                <rdg source="#ed7">
                                     <seg source="#ed7" corresp="#ed3">
                                         <lb/>¶ Quelques femmes donnent aux 
                                         <lb/>convents &amp; à leur amans; galantes 
@@ -112,170 +116,170 @@
                                         <lb/>des oratoires où elles lifent des bil
                                         <lb/>-lets tendres, &amp; où perfonne ne voit 
                                         <lb/>qu'elles ne prient point Dieu.
-                                        </seg>
-                                    </rdg>
-                                </app>
-                                </p>
-                            </div3>
-                            <div3 corresp="remark">
-                            <p>
-                                <app>
-                                    <rdg source="#ed3">
-                                         ¶ Il y a telle femme qui aime <lb/>
+                                    </seg>
+                                </rdg>
+                            </app>
+                        </p>
+                    </div3>
+                    <div3 corresp="remark">
+                        <p>
+                            <app>
+                                <rdg source="#ed3">
+                                    ¶ Il y a telle femme qui aime <lb/>
                                     mieux son argent que fes amis, <lb/>
                                     &amp; fes amans que fon argent.<lb/>
-                                    </rdg>
-                                    <rdg source="ed7">
-                                         ¶ Qu'eft ce qu'une femme que l'on <lb/>
+                                </rdg>
+                                <rdg source="ed7">
+                                    ¶ Qu'eft ce qu'une femme que l'on <lb/>
                                     dirige ? eft-ce une femme plus comp<lb/>-
-                                        <pb n="140" corresp="ed7"/>
-                                        <lb/>plaifante pour fon mari, plus dou
-                                        <lb rend="hyphen"/>ce pour fes domestiques, plus appli
-                                        <lb/>quée à fa famille &amp; à fes affaires, 
-                                        <lb/>plus ardente &amp; plus fincere pour fes 
-                                        <lb/>amis; qui foit moins efclave de fon 
-                                        <lb/>humeur, moins attachée à fes inte
-                                        <lb rend="hyphen"/>rêts, qui aime moins les commodi
-                                        <lb rend="hyphen"/>tez de la vie; je ne dis pas qui faffe des 
-                                        <lb/>largeffes à fes enfants qui feroient dé
-                                        <lb rend="hyphen"/>ja riches, mais qui opulente elle-mê
-                                        <lb rend="hyphen"/>me &amp; accablée du fuperflu leur four
-                                        <lb rend="hyphen"/>niffe le neceffaire, &amp; leur rende 
-                                        <lb/>au moins la juftice qu'elle leur doit; 
-                                        <lb/>qui foit plus exempte d'amour de 
-                                        <lb/>foy-même &amp; d'éloignement pour 
-                                        <lb/>les autres, qui foit plus libre de 
-                                        <lb/>tous attachement humains ? non, 
-                                        <lb/>dites-vous, ce n'est rient de toutes 
-                                        <lb/>ces chofes; j'infifte &amp; je vous de
-                                        <lb rend="hyphen"/>mande qu'eft ce donc qu'une fem
-                                        <lb rend="hyphen"/>me que l'on dirige ? je vous en
-                                        <lb rend="hyphen"/>tends, c'eft une femme qui a un Di
-                                        <lb rend="hyphen"/>recteur.
-                                    </rdg>
-                                </app>
-                             </p>
+                                    <pb n="140" corresp="ed7"/>
+                                    <lb/>plaifante pour fon mari, plus dou
+                                    <lb rend="hyphen"/>ce pour fes domestiques, plus appli
+                                    <lb/>quée à fa famille &amp; à fes affaires, 
+                                    <lb/>plus ardente &amp; plus fincere pour fes 
+                                    <lb/>amis; qui foit moins efclave de fon 
+                                    <lb/>humeur, moins attachée à fes inte
+                                    <lb rend="hyphen"/>rêts, qui aime moins les commodi
+                                    <lb rend="hyphen"/>tez de la vie; je ne dis pas qui faffe des 
+                                    <lb/>largeffes à fes enfants qui feroient dé
+                                    <lb rend="hyphen"/>ja riches, mais qui opulente elle-mê
+                                    <lb rend="hyphen"/>me &amp; accablée du fuperflu leur four
+                                    <lb rend="hyphen"/>niffe le neceffaire, &amp; leur rende 
+                                    <lb/>au moins la juftice qu'elle leur doit; 
+                                    <lb/>qui foit plus exempte d'amour de 
+                                    <lb/>foy-même &amp; d'éloignement pour 
+                                    <lb/>les autres, qui foit plus libre de 
+                                    <lb/>tous attachement humains ? non, 
+                                    <lb/>dites-vous, ce n'est rient de toutes 
+                                    <lb/>ces chofes; j'infifte &amp; je vous de
+                                    <lb rend="hyphen"/>mande qu'eft ce donc qu'une fem
+                                    <lb rend="hyphen"/>me que l'on dirige ? je vous en
+                                    <lb rend="hyphen"/>tends, c'eft une femme qui a un Di
+                                    <lb rend="hyphen"/>recteur.
+                                </rdg>
+                            </app>
+                        </p>
                     </div3>
-            </div2> 
-            <div2 type="table des matières" source="#ed7">
-                <fw place="PlusieursPages" n="NonPaginé"></fw>
-                <head rend="centré">
-                    <lb/>TABLE
-                    <lb/>DES
-                    <lb/>NOUVEAUX CARACTERES
+                </div2> 
+                <div2 type="TableDesMatières" source="#ed7">
+                    <fw place="PlusieursPages" n="NonPaginé"></fw>
+                    <head rend="centré">
+                        <lb/>TABLE
+                        <lb/>DES
+                        <lb/>NOUVEAUX CARACTERES
+                        <lb/>
+                        <hi rend="it">de cette dernière Edition,
+                            <lb/>ET
+                            <lb/>DE QUELQUES ANCIENS
+                            <lb/>aufquels il a été ajouté, ceux-cy
+                            <lb/>diftinguez par la lettre A.
+                        </hi>
+                    </head>
                     <lb/>
-                    <hi rend="it">de cette dernière Edition,
-                    <lb/>ET
-                    <lb/>DE QUELQUES ANCIENS
-                    <lb/>aufquels il a été ajouté, ceux-cy
-                    <lb/>diftinguez par la lettre A.
-                    </hi>
-                     </head>
-                    <lb/>
-                <p rend="grand">
-                    <lb/>DES OUVRAGES DE L'ESPRIT.
-                    <lb/>
-                    <lb rend="petit"/>Tout Ecrivain <abbr>&amp; c.</abbr> 96
-                    <lb rend="petit"/>¶ La gloire <abbr>&amp; c.</abbr> 98
-                    <lb rend="petit"/>¶ La critique <abbr>&amp; c.</abbr> 101
-                </p>
-                <p rend="grand">
-                    <lb/>DU MERITE PERSONNEL.
-                    <lb/>
-                    <lb rend="petit"/>¶ Se faire valoir <abbr>&amp; c.</abbr> 107
-                    <lb rend="petit"/>¶ Aemile <abbr>&amp; c.</abbr> 117
-                    <lb rend="petit"/>¶ Celfe <abbr>&amp; c.</abbr> 121
-                    <lb rend="petit"/>¶ Menippe <abbr>&amp; c.</abbr> 123
-                </p>
-                 <p rend="grand">
-                    <lb/>DES FEMMES.
-                    <lb/>
-                    <lb rend="petit"/>¶ Chez les femmes <abbr>&amp; c.</abbr>, jusqu'à la 
-                    <lb rend="petit"/>marque ¶ 128
-                    <lb rend="petit"/>¶ Une femme coquette <abbr>&amp; c.</abbr> 130
-                    <lb rend="petit"/>¶ Life <abbr>&amp; c.</abbr> 130
-                    <lb rend="petit"/>¶ Rofcius <abbr>&amp; c.</abbr> 137
-                    <lb rend="petit"/>¶ Qu'est-ce qu'une femme <abbr>&amp; c.</abbr> 139
-                    <lb rend="petit"/>¶ Si j'époufe <abbr>&amp; c.</abbr> 145
-                    <lb rend="petit"/>¶ Un Comique <abbr>&amp; c.</abbr> jusqu'à ¶ 147
-                    <lb rend="petit"/>¶ Pourquoy <abbr>&amp; c.</abbr> jusqu'à ¶ 148
-                    <lb rend="petit"/>¶ On veut <abbr>&amp; c.</abbr> 152
-                    <lb rend="petit"/>¶ Les belles filles <abbr>&amp; c.</abbr> 153
-                    <lb rend="petit"/>¶ G'ycere <abbr>&amp; c.</abbr> 155
-                    <lb rend="petit"/>¶ Un mary <abbr>&amp; c.</abbr> 157
-                    <lb rend="petit"/>¶ Telle autre femme <abbr>&amp; c.</abbr> 159
-                    <lb rend="petit"/>¶ Il y a peu de femme <abbr>&amp; c.</abbr> 159
-                </p>
-                <p rend="grand">
-                    <lb/>DU COEUR.
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DE LA SOCIETE.
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DES BIENS DE FORTUNE.
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DE LA VILLE.
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DE LA COUR.
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DES GRANDS.
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DU SOUVERAIN, <abbr>&amp; c.</abbr>
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DE L'HOMME.
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DES JUGEMENS.
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DE LA MODE
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DE QUELQUES USAGES
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DE LA CHAIRE.
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-                 <p rend="grand">
-                    <lb/>DES ESPRITS FORTS.
-                    <lb/>
-                    <lb rend="petit"/>Etc.
-                </p>
-            </div2>
-            <div2>
-                <p>Extrait du privilège du Roy</p>
-            </div2>
-        </div1>
+                    <p rend="grand">
+                        <lb/>DES OUVRAGES DE L'ESPRIT.
+                        <lb/>
+                        <lb rend="petit"/>Tout Ecrivain <abbr>&amp; c.</abbr> 96
+                        <lb rend="petit"/>¶ La gloire <abbr>&amp; c.</abbr> 98
+                        <lb rend="petit"/>¶ La critique <abbr>&amp; c.</abbr> 101
+                    </p>
+                    <p rend="grand">
+                        <lb/>DU MERITE PERSONNEL.
+                        <lb/>
+                        <lb rend="petit"/>¶ Se faire valoir <abbr>&amp; c.</abbr> 107
+                        <lb rend="petit"/>¶ Aemile <abbr>&amp; c.</abbr> 117
+                        <lb rend="petit"/>¶ Celfe <abbr>&amp; c.</abbr> 121
+                        <lb rend="petit"/>¶ Menippe <abbr>&amp; c.</abbr> 123
+                    </p>
+                    <p rend="grand">
+                        <lb/>DES FEMMES.
+                        <lb/>
+                        <lb rend="petit"/>¶ Chez les femmes <abbr>&amp; c.</abbr>, jusqu'à la 
+                        <lb rend="petit"/>marque ¶ 128
+                        <lb rend="petit"/>¶ Une femme coquette <abbr>&amp; c.</abbr> 130
+                        <lb rend="petit"/>¶ Life <abbr>&amp; c.</abbr> 130
+                        <lb rend="petit"/>¶ Rofcius <abbr>&amp; c.</abbr> 137
+                        <lb rend="petit"/>¶ Qu'est-ce qu'une femme <abbr>&amp; c.</abbr> 139
+                        <lb rend="petit"/>¶ Si j'époufe <abbr>&amp; c.</abbr> 145
+                        <lb rend="petit"/>¶ Un Comique <abbr>&amp; c.</abbr> jusqu'à ¶ 147
+                        <lb rend="petit"/>¶ Pourquoy <abbr>&amp; c.</abbr> jusqu'à ¶ 148
+                        <lb rend="petit"/>¶ On veut <abbr>&amp; c.</abbr> 152
+                        <lb rend="petit"/>¶ Les belles filles <abbr>&amp; c.</abbr> 153
+                        <lb rend="petit"/>¶ G'ycere <abbr>&amp; c.</abbr> 155
+                        <lb rend="petit"/>¶ Un mary <abbr>&amp; c.</abbr> 157
+                        <lb rend="petit"/>¶ Telle autre femme <abbr>&amp; c.</abbr> 159
+                        <lb rend="petit"/>¶ Il y a peu de femme <abbr>&amp; c.</abbr> 159
+                    </p>
+                    <p rend="grand">
+                        <lb/>DU COEUR.
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DE LA SOCIETE.
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DES BIENS DE FORTUNE.
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DE LA VILLE.
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DE LA COUR.
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DES GRANDS.
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DU SOUVERAIN, <abbr>&amp; c.</abbr>
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DE L'HOMME.
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DES JUGEMENS.
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DE LA MODE
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DE QUELQUES USAGES
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DE LA CHAIRE.
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                    <p rend="grand">
+                        <lb/>DES ESPRITS FORTS.
+                        <lb/>
+                        <lb rend="petit"/>Etc.
+                    </p>
+                </div2>
+                <div2>
+                    <p>Extrait du privilège du Roy</p>
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
