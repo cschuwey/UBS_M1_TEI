@@ -7,7 +7,7 @@
                 <author resp="author">Theophraste</author>
                 <author ref="ark:/12148/cb11910249z" resp="translator author">La Bruyère</author>
             </titleStmt>
-
+            
             <publicationStmt>
                 <authority xml:id="mdaeninckx">Mickaël Daeninckx</authority>
                 <distributor>Université Bretagne Sud de Lorient</distributor>
@@ -15,7 +15,7 @@
                     <licence/>
                 </availability>
             </publicationStmt>
-
+            
             <sourceDesc>
                 <bibl xml:id="ed3_ex1">
                     <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou
@@ -39,7 +39,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-
+        
         <encodingDesc>
             <projectDesc>
                 <p>Ce projet a pour but de comparer deux remarques de deux éditions de "Les
@@ -51,7 +51,7 @@
                         définit par la valeur "part" de l'attribut <att>type</att>. Ces trois
                         parties contiennent des <gi>div2</gi> qui peuvent être définit par la valeur
                         "part_introduction", "table_of_contents" ou "chapter" de l'attribut
-                            <att>type</att>. Les chapitres contiennent des remarques, définit par
+                        <att>type</att>. Les chapitres contiennent des remarques, définit par
                         des balises <gi>div3</gi> dont la valeur de l'attribut <att>type</att> est
                         "remark".</p>
                     <p>Il m'a semblé pertinent de mettre les trois parties de l'ouvrage au même
@@ -71,8 +71,17 @@
                         ici.</p>
                 </normalization>
             </editorialDecl>
+            <charDecl>
+                <char xml:id="asterisk_1">
+                    <desc>* - L'astérisque </desc>
+                </char>
+                <char xml:id="pilcrow_1">
+                    <desc>¶ - Le pied de mouche se situe avant le premier paragraphe d'une remarque</desc>
+                    <!-- Ensuite, mettre <g ref="pilcrow_1"> aux endroits concernés -->                
+                </char>
+            </charDecl>
         </encodingDesc>
-
+        
         <profileDesc>
             <creation>
                 <date when="2025-10-06">Le 6 octobre 2025</date>
@@ -90,20 +99,21 @@
                 </keywords>
             </textClass>
         </profileDesc>
-
+        
         <revisionDesc>
             <listChange>
                 <change who="#mdaeninckx" when="2025-10-06">Encodage de deux remarques issues de
                     l'édition de 1688.</change>
                 <change who="#mdaeninckx" when="2025-10-21">Ajout de la structure générale de
-                    l'ouvrage dans le body et dans le revisionDesc. J'ai également changer les deux
+                    l'ouvrage dans le body et dans le revisionDesc. J'ai également changé les deux
                     remarques choisies pour l'ouvrage de 1688..</change>
                 <change who="#mdaeninckx" when="2025-11-03">Encodage des variantes et différences entre
-                l'édition de 1688 et celle 1691.</change>
+                    l'édition de 1688 et celle 1691.</change>
+                <change who="#mdaeninckx" when="2025-11-17">Ajout dans l'encodingDesc de deux glyphes.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
-
+    
     <text>
         <body>
             <div1 type="part" n="1">
@@ -114,7 +124,7 @@
                     écrivant de quelque art ou de quelque ſcience que ce ſoit, échaper à toute ſorte
                     de critique, &amp; enlever les ſuffrages de tous ſes Lecteurs. [...]</p>
             </div1>
-
+            
             <div1 type="part" n="2">
                 <head type="title">Les caractères de Théophraste</head>
                 <head type="subtitle">traduits du grec</head>
@@ -131,13 +141,13 @@
                             <rdg source="#ed3_ex1">la</rdg>
                             <rdg source="#ed6_ex1">ja</rdg>
                         </app>
-                         Grece eſtant placée ſous un même ciel, &amp; les Grecs nourris &amp;
+                        Grece eſtant placée ſous un même ciel, &amp; les Grecs nourris &amp;
                         élevez de la 
                         <app>
                             <rdg source="#ed3_ex1">meſme</rdg>
                             <rdg source="#ed6_ex1">même</rdg>
                         </app>
-                         maniere, il ſe trouve neanmoins ſi peu de reſſemblance
+                        maniere, il ſe trouve neanmoins ſi peu de reſſemblance
                         dans leurs mœurs. [...]</p>
                 </div2>
                 <div2 type="table_of_contents" source="#ed3_ex1">
@@ -169,7 +179,7 @@
                 </div2>
                 <!-- Il reste encore à encoder les chapitres suivants -->
             </div1>
-
+            
             <div1 type="part" n="3">
                 <head type="title">Les caractères</head>
                 <head type="subtitle">ou les moeurs de ce siècle</head>
@@ -187,13 +197,13 @@
                         j'ay emprunté de luy la matiere de cet ouvrage
                         <app>
                             <rdg source="#ed3_ex1">,</rdg>
-                            <rdg source="#ed6_ex1">;</rdg>
+                            <rdg source="#ed6_ex1"> ;</rdg>
                         </app>
-                         il eſt juſte que l'ayant achevé avec toute l'attention pour la verité dont je ſuis capable, &amp; qu'il merite de moy,
+                        il eſt juſte que l'ayant achevé avec toute l'attention pour la verité dont je ſuis capable, &amp; qu'il merite de moy,
                         je luy en faſſe la reſtitution : il peut regarder avec loiſir ce portrait
                         que j'ay fait de luy d'aprés nature
                         <app>
-                            <rdg source="#ed3_ex1">;</rdg>
+                            <rdg source="#ed3_ex1"> ;</rdg>
                             <rdg source="#ed6_ex1">,</rdg>
                         </app>
                         &amp; s'il ſe connoiſt quelques-uns des 
@@ -201,7 +211,7 @@
                             <rdg source="#ed3_ex1">defauts</rdg>
                             <rdg source="#ed6_ex1">défauts</rdg>
                         </app>
-                         que je touche, s'en corriger. [...]</p>
+                        que je touche, s'en corriger. [...]</p>
                 </div2>
                 <div2 type="table_of_contents" source="#ed3_ex1">
                     <!-- Cette partie contient la table des matières de la partie "Les caractères ou les moeurs de ce siècle" -->
@@ -226,7 +236,7 @@
                                 <rdg source="#ed3_ex1">Anciens</rdg>
                                 <rdg source="#ed6_ex1">anciens</rdg>
                             </app>
-                             &amp; les habiles d'entre les
+                            &amp; les habiles d'entre les
                             <app>
                                 <rdg source="#ed3_ex1">Modernes</rdg>
                                 <rdg source="#ed6_ex1">modernes</rdg>
@@ -249,7 +259,7 @@
                                 <rdg source="#ed3_ex1">gouſt</rdg>
                                 <rdg source="#ed6_ex1">goût</rdg>
                             </app>
-                             &amp; à nos ſentimens ; c'eſt une trop grande entrepriſe.</p>
+                            &amp; à nos ſentimens ; c'eſt une trop grande entrepriſe.</p>
                     </div3>
                     <div3 type="remark">
                         <p source="#ed6_ex1">Entre toutes les differences expreſſions qui peuvent rendre une ſeule de nos penſées,
