@@ -43,6 +43,7 @@
      <revisionDesc>
          <listChange>
              <change when="2025-10-06">Création des métadonnées.</change>
+             <change when="2025-11-18">ajout d'une balise app sur une remarque.</change>
          </listChange>
      </revisionDesc>
  </teiHeader>
@@ -64,7 +65,7 @@
         <div3 type="chapter">
             <div4 type="remark">
                 <div5 type="paragraph">
-                <p decls="#ed3">C'est beaucoup tirer de nôtre amy, si ayant monté à une grande faveur, il est encore un homme de nôtre connoissance.</p>
+                <p decls="#ed3">L'air de  Cour est contagieux, il se prend à * *, comme l'accent Normand à Roüen ou à Falaise ; on l'entrevoit en des Fouriers, en de petits Contrôleurs <app><rdg source="#ed5">contrôleur</rdg></app>, et en des Chefs <app><rdg source="#ed5">chefs</rdg></app> de fruiterie ; l'on peut avec une portée d'esprit fort médiocre y faire de grands progrez : Un homme d'un génie élevé et d'un mérite solide ne fait pas assez de cas de cette espece de talent pour faire son capital de l'étudier et se le rendre propre ; il l'acquiert sans réflexion et il ne pense point à s'en défaire.  </p>
                 </div>
             </div>
             <div type="remark">
