@@ -46,6 +46,16 @@
                 <p>Pour le corpus, les deux premières remarques page 106 ont été choisies. La langue d'origine et la graphie
                     originelles ont été conservées.</p>
             </samplingDecl>
+            <charDecl>
+                <char xml:id="pm1">
+                    <value>¶</value>
+                    <desc>Le pied de mouche est utilisé pour notifier le début d'une remarque.</desc>
+                </char>
+                <char xml:id="pm3">
+                    <desc>Pied de mouche à parenthèses doubles</desc>
+                <value>((¶))</value>
+                </char>
+            </charDecl>
         </encodingDesc>
         <revisionDesc>
             <list>
@@ -63,13 +73,13 @@
             <div1 n="1" xml:id="LesCaractèresdeThéophraste">
                 <!-- Div de niveau 1 englobant la partie des caractères de Théophraste  -->
                 <head>Les Caractères de Théophraste - Traduit du grec</head>
-                 <div2 type="Introduction" corresp="#LesCaractèresdeThéophraste">
+                <div2 type="Introduction" corresp="#LesCaractèresdeThéophraste">
                     <!-- Introduction des Caractères de Théophraste -->
                 </div2>
                 <div2 type="sommaire" corresp="#LesCaractèresdeThéophraste">
                     <!-- Sommaire des Caractères de Théophraste -->
                 </div2>
-
+                
                 <div2 type="chapitres" corresp="#LesCaractèresdeThéophraste">
                     <head>De la Dissimulation</head>
                     <!-- Chapitres des Caractères de Théophraste -->
@@ -86,12 +96,12 @@
                     <div3 type="introduction" corresp="#LesCaractèredeLaBruyère #chapitre1">
                     </div3>
                     <div3 type="remarque" source="#car1688" corresp="chapter1 #ed3_ex1">                           
-                <head>Des ouvrages de l’Esprit - page 106</head>
+                        <head>Des ouvrages de l’Esprit - page 106</head>
                         <p>Tout est dit, et l’on vient trop tard depuis plus de sept mille ans qu’il y a des hommes, et qui
                             pensent. Sur ce qui concerne les mœurs, le plus beau et le meilleur est enlevé ; l’on ne fait que
                             glaner après les anciens et les habiles d’entre les modernes.</p>                            
-                    <p>¶ Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à notre goût et
-                        à nos sentiments ; c’est une trop grande entreprise.</p>
+                        <p>¶ Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à notre goût et
+                            à nos sentiments ; c’est une trop grande entreprise.</p>
                         <p>¶ C’est un métier que de faire un livre comme de faire une pendule ; 
                             <app><rdg source="#car1688">Il</rdg></app>
                             <app><rdg source="#carl690">il</rdg></app>  
@@ -103,9 +113,9 @@
                             <app><rdg source="#carl690">il</rdg></app> 
                             estoit homme délié et pratic dans les affaires ; il a fait imprimer un ouvrage moral
                             qui est rare par le ridicule.</p>
-                </div3>
-            </div2>
-        </div1>
-     </body>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
     </text>
 </TEI>
