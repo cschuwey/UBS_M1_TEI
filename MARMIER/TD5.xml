@@ -35,11 +35,11 @@
             <projectDesc>
                 <p>Deux remarques venant de deux éditions différentes de livre Les caractères Théophraste de Jean deLa Bruyère, 1688, 1690.</p>
             </projectDesc>
-                <samplingDecl>
-                    <p>Pour ce qui est de la structure, j'ai fais un seule div1, qui est le parent, et qui englobe toute les informations de l'oeuvre, puisqu'il sagit d'un seul et même livre. 
+            <samplingDecl>
+                <p>Pour ce qui est de la structure, j'ai fais un seule div1, qui est le parent, et qui englobe toute les informations de l'oeuvre, puisqu'il sagit d'un seul et même livre. 
                     Puis, j'ai coupé le livre en deux parties, que j'ai is en tant qu'enfants. La première partie étant les discours de Théophraste, puis la deuxième sur les caractères ou les moeurs du siècle.
                     J'ai enuite, mis des petits-enfants, comprenant la préface, le sommaire, et les chapitres de chacune des deux parties.</p>
-                </samplingDecl>
+            </samplingDecl>
         </encodingDesc>
         
         <revisionDesc>
@@ -50,40 +50,41 @@
             </list>
         </revisionDesc>
     </teiHeader>  
-<text>
-    <body>
-        
-        <div1 type="title" source="ed3">
+    <text>
+        <body>
+            
+            <div1 type="title" source="ed3">
                 <!--Les Caractères de Théophraste-->
-               <div2 type="partie" n="1">
-                   <!-- Discours sur Theophraste --></div2>
-               <div2 type="partie" n="2">
-                   <!-- Les Caracteres de Theophraste -->
-               <div3 type="préface"></div3>
-               <div3 type="contenu"></div3>
-               <div3 type="chapitre" n="1">
-                   <!-- De la Dissimulation -->
-               </div3>
-               <div3 type="chapitre" n="28">
-                   <!-- De la Médisance -->
-               </div3>
-             </div2>
-           
-            <div2 type="title" n="2" source="ed3">
-                <!-- Les Cactères ou les Moeurs de ce siècle -->
-                <div3 type="chapitre" n="2"></div3>
-                <div3 type="chapitre">
-                    <!-- Des Ouvrages de l'esprit -->
-                <div4 type="remarque">
-                    <p>Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à notre <app type="accent"><Le source="#P-e3">goust<Le source="#P-e5">goût</app> à nos sentimens ; c'est une tro grande entreprise.</p>
-                    <p>Si l'on <app type="accent"><Le source="#P-e3">oste<Le source="#P-e5">ôte</Le></app> de beaucoup d'ouvrages de morale l'Avertissement au Lecteur,l'Epistre dicatoire, la Preface, la Table, les Approbation, il reste à peine assez de pages pour meriter le nom de livre.<p>
-                    <p>La vie des Heros a enrichi l'histoire, et <app type="majuscule"><Le source="#P-e3">l'histoire<Le source="#P-e5">l'Histoire</app> a embelli les actions des Heros : ainsi je sais qui sont plus redevables, ou ceux qui ont écrit <app type="majuscule"><Le source="#P-e3">l'histoire</Le><Le source="#P-e5">l'Histoire</app> à ceux qui leur en ont fourni une si noble matiere, ou ces grands Hommes à leurs Historiens.</p>
-                    </div4>
-                </div3>
-                <div3 type="épilogue">
-                    <!-- Extrait du Privilege du Roy --></div3>
-               </div2>
+                <div2 type="partie" n="1">
+                    <!-- Discours sur Theophraste --></div2>
+                <div2 type="partie" n="2">
+                    <!-- Les Caracteres de Theophraste -->
+                    <div3 type="préface"></div3>
+                    <div3 type="contenu"></div3>
+                    <div3 type="chapitre" n="1">
+                        <!-- De la Dissimulation -->
+                    </div3>
+                    <div3 type="chapitre" n="28">
+                        <!-- De la Médisance -->
+                    </div3>
+                </div2>
+                
+                <div2 type="title" n="2" source="ed3">
+                    <!-- Les Cactères ou les Moeurs de ce siècle -->
+                    <div3 type="chapitre" n="2"></div3>
+                    <div3 type="chapitre">
+                        <!-- Des Ouvrages de l'esprit -->
+                        <div4 type="remarque">
+                            <p>Il faut chercher seulement à penser et à parler juste, sans vouloir amener les autres à notre <app type="accent"> <rdg source="#P-e3">goust</rdg> <rdg source="#P-e5">goût</rdg> </app> à nos sentimens ; c'est une tro grande entreprise.</p>
+                            <p>Si l'on <app type="accent"> <rdg source="#P-e3">oste</rdg> <rdg source="#P-e5">ôte</rdg></app> de beaucoup d'ouvrages de morale l'Avertissement au Lecteur,l'Epistre dicatoire, la Preface, la Table, les Approbation, il reste à peine assez de pages pour meriter le nom de livre.</p>
+                                <p>La vie des Heros a enrichi l'histoire, et <app type="majuscule"> <rdg source="#P-e3">l'histoire</rdg> <rdg source="#P-e5">l'Histoire</rdg> </app> a embelli les actions des Heros : ainsi je sais qui sont plus redevables, ou ceux qui ont écrit <app type="majuscule"> <rdg source="#P-e3"> l'histoire </rdg> <rdg source="#P-e5">l'Histoire</rdg></app> à ceux qui leur en ont fourni une si noble matiere, ou ces grands Hommes à leurs Historiens.</p>
+                        </div4>
+                    </div3>
+                    <div3 type="épilogue">
+                        <!-- Extrait du Privilege du Roy --></div3>
+                </div2>
             </div1>
-       </body>
-   </text> 
+        </body>
+    </text> 
 </TEI>
+
