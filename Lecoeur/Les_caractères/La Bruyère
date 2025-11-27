@@ -51,15 +51,26 @@
                     <p>Transcription avec l'orthographe d'origine.</p>
                 </interpretation>
             </editorialDecl>
+            <p>L'ouvrage est découpé en 3 div type="book"
+                Chaque book est découpé en div type="chapter"
+                Chaque chapter est découpé en p et div type="remark"
+                    ces éléments ont des @source
+                Les tables de matières sont des list d' item où sont créés des xml:id pour chaque remark.
+                !! Cependant chaque head avec un @corresp a pour l'instant un @n = au même @n de l'item correspondant pour le xsl,
+                je ne comprends pas pourquoi (xsl:value-of select="//tei:item[@xml:id=preceding-sibling/@corresp]/@n"/) ne fonctionne pas...
+            </p>
         </encodingDesc>
         <revisionDesc>
+            <change when="2025-11-27" who="#LLecoeur">Correction typo + triche pour avoir tous les head[@corresp] avec un @n de son item correspondant.</change>
+            <change when="2025-11-03" who="#LLecoeur">Devoir rendu TD6.</change>
+            <change when="2025-10-20" who="#LLecoeur">Devoir rendu TD5.</change>
             <change when="2025-10-18" who="#LLecoeur">Devoir rendu.</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front>
             <div type="title">
-                <head>Les caracteres de Theophraste trdauits du grec : avec Les caracteres ou Les
+                <head>Les caracteres de Theophraste traduits du grec : avec Les caracteres ou Les
                     moeurs de ce siecle.</head>
                 <head>Troisième edition.</head>
             </div>
@@ -67,7 +78,7 @@
         <body>
 
             <div type="book" n="1">
-                <head>Discours sur Theophraste</head>
+                <head xml:id="B1">Discours sur Theophraste</head>
                 <div type="chapter" n="1">
                     <p><hi>J</hi>En'estime pas que [...]</p>
                     <p>[...]</p>
@@ -81,9 +92,9 @@
             </div>
 
             <div type="book" n="2">
+                <head xml:id="B2">Les caracteres de Theophraste</head>
+                <head>Traduits du grec.</head>
                 <div type="chapter" n="0">
-                    <head>Les caracteres de Theophraste</head>
-                    <head>Traduits du grec.</head>
                     <p>[...]</p>
                     <p>[...]</p>
                 </div>
@@ -123,22 +134,22 @@
                 </div>
                 <div type="chapter">
                     <!-- Ici, ne pouvant pas mettre ce @type à l'élément <item> je le mets ici mais je trouve que ce n'est pas parfait du tout -->
-                    <head corresp="#B2CH1">De la Diſſimulation</head>
+                    <head corresp="#B2CH1" n="1">De la Diſſimulation</head>
                     <p><hi>L</hi>A <note type="indication" place="margin"
                                 >L'<persName>auteur</persName> parle de celle qui ne vient pas de la
                             prudence, &amp; que les Grecs appelloient ironie.</note> diſſimulation
                         n'eſt pas aiſée à bien définir; [...]</p>
                 </div>
                 <div>
-                    <head corresp="#B2CH2">De la Flatterie</head>
+                    <head corresp="#B2CH2" n="2">De la Flatterie</head>
                     <p><hi>L</hi>A flatterie eſt un commerce honteux [...]</p>
                 </div>
                 <!-- etc... -->
             </div>
 
             <div type="book" n="3">
+                <head xml:id="B3">Les caracteres ou Les moeurs de ce siecle</head>
                 <div type="chapter" n="0">
-                    <head>Les caracteres ou Les moeurs de ce siecle</head>
                     <p>[...]</p>
                     <p>[...]</p>
                 </div>
@@ -166,7 +177,7 @@
                 </div>
                 <div type="chapter">
                     <!-- Ici, ne pouvant pas mettre ce @type à l'élément <item> je le mets ici mais ce n'est pas parfait du tout -->
-                    <head corresp="#B3CH1">Des ouvrages de l'eſprit</head>
+                    <head corresp="#B3CH1" n="1">Des ouvrages de l'eſprit</head>
                     <p><hi>T</hi>OuT eſt dit, [...]</p>
                     <div type="remark" n="1" source="#ed3-88" xml:id="B3CH2R1">
                         <p>¶ Il faut chercher ſeulement à penſer &amp; à parler juſte, [...]</p>
@@ -178,7 +189,7 @@
                 <div type="chapter">
                     <!-- Ici, ne pouvant pas mettre ce @type à l'élément <item> je le mets ici mais ce n'est pas parfait du tout -->
                     <!-- page imprimé/pdf 147/213 de 88 page 175/230 de 90 -->
-                    <head corresp="#B3CH5">De la Société &amp; de la Converſation</head>
+                    <head corresp="#B3CH5" n="5">De la Société &amp; de la Converſation</head>
                     <p>[...]</p>
                     <div type="remark" n="1" source="#ed3-88 ed5-90" xml:id="B3CH5R1">
                         <p>¶ C'eſt le rôle d'un ſot d'eſtre importun : un homme habile ſent s'il convient,<app>
@@ -194,8 +205,8 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="11">
-                    <head corresp="#B3CH11">De l'Homme</head>
+                <div type="chapter">
+                    <head corresp="#B3CH11" n="11">De l'Homme</head>
                     <p>[...]</p>
                     <div type="remark" n="1" source="#ed3-88 ed5-90" xml:id="B3CH11R1">
                         <p>[...]</p>
