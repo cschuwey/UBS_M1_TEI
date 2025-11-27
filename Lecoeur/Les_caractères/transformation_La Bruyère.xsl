@@ -33,8 +33,14 @@
     </xsl:template> -->
 
     <xsl:template match="tei:div[@type='remark']">
-        <p> Une remarque : <br/>
+        <p> Remarque numéro <xsl:value-of select="@n"/> du chapitre <!-- <xsl:value-of select="preceding/@corresp"/> <xsl:value-of select="//tei:item[@xml:id=preceding-sibling/@corresp]/@n"/> --><xsl:value-of select="preceding-sibling/@n"/> :  <br/>
             <xsl:apply-templates/>
+            <!-- Je suis vraiment embêté car :
+                - <xsl:value-of select="@n[1]"/> ne fonctionne pas...
+                - je voudrais faire des select avec des attributs variables appelées en fonction de où je me situe dans XPath, est-ce que c'est possible ?
+                - je sais que je n'aurais pas dû commencer à améliorer mon code alors que je dois travailler d'autres dossiers à rendre.
+             -->
+            
         </p>
     </xsl:template>
 
