@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:tei="http://www.tei-c.org/ns/1.0"
+   exclude-result-prefixes="xs" version="2.0">
+   <xsl:output method="text"/>
+   <xsl:strip-space elements="*"/>
+  
+   <xsl:template match="tei:TEI">
+       <H1><xsl:apply-templates select="//tei:headCencestar::tei:title"/></H1>
+       <xsl:apply-templates/>
+       <p>
+           <xsl:apply-templates select="//tei:app[@ancestor::p]"/>
+       </p>
+       <xsl:apply-templates match="//tei:p[@remarque]"/>
+           <p></p>
+   </xsl:template>
+  <xsl:apply-templates count="//p[@remarque]"/>
+<xsl:apply-templates match=”color”/>
+<font color=”FF000”>
+<xsl:value-of select=”//tei:rdg[@source=”ed03”]/>
+</font>
+  <xsl:apply-tempplates select="//tei:p[@remarque]"/>
+</xsl:stylesheet>
