@@ -12,7 +12,7 @@
             <body>
                 <h1><xsl:apply-templates select="//tei:body/tei:div1/tei:head[@source='n=1']"></xsl:apply-templates></h1>
                 <!--Pour obtenir le h1, j'ai ajouté une source indiquant que c'est le premier de body-->
-                <p><span style="color:red"><xsl:apply-templates select="//tei:rdg[@source='#Ed7_ex1']"/></span></p>
+                <p><xsl:apply-templates select="//tei:rdg[@source='#Ed7_ex1']"/></p>
                 
                 
                 
