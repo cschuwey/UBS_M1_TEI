@@ -23,7 +23,7 @@
     
     <xsl:template match="tei:app">
         <span style="color:red">
-            <xsl:apply-templates select="tei:rdg[@corresp='#ed5']"/>
+            <xsl:apply-templates select="//tei:rdg[@corresp='#ed5']"/>
         </span>
     </xsl:template>
     
