@@ -12,7 +12,7 @@
                     <title>Titre de l'œuvre</title>
             </head>
             <body>
-                <h1><xsl:apply-templates select="//tei:body/tei:div1[@type='chapter1']/tei:head"></xsl:apply-templates></h1>
+                <h1><xsl:apply-templates select="//tei:body/tei:div1[@type='partie1']/tei:head"></xsl:apply-templates></h1>
                 <p><xsl:apply-templates select="//tei:body//tei:div5[@type='remark']/tei:p"></xsl:apply-templates></p>
                 Nombre de remark dans le ficher : <xsl:value-of select="count(//tei:div5[@type='remark'])"/>
             </body>
