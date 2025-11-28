@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+
+        <fileDesc>
+            <titleStmt>
+                <title>Les Caractères de Théophraste</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publié par E. Michallet à Lyon, 1688 et 1690.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="ed3">
+                    <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou moeurs de ce siècle. [Par J. de La Bruyère.] [Texte imprimé]</title>
+                    <author ref="ark:/12148/cb11910249z">
+                        <surname>La Bruyère</surname>
+                        <name>Jean de</name>
+                    </author>
+                    <date when="1688">1688</date>
+                    <edition>3e édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Lyon</pubPlace>
+                </bibl>
+                <bibl xml:id="ed5">
+                    <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle. [Par J. de La Bruyère.] (5e éd.)</title>
+                    <author ref="ark:/12148/bpt6k8704023j">
+                        <surname>La Bruyère</surname>
+                        <name>Jean de</name>
+                    </author>
+                    <date when="1690">1690</date>
+                    <edition>5e édition</edition>
+                    <publisher>E. Michallet</publisher>
+                    <pubPlace>Lyon</pubPlace>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <p>Les remarques traduites ont été modernisées, elles ne sont pas propres à la version originale.</p>
+            <p>Le texte a été encodé selon les normes TEI pour la représentation des annotations et des métadonnées.</p>
+            <p>Le privilège du roi a été placé dans le back, car il ne fait pas partie du cœur de l'œuvre. Le reste a été mis dans le body pour plus de cohérence.</p>
+        </encodingDesc>
+
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2025-10-07">7 octobre 2025</date> Dernière révision par Yness, encodage de la page 108 de "ed3", version de 1688
+                </item>
+                <item>
+                    <date when="2025-10-10">10 octobre 2025</date> Dernière révision par Yness, encodage de la page 120 de "ed5", version de 1690
+                </item>
+                <item>
+                    <date when="2025-11-01">01 novembre 2025</date> Dernière révision par Yness, encodage en div de la version de 1688 pour structurer l'œuvre (choix expliqués dans encoding desc)
+                </item>
+            </list>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="book" n="1" source="#ed3">
+                <!-- Les Caractères de Théophraste -->
+                <div type="part" n="1">
+                    <!-- Discours sur Théophraste -->
+                </div>
+                <div type="part" n="2">
+                    <!-- Les Caractères de Théophraste -->
+                    <div type="preface"></div>
+                    <div type="toc">
+                        <list>
+                            <item>
+                                <label>De la Dissimulation</label>
+                                <num type="page">6</num>
+                            </item>
+                            <item>
+                                <label>De la Flatterie</label>
+                                <num type="page">9</num>
+                            </item>
+                            <item>
+                                <label>De l’Impertinent, ou du diseur de rien</label>
+                                <num type="page">14</num>
+                            </item>
+                            <item>
+                                <label>De la Rusticité</label>
+                                <num type="page">17</num>
+                            </item>
+                            <item>
+                                <label>Du Complaisant</label>
+                                <num type="page">21</num>
+                            </item>
+                            <item>
+                                <label>De l’Image d’un Coquin</label>
+                                <num type="page">25</num>
+                            </item>
+                            <item>
+                                <label>Du Grand Parleur</label>
+                                <num type="page">29</num>
+                            </item>
+                            <item>
+                                <label>Du Débit des nouvelles</label>
+                                <num type="page">33</num>
+                            </item>
+                            <item>
+                                <label>De l’Effronterie causée par l’avarice</label>
+                                <num type="page">37</num>
+                            </item>
+                            <item>
+                                <label>De l’Épargne sordide</label>
+                                <num type="page">40</num>
+                            </item>
+                            <item>
+                                <label>De l’Impudent, ou de celui qui ne rougit de rien</label>
+                                <num type="page">44</num>
+                            </item>
+                            <item>
+                                <label>Du Contre-temps</label>
+                                <num type="page">49</num>
+                            </item>
+                            <item>
+                                <label>De l’Air empressé</label>
+                                <num type="page">52</num>
+                            </item>
+                            <item>
+                                <label>De la Stupidité</label>
+                                <num type="page">54</num>
+                            </item>
+                            <item>
+                                <label>De la Brutalité</label>
+                                <num type="page">57</num>
+                            </item>
+                            <item>
+                                <label>De la Supersition</label>
+                                <num type="page">59</num>
+                            </item>
+                            <item>
+                                <label>De l’Esprit chagrin</label>
+                                <num type="page">62</num>
+                            </item>
+                            <item>
+                                <label>De la Défiance</label>
+                                <num type="page">65</num>
+                            </item>
+                            <item>
+                                <label>D’un Vilain homme</label>
+                                <num type="page">68</num>
+                            </item>
+                            <item>
+                                <label>D’un homme Incommode</label>
+                                <num type="page">71</num>
+                            </item>
+                            <item>
+                                <label>De la sotte Vanité</label>
+                                <num type="page">73</num>
+                            </item>
+                            <item>
+                                <label>De l’Avarice</label>
+                                <num type="page">76</num>
+                            </item>
+                            <item>
+                                <label>De l’Ostentation</label>
+                                <num type="page">79</num>
+                            </item>
+                            <item>
+                                <label>De l’Orgueil</label>
+                                <num type="page">83</num>
+                            </item>
+                            <item>
+                                <label>De la peur, ou du défaut de courage</label>
+                                <num type="page">86</num>
+                            </item>
+                            <item>
+                                <label>Des Grands d’une République</label>
+                                <num type="page">90</num>
+                            </item>
+                            <item>
+                                <label>D’une tardive Instruction</label>
+                                <num type="page">93</num>
+                            </item>
+                            <item>
+                                <label>De la Médisance</label>
+                                <num type="page">95</num>
+                            </item>
+                        </list>
+                    </div>
+                </div>
+
+                <div type="part" n="3">
+                    <!-- Les caractères ou les moeurs de ce siècle -->
+                    <div type="toc">
+                        <list>
+                            <item>
+                                <label>Des Ouvrages de l’esprit</label>
+                                <num type="page">106</num>
+                            </item>
+                            <item>
+                                <label>Du Mérite Personnel</label>
+                                <num type="page">122</num>
+                            </item>
+                            <item>
+                                <label>Des Femmes</label>
+                                <num type="page">131</num>
+                            </item>
+                            <item>
+                                <label>Du Cœur</label>
+                                <num type="page">142</num>
+                            </item>
+                            <item>
+                                <label>De la Société et de la Conversation</label>
+                                <num type="page">147</num>
+                            </item>
+                            <item>
+                                <label>Des Biens de Fortune</label>
+                                <num type="page">164</num>
+                            </item>
+                            <item>
+                                <label>De la Ville</label>
+                                <num type="page">177</num>
+                            </item>
+                            <item>
+                                <label>De la Cour</label>
+                                <num type="page">182</num>
+                            </item>
+                            <item>
+                                <label>Des Grands</label>
+                                <num type="page">200</num>
+                            </item>
+                            <item>
+                                <label>Du Souverain</label>
+                                <num type="page">210</num>
+                            </item>
+                            <item>
+                                <label>De l’Homme</label>
+                                <num type="page">219</num>
+                            </item>
+                            <item>
+                                <label>Des Jugements</label>
+                                <num type="page">257</num>
+                            </item>
+                            <item>
+                                <label>De la Mode</label>
+                                <num type="page">267</num>
+                            </item>
+                            <item>
+                                <label>De quelques Usages</label>
+                                <num type="page">272</num>
+                            </item>
+                            <item>
+                                <label>De la Chaire</label>
+                                <num type="page">280</num>
+                            </item>
+                            <item>
+                                <label>Des Esprits forts</label>
+                                <num type="page">287</num>
+                            </item>
+                        </list>
+                    </div>
+                    <div type="remarque" source="#ed3">
+                        <head>Les caractères</head>
+                        
+                        <p>
+                            <pb n="108" ed="ed3"/> Il y a de certaines choses dont la médiocrité est
+                            insupportable, la Poésie, la Musique, la Peinture, Le discours public.
+                        </p>
+                        
+                        <p>
+                            L'on n'a guère vu jusqu'à présent un chef d'œuvre d'esprit qui fait l'ouvrage
+                            de plusieurs; Homère a fait l'Iliade, Virgile l'Énéide, Tite-Live ses décennies,
+                            et L'orateur romain ses oraisons.
+                        </p>
+                        
+                        <div type="remarque">
+                            <p>
+                                <pb n="120" ed="ed5"/>
+                                Un homme né chrétien et français se trouve contraint dans la satire, les grands sujets lui sont défendus;
+                                il les entame quelquefois, et se détourne ensuite sur de petites choses qu'il relève par la beauté de son génie et de son style.
+                            </p>
+                        </div>
+                        
+                        <div type="remarque">
+                            <p>
+                                Il faut éviter le style vain et puéril, de peur de se ressembler à Dorilas et Handburg;
+                                on peut au contraire, dans une forte écriture, hasarder certaines expressions, utiliser des termes transposés
+                                qui peignent vivement, et plaindre ceux qui ne tentent pas le plaisir qu'il y a à s'en servir ou à les entendre.
+                            </p>
+                        </div>
+                </div>
+            </div>
+
+           
+
+                <!-- Variante 1 : Préface -->
+                <!--           <p xml:id="variante_preface">
+                    <app>
+                        <lem>Il n'y a rien de plus difficile que d'éviter la critique.</lem>
+                        <rdg wit="#ed3">Il n'y a rien de plus difficile que d'éviter la critique.</rdg>
+                        <rdg wit="#ed5">la censure des esprits.</rdg>
+                    </app>
+                </p>-->
+
+                <!-- Variante 2 : Chapitre sur la Cour -->
+                
+                <!-- <p xml:id="variante_cour">
+                    <app>
+                        <lem>La Cour ne rend pas les hommes meilleurs, mais plus polis.</lem>
+                        <rdg wit="#ed3">La Cour ne rend pas les hommes meilleurs, mais plus polis.</rdg>
+                        <rdg wit="#ed5">mais elle les adoucit et les façonne.</rdg>
+                    </app>
+                </p>-->
+                <!-- Variante 3 : Portrait moral -->
+                <!--  <p xml:id="variante_portrait">
+                    <app>
+                        <lem>Un homme orgueilleux ne voit que lui-même.</lem>
+                        <rdg wit="#ed3">Un homme orgueilleux ne voit que lui-même.</rdg>
+                        <rdg wit="#ed5">n'aperçoit les autres que pour se préférer à eux.</rdg>
+                    </app>
+                </p>-->
+            </div>
+        </body>
+
+        <back>
+            <div type="privilège">
+                <!-- Extrait du privilège du Roy -->
+            </div>
+        </back>
+    </text>
+</TEI>
+
