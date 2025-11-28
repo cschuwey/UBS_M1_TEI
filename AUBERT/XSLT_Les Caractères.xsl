@@ -20,7 +20,7 @@
         </html>
     </xsl:template>
     
-    <xsl:template match="tei:p[ancestor::tei:app[@source='Ed7_ex1']]">
+    <xsl:template match="tei:p[ancestor::tei:rdg[@source='Ed7_ex1']]">
         <p><span style="color:red"><xsl:apply-templates/></span></p>
     </xsl:template>
 </xsl:stylesheet>
