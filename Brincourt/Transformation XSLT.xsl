@@ -8,7 +8,7 @@
         <html>
             <head>
                 <meta charset="UTF-8"/>
-                    <title>Titre de l'œuvre</title>
+                    <title><xsl:apply-templates select="//tei:teiHeader//tei:titleStmt/tei:title"/></title>
             </head>
             <body>
                 <h1><xsl:apply-templates select="//tei:body//div3"></xsl:apply-templates>Grand titre</h1>
