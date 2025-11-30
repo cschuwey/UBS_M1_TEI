@@ -36,10 +36,9 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Texte encodé au format XML. 
-                    div1 correspond à l'ensemble de l'oeuvre. 
-                    div2 correspond à chaque chapitre 
-                    div3 correspond aux remarques. C'est une approche zoomée sur l'oeuvre. </p>
+                <p>Texte encodé au format XML. div1 correspond à l'ensemble de l'oeuvre. div2
+                    correspond à chaque chapitre div3 correspond aux remarques. C'est une approche
+                    zoomée sur l'oeuvre. </p>
             </projectDesc>
             <charDecl>
                 <glyph xml:id="pieddemouche">
@@ -243,6 +242,8 @@
                                 <rdg corresp="#ed3_ex1">,</rdg>
                                 <rdg corresp="#ed3_ex2"/>
                             </app> qui est rare par le ridicule.</p>
+                    </div3>
+                    <div3 type="remark" source="#ed3_ex1">
                         <p><g ref="#pieddemouche">¶</g>Il y a dans l'art un point de perfection<app>
                                 <rdg corresp="#ed3_ex1">,</rdg>
                                 <rdg corresp="#ed3_ex2"/>
