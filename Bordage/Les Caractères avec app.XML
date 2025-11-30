@@ -77,7 +77,7 @@
         </front>
         
         <body>
-            <div1 source="#ed3_1688">
+            <div1 source="#ed3_1688" type="partie1">
                 <head>Les caractères de THEOPHRASTE</head>
                 <div2 type="chapter_1"><head>titre du chapitre 1</head>
                     <div3 type="remark_1" n="pX">
@@ -96,7 +96,7 @@
                 </div2>
             </div1>
             
-            <div1 source="#ed3_1688">
+            <div1 source="#ed3_1688" type="partie2">
                 <head>Les Caractères ou Les Moeurs de ce siècle.</head>
                 <div2 type="foreword" xml:id="avantpropos">
                     <head>Avant-propos</head>
