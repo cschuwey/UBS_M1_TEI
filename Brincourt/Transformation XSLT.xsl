@@ -11,7 +11,8 @@
                     <title><xsl:apply-templates select="//tei:teiHeader//tei:titleStmt/tei:title"/></title>
             </head>
             <body>
-                <h1><xsl:apply-templates select="//tei:body//div3"></xsl:apply-templates>Grand titre</h1>
+                <h1><xsl:apply-templates select="//tei:body//tei:div3//tei:p"></xsl:apply-templates>Grand titre</h1>
+                <xsl:apply-templates select="//tei:div3[@type='remark']//tei:p"/>
                 <h2>Titre de chapitre</h2>
                 <p>Premier paragraphe, avec <span style="color:red">du texte en rouge</span></p>
                 <p>Deuxième paragraphe</p>
