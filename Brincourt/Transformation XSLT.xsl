@@ -12,9 +12,10 @@
             </head>
             <body>
                 <h1><xsl:apply-templates select="//tei:body//tei:div3//tei:p"></xsl:apply-templates>Grand titre</h1>
-                <xsl:apply-templates select="//tei:div3[@type='remark']//tei:p"/>
+                <--! Mon travail n'est pas clair et mal abouti, je m'en excuse, c'est dû à une mauvaise gestion de mon temps dernièrement,
+                    je ferai mieux la prochaine fois.>
                 <h2>Titre de chapitre</h2>
-                <p>Premier paragraphe, avec <span style="color:red">du texte en rouge</span></p>
+                <p><xsl:apply-templates select="//tei:div3[@type='remark' @source='ed7']//tei:p"/> <span style="color:red"></span></p>
                 <p>Deuxième paragraphe</p>
             </body>
         </html>
