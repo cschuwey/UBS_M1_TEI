@@ -12,9 +12,9 @@
                 <title>Titre de l'oeuvre</title>
             </head>
             <body>
-                <h1><xsl:apply-templates select="//tei:div1[@type='part'] [@n='1']/tei:head[1]"/></h1>
+              <h1><xsl:apply-templates select="//tei:div1[@type='part'] [@n='1']/tei:head[1]"/></h1>
                 <h2>Titre de chapitre</h2>
-                </p><xsl:apply-templates select="//tei:body//tei:div3[@type='remark']/tei:p"/>
+                <xsl:apply-templates select="//tei:body//tei:div3[@type='remark']/tei:p"/>
             </body>
         </html>
         
@@ -22,10 +22,11 @@
         
         
     </xsl:template>
- <xsl:template match ="tei:div3[@type='remark']/tei:p">
+    <xsl:template match ="tei:div3[@type='remark']/tei:p">
         <p><xsl:apply-templates/></p>
-    <xsl:template match="//tei:body//tei:div3[@type='remark']/tei:p/tei:app/tei:rdg[@source='#ed3']">
-        <span style="color:red"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="tei:app">
+        <span style="color:red"><xsl:apply-templates select="tei:rdg[@source='#ed3']"/></span>
     </xsl:template>
     
 </xsl:stylesheet>
