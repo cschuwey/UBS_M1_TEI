@@ -1,17 +1,18 @@
-<xsl:stylesheet xmlns:xsl="Votre texte de paragraphe" xmlns:tei="Votre texte de paragraphe">
-  <xsl:template match="tei:TEI">
-    <h1> <xsl:apply-templates select="tei:title"/></h1>
-    <p><xsl:apply-templates select="tei:p/app"/></p>
-  </xsl:template>
-  <xsl:template match="tei:p[@remarque]">
-    <p></p>  
-  </xsl:template>
-  <xsl:template match="tei:app"> 
-<xsl:value-of select="count(tei:app)"/> 
-</xsl:template>
-<xsl:template match="tei:app[@source='#ed03']">
- <xsl:value-of select="tei:text/tei:app[@source='#ed03']"/>
- <xsl:apply-templates select="tei:p[@remarque]"/>
- <span style="color:red">du texte en rouge</span>
-  </xsl:template>
+<?xml version="1.0" encoding="UTF-8"?>
+  <xsl:stylesheet xmlns:xsl="Votre texte de paragraphe" xmlns:tei="Votre texte de paragraphe">
+        <xsl:template match="tei:title">
+            <h1> <xsl:apply-templates select="//tei:title"/></h1>
+        </xsl:template>
+    <xsl:template match="tei:div3">
+            <p><xsl:apply-templates select="//tei:p/tei:div3/tei:p"/></p>
+        </xsl:template>
+        <xsl:template match="tei:app"> 
+            <xsl:value-of select="count(tei:div3/tei:p)"/> 
+        </xsl:template>
+        <xsl:template match="tei:div3/tei:p[@source='#ed03']">
+            <span style="color:red">
+                <xsl:value-of select="//tei:div3/tei:p[@source='#ed03']"/>
+                <xsl:apply-templates select="//tei:div3/tei:p"/
+            </span>
+        </xsl:template>
 </xsl:stylesheet>
