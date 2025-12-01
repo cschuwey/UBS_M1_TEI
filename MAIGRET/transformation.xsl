@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:math="http://www.w3.org/2005/xpath-functions/math"
-    exclude-result-prefixes="xs math"
-    version="3.0">
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    exclude-result-prefixes="xs"
+    version="2.0">
     
-    <xsl:strip-space elements="*"/>
     <xsl:template match="tei:TEI">
         <html>
-            <head>
-                <meta charset="UTF-8"/>  
-                <title>
-                    <xsl:apply-templates select="//tei:teiHeader//tei:titleStmt/tei:title"/>
-                </title>
-            </head>
+            <head></head>
             <body>
-            <p>Je vous avoue ne pas DU TOUT avoir compris ;-;. 
-                Pour faire preuve d'honnêteté, la TEI a été mise carrément au second plan cette semaine, et je m'en excuse.
-            </p>
+                <h1><xsl:apply-templates select="//tei:div1[@n='2']/tei:head[@type='main']"/></h1>
+                <xsl:apply-templates select="//tei:div3[@type='remark']/tei:p"/>
             </body>
         </html>
+    </xsl:template>
+    
+    <xsl:template match="tei:head[@type='main']">
+        <h1><xsl:apply-templates/></h1>
+    </xsl:template>
+    
+    <xsl:template match="tei:div3[@type='remark']/tei:p">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match="tei:app">
+        <span style="color:red">
+            <xsl:apply-templates select="tei:rdg[@wit='#ed3']"/>
+        </span>
     </xsl:template>
     
 </xsl:stylesheet>
