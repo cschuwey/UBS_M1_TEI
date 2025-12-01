@@ -68,7 +68,7 @@
         <front>
             <div1 type="preface">
                 <head>Discours sur Théophraste</head>
-                <p>Contenu du discours</p>
+                <p>(Contenu du discours)</p>
             </div1>
         </front>
         <body>
@@ -76,75 +76,87 @@
                 <head type="main">Caractères de Théophraste</head>
                 <head type="sub">Traduits du Grec</head>
                 <p>Présentation des Caractères</p>
-                <div2 type="Chapter" xml:id="chapter1-p2">
+                <div2 type="Chapter" n="1" xml:id="chapter1-p2">
                     <head type="main">De la Dissimulation</head>
                     <div3 type="remark" n="1-1" source="#car1694">
                         <p>La Diſſimulation...</p>
                     </div3>
                 </div2>
-                <div2 type="Chapter" xml:id="chapter2-p4">
+                <div2 type="Chapter" n="2" xml:id="chapter2-p4">
                     <head type="main">De la Flatterie</head>
                     <div3 type="remark" n="2-1" source="#car1694">
                         <p>La Flatterie...</p>
                     </div3>
                 </div2>
-                <div2 type="Chapter" xml:id="chapter3-p7">
+                <div2 type="Chapter" n="3" xml:id="chapter3-p7">
                     <head type="main">De l'Impertinent</head>
                     <head type="sub">Ou du diseur de Rien</head>
                     <div3 type="remark" n="3-1" source="#car1694">
                         <p>La forte envie...</p>
                     </div3>
                 </div2>
-                <div2 type="Chapter" xml:id="chapter42-p594">
+                <div2 type="Chapter" n="42" xml:id="chapter42-p594">
                     <head>De quelques Usages</head>
                     <!-- Edition de 1688 - page 324 (Page 333 du document pdf) -->
                     <!-- Edition de 1694 - page 594 (Page 627 du document pdf) -->
                     <div3 type="remark" n="42-1" source="#car1694">
                         <p>Il y a des gens qui n'ont pas le moyen d'<app>
                                 <rdg source="#car1694">ê</rdg>
-                                <rdg source="#car1688">ef</rdg>
+                            <rdg source="#car1688">eſ</rdg>
                             </app>tre<app>
                                 <rdg source="#car1694">s</rdg>
+                                <rdg source="#car1688"></rdg>
                             </app>
                             <app>
                                 <rdg source="#car1688">*</rdg>
+                                <rdg source="#car1694"></rdg>
                             </app> nobles.</p>
-                        <note source="#car1688">*Sceretaire du Roy</note>
+                        <app>
+                            <rdg><note source="#car1688">*Secretaire du Roy</note></rdg></app>
                         <p>Il y en a de tels, que s'ils euſſent obtenu ſix mois de delay de leurs
                             creanciers, ils étoient nobles<app>
                                 <rdg source="#car1694">*</rdg>
                                 <rdg source="#car1688">✝</rdg>
                             </app>.</p>
-                        <note source="#car1688">✝Veterans</note>
-                        <note source="#car1694">**Veterans</note>
+                        <app>
+                            <rdg>
+                                <note source="#car1688">✝Veterans</note></rdg>
+                            <rdg><note source="#car1694">**Veterans</note></rdg>
+                        </app>
                         <p>Quelques autres ſe couchent roturiers &amp; ſe levent nobles*.</p>
                         <note source="#car1688">*Veterans</note>
                         <p>Combien de nobles dont le pere &amp; les aînez ſont roturiers ?</p>
                     </div3>
                     <div3 type="remark" n="42-2" source="#car1694">
-                        <app>
-                            <rdg source="#car1694"><p>¶ Tel abandonne ſon pere qui eſt connu, &amp;
+                        <p>
+                            <app>
+                                <rdg source="#car1694">¶ Tel abandonne ſon pere qui eſt connu, &amp;
                                     dont l'on cite le greffe ou la boutique, pour ſe retrancher ſur
                                     ſon ayeul, qui mort depuis long temps eſt inconnu &amp; hors de
                                     priſe ; il montre enſuite un gros revenu, une grande charge, de
                                     belles alliances, &amp; pour être noble, il ne luy manque que
-                                    des titres. </p></rdg>
-                        </app>
-                        <!-- Cete remarque n'existe pas dans l'édition de 1688. -->
+                                    des titres.</rdg>
+                                <rdg source="#car1688"></rdg>
+               
+                            </app>
+                        </p>
+                        <!-- Cette remarque n'existe pas dans l'édition de 1688. -->
                     </div3>
                     <div3 type="remark" n="42-6" source="#car1694">
                         <p>¶ Il ſuffit de n'<app>
                                 <rdg source="#car1694">ê</rdg>
-                                <rdg source="#car1688">ef</rdg>
+                            <rdg source="#car1688">eſ</rdg>
                             </app>tre point né dans une ville, mais ſous une chaumiere répanduë dans
                             la campagne, ou ſous une ruine qui trempe dans un marécage<app>
                                 <rdg source="#car1694">,</rdg>
-                            </app> &amp; <app>
-                                <rdg source="#car1694">qu'on appelle Château, pour être</rdg>
-                                <rdg source="#car1688">qu'on</rdg>
-                            </app> crû noble ſur ſa parole.</p>
-                        <note source="#car1694">(note manuscrite illisible faisait référence à
-                            Bazin)</note>
+                                <rdg source="#car1688">,</rdg>
+                            </app> &amp; qu'on appelle Château, pour être crû noble ſur ſa
+                            parole.</p>
+                        <app>
+                            <rdg><note source="#car1694">(note manuscrite illisible faisait
+                                    référence à Bazin)</note></rdg>
+                            <rdg source="#car1688"></rdg>
+                        </app>
                     </div3>
                     <!-- Le reste des chapitres et des remarques se basent sur ce même principe de structure. -->
                 </div2>
