@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <xsl:stylesheet xmlns:xsl="Votre texte de paragraphe" xmlns:tei="Votre texte de paragraphe">
-        <xsl:template match="tei:title">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="Votre texte de paragraphe"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    exclude-result-prefixes="xs"
+    version="2.0">
+        <xsl:template match="//tei:title">
             <h1> <xsl:apply-templates select="//tei:title"/></h1>
         </xsl:template>
-    <xsl:template match="tei:div3">
+    <xsl:template match="//tei:div3">
             <p><xsl:apply-templates select="//tei:p/tei:div3/tei:p"/></p>
         </xsl:template>
-        <xsl:template match="tei:app"> 
-            <xsl:value-of select="count(tei:div3/tei:p)"/> 
+        <xsl:template match="//tei:div3"> 
+            <p><xsl:value-of select="count(tei:div3/tei:p[@type='remark'])"/></p>
         </xsl:template>
-        <xsl:template match="tei:div3/tei:p[@source='#ed03']">
+    <xsl:template match="//tei:div3"> 
+        <p><xsl:value-of select="count(tei:div3/tei:p[@corresp='remark'])"/></p>
+    </xsl:template>
+        <xsl:template match="//tei:div3/tei:p[@source='#ed03']">
             <span style="color:red">
                 <xsl:value-of select="//tei:div3/tei:p[@source='#ed03']"/>
-                <xsl:apply-templates select="//tei:div3/tei:p"/
+                <xsl:apply-templates select="//tei:div3/tei:p"/>
             </span>
         </xsl:template>
 </xsl:stylesheet>
