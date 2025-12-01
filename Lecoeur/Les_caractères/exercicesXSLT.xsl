@@ -41,10 +41,13 @@
     </xsl:template>
 
     <xsl:template match="tei:div[@type='remark']">
+        <xsl:variable name="var">
+            <xsl:value-of select="substring(preceding-sibling::tei:head/@corresp, 2)"/>
+        </xsl:variable>
         <p>
             <xsl:apply-templates select="tei:p"/>
         </p>
-        Test : <xsl:value-of select="//tei:item[@xml:id=preceding-sibling::tei:head/@corresp]/@n"/>
+        Cette remarque se situe dans le chapitre : <xsl:value-of select="//tei:item[@xml:id=$var]/@n"/>
     </xsl:template>
     
     <xsl:template match="tei:app">(<xsl:apply-templates select="tei:rdg[@corresp='#ed3-88']"/>/<xsl:apply-templates select="tei:rdg[@corresp='#ed5-90']"/>)</xsl:template>
