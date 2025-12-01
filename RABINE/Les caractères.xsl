@@ -23,8 +23,12 @@
         
     </xsl:template>
     
-    <xsl:template match="//tei:body//tei:div3[@type='remark']/tei:p/tei:app[@type='orth']/tei:rdg">
-        <p><span style="color:red"><xsl:apply-templates/></span></p>
+    <xsl:template match="//tei:body//div3[@type='remark']/tei:p">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match="tei:app[@type='orth']">
+        <span style="color:red"><xsl:apply-templates select="tei:rdg[@source='#ed3']"/></span>
     
     </xsl:template>
     
