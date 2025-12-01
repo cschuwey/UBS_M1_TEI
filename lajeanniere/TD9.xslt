@@ -13,6 +13,7 @@
                 <xsl:apply-templates select="//tei:div4[@type='remarque']/tei:p"></xsl:apply-templates>
                 <xsl:apply-templates select="//tei:div4[@type='remarque']/tei:p/tei:app"></xsl:apply-templates>
                 <h2>Bibliographie</h2>
+                <xsl:apply-templates select="//tei:sourceDesc"/>
             </body>
         </html>
     </xsl:template>
