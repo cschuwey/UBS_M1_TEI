@@ -22,7 +22,7 @@
         
         
     </xsl:template>
-    <xsl:template match="//tei:body//tei:div3[@type='remark']/tei:p/tei:app/tei:rdg">
+    <xsl:template match="//tei:body//tei:div3[@type='remark']/tei:p/tei:app/tei:rdg[@source='#ed3']">
         <p><span style="color:red"><xsl:apply-templates/></span></p>
     </xsl:template>
     
