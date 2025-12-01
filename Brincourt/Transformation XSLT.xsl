@@ -11,7 +11,7 @@
                     <title><xsl:apply-templates select="//tei:teiHeader//tei:titleStmt/tei:title"/></title>
             </head>
             <body>
-                <h1><xsl:apply-templates select="//tei:body//tei:div3//tei:p"></xsl:apply-templates>Grand titre</h1>
+                <h1><xsl:apply-templates select="//tei:body//tei:div3//tei:p"></xsl:apply-templates></h1>
                 <--! Mon travail n'est pas clair et mal abouti, je m'en excuse, c'est dû à une mauvaise gestion de mon temps dernièrement,
                     je ferai mieux la prochaine fois.>
                 <h2>Titre de chapitre</h2>
