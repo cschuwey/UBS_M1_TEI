@@ -21,14 +21,10 @@
                         <xsl:apply-templates select="//tei:div[@source='#ed3'][@type='remarque']//tei:p"/>
                     </span>
                 </p>
-                
-                <!--Honnêtement j'ai envie de pleurer devant mon écran tellement je suis perdue et que je ne comprends absolument rien de ce que je fais. 
-                    Je ne sais pas comment je vais faire à l'examen mais je suis devant mon écran et je ne comprends rien à ce que j'écris-->
+  
 
                 <xsl:value-of select="count(//tei:div[@type='remark'])"/>
-                <!-- Je ne peux pas afficher l'une des variantes car j'ai passé mon temps à essayer de rendre mon fichier XML original valide, sans succès. 
-                    Il y a un problème d'encodage de mes variantes, et la seule solution que j'ai trouvée c'est de les mettre en commentaires-->
-
+            
             </body>
         </html>
     </xsl:template>
