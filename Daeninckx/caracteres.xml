@@ -110,6 +110,7 @@
                 <change who="#mdaeninckx" when="2025-11-03">Encodage des variantes et différences entre
                     l'édition de 1688 et celle 1691.</change>
                 <change who="#mdaeninckx" when="2025-11-17">Ajout dans l'encodingDesc de deux glyphes.</change>
+                <change who="#mdaeninckx" when="2025-11-17">Ajout de balises persName et modification des espaces pour convenir aux exercices de transformation xsl.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -117,7 +118,7 @@
     <text>
         <body>
             <div1 type="part" n="1">
-                <head>Discours sur Theophraste</head>
+                <head type="title">Discours sur Theophraste</head>
                 <!-- Cette partie contient le contenu de la partie "Discours sur Theophraste" -->
                 <p source="#ed3_ex1 #ed6_ex1">Je n'eſtime pas que l'homme ſoit capable de former
                     dans ſon eſprit un projet plus vain &amp; plus chimerique, que de prétendre en
@@ -233,21 +234,21 @@
                             concerne les mœurs le plus beau &amp; le meilleur eſt enlevé ; l'on ne
                             fait que glaner aprés les 
                             <app>
-                                <rdg source="#ed3_ex1">Anciens</rdg>
+                                <rdg source="#ed3_ex1"><persName>Anciens</persName></rdg>
                                 <rdg source="#ed6_ex1">anciens</rdg>
                             </app>
                             &amp; les habiles d'entre les
                             <app>
-                                <rdg source="#ed3_ex1">Modernes</rdg>
+                                <rdg source="#ed3_ex1"><persName>Modernes</persName></rdg>
                                 <rdg source="#ed6_ex1">modernes</rdg>
                             </app>.</p>
                     </div3>
                     <div3 type="remark">
                         <!-- Cette partie contient le contenu de la première remarque du premier chapitre de la partie "Les caractères ou les moeurs de ce siècle" -->
                         <p source="#ed3_ex1 #ed6_ex1">Il faut chercher ſeulement à penſer &amp; à
-                            parler juſte 
+                            parler juſte
                             <app>
-                                <rdg source="#ed3_ex1"/>
+                                <rdg source="#ed3_ex1"> </rdg>
                                 <rdg source="#ed6_ex1">,</rdg>
                             </app>
                             ſans vouloir amener les autres à 
@@ -256,8 +257,8 @@
                                 <rdg source="#ed6_ex1">nôtre</rdg>
                             </app> 
                             <app>
-                                <rdg source="#ed3_ex1">gouſt</rdg>
-                                <rdg source="#ed6_ex1">goût</rdg>
+                                <rdg source="#ed3_ex1"> gouſt</rdg>
+                                <rdg source="#ed6_ex1"> goût</rdg>
                             </app>
                             &amp; à nos ſentimens ; c'eſt une trop grande entrepriſe.</p>
                     </div3>
@@ -270,7 +271,7 @@
                         <p source="#ed6_ex1" corresp="#r_16"/>
                     </div3>
                     <div3 type="remark" n="15">
-                        <p source="#ed3_ex1" xml:id="r_15">Un bon Auteur, &amp; qui écrit avec ſoin, éprouve
+                        <p source="#ed3_ex1" xml:id="r_15">Un bon <persName>Auteur</persName>, &amp; qui écrit avec ſoin, éprouve
                             ſouvent que l'expreſſion qu'il cherchoir depuis long-temps ſans la
                             connoître, &amp; qu'il a enfin trouvée, eſt celle qui eſtoit la plus
                             simple, la plus naturelle, qui ſembloit devoir ſe presenter d'abord
