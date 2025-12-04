@@ -21,11 +21,18 @@
                 </title>
             </head>
             <body>
+                <!-- Affichage du titre -->
+                <h1><xsl:apply-templates select="//tei:teiHeader/filesDesc/tei:titleStmt/tei:title"/></h1>
+                
+                <p><xsl:apply-templates select="//tei:persName"/></p>
+                
+                
+                
                 <p><xsl:apply-templates select="//tei:body//tei:div3[@type='remark']"/></p>
             </body>
         </html>
     </xsl:template>
     
-   
+    
     
 </xsl:stylesheet>
