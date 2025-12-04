@@ -1,75 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmnls="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Les caractères</title>
-                <author xml:id="" resp="translator author">La Bruyère</author>
+                <author resp="translator author">La Bruyère</author>
                 <!-- Resp =  contient une expression décrivant la nature de la responsabilité intellectuelle d'une personne -->
-                <author>Théophraste</author>
+                <author resp="author">Théophraste</author>
             </titleStmt>
+
             <publicationStmt>
-                <p>Il s'agit d'une transcription des caractères de la Bruyère par Rémi Brincourt</p>
-                <authority resp="RémiBrincourt">Rémi Brincourt</authority>
-                <distributor>UBS-GitHub</distributor>
+                <authority xml:id="Brincourt">Rémi Brincourt</authority>
+                <publisher>UBS-GitHub</publisher>
+                <pubPlace>Université Bretagne-Sud</pubPlace>
+                <availability>
+                    <p>Transcription mise en ligne sous la responsabilité de l'auteur de
+                        l'encodage.</p>
+                </availability>
+                <date when="2025">2025</date>
             </publicationStmt>
+
             <sourceDesc>
                 <bibl xml:id="ed3">
                     <title type="desc">Les Caractères de Théophraste traduits du grec : avec les
                         Caractères ou les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb30705982f" resp="translator author">Jean de la
-                        Bruyère</author> Available From <ref
+                        Bruyère</author>
+                    <edition>3e édition</edition> Available From <ref
                         target="https://catalogue.bnf.fr/ark:/12148/cb30705982f#main"
                         >https://catalogue.bnf.fr/ark:/12148/cb30705982f#main</ref>
-                    <imprint>
-                        <publisher>E.Michallet</publisher>
-                        <pubplace>Paris</pubplace>
-                        <idno>BNF-"R-18787"</idno>
-                        <date when="1688">1688</date>
-                    </imprint>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno type="Bnf">BNF-"R-18787"</idno>
+                    <date when="1688">1688</date>
                 </bibl>
-                <bibl xml:id="ed5">
+                <bibl xml:id="ed7">
                     <title type="desc">Les Caractères de Théophraste traduits du grec : avec les
                         Caractères ou les moeurs de ce siècle.</title>
-                    <author ref="ark:/12148/cb30705985g" resp="translator author">Jean de la
+                    <author ref="ark:/12148/bpt6k8704024z" resp="translator author">Jean de la
                         Bruyère</author> Available From <ref
-                        target="https://catalogue.bnf.fr/ark:/12148/cb30705985g"
-                        >https://catalogue.bnf.fr/ark:/12148/cb30705982f#main</ref>
-                    <imprint>
-                        <publisher>E.Michallet</publisher>
-                        <pubplace>Paris</pubplace>
-                        <idno>BNF-"R-18790"</idno>
-                        <date when="1690">1690</date>
-                    </imprint>
+                        target="https://catalogue.bnf.fr/ark:/12148/cb30705985g"/>
+                    <publisher>E.Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <idno>BNF-"R-18790"</idno>
+                    <date when="1692">1692</date>
                 </bibl>
             </sourceDesc>
-            <encodingDesc>
-                <projectDesc>
-                    <p>l'objectif est d'identifier et rassembler le plus de remarques différentes se
-                        trouvant sur des pages et des chapitres similaires à travers les éditions de
-                        l'ouvrage.</p>
-                </projectDesc>
-                <samplingDesc>
-                    <p><!-- Je crois ne pas avoir bien compris la différence entre le <samplingDesc> et le <editorialeDesc> --></p>
-                </samplingDesc>
-                <editorialeDecl>
-                  <segmentation> 
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>l'objectif est d'identifier et rassembler le plus de remarques différentes se
+                    trouvant sur des pages et des chapitres similaires à travers les éditions de
+                    l'ouvrage.</p>
+            </projectDesc>
+            <editorialDecl>
+                <segmentation>
                     <p>Les pratiques d'édition que j'ai utilisé sont la division du texte en trois
                         grandes parties de texte. La première est "Discours sur Théophraste." La
                         deuxième est Les Caractères de Théophraste." La troisième est "Les
                         caractères où les moeurs de ce siècle."</p>
                     <p>La première <gi>div1</gi> représente lestrois grandes parties de l'ouvrage.
-                        Celles déclarées dans le paragraphe plus haut. Ensuite, la deuxième division <gi>div2</gi>
-                        représente les différents chapitres à l'intérieur dans ces trois parties. 
-                        Pour finir <gi>div3</gi> représente les remarques à l'intérieur des chapitres.</p>
-                  </segmentation>
-                </editorialeDecl>
-            </encodingDesc>
-            <!-- Je ne sais pas si <encodingDesc> et <revisionDesc> appartiennent à <filesDesc> où pas? -->
-            <revisionDesc>
-                <change when="2025-06-10" ref="#RémiBrincourt"/>
-            </revisionDesc>
-        </fileDesc>
+                        Celles déclarées dans le paragraphe plus haut. Ensuite, la deuxième division
+                            <gi>div2</gi> représente les différents chapitres à l'intérieur dans ces
+                        trois parties. Pour finir <gi>div3</gi> représente les remarques à
+                        l'intérieur des chapitres.</p>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="2025-12-04">Le 4 décembre 2025</date>
+            </creation>
+            <langUsage>
+                <language ident="fr-FR">Français</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item>philosophie</item>
+                        <item>histoire</item>
+                        <item>remarques</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change who="#Brincourt" when="2025-06-10">Encodage de deux remarques.</change>
+                <change who="#Brincourt" when="2025-12-04">Révision du TEI HEADE </change>
+            </listChange>
+        </revisionDesc>
+
     </teiHeader>
     <text>
         <body>
@@ -82,7 +105,8 @@
                 <div2 type="Introduction">
                     <p>(...)</p>
                 </div2>
-                <div2 type="toc">table des matières. <list type="chapter">
+                <div2 type="table_of_contents" source="#ed3">
+                    <list type="chapter">
                         <item n="1">De la Diſſimulation.</item>
                         <item n="2">De la Flaterie.</item>
                         <item n="3">De l'Impertinent, ou du diſeur de rien.</item>
@@ -93,7 +117,7 @@
                         <item n="X+1"/>
                     </list>
                 </div2>
-                <div2 type="chapter" n="1" xml:id="Chapitre 1" source="#BNF-R-18787">
+                <div2 type="chapter" n="1" source="#BNF-R-18787">
                     <head rend="uppercase">De la Diſſimulation</head>
                     <p>La* dissimulation n'est pas aisée à bien définir;(...)Moins à craindre </p>
                 </div2>
@@ -101,7 +125,8 @@
             <div1 type="part" n="3">
                 <head type="title">Les Caractères où les moeurs de ce siècle</head>
                 <!-- La page 330 de la cinquième édition correspond à la page 219-->
-                <div2 type="toc">table des matières. <list type="chapter">
+                <div2 type="table_of_contents">
+                    <list type="chapter">
                         <item n="1">Des Ouvrages de l'Esprit.</item>
                         <item n="2">Du Merite Personnel</item>
                         <item n="3">Des Femmes</item>
@@ -115,7 +140,7 @@
                 <div2 type="chapter" n="2" xml:id="Chapitre2">
                     <!-- J'ai un doute sur xml:id="Chapitre2" -->
                     <pb n="122"/>
-                    <head rends="uppercase">Du Merite personnel </head>
+                    <head rend="uppercase">Du Merite personnel </head>
                     <!-- L'élément <app> c'est comme un aiguillage de chemin de fer.
                     Ex : amener et amené :
                     <app>amener</app> et <app>amené</app> -->
@@ -152,23 +177,25 @@
                         </app>
                         <p>Combien d'hommes admirables, &amp; qui avaient de <app>
                                 <rdg source="#ed3_ex1">tresbeaux</rdg>
-                                <rdg source="#ed7"> tres beaux</rdg></app> genies<app><rdg
-                                    source="#ed3_ex1"/>
-                                <rdg source="#ed7">,</rdg></app> sont morts sans qu'on en ait parlé?
-                            Combien vivent encore dont on ne parle point,&amp;dont on ne parlera
-                            jamais?</p>
+                                <rdg source="#ed7"> tres beaux</rdg>
+                            </app> genies<app>
+                                <rdg source="#ed3_ex1"/>
+                                <rdg source="#ed7">,</rdg>
+                            </app> sont morts sans qu'on en ait parlé? Combien vivent encore dont on
+                            ne parle point,&amp;dont on ne parlera jamais?</p>
                     </div3>
                     <div3 type="remark" source="#ed3_ex1" xml:id="r_4">
                         <p>Personne presque ne s'avise de lui-même du mérite d'un autre?</p>
                     </div3>
                     <div3 type="remark" source="#ed3_ex1 #ed7" xml:id="r_5">
-                    <app> 
-                        <rdg source="ed7" corresp="#r_4">
-                        <p>Les hommes sont trop occupé d'eux-même pour avoir le loisir
-                        de pénétrer où de discerner les autres de la vient qu'avec un grand mérite
-                        &amp; et une plus grande modestie l'on peut être longtemps ignoré.</p>
-                        </rdg>
-                    </app>
+                        <app>
+                            <rdg source="ed7" corresp="#r_4">
+                                <p>Les hommes sont trop occupé d'eux-même pour avoir le loisir de
+                                    pénétrer où de discerner les autres de la vient qu'avec un grand
+                                    mérite &amp; et une plus grande modestie l'on peut être
+                                    longtemps ignoré.</p>
+                            </rdg>
+                        </app>
                     </div3>
                 </div2>
             </div1>
