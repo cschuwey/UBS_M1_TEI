@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -60,16 +60,17 @@
     <text>   
         <front>
             <div1>
-                <div2>
-                    <head>Discours sur THEOPHRASTE</head>
+                <div2 type="partie1">
+                    <head>Discours sur THEOPHRASTE</head>  
                     <p>texte</p>
+                    
                 </div2>
                 
-                <div2>
+                <div2 type="partie2">
                     <head>Discours sur THEOPHRASTE - Traduit du Grec</head>
                     <p>texte</p>
                     
-                    <div3 type= "toc"> 
+                    <div3 type="toc"> 
                         <head>TABLE DES MATIRES</head>
                     </div3>                  
                 </div2>
@@ -114,37 +115,43 @@
                             <div5 type="remark" n="p267">
                                 <p>Une chose folle &amp; qui découvre bien notre petitesse, c'est l'assujettissement aux modes
                                     quand on l'étend à ce qui concerne le goût, le vivre, la santé &amp; la conscience. La viande
-                                    noire est hors de mode  
+                                    noire est hors de mode 
                                     <app>
+                                        <rdg source="#ed3_1688"> </rdg>
                                         <rdg source ="#ed6_1691">,</rdg>
                                     </app> 
                                     &amp; par cette raison insipide : ce seroit pecher contre la mode que de
-                                    guerir de la fièvre par la saignée : de même l'on ne mouroit plus depuis long temps
+                                    guerir de la fièvre par la saignée : de même l'on ne mouroit plus depuis 
                                     <app>
+                                        <rdg source="#ed3_1688">long temps</rdg>
                                         <rdg source="#ed6_1691">long-temps</rdg>
                                     </app>
                                     par <tag>Théotime ; </tag>
-                                    ses tendres exhortations ne fauvoient plus que le peuple, &amp; <tag>Theot. </tag>
+                                    ses tendres exhortations ne fauvoient plus que le peuple, &amp; 
                                     <app>
+                                        <rdg source="#ed3_1688"><tag>Theot. </tag></rdg>
                                         <rdg source ="#ed6_1691"><tag>Théotime</tag></rdg>
                                     </app>
                                     a veu son successeur.</p>
                             </div5>
-                            <div5 type="remark" source="#ed3_1688" n="p267-268">
+                            <div5 type="remark" n="p267-268">
                                 <p>Le duel est le triomphe de la mode, &amp; l'endroit où elle a exercé
                                     sa tyrannie avec plus d'éclat ; cet usage n'a pas laissé au  poltron
                                     la liberté de vivre, il l'a mené se faire tuer par un plus brave que soi,
                                     &amp;l'a confondu avec un homme de cœur ; il a attaché de l'honneur &amp; de la gloire
-                                    à une action folle et extravagante ; il a esté
-                                    <app>
+                                    à une action folle et extravagante ; il a 
+                                    <app type="1">
+                                        <rdg source="#ed3_1688">esté</rdg>
                                         <rdg source="#ed6_1691">été</rdg>
                                     </app>
-                                    approuvé par la presence des Rois ; 
-                                    <app>
+                                    approuvé par la presence des  
+                                    <app type="2">
+                                        <rdg source="#ed3_1688">Rois ;</rdg>
                                         <rdg source="#ed6_1691">Rois,</rdg>
                                     </app>
-                                    il y a eu quelquefois une espece de religion
-                                    <app>
+                                    il y a eu quelquefois une espece de 
+                                    <app type="3">
+                                        <rdg source="#ed3_1688">religion</rdg>
                                         <rdg source="#ed6_1691">Religion</rdg>
                                     </app>
                                     à le pratiquer ; il a decidé
