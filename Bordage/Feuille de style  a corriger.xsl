@@ -15,10 +15,10 @@
             </head>
   
             <body>
-                
+                <img scr="Les%20caract%C3%A8res.png" alt=""></img>
                 <h1><xsl:apply-templates select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"></xsl:apply-templates></h1>
                
-                <p><xsl:apply-templates select="//tei:persName"/>Une personne</p> <!-- je sais pas comment faire sachant que j'ai pas de persName dans mon docuement ? -->
+                <p><xsl:apply-templates select="//tei:persName"/>=le persoName</p> <!-- je sais pas comment faire sachant que j'ai pas de persName dans mon docuement ? -->
                 
               
                 <!-- J'ai beaucoup de mal à comprendre comment je peux faire la transformation de mon ficher sans modifier mon docuement TEI. J'ai deux hypothèse :
