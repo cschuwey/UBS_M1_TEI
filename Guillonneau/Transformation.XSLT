@@ -25,4 +25,4 @@
     </xsl:template>
 </xsl:stylesheet>
 
-<!--J'ai refait après correction en comprenant un peu mieux :) --!>
+<!--J'ai refait après correction en comprenant un peu mieux :) Mais par contre ça m'affiche pas uniquement le titre mais tout mon TEI header et je ne sais pas pourquoi --!>
