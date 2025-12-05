@@ -16,8 +16,8 @@
                 <p><xsl:apply-templates select="//tei:parsName"></xsl:apply-templates></p>
                 <div><xsl:apply-templates select="//tei:div[@type='remark']/tei:p"></xsl:apply-templates></div> 
                 <h2> Bibliographie</h2>
-                <xsl:apply-templates select="//tei:bibl[@xml:id'ed3']"></xsl:apply-templates>
-                <xsl:apply-templates select="//tei:bibl[@xml:id'ed5']"></xsl:apply-templates>
+                <xsl:apply-templates select="//tei:bibl[@xml:id='ed3']"></xsl:apply-templates>
+                <xsl:apply-templates select="//tei:bibl[@xml:id='ed5']"></xsl:apply-templates>
             </body>
         </html>
         
