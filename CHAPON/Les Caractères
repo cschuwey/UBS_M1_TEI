@@ -26,6 +26,7 @@
                 <bibl xml:id="ed5">
                     <title>Les Caractères de Théophraste, traduits du grec, avec les Caractères ou les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb11910249z"><surname>La Bruyère</surname>,<forename>Jean de</forename></author>
+                    <edition>5e édition</edition>
                     <publisher>E.Michallet</publisher>
                     <pubPlace>Paris</pubPlace>
                     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k8704023j/f17.item">https://gallica.bnf.fr/ark:/12148/bpt6k8704023j/f17.item</ref>
@@ -103,7 +104,7 @@
                 <head type="main" rend="caps">Les caracteres de Theophraste</head>
                 <head type="sub" rend="caps">Traduits du grec</head>
                 <div type="introduction"><p> introduction de la partie des caractères de theophraste </p> </div>
-                <div type="Sommaire"><pb n="70"/>
+                <div type="sommaire"><pb n="70"/>
                     <list>
                         <item corresp="#Caracteres_theophraste_chap1">nom du chapitre 1</item>
                         <!--reste de la table des matières-->
@@ -153,7 +154,7 @@
                         <div type="remark" n="18"><!-- page 111 de l'édition 3-->
                             <p source="#ed3 #ed5">La m<app type="silencing"><rdg source="#ed3">eſ</rdg><rdg source="#ed5">ê</rdg></app>me juſteſſe d'eſprit qui nous fait écrire de bonnes choſes, nous fait apprenhender 
                                 qu'elles ne le ſoient pas aſſez pour meriter d'eſtre leuës.</p>
-                            <p source="#ed5">Un eſprit mediore croit écrire divinement ; un bon eſprit mediocrecroitécrire raiſonnablement.</p>
+                            <p source="#ed5">Un eſprit mediore croit écrire divinement ; un bon eſprit mediocre croit écrire raiſonnablement.</p>
                         </div>
                         <!--toutes les remarques du chapitre-->
                     </div>
