@@ -31,7 +31,7 @@
     </xsl:template>
     <xsl:template match="tei:div[@type='remark']">
     </xsl:template>
-     <xsl:template match="tei:app">(<xsl:apply-templates select="tei:rdg[@source'#ed3']"/>/<xsl:apply-templates select="tei:rdg[@source'#ed5']"/>)</xsl:template>
+     <xsl:template match="tei:app">(<xsl:apply-templates select="tei:rdg[@source='#ed3']"/>/<xsl:apply-templates select="tei:rdg[@source='#ed5']"/>)</xsl:template>
 <xsl:template match="tei:bibl">
     <p><xsl:apply-templates select="tei:title"></xsl:apply-templates></p>
     <p><xsl:apply-templates select="tei:author"></xsl:apply-templates></p>
