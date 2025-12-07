@@ -18,7 +18,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl xml:id="ed2_ex1">
+                <bibl xml:id="ed2">
                     <title>Les caractères de Theophraste traduits du grec : avec les caractères ou
                         les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
@@ -28,7 +28,7 @@
                     <date when="1688">1688</date>
                     <idno>BNF-R-18786</idno>
                 </bibl>
-                <bibl xml:id="ed5_ex1">
+                <bibl xml:id="ed5">
                     <title>Les caractères de Theophraste traduits du grec : avec les caractères ou
                         les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/cb11910249z">La Bruyère, Jean de</author>
@@ -43,17 +43,8 @@
         <encodingDesc>
             <p>orthographe modernisé</p>
             <p>J'ai choisi de mettre "Les Caractères de Theophraste" et "Les Caractères ou les moeurs de ce siècle" au même niveau dans le body car ils sont annoncés au début du livre par le titre, c'est le contenu du livre qu'on attend. Je vois le "discours sur Theophraste" comme une sorte de préface, que je l'ai donc placé dans front
-             Dans "Les Caractères de Théophraste", l'introduction, le sommaire et les chapitres sont au même niveau car chacun est une partie distincte et pas l'enfant d'une autre.
-             Dans "Les Caractères ou les moeurs de ce siècle", on a plusieurs remarques dans un chapitre et c'est pour cela que les remarques ne sont pas au même niveau que les chapitres mais sont bien enfants de chapitre.</p>
-            <charDecl>
-                <char xml:id="pm1">
-                    <desc>Pied de mouche</desc>
-                    <charProp>
-                        <unicodeName>U+00B6</unicodeName>
-                        <value>¶</value>
-                    </charProp>
-                </char>
-            </charDecl>
+                Dans "Les Caractères de Théophraste", l'introduction, le sommaire et les chapitres sont au même niveau car chacun est une partie distincte et pas l'enfant d'une autre.
+                Dans "Les Caractères ou les moeurs de ce siècle", on a plusieurs remarques dans un chapitre et c'est pour cela que les remarques ne sont pas au même niveau que les chapitres mais sont bien enfants de chapitre.</p>
         </encodingDesc>
         <revisionDesc>
             <listChange>
@@ -83,29 +74,27 @@
                 <div2 type="chapter">
                     <head>DU COEUR.</head>
                     <div3 type="remark">
-                        <p><g ref="#pm1" source="#ed5_ex1"/>
-                            <app>
-                                <rdg source="#ed2_ex1 #ed5_ex1">Vouloir oublier quelqu'un, c'est y penser. L'amour a
-                                cela de commun avec les scrupules, qu'il s'aigrit par les réflexions et
-                                les retours que l'on fait pour s'en délivrer. Il faut, s'il se peut, ne
-                                point songer à sa passion pour l'affaiblir.</rdg>
-                            </app>
+                        <p source="#ed2 #ed5">
+                                    Vouloir oublier quelqu'un, c'est y penser. L'amour a
+                                    cela de commun avec les scrupules, qu'il s'aigrit par les réflexions et
+                                    les retours que l'on fait pour s'en délivrer. Il faut, s'il se peut, ne
+                                    point songer à sa passion pour l'affaiblir.
                         </p>
                     </div3>
                 </div2>
                 <div2 type="chapter">
                     <head>DE LA SOCIÉTÉ ET DE LA CONVERSATION.</head>
                     <div3 type="remark">
-                        <p><g ref="#pm1" source="#ed5_ex1"/>C'est une grande misère que de n'avoir pas assez
+                        <p>C'est une grande misère que de n'avoir pas assez
                             d'esprit pour bien parler, 
                             <app>
-                                <rdg source="#ed2_ex1">ny</rdg>
-                                <rdg source="#ed5_ex1">ni</rdg>
+                                <rdg source="#ed2">ny</rdg>
+                                <rdg source="#ed5">ni</rdg>
                             </app>
                             assez de jugement pour se taire
                             <app>
-                                <rdg corresp="#ed2_ex1"> : voilà</rdg>
-                                <rdg corresp="#ed5_ex1">. Voilà</rdg>
+                                <rdg source="#ed2"> : voilà</rdg>
+                                <rdg source="#ed5">. Voilà</rdg>
                             </app> 
                             le principe de toute impertinence.</p>
                     </div3>
