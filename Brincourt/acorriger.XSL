@@ -26,7 +26,9 @@
     <xsl:template match="bibl">
         <p><xsl:apply-templates/></p>
     </xsl:template>
-    <!-- poser des questions au prof -->
+    <!-- poser des questions au prof
+Pourquoi je ne peux pas visualiser sur le navigateur ? Comment faire ?
+Comprendre pourquoi certaine chose ne s'affiche pas comme le apply-templates select="//p"-->
         
         <xsl:template match="tei:persName">
             <span class='personne'><xsl:apply-templates/></span>
