@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les caractères de Théophraste traduits du grec : avec les caractères ou les moeurs de ce siècle</title>
+                <author>Jean de La Bruyere</author>
+                <respStmt>
+                    <resp>Encodage TEI</resp>
+                    <name>Konate</name>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>chez Etienne Michalletchez Etienne Michallet</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date>1688</date>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl xml:id="edition1688">
+                    <title>Les caractères de Théophraste traduits du grec ; avec les caractères ou les moeurs de ce siècle ([Reprod.]) / [par Jean de La Bruyère]</title>
+                    <author>Jean de La Bruyère</author>
+                    <publisher>chez Etienne Michalletchez Etienne Michallet</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="1688">1688</date>
+                    <idno type="url">https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&amp;version=1.2&amp;query=%28gallica%20all%20%22Les%20Caract%C3%A8res%20de%20Th%C3%A9ophraste%2C%20traduits%20du%20grec%2C%20avec%20les%20Caract%C3%A8res%20ou%20les%20m%C5%93urs%20de%20ce%20si%C3%A8cle.%22%29amp;lang=framp;suggest=0</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc>
+                <p>Transcription de deux remarques du "CHAPITRE I. DES OUVRAGES DE L’ESPRIT" issues de l’édition de 1688</p>
+            </projectDesc>
+        </encodingDesc>
+        
+        <revisionDesc>
+            <change when="2025-10-18" who="#konate">Création du fichier TEI, encodage du teiHeader, transcription de deux remarques du "CHAPITRE I. DES OUVRAGES DE L’ESPRIT" depuis l’édition de 1688</change>
+            <change when="2025-11-26" who="#konate">Ajout de la structuration complète en div1/div2/div3 et rédaction de l’encodingDesc interprétatif</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div1 type="Partie" n="1">
+                <head type="Titre">Discours sur Theophraste</head>
+                <!-- Cette partie fait reference à la premiere partie du livre "DISCOURS SUR THEOPHRASTE" -->
+                <p>En'eſtime pas que l'homme ſoit capable de former dans ſon eſprit un projet plus vain amp; [...]</p>
+            </div1>
+            
+            <div1 type="Partie" n="2">
+                <head type="Titre">LES CARACTERES DE THEOPHRASTE : TRADUIT DU GREC</head>
+                <div2 type="Introduction">
+                    <!-- Cette partie contient l'introduction de la partie "LES CARACTERES DE THEOPHRASTE" -->
+                    <p>J'ay admiré ſouvent , &amp; j'avoüe que je ne puis encore comprendre, quelque ſerieuſe reflexion que je ſaſſe, pourquoy toute Grece eſtant placée ſous un même ciel, &amp;</p>
+                </div2>
+                <div2 type="table_des_matieres">
+                    <!-- Cette parrie contient la table des matieres de la partie "LES CARACTERES DE THEOPHRASTE" -->
+                    <list type="Chapter">
+                        <item n="1">De la diſſimulation</item>
+                        <item n="2">De la flatterie</item>
+                        <item n="3">De l'Impertinent, ou du diſeur de rien</item>
+                    </list>
+                </div2>
+            </div1>
+            
+            <div1 type="Partie" n="3">
+                <head type="Titre">LES CARACTERES OU LES MOEURS DE CE SIECLE</head>
+                <div2 type="Introduction">
+                    <!-- Cette partie contient l'introduction de la partie "LES CARACTERES OU LES MOEURS DE CE SIECLE" -->
+                    <p>Je rends au Public ce qu'il m'a preſté; j'ay emprunté de luy la matiere de cet ouvrage</p>
+                </div2>
+                <div2 type="Table_des_matieres">
+                    <!-- Cette partie contient la table des matieres de la partie "LES CARACTERES OU LES MOEURS DE CE SIECLE" -->
+                    <list type="chapitre">
+                        <item n="1">Des ouvrages de l'eſprit</item>
+                        <item n="2">Du merite perſonnel</item>
+                        <item n="3">Des femmes</item>
+                    </list>
+                </div2>
+                <div2 type="Chapitre" n="1">
+                    <head type="Chapitre" n="1">Des ouvrages de l'eſprit</head>
+                
+            
+                <div3 type="remarque" xml:id="remarque1" source="#edition1688">
+                    <p>Tout est dit, et l’on vient trop tard depuis plus de sept mille ans qu’il y a 
+                        des hommes, et qui pensent. Sur ce qui concerne les mœurs, le plus beau et 
+                        le meilleur est enlevé ; l’on ne fait que glaner après les anciens et les 
+                        habiles d’entre les modernes.
+                        Il faut chercher seulement à penser et à parler juste, sans vouloir amener 
+                        les autres à notre goût et à nos sentiments : c’est une trop grande 
+                        entreprise.</p>
+                </div3>
+                
+                <div3 type="remarque" xml:id="remarque2" source="#edition1688">
+                    <p>Un ouvrage satirique ou qui contient des faits, qui est donné en feuilles 
+                        sous le manteau aux conditions d’être rendu de même, s’il est médiocre, 
+                        passe pour merveilleux, l’impre<app><rdg source="#edition1688">ss</rdg><rdg source="#edition1690">s</rdg></app>ion est l’écueil.
+                        Si l’on ôte de beaucoup d’ouvrages de morale l’avertissement au lecteur, 
+                        l’épitre dédicatoire, la préface, la table, les approbations, il reste à peine 
+                        assez de pages pour mériter le nom de livre.</p>
+                </div3>
+                </div2>
+            </div1>
+         </body>
+    </text>
+</TEI>
