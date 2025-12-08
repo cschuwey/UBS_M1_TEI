@@ -23,6 +23,10 @@
         <p><xsl:apply-templates select="//tei:bibl/author"/></p> 
     </xsl:template>
     
+    <xsl:template match="bibl">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    <!-- poser des questions au prof -->
         
         <xsl:template match="tei:persName">
             <span class='personne'><xsl:apply-templates/></span>
