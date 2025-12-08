@@ -65,18 +65,18 @@
         
         <xsl:template match="tei:div[@type='remark']">
             <div>remarque n°<xsl:number count="//tei:div[@type='remark']" format="1"></xsl:number><xsl:text> </xsl:text><xsl:apply-templates/></div>
-            <xsl:value-of select="tei:div[@type='remark']/@tei:n"/> <!-- pour utiliser le numéro dans l'attribut n du doc tei, mais marche non plus à voir plus tard -->
+            <xsl:value-of select="@n"/>
         </xsl:template>
         
         <xsl:template match="tei:sourceDesc">
             <xsl:apply-templates/>
         </xsl:template>
         
-        <xsl:template match="tei:title" mode="head"> <!-- bon ça a pas marché -->
+        <xsl:template match="tei:title" mode="head"> <!-- bon ça a pas marché la différenciation-->
             <xsl:apply-templates/>
         </xsl:template>
     
-    <xsl:template match="tei:title" mode="bibl">
+    <xsl:template match="tei:title" mode="bibl"> <!-- et ça non plus -->
         <p><I><xsl:apply-templates/>.</I></p>
     </xsl:template>
         
