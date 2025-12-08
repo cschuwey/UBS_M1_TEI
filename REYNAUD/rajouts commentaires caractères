@@ -1,1 +1,75 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title> Les caractères de Théophraste</title>
+            <title type="soustitre">Avec les caractères ou les Mœurs de ce Siècle‎</title>
+        </titleStmt>
+        <publicationStmt>
+            <authority xml:id='creynaud'>Caroline Reynaud></authority>
+            <distributor>UBS Lorient</distributor>
+           <availability><p></p></availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            <bibl xml:id="ed3">
+                <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
+                <author>La Bruyère, Jean de</author>
+                <date when="1688">1688</date>
+                <edition n="3">Troisième édition</edition>
+                <publisher>Michallet, Estienne</publisher>
+                <pubPlace>Paris<country>France</country></pubPlace>
+                <idno>BnF R-18787</idno>
+            </bibl>
+            <bibl xml:id="ed5">
+                <title>Les Caractères de Théophraste traduits du grec : avec les Caractères ou les moeurs de ce siècle</title>
+                <author>La Bruyère, Jean de</author>
+                <date when="1690">1690</date>
+                <edition n="5">Cinquième édition</edition>
+                <publisher>Michallet, Estienne</publisher>
+                <pubPlace>Paris<country>France</country></pubPlace>
+                <idno>BnF R-18790</idno>
+            </bibl>
+            </sourceDesc>
+            </fileDesc>
+    
+    <profileDesc>
+        <langUsage>
+            <language ident="fr">Français</language></langUsage>
+    </profileDesc>
+    
+    <encodingDesc>
+    <projectDesc><p>Travail, test de comparaisons de versions des Caractères, quelques exemples.
+        Version 3 dès page 182, version 5 dès page 253</p></projectDesc>
+        <editorialDecl>
+            <normalization>
+            <p>Les mots faisant l'objet d'une césure ont été reconstruits. Les mots ont été
+                retranscrit avec leur orthographe d'origine. Au début de chaque remarque, il
+                y a dans le texte original un pied-de-mouche, qui n'est pas retranscrit
+                ici.</p>
+        </normalization>
+        </editorialDecl>
+    </encodingDesc>
+        <revisionDesc><change who='creynaud' when='251208'></change></revisionDesc>
+    
+        
+</teiHeader>
+<text>
+    <body>
+        <div1 type="bloc">
+            <head>Les Caractères ou les moeurs de ce siècle</head>
+            <div2 type="chapitre" n="8">
+                <head>De la Cour</head>
+                
+                <p source="#ed3 #ed5">Le reproche<app><rdg source="#ed5">,</rdg><rdg source="#ed3">.</rdg></app>en un sens<app><rdg source="#ed5">,</rdg></app>le plus honorable que l'on puisse faire à un homme, 
+                    c'est de lui dire qu'il ne sait pas la <app><rdg source="#ed3">C</rdg><rdg source="#ed5">c</rdg></app>our ; 
+                    il n'y a de <persName>sorte</persName> de vertus qu'on ne rassemble <app><rdg source="#ed3">par lui</rdg><rdg source="ed5"></rdg></app>en un seul mot.</p>
+                <p source="#ed3">Toutes les vues, toutes les maximes et tous les raffinements de la politique tendent à une seule fin, qui est de n'être point trompé, et de tromper les autres.</p>
+                <p source="#ed5">Qui peut nommer de certaines couleurs changeantes, et qui sont diverses selon les divers jours dont on les regarde ; de même qui peut définir la Cour ?</p>
+                <p source="#ed5">Se dérober un seul moment à la <app><rdg source="#ed3">C</rdg><rdg source="#ed5">c</rdg></app>our, c'est y renoncer. Le courtisan qui l'a vue le matin, qui la voie le soir, pour la reconnaître le lendemain, ou afin que lui-mêm y soit connu. </p>
+            </div2>
+        </div1>
+    </body>
+</text>
+</TEI>
