@@ -5,10 +5,6 @@
     exclude-result-prefixes="xs"
     version="2.0">
     
-    <!-- Contrôle de la sortie HTML en UTF-8 -->
-    <xsl:output method="html" encoding="UTF-8" indent="yes" omit-xml-declaration="yes"/>
-    
-    <!-- Supprimer les espaces inutiles -->
     <xsl:strip-space elements="*"/>
     
     <!-- Template principal -->
@@ -24,12 +20,22 @@
                 <!-- Affichage du titre -->
                 <h1><xsl:apply-templates select="//tei:teiHeader/filesDesc/tei:titleStmt/tei:title"/></h1>
                 
-                <p><xsl:apply-templates select="//tei:persName"/></p>
-                
-                
+                <p><xsl:apply-templates select="//tei:persName"/></p>             
                 
                 <p><xsl:apply-templates select="//tei:body//tei:div3[@type='remark']"/></p>
             </body>
+            
+            <!-- ça ne marche pas, rien ne marche -->
+            <xsl:template match="tei:sourceDesc"> 
+                <p><xsl:apply-templates select="/tei:bibl/tei:edition"/></p>
+                <p><xsl:apply-templates select="//tei:publisher"/></p>
+                <p><xsl:apply-templates select="//tei:pubPlace"/></p>
+                <p><xsl:apply-templates select="//tei:date"/></p>
+                <p><xsl:apply-templates select="//tei:idno"/></p>
+            </xsl:template>
+           
+
+                                          
         </html>
     </xsl:template>
     
