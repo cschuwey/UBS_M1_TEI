@@ -69,44 +69,45 @@
             <change when="2025-10-22"> structure de l'ouvrage avec les div, séparation des
                 différentes parties qui sont les éléments majeurs de l'oeuvre.</change>
             <change> les &amp; seront réecrit en lettre et non sous forme de symbôle </change>
+            <change when="2025-11-03"> Comparaison des différentes éditions de 88 et 94. Rajout des variantes selon les éditions et les changements entre ces deux éditions. </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div n="1" xml:id="DiscoursdeThéophraste" type="préface">
+            <div1 n="1" xml:id="DiscoursdeThéophraste" type="préface">
                 <head> Discours de Théophraste </head>
                 <!-- contenu de la préface -->
-            </div>
-            <div n="1" xml:id="LescaractèresdeThéophraste">
+            </div1>
+            <div1 n="2" xml:id="LescaractèresdeThéophraste">
                 <head> Les caractères de Théophraste - Traduit du Grec </head>
-                <div n="2" xml:id="Introduction" corresp="#LescaractèresdeThéophraste">
+                <div2 n="1" xml:id="Introduction" corresp="#LescaractèresdeThéophraste">
                     <!-- Introduction des caractères de Théophraste -->
-                </div>
-                <div n="2" xml:id="Sommaire" corresp="#LescaractèresdeThéophraste">
+                </div2>
+                <div2 n="2" xml:id="Sommaire" corresp="#LescaractèresdeThéophraste">
                     <!-- sommaire des Caractères de Théophraste-->
-                </div>
-                <div n="2" type="chapter" corresp="#LescaractèresdeThéophraste">
+                </div2>
+                <div2 n="3" type="chapter" corresp="#LescaractèresdeThéophraste">
                     <head> nom du chapitre </head>
 
-                    <div n="3" type="remark">
+                    <div3 n="1" type="remark">
                         <!-- contenu de la / les remarque(s) -->
-                    </div>
-                </div>
-            </div>
-            <div n="1" xml:id="LescaractèresdelaBryère">
+                    </div3>
+                </div2>
+            </div1>
+            <div1 n="3" xml:id="LescaractèresdelaBryère">
                 <head> Les caractères ou les moeurs de ce siècle </head>
-                <div n="2" xml:id="introduction" corresp="#LescaractèresdelaBryère">
+                <div2 n="1" xml:id="introduction" corresp="#LescaractèresdelaBryère">
                     <!-- contenu de l'introduction des Caractères de la Bruyère -->
-                </div>
-                <div n="2" xml:id="sommaire" corresp="#LescaractèresdelaBryère">
+                </div2>
+                <div2 n="2" xml:id="sommaire" corresp="#LescaractèresdelaBryère">
                     <!-- sommaires des  caractères ou les moeurs de ce siècle -->
-                </div>
-                <div n="2" type="chapter" corresp="#LescaractèresdelaBryère">
+                </div2>
+                <div2 n="3" type="chapter" corresp="#LescaractèresdelaBryère">
                     <head> De l'Homme </head>
-                    <div n="3" type="introduction">
+                    <div3 n="1" type="introduction">
                         <!-- introduction à la suite du chapitre, qui contextualise les remarques -->
-                    </div>
-                    <div n="3" type="remark" source="#ed3_ex1" corresp="#LescaractèresdelaBryère">
+                    </div3>
+                    <div3 n="2" type="remark" source="#ed3_ex1" corresp="#LescaractèresdelaBryère">
                         <p> ¶ Les hommes ne s'attachent pas assez à ne pas manquer les occasions de
                             faire plaisir <app>
                                 <rdg source="#ed3">;</rdg>
@@ -117,7 +118,7 @@
                                 <rdg source="#ed1694"> &amp;</rdg>
                             </app> n'en rien faire ; la chose la plus prompte &amp; qui se présente
                             d'abord, c'est le refus, &amp; l'on n'accorde que par reflexion.</p>
-
+                      
                         <p> ¶ Il est difficile qu'un fort malhonnête homme ait assez d'esprit<app>
                                 <rdg source="#ed3">;</rdg>
                                 <rdg source="#ed1694">,</rdg>
@@ -137,10 +138,11 @@
                                 <rdg source="#ed3"> eſtre </rdg>
                                 <rdg source="#ed1694">être</rdg>
                             </app> privé de tout sentiment.</p>
+                            
                         <!-- p 458 pour edition 94 et p 286 pour ed88 sur doc pdf -->
-                    </div>
-                </div>
-            </div>
+                    </div3>
+                </div2>
+            </div1>
         </body>
     </text>
 </TEI>
