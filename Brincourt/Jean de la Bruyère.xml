@@ -8,7 +8,7 @@
                 <!-- Resp =  contient une expression décrivant la nature de la responsabilité intellectuelle d'une personne -->
                 <author resp="author">Théophraste</author>
             </titleStmt>
-
+            
             <publicationStmt>
                 <authority xml:id="Brincourt">Rémi Brincourt</authority>
                 <publisher>UBS-GitHub</publisher>
@@ -19,7 +19,7 @@
                 </availability>
                 <date when="2025">2025</date>
             </publicationStmt>
-
+            
             <sourceDesc>
                 <bibl xml:id="ed3">
                     <title type="desc">Les Caractères de Théophraste traduits du grec : avec les
@@ -39,7 +39,7 @@
                         Caractères ou les moeurs de ce siècle.</title>
                     <author ref="ark:/12148/bpt6k8704024z" resp="translator author">Jean de la
                         Bruyère</author> Available From <ref
-                        target="https://catalogue.bnf.fr/ark:/12148/cb30705985g"/>
+                            target="https://catalogue.bnf.fr/ark:/12148/cb30705985g"/>
                     <publisher>E.Michallet</publisher>
                     <pubPlace>Paris</pubPlace>
                     <idno>BNF-"R-18790"</idno>
@@ -47,7 +47,7 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-
+        
         <encodingDesc>
             <projectDesc>
                 <p>l'objectif est d'identifier et rassembler le plus de remarques différentes se
@@ -62,7 +62,7 @@
                         caractères où les moeurs de ce siècle."</p>
                     <p>La première <gi>div1</gi> représente lestrois grandes parties de l'ouvrage.
                         Celles déclarées dans le paragraphe plus haut. Ensuite, la deuxième division
-                            <gi>div2</gi> représente les différents chapitres à l'intérieur dans ces
+                        <gi>div2</gi> représente les différents chapitres à l'intérieur dans ces
                         trois parties. Pour finir <gi>div3</gi> représente les remarques à
                         l'intérieur des chapitres.</p>
                 </segmentation>
@@ -85,14 +85,14 @@
                 </keywords>
             </textClass>
         </profileDesc>
-
+        
         <revisionDesc>
             <listChange>
                 <change who="#Brincourt" when="2025-06-10">Encodage de deux remarques.</change>
                 <change who="#Brincourt" when="2025-12-04">Révision du TEI HEADE </change>
             </listChange>
         </revisionDesc>
-
+        
     </teiHeader>
     <text>
         <body>
@@ -105,7 +105,7 @@
                 <div2 type="Introduction">
                     <p>(...)</p>
                 </div2>
-                <div2 type="table_of_contents" source="#ed3">
+                <div2 type="table_of_contents" source="#ed3_ex1">
                     <list type="chapter">
                         <item n="1">De la Diſſimulation.</item>
                         <item n="2">De la Flaterie.</item>
@@ -149,7 +149,7 @@
                        <rdg source="ed3" >;</rdg>
                        <rdg source="ed6">,<rdg>
                     <app> -->
-
+                    
                     <div3 type="introduction-part">
                         <p>Qui peut avec les plus rares talents &amp; (...) pour le remplacer</p>
                     </div3>
@@ -165,7 +165,7 @@
                             Dilemme entre Implicite et Explicite.
                             Dans tous les cas, le choix que tu fais doit se poursuivre pour tout le document.
                             Cohérence;-->
-                            <rdg source="ed7">
+                            <rdg source="#ed7">
                                 <p>Tout persuadé que je sois que ceux que l'on choisit pour
                                     différents emplois, chacun selon son génie &amp; sa profession
                                     sont font bien, je me hasarde de dire qu'il se peut faire qu'il
@@ -176,12 +176,12 @@
                             <rdg source="#ed3_ex1"/>
                         </app>
                         <p>Combien d'hommes admirables, &amp; qui avaient de <app>
-                                <rdg source="#ed3_ex1">tresbeaux</rdg>
-                                <rdg source="#ed7"> tres beaux</rdg>
-                            </app> genies<app>
-                                <rdg source="#ed3_ex1"/>
-                                <rdg source="#ed7">,</rdg>
-                            </app> sont morts sans qu'on en ait parlé? Combien vivent encore dont on
+                            <rdg source="#ed3_ex1">tresbeaux</rdg>
+                            <rdg source="#ed7"> tres beaux</rdg>
+                        </app> genies<app>
+                            <rdg source="#ed3_ex1"/>
+                            <rdg source="#ed7">,</rdg>
+                        </app> sont morts sans qu'on en ait parlé? Combien vivent encore dont on
                             ne parle point,&amp;dont on ne parlera jamais?</p>
                     </div3>
                     <div3 type="remark" source="#ed3_ex1" xml:id="r_4">
@@ -205,3 +205,4 @@
         en dessous, dans le rdg je mets le source="ed7"?> -->
     </text>
 </TEI>
+
