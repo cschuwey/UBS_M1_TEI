@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:tei="https://wwww.tei-c.org/ns/1.0"
+    exclude-result-prefixes="xs"
+    version="2.0">
+
+<xsl:template match="tei:teiHeader">
+<apply-templates select="//tei:title[@corresp='ed03'"/>
+</xsl:template>
+
+<xsl:template match="tei:div3">
+<p><apply-templates select ="//tei:div3[type='remark']"/></p>
+<xsl:apply-templates select="count(//tei:p[@type='remark'])"/>
+</xsl:template>
+
+<xsl:template match="tei:app">
+<xsl:apply-templates select="count(//tei:app)"/>
+<app>
+<apply-template select="//tei:rdg[1]"/>/
+<apply-templates select="//tei:rdg[2]"/>
+</app>
+</xsl:template>
+</xsl:stylesheet>
