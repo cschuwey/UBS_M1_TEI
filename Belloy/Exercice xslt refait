@@ -11,7 +11,7 @@
 
 <xsl:template match="tei:div3">
 <p><apply-templates select ="//tei:div3[type='remark']"/></p>
-<xsl:apply-templates select="count(//tei:p[@type='remark'])"/>
+<xsl:value-of select="count(//tei:p[@type='remark'])"/>
 </xsl:template>
 
 <xsl:template match="tei:app">
