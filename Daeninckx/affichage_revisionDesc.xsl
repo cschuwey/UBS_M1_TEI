@@ -23,10 +23,14 @@
     </xsl:template>
     
     <xsl:template match="tei:change">
-        <div style="height:100px; width:80%;border:1px solid black;margin:0 auto 10px;padding:20px">
-            <p><xsl:value-of select="@when"/></p>
-            <p><xsl:if test="@who='#mdaeninckx'">Par Mickaël Daeninckx</xsl:if></p>
-            <p>Contenu : <xsl:apply-templates/></p>
+        <div style="width:80%;border:1px solid black;margin:0 auto 10px;padding:20px;display:flex;justify-content:space-around">
+            <div style="width:10%;display:flex;justify-content:center;align-items:center">
+                <xsl:if test="@who='#mdaeninckx'"><img style="width:100%" src="logo_ubs.png"/></xsl:if>
+            </div>
+            <div style="width:80%">
+                <p><xsl:apply-templates select="@when"/></p>
+                <p style="font-size:1.2rem">Contenu : <xsl:apply-templates/></p>
+            </div>
         </div>
     </xsl:template>
     
