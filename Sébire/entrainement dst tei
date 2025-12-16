@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title> Le pacte du cygne noir</title>
+        </titleStmt>
+        <publicationStmt> <p> Publié par Yness Sébire </p></publicationStmt>
+        <sourceDesc>
+            <bibl xml:id="PremierJet"> 
+            <title> Le Pacte du Cygne Noir</title>
+           <name> Yness </name>
+                <surname> Sébire</surname>
+                <date when="2025"> 2025</date>
+                <edition>PremierJet</edition>
+                <publisher> Editions des Songes Dorés</publisher>
+                <pubPlace> Rouen</pubPlace>
+    </bibl>
+        </sourceDesc>
+      
+    </fileDesc>
+    <encodingDesc> <p> Le livre a ete encodé en respectant l'écriture originale de l'auteure</p></encodingDesc>
+    <revisionDesc><list><item> <date when="2025">2025</date></item></list></revisionDesc>
+</teiHeader>
+    <text>
+        <body>
+            <div type="part" n="1">
+                <head> Un voeu en sucre</head>
+                <!--Préface du livre-->
+                <p source="#PremierJet"> Il était une fois dans un royaume... insipiré de Once Upon a broken Heart de Stéphanie Garber</p>
+        </div>
+            <div type="remarque" n="2">
+                <p source="#PremierJet"> Elle se trouvait <app> <rdg wit="2024"></rdg> <rdg wit="2025"> jolie</rdg></app></p>
+            </div>
+        </body>
+    </text>
+</TEI>
