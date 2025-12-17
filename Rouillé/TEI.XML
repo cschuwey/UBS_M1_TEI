@@ -8,4 +8,38 @@
 <publicationStmt>
 <authority xml:id='CRouillé'>Camille Rouillé></authority>
 <distributor>UBS</distributor
-<bibl xml:id='#1'
+</publicationStmt>
+<sourDesc>
+<bibl xml:id='#1'>
+<author>Freida McFadden</author>
+<editon></edition>
+<editor></editor>
+<lieu>Paris</lieu>
+<date>2025/09/25</date>
+<idno>IdentifiantBNF</idno>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>entrainement examen TEI</p>
+</projectDesc>
+<editorialDecl>
+<normalization>
+<p>Je garde le texte original, sans modification de l'orthographe, ni de syntaxe</p>
+</normalization>
+</editorialDecl>
+</encodingDesc>
+<revisionDesc>
+<listchange>
+<list>
+<date when='2025-12-17' who='CRouillé'>
+</list>
+</listchange>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<body>
+<div1 type='chapter'>
+
