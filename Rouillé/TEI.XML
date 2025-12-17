@@ -39,9 +39,21 @@
 </teiHeader>
 <text>
 <front>
-<body>
 <div type='preface'>
-<p></p>
+<head>titre de la préface</head>
 </div>
+</front>
+<body>
+<div1 type='part' n='1'>
+<head> titre</head>
+<div2 type='chapter' n='1'>
+<p></p>
+<div3 type='remark'>
+<p> remarques</p>
+</div3>
+</div2>
+</div1>
+
+
 
 
