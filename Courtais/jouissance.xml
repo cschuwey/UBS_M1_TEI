@@ -1,1 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+
+    type="application/xml" 
+
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader><fileDesc><titleStmt><title></title></titleStmt><publicationStmt><p></p></publicationStmt><sourceDesc><p></p></sourceDesc></fileDesc></teiHeader>
+    
+    <text>
+        <front> <head>Jouissance</head> <head>Sonnet </head></front>
+        <body>
+            <lg type="quatrain">
+                <l><app><rdg wit="2026"> Aujourd'hui dans tes bras <caesura/> j'ai demeuré pâmée, </rdg> 
+                        <rdg wit = "1659">Aujourd'huy dans tes bras i'ay demeuré pasmée</rdg></app></l>
+                
+                <l><app> <rdg wit="2026">Aujourd'hui, cher Tirsis, ton amoureuse ardeur</rdg>
+                        <rdg wit="1659">Aujourd'huy, cher Tirsis, ton amoureuse ardeur </rdg></app></l>
+                
+                <l><app><rdg wit="2026">Triomphe impunément de toute ma pudeur</rdg>
+                        <rdg wit="1659"> Triomphe impunément de toute ma pudeur</rdg> </app></l>
+                
+                <l><app> <rdg wit="2026">Et je cède aux transports dont mon âme est charmée.</rdg>
+                        <rdg wit="1659">Et ie cede aux transports dont mon ame est charmée</rdg></app></l></lg>
+                
+                
+                
+                
+                <lg type="quatrain">
+                <l><app><rdg wit="2026">Ta flamme et ton respect m'ont enfin désarmée ;</rdg>
+                        <rdg wit="1659">Ta flame et ton respect m'ont enfin desarmée </rdg></app></l>
+                
+                <l><app><rdg wit="2026">Dans nos embrassements, je mets tout mon bonheur</rdg>
+                        <rdg wit="1659">Dans nos embrassemens ie mets tout mon bon-heur</rdg></app></l> 
+                
+                <l><app><rdg wit="2026">Et je ne connais plus de vertu ni d'honneur</rdg>
+                        <rdg wit="1659">Et ie ne connois plud de vertu ny d'honneur</rdg></app></l>
+                
+                <l><app><rdg wit="2026">Puisque j'aime Tirsis et que j'en suis aimée.</rdg>
+                        <rdg wit="1659">Puis que i'ayme Tirsis et que j'en fuis aimée.</rdg></app></l></lg>
+            
+            
+            <lg type="tercet"><l>O vous, faibles esprits, qui ne connaissez pas</l>
+                <l>Les plaisirs les plus doux que l'on goûte ici-bas,</l>
+                <l>Apprenez les transports dont mon âme est ravie !</l></lg>
+            
+            <lg type="tercet"><l>Une douce langueur m'ôte le sentiment,</l>
+                <l>Je meurs entre les bras de mon fidèle Amant,</l> 
+                <l>Et c'est dans cette mort que je trouve la vie.</l></lg>
+            
+        </body>
+    </text>  
+</TEI>
