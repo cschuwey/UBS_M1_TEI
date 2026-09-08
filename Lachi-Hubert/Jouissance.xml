@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
-
+<?xml-model 
+    href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
     type="application/xml" 
-
     schematypens="http://relaxng.org/ns/structure/1.0"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -12,26 +11,26 @@
         <body>
             <head rend="italic">Juissance</head>
             <lg type="quatrain" rhyme="ABBA">
-                <l style="Alexandrin"><app><rdg wit="2026">Aujourd'hui</rdg><rdg wit="16--">Aujourd'huy</rdg></app> dans tes bras <caesura/>j'ai demeuré <seg>pâ<rhyme label="A">mée</rhyme></seg>,</l>
-                <l>Aujourd'hui, cher Tirsis, ton amoureuse ardeur</l>
-                <l>Triomphe impunément de toute ma pudeur</l>
-                <l>Et je cède aux transports dont mon âme est charmée.</l></lg>
+                <l met="alexandrine"><app><rdg wit="2026"><hi rend="larger">A</hi>ujourd'hui</rdg><rdg wit="1658">Aujourd'huy</rdg></app> dans tes bras <caesura/>j'ai demeuré <seg>pâ<rhyme label="A">mée</rhyme></seg>,</l>
+                <l met="alexandrine">Aujourd'hui, cher <persName>Tirsis</persName>, ton amoureuse ar<rhyme label="B">deur</rhyme></l>
+                <l met="alexandrine">Triomphe impunément de toute ma pu<rhyme label="B">deur</rhyme></l>
+                <l met="alexandrine">Et je cède aux transports dont mon âme est char<rhyme label="A">mée</rhyme>.</l></lg>
             
-            <lg type="quatrain">
-                <l>Ta flamme et ton respect m'ont enfin désarmée ;</l>
-                <l>Dans nos embrassements, je mets tout mon bonheur</l> 
-                <l>Et je ne connais plus de vertu ni d'honneur</l>
-                <l>Puisque j'aime Tirsis et que j'en suis aimée.</l></lg>
-            
-            <lg type="tercet">
-                <l>O vous, faibles esprits, qui ne connaissez pas</l>
-                <l>Les plaisirs les plus doux que l'on goûte ici-bas,</l>
-                <l>Apprenez les transports dont mon âme est ravie !</l></lg>
+            <lg type="quatrain" rhyme="ABBA">
+                <l met="alexandrine" rend="indent">Ta flamme <app><lem wit="2026">et</lem><rdg wit="1658">&amp;</rdg></app> ton respe<app><lem wit="2026">ct</lem><rdg wit="1658"><g ref="ligature_ct"></g></rdg></app> m'ont enfin désarmée ;</l>
+                <l met="alexandrine">Dans nos embrassements, je mets tout mon <app><lem wit="2026">bonheur</lem><rdg wit="1658">bon-heur</rdg></app><unclear reason="damage"></unclear></l> 
+                <l met="alexandrine">Et je ne connais plus de vertu ni d'honneur</l>
+                <l met="alexandrine">Puisque j'aime <persName>Tirsis</persName><app><lem wit="2026"> et</lem><rdg wit="1658">&amp;</rdg></app> que j'en suis aimée.</l></lg>
             
             <lg type="tercet">
-                <l>Une douce langueur m'ôte le sentiment,</l>
-                <l>Je meurs entre les bras de mon fidèle Amant,</l> 
-                <l>Et c'est dans cette mort que je trouve la vie.</l></lg>
+                <l met="alexandrine" rend="indent">O vous<app><lem wit="2026">,</lem><rdg wit="1658">!</rdg></app> faibles esprits, qui ne connaissez pas</l>
+                <l met="alexandrine">Les plaisirs les plus doux que l'on goûte ici-bas,</l>
+                <l met="alexandrine">Apprenez les transports dont mon âme est ravie !</l></lg>
+            
+            <lg type="tercet">
+                <l met="alexandrine" rend="indent">Une douce langueur m'ôte le sentiment,</l>
+                <l met="alexandrine">Je meurs entre les bras de mon <app><lem wit="2026">fidèle</lem><rdg wit="1658">fidelle</rdg></app> Amant,</l> 
+                <l met="alexandrine">Et c'est dans cette mort que je trouve la vie.</l></lg>
         </body>
     </text>
 </TEI>
