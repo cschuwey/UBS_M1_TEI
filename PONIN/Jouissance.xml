@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc><titleStmt><title></title></titleStmt>
+			<publicationStmt><p></p></publicationStmt>
+			<sourceDesc><p></p></sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="poem">
+				<head>Jouissance</head>
+				<lg type="stanza">
+				<lg type="quatrain" rhyme="abba">
+					<l><seg type="foot"><seg>Aujourd'hui dans tes bras
+						<caesura />
+					j'ai demeuré<seg>pâ<rhyme label="a"></rhyme>mée,</seg></seg></seg></l>
+					<l><seg>Aujourd'hui, cher
+						<name>Tirsis</name>,
+						<caesura />
+					ton amoureuse ardeur</seg></l>
+					<l><seg>Triomphe impunément <caesura /> de toute ma pudeur</seg></l>
+					<l><seg><seg type="hemistich"><seg type="foot"><seg type="syll">Et</seg>
+						<seg type="syll">je</seg>
+						<seg type="syll">cède</seg>
+						<seg type="syll">aux</seg>
+						<seg type="syll">transports</seg>
+						<caesura />
+						<seg type="syll">dont</seg>
+						<seg type="syll">mon</seg>
+						<seg type="syll">âme</seg>
+						<seg type="syll">est</seg>
+						<seg type="syll">char</seg>
+					<seg type="syll">mée</seg>.</seg></seg></seg></l>
+				</lg>
+			</lg>
+			<lg type="stanza">
+			<lg type="quatrain" rhyme="abba">
+				<l><seg type="foot"><seg>Ta flamme et ton respect <caesura /> m'ont enfin désarmée ;</seg></seg></l>
+				<l><seg>Dans nos embrassements, <caesura /> je mets tout mon bonheur</seg></l>
+				<l><seg>Et je ne connais plus <caesura /> de vertu ni d'honneur</seg></l>
+				<l><seg>Puisque j'aime Tirsis <caesura /> et que j'en suis aimée.</seg></l>
+			</lg>
+		</lg>
+		<lg rhyme="ccdeed">
+			<lg type="stanza">
+			<lg type="tercet" rhyme="ccd">
+				<l><seg type="foot"><seg>O vous, faibles esprits,
+					<caesura />
+					qui ne connaissez
+				<rhyme label="c">pas</rhyme></seg></seg></l>
+				<l><seg>Les plaisirs les plus doux
+					<caesura />
+				que l'on goûte ici-<rhyme label="c">bas</rhyme>,</seg></l>
+				<l><seg>Apprenez les transports
+					<caesura />
+					dont mon âme est ra<rhyme label="d">vie</rhyme>
+				!</seg></l>
+			</lg>
+		</lg>
+	<lg type="stanza">
+		<lg type="tercet" rhyme="eed">
+			<l><seg type="foot"><seg>Une douce langueur
+				<caesura />
+			m'ôte le senti<rhyme label="e">ment</rhyme>,</seg></seg></l>
+			<l><seg>Je meurs entre les bras
+				<caesura />
+			de mon fidèle A<rhyme label="e">mant</rhyme>,</seg></l>
+			<l><seg>Et c'est dans cette mort
+				<caesura />
+				que je trouve la
+			<rhyme label="d">vie</rhyme>.</seg></l>
+		</lg>
+	</lg>
+</lg>
+</div>
+</body>
+</text>
+</TEI>
