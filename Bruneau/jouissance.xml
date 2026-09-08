@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+
+    type="application/xml" 
+
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">   
+    <teiHeader><fileDesc><titleStmt><title></title></titleStmt><publicationStmt><p></p></publicationStmt><sourceDesc><p></p></sourceDesc></fileDesc></teiHeader>
+    <text>
+        <body>
+            <head>Jouissance</head>
+            <lg type="quatrain" rhyme="abba">
+                <l>Aujourd'hui dans tes bras<caesura></caesura> j'ai demeuré pâ<rhyme label="a">mée</rhyme>,</l>
+                <l>Aujourd'hui, cher <name>Tirsis</name>, ton amoureuse ard<rhyme label="b">eur</rhyme></l>
+                <l>Triomphe impunément de toute ma pud<rhyme label="b">eur</rhyme></l>
+                <l>Et je cède aux transports dont mon âme est char<rhyme label="a">mée</rhyme>.</l></lg>
+            <lg type="quatrain" rhyme="abba">
+                <l>Ta flamme et ton respect m'ont enfin désar<rhyme label="a">mée</rhyme> ;</l>
+                <l>Dans nos embrassements, je mets tout mon bonh<rhyme label="b">eur</rhyme></l>
+                <l>Et je ne connais plus de vertu ni d'honn<rhyme label="b">eur</rhyme></l>
+                <l>Puisque j'aime <name>Tirsis</name> et que j'en suis ai<rhyme label="a">mée</rhyme>.</l></lg>
+            <lg type="tercet" rhyme="ccd">
+                <l>O vous, faibles esprits, qui ne connaissez p<rhyme label="c">as</rhyme></l>
+                <l>Les plaisirs les plus doux que l'on goûte ici-b<rhyme label="c">as</rhyme>,</l>
+                <l>Apprenez les transports dont mon âme est r<rhyme label="d">avie</rhyme> !</l></lg>
+            <lg type="tercet" rhyme="eed">
+                <l>Une douce langueur m'ôte le senti<rhyme label="e">ment</rhyme>,</l>
+                <l>Je meurs entre les bras de mon fidèle <rhyme label="e">Amant</rhyme>,</l>
+                <l>Et c'est dans cette mort que je trouve l<rhyme label="d">a vie</rhyme>.</l></lg>
+        </body>
+    </text>
+</TEI>
