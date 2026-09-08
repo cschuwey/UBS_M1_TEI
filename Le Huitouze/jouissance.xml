@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+
+    type="application/xml" 
+
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt><title></title></titleStmt><publicationStmt><p></p></publicationStmt><sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Jouissance</head>
+            <head>Sonnet.</head>
+            
+            
+                <lg type="sonnet" rhyme="abba abba ccd eed"> 
+                    <lg type="quatrain">
+                    <l>Aujourd'hui dans tes bras<caesura/> j'ai demeuré pâ<rhyme label="a">mée</rhyme>,</l>
+                    <l>Aujourd'hui, cher <name>Tirsis</name>, ton amoureuse ar<rhyme label="b">deur</rhyme></l>
+                    <l>Triomphe impunément de toute ma pu<rhyme label="b">deur</rhyme></l>
+                    <l>Et je cède aux transports dont mon âme est char<rhyme label="a">mée</rhyme>.</l>
+                </lg>
+                <lg type="quatrain">
+                    <l>Ta flamme et ton respect m'ont enfin désar<rhyme label="a">mée</rhyme> ;</l>
+                    <l>Dans nos embrassements, je mets tout mon bon<rhyme label="b">heur</rhyme> </l>
+                    <l>Et je ne connais plus de vertu ni d'hon<rhyme label="b">neur</rhyme></l>
+                    <l>Puisque j'aime <name>Tirsis</name> et que j'en suis ai<rhyme label="a">mée</rhyme>.</l>
+                </lg>
+                <lg type="tercet">
+                    <l>O vous, faibles esprits, qui ne connaissez <rhyme label="c">pas</rhyme></l>
+                    <l>Les plaisirs les plus doux que l'on goûte ici-<rhyme label="c">bas</rhyme>,</l>
+                    <l>Apprenez les transports dont mon âme est ra<rhyme label="d">vie</rhyme> !</l>
+                </lg>
+                <lg type="tercet">
+                    <l>Une douce langueur m'ôte le senti<rhyme label="e">ment</rhyme>,</l>
+                    <l>Je meurs entre les bras de mon fidèle A<rhyme label="e">mant</rhyme>, </l>
+                    <l>Et c'est dans cette mort que je trouve la <rhyme label="f">vie</rhyme>.</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+    
+</TEI>
