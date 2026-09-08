@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+
+    type="application/xml" 
+
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> 
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>  
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>  
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <head>Jouissance</head>
+    <lg type="quatrain">
+        <l>Aujourd'hui dans tes bras<caesura/> j'ai demeuré pâmée,</l> 
+        <l>Aujourd'hui, cher <name>Tirsis</name>,<caesura/> ton amoureuse ardeur</l>
+        <l>Triomphe impunément<caesura/> de toute ma pudeur</l>
+        <l>Et je cède aux transports<caesura/> dont mon âme est charmée.</l>
+    </lg>
+    <lg type="quatrain">
+        <l>Ta flamme et ton respect<caesura/> m'ont enfin désarmée ;</l>
+        <l>Dans nos embrassements,<caesura/> je mets tout mon bonheur</l>
+        <l>Et je ne connais plus<caesura/> de vertu ni d'honneur</l>
+        <l>Puisque j'aime Tirsis<caesura/> et que j'en suis aimée.</l>
+    </lg>
+    <lg type="tercet">
+        <l>O vous, faibles esprits,<caesura/> qui ne connaissez pas</l>
+        <l>Les plaisirs les plus doux<caesura/> que l'on goûte ici-bas,</l>
+        <l>Apprenez les transports<caesura/> dont mon âme est ravie !</l>
+    </lg>
+    <lg type="tercet">
+        <l>Une douce langueur<caesura/> m'ôte le sentiment,</l>
+        <l>Je meurs entre les bras<caesura/> de mon fidèle Amant,</l>
+        <l>Et c'est dans cette mort<caesura/> que je trouve la vie.</l>
+    </lg>
+</TEI>
