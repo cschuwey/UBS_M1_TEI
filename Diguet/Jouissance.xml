@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt><title></title></titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>jouissance</head>
+            <author> Marie-Catherine de Villedieu </author>
+            <lg type="quatrain">
+                <lg rhyme="ABBA">
+                    <l> Aujourd'hui dans tes bras <ceasura/> j'ai demeuré <rhyme label="A"> pâmée</rhyme>,</l>
+                    <l>Aujourd'hui, cher Tirsis, ton amoureuse <rhyme label="B"> ardeur</rhyme> </l>
+                    <l>Triomphe impunément de toute ma <rhyme label="B"> pudeur </rhyme> </l>
+                    <l>Et je cède aux transports dont mon âme est <rhyme label="A"> charmée</rhyme>.</l>
+                </lg>
+                <lg rhyme="ABBA">
+                    <l>Ta flamme et ton respect m'ont enfin <rhyme label="A"> désarmée</rhyme>; </l>
+                    <l>Dans nos embrassements, je mets tout mon <rhyme label="B">bonheur </rhyme> </l>
+                    <l>Et je ne connais plus de vertu ni <rhyme label="B">d'honneur</rhyme></l>
+                    <l>Puisque j'aime Tirsis et que j'en suis <rhyme label="A"> aimée</rhyme>.</l>
+                </lg>
+            </lg>
+            <lg type="tercet">
+                <lg rhyme="AAB">
+                    <l>O vous, faibles esprits, qui ne connaissez <rhyme label="A">pas</rhyme></l>
+                    <l>Les plaisirs les plus doux que l'on goûte ici-<rhyme label="A">bas</rhyme>,</l>
+                    <l>Apprenez les transports dont mon âme est <rhyme label="B">ravie</rhyme> !</l>
+                </lg>
+                <lg rhyme="AAB">
+                    <l>Une douce langueur m'ôte le <rhyme label="A">sentiment</rhyme>,</l>
+                    <l>Je meurs entre les bras de mon fidèle <rhyme label="A">Amant</rhyme>, </l>
+                    <l>Et c'est dans cette mort que je trouve la <rhyme label="B">vie</rhyme>. </l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>
