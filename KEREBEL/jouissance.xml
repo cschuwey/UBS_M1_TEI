@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+
+    type="application/xml" 
+
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader>
+    <fileDesc>
+        <titleStmt><title></title></titleStmt> <publicationStmt><publisher></publisher></publicationStmt> <sourceDesc><ab></ab></sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <head> Jouissance </head>
+
+        <lg type="quatrain" rhyme="ABBA">
+            <l><app><rdg wit="2026"> </rdg></app> Aujourd'hui dans tes bras <caesura/> j'ai demeuré pâ <rhyme label="A"> mée </rhyme>,</l> 
+            <l> Aujourd'hui, cher Tirsis, ton amoureuse ar <rhyme label="B"> deur </rhyme> </l>
+            <l> Triomphe impunément dans toute ma pu <rhyme label="B"> deur </rhyme> </l>
+            <l> Et je cède aux transports dont mon âme est char <rhyme label="A"> mée </rhyme> </l></lg>
+
+        <lg type="quatrain" rhyme="ABBA">
+            <l> Ta flamme et ton respect m'ont enfin désar <rhyme label="A"> mée </rhyme> ; </l>
+            <l> Dans nos embrassements, je mets tour mon <rhyme label="B"> bonheur </rhyme>  </l>
+            <l> Et je ne connais plus de vertu ni <rhyme label="B"> d'honneur </rhyme> </l>
+            <l> Puisque j'aime Tirsis et que j'en suis ai <rhyme label="A"> mée </rhyme> </l></lg>
+
+        <lg type="tercet" rhyme="AAB">
+            <l> O vous, faibles esprits, qui ne connaissez <rhyme label="A"> pas </rhyme> </l>
+            <l> Les plaisirs les plus doux que l'on goûte ici-<rhyme label="A"> bas </rhyme>,</l>
+            <l> Apprenez les transports dont mon âme est ra <rhyme label="B"> vie </rhyme> ! </l></lg>
+
+        <lg type="tercet" rhyme="CCB">
+        <l> Une douce langueur m'ôte le senti <rhyme label="C"> ment </rhyme>,</l>
+        <l> Je meurs entre les bras de mon fidèle A <rhyme label="C"> mant </rhyme>,</l>
+        <l> Et c'est dans cette mort que je trouve la <rhyme label="B"> vie </rhyme>. </l></lg>
+            
+    </body>    
+</text>
+
+</TEI>
+</TEI> 
