@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns= "http://www.tei-c.org/ns/1.0">
+   
+ 
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+        <title>Manlius</title>
+            <author>Marie-Catherine Desjardins</author>
+    </titleStmt>
+    <publicationStmt>
+        <distributor></distributor>
+        <date when="1662"/>
+     </publicationStmt>
+    <sourceDesc>
+    <p>hhhhh</p>
+    </sourceDesc>
+     </fileDesc>
+    </teiHeader>
+    
+    
+  <text> 
+    <front>
+       <performance>
+      <castList> 
+        <castItem><roleName>Torquatus,</roleName><roleDesc> consul romain </roleDesc> </castItem> 
+          <castItem><roleName>Manlius,</roleName><roleDesc> fils du consul</roleDesc> </castItem> 
+        <castItem><roleName>Camille,</roleName><roleDesc>veuve de Decius</roleDesc>  </castItem> 
+        <castItem><roleName>Omphale,</roleName>  <roleDesc>princesse d'Épire, captive des Romains</roleDesc>  </castItem> 
+        <castItem><roleName>Junius,</roleName> <roleDesc>ami de Torquatus</roleDesc> </castItem> 
+        <castItem><roleName>Phénice,</roleName>  <roleDesc>suivante d'Omphale</roleDesc> </castItem>
+        <castItem><roleName>Pison,</roleName><roleDesc>licteur</roleDesc>   </castItem>
+    </castList></performance>  
+    </front>  
+      
+      <body> 
+       <head n="5"> Scene V.></head> 
+       <stage type="setting" rend= "caps" >Torquatus, Omphale, Phenice</stage>
+      
+      
+    <sp who="#torquatus">
+     <speaker> Torquatus </speaker> 
+     <l>Quel fujet dans ce lieu vous ameine ? </l>
+     <l>Eft-ce pitié, Madame, eft-ce amour, eft-ce haine? </l>
+    </sp> 
+      
+     <sp who="#omphale" toWhom= "torquatus">
+      <speaker> Omphale </speaker> 
+      <l>C'eft l'eftime, Seigneur, que confievent entre eux</l>
+      <l>Les plus grands ennemis, quand ils font genereux,</l> 
+      <l>De l'injufte deftin, la fiere Barbarie </l>
+      <l>Me forçeant malgré moy d'eftre voftre ennemie,</l>
+      <l>Voftre verru m'empefche au moins de vous haïr</l>
+      <l>Jufqu'à vouloir vous perdre, ou jufqu'à vous trahir</l> 
+      <l>Appeznez donc, Seigneur, que tout le Camp murmure</l>
+      <l>Et que de voftre fils la funefte avanture</l>
+      <l>Jette tant de fureur dans l'ame des foldats,</l>
+      <l>Que votre gloire &amp; vous, ne s'en fauveront pas</l>      
+     </sp>
+          
+     <sp>
+      <speaker> Torquatus </speaker>
+         <l>Quoy, la Princeffe Omphale eft l'enfible à ma gloire ?</l>
+     </sp>
+
+     <sp who="#omphale" toWhom= "torquatus">
+      <speaker> Omphale </speaker> 
+    <l>Je l'ay toûjours efté; fi j'en croy ma memoire,</l>
+    <l>Et c'eft par ce motif, que j'ay tant combatu,</l>
+    <l>Un amour dont l'effet bleffoit voftre vertu. </l>
+    </sp>
+
+   <sp who="#torquatus" toWhom= "omphale">
+     <speaker> Torquatus </speaker> 
+     <l> Peut-eftre cét orgueil a t'il une autre caufe, </l>
+     <l>Car de tous vos fecrets, nous fçavons quelque chofe,</l>
+     <l>Mon fils vous fait pitié, vous craignez fon trépas.</l>
+     </sp>
+
+     <sp who="#omphale" toWhom= "torquatus">
+      <speaker> Omphale </speaker> 
+      <l>Il eft vray, je le crains; je ne m'en deffens pas; </l>
+      <l>Si je plains d'un heros la triste destinée </l>
+      <l>Une pitié fi noble, eft d'une ame bien née;</l>
+      <l>Et quand ce motif feul me forceroit d'agir,</l>
+      <l>Ce n'eft pas un fecret dont je deuffe rougir:</l>
+      <l>Un fi beau mouvment ne feroit pas un crime </l>
+      </sp>
+    
+    <sp who="#torquatus" toWhom= "omphale">
+     <speaker> Torquatus </speaker> 
+     <l>Pourquoy donc le cacher, s'il eft fi legitime ?</l>
+     <l>Pourquoy l'enveloper d'une feinte terreur</l>
+     <l>Et donner des advis d'une fauffe rumeur ?</l>
+     <l>Que ne me dites vous, je crains pour ce que j'ayme ?</l>
+     <l>Accordez Manlius à mon amour extréme</l>
+     <l>Faites moy ce prefent</l>
+     </sp>
+
+     <sp who="#omphale" toWhom= "torquatus">
+      <speaker> Omphale </speaker> 
+      <l>Pour conferver fes jours </l>
+      <l>Une telle priere eft un foible fecours:</l>
+     <l>La mort de ce Heros n'eft que trop affurée,</l> 
+     <l>Mes mal-heures, voftre amour, &amp; le fort l'ont jurée</l>
+     <l>Je vois bien que je fais un inutile effort.</l>
+     <l>Hélas! il perira.</l>
+      </sp>
+
+     <sp who="#torquatus" toWhom= "omphale">
+     <speaker> Torquatus </speaker> 
+     <l>Vous pourrez le fauver, fi fon trépas vous touche;</l>
+     <l>Son arreft luy fera donné par votre bouche:</l>
+     <l>Tout mon Rival qu'il eft, fa mort dépend de vous</l>
+     <l>Je vous laiffe y penfer. Camille vient à nous,</l>
+     <l>Un pareil entretien doit finir aurpès d'elle. Il fort.</l>
+     </sp>
+
+        </body> 
+    </text>
+</TEI>   
