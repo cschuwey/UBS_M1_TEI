@@ -13,12 +13,16 @@
     <text xml:lang="fr"> 
         <front>
                     <castList>
-                        <castItem xml:id="torquatus"><roleName>Torquatus</roleName></castItem>
-                        <castItem xml:id="omphale"><roleName>Omphale</roleName>, <roleDesc>Princesse</roleDesc></castItem>
-                        <castItem xml:id="phenice">Phenice</castItem>
+                        <castItem xml:id="torquatus"><roleName>Torquatus</roleName>, <roleDesc>Consul Romain</roleDesc><role gender="M"/></castItem>
+                        <castItem xml:id="omphale"><roleName>Omphale</roleName>, <roleDesc>Princesse d'Epire, captive des Romains </roleDesc><role gender="F"/></castItem>
+                        <castItem xml:id="phenice"> <roleName>Phenice</roleName>, <roleDesc>Suivante d'Omphale</roleDesc><role gender="F"/></castItem><!--Est-ce qu'on pourrait ajouter quelque chose après Omphale pour renvoyer à elle ?-->
+<castItem xml:id="manlius"><roleName>Manlius</roleName>, <roleDesc>Fils du consul</roleDesc><role gender="M"/></castItem><!--Pareil ici, on pourrait renvoyer à Torquatus-->
+<castItem xml:id="camille"><roleName>Camille</roleName>, <roleDesc>Veuve de Decius</roleDesc><role gender="F"/></castItem>
+<castItem xml:id="junius"><roleName>Junius</roleName>, <roleDesc>Ami de Torquatus</roleDesc><role gender="M"/></castItem>
+<castItem xml:id="pison"><roleName>Pison</roleName>, <roleDesc>Litteur</roleDesc><role gender="M"/></castItem>
                     </castList>
                     <set>
-                        <p>La pièce est situé blablabla</p>
+                        <p>La pièce est située blablabla</p>
                     </set>
                 </front>
         <body>
@@ -32,41 +36,61 @@
                         <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
                 </sp>
                     <sp who="#omphale" toWhom="#torquatus"><speaker>Omphale</speaker>
-                    <l>C'est l'estime, Seigneur, que conservent entre eux</l>
-                    <l>Les plus grands ennemis, quand ils sont genereux.</l>
-                    <l>De l'injuste destin, la fiere Barbarie</l>
-                    <l>Me forçant malgré moi d'etre votre ennemie,</l>
-                    <l>Votre vertu m'empèche au moins de vous haïr</l>
+                   <lg> <l>C'est l'estime, Seigneur, que conservent entre eux</l>
+                    <l>Les plus grands ennemis, quand ils sont généreux.</l>
+                    <l>De l'injuste destin, la fière Barbarie</l>
+                    <l>Me forçant malgré moi d'être votre ennemie,</l>
+                    <l>Votre vertu m'empêche au moins de vous haïr</l>
                     <l>Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir</l>
                     <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
                     <l>Et que votre fils la funeste aventure</l>
                     <l>Jette tant de fureur dans l'âme des soldats,</l>
                     <l>Que votre gloire et vous, ne s'en sauveront pas</l>
-                    </sp>
+                   </lg> </sp>
                     <sp who="#torquatus" toWhom="#omphale"><speaker>Torquatus</speaker>
-                    <l>Quoi, la Princesse Omphale est sensible à ma gloire ?</l>
+                   <lg> <l>Quoi, la Princesse Omphale est sensible à ma gloire ?</l></lg>
                     </sp>
                     <sp who="#omphale" toWhom="#torquatus"><speaker>Omphale</speaker>
-                    <l>Je l'ai toujours été; si j'en crois ma mémoire,</l>
+                    <lg><l>Je l'ai toujours été; si j'en crois ma mémoire,</l>
                     <l>Et c'est par ce motif, que j'ai tant combattu,</l>
-                    <l>Un amour dont l'effet blesse votre vertu</l>
+                    <l>Un amour dont l'effet blesse votre vertu</l></lg>
                     </sp>
                     <sp who="#torquatus" toWhom="#omphale"><speaker>Torquatus</speaker>
-                    <l>Peut-être cet orgeuil a t-il une autre cause,</l>
+                    <lg><l>Peut-être cet orgueil a-t-il une autre cause,</l>
                     <l>Car de tous vos secrets, nous savons quelque chose,</l>
-                    <l>Mon fils vous fait pitié, vous craignez son trépas</l></sp>
-                <sp><speaker>Omphale</speaker>
-                <l>Il est vrai, je le crains; je ne m'en deffends pas;</l>
-                <l>Si je plains d'un heros la triste destinée,</l>
+                    <l>Mon fils vous fait pitié, vous craignez son trépas</l></lg></sp>
+                <sp who="#omphale" toWhom="#torquatus"><speaker>Omphale</speaker>
+                <lg><l>Il est vrai, je le crains; je ne m'en défends pas;</l>
+                <l>Si je plains d'un héros la triste destinée,</l>
                 <l>Une pitié si noble, est d'une âme bien née;</l>
                 <l>Et quand ce motif se me force d'agir,</l>
                 <l>Ce n'est pas un secret dont je dois rougir:</l>
-                <l>Un si beau mouvement ne serait pas un crime.</l></sp>
-                <sp><speaker>Torquatus</speaker>
-                <l>Pourquoi donc le cacher, s'il est si legitime ?</l>
-                <l>Pourquoi l'enveloper d'une sainte terreur,</l>
+                <l>Un si beau mouvement ne serait pas un crime.</l></lg></sp>
+                <sp who="#torquatus" toWhom="#omphale"><speaker>Torquatus</speaker>
+                <lg><l>Pourquoi donc le cacher, s'il est si légitime ?</l>
+                <l>Pourquoi l'envelopper d'une sainte terreur,</l>
                 <l>Et donner des avis d'une fausse rumeur ?</l>
-                <l>Que ne me dites vous, je crains pour ce que j'aime ?</l></sp>
+                <l>Que ne me dites-vous, je crains pour ce que j'aime ?</l>
+                <l>Accordez Manlius à mon amour extrême,</l> <!--Est-ce qu'on pourrait avoir quelque chose du type "ofWhom" pour montrer qui parle de qui à qui ?-->
+                <l>Faites-moi ce présent.</l></lg>
+                </sp>
+                <sp who="#omphale" toWhom="#torquatus"><speaker>Omphale</speaker>
+                <lg><l>Pour conserver les jours</l><!--alinea?-->
+                <l>Une telle pierre est un faible recours:</l>
+                <l>La mort de ce Héros n'est que trop assurée,</l>
+                <l>Mes malheurs, votre amour et le sort l'ont jurée,</l>
+                <l>Je vois bien que je fais un inutile effort.</l>
+                <l>Hélas! il perira.</l></lg></sp>
+                <sp who="#torquatus" toWhom="#omphale"><speaker>Torquatus</speaker>
+                <lg><l>Moderez ce transport.</l><!--alinea?-->
+                <l>Vous pourrez le sauver, si son trépas vous touche;</l>
+                <l>Son arrêt lui sera donné par votre bouche:</l>
+                <l>Tout mon Rival qu'il est, sa mort dépend de vous</l>
+                <l>Je vous laisse y penser. Camille vient à nous,</l>
+                <l>Un pareil entretien doit finir auprès d'elle.</l></lg></sp>
+                <stage type="departure">
+                <move who="#torquatus" type="leave"/>
+                </stage>
            <head/>Scène 5
             </> Acte
             </div>
