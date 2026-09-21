@@ -33,7 +33,7 @@
          <!--début du texte-->
 
          <sp who="#torquatus" toWhom="#omphale">
-             <speaker> Torquatus</speaker>
+             <speaker rend="caps"> Torquatus</speaker>
              <lg rhyme="aa">
                 <l met="9">Quel sujet dans ce lieu vous <orig>ameine</orig> <reg><seg>am<rhyme label="a">ène</rhyme></seg></reg> ? </l>
                 <l met="12">Est-ce pitié,<rs type="person" ref="#omphale">Madame</rs>,<caesura/> est-ce amour,est-ce <rhyme label="a">haine</rhyme> ? </l>
@@ -41,7 +41,7 @@
          </sp>
 
          <sp who="#omphale" toWhom="#torquatus">
-             <speaker>Omphale</speaker>
+             <speaker rend="caps">Omphale</speaker>
              <lg rhyme="aabb">
                 <l met="12">C'est l'estime, Monsieur,<caesura/> que conservent entre <rhyme label="a">eux</rhyme></l>
                 <l met="12">Les plus grands ennemis,<caesura/> quand il sont <seg>géné<rhyme label="a">reux</rhyme></seg>,</l>
@@ -57,12 +57,12 @@
          </sp>
 
          <sp who="#torquatus" toWhom="#omphale">
-             <speaker>Torquatus</speaker>
+             <speaker rend="caps">Torquatus</speaker>
                 <l met="12"><orig>Quoy</orig> <reg>Quoi</reg>,la Princesse <name>Omphale</name><caesura/> est sensible à ma <seg>gl<rhyme label="a">oire</rhyme></seg> ? </l>
          </sp>
 
          <sp who="#omphale" toWhom="#torquatus">
-            <speaker>Omphale</speaker>
+            <speaker rend="caps">Omphale</speaker>
             <lg rhyme="aab-">
                 <l met="12">Je l'<orig>ay</orig> <reg>ai</reg> toujours <orig>esté</orig> <reg>été</reg> ;<caesura/> si j'en <orig>croy</orig> <reg>crois</reg> ma <seg>mem<rhyme label="a">oire</rhyme></seg>,</l>
                 <l met="12"> Et c'est par ce motif,<caesura/> que j'<orig>ay</orig> <reg>ai</reg> tant <seg>combat<rhyme label="b">tu</rhyme></seg>,</l>
@@ -71,7 +71,7 @@
         </sp>
 
         <sp who="#torquatus" toWhom="#omphale">
-            <speaker>Torquatus</speaker>
+            <speaker rend="caps">Torquatus</speaker>
             <lg rhyme="aabb">
                 <l met="12">Peut-être <orig>cét</orig> <reg>cet</reg> orgueil<caesura/> a t'il une autre <seg>c<rhyme label="a">ause</rhyme></seg>,</l>
                 <l met="12">Car de tous vos secrets,<caesura/> nous <orig>sçavons</orig> <reg>savons</reg> quelque <seg>ch<rhyme label="a">ose</rhyme></seg>,</l>
@@ -80,7 +80,7 @@
         </sp>
 
         <sp who="#omphale" toWhom="#torquatus">
-            <speaker>Omphale</speaker>
+            <speaker rend="caps">Omphale</speaker>
             <l met="12">Il est <orig>vray</orig> <reg>vrai</reg>, je le crains ;<caesura/> je ne m'en <orig>défends</orig> <reg>défends</reg> <rhyme label="b">pas</rhyme> ; </l>
         </sp>
 
