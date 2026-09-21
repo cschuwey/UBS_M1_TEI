@@ -13,9 +13,9 @@
     <text xml:lang="fr"> 
         <front>
                     <castList>
-                        <castItem xml:id="#torquatus"><roleName>Torquatus</roleName></castItem>
-                        <castItem xml:id="#omphale"><roleName>Omphale</roleName>, <roleDesc>Princesse</roleDesc></castItem>
-                        <castItem xml:id="#phenice">Phenice</castItem>
+                        <castItem xml:id="torquatus"><roleName>Torquatus</roleName></castItem>
+                        <castItem xml:id="omphale"><roleName>Omphale</roleName>, <roleDesc>Princesse</roleDesc></castItem>
+                        <castItem xml:id="phenice">Phenice</castItem>
                     </castList>
                     <set>
                         <p>La pièce est situé blablabla</p>
