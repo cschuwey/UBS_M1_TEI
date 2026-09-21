@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Manlius.xml</title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+ <text>
+ 
+     <front>
+         <castList>
+             <castItem xml:id="torquatus"> 
+                 <roleName>Torquatus</roleName>
+             </castItem>
+             <castItem xml:id="omphale">
+                 <roleName>Omphale</roleName>, 
+                 <roleDesc>Princesse</roleDesc>
+             </castItem>
+             <castItem xml:id="phenice">
+                 <roleName>Phenice</roleName>
+             </castItem>              
+         </castList>
+     </front>
+
+     <body>
+         <head n="5">Scène V.</head>
+         <stage type="setting" rend="caps">Torquatus,Omphale,Phenice</stage>
+
+         <!--début du texte-->
+
+         <sp who="#torquatus" toWhom="#omphale">
+             <speaker> Torquatus</speaker>
+             <lg rhyme="aa">
+                <l met="9">Quel sujet dans ce lieu vous <orig>ameine</orig> <reg><seg>am</seg><rhyme label="a">ène</reg></rhyme></seg> ? </l>
+                <l met="12">Est-ce pitié,<rs type="person" ref="#omphale">Madame</rs>,<caesura/> est-ce amour,est-ce <rhyme label="a">haine</rhyme> ? </l>
+             </lg>
+         </sp>
+
+         <sp who="#omphale" toWhom="#torquatus">
+             <speaker>Omphale</speaker>
+             <lg rhyme="aabb">
+                <l met="12">C'est l'estime, Monsieur,<caesura/> que conservent entre <rhyme label="a">eux</rhyme></l>
+                <l met="12">Les plus grands ennemis,<caesura/> quand il sont <seg>géné<rhyme label="a">reux</rhyme></seg>,</l>
+                <l met="12">De l'injuste destin,<caesura/> la fière <seg>Barbar<rhyme label="b">ie</rhyme></seg></l>
+                <l met="12">Me <orig>forçeant</orig> <reg>forçant</reg> malgré <orig>moy</orig> <reg>moi</reg> d'être votre <seg>ennem<rhyme label="b">ie</rhyme></seg>,</l>
+                <l met="12">Votre vertu m'empêche<caesura/> au moins de vous <seg>ha<rhyme label="c">ïr</rhyme></seg></l>
+                <l met="12">Jusqu'à vouloir vous perdre,<caesure/> ou jusqu'à vous <seg>trah<rhyme label="c">ir</rhyme></seg>. </l>
+                <l met="12">Apprenez donc, Seigneur,<caesura/> que tout le Camp <seg>murm<rhyme label="d">ure</rhyme></seg>,</l>
+                <l met="12">Et que de <orig>vostre</orig> <reg>votre</reg> fils<caesura/> la funeste <orig>avanture</orig> <reg><seg>avent<rhyme label="d">ure</rhyme></seg></reg></l>
+                <l met="12">Jette tant de fureur<caesura/> dans l'âme des <seg>sold<rhyme label="e">ats</rhyme></seg>,</l>
+                <l met="12">Que votre gloire <orig>&amp;</orig> <reg>et</reg> vous,<caesura/> ne s'en sauveront <seg>p<rhyme label="e">as</rhyme></seg>. </l>
+             </lg> 
+         </sp>
+
+         <sp who="#torquatus" toWhom="#omphale">
+             <speaker>Torquatus</speaker>
+                <l met="12"><orig>Quoy</orig> <reg>Quoi</reg>,la Princesse <name>Omphale</name><caesura/> est sensible à ma <seg>gl<rhyme label="a">oire</rhyme></seg> ? </l>
+         </sp>
+
+         <sp who="#omphale" toWhom="#torquatus">
+            <speaker>Omphale</speaker>
+            <lg rhyme="aab-">
+                <l met="12">Je l'<orig>ay</orig> <reg>ai</reg> toujours <orig>esté</orig> <reg>été</reg> ;<caesura/> si j'en <orig>croy</orig> <reg>crois</reg> ma <seg>mem<rhyme label="a">oire</rhyme></seg>,</l>
+                <l met="12"> Et c'est par ce motif,<caesura/> que j'<orig>ay</orig> <reg>ai</reg> tant <seg>combat<rhyme label="b">tu</rhyme></seg>,</l>
+                <l met="12">Un amour dont l'effet<caesura/> <orig>blessoit</orig> <reg>blessait</reg> votre vertu. </l>
+            </lg>
+        </sp>
+
+        <sp who="#torquatus" toWhom="#omphale">
+            <speaker>Torquatus</speaker>
+            <lg rhyme="aabb">
+                <l met="12">Peut-être <orig>cét</orig> <reg>cet</reg> orgueil<caesura/> a t'il une autre <seg>c<rhyme label="a">ause</rhyme></seg>,</l>
+                <l met="12">Car de tous vos secrets,<caesura/> nous <orig>sçavons</orig> <reg>savons</reg> quelque <seg>ch<rhyme label="a">ose</rhyme></seg>,</l>
+                <l met="12">Mon fils vous fait pitié,<caesura/> vous craiguez son <seg>tré<rhyme label="b">pas</rhyme></seg>. </l> 
+            </lg>
+        </sp>
+
+        <sp who="#omphale" toWhom="#torquatus">
+            <speaker>Omphale</speaker>
+            <l met="12">Il est <orig>vray</orig> <reg>vrai</reg>, je le crains ;<caesura/> je ne m'en <orig>défends</orig> <reg>défends</reg> <rhyme label="b">pas</rhyme> ; </l>
+        </sp>
+
+     </body>
+ </text>  
+</TEI>
+    
