@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei xmlns="http://www.tei-c.org/ns/1.0>
+    <teiheader>
+        <fileDesc>
+            <titleStmt><title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc></fileDesc>
+    </teiheader>
+    
+    <text>
+        <front>
+            <castList>
+                <castItem xml:id="torquatus"><roleName>Torquatus</roleName></castItem>
+                <castItem xml:id="omphale">
+                    <roleNam>Omphale</roleNam>,
+                    <roleDesc>Princesse de...</roleDesc>
+                </castItem>
+                <castItem><roleNam>Phenice</roleNam>,<roleDesc></roleDesc></castItem>
+            </castList>
+        </front>
+        <body>
+            <head n="5">Scène V.</head>
+            <stage type="setting" rend="caps">Torquatus, Omphale, Phenice</stage>
+            <sp who="#torquatus">
+                <speaker>Torquatus</speaker>
+                <l>Quel sujet dans ce lieu vous ameine ?</l>
+                <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
+            </sp>
+            <sp who="#omphale" toWhom="#torquatus">
+                <speaker>Omphale</speaker>
+                <l>C'est l'estime, Seigneur, que conservent enre eux</l>
+                <l>Les plus grands ennemis, quand ils sont genereux</l>
+                <l>De l'injuste destin, la fière Barbarie</l>
+                <l>Me forçeant malgré moi d'être ennemie</l>
+                <l>Votre venu m'empeche au moins de vous haïr</l>
+                <l>Jusqu'à vouloir vous perdre, ou juqu'à vous trahir</l>
+                <l>Apprenez donc, Seigneur, que tout le Camp murmure</l>
+                <l>Et que de votre fils la funestre avanture</l>
+                <l>Jette tant de fureur dans l'ame des soldats</l>
+                <l>Que votre gloire et vous, ne s'en sauverons pas</l>
+            </sp>
+            <sp>
+            <speaker>Torquatus</speaker>
+                <l> Quoi, la Princesse Omphale est sensible à ma gloire ?</l>
+            </sp>
+            <sp>
+            <speaker>Omphale</speaker>
+                <l>Je l'ai toujours esté; si j'en crois ma mémoire,</l>
+                <l>Et c'est par ce motif, que j'ai tant combatu,</l>
+                <l>Un amour dont l'effet blessoir votre vertu</l>
+            </sp>
+            <sp>
+            <speaker>Torquatus</speaker>
+                <l>Peut-être cet orgueil a t'il une autre cause</l>
+                <l>Car de tous vos secrets, nous savons quelque chose,</l>
+                <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+            </sp>
+            <sp>
+            <speaker>Omphale</speaker>
+                <l>Il est vrai, je le crains, je ne m'en deffents pas,</l>
+            </sp>
+        </body>
+    </text>
+                 
+</tei>
+
