@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/0.1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castlist>
+                <head rend="caps italics">Personnages</head>
+                <castItem xml:id="torquatus">
+                    <role rend="caps">Torquatus</role>, 
+                    <roleDesc rend="italics">Consul Romain</roleDesc>.
+                </castItem>
+                <castItem>
+                    <role>Manlius</role>,
+                    <roleDesc>Fils du consul</roleDesc>.
+                </castItem>
+                <castItem>
+                    <role>Camille</role>
+                    <roleDesc>Vesve de Dessins</roleDesc>
+                </castItem>
+                <castItem xml:id="omphale">
+                     <role rend="caps">Omphale</role>, 
+                     <roleDesc rend="intalics">Princesse d'Epire captive des Romains</roleDesc>.
+                </castItem>
+                <castItem>
+                    <role>Junius</role>,
+                    <roleDesc>Amy de Torquatus</roleDesc>.
+                </castItem>
+                <castItem>
+                    <role>Phenice</role>, 
+                    <roleDesc>Suivante d'Omphale</roleDesc>.
+                </castItem>
+                <castItem>
+                    <role>Pison</role>, 
+                    <roleDesc>Litter</roleDesc>.
+                </castItem>
+            </castlist>
+            <stage type="location">La scene est au Camp des Romains devant les Tentes du Consul</stage>
+        </front>
+        <body>
+        <div1 type="scene" rend="5">
+            <head rend="caps">Scene V.</head>
+            <stage type="setting" rend="caps">Torquatus, Omphale, Phenice.</stage>
+            <sp who="#torquatus" toWhom="#omphale">
+                <speaker>TORQUATUS</speaker>
+                <l>Quel sujet dans ce lieu vous ameine ?</l>
+                <l>Est-ce petié , Madame , est-ce amour , est-ce haine ?</l>
+            </sp>
+            <sp who="#omphale" toWhom="#torquatus">
+                <speaker>OMPHALE</speaker>
+                <l>C'est l'estime , Seigneur , que conserve entre eux</l>
+                <l>Les plus grands ennemis , quand ils sont genreux.</l>
+                <l>De l'injuste destin , la fiere Barbarie</l>
+                <l>Me forçeant malgré moy d'estre vostre ennemie .</l>
+                <l>Vostre vertu m'empesche au moins de vous haïr</l>
+                <l>Jusqu'à vouloir vous perdre , jusqu'à vous trahir.</l>
+                <l>Apprenez donc , Seigneur , que tout le Camp murmure ,</l>
+                <l>Et que vostre fils la funestre avanture</l>
+                <l>Jette tant de fureur dans l'ame des soldats ,</l>
+                <l>Que vostre gloire &amp; vous? </l>
+                <l></l>
+            </sp>
+        </div1>
+        </body>
+    </text>
+</TEI>
