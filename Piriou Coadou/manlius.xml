@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList> 
+                <head> Les Personnages </head> 
+                <castItem xml:id="Torquatus">
+                    <roleName>Torquatus</roleName>
+                    <roleDesc>Consul Romain</roleDesc>
+                </castItem>
+                <castItem xml:id="Omphale">
+                    <roleName>Omphale</roleName>, 
+                    <roleDesc>Princesse d'Epire captive des Romains</roleDesc>
+                </castItem>
+                <castItem xml:id="Manlius">
+                     <roleName>Manlius</roleName>
+                     <roleDesc>Fils du Consul</roleDesc>                    
+                </castItem>
+                <castItem xml:id="Camille">
+                     <roleName>Camille</roleName>
+                     <roleDesc>Veuve de Décius</roleDesc>
+                </castItem>
+                <castItem xml:id="Junius">
+                     <roleName>Junius</roleName>
+                     <roleDesc>Ami de Torquatus</roleDesc>
+                </castItem>
+                <castItem xml:id="Phénice">
+                     <roleName>Phénice</roleName>
+                     <roleDesc>Suivante d'Omphale</roleDesc>
+                </castItem>
+                <castItem xml:id="Pison">
+                     <roleName>Pison</roleName>
+                     <roleDesc>Licteur</roleDesc>
+                </castItem>
+            </castList>
+            <set>
+                <p>La scène est au camp des Romains devant les tentes du Consul.</p>
+            </set>  
+        </front>
+        <body>
+           <div type="act" n="1">
+            <head>ACTE PREMIER</head>
+               <div type="scène" n="5">
+                <head n="5">Scène V.</head>
+            <stage type="setting" rend="caps"> Torquatus, Omphale, Phénice </stage>
+            <!--Texte écrit en français moderne-->
+            <sp who="#Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Quel sujet dans ce lieu vous amène</l>
+                <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
+            </sp>
+            <sp who="#Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>C'est l'estime, Seigneur, que conservent entre eux</l>
+                <l>Les plus grands ennemis, quand ils sont généreux,</l>
+                <l>De l'injuste destin, la fiere Barbarie</l>
+                <l>Me forcant malgré moi d'être votre ennemie,</l>
+                <l>Votre vertu m'empêche au moins de vous haïr</l>
+                <l>Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir.</l>
+                <l>Apprennez donc, Seigneur, que tout le Camp murmure,</l>
+                <l>Et que de votre fils la funeste aventure</l>
+                <l>Jette tant de fureur dans l'âme des soldats,</l>
+                <l>Que votre gloire et vous, ne s'en sauveront pas.</l>
+            </sp>
+            <sp who="#Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Quoi, la princesse Omphale est sensible à ma gloire ?</l>
+            </sp>
+            <sp who="#Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Je l'ai toujours été ; si j'en crois ma mémoire</l>
+                <l>Et c'est par ce motif, que j'ai tant combattu</l>
+                <l>Un amour dont l'effet blessait votre vertu</l>
+            </sp>
+            <sp who="#Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Peut-être cet orgueil a-t-il une autre cause,</l>
+                <l>Car de tous vos secrets, nous savons quelque chose,</l>
+                <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+            </sp>
+            <sp who="#Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Il est vrai, je le crains ; je ne m'en défend pas ;</l>
+            </sp>
+            <sp who="Manlius" toWhom="#Omphale">
+                <speaker>Manlius</speaker>
+                <l>Si je plains d'un héros la triste destinée,</l>
+                <l>Une pitié si noble, est d'une âme bien née ;</l>
+                <l>Et quand ce motif seul me forcerait d'agir,</l>
+                <l>Ce n'est pas un secret dont je deusse rougir :</l>
+                <l>Un si beau mouvement ne serait pas un crime.</l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Pourquoi donc le cacher, s'il est si légitime ?</l>
+                <l>Pourquoi l'envelopper d'une feinte terreur,</l>
+                <l>Et donner des avis d'une fausse rumeur ?</l>
+                <l>Que ne me dites vous, je crains pour ce que j'aime ?</l>
+                <l>Accordez Manlius à mon amour extrême,</l>
+                <l>Faites moi ce présent.</l>
+                <!--Le vers se poursuit jusqu'à la réplique d'Omphale pour former la rime-->
+            </sp>
+            <sp who="Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Pour conserver ses jours</l>
+                <l>Une telle prière est un faible secours :</l>
+                <l>La mort de ce Héros n'est que trop assurée,</l>
+                <l>Mes malheurs, votre amour, et le fort l'ont jurée,</l>
+                <l>Je vois bien que je fais un inutile effort.</l>
+                <l>Helas ! il périra.</l>
+                <!--Le vers se poursuit jusqu'à la réplique de Torquatus pour former la rime-->
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Modérez ce transport.</l>
+                <l>Vous pourrez le sauver, si son trépas vous touche ;</l>
+                <l>Son arrêt lui sera donné par votre bouche :</l>
+                <l>Tout mon Rival qu'il est, sa mort dépend de vous</l>
+                <l>Je vous laisse y penser. Camille vient à nous,</l>
+                <l>Un pareil entretien doit finir auprès d'elle.</l>
+            </sp>
+                <stage type="business" rend="italic">Il sort.</stage>
+
+            <div type="act" n="5">
+            <head>ACTE CINQ</head>
+               <div type="scène" n="2">
+                <head n="2">Scène II.</head>
+            <stage type="setting" rend="caps">Torquatus, Omphale, Phénice, Pison.</stage>
+            <sp who="Pison" toWhom="#Torquatus">
+                <speaker>Pison</speaker>
+                <l>Seigneur.</l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Pison">
+                <speaker>Torquatus</speaker>
+                <l>Qu'on aille promptement</l>
+                <l>Exécuter...</l>
+            </sp>
+            <!--Réplique de Torquatus interrompue par Omphale-->
+            <sp who="Omphale" toWhom="#Pison et Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Hélas ! Différez un moment.</l>
+                <l>Gardes, retirez-vous, je veux... mais, quoi ! Mon âme,</l>
+                <l>Quoi ? Voudrais-tu trahir Manlius et ta flamme ?</l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Que voulez-vous ?</l>
+            </sp>
+            <sp who="Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Je veux...</l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Achevez.</l>
+            </sp>
+            <sp who="Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Le sauver.</l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Et du reste ?</l>
+            </sp>
+            <sp who="Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Seigneur, je voudrais y rêver.</l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale et Pison">
+                <speaker>Torquatus</speaker>
+                <l> Ha ! C'est trop écouter tant de discours frivoles,</l>
+                <l>Je ne me repais point de ces vaines paroles.</l>
+                <l>Holà, Gardes.</l>
+            </sp>
+            <sp who="Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l> Seigneur, ne précipitez rien ;</l>
+                <l>Fallut-il pour son sang vous donner tout le mien,</l>
+                <l>Si Manlius le veut, j'y consens avec joie :</l>
+                <l>Mais, pour m'en informer, souffrez que je le voie ;</l>
+                <l>Que je puisse un moment lui parler sans témoins,</l>
+                <l>Et j'atteste les Dieux d'employer tous mes soins</l>
+  	            <l>Pour contenter, Seigneur, votre pressante envie,</l>
+                <l>Quand avecque ma main il vous faudrait ma vie.</l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l> Je puis donc me flatter d'obtenir votre coeur :</l>
+            </sp>
+            <sp who="Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Je ne sais, mais au moins, je dirais, oui, Seigneur.</l>
+                <l>Ne m'en demandez pas aujourd'hui davantage :</l>
+                <l>Il n'appartient qu'au temps d'achever cet ouvrage.</l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Ha ! Princesse, mon coeur à vos ordres soumis...</l>
+            </sp>
+            <sp who="Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Et de grâce, Seigneur, songeons à votre fils ;</l>
+                <l>Avec plus de loisir nous parlerons du reste,</l>
+                <l>Révoquez seulement un Arrêt si funeste.</l>
+                <l>Qu'on cherche Manlius, qu'on le fasse venir :</l>
+                <l>Nous aurons trop de temps pour nous entretenir.</l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Holà, quelqu'un, courez dans la tente prochaine</l>
+                <l>Où l'on garde mon fils, dire qu'on me l'amène. </l>
+                <l>Princesse, s'il consent aux plus doux de mes voeux,</l>
+                <l>Mon bonheur...</l>
+                <!--Réplique interrompue par Omphale-->
+            </sp>
+            <sp who="Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Hé, Seigneur, se peut-on croire heureux,</l>
+                <l>Quand on doit la douceur d'un aveu favorable,</l>
+                <l>À la nécessité de sauver un coupable ?</l>
+                <l>Ha, non non, pour goûter de solides plaisirs, </l>
+                <l>Il faut devoir un coeur à ses propres désirs ;</l>
+                <l>Et sa possession nous donne peu de joie,</l>
+  	            <l>Lors que, pour l'obtenir, on prend une autre voie.</l>
+                <l>Quand on prononce un oui que le coeur ne dit pas,</l>
+                <l>Ce mot si désiré perd bien de ses appas ; </l>
+                <l>La liberté du choix d'elle même est si chère,</l>
+                <l>Que si sur un tel point je conseillais un frère,</l>
+                <l>Je lui dirais, perdez la lumière du jour,</l>
+                <l>Plutôt que d'usurper le pouvoir de l'amour.</l>
+                <l>Mais voici Manlius, permettez-moi de grâce... </l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Je vous entends Madame, et lui cède la place.</l>
+                <l>Gardes, retirez-vous.</l>
+            </sp>
+            <sp who="Omphale" toWhom="#Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Ciel, soyez mon secours.</l>
+            </sp>
+            <sp who="Torquatus" toWhom="#Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Tâchons sans être vu, d'écouter leurs discours.</l>
+            </sp>
+              </div>
+            </div>     
+        </body>
+    </text>
+</TEI>
