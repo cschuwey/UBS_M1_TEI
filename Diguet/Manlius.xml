@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+        <head rend="caps italics">Personnages</head>
+            <castList>
+                <castItem xml:id="Torquatus"> 
+                    <role rend= "caps">Torquatus</role>, <roleDesc rend="italics"> Consul romain </roleDesc>.</castItem>
+                <castItem xml:id="Manlius">
+                    <role rend= "caps">Manlius</role>, <roleDesc rend= "italics">Fils du consul</roleDesc>.</castItem>
+                <castItem xml:id="Camille">
+                    <role rend= "caps">Camille</role>, <roleDesc rend= "italics">Vefve de Decius</roleDesc></castItem>
+                <castItem xml:id="Omphale">
+                    <rolerend= "caps">Omphale</role>, <roleDesc rend= "italics">Princesse d'Epire captive des Romains</roleDesc></castItem>
+                <castItem xml:id="Junius">
+                    <role rend= "caps">Junius</role>, <roleDesc rend= "italics">Amy de Torquatus</roleDesc></castItem>
+                <castItem xml:id="Phenice">
+                    <role rend= "caps">Phenice</role>, <roleDesc rend= "italics">Suivante d'Omphale</roleDesc></castItem>
+                <castItem xml:id="Pison">
+                    <role rend= "caps">Pison</role>, <roleDesc rend= "italics">Lideur</roleDesc></castItem>
+            </castList>
+            <set>
+            <p rend="italics">La scene est au Camp des Romains devant les Tentes du Consul</p>
+            </set>
+        </front>
+            <body>
+                <div1 type="scene" n="5">
+                <head rend="caps">Scene V.</head>
+                <stage type="setting" rend="caps">Torquatus, Omphale, Phenice</stage>
+
+               <sp who="Torquatus" towhom="Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Quel sujet dans ce lieu vous ameine?</l>
+                <l>Est-ce pitié, Madame, est-ce amour, est-ce haine?</l>
+               </sp>
+            
+                <sp who="Omphale" towhom="Torquatus">
+               <speaker>Omphale</speaker>
+                <l>C'est l'estime, Seigneur, que conversent entre eux</l>
+                <l>les plus grands ennemis, quand ils font genereux,</l>
+                <l>De l'injuste destin, la fiere Barbarie</l>
+                <l>Me forçeant malgré moy d'estre vostre ennemie,</l>
+                <l>Vostre verru m'empesche au moins de vous haïr</l>
+                <l>Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir.</l>
+                <l>Apprenez donc, Seigneur, que tu le Camp murmure,</l>
+                <l>Et que de vostre fils la funeste avanture</l>
+                <l>jette tant de fureur dans l'âme des soldats,</l>
+                <l>Que vostre gloire &amp; vous, ne s'en sauveront pas.</l>
+            </sp>
+            <sp who="Torquatus" towhom="Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Quoy, la Princess Omphale est sensible à ma gloire?</l>
+            </sp>
+            <sp who="Omphale" towhom="Torquatus">
+              <speaker>Omphale</speaker>  
+                <l>Je l'ay toûjours esté, fi j'en croy ma memoire,</l>
+                <l>Et c'est par ce motif, que j'ay tant combatu,</l>
+                <l>Un amour dont l'effet bleffoit vostre verru.</l>
+            </sp>
+             <sp who="Torquatus" towhom="Omphale">
+                <speaker>Torquatus</speaker> 
+                 <l>Peut-estre cét orgueil a t'il une autre cause,</l>
+                 <l>Car de tous vos secrets, nous savons quelque chose,</l>
+                 <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+             </sp>
+             <sp who="Omphale" towhom="Torquatus">
+             <speaker>Omphale</speaker>
+             <l>Il est vrai, je le crains; je ne m'en deffens pas;</l>
+            </sp> 
+            </div1>
+       </body>
+    </text>
+</TEI>
+
+    
