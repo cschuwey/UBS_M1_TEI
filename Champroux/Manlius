@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="https://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titlStmt>
+                <title></title>
+            </titlStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castlist>
+                    <head rend="caps italics">Personnages.</head>
+                    <castItem>
+                        <role xml:id="torquatus">Torquatus</role>
+                        <roleDesc rend="italics">Consul Romain.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="manlius">Manlius</role>
+                        <roleDesc rend="italics">Fils du Consul.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="camille">Camille</role>
+                        <roleDesc rend="italics">Veuve de Decius.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="omphale">Omphale</role>
+                        <roleDesc rend="italics">Princesse d'Epire captive des Romains.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="junius">Junius</role>
+                        <roleDesc rend="italics">Ami de Torquatus.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="phenice">Phenice</role>
+                        <roleDesc redn="italics">Suivante d'Omphale.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="pison">Pison</role>
+                        <roleDesc rend="italics">Licteur.</roleDesc>
+                    </castItem>
+            </castlist>
+            <set><p rend="setting">La scène est au camp des Romains devant les Tentes du Consul</p></set>
+        </front>
+        <body>
+            <div2 type="scene" n="5">
+                <head rend="caps italics">Scene V.</head>
+                <stage type="setting" rend="caps">Torquatus, Omphale, Phenice</stage>
+                <sp who="#torquatus" toWhom="#omphale">
+                    <speaker>Torquatus</speaker>
+                    <l>Quel sujet dans ce lieu vous amène ?</l>
+                    <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
+                </sp>
+                <sp who="#omphale" toWhom="#torquatus">
+                    <speaker>Omphale</speaker>
+                    <l>C'est l'estime, Seigneur, que conservent entre eux</l>
+                    <l>Les plus grands ennemis, quand ils sont généreux,</l>
+                    <l>De l'injuste detin, la fière Barbarie</l>
+                    <l>Me forçant malgré moi d'être votre ennemie,</l>
+                    <l>Votre vertu m'empêche au moins de vous haïr</l>
+                    <l>Jusqu'à vouloir vous perdre, où jusqu'à vous trahir.</l>
+                    <l>Apprenez-donc, Seigneur, que tout le Camp murmure</l>
+                    <l>Et que de votre fils la funeste aventure</l>
+                    <l>Jette tant de fureur dans l'âme des soldats,</l>
+                    <l>Que votre gloire et vous, ne s'en sauveront pas</l>
+                </sp>
+                <sp who="#torquatus" toWhom="#omphale">
+                    <speaker>Torquatus</speaker>
+                    <l>Quoi, la Princesse Omphale est sensible à ma gloire ?</l>
+                </sp>
+                <sp who="#omphale" toWhom="torquatus">
+                    <speaker>Omphale</speaker>
+                    <l>Je l'ai toujours été, si j'en crois ma mémoire,</l>
+                    <l>Et c'est par ce motif, que j'ai tant combattu,</l>
+                    <l>Un amour dont l'effet blesse votre vertu.</l>
+                </sp>
+                <sp who="#torquatus" toWhom="#omphale">
+                    <speaker>Torquatus</speaker>
+                    <l>Peut-être cet orgueil a-t-il une autre cause ?</l>
+                    <l>Car de tous vos secrets, nous savons quelque chose,</l>
+                    <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+                </sp>
+                <sp who="#omphale" toWhom="torquatus">
+                    <speaker>Omphale</speaker>
+                    <l>Il est vrai, je le crains ; je ne me défends pas.</l>
+                </sp>
+            </div2>
+        </body>
+    </text>
+</TEI>
