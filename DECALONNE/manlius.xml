@@ -1,1 +1,93 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt> <title></title> </titleStmt>
+			<publicationStmt><p></p></publicationStmt>
+			<sourceDesc><p></p></sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<castList>
+				<head type="title" rend="caps italics">Personnages.</head>
+				<castItem xml:id="torquatus">
+					<role>Torquatus</role>,
+					<roleDesc>Consul Romain</roleDesc>.
+				</castItem>
+				<castItem xml:id="manlius">
+					<role>Manlius</role>,
+					<roleDesc>Fils du Consul</roleDesc>.
+				</castItem>
+				<castItem xml:id="camille">
+					<role>Camille</role>,
+					<roleDesc>Veuve de Decimus</roleDesc>.
+				</castItem>
+				<castItem xml:id="omphale">
+					<role>Omphale</role>,
+					<roleDesc>Princesse d'Epire captive des Romains</roleDesc>.
+				</castItem>
+				<castItem xml:id="junius">
+					<role>Junius</role>,
+					<roleDesc>Amy de Torquatus</roleDesc>.
+				</castItem>
+				<castItem xml:id="phenice">
+					<role>Phenice</role>,
+					<roleDesc>Suivante d'Omphale</roleDesc>.
+				</castItem>
+				<castItem xml:id="pison">
+					<role>Pison</role>,
+					<roleDesc>Lictor</roleDesc>.
+				</castItem>
+			</castList>
+			<stage type="setting" rend="italics">
+				La Scene est au Camp des Romains devant les Tentes du Consul.
+			</stage>
+		</front>
+		<body>
+			<head type="title" rend="bold">Tragicomédie.</head>
+			<div1 type="scene" n="5">
+				<head>Scene 5.</head>
+				<stage type="entrance" rend="caps">Torquatus,Omphale,Phenice</stage>
+				<sp who="#torquatus" toWhom="#omphale">
+					<speaker> Torquatus</speaker>
+					<l>Quel sujet dans ce lieu vous amène ?</l>
+					<l>Est-ce pitié ? Madame, Est-ce amour ? Est-ce haine ?</l>
+				</sp>
+				<sp who="#omphale" toWhom="#torquatus">
+					<speaker>Omphale</speaker>
+					<l>C'est légitime,Seigneur, que conservent entre eux</l>
+					<l>Les plus grands enenmis, quand ils sont généreux</l>
+					<l>De l'injuste défin, la fière Barbarie</l>
+					<l> Me forçant malgré moi d'être votre ennemie,</l>
+					<l>Votre vertu m'empêche au moins de vous haïr</l>
+					<l>Jusqu'à vouloir vous perdre,où jusqu'à vous trahir.</l>
+					<l>Apprenez donc, Siegneur, que tout le Camp murmure</l>
+					<l>Que de notre fils la funeste aventure</l>
+					<l> Jette tant de fureur dans l'âme des soldats,</l>
+					<l>Que votre gloire et vous, et n'en sauveront pas.</l>
+				</sp>
+				<sp who="#torquatus" toWhom="#omphale">
+					<speaker>Torquatus</speaker>
+					<l>Quoi, La princesse Omphale est sensible à ma gloire ?</l>
+				</sp>
+				<sp who="#omphale" toWhom="#torquatus">
+					<speaker>Ompahle</speaker>
+					<l>Je l'ai toujous été, si j'en crois ma mémoire,</l>
+					<l> Et c'est par ce motif, que j'ai tant combattu,</l>
+					<l>Un amour dont l'effet blessoit votre vertu.</l>
+				</sp>
+				<sp who="#torquatus" toWhom="#omphale">
+					<speaker> Torquatus</speaker>
+					<l>Peut-être cet orgeuil a t'il une autre cause,</l>
+					<l>car de tous vos secrets, nous savons quelque chose,</l>
+					<l>Mon fils vous fait pitié,vous craignez son trépas</l>
+				</sp>
+				<sp who="#omphale" toWhom="#torquatus">
+					<speaker> Omphale</speaker>
+					<l> Il est vrai,je le crains; je ne m'en défends pas;</l>
+				</sp>
+			</div1>
+		</body>
+	</text>
+</TEI>
