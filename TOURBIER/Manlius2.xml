@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Manlius</title>
+                <author>Marie-Catherine Desjardins</author>
+            </titleStmt>
+            <publicationStmt>
+                <distributor></distributor>
+                <date when= "1662"/>
+            </publicationStmt>
+            <sourceDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+        <text>
+            <front>
+                <castList>
+                    <head>PERSONNAGES</head>
+                    <castItem xml:id="torquatus"> 
+                        <roleName>Torquatus</roleName>,
+                        <roleDesc>Conful Romain.</roleDesc>
+                    </castItem>
+                    <castItem xml:id="manlius"> 
+                        <roleName>MANLIUS</roleName>,
+                        <roleDesc>Fils du <choice><orig>Conſul</orig><reg>Consul</reg></choice>.</roleDesc>
+                    </castItem>
+                    <castItem xml:id="camille"> 
+                        <roleName>CAMILLE</roleName>,
+                        <roleDesc><choice><orig>Veſve</orig><reg>Veuve</reg></choice> de Decius.</roleDesc>
+                    </castItem>
+                    <castItem xml:id="omphale"> 
+                        <roleName>OMPHALE</roleName>,
+                        <roleDesc><choice><orig>Princeſſe</orig><reg>Princesse</reg></choice> d'Épire, captive des Romains.</roleDesc>
+                    </castItem>
+                    <castItem xml:id="junius"> 
+                        <roleName>JUNIUS</roleName>,
+                        <roleDesc><choice><orig>Amy</orig><reg>Ami</reg></choice> de Torquatus.</roleDesc>
+                    </castItem>
+                    <castItem xml:id="phénice"> 
+                        <roleName>PHÉNICE</roleName>,
+                        <roleDesc>Suivante d'Omphale</roleDesc>
+                    </castItem>
+                    <castItem xml:id="pison"> 
+                        <roleName>PISON</roleName>,
+                        <roleDesc>Licteur</roleDesc>
+                    </castItem>
+                </castList>
+                <set>
+                    <p>La <choice><orig>Scene</orig><reg>Scène</reg></choice> <choice><orig>eſt</orig><reg>est</reg></choice> au Camp des Romains devant les Tentes du <choice><orig>Conſul</orig><reg>Consul</reg></choice>.</p>
+                </set>
+            </front>
+            <body>
+            <head n="5">SCENE V.</head>
+            <stage type="setting" rend="caps">Torquatus, Omphale, Phénice</stage>
+
+            <sp who = "#torquatus" toWhom= "#omphale">
+                <speaker>TORQUATUS.</speaker>
+                <l rend="indent">Quel <choice><orig>ſujet</orig><reg>sujet</reg></choice> dans ce lieu vous <choice><orig>ameine</orig><reg>amène</reg></choice> ?</l>
+                <l><choice><orig>Eſt</orig><reg>Est</reg></choice>-ce pitié, Madame, <choice><orig>eſt</orig><reg>est</reg></choice>-ce amour, <choice><orig>eſt</orig><reg>est</reg></choice>-ce haine ?</l>
+            </sp>
+                
+            <sp who = "#omphale" toWhom= "#torquatus">
+                <speaker>OMPHALE.</speaker>
+                <l>C'eſt l'<choice><orig>eſtime</orig><reg>estime</reg></choice>, Seigneur, que <choice><orig>conſervent</orig><reg>conservent</reg></choice> entre eux</l>
+                <l>Les plus grands ennemis, quand ils <choice><orig>ſont</orig><reg>sont</reg></choice> <choice><orig>genereux</orig><reg>généreux</reg></choice>,</l>
+                <l>De l'<choice><orig>injuſte</orig><reg>injuste</reg></choice> <choice><orig>deſtin</orig><reg>destin</reg></choice>, la <choice><orig>fiere</orig><reg>fière</reg></choice> Barbarie</l>
+                <l>Me <choice><orig>forçeant</orig><reg>forçant</reg></choice> malgré <choice><orig>moy</orig><reg>moi</reg></choice> d'<choice><orig>eſtre</orig><reg>être</reg></choice> <choice><orig>voſtre</orig><reg>votre</reg></choice> ennemie.</l>
+                <l><choice><orig>Voſtre</orig><reg>Votre</reg></choice> vertu m'<choice><orig>empeſche</orig><reg>empêche</reg></choice> au moins de vous haïr</l>
+                <l><choice><orig>Juſqu</orig><reg>Jusqu</reg></choice>'à vouloir vous perdre, ou <choice><orig>juſqu</orig><reg>jusqu</reg></choice>'à vous trahir</l>
+                <l>Apprenez donc, Seingeur, que tout le Camp murmure,</l>
+                <l>Et que de <choice><orig>voſtre</orig><reg>votre</reg></choice> fils la <choice><orig>funeſte</orig><reg>funeste</reg></choice> <choice><orig>avanture</orig><reg>aventure</reg></choice></l>
+                <l>Jette tant de fureur dans l'<choice><orig>ame</orig><reg>âme</reg></choice> des <choice><orig>ſoldats</orig><reg>soldats</reg></choice>,</l>
+                <l>Que <choice><orig>voſtre</orig><reg>votre</reg></choice> gloire <choice><orig>&amp;</orig><reg>et</reg></choice> vous, ne s'en <choice><orig>ſauveront</orig><reg>sauveront</reg></choice> pas.</l>
+            </sp>
+                
+            <sp  who = "#torquatus" toWhom= "#omphale">
+                <speaker>TORQUATUS</speaker>
+                <l><choice><orig>Quoy</orig><reg>Quoi</reg></choice>, la <choice><orig>Princeſſe</orig><reg>Princesse</reg></choice> Omphale <choice><orig>eſt</orig><reg>est</reg></choice> <choice><orig>ſenſible</orig><reg>sensible</reg></choice> à ma gloire ?</l>
+            </sp>
+                
+            <sp  who = "#omphale" toWhom= "#torquatus">
+                <speaker>OMPHALE.</speaker>
+                <l>Je l'<choice><orig>ay</orig><reg>ai</reg></choice> <choice><orig>toûjours</orig><reg>toujours</reg></choice> <choice><orig>efté</orig><reg>été</reg></choice>; <choice><orig>ſi</orig><reg>si</reg></choice> j'en <choice><orig>croy</orig><reg>crois</reg></choice> ma <choice><orig>memoire</orig><reg>mémoire</reg></choice>,</l>
+                <l>Et c'<choice><orig>eſt</orig><reg>est</reg></choice> par ce motif, que j'<choice><orig>ay</orig><reg>ai</reg></choice> tant <choice><orig>combatu</orig><reg>combattu</reg></choice>,</l>
+                <l>Un amour dont l'effet <choice><orig>bleſſoit</orig><reg>blessait</reg></choice> <choice><orig>voſtre</orig><reg>votre</reg></choice> vertu.</l>
+            </sp>
+
+            <sp who = "#torquatus" toWhom= "#omphale">
+                <speaker>TORQUATUS</speaker>
+                <l>Peut-<choice><orig>eſtre</orig><reg>être</reg></choice> <choice><orig>cét</orig><reg>cet</reg></choice> orgueil a t'il une autre <choice><orig>cauſe</orig><reg>cause</reg></choice>,</l>
+                <l>Car de tous vos <choice><orig>ſecrets</orig><reg>secrets</reg></choice>, nous <choice><orig>ſçavons</orig><reg>savons</reg></choice> quelque <choice><orig>choſe</orig><reg>chose</reg></choice>,</l>
+                <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+            </sp>
+
+            <sp who = "#omphale" toWhom= "#torquatus"> 
+                <speaker>OMPHALE.</speaker>   
+                <l>Il <choice><orig>eſt</orig><reg>est</reg></choice> <choice><orig>vray</orig><reg>vrai</reg></choice>, je le crains; je ne m'en <choice><orig>deffens</orig><reg>défends</reg></choice> pas;</l>
+                <l>Si je plains d'un <choice><orig>heros</orig><reg>héros</reg></choice> la <choice><orig>triſte</orig><reg>triste</reg></choice> <choice><orig>deſtinée</orig><reg>destinée</reg></choice>,</l>
+                <l>Une pitié <choice><orig>ſi</orig><reg>si</reg></choice> noble, <choice><orig>eſt</orig><reg>est</reg></choice> d'une <choice><orig>ame</orig><reg>âme</reg></choice> bien née;</l>
+                <l>Et quand ce motif <choice><orig>ſeul</orig><reg>seul</reg></choice> me <choice><orig>forceroit</orig><reg>forcerait</reg></choice> d'agir,</l>
+                <l>Ce n'<choice><orig>eſt</orig><reg>est</reg></choice> pas un <choice><orig>ſecret</orig><reg>secret</reg></choice> dont je <choice><orig>deuſſe</orig><reg>dusse</reg></choice> rougir;</l>
+                <l>Un <choice><orig>ſi</orig><reg>si</reg></choice> beau mouvement ne <choice><orig>ſeroit</orig><reg>serait</reg></choice> pas un crime.</l>
+            </sp>
+
+            <sp who = "#torquatus" toWhom= "#omphale">
+                <speaker>TORQUATUS</speaker>
+                <l><choice><orig>Pourquoy</orig><reg>Pourquoi</reg></choice> donc le cacher, s'il <choice><orig>eſt</orig><reg>est</reg></choice> <choice><orig>ſi</orig><reg>si</reg></choice> légitme ?</l>
+                <l><choice><orig>Pourquoy</orig><reg>Pourquoi</reg></choice> l'<choice><orig>enveloper</orig><reg>envelopper</reg></choice> d'une feinte terreur,</l>
+                <l>Et donner des <choice><orig>advis</orig><reg>avis</reg></choice> d'une <choice><orig>fauſſe</orig><reg>fausse</reg></choice> rumeur ?</l>
+                <l>Que ne me dites vous, je crains pour ce que j'<choice><orig>ayme</orig><reg>aime</reg></choice> ?</l>
+                <l>Accordez Manlius à mon amour <choice><orig>extréme</orig><reg>extrême</reg></choice>,</l>
+                <l>Faites <choice><orig>moy</orig><reg>moi</reg></choice> ce <choice><orig>preſent</orig><reg>présent</reg></choice></l>
+            </sp>
+
+            <sp who = "#omphale" toWhom= "#torquatus"> 
+                <speaker>OMPHALE.</speaker>  
+                <l rend="indent">Pour <choice><orig>conſerver</orig><reg>conserver</reg></choice> <choice><orig>ſes</orig><reg>ses</reg></choice> jours</l>
+                <l>Une telle <choice><orig>priere</orig><reg>prière</reg></choice> <choice><orig>eſt</orig><reg>est</reg></choice> un <choice><orig>foible</orig><reg>faible</reg></choice> <choice><orig>ſecours</orig><reg>secours</reg></choice> :</l>
+                <l>La mort de ce <choice><orig>Heros</orig><reg>héros</reg></choice> n'<choice><orig>eſt</orig><reg>est</reg></choice> que trop <choice><orig>aſſurée</orig><reg>assurée</reg></choice>,</l>
+                <l>Mes <choice><orig>mal-heurs</orig><reg>malheurs</reg></choice>, <choice><orig>voſtre</orig><reg>votre</reg></choice> amour, <choice><orig>&amp;</orig><reg>et</reg></choice> le <choice><orig>ſort</orig><reg>sort</reg></choice> l'ont jurée,</l>
+                <l>Je vois bien que je fais un inutile effort.</l>
+                <l><choice><orig>Helas</orig><reg>Hélas</reg></choice> ! Il <choice><orig>perira</orig><reg>périra</reg></choice>.</l>
+            </sp>
+            
+            <sp who = "#torquatus" toWhom= "#omphale">
+                <speaker>TORQUATUS</speaker>
+                <l rend="indent">Moderez ce <choice><orig>tranſport</orig><reg>transport</reg></choice></l>
+                <l>Vous pourrez le <choice><orig>ſauver</orig><reg>sauver</reg></choice>, <choice><orig>ſi</orig><reg>si</reg></choice> <choice><orig>ſon</orig><reg>son</reg></choice> trépas vous touche;</l>
+                <l>Son <choice><orig>arreſt</orig><reg>arrêt</reg></choice> <choice><orig>luy</orig><reg>lui</reg></choice> <choice><orig>ſera</orig><reg>sera</reg></choice> donné par <choice><orig>voſtre</orig><reg>votre</reg></choice> bouche:</l>
+                <l>Tout mon <choice><orig>Rival</orig><reg>rival</reg></choice> qu'il <choice><orig>eſt</orig><reg>est</reg></choice>, <choice><orig>ſa</orig><reg>sa</reg></choice> mort dépend de vous</l>
+                <l>Je vous <choice><orig>laiſſe</orig><reg>laisse</reg></choice> y <choice><orig>penſer</orig><reg>penser</reg></choice>. Camille vient à nous,</l>
+                <l>Un pareil entretien doit finir <choice><orig>aupres</orig><reg>auprès</reg></choice> d'elle</l>
+                <stage>Il <choice><orig>ſort</orig><reg>sort</reg></choice></stage>
+            </sp>    
+        </body>
+    </text>
+</TEI>
