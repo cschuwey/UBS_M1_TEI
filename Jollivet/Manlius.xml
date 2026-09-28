@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title rend="caps"> Manlius TRAGI-COMEDIE</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+      
+       
+        <front>
+            <head rend="cast"> <castList>
+                <castItem xml:id="Torquatus">
+                    <role>Torquatus</role>,
+                    <roleDesc>Consul Romain</roleDesc>.
+                     </castItem>
+           
+                <castItem xml:id="Manlius">
+                    <role>Manlius</role> ,
+                    <roleDesc>Fils du Consul</roleDesc>.
+                </castItem>
+           
+                 <castItem xml:id="Camille">
+                    <role>Camille</role> ,
+                    <roleDesc>Vefve de Decius</roleDesc>.
+                </castItem>
+
+                <castItem xml:id="Omphale">
+                    <role>Omphale</role> ,
+                    <roleDesc>Princesse d'Epire captive des Romains</roleDesc>.
+                </castItem>
+
+                <castItem xml:id="Junius">
+                    <role>Junius</role> ,
+                    <roleDesc>Amy de Torquatus</roleDesc>.
+                </castItem>
+
+                <castItem xml:id="Phenice">
+                    <role>Phenice</role> ,
+                    <roleDesc>Suivante d'Omphale</roleDesc>.
+                </castItem>
+
+                <castItem xml:id="Pison">
+                    <role>Pison</role> ,
+                    <roleDesc>Licteur</roleDesc>.
+                </castItem>         
+
+            </castList>
+            </head>
+           
+       
+         </front>
+        <body>
+           
+           
+           <div1 type="act" n="2">
+            <div2 type="scene" n="5">
+             <head rend="caps">Scene V</head>
+
+                <stage type="setting" rend="caps" who="#Torquatus #Omphale #Phenice"> Torquatus, Omphale, Phenice </stage>
+
+                <sp who="#Torquatus" toWhom="#Omphale"><speaker>Torquatus.</speaker>
+                <l>Quel sujet dans ce lieu vous <choice><orig>ameine ?</orig><reg>amène</reg></choice></l>
+                    <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
+                </sp>
+            <sp><speaker who="#Omphale" toWhom="#Torquatus">Omphale.</speaker>
+                 <l>C'est l'estime, Seigneur, que conservent entre eux</l>
+                <l>Les plus grands ennemis, quand ils sont généreux.</l>
+                <l>De l'injuste destin, la fière barbarie</l>
+                <l>Me <choice><orig>forçeant</orig><reg> forçant</reg></choice> malgré <choice><orig>moy</orig><reg>moi</reg></choice> d'etre <choice><orig>vostre</orig><reg>votre</reg></choice> ennemie</l>
+                <l><choice><orig>Vostre</orig><reg>votre</reg></choice> vertu <choice><orig>m'empesche</orig><reg>m'empêche</reg></choice> au moins de vous haïr</l>
+                <l>Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir.</l>
+                <l>Apprenez donc, Seigneur, que tout le Camp murmure, </l>
+               <l>Et que de <choice><orig>vostre</orig><reg>votre</reg></choice> fils la funeste avanture</l>
+               <l>Jette tant de fureur dans l'<choice><orig>ame</orig><reg>âme</reg></choice> des soldats,</l>
+               <l>Que <choice><orig>vostre</orig><reg>votre</reg></choice> gloire &amp; vous, ne s'en sauveront pas.</l> 
+            </sp>
+
+           <sp who="#Torquatus" toWhom="#Omphale"><speaker>Torquatus.</speaker>
+                <l><choice><orig>Quoy</orig><reg>Quoi</reg></choice>, la Pincesse Omphale est sensible à ma gloire ?</l>
+                </sp>
+
+             <sp><speaker who="#Omphale" toWhom="#Torquatus">Omphale.</speaker>
+            <l> Je l'<choice><orig>ay</orig><reg>ai</reg></choice> <choice><orig>toûjours</orig><reg>toujours</reg></choice> <choice><orig>esté</orig><reg>été</reg></choice> ; si j'en <choice><orig>croy</orig><reg>crois</reg></choice> ma <choice><orig>memoire</orig><reg>mémoire</reg></choice>, </l> 
+            <l>Et c'est par ce motif, que j'<choice><orig>ay</orig><reg>ai</reg></choice> tant <choice><orig>combatu</orig><reg>combattu</reg></choice>,</l>
+            <l>Un amour dont l'effet <choice><orig>blessoit</orig><reg>blessait</reg></choice> <choice><orig>vostre</orig><reg>votre</reg></choice> vertu.</l>
+            </sp>
+
+            <sp who="#Torquatus" toWhom="#Omphale"><speaker>Torquatus.</speaker>
+                <l>Peut-<choice><orig>estre</orig><reg>être</reg></choice> <choice><orig>cét</orig><reg>cet</reg></choice> orgueil <choice><orig>a t'il</orig><reg>a-t-il</reg></choice> une autre cause,</l>
+                <l>Car de tous vos secrets, nous <choice><orig>sçavons</orig><reg>savons</reg></choice> quelque chose,</l>
+                <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+                </sp>
+
+            <sp><speaker who="#Omphale" toWhom="#Torquatus">Omphale.</speaker>
+            <l>Il est <choice><orig>vray</orig><reg>vrai</reg></choice>, je le crains ; je ne m'en <choice><orig>deffens</orig><reg>défends</reg></choice> pas; </l> 
+            <l>Si je plains d'un heros la triste destinée ; </l>
+            <l>Une pitié si noble, est d'une <choice><orig>ame</orig><reg>âme</reg></choice> bien née ; </l>
+            <l>Et quand ce motif seul me <choice><orig>forceroit</orig><reg>forcerait</reg></choice> d'agir, </l>
+            <l>Ce n'est pas un secret dont je <choice><orig>deusse</orig><reg>dusse</reg></choice> rougir : </l>
+            <l>Un si beau mouvement ne <choice><orig>feroit</orig><reg>ferait</reg></choice> pas un crime.</l>
+            </sp>
+           
+           <sp who="#Torquatus" toWhom="#Omphale"><speaker>Torquatus.</speaker>
+                <l><choice><orig>Pourquoy</orig><reg>Pourquoi</reg></choice> donc le cacher, s'il est si <choice><orig>legitime</orig><reg>légitime</reg></choice> ?</l>
+                <l><choice><orig>Pourquoy</orig><reg>Pourquoi</reg></choice> l'<choice><orig>enveloper</orig><reg>envelopper</reg></choice> d'une feinte terreur,</l>
+                <l>Et donner des <choice><orig>advis</orig><reg>avis</reg></choice> d'une fausse rumeur ?</l>
+                <l>Que ne me dites vous, je crains pour ce que j'<choice><orig>ayme</orig><reg>aime</reg></choice> ?</l>
+                <l>Accordez Manlius à mon amour <choice><orig>extréme</orig><reg>extrême</reg></choice>,</l>
+                <l>Faites <choice><orig>moy</orig><reg>moi</reg></choice> ce <choice><orig>present</orig><reg>présent</reg></choice></l>
+                </sp>
+
+            <sp><speaker who="#Omphale" toWhom="#Torquatus">Omphale.</speaker>
+            <l rend="indent">Pour conserver ses jours </l>
+            <l>Une telle <choice><orig>priere</orig><reg>prière</reg></choice> est un <choice><orig>foible</orig><reg>faible</reg></choice> secours :</l>
+            <l>La mort de ce Heros n'est que trop assurée,</l>
+            <l>Mes <choice><orig>mal-heurs</orig><reg>malheurs</reg></choice>, <choice><orig>vostre</orig><reg>votre</reg></choice> amour, &amp; le sort l'ont jurée,</l>
+            <l>Je vois bien que je fais un inutile effort.</l>
+            <l>Helas ! il perira.</l>
+            </sp>
+               
+               <sp who="#Torquatus" toWhom="#Omphale"><speaker>Torquatus.</speaker>
+                <l rend="indent"><choice><orig>Moderez</orig><reg>Modérez</reg></choice> ce transport.</l>
+                <l>Vous pourrez le sauver, si son trépas vous touche ; </l>
+                <l>Son <choice><orig>arrest</orig><reg>arrêt</reg></choice> <choice><orig>luy</orig><reg>lui</reg></choice> sera donné par <choice><orig>vostre</orig><reg>votre</reg></choice> bouche : </l>
+                <l>Tout mon Rival qu'il est, sa mort dépend de vous</l>
+                <l>Je vous laisse y penser. Camille vient à nous, </l>
+                <l>Un pareil entretien doit finir <choice><orig>aupres</orig><reg>auprès</reg></choice> d'elle.</l>
+                <stage type="exit">Il sort.</stage> 
+                </sp>
+            </div2>
+            </div1>
+        </body>
+           
+    </text>
+</TEI>
