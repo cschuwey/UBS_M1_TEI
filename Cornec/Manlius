@@ -32,7 +32,7 @@
                 <castItem xml:id="camille">
                     <role>Camille</role>
                     ,
-                    <roleDesc>Vefve de Decins</roleDesc>
+                    <roleDesc>Veuve de Decins</roleDesc>
                     .
                 </castItem>
                 <castItem xml:id="omphale">
@@ -56,18 +56,16 @@
                 <castItem xml:id="pison">
                     <role>Pison</role>
                     ,
-                    <roleDesc>Licteur</roleDesc>
+                    <roleDesc>Lecteur</roleDesc>
                     .
                 </castItem>
             </castList>
-            [[[[[[<note place="foot" n="1">La Scene est au Camp des Romains devant les Tentes du Consul.</note>
-OU BIEN
-            <set><p>La Scene est au Camp des Romains devant les Tentes du Consul.</p></set>]]]]]]]]]]]
+            <set><p>La Scene est au Camp des Romains devant les Tentes du Consul.</p></set>
         </front>
         <body>
             <div1 type="acte" n="2">
             <div2 type="scene" n="5">
-            <pb n="21">
+            <pageNum>21</pageNum>
                 <head type="titre courant">Tragi Comedie</head>
             <head rend="caps">Scene V.</head>
             <stage type="setting" rend="caps">Torquatus, Omphale, Phenice.</stage>
@@ -75,8 +73,12 @@ OU BIEN
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
                     <lg type="stanza">
-                        <l ana="#decasyllabe"> Quel fujet dans ce lieu vous ameine ?</l>
-                        <l ana="#alexandrin">Eft-ce pitié, Madame, eft-ce amour, eft-ce haine?</l>
+                        <l ana="#decasyllabe"> 
+                            Quel sujet dans ce lieu vous 
+                            <app><rdg wit="ancien">ameine</rdg><rdg wit="moderne">amène</rdg></app> 
+                            ?
+                        </l>
+                        <l ana="#alexandrin">Est-ce pitié, Madame, est-ce amour, est-ce haine?</l>
                     </lg>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus">
@@ -92,15 +94,33 @@ OU BIEN
                             De l'injuste destin, la fiere 
                             <emph>Barbarie</emph>
                         </l>
-                        <l ana="#alexandrin">Me forçant malgré moy d'estre vostre ennemie,</l>
-                        <l ana="#alexandrin">Vostre vertu m'empesche au moins de vous haïr</l>
-                        <l ana="#alexandrin">Jusqu'à vouloir vous perdre, ou jusqu'à vous tra-hir.</l>
+                        <l ana="#alexandrin">
+                            Me 
+                            <app><rdg wit="ancien">forçeant</rdg><rdg wit="moderne">froçant</rdg></app> 
+                            malgré 
+                            <app><rdg wit="ancien">moy</rdg><rdg wit="moderne">moi</rdg></app> 
+                            d' 
+                            <app><rdg wit="ancien">estre</rdg><rdg wit="moderne">être</rdg></app> 
+                            <app><rdg wit="ancien">vostre</rdg><rdg wit="moderne">votre</rdg></app> 
+                            ennemie,
+                        </l>
+                        <l ana="#alexandrin">
+                            <app><rdg wit="ancien">Vostre</rdg><rdg wit="moderne">Votre</rdg></app> 
+                            vertu m'
+                            <app><rdg wit="ancien">empesche</rdg><rdg wit="moderne">empêche</rdg></app> 
+                            au moins de vous haïr
+                        </l>
+                        <l ana="#alexandrin">Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir.</l>
                         <l ana="#alexandrin">
                             Apprenez donc, 
                             <emph>Seigneur</emph>
-                            , que tout le Camp mur-mure,
+                            , que tout le Camp murmure,
                         </l>
-                        <l ana="#alexandrin">Et que de vostre fils la funeste avanture</l>
+                        <l ana="#alexandrin">
+                            Et que de 
+                            <app><rdg wit="ancien">vostre</rdg><rdg wit="moderne">votre</rdg></app> 
+                            fils la funeste avanture
+                        </l>
                         <l ana="#alexandrin">Jette tant de fureur dans l'ame des soldats</l>
                         <l ana="#alexandrin">Que vostre gloire (et) vous, ne s'en sauveront pas.</l>
                     </lg>
@@ -108,74 +128,137 @@ OU BIEN
                 <sp who="#torquatus" toWhom="#omphale">
                     <speaker rend="caps">Torquatus</speaker>
                     <l ana="#alexandrin">
-                        Quoy, la 
-                        [[[[[[[[[[[[[[[[[[[<seg>
+                        <app><rdg wit="ancien">Quoy</rdg><rdg wit="moderne">Quoi</rdg></app>
+                        , la 
+                        <seg>
                             Princesse 
                             <rs type="person" key="OMPL">Omphale</rs>
                         </seg>
-                        OU BIEN 
-                        <index>
-                            <term>la Princesse Omphale</term>
-                        </index> ]]]]]]]]]]]]]]]]]]]]]]]]]]
-                        est sensible à ma gloi-re?
+                        est sensible à ma gloire?
                     </l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus">
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza">
-                        <l ana="#alexandrin">Je l'ay toûjours esté ; si j'en croy ma memoire,</l>
-                        <l ana="#alexandrin">Et c'est par ce motif, que j'ay tant combatu,</l>
-                        <l ana="#alexandrin">Un amour dont l'effet blessoit vostre vertu.</l>
+                        <l ana="#alexandrin">
+                            Je l'
+                            <app><rdg wit="ancien">ay</rdg><rdg wit="moderne">ai</rdg></app> 
+                            toûjours 
+                            <app><rdg wit="ancien">esté</rdg><rdg wit="moderne">été</rdg></app> 
+                            ; si j'en 
+                            <app><rdg wit="ancien">croy</rdg><rdg wit="moderne">crois</rdg></app>
+                            ma memoire,
+                        </l>
+                        <l ana="#alexandrin">
+                            Et c'est par ce motif, que 
+                            <app><rdg wit="ancien">j'ay</rdg><rdg wit="moderne">j'ai</rdg></app> 
+                            tant combatu,
+                        </l>
+                        <l ana="#alexandrin">
+                            Un amour dont l'effet blessoit 
+                            <app><rdg wit="ancien">vostre</rdg><rdg wit="moderne">votre</rdg></app> 
+                            vertu.
+                        </l>
                     </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale">
                     <speaker rend="caps">Torquatus</speaker>
                     <lg type="stanza">
                         <l ana="#alexandrin">Peut-estre cét orgueil a t'il une autre cause,</l>
-                        <l ana="#alexandrin">Car de tous vos secrets, nous sçavons quelque cho-se,</l>
+                        <l ana="#alexandrin">
+                            Car de tous vos secrets, nous 
+                            <app><rdg wit="ancien">sçavons</rdg><rdg wit="moderne">savons</rdg></app> 
+                            quelque chose,
+                        </l>
                         <l ana="#alexandrin">Mon fils vous fait pitié, vous craigrez son trépas.</l>
                     </lg>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus">
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza" part="Debut">
-                        <l ana="#alexandrin">Il est vray, je le crains ; je ne l'en deffens pas ;</l>
+                        <l ana="#alexandrin">
+                            Il est vray, je le crains ; je ne m'en 
+                            <app><rdg wit="ancien">deffens</rdg><rdg wit="moderne">défends</rdg></app> 
+                            pas ;
+                        </l>
                     </lg>
                 </sp>
-                </pb>
-                <pb n="22">
+                <note place="foot" n="1">B2</note>
+                <pb/>
+                <pageNum>22</pageNum>
                 <head type="titre courant" rend="caps">Manlius</head>
                     <sp who="#omphale" toWhom="#torquatus">
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza" part="Fin">
                         <l ana="#alexandrin">Si je plains d'un heros la triste destinée,</l>
                         <l ana="#alexandrin">Une pitié si noble, est d'une ame bien née ;</l>
-                        <l ana="#alexandrin">Et quand ce motif seul me forceroit d'agir,</l>
-                        <l ana="#alexandrin">Ce n'est pas un secret dont je deusse rougir :</l>
-                        <l ana="#alexandrin">Un si beau mouvement ne ferait pas un crime.</l>
+                        <l ana="#alexandrin">
+                            Et quand ce motif seul me 
+                            <app><rdg wit="ancien">forceroit</rdg><rdg wit="moderne">forcerait</rdg></app> 
+                            d'agir,
+                        </l>
+                        <l ana="#alexandrin">
+                            Ce n'est pas un secret dont je 
+                            <app><rdg wit="ancien">deusse</rdg><rdg wit="moderne">dusse</rdg></app> 
+                            rougir :
+                        </l>
+                        <l ana="#alexandrin">
+                            Un si beau mouvement ne 
+                            <app><rdg wit="ancien">seroit</rdg><rdg wit="moderne">serait</rdg></app>
+                            pas un crime.
+                        </l>
                     </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale">
                     <speaker rend="caps">Torquatus</speaker>
                     <lg type="stanza">
-                        <l ana="#alexandrin">Pourquoy donc le cacher, s'il est si legitime ?</l>
-                        <l ana="#alexandrin">Pourquoy l'enveloper d'une feinte terreur,</l>
-                        <l ana="#alexandrin">Et donner des advis d'une fausse rumeur ?</l>
-                        <l ana="#alexandrin">Que ne me dites vous, je crains pour ce que j'ayme ?</l>
+                        <l ana="#alexandrin">
+                            <app><rdg wit="ancien">Pourquoy</rdg><rdg wit="moderne">Pourquoi</rdg></app> 
+                            donc le cacher, s'il est si legitime ?
+                        </l>
+                        <l ana="#alexandrin">
+                            <app><rdg wit="ancien">Pourquoy</rdg><rdg wit="moderne">Pourquoi</rdg></app> 
+                            <app><rdg wit="ancien">l'enveloper</rdg><rdg wit="moderne">l'envelopper</rdg></app> 
+                            d'une feinte terreur,
+                        </l>
+                        <l ana="#alexandrin">
+                            Et donner des 
+                            <app><rdg wit="ancien">advis</rdg><rdg wit="moderne">avis</rdg></app> 
+                            d'une fausse rumeur ?
+                        </l>
+                        <l ana="#alexandrin">
+                            Que ne me dites vous, je crains pour ce que 
+                            <app><rdg wit="ancien">j'ayme</rdg><rdg wit="moderne">j'aime</rdg></app> 
+                            ?
+                        </l>
                         <l ana="#alexandrin">
                             Accordez 
                             <rs type="person" key="MANL">Manlius</rs> 
                             à mon amour extréme,
                         </l>
-                        <l ana="#alexandrin">Faites moy ce present.</l>
+                        <l ana="#alexandrin">
+                            Faites 
+                            <app><rdg wit="ancien">moy</rdg><rdg wit="moderne">moi</rdg></app> 
+                            ce present.
+                        </l>
                     </lg>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus">
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza">
-                        <l ana="#alexandrin">Une telle priere est un foible secours :</l>
+                        <l ana="#alexandrin">
+                            Une telle priere est un 
+                            <app><rdg wit="ancien">foible</rdg><rdg wit="moderne">faible</rdg></app> 
+                            secours :
+                        </l>
                         <l ana="#alexandrin">La mort de ce Heros n'est que trop assurée,</l>
-                        <l ana="#alexandrin">Mes mal-heurs, vostre amour, (et) le fort l'ont ju-rée,</l>
+                        <l ana="#alexandrin">
+                            Mes 
+                            <app><rdg wit="ancien">mal-heurs</rdg><rdg wit="moderne">malheurs</rdg></app>
+                            , 
+                            <app><rdg wit="ancien">vostre</rdg><rdg wit="moderne">votre</rdg></app>
+                            amour, (et) le fort l'ont jurée,
+                        </l>
                         <l ana="#alexandrin">Je vois bien que je fais un inutile effort.</l>
                         <l ana="#alexandrin">Helas ! il perira.</l>
                     </lg>
@@ -185,7 +268,14 @@ OU BIEN
                     <lg type="stanza">
                         <l ana="#alexandrin">Moderez ce transport.</l>
                         <l ana="#alexandrin">Vous pourrez le sauver, si son trépas vous touche ;</l>
-                        <l ana="#alexandrin">Son arrest luy fera donné par vostre bouche :</l>
+                        <l ana="#alexandrin">
+                            Son 
+                            <app><rdg wit="ancien">arrest</rdg><rdg wit="moderne">arrêt</rdg></app> 
+                            <app><rdg wit="ancien">luy</rdg><rdg wit="moderne">lui</rdg></app> 
+                            sera donné par 
+                            <app><rdg wit="ancien">vostre</rdg><rdg wit="moderne">votre</rdg></app>
+                            bouche :
+                        </l>
                         <l ana="#alexandrin">
                             Tout mon 
                             <emph>Rival</emph> 
@@ -202,7 +292,7 @@ OU BIEN
                         </l>
                     </lg>
                 </sp>
-                </pb>
+                <pb/>
             </div2>
             </div1>
             <div3 type="acte" n="5">
@@ -222,8 +312,15 @@ OU BIEN
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
                         <l>Hélas ! Différez un moment</l>
-                        <l><emph>Gardes</emph>, retirez-vous, je veux...mais, quoi ! Mon âme,</l>
-                        <l>Quoi ? Voudrais-tu faire trahir <rs type="person" key="MANL">Manlius</rs> et ta flamme ?</l>
+                        <l>
+                            <emph>Gardes</emph>
+                            , retirez-vous, je veux...mais, quoi ! Mon âme,
+                        </l>
+                        <l>
+                            Quoi ? Voudrais-tu faire trahir 
+                            <rs type="person" key="MANL">Manlius</rs> 
+                            et ta flamme ?
+                        </l>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
@@ -247,24 +344,46 @@ OU BIEN
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                        <l><emph>Seigneur</emph>, je voudrais y rêver.</l>
+                        <l>
+                            <emph>Seigneur</emph>
+                            , je voudrais y rêver.
+                        </l>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
+                    <lg type="stanza">
                         <l>Ha ! C'est trop écouter tant de discours frivoles,</l>
                         <l>Je ne me repais point de ces vaines paroles.</l>
-                        <l>Holà, <emph>Gardes</emph>.</l>
+                        <l>
+                            Holà, 
+                            <emph>Gardes</emph>
+                            .
+                        </l>
+                    </lg>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                        <l><emph>Seigneur</emph>, ne précipitez rien ;</l>
+                    <lg type="stanza">
+                        <l>
+                            <emph>Seigneur</emph>
+                            , ne précipitez rien ;
+                        </l>
                         <l>Fallut-il pour son sang vous donner tout le mien,</l>
-                        <l>Si <rs type="person" key="MANL">Manlius</rs>  le veut, j'y consens avec joie :</l>
+                        <l>
+                            Si 
+                            <rs type="person" key="MANL">Manlius</rs>  
+                            le veut, j'y consens avec joie :
+                        </l>
                         <l>Mais, pour m'en informer, souffrez que je le voie ;</l>
                         <l>Que je puisse un moment lui parler sans témoins,</l>
                         <l>Et j'atteste les Dieux d'employer tous mes soins</l>
-                        <l>Pour contenter, <emph>Seigneur</emph>, votre pressante envie,</l>
+                        <l>
+                            Pour contenter, 
+                            <emph>Seigneur</emph>
+                            , votre pressante envie,
+                        </l>
                         <l>Quand avecque ma main il vous faudrait ma vie.</l>
+                    </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
@@ -272,32 +391,57 @@ OU BIEN
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus">  
                     <speaker rend="caps">Omphale</speaker>
-                        <l>Je ne sais, mais au moins, je dirais, oui, <emph>Seigneur</emph>.</l>
+                    <lg type="stanza">
+                        <l>
+                            Je ne sais, mais au moins, je dirais, oui, 
+                            <emph>Seigneur</emph>
+                            .
+                        </l>
                         <l>Ne m'en demandez pas aujourd'hui davantage :</l>
                         <l>Il n'appartient qu'au temps d'achever cet ouvrage.</l>
+                    </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                        <l>Ha ! <emph>Princesse</emph>, mon coeur à vos ordres soumis...</l>
+                        <l>
+                            Ha ! 
+                            <emph>Princesse</emph>
+                            , mon coeur à vos ordres soumis...
+                        </l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                        <l>Et de grâce, <emph>Seigneur</emph>, songeons à votre fils ;</l>
+                    <lg type="stanza">
+                        <l>
+                            Et de grâce, 
+                            <emph>Seigneur</emph>
+                            , songeons à votre fils ;
+                        </l>
                         <l>Avec plus de loisir nous parlerons du reste,</l>
                         <l>Révoquez seulement un Arrêt si funeste.</l>
                         <l>Qu'on cherche Manlius, qu'on le fasse venir :</l>
                         <l>Nous aurons trop de temps pour nous entretenir.</l>
+                    </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
+                    <lg type="stanza">
                         <l>Holà, quelqu'un, courez dans la tente prochaine</l>
                         <l>Où l'on garde mon fils, dire qu'on me l'amène.</l>
-                        <l><emph>Princesse</emph>, s'il consent aux plus doux de mes voeux,</l>
+                        <l>
+                            <emph>Princesse</emph>
+                            , s'il consent aux plus doux de mes voeux,
+                        </l>
                         <l>Mon bonheur...</l>
+                    </lg>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                        <l>Hé, <emph>Seigneur</emph>, se peut-on croire heureux,</l>
+                    <lg type="stanza">
+                        <l>Hé, 
+                            <emph>Seigneur</emph>
+                            , se peut-on croire heureux,
+                        </l>
                         <l>Quand on doit la douceur d'un aveu favorable,</l>
                         <l>À la nécessité de sauver un coupable ?</l>
                         <l>Ha, non non, pour goûter de solides plaisirs,</l>
@@ -310,11 +454,19 @@ OU BIEN
                         <l>Que si sur un tel point je conseillais un frère,</l>
                         <l>Je lui dirais, perdez la lumière du jour,</l>
                         <l>Plutôt que d'usurper le pouvoir de l'amour.</l>
-                        <l>Mais voici <rs type="person" key="MANL">Manlius</rs> , permettez-moi de grâce...</l>
+                        <l>
+                            Mais voici 
+                            <rs type="person" key="MANL">Manlius</rs> 
+                            , permettez-moi de grâce...
+                        </l>
+                    </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                        <l>Je vous entends <emph>Madame</emph>, et lui cède la place.</l>
+                        <l>Je vous entends 
+                            <emph>Madame</emph>
+                            , et lui cède la place.
+                        </l>
                         <l>Gardes, retirez-vous.</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
