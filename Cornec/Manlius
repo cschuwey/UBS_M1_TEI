@@ -92,7 +92,9 @@
                         <l ana="#alexandrin">Les plus grands ennemis, quand ils sont genereux,</l>
                         <l ana="#alexandrin">
                             De l'injuste destin, la fiere 
-                            <emph>Barbarie</emph>
+                            <emph>
+                                <app><rdg wit="ancien">Barbarie</rdg><rdg wit="moderne">barbarie</rdg></app>
+                            </emph>
                         </l>
                         <l ana="#alexandrin">
                             Me 
@@ -251,7 +253,13 @@
                             <app><rdg wit="ancien">foible</rdg><rdg wit="moderne">faible</rdg></app> 
                             secours :
                         </l>
-                        <l ana="#alexandrin">La mort de ce Heros n'est que trop assurée,</l>
+                        <l ana="#alexandrin">
+                            La mort de ce 
+                            <emph>
+                                <app><rdg wit="ancien">Heros</rdg><rdg wit="moderne">héros</rdg></app>
+                            </emph> 
+                            n'est que trop assurée,
+                        </l>
                         <l ana="#alexandrin">
                             Mes 
                             <app><rdg wit="ancien">mal-heurs</rdg><rdg wit="moderne">malheurs</rdg></app>
