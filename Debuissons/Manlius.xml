@@ -1,1 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt> <title></title> </titleStmt>
+			<publicationStmt><p></p></publicationStmt>
+			<sourceDesc><p></p></sourceDesc>
+		</fileDesc>
+	</teiHeader>
+  
+<text>
+		<header rend="caps"> TRAGI-COMEDIE </header>
+		<front>
+			<head rend="caps">Personnages.</head>
+			<castList>
+				<castItem xml:id="torquatus">
+					<roleName rend="caps">Torquatus</roleName>,
+				  <roleDesc rend="italic">Conful Romain</roleDesc>.
+        </castItem>
+			  <castItem xml:id="manlius">
+					<roleName rend="caps">Manlius</roleName>,
+				  <roleDesc rend="italic">Fils du Consul</roleDesc>.
+        </castItem>
+				<castItem xml:id="camille">
+					<roleName rend="caps">Camille</roleName>,
+				  <roleDesc rend="italic">Veuve de Decius </roleDesc>.
+        </castItem>
+        <castItem xml:id="omphale">
+				  <roleName rend="caps">Omphale</roleName>,
+			    <roleDesc rend="italic">Princesse d'Epire captive des Romains </roleDesc>.
+        </castItem>
+		    <castItem xml:id="junius">
+			    <roleName rend="caps">Junius</roleName>,
+		      <roleDesc rend="italic">Ami de Torquatus</roleDesc>.
+        </castItem>
+        <castItem xml:id="phenice">
+			    <roleName rend="caps">Phenice</roleName>
+		      <roleDesc rend="italic">Servante d'Omphale</roleDesc>.
+        </castItem>
+        <castItem xml:id="pison">
+			    <roleName rend="caps">Pison</roleName>
+		      <roleDesc rend="italic">Lutteur</roleDesc>.
+          </castItem>
+	    </castList>
+    </front>
 
+        <body>
+	    <div1 type="Scene" n="5">
+		<head rend="caps italics">Scene V.</head>
+		<stage type="setting" rend="caps"> Torquatus, Omphale, Phénice </stage>
+		
+            <sp who="#torquatus" toWhom="#omphale">
+			<speaker>Torquatus</speaker>
+			<l rend="half-line">Quel sujet dans ce lieu vous ameine ?</l>
+			<l>Est-ce pitié, Madame,est-ce amour, est-ce haine ?</l>
+		    </sp>
