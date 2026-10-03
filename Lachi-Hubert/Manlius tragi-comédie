@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/0.1">
+
+<?xml-model 
+    href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+    type="application/xml" 
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,65 +20,144 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+
     <text>
         <front>
+            <figure/>
             <castlist>
                 <head rend="caps italics">Personnages</head>
-                <castItem xml:id="torquatus">
+                <castItem xml:id="Torquatus">
                     <role rend="caps">Torquatus</role>, 
                     <roleDesc rend="italics">Consul Romain</roleDesc>.
                 </castItem>
-                <castItem>
-                    <role>Manlius</role>,
-                    <roleDesc>Fils du consul</roleDesc>.
+                <castItem xml:id="Manlius">
+                    <role rend="caps">Manlius</role>,
+                    <roleDesc rend="italics">Fils du consul</roleDesc>.
                 </castItem>
-                <castItem>
-                    <role>Camille</role>
-                    <roleDesc>Vesve de Dessins</roleDesc>
+                <castItem xml:id="Camille">
+                    <role rend="caps">Camille</role>
+                    <roleDesc rend="italics">Vesve de Dessins</roleDesc>
                 </castItem>
-                <castItem xml:id="omphale">
+                <castItem xml:id="Omphale">
                      <role rend="caps">Omphale</role>, 
-                     <roleDesc rend="intalics">Princesse d'Epire captive des Romains</roleDesc>.
+                     <roleDesc rend="intalics">Princesse d'Epire captive des Ro<metamark ana="hc:Hyphen">-</metamark><lb break="no"/>mains</roleDesc>.
                 </castItem>
-                <castItem>
-                    <role>Junius</role>,
-                    <roleDesc>Amy de Torquatus</roleDesc>.
+                <castItem xml:id="Junius">
+                    <role rend="caps">Junius</role>,
+                    <roleDesc rend="italics">Amy de Torquatus</roleDesc>.
                 </castItem>
-                <castItem>
-                    <role>Phenice</role>, 
-                    <roleDesc>Suivante d'Omphale</roleDesc>.
+                <castItem xml:id="Phenice">
+                    <role rend="caps">Phenice</role>, 
+                    <roleDesc rend="italics">Suivante d'Omphale</roleDesc>.
                 </castItem>
-                <castItem>
-                    <role>Pison</role>, 
-                    <roleDesc>Litter</roleDesc>.
+                <castItem xml:id="Pison">
+                    <role rend="caps">Pison</role>, 
+                    <roleDesc rend="italics">Litter</roleDesc>.
                 </castItem>
             </castlist>
             <stage type="location">La scene est au Camp des Romains devant les Tentes du Consul</stage>
+            <catchwords rend="caps right">Man-</catchwords>
         </front>
+
         <body>
-        <div1 type="scene" rend="5">
-            <head rend="caps">Scene V.</head>
-            <stage type="setting" rend="caps">Torquatus, Omphale, Phenice.</stage>
-            <sp who="#torquatus" toWhom="#omphale">
-                <speaker>TORQUATUS</speaker>
-                <l>Quel sujet dans ce lieu vous ameine ?</l>
-                <l>Est-ce petié , Madame , est-ce amour , est-ce haine ?</l>
+        <div1 type="act" n="2">
+        <div2 type="scene" rend="5" n="5">
+            <head rend="caps center">Scene V.</head>
+            <stage type="setting" rend="caps center">Torquatus, Omphale, Phenice.</stage>
+            <sp who="#Torquatus" toWhom="#Omphale">
+                <speaker rend="caps center">Torquatus.</speaker>
+                <lg type="stanza" rhyme="AA">
+                    <l met="alexandrine" part="F">Quel sujet dans ce lieu vous ameine ?</l>
+                    <l met="alexandrine">Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
+                </lg>
             </sp>
-            <sp who="#omphale" toWhom="#torquatus">
-                <speaker>OMPHALE</speaker>
-                <l>C'est l'estime , Seigneur , que conserve entre eux</l>
-                <l>Les plus grands ennemis , quand ils sont genreux.</l>
-                <l>De l'injuste destin , la fiere Barbarie</l>
-                <l>Me forçeant malgré moy d'estre vostre ennemie .</l>
-                <l>Vostre vertu m'empesche au moins de vous haïr</l>
-                <l>Jusqu'à vouloir vous perdre , jusqu'à vous trahir.</l>
-                <l>Apprenez donc , Seigneur , que tout le Camp murmure ,</l>
-                <l>Et que vostre fils la funestre avanture</l>
-                <l>Jette tant de fureur dans l'ame des soldats ,</l>
-                <l>Que vostre gloire &amp; vous? </l>
-                <l></l>
+            <sp who="#Omphale" toWhom="#Torquatus">
+                <speaker rend="caps center">Omphale.</speaker>
+                <lg type="stanza" rhyme="BBCCDDEEFF">
+                    <l met="alexandrine">C'est l'estime, Seigneur, que conserve entre eux</l>
+                    <l met="alexandrine">Les plus grands ennemis, quand ils sont genreux.</l>
+                    <l met="alexandrine">De l'injuste destin, la fiere Barbarie</l>
+                    <l met="alexandrine">Me forçeant malgré moy d'estre vostre ennemie.</l>
+                    <l met="alexandrine">Vostre vertu m'empesche au moins de vous haïr</l>
+                    <l met="alexandrine">Jusqu'à vouloir vous perdre, jusqu'à vous tra<metamark ana="hc:Hyphen">-</metamark><lb break="no"/>hir.</l>
+                    <l met="alexandrine">Apprenez donc, Seigneur, que tout le Camp mur<metamark ana="hc:Hyphen">-</metamark><lb break="no"/>mure,</l>
+                    <l met="alexandrine">Et que vostre fils la funestre avanture</l>
+                    <l met="alexandrine">Jette tant de fureur dans l'ame des soldats,</l>
+                    <l met="alexandrine">Que vostre gloire &amp; vous, ne s'en sauverons pas.</l>
+                </lg>
             </sp>
+            <sp who="#Torquatus" toWhom="#Omphale">
+                <speaker rend="caps center">Torquatus.</speaker>
+                    <l rhyme="G" met="alexandrine">Quoy, la Princesse Omphale est sensible à ma gloi<metamark ana="hc:Hyphen">-</metamark><lb break="no"/>re ?</l>
+            </sp>
+            <sp who="#Omphale" toWhom="#Torquatus">
+                <speaker rend="caps center">Omphale.</speaker>
+                <lg type="stanza" rhyme="GHH">
+                    <l met="alexandrine">Je l'ay toûjours esté ; si j'en croy ma memoire,</l>
+                    <l met="alexandrine">Et c'est par ce motif, que j'ay tant combatu,</l>
+                    <l met="alexandrine">Un amour dont l'effet blessoit vostre vertu.</l>
+                </lg>
+            </sp>
+            <sp who="#Torquatus" toWhom="#Omphale">
+                <speaker rend="caps center">Torquatus.</speaker>
+                <lg type="stanza" rhyme="IIF">
+                    <l met="alexandrine">Peut-estre cét orgueil a t'il une autre cause,</l>
+                    <l met="alexandrine">Car de tous vos secrets, nous sçavons quelque cho<metamark ana="hc:Hyphen">-</metamark><lb break="no"/>se,</l>
+                    <l met="alexandrine">Mon fils vous fait pitié, vous craignez son trépas.</l>
+                </lg>
+            </sp>
+            <sp who="#Omphale" toWhom="#Torquatus">
+                <speaker rend="caps center">Omphale.</speaker>
+                <lg type="stanza" rhyme="FJJDDK">
+                    <l met="alexandrine">Il est vray, je le crains ; je ne m'en deffens pas ;</l>
+                    <l met="alexandrine"><catchwords rend="right">-Si</catchwords></l>
+                    <pb n="22"/>
+                    <!--Je ne sais pas a quoi correspond l'élément "B2" donc je n'ai rien mis-->
+                    <l met="alexandrine">Si je plains d'un heros la triste destinée,</l>
+                    <l met="alexandrine">Une pitié si noble, est d'une ame bien née ;</l>
+                    <l met="alexandrine">Et quand ce motif seul me forceroit d'agir,</l>
+                    <l met="alexandrine">Ce n'est pas un secret dont je dusse rougir :</l>
+                    <l met="alexandrine">Un si beau mouvement ne serait pas un crime.</l>
+                </lg>
+            </sp>
+            <sp who="#Torquatus" toWhom="#Omphale">
+                <speaker rend="caps center">Torquatus.</speaker>
+                <lg type="stanza" rhyme="KLLMM">
+                    <l met="alexandrine">Pourquoy donc le cacher, s'il est si legitime ?</l>
+                    <l met="alexandrine">Pourquoy l'enveloper d'une feinte terreur,</l>
+                    <l met="alexandrine">Et donner des advis d'une fausse rumeur ?</l>
+                    <l met="alexandrine">Que ne me dites vous, je crains pour ce que j'ayme ?</l>
+                    <l met="alexandrine">Accordez Manlius à mon amour extréme,</l>
+                    <l met="alexandrine" part="I">Faites moy ce present.</l>
+                </lg>
+            </sp>
+            <sp who="#Omphale" toWhom="#Torquatus">
+                <speaker rend="caps center">Omphale.</speaker>
+                <lg type="stanza" rhyme="NNJJO">
+                    <l met="alexandrine" part="F">Pour conserver ses jours</l>
+                    <l met="alexandrine">Une telle priere est un foible secours :</l>
+                    <l met="alexandrine">La mort de ce Heros n'est que trop assurée,</l>
+                    <l met="alexandrine">Mes mal-heurs, vostre amour, &amp; le sort l'ont ju<metamark ana="hc:Hyphen">-</metamark><lb break="no"/>rée,</l>
+                    <l met="alexandrine">Je vois bien que je fais un inutile effort.</l>
+                    <l met="alexandrine" part="I">Helas ! Il perira.</l>
+                </lg>
+            </sp>
+            <sp who="#Torquatus" toWhom="#Omphale">
+                <speaker rend="caps center">Torquatus.</speaker>
+                <lg type="stanza" rhyme="OPPQQR">
+                    <l met="alexandrine" part="F">Modérez ce transport.</l>
+                    <l met="alexandrine">Vous pourrez le sauvez, si son trépas vous touche,</l>
+                    <l met="alexandrine">Son arrest luy sera donné par vostre bouche :</l>
+                    <l met="alexandrine">Tout mon Rival qu'il est, sa mort dépend de vous</l>
+                    <l met="alexandrine">Je vous laisse y penser. Camille vient à nous,</l>
+                    <l met="alexandrine">Un pareil entretien doit finir aupres d'elle.</l>
+                </lg>
+                <stage type="exit"><move who="#Torquatus" type="exit"></move>Il sort.</stage>
+            </sp>
+            <figure rend="center"/>
+            <catchwords rend="caps right">Sce-</catchwords>
         </div1>
+        </div2>
         </body>
     </text>
 </TEI>
