@@ -1,1 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>MANLIUS</title>
+            <title type="sub">Tragi-comédie en cinq actes et en vers</title>
+            <author>MADEMOISELLE DES JARDINS de son vrai nom Marie-Catherine de Villedieu</author>
+        </titleStmt>
+        <publicationStmt>
+        </publicationStmt>
+        <sourceDesc>             
+          <biblStruct>
+            <monogr>
+              <author>MADEMOISELLE DES JARDINS de son vrai nom Marie-Catherine de Villedieu</author>
+              <title>MANLIUS</title>
+              <imprint>
+                <publisher>CLAUDE BARBIN</publisher>
+                <pubPlace>Paris, au Palais, sur le degré devant la Sainte-Chapelle au signe de la Croix</pubPlace>
+                <date>1662</date>
+              </imprint>
+              <biblScope unit="acte" n="2"></biblScope>
+              <biblScope unit="scène" n="5"></biblScope>
+			  <biblScope unit="acte" n="5"></biblScope>
+			  <biblScope unit="scène" n="2"></biblScope>
+            </monogr>
+            <ref target="https://www.theatre-classique.fr/pages/programmes/edition.php?t=../documents/DESJARDINS_MANLIUS.xml"/>
+          </biblStruct>
+         </sourceDesc>
+    </fileDesc>
 
+    <!-- PLACEMENT DE LA DÉCLARATION MÉTRIQUE -->
+    <encodingDesc>
+        <metDecl type="pattern" xml:id="alexandrin-rimes-plates">
+            <p>Alexandrins en rimes plates (ou suivies) de schéma AABB.</p>
+            <met notation="syllabique">6/6</met>
+			<metSym value="iamb">-+</metSym>
+        </metDecl>
+    </encodingDesc>
+	<!-- PLACEMENT DE LA DÉCLARATION MÉTRIQUE -->
+
+</teiHeader>
+	
+	
+	<front>
+	<pb n="2"/>
+		<performance><p>Représenté pour la première fois <date>en 1640</date>.</p></performance>
+		<titlePage type="half-title">
+			<docTitle> <titlePart>TRAGI-COMÉDIE</titlePart> </docTitle>
+		</titlePage>
+		<div type="Dramatis_Personae">
+			<castList>
+			<head>Personnages</head>
+			<note rend="small type flush left"
+   place="inline"></note>
+   <pb n="3"/>
+				<castItem type="list">Consul, Princesse, Suivante, Licteur.</castItem>
+				<castItem type="list">
+					<roleDesc>Consul,</roleDesc>
+					<roleDesc>Princesse,</roleDesc>
+					<roleDesc>Suivante,</roleDesc>
+					<roleDesc>Licteur.</roleDesc>
+				</castItem>
+				<castGroup rend="braced">
+					<head>Amie de Torquatus</head>
+					<castItem> <role>JUNIUS</role> </castItem>
+				</castGroup>
+				<castGroup rend="braced">
+					<head>Fils du Consul</head>
+					<castItem> <role>MANLIUS</role> </castItem>
+				</castGroup>
+				<castItem><role xml:id="TORQUATUS" gender="M">TORQUATUS,
+				<roleDesc>Consul Romain.</roleDesc></role></castItem>
+				<castItem><role xml:id="MANLIUS" gender="M">MANLIUS,
+				<roleDesc>Fils du Consul.</roleDesc></role></castItem>
+				<castItem><role xml:id="CAMILLE" gender="F">CAMILLE,
+				<roleDesc>Veuve de Décius.</roleDesc></role></castItem>
+				<castItem><role xml:id="OMPHALE" gender="F">OMPHALE,
+				<roleDesc>Princesse d'Épire captive des Romains.</roleDesc></role></castItem>
+				<castItem><role xml:id="JUNIUS" gender="M">JUNIUS,
+				<roleDesc>Ami de Torquatus.</roleDesc></role></castItem>
+				<castItem><role xml:id="PHENICE" gender="F">PHÉNICE,
+				<roleDesc>Suivante d'Omphale.</roleDesc></role></castItem>
+				<castItem><role xml:id="PISON" gender="M">PISON, 
+				<roleDesc>Licteur.</roleDesc></role></castItem>
+			</castList>
+		</div>
+		<set>
+			<p>La scène est au camp des Romains devant les tentes du Consul.</p>
+		</set>
+	</front>
+
+
+	<text>
+		<body  met="#alexandrin-rimes-plates" rhyme="AABB">
+
+<pb n="21"/>
+<fw type="header">Tragi-comédie</fw>
+		<div1 type="act" n="2">
+					<head>Acte II</head>
+			<div2 type="scene" n="5">
+			<head>SCÈNE V.</head>
+<stage type="entrance" rend="caps">
+    <persName ref="#TORQUATUS">Torquatus</persName>, 
+    <persName ref="#OMPHALE">Omphale</persName>, 
+    <persName ref="#PHENICE">Phenice</persName>.
+</stage>	
+	<sp who="#TORQUATUS" toWhom="#OMPHALE">
+	<speaker>TORQUATUS.</speaker>	
+	<l n="536" ana="ennéasyllabe" met="3/3/3" type="féminine">Quel sujet dans ce lieu vous <choice><orig>ameine</orig><reg>amène</reg></choice>?</l> 
+<l n="537" ana="décasyllabe" met="4/6" type="féminine">Est-ce pitié, <persName ref="#OMPHALE">Madame</persName>, est-ce amour, est-ce haine ?</l>
+	</sp>
+
+<sp who="#OMPHALE" toWhom="#TORQUATUS" type="réplique">
+	<speaker>OMPHALE.</speaker>
+   <l n="538" enjamb="yes" type="masculine">C'est l'estime, <persName ref="#TORQUATUS">Seigneur</persName>, que conservent entre eux</l> 
+   <l n="539" type="masculine">Les plus grands ennemis, quand ils sont genereux.</l> 
+   <l n="540" enjamb="yes" type="féminine">De l'injuste destin, la <choice><orig>fiere</orig><reg>fière</reg></choice> <emph><app><rdg wit="ancien">Barbarie</rdg><rdg wit="moderne">barbarie</rdg></app></emph></l>
+   <l n="541" type="féminine">Me <choice><orig>forçeant</orig><reg>forçant</reg></choice> malgré moy d'estre <choice><orig>vostre</orig><reg>votre</reg></choice> ennemie,</l>
+   <l n="542" enjamb="yes" type="masculine"><choice><orig>vostre</orig><reg>votre</reg></choice> vertu <choice><orig>m'empesche</orig><reg>m'empêche</reg></choice> au moins de vous haïr</l>
+   <l n="543" type="masculine">Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir.</l>
+   <l n="544" type="féminine">Apprenez donc, <persName ref="#TORQUATUS">Seigneur</persName>, que tout le Camp murmure,</l>
+   <l n="545" enjamb="yes" type="féminine">Et que de <choice><orig>vostre</orig><reg>votre</reg></choice> <persName ref="#MANLIUS">fils</persName> la funeste <choice><orig>avanture</orig><reg>aventure</reg></choice></l> 
+   <l n="546" type="masculine">Jette tant de fureur dans l'ame des soldats,</l>
+   <l n="547" enjamb="no" type="masculine">Que <choice><orig>vostre</orig><reg>votre</reg></choice> gloire et vous, ne s'en sauveront pas.</l>
+</sp>
+
+<sp who="#TORQUATUS" toWhom="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+<l n="548" xml:id="v548" type="féminine"><choice><orig>Quoy</orig><reg>Quoi</reg></choice>, la <persName ref="#OMPHALE">Princesse Omphale</persName> est sensible à ma gloire ?</l>
+</sp>
+
+<sp who="#OMPHALE" toWhom="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+<l n="549" rhyme="#v548" type="féminine">Je l'ay <choice><orig>toûjours</orig><reg>toujours</reg></choice> esté; si j'en croy ma memoire,</l>
+<l n="550" type="masculine">Et c'est par ce motif, que j'ay tant combatu,</l>
+<l n="551" type="masculine">Un amour dont l'effet blessoit <choice><orig>vostre</orig><reg>votre</reg></choice> vertu.</l>
+</sp>
+
+<sp who="#TORQUATUS" toWhom="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+<l n="552" type="féminine">Peut-estre <choice><orig>cét</orig><reg>cet</reg></choice> et <choice><orig>a t'il</orig><reg>a-t-il</reg></choice> une autre cause,</l>
+<l n="553" type="féminine">Car de tous vos secrets, nous <choice><orig>sçavons</orig><reg>savons</reg></choice> quelque chose,</l>
+<l xml:id="v554" rhyme="masculine">Mon <persName ref="#MANLIUS">fils</persName> vous fait pitié, vous craiguez son trépas.</l>
+</sp>
+
+<pb n="22"/>
+<fw type="header">Manlius</fw>
+		<sp who="#OMPHALE" toWhom="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+<l n="555" rhyme="#v554" type="masculine">Il est vray, je le crains; je ne m'en <choice><orig>deffens</orig><reg>défends</reg></choice> pas;</l>
+<l n="556" type="féminine">Si je plains d'un heros la triste destinée,</l>
+<l n="557" type="féminine">Une pitié si noble, est d'une ame bien née;</l>
+<l n="558" type="masculine">Et quand ce motif seul me forceroit d'agir,</l>
+<l n="559" type="masculine">Ce n'est pas un secret dont je <choice><orig>deusse</orig><reg>dusse</reg></choice> rougir:</l>
+<l xml:id="v560" type="féminine">Un si beau mouvement ne seroit pas un crime.</l>
+</sp>
+
+<sp who="#TORQUATUS" toWhom="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+	<l n="561" rhyme="#v560" type="féminine"><choice><orig>Pourquoy</orig><reg>Pourquoi</reg></choice> donc le cacher, s'il est si legitime ?</l>
+	<l n="562" type="masculine"><choice><orig>Pourquoy</orig><reg>Pourquoi</reg></choice> <choice><orig>l'enveloper</orig><reg>l'envelopper</reg></choice> d'une feinte terreur,</l>
+<l n="563" type="masculine">Et donner des <choice><orig>advis</orig><reg>avis</reg></choice> d'une fausse rumeur ?</l>
+<l n="564" type="féminine">Que ne me dites vous, je crains pour ce que <choice><orig>j'ayme</orig><reg>j'aime</reg></choice> ?</l>
+<l n="565" type="féminine">Accordez <persName ref="#MANLIUS">Manlius</persName> à mon amour <choice><orig>extréme</orig><reg>extrême</reg></choice>,</l>
+<l n="566" rhyme="none" type="masculine"><choice><orig>Faites moy</orig><reg>Faites-moi</reg></choice> ce present.</l>
+</sp>
+
+<sp who="#OMPHALE" toWhom="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+<l n="567" type="masculine">Pour conserver ses jours</l>
+<l n="568" type="masculine">Une telle priere est un <choice><orig>foible</orig><reg>faible</reg></choice> secours:</l>
+<l n="569" type="féminine">La mort de ce Heros n'est que trop assurée,</l>
+<l n="570" type="féminine">Mes <choice><orig>mal-heurs</orig><reg>malheurs</reg></choice>, <choice><orig>vostre</orig><reg>votre</reg></choice> amour, et le sort l'ont jurée,</l>
+<l xml:id="v571" type="masculine">Je vois bien que je fais un inutile effort.</l>
+<l n="572" rhyme="none" type="masculine"><emph>Helas !</emph> il perira.</l>
+</sp>
+
+<sp who="#TORQUATUS" toWhom="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+<l n="573" rhyme="#v571" type="masculine"><choice><orig>Moderez</orig><reg>Modérez</reg></choice> ce transport.</l>
+<l n="574" type="féminine">Vous pourrez le sauver, si son trépas vous touche;</l>
+<l n="575" type="féminine">Son arrest <choice><orig>luy</orig><reg>lui</reg></choice> sera donné par <choice><orig>vostre</orig><reg>votre</reg></choice> bouche:</l>
+<l n="576" type="masculine">Tout mon Rival qu'il est, sa mort dépend de vous</l>
+<l n="577" type="masculine">Je vous laisse y penser. <persName ref="#CAMILLE">Camille</persName> vient à nous,</l>
+<l n="578" rhyme="none" type="féminine">Un pareil entretien doit finir aupres d'elle.</l>
+</sp>
+					<stage type="exit" rend="caps">
+						<persName ref="#TORQUATUS"></persName>
+					Il sort.</stage>
+				</div2>
+			</div1>
+
+<pb n="..."/>
+<fw type="header">Tragi-comédie Manlius</fw>
+<div1 type="act" n="5">
+	<head>ACTE V</head>
+	<div2 type="scene" n="2">
+		<head>SCÈNE II</head>
+		<stage type="entrance" rend="caps">
+    <persName ref="#TORQUATUS">Torquatus</persName>, 
+    <persName ref="#OMPHALE">Omphale</persName>, 
+    <persName ref="#PHÉNICE">Phénice</persName>.
+	<persName ref="#PISON">Pison</persName>.
+</stage>
+
+<sp who="#PISON" to="#TORQUATUS">
+	<speaker>PISON</speaker>
+	<l n="1342" type="masculine"><persName ref="#TORQUATUS">Seigneur</persName>.</l>
+</sp>
+
+<sp who="#TORQUATUS" to="#PISON">
+	<speaker>TORQUATUS</speaker>
+	<l n="1343" ejamb="yes" type="masculine">Qu'on aille promptement</l>
+<l n="1344" type="masculine">Exécuter...</l>
+</sp>
+
+<sp who="#OMPHALE" to="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+	<l n="1345" type="masculine">Hélas ! Différez un moment.</l>
+	<l n="1346" type="féminine">Gardes, retirez-vous, je veux... mais, quoi ! Mon âme,</l>
+	<l n="1347" type="féminine">Quoi ? Voudrais-tu trahir <persName ref="#MANLIUS">Manlius</persName> et ta flamme ?</l>
+</sp>
+
+<lg type="stichomythia">
+<sp who="#TORQUATUS" to="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+	<l n="1348" type="masculine" part="I">Que voulez-vous ?</l>
+</sp>
+
+<sp who="#OMPHALE" to="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+	<l n="1349" type="masculine" part="M">Je veux...</l>
+</sp>
+
+<sp who="#TORQUATUS" to="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+	<l n="1350" type="masculine" part="M">Achevez.</l>
+</sp>
+
+<sp who="#OMPHALE" to="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+	<l n="1351" type="masculine" part="F">Le sauver.</l>
+</sp>
+
+<sp who="#TORQUATUS" to="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+	<l n="1352" type="féminine" part="I">Et du reste ?</l>
+</sp>
+
+<sp who="#OMPHALE" to="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+	<l n="1353" type="masculine" part="F"><persName ref="#TORQUATUS">Seigneur</persName>, je voudrais y rêver.</l>
+</sp>
+</lg>
+
+<sp who="#TORQUATUS" to="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+	<l n="1354" type="féminine">Ha ! C'est trop écouter tant de discours frivoles,</l>
+	<l n="1355" type="féminine">Je ne me repais point de ces vaines paroles.</l>
+	<l n="1356" type="féminine">Holà, Gardes.</l>
+</sp>
+
+<sp who="#OMPHALE" to="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+	<l n="1357" type="masculine"><persName ref="#TORQUATUS">Seigneur</persName>, ne précipitez rien ;</l>
+	<l n="1358" type="masculine">Fallut-il pour son sang vous donner tout le mien,</l>
+	<l n="1359" type="féminine">Si <persName ref="#MANLIUS">Manlius</persName> le veut, j'y consens avec joie :</l>
+	<l n="1360" type="féminine">Mais, pour m'en informer, souffrez que je le voie ;</l>
+	<l n="1361" type="masculine">Que je puisse un moment lui parler sans témoins,</l>
+	<l n="1362" type="masculine">Et j'atteste les Dieux d'employer tous mes soins</l>
+	<l n="1363" type="féminine">Pour contenter, <persName ref="#TORQUATUS">Seigneur</persName>, votre pressante envie,</l>
+	<l n="1364" type="féminine">Quand avec que ma main il vous faudrait ma vie.</l>
+</sp>
+
+<sp who="#TORQUATUS" to="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+	<l n="1365" type="masculine">Je puis donc me flatter d'obtenir votre coeur :</l>
+</sp>
+
+<sp who="#OMPHALE" to="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+	<l n="1366" type="masculine">Je ne sais, mais au moins, je dirais, oui, <persName ref="#TORQUATUS">Seigneur</persName>.</l>
+	<l n="1367" type="féminine">Ne m'en demandez pas aujourd'hui davantage :</l>
+	<l n="1368" type="féminine">Il n'appartient qu'au temps d'achever cet ouvrage.</l>
+</sp>
+
+<sp who="#TORQUATUS" to="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+	<l n="1369" type="masculine">Ha ! <persName ref="#OMPHALE">Princesse</persName>, mon coeur à vos ordres soumis...</l>
+</sp>
+
+<sp who="#OMPHALE" to="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+	<l n="1370" type="masculine">Et de grâce, <persName ref="#TORQUATUS">Seigneur</persName>, songeons à votre <persName ref="#MANLIUS">fils</persName> ;</l>
+	<l n="1371" type="féminine">Avec plus de loisir nous parlerons du reste,</l>
+	<l n="1372" type="féminine">Révoquez seulement un Arrêt si funeste.</l>
+	<l n="1373" type="masculine">Qu'on cherche <persName ref="#MANLIUS">Manlius</persName>, qu'on le fasse venir :</l>
+	<l n="1374" type="masculine">Nous aurons trop de temps pour nous entretenir.</l>
+</sp>
+
+<sp who="#TORQUATUS" to="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+	<l n="1375" type="féminine">Holà, quelqu'un, courez dans la tente prochaine</l>
+	<l n="1376" type="féminine">Où l'on garde mon <persName ref="#MANLIUS">fils</persName>, dire qu'on me l'amène.</l>
+	<l n="1377" type="masculine"><persName ref="#OMPHALE">Princesse</persName>, s'il consent aux plus doux de mes voeux,</l>
+	<l n="1378" type="masculine" part="I">Mon bonheur...</l>
+</sp>
+
+<lg type="tirade">
+<sp who="#OMPHALE" to="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+	
+	<l n="1379" type="masculine" part="F">Hé, <persName ref="#TORQUATUS">Seigneur</persName>, se peut-on croire heureux,</l>
+	<l n="1380" type="féminine">Quand on doit la douceur d'un aveu favorable,</l>
+	<l n="1381" type="féminine">À la nécessité de sauver un coupable ?</l>
+	<l n="1382" type="masculine">Ha, non non, pour goûter de solides plaisirs,</l>
+	<l n="1383" type="masculine">Il faut devoir un coeur à ses propres désirs ;</l>
+	<l n="1384" type="féminine">Et sa possession nous donne peu de joie,</l>
+	<l n="1385" type="féminine">Lors que, pour l'obtenir, on prend une autre voie.</l>
+	<l n="1386" type="masculine">Quand on prononce un oui que le coeur ne dit pas,</l>
+	<l n="1387" type="masculine">Ce mot si désiré perd bien de ses appas ;</l>
+	<l n="1388" type="féminine">La liberté du choix d'elle même est si chère,</l>
+	<l n="1389" type="féminine">Que si sur un tel point je conseillais un frère,</l>
+	<l n="1390" type="masculine">Je lui dirais, perdez la lumière du jour,</l>
+	<l n="1391" type="masculine">Plutôt que d'usurper le pouvoir de l'amour.</l>
+	<l n="1392" type="féminine">Mais voici <persName ref="#MANLIUS">Manlius</persName>, permettez-moi de grâce...</l>
+	</sp>
+	</lg>
+
+<sp who="#TORQUATUS" to="#OMPHALE">
+	<speaker>TORQUATUS</speaker>
+	<l n="1393" type="féminine">Je vous entends <persName ref="#OMPHALE">Madame</persName>, et lui cède la place.</l>
+	<l n="1394" type="masculine" part="I">Gardes, retirez-vous.</l>
+</sp>
+
+<sp who="#OMPHALE" to="#TORQUATUS">
+	<speaker>OMPHALE</speaker>
+	<l n="1395" type="masculine" part="F">Ciel, soyez mon secours.</l>
+</sp>
+
+<stage type="aside" rend="caps">
+	<persName ref="#TORQUATUS"></persName>
+	<persName ref="#PISON"></persName>
+</stage>
+<sp who="#TORQUATUS" to="#PISON">
+	<speaker>TORQUATUS</speaker>
+	<l n="1396" type="masculine">Tâchons sans être vu, d'écouter leurs discours.</l>
+</sp>
+
+</div2>
+			</div1>
+		</body>
+	</text>
+
+</TEI>
