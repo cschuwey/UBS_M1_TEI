@@ -29,7 +29,7 @@
          </sourceDesc>
     </fileDesc>
 
-    <!-- PLACEMENT DE LA DÉCLARATION MÉTRIQUE -->
+    <!-- MÉTRIQUE -->
     <encodingDesc>
         <metDecl type="pattern" xml:id="alexandrin-rimes-plates">
             <p>Alexandrins en rimes plates (ou suivies) de schéma AABB.</p>
@@ -37,7 +37,7 @@
 			<metSym value="iamb">-+</metSym>
         </metDecl>
     </encodingDesc>
-	<!-- PLACEMENT DE LA DÉCLARATION MÉTRIQUE -->
+	<!-- MÉTRIQUE -->
 
 </teiHeader>
 	
