@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Manlius : TRAGI-COMEDIE</title>
+                <author> Mademoiselle Desjardins</author>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front> 
+          <castList>
+                <castItem xml:id="Torquatus"><roleName>Torquatus</roleName>, 
+                <castItem xml:id="Phenice"> <roleName>Phenice</roleName>  
+                <castItem xml:id="Pison"> <roleName>Pison</roleName>
+                <castItem xml:id="Omphale">
+                  <roleName>Omphale</roleName> 
+                  <roleDesc>Princesse</roleDesc> 
+                </castItem>
+          </castList>
+        </front> 
+        <body> 
+            <div type="act" n="II">
+                <head>Acte II</head> <!--titre acte de la scène travaillée-->
+                <div type="scene" n="V"><!--Ouverture de la division de la scène-->
+                 <head> SCENE V </head><!-- titre scène -->
+                    <stage type="setting" rend="caps"> Torquatus, Omphale, Phenice </stage> <!--Personnages de la scène-->
+                        <sp who toWhom="#Torquatus"> <!--Indicateur de qui parle-->
+                         <speaker>Torquatus</speaker>
+                           <l>Quel sujet dans ce lieu vous <rhyme label="ɛn">amène</rhyme>?</l>
+                           <l>Est-ce pitié, Madame, est-ce amour, est-ce <rhyme label="ɛn">haine</rhyme> ?</l
+                        </sp>
+                        
+                        <sp who toWhom="#Omphale">
+                         <speaker>Omphale</speaker>
+                          <lg> <!-- à chaque ligne sauf les 2 dernières, il y a la même rhyme en fin de vers sur 2 lignes-->
+                           <l> C'est l'estime, Seigneur, que conservent <rhyme label="eux">entre eux</rhyme></l> 
+                           <!--j'ai inséré une rhyme "eux" -->
+                           <l> Les plus grands ennemis, quand ils sont <rhyme label="eux">généreux</rhyme>.</l>
+                           <l> De l'injuste destin, la fiere <rhyme label="ie">barbarie </rhyme></l>
+                           <l> Me forceant malgré moi d'être votre <rhyme label="ie">ennemie</rhyme>,</l>
+                           <l> Votre venu m'empèche au moins de vous <rhyme label="ir">haïr</rhyme></l>
+                           <l> Jusqu'à vouloir vous perdre, ou jusqu'à vous <rhyme label="ir">trahir</rhyme>.</l>
+                           <l> Apprenez donc, Seigneur, que tout le Camp <rhyme label="ure>">murmure</rhyme>,</l>
+                           <l> Et que de votre fils la funeste <rhyme label="ure">aventure</rhyme></l>
+                           <l> Jette tant de fureur dans l'âme des soldats, </l>
+                           <l> Que votre gloire &amp;vous, ne s'en fauvereront pas.</l> 
+                           <!-- Lorsque j'ai transmi l'attribut de la lettre & muette sur visual-studio, cela s'est mis en rouge alors que c'était correct sur Oxygen-->
+                         </lg>
+                        </sp>
+
+                        <sp who toWhom="#Torquatus"> 
+                         <speaker rend="caps">Torquatus</speaker>
+                            <l> Quoi, la Princesse Omphale est sensible à ma gloire ? </l>
+                        </sp>
+
+                        <sp toWhom="#Omphale">
+                         <speaker rend="caps">Omphale</speaker>
+                         <lg>
+                            <l> Je l'ai toujours été, si j'en crois ma mémoire,<l>
+                            <l>Et c'est par ce motif, que j'ai tant <rhyme label="tu">combattu</rhyme>,</l>
+                            <l>Un amour dont l'effet blessait votre <rhyme label="tu">vertu</rhyme>.</l>
+                         </lg>
+                        </sp>
+
+                        <sp who toWhom="#Torquatus">
+                         <speaker rend="caps">Torquatus</speaker>
+                         <lg> 
+                           <l>Peut-être cet orgueil a t'il une autre <rhyme label="A" sample="oz">cause</rhyme>,</l>
+                           <l>Car de tous vos secrets, nous savons quelque <rhyme label="A" sample="oz">chose</rhyme>,</l>
+                           <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
+                         </lg>
+                        </sp>
+                        
+                        <sp who toWhom="#Omphale">
+                          <speaker>OMPHALE</speaker>
+                          <lg>
+                            <l> Il est vrai, je le crains ; je ne m'en défends pas ;
+                            <l> Si je plains d'un héros la triste <rhyme label="ée">destinée</rhyme>,</l>
+                            <l> Une pitié si noble, est d'une âme bien <rhyme label="ée">née</rhyme>;</l>
+                            <l> Et quand ce motif seul me forcerait <rhyme label="gir">d'agir</rhyme>,</l>
+                            <l> Ce n'est pas un secret dont je dusse <rhyme label="gir">rougir</rhyme>:</l>
+                            <l> Un si beau mouvement ne serait pas un crime.</l>
+                          <lg>
+                        </sp>
+                         
+                        <sp who toWhom="Torquatus">
+                          <speaker>TORQUATUS</speaker>
+                          <lg> 
+                            <l> Pourquoi donc le cacher, s'il est si légitime ?</l>
+                            <l> Pourquoi l'envelopper d'une feinte <rhyme label="eur">terreur</rhyme>,</l>
+                            <l> Et donner des avis d'une fausse <rhyme label="eur">rumeur</rhyme> ?</l>
+                            <l> Que ne me dites vous, je crains pour ce que <rhyme label="em" sample"aime">j'aime</rhyme> ?</l>
+                            <l> Accordez Manlius à mon amour <rhyme label="em" sample"extreme">extrême</rhyme>,</l>
+                            <l> Faites moi ce présent.</>
+                          </lg>
+                        </sp>
+                        
+                        <sp who toWhom="#ompahle">
+                          <speaker>OMPHALE</speaker>
+                          <lg>
+                            <l> Pour conserver ses <rhyme label="ours">jours</rhyme><l>
+                            <l> Une telle prière est un faible <rhyme label="ours">secours</rhyme>:<l>
+                            <l> La mort de ce héros n'est que trop <rhyme label="rée">assurée</rhyme>,<l>
+                            <l> Mes malheurs, votre amour, et le sort l'ont <rhyme label="rée">jurée</rhyme>,<l>
+                            <l> Je vois bien que je fais un inutile effort.</l>
+                            <l> Hélas ! Il périra.</l>
+                          </lg>
+                        </sp>
+                        
+                        <sp who toWhom="#torquatus">
+                          <speaker>TORQUATUS</speaker>
+                          <lg>
+                            <l> Modérez ce transport.</l>
+                            <l> Vous pourrez le sauvez, si son trépas vous <rhyme label="ouche">touche</rhyme>,</l>
+                            <l> Son arrêt lui sera donné par votre <rhyme label="ouche">bouche</rhyme> :</l>
+                            <l> Tout mon rival qu'il est, sa mort dépend de vous</l>
+                            <l> Je vous laisse y penser. Camille vient à nous,</l>
+                            <l> Un pareil entretien doit finir auprès d'elle.</l>
+                          <lg>
+                        </sp>
+                    <stage type="exit" who="#Manlius:TRAGI-COMEDIE"> Il sort.</stage>
+                </div type="scene" n="V"> <!--Fermeture scène V -->
+            </div type="act" n="II"> <!--Fermeture Acte II, car l'autre scène demandé n'est pas dans cet acte-->
+
+            <div type="act" n="V"> <!--Ouverture Acte V -->
+                <head>Acte V</head> <!--titre acte de la scène travaillée-->
+                <div type="scene" n="II"><!--Ouverture de la division de la scène-->
+                 <head> SCENE II </head><!-- titre scène -->
+                    <stage type="setting" rend="caps"> Torquatus, Omphale, Phénice, Pison. </stage> <!--Personnages de la scéne-->
+                        <sp who toWhom="#Pison">
+                          <speaker>Pison</speaker>
+                            <l> Seigneur.</l>
+                        </sp>
+
+                        <sp who toWhom=Torquatus> 
+                        <!-- Quel est la meilleur balise pour indiquer ça? Est-ce qu'on met entre guillemet le nom?-->
+                          <speaker>TORQUATUS</speaker>
+                            <l> Qu'on aille promptement </l>
+                            <l> Exécuter...</l>
+                        </sp>
+
+                        <sp who toWhom="#Omphale">
+                          <speaker>OMPHALE</speaker>
+                          <lg>
+                            <l> Hélas ! Différez un moment.</l>
+                            <l> Gardes, retirez-vous, je veux... mais, quoi ! Mon <rhyme label="am">âme</rhyme>,</l>
+                            <l> Quoi ? Voudrais-tu trahir Manlius et ta <rhyme label="am">flamme</rhyme> ?</l>
+                          </lg>
+                        </sp>
+
+                        <sp who toWhom="#Torquatus">
+                          <speaker>TORQUATUS</speaker>
+                            <l> Que Voulez-vous ?</l>
+                        </sp>
+
+                        <sp who toWhom="#Omphale">
+                          <speaker>OMPHALE</speaker>
+                            <l> Je veux... </l>
+                        </sp>
+
+                        <sp who toWhom="#Torquatus">
+                          <speaker>TORQUATUS</speaker>
+                            <l> Achevez. </l>
+                        </sp>
+
+                        <sp who toWhom="#Omphale">
+                          <speaker>OMPHALE</speaker>
+                            <l> Le sauver. </l>
+                        </sp>
+
+                        <sp who toWhom="#Torquatus">
+                          <speaker>TORQUATUS</speaker>
+                            <l> Et du reste ?</l>
+                        </sp>
+
+                        <sp who toWhom="#Omphale">
+                          <speaker>OMPHALE</speaker>
+                            <l> Seigneur, je voudrais y rêver. </l>
+                        </sp>
+
+                        <sp who toWhom="#Torquatus">
+                          <speaker>TORQUATUS</speaker>
+                          <lg>
+                            <l> Ha ! C'est trop écouter tant de discours <rhyme label="oles">frivoles</rhyme>,</l>
+                            <l> Je ne me repais point de ces vaines <rhyme label="oles">paroles</rhyme>.</l>
+                            <l> Holà, Gardes.</l>
+                          </lg>
+                        </sp>
+
+                        <sp who toWhom="#Omphale">
+                          <speaker>OMPHALE</speaker>
+                          <lg>
+                            <l> Seigneur, ne précipitez <rhyme label="ien">rien</rhyme> ;</l>
+                            <l> Fallut-il pour son sang vous donner tout le <rhyme label="ien">mien</rhyme>,</l>
+                            <l> Si Manlius le veut, j'y consens avec <rhyme label="oie">joie</rhyme> :</l>
+                            <l> Mais, pour m'en informer, souffrez que je le <rhyme label="oie">voie</rhyme> ;</l>
+                            <l> Que je puisse un moment lui parler sans <rhyme label="oins">témoins</rhyme>,</l>
+                            <l> Et j'atteste les Dieux d'employer tous mes <rhyme label="oins">soins</rhyme></l>
+                            <l> Pour contenter, Seigneur, votre pressante <rhyme label="vie">envie</rhyme>,</l>
+                            <l> Quand avecque ma main il vous faudrait ma <rhyme label="vie">vie</rhyme>.</l>
+                          </lg>
+                        </sp> 
+
+                        <sp who toWhom="#Torquatus">
+                          <speaker>TORQUATUS</speaker>
+                            <l> Je puis donc me flatter d'obtenir votre coeur :</l>
+                        </sp>
+
+                        <sp who toWhom="#Omphale">
+                          <speaker>OMPHALE<speaker>
+                          <lg>
+                            <l>Je ne sais, mais au moins, je dirais, oui, Seigneur.</l>
+                            <l> Ne m'en demandez pas aujourd'hui <rhyme label="age">davantage</rhyme> :</l>
+                            <l> Il n'appartient qu'au temps d'achever cet <rhyme label="age">ouvrage</rhyme>.</l>
+                          </lg>
+                        </sp>
+
+                        <sp who toWhom="#Torquatus">
+                          <speaker>TORQUATUS<speaker>
+                            <l> Ha ! Princesse, mon coeur à vos ordres soumis...</l>
+                        </sp>
+
+                        <sp who toWhom="#Omphale">
+                          <speaker>OMPHALE<speaker>
+                          <lg> 
+                            <l> Et de grâce, Seigneur, songeons à votre fils ;</l>
+                            <l> Avec plus de loisir nous parlerons du <rhyme label="este">reste</rhyme>,</l>
+                            <l> Révoquez seulement un Arrêt si <rhyme label="este">funeste</rhyme>.</l>
+                            <l> Qu'on cherche Manlius, qu'on le fasse <rhyme label="enir">venir</rhyme> :</l>
+                            <l> Nous aurons trop de temps pour nous <rhyme label="enir">entretenir</rhyme>.</l>
+                          </lg>
+                        </sp>
+
+                        <sp who toWhom="#Torquatus">
+                          <speaker>TORQUATUS</speaker>
+                          <lg>
+                            <l> Holà, quelqu'un, courez dans la tente <rhyme label="ɛn">prochaine</rhyme></l>
+         <!--lorsque j'ai voulu faire la rime phonotique de prochaine/amène. je n'ai pas réussi à rentrer le label, j'ai du collé la rime--> 
+                            <l>Où l'on garde mon fils, dire qu'on me <rhyme label="ɛn">l'amène</rhyme>.</l>
+                            <l> Princesse, s'il consent aux plus doux de mes voeux,</l>
+                            <l> Mon bonheur...</l>
+                          </lg>
+                        </sp>
+
+                        <sp who toWhom="#Omphale">
+                          <speaker>OMPHALE</speaker>
+                          <lg>Hé, Seigneur, se peut-on croire heureux,</l>
+                          <l> Quand on doit la douceur d'un aveu <rhyme label="able">favorable</rhyme>,</l>
+                          <l> À la nécessité de sauver un <rhyme label="able">coupable</rhyme> ?</l>
+                          <l> Ha, non non, pour goûter de solides <rhyme label="sirs">plaisirs</rhyme>,</l>
+                          <l> Il faut devoir un coeur à ses propres <rhyme label="sirs">désirs</rhyme> ;</l>
+                          <l> Et sa possession nous donne peu de <rhyme label="oie">joie</rhyme>,</l> 
+                          <l> Lors que, pour l'obtenir, on prend une autre  <rhyme label="oie">voie</rhyme>.</l> 
+                          <l> Quand on prononce un oui que le coeur ne dit <rhyme label="pas">pas</rhyme>,</l> 
+                          <l> Ce mot si désiré perd bien de ses <rhyme label="pas">appas</rhyme>;</l> 
+                          <l> La liberté du choix d'elle même est si <rhyme label="ère">chère</rhyme>,</l> 
+                          <l> Que si sur un tel point je conseillais un <rhyme label="ère">frère</rhyme>,</l> 
+                          <l> Je lui dirais, perdez la lumière du <rhyme label="our">jour,</l> 
+                          <l> Plutôt que d'usurper le pouvoir de <rhyme label="our">l'amour</rhyme>.</l> 
+                          <l> Mais voici Manlius, permettez-moi de grâce...</l>
+                            <l>     
+                          </lg>
+                        </sp>  
+
+                        <sp who toWhom="Torquatus">
+                          <speaker>TORQUATUS</speaker>
+                            <l> Je vous entends Madame, et lui cède la place.</l>
+                            <l> Gardes, retirez-vous.</l>
+                        </sp>  
+
+                        <sp who toWhom="Omphale">
+                          <speaker>OMPHALE<speaker>
+                            <l> Ciel, soyez mon secours.</l>
+                        </sp>
+
+                        <sp who toWhom="Torquatus">
+                          <speaker>TORQUATUS<speaker>
+                            <l> Tâchons sans être vu, d'écouter leurs discours.
+                        </sp>
+                </div type=="scene" n="II"> <!--Fermeture de la scène-->
+            </div type="act" n="V"> <!--Fermeture Acte V -->
+        </body>
+    </text>
+    <back></back>
+</TEI>
