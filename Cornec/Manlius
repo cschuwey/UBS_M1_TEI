@@ -87,13 +87,26 @@
                         <l ana="#alexandrin">
                             C'est l'estime, 
                             <emph>Seigneur</emph>
-                            , que conservent entre eux.
+                            , que conservent entre 
+                            <rhyme label="eux">eux</rhyme>
+                            .
                         </l>
-                        <l ana="#alexandrin">Les plus grands ennemis, quand ils sont genereux,</l>
+                        <l ana="#alexandrin">
+                            Les plus grands ennemis, quand ils sont 
+                            <seg>gener<rhyme label="eux">eux</rhyme></seg>
+                            ,
+                        </l>
                         <l ana="#alexandrin">
                             De l'injuste destin, la fiere 
                             <emph>
-                                <app><rdg wit="ancien">Barbarie</rdg><rdg wit="moderne">barbarie</rdg></app>
+                                <app>
+                                    <rdg wit="ancien">
+                                        <seg>Barbar<rhyme label="ie">ie</rhyme></seg>
+                                    </rdg>
+                                    <rdg wit="moderne">
+                                        barbarie
+                                    </rdg>
+                                </app>
                             </emph>
                         </l>
                         <l ana="#alexandrin">
@@ -104,27 +117,43 @@
                             d' 
                             <app><rdg wit="ancien">estre</rdg><rdg wit="moderne">être</rdg></app> 
                             <app><rdg wit="ancien">vostre</rdg><rdg wit="moderne">votre</rdg></app> 
-                            ennemie,
+                            <seg>ennem<rhyme label="ie">ie</rhyme></seg>
+                            ,
                         </l>
                         <l ana="#alexandrin">
                             <app><rdg wit="ancien">Vostre</rdg><rdg wit="moderne">Votre</rdg></app> 
                             vertu m'
                             <app><rdg wit="ancien">empesche</rdg><rdg wit="moderne">empêche</rdg></app> 
-                            au moins de vous haïr
+                            au moins de vous 
+                            <seg>ha<rhyme label="ir">ïr</rhyme></seg>
                         </l>
-                        <l ana="#alexandrin">Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir.</l>
+                        <l ana="#alexandrin">
+                            Jusqu'à vouloir vous perdre, ou jusqu'à vous 
+                            <seg>trah<rhyme label="ir">ir</rhyme></seg>
+                            .
+                            </l>
                         <l ana="#alexandrin">
                             Apprenez donc, 
                             <emph>Seigneur</emph>
-                            , que tout le Camp murmure,
+                            , que tout le Camp 
+                            <seg>murm<rhyme label="ure">ure</rhyme></seg>
+                            ,
                         </l>
                         <l ana="#alexandrin">
                             Et que de 
                             <app><rdg wit="ancien">vostre</rdg><rdg wit="moderne">votre</rdg></app> 
-                            fils la funeste avanture
+                            fils la funeste 
+                            <seg>avant<rhyme label="ure">ure</rhyme></seg>
                         </l>
-                        <l ana="#alexandrin">Jette tant de fureur dans l'ame des soldats</l>
-                        <l ana="#alexandrin">Que vostre gloire (et) vous, ne s'en sauveront pas.</l>
+                        <l ana="#alexandrin">
+                            Jette tant de fureur dans l'ame des 
+                            <seg>sold<rhyme label="as">ats</rhyme></seg>
+                        </l>
+                        <l ana="#alexandrin">
+                            Que vostre gloire et vous, ne s'en sauveront 
+                            <seg>pas<rhyme label="as">as</rhyme></seg>
+                            .
+                        </l>
                     </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale">
@@ -136,7 +165,9 @@
                             Princesse 
                             <rs type="person" key="OMPL">Omphale</rs>
                         </seg>
-                        est sensible à ma gloire?
+                        est sensible à ma 
+                        <seg>gl<rhyme label="oire">oire</rhyme></seg>
+                        ?
                     </l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus">
@@ -149,30 +180,45 @@
                             <app><rdg wit="ancien">esté</rdg><rdg wit="moderne">été</rdg></app> 
                             ; si j'en 
                             <app><rdg wit="ancien">croy</rdg><rdg wit="moderne">crois</rdg></app>
-                            ma memoire,
+                            ma 
+                            <seg>memoire<rhyme label="oire">oire</rhyme></seg>
+                            ,
                         </l>
                         <l ana="#alexandrin">
                             Et c'est par ce motif, que 
                             <app><rdg wit="ancien">j'ay</rdg><rdg wit="moderne">j'ai</rdg></app> 
-                            tant combatu,
+                            tant 
+                            <seg>comba<rhyme label="tu">tu</rhyme></seg>
+                            ,
                         </l>
                         <l ana="#alexandrin">
                             Un amour dont l'effet blessoit 
                             <app><rdg wit="ancien">vostre</rdg><rdg wit="moderne">votre</rdg></app> 
-                            vertu.
+                            <seg>ver<rhyme label="tu">tu</rhyme></seg>
+                            .
                         </l>
                     </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale">
                     <speaker rend="caps">Torquatus</speaker>
                     <lg type="stanza">
-                        <l ana="#alexandrin">Peut-estre cét orgueil a t'il une autre cause,</l>
+                        <l ana="#alexandrin">
+                            Peut-estre cét orgueil a t'il une autre 
+                            <seg>c<rhyme label="oz">ause</rhyme></seg>
+                            ,
+                        </l>
                         <l ana="#alexandrin">
                             Car de tous vos secrets, nous 
                             <app><rdg wit="ancien">sçavons</rdg><rdg wit="moderne">savons</rdg></app> 
-                            quelque chose,
+                            quelque 
+                            <seg>chose<rhyme label="oz">ose</rhyme></seg>
+                            ,
                         </l>
-                        <l ana="#alexandrin">Mon fils vous fait pitié, vous craigrez son trépas.</l>
+                        <l ana="#alexandrin">
+                            Mon fils vous fait pitié, vous craigrez son 
+                            <seg>tré<rhyme label="pas">pas</rhyme></seg>
+                            .
+                        </l>
                     </lg>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus">
@@ -181,7 +227,8 @@
                         <l ana="#alexandrin">
                             Il est vray, je le crains ; je ne m'en 
                             <app><rdg wit="ancien">deffens</rdg><rdg wit="moderne">défends</rdg></app> 
-                            pas ;
+                            <seg><rhyme label="pas">pas</rhyme></seg> 
+                            ;
                         </l>
                     </lg>
                 </sp>
@@ -192,22 +239,33 @@
                     <sp who="#omphale" toWhom="#torquatus">
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza" part="Fin">
-                        <l ana="#alexandrin">Si je plains d'un heros la triste destinée,</l>
-                        <l ana="#alexandrin">Une pitié si noble, est d'une ame bien née ;</l>
+                        <l ana="#alexandrin">
+                            Si je plains d'un heros la triste 
+                            <seg>desti<rhyme label="née">née</rhyme></seg>
+                            ,
+                        </l>
+                        <l ana="#alexandrin">
+                            Une pitié si noble, est d'une ame bien 
+                            <seg><rhyme label="née">née</rhyme></seg> 
+                            ;
+                        </l>
                         <l ana="#alexandrin">
                             Et quand ce motif seul me 
                             <app><rdg wit="ancien">forceroit</rdg><rdg wit="moderne">forcerait</rdg></app> 
-                            d'agir,
+                            <seg>d'a<rhyme label="gir">gir</rhyme></seg>
+                            ,
                         </l>
                         <l ana="#alexandrin">
                             Ce n'est pas un secret dont je 
                             <app><rdg wit="ancien">deusse</rdg><rdg wit="moderne">dusse</rdg></app> 
-                            rougir :
+                            <seg>rou<rhyme label="gir">gir</rhyme></seg>
                         </l>
                         <l ana="#alexandrin">
                             Un si beau mouvement ne 
                             <app><rdg wit="ancien">seroit</rdg><rdg wit="moderne">serait</rdg></app>
-                            pas un crime.
+                            pas un 
+                            <seg>cr<rhyme label="ime">ime</rhyme></seg>
+                            .
                         </l>
                     </lg>
                 </sp>
@@ -216,27 +274,42 @@
                     <lg type="stanza">
                         <l ana="#alexandrin">
                             <app><rdg wit="ancien">Pourquoy</rdg><rdg wit="moderne">Pourquoi</rdg></app> 
-                            donc le cacher, s'il est si legitime ?
+                            donc le cacher, s'il est si 
+                            <seg>legit<rhyme label="ime">ime</rhyme></seg> 
+                            ?
                         </l>
                         <l ana="#alexandrin">
                             <app><rdg wit="ancien">Pourquoy</rdg><rdg wit="moderne">Pourquoi</rdg></app> 
                             <app><rdg wit="ancien">l'enveloper</rdg><rdg wit="moderne">l'envelopper</rdg></app> 
-                            d'une feinte terreur,
+                            d'une feinte 
+                            <seg>terr<rhyme label="eur">eur</rhyme></seg>
+                            ,
                         </l>
                         <l ana="#alexandrin">
                             Et donner des 
                             <app><rdg wit="ancien">advis</rdg><rdg wit="moderne">avis</rdg></app> 
-                            d'une fausse rumeur ?
+                            d'une fausse 
+                            <seg>rum<rhyme label="eur">eur</rhyme></seg> 
+                            ?
                         </l>
                         <l ana="#alexandrin">
                             Que ne me dites vous, je crains pour ce que 
-                            <app><rdg wit="ancien">j'ayme</rdg><rdg wit="moderne">j'aime</rdg></app> 
+                            <app>
+                                <rdg wit="ancien">
+                                    <seg>j'<rhyme label="ɛm">ayme</rhyme></seg>
+                                </rdg>
+                                <rdg wit="moderne">
+                                    j'aime
+                                </rdg>
+                            </app> 
                             ?
                         </l>
                         <l ana="#alexandrin">
                             Accordez 
                             <rs type="person" key="MANL">Manlius</rs> 
-                            à mon amour extréme,
+                            à mon amour 
+                            <seg>extr<rhyme label="ɛm">éme</rhyme></seg>
+                            ,
                         </l>
                         <l ana="#alexandrin">
                             Faites 
@@ -258,45 +331,70 @@
                             <emph>
                                 <app><rdg wit="ancien">Heros</rdg><rdg wit="moderne">héros</rdg></app>
                             </emph> 
-                            n'est que trop assurée,
+                            n'est que trop 
+                            <seg>assur<rhyme label="ée">ée</rhyme></seg>
+                            ,
                         </l>
                         <l ana="#alexandrin">
                             Mes 
                             <app><rdg wit="ancien">mal-heurs</rdg><rdg wit="moderne">malheurs</rdg></app>
                             , 
                             <app><rdg wit="ancien">vostre</rdg><rdg wit="moderne">votre</rdg></app>
-                            amour, (et) le fort l'ont jurée,
+                            amour, (et) le fort l'ont 
+                            <seg>jur<rhyme label="ée">ée</rhyme></seg>
+                            ,
                         </l>
-                        <l ana="#alexandrin">Je vois bien que je fais un inutile effort.</l>
+                        <l ana="#alexandrin"> 
+                            Je vois bien que je fais un inutile 
+                            <seg>eff<rhyme label="ort">ort</rhyme></seg>
+                            .
+                            </l>
                         <l ana="#alexandrin">Helas ! il perira.</l>
                     </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale">
                     <speaker rend="caps">Torquatus</speaker>
                     <lg type="stanza">
-                        <l ana="#alexandrin">Moderez ce transport.</l>
-                        <l ana="#alexandrin">Vous pourrez le sauver, si son trépas vous touche ;</l>
+                        <l ana="#alexandrin">
+                            Moderez ce 
+                            <seg>transp<rhyme label="ort">ort</rhyme></seg>
+                            .
+                        </l>
+                        <l ana="#alexandrin">
+                            Vous pourrez le sauver, si son trépas vous 
+                            <seg>t<rhyme label="ouche">ouche</rhyme></seg> 
+                            ;
+                        </l>
                         <l ana="#alexandrin">
                             Son 
                             <app><rdg wit="ancien">arrest</rdg><rdg wit="moderne">arrêt</rdg></app> 
                             <app><rdg wit="ancien">luy</rdg><rdg wit="moderne">lui</rdg></app> 
                             sera donné par 
                             <app><rdg wit="ancien">vostre</rdg><rdg wit="moderne">votre</rdg></app>
-                            bouche :
+                            <seg>b<rhyme label="ouche">ouche</rhyme></seg> 
+                            :
                         </l>
                         <l ana="#alexandrin">
                             Tout mon 
                             <emph>Rival</emph> 
-                            qu'il est, sa mort dépend de vous
+                            qu'il est, sa mort dépend de 
+                            <seg>v<rhyme label="ous">ous</rhyme></seg>
                         </l>
                         <l ana="#alexandrin">
                             Je vous laisse y penser. 
                             <rs type="person" key="CAML">Camille</rs> 
-                            vient à nous,
+                            vient à 
+                            <seg>n<rhyme label="ous">ous</rhyme></seg>
+                            ,
                         </l>
                         <l ana="#alexandrin">
                             Un pareil entretien doit finir aupres d'elle. 
-                            <set><p>Il sort</p></set>
+                            <set>
+                                <p>
+                                    Il 
+                                    <seg>s<rhyme label="ort">ort</rhyme></seg>
+                                </p>
+                            </set>
                         </l>
                     </lg>
                 </sp>
@@ -307,61 +405,86 @@
             <div4 type="scene" n="2">
                 <head rend="caps">Scene II.</head>
             <stage type="setting" rend="caps">Torquatus, Omphale, Phénice, Pison.</stage>
-            
                 <sp who="#pison" toWhom="#torquatus"> 
                     <speaker rend="caps">Pison</speaker>
-                        <l><emph>Seigneur</emph>.</l>
+                    <l><emph>Seigneur</emph>.</l>
                 </sp>
                 <sp who="#torquatus" toWhom="#pison"> 
                     <speaker rend="caps">Torquatus</speaker>
-                        <l>Qu'on aille promptément</l>
-                        <l>Exécuter...</l>
+                    <l>
+                        Qu'on aille 
+                        <seg>prompté<rhyme label="ment">ment</rhyme></seg>
+                    </l>
+                    <l>Exécuter...</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                        <l>Hélas ! Différez un moment</l>
+                    <lg type="stanza">
+                        <l>
+                            Hélas ! Différez un 
+                            <seg>mo<rhyme label="ment">ment</rhyme></seg>
+                        </l>
                         <l>
                             <emph>Gardes</emph>
-                            , retirez-vous, je veux...mais, quoi ! Mon âme,
+                            , retirez-vous, je veux...mais, quoi ! Mon 
+                           <seg><rhyme label="ame">âme</rhyme></seg>
+                            ,
                         </l>
                         <l>
                             Quoi ? Voudrais-tu faire trahir 
                             <rs type="person" key="MANL">Manlius</rs> 
-                            et ta flamme ?
+                            et ta 
+                            <seg>fl<rhyme label="ame">amme</rhyme></seg> 
+                            ?
                         </l>
+                    </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                        <l>Que voulez-vous ?</l>
+                    <l>Que voulez-vous ?</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                        <l>Je veux...</l>
+                    <l>Je veux...</l>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                        <l>Achevez.</l>
+                    <l>Achevez.</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                        <l>Le sauver.</l>
+                    <l>
+                        Le 
+                        <seg>sauv<rhyme label="er">er</rhyme></seg>
+                        .
+                    </l>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                        <l>Et du reste ?</l>
+                    <l>Et du reste ?</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                        <l>
-                            <emph>Seigneur</emph>
-                            , je voudrais y rêver.
-                        </l>
+                    <l>
+                        <emph>Seigneur</emph>
+                        , je voudrais y 
+                        <seg>rêv<rhyme label="er">er</rhyme></seg>
+                        .
+                    </l>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
                     <lg type="stanza">
-                        <l>Ha ! C'est trop écouter tant de discours frivoles,</l>
-                        <l>Je ne me repais point de ces vaines paroles.</l>
+                        <l>
+                            Ha ! C'est trop écouter tant de discours 
+                            <seg>friv<rhyme label="oles">oles</rhyme></seg>
+                            ,
+                        </l>
+                        <l>
+                            Je ne me repais point de ces vaines 
+                            <seg>par<rhyme label="oles">oles</rhyme></seg>
+                            .
+                        </l>
                         <l>
                             Holà, 
                             <emph>Gardes</emph>
@@ -374,48 +497,87 @@
                     <lg type="stanza">
                         <l>
                             <emph>Seigneur</emph>
-                            , ne précipitez rien ;
+                            , ne précipitez 
+                            <seg>r<rhyme label="ien">ien</rhyme></seg> 
+                            ;
                         </l>
-                        <l>Fallut-il pour son sang vous donner tout le mien,</l>
+                        <l>
+                            Fallut-il pour son sang vous donner tout le 
+                            <seg>m<rhyme label="ien">ien</rhyme></seg>
+                            ,
+                        </l>
                         <l>
                             Si 
                             <rs type="person" key="MANL">Manlius</rs>  
-                            le veut, j'y consens avec joie :
+                            le veut, j'y consens avec 
+                            <seg>j<rhyme label="oie">oie</rhyme></seg> 
+                            :
                         </l>
-                        <l>Mais, pour m'en informer, souffrez que je le voie ;</l>
-                        <l>Que je puisse un moment lui parler sans témoins,</l>
-                        <l>Et j'atteste les Dieux d'employer tous mes soins</l>
+                        <l>
+                            Mais, pour m'en informer, souffrez que je le 
+                            <seg>v<rhyme label="oie">oie</rhyme></seg> 
+                            ;
+                        </l>
+                        <l>
+                            Que je puisse un moment lui parler sans 
+                            <seg>tém<rhyme label="oin">oins</rhyme></seg>
+                            ,
+                        </l>
+                        <l>
+                            Et j'atteste les Dieux d'employer tous mes 
+                            <seg>s<rhyme label="oin">oins</rhyme></seg>
+                        </l>
                         <l>
                             Pour contenter, 
                             <emph>Seigneur</emph>
-                            , votre pressante envie,
+                            , votre pressante 
+                            <seg>env<rhyme label="ie">ie</rhyme></seg>
+                            ,
                         </l>
-                        <l>Quand avecque ma main il vous faudrait ma vie.</l>
+                        <l>
+                            Quand avecque ma main il vous faudrait ma 
+                            <seg>v<rhyme label="ie">ie</rhyme></seg>
+                            .
+                            </l>
                     </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                        <l>Je puis donc me flatter d'obtenir votre coeur :</l>
+                    <l>
+                        Je puis donc me flatter d'obtenir votre 
+                        <seg>c<rhyme label="eur">oeur</rhyme></seg> 
+                        :
+                    </l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus">  
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza">
                         <l>
                             Je ne sais, mais au moins, je dirais, oui, 
-                            <emph>Seigneur</emph>
+                            <emph>
+                                <seg>Seign<rhyme label="eur">eur</rhyme></seg>
+                            </emph>
                             .
                         </l>
-                        <l>Ne m'en demandez pas aujourd'hui davantage :</l>
-                        <l>Il n'appartient qu'au temps d'achever cet ouvrage.</l>
+                        <l>
+                            Ne m'en demandez pas aujourd'hui 
+                            <seg>davant<rhyme label="age">age</rhyme></seg> 
+                            :
+                        </l>
+                        <l>
+                            Il n'appartient qu'au temps d'achever cet 
+                            <seg>ouvr<rhyme label="age">age</rhyme></seg>
+                            .
+                        </l>
                     </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                        <l>
-                            Ha ! 
-                            <emph>Princesse</emph>
-                            , mon coeur à vos ordres soumis...
-                        </l>
+                    <l>
+                        Ha ! 
+                        <emph>Princesse</emph>
+                        , mon coeur à vos ordres soumis...
+                    </l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
@@ -425,20 +587,45 @@
                             <emph>Seigneur</emph>
                             , songeons à votre fils ;
                         </l>
-                        <l>Avec plus de loisir nous parlerons du reste,</l>
-                        <l>Révoquez seulement un Arrêt si funeste.</l>
-                        <l>Qu'on cherche Manlius, qu'on le fasse venir :</l>
-                        <l>Nous aurons trop de temps pour nous entretenir.</l>
+                        <l>
+                            Avec plus de loisir nous parlerons du 
+                            <seg>r<rhyme label="este">este</rhyme></seg>
+                            ,
+                        </l>
+                        <l>
+                            Révoquez seulement un Arrêt si 
+                            <seg>fun<rhyme label="este">este</rhyme></seg>
+                            .
+                        </l>
+                        <l>
+                            Qu'on cherche Manlius, qu'on le fasse 
+                            <seg>ven<rhyme label="ir">ir</rhyme></seg> 
+                            :
+                        </l>
+                        <l>
+                            Nous aurons trop de temps pour nous 
+                            <seg>entreten<rhyme label="ir">ir</rhyme></seg>
+                            .
+                        </l>
                     </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
                     <lg type="stanza">
-                        <l>Holà, quelqu'un, courez dans la tente prochaine</l>
-                        <l>Où l'on garde mon fils, dire qu'on me l'amène.</l>
+                        <l>
+                            Holà, quelqu'un, courez dans la tente 
+                            <seg>proch<rhyme label="ɛn">aine</rhyme></seg>
+                        </l>
+                        <l>
+                            Où l'on garde mon fils, dire qu'on me 
+                            <seg>l'am<rhyme label="ɛn">ène</rhyme></seg>
+                            .
+                        </l>
                         <l>
                             <emph>Princesse</emph>
-                            , s'il consent aux plus doux de mes voeux,
+                            , s'il consent aux plus doux de mes 
+                            <seg>v<rhyme label="eux">oeux</rhyme></seg>
+                            ,
                         </l>
                         <l>Mon bonheur...</l>
                     </lg>
@@ -448,42 +635,104 @@
                     <lg type="stanza">
                         <l>Hé, 
                             <emph>Seigneur</emph>
-                            , se peut-on croire heureux,
+                            , se peut-on croire 
+                            <seg>heur<rhyme label="eux">eux</rhyme></seg>
+                            ,
                         </l>
-                        <l>Quand on doit la douceur d'un aveu favorable,</l>
-                        <l>À la nécessité de sauver un coupable ?</l>
-                        <l>Ha, non non, pour goûter de solides plaisirs,</l>
-                        <l>Il faut devoir un coeur à ses propres désirs ;</l>
-                        <l>Et sa possession nous donne peu de joie,</l>
-                        <l>Lors que, pour l'obtenir, on prend une autre voie.</l>
-                        <l>Quand on prononce un oui que le coeur ne dit pas,</l>
-                        <l>Ce mot si désiré perd bien de ses appas ;</l>
-                        <l>La liberté du choix d'elle même est si chère,</l>
-                        <l>Que si sur un tel point je conseillais un frère,</l>
-                        <l>Je lui dirais, perdez la lumière du jour,</l>
-                        <l>Plutôt que d'usurper le pouvoir de l'amour.</l>
+                        <l>
+                            Quand on doit la douceur d'un aveu 
+                            <seg>favor<rhyme label="able">able</rhyme></seg>
+                            ,
+                        </l>
+                        <l>
+                            À la nécessité de sauver un 
+                            <seg>coup<rhyme label="able">able</rhyme></seg>
+                            ?
+                        </l>
+                        <l>
+                            Ha, non non, pour goûter de solides 
+                            <seg>palis<rhyme label="ir">irs</rhyme></seg>
+                            ,
+                        </l>
+                        <l>
+                            Il faut devoir un coeur à ses propres 
+                            <seg>dés<rhyme label="ir">irs</rhyme></seg> 
+                            ;
+                        </l>
+                        <l>
+                            Et sa possession nous donne peu de 
+                            <seg>j<rhyme label="oie">oie</rhyme></seg>
+                            ,
+                        </l>
+                        <l>
+                            Lors que, pour l'obtenir, on prend une autre 
+                            <seg>v<rhyme label="oie">oie</rhyme></seg>
+                            .
+                        </l>
+                        <l>
+                            Quand on prononce un oui que le coeur ne dit 
+                            <seg>p<rhyme label="a">as</rhyme></seg>
+                            ,
+                        </l>
+                        <l>
+                            Ce mot si désiré perd bien de ses 
+                            <seg>app<rhyme label="a">as</rhyme></seg> 
+                            ;
+                        </l>
+                        <l>
+                            La liberté du choix d'elle même est si 
+                            <seg>ch<rhyme label="ère">ère</rhyme></seg>
+                            ,
+                        </l>
+                        <l>
+                            Que si sur un tel point je conseillais un 
+                            <seg>fr<rhyme label="ère">ère</rhyme></seg>
+                            ,
+                        </l>
+                        <l>
+                            Je lui dirais, perdez la lumière du 
+                            <seg>j<rhyme label="our">our</rhyme></seg>
+                            ,
+                        </l>
+                        <l>
+                            Plutôt que d'usurper le pouvoir de 
+                            <seg>l'am<rhyme label="our">our</rhyme></seg>
+                            .
+                        </l>
                         <l>
                             Mais voici 
                             <rs type="person" key="MANL">Manlius</rs> 
-                            , permettez-moi de grâce...
+                            , permettez-moi de 
+                            <seg>gr<rhyme label="ace">âce</rhyme></seg>
+                            ...
                         </l>
                     </lg>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                        <l>Je vous entends 
-                            <emph>Madame</emph>
-                            , et lui cède la place.
-                        </l>
-                        <l>Gardes, retirez-vous.</l>
+                    <l>Je vous entends 
+                        <emph>Madame</emph>
+                        , et lui cède la 
+                        <seg>pl<rhyme label="ace">ace</rhyme></seg>
+                        .
+                    </l>
+                    <l>Gardes, retirez-vous.</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                        <l>Ciel, soyez mon secours.</l>
+                    <l>
+                        Ciel, soyez mon 
+                        <seg>sec<rhyme label="our">ours</rhyme></seg>
+                        .
+                    </l>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                        <l>Tâchons sans être vu, d'écouter leurs discours.</l>
+                    <l>
+                        Tâchons sans être vu, d'écouter leurs 
+                        <seg>disc<rhyme label="our">ours</rhyme></seg>
+                        .
+                    </l>
                 </sp>
 
             </div4>
