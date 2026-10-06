@@ -415,22 +415,22 @@
                         Qu'on aille 
                         <seg>prompté<rhyme label="ment">ment</rhyme></seg>
                     </l>
-                    <l>Exécuter...</l>
+                    <l ana="#alexandrin" part="Debut">Exécuter...</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza">
-                        <l>
+                        <l part="Fin">
                             Hélas ! Différez un 
                             <seg>mo<rhyme label="ment">ment</rhyme></seg>
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             <emph>Gardes</emph>
                             , retirez-vous, je veux...mais, quoi ! Mon 
                            <seg><rhyme label="ame">âme</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Quoi ? Voudrais-tu faire trahir 
                             <rs type="person" key="MANL">Manlius</rs> 
                             et ta 
@@ -441,19 +441,19 @@
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                    <l>Que voulez-vous ?</l>
+                    <l ana="#alexandrin" part="1">Que voulez-vous ?</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                    <l>Je veux...</l>
+                    <l part="2">Je veux...</l>
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                    <l>Achevez.</l>
+                    <l part="3">Achevez.</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                    <l>
+                    <l part="Fin">
                         Le 
                         <seg>sauv<rhyme label="er">er</rhyme></seg>
                         .
@@ -461,11 +461,11 @@
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                    <l>Et du reste ?</l>
+                    <l ana="#alexandrin" part="Debut">Et du reste ?</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                    <l>
+                    <l part="Fin">
                         <emph>Seigneur</emph>
                         , je voudrais y 
                         <seg>rêv<rhyme label="er">er</rhyme></seg>
@@ -475,17 +475,17 @@
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
                     <lg type="stanza">
-                        <l>
+                        <l ana="#alexandrin">
                             Ha ! C'est trop écouter tant de discours 
                             <seg>friv<rhyme label="oles">oles</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Je ne me repais point de ces vaines 
                             <seg>par<rhyme label="oles">oles</rhyme></seg>
                             .
                         </l>
-                        <l>
+                        <l ana="#alexandrin" part="Debut">
                             Holà, 
                             <emph>Gardes</emph>
                             .
@@ -495,46 +495,46 @@
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza">
-                        <l>
+                        <l part="Fin">
                             <emph>Seigneur</emph>
                             , ne précipitez 
                             <seg>r<rhyme label="ien">ien</rhyme></seg> 
                             ;
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Fallut-il pour son sang vous donner tout le 
                             <seg>m<rhyme label="ien">ien</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Si 
                             <rs type="person" key="MANL">Manlius</rs>  
                             le veut, j'y consens avec 
                             <seg>j<rhyme label="oie">oie</rhyme></seg> 
                             :
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Mais, pour m'en informer, souffrez que je le 
                             <seg>v<rhyme label="oie">oie</rhyme></seg> 
                             ;
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Que je puisse un moment lui parler sans 
                             <seg>tém<rhyme label="oin">oins</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Et j'atteste les Dieux d'employer tous mes 
                             <seg>s<rhyme label="oin">oins</rhyme></seg>
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Pour contenter, 
                             <emph>Seigneur</emph>
                             , votre pressante 
                             <seg>env<rhyme label="ie">ie</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Quand avecque ma main il vous faudrait ma 
                             <seg>v<rhyme label="ie">ie</rhyme></seg>
                             .
@@ -543,7 +543,7 @@
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                    <l>
+                    <l ana="#alexandrin">
                         Je puis donc me flatter d'obtenir votre 
                         <seg>c<rhyme label="eur">oeur</rhyme></seg> 
                         :
@@ -552,19 +552,19 @@
                 <sp who="#omphale" toWhom="#torquatus">  
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza">
-                        <l>
+                        <l ana="#alexandrin">
                             Je ne sais, mais au moins, je dirais, oui, 
                             <emph>
                                 <seg>Seign<rhyme label="eur">eur</rhyme></seg>
                             </emph>
                             .
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Ne m'en demandez pas aujourd'hui 
                             <seg>davant<rhyme label="age">age</rhyme></seg> 
                             :
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Il n'appartient qu'au temps d'achever cet 
                             <seg>ouvr<rhyme label="age">age</rhyme></seg>
                             .
@@ -573,7 +573,7 @@
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                    <l>
+                    <l ana="#alexandrin">
                         Ha ! 
                         <emph>Princesse</emph>
                         , mon coeur à vos ordres soumis...
@@ -582,27 +582,27 @@
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza">
-                        <l>
+                        <l ana="#alexandrin">
                             Et de grâce, 
                             <emph>Seigneur</emph>
                             , songeons à votre fils ;
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Avec plus de loisir nous parlerons du 
                             <seg>r<rhyme label="este">este</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Révoquez seulement un Arrêt si 
                             <seg>fun<rhyme label="este">este</rhyme></seg>
                             .
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Qu'on cherche Manlius, qu'on le fasse 
                             <seg>ven<rhyme label="ir">ir</rhyme></seg> 
                             :
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Nous aurons trop de temps pour nous 
                             <seg>entreten<rhyme label="ir">ir</rhyme></seg>
                             .
@@ -612,94 +612,94 @@
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
                     <lg type="stanza">
-                        <l>
+                        <l ana="#alexandrin">
                             Holà, quelqu'un, courez dans la tente 
                             <seg>proch<rhyme label="ɛn">aine</rhyme></seg>
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Où l'on garde mon fils, dire qu'on me 
                             <seg>l'am<rhyme label="ɛn">ène</rhyme></seg>
                             .
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             <emph>Princesse</emph>
                             , s'il consent aux plus doux de mes 
                             <seg>v<rhyme label="eux">oeux</rhyme></seg>
                             ,
                         </l>
-                        <l>Mon bonheur...</l>
+                        <l ana="#alexandrin" part="Debut">Mon bonheur...</l>
                     </lg>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
                     <lg type="stanza">
-                        <l>Hé, 
+                        <l part="Fin">Hé, 
                             <emph>Seigneur</emph>
                             , se peut-on croire 
                             <seg>heur<rhyme label="eux">eux</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Quand on doit la douceur d'un aveu 
                             <seg>favor<rhyme label="able">able</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             À la nécessité de sauver un 
                             <seg>coup<rhyme label="able">able</rhyme></seg>
                             ?
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Ha, non non, pour goûter de solides 
                             <seg>palis<rhyme label="ir">irs</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Il faut devoir un coeur à ses propres 
                             <seg>dés<rhyme label="ir">irs</rhyme></seg> 
                             ;
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Et sa possession nous donne peu de 
                             <seg>j<rhyme label="oie">oie</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Lors que, pour l'obtenir, on prend une autre 
                             <seg>v<rhyme label="oie">oie</rhyme></seg>
                             .
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Quand on prononce un oui que le coeur ne dit 
                             <seg>p<rhyme label="a">as</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Ce mot si désiré perd bien de ses 
                             <seg>app<rhyme label="a">as</rhyme></seg> 
                             ;
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             La liberté du choix d'elle même est si 
                             <seg>ch<rhyme label="ère">ère</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Que si sur un tel point je conseillais un 
                             <seg>fr<rhyme label="ère">ère</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Je lui dirais, perdez la lumière du 
                             <seg>j<rhyme label="our">our</rhyme></seg>
                             ,
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Plutôt que d'usurper le pouvoir de 
                             <seg>l'am<rhyme label="our">our</rhyme></seg>
                             .
                         </l>
-                        <l>
+                        <l ana="#alexandrin">
                             Mais voici 
                             <rs type="person" key="MANL">Manlius</rs> 
                             , permettez-moi de 
@@ -710,17 +710,18 @@
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                    <l>Je vous entends 
+                    <l ana="#alexandrin">
+                        Je vous entends 
                         <emph>Madame</emph>
                         , et lui cède la 
                         <seg>pl<rhyme label="ace">ace</rhyme></seg>
                         .
                     </l>
-                    <l>Gardes, retirez-vous.</l>
+                    <l ana="#alexandrin" part="Debut">Gardes, retirez-vous.</l>
                 </sp>
                 <sp who="#omphale" toWhom="#torquatus"> 
                     <speaker rend="caps">Omphale</speaker>
-                    <l>
+                    <l part="Fin"> 
                         Ciel, soyez mon 
                         <seg>sec<rhyme label="our">ours</rhyme></seg>
                         .
@@ -728,7 +729,7 @@
                 </sp>
                 <sp who="#torquatus" toWhom="#omphale"> 
                     <speaker rend="caps">Torquatus</speaker>
-                    <l>
+                    <l ana="#alexandrin">
                         Tâchons sans être vu, d'écouter leurs 
                         <seg>disc<rhyme label="our">ours</rhyme></seg>
                         .
