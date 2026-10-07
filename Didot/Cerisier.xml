@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cerisier</title>
+                <author>Daubenton</author>
+                <author>Argenville</author>
+                <author>Vandenesse</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Elisa DIDOT</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Encyclopédie</title>
+                    <editor>Editeurs originaux</editor>
+                    <editor>DIDEROT</editor>
+                    <editor>D'ALEMBERT</editor>
+                    <date when="1752">18ème siècle</date>
+                    <editor>Edition numérique</editor>
+                    <editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-4294-0/"/></editor>
+                    <date>2021-2026</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encodage réalisé dans le cadre du cours de TEI de M.SCHUWEY, année scolaire 2026-2027</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>J'ai choisi d'utiliser la balise entryFree pour respecter la forme classique d'une définition dans une dictionnaire.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <date>Mercredi 07 novembre 2026</date>
+            <p>Travail en cours puis à la BU : remplissage de la partie métadonnées, début du travail sur l'article.</p>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <entryFree>
+                <form><orth rend="caps">Cerisier</orth>, </form>
+                <etym>cerasus</etym>, 
+                <gramGrp>
+                    <number value="singular">s.</number>
+                    <gen value="masculine">m.</gen>
+                    <usg type="dom" rend="italic">Hist. nat. bot.</usg>
+                </gramGrp>
+                <sense>
+                    <cit type="sense">
+                        <quote>genre d'arbre à fleur en rose composée de plusieurs pétales disposés en rond. Le pistil sort du calice, &amp; devient dans la suite un fruit charnu presque rond, ou en cœur, qui renferme un noyau de la même forme, dans lequel il y a une semence. Ajoûtez au caractere de ce genre le port de ses especes.</quote>    
+                        <bibl>
+                            <author xml:id="Tournefort">Tournefort</author>, 
+                            <title> Inst. rei herb.</title>
+                        </bibl>
+                    </cit>
+                    <xr><emph>Voyez</emph> <ref rend="caps">Plante</ref>.</xr>
+                    <p>Le cerisier se distingue en <emph>bigareautier</emph> &amp; en <emph>merisier</emph>.</p>
+                    <p>Le <emph>bigareautier</emph> a les mêmes feuilles &amp; le même bois que le cerisier : son fruit est quarré, plus ferme, plus croquant, &amp; d'un goût plus agréable, mais moins fondant que la cerise : il est presque blanc, mêlé d'un peu de rouge.</p>
+                    <p>Le <emph>guinier</emph> a aussi le même bois &amp; la même feuille que le <emph>cerisier</emph> : c'est un fruit précoce qui vient avant les autres especes. La guine est rouge, blanche, cendrée, moins ronde que la cerise, la chair moins ferme &amp; plus fade.</p>
+                    <p>Le <emph>merisier</emph> est un arbre sauvage.<xr> <emph>Voy.</emph> <ref rend="caps">Merisier</ref></xr></p>
+                    <p>Le <emph>griottier</emph> a de plus beau fruit que les autres. <xr><emph>Voyez</emph> <ref rend="caps">Griottier</ref></xr></p>
+                    <p>On appelle tous ces fruits <emph>des fruits rouges</emph>.</p>
+                    <p>Les belles cerises à courte queue sont bonnes à confire, &amp; elles croissent dans la vallée de Montmorency, où on les appelle <emph>cerises coulardes</emph>.</p>
+                    <p>Il y a encore une cerise appellée <emph>royale</emph> ou d'<emph>Angleterre</emph>, qui revient à celle de Montmorency ou à la griotte.</p>
+                    <p>Les <emph>cerisiers</emph> se multiplient par leurs noyaux germés &amp; par des rejettons à leur pié : mais on les greffe ordinairement sur le <emph>merisier rouge</emph>, qui est le plus abondant en seve. Quand ces rejettons sont grands, on greffe dessus de <emph>grosses griottes</emph>, qui réussissent mieux que sur le <emph>merisier</emph>.</p>
+                    <p>Il y a deux especes de <emph>cerisiers</emph> dont le fruit est d'usage en Medecine : 
+                        <cit>le cerasus sativa, fructu rotundo, rubro, &amp; acido.</cit> 
+                        <author xml:id="Tournefort">Tourn.</author> 
+                        <title>Inst.</title> 
+                        Sa gomme passe pour lithon-triptique, &amp; ses cerises pour plus rafraîchissantes que les noires ; elles calment la soif ; elles sont bienfaisantes à l'estomac, &amp; aiguisent l'appétit. La gomme du <emph>cerisier</emph> passe pour lithontriptique.</p>
+                    <p>Leur suc est très-résolutif ; lorsqu'on les a fait bouillir, &amp; qu'on en fait un usage fréquent, elles peuvent guérir plusieurs maladies chroniques ; &amp; emporter par la diarrhée la matiere qui faisoit obstruction.</p>
+                    <p>Le 
+                    <cit>cerasus nigra</cit>, 
+                    <ref>Offic. Germ. 1323.</ref> 
+                    Ses cerises sont cordiales, céphaliques &amp; salutaires dans toutes les maladies de la tête &amp; des nerfs, comme les épilepsies, les convulsions, les paralysies, &amp; autres maladies semblables.</p>
+                    <p>L'eau distillée est d'un grand usage dans les affections spasmodiques.</p>
+                </sense>
+            </entryFree>
+        </body>
+    </text>
+</TEI>
