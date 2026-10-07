@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Infanticide</title> <author>Denis Diderot</author><author>Jean Le Rond D'Alembert</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Flavie Courtais</authority>  
+                <pubPlace>Université Bretagne Sud</pubPlace>
+                <date when="2026-10-07">7 octobre 2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="encyclopédie1751">
+                    <author xml:id="Diderot"><surname>Diderot</surname>, <forename>Denis</forename></author>
+                    <author xml:id="DAlembert"><surname> Le Rond D'Alembert</surname>, <forename>Jean</forename></author>
+                    
+                    <title level="m">Encyclopédie ou Dictionnaire raisonnée des sciences, des arts et des métiers</title>
+                 
+                        <publisher>A. Le Breton</publisher>
+                        <publisher>A-C. Briasson</publisher>
+                        <publisher>M_A. David</publisher>
+                        <publisher>L. Durand</publisher>
+                        <pubPlace>Paris</pubPlace>
+                      
+                        <date when="1751">de 1751 à 1772</date>
+              
+                    <editor>version numérique : ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v8-2389-0/?query=infanticide"></link></editor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc> 
+            <projectDesc><p>L'objectif est de rassemblé dans ce document TEI les articles de l'encyclopédie avec différents sources tels que ENCCRE ou encore Yverdon</p></projectDesc>
+        </encodingDesc>
+        <profileDesc></profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2026-10-04">Création du document et début de la copie</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+
+<text>
+    <front>
+        <head>INFANTICIDE,</head> <p>s. m. (Jurisprud.)​1​ est le crime de celui ou celle qui procure la mort à son enfant.</p>
+    </front>
+    <body>
+        <p>Tout homme qui tue en général méritant la mort, à plus forte raison celui qui tue son enfant, une telle action faisant frémir la nature.</p>
+        <p>Les femmes &amp; filles qui font périr leur fruit durant leur grossesse par l’avortement, soit par des breuvages &amp; autres mauvaises voies, commettent aussi bien un infanticide, que celles qui font périr leurs enfans par le fer ou autrement après leur accouchement.</p>
+        <p>La loi de Moïse distinguoit ; si l’enfant dont la femme se faisoit avorter, étoit formé, ou vivant &amp; animé, elle étoit punie de mort ; s’il n’étoit point encore animé, la loi ne prononçoit point de peine contre elle.</p>
+        <p>Les Romains faisoient une autre distinction entre celles qui défaisoient leur fruit, étant corrompues par argent, &amp; celles qui le commettoient par haine &amp; aversion contre leur mari, ou par quelque autre motif de passion ; au premier cas on les condamnoit à mort. En effet Ciceron dans l’oraison pro Cluentio, fait mention d’une femme milésienne qui fut punie du dernier supplice pour avoir, après le décès de son mari, fait périr l’enfant dont elle étoit enceinte, moyennant une somme d’argent qui lui avoit été donnée par les héritiers que son mari avoit substitués à ce posthume ; au second cas elles étoient seulement bannies pour un certain tems, suivant les rescrits des empereurs.</p>
+        <p>La religion chrétienne plus pure que les lois des Juifs &amp; des Romains, tient pour homicide celle qui détruit son fruit avant qu’il soit vivant, aussi bien que celle qui le détruit après lui avoir donné la naissance ; il semble néanmoins que dans ce dernier cas le crime soit plus grand, parce que l’enfant est privé du baptême.</p>
+        <p>Un ancien arrêt du 22 Décembre 1480, condamna une femme qui avoit suffoqué ou autrement tué son enfant, à être brûlée vive.</p>
+        <p>La peine n’est pourtant pas si rigoureuse suivant l’édit d’Henri II. de l’année 1556, donné contre les filles &amp; femmes qui celent leur grossesse &amp; leur enfantement ; cet édit veut que celles qui se trouveront dans ce cas sans en avoir pris témoignage suffisant, même de la vie & de la mort de leur enfant lors de l’issue de leur ventre, & l’enfant ayant été privé du baptême &amp; de la sépulture publique &amp; accoutumée, elles soient tenues pour avoir homicidé leur enfant, &amp; pour réparation publique, punies de mort & du dernier supplice, de telle rigueur que la qualité particuliere du cas le méritera.</p>
+        <p>On renouvelle de tems en tems la publication de cet édit, &amp; depuis il y a eu plusieurs exemples de femmes pendues pour avoir tué leurs enfans. Voyez Enfant & Exposition d’enfant, & Suppression de part. (A)</p>
+    </body>
+</text>
