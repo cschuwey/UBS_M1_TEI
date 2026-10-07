@@ -60,7 +60,38 @@
                  <sp who="#omphale" toWhom="#torquatus">
                         <speaker>Omphale</speaker>
                         <l>Il est vray, je le crains ; je ne m'en deffens pas ;</l>
+                        <l>Si je plains d'un heros la triste destinée,</l>
+                        <l>Une pitié si noble, est d'une ame bien née ;</l>
+                        <l>Et quand ce motif seul me forceroit d'agir,</l>
+                        <l>Ce n'est pas un ssecret dont je deusse rougir :</l>
+                        <l>Un si beau mouvement ne seroit pas un crime.</l>
                         </sp>
+                          <sp who="Torquatus" toWhom="Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Pourquoy donc le cacher, s'il est si legitime ?</l>
+                <l>Pourquoy l'enveloper d'une feinte terreur,</l>
+                <l>Et donner des advis d'une fausse rumeur ?</l>
+                <l>Que ne me dites vous, je crains pour ce que j'ayme ?</l>
+                <l>Accordez Manlius à mon amour extréme,</l>
+                <l>Faites moy ce present.</l>
+                </sp>
+                <sp who="Omphale" toWhom="Torquatus">
+                <speaker>Omphale</speaker>
+                <l>Une telle priere est un foible secours :</l>
+                <l>La mort de ce Heros n'est que trop assurée,</l>
+                <l>Mes mal-heurs, vostre amour, &amp; le fort l'ont jurée,</l>
+                <l>Je vois bien que je fais un inutile effort.</l>
+                <l>Helas ! il perira.</l>
+                </sp>
+                <sp who="Torquatus" toWhom="Omphale">
+                <speaker>Torquatus</speaker>
+                <l>Moderez ce transport.</l>
+                <l>Son arrest luy sera donné par vostre bouche :</l>
+                <l>Tout mon Rival qu'il est, sa mort dépend de vous</l>
+                <l>Je vous laisse y penser. Camille vient à nous,</l>
+                <l>Un pareil entretien doit finir auprès d'elle.</l>
+                <stage type="action" rend="italic">Il sort.</stage>
+                </sp>
             </div>
         </body>
     </text>
