@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>ECUREUIL</title>
+                <author>Daubenton</author>
+                <funder> Encyclopédie </funder> 
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher> Carole DECALONNE </publisher>
+                <pubPlace> Université Bretagne Sud </pubPlace>
+                <date when="2026"> 2026 </date>
+                <idno type="filename"> ecureuil.xml </idno> 
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title> Encyclopédie </title>
+                    <author>Diderot et d'Alembert</author>
+                    <edition>Première édition</edition>
+                    <date when="1751">1751</date>
+                    <biblScope unit="volume">V</biblScope>
+                    <biblScope unit="page">380</biblScope>
+                </bibl>
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+
+            <projectDesc>
+                <p>
+                    Il s'agit de l'encodage TEI d'un article issu d'un dictionnaire encyclopédique du XVIII ème sicèle. 
+                </p>
+            </projectDesc>
+
+            <editorialDecl>
+                <p>
+                    Dans cet encodage,nous allons conserver  l'orthographe et la ponctuation du texte original. 
+                </p>
+            </editorialDecl>
+
+        </encodingDesc>
+
+
+        <profileDesc>
+
+            <langUsage>
+                <language ident="fr">français</language>
+                <language ident="la">latin</language>
+            </langUsage>
+
+            <textClass>
+                <keywords>
+                    <term>histoire</term>
+                    <term>nature</term>
+                    <term>zoologie</term>
+                    <term>écureuil</term>
+                </keywords>
+            </textClass>
+
+        </profileDesc>
+
+
+        <revisionDesc>
+            <change when="2026-10-07"> Encodage de l'article "ECUREUIL" </change> 
+        </revisionDesc>
+
+    </teiHeader>
+
+
+    <text>
+
+        <body>
+
+            <front> 
+                    <title>ECUREUIL</title>
+
+            </front> 
+
+                <usg type="domain">Hist.</usg>
+                <usg type="domain">natur.</usg>
+                <usg type="domain">zoolog.</usg>
+
+
+                <p n="1">
+                    Écureuil, substantif masculin <hi rend="italic">(Hist.natur.zoolog.)<language xml:lang="la">sciurus vulgaris</language></hi>, 
+                    animal quadrupede, un peu plus gros qu’une belette,sans être plus long. 
+                    La tête &amp; le dos sont de couleur fauve, &amp; le ventre blanc ; 
+                    cependant il y a des <hi rend="italic">écureuils</hi> noirs : on en voit de gris
+                    &amp; de couleur cendrée en Pologne &amp; en Russie.
+                    La queue de ces animaux est longue &amp; garnie de grands poils,
+                    ils la portent recourbée sur le dos.
+                </p>
+
+                <p n="2">
+                    L’<hi rend="italic">écureuil</hi> s’assied, pour ainsi dire,
+                    lorsqu’il veut manger : dans cette attitude le corps est dans une position verticale, 
+                    &amp; les pattes de devant sont libres ;
+                    aussi les piés lui servent de mains pour tenir &amp; porter à sa bouche les noix, les noisettes &amp; 
+                    les glands, qui sont ses alimens les plus ordinaires : il préfere les noisettes,
+                    &amp; en fait provision pendant l’été pour les manger en hyver.
+                    Cet animal habite dans des creux d’arbres, &amp; y éleve ses
+                    petits. Il est si agile qu’il saute d’une branche à l’autre,
+                    &amp; même il s’élance d’un arbre à un autre. On croit que les
+                    anciens le désignoient par le nom de
+                    <hi><language xml:lang="la">mus ponctius, seu varius</language></hi>.
+                    Rai, <hi rend="italic">synop. anim. quadrup. pag. 214</hi>.
+                </p>
+
+                <p n="3">
+                    M. Linnaeus met l’<hi rend="italic">écureuil</hi> dans la classe des animaux qui ont deux dents incisives allongées ;
+                    tels sont les hérissons, les porc-épics, les lievres, les lapins, les castors, les rats, <hi rend="italic">&amp;c</hi>.
+                    Selon cet auteur, les caracteres génériques de l’ <hi rend="italic">écureuil</hi> consistent en ce qu’il a
+                    quatre doigts dans les piés de devant, &amp; cinq dans ceux de derriere ; 
+                    que ses piés sont propres à grimper &amp; à sauter, &amp; 
+                    qu’il n’a point de dents canines,
+                    <hi rend="italic">Syst. nat. Lipsioe, 1748</hi>.
+                </p>
+
+                <p n="4">
+                    Par la méthode de M. Rai, l’<hi rend="italic">écureuil</hi>
+                    est au nombre des animaux vivipares sissipedes qui se
+                    nourrissent de végétaux, &amp; qui ont deux longues dents incisives à chaque mâchoire. 
+                    Ils sont rassemblés sous un genre appellé <hi> <language xml:lang="la"> genus leporinum</language></hi>, 
+                    à cause du lievre qui en est la premiere espece ; 
+                    les autres sont le lapin, le porc-épic,le castor, les rats, la marmotte, <hi rend="italic">&amp;c</hi>.
+                </p>
+
+                <p n="5">
+                    L’<hi rend="italic">écureuil de Virginie,
+                    <language xml:lang="la">scirus virginianus, cinereus major</language></hi>, 
+                    est presqu’aussi gros qu’un lapin, &amp; 
+                    n’en differe pas beaucoup pour la couleur, car il est gris ; 
+                    il a quatre doigts dans les piés de devant, &amp; cinq dans ceux de derriere.
+                    <hi rend="italic">Synop. anim. quadrup.</hi>
+                </p>
+            
+                <p n="6">
+                    Les auteurs font mention d’autres <hi rend="italic">écureuils</hi> étrangers ; 
+                    savoir s’ils sont de la même espece que l’<hi rend="italic">écureuil</hi> ordinaire,
+                    ou si c’est improprement qu’on leur a donné le nom d’ <hi rend="italic">écureuil</hi> : pour s’en assûrer il
+                    faudroit avoir des descriptions exactes de ces animaux.
+                    L’abus des noms n’est que trop fréquent en histoire naturelle ;
+                    nous en avons un exemple frappant dans l’
+                    <hi rend="italic">écureuil volant</hi>, qui est un vrai chat
+                    si ressemblant à de certains rats, qu’on seroit tenté de croire
+                    que ceux qui l’ont nommé <hi rend="italic">écureuil</hi>,
+                    n’avoient jamais vû ni <hi rend="italic">écureuils</hi>, ni loirs, ni lerots. Voyez Lerot, Quadrupede.
+                </p>
+
+
+        </body>
+
+    </text>
+
+</TEI>
