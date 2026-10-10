@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>l'Encyclopédie</title>
+                <author>Vandenesse</author>
+                <author>Daubenton</author>
+                <editor>Diderot</editor>
+                <editor>D'Alembert</editor>
+                <editor>Jaucourt</editor>
+                <author>Aldrovandi</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Aaron GOT</authority>
+                <pubPlace>Université Bretagne Sud</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>L'Encyclopédie numérisée par <editor>ENCCRE<link
+                            target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-3245-8/"
+                        /></editor>
+                </bibl>
+            </sourceDesc>
+            <encodingDesc>
+              <editorialDecl>
+                <interpretation>
+    <p>L'italique et lettres capitales ont été notées sans interprétation.</p>
+    <p> Aucune normalisation n'a été, pou le moment, effectuée. </p>
+                </interpretation>
+                <normalization>
+    <p>Aucune normalisation n'a été effectuée. </p>
+                </normalization>
+              </editorialDecl>
+            </encodingDesc>
+            <revisionDesc>
+            <listChange>
+            <change when="2026-10-07" who="#AG">Ajout de précisions grammaticales</change>
+            <change when="2026-10-10" who="AG"> Ajout d'Aldrovandien tant qu'auteur dans le système title </change>
+            </revisionDesc>
+            </listchange>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <header> CAN </header>
+        <front> </front>
+        <body>
+           
+            
+  <entry>
+   <form>
+    <orth rend="italic"><emph rend="caps">CANARD</emph> sauvage, ou cane au collier blanc, cane de mer ;</orth>
+    <foreign rend="italic"> boschas major, anas torquata minor,  </foreign>
+   </form>
+    <gramGrp>
+  <pos value="noun">n</pos>
+  <gen value="masculine">m</gen>
+  <num value="singular">s</num>
+ </gramGrp>
+  </entry>
+  <sense>
+   <div1>
+   <!--Aucune citation de qui est vraiment Ald dans le document. Je pense qu'il s'agit d'Aldrovandi, spécialiste en ornithologie-->
+   <choice>
+ <abbr>Ald.</abbr>
+ <expan>Aldrovandi</expan>
+ <!--Est-ce que je reforme les phrases en enlevant les ; ?-->
+
+</choice>
+                <p> 
+                il pese trente-six à quarante onces ; il a environ un pié
+                    neuf pouces de longueur, depuis la pointe du bec jusqu’à l’extrémité de la queue
+                    ; l’envergure a près de deux piés neuf pouces ; le bec est d’un verd jaunâtre ;
+                    il a deux pouces &amp; demi de longueur depuis les​ coins de la bouche jusqu’à
+                    son extrémité,&amp; près d’un pouce de largeur ; il n’est pas trop applati ; ​il
+                    a à l’extrémité de la piece supérieure du bec une appendice ou un ongle rond,
+                    comme dans la plûpart des oiseaux de ce genre ; les paupieres inférieures sont
+                    blanchâtres ; les pattes sont de couleur de safran ; les ongles sont bruns ;
+                    celui du doigt de derriere est presque blanc ; celui du doigt intérieur est le
+                    plus petit de tous ceux de devant : la membrane qui joint les doigts ensemble
+                    est d’une couleur plus sale ; les cuisses sont couvertes de plumes jusqu’au
+                    genou : le mâle a la tête &amp; le dessus du cou d’un beau verd, au bas duquel
+                    il y a un collier blan c bien entier en-devant, mais qui ne l’est pas par
+                    derriere ; la gorge est de couleur de châtaigne, depuis le collier jusqu’à la
+                    poitrine, qui est mêlée de blanc &amp; de cendré, de même que le ventre, &amp;
+                    parsemée d’un nombre infini de points bruns ; les plumes de dessous la queue
+                    sont noires ; la face supérieure du cou est parsemée de taches rousses, mélée de
+                    cendré ; la partie du dos entre les deux ailes est rousse ; le dessous de
+                    l’oiseau est noirâtre ; le croupion est d’une couleur plus foncée, &amp; mêlée
+                    d’un pourpre luisant ; les côtés sous les ailes, &amp; les plus longues plumes
+                    qui vont jusque sur les cuisses, sont marquées de lignes transversales d’un
+                    très-beau brun, avec du blanc mêlé de bleu ; les petites plumes des ailes sont
+                    roussâtres ; les longues plumes qui sortent des épaules sont de couleur
+                    d’argent, &amp; élégamment panachées de petites lignes transversales brunes. Il
+                    y a vingt-quatre grandes plumes à chaque aile ; les dix premieres sont brunes ;
+                    les dix suivantes ont la pointe blanchâtre, &amp; les barbes extérieures d’un
+                    beau pourpre bleuâtre ; entre le bleu &amp; le blanc il y a de petites bandes
+                    noires ; la vingt-unieme plume a la pointe blanche, &amp; le bord extérieur de
+                    couleur de pourpre obscur ; la vingt-deuxieme a un peu de couleur d’argent dans
+                    son milieu ; la vingt-troisieme est entierement blanche, à l’exception des bords
+                    qui sont noirâtres ; la vingt-quatrieme est blanche aussi en entier, excepté le
+                    bord extérieur qui est noirâtre : les petites plumes sont de la même couleur que
+                    les grandes ; cependant celles qui recouvrent les pourprées ont la pointe noire,
+                    &amp; ensuite une large ligne ou tache blanche ; la queue est composée de vingt
+                    plumes, dont l’extrémité est pointue ; les quatre du milieu sont contournées en
+                    cercle, &amp; ont une belle couleur luisante mêlée de pourpre &amp; de noir ;
+                    les huit suivantes de chaque côté sont blanchâtres ; les plumes du dessous de
+                    l’aile &amp; de la fausse aile sont blanches. <lb/>
+                </p>
+            </div1>
+            <div2>
+            <p>
+            Ces oiseaux vont par troupes pendant l’hyver ; au printems le mâle suit la
+                    femelle ; ils marchent par paires, &amp; ils font leur nid le plus souvent près
+                    de l’eau, dans les joncs &amp; les bruyeres, &amp; rarement sur les arbres. La
+                    femelle fait d’une seule ponte douze ou quatorze œufs, &amp; plus, &amp; elle
+                    les couve : elle n’a pas la tête verte, ni de collier sur le cou ; sa tête &amp;
+                    son cou ont du blanc, du brun, &amp; du roux noirâtre ; le milieu des plumes du
+                    dos est d’un brun presque noir, &amp; les bords font d’un blanc roussâtre.
+                    Villughby, <quote rend="italic"> Ornith.</quote><xr> Voyez <ref>Oiseau</ref></xr>. <author>(I)</author>  <lb/>
+            </p>
+            </div2>
+            <div3>
+            <p>
+            Le <emph rend="italic">canard sauvage</emph> passe pour meilleur que le <emph rend="italic">domestique</emph>, étant nourri à l’air libre, &amp; 
+            d’alimens qu’il va chercher lui-même, &amp; plus exercé que l’autre; ce qui contribue à atténuer 
+            &amp; à chasser au-dehors les humeurs grossieres qu’il pourroit contenir, &amp; enfin à exalter de plus
+             en plus les principes de ses liqueurs ; ainsi il abonde davantage en sel volatil : cette chair
+              est cependant de difficile digestion.<lb/>
+              </p>
+            </div3>
+            <div4>
+            <p>
+            Le foie du <emph rend="italic">canard sauvage</emph> passe pour propre à arrêter le flux hépatique.<lb/>
+            </p>
+            </div4>
+            <div5>
+            <p>
+            La graisse du <emph rend="italic">canard</emph> est adoucissante, résolutive, &amp; émolliente. <author>(N)</author> <lb/>
+            </p>
+            </div5>
+            </sense>
+        </body>
+    </text>
+</TEI>
+</TEI>
