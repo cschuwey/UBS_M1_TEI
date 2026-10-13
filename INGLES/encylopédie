@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Livres,(Commerce)</title>
+                <author>Diderot</author>
+                <author>D'Alembert</author>
+                <author>Jaucourt</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>K. Ingles</publisher>
+                <pubPlace>Universite Bretagne Sud, Lorient</pubPlace>
+                <date when="2026-10-07">7 octobre 2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                <editor>Diderot</editor>
+                <editor>D'Alembert</editor>
+                <editor>Jaucourt</editor>
+                <title>l'Encyclopedie ou Dictionnaire raisonne des sciences, des arts et des metiers</title>
+                <date from="1751" to="1772">dix-huitieme siecle </date> 
+                <editor>ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-1772-2/"></editor> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+
+       <encodingDesc> 
+       <p>L'objectif de ce projet est d'encoder des articles de l'Encyclopedie publiee entre 1751 et 1772 et d'observer les variations selon les differentes editions</p>
+       </encodingDesc> 
+
+       <profileDesc> 
+       <textClass>
+       <keywords> 
+       <term>Commerce</term> 
+       <term>histoire - dix-huitieme siecle</term> 
+       </keywords>
+       </textClass>
+       </profileDesc> 
+
+       <revisionDesc> 
+       <listChange>
+       <change when="2026-10-07"> debut de l'encodage du <teiHeader> </change>
+       <change when="2026-10-10"> encodage du texte dans sa version ENCCRE </change> 
+       </listChange>
+       </revisionDesc> 
+    </teiHeader>
+    
+    <text>
+        <body>
+          <head>Livres, </head> <p>(Commerce.)Au pluriel s'entend en termes de commerce, de tous les registres sur lesquels les negocians, marchands &amp; banquiers ecrivent par ordre, soit en gros, soit en detail, toutes les affaires de leur negoce, &amp; meme leurs affaires domestiques qui y ont rapport.</p> 
+
+ <p>Les marchands ne peuvent absolument se passer de ces <hi rend="italics">livres</hi> ; en France, ils sont obliges par les ordonnances d'en avoir, mais ils en ont besoin de plus ou de moins, selon la qualite du negoce &amp; la quantite des affaires qu'ils font, ou selon la maniere dont ils veulent tenir leurs <hi rend="italics">livres</hi>. On les tient ou en parties doubles, ou en parties simples. Presque tous les auteurs conviennent que ce sont les Italiens, &amp; particulierement le Venitiens, les Genois &amp; les Florentins qui ont enseigne aux autres nations la maniere de tenir les <hi rend="italics">livres</hi> en parties doubles.</p>
+
+ <p>Pour tenir les <hi rend="italics">livres</hi> en parties simples, ce qui ne convient guere qu'a des merciers ou de petits marchands qui n'ont guere d'affaires ; il suffit d'un journal &amp; d'un grand <hi rend="italics">livre</hi>, pour ecrire les articles de suite, &amp; a mesure que les affaires les fournissent. Mais pour les gros negocians qui tiennent leurs <hi rend="italics">livres</hi> a parties doubles, il leur en faut plusieurs, dont nous allons rapporter le nombre, &amp; expliquer l'usage.</p>
+ <p>Les trois principaux <hi rend="italics">livres</hi> pour les parties doubles, sont le memorial, que l'on nomme aussi brouillon &amp; quelquefois brouillard, le journal, &amp; le grand <hi rend="italics">livre</hi>, qu'on appelle autrement <hi rend="italics">livre d'extrait</hi> ou <hi rend="italics">livre de raison</hi>.
+
+ <p>Outre ces trois <hi rend="italics">livres</hi>, dont un negociant ne peut se passer, il y en a encore jusqu'a treize autres, qu'on nomme <hi rend="italics">livres d'aides </hi> ou <hi rend="italics">livres auxiliaires</hi>, dont on ne se sert qu'a proportion des affaires qu'on fait, ou selon le commerce dont on se mele. Ces treize livres sont :</p>
+
+ <p>Le <hi rend="italics">livre de caisse &amp; de bordereaux</hi>.</p>
+<p> Le <hi rend="italics">livre</hi> des echeances, qu'on nomme aussi <hi rend="italics">livre</hi> des mois, <hi rend="italics">livre</hi> des notes ou d'annotations, ou des payemens ou quelquefois <hi rend="italics">carnet</hi>.</p>
+ <p>Le <hi rend="italics">livre</hi> des numeros.</p>
+ <p>Le <hi rend="italics">livre</hi> des factures.</p>
+ <p>Le <hi rend="italics">livre</hi> des comptes courans</p>
+ <p>Le <hi rend="italics">livre</hi> des commissions, ordres, ou avis.</p>
+ <p>Le <hi rend="italics">livre</hi> des acceptations ou des traites.</p>
+ <p>Le <hi rend="italics">livre</hi> des remises.</p>
+ <p>Le <hi rend="italics">livre</hi> des depenses.</p>
+ <p>Le <hi rend="italics">livre</hi> des copies de lettres.</p>
+ <p>Le <hi rend="italics">livre</hi> des ports-de-lettres.</p>
+ <p>Le <hi rend="italics">livre</hi> des vaisseaux.</p>
+ <p>Le <hi rend="italics">livre</hi> des ouvriers.</p>
+ <p>A ces treize qui pourtant peuvent suffire, on peut en ajouter d'autres, suivant la nature du commerce ou la multiplicite des affaires.</p>
+  
+        </body>
+    </text>
