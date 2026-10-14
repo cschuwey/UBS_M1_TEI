@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Automne</title>
+            </titleStmt>
+            <publicationStmt><authority>Clara Diguet</authority></publicationStmt>
+            <sourceDesc>
+            <bibl>
+            <title>Encyclopédie</title>
+            <editor>Diderot</editor>
+            <editor>D'Alembert</editor>
+            <date when="1751">XVIIIe siècle </date>
+            <editor>Enccre <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-3747-0/"/> </editor>
+            </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <encodingDesc><p>Pour le nombre et le genre, j'ai choisi de respecter les abréviations originales(respectivement s. et m.)tout en précisant leur sense. Pour certains éléments en italique dans le texte, j'ai choisi d'utiliser la balise emph afin de respecter la volonté de l'auteur qui était de mettre en valeur ces mots.  </p></encodingDesc>
+        <revisionDesc>
+         <list>
+  <item>
+   <date when="13-10-2026">13 octobre 2026</date>rattrapge du cours de TEI et encodage du mot Automne</item> 
+        </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+    <body>
+    <entry><orth rend="caps">Automne</orth>
+    <gramGrp>
+    <number value="singular">s.</number>
+    <gen value="masculine">m.</gen>
+    <usg type="dom" rend="italic"> (astrom.)</usg>
+    </gramGrp>
+    </entry><def>troisieme saison de l’année, tems de la récolte des fruits de l’été.</def>
+    <xr><emph>voyez</emph><ref rend="caps">saison</ref>, <ref rend="caps">année</ref>, <emph>&amp; c.</emph></xr>
+    <p>Quelques-uns le font venir de <etym>augeo</etym>, j’accrois, <emph>quod annum frugibus augeat.</emph></p>
+    <p>L'<emph>automne</emph> commence le jour que la distance méridienne du soleil au zénith, après avoir décrû, se trouve moyenne entre la plus grande &amp; la moindre. La fin de l'<emph>automne</emph> se rencontre avec le commencement de l’hyver. Durant l’<emph>automne</emph> les jours vont en décroissant, &amp; sont toûjours plus courts que les nuits, excepté le premier jour d’<emph>automne</emph>, qui est le jour de l’équinoxe. <xr><emph>Voyez</emph> <ref rend="caps">Hiver</ref>,<emph>&amp;c.</emph></xr></p>
+    <p>Diverses nations ont compté les années par les <emph>automnes</emph>, comme les Anglo-saxons par les hivers. Tacite nous apprend que les anciens Germains connoissoient toutes les saisons de l’année, excepté l’<emph>automne</emph>, dont ils n’avoient nulle idée.</p>
+    <p>On a toûjours pensé que l’<emph>automne</emph> étoit une saison mal saine. Tertullien l’appelle, <quote>tentator valetudinum</quote>. Horace dit aussi, <quote>autumnus libitinæ quæstus acerbæ</quote>.</p>
+    </body>
+    </text> 
+    </TEI>
