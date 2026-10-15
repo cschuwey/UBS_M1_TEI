@@ -15,7 +15,6 @@
     </teiHeader>
     <text>
       
-       
         <front>
             <head rend="cast"> <castList>
                 <castItem xml:id="Torquatus">
@@ -71,7 +70,7 @@
                 <l>Quel sujet dans ce lieu vous <choice><orig>ameine ?</orig><reg>amène</reg></choice></l>
                     <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
                 </sp>
-            <sp><speaker who="#Omphale" toWhom="#Torquatus">Omphale.</speaker>
+            <sp who="#Omphale" toWhom="#Torquatus"><speaker >Omphale.</speaker>
                  <l>C'est l'estime, Seigneur, que conservent entre eux</l>
                 <l>Les plus grands ennemis, quand ils sont généreux.</l>
                 <l>De l'injuste destin, la fière barbarie</l>
@@ -88,7 +87,7 @@
                 <l><choice><orig>Quoy</orig><reg>Quoi</reg></choice>, la Pincesse Omphale est sensible à ma gloire ?</l>
                 </sp>
 
-             <sp><speaker who="#Omphale" toWhom="#Torquatus">Omphale.</speaker>
+             <sp who="#Omphale" toWhom="#Torquatus"><speaker >Omphale.</speaker>
             <l> Je l'<choice><orig>ay</orig><reg>ai</reg></choice> <choice><orig>toûjours</orig><reg>toujours</reg></choice> <choice><orig>esté</orig><reg>été</reg></choice> ; si j'en <choice><orig>croy</orig><reg>crois</reg></choice> ma <choice><orig>memoire</orig><reg>mémoire</reg></choice>, </l> 
             <l>Et c'est par ce motif, que j'<choice><orig>ay</orig><reg>ai</reg></choice> tant <choice><orig>combatu</orig><reg>combattu</reg></choice>,</l>
             <l>Un amour dont l'effet <choice><orig>blessoit</orig><reg>blessait</reg></choice> <choice><orig>vostre</orig><reg>votre</reg></choice> vertu.</l>
@@ -100,7 +99,7 @@
                 <l>Mon fils vous fait pitié, vous craignez son trépas.</l>
                 </sp>
 
-            <sp><speaker who="#Omphale" toWhom="#Torquatus">Omphale.</speaker>
+            <sp who="#Omphale" toWhom="#Torquatus"><speaker >Omphale.</speaker>
             <l>Il est <choice><orig>vray</orig><reg>vrai</reg></choice>, je le crains ; je ne m'en <choice><orig>deffens</orig><reg>défends</reg></choice> pas; </l> 
             <l>Si je plains d'un heros la triste destinée ; </l>
             <l>Une pitié si noble, est d'une <choice><orig>ame</orig><reg>âme</reg></choice> bien née ; </l>
@@ -118,7 +117,7 @@
                 <l>Faites <choice><orig>moy</orig><reg>moi</reg></choice> ce <choice><orig>present</orig><reg>présent</reg></choice></l>
                 </sp>
 
-            <sp><speaker who="#Omphale" toWhom="#Torquatus">Omphale.</speaker>
+            <sp who="#Omphale" toWhom="#Torquatus"><speaker >Omphale.</speaker>
             <l rend="indent">Pour conserver ses jours </l>
             <l>Une telle <choice><orig>priere</orig><reg>prière</reg></choice> est un <choice><orig>foible</orig><reg>faible</reg></choice> secours :</l>
             <l>La mort de ce Heros n'est que trop assurée,</l>
