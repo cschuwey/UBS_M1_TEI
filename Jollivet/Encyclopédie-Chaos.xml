@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            <title rend="caps">
+            Encyclopédie, ou dctionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres. 
+            </title>
+            <editor><surname>Diderot</surname><name>Denis</name></editor> 
+            <editor>Le Rond d'Alembert<name>Jean</name></editor>
+           <!-- Choix méthodologique : le fichier étant conçu comme pour accueillir l'ensemble de l'Encyclopédie, j'ai décidé de ne pas lister tous les auteurs/contributeurs de l'Encyclopédie dans l'en-tête en partant du principe qu'ils'seront précisés au niveau de leur(s) article(s) respectif(s). -->
+            </titleStmt>
+            
+            <publicationStmt> 
+            <authority><Surname>JOLLIVET </surname><name>Maëva</name></authority> 
+            <p> Encodage numérique de l'Encyclopédie, ou dictionnaire raisonné
+            des sciences, des arts et des métiers, dirigée par Diderot et
+            d'Alembert, réalisé dans le cadre du cours de XML-TEI
+            sous la supervision de <name>Christophe</name><surname>Schuwey</surname>.</p>
+            <pubPlace>Université Bretagne Sud</pubPlace>
+            <date when="2026-10-07">7 octobre 2026</date>
+            </publicationStmt>
+
+            <sourceDesc><bibl>
+                <editor>Diderot</editor><editor>D'alembert</editor>
+                <title>Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres.</title>
+                <date when="1753">M. DCC. LIII.</date>
+                <editor>Enccre<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-230-0/"></link></editor>
+            </bibl></sourceDesc>
+            
+        <encodingDesk>
+      <p>Encodage réalisé dans le cadre du cours XML/TEI.
+      Vocabulaire tei : les articles ont été structurés selon les recommandations du vocabulaire TEI dédiées
+      à l'encodage des dictionnaires (telles qu'elles sont définies dans le module Dictionaries des Guidelines de la TEI.). 
+     
+      Normalisation de l'orthographe :   L’orthographe originale du XVIIIe siècle est conservée. Lorsqu’un mot est normalisé, 
+      ses deux formes sont indiquées avec <choice> : la forme originale dans <orig> et l'équivalent moderne/la forme normalisée dans <reg>.</p>
+  </encodingDesc></encodingDesk>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <front>
+            <head> Encyclopédie, ou dctionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres.</head>
+        </front>
+        <body>
+              <div1 type="volume" n="3">  
+                  <div2 type="article" xml:id="Chaos">
+                  <entry xml:id="Chaos">
+                     <byline>
+                            <docAuthor><surname>Diderot</surname><name>Denis</name></docAuthor>
+                        </byline>
+                      <head>1 CHAOS, s. m. (Philos.2 &amp; Myth.3)</head>
+                        <usg type="domain">Philosophie</usg>
+                        <usg type="domain">Mythologie</usg>
+
+                            
+
+
+
+                     <sense n="1">
+                             <p n="1">Le Chaos en Mythologie, est <choice><orig>pere</orig><reg>père</reg></choice> de l’Erebe &amp; de la Nuit<choice><orig>mere</orig><reg>mère</reg></choice>  des dieux. 
+                             Les anciens philosophes ont entendu par ce mot, un <choice><orig>mêlange</orig><reg>mélange</reg></choice> confus de particules de toute <choice><orig>espece</orig><reg>espèce</reg></choice>, 
+                             sans forme ni régularité, auquel ils supposent le mouvement essentiel, lui attribuant en conséquence la 
+                             formation de l’univers. Ce système est chez eux un corollaire d’un axiome excellent en lui-même, mais qu’ils généralisent
+                              un peu trop ; savoir, que rien ne se fait de rien ; ex nihilo nihil fit : au lieu de restraindre ce principe aux effets,
+                               ils l’étendent jusqu’à la cause efficiente, &amp; regardent la création comme une idée chimérique &amp; contradictoire. <hi rend="italic">Voyez</hi> <ref target="#article-creation">Création</ref>.</p>
+                
+                        <p n="2">Anciennement les Sophistes, les Sages du paganisme, les Naturalistes, les Théologiens, &amp; les <choice><orig>Poëtes</orig><reg>Poètes</reg></choice>,
+                         ont embrassé la même opinion. Le chaos est pour eux le plus ancien des êtres ; l’<choice><orig>Étre</orig><reg>Être</reg></choice> éternel, le premier des 
+                         principes &amp; le berceau de l’univers. Les Barbares, les Phéniciens, les Egyptiens, les Perses, &amp;c. ont
+                          rapporté l’origine du monde à une masse informe &amp; confuse de <choice><orig>matieres</orig><reg>matières</reg></choice> entassées pêle-mêle, &amp; mûes en
+                           tout sens les unes sur les autres. Aristophane, Euripide, &amp;c. les philosophes Ioniques &amp; Platoniciens,
+                            &amp;c. les Stoïciens même, partent du chaos, &amp; regardent ses périodes &amp; ses révolutions comme des 
+                            passages successifs d’un chaos dans un autre, jusqu’à ce qu’enfin les lois du mouvement, &amp; les 
+                            différentes combinaisons, aient amené l’ordre des choses qui constituent cet univers.</p>
+                
+                            <p n="3">Chez les Latins, Ennius, Varron, Ovide, Lucrece, Stace, &amp;c. n’ont point eu d’autre sentiment.
+                             L’opinion de l’éternité &amp; de la fécondité du chaos a commencé chez les Barbares, d’où elle a passé aux 
+                             Grecs, &amp; des Grecs aux Romains &amp; aux autres nations, <choice><orig>ensorte</orig><reg>en sorte</reg></choice> 
+                             qu’il est incertain si elle a été plus ancienne que générale.</p>
+                
+                            <p n="4">Le docteur Burnet assûre avec raison, que si l’on en excepte Aristote &amp; les Pythagoriciens,
+                             personne n’a jamais soûtenu que notre monde ait eu de toute éternité la même forme que nous lui voyons ;
+                              mais que suivant l’opinion constante des sages de tous les <choice><orig>tems</orig><reg>temps</reg></choice>, ce que nous appellons maintenant le globe
+                               terrestre, n’<choice><orig>étoit</orig><reg>était</reg></choice> dans son origine qu’une masse informe, contenant les principes &amp; les matériaux du
+                                monde tel que nous le voyons. Voyez <ref target="#article-monde">Monde</ref>. Le même auteur conjecture que les Théologiens <choice><orig>payens</orig><reg>païens</reg></choice> qui ont
+                                 écrit de la Théogonie, ont imité dans leur système celui des Philosophes, en déduisant l’origine des 
+                                 dieux du principe universel d’où les Philosophes <choice><orig>déduisoient</orig><reg>déduisaient</reg></choice> tous les êtres.</p>
+                
+                             <p n="5">Quoiqu’on puisse assûrer que la premiere idée du chaos ait été très-générale &amp; très-ancienne,
+                              il n’est cependant pas impossible de déterminer quel est le premier à qui il faut l’attribuer. <choice><orig>Moyse</orig><reg>Moïse</reg></choice>,
+                               le plus ancien des écrivains, représente au commencement de son histoire le monde comme n’ayant été 
+                               d’abord qu’une masse informe, ou les élémens <choice><orig>étoient</orig><reg>étaient</reg></choice> sans ordre &amp; confondus ; &amp; c’est 
+                               vraissemblablement de-là que les Philosophes Grecs &amp; Barbares ont emprunté la premiere notion de leur
+                                chaos : en effet, selon <choice><orig>Moyse</orig><reg>Moïse</reg></choice>, cette masse <choice><orig>étoit</orig><reg>était</reg></choice> couverte d’eau ; &amp; plusieurs d’entre les Philosophes
+                                 anciens ont prétendu que le chaos n’<choice><orig>étoit</orig><reg>était</reg></choice> qu’une masse d’eau : ce qu’il ne faut entendre ni de l’océan, 
+                                 ni d’une eau élémentaire &amp; pure ; mais d’une <choice><orig>espece</orig><reg>espèce</reg></choice> de bourbier, dont la fermentation <choice><orig>devoit</orig><reg>devait</reg></choice> 
+                                 produire cet univers dans le <choice><orig>tems</orig><reg>temps</reg></choice>.</p>
+                
+                             <p n="6">Cudworth, Grotius, Schmid, Dickinson, &amp; d’autres, <choice><orig>achevent</orig><reg>achèvent</reg></choice> de confirmer cette prétention, en insistant sur
+                              l’analogie qu’il y a entre l’esprit de Dieu que <choice><orig>Moyse</orig><reg>Moïse</reg></choice> nous représente porté sur les eaux, &amp; l’amour que les
+                               Mythologistes ont occupé à débrouiller le chaos : ils ajoûtent encore qu’un sentiment très-ancien, soit en Philosophie,
+                                soit en Mythologie, c’est qu’il y a un esprit dans les eaux, aqua per spiritum movetur ; d’où ils concluent que les 
+                                anciens Philosophes ont tiré des ouvrages de <choice><orig>Moyse</orig><reg>Moïse</reg></choice> &amp; ce sentiment, &amp; la notion de chaos, qu’ils ont ensuite
+                                 altérée comme il leur a <choice><orig>plû</orig><reg>plu</reg></choice>.</p>
+                       </sense>
+                    </entry>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
