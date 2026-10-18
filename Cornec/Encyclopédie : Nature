@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Article NATURE, s. f. (Philos.)​​</title>
+                <author>D'Alembert</author>
+                <editor>Diderot</editor>
+                <editor>D'Alembert</editor>
+                <editor>Marie Leca-Tsiomis</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Jodie CORNEC</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <editor>Diderot</editor>
+                    <title>Encyclopédie</title>
+                    <date>XVIIIème siècle</date>
+                    <placeName></placeName>
+                    <editor>Diderot</editor> 
+                    <editor>D'Alembert</editor>
+                    <editor>
+                        Enccre
+                        <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v11-199-0/"/>
+                    </editor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Projet : encodage pour un cours de XML/TEI d'un article de l'Encyclopédie de Diderot et 
+                    d'Alembert.
+                </p>
+                <p>
+                    Le projet prend en compte plusieurs dictionnaires historiques afin d'étudier les définitions 
+                    du mot "nature".
+                </p> 
+                    <list>
+                        <item>
+                            Le Dictionnaire français de Richelet (1680) :
+                            Premier des grands dictionnaires entièrement français, celui de P. Richelet, 
+                            le Dictionnaire françois paru en 1680. Ce dictionnaire contenait les termes les 
+                            plus communs des arts et des sciences, rendait compte des différentes acceptions 
+                            des mots et appuyait ses définitions sur des citations « des bons auteurs» ; ce 
+                            sont là deux innovations historiquement essentielles. La définition de « nature », 
+                            selon Richelet commence donc ainsi :
+                            « Nature s.f. C’est le principe de toutes les choses qui sont. C’est le principe 
+                            actif qui est en nous et qui par ses propres forces engendre, conserve et exerce 
+                            toutes les fonctions du corps vivant, et dans les autres corps naturels la nature 
+                            est la base de leur être et de leur mouvement. Deg. »
+                            Sous l’abréviation « Deg », lisons Degori, Dictionnaire des mots de médecine chez 
+                            Rocolet, nous indique la « table alphabétique de la plupart des Auteurs »1. Une 
+                            telle référence est en elle même très significative : « nature », pour Richelet, 
+                            appartient d’abord au champ médical, sinon physiologique. Suivent les acceptions : 
+                            « Assemblage des êtres », « Propriété essentielle », « Disposition essentielle, 
+                            état d’une chose », « Sorte, manière , puis des emplois spécifiques, « Nature 
+                            corrompue. Terme de Téologie » [sic] et « Parties naturelles de l’homme et de la 
+                            femme. » 
+                        </item>
+                        <item>
+                            Le Dictionnaire universel de Furetière (1690) :
+                            Dix ans plus tard, on pouvait lire l’article NATURE du Dictionnaire universel de 
+                            Furetière publié en 1690 à Rotterdam. Pour « nature », Furetière s’essaie d’abord 
+                            une définition générale, sans doute peu satisfaisante, mais durable, comme on le 
+                            verra [12]:
+                            La masse du monde, l’assemblage de tous les êtres. L’Auteur de la nature a disposé 
+                            toutes choses en un ordre merveilleux. Il n’y a rien dans tout la nature qui ne 
+                            soit admirable, où on ne reconnaisse le doit (sic) de Dieu. Il n’y a rien de si 
+                            beau, de si méchant dans toute la nature : c’est une hyperbole ordinaire.
+                            La mention de Dieu apparaît ici et ne quittera plus, jusqu’à Littré, la « nature » 
+                            dans les dictionnaires. La suite de l’article convoque de nouvelles démarches : 
+                            Furetière recherche visiblement une approche notionnelle du terme, qui implique 
+                            le recours à des domaines différents du savoir et une définition plurielle ; il ne 
+                            s’agira plus de médecine, mais des emplois du mot chez « les théologiens », « les 
+                            philosophes », « en choses morales, « en plusieurs arts », « en Musique », « en 
+                            Prosodie ».
+                        </item>
+                        <item>
+                            Le Dictionnaire de l'Académie française (1694) :
+                            Si on le compare avec celui du premier Dictionnaire de l'Académie françoise, le 
+                            souci de Furetière apparaît très nettement. On sait en effet que les Académiciens 
+                            avaient voué leur dictionnaire à l’unique bel usage. « [L'Académie] s'est 
+                            retranchée à la Langue commune, telle qu'elle est dans le commerce ordinaire des 
+                            honnêtes gens, et telle que les Poètes et les Orateurs l'emploient », disait la 
+                            Préface du Dictionnaire de l'Académie, (p. 2). Se fondant sur leurs propres 
+                            savoirs, les Immortels excluaient tout recours extérieur à des auteurs : des 
+                            « phrases » faites exprès présentent le mot en combinaison avec d'autres. 
+                            « Nature » chez les Académiciens fait donc l’objet d’un amoncellement de 
+                            collocations :
+                            Nature. s. f. Tout l'Univers, toutes les choses créées.  Dieu est l'auteur et le 
+                            maître de la nature. l'ordre qui règne dans toute la nature. Il se prend aussi 
+                            pour Cet esprit universel [qui deviendra dans l’édition de 1762 « cet ordre »] 
+                            qui est répandu dans chaque chose créée; et par lequel toutes choses ont leur 
+                            commencement, leur progrès et leur fin. Dieu et la nature ne font rien en vain. 
+                            la nature est une bonne mère.
+                            Il se prend aussi dans une signification plus étroite, et se dit par rapport aux 
+                            effets que cet esprit et cet ordre produisent dans chaque personne. La nature 
+                            commence à s'affaiblir, à défaillir en lui.
+                            Il se prend encore pour le principe intrinsèque des opérations de chaque être,; 
+                            pour la propriété de chaque être particulier. Telle est la nature du feu. […]
+                            On en apprendra donc beaucoup sur les emplois purement langagiers du mot 
+                            « nature », mais peu sur l’interrogation notionnelle qu’un tel vocable pouvait 
+                            susciter.
+                        </item>
+                    </list>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2026-10-07">07 octobre 26</date>
+                    Initialisation du fichier TEI
+                    </item>
+                <item>
+                    <date when="2026-10-16">16 octobre 26</date>
+                    Révision des éléments : encodingDesc, revisionDesc et profileDesc
+                </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article">
+                <entry>
+                    <form>
+                        <orth rend="caps">NATURE</orth>
+                        <gramGrp>
+                            <pos>s. f.</pos>
+                            <note type="domain">(Philos.)</note>
+                        </gramGrp>
+                    </form>
+                    <p>
+                        Nature, s. f. (Philos.) est un terme dont on fait différens usages. Il y a dans Aristote​ un 
+                        chapitre entier​ sur les différens sens que les Grecs donnoient au mot φύσις, nature ; et parmi 
+                        les Latins, ses différens sens sont en si grand nombre, qu’un auteur en compte jusqu’à 14 ou 
+                        15. M. Boyle, dans un traité exprès qu’il a fait sur les sens vulgairement attribués au mot 
+                        nature, en compte huit principaux.
+                    </p>
+                <sense n="1">
+                    <p>
+                        Nature signifie quelquefois le système du monde, la machine de l’univers, ou l’assemblage de 
+                        toutes les choses créées. Voyez Système.
+                    </p>
+                </sense>
+                    <p>
+                        C’est dans ce sens que nous disons l’auteur de la nature, que nous appellons le soleil l’œil 
+                        de la nature, à cause qu’il éclaire l’univers, et le pere de la nature, parce qu’il rend la 
+                        terre fertile en l’échauffant : de même nous disons du phénix ou de la chimere, qu’il n’y en 
+                        a point dans la nature.​
+                    </p>
+                    <p>
+                        M. Boyle veut qu’au lieu d’employer le mot de nature en ce sens, on se serve, pour éviter 
+                        l’ambiguité ou l’abus qu’on peut faire de ce terme, du mot de monde ou d’univers.
+                    </p>
+                <sense n="2">
+                    <p>
+                        Nature s’applique dans un sens moins étendu à chacune des différentes choses créées ou non 
+                        créées, spirituel les et corporelles. Voyez Etre.
+                    </p>
+                </sense>
+                    <p>
+                        C’est dans ce sens que nous disons la nature humaine, entendant par-là généralement tous les 
+                        hommes qui ont une ame spirituelle et raisonnable. Nous disons aussi nature des anges, nature 
+                        divine. C’est dans ce même sens que les Théologiens disent natura naturans, et natura naturata 
+                        ; ils appellent Dieu natura naturans, comme ayant donné l’être et la nature à toutes choses, 
+                        pour le distinguer des créatures, qu’ils appellent natura naturata, parce qu’elles ont reçu 
+                        leur nature des mains d’un autre.
+                    </p>
+                    <p>
+                        Nature, dans un sens encore plus limité, se dit de l’essence d’une chose, ou de ce que ​les 
+                        philosophes de l’école appellent ​sa quiddité, c’est-à-dire l’attribut qui fait qu’une chose 
+                        est telle ou telle. Voyez Essence.
+                    </p>
+                    <p>
+                        C’est dans ce sens que les Cartésiens disent que la nature de l’ame est de penser, et que la 
+                        nature de la matiere consiste dans l’étendue. Voyez Ame, Matiere, Étendue. M. Boyle veut qu’on
+                        se serve du mot essence au lieu de nature. Voyez Essence.
+                    </p>
+                    <p>
+                        Nature est plus particulierement en usage pour signifier l’ordre et le cours naturel des 
+                        choses, la suite des causes secondes, ou les lois du mouvement que Dieu a établies. Voyez 
+                        Causes et Mouvement.
+                    </p>
+                    <p>
+                        C’est dans ce sens qu’on dit que les Physiciens étudient la nature.
+                    </p>
+                    <p>
+                        ​Saint Thomas définit la nature une sorte d’art divin communiqué aux êtres créés, pour les 
+                        porter à la fin à laquelle ils sont destinés. La nature prise dans ce sens n’est autre chose 
+                        que l’enchaînement des causes et des effets, ou l’ordre que Dieu a établi dans toutes les 
+                        parties du monde créé.
+                    </p>
+                    <p>
+                        C’est aussi dans ce sens qu’on dit que les miracles sont au-dessus du pouvoir de la nature ; 
+                        que l’art force ou surpasse la nature par le moyen des machines, lorsqu’il produit par ce 
+                        moyen des effets qui surpassent ceux que nous voyons dans le cours ordinaire des choses. Voyez Art, Miracle.
+                    </p>
+                    <p>
+                        Nature se dit aussi de la réunion des puissances ou facultés d’un corps, sur-tout d’un corps 
+                        vivant.
+                    </p>
+                    <p>
+                        C’est dans ce sens que les Medecins disent que la nature est forte, foible ou usée, ou que 
+                        dans certaines maladies la nature abandonnée à elle-même en opere la guérison.
+                    </p>
+                    <p>
+                        Nature se prend encore en un sens moins étendu, pour signifier l’action de la providence, le 
+                        principe de toutes choses, c’est-à-dire cette puissance ou être spirituel qui agit et opere 
+                        sur tous les corps pour leur donner certaines propriétés ou y produire certains effets. Voyez 
+                        Providence.
+                    </p>
+                    <p>
+                        La nature prise dans ce sens, qui est celui que M. Boyle adopte par préférence, n’est autre 
+                        chose que Dieu même, agissant suivant certaines lois qu’il a établies. Voyez Dieu.
+                    </p>
+                    <p>
+                        Ce qui paroît s’accorder assez avec l’opinion où étoient plusieurs anciens, que la nature 
+                        étoit le dieu de l’univers, le τὸ πᾶν qui présidoit à tout et gouvernoit tout, quoique d’autres 
+                        regardassent cet être prétendu comme imaginaire, n’entendant autre chose par le mot de nature 
+                        que les qualités ou vertus que Dieu a données à ses créatures, et que les Poëtes et les 
+                        Orateurs personnifient.
+                    </p>
+                    <p>
+                        ​Le P. Malebranche prétend que tout ce qu’on dit dans les écoles sur la nature, est capable 
+                        de nous conduire à l’idolâtrie, attendu que par ces mots les anciens payens entendoient 
+                        quelque chose qui sans être Dieu agissoit continuellement dans l’uni-​​vers. Ainsi l’idole 
+                        nature devoit être selon eux un principe actuel qui étoit en concurrence avec Dieu, la cause 
+                        seconde et immédiate de tous les changemens qui arrivent à la matiere. Ce qui paroît rentrer 
+                        dans le sentiment de ceux qui admettoient l’anima mundi, regardant la nature comme un 
+                        substitut de la divinité, une cause collatérale, une espece d’être moyen entre Dieu et les 
+                        créatures.
+                    </p>
+                    <p>
+                        Aristote définit la nature, principium et causa motus et ejus in quo est primo per se et non 
+                        per accidens ; définition si obscure, que malgré toutes les gloses de ses commentateurs, aucun
+                        d’eux n’a pu parvenir à la rendre intelligible.
+                    </p>
+                    <p>
+                        Ce principe, que les Péripatéticiens appelloient nature, agissoit, selon eux, nécessairement, 
+                        et étoit par conséquent destitué de connoissance ou de liberté. Voyez Fatalité.
+                    </p>
+                    <p>
+                        Les Stoïciens concevoient aussi la nature comme un certain esprit ou vertu répandue dans 
+                        l’univers, qui donnoit à chaque chose son mouvement ; de sorte que tout étoit forcé par 
+                        l’ordre invariable d’une nature aveugle et par une nécessité inévitable.
+                    </p>
+                    <p>
+                        Quand on parle de l’action de la nature, on n’entend plus autre chose que l’action des corps 
+                        les uns sur les autres, conforme aux lois du mouvement établies par le Créateur.
+                    </p>
+                    <p>
+                        C’est en cela que consiste tout le sens de ce mot, qui n’est qu’une façon abrégée d’exprimer 
+                        l’action des corps, et qu’on exprimeroit peut-être mieux par le mot de méchanisme des corps.
+                    </p>
+                    <p>
+                        Il y en a, selon l’observation de M. Boyle, qui n’entendent par le mot de nature que la loi 
+                        que chaque chose a reçue du Créateur, et suivant laquelle elle agit dans toutes les occasions ; 
+                        mais ce sens attaché au mot nature, est impropre et figuré.
+                    </p>
+                    <p>
+                        Le même auteur propose une définition du mot de nature plus juste et plus exacte, selon lui, 
+                        que toutes les autres, et en vertu de laquelle on peut entendre facilement tous les axiomes et
+                        expressions qui ont rapport à ce mot. Pour cela il distingue entre nature particuliere et 
+                        nature générale.
+                    </p>
+                    <p>
+                        Il définit la nature générale l’assemblage des corps qui constituent l’état présent du monde, 
+                        considéré comme un principe par la vertu duquel ils agissent et reçoivent l’action selon les 
+                        lois du mouvement établies par l’auteur de toutes choses.
+                    </p>
+                    <p>
+                        La nature particuliere d’un être subordonné ou individuel, n’est que la nature générale 
+                        appliquée à quelque portion distincte de l’univers : c’est un assemblage des propriétés 
+                        méchaniques (comme grandeur, figure, ordre, situation et mouvement local) convenables et 
+                        suffisantes pour constituer l’espece et la dénomination d’une chose ou d’un corps particulier, 
+                        le concours de tous les êtres étant consideré comme le principe du mouvement, du repos, etc.
+                    </p>
+                </entry>
+            </div>
+        </body>
+    </text>
+</TEI>
