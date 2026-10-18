@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns ="http://www.tei-c.org/ns/1.0">
+
+<teiHeader>
+    <fileDesc> 
+        <titleStmt> 
+            <title> EAU </title>
+            <author> D'Alembert, (O) </author>
+        </titleStmt>
+
+        <publicationStmt> 
+             <date> 2026 </date>
+             <placeName> Université Bretagne Sud </placeName>
+             <publisher> F.KEREBEL </publisher>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl>
+                <title> L'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers </title> 
+                <author> Diderot </author>
+                <author> d'Alembert </author>
+                <author> Jaucourt </author>
+                <biblScope unit="volume"> V </biblScope>
+                <date when="1755"> 1755 </date>
+                <editor> ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-396-0/"/>
+            </bibl>
+         </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+<body>
+    <div type="article">
+        <p>
+        EAU, s.f.(<hi rend="italic"> Phys. </hi>) est un corps fluide, humide, visible, transparent, pesant, sans goût, sans odeur, qui éteint le feu,
+        lorsqu'on en jette dessus en une certaine quantité, &amp;c.
+        <hi rend="italic"> Voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-1052-0/"> FLUIDE </ref>, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-777-0/"> FEU </ref>, &amp;c.
+        Nous disons que l'<hi rend="italic"> eau </hi> est <hi rend="italic"> fluide </hi> &amp; <hi rend="italic"> humide </hi>, car ces deux qualités ne sont pas identiques : le mercure, par exemple, est fluide sans être humide, &amp;c. 
+        <hi rend="italic"> Voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v8-1284-0/"> HUMIDE </ref>.
+        </p>
+
+        <p>
+        Nous ne parlerons point ici de l'utilité de ce fluide : elle est assez connue.
+        L'<hi rend"italic"> eau </hi> étoit un des quatre éléments des anciens, <hi rend="italic"> voyez </hi>
+        <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-851-3/"> ELÉMENS </ref> ; &amp; Thalès la regardoit comme le principe de toutes choses.
+        Cette opinion de Thalès étoit même plus ancienne que lui ; &amp; M.l'abbé de Canaye a prouvé, dans une excellente dissertation,
+        <hi rend"italic">tome X. des mém. de l'académie des Belles-lettres </hi> , que le mot grec ἀρχὴ, dont les parti-<pb n="187" break="no"/> sans de cette opinion
+        se servoient pour désigner cette propriété prétendue de l' <hi rend="italic"> eau </hi>, signifie, non un principe purement mécanique
+        &amp; physique, mais une <hi rend="italic"> cause efficiente &amp; primitive </hi>. 
+        Mais il ne s'agit point ici de ce que les philosophes anciens ou modernes ont pensé ou rêvé sur cette matière ; il s'agit de recueillir 
+        les faits les plus certains, &amp; les propriétés physiques de l' <hi rend="italic"> eau </hi> les mieux connues.
+        </p>
+
+        <p>
+        On peut distinguer trois sortes d' <hi rend="italic"> eaux </hi> : <hi rend="italic"> eau de pluie </hi> qui forme les mares, les citernes,
+        &amp; plusieurs lacs : <hi rend="italic"> eau de source </hi> , qui forme les fontaines, les puits, les rivieres, &amp;c. 
+        <hi rend="italic"> eau de mer </hi>, qui est bitumineuse, amere, salée &amp; impotable.
+        De cette division, il s'ensuit que l' <hi rend="italic"> eau </hi> n'est jamais absolument pure.
+        L'<hi rend="italic"> eau </hi> de pluie même, en traversant l'air, &amp; l'<hi rend="italic"> eau </hi> de source en traversant les terres,
+        se chargent nécessairement d'une infinité de parties hétérogenes. <hi rend="italic"> Voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1415-3/"> EAUX MINÉRALES </ref>.
+        L'<hi rend="italic"> eau </hi> la plus pure est celle qui coule à-travers un sable bien net &amp; sur des caillous. 
+        Ce sont les particules hétérogenes dont l'<hi rend="italic"> eau </hi> est remplie, qui se combinant avec les particules de certains corps,
+        ou s'insinuant dans leurs pores, changent ces corps en pierre, le fer en cuivre, &amp;c.
+        Il y a lieu de croire que l'<hi rend="italic"> eau </hi> de mer contient quelque chose de plus que du sel ; car en jettant du sel dans de 
+        l'<hi rend="italic"> eau </hi> commune, on n'en fera jamais d'<hi rend="italic"> eau </hi> de mer. On purifie l'<hi rend="italic"> eau </hi> de
+        diverses manieres ; par <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-912-0/"> filtration </ref> ou <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-1422-0/"> colature </ref>,
+        <hi rend="italic"> voyez ces mots </hi> ; par congelation, parce que tout ce qu'il y a de spiritueux dans l'<hi rend="italic"> eau </hi> ne se gele pas,
+        &amp; que la gelée sépare de l'<hi rend="italic"> eau </hi> la plus grande partie des corps hétérogenes qui s'y trouvent ; par l'évaporation, qui éleve les parties aqueuses,
+        &amp; laisse tomber en-embas les parties grossieres ; par clarification, en y mêlant des corps visqueux, comme des jaunes d'œuf, du lait, &amp;c.
+        </p>
+
+        <p>
+        Si on met de l'<hi rend="italic"> eau </hi> pure dans des boules de métal que l'on soude ensuite, &amp; qu'on veuille comprimer ces boules avec une presse,
+        ou les applatir à coups de marteau, on trouvera que l'<hi rend="italic"> eau </hi>  ne peut être condensée, mais qu'elle suinte en forme de rosée par 
+        les pores du métal : c'est-là le phénomene si connu qui prouve l'incompressibilité de l'<hi rend="italic"> eau </hi>.
+        On peut en conclure de-là, selon M.Musschenbroek, que les particules de l'<hi rend="italic"> eau </hi>  sont fort dures : ce que le même physicien prouve
+        encore par la douleur qu'on sent en frappant vivement la surface de l'<hi rend="italic"> eau </hi> avec la main, &amp; par l'applatissement des balles de fusil
+        tirées dans l'<hi rend="italic"> eau </hi>.
+        </p>
+
+        <p>
+        Les parties de l'<hi rend="italic"> eau </hi> ont entr'elles beaucoup d'adhérence ; <hi rend="italic"> voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-568-0/"> ADHÉRENCE </ref> ,
+        <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-1387-0/"> COHÉSION </ref>, <hi rend="italic"> &amp; les mém.de l'ac. de 1731 : </hi> c'est pour cela que des feuilles de métal appliquées sur la surface 
+        de l'<hi rend="italic"> eau </hi>, ne descendent point, parce que la résistance des particules de l'<hi rend="italic"> eau </hi> à être divisées, est plus grande 
+        que l'excès de pesanteur spécifique de ces feuilles sur celle d'un pareil volume d'<hi rend="italic"> eau </hi>. 
+        M.Musschenbroek, <hi rend="italic"> article 607 de son essai de physique </hi>, rapporte une expérience qui prouve qu'un morceau de bois d'un pouce quarré,
+        est attiré par l'<hi rend="italic"> eau </hi> avec une force de 50 grains.
+        </p>
+        
+        <p>
+        La pesanteur spécifique de l'<hi rend="italic"> eau </hi> est à celle de l'or, comme 1000 est à 19640, ou environ comme un à 19 <num type="fraction"> 3/5 </num>.
+        Mais l'<hi rend="italic"> eau </hi> est un peu plus pesante d'environ <num type="fraction"> 1/60 </num> en hyver, qu'en été ; parce qu'en général la chaleur raréfie les corps.
+        <hi rend="italic"> Voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-79-0/"> CHALEUR </ref>, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-2534-0/"> DILATATION </ref>, &amp;c.
+        De-là il s'ensuit que l'<hi rend="italic"> eau </hi> a beaucoup plus de pores que de matiere propre, au moins dans le rapport de 20 à 1, &amp; probablement beaucoup au-delà.
+        <hi rend="italic"> Voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v13-164-0/"> PORE </ref>, &amp;c.
+        </p>
+
+        <p>
+        Les particules de l'<hi rend="italic"> eau </hi> quoique très-fines, puisqu'elles pénetrent les métaux, ne peuvent presque pénétrer le verre. 
+        A l'égard du degré de finesse de ces parties &amp; de leur figure, c'est ce que les Philosophes ne peuvent, &amp; peut-être ne pourront jamais déterminer.
+        L'<hi rend="italic"> eau </hi> échauffée se raréfie de la vingt-sixieme partie de son volume, à compter du point d'où elle commence à se geler, jusqu'à ce qu'elle soit bouillante.
+        Bacon a prétendu que l'<hi rend="italic"> eau </hi> bouillie s'évapore moins que celle qui ne l'est pas.
+        L'<hi rend="italic"> eau </hi> s'évapore moins que l'eau-de-vie, mais plus que le mercure ; &amp; l'<hi rend="italic"> eau </hi> courante, moins que l'<hi rend="italic"> eau </hi> dormante.
+        La vapeur de l'<hi rend="italic"> eau </hi> échauffée a une grande vertu élastique.
+        <hi rend="italic"> Voyez les mots </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1543-0/"> EOLIPILE </ref>, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-2516-0/"> DIGESTEUR </ref>,
+        <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-432-1/"> EBULLITION </ref>, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-777-0/"> FEU </ref>, 
+        <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v16-2690-0/"> VAPEUR </ref>, &amp;c.
+        <hi rend="italic"> Voyez aussi </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-2259-0/"> MACHINES HYDRAULIQUES </ref>, &amp; <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v13-23-0/"> POMPE </ref>. 
+        On trouve même que cette vapeur a une force supérieure à celle de la poudre à canon : c'est ce que M.Musschenbroeck prouve par une expérience, rapportée §.
+        <hi rend="italic"> 873 de son essai de physique </hi> ; 140 livres de poudre ne font sauter que 30000 livres pesant ; au lieu qu'avec 140 livres d'<hi rend="italic"> eau </hi>
+        changée en vapeur, on peut élever 77000 livres. Plus la vapeur est chaude, plus elle a de force.
+        La cause de ce phénomene, ainsi que beaucoup d'autres, nous est entierement inconnue. La vapeur de l'<hi rend="italic"> eau </hi>, quoique comprimée par le poids de l'atmosphere, ne laisse pas 
+        de se dilater au point d'occuper un espace 14000 fois plus grand que celui qu'elle occupoit, &amp; par conséquent elle se dilate bien plus que la poudre, puisque cette derniere, 
+        suivant les observations les plus favorables à sa raréfaction, ne se raréfie que 4000 fois au-delà de son volume. 
+        Il ne faut donc pas s'étonner si la vapeur de l'<hi rend="italic"> eau </hi> s'insinue si aisément dans les pores des corps. 
+        Sur les phénomenes de l'ébullition de l'<hi rend="italic"> eau </hi>, <hi rend="italic"> voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-432-1/"> EBULLITION </ref>. 
+        </p>
+
+        <p>
+        Lorsqu'on a pompé l'air de l'<hi rend="italic"> eau </hi>, si on y remet une bulle d'air, l'<hi rend="italic"> eau </hi> l'absorbe bien vîte ; elle absorbera de même une seconde bulle,
+        &amp; ainsi de suite, jusqu'à ce qu'elle soit tout-à-fait imprégnée d'air= mais cet air ne se change jamais en <hi rend="italic"> eau </hi>, puisqu'on peut toûjours l'en retirer : 
+        comme aussi l'<hi rend="italic"> eau </hi> ne donne jamais d'autre air que celui qui s'y trouvoit, ou qu'on y a mis.
+        Il se trouve dans notre atmosphere divers fluides élastiques, qui s'insinuent aussi dans l'<hi rend="italic"> eau </hi>. 
+        L'<hi rend="italic"> eau </hi> pleine d'air ou sans air, est à peu-près de la même pesanteur spécifique ; mais l'<hi rend="italic"> eau </hi> pleine d'air est seulement un peu plus raréfiée : 
+        d'où M.Musschenbroeck conclut que l'air enfermé dans l'<hi rend="italic"> eau </hi>, est à peu-près aussi dense que l'<hi rend="italic"> eau </hi>. 
+        Sur les phénomenes chimiques de l'<hi rend="italic"> eau, voyez la suite de cet article, voyez aussi </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-2660-0/"> DISSOLUTION </ref>, 
+        <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-159-0/"> EVAPORATION </ref>, &amp;c.
+        </p>
+
+        <p>
+        L'<hi rend="italic"> eau </hi> éteint le feu, selon M.Musschenbroeck, parce que les corps ne brûlent qu'au moyen de l'huile qu'ils renferment, que l'huile brûlante a une chaleur de plus de 600 degrés,
+        &amp; que l'<hi rend="italic"> eau </hi> ne pouvant avoir une chaleur de plus de 212 degrés, n'en peut communiquer à l'huile.
+        Il en rapporte encore d'autres raisons, qu'on peut voir dans son ouvrage, &amp; que nous ne prétendons point garantir ; d'autant plus que l'<hi rend="italic"> eau </hi> jettée en petite quantité sur un grand feu,
+        l'augmente au lieu de l'éteindre ; &amp; qu'il y a des corps en feu, comme la poix, l'huile, &amp;c. qu'on ne peut refroidir par le moyen de l'<hi rend="italic"> eau </hi>.
+        </p>
+
+        <p>
+        Sur les phénomenes de l'<hi rend="italic"> eau </hi> glacée, <hi rend="italic"> voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-1884-0/"> CONGELATION </ref>,
+        <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v7-1102-0/"> GLACE </ref>, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v7-856-0/"> GELÉE </ref>,
+        <hi rend="italic"> &amp; </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-1916-0/"> DÉGEL </ref>. 
+        </p> 
+
+        <p>
+        M.Mariotte prétend que l'état naturel de l'<hi rend="italic"> eau </hi> est d'être glacée, parce que la fluidité de l'<hi rend="italic"> eau </hi> vient du mouvement d'une matiere étrangere qui agite
+        les parties de l'<hi rend="italic"> eau </hi>, &amp; que le repos de cette matiere produit la glace.
+        Il faudroit pour que cette raison fût bonne, 1°. que l'on connût bien certainement la cause de la congelation, 2° que le repos fût un état plus naturel aux corps que le mouvement.
+        <hi rend="italic"> Voy. l'essai de physique de M. Musschenbroeck </hi> d'où nous avons extrait la plus grande partie de cet article. 
+        <author> ( <hi rend="italic"> O </hi> ) </author>
+        </p>
+
+    </div>
+</body>
+</text>
+
+</TEI>
+
+</TEI>
