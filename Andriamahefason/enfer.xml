@@ -1,1 +1,124 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+             <title>Enfer</title>
+            </titleStmt>
+             <publicationStmt>
+             <adress>UBS</adress>
+             <publisher>Mendrika Soahanta ANDRIAMAHEFASON</publisher>
+             <date when="2026">2026</date>
+            </publicationStmt>
+            <sourceDesc>
+               <bibl>
+                 <title level="a">Enfer</title>
+                 <title level="m">Encyclopédie, ou Dictionnaire raisonné des sciences,des arts et des métiers</title>
+                 <note type="domaine">Théologie</note>
+                 <date when="1755">1755</date>
+                 <biblScope unit="volume" n="5">V</biblScope>
+                <biblScope unit="page">665b–670a</biblScope>
+                <editor>Denis Diderot</editor> 
+                <editor>Jean le Rond D'Alembert</editor>
+                <editor>Enccre
+                <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1283-0/">article « Enfer ».</link>
+                </editor>
+               </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <body>
+            <p n="1">1 <entry rend="caps">Enfer</entry>, <gramGrp>s. m.</gramGrp> (<sense type="désignant" rend="italic">Théologie</sense>.)​1​ lieu de tourmens 
+             où les méchans subiront après cette vie la punition dûe à leurs crimes.
+            </p>
+            <p n="2">2 Dans ce sens le mot d’<hi rend="italic">enfer</hi> est opposé à celui de ciel ou paradis. 
+            <xr rend="italic" type="renvoi encyclopédique">Voyez 
+            <ref target="caps" url="https://enccre.academie-sciences.fr/encyclopedie/article/v3-911-0/">Ciel</ref> &amp; 
+            <ref target="caps" ulr="https://enccre.academie-sciences.fr/encyclopedie/article/v11-2667-0/">Paradis</ref></xr>. 
+            </p>
+            <p n="3">3 Les <person type="collective" xml:id="group_payens">Payens</person> avoient donné à l’<hi rend="italic">enfer</hi> les noms de <foreign xml:lanf="latin" rend="italic">tartarus</foreign> ou <foreign rend="italic" xml:lang="latin">tartara</foreign>, <foreign xml:lang="latin" rend="italic">hades</foreign>, 
+            <foreign rend="italic" xml:lang="latin">infernus</foreign>, <foreign rend="italic" xml:lang="latin">inferna</foreign>, <foreign rend="italic" xml:lang="latin">inferi</foreign>, <foreign rend="italic" xml:lang="latin">orcus</foreign>, &amp;c. 
+            </p>
+            <p n="4">4 Les <person type="collective" xml:id="group_juifs">Juifs</person> n’ayant point exactement de nom propre pour exprimer l’<hi rend="italic">enfer</hi> dans le sens où nous venons de le définir 
+            (car le mot hébreu <foreign rend="italic" xml:lang="hebreu">scheol</foreign> se prend indifféremment pour le lieu de la sépulture, &amp; pour le lieu de supplice réservé aux réprouvés), 
+            ils lui ont donné le nom de <placeName rend="italic">Gehenna</placeName> ou <placeName rend="italic">Gehinnon</placeName>, vallée près de Jérusalem, dans laquelle étoit un <foreign rend="italic">tophet</foreign> ou place 
+            où l’on entretenoit un feu perpétuel allumé par le fanatisme pour immoler des enfans à Moloch. 
+            De-là vient que dans le nouveau Testament l’enfer est souvent désigné par ces mots <foreign xml:lang="latin" rend="italic">Gehenna ignis</foreign>.
+            </p>
+            <p n="5">5 Les principales questions qu’on peut former sur l’<hi rend="italic">enfer</hi> se réduisent à ces trois points : son existence, sa localité, &amp; l’éternité des peines 
+            qu’y souffrent les réprouvés. Nous allons les examiner séparément. 
+            </p>
+            <p n="6">6 1°. Si les anciens <person type="collective" xml:id="group_hébreux">Hébreux</person> n’ont pas eu de terme propre pour exprimer l’<hi rend="italic">enfer</hi>, ils n’en ont pas moins reconnu la réalité. 
+            Les auteurs inspirés en ont peint les tourmens avec les couleurs les plus terribles : <person type="individual" xml:id="moyse">Moyse</person>, dans le <bibleRef><book>Deutéronome</book>, <chapter n="31" rend="italic">chap. xxxij</chapter>. <verse n="22" rend="italic">vers. 22</verse></bibleRef>. menace 
+            les <person type="collective" xml:id="group_israëlites">Israëlites</person> infideles, &amp; leur dit au nom du Seigneur : <quote rend="italic">Un feu s’est allumé dans ma fureur, &amp; il brûlera jusqu’au fond de l’enfer ; il dévorera 
+            la terre &amp; toutes les plantes, &amp; il brûlera les fondemens des montagnes</quote>. <bibleRef><book>Job</book>, <chapter rend="italic" n="20">chap. xxjv</chapter>. <verse n="19" rend="italic">vers. 19</verse></bibleRef>. réunit sur la tête des réprouvés 
+            les plus extrèmes douleurs : <quote rend="italic">Que le méchant</quote>, dit-il, <quote rend="italic">passe de la froideur de la neige aux plus excessives chaleurs ; 
+            que son crime descende jusque dans l’enfer</quote> ; &amp; au <bibl rend="italic"><chapter n="25">chap. xxvj</chapter>. <verse n="6">vers. 6</verse></bibl>. <quote rend="italic">L’<hi rend="upright">enfer</hi> est découvert aux yeux de Dieu, &amp; le lieu de la perdition 
+            ne peut se cacher à sa lumiere.</quote> Enfin, pour ne pas nous jetter dans des citations infinies, <bibl>Isaïe, <chapter rend="italic" n="62">chap. lxvj</chapter>. <verse n="24">vers. 24</verse></bibl>. exprime ainsi 
+            les tourmens intérieurs &amp; extérieurs que subiront les réprouvés : <quote rend="italic" xml:lang="latin">Videbunt cadavera virorum qui prevaricati sunt in me,
+            vermis eorum non morietur, &amp; ignis eorum non extinguetur, &amp; erunt​/​usque ad satietatem visionis omni carni</quote> ; 
+            c’est-à-dire, comme porte l’Hébreu, <translation rend="italic">ils seront un sujet de dégoût à toute chair</translation>, 
+            tant leurs corps seront horriblement défigurés par les tourmens. 
+            </p>
+            <p n="7">7 Ces autorités suffisent pour fermer la bouche à ceux qui prétendent que les anciens <person type="collective" who="#group_hébreux">Hébreux</person> n’ont eu nulle connoissance des châtimens de la vie future, 
+            parce que <person type="individual" who="#moyse">Moyse</person> ne les menace ordinairement que de peines temporelles. Les textes que nous venons de citer énoncent clairement des punitions 
+            qui ne doivent s’infliger qu’après la mort. Ce qu’on objecte encore, que les écrivains sacrés ont emprunté ces idées des poëtes grecs, n’a nul fondement : 
+            Moyse est de plusieurs siecles antérieur à <author xml:id="homere">Homere</author>. Soit que Job ait été contemporain de <person type="individual" who="#moyse">Moyse</person>, ou que son livre ait été écrit par <person type="individual" xml:id="salomon">Salomon</person>, 
+            comme le prétendent quelques critiques, il auroit vêcu, vers le tems du siege de Troye, qu’Homere n’a décrit que quatre cents ans après. 
+            Isaïe, à la vérité, étoit à-peu-près contemporain d’Hésiode &amp; d’<author who="#homere">Homere</author> ; mais quelle connoissance a-t-il eu de leurs écrits,
+            dont les derniers sur-tout n’ont été recueillis que par les soins de Pisistrate, 
+            c’est-à-dire fort long-tems après la mort du poëte grec, &amp; celle du prophete qu’on suppose avoir été le copiste d’<author who="#homere">Homere</author>.
+            </p>
+            <p n="8">8 Il est vrai que les <person type="collective" xml:id="group_esseniens">Esseniens</person>, les Pharisiens, &amp; les autres sectes qui s’éleverent parmi les <person type="collective" who="#group_juifs">Juifs</person> depuis le retour 
+            de la captivité, &amp; qui depuis les conquêtes d’Alexandre avoient eu commerce avec les <person type="collective" xml:id="group_grecs">Grecs</person>, 
+            mêlerent leurs opinions particulieres aux idées simples qu’avoient eu les anciens <person type="collective" who="#group_hébreux">Hébreux</person> sur les peines de l’enfer. 
+            <quote>« Les <person type="collective" who="#group_esseniens">Esseniens</person>,</quote> dit <speaker xml:id="joseph">Joseph</speaker> dans son <citation rend="italic"><title>Hist. de la guerre des Juifs</title>, <volume n="2">liv. II.</volume> <chapter n="11">chap. xij.</chapter></citation> <quote>tiennent que l’ame est immortelle, &amp; qu’aussi-tôt qu’elle est 
+            sortie du corps, elle s’éleve pleine de joie vers le ciel, comme étant dégagée d’une longue servitude &amp; délivrée des liens de la chair. 
+            Les ames des justes vont au-delà de l’Océan, dans un lieu de repos &amp; de délices, où elles ne sont troublées par aucune incommodité ni dérangement des saisons. 
+            Celles des méchans au contraire sont reléguées dans des lieux exposés à toutes les injures de l’air, où elles souffrent des tourmens éternels. 
+            Les E<person type="collective" who="#group_esseniens">sseniens</person> ont sur ces tourmens à peu-près les mêmes idées que les poëtes nous donnent du Tartare &amp; du royaume de Pluton ».</quote> <xr type="renvoi encyclopédique">Voyez <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1994-0/">Esseniens</ref></xr>. 
+            </p>
+            <p n="9">9 <speaker who="#joseph">Le même auteur</speaker>, dans ses <citation rend="italic"><title>antiquités judaïques</title>, <volume n="18">liv. XVIII</volume>. <chapter n="1">chap. ij</chapter></citation>. dit <quote>« que les Pharisiens croyent aussi les ames immortelles, 
+            &amp; qu’après la mort du corps celles des bons joüissent de la félicité, &amp; peuvent aisément retourner dans le monde animer d’autres corps ; 
+            mais que celles des méchans sont condamnées à des peines qui ne finiront jamais. »</quote> <xr type="renvoi encyclopédique">Voyez <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v12-1156-0/">Pharisiens</ref></xr>. 
+            </p>
+            <p n="10">10 <speaker xml:id="philon">Philon</speaker>, dans l’<citation><bookFormat type="opuscule">opuscule</bookFormat> intitulé <title xml:lang="latin" rend="italic">de congressu quærendæ eruditionis causâ</title></citation>, reconnoît, ainsi que les autres <person type="collective" who="#group_juifs">Juifs</person>, 
+            des peines pour les méchans &amp; des récompenses pour les justes : mais il est fort éloigné des sentimens des <person type="collective" who="#group_payens">Payens</person> &amp; même des<person type="collective" who="#group_esseniens">Esseniens</person> 
+            au sujet de l’<hi rend="italic">enfer</hi>. Tout ce qu’on raconte de Cerbere, des Furies, de Tantale, d’Ixion, &amp;c. tout ce qu’on en lit dans les poëtes, 
+            il le traite de fables &amp; de chimeres. Il soûtient que l’<hi rend="italic">enfer</hi> n’est autre chose qu’une vie impure &amp; criminelle ; 
+            mais cela même est allégorique. Cet auteur ne s’explique pas distinctement sur le lieu où sont punis les méchans, ni sur le genre &amp; la qualité 
+            de leur supplice ; il semble même le borner au passage que les ames font d’un corps dans un autre, où elles ont souvent beaucoup de maux à endurer, 
+            de privations à souffrir, &amp; de confusion à essuyer : ce qui approche fort de la métempsycose de Pythagore. <xr type="renvoi encyclopédique">Voyez <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1183-0/">Métempsycose</ref></xr>.
+            </p>
+            <p n="11">11 Les Sadducéens qui nioient l’immortalité de l’ame, ne reconnoissoient par conséquent ni récompen-​ses ni peines pour la vie future. <xr type="renvoi encyclopédique">V. <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v14-1742-0/">Sadducéens</ref></xr>.
+            </p>
+            <p n="12">12 L’existence de l’<hi rend="italic">enfer</hi> &amp; des supplices éternels est attestée presque à chaque page du nouveau Testament. 
+            La sentence que <person type="individual" xml:id="jesus_christ">Jesus-Christ</person> prononcera contre les reprouvés au Jugement dernier, est concûe en ces termes : <bibleRef><book>Matth</book>. <chapter n="25">XXV</chapter>. <verse n="34">v. 34</verse></bibleRef>. 
+            Ite maledicti in ignem æternum qui paratus est diabolo &amp; angelis ejus. Il représente perpétuellement l’enfer comme un lieu ténébreux 
+            où regnent la douleur, la tristesse, le dépit, la rage, &amp; comme un séjour d’horreur où tout retentit des grincemens de dents &amp; des cris qu’arrache 
+            le desespoir. <speaker xml:id="st_jean">S. Jean</speaker>, dans <citation>l’Apocalypse</citation>, le peint sous l’image d’un étang immense de feu &amp; de soufre, 
+            où les méchans seront précipités en corps &amp; en ame, &amp; tourmentés pendant toute l’éternité. 
+            </p>
+            <p n="13">13 En conséquence, les Théologiens distinguent deux sortes de tourmens dans l’<hi rend="italic">enfer</hi> : savoir, la peine du dam, <foreign xml:lang="latin" rend="italic">pœna damni seu damnationis</foreign> ; 
+            c’est la perte ou la privation de la vision béatifique de Dieu, vision qui doit faire le bonheur éternel des saints : &amp; la peine du sens, <foreign xml:lang="latin" rend="italic">pœna sensûs</foreign>, 
+            c’est à-dire, tout ce qui peut affliger le corps, &amp; sur-tout les douleurs cuisantes &amp; continuelles causées dans toutes ses parties par un feu inextinguible. 
+            </p>
+            <p n="14">14 Les fausses religions ont aussi leur <hi rend="italic">enfer</hi> : celui des <person type="collective" who="#group_payens">Payens</person>, assez connu par les descriptions qu’en ont faites <author who="#homere">Homere</author>, 
+            <author xml:id="ovide">Ovide</author> &amp; <author xml:id="virgile">Virgile</author>, est assez capable d’inspirer de l’effroi par les peintures des tourmens qu’ils y font souffrir à <person type="individual" xml:id="ixion">Ixion</person>, à <person type="individual" xml:id="promethée">Promethée</person>, aux <person type="collective" xml:id="group_danaïdes">Danaïdes</person>, aux <person type="collective" xml:id="group_lapythes">Lapythes</person>, 
+            à <person type="individual" xml:id="phlégias">Phlégias</person>, &amp;c. mais parmi les <person type="collective" who="group_payens">Payens</person>, soit corruption du cœur, soit penchant à l’incrédulité, le peuple &amp;  les enfans même traitoient 
+            toutes ces belles descriptions de contes &amp; de rêveries ; du moins c’est un des vices que <author xml:id="juvenal">Juvenal</author> reproche aux <person type="collective" xml:id="group_romains">Romains</person> de son siecle. 
+            </p>
+            <p n="15">15
+            <lg type="strophe" rend="italic" xml:lang="latin">
+             <l>Esse aliquos manes &amp; subterranea regna,</l>
+             <l>Et contum, &amp; Stygio ranas in gurgite nigras,</l>
+             <l>Atque unâ transire vadum tot millia cimbâ,</l>
+             <l>Nec pueri credunt, nisi qui nondùm ære lavantur.</l>
+             <l>Sed tu vera puta. Satyr. II.</l>
+             </lg>
+            <xr rend="italic" type="renvoi encyclopédique">Voyez Enfer, (Mythologie.)</xr>
+            </p>
+        </body>
+    </text>
+</TEI>
