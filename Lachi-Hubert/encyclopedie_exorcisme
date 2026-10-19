@@ -37,37 +37,39 @@
             <entry xml:lang="fr">
 
                 <form>
-                <orth type=""caps>Exorcisme</orth>,
+                    <orth type="caps">Exorcisme</orth>,
                 </form>
+
                 <gramGrp>
-                <pos>s.</pos> 
-                <gen>m.</gen>
+                    <pos>s.</pos> 
+                    <gen>m.</gen>
                 </gramGrp>
 
             <sense>
                 <def>
-                <p><usg type="domain" rend="italic">(Théol.​1​ &amp; Hist. ecclés.​2​)</hi> priere ou conjuration dont on se sert pour exorciser, c’est-à-dire chasser les démons des corps des personnes qui en sont possédées, ou pour les préserver du danger.
-                <hi rend="italic">Voyez <xr type="see"> <ref target="#Démon">Démon</ref><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-2050-0/"></link></xr></hi>.</p>
+                    (<usg type="domain" rend="italic">Théol.</usg>1 &amp; <usg type="domain" rend="italic">Hist. ecclés.</usg>2) priere ou conjuration dont on se sert pour exorciser, c’est-à-dire chasser les démons des corps des personnes qui en sont possédées, ou pour les préserver du danger.
+                    <hi rend="italic">Voyez <xr type="see"> <ref target="#Démon">Démon</ref><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-2050-0/"></link></xr></hi>.
                 </def>
-
-                <p><etym>Ce mot est tiré d’un mot <lang>grec</lang> qui signifie <mentioned rend="italic">adjurare</mentioned>, <mentioned rend="italic">conjurare</mentioned>, conjurer.</etym> 
-                Dans la plûpart des dic<metamark ana="hc:Hyphen">-</metamark><lb break="yes"/><pb n="271"/>tionnaires on fait <hi rend="italic">exorcisme</hi> &amp; conjuration synonymes ; cependant la conjuration n’est proprement qu’une partie de l’<hi rend="italic">exorcisme</hi>, &amp; l’<hi rend="italic">exorcisme<hi/> est la cérémonie entiere, la conjuration n’étant que la formule par laquelle on ordonne au démon de sortir.</p>
-                
-                <p>Les <hi rend="italic">exorcismes</hi> sont en usage dans l’église romaine ; <usg type="domaine">on en peut distinguer d’ordinaires, qui ont lieu dans les cérémonies du baptême &amp; dans la bénédiction de l’eau qui se fait tous les dimanches ; &amp; d’extraordinaires qu’on fait sur les démoniaques, contre les maladies, les insectes, les orages, &amp;c.</usg> </p>
-                
-                <p>Si l’on en croit l’historien Josephe, Salomon avoit composé des charmes &amp; des <hi rend="italic">exorcismes</hi> très-puissans contre les maladies ; mais le silence de l’Ecriture sur cet article, a plus de poids que l’autorité de Josephe. 
-                Ce qu’il y a de certain, c’est que l’usage des <hi rend="italic">exorcismes</hi> est <usg type="time">aussi ancien que l’Eglise</usg>. 
-                Jesus-Christ même, ses apôtres &amp; ses disciples, &amp; depuis les évêques, les prêtres &amp; les exorcistes, l’ont pratiqué dans tous les siecles. 
-                M. Thiers, dans son traité des superstitions, rapporte différentes formules de ces <hi rend="italic">exorcismes</hi>, &amp; cite en particulier l’exemple de S. Grat, qui par le moyen des <hi rend="italic">exorcismes</hi>, obtint de Dieu qu’il n’y auroit plus de rats dans le pays d’Aost, ni à trois milles à la ronde. 
-                Le même auteur pense qu’on peut encore aujourd’hui se servir des <hi rend="italic">exorcismes</hi> pour une bonne fin, contre les rats, les souris, les chenilles, les sauterelles, le tonnerre, &amp;c. mais il assûre que pour cela il faut avoir le caractere requis &amp; approuvé par l’Eglise ; se servir des mots &amp; des prieres qu’elle autorise, sans quoi ces <hi rend="italic">exorcismes</hi> sont des abus &amp; des superstitions.</p>
-                
-                <p>Dans les tems où les épreuves avoient lieu, les <hi rend="italic">exorcismes</hi> y entroient pour quelque chose ; on exorcisoit l’eau froide ou bouillante, le fer chaud, le pain, &amp;c. avec lesquels devoit se faire l’épreuve. 
-                Ces pratiques étoient fréquentes en <usg type"geo">Angleterre</usg> du tems d’Edouard III. le pain ainsi exorcisé se nommoit corsned. 
-                Lendinbrock rapporte des exemples d’<hi rend="italic">exorcismes</hi> avec le pain d’orge, d’autres avec le pain &amp; le fromage qu’on faisoit avaler à l’accuse tenu de se justifier. 
-                On croit que c’est de-là qu’est venue cette imprécation populaire : que ce morceau m’étrangle, si je ne dis pas la vérité. 
-                <hi rend="italic">Voyez <xrn type="see"><ref target="#Épreuve">Épreuve</ref><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1746-0/"></link></xr>, <xr type="see"><ref target="#Orphalie">Ordalie</ref><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v11-1647-0/"></link></xr>, &amp;c. Dictionn. de Trévoux &amp; Chambers.<hi rend="italic"></p>
-                
-                <p>On trouve aussi dans Delrio, <hi rend="italic">disquisit</hi>. <hi rend="italic">magic</hi>. les formules des <hi rend="italic">exorcismes</hi> usitées en pareil cas. <signed who="#Mallet">(G)</signed></p>
+                <note>
+                    <p><etym>Ce mot est tiré d’un mot <lang xml:lang="grc">grec</lang> qui signifie <mentioned rend="italic" type="translation" xml:lang="la">adjurare</mentioned>, <mentioned rend="italic" type="translation" xml:lang="la">conjurare</mentioned>, conjurer.</etym> 
+                    Dans la plûpart des dic<metamark ana="hc:Hyphen">-</metamark><lb break="yes"/><pb n="271"/>tionnaires on fait <hi rend="italic">exorcisme</hi> &amp; conjuration synonymes ; cependant la conjuration n’est proprement qu’une partie de l’<hi rend="italic">exorcisme</hi>, &amp; l’<hi rend="italic">exorcisme<hi/> est la cérémonie entiere, la conjuration n’étant que la formule par laquelle on ordonne au démon de sortir.</p>
+                    
+                    <p>Les <hi rend="italic">exorcismes</hi> sont en usage dans l’église romaine ; <usg type="domaine">on en peut distinguer d’ordinaires, qui ont lieu dans les cérémonies du baptême &amp; dans la bénédiction de l’eau qui se fait tous les dimanches ; &amp; d’extraordinaires qu’on fait sur les démoniaques, contre les maladies, les insectes, les orages, <hi rend="italic" type="abbrev">&amp;c.</hi></usg></p>
+                    
+                    <p>Si l’on en croit l’historien <persName type="historian">Josephe</persName>, <persName type="biblical_figure">Salomon</persName> avoit composé des charmes &amp; des <hi rend="italic">exorcismes</hi> très-puissans contre les maladies ; mais le silence de l’Ecriture sur cet article, a plus de poids que l’autorité de <persName type="historian">Josephe</persName>. 
+                    Ce qu’il y a de certain, c’est que l’usage des <hi rend="italic">exorcismes</hi> est <usg type="time">aussi ancien que l’Eglise</usg>. 
+                    <persName type="biblical_figure">Jesus-Christ</persName> même, ses apôtres &amp; ses disciples, &amp; depuis les évêques, les prêtres &amp; les exorcistes, l’ont pratiqué dans tous les siecles. 
+                    <persName type="historian">M. Thiers</persName>, dans son <cit rend="italic" type="title">traité des superstitions</cit>, rapporte différentes formules de ces <hi rend="italic">exorcismes</hi>, &amp; cite en particulier l’exemple de S. Grat, qui par le moyen des <hi rend="italic">exorcismes</hi>, obtint de Dieu qu’il n’y auroit plus de rats dans le pays d’Aost, ni à trois milles à la ronde. 
+                    Le même auteur pense qu’on peut encore aujourd’hui se servir des <hi rend="italic">exorcismes</hi> pour une bonne fin, contre les rats, les souris, les chenilles, les sauterelles, le tonnerre, <hi rend="italic" type="abbrev">&amp;c.</hi>. mais il assûre que pour cela il faut avoir le caractere requis &amp; approuvé par l’Eglise ; se servir des mots &amp; des prieres qu’elle autorise, sans quoi ces <hi rend="italic">exorcismes</hi> sont des abus &amp; des superstitions.</p>
+                    
+                    <p>Dans les tems où les épreuves avoient lieu, les <hi rend="italic">exorcismes</hi> y entroient pour quelque chose ; on exorcisoit l’eau froide ou bouillante, le fer chaud, le pain, <hi rend="italic" type="abbrev">&amp;c.</hi>. avec lesquels devoit se faire l’épreuve. 
+                    Ces pratiques étoient fréquentes en <usg type="geo">Angleterre</usg> du <usg type="time">tems d’<persName type="historical_figure">Edouard III</persName></usg>. le pain ainsi exorcisé se nommoit <mentioned rend="italic" xml:lang="en">corsned</mentioned>. 
+                    <persName>Lendinbrock</persName> rapporte des exemples d’<hi rend="italic">exorcismes</hi> avec le pain d’orge, d’autres avec le pain &amp; le fromage qu’on faisoit avaler à l’accuse tenu de se justifier. 
+                    On croit que c’est de-là qu’est venue cette imprécation populaire : <cit rend="italic" type="proverb"><quote>que ce morceau m’étrangle, si je ne dis pas la vérité.</quote></cit> 
+                    <hi rend="italic">Voyez <xrn type="see"><ref target="#Épreuve">Épreuve</ref><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1746-0/"></link></xr>, <xr type="see"><ref target="#Orphalie">Ordalie</ref><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v11-1647-0/"></link></xr>, <hi type="abbrev">&amp;c.</hi> <cit type="title">Dictionn. de Trévoux &amp; Chambers</cit>.</hi></p>
+                    
+                    <p>On trouve aussi dans Delrio, <mentioned rend="italic" xml:lang="la">disquisit</mentioned>. <mentioned rend="italic" xml:lang="la">magic</mentioned>. les formules des <hi rend="italic">exorcismes</hi> usitées en pareil cas. <signed who="#Mallet">(G)</signed></p>
+                </note>
             </sense>
             </entry>
             </div>
