@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlnx="https://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>SORCIERS &amp; SORCIERES</title>
+            <author>Non renseigné</author>
+            <editor>Non renseigné</editor>
+        </titleStmt>
+        <publicationStmt>
+            <authority>M.Champroux</authority>
+        </publicationStmt>
+        <sourceDesc>
+           
+            <bibl>
+                <editor>Non renseigné</editor>
+                <title>Encyclopédie</title>
+                <date>1765</date>
+                <editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-1166-0/"></link></editor>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Encodage d'un article d'encyclopedie<p>
+        </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="fr">Français</language>
+            <language ident="la">Latin</language>
+            <language ident="ag">Grec ancien</language>
+    </profileDesc>
+    <revisionDesc>
+        <change n="1" when="2026-10-19">Le TEI Header a été complété.</change>
+        <change n="2" when="2026-10-19">Les éléments d'encodage d'un article d'encyclopédie ont été ajoutés.</change>
+    </revisionDesc>
+</teiHeader>
+<text>
+    <body>
+        <div>
+            <entry xml:id="Histoire ancienne et moderne">
+               <form><orth>SORCIERS &amp; SORCIERES</orth></form>
+                <def>
+                <p>hommes &amp; femmes qu’on prétend s’être livrés au démon, &amp; avoir fait un pacte avec lui pour opérer par son secours des prodiges &amp; des maléfices.</p>
+                <p>Les payens ont reconnu qu’il y avoit des magiciens ou enchanteurs malfaisans, qui par leur commerce avec 
+                les mauvais génies ne se proposoient que​ de nuire aux hommes, &amp; les Grecs les appelloient goétiques. 
+                Ils donnoient à l’enchanteur le nom d’<language ident="ag">επαωιδα</language>, au devin celui de <language ident="ag">μαντις</language>. 
+                Par <language ident="ag">φαρμακευς</language> ils désignoient celui qui se servoit de poisons, &amp; par <language ident="ag">γοης</language>, 
+                celui qui trompoit les yeux par des prestiges. Les Latins leur ont aussi donné différens noms, comme ceux d’empoisonneurs, <language id="la" rend="italic">venenarii &amp; venefici</language>, 
+                parce qu’en effet ils savoient préparer les poisons, &amp; en faisoient usage : Thessaliens &amp; Chaldéens, <language ident="la" rend="italic">Thessali &amp; Chaldœi</language>, 
+                du nom des pays d’où sortoient ces magiciens : généthliaques &amp; mathématiciens, <language ident="la" rend="italic">genethliaci &amp; mathematici</language>, 
+                parce qu’ils tiroient des horoscopes, &amp; employoient le calcul pour prédire l’avenir : devins, augures, aruspices, <language ident="la" rend="italic">&amp;c. arioli, augures, aruspices, &amp;c.</language> 
+                des différens genres de divination auxquels ils s’adonnoient. Ils appelloient les magiciennes lamies, <language ident="la" rend="italic">lamiæ</language>, 
+                du nom d’une nymphe cruelle &amp; forcenée, qu’on feignoit dévorer tous les enfans : <language ident="la" rend="italic">sagæ</language>, 
+                terme qui dans l’origine signifioit une personne prévoyante, mais qui devint ensuite odieux, &amp; affecté aux femmes qui faisoient profession de 
+                prédire l’avenir : <language ident="la" rend="italic">striges</language>, qui veut dire proprement des oiseaux nocturnes &amp; de mauvais augure, 
+                nom qu’on appliquoit par métaphore aux magiciennes, qui, disoit-on, ne faisoient leurs enchantemens que pendant la nuit. On les trouve encore appellées 
+                dans les auteurs de la bonne latinité <language rend="italic">veratrices, veraculæ, simulatrices, fictrices</language>. Dans les loix des Lombards elles 
+                sont nommées <language rend="italic">mascæ<language>, à cause de leur figure hideuse &amp; semblable à des masques, dit Delrio. Enfin on trouve dans Hincmar,
+                &amp; depuis fréquemment dans les auteurs qui ont traité de la magie, les mots <language ident="la">sortiarii &amp; sortiariæ</language>, que nous avons 
+                rendus par ceux de sorciers &amp; de sorcieres.</p>
+
+                Plus loin dans la définition
+
+                <p>La loi nouvelle n’est pas moins précise sur ce point que l’ancienne ; tant d’énergumenes guéris par J. C. &amp; ses apôtres, Simon &amp; Elymas 
+                tous deux magiciens, la pythie dont il est parlé dans les actes des apôtres, enfin tant de faits relatifs à la magie attestés par les peres, 
+                ou attestés par les écrivains ecclésiastiques les plus respectables, les décisions des conciles, les ordonnances de nos rois, &amp; entr’autres de Charles VIII. 
+                en 1490, de Charles IX. en 1560, &amp; de Louis XIV. en 1682. Les Jurisconsultes &amp; les Théologiens s’accordent aussi à admettre l’existence des sorciers ; 
+                &amp; sans citer sur ce point nos théologiens, nous nous contenterons de remarquer que les hommes les plus célebres que l’Angleterre ait produits depuis un siecle, 
+                c’est-à-dire, Mrs. Barrow, Tillotson, Stillingfleet, Jenkin, Prideaux, Clarke, Loke, Vossius, &amp;c. ce dernier surtout remarque que ceux qui ne sauroient 
+                se persuader que les esprits entretiennent aucun commerce avec les hommes, ou n’ont lu les saintes Ecritures que fort négligemment, ou, quoiqu’ils se déguisent, en méprisent l’autorité. 
+                <cit><language ident="la" rend="italic">« Non possunt in animum inducere ulla esse in spiritibus commercia cum homine... sed deprehendi eos vel admodùm negligenter 
+                legisse sacras litteras, vel utcumque dissimularent, Scripturarum autoritatem parvi facere ». <ref rend="italic">Voss. epistol. ad.</ref></language></cit>
+                </def>
+           </entry> 
+        </div>
+    </body>
+</text>
+</TEI>
