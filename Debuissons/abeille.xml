@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Abeille</title>
+				<author>Daubenton</author>
+				<author>Argenville</author>
+				<author>Vandenesse</author>
+			</titleStmt>
+			<publicationStmt> <authority>Clara Debuissons</authority> </publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Encyclopédie</title>
+					<date when="1752">18ème siècle</date>
+					<editor>Edition numérique</editor>
+					<editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-102-0/" /></editor>
+					<date>2021-2026</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Encodage réalisé dans le cadre du cours de TEI de M.SCHUWEY, année scolaire 2026-2027</p>
+			</projectDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<date>Du mercredi 07 novembre 2026 au 19 novembre 2026 </date>
+			<p>Travail en cours puis chez moi.</p>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<entryFree>
+				<form><orth rend="caps">Abeille</orth>, </form>
+				<gramGrp>
+					<number value="singular">s.</number>
+					<gen value="feminine">f.</gen>
+				</gramGrp>
+				<sense>
+					<cit type="sense">
+						<quote>insecte de l'espece des mouches. Il y en a de trois sortes : la premiere & la plus nombreuse des trois est l'<emph>abeille commune</emph> : la seconde est moins abondante ; ce sont les <emph>faux bourdons</emph> ou <emph>mâles</emph> : enfin la troisieme est la plus rare, ce sont les <emph>femelles</emph>.</quote>
+					</cit>
+                    <p>Les abeilles que l'on appelle <emph>reines</emph> ou <emph>meres abeilles</emph>, étoient connues des Anciens sour le nom de <emph>Rois des abeilles</emph>, parce qu'autrefois on n'avoit pas distingué leur sexe : mais aujourd'hui il n'est plus équivoque. On les a vû pondre des oeufs, &amp; on en trouve aussi en grande quantité dans leur corps. Il n'y a ordinairement qu'une <emph>Reine</emph> dans une ruche ; ainsi il est très-difficile de la voir : cependant on pourroit la reconnoître assez aisément, parce qu'elle est plus grande que les autres ; sa tête est plus allongée, &amp; ses ailes sont très-courtes par rapport à son corps ; elles n'en couvrent guere que la moitié ; au contraire celles des autres abeilles couvrent le corps en entier. La Reine est plus longue que les mâles : mais elle n'est pas aussi grosse. On a prétendu autrefois qu'elle n'avoit point d'aiguillon : cependant Aristote le connoissoit ; mais il croyoit qu'elle ne s'en servoit jamais. Il est aujourd’hui très-certain que les abeilles femelles ont un aiguillon même plus long que celui des ouvrieres ; cet aiguillon est recourbé. Il faut avoüer qu'elles s'en servent fort rarement, ce n'est qu'après avoir été irritées pendant long-tems : mais alors elles piquent avec leur aiguillon, &amp; la piquûre est accompagnée de venin comme celle des abeilles communes. Il ne paroît pas que la mere abeille ait d'autre emploi dans la ruche que celui de multiplier l'espece, ce qu'elle fait par une ponte fort abondante ; car elle produit dix à douze mille œufs en sept semaines, &amp; communément trente à quarante mille par an.</p>
+                    <p>On appelle les abeilles mâles <emph>faux bourdons</emph> pour les distinguer de certaines mouches que l'on connoît sous le nom de <emph>bourdons</emph>.</p>
+				</sense>
+			</entryFree>
+		</body>
+	</text>
+</TEI>
