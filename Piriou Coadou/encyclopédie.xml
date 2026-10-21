@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title>L'Encyclopédie</title>
+                <title>Article Loupe, terme de Chirurgie<title/>
+                <author>Antoine Louis (indiqué dans la source)</author>
+                <respStmt>
+                   <resp>Document encodé en XML/TEI par</resp>
+                   <name>Line Piriou Coadou</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>ENCCRE, Académie des sciences</publisher>
+	           <pubPlace>Paris</pubPlace>
+	           <date when="1765">1765</date>
+	           <idno type="filename">encyclopédie.xml</idno>
+	           <availability status="free">
+		        <p>L'intégralité de cette nouvelle version de la transcription est mise à disposition sous licence Creative Commons Attribution-partage dans les mêmes conditions <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-1960-1/">Lien de l'article</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl xml:id="Encyclopedie1765">
+		           <author>
+                    <surname>Diderot</surname>, <forename>Denis</forename>
+                    <surname>D'Alembert</surname>, <forename>Jean</forename>
+                   </author>
+		           <title level="m">Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
+                   <biblScope unit="volume">Tome IX</biblScope>
+		           <imprint>
+			        <publisher>Briasson, David, Le Breton et Durand</publisher>
+			        <pubPlace>Paris</pubPlace>
+			        <date when="1765">1765</date>
+		           </imprint>
+	            </bibl>
+                <listWit>
+                 <witness xml:id="Notice 1 : Article Loupe, terme de Chirurgie">
+                   Première notice : « Loupe, terme de Chirurgie »
+                 </witness>
+                 <witness xml:id="Notice 2 : LOUPE, (R), Chir">
+                  Deuxième notice : « LOUPE, (R), Chir. »
+                 </witness>
+</listWit>
+            </sourceDesc>
+        </fileDesc>
+        <!--file description, description du fichier) contient une description bibliographique complète d’un fichier électronique.-->
+        <encodingDesc> 
+          <projectDesc>Encoder un article et coder correctement le teiHeader</projectDesc>
+          <editorialDecl>
+           <p>La transcription conserve l'orthographe,la ponctuation et les graphies de l'article</p>
+           <p>Comparaison des variantes avec la balise wit car c'est un extrait d'une encyclopédie. 
+         Utilisation de la balise lem pour montrer que c'est mon article original sur lequel je me base. 
+         Utilisation de la balise rdg car c'est un autre article avec lequel je vais comparer mon texte principal</p>
+          </editorialDecl>
+        </encodingDesc>
+        <!--encoding description, description de l’encodage) documente la relation entre un texte électronique et la ou les source(s) dont il est issu.-->
+        <profileDesc> 
+          <langUsage>
+           <language ident="fr">Français</language>
+          </langUsage>
+          <textClass>
+		   <keywords scheme="genre">
+			 <term>Article encyclopédique</term>
+			 <term>Loupe</term>
+			 <term>Chirurgie</term>
+		 </keywords>
+	     </textClass>
+         </profilDesc>
+        <!--profile description, description du profil) fournit une description détaillée des aspects non-bibliographiques d’un texte, plus précisément les langues et sous-types de langues qu’il utilise, le contexte dans lequel il a été produit, les participants et leur cadre (soit à peu près tout ce qui n’est pas déjà couvert par les autres composants principaux de l’en-tête).-->
+        <revisionDesc> 
+         <change when="2026-10-21">Transcription de l'article</change>
+         <change when="2026-10-22">Encodage du teiHeader</change>
+        </revisionDesc>
+        <!--revision description, description des révisions) résume l’historique des révisions pour un fichier.-->
+    </teiHeader>
+    <text>
+        <body>
+         <div type="article">
+            <head>Loupe, terme de chirurgie</head>
+            <!--<p>Définition de loupe</p>
+            <p>Les trois classes</p>
+            <p>Ajout d'une quatrième sorte de Loupe par M. Littre</p>
+            <p>La cause des loupes et comment elles se forment</p>
+            <p>Anecdote sur l'extirpation d'une loupe</p>
+            <p>Comment en guérir ?</p>
+            <p>Comment la détruire ?</p>
+            <p>Les règles d'extirpation</p>-->
+          <p>Loupe, terme de Chirurgie​1​, 
+          <app>
+          <lem wit="#Notice 1 : Article Loupe, terme de Chirurgie">tumeur qui se forme sous la peau dans les cellules du tissu adipeux.
+          Cette tumeur est circonscrite, sans chaleur, sans douleur, &amp; sans changement de la couleur naturelle de la peau qui la couvre. 
+          La peau n’y est pas adhérente, &amp; l’on sent dans son centre une fluctuation quelquefois très-sensible, &amp; quelquefois plus obscure. 
+          </lem>
+          <rdg wit="#Notice 2 : LOUPE, (R), Chir">tumeur, souvent enkistée, et pour l'ordinaire, ronde ou ovale, plus ou moins consistante, suivant la matiere dont elle est formée, quelquefois grosse, quelquefois petite, sans douleur, sans inflammation, et sans changement de couleur à la peau.  
+          Il y a bien des sortes de loupes, à raison du lieu où elles sont situées, et de la matiere qu'elles contiennent. 
+          Celle qui est faite de chair, retient proprement le nom de loupe, loupe charnue, celle de la gorge s'appelle gouetre; celle qui est remplie de graisse épaissie, lipome; quand la matiere renfermée dans le kiste est dure, semblable à du suif, la loupe se nomme steatome; l'atherome contient une matiere ressemblante à de la bouillie; le meliceris en contient une qui a la couleur et la consistance du miel. 
+          Le siege de ces tumeurs sont les glandes sebacées du cuir. Les tuyaux excréteurs de ces organes venant à s'obstruer, ou à s'effacer, la matiere, qui y abonde toujours, distend le follicule petit à petit, et par continuation de tems, le gonfle jusqu'à un volume quelquefois très-considérable; mais ces sortes de tumeurs ne font point de douleur parce que la matiere qu'elles renferment est douce; elles gênent plus par la compression des vaisseaux voisins, quand elles ont acquis un certain volume, et souvent l'incommodité qu'elles procurent, par-là, oblige à les faire emporter.
+          </rdg>
+          </app> 
+          </p>
+          <p>
+          <app>
+          <lem wit="#Notice 1 : Article Loupe, terme de Chirurgie">Les loupes sont des humeurs enkistées, qu’on a rangées sous trois classes, relativement à la nature de l’humeur qu’elles contiennent : mais cela ne forme que des différences accidentelles, puisque, comme l’a fort bien remarqué notre célebre chirurgien françois Ambroise Paré, on ne connoit ce que contiennent ces tumeurs que lorsqu’elles sont ouvertes. 
+          Voyez les art. Enkisté, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1359-0/">Article ENKISTÉ, ÉE, terme de Chirurgie, vol. V (1755), p. 691a–b</ref> Atherome, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-3422-0/">Article ATHÉROME, en Chirurgie, vol. I (1751), p. 818a</ref> Steatome, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-1720-0/">Article STÉATOME, (Médec.), vol. XV (1765), p. 507a</ref> Meliceris <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-859-0/">Article MELICERIS, (Chirurgie.), vol. X (1765), p. 315b</ref>. 
+          </lem>
+          <rdg wit="#Notice 2 : LOUPE, (R), Chir">La chirurgie emploie quatre moyens pour guérir les loupes, I°. la résolution; 2°. la suppuration en les ouvrant; 3°. la ligature, quand la base en est étroite; 4°. enfin l'extirpation.
+          </rdg>
+          </app>
+          </p>
+          <p>
+          <app>
+          <lem wit="#Notice 1 : Article Loupe, terme de Chirurgie">M. Littre ajoute une quatrieme sorte de loupe formée par une graisse molle, & qu’il a nommée lipoma. Voyez Lipome <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-1659-0/">Article LIPOME, terme de Chirurgie, vol. IX (1765), p. 561a–b</ref>.</lem>
+          <rdg wit="#Notice 2 : LOUPE, (R), Chir"> Le quatrieme moyen de guérir les loupes, c'est de les extirper. On l'emploie quand les émolliens et les résolutifs ont été impuissans, et sur-tout quand la base de la tumeur est large, et qu'elle est, comme dit Dionis, enclavée, ou enfoncée dans les chairs.
+          </rdg>
+          </app>
+          </p>
+          <p>La cause formelle des loupes est une accumulation des sucs lymphatiques, qui prennent des couleurs &amp; des consistences différentes, suivant qu’ils sont plus ou moins chargés de sucs bilieux, graisseux, gélatineux, ou d’autres sucs recrémenteux. 
+          Les coups, les chûtes peuvent en être les causes occasionnelles & primitives. Les loupes se forment peu-à-peu par des degrés insensibles ; aussi ne comprimant point les vaisseaux du voisinage, &amp; ne le faisant que fort peu &amp; très lentement, le sang se conserve une entiere liberté de circuler, en dilatant à proportion les vaisseaux collatéraux, ce qui fait que les loupes n’attirent ordinairement aucune inflammation. 
+          Quand elles grossissent, elles peuvent s’enflammer, s’abscéder ; il y en a qui deviennent skirrheuses &amp; carcinomateuses, cela dépend de la dégénération vicieuse des sucs qui y sont renfermés. 
+          Voyez Cancer <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-3258-0/">Article CANCER, terme de Chirurgie, vol. II (1752), p. 587b–589b</ref> &amp; Carcinome <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-3590-0/">Article CARCINOME, terme de Medecine, vol. II (1752), p. 675a</ref>. 
+          </p>
+          <p>Paré appelle énorme une loupe dont il a fait heu-​reusement l’extirpation. 
+          Elle pesoit huit livres, étoit de la grosseur de la tête d’un homme, située derriere le col, &amp; pendoit entre les épaules. Il est parlé, dans les Transactions philosophiques, d’une loupe bien plus extraordinaire qu’avoit à la mâchoire inférieure un nommé Alexandre Palmer, de Keith en Ecosse ; il la portoit depuis vingt-sept ans. 
+          Sa grosseur énorme &amp; les douleurs violentes qu’elle lui causoit, le déterminerent à se la faire couper. 
+          La base de cette loupe avoit cinq pouces d’étendue, ce qui est considérable par le lieu qu’elle occupoit ; elle pesoit vingt une à vingt-deux livres : elle étoit de figure sphéroïde, &amp; avoit trente-quatre pouces de tour dans un sens &amp; vingt huit dans un autre. 
+          L’hémorrhagie qui suivit l’opération, fut arrêtée par le moyen de la poudre de vitriol, &amp; la plaie par des pansemens ordinaires fut guérie en six semaines. 
+          </p>
+          <p>Les loupes sont des maux opiniâtres, mais qui ne sont pas ordinairement dangereux, lorsqu’elles ne changent point de nature ; elles peuvent néanmoins incommoder beaucoup par leur volume ou par leur situation. 
+          On ne peut espérer de les guérir par la voie de la résolution, que quand elles sont commençantes ; &amp; les loupes graisseuses se résoudront plus facilement que les autres par des applications discussives, telles que la fumigation de vinaigre dans lequel on aura fait dissoudre de la gomme ammoniaque : les emplâtres de ciguë, de diabotanum, de vigo cum mercurio, sont fort recommandés, & ne font pas grand effet. 
+          </p>
+          <p>
+          <app>
+          <lem wit="#Notice 1 : Article Loupe, terme de Chirurgie">
+          Les loupes, dont la base est étroite, peuvent être détruites par la ligature ; l’extirpation est plus prompte &amp; moins douloureuse. 
+          J’ai vû plusieurs personnes qui craignoient l’instrument tranchant, en demander l’usage par préférence à la ligature qu’on avoit tentée. 
+          Quand le pédicule est assez considérable, on peut inciser circulairement la peau vers la base de la tumeur, &amp; en lier la base intérieurement ; ce procédé épargne les grandes douleurs qui viennent de la grande sensibilité de la peau. 
+          On peut aussi cautériser circulairement la peau, &amp; tracer par une escarre la voie de la ligature.</lem>
+          <rdg wit="#Notice 2 : LOUPE, (R), Chir">Quand la loupe a la base étroite, et qu'il y a apparence qu'elle tombera, l'on en fait la ligature; on prend un crin de cheval, ou un fil de lin ou de soie, dont on entoure le pédicule de la loupe, on le serre de plus en plus, la tige se coupe, et la loupe tombe: il seroit plus court de l'emporter d'un coup de bistouri, mais les malades préférent souvent la voie la plus longue.</rdg>
+          </app>
+          </p>
+          <p>
+          <app>
+          <lem wit="#Notice 1 : Article Loupe, terme de Chirurgie">
+          Nous avons donné au mot Enkistée des regles pour l’extirpation de ces sortes de tumeurs ; mais les grands principes se tirent de l’Anatomie, qui instruit dans chaque cas particulier des parties auxquelles la tumeur a ses attaches. 
+          Elle peut tenir à des tendons, à des nerfs, être sur la route de vaisseaux considérables, &amp;c. toutes ces différences font varier le traitement, ou établissent des procédés particuliers. 
+          On peut attaquer la tumeur par sa partie la plus éminente par la moyen des cathérétiques, dont on continue l’usage méthodiquement jusqu’à la parfaite éradication de la tumeur. 
+          Si la loupe étoit carcinomateuse, ce seroit une voie fort dangereuse ; l’extirpation par l’instrument tranchant est indispensable, si elle est possible. 
+          Quand le kiste est emporté ou détruit en entier, l’ulcere est simple, &amp; se guérit aisément par les pansemens ordinaires. (Y)
+          </lem>
+          <rdg wit="#Notice 2 : LOUPE, (R), Chir"> Les instruments qui servent à faire cette opération, sont le scalpel, une tenette, la feuille de mirthe qui a un déchaussoir à une de ses extrêmités; l'appareil consiste en un ou plusieurs plumaceaux, en une emplâtre, une compresse et un bandage appropriés. 
+          On fait une incision longitudinale ou cruciale, suivant que la loupe est petite, ou grosse, et ronde, à la peau qui couvre la tumeur, on écarte les levres de la peau, pour empoigner la tumeur avec la tenette, afin de la séparer aisément et de la disséquer avec la feuille de mirthe; que si les filamens qui attachent la tumeur étoient assez durs pour que la feuille de mirthe ne suffise pas à leur dissection, on couperoit avec le scalpel, en prenant garde cependant d'ouvrir le kiste. 
+          La loupe étant ôtée, on met sur la plaie un plumaceau. On le couvre de l'emplâtre et de la compresse, qu'on doit avoir préparés, et on assure le tout par un bandage. 
+          Toute l'adresse du chirurgien consiste à emporter toute la tumeur et la matiere contenue dans cette poche; ainsi, après la dissection de la loupe, il ne doit rien rester du sac. 
+          Cependant si, malgré l'attention de l'opérateur, il en demeuroit quelque chose, on le consumeroit par le moyen des caustiques, comme on la vû, ci-dessus, dans le second moyen. (P.)
+          </rdg>
+          </app>
+          </p>
+         </div>
+        </body>
+    </text>
+        
