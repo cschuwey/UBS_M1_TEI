@@ -16,19 +16,20 @@
                 <pubPlace>Université Bretagne Sud</pubPlace>
             </publicationStmt>
             <sourceDesc>
-                <bibl>L'Encyclopédie numérisée par <editor>ENCCRE<link
+                <bibl ref="sense n="1"">L'Encyclopédie numérisée par <editor>ENCCRE<link
                             target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-3245-8/"
                         /></editor>
+                </bibl>
+                <bibl ref="sense n="2"">Yverdon
                 </bibl>
             </sourceDesc>
             <encodingDesc>
               <editorialDecl>
                 <interpretation>
     <p>L'italique et lettres capitales ont été notées sans interprétation.</p>
-    <p> Aucune normalisation n'a été, pou le moment, effectuée. </p>
                 </interpretation>
                 <normalization>
-    <p>Aucune normalisation n'a été effectuée. </p>
+    <p>Aucune normalisation n'a été effectuée pour le moment. </p>
                 </normalization>
               </editorialDecl>
             </encodingDesc>
@@ -36,15 +37,21 @@
             <listChange>
             <change when="2026-10-07" who="#AG">Ajout de précisions grammaticales</change>
             <change when="2026-10-10" who="AG"> Ajout d'Aldrovandien tant qu'auteur dans le système title </change>
-            </revisionDesc>
+            <change when="2026-10-21" who="AG"> Ajout de la 2e définition d'Yverdon,catégorisation avec balise sense. Ajout de l'app
+            avec lem pour la source opposée à comparer avec le rdg qui est la source de base.Utilisation de wit pour faire
+            référence aux valeurs notées pour les différents sens. </change>
             </listchange>
+            </revisionDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <header> CAN </header>
         <front> </front>
         <body>
-           
+    <app>
+  <lem wit="1">Canards sauvages</lem>
+  <rdg wit="2">Canard sauvage</rdg>
+</app>
             
   <entry>
    <form>
@@ -56,9 +63,6 @@
   <gen value="masculine">m</gen>
   <num value="singular">s</num>
  </gramGrp>
-  </entry>
-  <sense>
-   <div1>
    <!--Aucune citation de qui est vraiment Ald dans le document. Je pense qu'il s'agit d'Aldrovandi, spécialiste en ornithologie-->
    <choice>
  <abbr>Ald.</abbr>
@@ -66,8 +70,9 @@
  <!--Est-ce que je reforme les phrases en enlevant les ; ?-->
 
 </choice>
+<sense n="1" value="1">
                 <p> 
-                il pese trente-six à quarante onces ; il a environ un pié
+                    il pese trente-six à quarante onces ; il a environ un pié
                     neuf pouces de longueur, depuis la pointe du bec jusqu’à l’extrémité de la queue
                     ; l’envergure a près de deux piés neuf pouces ; le bec est d’un verd jaunâtre ;
                     il a deux pouces &amp; demi de longueur depuis les​ coins de la bouche jusqu’à
@@ -106,8 +111,7 @@
                     les huit suivantes de chaque côté sont blanchâtres ; les plumes du dessous de
                     l’aile &amp; de la fausse aile sont blanches. <lb/>
                 </p>
-            </div1>
-            <div2>
+    
             <p>
             Ces oiseaux vont par troupes pendant l’hyver ; au printems le mâle suit la
                     femelle ; ils marchent par paires, &amp; ils font leur nid le plus souvent près
@@ -118,8 +122,7 @@
                     dos est d’un brun presque noir, &amp; les bords font d’un blanc roussâtre.
                     Villughby, <quote rend="italic"> Ornith.</quote><xr> Voyez <ref>Oiseau</ref></xr>. <author>(I)</author>  <lb/>
             </p>
-            </div2>
-            <div3>
+           
             <p>
             Le <emph rend="italic">canard sauvage</emph> passe pour meilleur que le <emph rend="italic">domestique</emph>, étant nourri à l’air libre, &amp; 
             d’alimens qu’il va chercher lui-même, &amp; plus exercé que l’autre; ce qui contribue à atténuer 
@@ -127,19 +130,112 @@
              en plus les principes de ses liqueurs ; ainsi il abonde davantage en sel volatil : cette chair
               est cependant de difficile digestion.<lb/>
               </p>
-            </div3>
-            <div4>
+            
             <p>
             Le foie du <emph rend="italic">canard sauvage</emph> passe pour propre à arrêter le flux hépatique.<lb/>
             </p>
-            </div4>
-            <div5>
+            
             <p>
             La graisse du <emph rend="italic">canard</emph> est adoucissante, résolutive, &amp; émolliente. <author>(N)</author> <lb/>
             </p>
-            </div5>
             </sense>
+            
+
+            
+            <sense n="2" value="2">
+            <p>
+            Ceux qui étudient les oiseaux, reconnoissent autant de différence entre les canards privés et les 
+            sauvages, qu'il y en a entre les oies domestiques et les sauvages. A l'égard des couleurs, elles sont 
+            aussi constantes dans les canards sauvages, qu'elles sont variées dans les domestiques.
+
+        Entre les canards sauvages, les uns fréquentent les eaux douces d'étangs, de lacs, et particulierement 
+        de rivieres; ce qui les fait appeller oiseaux de riviere: tels sont le canard sauvage ordinaire, le canard 
+        à large bec, et à aîles bigarées, le canard à mouche, le canard à queue pointue, en fer de pique, 
+        la sarcelle, etc. Les autres semblent se plaire davantage dans les eaux salées; aussi ne quittent-ils guere 
+        les lieux maritimes, parce qu'ils y trouvent leur principale nourriture: tels sont l'eidredon appellé canard 
+        à duvet, la macreuse, le canard aux yeux d'or, le canard à bec large et arrondi en forme de bouclier, 
+        le canard crêté appellé morillon, le canard à queue d'hirondelle.
+        </p>
+<p>
+        Ceux que l'on appelle par excellence oiseaux de riviere, volent l'hyver en troupe et sentent la poudre 
+        de fort loin: on en voit beaucoup en Italie, en Allemagne et en France.
+
+        Canards de rivieres. Canard sauvage ordinaire, petit canard de riviere à collier: Anas torquata minor, 
+        aut Anas sylvestris vera. Cet oiseau appellé quelquefois canne du Levant, a un grand rapport avec le canard
+        privé ou domestique; il est de passage et va par troupes pendant l'hyver. Au printems le mâle suit la 
+        femelle, alors ils marchent par paires, et ils ne manquent guere de faire leurs nids près de l'eau, dans 
+        les joncs, dans les bruyeres: la ponte et la couvée de la femelle sont de I5 à I6 œufs qui produisent autant 
+        de petits, lesquels se nomment halebran anaticula, ou caneton sauvage; la chair de ces canards est très-bonne,
+        cependant moins délicate que celle du canard de riviere de la Louisiane.
+
+        On tue ces canards sauvages au fusil dans les grandes pieces d'eau où l'on tient des canards traîtres, etc. 
+        On appelle les pieces d'eau qu'on emploie à cet usages des canardieres.
+
+        Canard de riviere, gobbe mouche: Anas muscaria. Cet oiseau est ainsi nommé de l'espece de nourriture qu'il 
+        attrape sur la surface des eaux; en marchant, il suspend ses pas pour attraper les mouches, et la nuit il 
+        pousse un cri semblable à celui d'un homme qui s'attriste; ce canard a les pieds jaunes, les doigts et la 
+        membrane d'un jaune noirâtre, le bec jaune et dentelé: son plumage est communément magnifique, de différentes
+        couleurs, noir, verd clair mêlé d'une couleur de feu, blanc et de couleur de belette, confondues ensemble 
+        dans des endroits, séparées dans d'autres: c'est un très-bel oiseau. La cane mouche est de cette espece.
+
+        Canard de riviere dit sarcelle. Voyez ce mot. On donne encore ce nom quelque-fois à un petit canard, dont 
+        le plumage de la tête est roux comme le poil du renard ou de la belette: il a beaucoup de ressemblance avec 
+        la sarcelle. Quand il est un peu roux, on l'appelle canard de riviere roux.
+</p>
+<p>
+        Canard huppé jaune, ou canard de Marsilly: Anas cristata flavescens. Il a quelquefois un pied de long, 
+        le bec très-rouge, le front élevé, garni de plumes molles et d'un beau jaune, qui descendent sur le bec; 
+        le col, la poitrine, la queue d'un gris bleuâtre, les jambes blanches et les pieds d'un beau pourpre: 
+        quelques-uns l'appellent sarcelle huppée.
+</p>
+<p>
+        Canard étoilé: Anas stellata. La singularité de ce canard consiste en ce que ses yeux sont environnés d'une 
+        tache ovale et noire, placée très-haut, et que son dos est constamment couvert d'une étoile blanche: quelques 
+        ornithologistes rangent dans cette classe le canard blanc: Anas albella: mais Klein pense que ce n'est qu'un 
+        plongeon du Rhin.
+</p>
+<p>
+        Cane penelope: Anas penelope. Cet oiseau qui vole toujours autour des lacs et des rivieres est, selon M. Linné
+        , du genre de l'oie. Quoi qu'il en soit, il est, dit Belon, de la grandeur de notre canard domestique, moins 
+        gros; il a le bec gros, large et de couleur plombée, ainsi que les jambes et les pattes: son plumage est 
+        diversifié par des lignes noires et blanches, le devant de la tête est blanc: la femelle est entiérement 
+        semblable au mâle.
+</p>
+<p>
+        Cane petiere ou canard de pré de France: Anas campestris et pratensis gallica. Cet oiseau est particulier à 
+        la France: il est de la grosseur du faisan, et vit de graines, de fourmis, d'escarbots, de petites mouches 
+        et de bled verd: sa chair est aussi délicate que celle du faisan: cet animal n'est point un canard, et nous 
+        croyons avec Belon, que c'est une petite espece d'outarde. v. OUTARDE.
+</p>
+<p>
+        Canards de mer. On a observé que ces sortes d'oiseaux ont le bec large et plus émoussé: le doigt de derriere 
+        est large, couvert d'une membrane: la queue, quoiqu'un peu longue, n'est pas pointue.
+</p>
+<p>
+        Le canard colin ou grisard, ou caniart, Larus vel gravia major, se trouve sur les seuls bords de l'Océan; 
+        quelquefois il se perche sur les arbres: il est très-chargé de plumes grisâtres, et est de la grosseur d'une 
+        oie moyenne. Son cri imite le son d'une flute. Ses pieds sont semblables à ceux du canard ordinaire: il n'a 
+        pas la propriété de faire le plongeon. Sa tête est fort grosse, l'entrée de son gozier très-grande; il est 
+        très-gourmand et difficile à rassasier: il vole long-tems. Sa peau est dure, sa chair indigeste: il ne fait 
+        ordinairement que deux petits.
+</p>
+<p>
+        Canard à duvet ou à plumes molles, ou de S. Cutbert, ou canard de l'isle de Farne et d'Islande; Anas 
+        Farnensis, plumis mollissimis. Cet oiseau est l'eidredon ou l'eider des Danois et de la mer Baltique, et 
+        l'égledon des François. Il est plus grand que le canard vulgaire. Son bec est court; le milieu en est rouge, 
+        le bout noir, plus cylindrique et plus pointu que dans nos canardsdomestiques. Ce bec est dentelé sur les 
+        côtés: il a dans le milieu deux trous oblongs qui servent à la respiration: on distingue le mâle à sa couleur 
+        noire et blanche: la plus grande partie de son dos ainsi que sa tête, son col et sa poitrine sont blancs; sa 
+        queue est pointue, les plumes des aîles et les pieds sont noirs; les ongles sont crochus et pointus. 
+        La femelle est de la couleur du faisan de mer. Dans cette sorte de canards uniquement, et tant mâles que 
+        femelles, on reconnoît de petites plumes qui couvrent les deux côtés du bec et viennent finir en forme 
+        d'angles sous les narines. L'estomac est garni de plumes ou d'une sorte de duvet très-doux, très-moëlleux, 
+        fort léger, fort chaud et très-recherché pour les lits: ce duvet a beaucoup d'élasticité et est très-durable. 
+        On prétend que l'oiseau s'arrache lui-même ce duvet dans le tems qu'il couve ses œufs; il en garnit son nid 
+        dans la vue de conserver une chaleur propre aux petits qui en doivent éclorre.*
+</p>
+            </sense>
+            </entry>
         </body>
     </text>
-</TEI>
 </TEI>
