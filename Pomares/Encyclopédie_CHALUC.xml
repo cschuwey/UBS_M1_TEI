@@ -8,18 +8,26 @@ type="application/xml"
         <fileDesc>
             <titleStmt>
                 <title>Encyclopédie, tome III_Chaluc</title>
-                <author>Denis Diderot</author>
-                <author>Jean d'Alembert</author>
+                <respStmt>
+                    <resp>Encodage XML-TEI par</resp>
+                    <name>POMARES Luna</name>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
-                <date>1751</date>
+                <date when="1751">1751</date>
             </publicationStmt>
             <sourceDesc>
             <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/CHALUC">
-     <p> Wikisource Encyclopédie, tome III, 1re édition </p>
+     <p> Wikisource, extrait de l'Encyclopédie, tome III, 1re édition de Diderot et d'Alembert. Article CHALUC</p>
     </ref>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc> </encodingDesc>
+        <revisionDesc>
+            <change when="2026-10-23">Encodage XML-TEI TD4</change>
+            Création et premier encodage TEI de l'article.
+        </revisionDesc>
+        
     </teiheader>
    
     <text>
@@ -37,7 +45,7 @@ on l’a appellé <foreign xml:lang="la">labeo &amp; labrus</foreign>. Le chaluc
 <name>Rondelet</name>. Voyez <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/POISSON"></ref> <term>POISSON</term>. (I)
 </entry>
 </p>
-<!-- La documentation TEI ne fonctionnait plus pour la fin de mon encodage. La page ne s'ouvre plus.--> 
+<!-- La documentation TEI ne fonctionnait plus pour la suite de mon encodage. La page ne s'ouvre plus.--> 
 <!--La version de Vscode que j'ai utilisée possède une intelligence artificielle intégrée que je n'ai pas réussi à désactiver. Lorsque j'utilise une balise, l'IA reconnait les autres termes du paragraphe qui pourraient être identifiés avec cette même balise.
 Par exemple, quand j'ai noté <term> pour "chabot", l'IA propose automatiquement de mettre cette balise pour "vergadelle". Malgré le fait que j'essaye de ne pas l'utiliser, je n'arrive pas à la retirer. Désolé.-->
             </div>
