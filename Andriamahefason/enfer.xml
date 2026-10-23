@@ -25,6 +25,32 @@
                 </editor>
                </bibl>
             </sourceDesc>
+            <projetDesc><p>Encodage TEI d'un article numérisé par ENCCRE dans le cadre du cours TEI XML/XSLT en Master 1 Métiers du livre et de l'édition à l'UBS.</p>
+            </projetDesc>
+            <encodingDesc>
+             <editorialDesc>
+             <normalization>
+               <p>Le texte original est conservé. L’orthographe et les formes anciennes ne sont pas modernisées.</p>
+               </normalization>
+               <correction>
+               <p>Aucune correction éditoriale n’a été apportée au texte. Les éventuelles erreurs présentes dans la source sont conservées.</p>
+               </correction>
+               <samplingDecl>
+               <p>Le fichier actuel ne contient qu’une partie de l’article « Enfer ». La transcription comprend les paragraphes 1 à 15. Le reste de l'article n'a pas été encodé.</p>
+               </samplingDecl>
+             </editorialDesc>
+            </encodingDesc>
+            <revisionDesc>
+             <change when="2026-10-23">
+              <p>Ajout d'entrées pour revisionDesc et encodingDesc dans le teiHeader conformément aux consignes du T4 sur Moodle. Enccre toujours pas accessible. L'article demeure incomplet.</p>
+             </change>
+              <change when="2026-10-19">
+              <p>Finalisation de la première version d'encodage et dépôt de cette version sur Github pour le cours qui était prévu <date when="2026-10-13">mardi</date>.</p>
+             </change>
+             <change when="2026-10-18">
+                <p>Création du fichier TEI et encodage partiel de l’article « Enfer ».</p>
+             </change>
+            </revisionDesc>
         </fileDesc>
     </teiHeader>
     <text xml:lang="fr">
