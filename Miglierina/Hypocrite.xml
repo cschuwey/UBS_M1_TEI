@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<!-- J'ai fait ce que j'ai pu dans la mesure où la base de données de la TEI était inaccessible -->
+
+<teiHeader>
+      <fileDesc>
+        <titleStmt>
+            <title>Article « HYPOCRITE »</title>
+            <author>Briasson, David l’aîné, Le Breton, Durand</author>
+        </titleStmt>
+
+        <publicationStmt>
+            <p>Travail universitaire - Encodage TEI</p>
+            <publisher> Angèle Miglierina </publisher>
+            <pubPlace> 52 rue de Liège </pubPlace>
+            <date calendar="Gregorian">Oct. 23, 2026</date>
+            <idno type="filename"> Hypocrite.xml </idno> 
+        </publicationStmt>
+
+        <sourceDesc>
+            <title>L'Encyclopédie, 1re édition</title>
+            <author>Diderot</author> 
+            <author>D'Alembert</author>
+            <edition>Première édition</edition>
+            <date when="1751">1766</date>
+            <biblScope unit="volume">8</biblScope>
+            <biblScope unit="page">409</biblScope>
+            
+            <listWit>
+                <witness xml:id="1">Version numérisée de l'édition originale de l'Encyclopédie </witness>
+                <idno type="PDF">https://bibnum.institutdefrance.fr/medias/59/03/d6/d4/5903d6d4-1a61-4a77-a693-2af03c98e14e/attachedfiles/751063002_I02003442_000008a.pdf</idno>
+
+                <witness xml:id="2">Version modernisée de Wikisource</witness>
+                <idno type="Wikisource">https://fr.wikisource.org/wiki/L’Encyclopédie/1re_édition/HYPOCRITE</idno>
+            </listWit>
+        </sourceDesc>
+
+        <encodingDesc>
+        <p> J'ai décidé de moderniser la langue dans la version Wikisource.</p>
+        </encodingDesc>
+      
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+
+      <body>
+
+        <div type="article">
+        
+        <p><term>HYPOCRITE</term>, s. m. (Morale). 
+        C'est un homme qui se montre avec un <app><lem wit="#1">caractere</lem><rdg wit="#2">caractère</rdg></app> qui n'est pas le sien : 
+        les distinctions flatteuses &amp; l'estime du public qu'obtient une sorte de mérite ; la nécessité de <app><lem wit="#1">paroître</lem>
+        <rdg wit="#2">paraître</rdg></app>, la difficulté d'être, la force des <app><lem wit="#1">penchans</lem><rdg wit="#2">penchants</rdg>
+        </app>, la <app><lem wit="#1">foiblesse</lem><rdg wit="#2">faiblesse</rdg></app>de l'amour de l'ordre, &amp; la crainte de<app>
+        <lem wit="#1">paroître</lem><rdg wit="#2">paraître</rdg></app> le blesser, mille autres causes, forcent les hommes à se montrer
+        <app><lem wit="#1">différens</lem><rdg wit="#2">différents</rdg></app>de ce qu'ils sont. Tout a ses <hi rend="italic">hypocrites</hi> ; 
+        la vertu, le vice, le plaisir, la douleur, &amp;c.</p>
+
+        <p>Mais le nom d'<hi rend="italic">hypocrite</hi> est donné plus <app><lem wit="#1">particulierement</lem><rdg wit="#2">particulièrement</rdg>
+        </app> à ces hommes constamment faux &amp; pervers, qui sans vertus &amp; sans religion, prétendent faire respecter en eux les plus grandes 
+        vertus &amp; l'amour de la religion ; ils sont zélés pour se dispenser d'être honnêtes ; héros ou saints, pour se dispenser d'être bons. 
+        Des fanges du vice ils <app> <lem wit="#1">élevent</lem><rdg wit="#2">élèvent</rdg></app> une voix respectée pour accuser le mérite ou de crime ou d'impiété.</p>
+
+        <quote><hi rend="italic">Le ciel est dans leurs yeux, l'enfer est dans leurs cœurs.</hi></quote>
+
+        </div>
+
+      </body>
+
+   </text>
+
+</TEI>
