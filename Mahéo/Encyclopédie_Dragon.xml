@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Dragon</title>
+<author>d'Alembert</author>
+<author>Diderot</author>
+<author>Maréchallerie</author>
+</titleStmt>
+
+<publicationStmt>
+<date>2026</date>
+<placeName>Kervignac</placeName>
+<publisher>M.MAHEO</publisher>
+</publicationStmt>
+
+<sourceDesc>
+<bibl>
+<title>Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers,</title>
+<editor>Diderot</editor>
+<editor>d'Alembert</editor>
+<biblScope unit="volume">v</biblScope>
+<editor>ARTFL Encyclopédie <link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/bibliography?results_per_page=25&head=dragon" </editor>
+</bibl>
+</sourceDesc>
+
+</fileDesc>
+<encodingDesc>
+<projetDesc>
+<p>Encoder un artcile de l'encyclopédie</p>
+<p>Dans ce codage je ne vais faire aucune modifications des textes, juste des copier-coller</p>
+</projetDesc>
+</encodingDesc>
+<langUsage>
+<language ident="fr">Français</language>
+<language ident="la">Latin</language>
+</langUsage>
+</teiHeader>
+
+<text>
+<body>
+<div type="article">
+<form><orth>Dragon</orth></form>
+<def>
+<p>
+Dragon, <hi rend="italic">terme d'Astronomie</hi>. La tête & la queue du dragon, <language ident="la">caput & cauda draconis</language>, sont les noeuds ou les deux points d'intersection de l'écliptique & de 
+l'orbite de la Lune, qui fait avec l'écliptique un angle d'environ cinq degrés. Voyez Orbite & Noeud.
+
+Il faut remarquer que ces points ne sont pas toûjours au même endroit ; qu'ils ont un mouvement propre dans le Zodiaque, par lequel ils retrogradent 
+très-sensiblement, parcourant le cercle entier dans l'espace d'environ dix-neuf ans.
+
+C'est dans ces points d'intersection, ou proche de ces points, que se font toutes les éclipses. <hi rend="italic">Voyez</hi> Eclipse.
+
+On les marque ordinairement par ces caracteres, , tête du <hi rend="italic">dragon,</hi> & , queue du <hi rend="italic">dragon.</hi>
+
+L'un de ces points, appellé <hi rend="italic">tête du dragon,</hi> est celui par lequel la Lune passe pour entrer dans la partie septentrionale de son orbite ; l'autre appellé 
+<hi rend="italic">queue du dragon,</hi> est celui par lequel la Lune passe pour entrer dans la partie méridionale de son orbite. On ne voit pas de trop bonnes raisons de cette 
+dénomination ; aussi les astronomes modernes l'ont abandonné, 
+</p>
+
+<p>
+* Dragon, (Hist. mod.) ce fut une enseigne militaire des Perses, des Daces, des Parthes, & même des Romains ; & ce fut de-là qu'on appella Draconains c eux qui la portoient.
+</p>
+
+<p>
+Dragon, (Maréchall.) les Maréchaux appellent ainsi une maladie qui vient aux yeux des chevaux, & qui consiste en une tache blanche au fond de la 
+prunelle : elle n'est pas au commencement plus grosse que la tête d'une épingle ; mais elle croît peu-à-peu au point de couvrir toute la prunelle. Le 
+<hi rend="italic">dragon</hi> vient d'obstruction & de l'engorgement d'une lymphe trop épaissie. Ce mal est incurable.
+</p>
+
+</def>
+</div>
+</body>
+</text>
