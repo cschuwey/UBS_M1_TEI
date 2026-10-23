@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>L'Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
+            <author>Denis Diderot, Jean Jean Le Rond d'Alembert et Louis de Jaucourt</author>
+            </titleStmt>
+          <editionStmt>
+                  <edition n="1">Première édition 
+                    <date>27 Mai 2012</date>
+                    <idno type="URI">https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/DIEU</idno>
+                  </edition> 	<!-- correspond au numéro de la présente édition -->                  
+          <respStmt>
+ <resp>L’Encyclopédie/1re édition/DIEU</resp>
+</respStmt>
+</editionStmt>
+
+<supportDesc>
+<extent>624 Ko</extent>
+<extent>1098 pages</extent>
+</supportDesc>
+
+             <publicationStmt>
+ <distributor>wikisource</distributor>
+ <availability status="free">
+  <p>...</p>
+ </availability>
+</publicationStmt>
+
+         <sourceDesc>
+         <msDesc>
+		 <msIdentifier>
+			 <country>France</country>
+			 <settlement>Paris</settlement>
+			<repository>Bibliothèque nationale de France</repository>
+  <collection>Fonds ancien</collection>
+  <idno>Rés. Y2. 123</idno>
+		 </msIdentifier>
+     </msDesc>
+     </sourceDesc>
+
+
+<!-- à ajouter pour le TD5
+<encodingDesc>
+	 <projectDesc>  (description du projet) : notes sur les objectifs généraux du projet
+		 <p>...</p>
+	 </projectDesc>
+	 <samplingDecl> (déclaration d’échantillonnage) : notes sur les principes d’échantillonnage des textes qui ont été appliqués
+		 <p>...</p>
+	 </samplingDecl>
+	 <editorialDecl> (déclaration des pratiques éditoriales) : notes sur les pratiques éditoriales appliquées, pour lesquelles d’autres éléments spécialisés sont proposés, 
+   tels que <correction>, <normalization>, <quotation> (citation), <hyphenation> (césure), <segmentation>, <interpretation>
+	 </editorialDecl>
+</encodingDesc> 
+
+<charDecl> (description de caractère) : le XML réclame l’utilisation d’Unicode dans tout le document, 
+mais des glyphes ou des caractères non standards peuvent être indiqués dans un document TEI en utilisant l’élément <g> pour référencer les définitions fournies par cet élément
+exemple: <charDecl>
+	 <glyph xml:id="z103">
+		 <glyphName>LETTRE LATINE Z AVEC DEUX BARRES</glyphName>
+		 <mapping type="standardized">z</mapping>
+		 <mapping type="PUA">U+E304</mapping>
+	 </glyph>
+</charDecl>
+-->
+
+<classDecl>
+	 <taxonomy xml:id="size">
+		 <category xml:id="medium">
+			 <catDesc>l’histoire occupe entre un quart et une moitié de page</catDesc>
+		 </category>
+     </taxonomy>
+<taxonomy xml:id="topic">
+		 <category xml:id="mythologie">
+			 <catDesc>Concernant les dieux issus de la mythologie.</catDesc>
+       <catRef target="#dieux #mythologie"/>
+		 </category>
+ </taxonomy>    
+ </classDecl>
+
+ <revisionDesc>
+	 <listChange>
+		 <change when="2012-11-28">Échanger l'ordre des auteurs par Johann Heinrich Samuel Formey, Edmé-François Mallet</change>
+     <change when="2012-07-08">Remplacer la catégorie Histoire par Histoire d'Angleterre</change>
+<change when="2012-07-08">Ajout de l'auteur Johann Heinrich Samuel Formey</change>
+          <change when="2012-07-08">Ajouter 2 catégories: Religion et Théologie</change>
+     		 <change when="2012-05-27">Première version</change>
+	 </listChange>
+</revisionDesc>   
+
+ <sourceDesc>        
+         <bibl>
+<bibl xml:id="..."> </bibl>
+		 <author>Denis Diderot, Jean Jean Le Rond d'Alembert et Louis de Jaucourt</author>
+		 <title level="m">Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
+		 <imprint>
+			 <publisher>André Le Breton, Laurent Durand, Antoine-Claude Briasson et Michel-Antoine David</publisher>
+			 <pubPlace>France</pubPlace>
+			 <pubPlace>Paris</pubPlace>
+			 <date when="1751" to="1772"></date>
+		 </imprint>
+</bibl>
+</sourceDesc>
+
+          <biblStruct>
+        <monogr>
+        
+          <biblScope unit="partie" n="...">...</biblScope> <!-- chercher comment mettre le numéro de page ou mettre le nom de la partie.  -->
+          <bibleScope unit="tome" n="4">4</bibleScope>
+        </monogr>
+        <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/DIEU"/>
+      </biblStruct>
+            <p> "Dieux" en 1751, 1ère édition, Tome 4 pages 983-984, l'article référent "Dieu" et rédiger par Johann Heinrich Samuel Formey et Edmé-François Mallet.
+            Disponible ici: https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/DIEU</p>   
+            <!-- quand est-ce que je mets l'article différent dans le dico de Trévoux ? je dois faire une présentation ? -->
+         
+      </fileDesc>
+
+      <profileDesc>
+    <particDesc>
+      <listOrg>
+        <org xml:id="Grecs" type="people">
+          <orgName xml:lang="fr">Grecs</orgName>
+        </org>
+        <org xml:id="Latins" type="people">
+          <orgName xml:lang="fr">Latins</orgName>
+        </org>
+        <org xml:id="Gentils" type="epithet">
+          <orgName xml:lang="fr">Gentils</orgName>
+        </org>
+      </listOrg>
+    </particDesc>
+  </profileDesc>
+
+  </teiHeader>
+	<!-- ce qui doit apparaitre dans le teiHeader = les sources (au pluriel) de votre notice, votre nom, l'organisme qui l'a produit, vos options d'encodage dans encodingDesc et une entrée revisionDesc. -->
+<text>
+      <body>
+      <p>
+Dieux
+Dieux, s. m. pl. (Mythol). se dit des faux dieux des <orgName><addName type="epithet">Gentils</addName></orgName>, qui tous étoient des créatures auxquelles on rendoit les honneurs dûs à la divinité. Voyez Déesse, Idole, &c.
+Il faut remarquer que parmi les <orgName type="people">Grecs</orgName> & les <orgName type="people">Latins</orgName>, les peuples par le nom de Dieu, n'entendoient point un être. 
+très-parfait, dont l'éternité est un attribut essentiel. 
+Ils appelloient dieux, tous les êtres qu'ils regardoient comme supérieurs à la nature humaine, ou qui pouvoient leur être de quelque utilité, ou même de la colere desquels ils avoient à craindre ; 
+car les anciens, comme les modernes, ont presque toûjours été conduits par l'intérêt propre, c'est-à-dire l'espérance du bien & la crainte du mal. 
+Les hommes mêmes, selon eux, pouvoient devenir des dieux après leur mort, parce que leur ame pouvoit acquérir un degré d'excellence qu'ils n'avoient point eu pendant leur vie ; voyez Apothéose & Consécration. 
+Mais qu'on ne croye pas que les sages comme Socrate, Platon, Cicéron, & les autres, parlassent toûjours selon les idées du peuple : ils étoient cependant quelquefois obligés de s'y conformer, pour n'être pas accusés d'athéisme. 
+C'étoit le prétendu crime que l'on imputoit à ceux qui ne croyoient qu'un Dieu.
+
+Les Poëtes, suivant la remarque du P. le Bossu, étoient théologiens, & ces deux fonctions, quoique séparées aujourd'hui, étoient pour lors réunies dans la même personne. Voyez Poésie.
+
+Ils personnifierent les attributs divins, parce que la foiblesse de l'esprit humain ne sauroit concevoir ni expliquer tant de puissance & tant d'action dans une substance aussi simple & aussi indivisible qu'est celle de Dieu.
+
+C'est ainsi qu'ils ont représenté la toute-puissance de Dieu sous la personne & le nom de Jupiter ; sa sagesse sous celui de Minerve ; sa justice sous celui de Junon. Voyez Épopée, Fable, &c.
+
+Les premiers faux-dieux qu'on ait adoré sont les astres, le ciel, le soleil, la lune, à cause de la chaleur & de la lumiere que les hommes en reçoivent. Voyez Idolatrie, Astronomie, Étoile, Soleil , &c. ensuite la terre, qui fournit les fruits qui servent à la nourriture des hommes & des animaux: le feu aussi-bien que l'eau devinrent aussi l'objet du culte des hommes à cause des avantages qu'on en reçoit. Voyez Eau & Feu.
+
+Dans la suite ces dieux se sont multipliés à l'infini par le caprice de leurs adorateurs, & il n'y a presqu'aucune chose qui n'ait été déifiée, sans en excepter celles qui sont inutiles ou nuisibles.
+
+Pour autoriser le crime & justifier la débauche, on se fit des dieux criminels & débauchés ; des dieux injustes & violens ; des dieux avares & voleurs ; des dieux yvrognes, des dieux impudiques, des dieux cruels & sanguinaires.
+
+Les principaux dieux que les Romains appelloient dii majorum gentiam, & Cicéron dieux celestes, Varron dieux choisis, Ovide nobiles deos, d'autres consentes deos, étoient Jupiter, Junon, Vesta, Minerve, Céres, Diane, Vénus, Mars, Mercure, Neptune, Vulcain, Apollon.
+
+Jupiter étoit le dieu du ciel, Neptune le dieu de la mer, Mars le dieu de la guerre, Apollon celui de I'Éloquence, de la Poésie, & de la Medecine ; Mercure celui des voleurs, Bacchus celui du vin, Cupidon celui de l'amour, &c.
+page 4:984
+
+On mettoit aussi au rang des demi-dieux, qu'on appelloit encore semi-dii, dii minorum gentium, indigetes, les héros & les hommes qu'on avoit déifiés. Les grands dieux possédoient le ciel comme une chose qui leur appartenoit de droit, & ceux-ci comme une récompense de la maniere extraordinaire dont ils avoient vécu sur la terre. Voyez Héros, & Apothéose.
+
+Il seroit trop long de nommer ici tous les dieux du Paganisme : on en peut trouver le détail dans le dictionnaire de Trévoux, qui en rapporte la plus grande partie comme extraite du livre d'Isaac Vossius, intitulé, de origine & progressu idololatriae. Il n'y a point d'excès où les hommes ne se soient portés à cet égard : non contens d'avoir divinisé la vertu, ils avoient fait le meme honneur au vice. Tout étoit dieu, dit Bossuet, excepté Dieu même.
+
+On reconnoissoit pour dieux la santé, la fiévre, la peur, l'amour, la douleur, l'indignation, la pudeur, l'impudence, la fureur, la joie, l'opinion, la renommée, la prudence, la science, l'art, la fidélité, la félicité, la calomnie, la liberté, la monnoie, la guerre, la paix, la victoire, le triomphe, &c.
+
+Mais ce qui deshonore l'humanité, est de voir un dieu Sterculus, parce que le premier il avoit enseigné à fumer les champs : la pâleur & la crainte, pallor & pavor, mis au rang des dieux, comme il y a eu les déesses Caca, Cloaima, & Muta ; & Lactance, en son liv. I. a eu raison de faire honte aux payens de ces ridicules divinités.
+
+Enfin, la nature & le monde tout entier a passé pour un dieu. Voyez Nature. </p>
+      </body>
+  </text>
+</TEI>
+
+<!-- Bonsoir Monsieur,
+Je tiens à m'excuser par avance, car j'ai manqué de temps pour vous rendre un travail totalement achevé.
+J'ai rencontré des difficultés pour trouver l'article de départ, puis à vérifier qu'il existe dans une autre édition de l'encyclopédie. 
+J'ai finalement choisi l'article « DIEUX » du Dictionnaire de Trévoux (6ᵉ édition, 1771), disponible sur Wikisource mais je ne suis pas sûr d'avoir bien compris cette partie de la consigne.
+(https://fr.wikisource.org/wiki/Dictionnaire_de_Tr%C3%A9voux/6e_%C3%A9dition,_1771/DIEU).
+De plus, la documentation de la TEI n'étant pas accessible au moment de mon travail, j'ai perdu du temps à chercher des ressources complémentaires. 
+J'ai réalisé plusieurs essais d'encodage du teiHeader à partir des éléments trouvés, mais je n'ai pas pu vous rendre le travail propre et finalisé que je rends habituellement.
+Vous trouverez donc un brouillon annoté accompagné de mes réflexions personnelles. 
+De même, en me concentrant sur cette première partie, je n'ai malheureusement pas eu le temps d'encoder le corps du texte.
+Je vous prie de m'excuser pour ce rendu incomplet et je ferai au mieux pour vous rendre un travail entièrement abouti pour le prochain TD. -->
