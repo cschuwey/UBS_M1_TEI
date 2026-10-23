@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiheader>
+        <fileDesc>
+            <titleStmt>
+                <title>Encyclopédie, tome III_Chaluc</title>
+                <author>Denis Diderot</author>
+                <author>Jean d'Alembert</author>
+            </titleStmt>
+            <publicationStmt>
+                <date>1751</date>
+            </publicationStmt>
+            <sourceDesc>
+            <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/CHALUC">
+     <p> Wikisource Encyclopédie, tome III, 1re édition </p>
+    </ref>
+            </sourceDesc>
+        </fileDesc>
+    </teiheader>
+   
+    <text>
+        <body>
+            <div>
+<p><entry>
+    <form>
+        <orth>CHALUC</orth></form>
+,<gram> s.</gram> <gram type="genre">m.</gram> <foreign xml:lang="la">labeo, labrus</foreign>, (Hist. nat. Ichtiol.) <def>poisson de mer semblable au <term>chabot</term>.</def>
+Voyez <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/CHABOT"></ref> <term>CHABOT</term>. Cependant sa tête n’est pas si grosse : ses yeux sont saillans &amp; découverts. Il a
+des traits de couleur noirâtre, qui s’étendent depuis les oüies jusqu’à la queue, &amp; qui sont
+également éloignés les uns des autres : c’est à cause de ces traits que l’on a donné à ce
+poisson le nom de <term>vergadelle</term>. Ses levres sont grosses, épaisses, &amp; avancées ; c’est pourquoi
+on l’a appellé <foreign xml:lang="la">labeo &amp; labrus</foreign>. Le chaluc ne devient pas gras, &amp; n’est pas trop bon à manger.
+<name>Rondelet</name>. Voyez <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/POISSON"></ref> <term>POISSON</term>. (I)
+</entry>
+</p>
+<!-- La documentation TEI ne fonctionnait plus pour la fin de mon encodage. La page ne s'ouvre plus.--> 
+<!--La version de Vscode que j'ai utilisée possède une intelligence artificielle intégrée que je n'ai pas réussi à désactiver. Lorsque j'utilise une balise, l'IA reconnait les autres termes du paragraphe qui pourraient être identifiés avec cette même balise.
+Par exemple, quand j'ai noté <term> pour "chabot", l'IA propose automatiquement de mettre cette balise pour "vergadelle". Malgré le fait que j'essaye de ne pas l'utiliser, je n'arrive pas à la retirer. Désolé.-->
+            </div>
+        </body> 
+    </text>
+</TEI>
