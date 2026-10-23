@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="enc1-alopecie">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ALOPECIE</title>
+        <author>Diderot, Denis</author>
+      </titleStmt>
+
+<publicationStmt>
+            <publisher>Wikisource</publisher>
+            <pubPlace>En ligne</pubPlace>
+            <date>2026</date>
+        </publicationStmt>
+
+     <sourceDesc>
+            <bibl>
+                <author>Diderot, Denis</author>
+                <title>Encyclopédie, ou Dictionnaire raisonné des sciences,
+                    des arts et des métiers</title>
+                <edition>1re édition</edition>
+                <publisher>Briasson, David, Le Breton, Durand</publisher>
+                <pubPlace>Paris</pubPlace>
+                <date>1751</date>
+                <biblScope unit="volume">I</biblScope>
+                <biblScope unit="page">293</biblScope>
+            </bibl>
+
+ <bibl>
+                <title>L’Encyclopédie, 1re édition : ALOPECIE</title>
+                <publisher>Wikisource</publisher>
+                <date>2026</date>
+                <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/ALOPECIE">
+                    https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/ALOPECIE
+                </ref>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+ <encodingDesc>
+        <p>
+            Le texte est encodé en TEI. L’orthographe et la ponctuation
+            de l’édition originale sont conservées sauf les éléments & que j'ai remplacée par "et". 
+        </p>
+    </encodingDesc>
+ <revisionDesc>
+        <change when="23-10-2026">
+            Création de l’encodage TEI de l’article « Alopécie ».
+        </change>
+    </revisionDesc>
+</teiHeader>
+
+ <text>
+    <body>
+      <div>
+ 
+      
+        <head>ALOPECIE</head>
+ 
+       
+        <p> <hi rend="majuscule"> ALOPECIE </hi>, s. f. <hi rend="italic">maladie de la tête</hi> dans laquelle elle est dépouillée de cheveux, en tout on en partie. La cause de cette maladie est un épaississement du suc nourricier, qui lui ôte la fluidité nécessaire pour pouvoir pénétrer jusqu’au bulbe dans lequel le cheveu est implanté ; ce qui prive le cheveu de sa nourriture, et l’oblige de se séparer de la tête. Cet épaississement a plusieurs causes : dans les enfans, c’est la même que ce qui occasionne les croûtes de lait, qui souvent entraînent après elles la chûte des cheveux : la petite vérole fait aussi le même effet : lorsque l’<hi rend="italic">alopécie</hi> attaque les adultes et les hommes faits, elle a ordinairement pour cause la vérole, le scorbut : elle est aussi produite par les maux de tête violens et invétérés, par la trop grande application au travail, par les mêmes causes que la maladie hypochondriaque et mélancholique, enfin par des révolutions et des chagrins imprévûs. Dans les vieillards, l’<hi rend="italic">alopécie</hi> est une suite du raccornissement des fibres.</p>
+ 
+        
+        <p>L’<hi rend="italic">alopécie</hi> est plus ou moins difficile à traiter, selon la cause qui l’a produite et on ne peut parvenir à sa guérison, qu’en détruisant cette cause : ainsi il est d’une grande conséquence pour un Medecin d’être instruit de ce qui a donné lieu à l’<hi rend="italic">alopécie</hi>, afin d’employer les remedes propres à cette maladie.</p>
+ 
+        
+        <p>On en donnera le traitement dans les cas où elle se trouvera jointe à quelqu’autre maladie, comme la vérole, le scorbut, <hi rend="italic">et.c.</hi> <hi rend="italic">V.</hi> <ref target="https://fr.wikisource.org/wiki/L’Encyclopédie/1re_édition/VÉROLE">VÉROLE</ref> et <ref target="https://fr.wikisource.org/wiki/L’Encyclopédie/1re_édition/SCORBUT">SCORBUT</ref>. (<hi rend="italic">N</hi>)</p>
+ 
+      </div>
+    </body>
+  </text>
+ 
+</TEI>
