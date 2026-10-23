@@ -1,0 +1,74 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title> Article d'encyclopédie sur la Vipère</title> 
+  <respStmt>
+    <resp>Encodage TEI</resp>
+    <name> Nolan Lesueur </name>
+  </respStmt>
+</titleStmt>
+
+<publicationStmt>
+<p/> Document produit dans le cadre du cours XML/XSLT TEI à l'UBS <p/>
+</publicationStmt>
+
+
+<sourceDesc>
+	 <bibl>
+		 <title>Encyclopédie de Diderot et d'Alembert, volume XVII, 1765</title>
+		 <author> Denis Diderot et Jean Le Rond d'Alembert </author>
+		 Available from <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v17-520-0/">https://enccre.academie-sciences.fr/encyclopedie/article/v17-520-0/</ref>	
+	 </bibl>
+
+     <bibl>
+		 <title> Encyclopédie d'Yverdon, volume 42, 1775</title>
+		 <author> Fortuné-Barthélemy de Félice </author>
+		 Available from <ref target="https://www.digitale-sammlungen.de/de/view/bsb10889060?page=378,379&amp;q=Vipere">https://www.digitale-sammlungen.de/de/view/bsb10889060?page=378,379&amp;q=Vipere</ref>	
+	 </bibl>
+
+</sourceDesc>
+
+
+<encodingDesc> 
+<p> Encodage d'un artcile d'encyclopédie avec les éléments de dictionnaire </p> 
+</encodingDesc>
+
+<revisionDesc> 
+<p> Pour le TD04 : création du fichier; remplissage du TeiHeader ; balisage de l'article </p> 
+</revisionDesc>
+
+</fileDesc>
+
+</teiHeader>
+
+
+<text>
+<body>
+<div>
+<entry>
+<form> 
+<orth> VIPERE </orth>
+</form> 
+<gramGrp>
+<number value="singular">s.</number>
+<gen value="feminine">f.</gen>
+</gramGrp>
+
+<p> VIPERE, s. f. (Hist. nat.​​ Ophiolog.​​) vipera, nom générique que l’on a donné à tous les serpens dont la morsure est dangereuse, &amp; dont il y a un très-grand nombre d’especes dans les pays chauds ; nous n’en avons qu’une seule dans ce pays-ci, connue sous le nom de vipere. Lorsqu’elle a pris tout son accroissement, elle est ordinairement longue de deux piés ou un peu plus, &amp; sa grosseur égale ou surpasse celle du pouce d’un homme ; les femelles ont le corps plus gros que les mâles ; la tête est plate &amp; a un rebord qui s’étend autour des extrémités de sa partie supérieure ; la vipere differe principalement de la couleuvre par ce caractere, car dans la couleuvre la tête n’a point de rebord, &amp; elle est plus pointue &amp; plus étroite, à proportion des autres parties du corps. I a tête de la vipere a un pouce de lon-​gueur, &amp; 7 à 8 lignes de largeur prise vers le sommet, 4 à 5 lignes à l’endroit des yeux, &amp; deux lignes &amp; demie d’épaisseur ; ordinairement les mâles ont le cou un peu plus gros que les femelles, &amp; communément il est de la grosseur du petit doigt à son origine. La queue a environ quatre travers de doigt de longueur ; sa grosseur à son origine est à-peu-près la même que celle du cou ; ensuite elle diminue insensiblement &amp; se termine en pointe, la queue des mâles est toujours un peu plus longue &amp; plus grosse que celle des femelles. </p>
+
+<p> La couleur des viperes varie, on en voit de blanchâtres, de jaunâtres, de rougeâtres, de grises, de brunes, &amp;c. &amp; elles ont toutes des taches noires ou noirâtres, plus ou moins foncées &amp; placées avec une sorte de symmétrie à-peu-près à égale distance les unes des autres, principalement sur la face supérieure &amp; sur les côtés du corps. La peau est couverte d’écailles, les plus grandes se trouvent sous la face inférieure du corps &amp; servent de piés à cet animal ; elles ont toujours une couleur d’acier dans toute leur étendue, au lieu que celles des couleuvres sont ordinairement marquées de jaune. Il y a autant de grandes écailles que de vertebres, depuis le commencement du cou jusqu’à celui de la queue ; &amp; comme chaque vertebre a une côte de chaque côté, chaque écaille soutient par ses deux bouts les extrémités de ces deux côtés. Les écailles de la queue diminuent de grandeur, à proportion de celle de la queue même. Il y a au bas du ventre une ouverture à laquelle aboutissent l’anus &amp; les parties de la génération, tant des mâles que des femelles ; cette ouverture est fermée par la derniere des grandes écailles qui est en demi cercle &amp; qui s’abaisse dans le tems du coït, lorsque la semelle met ses petits au jour, &amp; toutes les fois que les excrémens sortent.</p>
+
+<p> Les viperes changent de peau au printems, &amp; quelquefois aussi en automne ; au moment où elles quittent cette peau écailleuse, elles se trouvent revêtues d’une autre peau également couverte d’écailles dont les couleurs sont bien plus brillantes ; il s’en forme une nouvelle sous celle-ci pour la remplacer dans la suite, de sorte que la vipere a en tout tems une double peau.</p>
+
+<p> La vipere differe de la couleuvre, non-seulement en ce qu’elle rampe plus lentement, &amp; qu’elle ne bondit &amp; qu’elle ne saute jamais, mais encore en ce qu’elle est vivipare ; au lieu de pondre comme la couleuvré de œufs qui n’éclosent que long-tems après, les petits de la vipere acquierent leur entiere perfection dans la matrice, &amp; courent au sortir du ventre de la mere. Les viperes s’accouplent ordinairement deux fois l’année, elles portent leurs petits quatre ou cinq mois, &amp; elles en font jusqu’à vingt &amp; même vingt-cinq : elles se nourrissent de cantharides, de scorpions, de grenouilles, de souris, de taupes &amp; de lézards ; souvent la capacité de l’estomac n’est pas assez grande pour contenir l’animal qu’elles veulent avaler, alors il en reste une partie dans l’œsophage. La vipere ne rend pas beaucoup d’excrémens, ils n’ont point de mauvaise odeur comme ceux des couleuvres, &amp; on n’en sent aucune lorsqu’on ouvre un bocal dans lequel on nourrit plusieurs viperes : elles ne font point de trous en terre pour se cacher comme les couleuvres, elles se retirent ordinairement sous des pierres &amp; dans de vieilles masures ; lorsqu’il fait beau, elles se tiennent sous des herbes touffues ou dans des buissons.</p>
+
+<p> Les viperes different encore des couleuvres, en ce qu’elles ont des dents canines ; leur nombre varie dans différens individus, ordinairement il n’y en a qu’une de chaque côté de la mâchoire supérieure, mais on en trouve quelquefois deux ; ces dents sont entourées jusqu’à environ les deux tiers de leur lon-​​gueur, d’une vésicule assez épaisse &amp; remplie d’un suc jaunâtre, transparent &amp; médiocrement liquide ; il y a au milieu de cette vésicule sous la grosse dent, plusieurs petites dents crochues, les unes plus longues que les autres &amp; qui servent à remplacer les grosses dents, soit qu’elles tombent d’elles mêmes ou accidentellement : celles ci ont environ 2 lignes de longueur ; elles sont crochues, blanches, creuses, diaphanes &amp; très-pointues ; ses grosses dents restent ordinairement couchées le long de la mâchoire, &amp; leur pointe ne paroît qu’au moment où la vipere veut mordre ; alors elle les redresse &amp; les enfonce dans sa proie. Le venin pénetre dans la plaie que fait la vipere en mordant, en passant par le canal intérieur de la dent ; les glandes qui le filtrent sont situées à la partie postérieure de chaque orbite &amp; à la même hauteur que l’œil, elles sont petites &amp; jointes ensemble, elles forment un corps de la grosseur de l’œil &amp; s’étendent en longueur dans l’orbite au-dessous, &amp; en partie derriere l’œil ; chaque glande a un vaisseau qui communique dans la vésicule de la gencive &amp; qui aboutit à la racine de la grosse dent. Mém. de l’acad. royale des Scienc. tom. III. part. II. <xr>Voyez <ref target="#serpent">Serpent</ref></xr>.</p>
+
+<p> Personne n’ignore combien la morsure des viperes est dangereuse, ainsi que celle des serpens qui ne sont proprement que des viperes de différentes especes. Le remede le plus assuré que l’on ait trouvé jusqu’ici contre leurs morsures, est l’eau de luce, c’est-à-dire un alkali volatil très-pénétrant combiné avec le succin ; on en met dix gouttes dans un verre d’eau que l’on fera prendre à plusieurs reprises à la personne qui aura été mordue, qui se couchera dans un lit bien bassiné, où elle éprouvera une transpiration très-forte, qui fera disparoître les accidens. Cette découverte est dûe à M. Bernard de Jussieu, qui en a fait l’expérience avec beaucoup de succès.</p>
+
+</entry>
+</div> 
+</body>
+</text>
+</TEI>
