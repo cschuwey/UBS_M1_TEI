@@ -110,6 +110,7 @@
         <profileDesc>
             <langUsage>
                 <language ident="fr">Français</language>
+                <language ident="grc">Grec ancien</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -122,12 +123,18 @@
                     <date when="2026-10-16">16 octobre 26</date>
                     Révision des éléments : encodingDesc, revisionDesc et profileDesc
                 </item>
+                <item>
+                    <date when="2026-10-23">23 octobre 26</date>
+                    Ajout des références à d'autres articles de l'Encyclopédie dans le corps du texte. 
+                    Je ne peux m'avancer plus du à la panne du site ENCCRE et de Tei-c.org.
+                </item>
             </list>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="article">
+            <div type="article" xml:id="Nature">
+                <head>Nature</head>
                 <entry>
                     <form>
                         <orth rend="caps">NATURE</orth>
@@ -138,7 +145,11 @@
                     </form>
                     <p>
                         Nature, s. f. (Philos.) est un terme dont on fait différens usages. Il y a dans Aristote​ un 
-                        chapitre entier​ sur les différens sens que les Grecs donnoient au mot φύσις, nature ; et parmi 
+                        chapitre entier​ sur les différens sens que les Grecs donnoient au mot 
+                        <foreign xml:lang="grc">
+                            φύσις
+                        </foreign>
+                        , nature ; &amp; parmi 
                         les Latins, ses différens sens sont en si grand nombre, qu’un auteur en compte jusqu’à 14 ou 
                         15. M. Boyle, dans un traité exprès qu’il a fait sur les sens vulgairement attribués au mot 
                         nature, en compte huit principaux.
@@ -146,7 +157,11 @@
                 <sense n="1">
                     <p>
                         Nature signifie quelquefois le système du monde, la machine de l’univers, ou l’assemblage de 
-                        toutes les choses créées. Voyez Système.
+                        toutes les choses créées. Voyez 
+                        <ref target="#Système">
+                            Système
+                        </ref>
+                        .
                     </p>
                 </sense>
                     <p>
@@ -162,31 +177,61 @@
                 <sense n="2">
                     <p>
                         Nature s’applique dans un sens moins étendu à chacune des différentes choses créées ou non 
-                        créées, spirituel les et corporelles. Voyez Etre.
+                        créées, spirituel les &amp; corporelles. Voyez 
+                        <ref target="#Etre">
+                            Etre
+                        </ref>
+                        .
                     </p>
                 </sense>
                     <p>
                         C’est dans ce sens que nous disons la nature humaine, entendant par-là généralement tous les 
-                        hommes qui ont une ame spirituelle et raisonnable. Nous disons aussi nature des anges, nature 
-                        divine. C’est dans ce même sens que les Théologiens disent natura naturans, et natura naturata 
-                        ; ils appellent Dieu natura naturans, comme ayant donné l’être et la nature à toutes choses, 
+                        hommes qui ont une ame spirituelle &amp; raisonnable. Nous disons aussi nature des anges, nature 
+                        divine. C’est dans ce même sens que les Théologiens disent natura naturans, &amp; natura naturata 
+                        ; ils appellent Dieu natura naturans, comme ayant donné l’être &amp; la nature à toutes choses, 
                         pour le distinguer des créatures, qu’ils appellent natura naturata, parce qu’elles ont reçu 
                         leur nature des mains d’un autre.
                     </p>
                     <p>
                         Nature, dans un sens encore plus limité, se dit de l’essence d’une chose, ou de ce que ​les 
                         philosophes de l’école appellent ​sa quiddité, c’est-à-dire l’attribut qui fait qu’une chose 
-                        est telle ou telle. Voyez Essence.
+                        est telle ou telle. Voyez 
+                        <ref target="#Essence">
+                            Essence
+                        </ref>
+                        .
                     </p>
                     <p>
-                        C’est dans ce sens que les Cartésiens disent que la nature de l’ame est de penser, et que la 
-                        nature de la matiere consiste dans l’étendue. Voyez Ame, Matiere, Étendue. M. Boyle veut qu’on
-                        se serve du mot essence au lieu de nature. Voyez Essence.
+                        C’est dans ce sens que les Cartésiens disent que la nature de l’ame est de penser, &amp; que la 
+                        nature de la matiere consiste dans l’étendue. Voyez 
+                        <ref target="#Ame">
+                            Ame
+                        </ref>
+                        , 
+                        <ref target="#Matiere"> 
+                            Matiere
+                        </ref>
+                        , 
+                        <ref target="#Étendue">
+                            Étendue
+                        </ref>
+                        . M. Boyle veut qu’on
+                        se serve du mot essence au lieu de nature. Voyez 
+                        <ref target="#Essence">
+                            Essence
+                        </ref>
+                        .
                     </p>
                     <p>
-                        Nature est plus particulierement en usage pour signifier l’ordre et le cours naturel des 
+                        Nature est plus particulierement en usage pour signifier l’ordre &amp; le cours naturel des 
                         choses, la suite des causes secondes, ou les lois du mouvement que Dieu a établies. Voyez 
-                        Causes et Mouvement.
+                        <ref target="#Causes">
+                            Causes
+                        </ref>
+                        <ref target="#Mouvement">
+                            Mouvement
+                        </ref>
+                        .
                     </p>
                     <p>
                         C’est dans ce sens qu’on dit que les Physiciens étudient la nature.
@@ -194,13 +239,21 @@
                     <p>
                         ​Saint Thomas définit la nature une sorte d’art divin communiqué aux êtres créés, pour les 
                         porter à la fin à laquelle ils sont destinés. La nature prise dans ce sens n’est autre chose 
-                        que l’enchaînement des causes et des effets, ou l’ordre que Dieu a établi dans toutes les 
+                        que l’enchaînement des causes &amp; des effets, ou l’ordre que Dieu a établi dans toutes les 
                         parties du monde créé.
                     </p>
                     <p>
                         C’est aussi dans ce sens qu’on dit que les miracles sont au-dessus du pouvoir de la nature ; 
                         que l’art force ou surpasse la nature par le moyen des machines, lorsqu’il produit par ce 
-                        moyen des effets qui surpassent ceux que nous voyons dans le cours ordinaire des choses. Voyez Art, Miracle.
+                        moyen des effets qui surpassent ceux que nous voyons dans le cours ordinaire des choses. Voyez 
+                        <ref target="#Art">
+                            Art
+                        </ref>
+                        , 
+                        <ref target="#Miracle">
+                            Miracle
+                        </ref>
+                        .
                     </p>
                     <p>
                         Nature se dit aussi de la réunion des puissances ou facultés d’un corps, sur-tout d’un corps 
@@ -212,19 +265,26 @@
                     </p>
                     <p>
                         Nature se prend encore en un sens moins étendu, pour signifier l’action de la providence, le 
-                        principe de toutes choses, c’est-à-dire cette puissance ou être spirituel qui agit et opere 
+                        principe de toutes choses, c’est-à-dire cette puissance ou être spirituel qui agit &amp; opere 
                         sur tous les corps pour leur donner certaines propriétés ou y produire certains effets. Voyez 
-                        Providence.
+                        <ref target="#Providence">
+                            Providence
+                        </ref>
+                        .
                     </p>
                     <p>
                         La nature prise dans ce sens, qui est celui que M. Boyle adopte par préférence, n’est autre 
-                        chose que Dieu même, agissant suivant certaines lois qu’il a établies. Voyez Dieu.
+                        chose que Dieu même, agissant suivant certaines lois qu’il a établies. Voyez 
+                        <ref target="#Dieu">
+                            Dieu
+                        </ref>
+                        .
                     </p>
                     <p>
                         Ce qui paroît s’accorder assez avec l’opinion où étoient plusieurs anciens, que la nature 
-                        étoit le dieu de l’univers, le τὸ πᾶν qui présidoit à tout et gouvernoit tout, quoique d’autres 
+                        étoit le dieu de l’univers, le τὸ πᾶν qui présidoit à tout &amp; gouvernoit tout, quoique d’autres 
                         regardassent cet être prétendu comme imaginaire, n’entendant autre chose par le mot de nature 
-                        que les qualités ou vertus que Dieu a données à ses créatures, et que les Poëtes et les 
+                        que les qualités ou vertus que Dieu a données à ses créatures, &amp; que les Poëtes &amp; les 
                         Orateurs personnifient.
                     </p>
                     <p>
@@ -232,24 +292,28 @@
                         de nous conduire à l’idolâtrie, attendu que par ces mots les anciens payens entendoient 
                         quelque chose qui sans être Dieu agissoit continuellement dans l’uni-​​vers. Ainsi l’idole 
                         nature devoit être selon eux un principe actuel qui étoit en concurrence avec Dieu, la cause 
-                        seconde et immédiate de tous les changemens qui arrivent à la matiere. Ce qui paroît rentrer 
+                        seconde &amp; immédiate de tous les changemens qui arrivent à la matiere. Ce qui paroît rentrer 
                         dans le sentiment de ceux qui admettoient l’anima mundi, regardant la nature comme un 
-                        substitut de la divinité, une cause collatérale, une espece d’être moyen entre Dieu et les 
+                        substitut de la divinité, une cause collatérale, une espece d’être moyen entre Dieu &amp; les 
                         créatures.
                     </p>
                     <p>
-                        Aristote définit la nature, principium et causa motus et ejus in quo est primo per se et non 
-                        per accidens ; définition si obscure, que malgré toutes les gloses de ses commentateurs, aucun
-                        d’eux n’a pu parvenir à la rendre intelligible.
+                        Aristote définit la nature, principium &amp; causa motus &amp; ejus in quo est primo per se 
+                        &amp; non per accidens ; définition si obscure, que malgré toutes les gloses de ses 
+                        commentateurs, aucun d’eux n’a pu parvenir à la rendre intelligible.
                     </p>
                     <p>
                         Ce principe, que les Péripatéticiens appelloient nature, agissoit, selon eux, nécessairement, 
-                        et étoit par conséquent destitué de connoissance ou de liberté. Voyez Fatalité.
+                        &amp; étoit par conséquent destitué de connoissance ou de liberté. Voyez 
+                        <ref target="#Fatalité">
+                            Fatalité
+                        </ref>
+                        .
                     </p>
                     <p>
                         Les Stoïciens concevoient aussi la nature comme un certain esprit ou vertu répandue dans 
                         l’univers, qui donnoit à chaque chose son mouvement ; de sorte que tout étoit forcé par 
-                        l’ordre invariable d’une nature aveugle et par une nécessité inévitable.
+                        l’ordre invariable d’une nature aveugle &amp; par une nécessité inévitable.
                     </p>
                     <p>
                         Quand on parle de l’action de la nature, on n’entend plus autre chose que l’action des corps 
@@ -257,29 +321,29 @@
                     </p>
                     <p>
                         C’est en cela que consiste tout le sens de ce mot, qui n’est qu’une façon abrégée d’exprimer 
-                        l’action des corps, et qu’on exprimeroit peut-être mieux par le mot de méchanisme des corps.
+                        l’action des corps, &amp; qu’on exprimeroit peut-être mieux par le mot de méchanisme des corps.
                     </p>
                     <p>
                         Il y en a, selon l’observation de M. Boyle, qui n’entendent par le mot de nature que la loi 
-                        que chaque chose a reçue du Créateur, et suivant laquelle elle agit dans toutes les occasions ; 
-                        mais ce sens attaché au mot nature, est impropre et figuré.
+                        que chaque chose a reçue du Créateur, &amp; suivant laquelle elle agit dans toutes les occasions ; 
+                        mais ce sens attaché au mot nature, est impropre &amp; figuré.
                     </p>
                     <p>
-                        Le même auteur propose une définition du mot de nature plus juste et plus exacte, selon lui, 
-                        que toutes les autres, et en vertu de laquelle on peut entendre facilement tous les axiomes et
-                        expressions qui ont rapport à ce mot. Pour cela il distingue entre nature particuliere et 
+                        Le même auteur propose une définition du mot de nature plus juste &amp; plus exacte, selon lui, 
+                        que toutes les autres, &amp; en vertu de laquelle on peut entendre facilement tous les axiomes &amp;
+                        expressions qui ont rapport à ce mot. Pour cela il distingue entre nature particuliere &amp; 
                         nature générale.
                     </p>
                     <p>
                         Il définit la nature générale l’assemblage des corps qui constituent l’état présent du monde, 
-                        considéré comme un principe par la vertu duquel ils agissent et reçoivent l’action selon les 
+                        considéré comme un principe par la vertu duquel ils agissent &amp; reçoivent l’action selon les 
                         lois du mouvement établies par l’auteur de toutes choses.
                     </p>
                     <p>
                         La nature particuliere d’un être subordonné ou individuel, n’est que la nature générale 
                         appliquée à quelque portion distincte de l’univers : c’est un assemblage des propriétés 
-                        méchaniques (comme grandeur, figure, ordre, situation et mouvement local) convenables et 
-                        suffisantes pour constituer l’espece et la dénomination d’une chose ou d’un corps particulier, 
+                        méchaniques (comme grandeur, figure, ordre, situation &amp; mouvement local) convenables &amp; 
+                        suffisantes pour constituer l’espece &amp; la dénomination d’une chose ou d’un corps particulier, 
                         le concours de tous les êtres étant consideré comme le principe du mouvement, du repos, etc.
                     </p>
                 </entry>
