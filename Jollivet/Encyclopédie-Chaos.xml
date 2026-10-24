@@ -28,14 +28,14 @@
                 <editor>Enccre<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-230-0/"></link></editor>
             </bibl></sourceDesc>
             
-        <encodingDesk>
+        <encodingDesc>
       <p>Encodage réalisé dans le cadre du cours XML/TEI.
       Vocabulaire tei : les articles ont été structurés selon les recommandations du vocabulaire TEI dédiées
       à l'encodage des dictionnaires (telles qu'elles sont définies dans le module Dictionaries des Guidelines de la TEI.). 
      
       Normalisation de l'orthographe :   L’orthographe originale du XVIIIe siècle est conservée. Lorsqu’un mot est normalisé, 
       ses deux formes sont indiquées avec <choice> : la forme originale dans <orig> et l'équivalent moderne/la forme normalisée dans <reg>.</p>
-  </encodingDesc></encodingDesk>
+  </encodingDesc>
         </fileDesc>
     </teiHeader>
     
