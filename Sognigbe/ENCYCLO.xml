@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+
+    type="application/xml" 
+
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+ <title>Appropriation </title>
+        <author>Toussaint, François-Vincent</author>
+</titleStmt>
+<publicationStmt>
+<p/>
+</publicationStmt>
+<sourceDesc>
+<p/>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+
+<text>
+<body>
+
+<head> Appropriation  </head>
+
+<p>
+    Appropriation, s. f. terme de Jurisprudence canonique, est l’application d’un bénéfice ecclésiastique, qui
+   de sa propre nature est de droit divin, &amp; non point un patrimoine personnel, à l’usage propre &amp; 
+   perpétuel de quelque prélat ou communauté religieuse, afin qu’elle en joüisse pour toûjours. <hi rend="italic">voyez</hi>
+   Approprié.
+</p>
+<p>
+   Il y a appropriation, quand le titre &amp; les revenus d’une cure sont donnés à un évêché, à une maison
+   Religieuse, à un collége, &amp; c. &amp; à leurs successeurs ; &amp; que quelqu’un des membres de ce corps fait
+  l’office divin, en qualité de vicaire. <hi rend="italic">voyez</hi> Guérison &amp; Vicariat.
+</p>
+<p>
+Pour faire une appropriation, après en avoir obtenu la permission du Roi en chancellerie ; il est
+nécessaire d’avoir le consentement de l’évêque du diocèse, du patron &amp; du bénéficier, si l’église ou le
+bénéfice est rempli ; s’il ne l’est pas, l’évêque du Diocèse &amp; le patron peuvent le faire avec la permission
+du Roi.
+</p>
+<p>
+Pour dissoudre une appropriation, il suffit de présenter un clerc à l’évêque, &amp; qu’il l’institue &amp; le mette
+en possession ; car cela une fois fait, le bénéfice revient à sa premiere nature. Cet acte s’appelle une
+dépossession.
+</p>
+<p>
+L’appropriation est la même chose que ce qu’on appelle autrement en droit canonique, Union. <hi rend="italic">voyez</hi>
+ Union. (H)
+</p>
+ 
+</body>
+ </text>
+
+
+</TEI>
