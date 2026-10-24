@@ -12,7 +12,7 @@
             </titleStmt>
             
             <publicationStmt> 
-            <authority><Surname>JOLLIVET </surname><name>Maëva</name></authority> 
+            <authority> <surname>JOLLIVET </surname> <name>Maëva</name></authority> 
             <p> Encodage numérique de l'Encyclopédie, ou dictionnaire raisonné
             des sciences, des arts et des métiers, dirigée par Diderot et
             d'Alembert, réalisé dans le cadre du cours de XML-TEI
@@ -34,7 +34,7 @@
       à l'encodage des dictionnaires (telles qu'elles sont définies dans le module Dictionaries des Guidelines de la TEI.). 
      
       Normalisation de l'orthographe :   L’orthographe originale du XVIIIe siècle est conservée. Lorsqu’un mot est normalisé, 
-      ses deux formes sont indiquées avec <choice> : la forme originale dans <orig> et l'équivalent moderne/la forme normalisée dans <reg>.</p>
+      ses deux formes sont indiquées avec la balise 'choice' : la forme originale dans la balise 'orig' et l'équivalent moderne/la forme normalisée dans la balise 'reg'.</p>
   </encodingDesc>
         </fileDesc>
     </teiHeader>
