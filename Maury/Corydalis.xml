@@ -1,0 +1,55 @@
+<TEI xmlnx="https://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>CORYDALIS</title>
+            <author><surname>Pontedera</surname><forename>Giulio</forename></author>
+            <editor><surname>Diderot</surname><forename>Denis</forename></editor>
+            <editor><surname>d'Alembert</surname><forename>Jean le Rond</forename></editor>
+        </titleStmt>
+        <publicationStmt>
+            <authority>G.Maury</authority>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl>
+                <author><surname>Pontedera</surname><forename>Giulio</forename></author>
+                <editor><surname>Diderot</surname>, <forename>Denis</forename></editor>
+                <editor><surname>d'Alembert</surname>, <forename>Jean le Rond</forename></editor>
+                <title>Encyclopédie</title>
+                <date>1765</date>
+                <editor>Institut de France<link target="https://bibnum.institutdefrance.fr/viewer/2097/?offset=#page=305&amp;viewer=picture&amp;o=bookmark&amp;n=0&amp;q="></link></editor>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Encodage d'un article d'encyclopedie</p>
+        </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="fr">Français</language>
+        </langUsage>    
+    </profileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div>
+            <entry xml:id="Histoire naturelle botanique">
+                <form><orth>CORYDALIS</orth></form>
+                <gramGrp>
+                    <pos>substantif</pos>
+                </gramGrp>
+                <gen>féminin</gen>
+                <def>
+                    <p>genre de plante à fleur polypétale, irrégulière proprement dite, ressemblant aux fleurs papilionacées, mais qui en differe cependant par un prolongement du pétale en forme de queue. Cette fleur est composée de quatre pétales, &amp; d'étamines qui soûtiennent des sommets &amp; qui sont réunies en frme de gaînes. La partie intérieure de la fleur garnie d'une trompe, devient une silique qui n'a qu'une seule cavité, &amp; qui renferme des semences globuleuses &amp; pour ainsi dire crochues.</p>
+                    <cit type="renvoi">
+                        <quote>Voyez <ref target="PLANTE">PLANTE.</ref></quote>
+                    </cit>
+                </def>
+            </entry>
+        </div>
+    </body>
+</text>    
+</TEI>
