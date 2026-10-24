@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Édition critique de l'article « Noire Mer » de l'Encyclopédie</title>
+        <author>Paul-Henri Thiry d'Holbach</author>
+        <respStmt>
+          <resp>Encodage TEI avec des variantes</resp>
+          <name>TOURBIER Noémie</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl xml:id="src_enccre">
+            <title>Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
+            <editor>Denis Diderot et Jean Le Rond d'Alembert</editor>
+            <pubPlace>Paris</pubPlace>
+            <biblScope unit="volume">11</biblScope>
+            <biblScope unit="page">190</biblScope>
+            <date>1765</date>
+          </bibl>
+          <bibl xml:id="src_yverdon">
+            <title>Encyclopédie ou Dictionnaire universel raisonné des connoissances humaines</title>
+            <editor>Fortuné-Barthélemy de Felice</editor>
+            <pubPlace>Yverdon</pubPlace>
+            <date>1770-1780</date>
+          </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+      <projectDesc>
+        <p>Encodage TEI de l'article géographique « Noire Mer ».</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Notice encyclopédique encodée avec balisage des renvois des différences d'édition.</p>      
+      </editorialDecl>
+    </encodingDesc>
+    
+    <revisionDesc>
+      <change when="2026-10-23" who="#NT">Encodage TEI complet de l'article avec des variantes.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <entry xml:id="art_noire_mer">
+        <form>
+          <orth>Noire Mer</orth>
+        </form>
+        <p>
+          <orth>Noire Mer</orth>, partie de la Méditerranée, qui forme au fond de cette derniere comme une espece de grand golfe. <ref type="encyclopedic" target="#art_mediterranee">Voyez Méditerranée</ref>.
+        </p>
+        <p>
+          Quelques anciens, &amp; entr’autres Diodore de Sicile, ont écrit que le pont-Euxin ou la <orth>mer Noire</orth>, n’étoit autrefois que comme une grande riviere ou un grand lac qui n’avoit aucune communication avec la mer de Grece ; mais que ce grand lac s’étant augmenté considérablement avec le tems par les eaux des fleuves qui y arrivent, il s’étoit enfin ouvert un passage, d’abord du côté des îles Cyanées, &amp; ensuite du côté de l’Hellespont. C’est sur ce témoignage des anciens que M. de Tournefort dit dans son <title>voyage du Levant</title>, que la <orth>mer Noire</orth> recevant les eaux d’une grande partie de l'Europe &amp; de l'Asie, après avoir augmenté considérablement, s’ouvrit un chemin par le Bosphore, &amp; ensuite forma la Méditerranée, ou l’augmenta si considérablement, que d’un lac qu’elle étoit autrefois, elle devint une grande mer, qui s’ouvrit ensuite elle-même un chemin par le détroit de Gibraltar, &amp; que c’est probablement dans ce tems que l’île Atlantide, dont parle Platon, a été submergée. <ref type="encyclopedic" target="#art_atlantide">Voyez Atlantide</ref>.
+        </p>
+        <p>
+          Cette opinion ne peut se soutenir, dès qu’on est assuré que c’est l’Océan qui coule dans la Méditerranée, &amp; non pas la Méditerranée dans l’Océan ; d’ailleurs M. Tournefort n’a pas combiné deux faits essentiels, &amp; qu’il rapporte cependant tous deux : le premier, c’est que la <orth>mer Noire</orth> reçoit neuf ou dix fleuves, dont il n’y en a pas un qui ne lui fournisse plus d’eau que le Bosphore n’en laisse sortir ; le second, c’est que la mer Méditerranée ne reçoit pas plus d’eau par les fleuves, que la <orth>mer Noire</orth> ; 
+          <app>
+            <lem wit="#src_enccre">cependant elle est sept ou huit fois plus grande</lem>
+            <rdg wit="#src_yverdon">cependant elle est environ huit fois plus grande</rdg>
+          </app>, &amp; ce que le Bosphore lui fournit, ne fait pas la dixieme partie de ce qui tombe dans la <orth>mer Noire</orth> ; comment veut-il que cette derniere partie de ce qui tombe dans une petite mer, ait formé non-seulement une grande mer, mais encore ait si fort augmenté la quantité des eaux, qu’elles aient renversé les terres à l’endroit du détroit, pour aller ensuite submerger une île plus grande que l'Europe ! La mer Méditerranée tire au contraire au moins dix fois plus d’eau de l'Océan, qu’elle n’en tire de la <orth>mer Noire</orth>, parce que le Bosphore n’a que 800 pas de largeur dans l’endroit le plus étroit ; au lieu que le détroit de Gibraltar en a plus de 5000 dans l’endroit le plus serré, &amp; qu’en supposant les vîtesses égales dans l’un &amp; dans l’autre détroit, celui de Gibraltar a bien plus de profondeur. <title>Hist. nat. gén. &amp; part. tom. I.</title> <ref type="encyclopedic" target="#art_mer">Voyez Mer</ref>, <ref type="encyclopedic" target="#art_fleuve">Fleuve</ref>, <ref type="encyclopedic" target="#art_courant">Courant</ref>, &amp;c.
+        </p>
+      </entry>
+    </body>
+  </text>
+</TEI>
