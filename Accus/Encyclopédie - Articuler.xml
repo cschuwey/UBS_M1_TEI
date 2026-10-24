@@ -33,7 +33,7 @@
         <revisionDesc>      
             <change n="1" when="2026-10-19">Le TEI Header a été complété.</change>
             <change n="2" when="2026-10-19">Les éléments d'encodage d'un article d'encyclopédie ont été ajoutés.</change>
-        <revisionDesc>
+        </revisionDesc>
     </teiHeader>
 
     <text>
@@ -91,8 +91,7 @@
                     <pos>s.</pos>
                     <gram type="subc">m.</gram>
                 </gramGrp>
-             </entry>
-
+    
                 <sense>
                     <p n="1">
                         Ce mot se dit des feux qui se font avec art,
@@ -163,6 +162,8 @@
                     </p>
                 </sense>
             </entry>
+
         </body>
     </text>
+
 </TEI>
