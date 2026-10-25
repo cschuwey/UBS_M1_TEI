@@ -14,24 +14,24 @@
 					<title>Encyclopédie</title>
 					<date when="1752">18ème siècle</date>
 					<editor>Edition numérique</editor>
-					<editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-102-0/" /></editor>
+					<editor>ENCCRE<link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/1/166"/></editor>
 					<date>2021-2026</date>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-				<p>Encodage réalisé dans le cadre du cours de TEI de M.SCHUWEY, M1 Master Métiers du livre et de l'édition, année scolaire 2026-2027, Université Bretagne Sud</p>
+				<p>Encodage réalisé dans le cadre du cours de TEI de M.SCHUWEY, </p>
 			</projectDesc>
 		</encodingDesc>
 		<revisionDesc>
-			<date>Du mercredi 07 novembre 2026 au 19 novembre 2026 </date>
+			<date>Du mercredi 07 novembre 2026 au dimanche 25 octobre 2026 </date>
 			<p>Travail en cours puis chez moi.</p>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<entryFree>
+			<entry>
 				<form><orth rend="caps">Abeille</orth>, </form>
 				<gramGrp>
 					<number value="singular">s.</number>
@@ -39,12 +39,83 @@
 				</gramGrp>
 				<sense>
 					<cit type="sense">
-						<quote>insecte de l'espece des mouches. Il y en a de trois sortes : la premiere & la plus nombreuse des trois est l'<emph>abeille commune</emph> : la seconde est moins abondante ; ce sont les <emph>faux bourdons</emph> ou <emph>mâles</emph> : enfin la troisieme est la plus rare, ce sont les <emph>femelles</emph>.</quote>
+						<quote>insecte de l'espece des mouches. Il y en a de trois sortes :
+						la premiere &amp; la plus nombreuse des trois est l'<emph>abeille commune</emph> :
+						la seconde est moins abondante ; ce sont les <emph>faux bourdons</emph> ou <emph>mâles</emph> :
+						enfin la troisieme est la plus rare, ce sont les <emph>femelles</emph>.</quote>
 					</cit>
-                    <p>Les abeilles que l'on appelle <emph>reines</emph> ou <emph>meres abeilles</emph>, étoient connues des Anciens sour le nom de <emph>Rois des abeilles</emph>, parce qu'autrefois on n'avoit pas distingué leur sexe : mais aujourd'hui il n'est plus équivoque. On les a vû pondre des oeufs, &amp; on en trouve aussi en grande quantité dans leur corps. Il n'y a ordinairement qu'une <emph>Reine</emph> dans une ruche ; ainsi il est très-difficile de la voir : cependant on pourroit la reconnoître assez aisément, parce qu'elle est plus grande que les autres ; sa tête est plus allongée, &amp; ses ailes sont très-courtes par rapport à son corps ; elles n'en couvrent guere que la moitié ; au contraire celles des autres abeilles couvrent le corps en entier. La Reine est plus longue que les mâles : mais elle n'est pas aussi grosse. On a prétendu autrefois qu'elle n'avoit point d'aiguillon : cependant Aristote le connoissoit ; mais il croyoit qu'elle ne s'en servoit jamais. Il est aujourd’hui très-certain que les abeilles femelles ont un aiguillon même plus long que celui des ouvrieres ; cet aiguillon est recourbé. Il faut avoüer qu'elles s'en servent fort rarement, ce n'est qu'après avoir été irritées pendant long-tems : mais alors elles piquent avec leur aiguillon, &amp; la piquûre est accompagnée de venin comme celle des abeilles communes. Il ne paroît pas que la mere abeille ait d'autre emploi dans la ruche que celui de multiplier l'espece, ce qu'elle fait par une ponte fort abondante ; car elle produit dix à douze mille œufs en sept semaines, &amp; communément trente à quarante mille par an.</p>
-                    <p>On appelle les abeilles mâles <emph>faux bourdons</emph> pour les distinguer de certaines mouches que l'on connoît sous le nom de <emph>bourdons</emph>.</p>
+                    <p>Les abeilles que l'on appelle <emph>reines</emph> ou <emph>meres abeilles</emph>,
+					étoient connues des Anciens sour le nom de <emph>Rois des abeilles</emph>, parce qu'autrefois
+					on n'avoit pas distingué leur sexe : mais aujourd'hui il n'est plus équivoque. On les a vû pondre des oeufs,
+					&amp; on en trouve aussi en grande quantité dans leur corps. Il n'y a ordinairement qu'une <emph>Reine</emph>
+					dans une ruche ; ainsi il est très-difficile de la voir : cependant on pourroit la reconnoître assez aisément,
+					parce qu'elle est plus grande que les autres ; sa tête est plus allongée, &amp; ses ailes sont très-courtes
+					par rapport à son corps ; elles n'en couvrent guere que la moitié ; au contraire celles des autres abeilles
+					couvrent le corps en entier. La Reine est plus longue que les mâles : mais elle n'est pas aussi grosse.
+					On a prétendu autrefois qu'elle n'avoit point d'aiguillon : cependant Aristote le connoissoit ; mais il
+					croyoit qu'elle ne s'en servoit jamais. Il est aujourd’hui très-certain que les abeilles femelles ont un
+					aiguillon même plus long que celui des ouvrieres ; cet aiguillon est recourbé. Il faut avoüer qu'elles
+					s'en servent fort rarement, ce n'est qu'après avoir été irritées pendant long-tems : mais alors elles
+					piquent avec leur aiguillon, &amp; la piquûre est accompagnée de venin comme celle des abeilles communes.
+					Il ne paroît pas que la mere abeille ait d'autre emploi dans la ruche que celui de multiplier l'espece,
+					ce qu'elle fait par une ponte fort abondante ; car elle produit dix à douze mille œufs en sept semaines,
+					&amp; communément trente à quarante mille par an.</p>
+
+                    <p>On appelle les abeilles mâles <emph>faux bourdons</emph> pour les distinguer de certaines mouches que
+					l'on connoît sous le nom de <emph>bourdons</emph>.
+					<xr><emph>Voyez</emph> <ref rend="caps">Bourdon</ref>.</xr></p>
+
+					<p>On ne trouve ordinairement des mâles dans les ruches que depuis le commencement ou le milieu du mois
+					de Mai jusques vers la fin du mois de Juillet ; leur nombre se multiplie de jour en jour pendant ce tems,
+					à la fin duquel ils périssent subitement de mort violente, comme on le verra dans la suite.</p>
+
+					<p>Les mâles sont moins grands que la Reine, &amp; plus grands que les ouvrieres ; ils ont la tête plus ronde,
+					ils ne vivent que de miel, au lieu que les ouvrieres mangent souvent de la cire brute. Dès que l'aurore paroit,
+					celles-ci partent pour aller travailler, les mâles sortent bien plus tard, &amp; c'est seulement pour voltiger
+					autour de la ruche, sans travailler. Ils rentrent avant le serein &amp; la fraîcheur du soir ; ils n'ont ni aiguillon,
+					ni patelles, ni dents saillantes comme les ouvrieres. Leurs dents sont petites, plates &amp; cachées, leur trompe est
+					aussi plus courte &amp; plus déliée : mais leurs yeux sont plus grands &amp; beaucoup plus gros que ceux des ouvrieres :
+					ils couvrent tout le dessus de la partie supérieure de la tête, au lieu que les yeux des autres forment simplement une
+					espece de bourlet de chaque côté.</p>
+
+					<p>On trouve dans certains tems des faux bourdons qui ont à leur extrémité postérieure deux cornes charnues aussi longues
+					que le tiers ou la moitié de leur corps : il paroît aussi quelquefois entre ces deux cornes un corps charnu qui se recourbe
+					en haut. Si ces parties ne sont pas apparentes au dehors, on peut les faire sortir en pressant le ventre du faux bourdon ;
+					si on l'ouvre, on voit dans des vaisseaux &amp; dans des réservoirs une liqueur laiteuse, qui est vraissemblablement la liqueur
+					séminale. On croit que toutes ces parties sont celles de la génération ; car on ne les trouve pas dans les abeilles meres,
+					ni dans les ouvrieres. L'unique emploi que l'on connoisse aux mâles, est de féconder la Reine ; aussi dès que la ponte est finie,
+					les abeilles ouvrieres les chassent &amp; les tuent.</p>
+
+					<p>Il y a des abeilles qui n'ont point de sexe. En les disséquant on n'a jamais trouvé dans leurs corps aucune partie qui eût quelquefois
+					rapport avec celles qui caractérisent les abeilles mâles ou les femelles. On les appelle <emph>mulets</emph> ou <emph>abeilles
+					communes</emph>,parce qu'elles sont en beaucoup plus grand nombre que celles qui ont un sexe. Il y en a dans une seule ruche jusqu'à
+					quinze ou seize mille, &amp; plus, tandis qu'on n'y trouve quelquefois que deux ou trois cent mâles, quelquefois sept ou huit, ou mille ou plus.</p>
+
+					<p>On désigne aussi les abeilles communes par le nom d'<emp>ouvrieres</emph>, parce qu'elles font tout l'ouvrage qui est nécessaire pour l'entretien
+					de la ruche, soit la récolte du miel &amp; de la cire, soit la construction des alvéoles ; elles soignent les petites abeilles ; enfin elles tiennent
+					la ruche propre, &amp; elles écartent tous les animaux étrangers qui pourroient être nuisibles. La tête des abeilles communes est triangulaire ; la pointe
+					du triangle est formée par la rencontre de deux dents posées horisontalement l'une à côté de l'autre, longues, saillantes &amp; mobiles. Ces dents servent
+					à la construction des alvéoles : aussi sont-elles plus fortes dans les abeilles ouvrieres que dans les autres. Si on écarte ces deux dents, on voit qu'elles
+					sont comme des especes de cuillieres dont la concavité est en-dedans. Les abeilles ont quatre ailes, deux grandes &amp; deux petites ; en les levant, on trouve 
+					de chaque côté auprès de l'origine de l'aile de dessous en tirant vers l'estomac, une ouverture ressemblante à une bouche ; c'est l'ouverture de l'un des poumons :
+					il y en a une autre sous chacune des premieres jambes, desorte qu'il y a quatre ouvertures sur le corcelet (<xr><emph>V.</emph> <ref rend="caps">Corcelet</ref></xr>)
+					&amp; douze autres de part &amp; d'autre sur les six anneaux qui composent le corps: ces ouvertures sont nommées <emph>stigmates</emph>.<xr><emph>Voyez</emph> <ref rend="caps">Srigmates</ref>.</xr></p>
+
+					<p>L'air entre par ces stigmates, &amp; circule dans le corps par le moyen d'un grand nombre de petits canaux ; enfin il en sort par les pores de la peau. Si on tiraille
+					un peu la tête de l'abeille, on voit qu'elle ne tient à la poitrine ou corcelet que par un cou très court, &amp; le corcelet ne tient au corps que par un filet très-mince.
+					Le corps est couvert en entier par six grandes pièces écailleuses, qui portent en recouvrement l'une sur l'autre &amp; forment six anneaux qui laissent au corps toute
+					sa souplesse. On appelle <emph>antennes<emph>(<xr><emph>Voyez</emph> <ref rend"caps">Antennes</ref></xr>)ces especes de cornes mobiles &amp; articulées qui sont sur la
+					tête, une de chaque côté; les antennes des mâles n'ont que douze articulations, celles des autres en ont quinze.</p>
+
+					<p>L'abeille a six jambes placées deux à deux en trois rangs ; chaque jambe est garnie à l'exprémité de deux grands ongles &amp; de deux petits, entre lesquels il y a une
+					partie molle &amp; charnue. La jambe est composée de cinq pièces, les deux premieres sont garnies de poils ; la quatrième pièce de la seconde &amp; de la troisieme
+					paire est appellée <emph>la brosse</emph>: cette partie est quarrée, sa face extérieure est	rase &amp; lisse, l'intérieure est plus chargée de poils que nos brosses ne le
+					sont ordinairement, &amp; ces poils sont disposés de la même façon. C'est avec ces sortes de brosses que l'abeille ramasse les poussieres des étamines qui tombent sur son
+					corps, lorsqu'elle est sur une fleur pour faire la récolte de la cire. <xr><emph>Voyez</emph> <ref rend="caps">Cire</ref>.</xr>Elle en fait de petites pelotes qu'elle transporte
+					à l'aide de ses jambes sur la palette qui est la troisieme partie des jambes de la troisieme paire. Les jambes de devant transportent à celles du milieu ces petites masses ;
+					celles-ci les placent &amp; les empilent sur la palette des jambes de derriere.</p>
 				</sense>
-			</entryFree>
+			</entry>
 		</body>
 	</text>
 </TEI>
