@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlnx="https://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>MAGIE</title>
+            <author>Non renseigné</author>
+            <editor>Non renseigné</editor>
+        </titleStmt>
+        <publicationStmt>
+            <authority>M.Champroux</authority>
+        </publicationStmt>
+        <sourceDesc>
+           
+            <bibl>
+                <editor>Non renseigné</editor>
+                <title>Encyclopédie</title>
+                <date>1765</date>
+                <editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-1166-0/"></link></editor>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Encodage d'un article d'encyclopedie<p>
+        </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="fr">Français</language>
+            <language ident="la">Latin</language>
+            <language ident="ag">Grec ancien</language>
+    </profileDesc>
+    <revisionDesc>
+        <change n="1" when="2026-10-19">Le TEI Header a été complété.</change>
+        <change n="2" when="2026-10-19">Les éléments d'encodage d'un article d'encyclopédie ont été ajoutés.</change>
+    </revisionDesc>
+</teiHeader>
+<text>
+    <body>
+        <div>
+            <entry xml:id="unclassified">
+               <form><orth>MAGIE</orth></form>
+                <def>
+                    <p>science ou art occulte qui apprend à faire des choses qui paroissent au-dessus du pouvoir humain.</p>
+                   
+                    <p>La <hi rend="italic">magie<hi>, considérée comme la science des premiers mages, ne fut autre chose que l'étude de la sagesse
+                    : pour lors elle se prenoit en bonne part, mais il est rare que l'homme se renferme dans les bornes du vrai, 
+                    il est trop simple pour lui. Il est presqu'impossible qu'un petit nombre de gens instruits, dans un siecle
+                    &amp; dans un pays en proie à une crasse ignorance, ne succombent bien-tôt à la tentation de passer pour extraordinaires
+                    &amp; plus  qu'humains : ainsi les mages de Chaldée &amp; de tout l'orient, ou plutôt leurs disciples (car c'est de ceux-ci 
+                    que vient d'ordinaire la dépravation dans les idées), les mages, dis-je, s'attacherent à l'astrologie, 
+                    aux divinations, aux enchantemens, aux maléfices ; &amp; bientôt le terme de magie devint odieux, &amp; ne servit 
+                    plus dans la suite qu'à désigner une science également illusoire &amp; méprisable : fille de l'ignorance 
+                    &amp; de l'orgueil, cette science a dû être des plus anciennes ; il seroit difficile de déterminer le tems 
+                    de son origine, ayant pour objet d'alleger les peines de l'humanité, elle a pris naissance avec nos miseres. 
+                    Comme c'est une science ténébreuse, elle est sur son trône dans les pays où regnent la barbarie &amp; la grossiereté. 
+                    Les Lapons, &amp; en général les peuples sauvages cultivent la <hi rend="italic">magie<hi>, &amp; en font grand cas.</p>
+                    
+                    <p>Pour faire un traité complet de <hi rend="italic">magie<hi>, à la considérer dans le sens le plus étendu, c'est-à-dire dans tout ce qu'elle 
+                    peut avoir de bon &amp; de mauvais, on devroit la distinguer en <hi rend="italic">magie<hi> divine, <hi rend="italic">magie<hi> 
+                    naturelle &amp; <hi rend="italic">magie<hi> surnaturelle.</p>
+
+                    <sense>
+                        <def>La <hi rend="italic">magie<hi> divine n'est autre chose que cette connoissance particuliere des plans, des vûes de la souveraine sagesse, 
+                        que Dieu dans sa grace revele aux saints hommes animés de son esprit, ce pouvoir surnaturel qu'il leur accorde de prédire 
+                        l'avenir, de faire des miracles, &amp; de lire, pour ainsi dire, dans le coeur de ceux à qui ils ont à faire. Il fut de 
+                        tels dons, nous devons le croire ; si même la Philosophie ne s'en fait aucune idée juste, éclairée par la foi, elle les 
+                        revere dans le silence. Mais en est-il encore? je ne sai, &amp; je croi qu'il est permis d'en douter. Il ne dépend pas de 
+                        nous d'acquérir cette desirable magie ; <hi rend="italic">elle ne vient ni du courant ni du voulant ; c'est un don de Dieu.</hi></def>
+                    </sense>
+
+                    <sense>
+                        <def>
+                        <p>Par la <hi rend="italic">magie<hi> naturelle, on entend l'étude un peu approfondie de la nature, les admirables secrets 
+                        qu'on y découvre ; les avantages inestimables que cette étude a apportés à l'humanité dans presque tous les arts &amp; toutes 
+                        les sciences ; Physique, Astronomie, Médecine, Agriculture, Navigation, Méchanique, je dirai même Éloquence ; car c'est à la 
+                        connoissance de la nature &amp; de l'esprit humain en particulier &amp; des ressorts qui le remuent, que les grands maîtres 
+                        sont redevables de l'impression qu'ils font sur leurs auditeurs, des passions qu'ils excitent chez eux, des larmes qu'ils 
+                        leur arrachent, &c. &c. &c.</p>
+                        
+                        <p>Cette <hi rend="italic">magie<hi> très-louable en elle-même, fut poussée assez loin dans l'antiquité: il paroît même par 
+                        le feu grégeois, &amp; quelques autres découvertes dont les auteurs nous parlent, qu'à divers égards les anciens nous ont 
+                        surpassés dans cette espece de <hi rend="italic">magie<hi> ; mais les invasions des peuples du Nord lui firent éprouver les plus funestes révolutions, 
+                        &amp; la replongerent dans cet affreux cahos dont les sciences &amp; les beaux arts avoient eu tant de peine à sortir dans notre Europe.</p>
+                        
+                        <p>Ainsi, bien des siecles après la sphere de verre d'Archimede, la colombe de bois volante d'Architras, les oiseaux d'or 
+                        de l'empereur Léon qui chantoient, les oiseaux d'airain de Boëce qui chantoient &amp; qui voloient, les serpens de même 
+                        matiere qui siffloient, &c. il fut un pays en Europe (mais ce n'étoit ni le siecle ni la patrie de Vaucanson) il fut, 
+                        dis je, un pays dans lequel on fut sur le point de bruler Brioché &amp; ses marionnettes. Un cavalier françois qui promenoit 
+                        &amp; faisoit voir dans les foires une jument qu'il avoit eu l'habileté de dresser à répondre exactement à ses signes, 
+                        comme nous en avons tant vûs dans la suite, eut la douleur en Espagne de voir mettre à l'inquisition un animal qui faisoit 
+                        toute sa ressource, &amp; eut assez de peine à se tirer lui-même d'affaire. On pourroit multiplier sans nombre les exemples 
+                        de choses toutes naturelles, que l'ignorance a voulu criminaliser &amp; faire passer pour les actes d'une magie noire &amp; 
+                        diabolique : à quoi ne furent pas exposés ceux qui les premiers oserent parler d'antipodes &amp: d'un nouveau monde?</p>
+                        
+                        <p>Mais nous reprenons insensiblement le dessus, &amp; l'on peut dire qu'aux yeux mêmes de la multitude, les bornes de 
+                        cette prétendue magie naturelle se rétrécissent tous les jours ; parce qu'éclairés du flambeau de la Philosophie, nous 
+                        faisons tous les jours d'heureuses découvertes dans les secrets de la nature, &amp; que de bons systèmes soutenus par 
+                        une multitude de belles expériences annoncent à l'humanité dequoi elle peut être capable par elle-même &amp; sans <hi rend="italic">magie<hi>. 
+                        Ainsi la boussole, les thélescopes, les microscopes, &c. &amp; de nos jours, les polypes, l'électricité; dans la Chimie, 
+                        dans la Méchanique &amp; la Statique, les découvertes les plus belles &amp; les plus utiles, vont immortaliser notre siecle 
+                        ; &amp; si l'Europe retomboit jamais dans la barbarie dont elle est enfin sortie, nous passerons chez de barbares successeurs 
+                        pour autant de magiciens.</p>
+                        </def>
+                    </sense>
+
+                    <sense>
+                        <def>
+                        <p>La <language ident="la" rend="italic"> surnaturelle est la <hi rend="italic">magie<hi> proprement dite, cette <hi rend="italic">magie<hi> noire qui se prend toujours 
+                        en mauvaise part, que produisent l'orgueil, l'ignorance &amp; le manque de Philosophie : c'est elle qu'Agrippa comprend sous 
+                        les noms de <language ident="la" rend="italic">coelestialis & ceremonialis</language> ; elle n'a de science que le nom, &amp; 
+                        n'est autre chose que l'amas confus de principes obscurs, incertains &amp; non démontrés, de pratiques la plûpart arbitraires, 
+                        puériles, &amp; dont l'inéfficace se prouve par la nature des choses.</p>
+
+                        <p>Agrippa aussi peu philosophe que magicien, entend par la <hi rend="italic">magie<hi> qu'il appelle <language ident="la" rend="italic">coelestialis</language>, 
+                        l'astrologie judiciaire qui attribue à des esprits une certaine domination sur les planetes, &amp; aux planetes sur les hommes, 
+                        &amp; qui prétend que les diverses constellations influent sur les inclinations, le sort, la bonne ou mauvaise fortune des humains ; 
+                        amp;& sur ces foibles fondemens bâtit un système ridicule, mais qui n'ose paroître aujourd'hui que dans l'almanach de Liege 
+                        &amp; autres livres semblables ; tristes dépôts des matériaux qui servent à nourrir des préjugés &amp; des erreurs populaires.</p>
+
+                        <p>La <hi rend="italic">magie<hi> <language ident="la" rend="italic">ceremonialis</language>, suivant Agrippa, est bien sans contredit ce qu'il y a de 
+                        plus odieux dans ces vaines sciences : elle consiste dans l'invocation des démons, &amp; s'arroge ensuite d'un pacte exprès ou 
+                        tacite fait avec les puissances infernales, le prétendu pouvoir de nuire à leurs ennemis, de produire des effets mauvais &amp; 
+                        pernicieux, que ne sauroient éviter les malheureuses victimes de leur fureur.</p>
+
+                        <p>Elle se partage en plusieurs branches, suivant ses divers objets &amp; opérations ; la cabale, le sortilege, l'enchantement, 
+                        l'évocation des morts ou des malins esprits ; la découverte des trésors cachés, des plus grands secrets ; la divination, le don 
+                        de prophétie, celui de guérir par des pratiques mystérieuses les maladies les plus opiniâtres ; la fréquentation du sabbat, &c. 
+                        De quels travers n'est pas capable l'esprit humain! On a donné dans toutes ces réveries ; c'est le dernier effort de la Philosophie 
+                        d'avoir enfin desabusé l'humanité de ces humiliantes chimeres ; elle a eu à combattre la superstition, &amp; même la Théologie qui 
+                        ne fait que trop souvent cause commune avec elle. Mais enfin dans les pays où l'on sait penser, réfléchir &amp; douter, le démon 
+                        fait un petit rôle, &amp; la <hi rend="italic">magie<hi> diabolique reste sans estime &amp; crédit.</p>                  
+                        </def>
+                    </sense>
+               
+                    <p>Mais ne tirons pas vanité de notre façon de penser ; nous y sommes venus un peu tard ; ouvrez les registres de la plus petite cour 
+                    de Justice, vous y  trouverez d'immenses cahiers de procédures contre les sorciers, les magiciens &amp; les enchanteurs. Les seigneurs 
+                    de jurisdictions se sont enrichis de leurs dépouilles, &amp; la confiscation des biens appartenans aux prétendus sorciers a peut-être 
+                    allumé plus d'un bucher ; du-moins est-il vrai que souvent la passion a su tirer un grand parti de la crédulité du peuple, &amp; faire 
+                    regarder comme un sorcier &amp; docteur en magie celui qu'elle vouloit perdre, dans le tems même que suivant la judicieuse remarque d'Apulée 
+                    accusé autrefois de magie, ce crime, dit-il, <cit><language ident="fr" rend="italic">n'est pas même cru par ceux qui en accusent les autres 
+                    ; car si un homme étoit bien persuadé qu'un autre homme le pût faire mourir par magie, il appréhenderoit de l'irriter en l'accusant de ce 
+                    crime abominable.</language></cit></p>
+
+                    <p>Le fameux maréchal d'Ancre, Léonora Galigaï son épouse, sont des exemples mémorables de ce que peut la funeste accusation d'un crime 
+                    chimérique, fomentée par une passion secrette &amp; poussée par la dangereuse intrigue de cour. Mais il est peu d'exemples dans ce genre 
+                    mieux constatés que celui du célebre Urbain Grandier curé &amp; chanoine de Loudun, brûlé vif comme magicien l'an 1629. Qu'un philosophe 
+                    ou seulement un ami de l'humanité souffre avec peine l'idée d'un malheureux immolé à la simplicité des uns &amp; à la barbarie des autres! 
+                    Comment le voir de sang-froid condamné comme magicien à périr par les flammes, jugé sur la déposition d'Astaroth diable de l'ordre des 
+                    séraphins ; d'Easas, de Celsus, d'Acaos, de Cédon, d'Asmodée, diables de l'ordre des trônes ; d'Alex, de Zabulon, Nephtalim, de Cham, 
+                    d'Uriel, d'Ahaz, de l'ordre des principautés? comment voir ce malheureux chanoine jugé impitoyablement sur la déposition de quelques 
+                    religieuses qui disoient qu'il les avoit livrées à ces légions d'esprits infernaux? comment n'est-on pas mal à son aise, lorsqu'on le voit 
+                    brûlé tout vif, avec des caracteres prétendus magiques, poursuivi &amp; noirci comme magicien jusques sur le bucher même où une mouche 
+                    noirâtre de l'ordre de celles qu'on appelle des <hi rend="italic">bourdons</hi>, &amp; qui rodoit autour de la tête de Grandier, fut prise 
+                    par un moine qui sans doute avoit lû dans le <hi rend="italic">concile</hi> de Quieres, que les diables se trouvoient toujours à la mort 
+                    des hommes pour les tenter, fut pris, dis-je, pour Béelzebut prince des mouches, qui voloit autour de Grandier pour emporter son ame en 
+                    enfer? Observation puérile, mais qui dans la bouche de ce moine fut peut être l'un des moins mauvais argumens qu'une barbare politique sut 
+                    mettre en usage pour justifier ses excès, &amp; en imposer par des contes absurdes à la funeste crédulité des simples. Que d'horreurs! &amp; où ne
+                    se porte pas l'esprit humain lorsqu'il est aveuglé par les malheureuses passions de l'envie &amp; de l'esprit de vengeance? L'on doit sans 
+                    doute tenir compte à Gabriel Naudé, d'avoir pris généreusement la défense des grands hommes accusés de <hi rend="italic">magie</hi> ; mais je 
+                    pense qu'ils ont plus d'obligations à ce goût de Philosophie qui a fait sentir toute la vanité de cette accusation, qu'au zele de leur avocat 
+                    qui a peut-être marqué plus de courage dans son entreprise que d'habileté dans l'exécution &amp; de forces dans les raisonnemens qu'il emploie. 
+                    Si Naudé a pu justifier bien des grands hommes d'une imputation qui aux yeux du bons sens &amp; de la raison se détruit d'elle-même : malgré 
+                    tout son zele il eût sans doute échoué, s'il eût entrepris d'innocenter entierement à cet égard les sages de l'antiquité, puisque toute leur 
+                    philosophie n'a pu les mettre à l'abri de cette grossiere superstition, que la <hi rend="italic">magie</hi> tient par la main. Je n'en citairai 
+                    d'autre exemple que Caton. Il étoit dans l'idée qu'on peut guérir les maladies les plus sérieuses par des paroles enchantées: voici les paroles 
+                    barbares, au moyen desquelles suivant lui on a une recette très-assurée pour remettre les membres démis :  <cit><language ident="la" rend="italic">Incipe 
+                    cantare in alto S: F. motas danata dardaries astotaries, dic una parite usque dum coeant,&c.</language></cit> C'est l'édition d'Alde Manuce que 
+                    je lis ; car celle d'Henri Estienne, revûe &amp; corrigée par Victorius, a été fort changée sur un point où la grande obscurité du texte ouvre un 
+                    vaste champ à la manie des critiques.</p>
+
+                    <p>Chacun sait que les anciens avoient attaché les plus grandes vertus au mot magique <hi rend="italic">abracadabra</hi>. Q. Serenus, célebre Médecin, 
+                    prétend que ce mot vuide de sens écrit sur du papier &amp; pendu au cou, étoit un sûr remede pour guérir la fievre quarte ; sans doute qu'avec de tels 
+                    principes la superstition étoit toute sa pharmacie, &amp; la foi du patient sa meilleure ressource.</p>
+
+                    <p>C'est à cette foi qu'on peut &amp; qu'on doit rapporter ces guérisons si extraordinaires dans le récit qu'elles semblent tenir de la <hi rend="italic">magie</hi>, 
+                    mais qui approfondies, sont presque toujours des fraudes pieuses, ou les suites de cette superstition qui n'a que trop souvent triomphé du bon sens, de la raison 
+                    &amp; même de la Philosophie. Nos préjugés, nos erreurs &amp; nos folies se tiennent toutes par la la main. La crainte est fille de l'ignorance ; celle-ci a 
+                    produit la superstition qui est à son tour la mere du fanatisme, source féconde d'erreurs, d'illusions, de phantômes, d'une imagination échaufée qui change en 
+                    lutins, en loups-garoux, en revenans, en démons même tout ce qui le heurte ; comment dans cette disposition d'esprit ne pas croire à tous les rêves de la <hi rend="italic">magie</hi>? 
+                    si le fanatique est pieux &amp; dévot, (&amp; c'est presque toujours ce ton sur lequel il est monté) il se croira magicien pour la gloire de Dieu ; du-moins 
+                    s'attribuera-t-il l'important privilege de sauver &amp; damner sans appel : il n'est pire <hi rend="italic">magie</hi> que celle des faux dévots. Je finis par 
+                    cette remarque ; c'est qu'on pourroit appeller le <hi rend="italic">sabbath</hi> l'empire des amazones souterraines ; du-moins il y a toujours eu beaucoup plus 
+                    de sorcieres que de sorciers : nous l'attribuons bonnement à la foiblesse d'esprit ou à la trop grande curiosité des femmes ; filles d'Eve, elles veulent se 
+                    perdre comme elle pour tout savoir. Mais un anonyme (<hi rend="italic">Voyez</hi> <ref type="crossRef">Alector <hi rend="italic">ou</hi> le Coq, <hi rend="italic">lib. II. des adeptes</hi></ref>) 
+                    qui voudroit persuader au public qu'il est un des premiers confidens de satan, prête aux démons un esprit de galanterie qui justifie leur prédilection pour le sexe, 
+                    &amp; les faveurs dont ils l'honorent : par-là même le juste retour de cette moitié du genre humain avec laquelle pour l'ordinaire on gagne plus qu'on ne perd.</p>
+               
+                </def>
+           </entry> 
+        </div>
+    </body>
+</text>
+</TEI>
