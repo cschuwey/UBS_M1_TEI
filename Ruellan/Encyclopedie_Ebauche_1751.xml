@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- TD4 : transcription et encodage de l'article « EBAUCHE, ESQUISSE ». -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+
+  <teiHeader>
+    <!-- En-tête : informations sur le document et sa source. -->
+
+    <fileDesc>
+      <titleStmt>
+        <!-- Titre de l'article transcrit. -->
+        <title>EBAUCHE, ESQUISSE</title>
+      </titleStmt>
+
+      <publicationStmt>
+        <!-- Informations sur ce fichier de travail. -->
+        <p>Fichier réalisé dans le cadre du TD4.</p>
+      </publicationStmt>
+
+      <sourceDesc>
+        <!-- Référence bibliographique de la première édition. -->
+        <bibl>
+          <title>Encyclopédie, ou Dictionnaire raisonné des sciences,
+            des arts et des métiers</title>
+          <date when="1751">1751</date>
+          <biblScope unit="volume">Tome V</biblScope>
+          <biblScope unit="page">212-213</biblScope>
+          <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/EBAUCHE%2C_ESQUISSE">
+            Source consultée
+          </ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <!-- Présentation du projet et justification des choix d'encodage. -->
+      <projectDesc>
+        <p>Encodage TEI-XML d'un article de l'Encyclopédie.</p>
+      </projectDesc>
+
+      <editorialDecl>
+        <p>
+          La transcription conserve les formulations et l'orthographe
+          de la source consultée. Les différentes parties de l'article
+          sont distinguées par des paragraphes. Les renvois introduits
+          par « Voyez » sont encodés avec l'élément ref.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+
+    <!-- Indication de la langue de l'article. -->
+    <profileDesc>
+      <langUsage>
+        <language ident="fr">Français</language>
+      </langUsage>
+    </profileDesc>
+
+    <!-- Historique des modifications : utile pour les TD suivants. -->
+    <revisionDesc>
+      <change when="2026-10-26">Création du fichier pour le TD4.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <!-- div identifie l'article et head en donne le titre. -->
+      <div type="article" xml:id="ebauche1751">
+
+        <head>EBAUCHE, ESQUISSE</head>
+
+        <!-- Définition générale et renvoi vers « Esquisse ». -->
+        <p>
+          EBAUCHE, ESQUISSE, s. f. termes techniques. L’ébauche est la premiere forme qu’on a donnée à un ouvrage ; l’esquisse n’est qu’un modele incorrect de l’ouvrage même qu’on a tracé légerement, qui ne contient que l’esprit de l’ouvrage qu’on se propose d’exécuter, &amp; qui ne montre aux connoisseurs que la pensée de l’ouvrier. Donnez à l’esquisse toute la perfection possible, &amp; vous en ferez un modele achevé. Donnez à l’ébauche toute la perfection possible, &amp; l’ouvrage même sera fini. Ainsi quand on dit d’un tableau, j’en ai vû l’esquisse, on fait entendre qu’on en a vû le premier trait au crayon que le peintre avoit jetté sur le papier ; &amp; quand on dit, j’en ai vû l’ébauche, on fait entendre qu’on a vû le commencement de son exécution en couleur, que le peintre en avoit formée sur la toile. D’ailleurs le mot d’esquisse ne s’employe guere que dans les Arts où l’on passe du modele à l’ouvrage ; au lieu que celui d’ébauche est plus général, puisqu’il est applicable à tout ouvrage commencé, &amp; qui doit s’avancer de l’état d’ébauche à l’état de perfection. Esquisse dit toûjours moins qu’ébauche, quoiqu’il soit peut-être moins facile de juger de l’ouvrage sur l’ébauche que sur l’esquisse.
+          <ref type="crossRef" target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/ESQUISSE">Voyez Esquisse.</ref>
+        </p>
+
+        <!-- Passage consacré à l'architecture. -->
+        <p>
+          Ebauche, en Architecture ; c’est la premiere forme qu’on donne à un quartier de pierre ou à un bloc de marbre avec le ciseau, après qu’il est dégrossi à la scie &amp; à la pointe, suivant un modele ou un profil. C’est aussi un petit modele de terre ou de cire taillé au premier coup avec l’ébauchoir, pour en voir l’effet avant de le terminer. (P)
+        </p>
+
+        <!-- Passage consacré à la gravure et renvoi vers « Masses ». -->
+        <p>
+          Ebauche, ébauches en Gravûre, c’est l’action de préparer &amp; de mettre par masses les ouvrages de gravûre au premier trait de burin.
+          <ref type="crossRef" target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/MASSES">Voyez Masses.</ref>
+        </p>
+
+        <!-- Passage consacré à la peinture et à la sculpture. -->
+        <p>
+          Ebauche, ébaucher en Peinture, c’est disposer avec des couleurs les objets qu’on s’est proposé de représenter dans un tableau, &amp; qui sont déjà dessinés sur une toile imprimée, sans donner à chacun le degré de perfection qu’on se croit capable de leur donner, en les finissant. Les peintres ébauchent plus ou moins arrêté ; il y en a qui ne sont qu’un leger lavis de couleur &amp; de térébenthine, ou même de grisaille ou camayeu. Les Sculpteurs disent aussi, ébaucher une figure, un bas-relief. (R)
+        </p>
+
+      </div>
+    </body>
+  </text>
+
+</TEI>
