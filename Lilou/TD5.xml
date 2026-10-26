@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr"
+     xml:id="enc1-alopecie">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ALOPECIE</title>
+                <author>Diderot, Denis</author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wikisource</publisher>
+                <pubPlace>En ligne</pubPlace>
+                <date>2026</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl>
+                    <bibl xml:id="source1">
+                        <author>Diderot, Denis</author>
+                        <title>Encyclopédie, ou Dictionnaire raisonné
+                            des sciences, des arts et des métiers</title>
+                        <edition>1re édition</edition>
+                        <publisher>Briasson, David, Le Breton, Durand</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1751</date>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">293</biblScope>
+                        <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/ALOPECIE">
+                            Notice ALOPECIE sur Wikisource
+                        </ref>
+                    </bibl>
+
+                    <bibl xml:id="source2">
+                        <title>Dictionnaire de Trévoux</title>
+                        <edition>6e édition</edition>
+                        <publisher>Compagnie des libraires associés</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1771</date>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">251</biblScope>
+                        <ref target="https://fr.wikisource.org/wiki/Dictionnaire_de_Tr%C3%A9voux/6e_%C3%A9dition%2C_1771/ALOP%C3%89CIE">
+                            Notice ALOPÉCIE sur Wikisource
+                        </ref>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <p>
+                Le texte est encodé en TEI. L’orthographe et la
+                ponctuation des deux sources sont conservées, sauf
+                les "&" remplacées par "et".
+
+                Les différences entre la notice de l’Encyclopédie de 1751 et celle du Dictionnaire de Trévoux de 1771 sont signalées grâce à l’élément "app". 
+                L’élément "lem" désigne la formulation de référence (celle issue de
+                l’Encyclopédie de 1751). L’élément "rdg" présente la deuxième formulation qui correspond au
+                Dictionnaire de Trévoux.
+
+                L’attribut "source" identifie l’ouvrage dont provient chaque leçon. Les identifiants source1 et source2
+                permettent de relier les variantes aux références
+                bibliographiques du teiHeader.
+   Le choix de lem et rdg permet de conserver le texte de Diderot comme texte de référence, sans confondre les deux ouvrages. 
+Je n’ai pas réussi à trouver une réédition de la première définition. J’en ai donc choisi une autre qui présentait des similitudes, 
+et j’ai essayé de regrouper les passages qui se ressemblaient.          
+            </p>
+        </encodingDesc>
+
+        <revisionDesc>
+            <change when="2026-10-26">
+                Intégration d’un apparat comparatif avec le
+                Dictionnaire de Trévoux de 1771.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <entry xml:id="alopecie">
+
+                <form>
+                    <orth>ALOPÉCIE</orth>
+                </form>
+
+                <gramGrp>
+                    <pos>s. f.</pos>
+                </gramGrp>
+
+                <sense n="1">
+
+                    <def>
+                        <app>
+                            <lem source="#encyclopedie1751">
+                               <hi rend="italic"> maladie de la tête </hi> dans laquelle elle est dépouillée de cheveux, en tout ou en partie.
+                            </lem>
+                            <rdg source="#trevoux1771">
+                                Sorte de maladie qui fait tomber le poil de la tête, et quelquefois les sourcils
+                               et la barbe, autrement <hi rend="italic"> la Pelade. Alopecia. </hi> 
+                            </rdg>
+                        </app>
+                    </def>
+
+                    <def>
+                        <app>
+                            <lem source="#encyclopedie1751">
+                                La cause de cette maladie est un épaississement du suc nourricier, qui lui
+                                ôte la fluidité nécessaire pour pouvoir pénétrer jusqu'au bulbe dans lequel le
+                                cheveu est implanté ; ce qui prive le cheveu de sa nourriture, et l'oblige
+                                de se séparer de la tête.
+                            </lem>
+                            <rdg source="#trevoux1771">
+                                La cause de <hi rend="italic"> l'alopécie vient de </hi> l'épaississement du suc nourricier qui
+                                ne peut plus pénétrer dans la racine des cheveux.
+                            </rdg>
+                        </app>
+                    </def>
+
+                    <def>
+                        <app>
+                            <lem source="#encyclopedie1751">
+                                Dans les vieillards, <hi rend="italic"> l'alopécie </hi> est une
+                                suite du raccornissement des fibres.
+                            </lem>
+                            <rdg source="#trevoux1771">
+                                Dans les vieillards elle vient du desséchement des fibres.
+                            </rdg>
+                        </app>
+                    </def>
+
+                    <def source="#encyclopedie1751">
+                      <hi rend="italic">  L'alopécie </hi> est plus ou moins difficile à traiter,
+                        selon la cause qui l'a produite ; et on ne peut parvenir à sa guérison, qu'en détruisant cette cause :
+                        ainsi il est d'une grande conséquence pour un Médecin d'être instruit de ce qui a donné lieu à l'alopécie,
+                        afin d'employer les remèdes propres à cette maladie.
+                    </def>
+
+                    <def source="#encyclopedie1751">
+                        On en donnera le traitement dans les cas où elle se trouvera jointe à quelqu'autre maladie, comme
+                        la vérole, le scorbut, et.c.
+                        <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/ALOPECIE">
+                            V. Vérole et Scorbut.
+                        </ref>
+                        (N)
+                    </def>
+
+                    <def source="#trevoux1771">
+                        Elle est ainsi appelée dans les Médecins, parce que  le renard qu'on nomme en grec ἀλώπηξ, est sujet dans
+                        sa vieillesse à une certaine galle qui lui fait tomber le poil.
+                    </def>
+
+                </sense>
+            </entry>
+
+        </body>
+    </text>
+</TEI>
