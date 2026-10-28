@@ -13,29 +13,38 @@
             <sourceDesc>
                 <bibl>Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers de <editor>Diderot</editor>, <editor>D'Alembert</editor> et <editor>Jaucourt</editor> numérisée par <editor>ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v12-1769-0/"/></editor>
                 </bibl>
+                <bibl>Encyclopédie d'<editor>Yverdon</editor></bibl>
+                <listWit><witness xml:id="ENCCRE">Version ENCCRE</witness>
+                <witness xml:id="Yverdon">Version Yverdon</witness></listWit>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc><p>Document encodé dans le cadre d'un cours de XML.</p>
             </projectDesc>
-        <samplingDecl><p>L'article n'est pas encodé dans son intégralité.</p></samplingDecl>
+        <samplingDecl><p>Les deux articles ne sont pas encodés dans leur intégralité.</p></samplingDecl>
+        <editorialDecl><p>Dans ce document sont encodées la version originale de l'article, indiquée par l'élément lem ; et une 2e version, indiquée par l'élément rdg.</p></editorialDecl>
     </encodingDesc>
     <profileDesc>
-        <langUsage><language ident="fr">Français</language><language ident="ag">Grec ancien</language>
+        <langUsage><language ident="fr">Français</language><language ident="ag">Grec ancien</language><language ident="lat">Latin</language>
         </langUsage>
     </profileDesc>
         <revisionDesc>
             <change n="1" when="2026-10-15">Le TEI Header a été complété.</change>
             <change n="2" when="2026-10-15">Les éléments d'encodage d'un article d'encyclopédie ont été ajoutés.</change>
+            <change n="3" when="2026-10-24">Encodage de l'article de l'encyclopédie Garnier.</change>
+            <change n="4" when="2026-10-24">Mise à jour du TEI Header avec les informations relatives à l'article Garnier.</change>
         </revisionDesc>
     </teiHeader>
 
         <text>
             <body>
+                <app>
+                <lem wit="ENCCRE">
                 <entry>
                     <form><orth>PLANETE</orth></form>, <gramGrp><pos>s.</pos> <gen>f.</gen></gramGrp> <sense><p>en Astronomie​​, c’est un corps céleste, qui fait sa révolution autour du Soleil comme centre, &amp; qui change continuellement de position par rapport aux autres étoiles.</p>
         
-       <p>C’est de là que lui est venu le nom de <language ident="ag">πλανήτης</language>, errant, par opposition aux étoiles fixes ; aussi les planetes s’appellent-elles quelquefois étoiles errantes. Voyez<ref target="article_etoile">Etoile</ref>.</p>
+       <p>C’est de là que lui est venu le nom de <language ident="ag">πλανήτης</language>, errant, par opposition aux étoiles fixes ; aussi les planetes s’appellent-elles quelquefois étoiles errantes. 
+        Voyez<ref target="article_etoile"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-96-0/"/>Etoile</ref>.</p>
         
         <p>Les planetes se distingent ordinairement en principales &amp; secondaires.</p>
         
@@ -57,7 +66,8 @@
         
         <p>Les planetes secondaires sont celles qui tournent autour de quelque planete principale, comme centre, de la même maniere que les planetes principales tournent autour du Soleil ; telles sont la Lune, qui
             tourne autour de notre Terre, &amp; ces autres planetes qui tournent autour de Saturne &amp; de Jupiter, &amp; que l’on appelle proprement satellites. Voyez la théorie des planetes secondaires, aux
-            articles <ref target="article_satellites">Satellites</ref> &amp; <ref target="article_secondaires">Secondaires</ref>.</p>
+            articles <ref target="article_satellites"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v14-2383-0/"/>Satellites</ref> &amp; 
+            <ref target="article_secondaires"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v14-3035-0/"/>Secondaires</ref>.</p>
         
         <p>Les planetes principales se distinguent encore en supérieures &amp; inférieures.</p>
         
@@ -71,35 +81,83 @@
             aux cieux tous les mouvemens apparens. Aristote &amp; ceux de sa secte qui ont enseigné dans les écoles pendant les siecles suivans, avoient adopté cette opinion, &amp; l’ont soutenue long-tems, jusqu’à
             ce que le savant astronome Copernic est venu tirer de l’oubli l’ancien système de Pythagore, l’unique &amp; le vrai système du monde, comme il étoit aisé à tous les bons esprits de s’en convaincre, s’ils
             eussent réfléchi sur les solides raisons qu’il en a apportées. Ce système a été depuis appellé de son nom. Environ cent ans après, la découverte des lunettes d’approche a fait connoître aux hommes un
-            nouveau ciel : on y a apperçu tant de phénome-​​nes surprenans &amp; inconnus aux anciens, que le système de Copernic a bientôt été reconnu pour le vrai système du monde. Voyez <ref target="article_Copernic">Copernic</ref> &amp; <ref target="article_systeme">Système</ref>.</p>
+            nouveau ciel : on y a apperçu tant de phénome-​​nes surprenans &amp; inconnus aux anciens, que le système de Copernic a bientôt été reconnu pour le vrai système du monde. 
+            Voyez <ref target="article_Copernic"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-343-0/"/>Copernic</ref> &amp; 
+            <ref target="article_systeme"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-2613-0/"/>Système</ref>.</p>
         
         <p>On représente les planetes avec les mêmes caracteres dont se servent les chimistes pour désigner leurs métaux, à cause de quelque analogie ou rapport que l’on supposoit autrefois entre ces corps célestes
              &amp; les métaux.</p>
         
         <p>Saturne est représenté par le caractere ♄, qui en chimie représente le plomb. Cette planete ne paroit à la vue simple, que d’une lumiere foible, à cause de sa grande distance. Elle acheve sa révolution
-            autour du Soleil, dans l’espace d’environ trente années. Voyez <ref target="article_saturne">Saturne</ref>.</p>
+            autour du Soleil, dans l’espace d’environ trente années. Voyez <ref target="article_saturne"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v14-2408-0/"/>Saturne</ref>.</p>
         
-        <p>Jupiter marqué par le signe ♃, qui en chimie représente l’étain, est une planete brillante, qui fait sa révolution autour du Soleil dans l’espace d’environ douze ans. Voyez <ref target="article_jupiter">Jupiter</ref>.</p>
+        <p>Jupiter marqué par le signe ♃, qui en chimie représente l’étain, est une planete brillante, qui fait sa révolution autour du Soleil dans l’espace d’environ douze ans. 
+            Voyez <ref target="article_jupiter"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-82-0/"/>Jupiter</ref>.</p>
         
-        <p>Mars caractérisé par le signe ♂, qui en chimie représente le fer, est une planete d’une couleur rougeâtre, qui fait sa révolution en deux ans environ. Voyez <ref target="article_mars">Mars</ref>.</p>
+        <p>Mars caractérisé par le signe ♂, qui en chimie représente le fer, est une planete d’une couleur rougeâtre, qui fait sa révolution en deux ans environ. 
+            Voyez <ref target="article_mars"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-421-0/"/>Mars</ref>.</p>
         
         <p>Venus marquée ♀, qui en chimie représente le cuivre, est la plus brillante de toutes les planetes ; elle accompagne constamment le Soleil &amp; n’en est jamais éloignée de plus de 47 degrés ;
-            elle acheve sa révolution en sept mois environ. Voyez <ref target="article_venus">Venus</ref>.</p>
+            elle acheve sa révolution en sept mois environ. Voyez <ref target="article_venus"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v17-48-0/"/>Venus</ref>.</p>
         
-        <p>Quand elle précede le Soleil ; on l’appelle Phosphorus &amp; Lucifer, &amp; quand elle le suit, on lui donne le nom d’Hesperus. Voyez <ref target="article_phosphorus">Phosphorus</ref>, etc.</p>
+        <p>Quand elle précede le Soleil ; on l’appelle Phosphorus &amp; Lucifer, &amp; quand elle le suit, on lui donne le nom d’Hesperus. Voyez <ref target="article_phosphorus"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v12-1321-0/"/>Phosphorus</ref>, etc.</p>
         
         <p>Mercure caractérisé par le signe ☿, qui en chimie représente ce qu’on appelle aussi mercure ou vif argent, est une petite planete brillante qui accompagne constamment le Soleil ; sa distance du Soleil
-            n’est jamais de plus de 28 degrés, moyennant quoi elle est ordinairement cachée dans les rayons de cet astre. Elle acheve son cours en trois mois environ. Voyez <ref target="article_mercure">Mercure</ref> &amp; <ref target="article_elongation">Elongation</ref>.</p>
+            n’est jamais de plus de 28 degrés, moyennant quoi elle est ordinairement cachée dans les rayons de cet astre. Elle acheve son cours en trois mois environ. Voyez <ref target="article_mercure"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1035-0/"/>Mercure</ref> &amp;
+            <ref target="article_elongation"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-903-0/"/>Elongation</ref>.</p>
         
-        <p>Au nombre de ces planetes, on peut mettre à présent la Terre marquée ♁, faisant sa révolution autour du Soleil, entre Mars &amp; Vénus, dans l’espace d’une année. Voyez <ref target="article_terre">Terre</ref>.</p>
+        <p>Au nombre de ces planetes, on peut mettre à présent la Terre marquée ♁, faisant sa révolution autour du Soleil, entre Mars &amp; Vénus, dans l’espace d’une année. Voyez <ref target="article_terre"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v16-342-0/"/>Terre</ref>.</p>
         
         <p>En faisant attention aux définitions que nous venons de donner, il n’y a personne qui ne puisse distinguer aisément toutes les planetes ; car, si après le Soleil couché, on voit une planete plus près de
             l’orient que de l’occident, on peut d’abord conclure que ce n’est ni Mercure ni Vénus, &amp; l’on peut déterminer par la différence de couleur &amp; de lumiere, si c’est Saturne, Jupiter ou Mars : on
             distinguera par le même moyen Vénus de Mercure.</p>
         
         <p>Nature des planetes, en observant les différentes phases &amp; les différentes apparences des planetes, on trouve qu’elles sont toutes parfaitement semblables à la Lune, que l’on a démontré à l’article
-            <ref target="article_lune">Lune</ref>, avoir une ressemblance parfaite avec notre Terre, d’où il suit que les planetes sont aussi des corps opaques, sphériques, etc. de même que la Terre.</p></sense>
+            <ref target="article_lune"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-2074-0/"/>Lune</ref>, avoir une ressemblance parfaite avec notre Terre, d’où il suit que les planetes sont aussi des corps opaques, sphériques, etc. de même que la Terre.</p></sense>
         </entry>
+        </lem>
+        <rdg wit="Yverdon">
+        <entry>
+        <form><orth>PLANETE, (R)</orth></form>, <gramGrp><pos>s.</pos> <gen>f.</gen></gramGrp>, <usg type="dom">Astron.</usg>,<sense><p>astre qui change de place, ou qui
+             décrit un orbite: 
+        planhthÖ, <language ident="lat">erraticus</language>. Tous les corps célestes sont fixes ou mobiles, et sont compris sous les noms d'étoiles ou de planetes, et 
+        dans ce sens les cometes 
+        elles-mêmes sont des planetes; mais l'usage ancien est de comprendre seulement sous le nom de planetes, le soleil, la Lune, Mercure, Vénus, Mars, Jupiter et 
+        Saturne.</p>
+        <p>Depuis qu'il est prouvé que le soleil est fixe, et que c'est la terre qui tourne chaque année, les astronomes ne le mettent plus au nombre des planetes; c'est 
+            la terre qui est la planete, et non pas le soleil.</p>
+        <p>La découverte des planetes ou satellites, qui tournent autour de Jupiter et de Saturne, a fait distinguer les planetes en principales et secondaires; les unes 
+            qui tournent autour du soleil, c'est-à-dire, Mercure, Vénus, Mars, Jupiter et Saturne; les autres qui tournent autour des planetes principales, comme la lune,
+             les quatre satellites de Jupiter et les cinq satellites de Saturne.</p>
+        <p>Les planetes principales se distinguent en planetes supérieures et inférieures. Les supérieures, Mars, Jupiter et Saturne, sont plus éloignées du soleil que la
+             terre; les inférieures en sont plus près; c'est Mercure et Vénus. v. <ref target="article_systeme">SYSTÊME</ref>.</p>
+        <p>Les caracteres, par lesquels on représente les planetes et que nous joignons <ref target="fig">ici</ref>, sont relatifs aux noms de divinités qu'on leur a données.</p>
+        <p>Scaliger, dans ses notes sur Manilius, dit qu'on les voit sur plusieurs pierres très-anciennes. Pour la lune, c'est un croissant, pour Mercure, un caducée, pour
+             Vénus, un miroir avec son manche, pour Mars, une flêche et un bouclier, pour Jupiter, la premiere lettre du nom qu'il porte en grec ZEUS, avec une intersection,
+             pour Saturne, la faux qui en étoit l'attribut. On peut voir à ce sujet la dissertation de M. Goguet, dans son livre de l'origine des loix, tom. II. p. 427. édit. 
+             in-4°. il y traite aussi de l'origine des noms des planetes.</p>
+        <p>Vénus étant la plus brillante, fut aussi après la lune la premiere planete qu'on remarqua. C'est la seule dont il soit parlé dans Hésiode et dans Homere, comme dans
+            l'Ecriture-sainte. Démocrite soupçonnoit qu'il y avoit plusieurs étoiles errantes; mais il n'avoit pas osé en déterminer le nombre, Sen. Quæst. Nat. l. VII. c. 3;
+            et les Grecs ne connoissoient point encore les mouvemens des cinq planetes, lorsqu'Eudoxe en rapporta d'Egypte la premiere connoissance, 380 ans avant Jesus-Christ.
+            Les Grecs en voyant Vénus briller, tantôt le soir et tantôt le matin, en avoient fait deux planetes différentes, Esperos et Eosphoros. On prétend que Pythagore fut
+            le premier, qui fit connoître aux Grecs, que ces deux astres n'en faisoient qu'un, Stob. Eccl. phys. l. I. p. 55. Plin. l. II. c. 8. Diog. Laër. l. VIII. sec. I4.
+            p. 499. édit. de I692; mais Phavorinus faisoit honneur de cette découverte à Parménide, qui vivoit encore 50 ans plus tard que Pythagore. Diog. Laër. à la fin de
+            Parménide.</p>
+        <p>On distingue ordinairement les planetes d'avec les étoiles fixes de la premiere grandeur, en ce que leur lumiere est tranquille, pâle, et n'a point cette scintillation
+            ou cette vibration de lumiere, qui étincelle dans les étoiles de la premiere grandeur; il n'y a guere que Vénus, dans laquelle on apperçoit une espece de scintillation;
+            mais elle se distingue assez de toutes les autres par la vivacité de sa lumiere, qui est si considérable, qu'on l'apperçoit quelquefois même en plein jour, v. <ref target="article_venus">VÉNUS</ref>.
+            D'ailleurs elle est toujours le soir du côté du couchant, ou le matin du côté de l'orient, ce qui forme encore un indice pour la reconnoître.</p>
+        <p>Mars se distingue par sa couleur rougeâtre, Jupiter par sa blancheur, Saturne par une couleur pâle et plombée; mais ces signes ne sont pas assez caractérisés, pour
+            qu'on puisse distinguer avec certitude ces planetes les unes des autres, si l'on n'a pas égard à leurs situations et à leurs mouvemens; c'est pour cela qu'on met
+            dans les éphémerides et dans nos meilleurs almanacs, la longitude des planetes pour certains jours du mois, calculée d'après les tables astronomiques, ou bien leur
+            lever et leur coucher, ce qui suffit pour les reconnoître.</p>
+        <p>Comme il n'y a dans le zodiaque où se trouvent toujours les planetes, que quatre étoiles de la premiere grandeur Aldébaran, Régulus, l'Epi de la vierge et Antarès,
+            lorsqu'on a appris à les connoître, comme nous l'avons expliqué au mot ÉTOILE, et que l'on connoît à-peu près la direction ou le contour du zodiaque, on distingue
+            facilement une planete dès qu'on voit un astre qui est à-peu-près de la même lumiere, et qui n'est pas une des quatre étoiles que nous venons d'indiquer.</p>
+        </sense>
+    </entry>
+    </rdg>
+</app>
     </body>
 </text>
     
