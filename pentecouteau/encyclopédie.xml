@@ -32,51 +32,81 @@
     <body>
         <div type="article">
             <head>DRAGON</head>
-
-            <p>DRAGON, s. m. <hi rend="italic">en Astronomie</hi>, est une constellation de l’hémisphère septentrional, composée, selon <name>Ptolomée</name>, de 31 étoiles ; de 32, selon <name>Tycho</name> ; de 33, selon <name>Bayer</name> ; & de 49, selon <name>Flamsteed</name>. (O)</p>
-
-            <p>DRAGON, <hi rend="italic">terme d’Astronomie</hi>. La tête & la queue du dragon, <hi rend="italic"><foreign lang="latin">caput & cauda draconis</foreign></hi>, sont les nœuds où les deux points d’intersection de l’écliptique & de l’orbite de la Lune, qui fait avec l’écliptique un angle d’environ cinq degrés. Voyez <ref>Orbite</ref> & <ref>Nœud</ref>.</p>
-
+            <entry>
+            <form>
+            <orth>DRAGON</orth>
+            </form>
+            <gramGrp>
+            <pos>s. m.</pos>
+            </gramGrp>
+            
+            <sense n="1">
+            <def>
+            <p>DRAGON<hi rend="italic">en Astronomie</hi>, est une constellation de l’hémisphère septentrional, composée, selon <name>Ptolomée</name>, de 31 étoiles ; de 32, selon <name>Tycho</name> ; de 33, selon <name>Bayer</name> ; &amp; de 49, selon <name>Flamsteed</name>. (O)</p>
+            <p>DRAGON, <hi rend="italic">terme d’Astronomie</hi>. La tête &amp; la queue du dragon, <hi rend="italic"><etym lang="latin">caput &amp; cauda draconis</etym></hi>, sont les nœuds où les deux points d’intersection de l’écliptique &amp; de l’orbite de la Lune, qui fait avec l’écliptique un angle d’environ cinq degrés. Voyez <ref>Orbite</ref> &amp; <ref>Nœud</ref>.</p>
             <p>Il faut remarquer que ces points ne sont pas toûjours au même endroit ; qu’ils ont un mouvement propre dans le Zodiaque, par lequel ils retrogradent très-sensiblement, parcourant le cercle entier dans l’espace d’environ dix-neuf ans.</p>
-
             <p>C’est dans ces points d’intersection, ou proche de ces points, que se font toutes les éclipses. Voyez <ref>Éclipse</ref>.</P>
-
-            <p>On les marque ordinairement par ces caracteres, <g>☊</g>, tête du <hi rend="italic">dragon<hi/>, & <g>☋</g>, queue du <hi rend="italic">dragon<hi/>.</p>
-
-            <p>L’un de ces points, appellé <hi rend="italic">tête du dragon</hi>, est celui par lequel la Lune passe pour entrer dans la partie septentrionale de son orbite ; l’autre appellé <hi rend="italic">queue du dragon</hi>, est celui par lequel la Lune passe pour entrer dans la partie méridionale de son orbite. On ne voit pas de trop bonnes raisons de cette dénomination ; aussi les astronomes modernes l’ont abandonné, ils ne se servent plus que des mots de <hi rend="italic">nœud ascendant</hi> & <hi rend="italic">descendant</hi>. Voyez ces mots. (O)</p>
-
-            <p>Dragon, <hi rend="italic"><foreign lang="latin">draco</foreign></hi>, (<hi rend="italic">Hist. natur. Zoolog.</hi>) animal fabuleux que l’on s’est représenté sous la forme d’un serpent avec des ailes & des piés. Les descriptions que les anciens en ont faites, varient pour la grandeur, la couleur & la figure de ce prétendu animal : il n’y a pas moins de contradictions par rapport aux mauvaises qualités qu’on lui a attribuées. On a distingué de grands & de petits <hi rend="italic">dragons</hi> ; la longueur des derniers étoit de cinq coudées, & celle des autres alloit jusqu’à trente, 40 ou 50 : on a même crû qu’il s’en trouvoit de 100 coudées & plus. On a dit que les grands <hi rend="italic">dragons</hi> avaloient des cerfs & d’autres bêtes. Ce fait, tout étonnant qu’il est, a été rapporté & confirmé par différens auteurs, au sujet des grands serpens des Indes, voyez <ref>Serpent</ref>. L’origine que l’on a attribuée à certains <hi rend="italic">dragons</hi>, en disant qu’ils étoient produits par l’accouplement d’un aigle avec une louve, est aussi fausse que merveilleuse. On a distingué les <hi rend="italic">dragons</hi> mâles & les femelles, <hi rend="italic"><foreign lang="latin">dracones</foreign></hi> & <hi rend="italic"><foreign lang="latin">draconæ</foreign></hi>, en ce que les mâles étoient plus grands, plus forts & plus courageux que les femelles ; qu’ils avoient une crête, & qu’ils habitoient sur les plus hautes montagnes, d’où ils ne descendoient dans les plaines que pour chercher leur proie : les femelles au contraire restoient dans les lieux marécageux ; elles étoient lentes, & n’avoient point de crêtes. On a crû qu’il y avoit des <hi rend="italic">dragons</hi> cendrés, de couleur dorée, de noirs, à l’exception du ventre qui étoit verdâtre. Je ne finirois pas si j’entreprenois de rapporter ce que l’on a dit de leur venin, de leur façon de vivre, de leur accouplement, &c. & de décrire les différentes figures sous lesquelles on a représenté les <hi rend="italic">dragons</hi>, & celles que l’on fait de petites raies desséchées, & que l’on garde dans les cabinets d’histoire naturelle, sous les noms de <hi rend="italic">dragons</hi>, de <hi rend="italic">basilics</hi>, &c. Voyez Ald. de <hi rend="italic"><foreign lang="latin">serpentibus</foreign></hi> & <hi rend="italic">draconibus</hi>.</p>
-
-            <p>Il n’y a déjà dans les livres que trop de ces histoires fabuleuses de <hi rend="italic">dragons</hi> : j’avoue qu’il y en a quelques-unes qui sont fondées sur de grandes autorités, & je ne suis pas éloigné de les croire vraies pour le fond, en mettant quelques modifications dans la forme. Je pense qu’on a donné indistinctement le nom de <hi rend="italic">dragon</hi> aux animaux monstrueux du genre des serpens, des lésards, des crocodiles, &c. que l’on a trouvés en différens tems, & qui ont paru extraordinaires par leur grandeur ou par leur figure. On ne sait pas à quel degré d’accroissement un reptile peut parvenir ; s’il reste ignoré dans sa caverne pendant un très-long tems, sa figure doit changer avec l’âge, & dans la suite des générations il se trouve assez de difformités & de monstruosités pour faire un <hi rend="italic">dragon</hi> d’un animal appartenant à une espece ordinaire : par conséquent les <hi rend="italic">dragons</hi> sont fabuleux, si on les donne comme une espece d’animaux constante dans la nature ; mais on peut croire qu’il a existé des <hi rend="italic">dragons</hi>, si on les regarde comme des monstres, ou comme des animaux parvenus à une grandeur extrème. (I)</p>
-
+            <p>On les marque ordinairement par ces caracteres, <g>☊</g>, tête du <hi rend="italic">dragon<hi/>, &amp; <g>☋</g>, queue du <hi rend="italic">dragon<hi/>.</p>
+            <p>L’un de ces points, appellé <hi rend="italic">tête du dragon</hi>, est celui par lequel la Lune passe pour entrer dans la partie septentrionale de son orbite ; l’autre appellé <hi rend="italic">queue du dragon</hi>, est celui par lequel la Lune passe pour entrer dans la partie méridionale de son orbite. On ne voit pas de trop bonnes raisons de cette dénomination ; aussi les astronomes modernes l’ont abandonné, ils ne se servent plus que des mots de <hi rend="italic">nœud ascendant</hi> &amp; <hi rend="italic">descendant</hi>. Voyez ces mots. (O)</p>
+            </def>
+            </sense>
+            
+            <sense n="2">
+            <def>
+            <p>Dragon, <hi rend="italic"><etym lang="latin">draco</etym></hi>, (<hi rend="italic">Hist. natur. Zoolog.</hi>) animal fabuleux que l’on s’est représenté sous la forme d’un serpent avec des ailes &amp; des piés. Les descriptions que les anciens en ont faites, varient pour la grandeur, la couleur &amp; la figure de ce prétendu animal : il n’y a pas moins de contradictions par rapport aux mauvaises qualités qu’on lui a attribuées. On a distingué de grands &amp; de petits <hi rend="italic">dragons</hi> ; la longueur des derniers étoit de cinq coudées, &amp; celle des autres alloit jusqu’à trente, 40 ou 50 : on a même crû qu’il s’en trouvoit de 100 coudées &amp; plus. On a dit que les grands <hi rend="italic">dragons</hi> avaloient des cerfs &amp; d’autres bêtes. Ce fait, tout étonnant qu’il est, a été rapporté &amp; confirmé par différens auteurs, au sujet des grands serpens des Indes, voyez <ref>Serpent</ref>. L’origine que l’on a attribuée à certains <hi rend="italic">dragons</hi>, en disant qu’ils étoient produits par l’accouplement d’un aigle avec une louve, est aussi fausse que merveilleuse. On a distingué les <hi rend="italic">dragons</hi> mâles &amp; les femelles, <hi rend="italic"><etym lang="latin">dracones</etym></hi> &amp; <hi rend="italic"><etym lang="latin">draconæ</etym></hi>, en ce que les mâles étoient plus grands, plus forts &amp; plus courageux que les femelles ; qu’ils avoient une crête, &amp; qu’ils habitoient sur les plus hautes montagnes, d’où ils ne descendoient dans les plaines que pour chercher leur proie : les femelles au contraire restoient dans les lieux marécageux ; elles étoient lentes, &amp; n’avoient point de crêtes. On a crû qu’il y avoit des <hi rend="italic">dragons</hi> cendrés, de couleur dorée, de noirs, à l’exception du ventre qui étoit verdâtre. Je ne finirois pas si j’entreprenois de rapporter ce que l’on a dit de leur venin, de leur façon de vivre, de leur accouplement, &amp;c. &amp; de décrire les différentes figures sous lesquelles on a représenté les <hi rend="italic">dragons</hi>, &amp; celles que l’on fait de petites raies desséchées, &amp; que l’on garde dans les cabinets d’histoire naturelle, sous les noms de <hi rend="italic">dragons</hi>, de <hi rend="italic">basilics</hi>, &amp;c. Voyez Ald. de <hi rend="italic"><etym lang="latin">serpentibus</etym></hi> &amp; <hi rend="italic"><etym lang="latin">draconibus</etym></hi>.</p>
+            <p>Il n’y a déjà dans les livres que trop de ces histoires fabuleuses de <hi rend="italic">dragons</hi> : j’avoue qu’il y en a quelques-unes qui sont fondées sur de grandes autorités, &amp; je ne suis pas éloigné de les croire vraies pour le fond, en mettant quelques modifications dans la forme. Je pense qu’on a donné indistinctement le nom de <hi rend="italic">dragon</hi> aux animaux monstrueux du genre des serpens, des lésards, des crocodiles, &amp;c. que l’on a trouvés en différens tems, &amp; qui ont paru extraordinaires par leur grandeur ou par leur figure. On ne sait pas à quel degré d’accroissement un reptile peut parvenir ; s’il reste ignoré dans sa caverne pendant un très-long tems, sa figure doit changer avec l’âge, &amp; dans la suite des générations il se trouve assez de difformités &amp; de monstruosités pour faire un <hi rend="italic">dragon</hi> d’un animal appartenant à une espece ordinaire : par conséquent les <hi rend="italic">dragons</hi> sont fabuleux, si on les donne comme une espece d’animaux constante dans la nature ; mais on peut croire qu’il a existé des <hi rend="italic">dragons</hi>, si on les regarde comme des monstres, ou comme des animaux parvenus à une grandeur extrème. (I)</p>
+            </def>
+            </sense>
+            
+            <sense n="3">
+            <def>
             <p>Dragon de mer. Voyez <ref>Vive</ref>.</p>
+            </def>
+            </sense>
 
-            <p>Dragon, (Hist. mod.) ce fut une enseigne militaire des <name>Perses</name>, des <name>Daces</name>, des <name>Parthes</name>, & même des </name>Romains ; & ce fut de-là qu’on appella Draconains ceux qui la portoient.</p>
+            <sense n="4">
+            <def>
+            <p>Dragon, (Hist. mod.) ce fut une enseigne militaire des <name>Perses</name>, des <name>Daces</name>, des <name>Parthes</name>, &mp; même des </name>Romains ; &amp; ce fut de-là qu’on appella Draconains ceux qui la portoient.</p>
+            </def>
+            </sense>
 
-            <p>Dragon, (Myth.) Le dragon qui mord sa queue fut, dans la Mythologie, le symbole de <name>Janus</name>. Elle avoit attelé des dragons au char de <name/>Cerès. Il fut aussi le symbole de <name>Bacchus Bassarus</name>. Elle employa un <hi rend="italic">dragon</hi> à garder les pommes du jardin des <name>Hespérides</name>.</p>
+            <sense n="5">
+            <def>
+            <p>Dragon, (Myth.) Le dragon qui mord sa queue fut, dans la Mythologie, le symbole de <name>Janus</name>. Elle avoit attelé des dragons au char de <name>Cerès</name>. Il fut aussi le symbole de <name>Bacchus Bassarus</name>. Elle employa un <hi rend="italic">dragon</hi> à garder les pommes du jardin des <name>Hespérides</name>.</p>
+            </def>
+            </sense>
 
-            <p>Dragon renversé, (Hist. mod.) ordre de chevalerie, institué par l’empereur Sigismond vers l’an 1418, après la célébration du concile de Constance, en mémoire de la condamnation des erreurs de Jean Hus & de Jérôme de Prague, à laquelle ce prince contribua beaucoup par ses soins, son autorité, & son zele. Cet ordre qui ne subsiste plus, a fleuri en Allemagne & en Italie. Les chevaliers portoient ordinairement une croix fleurdelisée de verd. Aux jours solennels ils revêtoient le manteau d’écarlate ; & sur un mantelet de soie verte, ils avoient une double chaîne d’or, de laquelle pendoit un dragon renversé, aux ailes abattues, émaillées de diverses couleurs. Favin, théâtre d’honn. & de chev. Chambers. (G)</p>
+            <sense n="6">
+            <def>
+            <p>Dragon renversé, (Hist. mod.) ordre de chevalerie, institué par l’empereur <name>Sigismond</name> vers l’an 1418, après la célébration du concile de Constance, en mémoire de la condamnation des erreurs de <name>Jean Hus</name> &amp; de <name>Jérôme de Prague</name>, à laquelle ce prince contribua beaucoup par ses soins, son autorité, &amp; son zele. Cet ordre qui ne subsiste plus, a fleuri en Allemagne &amp; en Italie. Les chevaliers portoient ordinairement une croix fleurdelisée de verd. Aux jours solennels ils revêtoient le manteau d’écarlate ; &amp; sur un mantelet de soie verte, ils avoient une double chaîne d’or, de laquelle pendoit un <hi rend="italic">dragon renversé</hi rend="italic">, aux ailes abattues, émaillées de diverses couleurs. Favin, <hi rend="italic">théâtre d’honn. &amp; de chev. Chambers</hi rend="italic">. (G)</p>
+            </def>
+            </sense>
+            
+            <sense n="7">
+            <def>
+            <p>Dragons, (Hist. mod. &amp; Art milit.) il se dit d’une sorte de cavaliers qui marchent à cheval &amp; qui combattent à pié, mais aussi quelquefois à cheval.</p>
+            <p>Menage dérive le mot dragon, du mot latin <hi rend="italic"><etym lang="latin">draconarius</etym></hi>, dont <name>Végece</name> se sert pour désigner un soldat ; mais il y a plus d’apparence qu’il vient de l’allemand <hi rend="italic"><etym lang="allemand">tragen</etym></hi> ou <hi rend="italic"><etym lang="allemand">draghen</etym></hi> qui signifie porter, comme étant une infanterie portée à cheval.</p>
+            <p>Les <hi rend="italic">dragons</hi> sont ordinairement postés à la tête du camp, &amp; vont les premiers à la charge, comme une espece d’enfans perdus. Ils sont réputés ordinairement du corps de l’infanterie, &amp; en cette qualité ils ont des colonels &amp; des sergens ; mais ils ont des cornettes comme la cavalerie. Dans les armées Françoises on dit que ce sont des cavaliers sans botte.</p>
+            <p>Les armes des <hi rend="italic">dragons</hi> sont l’épée, le fusil, &amp; la bayonnette. Dans le service de France, quand les <hi rend="italic">dragons</hi> marchent à pié, leurs officiers portent la pique, &amp; les sergens la hallebarde ; dans le service Anglois on ne se sert de l’un ni de l’autre. <hi rend="italic">Chambers</hi>.</p>
+            <p>L’origine des <hi rend="italic">dragons</hi> en France est assez ancienne, mais les anciens corps de ces troupes n’y ont pas été entretenus. Ceux d’aujourd’hui ont été créés par <name>Louis XIV</name>, qui leur avoit d’abord donné rang d’infanterie, avec laquelle ils servoient &amp; avoient le commandement à grade égal suivant l’ancienneté de leurs régimens ; c’est-à-dire que lorsqu’un régiment de <hi rend="italic">dragons</hi> étoit plus ancien qu’un régiment d’infanterie, les capitaines du régiment de <hi rend="italic">dragons</hi> commandoient à ceux du régiment d’infanterie moins ancien, &amp; ainsi des autres officiers. Le roi donna ensuite rang aux <hi rend="italic">dragons</hi> avec la cavalerie, &amp; ils commandent les officiers de ce corps ou ils en sont commandés à grade égal, suivant l’ancienneté de leurs brevets. Si les brevets se trouvent du même jour, l’officier de cavalerie commande par préférence sur celui de <hi rend="italic">dragons</hi>.</p>
+            <p>A l’armée les <hi rend="italic">dragons</hi> sont quelquefois mêlés avec la cavalerie, &amp; ils obéissent au commandement de la cavalerie. Ils font aussi quelquefois corps entr’eux, &amp; alors ils ont un commandant particulier.</p>
+            <p>Les dragons ont deux principaux officiers, qui sont le colonel général &amp; le mestre de camp général.</p>
+            <p>Quand les armées s’assemblent, il y a un major général pour les <hi rend="italic">dragons</hi>, comme dans l’infanterie, au-dessus des majors des régimens, qui doivent prendre les ordres de lui. Cet officier reçoit l’ordre du maréchal général des logis de la cavalerie. (Q)</p>
+            </def>
+            </sense>
+            
+            <sense n="8">
+            <def>
+            <p>Dragon &amp; Dragon volant, (Art militaire, Artillerie.) ce sont des noms qu’on donnoit autrefois à des pieces de canon de 40 livres de balle, &amp; de 32 : ces noms ni ces pieces ne sont plus en usage depuis long tems. (Q)</p>
+            </def>
+            </sense>
 
-            <p>Dragons, (Hist. mod. & Art milit.) il se dit d’une sorte de cavaliers qui marchent à cheval & qui combattent à pié, mais aussi quelquefois à cheval.</p>
-
-            <p>Menage dérive le mot dragon, du mot latin draconarius, dont Végece se sert pour désigner un soldat ; mais il y a plus d’apparence qu’il vient de l’allemand tragen ou draghen qui signifie porter, comme étant une infanterie portée à cheval.</p>
-
-            <p>Les dragons sont ordinairement postés à la tête du camp, & vont les premiers à la charge, comme une espece d’enfans perdus. Ils sont réputés ordinairement du corps de l’infanterie, & en cette qualité ils ont des colonels & des sergens ; mais ils ont des cornettes comme la cavalerie. Dans les armées Françoises on dit que ce sont des cavaliers sans botte.</p>
-
-            <p>Les armes des dragons sont l’épée, le fusil, & la bayonnette. Dans le service de France, quand les dragons marchent à pié, leurs officiers portent la pique, & les sergens la hallebarde ; dans le service Anglois on ne se sert de l’un ni de l’autre. Chambers.</p>
-
-            <p>L’origine des dragons en France est assez ancienne, mais les anciens corps de ces troupes n’y ont pas été entretenus. Ceux d’aujourd’hui ont été créés par Louis XIV, qui leur avoit d’abord donné rang d’infanterie, avec laquelle ils servoient & avoient le commandement à grade égal suivant l’ancienneté de leurs régimens ; c’est-à-dire que lorsqu’un régiment de dragons étoit plus ancien qu’un régiment d’infanterie, les capitaines du régiment de dragons commandoient à ceux du régiment d’infanterie moins ancien, & ainsi des autres officiers. Le roi donna ensuite rang aux dragons avec la cavalerie, & ils commandent les officiers de ce corps ou ils en sont commandés à grade égal, suivant l’ancienneté de leurs brevets. Si les brevets se trouvent du même jour, l’officier de cavalerie commande par préférence sur celui de dragons.</p>
-
-            <p>A l’armée les dragons sont quelquefois mêlés avec la cavalerie, & ils obéissent au commandement de la cavalerie. Ils font aussi quelquefois corps entr’eux, & alors ils ont un commandant particulier.</p>
-
-            <p>Les dragons ont deux principaux officiers, qui sont le colonel général & le mestre de camp général.</p>
-
-            <p>Quand les armées s’assemblent, il y a un major général pour les dragons, comme dans l’infanterie, au-dessus des majors des régimens, qui doivent prendre les ordres de lui. Cet officier reçoit l’ordre du maréchal général des logis de la cavalerie. (Q)</p>
-
-            <p>Dragon & Dragon volant, (Art militaire, Artillerie.) ce sont des noms qu’on donnoit autrefois à des pieces de canon de 40 livres de balle, & de 32 : ces noms ni ces pieces ne sont plus en usage depuis long tems. (Q)</p>
-
-            <p>Dragon, (Maréchall.) les Maréchaux appellent ainsi une maladie qui vient aux yeux des chevaux, & qui consiste en une tache blanche au fond de la prunelle : elle n’est pas au commencement plus grosse que la tête d’une épingle ; mais elle croît peu-à-peu au point de couvrir toute la prunelle. Le dragon vient d’obstruction & de l’engorgement d’une lymphe trop épaissie. Ce mal est incurable.</p>
-
+            <sense n="9">
+            <def>
+            <p>Dragon, (Maréchall.) les Maréchaux appellent ainsi une maladie qui vient aux yeux des chevaux, &amp; qui consiste en une tache blanche au fond de la prunelle : elle n’est pas au commencement plus grosse que la tête d’une épingle ; mais elle croît peu-à-peu au point de couvrir toute la prunelle. Le <hi rend="italic">dragon</hi> vient d’obstruction &amp; de l’engorgement d’une lymphe trop épaissie. Ce mal est incurable.</p>
+            </def>
+            </sense>
+            </entry>
         </div>
     </body>
 </text>
