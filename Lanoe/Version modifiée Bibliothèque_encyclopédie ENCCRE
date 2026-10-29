@@ -15,14 +15,25 @@
 </publicationStmt>
 
   <sourceDesc>
-        <Bible>
+        <bibl>
             <title>Encyclopédie</title>
             <author>Diderot et d'Alembert</author>
             <edition>Première édition</edition>
             <date when="1751">1751</date>
              <biblScope unit="volume">II</biblScope>
             <biblScope unit="page">228</biblScope>
-        </Bible>
+        </bibl>
+
+      <listWit>
+        <witness xml:id="ENCCRE">
+            Version de l'Encyclopédie originale, 1751
+        </witness>
+        <witness xml:id="Yverdon">
+            Version de l'Encyclopédie d'Yverdon,
+            consultée dans l'édition numérique de Classiques Garnier
+        </witness>
+    </listWit>
+
     </sourceDesc>
 
 <profileDesc>
@@ -56,8 +67,20 @@
       La structure est découpée en paragraphes numérotés avec l'attribut n pour faciliter le repérage.
       Sur le plan typographique, l'élément "hi" avec l'attribut "rend" a été utilisé pour signaler les mots en italique (italic). 
       Enfin, sur le plan sémantique, les passages en grec ancien et en latin sont identifiés par la balise language avec l'attribut xml:lang, 
-      tandis que les renvois vers d'autres articles ou références bibliques ne sont pas encodés car je n'ai pas trouvé comment faire.
+      tandis que les renvois vers d'autres articles ou références bibliques ont été encodés.
     </p>
+
+    <p>Pour distinguer les deux versions de l'article « Bibliothèque »,
+  l'élément <gi>app</gi> a été utilisé. Le texte de référence,
+  issu de l'Encyclopédie originale et consulté sur l'ENCCRE,
+  est placé dans l'élément <gi>lem</gi>. La version de
+  l'Encyclopédie d'Yverdon, consultée sur Classiques Garnier,
+  est encodée dans l'élément <gi>rdg</gi>. Les différences de
+  formulation et d'organisation entre les deux versions justifient
+  ce choix. L'attribut <att>wit</att> permet de rattacher chaque
+  version au témoin correspondant, déclaré dans <gi>listWit</gi>.
+   </p> 
+
   </editorialDecl>
 </encodingDesc>
 
@@ -75,14 +98,17 @@
         <front>
             <title>BIBLIOTHÈQUE</title>
         </front>
-    
+
+    <app> 
+     <lem wit="#ENCCRE">
+
 <p n="1">
     <hi rend="sc">Bibliotheque</hi>, <hi rend="italic">s. f.</hi> ce nom est formé de <language xml:lang="grc">βίϐλος</language>, 
     <hi rend="italic">livre</hi>, &amp; de <language xml:lang="grc">θήκη</language>, <language xml:lang="la"><hi rend="italic">theca</hi></language>, 
     <language xml:lang="la"><hi rend="italic">repositorium</hi></language> ; ce derniers mot vient de <language xml:lang="grc">τίθημι</language>, 
     <language xml:lang="la"><hi rend="italic">pono</hi></language>, &amp; se dit de tout ce qui sert à serrer quelque thing. 
     Ainsi <hi rend="italic">bibliotheque</hi>, selon le sens littéral de ce mot, signifie un lieu destiné pour y mettre des livres. 
-    Une <hi rend="italic">bibliotheque</hi> est un lieu plus ou moins vaste, avec des tablettes ou des armoires où les livres sont rangés sous différentes classes : nous parlerons de cet ordre à l’article <ref target="#Catalogue"><hi rend="italic">Catalogue</hi></ref>.
+    Une <hi rend="italic">bibliotheque</hi> est un lieu plus ou moins vaste, avec des tablettes ou des armoires où les livres sont rangés sous différentes classes : nous parlerons de cet ordre à l’article <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-3942-0/"><hi rend="italic">Catalogue</hi></ref>.
 </p>
 
 <p n="2">
@@ -211,7 +237,7 @@
 <p n="19">
     Les auteurs ne parlent point des <hi rend="italic">bibliotheques</hi> de la Chaldée ; tout ce qu’on en peut dire, c’est qu’il y avoit dans ce pays 
     des savans en plusieurs genres, &amp; sur-tout dans l’Astronomie, comme il paroît par une suite d’observations de 1900 ans que Calisthenes envoya 
-    à Aristote après la prise de Babylone par Alexandre. Voyez <hi rend="italic">Astronomie</hi>.
+    à Aristote après la prise de Babylone par Alexandre. Voyez <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-3371-0/"><hi rend="italic">Astronomie</hi></ref>.
 </p>
 
 
@@ -221,9 +247,214 @@
     nations en <hi rend="italic">bibliotheques</hi> aussi bien qu’en savoir.
 </p>
 
+</lem>
 
-     <body>
+<rdg wit="#Yverdon">
+  <p>
+    <hi rend="italic">BIBLIOTHEQUE</hi>, (R), s.f.
+    <graphic url="https://num-classiques-garnier-com.distant.bu.univ-rennes2.fr/img-ColYverdon/_ico_ficheident.jpg"/>
+    ; ce nom est formé de bivßloÖ, <hi rend="italic">livre</hi>, et de qhvkh,
+    <hi rend="italic">theca, repositorium</hi> ; ce dernier mot vient de
+    tivqhmi, <hi rend="italic">pono</hi>, et se dit de tout ce qui sert à
+    serrer quelque chose. Ainsi <hi rend="italic">bibliotheque</hi>, selon
+    le sens littéral de ce mot, signifie un lieu destiné pour y mettre des
+    livres. Une <hi rend="italic">bibliotheque</hi> est un lieu plus ou
+    moins vaste, avec des tablettes ou des armoires où les livres sont
+    rangés sous différentes classes : nous parlerons de cet ordre à
+    l'article <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-3942-0/">CATALOGUE</ref>.
+  </p>
 
- <text>
-    
+  <p>
+    Outre ce premier sens littéral, on donne aussi le nom de
+    <hi rend="italic">bibliotheque</hi> à la collection même des livres.
+    Quelques auteurs ont donné, par extension et par métaphore, le nom de
+    <hi rend="italic">bibliotheque</hi> à certains recueils qu'ils ont
+    faits, ou à certaines compilations d'ouvrages. Telles sont la
+    <hi rend="italic">bibliotheque</hi> rabbinique, la
+    <hi rend="italic">bibliotheque</hi> des auteurs ecclésiastiques,
+    <hi rend="italic">bibliotheca patrum</hi>, etc.
+  </p>
+
+  <p>
+    C'est en ce dernier sens que les auteurs ecclésiastiques ont donné par
+    excellence le nom de <hi rend="italic">bibliotheque</hi> au recueil des
+    livres inspirés, que nous appellons encore aujourd'hui la
+    <hi rend="italic">bible</hi>, c'est-à-dire, le livre par excellence.
+    En effet, selon le sentiment des critiques les plus judicieux, il
+    n'y avoit point de livres avant le tems de Moïse, et les Hébreux ne
+    purent avoir de <hi rend="italic">bibliotheque</hi> qu'après sa mort :
+    pour lors ses écrits furent recueillis avec beaucoup d'attention.
+    Par la suite on y ajoûta plusieurs autres ouvrages.
+  </p>
+
+  <p>
+    On peut distinguer les livres des Hébreux, en livres sacrés et livres
+    profanes : le seul objet des premiers étoit la religion ; les derniers
+    traitoient de la philosophie naturelle, et des connoissances
+    philosophiques et politiques.
+  </p>
+
+  <p>
+    Les livres sacrés étoient conservés ou dans des endroits publics, ou
+    dans des lieux particuliers : par endroits publics, il faut entendre
+    toutes les synagogues, et principalement le temple de Jérusalem, où
+    l'on gardoit avec un respect infini les tables de pierre sur lesquelles
+    Dieu avoit écrit ses dix commandemens, et qu'il ordonna à Moïse de
+    déposer dans l'arche d'alliance.
+  </p>
+
+  <p>
+    Outre les tables de la loi, les livres de Moïse et ceux des Prophetes
+    furent conservés dans la partie la plus secrete du sanctuaire, où il
+    n'étoit permis à personne de les lire ni d'y toucher ; le Grand-Prêtre
+    seul avoit droit d'entrer dans ce lieu sacré, et cela seulement une
+    fois par an : ainsi ces livres sacrés furent à l'abri des corruptions
+    des interprétations ; aussi étoient-ils dans la suite la pierre de
+    touche de tous les autres, comme Moïse le prédit au 32. chapitre du
+    <hi rend="italic">Deuteronome</hi>, où il ordonna aux Lévites de placer
+    ses livres au-dedans de l'arche.
+  </p>
+
+  <p>
+    Quelques auteurs croyent que Moïse étant prêt à mourir, ordonna qu'on
+    fit douze copies de la loi, qu'il distribua aux douze tribus : mais
+    Maimonides assûre qu'il en fit faire treize copies, c'est-à-dire,
+    douze pour les douze tribus, et une pour les Lévites, et qu'il leur
+    dit à tous, en les leur donnant,
+    <hi rend="italic">recevez le livre de la loi que Dieu lui-même nous a donné</hi>.
+    Les interprêtes ne sont pas d'accord si ce volume sacré fut déposé
+    dans l'arche avec les tables de pierre, ou bien dans un petit cabinet
+    séparé.
+  </p>
+
+  <p>
+    Quoiqu'il en soit, Josué écrivit un livre qu'il ajoûta ensuite à ceux
+    de Moïse. <hi rend="italic">Josué</hi> XIV. Tous les Prophetes firent
+    aussi des copies de leurs sermons et de leurs exhortations, comme on
+    peut le voir au chapitre XV. de Jérémie, et dans plusieurs autres
+    endroits de l'Ecriture : ces sermons et ces exhortations furent
+    conservés dans le temple pour l'instruction de la postérité.
+  </p>
+
+  <p>
+    Tous ces ouvrages composent une <hi rend="italic">bibliotheque</hi>
+    plus estimable par sa valeur intrinseque, que par le nombre des volumes.
+  </p>
+
+  <p>
+    Voilà tout ce qu'on sait de la <hi rend="italic">bibliotheque sacrée</hi>
+    qu'on gardoit dans le temple : mais il faut remarquer qu'après le retour
+    des Juifs de la captivité de Babylone, Néhémie rassembla les livres de
+    Moïse, et ceux des Rois et des Prophetes, dont il forma une
+    <hi rend="italic">bibliotheque</hi> ; il fut aidé dans cette entreprise
+    par Esdras, qui, au sentiment de quelques-uns, rétablit le Pentateuque,
+    et toutes les anciennes écritures saintes qui avoient été dispersées
+    lorsque les Babiloniens prirent Jérusalem, et brûlerent le temple avec
+    la <hi rend="italic">bibliotheque</hi> qui y étoit renfermée : mais
+    c'est surquoi les savans ne sont pas d'accord. En effet, c'est un point
+    très-difficile à décider.
+  </p>
+
+  <p>
+    Quelques auteurs prétendent que cette <hi rend="italic">bibliotheque</hi>
+    fut de nouveau rétablie par Judas Machabée, parce que la plus grande
+    partie en avoit été brûlée par Antiochus, comme on lit
+    <hi rend="italic">chap.</hi> I. <hi rend="italic">du premier Livre des Macchabées</hi>.
+    Quand même on conviendroit qu'elle eût subsisté jusqu'à la destruction
+    du second temple, on ne sauroit cependant déterminer le lieu où elle
+    étoit déposée : mais il est probable qu'elle eut le même sort que la
+    ville. Car quoique Rabbi Benjamin affirme que le tombeau du Prophete
+    Ezéchiel avec la <hi rend="italic">bibliotheque</hi> du premier et du
+    second temple, se voyoient encore de son tems dans un lieu situé sur
+    les bords de l'Euphrate ; cependant Manassés de Groningue, et plusieurs
+    autres personnes, dont on ne sauroit révoquer en doute le témoignage,
+    et qui ont fait exprès le voyage de Mésopotamie, assurent qu'il ne
+    reste aucun vestige de ce que prétend avoir vu Rabbi Benjamin, et que
+    dans tout le pays il n'y a ni tombeau ni
+    <hi rend="italic">bibliotheque</hi> hébraïque.
+  </p>
+
+  <p>
+    Outre la grande <hi rend="italic">bibliotheque</hi>, qui étoit
+    conservée religieusement dans le temple, il y en avoit encore une dans
+    chaque synagogue. <hi rend="italic">Actes des Apôtres</hi> XV.
+    <hi rend="italic">Luc.</hi> IV. I6. I7. Les auteurs conviennent
+    presqu'unanimement que l'Académie de Jérusalem étoit composée de
+    quatre cens soixante synagogues ou colleges, dont chacune avoit sa
+    <hi rend="italic">bibliotheque</hi>, où l'on alloit publiquement lire
+    les écritures saintes.
+  </p>
+
+  <p>
+    Après ces <hi rend="italic">bibliotheques</hi> publiques qui étoient
+    dans le temple et dans les synagogues, il y avoit encore des
+    <hi rend="italic">bibliotheques</hi> sacrées particulieres. Chaque Juif
+    en avoit une, puisqu'ils étoient tous obligés d'avoir les livres qui
+    regardoient leur religion, et même de transcrire chacun de sa propre
+    main une copie de la loi.
+  </p>
+
+  <p>
+    On voyoit encore des <hi rend="italic">bibliotheques</hi> dans les
+    célebres Universités, ou écoles des Juifs. Ils avoient aussi plusieurs
+    villes fameuses par les sciences qu'on y cultivoit, entr'autres celle
+    que l'on nomme <hi rend="italic">la ville des Lettres</hi>, et qu'on
+    croit avoir été Cariatsepher, située sur les confins de la tribu de
+    Juda. Dans la suite celle de Tibériade ne fut pas moins fameuse par
+    son école : et il est probable que ces sortes d'Académies n'étoient
+    point dépourvues de <hi rend="italic">bibliotheques</hi>.
+  </p>
+
+  <p>
+    Depuis l'entiere dispersion des Juifs à la ruine de Jérusalem et du
+    temple par Tite, leurs Docteurs particuliers ou Rabbins ont écrit
+    prodigieusement, et comme l'on sait, un amas de reveries et de contes
+    ridicules : mais dans les pays où ils sont tolérés et où ils ont des
+    synagogues, on ne voit point dans ces lieux d'assemblées, d'autres
+    livres que ceux de la loi : le talmud et les paraphrases, non plus que
+    les recueils de traditions rabbiniques, ne forment point de corps de
+    <hi rend="italic">bibliotheque</hi>.
+  </p>
+
+  <p>
+    Les Chaldéens et les Egyptiens étant les plus proches voisins de la
+    Judée, furent probablement les premiers que les Juifs instruisirent de
+    leurs sciences ; à ceux-là nous joindrons les Phéniciens et les Arabes.
+  </p>
+
+  <p>
+    Il est certain que les Sciences furent portées à une grande perfection
+    par toutes ces nations, et sur-tout par les Egyptiens, que quelques
+    auteurs regardent comme la nation la plus savante du monde, tant dans
+    la théologie payenne que dans la physique.
+  </p>
+
+  <p>
+    Il est donc probable que leur grand amour pour les lettres avoit
+    produit de savans ouvrages et de nombreuses collections de livres.
+  </p>
+
+  <p>
+    Les auteurs ne parlent point des <hi rend="italic">bibliotheques</hi>
+    de la Chaldée ; tout ce qu'on en peut dire, c'est qu'il y avoit dans
+    ce pays des savans en plusieurs genres, et sur-tout dans l'astronomie,
+    comme il paroît par une suite d'observations de I900 ans que Calisthenes
+    envoya à Aristote après la prise de Babylone par Alexandre.
+    <hi rend="italic">v.</hi>
+    <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-3371-0/">ASTRONOMIE</ref>.
+  </p>
+
+  <p>
+    Eusebe, <hi rend="italic">de Præp. Evangel.</hi> dit que les Phéniciens
+    étoient très-curieux dans leurs collections de livres, mais que les
+    <hi rend="italic">bibliotheques</hi> les plus nombreuses et les mieux
+    choisies étoient celles des Egyptiens, qui surpassoient toutes les
+    autres nations en <hi rend="italic">bibliotheques</hi> aussi bien qu'en
+    savoir.
+  </p>
+   </rdg>
+
+      </app>
+  </body>
+</text>
 </TEI>
