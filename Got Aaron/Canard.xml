@@ -16,11 +16,12 @@
                 <pubPlace>Université Bretagne Sud</pubPlace>
             </publicationStmt>
             <sourceDesc>
-                <bibl ref="sense n="1"">L'Encyclopédie numérisée par <editor>ENCCRE<link
-                            target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-3245-8/"
-                        /></editor>
+            <bibl ref="sense" n="1">
+                L'Encyclopédie numérisée par <editor>ENCCRE
+                <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-3245-8/"/>
+                </editor>
                 </bibl>
-                <bibl ref="sense n="2"">Yverdon
+                <bibl ref="sense" n="2">Yverdon
                 </bibl>
             </sourceDesc>
             <encodingDesc>
@@ -40,7 +41,9 @@
             <change when="2026-10-21" who="AG"> Ajout de la 2e définition d'Yverdon,catégorisation avec balise sense. Ajout de l'app
             avec lem pour la source opposée à comparer avec le rdg qui est la source de base.Utilisation de wit pour faire
             référence aux valeurs notées pour les différents sens. </change>
-            </listchange>
+            <change when="2026-10-29" who="AG"> Changement des balises p par des balises def pour garder les balises sense mais intégrer
+            des "sous-sens". Chaque sens sont codés en fonction de leur source. </change>
+            </listChange>
             </revisionDesc>
         </fileDesc>
     </teiHeader>
@@ -71,7 +74,8 @@
 
 </choice>
 <sense n="1" value="1">
-                <p> 
+<sense n="a">
+                <def> 
                     il pese trente-six à quarante onces ; il a environ un pié
                     neuf pouces de longueur, depuis la pointe du bec jusqu’à l’extrémité de la queue
                     ; l’envergure a près de deux piés neuf pouces ; le bec est d’un verd jaunâtre ;
@@ -110,9 +114,11 @@
                     cercle, &amp; ont une belle couleur luisante mêlée de pourpre &amp; de noir ;
                     les huit suivantes de chaque côté sont blanchâtres ; les plumes du dessous de
                     l’aile &amp; de la fausse aile sont blanches. <lb/>
-                </p>
+                </def>
+            </sense>
+            <sense n="b">
     
-            <p>
+            <def>
             Ces oiseaux vont par troupes pendant l’hyver ; au printems le mâle suit la
                     femelle ; ils marchent par paires, &amp; ils font leur nid le plus souvent près
                     de l’eau, dans les joncs &amp; les bruyeres, &amp; rarement sur les arbres. La
@@ -120,30 +126,38 @@
                     les couve : elle n’a pas la tête verte, ni de collier sur le cou ; sa tête &amp;
                     son cou ont du blanc, du brun, &amp; du roux noirâtre ; le milieu des plumes du
                     dos est d’un brun presque noir, &amp; les bords font d’un blanc roussâtre.
-                    Villughby, <quote rend="italic"> Ornith.</quote><xr> Voyez <ref>Oiseau</ref></xr>. <author>(I)</author>  <lb/>
-            </p>
+                    Villughby, <quote rend="italic"> Ornith.</quote><xr> Voyez <ref>Oiseau<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v11-1292-0/"></></ref></xr>. <author>(I)</author>  <lb/>
+            </def>
+            </sense>
+            <sense n="c">
            
-            <p>
+            <def>
             Le <emph rend="italic">canard sauvage</emph> passe pour meilleur que le <emph rend="italic">domestique</emph>, étant nourri à l’air libre, &amp; 
             d’alimens qu’il va chercher lui-même, &amp; plus exercé que l’autre; ce qui contribue à atténuer 
             &amp; à chasser au-dehors les humeurs grossieres qu’il pourroit contenir, &amp; enfin à exalter de plus
              en plus les principes de ses liqueurs ; ainsi il abonde davantage en sel volatil : cette chair
               est cependant de difficile digestion.<lb/>
-              </p>
+              </def>
+            </sense>
+            <sense n="d">
             
-            <p>
+            <def>
             Le foie du <emph rend="italic">canard sauvage</emph> passe pour propre à arrêter le flux hépatique.<lb/>
-            </p>
+            </def>
+            </sense>
+            <sense n="e">
             
-            <p>
+            <def>
             La graisse du <emph rend="italic">canard</emph> est adoucissante, résolutive, &amp; émolliente. <author>(N)</author> <lb/>
-            </p>
+            </def>
+            </sense>
             </sense>
             
 
             
-            <sense n="2" value="2">
-            <p>
+            <sense n="2">
+            <sense n="a">
+            <def>
             Ceux qui étudient les oiseaux, reconnoissent autant de différence entre les canards privés et les 
             sauvages, qu'il y en a entre les oies domestiques et les sauvages. A l'égard des couleurs, elles sont 
             aussi constantes dans les canards sauvages, qu'elles sont variées dans les domestiques.
@@ -155,8 +169,10 @@
         les lieux maritimes, parce qu'ils y trouvent leur principale nourriture: tels sont l'eidredon appellé canard 
         à duvet, la macreuse, le canard aux yeux d'or, le canard à bec large et arrondi en forme de bouclier, 
         le canard crêté appellé morillon, le canard à queue d'hirondelle.
-        </p>
-<p>
+        </def>
+        </sense>
+        <sense n="b">
+<def>
         Ceux que l'on appelle par excellence oiseaux de riviere, volent l'hyver en troupe et sentent la poudre 
         de fort loin: on en voit beaucoup en Italie, en Allemagne et en France.
 
@@ -181,45 +197,59 @@
         Canard de riviere dit sarcelle. Voyez ce mot. On donne encore ce nom quelque-fois à un petit canard, dont 
         le plumage de la tête est roux comme le poil du renard ou de la belette: il a beaucoup de ressemblance avec 
         la sarcelle. Quand il est un peu roux, on l'appelle canard de riviere roux.
-</p>
-<p>
+</def>
+</sense>
+<sense n="c">
+<def>
         Canard huppé jaune, ou canard de Marsilly: Anas cristata flavescens. Il a quelquefois un pied de long, 
         le bec très-rouge, le front élevé, garni de plumes molles et d'un beau jaune, qui descendent sur le bec; 
         le col, la poitrine, la queue d'un gris bleuâtre, les jambes blanches et les pieds d'un beau pourpre: 
         quelques-uns l'appellent sarcelle huppée.
-</p>
-<p>
+</def>
+</sense>
+<sense n="d">
+<def>
         Canard étoilé: Anas stellata. La singularité de ce canard consiste en ce que ses yeux sont environnés d'une 
         tache ovale et noire, placée très-haut, et que son dos est constamment couvert d'une étoile blanche: quelques 
         ornithologistes rangent dans cette classe le canard blanc: Anas albella: mais Klein pense que ce n'est qu'un 
         plongeon du Rhin.
-</p>
-<p>
+</def>
+</sense>
+<sense n="e">
+<def>
         Cane penelope: Anas penelope. Cet oiseau qui vole toujours autour des lacs et des rivieres est, selon M. Linné
         , du genre de l'oie. Quoi qu'il en soit, il est, dit Belon, de la grandeur de notre canard domestique, moins 
         gros; il a le bec gros, large et de couleur plombée, ainsi que les jambes et les pattes: son plumage est 
         diversifié par des lignes noires et blanches, le devant de la tête est blanc: la femelle est entiérement 
         semblable au mâle.
-</p>
-<p>
+</def>
+</sense>
+<sense n="f">
+<def>
         Cane petiere ou canard de pré de France: Anas campestris et pratensis gallica. Cet oiseau est particulier à 
         la France: il est de la grosseur du faisan, et vit de graines, de fourmis, d'escarbots, de petites mouches 
         et de bled verd: sa chair est aussi délicate que celle du faisan: cet animal n'est point un canard, et nous 
         croyons avec Belon, que c'est une petite espece d'outarde. v. OUTARDE.
-</p>
-<p>
+</def>
+</sense>
+<sense n="g">
+<def>
         Canards de mer. On a observé que ces sortes d'oiseaux ont le bec large et plus émoussé: le doigt de derriere 
         est large, couvert d'une membrane: la queue, quoiqu'un peu longue, n'est pas pointue.
-</p>
-<p>
+</def>
+</sense>
+<sense n="h">
+<def>
         Le canard colin ou grisard, ou caniart, Larus vel gravia major, se trouve sur les seuls bords de l'Océan; 
         quelquefois il se perche sur les arbres: il est très-chargé de plumes grisâtres, et est de la grosseur d'une 
         oie moyenne. Son cri imite le son d'une flute. Ses pieds sont semblables à ceux du canard ordinaire: il n'a 
         pas la propriété de faire le plongeon. Sa tête est fort grosse, l'entrée de son gozier très-grande; il est 
         très-gourmand et difficile à rassasier: il vole long-tems. Sa peau est dure, sa chair indigeste: il ne fait 
         ordinairement que deux petits.
-</p>
-<p>
+</def>
+</sense>
+<sense n="i">
+<def>
         Canard à duvet ou à plumes molles, ou de S. Cutbert, ou canard de l'isle de Farne et d'Islande; Anas 
         Farnensis, plumis mollissimis. Cet oiseau est l'eidredon ou l'eider des Danois et de la mer Baltique, et 
         l'égledon des François. Il est plus grand que le canard vulgaire. Son bec est court; le milieu en est rouge, 
@@ -233,7 +263,8 @@
         fort léger, fort chaud et très-recherché pour les lits: ce duvet a beaucoup d'élasticité et est très-durable. 
         On prétend que l'oiseau s'arrache lui-même ce duvet dans le tems qu'il couve ses œufs; il en garnit son nid 
         dans la vue de conserver une chaleur propre aux petits qui en doivent éclorre.*
-</p>
+</def>
+</sense>
             </sense>
             </entry>
         </body>
