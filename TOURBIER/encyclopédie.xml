@@ -11,6 +11,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
+        <publisher>Université Bretagne Sud</publisher>
+        <date when="2026">2026</date>
       </publicationStmt>
       <sourceDesc>
         <listBibl>
@@ -37,12 +39,21 @@
         <p>Encodage TEI de l'article géographique « Noire Mer ».</p>
       </projectDesc>
       <editorialDecl>
-        <p>Notice encyclopédique encodée avec balisage des renvois des différences d'édition.</p>      
+        <p>L'article faisant partie d'une encyclopédie développée, j'ai fait le choix de conserver la structure en paragraphes (&lt;p&gt;) 
+        directement sous l'élément &lt;entry&gt;, ce système étant plus approprié pour ce cas précis que les éléments &lt;sense&gt; ou &lt;def&gt;
+        réservés aux définitions courtes de dictionnaires.</p>
+        <p>J'ai utilisé le couple &lt;lem&gt; / &lt;rdg&gt; (plutôt que &lt;rdg&gt; / &lt;rdg&gt;) car l'édition de Paris (ENCCRE) sert de texte de
+        référence principal, tandis que l'édition d'Yverdon fournit les variantes.</p>
+        <p>l'attribut @wit (witness/témoin) renvoyant aux identifiants déclarés dans le teiHeader (#src_enccre et #src_yverdon), ce qui est la norme
+        TEI recommandée pour référencer des éditions physiques précises.</p>
+        <p>Pour indiquer les liens vers le site de l'ENCCRE, j'utilise l'élément &lt;ref&gt; avec l'attribut @target contenant l'URL directe de l'article
+        correspondant.</p>
+        <p>Je n'ai pas pu ajouter le lien qui redirige vers 'Voyez Atlantide' car l'article correspondant n'est pas encore encodé dans le corpus ENCCRE.</p>
       </editorialDecl>
     </encodingDesc>
     
     <revisionDesc>
-      <change when="2026-10-23" who="#NT">Encodage TEI complet de l'article avec des variantes.</change>
+      <change when="2026-10-23" who="#NT">Encodage TEI complet de l'article avec apparat critique (lem/rdg), attribution des témoins (wit) et intégration des URL ENCCRE.</change>
     </revisionDesc>
   </teiHeader>
 
@@ -53,17 +64,45 @@
           <orth>Noire Mer</orth>
         </form>
         <p>
-          <orth>Noire Mer</orth>, partie de la Méditerranée, qui forme au fond de cette derniere comme une espece de grand golfe. <ref type="encyclopedic" target="#art_mediterranee">Voyez Méditerranée</ref>.
+          <orth>Noire Mer</orth>, partie de la Méditerranée, qui forme au fond de cette derniere comme une espece de grand golfe.
+          <ref type="encyclopedic" target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-763-0/">Voyez Méditerranée</ref>.
         </p>
         <p>
-          Quelques anciens, &amp; entr’autres Diodore de Sicile, ont écrit que le pont-Euxin ou la <orth>mer Noire</orth>, n’étoit autrefois que comme une grande riviere ou un grand lac qui n’avoit aucune communication avec la mer de Grece ; mais que ce grand lac s’étant augmenté considérablement avec le tems par les eaux des fleuves qui y arrivent, il s’étoit enfin ouvert un passage, d’abord du côté des îles Cyanées, &amp; ensuite du côté de l’Hellespont. C’est sur ce témoignage des anciens que M. de Tournefort dit dans son <title>voyage du Levant</title>, que la <orth>mer Noire</orth> recevant les eaux d’une grande partie de l'Europe &amp; de l'Asie, après avoir augmenté considérablement, s’ouvrit un chemin par le Bosphore, &amp; ensuite forma la Méditerranée, ou l’augmenta si considérablement, que d’un lac qu’elle étoit autrefois, elle devint une grande mer, qui s’ouvrit ensuite elle-même un chemin par le détroit de Gibraltar, &amp; que c’est probablement dans ce tems que l’île Atlantide, dont parle Platon, a été submergée. <ref type="encyclopedic" target="#art_atlantide">Voyez Atlantide</ref>.
+          Quelques anciens, &amp; entr’autres Diodore de Sicile, ont écrit que le pont-Euxin ou la <orth>mer Noire</orth>, n’étoit autrefois que
+          comme une grande riviere ou un grand lac qui n’avoit aucune communication avec la mer de Grece ; mais que ce grand lac s’étant augmenté
+          considérablement avec le tems par les eaux des fleuves qui y arrivent, il s’étoit enfin ouvert un passage, d’abord du côté 
+          <app>
+            <lem wit="#src_enccre">des îles Cyanées</lem>
+            <rdg wit="#src_yverdon">des isles Cyanées</rdg>
+          </app>,
+          &amp; ensuite du côté de l’Hellespont. C’est sur ce témoignage des anciens que M. de Tournefort dit dans son <title>voyage du Levant</title>,
+          que la <orth>mer Noire</orth> recevant les eaux d’une grande partie de l'Europe &amp; de l'Asie, après avoir augmenté considérablement, s’ouvrit
+          un chemin par le Bosphore, &amp; ensuite forma la Méditerranée, ou l’augmenta si considérablement, que d’un lac qu’elle étoit autrefois, elle
+          devint une grande mer, qui s’ouvrit ensuite elle-même un chemin par le détroit de Gibraltar, &amp; que c’est probablement dans ce tems que
+          l’île Atlantide, dont parle Platon, a été submergée. 
+          <ref type="encyclopedic" target="...">Voyez Atlantide</ref>.
         </p>
         <p>
-          Cette opinion ne peut se soutenir, dès qu’on est assuré que c’est l’Océan qui coule dans la Méditerranée, &amp; non pas la Méditerranée dans l’Océan ; d’ailleurs M. Tournefort n’a pas combiné deux faits essentiels, &amp; qu’il rapporte cependant tous deux : le premier, c’est que la <orth>mer Noire</orth> reçoit neuf ou dix fleuves, dont il n’y en a pas un qui ne lui fournisse plus d’eau que le Bosphore n’en laisse sortir ; le second, c’est que la mer Méditerranée ne reçoit pas plus d’eau par les fleuves, que la <orth>mer Noire</orth> ; 
+          Cette opinion ne peut se soutenir, dès qu’on est assuré que c’est l’Océan qui coule dans la Méditerranée, &amp; non pas la Méditerranée dans l’Océan ;
+          d’ailleurs M. Tournefort n’a pas combiné deux faits essentiels, &amp; qu’il rapporte cependant tous deux : le premier, c’est que la <orth>mer Noire</orth>
+          reçoit neuf ou dix fleuves, dont il n’y en a pas un qui ne lui fournisse plus d’eau que le Bosphore n’en laisse sortir ; le second, c’est que la mer 
+          Méditerranée ne reçoit pas plus d’eau par les fleuves, que la <orth>mer Noire</orth> ; 
           <app>
             <lem wit="#src_enccre">cependant elle est sept ou huit fois plus grande</lem>
             <rdg wit="#src_yverdon">cependant elle est environ huit fois plus grande</rdg>
-          </app>, &amp; ce que le Bosphore lui fournit, ne fait pas la dixieme partie de ce qui tombe dans la <orth>mer Noire</orth> ; comment veut-il que cette derniere partie de ce qui tombe dans une petite mer, ait formé non-seulement une grande mer, mais encore ait si fort augmenté la quantité des eaux, qu’elles aient renversé les terres à l’endroit du détroit, pour aller ensuite submerger une île plus grande que l'Europe ! La mer Méditerranée tire au contraire au moins dix fois plus d’eau de l'Océan, qu’elle n’en tire de la <orth>mer Noire</orth>, parce que le Bosphore n’a que 800 pas de largeur dans l’endroit le plus étroit ; au lieu que le détroit de Gibraltar en a plus de 5000 dans l’endroit le plus serré, &amp; qu’en supposant les vîtesses égales dans l’un &amp; dans l’autre détroit, celui de Gibraltar a bien plus de profondeur. <title>Hist. nat. gén. &amp; part. tom. I.</title> <ref type="encyclopedic" target="#art_mer">Voyez Mer</ref>, <ref type="encyclopedic" target="#art_fleuve">Fleuve</ref>, <ref type="encyclopedic" target="#art_courant">Courant</ref>, &amp;c.
+          </app>, &amp; ce que le Bosphore lui fournit, ne fait pas la dixieme partie de ce qui tombe dans la <orth>mer Noire</orth> ; comment veut-il que cette
+          derniere partie de ce qui tombe dans une petite mer, ait formé non-seulement une grande mer, mais encore ait si fort augmenté la quantité des eaux,
+          qu’elles aient renversé les terres à l’endroit du détroit, pour aller ensuite submerger une île plus grande que l'Europe ! La mer Méditerranée tire au
+          contraire au moins dix fois plus d’eau de l'Océan, qu’elle n’en tire de la <orth>mer Noire</orth>, parce que le Bosphore n’a que 800 pas de largeur 
+          dans l’endroit le plus étroit ; au lieu que le détroit de Gibraltar en a plus de 5000 dans l’endroit le plus serré, &amp; qu’en supposant 
+          <app>
+            <lem wit="#src_enccre">les vîtesses égales</lem>
+            <rdg wit="#src_yverdon">les vitesses égales</rdg>
+          </app>
+          dans l’un &amp; dans l’autre détroit, celui de Gibraltar a bien plus de profondeur. <title>Hist. nat. gén. &amp; part. tom. I.</title>
+          <ref type="encyclopedic" target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1019-0/">Voyez Mer</ref>, 
+          <ref type="encyclopedic" target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-1012-0/">Fleuve</ref>,
+          <ref type="encyclopedic" target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-811-0/">Courant</ref>, &amp;c.
         </p>
       </entry>
     </body>
