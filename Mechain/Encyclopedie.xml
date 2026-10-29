@@ -7,11 +7,7 @@
                 <title>L'Encyclopédie. Volume 06.</title>
             </titleStmt>
             <publicationStmt>
-                <publisher>Bibliothèque numériques de l'Institut de France</publisher>
-                <availability>
-                    <p>Accès libre et gratuit</p>
-                </availability>
-                <ptr target="https://bibnum.institutdefrance.fr/records/item/2098-l-encyclopedie-volume-06-texte-et-fne"/>
+                <publisher>Hermès Méchain</publisher>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -28,19 +24,57 @@
                 </bibl>
             </sourceDesc>
             <encodingDesc>
-                <p></p>
+                <p>Cet encodage a pour but de rendre ces entrées naviguables par des utilisateurs modernes, qui attendent un usage clair, simple, et dont l'opinion du lexicographe se fait le moins ressentir possible.</p>
+                <p>Pour ce faire, la définition est gardée mot pour mot la même, mais est réduit à sa forme la plus concise, et que je considère comme ne pouvant pas être davantage raccourcie sans perdre son sens.</p>
+                <p>Le but final est aussi de traiter l'usage comme un usage subjectif, et de trouver un moyen de l'encoder de façon à préciser que l'entrée est, en quelques sortes, "à charge"</p>
             </encodingDesc>
         </fileDesc>
     </teiHeader>
     
-    
+    <!-- la suite de mon travail sera d'encoder tous les différents homonymes de "fantasie", en utilisant la balise 'hom', ce qui me permet, au passage, de régler le problème du placement de "(morale)" dans le nom de l'entrée. -->
+    <!-- de plus, je pourrais dater l'entrée, et définir son registre dans la balise 'usg' avec l'attribut 'reg' -->
+    <!-- certaine erreurs de recopie doivent aussi être corrigées -->
     <text>
         <front>
         </front>
         <body>
+            <entry>
+                <form>
+                    <orth>fantaisie</orth>
+                    <pron notation="ipa">fãtεˈzi</pron> <!-- je me permets ce détail de par mon cursus en linguistique, et seulement à la hauteur de mes connaissances de la phonologie du français du XVIIIe -->
+                </form>
+                <etym>
+                    <lang>fr.</lang>
+                </etym>
+                <gramGrp>
+                    <pos>n</pos>
+                </gramGrp>
+                <sense>
+                    <def>c'est une passion d'un moment, qui n'a sa source que dans l'imagination</def>
+                </sense>
+                <usg>
+                    <p>
+                        elle promet à ceux qu'elle occupe, non un grand bien, mais une jouissance agréable : elle s'exagère moins le mérite que l'agrément de fort objet ; elle en désire moins la possession que l'usage : elle est contre l'en-nui la ressource d'un instant : elle suspend les passions fans les détruire : elle se mêle aux penchans d'habitude, &amp; ne fait qu'en distraire. Quelquefois elle est l'esset de la passion même ; c'est une bulle d'eau qui s'élève fur la surface d'un liquide , 6c qui retourne s'y confondre ; c'est une volonté d'enfant, 6c qui nous ramené pendant fa courte durée, à l'imbécillité du premier âge.
+                    </p>
+                    <p>
+                        Les hommes qui ont plus d'imagination que de bon-sens, font esclaves de mille fantaisies; elles naissent du désœuvrement, dans un état oû la fortune a donné plus qu'il ne faut à la nature, oh les desirs ont été satisfaits aussi-tôt que conçus : elles tyrannisent les hommes indécis fur le genre d'occupations, de devoirs , d'amufemens qui conviennent à leur état 6c à leur caractère : elles tyrannisent surtout les ames foibles, qui sentent par imitation. II y a des fantaisies de mode , qui pendant quelque tems font les fantaisies de tout un peuple ; j'en ai vû de ce genre, d'extravagantes, d'utiles, de frivoles, d'héroïques , &amp;c. Je vois le patriotisme 6c l'humanité devenir dans beaucoup de têtes des fantaisies assez vives , &amp; qui peut-être se répandroient, sans la crainte du ridicule.
+                    </p>
+                    <p>
+                        La fantaisie suspend la passion par une volonté d'un moment, &amp; le caprice interrompt le caractère. Dans la fantaisie on néglige les objets de ses passions 6c fes principes, &amp; dans le caprice on les change.. Les hommes sensibles 6c légers ont des fantaisies, les esprits de travers font fertiles en caprices.
+                    </p> 
+                </usg>
+            </entry>
+        </body>
+    </text>
+    
+    
+</TEI>
+           
+           
+<!--
             <div1>
                 <p>
-            FANTAISIE, {Morale.) c'est une passion d'un moment , qui n'a sa source que dans l'imaginàtion : elle promet à ceux qu'elle occupe , non un grand bien, mais une jouissance agréable : elle s'exagère moins le mérite que l'agrément de fort objet ; elle en désire moins la possession que l'usage : elle est contre l'en-nui la ressource d'un instant : elle suspend les passions fans les détruire : elle se mêle aux penchans d'habitude, &amp; ne fait qu'en distraire. Quelquefois elle est l'esset de la passion même ; c'est une bulle d'eau qui s'élève fur la surface d'un liquide , 6c qui retourne s'y confondre ; c'est une volonté d'enfant, 6c qui nous ramené pendant fa courte durée, à l'imbécillité du premier âge.
+            FANTAISIE, {Morale.) c'est une passion d'un moment , qui n'a sa source que dans l'imagination : elle promet à ceux qu'elle occupe , non un grand bien, mais une jouissance agréable : elle s'exagère moins le mérite que l'agrément de fort objet ; elle en désire moins la possession que l'usage : elle est contre l'en-nui la ressource d'un instant : elle suspend les passions fans les détruire : elle se mêle aux penchans d'habitude, &amp; ne fait qu'en distraire. Quelquefois elle est l'esset de la passion même ; c'est une bulle d'eau qui s'élève fur la surface d'un liquide , 6c qui retourne s'y confondre ; c'est une volonté d'enfant, 6c qui nous ramené pendant fa courte durée, à l'imbécillité du premier âge.
                 </p>
             </div1>
             <div2>
@@ -58,4 +92,5 @@
     
     
 </TEI>
+-->
 
