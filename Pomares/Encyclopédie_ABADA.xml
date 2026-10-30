@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Encyclopédie, tome I, Abada</title>
+                <respStmt>
+                    <resp>Encodage XML-TEI par</resp>
+                    <name>POMARES Luna</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>Encodage réalisé dans le cadre du TD4 puis TD5.</p>
+            </publicationStmt>
+
+            <sourceDesc>
+   <p xml:id="edition1751"> <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/ABADA">
+     Wikisource, extrait de l'Encyclopédie, tome I, 1re édition de Diderot et d'Alembert. Article ABADA
+    </ref> </p>
+    <p xml:id="edition1777"> <ref target="https://www.e-rara.ch/gep_r/content/pagetext/6571593"> Encyclopédie, nouvelle édition, à Genève, premier tome. Article "Abada" par Adanson, 1777 </ref> </p>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <p>Encodage XML-TEI de l'article ABADA.<lb/>
+            J'ai choisi de garder l'orthographe originale pour l'encodage de l'article de 1751 puis 1777. Cependant, j'ai tout de même
+            noté l'orthographe actuel afin de faciliter la compréhension. <lb/>
+            J'ai fait le choix d'utiliser app pour identifier les différences entre les deux édition. <lb/>
+            Comparaison de deux éditions de l'article ABADA. L'une de 1751 et l'autre de 1777. J'ai choisi d'utiliser
+            rdg puisque je n'ai pas compris comment déterminer, de façon cohérente, quel article devait être considéré comme
+            la "meilleure" version. Rdg me semblait mettre les deux édition sur un même plan. De plus, je n'ai pas bien compris le fonctionnement de wit. <lb/>
+            J'avoue n'avoir pas très bien compris à quel endroit et comment noter les différences entre les deux versions de l'article. </p>
+        </encodingDesc>
+
+        <revisionDesc>
+            <change when="2026-10-26">
+                Création et premier encodage TEI de l'article ABADA dans le cadre du TD4.
+            </change>
+            <change when="2026-10-30">
+                Encodage de la deuxième édition de l'article ABADA pour le TD5 et essai de comparaison.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition1">
+            <!--Première édition de l'encyclopédie de 1751 par Diderot et d'Alembert, Paris-->
+                <entry>
+                    <form>
+                        <orth>ABADA</orth>
+                    </form>
+
+                    <gramGrp>
+                        <gram type="pos">s.</gram>
+                        <gram type="genre">m.</gram>
+                    </gramGrp>
+
+                    <sense>
+                        c’est, dit-on,
+                        <def>un animal qui se trouve sur la côte méridionale de <placeName>Bengale</placeName></def>,
+                        <seg type="description_physique">qui a deux cornes, l’une sur le front, l’autre sur la nuque du cou ;
+                        qui est de la grosseur d’un <term>poulain</term> de deux ans, &amp; qui a la queue
+                        d’un <term>bœuf</term>, mais un peu moins longue ; le crin &amp; la tête d’un <term>cheval</term>,
+                        mais le crin plus épais &amp; plus rude, &amp; la tête plus plate &amp; plus
+                        courte ; les pieds du <term>cerf</term>, fendus, mais plus gros.
+
+                        On <choice><orig>ajoûte</orig><reg>ajoute</reg></choice> que de ces deux cornes, celle du front est longue de <measure unit="pied"> trois
+                        ou quatre <choice><orig>piés</orig><reg>pieds</reg></choice> </measure>, mince, de l’épaisseur de la jambe humaine vers la
+                        racine ; qu’elle est aiguë par la pointe, &amp; droite dans la jeunesse
+                        de l’animal, mais qu’elle se recourbe en-devant ; &amp; que celle de
+                        la nuque du cou est plus courte &amp; plus plate. </seg>
+
+                        <seg type="anecdote">Les Negres le tuent pour lui enlever ses cornes, qu’ils regardent
+                        comme un spécifique, non dans plusieurs maladies, ainsi qu’on lit
+                        dans quelques auteurs, mais en général contre les venins &amp; les
+                        poisons. </seg>
+
+                        <seg type="critique_véracité">Il y <choice> <orig>auroit</orig> <reg>aurait</reg> </choice> de la témérité sur une pareille description à douter
+                        que l’<term>abada</term> ne soit un animal réel ; reste à savoir
+                        s’il en est fait mention dans quelque Naturaliste moderne,
+                        instruit &amp; fidele, ou si par hasard tout ceci ne seroit appuyé
+                        que sur le témoignage de quelque voyageur. </seg>
+
+                        Voyez <ref><name>Vallisneri</name>, tom. III. p. 367</ref>.
+                    </sense>
+
+                    <!--J'ai recommencé le travail du TD4 en changeant l'article. L'article
+                    précédent "chaluc" ne possait pas de réédition avec des changements,
+                    même mineurs. J'ai donc fait le choix de recommencer en choisissant
+                    "abada". Cependant, il n'y a pas de renvoi a proprement parlé,  dans cet article
+                    uniquement une référence à une autre oeuvre mais il y a un renvoi dans la seconde édition. J'espère que cela fonctionne quand même.-->
+                </entry>
+            </div>
+            <div type="edition2">
+            <!--Nouvelle édition de l'encyclopédie, par Diderot et d'Alembert avec l'ajout d'Adanson, 1777, Genève-->
+               <entry>
+                    <form>
+                        <orth>ABADA</orth>
+                    </form>
+
+                    <gramGrp>
+                        <gram type="pos">s.</gram>
+                        <gram type="genre">m.</gram>
+                    </gramGrp>
+
+                    <sense>
+                        c’est, dit-on,
+                        <def>un animal qui se trouve sur la côte méridionale de <placeName>Bengale</placeName></def>,
+                        <seg type="description_physique">qui a deux cornes, l’une sur le front, l’autre sur la nuque du cou ;
+                        qui est de la grosseur d’un <term>poulain</term> de deux ans, &amp; qui a la queue
+                        d’un <term>bœuf</term>, mais un peu moins longue ; le crin &amp; la tête d’un <term>cheval</term>,
+                        mais le crin plus épais &amp; plus rude, &amp; la tête plus plate &amp; plus
+                        courte ; les pieds du <term>cerf</term>, fendus, mais plus gros.
+
+                        On <app> <rdg source="edition1777">ajoute</rdg> <rdg source="edition1751">ajoûte</rdg> </app> que de ces deux cornes, celle du front est longue de <measure unit="pied"> trois
+                        ou quatre <choice><orig>piés</orig><reg>pieds</reg></choice> </measure>, mince, de l’épaisseur de la jambe humaine vers la
+                        racine ; qu’elle est aiguë par la pointe, &amp; droite dans la jeunesse
+                        de l’animal, mais qu’elle se recourbe en-devant ; &amp; que celle de
+                        la nuque du cou est plus courte &amp; plus plate. </seg>
+
+                        <seg type="anecdote">Les Negres le tuent pour lui enlever ses cornes, qu’ils regardent
+                        comme un spécifique, non dans plusieurs maladies, ainsi qu’on lit
+                        dans quelques auteurs, mais en général contre les venins &amp; les
+                        poisons. </seg>
+
+                        <seg type="critique_véracité">Il y <choice><orig>auroit</orig><reg>aurait</reg></choice> de la témérité sur une pareille description à douter que
+                        l’<term>abada</term> ne soit un animal réel. </seg>
+
+                        <seg type="identification">On sait aujourd’hui que ce nom a
+                        été employé de tout temps dans le royaume de <placeName>Bengale</placeName>, à <placeName>Patana</placeName>,
+                        à <placeName>Java</placeName>, &amp;c. pour désigner le <term>rhinocéros</term> ; ainsi la description
+                        incertaine &amp; chancelante que <name>Vallisnieri</name> a faite sous ce nom,
+                        sans pouvoir en faire l’application, doit être rapportée entièrement
+                        à cet animal. Voyez <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/RHINOCEROS">RHINOCEROS</ref>, dans ce Dict. ; dans le <bibl>Dict. des
+                        Animaux</bibl> ; &amp; celui d’<bibl>Hist. Nat</bibl>. par M. <name>Valmont de Bomare</name>.
+                        (M. <name>ADANSON</name>.) Voyez <ref> <name>VALLISNIERI</name>, tom. III. p. 367.</ref>
+                        </seg>
+                    </sense>
+                    </entry>
+            </div>
+        </body>
+    </text>
+
+</TEI>
