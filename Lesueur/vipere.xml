@@ -10,18 +10,18 @@
 </titleStmt>
 
 <publicationStmt>
-<p/> Document produit dans le cadre du cours XML/XSLT TEI à l'UBS <p/>
+<p> Document produit dans le cadre du cours XML/XSLT TEI à l'UBS </p>
 </publicationStmt>
 
 
 <sourceDesc>
-	 <bibl>
+	 <bibl xml:id="source-paris">
 		 <title>Encyclopédie de Diderot et d'Alembert, volume XVII, 1765</title>
 		 <author> Denis Diderot et Jean Le Rond d'Alembert </author>
 		 Available from <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v17-520-0/">https://enccre.academie-sciences.fr/encyclopedie/article/v17-520-0/</ref>	
 	 </bibl>
 
-     <bibl>
+     <bibl xml:id="source-yverdon">
 		 <title> Encyclopédie d'Yverdon, volume 42, 1775</title>
 		 <author> Fortuné-Barthélemy de Félice </author>
 		 Available from <ref target="https://www.digitale-sammlungen.de/de/view/bsb10889060?page=378,379&amp;q=Vipere">https://www.digitale-sammlungen.de/de/view/bsb10889060?page=378,379&amp;q=Vipere</ref>	
@@ -31,11 +31,15 @@
 
 
 <encodingDesc> 
-<p> Encodage d'un artcile d'encyclopédie avec les éléments de dictionnaire </p> 
+<p> TD04 : Encodage d'un artcile d'encyclopédie avec les éléments de dictionnaire. Comme l'article traite d'un seul sujet continu (l'animal, son venin, son remède) et qu'il n'y a pas différentes acceptions lexicales (sens figuré, sens propre, ...), j'ai décider de ne pas utiliser la balise "sense" et de laisser directement les paragraphes "p" dans "entry". </p> 
+
+<p> TD05 : Pour l'élément "app", j'ai choisi la structure "lem" / "rdg". L'édition de Diderot et Alembert me sert de texte de base dans "lem", et j'ai mis la version d'Yverdon dans "rdg". J'ai utilisé l'attribut "source" plutôt que "wit" parce qu'il s'agit de livres imprimés identifiés dans mon sourceDesc, et pas de manuscrits. Comme l'édition d'Yverdon réécrit complètement les phrases et fait plusieurs pages, j'ai juste eu le temps de faire l'apparat critique uniquement sur le premier paragraphe, en découpant par grandes idées (définition, taille, tête, cou, queue) plutôt que mot par mot pour que le texte reste lisible.</p>
 </encodingDesc>
 
 <revisionDesc> 
 <p> Pour le TD04 : création du fichier; remplissage du TeiHeader ; balisage de l'article </p> 
+
+<p>Pour le TD05 : Intégration de l'élément "app", avec la structure "lem" / "rdg", sur le premier paragraphe avec l'édition d'Yverdon, justification des choix d'encodage dans encodingDesc et insertion de l'URL ENCCRE sur le renvoi.</p>
 </revisionDesc>
 
 </fileDesc>
@@ -55,7 +59,41 @@
 <gen value="feminine">f.</gen>
 </gramGrp>
 
-<p> VIPERE, s. f. (Hist. nat.​​ Ophiolog.​​) vipera, nom générique que l’on a donné à tous les serpens dont la morsure est dangereuse, &amp; dont il y a un très-grand nombre d’especes dans les pays chauds ; nous n’en avons qu’une seule dans ce pays-ci, connue sous le nom de vipere. Lorsqu’elle a pris tout son accroissement, elle est ordinairement longue de deux piés ou un peu plus, &amp; sa grosseur égale ou surpasse celle du pouce d’un homme ; les femelles ont le corps plus gros que les mâles ; la tête est plate &amp; a un rebord qui s’étend autour des extrémités de sa partie supérieure ; la vipere differe principalement de la couleuvre par ce caractere, car dans la couleuvre la tête n’a point de rebord, &amp; elle est plus pointue &amp; plus étroite, à proportion des autres parties du corps. I a tête de la vipere a un pouce de lon-​gueur, &amp; 7 à 8 lignes de largeur prise vers le sommet, 4 à 5 lignes à l’endroit des yeux, &amp; deux lignes &amp; demie d’épaisseur ; ordinairement les mâles ont le cou un peu plus gros que les femelles, &amp; communément il est de la grosseur du petit doigt à son origine. La queue a environ quatre travers de doigt de longueur ; sa grosseur à son origine est à-peu-près la même que celle du cou ; ensuite elle diminue insensiblement &amp; se termine en pointe, la queue des mâles est toujours un peu plus longue &amp; plus grosse que celle des femelles. </p>
+<p> 
+
+<!-- Définition générale -->
+<app>
+    <lem source="#source-paris"> VIPERE, s. f. (Hist. nat. Ophiolog.) vipera, nom générique que l’on a donné à tous les serpens dont la morsure est dangereuse, &amp; dont il y a un très-grand nombre d’especes dans les pays chauds ; nous n’en avons qu’une seule dans ce pays-ci, connue sous le nom de vipere.</lem>
+    <rdg source="#source-yverdon">VIPERE, (R), f. f., Hist. Nat., vipera. La vipere eſt une eſpece de ſerpent qui met au monde ſes petits vivans, &amp; non pas en œufs, comme pluſieurs autres eſpeces de ferpens, voyez ce mot. Quoique la morſure de la vipere irritée porte dans le ſang un poiſon des plus dangereux, ſa chair eſt cependant très utile &amp; très-eſtimée en médecine. Preſque tous les naturaliſtes ont écrit ſur les viperes.</rdg>
+  </app>
+
+
+<!-- Taille et corpulence -->
+  <app>
+    <lem source="#source-paris">Lorsqu’elle a pris tout son accroissement, elle est ordinairement longue de deux piés ou un peu plus, &amp; sa grosseur égale ou surpasse celle du pouce d’un homme ; les femelles ont le corps plus gros que les mâles ;</lem>
+    <rdg source="#source-yverdon">Les viperes mâles &amp; femelles qu'on trouve en Europe, ſont de la groſſeur d'un bon pouce par le milieu du corps, lorſqu'elles ont pris leur croiſſance ; mais le corps des femelles eſt plus gros, lorſque les vipéraux ſont prêts à voir le jour : elles ont d'ordinaire deux bons pieds de long ; il s'en trouve même qui ont quelque choſe de plus.</rdg>
+  </app>
+
+
+<!-- Tête et comparaison avec la couleuvre-->
+  <app>
+  <lem source="#source-paris">la tête est plate &amp; a un rebord qui s’étend autour des extrémités de sa partie supérieure ; la vipere differe principalement de la couleuvre par ce caractere, car dans la couleuvre la tête n’a point de rebord, &amp; elle est plus pointue &amp; plus étroite, à proportion des autres parties du corps.La tête de la vipere a un pouce de longueur, &amp; 7 à 8 lignes de largeur prise vers le sommet, 4 à 5 lignes à l’endroit des yeux, &amp; deux lignes &amp; demie d’épaisseur ;</lem>
+  <rdg source="#source-yverdon">Leur tête, qui eſt plate, a comme un rebord autour des extrêmités de ſa partie ſupérieure, &amp; elle differe en cela des couleuvres, qui ont tout ce tour émouſſé &amp; rabattu, &amp; la tête plus pointue &amp; plus étroite à proportion de leur corps. 2. La tête de la vipere a en tout un pouce de long, &amp; vers ſon ſommet, elle eſt de ſept à huit lignes de large, puis diminuant peu à peu, ſa largeur n'eſt plus que de quatre ou cinq lignes à l'endroit des yeux, &amp; de deux lignes ſeulement vers le bout du muſeau. Cette tête a deux lignes &amp; demie de hauteur ou d'épaiſſeur.</rdg>
+</app>
+
+
+<!-- Le cou -->
+<app>
+  <lem source="#source-paris"> ordinairement les mâles ont le cou un peu plus gros que les femelles, &amp; communément il est de la grosseur du petit doigt à son origine. </lem>
+  <rdg source="#source-yverdon"> Le col, conſidéré dans ſon origine, eſtenviron de la groſſeur du petit doigt: ce-lui des mâles eſt ordinairement un peuplus gros que celui des femelles: il s'entrouve néanmoins quelques-unes qui,étant pleines, paroiſſent avoir le col plusgros, même que n'eſt celui des mâles.</rdg>
+</app>
+
+
+<!-- La queue-->
+<app>
+  <lem source="#source-paris"> La queue a environ quatre travers de doigt de longueur ; sa grosseur à son origine est à-peu-près la même que celle du cou ; ensuite elle diminue insensiblement &amp; se termine en pointe, la queue des mâles est toujours un peu plus longue &amp; plus grosse que celle des femelles. </lem>
+  <rdg source="#source-yverdon"> La queue de ceux-ci eſt toujours pluslongue &amp; plus groffe que celle des femel-des, à cauſe qu'elle contient les deuxmembres qui ſervent à la génération, ou-tre les deux véſicules ſéminales: elle aenviron quatre travers de doigts de lon-gueur; mais celle des femelles n'en aguere que trois. Le haut de la queue desmâles eſt, dans ſon commencement, af-fez conforme en groſſeur à leur col, &amp; finit en pointe, de même que la queuedes femelles; mais ces queues ne piquentpoint, &amp; n'ont aucun venin. </rdg>
+</app> </p>
 
 <p> La couleur des viperes varie, on en voit de blanchâtres, de jaunâtres, de rougeâtres, de grises, de brunes, &amp;c. &amp; elles ont toutes des taches noires ou noirâtres, plus ou moins foncées &amp; placées avec une sorte de symmétrie à-peu-près à égale distance les unes des autres, principalement sur la face supérieure &amp; sur les côtés du corps. La peau est couverte d’écailles, les plus grandes se trouvent sous la face inférieure du corps &amp; servent de piés à cet animal ; elles ont toujours une couleur d’acier dans toute leur étendue, au lieu que celles des couleuvres sont ordinairement marquées de jaune. Il y a autant de grandes écailles que de vertebres, depuis le commencement du cou jusqu’à celui de la queue ; &amp; comme chaque vertebre a une côte de chaque côté, chaque écaille soutient par ses deux bouts les extrémités de ces deux côtés. Les écailles de la queue diminuent de grandeur, à proportion de celle de la queue même. Il y a au bas du ventre une ouverture à laquelle aboutissent l’anus &amp; les parties de la génération, tant des mâles que des femelles ; cette ouverture est fermée par la derniere des grandes écailles qui est en demi cercle &amp; qui s’abaisse dans le tems du coït, lorsque la semelle met ses petits au jour, &amp; toutes les fois que les excrémens sortent.</p>
 
@@ -63,7 +101,7 @@
 
 <p> La vipere differe de la couleuvre, non-seulement en ce qu’elle rampe plus lentement, &amp; qu’elle ne bondit &amp; qu’elle ne saute jamais, mais encore en ce qu’elle est vivipare ; au lieu de pondre comme la couleuvré de œufs qui n’éclosent que long-tems après, les petits de la vipere acquierent leur entiere perfection dans la matrice, &amp; courent au sortir du ventre de la mere. Les viperes s’accouplent ordinairement deux fois l’année, elles portent leurs petits quatre ou cinq mois, &amp; elles en font jusqu’à vingt &amp; même vingt-cinq : elles se nourrissent de cantharides, de scorpions, de grenouilles, de souris, de taupes &amp; de lézards ; souvent la capacité de l’estomac n’est pas assez grande pour contenir l’animal qu’elles veulent avaler, alors il en reste une partie dans l’œsophage. La vipere ne rend pas beaucoup d’excrémens, ils n’ont point de mauvaise odeur comme ceux des couleuvres, &amp; on n’en sent aucune lorsqu’on ouvre un bocal dans lequel on nourrit plusieurs viperes : elles ne font point de trous en terre pour se cacher comme les couleuvres, elles se retirent ordinairement sous des pierres &amp; dans de vieilles masures ; lorsqu’il fait beau, elles se tiennent sous des herbes touffues ou dans des buissons.</p>
 
-<p> Les viperes different encore des couleuvres, en ce qu’elles ont des dents canines ; leur nombre varie dans différens individus, ordinairement il n’y en a qu’une de chaque côté de la mâchoire supérieure, mais on en trouve quelquefois deux ; ces dents sont entourées jusqu’à environ les deux tiers de leur lon-​​gueur, d’une vésicule assez épaisse &amp; remplie d’un suc jaunâtre, transparent &amp; médiocrement liquide ; il y a au milieu de cette vésicule sous la grosse dent, plusieurs petites dents crochues, les unes plus longues que les autres &amp; qui servent à remplacer les grosses dents, soit qu’elles tombent d’elles mêmes ou accidentellement : celles ci ont environ 2 lignes de longueur ; elles sont crochues, blanches, creuses, diaphanes &amp; très-pointues ; ses grosses dents restent ordinairement couchées le long de la mâchoire, &amp; leur pointe ne paroît qu’au moment où la vipere veut mordre ; alors elle les redresse &amp; les enfonce dans sa proie. Le venin pénetre dans la plaie que fait la vipere en mordant, en passant par le canal intérieur de la dent ; les glandes qui le filtrent sont situées à la partie postérieure de chaque orbite &amp; à la même hauteur que l’œil, elles sont petites &amp; jointes ensemble, elles forment un corps de la grosseur de l’œil &amp; s’étendent en longueur dans l’orbite au-dessous, &amp; en partie derriere l’œil ; chaque glande a un vaisseau qui communique dans la vésicule de la gencive &amp; qui aboutit à la racine de la grosse dent. Mém. de l’acad. royale des Scienc. tom. III. part. II. <xr>Voyez <ref target="#serpent">Serpent</ref></xr>.</p>
+<p> Les viperes different encore des couleuvres, en ce qu’elles ont des dents canines ; leur nombre varie dans différens individus, ordinairement il n’y en a qu’une de chaque côté de la mâchoire supérieure, mais on en trouve quelquefois deux ; ces dents sont entourées jusqu’à environ les deux tiers de leur lon-​​gueur, d’une vésicule assez épaisse &amp; remplie d’un suc jaunâtre, transparent &amp; médiocrement liquide ; il y a au milieu de cette vésicule sous la grosse dent, plusieurs petites dents crochues, les unes plus longues que les autres &amp; qui servent à remplacer les grosses dents, soit qu’elles tombent d’elles mêmes ou accidentellement : celles ci ont environ 2 lignes de longueur ; elles sont crochues, blanches, creuses, diaphanes &amp; très-pointues ; ses grosses dents restent ordinairement couchées le long de la mâchoire, &amp; leur pointe ne paroît qu’au moment où la vipere veut mordre ; alors elle les redresse &amp; les enfonce dans sa proie. Le venin pénetre dans la plaie que fait la vipere en mordant, en passant par le canal intérieur de la dent ; les glandes qui le filtrent sont situées à la partie postérieure de chaque orbite &amp; à la même hauteur que l’œil, elles sont petites &amp; jointes ensemble, elles forment un corps de la grosseur de l’œil &amp; s’étendent en longueur dans l’orbite au-dessous, &amp; en partie derriere l’œil ; chaque glande a un vaisseau qui communique dans la vésicule de la gencive &amp; qui aboutit à la racine de la grosse dent. Mém. de l’acad. royale des Scienc. tom. III. part. II. <xr>Voyez <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-204-0/">Serpent</ref></xr>.</p>
 
 <p> Personne n’ignore combien la morsure des viperes est dangereuse, ainsi que celle des serpens qui ne sont proprement que des viperes de différentes especes. Le remede le plus assuré que l’on ait trouvé jusqu’ici contre leurs morsures, est l’eau de luce, c’est-à-dire un alkali volatil très-pénétrant combiné avec le succin ; on en met dix gouttes dans un verre d’eau que l’on fera prendre à plusieurs reprises à la personne qui aura été mordue, qui se couchera dans un lit bien bassiné, où elle éprouvera une transpiration très-forte, qui fera disparoître les accidens. Cette découverte est dûe à M. Bernard de Jussieu, qui en a fait l’expérience avec beaucoup de succès.</p>
 
