@@ -11,7 +11,9 @@
                 <date when="2026-10-07">7 octobre 2026</date>
             </publicationStmt>
             <sourceDesc>
-                <bibl xml:id="encyclopédie1751">
+                <listBibl>
+               
+                    <bibl xml:id="encyclopédie1751">
                     <author xml:id="Diderot"><surname>Diderot</surname>, <forename>Denis</forename></author>
                     <author xml:id="DAlembert"><surname> Le Rond D'Alembert</surname>, <forename>Jean</forename></author>
                     
@@ -27,6 +29,21 @@
               
                     <editor>version numérique : ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v8-2389-0/?query=infanticide"></link></editor>
                 </bibl>
+
+                <bibl xml:id="encyclopédie1770Yverdon">
+                    <author xml:id="Fortunato"><surname>De Felice</surname>, <forename>Fortunato Bartolomeo</forename></author>
+            
+                    <title level="m">Encyclopédie ou dictionnaire universel raisonné des connaissances humaines</title>
+                 
+                        <publisher>Fortunato Bartolomeo De Felice</publisher>
+                        <pubPlace>Yverdon</pubPlace>
+                      
+                        <date when="1770">de 1770 à 1780</date>
+              
+                    <editor>version numérique : encyclopédie d'Yverdon</editor>
+                    <!-- --!>
+                </bibl>
+                </listBibl>  
             </sourceDesc>
         </fileDesc>
         
