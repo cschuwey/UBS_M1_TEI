@@ -37,6 +37,9 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-10-04">Création du document et début de la copie</change>
+                <change when="2026-10-20">Encodage détaillé de l'article avec la référence ENCCRE et travail sur le teiHeader</change>
+               <change when="2026-10-30">Début d'encodage de l'article avec une deuxième ressource encyclopédique</change>
+        
             </listChange>
         </revisionDesc>
     </teiHeader>
