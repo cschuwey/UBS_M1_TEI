@@ -34,8 +34,7 @@
             <ref
               target="https://fr.wikisource.org/wiki/Encyclop%C3%A9die_m%C3%A9thodique/Beaux-Arts/%C3%89bauche">Texte
               consulté sur Wikisource</ref>
-            <note>Source envisagée pour la comparaison du TD5 ; son adéquation à la consigne reste à
-              confirmer avec l’enseignant.</note>
+            <note>Source envisagée pour la comparaison du TD5.</note>
           </bibl>
         </listBibl>
         <listWit>
@@ -50,17 +49,16 @@
           de l’Encyclopédie.</p>
         <p>TD5 : les deux textes sont encodés comme deux témoins distincts dans un élément app,
           chacun dans un rdg portant un attribut wit. Ce choix est provisoire : les textes diffèrent
-          fortement et ne permettent pas une comparaison locale simple. La source de 1788 reste à
+          fortement et ne permettent pas une comparaison simple. La source de 1788 reste à
           faire confirmer par l’enseignant.</p>
       </projectDesc>
       <editorialDecl>
         <p>Les graphies historiques sont conservées autant que possible d’après les transcriptions
-          fournies. Aucune modernisation systématique n’est appliquée. La transcription doit encore
-          être vérifiée sur les fac-similés si ceux-ci sont disponibles.</p>
+          trouvées. Aucune modernisation systématique n’est appliquée. La transcription est en cours de vérification.</p>
       </editorialDecl>
       <refsDecl>
         <p>Les renvois « Voyez Esquisse. » et « Voyez Masses. » sont encodés avec ref. Les cibles ne
-          sont pas indiquées tant que les URL ou les articles correspondants n’ont pas été vérifiés.</p>
+          sont pas indiquées car les URL ou les articles correspondants doivent encore être vérifiés.</p>
       </refsDecl>
     </encodingDesc>
     <profileDesc>
@@ -72,7 +70,7 @@
       <change when="2026-10-26">
         <p>TD4 : préparation de la structure TEI et transcription de travail du texte de 1751.</p>
       </change>
-      <change when="2026-10-26">
+      <change when="2026-28-26">
         <p>TD5 : ajout de la seconde source et comparaison des deux textes au moyen de app et de
           deux rdg identifiés par wit.</p>
       </change>
@@ -166,8 +164,7 @@
         </app>
         <note type="comparison">La notice de 1751 traite de l’ébauche dans plusieurs domaines,
           notamment l’architecture, la gravure et la peinture. La notice de 1788 développe plus
-          longuement les méthodes de travail des peintres. Les deux textes sont donc présentés comme
-          des témoins complets plutôt que découpés en variantes locales artificielles.</note>
+          longuement les méthodes de travail des peintres.</note>
         <!-- Question à l’enseignant : la notice de 1788, issue de l’Encyclopédie méthodique,
         convient-elle comme deuxième version pour cet exercice ? -->
       </div>
