@@ -14,19 +14,35 @@
                 <date when="2026-10-07">7 octobre 2026</date>
             </publicationStmt>
             <sourceDesc>
+                <listWit> 
+                <witness xml:id="v1">
                 <bibl>
                 <editor>Diderot</editor>
                 <editor>D'Alembert</editor>
                 <editor>Jaucourt</editor>
                 <title>l'Encyclopedie ou Dictionnaire raisonne des sciences, des arts et des metiers</title>
                 <date from="1751" to="1772">dix-huitieme siecle </date> 
-                <editor>ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-1772-2/"></editor> 
+                <editor>ENCCRE <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-1772-2/"></ref></editor>
                 </bibl>
+                </witness>
+
+                <witness xml:id="v2">
+                <bibl>
+                <editor>Fortunato Bartolomeo De Felice</editor>
+                <title>Encyclopedie ou dictionnaire universel raisonne des connaissances humaines</title>
+                <date when="1771">1771</date>
+                <ref target="https://www.bis-sorbonne.fr/encyclopedie-dyverdon-1770-1780"/>
+                </bibl>
+                </witness> 
+                </listWit> 
             </sourceDesc>
         </fileDesc>
 
        <encodingDesc> 
        <p>L'objectif de ce projet est d'encoder des articles de l'Encyclopedie publiee entre 1751 et 1772 et d'observer les variations selon les differentes editions</p>
+       <p>J'ai choisi l'option rdg/rdg car dans ce cas les deux versions sont traitées sur un même pied d'égalité. J'ai pensé que cela était plus judicieux que de prendre l'article de Diderot comme référence car celui-ci est beaucoup plus court et moins complet. En faisant cela, les deux versions viennent se compléter l'une l'autre.</p>
+       <p>J'ai choisi l'attribut @wit plutot que @source car @wit est plus précis et renvoie directement à la liste de témoins précisée dans le teiHeader.</p>
+       <p> J'ai choisi d'utiliser des p et des div car l'autre option, celle d'utiliser <entry></entry> car je pense que ça aurait été trop complexe pour faire la difference entre de nouvelles définitions et des parties de l'article qui sont des explications liées à la définition. </p>
        </encodingDesc> 
 
        <profileDesc> 
@@ -40,38 +56,190 @@
 
        <revisionDesc> 
        <listChange>
-       <change when="2026-10-07"> debut de l'encodage du <teiHeader> </change>
+       <change when="2026-10-07"> debut de l'encodage du teiHeader</change>
        <change when="2026-10-10"> encodage du texte dans sa version ENCCRE </change> 
+       <change when="2026-10-24"> début de l'ecodage de la version Encylopedie ou dictionnaire universel raisonne des connaissances humaines</change> 
+       <change when="2026-10-30"> rectification de certaines erreurs et suite de l'encodage de la seconde version de l'article. </change>
        </listChange>
        </revisionDesc> 
     </teiHeader>
     
     <text>
         <body>
-          <head>Livres, <ref target="art_commerce">Commerce </ref> </head> 
-<p>Au pluriel s'entend en termes de commerce, de tous les registres sur lesquels les negocians, marchands &amp; banquiers ecrivent par ordre, soit en gros, soit en detail, toutes les affaires de leur negoce, &amp; meme leurs affaires domestiques qui y ont rapport.</p> 
+          <head>Livres, <ref target="#art_commerce">Commerce </ref></head> 
+          <app>
+          <rdg wit="#v1"/>
+          <rdg wit="#v2"> 
+          <p> Livre, en terme de <ref target="#art_commerce">Commerce</ref>, signifie les differens registres dans  lesquels les marchands tiennent leurs <ref target="#art_comptes">comptes</ref>. On dit, les <term rend="italic">livre</term>s d'un tel negociant sont en bon ordre. Effectivement les commercans ne pourroient savoir l'état de leurs affaires, s'ils ne tenoient de pareils <term rend="italic">livre</term>s, et d'ailleurs ils y sont obligés par les loix. But ils en font plus ou moins d'usage, à proportion du détail plus ou moins grand de leur débit, ou selon la diverse exactitude que demande leur commerce. Voyez Savari, <bibl rend="italics">Dict. de Commerce, t. II. pag. 569. au mot livre</bibl>. </p>
+          <p> Les anciens avoient aussi leurs <term rend="italic">livres de comptes</term>, témoin le <foreign rend="italics" xml:lang="la">codex accepti et expensi</foreign>, dont il est si souvent fait mention dans les écrivains romains; et leurs <term rend="italic">livres patrimoniaux </term>, <foreign rend="italics" xml:lang="la">libri patrimoniorum</foreign>, qui contenoient le détail de leurs rentes, terres, esclaves, troupeaux, du produit qu'ils en retiroient, des mises et frais que tout cela exigeoit.</p>
+          <p> Quant aux <term rend="italic">livres de compte</term> des négocians, pour mieux concevoir la maniere de tenir ce <term rend="italic">livre</term>, il faut observer que quand une partie a un grand nombre d'articles, il faut en avoir un état séparé et distinct du grand <term rend="italic">livre</term>. Il faut que cet état séparé soit conforme en tout à celui du grand <term rend="italic">livre</term>, tant pour les dettes que pour les créances; que tous les articles portés sur l'un, soient portés sur l'autre, et dans les mêmes termes; et continuer par la suite, jusqu'à ce que le compte soit soldé, de porter toutes les semaines les nouveaux articles du petit état sur le grand <term rend="italic">livre</term>, observant de dater tous les articles. Cette attention est nécessaire pour parvenir au balancé du compte total. Au moyen de quoi on trouve tous les articles concernant la même partie; attendu qu'ils se trouvent tous portés de suite sur le grand <term rend="italic">livre</term>, dont il est d'usage d'employer toujours le même folio au même compte, et de ne point passer au second, que ce premier ne soit rempli. Voyez Savar. <hi rend="italics">liv. cit. p. 57I. seq. Malc. c.ij. sect. ij.</hi>p. 54.</p>
+          <p> Le <term rend="italic">livre d'envoi</term> est celui qu'on tient séparément, pour éviter les ratures fréquentes qu'il faudrait faire sur le journal, si on y portoit confusément tous les articles reçus, envoyés ou vendus. Ce registre particulier fait aussi qu'on trouve plus aisément quon ne seroit dans le grand <term rend="italic">livre</term>. Or les envois quon porte sur ce registre, sont de marchandises achetées et envoyées pour le compte d'un autre, de marchandises vendues par commission, de marchandises envoyées pour être vendues pour notre compte, de marchandises vendues en société, dont nous avons la direction, ou dont d'autres l'ont.</p>
+          <p> Ce <term rend="italic">livre</term> contient article par article, dans l'ordre qu'ils ont été fournis, un état de toutes les marchandises qu'un marchand embarque ou pour son compte, ou en qualité de commissionnaire pour celui d'un autre, conforme au connoissement, et de tous les frais faits jusqu'à l'embarquement.</p>
+          <p> En ce cas, le <term rend="italic">livre</term>d'envoi n'est qu'une copie de ce qui est écrit sur le grand <term rend="italic">livre</term>. Après avoir daté ou énoncé l'envoi de cette maniere: embarqué sur tel vaisseau, partant pour tel endroit, les marchandises suivantes, consignées à N. pour notre compte ou par mon ordre, à N. ou bien on le commence par ces mots: envoi des marchandises embarquées, etc. Voyez <hi rend="italics">Mal. loco suprà citato, cap. ij. sect. iij.</hi> p. 62.</p>
+          <p> Le <term rend="italic">livre</term>, d'un facteur ou courtier est celui sur lequel il tient un état des marchandises qu'il a reçues d'autres personnes pour les vendre, et de l'emploi qu'il en a fait. Ce <term rend="italic">livre</term> doit être chiffré et distingué par folio, comme le grand <term rend="italic">livre</term>. A gauche est écrit dans un style énonciatif, simple, un état des marchandises reçues, et des charges et conditions; et à droite, celui de la vente et de l'emploi desdites marchandises; en sorte que ceci n'est qu'une copie du compte d'emploi des marchandises porté au grand <term rend="italic">livre</term>. Si le marchand fait peu de commissions, il peut se passer d'avoir un <term rend="italic">livre</term> exprès pour cette partie. Voyez <bibl rend="italics">Mal. loc. cit. p. 63. Savar.</bibl> p. 575.</p>
+          <p> <term rend="italic">livre</term> de comptes courans, contient comme le grand <term rend="italic">livre</term>, un état des dettes tant actives que passives, et sert pour régler avec ses correspondans, avant de porter la clôture de leurs comptes sur le grand <term rend="italic">livre</term>. C'est proprement un duplicata des comptes courans, qu'on garde pour y avoir recours dans le besoin.</p>
+          <p> <term rend="italic">livre</term> d'acceptations est celui sur lequel sont enregistrées toutes les lettres de change dont on a été prévenu par des lettres d'avis de la part de ses correspondans, à l'effet de savoir lorsqu'il se présentera des lettres de change, si l'on a des ordres pour les accepter ou non. Quand on prend le parti de ne point accepter une lettre de change, on met à côté de l'article où elle est protestée, un <hi rend="italics">P</hi>, qui veut dire protestée; si au contraire on l'accepte, on met à côté de l'article un <hi rend="italics">A</hi>, ajoutant la date du jour de l'acceptation; et lorsqu'on a transporté cet article sur le livre des dettes, on l'efface sur celui-ci.</p>
+          <p> <term rend="italic">livre</term> de remise, est celui sur lequel on enregistre les lettres de change qu'on renvoie à ses correspondans, pour en tirer le montant. Si elles ont été protestées faute d'acceptation, et qu'elles soient revenues à celui qui les avoit renvoyées, on en fait mention à côté de chaque article, en ajoutant un <hi rend="italics">P</hi> en marge, et la date du jour qu'elles sont revenues. Dans la suite on les raye.</p>
+          <p> Les <term rend="italic">livres</term> d'acceptation et de remise ont tant de rapport l'un à l'autre, que bien des marchands n'en font qu'un des deux qu'ils chargent en dettes et en reprises, mettant les acceptations du côté des dettes, et les remises du côté des créances.</p>
+          <p> <term rend="italic">livre</term> de dépense, est un état de petites dépenses et achats pour les usages domestiques, dont on fait le total à la fin de chaque mois, pour le porter sur un <term rend="italic">livre</term> consacré à cet usage. Voy, Savary, p. 577.</p>
+          <p> Ce <term rend="italic">livre</term> joint aux différens <term rend="italic">livres</term> particuliers de commerce, sert à marquer la perte ou le profit qu'on a fait. Il faut placer seuls les articles considérables; mais pour les petits articles de dépense journaliere, on peut n'en mettre que les montans, quoique dans le fond chacun détaille plus ou moins les articles selon qu'il lui plaît. Ce qu'il faut seulement observer ici, qu'à mesure que les articles de ce <term rend="italic">livre</term> sont soldés, il faut les porter sur un registre particulier, et ce qui en résulte de profit ou de perte sur le grand <term rend="italic">livre</term>. Voyez Malc. <bibl rend="italics">loc. cit. p. 54 </bibl>.</p>
+          <p> <term rend="italic">livre</term> des marchandises. Ce <term rend="italic">livre</term> est nécessaire pour savoir ce qui est entré dans le magasin, ce qui en est sorti, et ce qui y est encore. A gauche on détaille la quantité, la qualité, et le nombre ou la marque de chacune des marchandises qui y est entrée; et à droite, vis-à-vis de chaque article, ce qui en est sorti de chacun, de cette maniere:
+          <figure>
+          <figDesc> Deux petits dessins représentant des exemples de <term rend="italic">livres de marchandises</term> : ce qui est vendu, pour combien, quand et à qui. </figDesc>
+          </figure>
+          </p>
+          <p> <term rend="italic">livre</term> par mois. Ce <term rend="italic">livre</term> est chiffré par folio, comme le grand livre, et partagé en plusieurs espaces, en tête de chacun desquels est le nom d'un des mois de l'année, en suivant l'ordre naturel, laissant pour chaque mois autant d'espace que vous jugerez nécessaire. A gauche vous mettrez les payemens qui vous doivent être faits dans les mois, et à droite, ceux que vous avez à faire. Vous réserverez à gauche de chaque page une colonne où vous écrirez le jour du payement, et ensuite le nom du débiteur ou créancier, et vous mettrez la somme dans les colonnes à argent. <bibl>Voyez Malac. p. 64</bibl>.</p>
+          <p> <term rend="italic">livre</term> de vaisseaux. On en tient un particulier pour chaque vaisseau, qui contient un état des dettes et des créances. Dans la colonne des dettes on met l'avitaillement, l'équipement du vaisseau, et les gages des matelots. Du côté des créances, tout ce que le vaisseau a produit par le fret ou autrement. Ensuite après avoir fait un total de l'une et de l'autre, pour balancer le compte de chaque vaisseau, on le porte sur le journal.</p>
+          <p> <term rend="italic">livre</term> des ouvriers, est un <term rend="italic">livre</term> que tiennent les directeurs de manufactures qui ont un grand nombre d'ouvrages dans les mains. On y tient un état de dettes et créances pour chaque ouvrier. Sous la colonne des dettes on met les matieres qu'on lui a fournies, et sous celle des créances, les ouvrages qu'il a rendus.</p>
+          <p><term rend="italic">livre</term> de cargaison, ou plus communément <term rend="italic">livre</term> de bord, est celui qui est tenu par le secretaire ou commis du vaisseau, et qui contient un état de toutes les marchandises que porte le vaisseau, pour transporter, vendre ou échanger; le tout conforme à ce qui est porté sur les lettres de cargaison. Voyez Savar. D. <hi rend="italics">Comm. suppl.</hi> p. 965. au mot <term rend="italic">livre</term>.</p>
+          <p><term rend="italic">livre</term> de banque. Ce <term rend="italic">livre</term> est nécessaire dans les villes où il y a banque, comme Venise, Amsterdam, Hambourg, et Londres. On y tient un état des sommes qui ont été payées à la banque, ou de celles qu'on en a reçues.</p>
+          <p><term rend="italic">livre</term>, sans y ajouter rien de plus, signifie ordinairement le grand <term rend="italic">livre</term>, quelquefois le <hi rend="italics">journal</hi>. C'est en ce sens qu'il faut le prendre, lorsqu'on dit: <hi rend="italics">J'ai porté cette somme sur mon </hi>livre: <hi rend="italics"> je vous donnerai un extrait de mon livre, etc.</hi> Voyez Savary, <hi rend="italics">Dict. de comm. t. I. p. 569.</hi> au mot <term rend="italic">livre</term>.</p>
+          <p>On appelle en Angleterre, <term rend="italic">livre de tarif</term>, un <term rend="italic">livre</term> qui se garde au parlement, dans lequel on voit sur quel pied les différentes marchandises doivent être taxées à la douane. Celui qui a force de loi, a été fait l'an I2 de Charles II. et est souscrit par messire Harbottle Grimstone, pour lors président de la chambre des communes. Il y en a cependant un second qu'on ne laisse pas de suivre dans l'usage, quoiqu'il ne soit pas expressément contenu dans le premier souscrit l'an II du regne de Georges I par le chevalier Spencer Compton, pour lors président de la chambre des communes.</p>
+</rdg>
+         </app> 
 
- <p>Les marchands ne peuvent absolument se passer de ces <hi rend="italics">livres</hi> ; en France, ils sont obliges par les ordonnances d'en avoir, mais ils en ont besoin de plus ou de moins, selon la qualite du negoce &amp; la quantite des affaires qu'ils font, ou selon la maniere dont ils veulent tenir leurs <hi rend="italics">livres</hi>. On les tient ou en parties doubles, ou en parties simples. Presque tous les auteurs conviennent que ce sont les Italiens, &amp; particulierement le Venitiens, les Genois &amp; les Florentins qui ont enseigne aux autres nations la maniere de tenir les <hi rend="italics">livres</hi> en parties doubles.</p>
+          <p>Au pluriel s'entend en termes de commerce, de tous les registres sur lesquels les negocians, marchands &amp; banquiers ecrivent par ordre, soit en gros, soit en detail, toutes les affaires de leur negoce, &amp; meme leurs affaires domestiques qui y ont rapport.</p> 
 
- <p>Pour tenir les <hi rend="italics">livres</hi> en parties simples, ce qui ne convient guere qu'a des merciers ou de petits marchands qui n'ont guere d'affaires ; il suffit d'un journal &amp; d'un grand <hi rend="italics">livre</hi>, pour ecrire les articles de suite, &amp; a mesure que les affaires les fournissent. Mais pour les gros negocians qui tiennent leurs <hi rend="italics">livres</hi> a parties doubles, il leur en faut plusieurs, dont nous allons rapporter le nombre, &amp; expliquer l'usage.</p>
- <p>Les trois principaux <hi rend="italics">livres</hi> pour les parties doubles, sont le memorial, que l'on nomme aussi brouillon &amp; quelquefois brouillard, le journal, &amp; le grand <hi rend="italics">livre</hi>, qu'on appelle autrement <hi rend="italics">livre d'extrait</hi> ou <hi rend="italics">livre de raison</hi>.
+ <p>Les marchands ne peuvent absolument se passer de ces <term rend="italic">livres</term> ; en France, ils sont obliges par les ordonnances d'en avoir, mais ils en ont besoin de plus ou de moins, selon la qualite du negoce &amp; la quantite des affaires qu'ils font, ou selon la maniere dont ils veulent tenir leurs <term rend="italic">livres</term>. On les tient ou en parties doubles, ou en parties simples. Presque tous les auteurs conviennent que ce sont les Italiens, &amp; particulierement le Venitiens, les Genois &amp; les Florentins qui ont enseigne aux autres nations la maniere de tenir les <term rend="italic">livres</term> en parties doubles.</p>
 
- <p>Outre ces trois <hi rend="italics">livres</hi>, dont un negociant ne peut se passer, il y en a encore jusqu'a treize autres, qu'on nomme <hi rend="italics">livres d'aides </hi> ou <hi rend="italics">livres auxiliaires</hi>, dont on ne se sert qu'a proportion des affaires qu'on fait, ou selon le commerce dont on se mele. Ces treize livres sont :</p>
+ <p>Pour tenir les <term rend="italic">livres</term> en parties simples, ce qui ne convient guere qu'a des merciers ou de petits marchands qui n'ont guere d'affaires ; il suffit d'un journal &amp; d'un grand <term rend="italic">livre</term>, pour ecrire les articles de suite, &amp; a mesure que les affaires les fournissent. Mais pour les gros negocians qui tiennent leurs <term rend="italic">livres</term> a parties doubles, il leur en faut plusieurs, dont nous allons rapporter le nombre, &amp; expliquer l'usage.</p>
+ <p>Les trois principaux <term rend="italic">livres</term> pour les parties doubles, sont le memorial, que l'on nomme aussi brouillon &amp; quelquefois brouillard, le journal, &amp; le grand <term rend="italic">livre</term>, qu'on appelle autrement <term rend="italic">livre d'extrait</term> ou <term rend="italic">livre de raison</term>.</p>
 
- <p>Le <hi rend="italics">livre de caisse &amp; de bordereaux</hi>.</p>
-<p> Le <hi rend="italics">livre</hi> des echeances, qu'on nomme aussi <hi rend="italics">livre</hi> des mois, <hi rend="italics">livre</hi> des notes ou d'annotations, ou des payemens ou quelquefois <hi rend="italics">carnet</hi>.</p>
- <p>Le <hi rend="italics">livre</hi> des numeros.</p>
- <p>Le <hi rend="italics">livre</hi> des factures.</p>
- <p>Le <hi rend="italics">livre</hi> des comptes courans</p>
- <p>Le <hi rend="italics">livre</hi> des commissions, ordres, ou avis.</p>
- <p>Le <hi rend="italics">livre</hi> des acceptations ou des traites.</p>
- <p>Le <hi rend="italics">livre</hi> des remises.</p>
- <p>Le <hi rend="italics">livre</hi> des depenses.</p>
- <p>Le <hi rend="italics">livre</hi> des copies de lettres.</p>
- <p>Le <hi rend="italics">livre</hi> des ports-de-lettres.</p>
- <p>Le <hi rend="italics">livre</hi> des vaisseaux.</p>
- <p>Le <hi rend="italics">livre</hi> des ouvriers.</p>
+ <p>Outre ces trois <term rend="italic">livres</term>, dont un negociant ne peut se passer, il y en a encore jusqu'a treize autres, qu'on nomme <term rend="italic">livres d'aides</term> ou <term rend="italic">livres auxiliaires</term>, dont on ne se sert qu'a proportion des affaires qu'on fait, ou selon le commerce dont on se mele. Ces treize livres sont :</p>
+
+ <p>Le <term rend="italic">livre de caisse &amp; de bordereaux</term>.</p>
+<p> Le <term rend="italic">livre</term> des echeances, qu'on nomme aussi <term rend="italic">livre</term> des mois, <term rend="italic">livre</term> des notes ou d'annotations, ou des payemens ou quelquefois <hi rend="italics">carnet</hi>.</p>
+ <p>Le <term rend="italic">livre</term> des numeros.</p>
+ <p>Le <term rend="italic">livre</term> des factures.</p>
+ <p>Le <term rend="italic">livre</term> des comptes courans</p>
+ <p>Le <term rend="italic">livre</term> des commissions, ordres, ou avis.</p>
+ <p>Le <term rend="italic">livre</term> des acceptations ou des traites.</p>
+ <p>Le <term rend="italic">livre</term> des remises.</p>
+ <p>Le <term rend="italic">livre</term> des depenses.</p>
+ <p>Le <term rend="italic">livre</term> des copies de lettres.</p>
+ <p>Le <term rend="italic">livre</term> des ports-de-lettres.</p>
+ <p>Le <term rend="italic">livre</term> des vaisseaux.</p>
+ <p>Le <term rend="italic">livre</term> des ouvriers.</p>
  <p>A ces treize qui pourtant peuvent suffire, on peut en ajouter d'autres, suivant la nature du commerce ou la multiplicite des affaires.</p>
-  
+
+<app>
+<rdg wit="#v1"/>
+<rdg wit="#v2">
+<p> <term rend="italic">livre mémorial</term>. Ce <term rend="italic">livre</term> est ainsi nommé, à cause qu'il sert de mémoire; on l'appelle aussi <term rend="italic">livre brouillon</term> ou <term rend="italic">livre brouillard</term>, parce que toutes les affaires du négoce s'y trouvent comme mêlées confusément, et, pour ainsi dire, mêlées ensemble. Le <term rend="italic">livre mémorial</term> est le premier de tous, et celui duquel se tire ensuite tout ce qui compose les autres, aussi ne peut-on le tenir avec trop d'exactitude et de netteté, sur-tout parce qu'on y a recours dans les contestations qui peuvent survenir pour cause de commerce.</p>
+<p> <term rend="italics">Le livre mémorial</term> peut se tenir en deux manieres: la premiere, en écrivant simplement les affaires à mesure qu'elles se font, <hi rend="italics">comme acheté d'un tel, vendu à un tel, payé à un tel, prêté telle somme, etc.</hi> La seconde maniere de le tenir, est en débitant et créditant tout d'un-coup chaque article: on estime celle ci la meilleure, parce que formant d'abord une espece de journal, elle épargne la peine d'en faire un autre.</p>
+<p> Quelques-uns, pour plus d'exactitude, divisent le <term rend="italic">livre mémorial</term> en quatre autres, qui sont le <term rend="italic">livre d'achat</term>, le <term rend="italic">livre de vente</term>, le <term rend="italic">livre de caisse</term> et le <term rend="italic">livre de notes</term>. Des négocians qui suivent cet ordre, les uns portent d'abord les articles de ces quatre <term rend="italic">livres</term> sur le grand <term rend="italic">livre</term>, sans faire de journal; et les autres, en mettant ces quatre <term rend="italic">livres</term> au net, en font leur journal, dont ils portent ensuite les articles sur le grand <term rend="italic">livre</term>.</p>
+<p> <term rend="italic">livre journal</term>. Le nom de ce <term rend="italic">livre</term> fait assez entendre qu'on y écrit jour par jour toutes les affaires, à mesure qu'elles se font.</p>
+<p> Chaque article qu'on porte sur ce <term rend="italic">livre</term>, doit être composé de sept parts, qui sont la date, le débiteur, le créancier, la somme, la quantité et qualité, l'action ou comment payable, et le prix.</p>
+<p> Ordinairement ce <term rend="italic">livre</term> est un registre <hi rend="italics">in-folio</hi> de cinq à six mains de papier, numeroté et reglé d'une ligne du côté de la marge, et de trois de l'autre pour y tirer les sommes.</p>
+<p> C'est du <term rend="italic">livre journal</term> dont l'ordonnance de France du mois de Mars I673 entend parler, lorsqu'elle prescrit au <hi rend="italics">titre. III. art. I. 3. et 5.</hi> que les négocians et marchands, tant en gros qu'en détail, ayent un <term rend="italic">livre</term> qui contienne tout leur négoce, leurs lettres de change, leurs dettes actives et passives. etc. et c'est aussi faute de tenir ce livre et de le représenter, que les négocians, lors des faillites, peuvent être réputés banqueroutiers frauduleux, et en conséquence poursuivis extraordinairement, et condamnés aux peines portées au <hi rend="italics">tit. XI. art. II. et I2.</hi> de la même ordonnance.</p>
+<figure>
+<figDesc> <hi rend="italics"> Modèle d'un article du </hi>livre <hi rend="italics">journal</hi></figDesc>
+</figure>
+<p> <term rend="italic">livre grand</term>. Ce <term rend="italic">livre</term>, outre ce nom qui lui vient de ce qu'il est le plus grand de tous les <term rend="italic">livres</term> dont se servent les négocians, en a encore deux autres, savoir <term rend="italic">livre d'extrait</term> et <term rend="italic">livre de raison</term>. On l'appelle <term rend="italic">livre d'extrait</term>, à cause qu'on y porte tous les articles extraits du <term rend="italic">livre journal</term> et du <term rend="italic">livre de raison</term>, parce qu'il render raison à celui qui le tient de toutes ses affaires.</p>
+<p>Sa forme est d'un très-gros volume <foreign rend="italic" xml:lang="la">in-folio</foreign>, composé de plusieurs mains plus ou moins de papier très-fort, très-large et très-grand; chaque page se regle à six lignes, deux du côté de la marge, et quatre du côté des sommes.</p>
+<p> C'est sur ce <term rend="italic">livre</term> qu'on forme tous les comptes en débit et crédit, dont on trouve les sujets pour le <term rend="italic">livre journal</term>. Pour former chaque compte, il faut se servir de deux pages qui, au folio où l'on veut le mettre, se trouvent opposées l'une à l'autre. La page à gauche sert pour le débit, et la page à droite pour le crédit: le débit se marque par le mot <hi rend="italics">doit</hi> que l'on met après le nom du débiteur, et le crédit par le mot <hi rend="italics">avoir</hi>.</p>
+<p> Chaque article doit être composé de cinq parties ou membres, qui sont: I°. la date: 2°. celui à qui on débite le compte, ou par qui on le crédite: 3°. le sujet, c'est-à-dire pourquoi on le débite, ou crédite: 4°. le folio de rencontre; et enfin 5°. la somme ou le montant de l'article.</p>
+<p> Deux exemples, l'un d'un article de débit, l'autre d'un article de crédit, feront mieux connoître la forme et l'usage de ce <term rend="italic">livre</term>.</p>
+<figure>
+<figDesc> <hi rend="italics"> Exemple d'un article en débit </hi></figDesc>
+</figure>
+<figure>
+<figDesc> <hi rend="italics"> Exemple d'un article en crédit </hi></figDesc>
+</figure>
+<p> Pour faciliter l'usage  <term rend="italics">grand livre</term>, on fait aussi un <term rend="italic">livre</term> d'alphabet, que l'on nomme aussi <hi rend="italics">table, index et repertoire</hi>. Cette table se forme d'autant de feuillets de papier qu'il y a de lettres dans l'alphabet commun, c'est-à-dire vingt-quatre, sur l'extrêmité de chaque feuillet découpé en diminuant, on met en gros caracteres une des lettres dans leur ordre naturel, et sur chaque feuillet ainsi marqué l'on écrit, soit la premiere lettre du nom, soit celle du surnom des personnes avec qui l'on a compte ouvert, avec le folio du <hi rend="italics">grand livre</hi> où le compte est débité et crédité, de sorte que l'on trouve avec beaucoup de facilité les endroits du <hi rend="italics">grand livre</hi> dont on a besoin.</p>
+<p> Cet alphabet n'est guere nécessaire que pour les gros marchands; car, pour ceux qui ne font qu'un négoce médiocre, une simple table sur les deux premiers feuillets du <hi rend="italics">grand livre</hi> leur suffit. Ce qui doit aussi s'observer dans tous les autres livres dont on se sert dans le commerce.</p>
+<p> <term rend="italic">livre de caisse et de bordereaux </term>. C'est le premier et le plus important des treize <term rend="italic">livres</term>, qu'on nomme <term rend="italic">livres d'aides, ou livres auxiliaires</term>. On l'appelle <term rend="italic">livre de caisse</term>, parce qu'il contient en débit et crédit tout ce qui entre d'argent dans la caisse d'un négociant, et tout ce qui en sort; et <term rend="italic">livre  de bordereaux</term>, à cause que les especes de monnoie qui sont entrées dans la caisse, ou qui en sont sorties, y sont détaillées par bordereaux. v. <hi rend="uppercase">BORDEREAU</hi>.</p>
+<p>Sur ce <term rend="italic">livre</term> que le marchand tient ou par lui-même, ou par un caissier ou commis, s'écrivent toutes les sommes qui se reçoivent et se payent journellement; la recette du débit, en marquant de qui on a reçu, pour quoi, pour qui, et en quelles especes, et la dépense du côté du crédit, en faisant aussi mention des especes des raisons du payement, et de ceux pour qui et à qui on l'a fait.</p>
+<p>Le titre de ce <term rend="italic">livre</term> se met en la maniere qui suit. Tous les autres <term rend="italic">livres</term>, en changeant seulement le nom, ont aussi leur titre de même.</p>
+<p rend="center italics">Livre de caisse et de bordereaux</p>
+<p>Les articles du débit et du crédit se forment suivant les modèles ci-après.</p>
+<figure>
+<figDesc><hi rend="italics">Article en débit qui doit être à la page à gauche.</hi></figDesc>
+</figure>
+<figure>
+<figDesc><hi rend="italics">Article en crédit qui doit être vis-à-vis de celui ci-dessus, à la page à droite</hi></figDesc>
+</figure> 
+<p> <term rend="italic">livre des échéances</term>, que l'on nomme aussi <term rend="italic">livre</term> des mois ou payemens, <hi rend="italics">carnet ou bilan</hi>, et quelquefois <term rend="italic">livre d'annotation ou de notes</term>.</p>
+<p>  C'est un <term rend="italic">livre</term> dans lequel on écrit le jour de l'échéance de toutes les sommes que l'on a à payer ou à recevoir, soit par lettres de change, billets, marchandises, ou autrement, afin qu'en comparant les recettes et les payemens, on puisse pourvoir à tems aux fonds pour les payemens, en faisant recevoir les billets et les lettres échues, ou en prenant d'ailleurs ses précautions de bonne heure. Deux modeles suffiront pour faire comprendre toute la forme et tout l'usage de ce <term rend="italic">livre</term>: il faut seulement observer qu'il se dresse de la même maniere que le grand <term rend="italic">livre</term>, c'est-à-dire sur deux pages qui sont opposées l'une à l'autre; que ce qui est à recevoir se met à la page à gauche, et ce qui est à payer s'écrit à la page à droite.</p>
+<figure>
+<figDesc> <hi rend="italics"> Modèle de la page à gauche, pour ce qui est à recevoir</hi></figDesc>
+</figure>
+<figure>
+<figDesc><hi rend="italics">Modèle de la page à droite, pour ce qui est à payer</hi></figDesc>
+</figure>
+<p><term rend="italic">livre des numeros</term>. Ce <term rend="italic">livre</term> se tient pour connoître facilement toutes les marchandises qui entrent dans un magasin, qui en sortent ou qui y restent. Sa forme est ordinairement longue et étroite comme d'une demi-feuille de papier pliée en deux dans sa longueur: chaque page est divisée par des lignes transversales et paralleles, éloignées les unes des autres d'environ un pouce, et réglées de deux autres lignes de haut en-bas, l'une à la marge et l'autre du côté des sommes.</p>
+<p> Pour chaque intervalle des quarrés longs que forment ces lignes, on écrit dans la page à gauche le volume des marchandises; c'est-à-dire, si c'est une balle, une caisse ou un tonneau, ou leur qualité, comme poivre, gérofle, miel, savon, etc. et leur poids ou leur quantité; et vis-à-vis du côté de la marge, les numeros qui sont marqués sur les balles, caisses ou tonneaux qu'on a reçus dans le magasin.</p>
+<p>A la page droite, on suit le même ordre pour la décharge des marchandises qui sortent du magasin, en mettant vis-à-vis de chaque article de la gauche d'abord à la marge la date des jours que les marchandises sont sorties du magasin, et dans le quarré long le nom de ceux à qui elles ont été vendues ou envoyées. En voici deux modeles, l'un de la page gauche, l'autre de la page à droite.</p>
+<figure>
+<figDesc><hi rend="italics">Modèle des pages de gauche et de droite</hi></figDesc>
+</figure>
+<p><term rend="italic">livre des factures</term>. On tient ce <term rend="italic">livre</term> pour ne pas embarrasser le <term rend="italic">livre journal</term> de quantité de factures, qui sont inévitables en dressant les comptes ou factures de diverses marchandises reçues, envoyées ou vendues, où l'on est obligé d'entrer dans un grand détail. Les factures qu'on doit porter sur ce <term rend="italic">livre</term>, sont les factures des marchandises que l'on achète, et que l'on envoie pour le compte d'autrui.</p>
+<p>Celle des marchandises que l'on vend par commission.</p>
+<p>Les factures des marchandises que l'on envoie en quelque lieu pour être vendues pour notre compte.</p>
+<p>Celles des marchandises qui sont en société, dont nous avons la direction.</p>
+<p>Les factures des marchandises qui sont en société, dont d'autres ont la direction.</p>
+<p>Enfin, tous les comptes qu'on ne termine pas sur le champ, et qu'on ne veut pas ouvrir sur le grand <term rend="italic">livre</term>.</p>
+<p><term rend="italic">livre des comptes courans</term>. Ce <term rend="italic">livre</term> se tient en débit et crédit de même que le grand <term rend="italic">livre</term>. Il sert à dresser les comptes qui sont envoyés aux correspondans pour les régler de concert avec eux, avant que de les solder sur le grand <term rend="italic">livre</term>; et c'est proprement un double des comptes courans qu'on garde pour y avoir recours en cas de multiplicité.</p>
+<p><term rend="italic">livre des commissions, ordres ou avis</term>. On écrit sur ce <term rend="italic">livre</term> toutes les commissions, ordres ou avis que l'on reçoit de ses correspondans.</p>
+<p>Les marges de ce <term rend="italic">livre</term> doivent être très-larges pour y pouvoir mettre vis-à-vis de chaque article les notes nécessaires concernant leur exécution. Quelques-uns se contentent de rayer les articles quand ils ont été exécutés.</p>
+<p><term rend="italic">livre des acceptations ou des traites</term>. Ce <term rend="italic">livre</term> est destiné à enregistrer toutes les lettres de change que les correspondans marquent par leurs lettres missives ou d'avis qu'ils ont tirées sur nous, et cet enregistrement se fait afin que l'on puisse être en état de connoître à la présentation des lettres, si l'on a ordre de les accepter ou non. Si on les accepte, ou met sur le <term rend="italic">livre des acceptations</term>, à côté de l'article, un <hi rend="italics">A</hi> qui veut dire <hi rend="italics">accepté</hi>; si au contraire on ne les accepte pas, on met <hi rend="italics">A</hi> et un <hi rend="italics">P</hi>, qui signifie <hi rend="italics">à protester</hi>. v. <hi rend="uppercase">ACCEPTATION et PROTEST.</hi></p>
+<p><term rend="italic">livre des remises</term>. C'est un <term rend="italic">livre</term> qui sert à enregistrer toutes les lettres de change à mesure que les correspondans les remettent pour en exiger le payement. Si elles sont protestées faute d'acceptation, et renvoyées à ceux qui en ont fait les remises, il en faut faire mention à côté des articles, en mettant un <hi rend="italics">P</hi> en marge et la date du jour qu'elles ont été renvoyées, puis les barrer; mais si ces lettres sont acceptées, on met un <hi rend="italics">A</hi> à côté des articles et la date des acceptations, si elles sont à quelques jours de vue.</p>
+<p><term rend="italic">livre des dépenses</term>. C'est le <term rend="italic">livre</term> où se mettent en détail toutes les menues dépenses qu'on fait, soit pour son ménage, soit pour son commerce, et dont au bout de chaque mois on fait un total, pour en former un article sur le mémorial ou journal.</p>
+<p><term rend="italic">livre des copies de lettres</term>. Ce <term rend="italic">livre</term> sert à conserver des copies de toutes les lettres d'affaires qu'on écrit à ses correspondans, afin de pouvoir savoir avec exactitude, et lorsqu'on en a besoin, ce qu'on leur a écrit, et les ordres qu'on leur a donnés.</p>
+<p><term rend="italic">livre des ports de lettres</term>. C'est un petit registre long et étroit, sur lequel on ouvre des comptes particuliers à chacun de ses correspondans pour les ports de lettres qu'on a payés pour eux, et que l'on solde ensuite quand on le juge à propos, afin d'en porter le total à leur débit.</p>
+<p><term rend="italic">livre des vaisseaux</term>. Ce <term rend="italic">livre</term> se tient en débit et crédit, en donnant un compte à chaque vaisseau. Dans le débit se mettent les frais d'avitaillement, mises hors, gages, etc. et dans le crédit tout ce que le vaisseau a produit, soit pour fret, soit autrement, et ensuite le total de l'un et de l'autre se porte sur le journal en débitant et créditant le vaisseau.</p>
+<p><term rend="italic">livre des ouvriers</term>. Ce <term rend="italic">livre</term> est particulierement en usage chez les marchands qui font fabriquer des étoffes et autres marchandises. Il se tient en débit et en crédit pour chaque ouvrier qu'on fait travailler. Dans le débit, on met les matieres qu'on leur donne à fabriquer; et dans le crédit, les ouvrages qu'ils rapportent après les avoir fabriquées.</p>
+<p>Outre tous ces <term rend="italic">livres</term>, il y a des villes, comme Venise, Hambourg, Amsterdam, dont les marchands, à cause des banques publiques qui y sont ouvertes, ont encore besoin d'un <term rend="italic">livre de banque</term>, qui se tient en débit et en crédit, et sur lequel ils mettent les sommes que leur paye ou que leur doit la banque; et c'est par ce secours qu'il leur est facile en très-peu de tems de savoir en quel état ils sont avec la banque, c'est-à-dire quel fonds ils peuvent y avoir.</p>
+<p>Tous ces <term rend="italic">livres</term> ou écritures se tiennent presque de la même maniere pour le fond dans les principales villes de commerce de l'Europe, mais non par rapport aux monnoies, chacun se réglant à cet égard sur celles qui ont cours dans les Etats où il se trouve établi.</p>
+<p> En France, les <term rend="italic">livres</term> de marchands et banquiers se tiennent par livres, sols et deniers tournois, la livre valant vingt sols, et le sols douze deniers.</p>
+<p> En Hollande, Flandres, Zélande et Brabant, ils se tiennent par livres, sols et deniers de gros, que l'on somme par vingt et par douze, parce que la livre vaut vingt sols, et le sol douze deniers.</p>
+<p>On les tient aussi dans ces mêmes pays par florins, patars et penings, que l'on somme par vingt et par seize, à cause que le florin vaut vingt patars, et le patar seize penings. La livre de gros vaut six florins, et le sol de gros vaut six patars, ensorte que le florin vaut quarante deniers de gros, et le patar deux deniers de gros.</p>
+<p>A Bergame les <term rend="italic">livres</term> des banquiers, marchands, etc. se tiennent par livres, sols et deniers, qui se somment par vingt et par douze, parce que la livre vaut vingt sols, et le sol douze deniers, que l'on réduit ensuite en ducats de sept livres de Bergame.</p>
+<p> A Bologne en Italie, ils se tiennent de même par livres, sols et deniers, que l'on somme de même, et dont on fait la réduction en écus de quatre-vingt-cinq sols de Bologne.</p>
+<p>A Dantzic et dans toute la Pologne, ils se tiennent par richedales, gros ou grochs et deniers, qu'on somme par quatre-vingt-dix et par douze, parce que la richedale vaut quatre-vingt-dix gros, et le gros douze deniers.</p>
+<p>On les tient aussi dans les mêmes pays par florins, gros et deniers, qui se somment par soixante et par douze, le florin valant soixante gros, et le gros douze deniers. Ils s'y tiennent encore par livres, gros et deniers, que l'on somme par trente et par douze, attendu que la livre vaut trente gros, et le gros douze deniers.</p>
+<p>A Francfort, à Nuremberg, et presque dans toute l'Allemagne, ils se tiennent par florins, creutzer et penings ou phenings courans, que l'on somme par soixante-huit, parce que le florin vaut soixante creutzers, et le creutzers huit penings.</p>
+<p>On les tient encore à Francfort par florins de change, qui se somment par soixante et cinq et par huit, parce que le florin vaut soixante cinq creutzers, et le creutzer huit penings.</p>
+<p>A Genes, ils se tiennent par livres, sols et deniers, qui se somment comme en France, et qui se réduisent ensuite en piastres de quatre-vingt seize sols.</p>
+<p> A Hambourg, on les tient par marcs, sols et deniers lubs, que l'on somme par seize et par douze, le marc valant seize sols, et le sol douze deniers lubs. On les y tient encore de la même maniere qu'en Hollande.</p>
+<p> A Lisbonne, ils se tiennent par raies, qui se distinguent par des virgules de centaine en centaine de droite à gauche, que l'on réduit en mille raies, dont chacune de ces mille sont une demi-pistole d'Espagne.</p>
+<p> A Florence en écus, sols et deniers d'or, l'écu valant sept livres dix sols, et le sol douze deniers.</p>
+<p>A Livourne, on les tient par livres, sols et deniers, que l'on somme par vingt et par douze, la livre y valant vingt sols, et le sol douze deniers, qu'on réduit en piastres de six livres.</p>
+<p>En Angleterre, Ecosse et Irlande, la maniere de tenir les <term rend="italic">livres</term> est par livres, sols et deniers sterlings, quon somme par vingt et par douze, la livre valant vingt sols, et le sol douze deniers sterlings.</p>
+<p> A Madrid, à Cadix, à Séville et dans toute l'Espagne, ils se tiennent par maravedis, dont les <term rend="italics">375</term> sont le ducat, qui se distinguent par des virgules de gauche à droite, ou par réaux de plate et pièces de huit, dont trente-quatre maravedis font la réale, et huit réaux valent une piece de huit, ou piastre, ou réale de deux cents soixante et douze maravedis.</p>
+<p> A Messine, à Palerme et dans toute la Sicile, on tient des <term rend="italic">livres</term> par onces, taris, grains et picolis, que l'on somme par trente, par vingt et par six, parce que trente taris font une once, vingt grains un taris, et six picolis font un grain.</p>
+<p>A Milan, ils se tiennent par livres, sols et deniers, qu'on somme par vingt et par douze, la livre valant vingt sols, et le sol douze deniers.</p>
+<p>A Rome, on les tient par livres, sols et deniers d'or d'estampe, que l'on somme par vingt et par douze, parce que la livre vaut vingt sols, et le sol douze deniers d'estampe.</p>
+<p>A Venise, par ducats et gros de banque, dont les vingt-quatre gros font un ducat, ce qui se pratique particulierement pour la banque. On les y tient aussi par livres, sols et deniers de gros, qui se somment par vingt et par douze, parce que vingt sols font la livre, et douze gros le sol. Il faut remarquer que de cette seconde maniere la livre de gros vaut dix ducats. Dans la même ville, on tient encore les <term rend="italic">livres</term> par ducats courans, qui different de vingt pour cent des ducats de banque.</p>
+<p>A Augsbourg, en talers et en creutzers; le taler de quatre-vingt-dix creuzers, et le creutzer de huit penings.</p>
+<p>A Bolzam comme à Ausbourg, et encore en florins et en creutzers, le florin de soixante creutzers.</p>
+<p>A Naumbourg, en richedales, gros et fenins, la richedale de vingt-quatre gros, le gros de douze fenins.</p>
+<p>A Geneve, en livres, sols et deniers, et aussi en florins. En Savoie comme à Geneve.</p>
+<p>A Raconis, en florins et en gros.</p>
+<p>En Suisse, en florins, creutzers et penings.</p>
+<p>A Ancone, en écus, sols, deniers, l'écu valant vingt sols et le sol douze deniers.</p>
+<p>A Luques, en livres, sols et deniers: on les y tient aussi en écus de 7 livres I0 sols.</p>
+<p>A Nove, en écus, sols et deniers d'or de marc, l'écu d'or de marc valant vingt sols.</p>
+<p>A Malthe, en tarins, carlins et grains; ils s'y tiennent encore en sequins ou, comme parlent les Malthois, en <foreign rend="italic" xml:lang="la">dielitarini</foreign>.</p>
+<p>Dans les échelles du Levant et dans tous les Etats du grand-seigneur, en piastres, abouquels et en aspres.</p>
+<p>En Hongrie, en hongres et demi-hongres d'or.</p>
+<p>A Strasbourg, en florins, creutzers et penings monnoie d'Alsace.</p>
+<p>A Berlin et dans une partie des Etats du roi du Prusse, en richedales, en grochs et aussi en florins.</p>
+<p>En Suede, en dalles d'argent et en dalles de cuivre.</p>
+<p>En Danemarck, en richedales, en hors et en schelings.</p>
+<p>Enfin, en Moscovie, en roubes, en altins et en grifs ou grives. Voyez toutes ces différentes monnoies, leur valeur et leur rapport avec celles de France, ou sous leur titre particulier, ou à l'article <hi rend="uppercase">MONNOIE</hi>.</p>
+<p><term rend="italic">livre de bord</term>, ce sont les registres que les capitaines ou les maîtres des vaisseaux marchands doivent tenir ou faire tenir par leur écrivain, sur lesquels ils sont obligés d'enregistrer le chargement de leurs vaisseaux, c'est-à-dire, la quantité, la qualité, la destination et autres circonstances des marchandises qui composent leur cargaison.</p>
+<p>Ces <term rend="italic">livres</term>, avec les connoissemens, chartes-parties et autres semblables papiers et expéditions, sont ce qu'on appelle les écritures d'un navire marchand, que les capitaines ou maîtres des vaisseaux doivent communiquer aux commis du bureau le plus prochain du lieu où ils ont relâché, pour y justifier de la destination de leurs marchandises. v. <hi rend="uppercase">CONNOISSEMENT</hi>; <hi rend="uppercase">CHARTE-PARTIE</hi>, <hi rend="uppercase">ÉCRITURES</hi>.</p>
+<p><term rend="italic">livre de soubord</term>, terme de <hi rend="italics">commerce de mer</hi>; c'est un des <term rend="italic">livres</term> que tient l'écrivain d'un navire marchand, dans lequel il enregistre toutes les marchandises qui composent le chargement du bâtiment, soit pour le simple fret, soit pour être vendues ou troquées à mesure que la vente s'en fait dans les lieux de leur destination, ou qu'on les délivre à leur adresse: le tout suivant ce qu'il est spécifié dans le connoissement du capitaine ou du maître de navire.</p>
+<p>L'ordre de ce <term rend="italic">livre</term> est de mettre à part toutes les marchandises qui doivent être vendues, chacune suivant les endroits où la traite s'en doit faire, et pareillement à part toutes celles qu'on ne prend qu'à fret, aussi chacune suivant les personnes et les lieux à qui elles sont adressées.</p>
+<p>Il y a ordinairement à chaque page de ce <term rend="italic">livre</term> deux colonnes à gauche et trois à droite. Dans la premiere à gauche on met la marque du ballot ou de la caisse, et dans la seconde, son numéro: vis-à-vis, on écrit le lieu où se doit faire la traite, avec les marchandises qui y sont contenues, en observant la même chose pour celles qu'on a à fret: ensuite on porte dans les trois colonnes qui sont à droite les sommes qui ont été reçues, soit pour la vente, soit pour le fret.</p>
+<p>On observe pour l'ordinaire de mettre les premieres celles qui sont pour la traite, et ensuite celles qui sont pour le fret. Un exemple de quelques articles d'un livre de soubord fera encore mieux connoître la maniere de le tenir.</p>
+<figure>
+<figureDesc><hi rend="italics">Modele d'un livre de soubord.</hi> Livre <hi rend="italics">de soubord des marchandises chargées à la Rochelle le 6 Mars I724, dans la frégate l'hirondelle, capitaine le sieur Coral, pour, Dieu aidant, les mener et délivrer aux lieux et personnes de leur destination.</hi></figureDesc>
+</figure>
+<p>Les <term rend="italic">livres</term> de soubord ne sont proprement regardés que comme les écritures particulieres, et ne peuvent avoir la même autorité que les connoissemens, chartes-parties, factures, et autres semblables écritures pour justifier du chargement d'un vaisseau.</p>
+</rdg>
+</app>
         </body>
     </text>
+</TEI>
