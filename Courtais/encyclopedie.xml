@@ -51,10 +51,10 @@
         <encodingDesc> 
             <projectDesc><p>L'objectif est de rassemblé dans ce document TEI les articles de l'encyclopédie avec différents sources tels que ENCCRE ou encore Yverdon</p></projectDesc>
             <editorialDecl>
-                <p> L'élément app est intégrer dans le texte afin de présenter les deux versions existantes.<p>
-                <p> J'ai choisi la méthode rdg/rdg, car pour moi les deux textes sont distincts et il n'y a pas de premiere version, même si le lem/rdg pourrait convenir au vu du grand nombre de similitudes dans les deux ressources.<p>
-                <p> j'ai choisi la balise source car elle revoit à mes références citées dans la listBibl<p>
-            <editorialDecl>
+                <p> L'élément app est intégrer dans le texte afin de présenter les deux versions existantes.</p>
+                <p> J'ai choisi la méthode rdg/rdg, car pour moi les deux textes sont distincts et il n'y a pas de premiere version, même si le lem/rdg pourrait convenir au vu du grand nombre de similitudes dans les deux ressources.</p>
+                <p> j'ai choisi la balise source car elle revoit à mes références citées dans la listBibl</p>
+                </editorialDecl>
         </encodingDesc>
         <profileDesc></profileDesc>
         <revisionDesc>
@@ -79,10 +79,10 @@
             <pos>substantif</pos>
             <gen>masculin</gen>
         </gramGrp>
-    </entry>
         <sense>
             <def>est le crime de celui ou celle qui procure la mort à son enfant.</def>
         </sense>
+    </entry>
 
         <p>Tout homme qui tue en général méritant la mort, à plus forte raison celui qui tue son enfant, une telle action faisant frémir la nature.</p>
             <p>Les femmes 
@@ -116,7 +116,7 @@
             
             <p>Les Romains faisoient une autre distinction entre celles 
                 <app>
-                    <rdg source="#encyclopédie1751">qui défaisoient<rdg>
+                    <rdg source="#encyclopédie1751">qui défaisoient</rdg>
                     <rdg source="#encyclopédie1770">qui se défaisoient de</rdg>
                     </app>
                     leur fruit, étant corrompues par argent, 
@@ -133,10 +133,12 @@
                 <app>
                     <rdg source="#encyclopédie1751">quelque autre</rdg>
                     <rdg source="#encyclopédie1770">quelqu'autre </rdg>
+                </app>
                 motif de passion ; au premier cas on les condamnoit à mort. En effet Ciceron dans l’oraison 
                 <app>
                     <rdg source="#encyclopédie1751">pro Cluentio,</rdg>
                     <rdg source="#encyclopédie1770"><hi rend="italic">pro Cluentio</hi>,</rdg>
+                </app>
                     fait mention d’une femme milésienne qui fut punie du dernier supplice pour avoir, après le décès de son mari, fait périr l’enfant dont elle étoit enceinte, moyennant une somme d’argent qui lui avoit été donnée par les héritiers que son mari avoit substitués à ce posthume ; au second cas elles étoient seulement bannies pour un certain tems, suivant les rescrits des empereurs.</p>
             <p>La religion chrétienne plus pure que les  
                 <app>
@@ -158,7 +160,13 @@
                     <rdg source="#encyclopédie1751">
             <p>Un ancien arrêt du 22 Décembre 1480, condamna une femme qui avoit suffoqué ou autrement tué son enfant, à être brûlée vive.</p>
             <p>La peine n’est pourtant pas si rigoureuse suivant l’édit d’Henri II. de l’année 1556, donné contre les filles &amp; femmes qui celent leur grossesse &amp; leur enfantement ; cet édit veut que celles qui se trouveront dans ce cas sans en avoir pris témoignage suffisant, même de la vie &amp; de la mort de leur enfant lors de l’issue de leur ventre, &amp; l’enfant ayant été privé du baptême &amp; de la sépulture publique &amp; accoutumée, elles soient tenues pour avoir homicidé leur enfant, &amp; pour réparation publique, punies de mort &amp; du dernier supplice, de telle rigueur que la qualité particuliere du cas le méritera.</p>
-            <xr>On renouvelle de tems en tems la publication de cet édit, &amp; depuis il y a eu plusieurs exemples de femmes pendues pour avoir tué leurs enfans. Voyez Enfant &amp; Exposition d’enfant, &amp; Suppression de part. (A)</xr>
+            <xr>On renouvelle de tems en tems la publication de cet édit, &amp; depuis il y a eu plusieurs exemples de femmes pendues pour avoir tué leurs enfans. Voyez 
+                <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1281-0/">Enfant </ref>
+                &amp; 
+                <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-391-0/">Exposition d’enfant</ref>
+                , &amp; 
+                <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-2272-1/">Suppression de part</ref>
+                . (A)</xr>
                     </rdg>
                     <rdg source="#encyclopédie1770"></rdg>
                 </app>
