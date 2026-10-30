@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ébauche : édition numérique et comparaison de deux textes encyclopédiques</title>
+        <respStmt>
+          <resp>Transcription et encodage TEI-XML dans le cadre des TD</resp>
+          <name>Maina Ruellan</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Document de travail universitaire, version en cours.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl xml:id="source1751">
+            <title>Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
+            <title level="a">EBAUCHE, ESQUISSE</title>
+            <biblScope unit="volume">V</biblScope>
+            <biblScope unit="page" from="212" to="213">212-213</biblScope>
+            <date when="1751">1751</date>
+            <note>Première édition, tome V. Transcription de travail d’après le document fourni.</note>
+          </bibl>
+          <bibl xml:id="source1788">
+            <title>Encyclopédie méthodique. Beaux-Arts</title>
+            <title level="a">ÉBAUCHE</title>
+            <author>Article signé M. Levesque</author>
+            <publisher>Panckoucke</publisher>
+            <pubPlace>Paris</pubPlace>
+            <date when="1788">1788</date>
+            <biblScope unit="volume">I</biblScope>
+            <biblScope unit="page" from="206" to="207">206-207</biblScope>
+            <ref
+              target="https://fr.wikisource.org/wiki/Encyclop%C3%A9die_m%C3%A9thodique/Beaux-Arts/%C3%89bauche">Texte
+              consulté sur Wikisource</ref>
+            <note>Source envisagée pour la comparaison du TD5 ; son adéquation à la consigne reste à
+              confirmer avec l’enseignant.</note>
+          </bibl>
+        </listBibl>
+        <listWit>
+          <witness xml:id="wit1751">Première édition de l’Encyclopédie, 1751, tome V, p. 212-213.</witness>
+          <witness xml:id="wit1788">Encyclopédie méthodique. Beaux-Arts, 1788, tome I, p. 206-207.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TD4 : transcription structurée de l’article « EBAUCHE, ESQUISSE » de la première édition
+          de l’Encyclopédie.</p>
+        <p>TD5 : les deux textes sont encodés comme deux témoins distincts dans un élément app,
+          chacun dans un rdg portant un attribut wit. Ce choix est provisoire : les textes diffèrent
+          fortement et ne permettent pas une comparaison locale simple. La source de 1788 reste à
+          faire confirmer par l’enseignant.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Les graphies historiques sont conservées autant que possible d’après les transcriptions
+          fournies. Aucune modernisation systématique n’est appliquée. La transcription doit encore
+          être vérifiée sur les fac-similés si ceux-ci sont disponibles.</p>
+      </editorialDecl>
+      <refsDecl>
+        <p>Les renvois « Voyez Esquisse. » et « Voyez Masses. » sont encodés avec ref. Les cibles ne
+          sont pas indiquées tant que les URL ou les articles correspondants n’ont pas été vérifiés.</p>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr">Français</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-26">
+        <p>TD4 : préparation de la structure TEI et transcription de travail du texte de 1751.</p>
+      </change>
+      <change when="2026-10-26">
+        <p>TD5 : ajout de la seconde source et comparaison des deux textes au moyen de app et de
+          deux rdg identifiés par wit.</p>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="article" xml:id="ebauche">
+        <head>Ébauche : comparaison de deux textes</head>
+        <app xml:id="appEbauche" type="whole-text">
+          <rdg wit="#wit1751">
+            <p>EBAUCHE, ESQUISSE, s. f. termes techniques. L’ébauche est la premiere forme qu’on a
+              donnée à un ouvrage ; l’esquisse n’est qu’un modele incorrect de l’ouvrage même qu’on
+              a tracé légerement, qui ne contient que l’esprit de l’ouvrage qu’on se propose
+              d’exécuter, &amp; qui ne montre aux connoisseurs que la pensée de l’ouvrier. Donnez à
+              l’esquisse toute la perfection possible, &amp; vous en ferez un modele achevé. Donnez
+              à l’ébauche toute la perfection possible, &amp; l’ouvrage même sera fini. Ainsi quand
+              on dit d’un tableau, j’en ai vû l’esquisse, on fait entendre qu’on en a vû le premier
+              trait au crayon que le peintre avoit jetté sur le papier ; &amp; quand on dit, j’en ai
+              vû l’ébauche, on fait entendre qu’on a vû le commencement de son exécution en couleur,
+              que le peintre en avoit formée sur la toile. D’ailleurs le mot d’esquisse ne s’employe
+              guere que dans les Arts où l’on passe du modele à l’ouvrage ; au lieu que celui
+              d’ébauche est plus général, puisqu’il est applicable à tout ouvrage commencé, &amp;
+              qui doit s’avancer de l’état d’ébauche à l’état de perfection. Esquisse dit toûjours
+              moins qu’ébauche, quoiqu’il soit peut-être moins facile de juger de l’ouvrage sur
+              l’ébauche que sur l’esquisse. <ref type="crossRef">Voyez Esquisse.</ref></p>
+            <p>Ebauche, en Architecture ; c’est la premiere forme qu’on donne à un quartier de
+              pierre ou à un bloc de marbre avec le ciseau, après qu’il est dégrossi à la scie &amp;
+              à la pointe, suivant un modele ou un profil. C’est aussi un petit modele de terre ou
+              de cire taillé au premier coup avec l’ébauchoir, pour en voir l’effet avant de le
+              terminer. (P)</p>
+            <p>Ebauche, ébauches en Gravûre, c’est l’action de préparer &amp; de mettre par masses
+              les ouvrages de gravûre au premier trait de burin. <ref type="crossRef">Voyez Masses.</ref></p>
+            <p>Ebauche, ébaucher en Peinture, c’est disposer avec des couleurs les objets qu’on
+              s’est proposé de représenter dans un tableau, &amp; qui sont déjà dessinés sur une
+              toile imprimée, sans donner à chacun le degré de perfection qu’on se croit capable de
+              leur donner, en les finissant. Les peintres ébauchent plus ou moins arrêté ; il y en a
+              qui ne sont qu’un leger lavis de couleur &amp; de térébenthine, ou même de grisaille
+              ou camayeu. Les Sculpteurs disent aussi, ébaucher une figure, un bas-relief. (R)</p>
+          </rdg>
+          <rdg wit="#wit1788">
+            <p>ÉBAUCHE, (sust. fém.) ce terme n’est pas synonyme d’esquisse. L’esquisse est la
+              première pensée du tableau, exprimée d’une manière plus ou moins terminée, &amp;
+              jettée sur un papier ou sur une toile séparée. Les figures, les accessoires, le site,
+              l’effet y sont indiqués ; mais rien n’y est rendu, rien n’y est arrêté. C’est pour le
+              peintre ce que seroit le plan d’un ouvrage pour un écrivain. L’ébauche est le premier
+              travail du tableau même : elle doit être couverte dans la suite par d’autres travaux ;
+              mais cependant elle doit subsister, &amp; même, si elle est savamment faite, les
+              couleurs en doivent servir &amp; concourir à l’effet de celles qui les couvriront,
+              sur-tout dans les ombres qui doivent toujours être légères de couleur. Par conséquent
+              dès l’ébauche, les formes doivent être arrêtées, sans quoi elle ne serviroit pas,
+              puisqu’il faudroit l’effacer par les couches supérieures ; elle seroit même nuisible,
+              car les couleurs du dessous percent avec le tems. Il est donc utile de prévoir, en
+              établissant les teintes de l’ébauche, celles qu’on mettra par dessus.</p>
+            <p>Tous les peintres ne suivent pas la même méthode dans leurs ébauche. Il y en a de qui
+              l’ébauche offre déjà, mais d’une teinte plus foible, l’effet qu’ils se proposent de
+              produire dans le fini. D’autres ne font qu’un léger lavis de couleur, &amp; leur
+              tableau ébauches ne présente qu’une grisaille. Rubens pensoit, en ébauchant, à tirer
+              parti, non-seulement de son ébauche mais même des tons de l’impression de la toile.</p>
+            <p>Suivant Lairesse, la meilleure méthode, quand il doit y avoir du paysage dans le
+              tableau, est de commencer l’ébauche par le fond, parce que c’est d’après la clarté ou
+              l’obscurité du ciel qu’il faut disposer toutes les autres parties &amp; régler toutes
+              les teintes des objets.</p>
+            <p>Mais si ce sont des figures ou d’autres grands objets qui forment la principale
+              partie du tableau, il croit qu’alors il faut commencer par l’endroit où doit être
+              employée la plus grande force. Il recommande, pour ne pas faire un travail inutile,
+              d’observer dès l’ébauche la perspective aerienne, &amp; de disposer les couleurs &amp;
+              les teintes de maniere qu’en regardant le tableau à un certain éloignement, il y ait
+              déjà un parfait accord dans l’ensemble. Il juge avec raison que cette méthode
+              procurera beaucoup de facilité pour la suite du travail.</p>
+            <p>Il blâme sur-tout les peintres qui ne suivent que le caprice dans le choix de la
+              partie du tableau par laquelle ils commencent leur ébauche ; qui, si leur imaginaion
+              est flattée de la représentation d’un vase d’or, commenceront par ce vase, pour
+              passer, ensuite sans un dessein bien déterminé &amp; bien réfléchi, à une draperie
+              bleue, puis à une draperie rouge, &amp;c. Il trouve le même inconvénient à peindre
+              d’abord &amp; à terminer entièrement le nud, pour passer ensuite aux draperies &amp; à
+              tous les accessoires. Les ouvrages, commencés par cette méthode vicieuse, n’offrent,
+              suivant lui, qu’une incohérence qui embarrasse plus l’artiste que s’il n’avoit sous
+              ses yeux qu’une toile imprimée. Mais quand la disposition, le coloris, l’entente
+              générale ont été bien observés dans la première couche de couleurs qui forme
+              l’ébauche, quand tout y a été le produit de la réflexion sur l’ouvrage qui doit
+              suivre, l’artiste peut s’appliquer avec goût à la meilleure manière de finir ce qu’il
+              a si bien indiqué.</p>
+            <p>On se sert aussi du mot ébauche dans la sculpture &amp; la gravure. On dit ébaucher
+              une statue, un bas-relief, une planche : mais on dit plus volontiers esquisser un
+              dessin, quoique les premiers travaux par lesquels on établit les formes intérieures
+              &amp; le clair-obscur répondent à ceux de l’ébauche en peinture, puisqu’un dessin
+              terminé est en effet un tableau d’une seule couleur, un camayeu. (Article de M.
+              Levesque).</p>
+          </rdg>
+        </app>
+        <note type="comparison">La notice de 1751 traite de l’ébauche dans plusieurs domaines,
+          notamment l’architecture, la gravure et la peinture. La notice de 1788 développe plus
+          longuement les méthodes de travail des peintres. Les deux textes sont donc présentés comme
+          des témoins complets plutôt que découpés en variantes locales artificielles.</note>
+        <!-- Question à l’enseignant : la notice de 1788, issue de l’Encyclopédie méthodique,
+        convient-elle comme deuxième version pour cet exercice ? -->
+      </div>
+    </body>
+  </text>
+</TEI>
