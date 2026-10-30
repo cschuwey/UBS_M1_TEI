@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Comparaison des articles « Dieux » de l'Encyclopédie et du Dictionnaire de Trévoux</title>
+				<author>Noémie Ponin</author>
+				<respStmt> <resp>Encodage TEI</resp> <name>Noémie Ponin</name> </respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Encodage réalisé dans le cadre d'un enseignement universitaire.</p>
+				<date when="2026-10-23">23 octobre 2026, TD4</date>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl>
+					<bibl xml:id="source_enccre">
+						<title level="a">Dieux</title>
+						<author>Johann Heinrich Samuel Formey</author>
+						<author>Edmé-François Mallet</author>
+						<title level="m">Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
+						<editor>Denis Diderot</editor>
+						<editor>Jean le Rond d'Alembert</editor>
+						<respStmt>
+							<resp>Contributeur mentionné dans l'ancienne version</resp>
+							<name>Louis de Jaucourt</name>
+						</respStmt>
+						<imprint>
+							<publisher>André Le Breton ; Laurent Durand ; Antoine-Claude Briasson ; Michel-Antoine David</publisher>
+							<pubPlace>Paris, France</pubPlace>
+							<edition>1er édition</edition>
+							<date when="1754-10">octobre 1754</date>
+						</imprint>
+						<biblScope unit="volume" n="4">Tome 4</biblScope>
+						<biblScope unit="page" from="983" to="984">983–984</biblScope>
+						<ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-2500-2/">Transcription consultée sur ENCCRE</ref>
+						<note>Article « Dieux ».</note>
+					</bibl>
+					<bibl xml:id="source_wikisource">
+						<title level="a">Dieu</title>
+						<author>Jean-Baptiste Morvan de Bellegarde</author>
+						<author>Compagnie de Jésus
+						<name>Père François-Xavier de Feller</name><name>Père Tournemine</name></author>
+						<title level="m">Dictionnaire de Trévoux, vulgairement appelé Dictionnaire universel français et latin</title>
+						<imprint>
+							<publisher>Compagnie des libraires associés</publisher>
+							<pubPlace>Paris</pubPlace>
+							<edition>6e édition</edition>
+							<date when="1771">1771</date>
+						</imprint>
+						<biblScope unit="page" from="334" to="338">334-338</biblScope>
+						<biblScope unit="volume" n="3">Tome 3</biblScope>
+						<ref target="https://fr.wikisource.org/wiki/Dictionnaire_de_Tr%C3%A9voux/6e_%C3%A9dition,_1771">Transcription consultée sur Wikisource</ref>
+						<note>Référence utilisée pour comparer l'article « Dieux » avec le contenu du Dictionnaire de Trévoux.</note>
+					</bibl>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p>L'Encyclopédie de Diderot et d'Alembert est le texte principal de l'encodage. Le Dictionnaire de Trévoux, est intégré directement à l'intérieur de l'Encyclopédie. J'ai choisit les balises
+					<lem></lem>
+					et
+					<rdg></rdg>
+					pour distinguer le texte de référence (<lem></lem>), correspondant à l'Encyclopédie et des variantes (<rdg></rdg>) issues du Dictionnaire de Trévoux. L'attribut @source est utilisé sur chaque balise
+					<rdg></rdg>
+				afin d'identifier la source bibliographique de la variante.</p>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy xml:id="size">
+					<category xml:id="medium">
+						<catDesc>L'histoire occupe entre un quart et une moitié de page.</catDesc>
+					</category>
+				</taxonomy>
+				<taxonomy xml:id="topic">
+					<category xml:id="dieux">
+						<catDesc>Concerne les dieux mentionnés.</catDesc>
+					</category>
+					<category xml:id="mythologie">
+						<catDesc>Concerne les dieux issus de la mythologie.</catDesc>
+						<catRef target="#dieux #mythologie" />
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage> <language ident="fr">Français</language> </langUsage>
+			<particDesc>
+				<listPerson>
+					<personGrp xml:id="grecs"> <persName>les Grecs</persName> </personGrp>
+					<personGrp xml:id="latins"> <persName>les Latins</persName> </personGrp>
+					<personGrp xml:id="romains"> <persName>les Romains</persName> </personGrp>
+				</listPerson>
+				<listPerson xml:id="philosophes_antiques">
+					<person xml:id="socrate"><persName>Socrate</persName></person>
+					<person xml:id="platon"><persName>Platon</persName></person>
+					<person xml:id="ciceron"><persName>Cicéron</persName></person>
+				</listPerson>
+				<listPerson xml:id="dieux">
+					<person xml:id="gentils"> <persName>des Gentils</persName> </person>
+				</listPerson>
+				<listPerson xml:id="auteurs">
+					<person xml:id="rene_le_bossu">
+						<persName> <forename>René</forename> <surname>Le Bossu</surname> </persName>
+						<roleName>Théologien</roleName>
+					</person>
+					<person xml:id="isaac_vossius">
+						<persName> <forename>Isaac</forename> <surname>Vossius</surname> </persName>
+						<roleName>Auteur</roleName>
+					</person>
+					<person xml:id="bossuet">
+						<persName>
+							<forename>Jacques-Bénigne</forename>
+							<surname>Bossuet</surname>
+						</persName>
+						<roleName>Auteur</roleName>
+					</person>
+				</listPerson>
+			</particDesc>
+		</profileDesc>
+		<revisionDesc> <change when="2026-10-30">TD5</change> </revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="article" xml:id="art_encyclopedie" source="#source_enccre" ana="#mythologie #medium">
+				<head>DIEUX. s. m. pl. (Mythol).</head>
+				<p>
+					<app>
+						<lem>se dit des dieux
+						<name type="group" ref="#gentils">des Gentils</name>, qui tous étoient des créatures auxquelles on rendoit les honneurs dûs à la divinité.</lem>
+						<rdg source="#source_wikisource">Dieu, se dit aussi des
+							<term ref="#dieux">faux dieux</term>
+						de la Gentilité, Créatures auxquelles on rend, ou l’on a rendu les honneurs de la Divinité.</rdg>
+					</app>
+					<hi rend="italic">Voyez</hi>
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-1860-0/">Déesse</ref>,
+				<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v8-1881-0/">Idole</ref>, &amp;c.</p>
+				<p>Il faut remarquer que parmi
+					<name type="group" ref="#grecs">les Grecs</name>
+					&amp;
+					<name type="group" ref="#latins">les Latins</name>, les peuples par le nom de Dieu, n’entendoient point un être très-parfait, dont l’éternité est un attribut essentiel. Ils appelloient dieux, tous les êtres qu'ils regardoient comme supérieurs à la nature humaine, ou qui pouvoient leur être de quelque utilité, ou même de la colere desquels ils avoient à craindre ; car les anciens, comme les modernes, ont presque toûjours été conduits par l'intérêt propre, c'est-à-dire l'espérance du bien &amp; la crainte du mal. Les hommes mêmes, selon eux, pouvoient devenir des dieux après leur mort, parce que leur ame pouvoit acquérir un degré d'excellence qu'ils n'avoient point eu pendant leur vie ;
+					<hi rend="italic">Voyez</hi>
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-2411-0/">Apothéose</ref>
+					&amp;
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-1952-0/">Consécration</ref>. Mais qu'on ne croye pas que les sages comme
+					<name type="person" ref="#socrate">Socrate</name>,
+					<name type="person" ref="#platon">Platon</name>,
+					<name type="person" ref="#ciceron">Cicéron</name>, &amp; les autres, parlassent toûjours selon les idées du peuple : ils étoient cependant quelquefois obligés de s'y conformer, pour n'être pas accusés d'athéisme. C'étoit le prétendu crime que l'on imputoit à ceux qui ne croyoient qu'un Dieu.
+				</p>
+				<p>
+					<rs ref="#philosophes_antiques">Les Poëtes</rs>, suivant la remarque du
+					<persName ref="#rene_le_bossu">P. le Bossu</persName>, étoient théologiens, &amp; ces deux fonctions, quoique séparées aujourd'hui, étoient pour lors réunies dans la même personne.
+					<hi rend="italic">Voyez</hi>
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v12-2004-0/">Poésie</ref>.
+				</p>
+				<p>
+					Ils personnifierent les attributs divins, parce que la foiblesse de l'esprit humain ne sauroit concevoir ni expliquer tant de puissance &amp; tant d'action dans une substance aussi simple &amp; aussi indivisible qu'est celle de Dieu.
+				</p>
+				<p ana="#dieux #mythologie">
+					C'est ainsi qu'ils ont représenté la toute-puissance de Dieu sous la personne &amp; le nom de
+					<name type="god">Jupiter</name>
+					; sa sagesse sous celui de
+					<name type="god">Minerve</name>
+					; sa justice sous celui de
+					<name type="god">Junon</name>.
+					<hi rend="italic">Voyez</hi>
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1736-0/">Épopée</ref>,
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-438-0/">Fable</ref>, &amp;c.
+				</p>
+				<p>
+					<app>
+						<lem>Les premiers faux-dieux qu'on ait adoré sont les astres, le ciel, le soleil, la lune, à cause de la chaleur &amp; de la lumiere que les hommes en reçoivent.</lem>
+						<rdg source="#source_wikisource">Les premiers
+							<term ref="#dieux">faux dieux</term>
+						qu'on ait adorés, sont les Astres, le Ciel le Soleil, la Lune, &amp;c. ensuite la terre, qui fournissoit les fruits qui servent à la nourriture de l'homme &amp; des animaux, le feu si utile à la vie, &amp;c.</rdg>
+					</app>
+				</p>
+				<p>
+					<hi rend="italic">Voyez</hi>
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v17-2181-0/">Idolatrie</ref>,
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-3371-0/">Astronomie</ref>,
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-96-0/">Étoile</ref>,
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-996-0/">Soleil</ref>
+					, &amp;c.
+				</p>
+				<p>
+					ensuite la terre, qui fournit les fruits qui servent à la nourriture des hommes &amp; des animaux: le feu aussi-bien que l'eau devinrent aussi l'objet du culte des hommes à cause des avantages qu'on en reçoit.
+					<hi rend="italic">Voyez</hi>
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-396-0/">Eau</ref>
+					&amp;
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-777-0/">Feu</ref>.
+				</p>
+				<p>
+					Dans la suite ces dieux se sont multipliés à l'infini par le caprice de leurs adorateurs, &amp; il n'y a presqu'aucune chose qui n'ait été déifiée, sans en excepter celles qui sont inutiles ou nuisibles.
+				</p>
+				<p>
+					Pour autoriser le crime &amp; justifier la débauche, on se fit des dieux criminels &amp; débauchés ; des dieux injustes &amp; violens ; des dieux avares &amp; voleurs ; des dieux yvrognes, des dieux impudiques, des dieux cruels &amp; sanguinaires.
+				</p>
+				<p ana="#dieux #mythologie">
+					<app>
+						<lem>Les principaux
+							<name type="god" ana="#dieux #mythologie">dieux</name>
+							que les
+							<name type="group" ref="#romains">Romains</name>
+							appelloient
+							<mentioned xml:lang="la">dii majorum gentium</mentioned>, &amp;
+							<persName type="author">Cicéron</persName>
+							<mentioned>dieux celestes</mentioned>,
+							<persName type="author">Varron</persName>
+							<mentioned>dieux choisis</mentioned>,
+							<persName type="author">Ovide</persName>
+							<mentioned xml:lang="la">nobiles deos</mentioned>, d’autres
+							<mentioned xml:lang="la">consentes deos</mentioned>, étoient
+							<name type="god" ana="#dieux #mythologie">Jupiter</name>,
+							<name type="god" ana="#dieux #mythologie">Junon</name>,
+							<name type="god" ana="#dieux #mythologie">Vesta</name>,
+							<name type="god" ana="#dieux #mythologie">Minerve</name>,
+							<name type="god" ana="#dieux #mythologie">Céres</name>,
+							<name type="god" ana="#dieux #mythologie">Diane</name>,
+							<name type="god" ana="#dieux #mythologie">Vénus</name>,
+							<name type="god" ana="#dieux #mythologie">Mars</name>,
+							<name type="god" ana="#dieux #mythologie">Mercure</name>,
+							<name type="god" ana="#dieux #mythologie">Neptune</name>,
+							<name type="god" ana="#dieux #mythologie">Vulcain</name>,
+						<name type="god" ana="#dieux #mythologie">Apollon</name>.</lem>
+						<rdg source="#source_wikisource">Les principaux Dieux, qu’on nommoit les grands Dieux, étoient Jupiter, Junon, Apollon, Diane, Vulcain, Venus, Mars, Minerve, Neptune, Vesta, Cérés &amp; Mercure.</rdg>
+					</app>
+				</p>
+				<p ana="#dieux #mythologie">
+					<app>
+						<lem><name type="god">Jupiter étoit le
+						<roleName type="domain">dieu du ciel</roleName></name>,
+							<name type="god">Neptune, le
+							<roleName type="domain">dieu de la mer</roleName></name>,
+							<name type="god">Mars, le
+							<roleName type="domain">dieu de la guerre</roleName></name>,
+							<name type="god">Apollon, celui de
+							<roleName type="domain">l’Éloquence, de la Poésie, &amp; de la Medecine</roleName></name>,
+							<name type="god">
+								Mercure, celui
+							<roleName type="domain">des voleurs</roleName></name>,
+							<name type="god">Bacchus, celui <roleName type="domain">du vin</roleName></name>,
+						<name type="god">Cupidon, celui
+						<roleName type="domain"> de l'amour</roleName></name>, &amp;c.</lem>
+						<rdg source="#source_wikisource">Saturne étoit le Dieu du temps, Jupiter le Dieu du Ciel, Neptune le Dieu de la mer, Pluton le Dieu des enfers. Le Dieu de la guerre étoit Mars ; celui de l’éloquence, de la poësie &amp; de la Médecine, Apollon ; Mercure le Dieu des voleurs ; Bacchus le Dieu de la vigne &amp; du vin ; Pan le Dieu des Bergers ; Cupidon le Dieu de l’amour &amp; de la volupté ;</rdg>
+					</app>
+				</p>
+				<p>
+					On mettoit aussi au rang des demi-dieux, quon appelloit encore
+					<mentioned xml:lang="la">semi-dii, dii minorum gentium, indigetes</mentioned>, les héros &amp; les hommes quon avoit déifiés.
+				</p>
+				<p>
+					Les grands dieux possédoient le ciel comme une chose qui leur appartenoit de droit, &amp; ceux-ci comme une récompense de la maniere extraordinaire dont ils avoient vécu sur la terre.
+					<hi rend="italic">Voyez</hi>
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v8-749-0/">Héros</ref>, &amp;
+					<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-2411-0/">Apothéose</ref>.
+				</p>
+				<p>
+					Il seroit trop long de nommer ici tous les
+					<name type="god" ana="#dieux #mythologie">dieux du Paganisme</name>
+					: on en peut trouver le détail dans
+				<bibl>
+					le
+					<title level="m">dictionnaire de Trévoux</title>, qui en rapporte la plus grande partie comme extraite du livre d'<persName ref="#isaac_vossius">Isaac Vossius</persName>, intitulé,
+				<title level="m">de origine &amp; progressu idololatriæ.</title></bibl></p>
+				<p>
+					Il n'y a point d'excès où les hommes ne se soient portés à cet égard : non contens d'avoir divinisé la vertu, ils avoient fait le meme honneur au vice. Tout étoit dieu, dit
+					<persName ref="#bossuet">Bossuet</persName>, excepté Dieu même.
+				</p>
+				<p ana="#dieux #cultes">
+					On reconnoissoit pour
+					<name type="god" ana="#dieux #cultes">dieux</name>
+					<roleName type="domain">la santé</roleName>,
+					<roleName type="domain">la fiévre</roleName>,
+					<roleName type="domain">la peur</roleName>,
+					<roleName type="domain">l'amour</roleName>,
+					<roleName type="domain">la douleur</roleName>,
+					<roleName type="domain">l'indignation</roleName>,
+					<roleName type="domain">la pudeur</roleName>,
+					<roleName type="domain">l'impudence</roleName>,
+					<roleName type="domain">la fureur</roleName>,
+					<roleName type="domain">la joie</roleName>,
+					<roleName type="domain">l'opinion</roleName>,
+					<roleName type="domain">la renommée</roleName>,
+					<roleName type="domain">la prudence</roleName>,
+					<roleName type="domain">la science</roleName>,
+					<roleName type="domain">l'art</roleName>,
+					<roleName type="domain">la fidélité</roleName>,
+					<roleName type="domain">la félicité</roleName>,
+					<roleName type="domain">la calomnie</roleName>,
+					<roleName type="domain">la liberté</roleName>,
+					<roleName type="domain">la monnoie</roleName>,
+					<roleName type="domain">la guerre</roleName>,
+					<roleName type="domain">la paix</roleName>,
+					<roleName type="domain">la victoire</roleName>,
+					<roleName type="domain">le triomphe</roleName>, &amp;c.
+				</p>
+				<p>
+					Mais ce qui deshonore l'humanité, est de voir un dieu
+					<name type="god" ana="#dieux #cultes">Sterculus</name>, parce que le premier il avoit enseigné à fumer les champs : la pâleur &amp; la crainte,
+					<mentioned xml:lang="la">pallor &amp; pavor</mentioned>, mis au rang des dieux, comme il y a eu les déesses
+					<name type="god" ana="#dieux #mythologie">Caca</name>,
+					<name type="god" ana="#dieux #mythologie">Cloaima</name>, &amp;
+					<name type="god" ana="#dieux #mythologie">Muta</name>
+					; &amp;
+				<name type="god" ana="#dieux #mythologie">Lactance</name>, en son liv. I. a eu raison de faire honte aux payens de ces ridicules divinités.</p>
+				<p>
+					Enfin, la nature &amp; le monde tout entier a passé pour un dieu.
+					<hi rend="italic">Voyez</hi>
+				<ref type="encyclopedique" target="https://enccre.academie-sciences.fr/encyclopedie/article/v11-199-0/">Nature</ref>.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
