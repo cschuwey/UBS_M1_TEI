@@ -26,6 +26,13 @@
             </bibl>
          </sourceDesc>
     </fileDesc>
+    
+    <encodingDesc> 
+        <p> La notice, extraite de l'Encyclopédie, a principalement été encodée avec les éléments "div" et "p" afin que les paragraphes
+        soient bien délimités et puisque la définition du terme "eau" se poursuit au fil des paragraphes.
+        Aucune modernisation n'est apportée via cet encodage. </p>
+    </encodingDesc>
+    
 </teiHeader>
 
 <text>
@@ -151,7 +158,5 @@
     </div>
 </body>
 </text>
-
-</TEI>
 
 </TEI>
