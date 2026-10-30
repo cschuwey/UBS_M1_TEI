@@ -13,34 +13,52 @@
 		    <publicationStmt>
                 <publisher> Enccre (Edition Numérique Collaborative et Critique de l'Encyclopédie)</publisher>
                 <date when="2024-11-29"> 29 Novembre 2024 </date>
-                <idno type="Schwab"> vol. IX, n°3470 </idno>
-                <idno type="url"> https://enccre.academie-sciences.fr/encyclopedie/article/v9-2134-0/ </idno>  
+                <id type="Schwab"> vol. IX, n°3470 </id>
+                <id type="url"> https://enccre.academie-sciences.fr/encyclopedie/article/v9-2134-0/ </id>  
 		    </publicationStmt>
 		    <sourceDesc>
-                <bibl> 
-                    <title> Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers </title>
-                    <biblScope unit="volume" n="9">IX </biblScope>
-                    <biblScope unit="page"> 772a </biblScope>
-                    <date> 1765 </date>
-                </bibl>
+              <listWit>
+            	<!--Témoin principal Enccre-->
+                <witness xml:id="Enccre">    
+				  	<bibl> 
+                 	   <title> Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers </title>
+                 	   <biblScope unit="volume" n="9">IX </biblScope>
+                       <biblScope unit="page"> 772a </biblScope>
+                       <date> 1765 </date>
+					   <note type="edition"> Edition Numérique Collaborative et Critique de l'Encyclopédie (ENCCRE)</note> 	
+               		</bibl>
+				 </witness>
+				 <!--Témoin Secondaire ARTFL-->
+				 <witness xml:id="Artfl">
+				    <bibl>
+						<title> ARTFL Encyclopedie Project (PhiloLogic5)</title>
+						<publisher> University of Chicago </publisher>
+						<id type="url">https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/9/3584 </id>
+					</bibl>
+				 </witness>
+			  </listWit>	
 		    </sourceDesc>
 	    </fileDesc>
 
         <encodingDesc>
+		  <variantEncoding method="parallel-segmentation" location="internal"/>
             <projectDesc> Travail à réaliser pour un cours TD TEI </projectDesc>
             <samplingDecl><p> J'ai encodé le texte par phrase et pas par ligne </p> </samplingDecl>
             <editorialDecl> 
                 <interpretation> Interpréter l'article LYCANTHROPIE,</interpretation> 
                 <Quotation> J'ai fait des citations d'éléments qui ce situe dans d'autres articles de l'Encyclopédie,</Quotation> 
-                <normalization> J'ai réalisé des modifications de certains mots du à la langue orignale du texte et son temps afin de moderniser leurs sens.</normalization>   
+                <normalization> J'ai réalisé des modifications de certains mots du à la langue orignale du texte et son temps afin de moderniser leurs sens.</normalization> 
+				<p n="Justification-wit"> J'ai utilisé l'attribut <att>wit</att> plutôt que <att>source</att> car l'ENCCRE et ARTFL fonctionnent ici comme deux témoins textuels (witnesses) distincts transmettant des leçons au sein de notre texte.</p>
+				<p n="Justification-structure"> J'ai choisi la structure <gi>lem</gi> et <gi>rdg</gi> car l'édition de l'Enccre est vérifiée sur l'exemplaire physique de la Bibliothèque Mazarine = référence (le lemme). ARTFL fournit la variante secondaire (la leçon).</p> 
             </editorialDecl>
+		</encodingDesc>
 
             <profileDesc> 
             <!--langue utilisé dans l'article-->
-                <langusage>
+                <langUsage>
                     <language ident="fr"> Français </language>
                     <language ident="grc"> Grec Ancien </language>
-                </langusage>
+                </langUsage>
 
                 <!--Classification thématique de l'article-->
                 <textClass>
@@ -55,9 +73,9 @@
                 <listchange>
                     <change when="2026-10-21"> Remplissage teiHeader et intégration de encodingDesc.</change>
                     <change when="2026-10-21"> Réalisation de l'encodage de l'article LYCANTHROPIE de l'Encyclopédie.</change>
+					 <change when="2026-10-30"> Incorporer les 2 éditions de l'article et mise en place des attributs wit, app, lem, rdg et du foreign pour la langue.</change>
                 </listchange>
             </revisionDesc>
-        </encodingDesc>
     </teiHeader>   
 
     <text>
@@ -75,20 +93,27 @@
                 <usg type="domain"> Médecine. <note n="1" type="critic"> Note sur le désignant "(Médecine)"</note></usg>
 
                 <etym>
-                    <lang xml="grc">λυκανθρωπiα </lang>, nom entierement grec formé de
-                    <lang xml="grc">λύκος </lang>,<gloss>loup</gloss>, &amp;
-                    <lang xml="grc">ἄνθρωπος </lang>,<gloss>homme</gloss>:
+                    <foreign xml:lang="grc">λυκανθρωπiα </foreign>, nom entierement grec formé de
+                    <foreign xml:lang="grc">λύκος </foreign>,<gloss>loup</gloss>, &amp;
+                    <foreign xml:lang="grc">ἄνθρωπος </foreign>,<gloss>homme</gloss>:
                     suivant son étymologie, il signifie un loup qui est homme.
                 </etym>
 
                 <def>
-                  <p> Il est employé en Médecine, pour designer cette espece de <choice><orig>mélancholie</orig><reg>mélancolie</reg></choice> dans laquelle les hommes se croyent transformés en loups ; &amp; en conséquence, ils en imitent toutes les actions ; ils sortent à leur exemple de leurs maisons la nuit ; ils vont roder autour des tombeaux ; ils s’y enferment, se mêlent &amp; se battent avec les bêtes féroces, &amp; risquent souvent leur vie, leur santé dans ces sortes de combats.</p>
+                  <p> Il est employé en Médecine, pour designer cette espece de 
+					<app>
+						<lem wit="#Enccre">
+							<choice><orig>mélancholie</orig><reg>mélancolie</reg></choice>
+						</lem>
+						<rdg wit="#Artfl">Mélancolie</rdg> 
+					</app>  
+					  dans laquelle les hommes se croyent transformés en loups ; &amp; en conséquence, ils en imitent toutes les actions ; ils sortent à leur exemple de leurs maisons la nuit ; ils vont roder autour des tombeaux ; ils s’y enferment, se mêlent &amp; se battent avec les bêtes féroces, &amp; risquent souvent leur vie, leur santé dans ces sortes de combats.</p>
                   <p> <persName> Actuarius​ </persName> remarque qu’après qu’ils ont passé la nuit dans cet état, ils retournent au point du jour chez eux, &amp; reprennent leur bon sens ; ce qui n’est pas constant : mais alors même ils sont rêveurs, tristes, misantropes ; ils ont le visage pâle, les yeux enfoncés, la <choice><orig>vûe</orig><reg>vue</reg></choice> égarée, la langue &amp; la bouche seches, une soif immodérée, quelquefois aussi les jambes meurtries, déchirées, fruits de leurs débats nocturnes.</p>
                   <p> Cette maladie, si l’on en croit quelques voyageurs, est assez commune dans la <placeName> ​Livonie​</placeName>​ &amp; <placeName>l’Irlande</placeName>.</p>
                   <p> <persName>Donatus Ab alto mari​</persName> dit en avoir vû lui-même deux exemples ; &amp; <persName>Forestus</persName> raconte qu’un lycanthrope qu’il a observé, étoit <choice><orig>sur-tout</orig><reg>surtout</reg></choice> dans le <choice><orig>printems</orig><reg>printemps</reg></choice>toûjours à rouler dans les cimetieres, <cit><bibl>lib. X. observ. 25​</bibl></cit>​.</p> 
                   <p> Le démoniaque dont il est parlé dans l’Ecriture-sainte (<title>S. Marc</title>, <bibl> chap. v </bibl>​​), qui se plaisoit à habiter les tombeaux, qui couroit <choice><orig>tout nud</orig><reg>tout nu</reg></choice>, poussoit sans cesse des cris effrayans, &amp;c. &amp; le<persName type="myth"> Lycaon</persName>, célebre dans la fable​, ne paroissent être que des <choice><orig>mélancholiques</orig><reg>mélancoliques</reg></choice> de cette espece, c’est-à-dire des ​lycantropes​</p>
                   <p> Nous passons sous silence les causes, la curation, &amp;c. de cette maladie, parce qu’elles sont absolument les mêmes que dans la <choice><orig>mélancholie</orig><reg>mélancolie</reg></choice>, dont nous traiterons plus bas.</p>
-                    <ref type="coir" target="#v10-melancolie_p311a"> Voyez Mélancholie</ref>.
+                    <ref type="coir" target="https://enccre.academie-sciences.f"> Voyez Mélancholie</ref>.
                   <p> Nous remarquerons seulement quant à la curation, qu’il faut <choice><orig>sur-tout</orig><reg>surtout</reg></choice> donner à ces malades des alimens de bon suc ​analyptiques​​, pendant l’accès les saigner abondamment.</p>
                   <p> <persName>Oribaze</persName> recommande comme un ​spécifique​​, lorsque l’accès est sur le point de se décider, de leur arroser la tête avec de l’eau bien froide ou des décoctions somniferes ; &amp; lorsqu’ils sont endormis, de leur frotter les oreilles &amp; les narines avec l’opium (<cit><bibl>synops, lib. IX. c. x.​</bibl></cit>​​) Il faut aussi avoir attention de les enchaîner pour les empêcher de sortir la nuit, &amp; d’aller risquer leur vie parmi les animaux les plus féroces, si l’on n’a pas d’autre moyen de les contenir.</p>
                 </def>
