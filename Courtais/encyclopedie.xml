@@ -30,13 +30,14 @@
                     <editor>version numérique : ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v8-2389-0/?query=infanticide"></link></editor>
                 </bibl>
 
-                <bibl xml:id="encyclopédie1770Yverdon">
+                <bibl xml:id="encyclopédie1770">
                     <author xml:id="Fortunato"><surname>De Felice</surname>, <forename>Fortunato Bartolomeo</forename></author>
             
                     <title level="m">Encyclopédie ou dictionnaire universel raisonné des connaissances humaines</title>
                  
                         <publisher>Fortunato Bartolomeo De Felice</publisher>
                         <pubPlace>Yverdon</pubPlace>
+                                            
                       
                         <date when="1770">de 1770 à 1780</date>
               
@@ -49,13 +50,18 @@
         
         <encodingDesc> 
             <projectDesc><p>L'objectif est de rassemblé dans ce document TEI les articles de l'encyclopédie avec différents sources tels que ENCCRE ou encore Yverdon</p></projectDesc>
+            <editorialDecl>
+                <p> L'élément app est intégrer dans le texte afin de présenter les deux versions existantes.<p>
+                <p> J'ai choisi la méthode rdg/rdg, car pour moi les deux textes sont distincts et il n'y a pas de premiere version, même si le lem/rdg pourrait convenir au vu du grand nombre de similitudes dans les deux ressources.<p>
+                <p> j'ai choisi la balise source car elle revoit à mes références citées dans la listBibl<p>
+            <editorialDecl>
         </encodingDesc>
         <profileDesc></profileDesc>
         <revisionDesc>
             <listChange>
                 <change when="2026-10-04">Création du document et début de la copie</change>
                 <change when="2026-10-20">Encodage détaillé de l'article avec la référence ENCCRE et travail sur le teiHeader</change>
-               <change when="2026-10-30">Début d'encodage de l'article avec une deuxième ressource encyclopédique</change>
+               <change when="2026-10-30">Correction sur le travail passé et intégration de la deuxième ressource encyclopédique</change>
         
             </listChange>
         </revisionDesc>
@@ -63,7 +69,7 @@
 
 <text>
     <body> 
-        <div xml:id="encyclopédie1751">
+
        <head>Français</head>
     <entry>
         <form>
@@ -71,43 +77,90 @@
         </form>
         <gramGrp>
             <pos>substantif</pos>
-            <gen>masculin<gen>
-        <gramGrp>
+            <gen>masculin</gen>
+        </gramGrp>
+    </entry>
         <sense>
             <def>est le crime de celui ou celle qui procure la mort à son enfant.</def>
         </sense>
-    
-            <p>Tout homme qui tue en général méritant la mort, à plus forte raison celui qui tue son enfant, une telle action faisant frémir la nature.</p>
-            <p>Les femmes &amp; filles qui font périr leur fruit durant leur grossesse par l’avortement, soit par des breuvages &amp; autres mauvaises voies, commettent aussi bien un infanticide, que celles qui font périr leurs enfans par le fer ou autrement après leur accouchement.</p>
-            <p>La loi de Moïse distinguoit ; si l’enfant dont la femme se faisoit avorter, étoit formé, ou vivant &amp; animé, elle étoit punie de mort ; s’il n’étoit point encore animé, la loi ne prononçoit point de peine contre elle.</p>
-            <p>Les Romains faisoient une autre distinction entre celles qui défaisoient leur fruit, étant corrompues par argent, &amp; celles qui le commettoient par haine &amp; aversion contre leur mari, ou par quelque autre motif de passion ; au premier cas on les condamnoit à mort. En effet Ciceron dans l’oraison pro Cluentio, fait mention d’une femme milésienne qui fut punie du dernier supplice pour avoir, après le décès de son mari, fait périr l’enfant dont elle étoit enceinte, moyennant une somme d’argent qui lui avoit été donnée par les héritiers que son mari avoit substitués à ce posthume ; au second cas elles étoient seulement bannies pour un certain tems, suivant les rescrits des empereurs.</p>
-            <p>La religion chrétienne plus pure que les lois des Juifs &amp; des Romains, tient pour homicide celle qui détruit son fruit avant qu’il soit vivant, aussi bien que celle qui le détruit après lui avoir donné la naissance ; il semble néanmoins que dans ce dernier cas le crime soit plus grand, parce que l’enfant est privé du baptême.</p>
-            <p>Un ancien arrêt du 22 Décembre 1480, condamna une femme qui avoit suffoqué ou autrement tué son enfant, à être brûlée vive.</quote>
-            <p>La peine n’est pourtant pas si rigoureuse suivant l’édit d’Henri II. de l’année 1556, donné contre les filles &amp; femmes qui celent leur grossesse &amp; leur enfantement ; cet édit veut que celles qui se trouveront dans ce cas sans en avoir pris témoignage suffisant, même de la vie &amp; de la mort de leur enfant lors de l’issue de leur ventre, &amp; l’enfant ayant été privé du baptême &amp; de la sépulture publique &amp; accoutumée, elles soient tenues pour avoir homicidé leur enfant, &amp; pour réparation publique, punies de mort & du dernier supplice, de telle rigueur que la qualité particuliere du cas le méritera.</p>
-            <xr>On renouvelle de tems en tems la publication de cet édit, &amp; depuis il y a eu plusieurs exemples de femmes pendues pour avoir tué leurs enfans. Voyez Enfant &amp; Exposition d’enfant, &amp; Suppression de part. (A)</xr>
-        
-            </div>
 
-            <div xml:id="encyclopédie1770Yverdon">
-       <head>Suisse</head>
-    <entry>
-        <form>
-            <orth>Infanticide</orth>
-        </form>
-        <gramGrp>
-            <pos>substantif</pos>
-            <gen>masculin<gen>
-        <gramGrp>
-        <sense>
-            <def>est le crime de celui ou celle qui procure la mort à son enfant.</def>
-        </sense>
-    
-            <p>Tout homme qui tue en général méritant la mort, à plus forte raison celui qui tue son enfant, une telle action faisant frémir la nature.</p>
-            <p>Les femmes et filles qui font périr leur fruit durant leur grossesse par l'avortement, soit par des breuvages et autres mauvaises voies, commettent aussi-bien un <hi rend="italic"> infanticide</hi>, que celles qui font périr leurs enfans par le fer ou autrement après leur accouchement.</p>
-            <p> La loi de Moïse distinguoit; si l'enfant dont la femme se faisoit avorter, étoit formé, ou vivant ou animé, elle étoit punie de mort; s'il n'étoit point encore animé, la loi ne prononçoit point de peine contr'elle.</p>
-            <p>Les Romains faisoient une autre distinction entre celles qui se défaisoient de leur fruit, étant corrompues par argent, et celles qui le commettoient par haine et aversion contre leur mari, ou par quelqu'autre motif de passion; au premier cas on les condamnoit à mort. En effet Ciceron dans l'oraison <hi rend="italic">pro Cluentio</hi>, fait mention d'une femme milésienne qui fut punie du dernier supplice pour avoir, après le décès de son mari, fait périr l'enfant dont elle étoit enceinte, moyennant une somme d'argent qui lui avoit été donnée par les héritiers que son mari avoit substitués à ce posthume; au second cas elles étoient seulement bannies pour un certain tems, suivant les rescrits des empereurs.</p>
-            <p>La religion chrétienne plus pure que les loix des Juifs et des Romains, tient pour homicide celle qui détruit son fruit avant qu'il soit vivant, aussi-bien que celle qui le détruit après lui avoir donné la naissance; au reste quant au premier cas, pendant que la génération sera un mystere, nous ne saurions en évaluer l'énormité.</p>
+        <p>Tout homme qui tue en général méritant la mort, à plus forte raison celui qui tue son enfant, une telle action faisant frémir la nature.</p>
+            <p>Les femmes 
+                <app>
+                 <rdg source="#encyclopédie1751">&amp; filles </rdg>
+                    <rdg source="#encyclopédie1770"> et filles </rdg>
+                    </app>
+                    qui font périr leur fruit durant leur grossesse par l’avortement, soit par des breuvages
+                 <app>
+                     <rdg source="#encyclopédie1751">&amp; autres</rdg>
+                     <rdg source="#encyclopédie1770"> et autres</rdg>
+                 </app>
+                        mauvaises voies, commettent  
+                 <app>    
+                    <rdg source="#encyclopédie1751"> aussi bien un infanticide,</rdg>
+                     <rdg source="#encyclopédie1770"> aussi-bien un <hi rend="italic"> infanticide</hi>,</rdg>
+                 </app>
+                     que celles qui font périr leurs enfans par le fer ou autrement après leur accouchement.</p>
             
-            </div>
+            <p>La loi de Moïse distinguoit ; si l’enfant dont la femme se faisoit avorter, étoit formé, ou 
+                <app>
+                    <rdg source="#encyclopédie1751">vivant &amp; animé,</rdg>
+                    <rdg source="#encyclopédie1770">vivant ou animé,</rdg>
+                </app>
+                    elle étoit punie de mort ; s’il n’étoit point encore animé, la loi ne prononçoit point de peine 
+                <app>
+                    <rdg source="#encyclopédie1751">contre elle.</rdg>
+                    <rdg source="#encyclopédie1770">contr'elle.</rdg>
+                </app>
+            </p>
+            
+            <p>Les Romains faisoient une autre distinction entre celles 
+                <app>
+                    <rdg source="#encyclopédie1751">qui défaisoient<rdg>
+                    <rdg source="#encyclopédie1770">qui se défaisoient de</rdg>
+                    </app>
+                    leur fruit, étant corrompues par argent, 
+                <app>
+                    <rdg source="#encyclopédie1751">&amp; celles</rdg>
+                    <rdg source="#encyclopédie1770">et celles</rdg>
+                </app>
+                    qui le commettoient par haine 
+                <app>
+                    <rdg source="#encyclopédie1751">&amp; aversion </rdg>
+                    <rdg source="#encyclopédie1770">et aversion </rdg>
+                </app>
+                        contre leur mari, ou par 
+                <app>
+                    <rdg source="#encyclopédie1751">quelque autre</rdg>
+                    <rdg source="#encyclopédie1770">quelqu'autre </rdg>
+                motif de passion ; au premier cas on les condamnoit à mort. En effet Ciceron dans l’oraison 
+                <app>
+                    <rdg source="#encyclopédie1751">pro Cluentio,</rdg>
+                    <rdg source="#encyclopédie1770"><hi rend="italic">pro Cluentio</hi>,</rdg>
+                    fait mention d’une femme milésienne qui fut punie du dernier supplice pour avoir, après le décès de son mari, fait périr l’enfant dont elle étoit enceinte, moyennant une somme d’argent qui lui avoit été donnée par les héritiers que son mari avoit substitués à ce posthume ; au second cas elles étoient seulement bannies pour un certain tems, suivant les rescrits des empereurs.</p>
+            <p>La religion chrétienne plus pure que les  
+                <app>
+                    <rdg source="#encyclopédie1751">lois des Juifs &amp; des Romains,</rdg>
+                    <rdg source="#encyclopédie1770">loix des Juifs et des Romains,</rdg>
+                </app>
+                    tient pour homicide celle qui détruit son fruit avant qu’il soit vivant, 
+                <app>
+                    <rdg source="#encyclopédie1751">aussi bien</rdg>
+                    <rdg source="#encyclopédie1770">aussi-bien</rdg>
+                </app>
+                    que celle qui le détruit après lui avoir donné la naissance ; 
+                <app>
+                    <rdg source="#encyclopédie1751">il semble néanmoins que dans ce dernier cas le crime soit plus grand, parce que l’enfant est privé du baptême.</rdg>
+                    <rdg source="#encyclopédie1770">au reste quant au premier cas, pendant que la génération sera un mystere, nous ne saurions en évaluer l'énormité.</rdg>
+                </app>
+            </p>
+                <app>
+                    <rdg source="#encyclopédie1751">
+            <p>Un ancien arrêt du 22 Décembre 1480, condamna une femme qui avoit suffoqué ou autrement tué son enfant, à être brûlée vive.</p>
+            <p>La peine n’est pourtant pas si rigoureuse suivant l’édit d’Henri II. de l’année 1556, donné contre les filles &amp; femmes qui celent leur grossesse &amp; leur enfantement ; cet édit veut que celles qui se trouveront dans ce cas sans en avoir pris témoignage suffisant, même de la vie &amp; de la mort de leur enfant lors de l’issue de leur ventre, &amp; l’enfant ayant été privé du baptême &amp; de la sépulture publique &amp; accoutumée, elles soient tenues pour avoir homicidé leur enfant, &amp; pour réparation publique, punies de mort &amp; du dernier supplice, de telle rigueur que la qualité particuliere du cas le méritera.</p>
+            <xr>On renouvelle de tems en tems la publication de cet édit, &amp; depuis il y a eu plusieurs exemples de femmes pendues pour avoir tué leurs enfans. Voyez Enfant &amp; Exposition d’enfant, &amp; Suppression de part. (A)</xr>
+                    </rdg>
+                    <rdg source="#encyclopédie1770"></rdg>
+                </app>
     </body>
 </text>
