@@ -50,10 +50,9 @@
       Vocabulaire tei : les articles ont été structurés selon les recommandations du vocabulaire TEI dédiées
       à l'encodage des dictionnaires (telles qu'elles sont définies dans le module Dictionaries des Guidelines de la TEI.). 
 
-     Comparaison des éditions/apparat critique : L'apparat critique est indiqué par la balise 'app', qui contient les balises 'lem' et 'rdg' pour distinguer la lemmatisation et les différentes lectures. La lecture principale est celle de l'édition Enccre, tandis que la lecture secondaire est celle de l'édition Yverdon.
-
+     Comparaison des éditions/apparat critique : L’édition de l’ENCCRE a été choisie comme texte de base. L’édition d’Yverdon, qui est une version critique de l’Encyclopédie de Diderot avec des commentaires en plus, est utilisée comme apparat critique. La balise ' app' regroupe les différences entre les deux éditions, 'lem' indique le texte de base de l’ENCCRE et 'rdg' présente les ajouts ou les différences de l’édition d’Yverdon. L’attribut wit précise l’édition concernée.
+          
     Balises provisoires : certaines balises ont été utilisées de manière provisoire, afin de quand même distinguer des éléments du corps de la définition, dans l'attente d'un encodage plus précis et mieux adapté à leur nature. Il s'agit notamment des balises 'note'.
-
 
       Normalisation de l'orthographe :   L’orthographe originale du XVIIIe siècle est conservée. Lorsqu’un mot est normalisé, 
       ses deux formes sont indiquées avec la balise 'choice' : la forme originale dans la balise 'orig' et l'équivalent moderne/la forme normalisée dans la balise 'reg'.</p>
