@@ -3,30 +3,20 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <app>
-                    <rdg wit="ENCCRE">
-                        <title>Article NATURE, s. f. (Philos.)​​</title>
-                        <author>D'Alembert</author>
-                        <author>Diderot</author>
-                        <editor>Diderot</editor>
-                        <editor>D'Alembert</editor>
-                        <editor>Marie Leca-Tsiomis</editor>
-                    </rdg>
-                    <rdg wit="Yverdon">
-                        <title>Article NATURE, (N), Phil. Herm.​​</title>
-                        <author>D'Alembert</author>
-                        <author>Diderot</author>
-                        <editor>Fortunato Bartolomeo De Felice</editor>
-                    </rdg>
-                </app>
+                <title>Comparaison de deux versions de l'article « Nature »</title>
+                <respStmt>
+                    <resp>Encodage XML-TEI</resp>
+                    <name>Jodie CORNEC</name>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>Jodie CORNEC</authority>
             </publicationStmt>
             <sourceDesc>
-                <app>
-                    <rdg wit="ENCCRE">
-                        <bibl>
+                <listBibl>
+                    <bibl xml:id="ENCCRE">
+                            <author>D'Alembert</author>
+                            <author>Diderot</author>
                             <editor>Diderot</editor>
                             <title>Encyclopédie</title>
                             <date>XVIIIème siècle</date>
@@ -38,9 +28,9 @@
                                 <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v11-199-0/"/>
                             </editor>
                         </bibl>
-                    </rdg>
-                    <rdg wit="Yverdon">
-                        <bibl>
+                    <bibl xml:id="Yverdon">
+                            <author>D'Alembert</author>
+                            <author>Diderot</author>
                             <editor>Fortunato Bartolomeo De Felice</editor>
                             <title>Encyclopédie d’Yverdon</title>
                             <date>XVIIIème siècle</date>
@@ -57,110 +47,92 @@
                             <editor>
                                 Yverdon
                             </editor>
-                        </bibl>
-                    </rdg>
-                </app>
+                    </bibl>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-                <app>
-                    <rdg wit="ENCCRE">
-                        <projectDesc>
-                            <p>
-                                Projet : encodage pour un cours de XML/TEI d'un article de l'Encyclopédie de Diderot et 
-                                d'Alembert.
-                            </p>
-                            <p>
-                                Le projet prend en compte plusieurs dictionnaires historiques afin d'étudier les définitions 
-                                du mot "nature".
-                            </p> 
-                            <list>
-                                <item>
-                                    Le Dictionnaire français de Richelet (1680) :
-                                    Premier des grands dictionnaires entièrement français, celui de P. Richelet, 
-                                    le Dictionnaire françois paru en 1680. Ce dictionnaire contenait les termes les 
-                                    plus communs des arts et des sciences, rendait compte des différentes acceptions 
-                                    des mots et appuyait ses définitions sur des citations « des bons auteurs» ; ce 
-                                    sont là deux innovations historiquement essentielles. La définition de « nature », 
-                                    selon Richelet commence donc ainsi :
-                                    « Nature s.f. C’est le principe de toutes les choses qui sont. C’est le principe 
-                                    actif qui est en nous et qui par ses propres forces engendre, conserve et exerce 
-                                    toutes les fonctions du corps vivant, et dans les autres corps naturels la nature 
-                                    est la base de leur être et de leur mouvement. Deg. »
-                                    Sous l’abréviation « Deg », lisons Degori, Dictionnaire des mots de médecine chez 
-                                    Rocolet, nous indique la « table alphabétique de la plupart des Auteurs »1. Une 
-                                    telle référence est en elle même très significative : « nature », pour Richelet, 
-                                    appartient d’abord au champ médical, sinon physiologique. Suivent les acceptions : 
-                                    « Assemblage des êtres », « Propriété essentielle », « Disposition essentielle, 
-                                    état d’une chose », « Sorte, manière , puis des emplois spécifiques, « Nature 
-                                    corrompue. Terme de Téologie » [sic] et « Parties naturelles de l’homme et de la 
-                                    femme. » 
-                                </item>
-                                <item>
-                                    Le Dictionnaire universel de Furetière (1690) :
-                                    Dix ans plus tard, on pouvait lire l’article NATURE du Dictionnaire universel de 
-                                    Furetière publié en 1690 à Rotterdam. Pour « nature », Furetière s’essaie d’abord 
-                                    une définition générale, sans doute peu satisfaisante, mais durable, comme on le 
-                                    verra [12]:
-                                    La masse du monde, l’assemblage de tous les êtres. L’Auteur de la nature a disposé 
-                                    toutes choses en un ordre merveilleux. Il n’y a rien dans tout la nature qui ne 
-                                    soit admirable, où on ne reconnaisse le doit (sic) de Dieu. Il n’y a rien de si 
-                                    beau, de si méchant dans toute la nature : c’est une hyperbole ordinaire.
-                                    La mention de Dieu apparaît ici et ne quittera plus, jusqu’à Littré, la « nature » 
-                                    dans les dictionnaires. La suite de l’article convoque de nouvelles démarches : 
-                                    Furetière recherche visiblement une approche notionnelle du terme, qui implique 
-                                    le recours à des domaines différents du savoir et une définition plurielle ; il ne 
-                                    s’agira plus de médecine, mais des emplois du mot chez « les théologiens », « les 
-                                    philosophes », « en choses morales, « en plusieurs arts », « en Musique », « en 
-                                    Prosodie ».
-                                </item>
-                                <item>
-                                    Le Dictionnaire de l'Académie française (1694) :
-                                    Si on le compare avec celui du premier Dictionnaire de l'Académie françoise, le 
-                                    souci de Furetière apparaît très nettement. On sait en effet que les Académiciens 
-                                    avaient voué leur dictionnaire à l’unique bel usage. « [L'Académie] s'est 
-                                    retranchée à la Langue commune, telle qu'elle est dans le commerce ordinaire des 
-                                    honnêtes gens, et telle que les Poètes et les Orateurs l'emploient », disait la 
-                                    Préface du Dictionnaire de l'Académie, (p. 2). Se fondant sur leurs propres 
-                                    savoirs, les Immortels excluaient tout recours extérieur à des auteurs : des 
-                                    « phrases » faites exprès présentent le mot en combinaison avec d'autres. 
-                                    « Nature » chez les Académiciens fait donc l’objet d’un amoncellement de 
-                                    collocations :
-                                    Nature. s. f. Tout l'Univers, toutes les choses créées.  Dieu est l'auteur et le 
-                                    maître de la nature. l'ordre qui règne dans toute la nature. Il se prend aussi 
-                                    pour Cet esprit universel [qui deviendra dans l’édition de 1762 « cet ordre »] 
-                                    qui est répandu dans chaque chose créée; et par lequel toutes choses ont leur 
-                                    commencement, leur progrès et leur fin. Dieu et la nature ne font rien en vain. 
-                                    la nature est une bonne mère.
-                                    Il se prend aussi dans une signification plus étroite, et se dit par rapport aux 
-                                    effets que cet esprit et cet ordre produisent dans chaque personne. La nature 
-                                    commence à s'affaiblir, à défaillir en lui.
-                                    Il se prend encore pour le principe intrinsèque des opérations de chaque être,; 
-                                    pour la propriété de chaque être particulier. Telle est la nature du feu. […]
-                                    On en apprendra donc beaucoup sur les emplois purement langagiers du mot 
-                                    « nature », mais peu sur l’interrogation notionnelle qu’un tel vocable pouvait 
-                                    susciter.
-                                </item>
-                            </list>
-                        </projectDesc>
-                    </rdg>
-                    <rdg wit="Yverdon">
-
-                    </rdg>
-                </app>
+             <projectDesc>
+                <p>
+                    Projet d'encodage XML-TEI dans le cadre d'un cours.
+                    Le fichier compare deux versions de l'article « Nature », issues de l'Encyclopédie de 
+                    Diderot et d'Alembert et de l'Encyclopédie d'Yverdon.
+                </p>
+                <list xml:id="ENCCRE">
+                    <item>
+                        Le Dictionnaire français de Richelet (1680) :
+                        Premier des grands dictionnaires entièrement français, celui de P. Richelet,  
+                        le Dictionnaire françois paru en 1680. Ce dictionnaire contenait les termes les 
+                        plus communs des arts et des sciences, rendait compte des différentes acceptions 
+                        des mots et appuyait ses définitions sur des citations « des bons auteurs» ; ce 
+                        sont là deux innovations historiquement essentielles. La définition de « nature », 
+                        selon Richelet commence donc ainsi :
+                        « Nature s.f. C’est le principe de toutes les choses qui sont. C’est le principe 
+                        actif qui est en nous et qui par ses propres forces engendre, conserve et exerce 
+                        toutes les fonctions du corps vivant, et dans les autres corps naturels la nature 
+                        est la base de leur être et de leur mouvement. Deg. »
+                        Sous l’abréviation « Deg », lisons Degori, Dictionnaire des mots de médecine chez 
+                        Rocolet, nous indique la « table alphabétique de la plupart des Auteurs »1. Une 
+                        telle référence est en elle même très significative : « nature », pour Richelet, 
+                        appartient d’abord au champ médical, sinon physiologique. Suivent les acceptions : 
+                        « Assemblage des êtres », « Propriété essentielle », « Disposition essentielle, 
+                        état d’une chose », « Sorte, manière , puis des emplois spécifiques, « Nature 
+                        corrompue. Terme de Téologie » [sic] et « Parties naturelles de l’homme et de la 
+                        femme. » 
+                    </item>
+                    <item>
+                        Le Dictionnaire universel de Furetière (1690) :
+                        Dix ans plus tard, on pouvait lire l’article NATURE du Dictionnaire universel de 
+                        Furetière publié en 1690 à Rotterdam. Pour « nature », Furetière s’essaie d’abord 
+                        une définition générale, sans doute peu satisfaisante, mais durable, comme on le 
+                        verra [12]:
+                        La masse du monde, l’assemblage de tous les êtres. L’Auteur de la nature a disposé 
+                        toutes choses en un ordre merveilleux. Il n’y a rien dans tout la nature qui ne 
+                        soit admirable, où on ne reconnaisse le doit (sic) de Dieu. Il n’y a rien de si 
+                        beau, de si méchant dans toute la nature : c’est une hyperbole ordinaire.
+                        La mention de Dieu apparaît ici et ne quittera plus, jusqu’à Littré, la « nature » 
+                        dans les dictionnaires. La suite de l’article convoque de nouvelles démarches : 
+                        Furetière recherche visiblement une approche notionnelle du terme, qui implique 
+                        le recours à des domaines différents du savoir et une définition plurielle ; il ne 
+                        s’agira plus de médecine, mais des emplois du mot chez « les théologiens », « les 
+                        philosophes », « en choses morales, « en plusieurs arts », « en Musique », « en 
+                        Prosodie ».
+                    </item>
+                    <item>
+                        Le Dictionnaire de l'Académie française (1694) :
+                        Si on le compare avec celui du premier Dictionnaire de l'Académie françoise, le 
+                        souci de Furetière apparaît très nettement. On sait en effet que les Académiciens 
+                        avaient voué leur dictionnaire à l’unique bel usage. « [L'Académie] s'est 
+                        retranchée à la Langue commune, telle qu'elle est dans le commerce ordinaire des 
+                        honnêtes gens, et telle que les Poètes et les Orateurs l'emploient », disait la 
+                        Préface du Dictionnaire de l'Académie, (p. 2). Se fondant sur leurs propres 
+                        savoirs, les Immortels excluaient tout recours extérieur à des auteurs : des 
+                        « phrases » faites exprès présentent le mot en combinaison avec d'autres. 
+                        « Nature » chez les Académiciens fait donc l’objet d’un amoncellement de 
+                        collocations :
+                        Nature. s. f. Tout l'Univers, toutes les choses créées.  Dieu est l'auteur et le 
+                        maître de la nature. l'ordre qui règne dans toute la nature. Il se prend aussi 
+                        pour Cet esprit universel [qui deviendra dans l’édition de 1762 « cet ordre »] 
+                        qui est répandu dans chaque chose créée; et par lequel toutes choses ont leur 
+                        commencement, leur progrès et leur fin. Dieu et la nature ne font rien en vain. 
+                        la nature est une bonne mère.
+                        Il se prend aussi dans une signification plus étroite, et se dit par rapport aux 
+                        effets que cet esprit et cet ordre produisent dans chaque personne. La nature 
+                        commence à s'affaiblir, à défaillir en lui.
+                        Il se prend encore pour le principe intrinsèque des opérations de chaque être,; 
+                        pour la propriété de chaque être particulier. Telle est la nature du feu. […]
+                        On en apprendra donc beaucoup sur les emplois purement langagiers du mot 
+                        « nature », mais peu sur l’interrogation notionnelle qu’un tel vocable pouvait 
+                        susciter.
+                    </item>
+                </list>
+            </projectDesc>
         </encodingDesc>
         <profileDesc>
-            <app>
-                <rdg wit="ENCCRE">
-                    <langUsage>
-                    <language ident="fr">Français</language>
-                    <language ident="grc">Grec ancien</language>
-                    </langUsage>
-                </rdg>
-                <rdg wit="Yverdon">
-
-                </rdg>
-            </app>
+            <langUsage>
+                <language ident="fr">Français</language>
+                <language ident="grc">Grec ancien</language>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <list>
