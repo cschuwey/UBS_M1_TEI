@@ -3,115 +3,163 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Article NATURE, s. f. (Philos.)​​</title>
-                <author>D'Alembert</author>
-                <editor>Diderot</editor>
-                <editor>D'Alembert</editor>
-                <editor>Marie Leca-Tsiomis</editor>
+                <app>
+                    <rdg wit="ENCCRE">
+                        <title>Article NATURE, s. f. (Philos.)​​</title>
+                        <author>D'Alembert</author>
+                        <editor>Diderot</editor>
+                        <editor>D'Alembert</editor>
+                        <editor>Marie Leca-Tsiomis</editor>
+                    </rdg>
+                    <rdg wit="Yverdon">
+                        <title>Article NATURE, (N), Phil. Herm.​​</title>
+                        <author></author>
+                        <editor>Claude Blum</editor>
+                        <editor>Fortunato Bartolomeo De Felice</editor>
+                    </rdg>
+                </app>
             </titleStmt>
             <publicationStmt>
                 <authority>Jodie CORNEC</authority>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
-                    <editor>Diderot</editor>
-                    <title>Encyclopédie</title>
-                    <date>XVIIIème siècle</date>
-                    <placeName></placeName>
-                    <editor>Diderot</editor> 
-                    <editor>D'Alembert</editor>
-                    <editor>
-                        Enccre
-                        <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v11-199-0/"/>
-                    </editor>
-                </bibl>
+                <app>
+                    <rdg wit="ENCCRE">
+                        <bibl>
+                            <editor>Diderot</editor>
+                            <title>Encyclopédie</title>
+                            <date>XVIIIème siècle</date>
+                            <placeName></placeName>
+                            <editor>Diderot</editor> 
+                            <editor>D'Alembert</editor>
+                            <editor>
+                                Enccre
+                                <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v11-199-0/"/>
+                            </editor>
+                        </bibl>
+                    </rdg>
+                    <rdg wit="Yverdon">
+                        <bibl>
+                            <editor>Fortunato Bartolomeo De Felice</editor>
+                            <title>Encyclopédie d’Yverdon</title>
+                            <date>XVIIIème siècle</date>
+                            <placeName></placeName>
+                            <editor>Claude Blum</editor> 
+                            <editor>Alain Cernuschi</editor>
+                            <editor>Sylviane Albertan-Coppola</editor>
+                            <editor>Silvio Corsini</editor>
+                            <editor>Kathleen H. Doig</editor>
+                            <editor>Jens Häseler</editor>
+                            <editor>Étienne Hofmann</editor>
+                            <editor>Hans-Jürgen Lüsebrink</editor>
+                            <editor>Simone Zuburchen</editor>
+                            <editor>
+                                Yverdon
+                            </editor>
+                        </bibl>
+                    </rdg>
+                </app>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <projectDesc>
-                <p>
-                    Projet : encodage pour un cours de XML/TEI d'un article de l'Encyclopédie de Diderot et 
-                    d'Alembert.
-                </p>
-                <p>
-                    Le projet prend en compte plusieurs dictionnaires historiques afin d'étudier les définitions 
-                    du mot "nature".
-                </p> 
-                    <list>
-                        <item>
-                            Le Dictionnaire français de Richelet (1680) :
-                            Premier des grands dictionnaires entièrement français, celui de P. Richelet, 
-                            le Dictionnaire françois paru en 1680. Ce dictionnaire contenait les termes les 
-                            plus communs des arts et des sciences, rendait compte des différentes acceptions 
-                            des mots et appuyait ses définitions sur des citations « des bons auteurs» ; ce 
-                            sont là deux innovations historiquement essentielles. La définition de « nature », 
-                            selon Richelet commence donc ainsi :
-                            « Nature s.f. C’est le principe de toutes les choses qui sont. C’est le principe 
-                            actif qui est en nous et qui par ses propres forces engendre, conserve et exerce 
-                            toutes les fonctions du corps vivant, et dans les autres corps naturels la nature 
-                            est la base de leur être et de leur mouvement. Deg. »
-                            Sous l’abréviation « Deg », lisons Degori, Dictionnaire des mots de médecine chez 
-                            Rocolet, nous indique la « table alphabétique de la plupart des Auteurs »1. Une 
-                            telle référence est en elle même très significative : « nature », pour Richelet, 
-                            appartient d’abord au champ médical, sinon physiologique. Suivent les acceptions : 
-                            « Assemblage des êtres », « Propriété essentielle », « Disposition essentielle, 
-                            état d’une chose », « Sorte, manière , puis des emplois spécifiques, « Nature 
-                            corrompue. Terme de Téologie » [sic] et « Parties naturelles de l’homme et de la 
-                            femme. » 
-                        </item>
-                        <item>
-                            Le Dictionnaire universel de Furetière (1690) :
-                            Dix ans plus tard, on pouvait lire l’article NATURE du Dictionnaire universel de 
-                            Furetière publié en 1690 à Rotterdam. Pour « nature », Furetière s’essaie d’abord 
-                            une définition générale, sans doute peu satisfaisante, mais durable, comme on le 
-                            verra [12]:
-                            La masse du monde, l’assemblage de tous les êtres. L’Auteur de la nature a disposé 
-                            toutes choses en un ordre merveilleux. Il n’y a rien dans tout la nature qui ne 
-                            soit admirable, où on ne reconnaisse le doit (sic) de Dieu. Il n’y a rien de si 
-                            beau, de si méchant dans toute la nature : c’est une hyperbole ordinaire.
-                            La mention de Dieu apparaît ici et ne quittera plus, jusqu’à Littré, la « nature » 
-                            dans les dictionnaires. La suite de l’article convoque de nouvelles démarches : 
-                            Furetière recherche visiblement une approche notionnelle du terme, qui implique 
-                            le recours à des domaines différents du savoir et une définition plurielle ; il ne 
-                            s’agira plus de médecine, mais des emplois du mot chez « les théologiens », « les 
-                            philosophes », « en choses morales, « en plusieurs arts », « en Musique », « en 
-                            Prosodie ».
-                        </item>
-                        <item>
-                            Le Dictionnaire de l'Académie française (1694) :
-                            Si on le compare avec celui du premier Dictionnaire de l'Académie françoise, le 
-                            souci de Furetière apparaît très nettement. On sait en effet que les Académiciens 
-                            avaient voué leur dictionnaire à l’unique bel usage. « [L'Académie] s'est 
-                            retranchée à la Langue commune, telle qu'elle est dans le commerce ordinaire des 
-                            honnêtes gens, et telle que les Poètes et les Orateurs l'emploient », disait la 
-                            Préface du Dictionnaire de l'Académie, (p. 2). Se fondant sur leurs propres 
-                            savoirs, les Immortels excluaient tout recours extérieur à des auteurs : des 
-                            « phrases » faites exprès présentent le mot en combinaison avec d'autres. 
-                            « Nature » chez les Académiciens fait donc l’objet d’un amoncellement de 
-                            collocations :
-                            Nature. s. f. Tout l'Univers, toutes les choses créées.  Dieu est l'auteur et le 
-                            maître de la nature. l'ordre qui règne dans toute la nature. Il se prend aussi 
-                            pour Cet esprit universel [qui deviendra dans l’édition de 1762 « cet ordre »] 
-                            qui est répandu dans chaque chose créée; et par lequel toutes choses ont leur 
-                            commencement, leur progrès et leur fin. Dieu et la nature ne font rien en vain. 
-                            la nature est une bonne mère.
-                            Il se prend aussi dans une signification plus étroite, et se dit par rapport aux 
-                            effets que cet esprit et cet ordre produisent dans chaque personne. La nature 
-                            commence à s'affaiblir, à défaillir en lui.
-                            Il se prend encore pour le principe intrinsèque des opérations de chaque être,; 
-                            pour la propriété de chaque être particulier. Telle est la nature du feu. […]
-                            On en apprendra donc beaucoup sur les emplois purement langagiers du mot 
-                            « nature », mais peu sur l’interrogation notionnelle qu’un tel vocable pouvait 
-                            susciter.
-                        </item>
-                    </list>
-            </projectDesc>
+                <app>
+                    <rdg wit="ENCCRE">
+                        <projectDesc>
+                            <p>
+                                Projet : encodage pour un cours de XML/TEI d'un article de l'Encyclopédie de Diderot et 
+                                d'Alembert.
+                            </p>
+                            <p>
+                                Le projet prend en compte plusieurs dictionnaires historiques afin d'étudier les définitions 
+                                du mot "nature".
+                            </p> 
+                            <list>
+                                <item>
+                                    Le Dictionnaire français de Richelet (1680) :
+                                    Premier des grands dictionnaires entièrement français, celui de P. Richelet, 
+                                    le Dictionnaire françois paru en 1680. Ce dictionnaire contenait les termes les 
+                                    plus communs des arts et des sciences, rendait compte des différentes acceptions 
+                                    des mots et appuyait ses définitions sur des citations « des bons auteurs» ; ce 
+                                    sont là deux innovations historiquement essentielles. La définition de « nature », 
+                                    selon Richelet commence donc ainsi :
+                                    « Nature s.f. C’est le principe de toutes les choses qui sont. C’est le principe 
+                                    actif qui est en nous et qui par ses propres forces engendre, conserve et exerce 
+                                    toutes les fonctions du corps vivant, et dans les autres corps naturels la nature 
+                                    est la base de leur être et de leur mouvement. Deg. »
+                                    Sous l’abréviation « Deg », lisons Degori, Dictionnaire des mots de médecine chez 
+                                    Rocolet, nous indique la « table alphabétique de la plupart des Auteurs »1. Une 
+                                    telle référence est en elle même très significative : « nature », pour Richelet, 
+                                    appartient d’abord au champ médical, sinon physiologique. Suivent les acceptions : 
+                                    « Assemblage des êtres », « Propriété essentielle », « Disposition essentielle, 
+                                    état d’une chose », « Sorte, manière , puis des emplois spécifiques, « Nature 
+                                    corrompue. Terme de Téologie » [sic] et « Parties naturelles de l’homme et de la 
+                                    femme. » 
+                                </item>
+                                <item>
+                                    Le Dictionnaire universel de Furetière (1690) :
+                                    Dix ans plus tard, on pouvait lire l’article NATURE du Dictionnaire universel de 
+                                    Furetière publié en 1690 à Rotterdam. Pour « nature », Furetière s’essaie d’abord 
+                                    une définition générale, sans doute peu satisfaisante, mais durable, comme on le 
+                                    verra [12]:
+                                    La masse du monde, l’assemblage de tous les êtres. L’Auteur de la nature a disposé 
+                                    toutes choses en un ordre merveilleux. Il n’y a rien dans tout la nature qui ne 
+                                    soit admirable, où on ne reconnaisse le doit (sic) de Dieu. Il n’y a rien de si 
+                                    beau, de si méchant dans toute la nature : c’est une hyperbole ordinaire.
+                                    La mention de Dieu apparaît ici et ne quittera plus, jusqu’à Littré, la « nature » 
+                                    dans les dictionnaires. La suite de l’article convoque de nouvelles démarches : 
+                                    Furetière recherche visiblement une approche notionnelle du terme, qui implique 
+                                    le recours à des domaines différents du savoir et une définition plurielle ; il ne 
+                                    s’agira plus de médecine, mais des emplois du mot chez « les théologiens », « les 
+                                    philosophes », « en choses morales, « en plusieurs arts », « en Musique », « en 
+                                    Prosodie ».
+                                </item>
+                                <item>
+                                    Le Dictionnaire de l'Académie française (1694) :
+                                    Si on le compare avec celui du premier Dictionnaire de l'Académie françoise, le 
+                                    souci de Furetière apparaît très nettement. On sait en effet que les Académiciens 
+                                    avaient voué leur dictionnaire à l’unique bel usage. « [L'Académie] s'est 
+                                    retranchée à la Langue commune, telle qu'elle est dans le commerce ordinaire des 
+                                    honnêtes gens, et telle que les Poètes et les Orateurs l'emploient », disait la 
+                                    Préface du Dictionnaire de l'Académie, (p. 2). Se fondant sur leurs propres 
+                                    savoirs, les Immortels excluaient tout recours extérieur à des auteurs : des 
+                                    « phrases » faites exprès présentent le mot en combinaison avec d'autres. 
+                                    « Nature » chez les Académiciens fait donc l’objet d’un amoncellement de 
+                                    collocations :
+                                    Nature. s. f. Tout l'Univers, toutes les choses créées.  Dieu est l'auteur et le 
+                                    maître de la nature. l'ordre qui règne dans toute la nature. Il se prend aussi 
+                                    pour Cet esprit universel [qui deviendra dans l’édition de 1762 « cet ordre »] 
+                                    qui est répandu dans chaque chose créée; et par lequel toutes choses ont leur 
+                                    commencement, leur progrès et leur fin. Dieu et la nature ne font rien en vain. 
+                                    la nature est une bonne mère.
+                                    Il se prend aussi dans une signification plus étroite, et se dit par rapport aux 
+                                    effets que cet esprit et cet ordre produisent dans chaque personne. La nature 
+                                    commence à s'affaiblir, à défaillir en lui.
+                                    Il se prend encore pour le principe intrinsèque des opérations de chaque être,; 
+                                    pour la propriété de chaque être particulier. Telle est la nature du feu. […]
+                                    On en apprendra donc beaucoup sur les emplois purement langagiers du mot 
+                                    « nature », mais peu sur l’interrogation notionnelle qu’un tel vocable pouvait 
+                                    susciter.
+                                </item>
+                            </list>
+                        </projectDesc>
+                    </rdg>
+                    <rdg wit="Yverdon">
+
+                    </rdg>
+                </app>
         </encodingDesc>
         <profileDesc>
-            <langUsage>
-                <language ident="fr">Français</language>
-                <language ident="grc">Grec ancien</language>
-            </langUsage>
+            <app>
+                <rdg wit="ENCCRE">
+                    <langUsage>
+                    <language ident="fr">Français</language>
+                    <language ident="grc">Grec ancien</language>
+                    </langUsage>
+                </rdg>
+                <rdg wit="Yverdon">
+
+                </rdg>
+            </app>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -128,110 +176,112 @@
                     Ajout des références à d'autres articles de l'Encyclopédie dans le corps du texte. 
                     Je ne peux m'avancer plus du à la panne du site ENCCRE et de Tei-c.org.
                 </item>
+                <item>
+                    <date when="2026-10-30">30 octobre 26</date>
+                    Ajout de la deuxième version d'une autre encyclopédie.
+                </item>
             </list>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div type="article" xml:id="Nature">
-                <head>Nature</head>
-                <entry>
-                    <form>
-                        <orth rend="caps">NATURE</orth>
-                        <gramGrp>
-                            <pos>s. f.</pos>
-                            <note type="domain">(Philos.)</note>
-                        </gramGrp>
-                    </form>
-                    <p>
-                        Nature, s. f. (Philos.) est un terme dont on fait différens usages. Il y a dans Aristote​ un 
-                        chapitre entier​ sur les différens sens que les Grecs donnoient au mot 
-                        <foreign xml:lang="grc">
-                            φύσις
-                        </foreign>
-                        , nature ; &amp; parmi 
-                        les Latins, ses différens sens sont en si grand nombre, qu’un auteur en compte jusqu’à 14 ou 
-                        15. M. Boyle, dans un traité exprès qu’il a fait sur les sens vulgairement attribués au mot 
-                        nature, en compte huit principaux.
-                    </p>
-                <sense n="1">
-                    <p>
-                        Nature signifie quelquefois le système du monde, la machine de l’univers, ou l’assemblage de 
-                        toutes les choses créées. Voyez 
-                        <ref target="#Système">
-                            Système
-                        </ref>
-                        .
-                    </p>
-                </sense>
-                    <p>
-                        C’est dans ce sens que nous disons l’auteur de la nature, que nous appellons le soleil l’œil 
-                        de la nature, à cause qu’il éclaire l’univers, et le pere de la nature, parce qu’il rend la 
-                        terre fertile en l’échauffant : de même nous disons du phénix ou de la chimere, qu’il n’y en 
-                        a point dans la nature.​
-                    </p>
-                    <p>
-                        M. Boyle veut qu’au lieu d’employer le mot de nature en ce sens, on se serve, pour éviter 
-                        l’ambiguité ou l’abus qu’on peut faire de ce terme, du mot de monde ou d’univers.
-                    </p>
-                <sense n="2">
-                    <p>
-                        Nature s’applique dans un sens moins étendu à chacune des différentes choses créées ou non 
-                        créées, spirituel les &amp; corporelles. Voyez 
-                        <ref target="#Etre">
-                            Etre
-                        </ref>
-                        .
-                    </p>
-                </sense>
-                    <p>
-                        C’est dans ce sens que nous disons la nature humaine, entendant par-là généralement tous les 
-                        hommes qui ont une ame spirituelle &amp; raisonnable. Nous disons aussi nature des anges, nature 
-                        divine. C’est dans ce même sens que les Théologiens disent natura naturans, &amp; natura naturata 
-                        ; ils appellent Dieu natura naturans, comme ayant donné l’être &amp; la nature à toutes choses, 
-                        pour le distinguer des créatures, qu’ils appellent natura naturata, parce qu’elles ont reçu 
-                        leur nature des mains d’un autre.
-                    </p>
-                    <p>
-                        Nature, dans un sens encore plus limité, se dit de l’essence d’une chose, ou de ce que ​les 
-                        philosophes de l’école appellent ​sa quiddité, c’est-à-dire l’attribut qui fait qu’une chose 
-                        est telle ou telle. Voyez 
-                        <ref target="#Essence">
-                            Essence
-                        </ref>
-                        .
-                    </p>
-                    <p>
-                        C’est dans ce sens que les Cartésiens disent que la nature de l’ame est de penser, &amp; que la 
-                        nature de la matiere consiste dans l’étendue. Voyez 
-                        <ref target="#Ame">
-                            Ame
-                        </ref>
-                        , 
-                        <ref target="#Matiere"> 
-                            Matiere
-                        </ref>
-                        , 
-                        <ref target="#Étendue">
-                            Étendue
-                        </ref>
-                        . M. Boyle veut qu’on
-                        se serve du mot essence au lieu de nature. Voyez 
-                        <ref target="#Essence">
-                            Essence
-                        </ref>
-                        .
-                    </p>
-                    <p>
-                        Nature est plus particulierement en usage pour signifier l’ordre &amp; le cours naturel des 
-                        choses, la suite des causes secondes, ou les lois du mouvement que Dieu a établies. Voyez 
-                        <ref target="#Causes">
-                            Causes
-                        </ref>
-                        <ref target="#Mouvement">
-                            Mouvement
-                        </ref>
-                        .
+                <app>
+                    <rdg wit="ENCCRE">
+                        <head>Nature</head>
+                        <entry>
+                            <form>
+                                <orth rend="caps">NATURE</orth>
+                                <gramGrp>
+                                    <pos>s. f.</pos>
+                                    <note type="domain">(Philos.)</note>
+                                </gramGrp>
+                            </form>
+                            <p>
+                                Nature, s. f. (Philos.) est un terme dont on fait différens usages. Il y a dans Aristote​ un 
+                                chapitre entier​ sur les différens sens que les Grecs donnoient au mot 
+                                <foreign xml:lang="grc">
+                                    φύσις
+                                </foreign>
+                                , nature ; &amp; parmi 
+                                les Latins, ses différens sens sont en si grand nombre, qu’un auteur en compte jusqu’à 14 ou 
+                                15. M. Boyle, dans un traité exprès qu’il a fait sur les sens vulgairement attribués au mot 
+                                nature, en compte huit principaux.
+                            </p>
+                            <sense n="1">
+                                Nature signifie quelquefois le système du monde, la machine de l’univers, ou l’assemblage de 
+                                toutes les choses créées. Voyez 
+                                <ref target="#Système">
+                                    Système
+                                </ref>
+                                .
+                            </sense>
+                            <p>
+                                C’est dans ce sens que nous disons l’auteur de la nature, que nous appellons le soleil l’œil 
+                                de la nature, à cause qu’il éclaire l’univers, et le pere de la nature, parce qu’il rend la 
+                                terre fertile en l’échauffant : de même nous disons du phénix ou de la chimere, qu’il n’y en 
+                                a point dans la nature.​
+                            </p>
+                            <p>
+                                M. Boyle veut qu’au lieu d’employer le mot de nature en ce sens, on se serve, pour éviter 
+                                l’ambiguité ou l’abus qu’on peut faire de ce terme, du mot de monde ou d’univers.
+                            </p>
+                            <sense n="2">
+                                Nature s’applique dans un sens moins étendu à chacune des différentes choses créées ou non 
+                                créées, spirituel les &amp; corporelles. Voyez 
+                                <ref target="#Etre">
+                                    Etre
+                                </ref>
+                                .
+                            </sense>
+                            <p>
+                                C’est dans ce sens que nous disons la nature humaine, entendant par-là généralement tous les 
+                                hommes qui ont une ame spirituelle &amp; raisonnable. Nous disons aussi nature des anges, nature 
+                                divine. C’est dans ce même sens que les Théologiens disent natura naturans, &amp; natura naturata 
+                                ; ils appellent Dieu natura naturans, comme ayant donné l’être &amp; la nature à toutes choses, 
+                                pour le distinguer des créatures, qu’ils appellent natura naturata, parce qu’elles ont reçu 
+                                leur nature des mains d’un autre.
+                            </p>
+                            <p>
+                                Nature, dans un sens encore plus limité, se dit de l’essence d’une chose, ou de ce que ​les 
+                                philosophes de l’école appellent ​sa quiddité, c’est-à-dire l’attribut qui fait qu’une chose 
+                                est telle ou telle. Voyez 
+                                <ref target="#Essence">
+                                    Essence
+                                </ref>
+                                .
+                            </p>
+                            <p>
+                                C’est dans ce sens que les Cartésiens disent que la nature de l’ame est de penser, &amp; que la 
+                                nature de la matiere consiste dans l’étendue. Voyez 
+                                <ref target="#Ame">
+                                    Ame
+                                </ref>
+                                , 
+                                <ref target="#Matiere"> 
+                                    Matiere
+                                </ref>
+                                , 
+                                <ref target="#Étendue">
+                                    Étendue
+                            </ref>
+                            . M. Boyle veut qu’on
+                            se serve du mot essence au lieu de nature. Voyez 
+                            <ref target="#Essence">
+                                Essence
+                            </ref>
+                            .
+                        </p>
+                        <p>
+                            Nature est plus particulierement en usage pour signifier l’ordre &amp; le cours naturel des 
+                            choses, la suite des causes secondes, ou les lois du mouvement que Dieu a établies. Voyez 
+                            <ref target="#Causes">
+                                Causes
+                            </ref>
+                            <ref target="#Mouvement">
+                                Mouvement
+                            </ref>
+                            .
                     </p>
                     <p>
                         C’est dans ce sens qu’on dit que les Physiciens étudient la nature.
@@ -347,6 +397,367 @@
                         le concours de tous les êtres étant consideré comme le principe du mouvement, du repos, etc.
                     </p>
                 </entry>
+                    </rdg>
+                    <rdg wit="Yverdon">
+                        <head>Nature</head>
+                        <entry>
+                            <form>
+                                <orth rend="caps">NATURE</orth>
+                                <gramGrp>
+                                    <pos>(N)</pos>
+                                    <note type="domain">Phil.</note>
+                                </gramGrp>
+                            </form>
+                        <p>
+                            NATURE, (N), Phil. Herm. L'œil de Dieu, Dieu même toujours attentif à son ouvrage, 
+                            est proprement la nature même, et les loix qu'il a posées pour sa conservation, sont les causes de 
+                            tout ce qui s'opere dans l'univers. A ce premier moteur ou principe de génération d'altération, les 
+                            anciens philosophes en joignoient un second corporifié, auquel ils donnoientlenomde nature; mais 
+                            c'étoit une nature secondaire, un serviteur fidele qui obéit exactement aux ordres de son maître, ou 
+                            un instrument conduit par la main du souverain ouvrier, incapable de se tromper. Cette nature ou cause 
+                            seconde est un esprit universel, vivifiant et fécondant, la lumiere créée dans le commencement, et 
+                            communiquée à toutes les parties du macrocosme. Les anciens l'ont appellé un esprit igné, un feu 
+                            invisible, et l'ame du monde. 
+                        </p>
+                        <p>
+                            L'ordre qui regne dans l'univers n'est qu'une suite développée des loix éternelles. Tous les mouvemens 
+                            des différentes parties de la masse en dépendent. La nature forme, altere et corrompt sans cesse, et 
+                            son modérateur présent par tout répare continuellement les altérations de son ouvrage.
+                        </p>
+                        <p>
+                            Le terme de nature s'entend aussi de la partie de l'univers que compose le globe terrestre, et tout ce 
+                            qui lui appartient. Dans ce dernier sens la nature, selon tous les physiciens et les chymistes, est 
+                            divisée en trois parties, qu'ils appellent regnes; savoir, le regne animal, le végétal, et le minéral. 
+                            Tous les individus de ce monde sublunaire sont compris dans cette division, et il n'en est aucun qui 
+                            n'appartienne à un de ces trois regnes Tous trois partent du même principe, et néanmoins sont composés 
+                            de trois substances différentes, qui en sont les semences; savoir, le menstrue pour les animaux, l'eau 
+                            de pluie pour les végétaux, et l'eau mercurielle pour les minéraux. Chaque regne est encore composé 
+                            d'un assemblage de trois substances, analogues en quelque maniere avec celle des autres regnes; 
+                            c'est-à-dire, d'une substance subtile, tenue, spiritueuse et mercurielle, d'une substance grossiere, 
+                            terrestre et crasse, et d'une troisieme moyenne, et qui participe des deux. Il n'est point de corps 
+                            d'où l'art ne vienne à bout de séparer ces trois especes de principes.
+                        </p>
+                        <p>
+                            Outre ces trois substances on en remarque comme une quatrieme, qui peut se rapporter à la premiere par 
+                            sa ténuité et sa subtilité; mais qui semble en différer, en ce qu'il est comme impossible à l'art de 
+                            la réduire en esprit liquoreux; au lieu que l'autre se condense en eau, tel que l'esprit-de-vin et les 
+                            autres liqueurs subtiles, auxquelles l'on donne le nom d'esprit. Cette matiere incondensable, est celle 
+                            que J. B. Van-Helmont appelle gas. C'est celle qui se fait sentir, et qui s'évapore dès le commencement 
+                            de la fermentation des corps. Beccher dit n'avoir pû réussir à condenser ce gas, qui s'évapore du vin 
+                            lorsqu'il fermente dans les tonneaux.
+                        </p>
+                        <p>
+                            Dans ces trois classes d'individus, la semence est différente, et selon le même auteur, contraire 
+                            l'une à l'autre à certains égards; quoiqu'elles ayent beaucoup d'affinité entr'elles, comme sorties 
+                            d'un même principe, l'une ne peut devenir semence d'un regne différent du sien: de maniere que le 
+                            créateur ayant une fois séparé ces trois substances du même principe, elles ne sont plus transmuables 
+                            l'une dans l'autre. Ceux qui scrutent la nature, y trouvent un caractere trine, qui semble porter 
+                            l'empreinte du sceau de la Trinité. Les théologiens verront dans ce caractere des mysteres et des 
+                            choses si surprenantes, qui se font toutes par trois, qu'elles sont bien capables d'affermir notre 
+                            foi. Les physiciens habiles et judicieux voyent que ce nombre trinaire des trois regnes est bien digne 
+                            de toute leur attention. L'âge d'un homme, quelque prolongé qu'il soit, n'est pas suffisant pour 
+                            observer les opérations étonnantes et admirables qui se passent dans les laboratoires de ces trois 
+                            regnes. Y a-t-il rien de plus incompréhensible que ce qui se passe dans le ténébreux séjour, où se 
+                            conçoit et s'engendre l'homme, d'une substance si vile, si corruptible, d'une maniere si simple et si 
+                            commune, en peu de mois, composé cependant d'une infinité de veines, de nerfs, de membranes, de 
+                            valvules, de vases et d'autres organes, dont le moindre ne sauroit être imité parfaitement par le 
+                            plus habile artiste de l'univers? Quoi de plus admirable, que de voir dans une nuit, par une même 
+                            pluie, dans une même terre, tant de différens végétaux, si divers en couleurs, en odeur, en saveur, 
+                            en figure, germer et croître, et en si grande quantité, qu'il n'est homme au monde qui les ait 
+                            seulement tous vûs, loin d'en avoir connu les propriétés! Les fossiles n'ont rien de moins admirable, 
+                            et nous ne sommes pas plus en état d'en expliquer parfaitement la génération, que celle des deux autres
+                            regnes. Nous en savons beaucoup, nous en ignorons encore peut-être davantage; mais ce qui nous est 
+                            connu suffit certainement pour nous faire écrier avec le roi prophête, Que tes ouvrages, Seigneur, 
+                            sont magnifiques, tu as fait tout avec une grande sagesse.
+                        </p>
+                        <p>
+                            Ces trois regnes ont encore une différence dans leur maniere d'être, qui les distingue l'un de l'autre. 
+                            Les animaux ont un corps, dont les parties ne semblent former qu'un assemblage fait par union; les 
+                            végétaux par coagulation, et les minéraux par fixation. Ces derniers ne se trouvent que dans les 
+                            entrailles de la terre, et moitié hors de terre; les animaux sont tous hors de terre, ou en sont 
+                            totalement séparés.
+                        </p>
+                        <p>
+                            L'étude de la nature porte avec elle tant d'agrémens, tant de plaisir et tant d'utilité, qu'il est 
+                            surprenant de voir si peu de gens s'y appliquer.
+                        </p>
+                        <p>
+                            Quelques anciens réduisoient tout en combinaison, et admettoient les nombres comme forme de tout ce 
+                            qui existe, ou comme la loi, suivant laquelle tout se forme dans la nature. Tycho Brahé a recueilli 
+                            ses réflexions là-dessus dans une carte extrêmement rare aujourd'hui, à laquelle il a donné pour titre:
+                            Calendarium naturale magicum perpetuum profundissimam rerum secretissimarum contemplationem, totiusque 
+                            philosophiæ cognitionem complectens. Il y parle de presque toute la nature qu'il range sous les nombres
+                            depuis l'unité jusqu'à douze. Comme la plûpart des lecteurs seront bien aise d'en avoir quelqu'idée, 
+                            voici en substance ce qu'elle contient.
+                        </p>
+                        <p>
+                            Tout est combiné et composé dans la nature selon certaines mesures invariables formées, pour ainsi 
+                            dire, sur des nombres qui semblent naître les uns des autres. Il y a plusieurs choses uniques dans le 
+                            monde qui nous représentent l'unité. Un Dieu principe et fin de toutes choses, et qui n'a point de 
+                            commencement, de même que dans les nombres rien ne précéde l'unité. Il n'aura aussi point de fin, 
+                            comme l'unité peut s'ajouter à l'unité par une progression infinie.
+                        </p>
+                        <p>
+                            Il n'y a qu'un soleil, d'où semble procéder la lumiere, qu'il communique à tout l'univers, après 
+                            l'avoir reçue. Il n'y a qu'un macrocosme et une ame de l'univers. Dans le monde intelligible et 
+                            matériel une seule pierre des sages, et dans le microcosme un cœur, source de la vie, d'où la lumiere 
+                            vitale se communique à toutes les autres parties du corps.
+                        </p>
+                        <p>
+                            L'unité est donc la source de l'amitié, de la concorde et de l'union des choses, comme elle est le 
+                            principe de leur extension; parce qu'une unité répétée produit deux. Ce nombre deux est le principe de 
+                            la génération des choses, composées de deux; savoir, de la forme et de la matiere, du mâle et de la 
+                            femelle, de l'agent et du patient; c'est pourquoi ce nombre est celui du mariage et du microcosme, et 
+                            signifie la matiere procréée. La forme, le mâle et l'agent sont la même chose. Le soleil, la terre, le 
+                            cœur, la forme, et ce que les astrologues appellent tête du dragon, sont regardés comme mâle. La lune, 
+                            l'eau, le cerveau, la matiere et la queue du dragon sont la femelle, les premiers représentés par Adam,
+                            les seconds par Eve. Aussi Dieu n'a-t-il créé qu'un mâle et une femelle, et rien dans l'univers ne 
+                            s'engendre sans le concours de l'un avec l'autre. Ce qui nous est représenté par les deux chérubins 
+                            qui couvroient l'arche de leurs aîles, et par les deux tables de la loi données à Moyse, qui y étoient 
+                            renfermées.
+                        </p>
+                        <p>
+                            L'unité ajoûtée au nombre deux fait trois nombres, sacré, très-puissant et parfait; et la seconde 
+                            division de la nature et de son principe Dieu en trois personnes Pere, Fils, et Saint-Esprit. Le Fils 
+                            est engendré du Pere, et le Saint-Esprit procéde des deux. Aussi le Créateur semble avoir voulu se 
+                            manifester à nous dans tout le livre de la nature, comme il en étoit le commencement, il semble avoir 
+                            formé l'homme de toute la quintessence des choses, pour être le spectateur de l'univers, et y 
+                            reconnoître son Auteur. Tout aussi dans la nature est composé de trois, et divisé par trois: trois 
+                            personnes en Dieu, trois hyérarchies des anges, la suprême, la moyenne et la basse, qui multipliée par 
+                            elle-même forme neuf, dont nous parlerons ci-après. Il y a trois sortes d'ames dans l'univers, 
+                            l'intelligente, la sensitive et la végétative. Ces trois ames se trouvent dans l'homme, la sensitive 
+                            et la végétative dans les animaux, et la végétative seule dans les plantes.
+                        </p>
+                        <p>
+                            Il y a eu trois sortes de tems écoulés ou qui s'écoulent depuis la création, le tems de la nature, 
+                            appellé la loi de la nature; le tems de la loi, ou la loi de Moïse, et le tems de la grace ou la loi 
+                            de grace.
+                        </p>
+                        <p>
+                            Trois vertus théologales, la foi, l'espérance et la charité.
+                        </p>
+                        <p> 
+                            Trois puissances intellectives dans le microcosme; la mémoire, l'esprit et la volonté.
+                        </p>
+                        <p>
+                            Trois regnes dans la nature; le minéral, le végétal et l'animal, dans lequel l'homme ne doit point 
+                            être compris en particulier, parce qu'il est composé de la quintessence des trois.
+                        </p>
+                        <p>
+                            Trois sortes d'élémens, les purs, les composés et les décomposés.
+                        </p>
+                        <p>
+                            Trois principes matériels de tous les mixtes; soufre, sel et mercure.
+                        </p>
+                        <p>
+                            Trois qualités de ces principes; le volatil, le fixe, et un troisieme qui participe des deux.
+                        </p>
+                        <p>
+                            Trois divisions de la journée selon la création; le jour, la nuit et le crépuscule.
+                        </p>
+                        <p>
+                            Trois mesures des choses; le commencement, le milieu et la fin.
+                        </p>
+                        <p>
+                            Trois mesures du tems; le passé, le présent et le futur.
+                        </p>
+                        <p>
+                            Trois dimensions dans les corps; la longueur, la largeur et la hauteur.
+                        </p>
+                        <p>
+                            Trois principes de l'homme; l'ame, l'esprit et le corps.
+                        </p>
+                        <p>
+                            Trois parties dans le corps du microcosme correspondantes à autant de parties du macrocosme; la tête, 
+                            la poitrine et le ventre. La tête au ciel, la poitrine au firmament ou à l'air, le ventre à la terre.
+                        </p>
+                        <p>
+                            Trois élémens principaux; le feu, l'air et l'eau.
+                        </p>
+                        <p>
+                            Un esprit un peu éclairé et instruit de la nature, verra sans peine que toutes ces choses divisées en 
+                            trois ne font cependant qu'une et même chose; comme les trois personnes ne font qu'un Dieu. Le tems 
+                            passé, le présent et le futur ne font qu'un et même tems; la hauteur, la largeur et la longueur d'un 
+                            corps, ne font qu'un corps. L'ame, l'esprit et le corps ne composent qu'un homme; toutes ces choses 
+                            sont néanmoins très-distinctes entr'elles, et nous en concevons la différence, aussi bien que la 
+                            réunion pour en faire l'unité; pourquoi douteroit-on donc de l'existence d'un Dieu en trois personnes?
+                        </p>
+                        <p>
+                            Une unité ajoutée à trois produit quatre, qui devient, selon Tycho-Brahé et plusieurs autres, le 
+                            fondement de tous les nombres, la fontaine de nature, comme renfermant le nombre parfait dont tout a 
+                            été créé. C'est pourquoi l'on partage l'univers en quatre élémens, le feu, l'air, l'eau et la terre; 
+                            aux trois premiers desquels répondent deux planetes à chacun; savoir, le Soleil et Mars au feu, 
+                            Jupiter et Vénus à l'air, Saturne et Mercure à l'eau; et la Terre a en partage le Soleil, la Lune et 
+                            les Etoiles fixes.
+                        </p>
+                        <p>
+                            On compte aussi quatre points cardinaux dans le monde, l'orient, l'occident, le midi et le septentrion.
+                        </p>
+                        <p>
+                            Quatre vents; eurus, zephirus, aquilo et auster.
+                        </p>
+                        <p>
+                            Quatre qualités des élémens; la lumiere du feu, le diaphane de l'air, la mobilité de l'eau, et la 
+                            solidité de la terre.
+                        </p>
+                        <p>
+                            Quatre principes de l'homme correspondans aux quatre élémens; l'ame au feu, l'esprit à l'air, l'ame 
+                            animale à l'eau, et le corps à la terre.
+                        </p>
+                        <p>
+                            Quatre humeurs principales dans le corps du petit monde; la bile, le sang, la pituite et la mélancholie.
+                        </p>
+                        <p>
+                            Quatre facultés de son ame; l'intellect, la raison, l'imagination et le sentiment.
+                        </p>
+                        <p>
+                            Quatre degrés progressifs: être, vivre, apprendre et comprendre.
+                        </p>
+                        <p>
+                            Quatre mouvemens dans la nature: l'ascendant, ou du centre à la circonférence; le descendant, ou de la 
+                            circonférence au centre; le progressif ou horisontal, et le circulaire.
+                        </p>
+                        <p>
+                            Quatre termes de la nature: la substance, la qualité, la quantité et le mouvement.
+                        </p>
+                        <p>
+                            Quatre termes mathématiques: le point, la ligne, la superficie, et la profondeur ou la masse.
+                        </p>
+                        <p>
+                            Quatre termes physiques: la vertu seminative ou semence des corps, leur génération, leur accroissement 
+                            et leur perfection.
+                        </p>
+                        <p>
+                            Quatre termes métaphysiques: l'être ou l'existence, l'essence, la vertu ou le pouvoir d'agir et 
+                            l'action.
+                        </p>
+                        <p>
+                            Quatre vertus morales: la prudence, la justice, la tempérance et la force.
+                        </p>
+                        <p>
+                            Quatre complexions ou tempéramens: la vivacité, la gaieté, la nonchalence et la lenteur.
+                        </p>
+                        <p>
+                            Quatre saisons: l'hyver, le printems, l'été et l'automne.
+                        </p>
+                        <p>
+                            Quatre évangélistes: S. Marc, S. Jean, S. Matthieu et S. Luc.
+                        </p>
+                        <p>
+                            Quatre animaux sacrés: le lion, l'aigle, l'homme et le bœuf.
+                        </p>
+                        <p>
+                            Quatre sortes de mixtes: les animaux, les plantes, les métaux et les pierres.
+                        </p>
+                        <p>
+                            Quatre sortes d'animaux: ceux qui marchent, ceux qui volent, ceux qui nagent et ceux qui rampent.
+                        </p>
+                        <p>
+                            Quatre qualités physiques des corps: chaud, humide, froid et sec.
+                        </p>
+                        <p>
+                            Correspondance des métaux aux élémens: l'or et le fer au feu; le cuivre et l'étain à l'air; l'argent-vif
+                            à l'eau; le plomb et l'argent à la terre.
+                        </p>
+                        <p>
+                            Quatre sortes de pierres qui leur répondent: les pierres précieuses et éclatantes, comme le diamant, 
+                            le rubis, etc. les pierres légeres et transparentes, comme le talc; les pierres dures et claires, 
+                            comme le caillou; les pierres opaques et pesantes, comme le marbre, etc.
+                        </p>
+                        <p>
+                            Des douze signes, trois répondent à chaque élément: le bélier, le lion et le sagittaire, au feu; les 
+                            gémeaux, la balance et le verseau à l'air; le cancer, le scorpion et les poissons, à l'eau; le taureau,
+                            la vierge et le capricorne, à la terre.
+                        </p>
+                        <p>
+                            Le nombre cinq est consacré à Mercure, dit Tycho Brahé, et n'est pas moins mystérieux que ceux qui le 
+                            précédent. On y voit l'eau, l'air, le feu et la terre dont est composé tout mixte qui fait un cinquieme 
+                            tout abrégé des quatre.
+                        </p>
+                        <p>
+                            Cinq sens: la vue, l'ouie, l'odorat, le goût et le toucher.
+                        </p>
+                        <p>
+                            Cinq genres de mixtes: les pierres, les métaux, les plantes, les zoophites et les animaux.
+                        </p>
+                        <p>
+                            Cinq sortes d'animaux: les hommes, les quadrupedes, les reptiles, les poissons et les oiseaux.
+                        </p>
+                        <p>
+                            Cinq extrêmités communes aux animaux mâles et femelles: la tête, les deux bras et les deux pieds.
+                        </p>
+                        <p>
+                            Cinq doigts à chaque pied et à chaque main de l'homme.
+                        </p>
+                        <p>
+                            Cinq parties principales dans l'intérieur du corps: le cœur, le cerveau, le poulmon, le foie et la rate.
+                        </p>
+                        <p>
+                            Cinq parties dans les plantes: la racine, la tige, les feuilles, la fleur et la semence.
+                        </p>
+                        <p>
+                            La nature a comme reçu sa derniere perfection, par le nombre six; car le monde a été achevé le sixieme 
+                            jour de la création; et ce jour-là, Dieu regarda tout ce qu'il avoit fait, et tout étoit parfaitement bon.
+                        </p>
+                        <p>
+                            Il y a six cercles imaginés dans le ciel: l'arctique, l'antarctique, les deux tropiques, l'équinoctial 
+                            et l'écliptique.
+                        </p>
+                        <p>
+                            Six planetes errantes: Saturne, Jupiter, Mars, Venus, Mercure et la Lune.
+                        </p>
+                        <p>
+                            Il y a six manieres d'êtres ou modes des corps: la grandeur, la couleur, la figure, la position relative, 
+                            le repos et le mouvement.
+                        </p>
+                        <p>
+                            Le cube a six faces.
+                        </p>
+                        <p>
+                            Six degrés de l'homme: l'entendement, la mémoire, le sentiment, le mouvement, la vie et l'animalité.
+                        </p>
+                        <p>
+                            Six parties principales extérieures dans la tête de l'homme et des autres animaux: deux yeux, deux 
+                            oreilles, le nez et la bouche.
+                        </p>
+                        <p>
+                            Mais la nature semble se plaire au nombre sept plus qu'en tout autre, et les pythagoriciens, qui le 
+                            regardoient comme le nombre le plus mystérieux, l'appelloient en conséquence, la voiture de la vie 
+                            humaine. La vertu de ce nombre, disoient-ils, se manifeste dans toutes les générations de la nature, 
+                            et sert particulierement pour la génération de la nature humaine. Elle sert à le composer, à le faire 
+                            concevoir, à le former, à l'enfanter, à le nourrir et à le faire vivre. Aristote dit qu'il y a sept 
+                            cellules dans la matrice, si la semence y demeure sept heures, la conception se fait, les premiers 
+                            sept jours elle devient propre à recevoir la figure humaine; l'enfant est parfait, naît et vit quand 
+                            il vient au monde à sept mois; après sept jours, il jette le superflu de son nombril; après deux fois 
+                            sept jours, ses yeux se tournent du côté de la lumiere; c'est pourquoi les nourrices doivent avoir 
+                            grand soin de placer toujours l'enfant de maniere, qu'il puisse voir la lumiere directement: ce défaut 
+                            d'attention fait beaucoup d'enfans louches; après sept mois, les dents commencent à lui pousser; après 
+                            le troisieme septenaire, il commence à parler; à sept ans, les dents lui tombent; au second septenaire 
+                            d'années, il commence à avoir la faculté générative; au troisieme septenaire, il se fortifie et prend 
+                            à peu près tout son accroissement; au quatrieme, il est homme parfait; au septieme, il commence à 
+                            décliner, et la septieme dixaine est ordinairement à peu près le terme de sa vie, comme le dit le roi 
+                            David.
+                        </p>
+                        <p>
+                            La plus haute taille de l'homme est communément de sept pieds.
+                        </p>
+                        <p>
+                            Dans le grand monde il y a sept planetes, sept pleyades, sept jours de la semaine. A chaque sept jours,
+                            la lune change de quartiers.
+                        </p>
+                        <p>
+                            Le flux et le reflux de la mer est plus sensible le septieme jour de la lune et à chaque septenaire. 
+                            On ne finiroit pas, si l'on vouloit rapporter ici, tout ce qui se fait par sept dans la nature. On peut
+                            voir dans l'Ecriture-sainte, combien ce nombre de sept étoit mystérieux. Tout sembloit y aller par sept
+                            ; les prieres, les fêtes, les purifications, etc. sept vaches maigres et sept grasses, sept épis de 
+                            bled, sept plaies de l'Egypte, sept ans de famine; Naaman lavé sept fois dans le Jourdain, David loue 
+                            sept fois Dieu dans la journée, sept dons du S. Esprit, etc. Le reste de la carte de Tycho Brahé, 
+                            regarde plus particulierement les planetes et les signes du zodiaque, avec leurs vertus et propriétés 
+                            cabalistiques; c'est pourquoi je le passe sous silence.
+                        </p>
+                    </entry>
+                    </rdg>
+                </app> 
             </div>
         </body>
     </text>
