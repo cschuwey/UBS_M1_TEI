@@ -6,7 +6,7 @@
              <title>Enfer</title>
             </titleStmt>
              <publicationStmt>
-             <adress>UBS</adress>
+             <address>UBS</address>
              <publisher>Mendrika Soahanta ANDRIAMAHEFASON</publisher>
              <date when="2026">2026</date>
             </publicationStmt>
@@ -15,13 +15,17 @@
                  <title level="a">Enfer</title>
                  <title level="m">Encyclopédie, ou Dictionnaire raisonné des sciences,des arts et des métiers</title>
                  <note type="domaine">Théologie</note>
-                 <date when="1755">1755</date>
+                 <date when="1755">XVIIIe siècle</date>
                  <biblScope unit="volume" n="5">V</biblScope>
                 <biblScope unit="page">665b–670a</biblScope>
                 <editor>Denis Diderot</editor> 
                 <editor>Jean le Rond D'Alembert</editor>
                 <editor>Enccre
                 <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1283-0/">article « Enfer ».</link>
+                <listWit>
+                 <witness xml:id="V1">Première version de la notice encyclopédique correspondant à la versionn Enccre.</witness>
+                 <witness xml:id="V2">Deuxième version de la notice encyclopédique correspondant à l'Encyclopédie d'Yverdon.</witness>
+                 </listWit>
                 </editor>
                </bibl>
             </sourceDesc>
@@ -36,26 +40,51 @@
                <p>Aucune correction éditoriale n’a été apportée au texte. Les éventuelles erreurs présentes dans la source sont conservées.</p>
                </correction>
                <samplingDecl>
-               <p>Le fichier actuel ne contient qu’une partie de l’article « Enfer ». La transcription comprend les paragraphes 1 à 15. Le reste de l'article n'a pas encore été encodé.</p>
+               <p>L'article entier issu de Enccr a été ajouté. Tous les passages issus de la 2e notice n'ont pas encore été ajoutés.</p>
                </samplingDecl>
+               <p>Les paragraphes de l’article sont encodés avec l’élément <gi>p</gi> afin de préserver la structure en paragraphes de la source. 
+               Les indications grammaticales, telles que « s. m. », et les indications de domaine, 
+               telles que « Théologie », sont identifiées dans le texte avec l’élément seg et un attribut type qui précise leur catégorie.</p>
+               <p>Pour l'encodage de la deuxième notice, j'ai choisi <gi>wit</gi> parce que les deux versions de la notice constituent deux témoins textuels distincts. 
+               Les deux articles sont très différents.</p> 
+               <p>J'ai préféré choisir lem/rdg : étant donné que nous avons commencé le travail avec la version Enccr, je l'ai considérée comme version de base. 
+               La version de l'encyclopédie d'Yverdon est donc considéré comme une variante. 
+               Cependant, par ce choix je ne veux pas dire qu'un article est meilleur ou supérieur que l'autre.</p>
+               <p>Les éléments <gi>head</gi> introduits dans les divisions <gi>div</gi> incluant les éléments <gi>app</gi> sont des ajouts éditoriaux
+               utilisés pour préciser la thématique des rapprochements établis entre les deux versions des notices. Ils ne figurent
+               pas dans les textes originaux.</p>
+               <p>Les segments de comparaison ont été établis selon une logique thématique plutôt que sur la base d'une correspondance 
+               stricte entre les paragraphes des deux notices, car ces dernières présentent des structures et des développements vraiment différents. 
+               L'objectif est de mettre en évidence la manière dont chacune aborde et développe des thèmes communs, malgré leurs différences de contenu et d'organisation.
+               Pour cette même raison, certains passages de la deuxième notice peuvent se répéter au niveau des différentes comparaisons car un même développement 
+               peut se rapporter à plusieurs thèmes abordés dans la première notice, sans nécessairement correspondre à un paragraphe unique.</p>
+               <p>Les éléments <gi>div</gi> de type "extrait" permettent de distinguer les différents passages discontinus de la deuxième notice 
+               regroupés au sein d'une même unité de comparaison.</p>
              </editorialDesc>
             </encodingDesc>
             <revisionDesc>
+             <change when="2026-10-31">
+             <p>Quelques corrections liées aux erreurs de validation.</p>
+             <p>Modification de l'encodage dans son état T5 : ajout du texte la deuxième notice, ainsi que le reste du premier article.</p>
+             </change>
              <change when="2026-10-23">
-              <p>Ajout d'entrées pour revisionDesc et encodingDesc dans le teiHeader conformément aux consignes du T4 sur Moodle.</p>
+              <p>Ajout d'entrées pour revisionDesc et encodingDesc dans le teiHeader conformément aux consignes du T4 sur Moodle. Enccre toujours pas accessible. L'article demeure incomplet.</p>
              </change>
               <change when="2026-10-19">
               <p>Finalisation de la première version d'encodage et dépôt de cette version sur Github pour le cours qui était prévu <date when="2026-10-13">mardi</date>.</p>
              </change>
              <change when="2026-10-18">
-                <p>Création du fichier TEI et encodage de l’article « Enfer ».</p>
+                <p>Création du fichier TEI et encodage partiel de l’article « Enfer ».</p>
              </change>
             </revisionDesc>
         </fileDesc>
     </teiHeader>
     <text xml:lang="fr">
         <body>
-            <p n="1">1 <entry rend="caps">Enfer</entry>, <gramGrp>s. m.</gramGrp> (<sense type="désignant" rend="italic">Théologie</sense>.)​1​ lieu de tourmens 
+            <div type="comparaison>"><head>Sens et définition du terme enfer </head>
+            <app>
+            <lem wit="V1">
+            <p n="1">1 <hi rend="caps">Enfer</hi>, <seg type="grammaire">s. m.</seg> (<seg type="domaine" rend="italic">Théologie</seg>.)​1​ lieu de tourmens 
              où les méchans subiront après cette vie la punition dûe à leurs crimes.
             </p>
             <p n="2">2 Dans ce sens le mot d’<hi rend="italic">enfer</hi> est opposé à celui de ciel ou paradis. 
@@ -63,18 +92,37 @@
             <ref target="caps" url="https://enccre.academie-sciences.fr/encyclopedie/article/v3-911-0/">Ciel</ref> &amp; 
             <ref target="caps" ulr="https://enccre.academie-sciences.fr/encyclopedie/article/v11-2667-0/">Paradis</ref></xr>. 
             </p>
-            <p n="3">3 Les <person type="collective" xml:id="group_payens">Payens</person> avoient donné à l’<hi rend="italic">enfer</hi> les noms de <foreign xml:lanf="latin" rend="italic">tartarus</foreign> ou <foreign rend="italic" xml:lang="latin">tartara</foreign>, <foreign xml:lang="latin" rend="italic">hades</foreign>, 
-            <foreign rend="italic" xml:lang="latin">infernus</foreign>, <foreign rend="italic" xml:lang="latin">inferna</foreign>, <foreign rend="italic" xml:lang="latin">inferi</foreign>, <foreign rend="italic" xml:lang="latin">orcus</foreign>, &amp;c. 
+            </lem>
+            <rdg wit="#V2">
+            <p>ENFER ou ENFERS, (R), s.m., Critique, Théol. Ce terme désignoit autrefois, conformément à son étymologie, Inferi, 
+            un lieu bas, un vaste souterrain où l'on supposoit que descendoient les ames des hommes après la mort: 
+            c'étoit le lieu, la demeure, la région des morts, où tous les hommes tant les bons que les méchants, étoient reçus au sortir de cette vie.</p>
+            </rdg>
+            </app>
+            </div>
+            <p n="3">3 Les <person type="collective" xml:id="group_payens">Payens</person> avoient donné à l’<hi rend="italic">enfer</hi> 
+            les noms de <foreign xml:lang="latin" rend="italic">tartarus</foreign> ou <foreign rend="italic" xml:lang="latin">tartara</foreign>, 
+            <foreign xml:lang="latin" rend="italic">hades</foreign>, 
+            <foreign rend="italic" xml:lang="latin">infernus</foreign>, <foreign rend="italic" xml:lang="latin">inferna</foreign>, 
+            <foreign rend="italic" xml:lang="latin">inferi</foreign>, <foreign rend="italic" xml:lang="latin">orcus</foreign>, &amp;c. 
             </p>
-            <p n="4">4 Les <person type="collective" xml:id="group_juifs">Juifs</person> n’ayant point exactement de nom propre pour exprimer l’<hi rend="italic">enfer</hi> dans le sens où nous venons de le définir 
-            (car le mot hébreu <foreign rend="italic" xml:lang="hebreu">scheol</foreign> se prend indifféremment pour le lieu de la sépulture, &amp; pour le lieu de supplice réservé aux réprouvés), 
-            ils lui ont donné le nom de <placeName rend="italic">Gehenna</placeName> ou <placeName rend="italic">Gehinnon</placeName>, vallée près de Jérusalem, dans laquelle étoit un <foreign rend="italic">tophet</foreign> ou place 
+            <p n="4">4 Les <person type="collective" xml:id="group_juifs">Juifs</person> n’ayant point exactement de nom propre pour 
+            exprimer l’<hi rend="italic">enfer</hi> dans le sens où nous venons de le définir 
+            (car le mot hébreu <foreign rend="italic" xml:lang="hebreu">scheol</foreign> se prend indifféremment pour le lieu de la sépulture, 
+            &amp; pour le lieu de supplice réservé aux réprouvés), 
+            ils lui ont donné le nom de <placeName rend="italic">Gehenna</placeName> ou <placeName rend="italic">Gehinnon</placeName>, 
+            vallée près de Jérusalem, dans laquelle étoit un <foreign rend="italic">tophet</foreign> ou place 
             où l’on entretenoit un feu perpétuel allumé par le fanatisme pour immoler des enfans à Moloch. 
             De-là vient que dans le nouveau Testament l’enfer est souvent désigné par ces mots <foreign xml:lang="latin" rend="italic">Gehenna ignis</foreign>.
             </p>
-            <p n="5">5 Les principales questions qu’on peut former sur l’<hi rend="italic">enfer</hi> se réduisent à ces trois points : son existence, sa localité, &amp; l’éternité des peines 
+            <p n="5">5 Les principales questions qu’on peut former sur l’<hi rend="italic">enfer</hi> se réduisent à ces trois points : 
+            son existence, sa localité, &amp; l’éternité des peines 
             qu’y souffrent les réprouvés. Nous allons les examiner séparément. 
             </p>
+            <div type="comparaison">
+            <head>La connaissance d'un état après la mort chez les anciens Hébreux.</head>
+           <app>
+           <lem wit="#V1">
             <p n="6">6 1°. Si les anciens <person type="collective" xml:id="group_hébreux">Hébreux</person> n’ont pas eu de terme propre pour exprimer l’<hi rend="italic">enfer</hi>, ils n’en ont pas moins reconnu la réalité. 
             Les auteurs inspirés en ont peint les tourmens avec les couleurs les plus terribles : <person type="individual" xml:id="moyse">Moyse</person>, dans le <bibleRef><book>Deutéronome</book>, <chapter n="31" rend="italic">chap. xxxij</chapter>. <verse n="22" rend="italic">vers. 22</verse></bibleRef>. menace 
             les <person type="collective" xml:id="group_israëlites">Israëlites</person> infideles, &amp; leur dit au nom du Seigneur : <quote rend="italic">Un feu s’est allumé dans ma fureur, &amp; il brûlera jusqu’au fond de l’enfer ; il dévorera 
@@ -87,25 +135,112 @@
             c’est-à-dire, comme porte l’Hébreu, <translation rend="italic">ils seront un sujet de dégoût à toute chair</translation>, 
             tant leurs corps seront horriblement défigurés par les tourmens. 
             </p>
+            </lem>
+            <rdg wit="#V2">
+            <p>Mais si ce ne sont là que des probabilités, les livres sacrés fournissent des preuves plus directes. 
+            Nous les rassemblerons ici en suivant l'ordre des tems jusques à la captivité de Babylone.</p>
+            <p>I°. A la création, l'homme est distingué de tous les autres animaux, dont il est dit qu'ils sortirent de la terre par le commandement de Dieu. 
+            Dieu prêt à le former, est représenté comme prenant conseil, pour marquer qu'il alloit exécuter un ouvrage superieur 
+            à tous les autres en dignité et en excellence. Dieu ajoute que ce chef-d'œuvre devoit ressembler, 
+            non aux êtres terrestres qu'il venoit de former, mais qu'il devoit porter l'image de son Créateur et avoir sa ressemblance: 
+            ce qui suppose l'entendement, la volonté, la spiritualité, l'immortalité. Habent illas ubique lineas Dei, quâ immortalis anima, 
+            quâ libera et sui arbitrii, quâ præscia plerumque, quâ rationalis, capax intellectûs et scientiæ. Tertul. lib. II. contra Marcian. cap. jx. 
+            Car cette ressemblance ne sauroit consister dans le corps, qui ressembloit non à Dieu, mais à la terre, ayant été formé de la poudre, 
+            comme Moyse le dit; mais elle doit consister dans quelque chose de totalement différent, dans ce souffle ou cet esprit de vie que Dieu lui donna, 
+            ensorte qu'il devint capable non-seulement de respirer et de se mouvoir, comme les bêtes dont l'ame est dans le sang, 
+            mais encore de penser, de raisonner, de parler. Ainsi Moyse ayant voulu jetter les fondemens de la religion, 
+            fait connoître le Créateur et nous apprend que l'homme est composé de deux substances, d'un corps tiré de la terre, 
+            et d'une ame qui vient immédiatement de Dieu, Gen. ch. I. v. II.</p>
+            <p>2°. Ce qui est dit d'Abel, Gen. IV. que Dieu eut égard à son oblation, suppose et prouve évidemment un état de récompense après la mort, 
+            puisque sans cela, l'approbation divine n'auroit servi qu'à le faire assassiner par son frere Caïn.</p>
+            <p>3°. Moyse, Gen. V. dit d'Enoc, que s'étant distingué par sa pieté, il ne parut plus, et que Dieu le prit, 
+            l'ayant transporté, dit S. Paul, pour ne point voir la mort. Elie fut élevé au ciel, II Rois II. 
+            Tout cela ne prouve-t-il pas que la créance d'un état à-venir, étoit reçue parmi les Juifs?</p>
+            <p>4°. C'est ce que prouvent encore leur attachement à la nécromancie et à l'évocation des morts, 
+            et les loix de Moyse contre cette superstition, Lev. XVIII. II. XIX. 3. XX. 6. 7. Deut. XVIII. I0. I Sam. XXV. I. XXVIII. 8. Isaïe VIII. I9.</p>
+            <p>5°. On voit que du tems des patriarches et de Moyse on parloit du sheol, comme les Grecs parloient de l'adès et 
+            comme les Latins de l'infernus ou de l'infernus. Jacob en disant que jamais il ne se consoleroit de la perte de son fils, 
+            jusqu'à ce qu'il allât le joindre dans le sheol ou l'adès, ne vouloit pas parler du sépulcre, mais en général du lieu des morts, 
+            puisqu'il croyoit que ce fils chéri n'avoit pas été enseveli, mais qu'il avoit été dévoré par une bête sauvage.</p>
+            <p>6°. Moyse en disant que Dieu étoit le Dieu des patriarches, même après leur mort, ne fait-il pas évidemment connoître 
+            qu'ils jouissoient alors d'un bonheur particulier, et que s'ils étoient morts par rapport à nous, ils étoient vivans 
+            par rapport à Dieu? Pendant leur vie mortelle, leurs jours, comme dit Jacob de lui-même, avoient été courts et mauvais; 
+            il ne leur étoit donc arrivé aucun bonheur particulier, qui pût remplir toute l'étendue de cette magnifique promesse, 
+            et par conséquent il falloit qu'elle fût accomplie dans une vie à-venir.</p>
+            <p>7°. Il paroît que le terme de sheol comme celui d'adès, sert à désigner quelquefois un état de repos et 
+            de tranquillité, et quelquefois un état de souffrance, Ps. LXXXVI. I3. LXXXVIII. 4. 7. 8.</p>
+            <p>8°. Job paroît espérer un bonheur après la mort. “Voilà, dit-il, qu'il me tue, je ne laisserai pas d'espérer en lui”. Job, XIII. I5. XIX. 25. etc.</p>
+            <p>9°. David appelle les bêtes, des animaux qui périssent, par opposition aux hommes, Ps. XLIX. 2I. Il dit au Ps. XVI. 
+            que Dieu ne laisseroit point son ame dans le sheol, l'adès, et il ajoute qu'il jouïroit ensuite d'un bonheur éternel 
+            auprès de Dieu, et il fait de cette pensée la plus douce de ses consolations.</p>
+            <p>I0°. Salomon assure que le juste trouve une retribution certaine, même après sa mort, Prov. XIV. 32. 
+            Que le corps retourne dans la terre d'où il a été tiré, mais que l'esprit retourne à Dieu qui l'a donné, Ecclés. XII. 9.</p>
+            </rdg>
+            </app>
+            </div>
+            <div type="comparaison">
+            <app>
+            <head>Témoignages scripturaires sur les peines de l'au-delà</head>
+            <lem wit="V1">
             <p n="7">7 Ces autorités suffisent pour fermer la bouche à ceux qui prétendent que les anciens <person type="collective" who="#group_hébreux">Hébreux</person> n’ont eu nulle connoissance des châtimens de la vie future, 
             parce que <person type="individual" who="#moyse">Moyse</person> ne les menace ordinairement que de peines temporelles. Les textes que nous venons de citer énoncent clairement des punitions 
             qui ne doivent s’infliger qu’après la mort. Ce qu’on objecte encore, que les écrivains sacrés ont emprunté ces idées des poëtes grecs, n’a nul fondement : 
-            Moyse est de plusieurs siecles antérieur à <author xml:id="homere">Homere</author>. Soit que Job ait été contemporain de <person type="individual" who="#moyse">Moyse</person>, ou que son livre ait été écrit par <person type="individual" xml:id="salomon">Salomon</person>, 
+            Moyse est de plusieurs siecles antérieur à <author xml:id="homere">Homere</author>. Soit que Job ait été contemporain de <person type="individual" who="#moyse">Moyse</person>, 
+            ou que son livre ait été écrit par <person type="individual" xml:id="salomon">Salomon</person>, 
             comme le prétendent quelques critiques, il auroit vêcu, vers le tems du siege de Troye, qu’Homere n’a décrit que quatre cents ans après. 
             Isaïe, à la vérité, étoit à-peu-près contemporain d’Hésiode &amp; d’<author who="#homere">Homere</author> ; mais quelle connoissance a-t-il eu de leurs écrits,
             dont les derniers sur-tout n’ont été recueillis que par les soins de Pisistrate, 
             c’est-à-dire fort long-tems après la mort du poëte grec, &amp; celle du prophete qu’on suppose avoir été le copiste d’<author who="#homere">Homere</author>.
             </p>
-            <p n="8">8 Il est vrai que les <person type="collective" xml:id="group_esseniens">Esseniens</person>, les Pharisiens, &amp; les autres sectes qui s’éleverent parmi les <person type="collective" who="#group_juifs">Juifs</person> depuis le retour 
-            de la captivité, &amp; qui depuis les conquêtes d’Alexandre avoient eu commerce avec les <person type="collective" xml:id="group_grecs">Grecs</person>, 
-            mêlerent leurs opinions particulieres aux idées simples qu’avoient eu les anciens <person type="collective" who="#group_hébreux">Hébreux</person> sur les peines de l’enfer. 
-            <quote>« Les <person type="collective" who="#group_esseniens">Esseniens</person>,</quote> dit <speaker xml:id="joseph">Joseph</speaker> dans son <citation rend="italic"><title>Hist. de la guerre des Juifs</title>, <volume n="2">liv. II.</volume> <chapter n="11">chap. xij.</chapter></citation> <quote>tiennent que l’ame est immortelle, &amp; qu’aussi-tôt qu’elle est 
-            sortie du corps, elle s’éleve pleine de joie vers le ciel, comme étant dégagée d’une longue servitude &amp; délivrée des liens de la chair. 
-            Les ames des justes vont au-delà de l’Océan, dans un lieu de repos &amp; de délices, où elles ne sont troublées par aucune incommodité ni dérangement des saisons. 
-            Celles des méchans au contraire sont reléguées dans des lieux exposés à toutes les injures de l’air, où elles souffrent des tourmens éternels. 
-            Les E<person type="collective" who="#group_esseniens">sseniens</person> ont sur ces tourmens à peu-près les mêmes idées que les poëtes nous donnent du Tartare &amp; du royaume de Pluton ».</quote> <xr type="renvoi encyclopédique">Voyez <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1994-0/">Esseniens</ref></xr>. 
+            </lem>
+            <rdg wit="#V2">
+            <p>Mais, dit-on, si ce dogme de l'immortalité de l'ame et d'un état à-venir étoit connu, pourquoi Moyse et les prophétes employent-ils 
+            toujours des promesses et des ménaces temporelles pour ramener les Juifs à leur devoir?
+            On a répondu que Moyse ne néglige pas les motifs plus relevés. Outre les passages et les exemples indiqués ci-dessus, 
+            ils alléguent les promesses qu'il fait, que si l'homme accomplit les loix divines, il vivra par elles: ce que S. Paul entend de la vie à-venir, 
+            Rom. X. 5. Gal. III. I2.</p>
+            <p>En second lieu, on a observé que ces objets étant prochains et sensibles, devoient faire plus d'impression. 
+            Ainsi quand les prédicateurs voyent le pays ménacé de la guerre, de la famine, etc. ils profitent de ces circonstances 
+            pour réveiller la conscience des pécheurs, par ces motifs sensibles et personnels, plutôt que par la crainte de l'autre vie. 
+            Moyse, en particulier, dit-on, devoit employer ce motif, pour relever le courage d'un peuple abattu par l'esclavage, 
+            et pour lui faire affronter les dangers où il alloit s'exposer, en attaquant des nations courageuses et aguerries; 
+            méthode qui convenoit d'autant mieux dans les siecles suivans, que les Juifs avoient pour leur patrie un attachement excessif, 
+            et un amour qu'ils poussoient jusqu'à l'enthousiasme. Ovide en parlant de tous les peuples dit:</p>
+            <p>
+            <lg>
+            <l>Nescio quâ, natale solum, dulcedine cunctos</l>
+            <l>Trahit et immemores non sinit esse sui.</l>
+            </lg>
             </p>
-            <p n="9">9 <speaker who="#joseph">Le même auteur</speaker>, dans ses <citation rend="italic"><title>antiquités judaïques</title>, <volume n="18">liv. XVIII</volume>. <chapter n="1">chap. ij</chapter></citation>. dit <quote>« que les Pharisiens croyent aussi les ames immortelles, 
+            <p>Mais David éprouve et exprime bien plus fortement ce sentiment. Voyez entr'autres le Ps. CXXXVII. Il ne faut donc pas s'étonner 
+            si leurs prédicateurs ramenent si souvent un motif si propre à les toucher.</p>
+            <p>De tout cela il paroît que Warburton a beaucoup exageré, en disant, que non-seulement Moyse n'a point révélé les peines 
+            et les récompenses d'une autre vie, mais qu'il a même évité soigneusement de faire mention d'aucun dogme qui pût conduire à celui-là. 
+            Mais en voilà assez sur les idées que les anciens Juifs avoient de l'immortalité de l'ame et de son état après la mort.</p>
+            </rdg>
+            </app>
+            </div>
+            <div type="comparaison"><head>Conceptions de l'au-delà des anciens courants religieux du judaïsme</head>
+            <app>
+            <lem wit="#V1">
+            <p n="8">8 Il est vrai que les <person type="collective" xml:id="group_esseniens">Esseniens</person>, les Pharisiens, &amp; les autres sectes 
+            qui s’éleverent parmi les <person type="collective" who="#group_juifs">Juifs</person> depuis le retour 
+            de la captivité, &amp; qui depuis les conquêtes d’Alexandre avoient eu commerce avec les <person type="collective" xml:id="group_grecs">Grecs</person>, 
+            mêlerent leurs opinions particulieres aux idées simples qu’avoient eu les anciens <person type="collective" who="#group_hébreux">Hébreux</person> s
+            ur les peines de l’enfer. 
+            <quote>« Les <person type="collective" who="#group_esseniens">Esseniens</person>,</quote> dit <speaker xml:id="joseph">Joseph</speaker> 
+            dans son <citation rend="italic"><title>Hist. de la guerre des Juifs</title>, 
+            <volume n="2">liv. II.</volume> <chapter n="11">chap. xij.</chapter></citation> <quote>tiennent que l’ame est immortelle, 
+            &amp; qu’aussi-tôt qu’elle est 
+            sortie du corps, elle s’éleve pleine de joie vers le ciel, comme étant dégagée d’une longue servitude &amp; délivrée des liens de la chair. 
+            Les ames des justes vont au-delà de l’Océan, dans un lieu de repos &amp; de délices, où elles ne sont troublées par aucune incommodité ni 
+            dérangement des saisons. 
+            Celles des méchans au contraire sont reléguées dans des lieux exposés à toutes les injures de l’air, où elles souffrent des tourmens éternels. 
+            Les E<person type="collective" who="#group_esseniens">sseniens</person> ont sur ces tourmens à peu-près les mêmes idées que les poëtes 
+            nous donnent du Tartare &amp; du royaume de Pluton ».</quote> <xr type="renvoi encyclopédique">Voyez <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1994-0/">Esseniens</ref></xr>. 
+            </p>
+            <p n="9">9 <speaker who="#joseph">Le même auteur</speaker>, dans ses <citation rend="italic"><title>antiquités judaïques</title>, 
+            <volume n="18">liv. XVIII</volume>. <chapter n="1">chap. ij</chapter></citation>. dit <quote>« que les Pharisiens croyent aussi les ames immortelles, 
             &amp; qu’après la mort du corps celles des bons joüissent de la félicité, &amp; peuvent aisément retourner dans le monde animer d’autres corps ; 
             mais que celles des méchans sont condamnées à des peines qui ne finiront jamais. »</quote> <xr type="renvoi encyclopédique">Voyez <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v12-1156-0/">Pharisiens</ref></xr>. 
             </p>
@@ -117,8 +252,39 @@
             de leur supplice ; il semble même le borner au passage que les ames font d’un corps dans un autre, où elles ont souvent beaucoup de maux à endurer, 
             de privations à souffrir, &amp; de confusion à essuyer : ce qui approche fort de la métempsycose de Pythagore. <xr type="renvoi encyclopédique">Voyez <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1183-0/">Métempsycose</ref></xr>.
             </p>
-            <p n="11">11 Les Sadducéens qui nioient l’immortalité de l’ame, ne reconnoissoient par conséquent ni récompen-​ses ni peines pour la vie future. <xr type="renvoi encyclopédique">V. <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v14-1742-0/">Sadducéens</ref></xr>.
+            <p n="11">11 Les Sadducéens qui nioient l’immortalité de l’ame, ne reconnoissoient par conséquent ni récompen-​ses ni peines pour la vie future. 
+            <xr type="renvoi encyclopédique">V. <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v14-1742-0/">Sadducéens</ref></xr>.
             </p>
+            </lem>
+            <rdg wit="#V2">
+            <p>Quelques savans en ont pris occasion de mettre en doute, si les anciens Juifs admettoient l'immortalité de l'ame et un état de récompense après cette vie. 
+            La question mérite d'être examinée en détail.</p>
+            <p>Luc de Bruges en particulier, assure que les anciens Juifs étoient fort ignorans sur ces matieres. Ils ne pensoient, suivant lui, 
+            qu'aux peines et aux récompenses de la vie présente. Ce ne fut, dit-il, que pendant leur captivité à Babylone et par le commerce qu'ils 
+            eurent ensuite avec les Grecs, depuis les conquêtes d'Alexandre, qu'ils commencerent à parler positivement d'un état à venir, 
+            et que leurs docteurs furent partagés sur cette matiere: ce qui forma la secte des Saducéens.</p>
+            <p>La plupart des peres de l'église et plusieurs théologiens prétendent au contraire, que les Payens ont emprunté des Juifs et de Moyse le fond 
+            de leur doctrine sur cet article, comme sur plusieurs autres.</p>
+            <p>Le plus grand nombre des docteurs modernes tiennent le milieu entre ces deux extrêmes. Suivant eux, ni les Juifs, 
+            ni les Payens n'ont point emprunté ce dogme les uns des autres. Il découloit si nécessairement de l'idée d'un Dieu qui 
+            aime la vertu et qui haït le vice, il étoit si nécessaire pour contenir les méchans et pour encourager les gens de bien, 
+            qu'il a naturellement dû venir dans l'esprit de tous les peuples. On le voit en effet adopté parmi toutes les nations civilisées, 
+            quoique par-tout et de tout tems il y a eu des incrédules qui ont dit, mangeons et buvons, car demain nous mourrons.</p>
+            <p>Et pour ne parler que des Juifs, ils ont, depuis leur origine, reconnu la moralité des actions, la sainteté et la justice de Dieu: 
+            ils ont vû parmi eux des méchans qui prospéroient et des gens de bien qui étoient opprimés; seroit-il donc possible qu'ils n'en eussent 
+            pas conclu qu'il y a après cette vie en état, un lieu de retribution.?</p>
+            <p>Ils ont, dit-on, apporté ce dogme de Perse. Mais on ne voit pas la moindre conformité entre les Juifs et les Persans, 
+            sur la maniere d'envisager cet état à venir; et si leurs expressions ont beaucoup de ressemblance avec celles des Grecs, 
+            c'est parce que leurs idées ayant plus de rapport, ils ont pu les habiller de la même façon.</p>
+            <p>Je dis plus: il paroît que les patriarches, Moyse, les prophêtes, ont cru l'immortalité de l'ame, et que ce dogme étoit ancien dans l'église judaïque. 
+            Le terme de sheol répond exactement à celui d'adès, comme nous l'avons observé ci-dessus, et signifie non-seulement le sepulcre et en général la mort, 
+            mais aussi l'état des ames après la mort. C'est le mot keber qui signifie proprement le sepulcre. 
+            Et si l'on vouloit absolument qu'ils eussent tiré leurs idées sur un état à-venir d'ailleurs que de leurs propres réflexions, 
+            il seroit naturel de supposer qu'ils les avoient puisées des Caldéens de qui ils descendoient, et des Egyptiens chez qui ils avoient long-tems habité; 
+            puisque les uns et les autres admettoient ces principes, comme ils avoient pris de ces derniers, à ce qu'on prétend, leur circoncision et leur bouc Azazel.</p>
+            </rdg>
+            </app>
+            </div>
             <p n="12">12 L’existence de l’<hi rend="italic">enfer</hi> &amp; des supplices éternels est attestée presque à chaque page du nouveau Testament. 
             La sentence que <person type="individual" xml:id="jesus_christ">Jesus-Christ</person> prononcera contre les reprouvés au Jugement dernier, est concûe en ces termes : <bibleRef><book>Matth</book>. <chapter n="25">XXV</chapter>. <verse n="34">v. 34</verse></bibleRef>. 
             Ite maledicti in ignem æternum qui paratus est diabolo &amp; angelis ejus. Il représente perpétuellement l’enfer comme un lieu ténébreux 
@@ -145,6 +311,257 @@
              </lg>
             <xr rend="italic" type="renvoi encyclopédique">Voyez Enfer, (Mythologie.)</xr>
             </p>
+            <p>Les <person type = "collective" xml:id="group_tamuldistes">Talmudistes</person>, dont la croyance n’est qu’un amas ridicule de superstitions, 
+            distinguent trois ordres de personnes qui paroîtront au jugement dernier. 
+            Le premier, des justes ; le second, des méchans ; &amp; le troisieme, de ceux qui sont dans un état mitoyen, 
+            c’est-à-dire, qui ne sont ni tout-à-fait justes ni tout-à-fait impies. Les justes seront aussi-tôt destinés à la vie éternelle, 
+            &amp; les méchans au malheur de la gêne ou de l’enfer. Les mitoyens, tant <person who="#group_juifs">Juifs</person> que <person type ="collective" xml:id="group_gentils">Gentils</person>, descendront dans l’enfer avec leurs corps,
+            &amp; ils pleureront pendant douze mois, montant &amp; descendant, allant à leurs corps &amp; retournant en <hi rend="italic">enfer</hi>. Après ce terme, leurs corps seront consumés 
+            &amp; leurs ames brûlées, &amp; le vent les dispersera sous les piés des justes : mais les hérétiques, les athées, les tyrans qui ont desolé la terre, 
+            ceux qui engagent les peuples dans le péché, seront punis dans l’enfer pendant les siecles des siecles. Les rabbins ajoûtent que tous les ans
+            au premier jour de Tirsi, qui est le premier jour de l’année judaïque, Dieu fait une espece de révision de ses registres, 
+            ou un examen du nombre &amp; de l’état des ames qui sont en <hi rend="italic">enfer</hi>. Talmud in Gemar. Tract. Rosch. haschana c. j. fol. 16.
+            </p>
+            <p n="17">17 Les Musulmans ont emprunté des Juifs &amp; des Chrétiens, le nom de gehennem ou gehim, pour signifier l’enfer. Gehenem, en arabe, 
+            signifie un puits très-profond ; &amp; gehim, un homme laid &amp; difforme ; ben gehennem, un fils de l’enfer, un réprouvé. 
+            Ils donnent le nom de thabeck à l’ange qui préside à l’enfer. D’Herbelot, Biblioth. orient. au mot Gehennem.​​</p>
+           <p n="18">18 Selon l’alcoran, au chap. de la priere, les Mahométans reconnoissent sept portes de l’enfer, ou sept degrés de peines ; 
+           c’est aussi le sentiment de plusieurs commentateurs de l’alcoran, qui mettent au premier degré de peine, nommé gehennem, 
+           les Musulmans qui auront mérité d’y tomber ; le second degré, nommé ladha, est pour les Chrétiens ; 
+           le troisieme, appellé hothama, pour les Juifs ; le quatrieme, nommé saïr, est destiné aux Sabiens ; 
+           le cinquieme, nommé sacar, est pour les mages ou Guebres, adorateurs du feu ; le sixieme, appellé gehim, 
+           pour les Payens &amp; les Idolatres ; le septieme, qui est le plus profond de l’abysme, porte le nom de haoviath ; 
+           il est reservé pour les hypocrites qui déguisent leur religion, &amp; qui en cachent dans le cœur une différente de celle qu’ils professent au-dehors.</p>
+           <p n="19">D’autres interpretes mahométans expliquent différemment ces sept portes de l’enfer. 
+           Quelques-uns croyent qu’elles marquent les sept péchés capitaux. 
+           D’autres les prennent des sept principaux membres du corps dont les hommes se servent pour offenser Dieu, &amp; qui sont 
+           les principaux instrumens de leurs crimes. C’est en ce sens qu’un poëte Persan a dit : 
+           « Vous avez les sept portes d’enfer dans votre corps ; mais l’ame peut faire sept serrures à ces portes : 
+           la clef de ces serrures est votre libre arbitre, dont vous pouvez vous servir pour fermer ces portes, 
+           si bien qu’elles ne s’ouvrent plus à votre perte ». Outre la peine du feu ou du sens, les Musulmans reconnoissent aussi comme nous celle du dam.</p>
+           <p n="20">20 On dit que les Cafres admettent treize enfers, &amp; vingt-sept paradis, 
+           où chacun trouve la place qu’il a méritée suivant ses bonnes ou mauvaises actions.</p>
+           <p n="21">21 Cette persuasion des peines dans une vie future, 
+           universellement répandue dans toutes les religions, 
+           même les plus fausses, &amp; chez les peuples les plus barbares, a toûjours été employée par les législateurs 
+           comme le frein le plus puissant pour arrêter la licence &amp; le crime, &amp; pour contenir les hommes dans les bornes du devoir.</p>
+           <p n="22">22 II. Les auteurs sont extrèmement partagés sur la seconde question : 
+           savoir, s’il y a effectivement quelque enfer local, ou quelque place propre &amp; spécifique 
+           où les réprouvés souffrent les tourmens du feu. Les prophetes &amp; les autres auteurs sacrés 
+           parlent en général de l’enfer comme d’un lieu soûterrain placé sous les eaux &amp; les fondemens des montagnes, 
+           au centre de la terre, &amp; ils le désignent par les noms de puits &amp; d’abysme : 
+           mais toutes ces expressions ne déterminent pas le lieu fixe de l’enfer. 
+           Les écrivains prophanes tant anciens que modernes ont donné carriere à leur imagination sur cet article ;
+            &amp; voici ce que nous en avons recueilli d’après Chambers.</p>
+            <p n="23">23 Les Grecs, après Homere, Hésiode, &amp;c. ont conçû l’enfer 
+            comme un lieu vaste &amp; obscur sous terre, partagé en diverses régions, l’une affreuse où l’on voyoit des lacs 
+            dont l’eau bourbeuse &amp; infecte exhaloit des vapeurs mortelles ; un fleuve de feu, 
+            des tours de fer &amp; d’airain, des fournaises ardentes, des monstres &amp; des furies acharnées à tourmenter les scélérats. 
+            (Voyez Lucien, de luctu, &amp; Eustathe, sur Homere). l’autre riante, destinée aux sages &amp; aux héros. Voyez Élysée. </p>
+            <p n="24">24 Parmi les poëtes latins, quelques-uns ont placé l’enfer dans les régions soûterraines situées directement au-dessous du lac d’Averne, 
+            dans la Campagne de Rome, à cause des vapeurs empoisonnées qui s’élevoient de ce lac. Æneide, liv. VI. Voy. Averne. </p> 
+            <p n="25">25 Calipso dans Homere parlant à Ulysse, met la porte de l’enfer aux extrémités de l’Océan. 
+            Xenophon y fait entrer Hercule par la peninsule acherasiade, près d’Héraclée du Pont. </p> 
+            <p n="26">26 D’autres se sont imaginé que l’enfer étoit sous le Ténare, promontoire de Laconie, 
+            parce que c’étoit​ un lieu obscur &amp; terrible, environné d’épaisses forêts, d’où il étoit plus difficile de sortir que d’un labyrinthe. 
+            C’est par-là qu’Ovide fait descendre Orphée aux enfers. D’autres ont crû que la riviere ou le marais du Styx en Arcadie 
+            étoit l’entrée des enfers, parce que ses exhalaisons étoient mortelles. Voyez Ténare &amp; Styx. </p> 
+            <p n="27">27 Mais toutes ces opinions ne doivent être regardées que comme des fictions des poëtes, qui, selon le génie de leur art, 
+            exagérant tout, représenterent ces lieux comme autant de portes ou d’entrées de l’enfer, 
+            à l’occasion de leur aspect horrible, ou de la mort certaine dont étoient frappes tous ceux qui avoient le malheur 
+            ou l’imprudence de s’en trop approcher. Voyez Enfer, (Mythol.)</p> 
+            <p n="28">28 Les premiers Chrétiens, qui regardoient la terre comme un plan d’une vaste étendue, 
+            &amp; le ciel comme un arc élevé ou un pavillon tendu sur ce plan, crurent que l’enfer étoit une place soûterraine &amp; la plus 
+            éloignée du ciel, de sorte que leur enfer étoit placé où sont nos antipodes. Voyez Antipodes. </p> 
+            <p n="29">29 Virgile avoit eu avant eux une idée à-peu-près semblable. </p> 
+            <p n="30">30  . . . . . . . . . tum Tartarus ipse
+                    Bis patet in præceps tantum, tenditque sub umbras,
+                    Quantus ad æthereum cœli suspectus Olympum.</p> 
+            <p n="31">31 Tertullien, dans son livre de l’ame, représente les Chrétiens de son tems 
+            comme persuadés que l’enfer étoit un abysme situé au fond de la terre ; 
+            &amp; cette opinion étoit fondée principalement sur la croyance de la descente de Jesus-Christ 
+            aux Lymbes. Matth. XII. v 40. V. Lymbes, &amp; l’article suivant Enfer. </p> 
+            <p n="32">32 Whiston a avancé, sur la localité de l’enfer, une opinion nouvelle. Selon lui, 
+            les cometes doivent être considérées comme autant d’enfers destinés à voiturer alternativement les damnés dans les confins du Soleil, 
+            pour y être grillés par ses feux, &amp; les transporter successivement dans des régions froides, obscures, &amp; affreuses, 
+            au-delà de l’orbite de Saturne. Voyez Comete. </p> 
+            <p n="33">33 Swinden, dans ses recherches sur la nature &amp; sur la place de l’enfer, 
+            n’adopte aucune des situations cy-dessus mentionnées ; &amp; il en assigne une nouvelle. 
+            Suivant ses idées, le Soleil lui-même est l’enfer local ; mais il n’est pas le premier auteur de cette opinion : 
+            outre qu’on pourroit en trouver quelques traces dans ce passage de l’Apocalypse, chap. xvj. V. 8 &amp; 9. 
+            Et quartus angelus effudit phialam suam in Solem, &amp; datum est illi æstu affligere homines &amp; igni, 
+            &amp; æstuaverunt homines æstu magno. Pythagore paroît avoir eu la même pensée que Swinden en plaçant l’enfer 
+            dans la sphere du feu, &amp; cette sphere au milieu de l’univers. D’ailleurs Aristote de cœlo, lib. II. fait mention 
+            de quelques philosophes de l’école italique ou pythagoricienne, qui ont placé la sphere du feu dans le Soleil, &amp; l’ont même nommée 
+            la prison de Jupiter. Voyez Pythagoriciens. </p> 
+            <p n="34">34 Swinden, pour soûtenir son système, entreprend de déplacer l’enfer du centre de la terre. 
+            La premiere raison qu’il en allegue, c’est que ce lieu ne peut contenir un fond ou une provision de soufre 
+            ou d’autres matieres ignées, assez considérable pour entretenir un feu perpétuel &amp; aussi terrible dans son activité 
+            que celui de l’enfer ; &amp; la seconde, que le centre de la terre doit manquer de particules nitreuses qui se trouvent dans l’air, 
+            &amp; qui doivent empêcher ce feu de s’éteindre : « Et comment, ajoûte-t-il, 
+            un tel feu pourroit-il être éternel &amp; se conserver sans fin dans les entrailles de la terre, 
+            puisque toute la substance de la terre en doit être consumée successivement &amp; par degrés » ? </p> 
+            <p n="35">35 Cependant il ne faut pas oublier ici que Tertullien a prévenu la premiere de ces difficultés, 
+            en​​mettant une différence entre le feu caché ou interne &amp; le feu public ou extérieur. Selon lui, le premier est de nature 
+            non-seulement à consumer, mais encore à réparer ce qu’il consume. La seconde difficulté a été levée par S. Augustin, 
+            qui prétend que Dieu, par un miracle, fournit de l’air au feu central. 
+            Mais l’autorité de ces peres, si respectable en matiere de doctrine, n’est pas irréfragable quand il s’agit de Physique : 
+            aussi Swinden continue à montrer que les parties centrales de la terre sont plûtôt occupées par de l’eau que par du feu ; 
+            ce qu’il confirme par ce que dit Moyse des eaux soûterraines, 
+            Exode, chap. xx. ℣. 4. &amp; par le Pseaume XXIII. ℣. 2. Quia super maria sundavit eum (orbem), &amp; super flumina præparavit eum. 
+            Il allegue encore qu’il ne se trouveroit point au centre de la terre assez de place pour contenir le nombre infini 
+            de mauvais anges &amp; d’hommes réprouvés. Voyez Abysme. </p> 
+            <p n="36">36 On sait que Drexelius, de damnatorum carcere &amp; rogo, a confiné l’enfer dans l’espace d’un mille cubique d’Allemagne, 
+            &amp; qu’il a fixé le nombre des damnés à cent mille millions : mais Swinden pense que Drexelius 
+            a trop ménagé le terrein ; qu’il peut y avoir cent fois plus de damnés ; &amp; qu’ils ne pourroient qu’être infiniment pressés, 
+            quelque vaste que soit l’espace qu’on pût leur assigner, au centre de la terre. 
+            Il conclut qu’il est impossible d’arranger une si grande multitude d’esprits dans un lieu si étroit, 
+            sans admettre une pénétration de dimension ; ce qui est absurde en bonne philosophie, même par rapport aux esprits : 
+            car si cela étoit, il dit qu’il ne voit pas pour quoi Dieu auroit préparé une prison si vaste pour les damnés, 
+            puisqu’ils auroient pû être entassés tous dans un espace aussi étroit qu’un four de Boulanger. 
+            On pourroit ajoûter que le nombre des réprouvés devant être très-étendu, &amp; les réprouvés devant un jour brûler 
+            en corps &amp; en ame, il faut nécessairement admettre un enfer plus spacieux que celui qu’a imaginé Drexelius, 
+            à moins qu’on ne suppose qu’au jugement dernier Dieu en créera un nouveau assez vaste pour contenir les corps &amp; les ames. 
+            Nous ne sommes ici qu’historiens. Quoi qu’il en soit, les argumens qu’allegue Swinden, pour prouver que le Soleil est l’enfer local, sont tirés : </p> 
+            <p n="37">37 1°. De la capacité de cet astre. Personne ne pouvant nier que le Soleil ne soit assez spacieux pour contenir tous les damnés 
+            de tous les siecles, puisque les Astronomes lui donnent communément un million de lieues de circuit : 
+            ainsi ce n’est pas la place qui manque dans ce système. Le feu ne manquera pas non plus, 
+            si nous admettons le raisonnement par lequel Swinden prouve, contre Aristote, que le Soleil est chaud, 
+            page 208 &amp; suiv. « Le bon-homme, dit-il, est saisi d’étonnement à la vûe des Pyrénées de soufre &amp; des océans athlantiques de bitume ardent, 
+            qu’il faut pour entretenir l’immensité des flammes du Soleil. Nos Æthnas &amp; nos Vésuves ne sont que des vers luisans ». 
+            Voilà une phrase plus digne d’un gascon que d’un savant du nord. </p> 
+            <p n="38">38 2°. De la distance du Soleil, &amp; de son opposition à l’empyrée, que l’on a toûjours regardé comme le ciel local. 
+            Une telle opposition répond parfaitement à celle qui se trouve naturellement entre deux places, 
+            dont l’une est destinée au séjour des anges &amp; des élûs, &amp; l’autre à celui des démons &amp; des réprouvés, 
+            dont l’une est un lieu de gloire &amp; de bénédictions, &amp; l’autre est un lieu d’horreur &amp; de blasphèmes. 
+            La distance s’accorde aussi très-bien avec les paroles du mauvais riche, qui dans S. Luc, chap. xvj. V. 23. voit 
+            Abraham dans un grand éloignement, &amp; avec la réponse d’Abraham dans ce même chap. V. 26. &amp; in his omnibus inter nos &amp; vos chaos 
+            magnum firmatum est, ut hi qui volunt hinc transire ad vos non possint, neque indè huc transmeare. 
+            Or Swin-​den, par ce chaos ou ce goufre, entend le tourbillon solaire. Voyez Tourbillon. </p> 
+            <p n="39">39 3°. De ce que l’empirée est le lieu le plus haut, &amp; le Soleil le lieu le plus bas de l’univers, 
+            en considérant cette planete comme le centre de notre système, &amp; comme la premiere partie du monde créé &amp; visible ; 
+            ce qui s’accorde avec cette notion, que le Soleil a été destiné primitivement non-seulement à éclairer la terre, 
+            mais encore à servir de prison &amp; de lieu de supplice aux anges rebelles, dont notre auteur suppose que la chûte 
+            a précédé immédiatement la création du monde habité par les hommes. </p> 
+            <p n="40">40 4°. Du culte que presque tous les hommes ont rendu au feu ou au Soleil ; 
+            ce qui peut se concilier avec la subtilité malicieuse des esprits qui habitent le Soleil, 
+            &amp; qui ont porté les hommes à adorer leur throne, ou plûtôt l’instrument de leur supplice. </p> 
+            <p n="41">41 Nous laissons au lecteur à apprécier tous ces systèmes ; &amp; nous nous contentons de dire 
+            qu’il est bien singulier de vouloir fixer le lieu de l’enfer, quand l’Ecriture, par son silence, 
+            nous indique assez celui que nous devrions garder sur cette matiere. </p> 
+            <p n="42">42 III. Il ne conviendroit pas également de demeurer indécis sur une question qui intéresse essentiellement la foi : 
+            c’est l’éternité des peines que les damnés souffriront en enfer. Elle paroît expressément décidée par les Ecritures, 
+            &amp; quant à la nature des peines du sens, &amp; quant à leur durée qui doit être interminable. 
+            Cependant, outre les incrédules modernes qui rejettent l’un &amp; l’autre point, tant parce qu’ils imaginent 
+            l’ame mortelle comme le corps, que parce que l’éternité des peines leur semble incompatible avec l’idée d’un 
+            Dieu essentiellement &amp; souverainement bon &amp; miséricordieux ; 
+            Origene, dans son traité intitulé, περὶ ἀρκῶν, ou de principiis, donnant aux paroles de l’Ecriture 
+            une interprétation métaphorique, fait consister les tourmens de l’enfer, 
+            non dans des peines extérieures ou corporelles, mais dans les remords de la conscience des pécheurs, 
+            dans l’horreur qu’ils ont de leurs crimes, &amp; dans le souvenir qu’ils conservent du vuide de leurs plaisirs passés. 
+            S. Augustin fait mention de plusieurs de ses contemporains qui étoient dans la même erreur. 
+            Calvin &amp; plusieurs de ses sectateurs l’ont soûtenu de nos jours ; &amp; c’est le sentiment général des Sociniens, 
+            qui prétendent que l’idée de l’enfer, admis par les Catholiques, est empruntée des fictions du paganisme. 
+            Nous trouvons encore Origene à la tête de ceux qui nient l’éternité des peines dans la vie future : 
+            cet auteur, au rapport de plusieurs peres, mais sur-tout de S. Augustin, dans son traité de la cité de Dieu, liv. X X I. chap. xvij. enseigne que
+             les hommes, &amp; les démons même, après qu’ils auront essuyé des tourmens proportionnés à leurs crimes, 
+             mais limités toutefois quant à la durée, en obtiendront le pardon &amp; entreront dans le ciel. M. Huet, 
+             dans ses remarques sur Origene, conjecture que la lecture de Platon avoit gâté Origene à cet égard. </p> 
+            <p n="43">43 L’argument principal sur lequel se fondoit Origene, est que toutes les punitions ne sont ordonnées que pour corriger, 
+            &amp; appliquées comme des remedes douloureux, pour faire recouvrer la santé aux sujets à qui on les inflige. 
+            Les autres objections sur lesquelles insistent les modernes sont tirées de la disproportion qui se rencontre entre 
+            des crimes passagers &amp; des supplices éternels, &amp;c. </p> 
+            <p n="44">44 Les phrases qu’employe l’Ecriture pour exprimer l’éternité, ne signifient pas toûjours une durée infinie, 
+            comme l’ont observé plusieurs interpretes ou critiques, &amp; entre autres Tillotson, archevêque de Cantorbéry. </p> 
+            <p n="45">45 Ainsi dans l’ancien Testament, ces mots, à jamais, ne signifient souvent qu’une longue durée, 
+            &amp; en particulier jusqu’à la fin de la loi judaïque. Il est dit, par​​exemple, 
+            dans l’Epître de S. Jude, ℣. 7. que les villes de Sodome &amp; Gomorre ont servi d’exemple, 
+            &amp; qu’elles ont été exposées à la vengeance d’un feu éternel, ignis æterni pœnam sustinentes, 
+            c’est-à-dire d’un feu qui ne pouvoit s’éteindre avant que ces villes fussent entierement réduites en cendres. 
+            Il est dit aussi, dans l’Ecriture, que les générations se succedent, mais que la terre demeure à jamais ou éternellement ; 
+            terra autem in æternum stat. En effet, M. le Clerc remarque qu’il n’y a point de mot hébreu qui exprime proprement l’éternité ; 
+            le terme holam n’exprime qu’un tems dont le commencement ou la fin sont inconnus, &amp; se prend dans un sens plus ou moins étendu, 
+            suivant la matiere dont il est question. Ainsi quand Dieu dit, au sujet des lois judaïques, qu’elles doivent être observées laholam, 
+            à jamais, il faut sous-entendre qu’elles le seront aussi long-tems que Dieu le jugera à propos, ou pendant un espace de tems dont 
+            la fin étoit inconnue aux Juifs avant la venue du Messie. Toutes les lois générales, ou celles qui ne regardent pas des especes particulieres, 
+            sont établies à perpétuité, soit que leur texte renferme cette expression, soit qu’il ne la renferme pas ; 
+            ce qui toutefois ne signifie pas que la puissance législatrice &amp; souveraine ne pourra jamais les changer ou les abréger. </p> 
+            <p n="46">46 Tillotson soûtient, avec autant de force que de fondement, que dans les endroits de l’Ecriture 
+            où il est parlé des tourmens de l’enfer, les expressions doivent être entendues dans un sens étroit &amp; d’une durée infinie ; 
+            &amp; ce qu’il regarde comme une raison décisive, c’est que dans un seul &amp; même passage (en S. Matth. chap. xxv.), 
+            la durée de la punition des méchans se trouve exprimée par les mêmes termes dont on se sert 
+            pour exprimer la durée du bonheur des justes, qui, de l’aveu de tout le monde, doit être éternel. 
+            En parlant des réprouvés, il y est dit qu’ils iront au supplice éternel, ou qu’ils seront livrés à des tourmens éternels : 
+            &amp; en parlant des justes, il est dit qu’ils entreront en possession de la vie éternelle ; 
+            &amp; ibunt hi in supplicium æternum, justi autem in vitam æternam. </p>
+            <p n="47">47 Cet auteur entreprend de concilier le dogme de l’éternité des peines avec ceux de la justice &amp; de la miséricorde divine ; 
+            &amp; il s’en tire d’une maniere beaucoup plus satisfaisante que ceux qui avoient tenté avant lui 
+            de sauver les contrariétés apparentes qui résultent de ces objets de notre foi. </p> 
+            <p n="48">48 En effet, quelques Théologiens, pour résoudre ces difficultés, 
+            avoient avancé que tout péché est infini, par rapport à l’objet contre lequel il est commis, 
+            c’est-à-dire par rapport à Dieu ; mais il est absurde de prétendre que tous les crimes sont aggravés à ce point 
+            par rapport à l’objet offensé, puisque dans ce cas le mal &amp; le démérite de tout péché seroient nécessairement égaux, 
+            en ce qu’il ne peut y avoir rien au-dessus de l’infini que le péché offense. Ce seroit renouveller un des paradoxes des Stoïciens ; 
+            &amp; par conséquent on ne pourroit fonder sur rien les degrés de punition pour la vie à venir : 
+            car quoiqu’elle doive être éternelle dans sa durée, il n’est pas hors de vraissemblance qu’elle ne sera pas égale dans sa violence, 
+            &amp; qu’elle pourra être plus ou moins vive, à proportion du caractere ou du degré de malice qu’auront renfermé tels ou tels péchés. 
+            Ajoutez que pour la même raison le moindre péché contre Dieu étant infini, par rapport à son objet, 
+            on peut dire que la moindre punition que Dieu inflige est infinie par rapport à son auteur, 
+            &amp; par conséquent que toutes les punitions que Dieu infligeroit seroient égales, 
+            comme tous les péchés commis contre Dieu seroient égaux ; ce qui répugne. </p> 
+            <p n="49">49 D’autres ont prétendu que si les méchans pouvoient vivre toûjours, 
+            ils ne cesseroient jamais de pécher. « Mais c’est là, dit Tillotson, une pure spé-​culation, &amp; non pas un raisonnement : 
+            c’est une supposition gratuite &amp; dénuée de fondement. Qui peut assûrer, ajoûte-t-il, que si un homme vivoit si long-tems, 
+            il ne se repentiroit jamais » ? D’ailleurs la justice vengeresse de Dieu ne punit que les péchés 
+            commis par les hommes, &amp; non pas ceux qu’ils auroient pû commettre ; 
+            comme sa justice rémunérative ne couronne que les bonnes œuvres qu’ils ont faites réellement, 
+            &amp; non celles qu’ils auroient pû faire, ainsi que le prétendoient les Sémi-Pélagiens. Voyez Sémi-Pélagiens. </p> 
+            <p n="50">50 C’est pourquoi d’autres ont soûtenu que Dieu laisse à l’homme le choix d’une félicité ou d’une misere éternelle, 
+            &amp; que la récompense promise à ceux qui lui obéissent, est égale à la punition dont il menace ceux qui refusent de lui obéir. 
+            On répond à cela, que s’il n’est point contraire à la justice de porter trop loin la récompense, parce que cette matiere est de pure faveur, 
+            il peut être contraire à la justice de porter la punition à l’excès. On ajoûte que dans ce cas l’homme n’a pas sujet de se plaindre, 
+            puisqu’il ne doit s’en prendre qu’à son propre choix. Mais quoique cette raison suffise pour imposer silence au pécheur, 
+            &amp; lui arracher cet aveu, qu’il est la cause de son malheur, perditio tua ex te, Israel ; 
+            on sent qu’elle ne résout pas pleinement l’objection tirée de la disproportion entre le crime &amp; le supplice. </p> 
+            <p n="51">51 Voyons comment Tillotson, mécontent de tous ces systèmes, a entrepris de résoudre cette difficulté. </p>
+            <p n="52">52 Il commence par observer que la mesure des punitions par rapport aux crimes, 
+            ne se regle pas seulement ni toûjours sur la qualité &amp; sur le degré de l’offense, 
+            &amp; moins encore sur la durée &amp; sur la continuation de l’offense, mais sur les raisons d’œconomie ou de gouvernement, 
+            qui demandent des punitions capables de porter les hommes à observer les lois, &amp; de les détourner d’y donner atteinte. 
+            Parmi les hommes, on ne regarde point comme une injustice de punir le meurtre &amp; plusieurs autres crimes 
+            qui se commettent souvent en un moment, par la perte ou privation perpétuelle de l’état de citoyen, 
+            de la liberté, &amp; même de la vie du coupable ; de sorte que l’objection tirée de la disproportion 
+            entre des crimes passagers &amp; des tourmens éternels, ne peut avoir ici aucune force. </p> 
+            <p n="53">53 En effet, la maniere de regler la proportion entre les crimes &amp; les punitions, 
+            est moins l’objet de la justice, qu’elle n’est l’objet de la sagesse &amp; de la prudence du législateur, 
+            qui peut appuyer ses lois par la menace de telles peines qu’il juge à propos, 
+            sans qu’on puisse à cette occasion l’accuser de la plus legere injustice : cette maxime est indubitable. </p> 
+            <p n="54">54 La premiere fin de toute menace n’est point de punir, mais de prevenir 
+            ou faire éviter la punition. Dieu ne menace point afin que l’homme peche &amp; &amp; qu’il soit puni, 
+            mais afin qu’il s’abstienne de pécher &amp; qu’il évite le châtiment attaché à l’infraction de la loi ; 
+            de sorte que plus la menace est terrible &amp; imposante, plus il y a de bonté dans l’auteur de la menace.</p> 
+            <p n="55">55 Après tout, il faut faire attention, ajoûte le même auteur, 
+            que celui qui fait la menace se reserve le pouvoir de l’exécuter lui-même. 
+            Il y a cette difféce entre les promesses &amp; les menaces, que celui qui promet donne droit à un autre, 
+            &amp; s’oblige à exécuter sa parole, que la justice &amp; la fidélité ne lui permettent pas de violer : 
+            mais il n’en est pas de même à l’égard des menaces ; celui qui menace se reserve toûjours le droit de punir 
+            quand il le voudra, &amp; n’est point obligé à la rigueur d’exécuter ses menaces, 
+            ni de les porter plus loin que n’exigent l’économie, les raisons, &amp; les fins de son gouvernement. 
+            C’est ainsi que Dieu menaça la ville de Ninive d’une destruction totale, 
+            si elle ne faisoit pénitence dans un​​tems limité : mais comme il connoissoit l’étendue de son propre droit, 
+            il fit ce qu’il voulut ; il pardonna à cette ville, en considération de sa pénitence, se relâchant du droit de la punir. </p> 
+            <p n="56">56 Tels sont les raisonnemens de Tillotson, auxquels nous n’ajoûterons qu’une réflexion pour prévenir cette 
+            fausse conséquence qu’on en pourroit tirer : savoir, que ce qu’on lit dans l’Ecriture sur les peines de l’enfer, 
+            n’est simplement que comminatoire, comme le prétendent les Sociniens. Sans doute tant que l’homme est en cette vie, 
+            il peut les éviter ces peines ; mais après la mort, lorsque l’iniquité est consommée, &amp; qu’il n’y a plus lieu au mérite 
+            pour fléchir le courroux d’un Dieu outragé &amp; justement irrité, le pécheur peut-il l’accuser d’injustice, 
+            de lui infliger des peines éternelles ? puisque pendant la vie il étoit à son choix de les éviter,
+             &amp; de parvenir à une éternelle félicité. D’ailleurs, il est également révelé, 
+             &amp; que ces menaces ont déjà été accomplies réellement dans les anges rebelles, &amp; qu’elles seront 
+             réellement accomplies dans les réprouvés à la fin des siecles ; 
+             ce qui prouve que la raison seule ne suffit pas pour décider cette question, 
+             &amp; qu’il faut nécessairement avoir recours à la révélation, 
+             pour démontrer l’éternité &amp; la justice des peines de la vie future. (G)</p>     
         </body>
     </text>
 </TEI>
