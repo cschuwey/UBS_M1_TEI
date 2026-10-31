@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-<!-- J'ai fait ce que j'ai pu dans la mesure où la base de données de la TEI était inaccessible -->
-
+      
 <teiHeader>
       <fileDesc>
         <titleStmt>
             <title>Article « HYPOCRITE »</title>
-            <author>Briasson, David l’aîné, Le Breton, Durand</author>
+            <editor>Briasson, David l’aîné, Le Breton, Durand</editor>
         </titleStmt>
 
         <publicationStmt>
@@ -19,11 +17,11 @@
         </publicationStmt>
 
         <sourceDesc>
-            <title>L'Encyclopédie, 1re édition</title>
+            <title> L'Encyclopédie, 1re édition </title>
             <author>Diderot</author> 
             <author>D'Alembert</author>
             <edition>Première édition</edition>
-            <date when="1751">1766</date>
+            <date when="1766">1766</date>
             <biblScope unit="volume">8</biblScope>
             <biblScope unit="page">409</biblScope>
             
@@ -37,9 +35,14 @@
         </sourceDesc>
 
         <encodingDesc>
-        <p> J'ai décidé de moderniser la langue dans la version Wikisource.</p>
+            <editorialDecl>
+                <p> Le texte de base (lem) correspond à l'édition originale de l'Encyclopédie (1766). Les leçons alternatives (rdg)
+                correspondent à la version que j'ai modernisée de Wikisource. Les variantes concernent principalement l'orthographe et
+                l'accentuation (caractere/caractère, paroître/paraître, foiblesse/faiblesse, etc.).</p>
+                <p> Le couple lem/rdg a été privilégié car l'édition originale est considérée comme témoin de référence tandis que la version
+                Wikisource constitue une modernisation du texte.</p>
+            </editorialDecl>
         </encodingDesc>
-      
       </fileDesc>
    </teiHeader>
 
@@ -49,7 +52,12 @@
 
         <div type="article">
         
-        <p><term>HYPOCRITE</term>, s. m. (Morale). 
+        <p>
+        <term>
+           <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v8-1485-0/">
+           <hi rend="caps">HYPOCRITE</hi>
+           </ref>
+        , s. m. (<hi rend="italic">Morale</hi>)</term>. 
         C'est un homme qui se montre avec un <app><lem wit="#1">caractere</lem><rdg wit="#2">caractère</rdg></app> qui n'est pas le sien : 
         les distinctions flatteuses &amp; l'estime du public qu'obtient une sorte de mérite ; la nécessité de <app><lem wit="#1">paroître</lem>
         <rdg wit="#2">paraître</rdg></app>, la difficulté d'être, la force des <app><lem wit="#1">penchans</lem><rdg wit="#2">penchants</rdg>
