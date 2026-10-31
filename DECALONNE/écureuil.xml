@@ -28,6 +28,14 @@
                     <biblScope unit="volume">V</biblScope>
                     <biblScope unit="page">380</biblScope>
                 </bibl>
+                <listWit>
+                    <wit xml:id="V1">
+                     Première version de l'Ecureuil, encodée à partir l'Encyclopédie, tome V, page 380.
+                </wit>
+                    <wit xml:id="V2">
+                     Seconde version de l'Ecureuil, correspondant à une version plus développée de l'article.
+                </wit>
+                </listWit>            
             </sourceDesc>
 
         </fileDesc>
@@ -43,9 +51,21 @@
 
             <editorialDecl>
                 <p>
-                    Dans cet encodage,nous allons conserver  l'orthographe et la ponctuation du texte original. 
+                    Dans cet encodage,nous allons conserver  l'orthographe et la ponctuation du texte original des deux versions du texte Ecureuil. 
                 </p>
-            </editorialDecl>
+                <p>
+        Les deux versions du texte de l'Écureuil sont encodées au moyen de l'élément app. Celui-ci va permettre de représenter les variantes textuelles.
+        La première version est considérée comme le texte deréférence et est encodée dans l'élément lem, avec l'attribut wit="#V1". La seconde version est encodée dans l'élément rdg, avec l'attribut wit="#V2".
+                </p>
+                 <p>
+        Le choix de lem et rdg permet de distinguer le texte de référence de la seconde lecture, sans prendre l'autre version du texte pour une simple correction ou une erreur.
+                 </p>
+                  <p>
+        Les renvois vers d'autres articles de l'Encyclopédie sont encodés avec l'élément ref et son attribut target,qui dirrigera directement vers la notice correspondante sur le site de l'ENCCRE.
+                 </p>  
+                <p>
+        La structure textuelle du dictionnaire est renforcée par les éléments entry, form, orth, sense et cit, qui permettent de distinguer l'entrée du texte , ses formes, ses différents sens ainsi que les références bibliographiques.
+    </p>            </editorialDecl>
 
         </encodingDesc>
 
@@ -84,79 +104,263 @@
                     <title>ECUREUIL</title>
 
             </front> 
-
-                <usg type="domain">Hist.</usg>
-                <usg type="domain">natur.</usg>
-                <usg type="domain">zoolog.</usg>
-
-
-                <p n="1">
-                    Écureuil, substantif masculin <hi rend="italic">(Hist.natur.zoolog.)<language xml:lang="la">sciurus vulgaris</language></hi>, 
-                    animal quadrupede, un peu plus gros qu’une belette,sans être plus long. 
-                    La tête &amp; le dos sont de couleur fauve, &amp; le ventre blanc ; 
-                    cependant il y a des <hi rend="italic">écureuils</hi> noirs : on en voit de gris
-                    &amp; de couleur cendrée en Pologne &amp; en Russie.
-                    La queue de ces animaux est longue &amp; garnie de grands poils,
-                    ils la portent recourbée sur le dos.
-                </p>
-
-                <p n="2">
-                    L’<hi rend="italic">écureuil</hi> s’assied, pour ainsi dire,
-                    lorsqu’il veut manger : dans cette attitude le corps est dans une position verticale, 
-                    &amp; les pattes de devant sont libres ;
-                    aussi les piés lui servent de mains pour tenir &amp; porter à sa bouche les noix, les noisettes &amp; 
-                    les glands, qui sont ses alimens les plus ordinaires : il préfere les noisettes,
-                    &amp; en fait provision pendant l’été pour les manger en hyver.
-                    Cet animal habite dans des creux d’arbres, &amp; y éleve ses
-                    petits. Il est si agile qu’il saute d’une branche à l’autre,
-                    &amp; même il s’élance d’un arbre à un autre. On croit que les
-                    anciens le désignoient par le nom de
-                    <hi><language xml:lang="la">mus ponctius, seu varius</language></hi>.
-                    Rai, <hi rend="italic">synop. anim. quadrup. pag. 214</hi>.
-                </p>
-
-                <p n="3">
-                    M. Linnaeus met l’<hi rend="italic">écureuil</hi> dans la classe des animaux qui ont deux dents incisives allongées ;
-                    tels sont les hérissons, les porc-épics, les lievres, les lapins, les castors, les rats, <hi rend="italic">&amp;c</hi>.
-                    Selon cet auteur, les caracteres génériques de l’ <hi rend="italic">écureuil</hi> consistent en ce qu’il a
-                    quatre doigts dans les piés de devant, &amp; cinq dans ceux de derriere ; 
-                    que ses piés sont propres à grimper &amp; à sauter, &amp; 
-                    qu’il n’a point de dents canines,
-                    <hi rend="italic">Syst. nat. Lipsioe, 1748</hi>.
-                </p>
-
-                <p n="4">
-                    Par la méthode de M. Rai, l’<hi rend="italic">écureuil</hi>
-                    est au nombre des animaux vivipares sissipedes qui se
-                    nourrissent de végétaux, &amp; qui ont deux longues dents incisives à chaque mâchoire. 
-                    Ils sont rassemblés sous un genre appellé <hi> <language xml:lang="la"> genus leporinum</language></hi>, 
-                    à cause du lievre qui en est la premiere espece ; 
-                    les autres sont le lapin, le porc-épic,le castor, les rats, la marmotte, <hi rend="italic">&amp;c</hi>.
-                </p>
-
-                <p n="5">
-                    L’<hi rend="italic">écureuil de Virginie,
-                    <language xml:lang="la">scirus virginianus, cinereus major</language></hi>, 
-                    est presqu’aussi gros qu’un lapin, &amp; 
-                    n’en differe pas beaucoup pour la couleur, car il est gris ; 
-                    il a quatre doigts dans les piés de devant, &amp; cinq dans ceux de derriere.
-                    <hi rend="italic">Synop. anim. quadrup.</hi>
-                </p>
             
-                <p n="6">
-                    Les auteurs font mention d’autres <hi rend="italic">écureuils</hi> étrangers ; 
-                    savoir s’ils sont de la même espece que l’<hi rend="italic">écureuil</hi> ordinaire,
-                    ou si c’est improprement qu’on leur a donné le nom d’ <hi rend="italic">écureuil</hi> : pour s’en assûrer il
-                    faudroit avoir des descriptions exactes de ces animaux.
-                    L’abus des noms n’est que trop fréquent en histoire naturelle ;
-                    nous en avons un exemple frappant dans l’
-                    <hi rend="italic">écureuil volant</hi>, qui est un vrai chat
-                    si ressemblant à de certains rats, qu’on seroit tenté de croire
-                    que ceux qui l’ont nommé <hi rend="italic">écureuil</hi>,
-                    n’avoient jamais vû ni <hi rend="italic">écureuils</hi>, ni loirs, ni lerots. Voyez Lerot, Quadrupede.
-                </p>
+            <form>
+                <orth>ECUREUIL</orth>
+                <gramGrp>
+                <pos>substantif</pos>
+                <gen>masculin</gen>
+                </gramGrp>
+            </form>
 
+            <app type="substantive">
+            <lem wit="#V1">
+                    <sense n="1">
+                        <usg type="domain">Hist.</usg>
+                        <usg type="domain">natur.</usg>
+                        <usg type="domain">zoolog.</usg>
 
+                        <p n="1">
+                            Écureuil, substantif masculin <hi rend="italic">(Hist.natur.zoolog.)
+                            <foreign xml:lang="la">sciurus vulgaris</foreign>
+                            </hi>,animal quadrupede, un peu plus gros qu’une belette,
+                            sans être plus long. La tête &amp; le dos sont
+                            de couleur fauve, &amp; le ventre blanc ; cependant il y a des
+                            <hi rend="italic">écureuils</hi> noirs :on en voit de gris &amp; de couleur cendrée en Pologne &amp; en Russie.
+                            La queue de ces animaux est longue &amp; garnie de grands poils, ils la portent recourbée sur le dos.
+                        </p>
+                    </sense>
+                </lem>
+
+                <rdg wit="#V2">
+                    <sense n="1">
+                        <usg type="domain">Hist. Nat. Zool.</usg>
+
+                        <p>
+                            ECUREUIL, (R), s.m.
+                            <hi rend="italic">Hist. Nat. Zool.</hi>,
+                            <foreign xml:lang="la">sciurus</foreign>.
+                            Cet animal si connu pour l'un des plus jolis quadrupedes, n'est que l'espece la plus commune
+                            d'un genre, auquel on a donné son nom, et qui en comprend plusieurs autres. Ils sont de l'ordre
+                            des quadrupedes appellés par Mr. Linné les <hi rend="italic">loirs, glires</hi>, qui n'ont
+                            que deux dents incisives à chaque machoire, éloignées des molaires, et point de dents canines,
+                            et se ressemblent assez par la forme de la tête, par la garniture de la queue, mais sur-tout
+                            par la forme des dents incisives dont les supérieures sont faites en coin, et les
+                            inférieures comprimées. Les especes les plus remarquables sont, outre l'
+                            <hi rend="italic">écureuil</hi> commun,le <hi rend="italic">petit-gris</hi>,
+                            le <hi rend="italic">barboresque</hi>, le <hi rend="italic">suisse</hi>,
+                            le <hi rend="italic">palmiste</hi> et le <hi rend="italic">polatouche</hi> ou <hi rend="italic">écureuil volant</hi>.
+                        </p>
+                    </sense>
+                </rdg>
+            </app>
+
+            <app type="substantive">
+                <lem wit="#V1">
+                    <sense n="2">
+                        <p n="2">
+                            L’<hi rend="italic">écureuil</hi> s’assied,pour ainsi dire, lorsqu’il veut manger :
+                            dans cette attitude le corps est dans une position verticale, &amp; les pattes de
+                            devant sont libres ; aussi les piés lui servent de mains pour tenir &amp; porter
+                            à sa bouche les noix, les noisettes &amp;les glands, qui sont ses alimens les plus
+                            ordinaires : il préfere les noisettes,&amp; en fait provision pendant l’été pour les manger en hyver. Cet animal
+                            habite dans des creux d’arbres, &amp; y éleve ses petits. Il est si agile qu’il saute d’une branche à l’autre,
+                            &amp; même il s’élance d’un arbre à un autre.On croit que les anciens le désignoient par le nom de
+                            <hi> <foreign xml:lang="la"> mus ponctius, seu varius </foreign> </hi>.
+                            <bibl> Rai,<title rend="italic"> synop. anim. quadrup.
+                            </title> <biblScope unit="page">214</biblScope>.
+                            </bibl>
+                        </p>
+                    </sense>
+                </lem>
+
+                <rdg wit="#V2">
+                    <sense n="2">
+                        <p>
+                            L'<hi rend="italic">écureuil commun</hi>,est un peu plus gros que la belette,
+                            sans être plus long, et d'une figure qui annonce son agilité ; il a la tête
+                            bien faite, les yeux vifs, le corps nerveux, et les membres dispos.
+                            Sa queue, pour le moins aussi longue que tout le corps et bien fournie de poils, disposés principalement sur
+                            les côtés de part et d'autre, se releve agréablement en panache au-dessus de son dos ; ses oreilles
+                            sont surmontées d'une bordure de longs poils qui forment un de ses caracteres distinctifs : il a cinq doigts onguiculés aux pieds de derriere,
+                            mais il paroît n'en avoir que quatre à ceux de devant, parce que le pouce est extrêmement court et obtus.
+                            La couleur ordinaire de son poil est le roux, avec le ventre blanc ;on en voit cependant quelques-un qui sont cendrés. M. Linné assure que ces animaux prennent cette derniere couleur en hyver.
+                        </p>
+                    </sense>
+                </rdg>
+            </app>
+
+            <app type="substantive">
+                <lem wit="#V1">
+                    <sense n="3">
+                        <p n="3">
+                            M. Linnaeus met l’<hi rend="italic">écureuil</hi> dans la classe des animaux qui ont deux
+                            dents incisives allongées ; tels sont les hérissons, les porc-épics, les lievres,les lapins, les castors, les rats,
+                            <hi rend="italic">&amp;c</hi>.
+                            Selon cet auteur, les caracteres génériques de l’<hi rend="italic">écureuil</hi> consistent en ce qu’il a quatre doigts
+                            dans les piés de devant, &amp; cinq dans ceux de derriere ; que ses piés sont propres à grimper &amp; à sauter,&amp; qu’il n’a point de dents canines,
+                            <bibl> <title rend="italic">Syst. nat.</title> Lipsioe, 1748 </bibl>
+                        </p>
+                    </sense>
+                </lem>
+            </app>
+
+            <app type="substantive">
+                <lem wit="#V1">
+                    <sense n="4">
+                        <p n="4">
+                            Par la méthode de M. Rai,l’<hi rend="italic">écureuil</hi> est au nombre des animaux vivipares sissipedes qui se nourrissent de
+                            végétaux, &amp; qui ont deux longues dents incisives à chaque mâchoire.
+                            Ils sont rassemblés sous un genre appellé <hi> <foreign xml:lang="la"> genus leporinum </foreign>
+                            </hi>, à cause du lievre qui en est la premiere espece ; les autres sont le lapin, le porc-épic, le castor,les rats, la marmotte,
+                            <hi rend="italic">&amp;c</hi>.
+                        </p>
+                    </sense>
+                </lem>
+            </app>
+
+            <app type="substantive">
+                <rdg wit="#V2">
+                    <sense n="3">
+                        <p>
+                            L'<hi rend="italic">écureuil</hi>n'est pas carnassier, quoiqu'il
+                            saisisse quelquefois des oiseaux.Sa nourriture ordinaire sont des fruits, des amendes, des noisettes,du gland, des cones de sapin etc.
+                            Il est propre, très-vif, alerte et industrieux ; il se tient le plus souvent assis presque debout,et se sert de ses pieds de devant
+                            comme d'une main, pour porter les alimens à sa bouche. 
+                            Il se nettoye et se peigne avec les mains et la bouche ; pendant l'été il ramasse des noisettes et enferme dans quelque creux
+                            d'arbre une provision à laquelle il a recours dans l'hyver.
+                            On dit que lorsqu'il est obligé de passer quelque eau il se sert d'une écorce pour vaisseau,et de sa queue pour voile  et pour gouvernail.
+                        </p>
+                    </sense>
+                </rdg>
+            </app>
+
+            <app type="substantive">
+                <rdg wit="#V2">
+                    <sense n="4">
+                        <p>
+                            Il n'habite que dans les bois de haute futaye, et sur les vieux arbres, et saute avec légereté de l'un à l'autre. C'est aussi
+                            sur les arbres qu'il construit son nid, avec de la mousse et des buchettes entremêlées et serrées : ce nid est arrondi
+                            et n'a qu'une ouverture très étroite vers le haut, surmontée  d'une espece de couvert en cone,qui met tout l'édifice à l'abri de la pluie. 
+                            Le tems de l'amour pour ces animaux est au printems,et ils mettent bas au mois de Juin.
+                            Les portées sont ordinairement de trois ou quatre petits.
+                        </p>
+                    </sense>
+                </rdg>
+            </app>
+
+            <app type="substantive">
+                <rdg wit="#V2">
+                    <sense n="5">
+                        <p>
+                            L'<hi rend="italic">écureuil</hi>ne s'engourdit pas en hyver,sa voix est forte et aiguë, sa chair est assez bonne à manger,
+                            et le poil de sa queue sert à faire des pinceaux.
+                        </p>
+                    </sense>
+                </rdg>
+            </app>
+
+            <app type="substantive">
+                <lem wit="#V1">
+                    <sense n="5">
+                        <p n="5">
+                            L’<hi rend="italic">écureuil de Virginie,<foreign xml:lang="la">scirus virginianus, cinereus major</foreign>
+                            </hi>,est presqu’aussi gros qu’un lapin,&amp; n’en differe pas beaucoup pour la couleur, car il est gris ;
+                            il a quatre doigts dans les piés de devant, &amp; cinq dans ceux de derriere.
+                            <bibl> <title rend="italic"> Synop. anim. quadrup.</title></bibl>
+                        </p>
+                    </sense>
+                </lem>
+
+                <rdg wit="#V2">
+                    <sense n="6">
+                        <p>
+                            Le <hi rend="italic">petit-gris</hi>,ou l'<hi rend="italic"> écureuil gris de Virginie </hi>,
+                            differe de l'<hi rend="italic">écureuil</hi> commun par sa couleur, il est
+                            d'ailleurs plus grand, et ses oreilles ne sont pas bordées de ces longs poils, comme dans notre <hi rend="italic">écureuil</hi>.
+                            Ses mœurs paroissent aussi différentes, il va souvent par troupes, et s'approche
+                            volontiers des rivieres pour les traverser, ce qu'il exécute selon le rapport des voyageurs,sur des écorces. 
+                            Cette espece se trouve dans le nord des deux continents, et fournit la
+                            fourrure connue sous le nom de <hi rend="italic">petit-gris</hi>.
+                        </p>
+                    </sense>
+                </rdg>
+            </app>
+
+            <app type="substantive">
+                <lem wit="#V1">
+                    <sense n="6">
+                        <p n="6">
+                            Les auteurs font mention d’autres<hi rend="italic">écureuils</hi>
+                            étrangers ; savoir s’ils sont de la même espece que l'<hi rend="italic">écureuil</hi>
+                            ordinaire, ou si c’est improprement qu’on leur a donné le nom d’<hi rend="italic">écureuil</hi> :
+                            pour s’en assûrer il faudroit avoir des descriptions exactes de ces animaux. 
+                            L’abus des noms n’est que trop fréquent en histoire naturelle ; nous en avons un exemple frappant dans l’
+                            <hi rend="italic">écureuil volant</hi>,qui est un vrai chat si ressemblant à de certains rats, qu’on seroit
+                            tenté de croire que ceux qui l’ont nommé <hi rend="italic">écureuil</hi>,
+                            n’avoient jamais vû ni <hi rend="italic">écureuils</hi>, ni loirs, ni lerots. Voyez
+                            <ref target="https://enccre.academie-sciences.fr/encyclopedie/">Lerot</ref>,
+                            <ref target="https://enccre.academie-sciences.fr/encyclopedie/">Quadrupede</ref>.
+                        </p>
+                    </sense>
+                </lem>
+            </app>
+
+            <app type="substantive">
+                <rdg wit="#V2">
+                    <sense n="7">
+                        <p>
+                            L'<hi rend="italic">écureuil suisse</hi>,
+                            <foreign xml:lang="la">sciurus virgatus</foreign> Linn, le <hi rend="italic">barbaresque</hi>,
+                            <foreign xml:lang="la">sciurus getulus</foreign>,Caii, Linn, et le
+                            <hi rend="italic">palmiste</hi> se distinguent par des rayes longitudinales alternativement blanches et brunes qu'ils ont
+                            sur le dos, et ne sont pas plus grands que des rats.
+                            Dans le <hi rend="italic">suisse</hi>,<bibl> <title>PL. d'Hist. Nat.</title> <biblScope unit="figure">37</biblScope>.</bibl>
+                            la bande qui s'étend le long de l'épine du dos, est brune,et a de chaque côté deux rayes blanches séparées par une brune :
+                            la disposition des bandes est la même dans le <hi rend="italic">barbaresque</hi> ;
+                            le <hi rend="italic">palmiste</hi>n'en a que trois blanches,dont l'une suit le milieu du dos. L'<hi rend="italic">écureuil suisse </hi>
+                            se trouve dans l'Amérique-septentrionale, et ne vit que sur terre, où il se creuse des terriers. Le <hi rend="italic">barbaresque</hi>
+                            et le <hi rend="italic">palmiste</hi> habitent en Afrique, et vivent comme nos <hi rend="italic">écureuils</hi>.
+                        </p>
+                    </sense>
+                </rdg>
+            </app>
+
+            <app type="substantive">
+                <rdg wit="#V2">
+                    <sense n="8">
+                        <p>
+                            L'<hi rend="italic">écureuil volant</hi> appellé par M. de Buffon
+                            <hi rend="italic">polatouche</hi>,du nom qu'il porte en Russie,
+                            se trouve dans les parties les plus septentrionales des deux continents. 
+                            La singularité qui le distingue, n'est pas un véritable vol, ni même un voltigement comme celui
+                            des chauves-souris, mais il se soutient en l'air et plane en quelque sorte,lorsqu'il saute d'un arbre à un autre, ou pour franchir
+                            un espace considérable,parce que sa peau, qui est plissée et lâche sur les côtés du corps, se tire alors en dehors, se bande
+                            entre les jambes de devant et celles de derriere,et présente ainsi à l'air une surface assez grande
+                            pour que la résistance de ce fluide retarde la chute. Voyez <ref target="https://enccre.academie-sciences.fr/encyclopedie/">
+                            <title>PL. d'Hist. Nat.</title> fig. 38 </ref>.
+                            Cet animal n'est pas le seul qui ait cette propriété.
+                            M. Linné en indique un autre dans le genre de l'<hi rend="italic">écureuil</hi>,et une espece de rat que Seba a pris pour un
+                            <hi rend="italic">écureuil</hi>,a la même conformation.
+                        </p>
+                    </sense>
+                </rdg>
+            </app>
+
+            <app type="substantive">
+                <rdg wit="#V2">
+                    <sense n="9">
+                        <p>
+                            Il y a encore d'autres especes d'<hi rend="italic">écureuils</hi>,
+                            tels que l'<hi rend="italic">écureuil noir de Moscovie </hi>,
+                            l'<hi rend="italic"> écureuil blond de Cayenne </hi>
+                            etc. Cons. Buffon <bibl> <title rend="italic">Hist. Nat. in-8.</title>tom. 7 et 9.</bibl> (D.).
+                        </p>
+                    </sense>
+                </rdg>
+            </app>
+
+        </entry>
         </body>
 
     </text>
