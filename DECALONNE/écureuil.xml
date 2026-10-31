@@ -60,10 +60,10 @@
                  <p>
         Le choix de lem et rdg permet de distinguer le texte de référence de la seconde lecture, sans prendre l'autre version du texte pour une simple correction ou une erreur.
                  </p>
-                  <p>
+                 <p>
         Les renvois vers d'autres articles de l'Encyclopédie sont encodés avec l'élément ref et son attribut target,qui dirrigera directement vers la notice correspondante sur le site de l'ENCCRE.
                  </p>  
-                <p>
+                 <p>
         La structure textuelle du dictionnaire est renforcée par les éléments entry, form, orth, sense et cit, qui permettent de distinguer l'entrée du texte , ses formes, ses différents sens ainsi que les références bibliographiques.
     </p>            </editorialDecl>
 
