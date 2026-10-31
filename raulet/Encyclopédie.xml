@@ -1,113 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>DOIGT</title>
-            </titleStmt>
-            <publicationStmt> </publicationStmt>
-            <sourceDesc> <author>Villedieu Marie-Catherine-Hortense</author>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text xml:lang="fr"> 
-    <!--Bonjour monsieur, je n'arrive pas vraiment à trouver d'autre edition de l'encyclopedie qui date du 18e, mais j'ai trouvé cet article, qui comporte bien des renvois, 
-    je n'ai pas eu le temps de bien encoder mais je fais ça en début de semaine-->
-    DOIGT, s. m. (Anat.)​
-
-​ <p>Les doigts forment les dernieres parties de la main. Ils sont naturellement au nombre de cinq à chaque main, nommés le pouce, l’index, le long doigt ou le doigt du milieu,
- l’annulaire, l’auriculaire ou le petit doigt. Voyez Pouce, Index, &c.
- </p>
-<p>Le pouce est le plus gros de tous les doigts, après lui c’est le troisieme ; le second & le quatrieme sont moins longs & presque égaux, 
-mais le quatrieme est un peu moins long que le second ; le cinquieme est le plus petit de tous. Leur rapport, leurs proportions, & leurs beautés perfectionnées par l’art, 
-brillent dans les tableaux de Vandyck ; mais leur structure anatomique est représentée dans les planches d’Eustachi & de Vesale : 
+<teiHeader>
+<fileDesc>
+<titleStmt>
+    <title>Doigt</title>
+<respStmt>
+<resp>Encodage TEI</resp>
+<name>Elodie Raulet</name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<p>Encodage de l'Encyclopedie pour les td 3,4 et 5 de TEI</p>
+</publicationStmt>
+<sourceDesc> 
+<listBibl>
+<bibl>
+<title>Encyclopedie</title>
+<date>18e</date>
+<note>Edition numéro X, Article "Doigt", volume X, page X</note>
+<author>Denis Diderot</author>
+<author>Jean le Rond d’Alembert</author>
+</bibl>
+<bibl>
+<title>Encyclopedie</title>
+<date>18e</date>
+<note>Edition numéro Y, Article "Doigt", volume Y, page Y</note>
+<author>Denis Diderot</author>
+<author>Jean le Rond d’Alembert</author>
+</bibl>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>J'ai décidé de conserver le style et l'orthographe du texte en ajoutant des descriptions sur la nature du mot doigt.
+</encodingDesc>
+<revisionDesc>
+<change when="2026-10-31">
+Correction du XML et ajout de sources et des balises encodingDesc et revisionDesc
+</change>
+</revisionDesc>
+</teiHeader>
+<text xml:lang="fr">
+<!--Désolée avec les vacances, je n'ai pas trop pris le temps de bosser-->
+<body>
+<entry>
+<form>
+<orth>Doigt</orth>
+<pron>dwa</pron>
+</form>
+<gramGrp>
+<pos>nom</pos>
+<gen>masculin</gen>
+<number>singulier</number>
+</gramGrp>
+<usg>Anat.</usg>
+<sense>
+​<p>Les doigts forment les dernieres parties de la main. Ils sont naturellement au nombre de cinq à chaque main, nommés le pouce, l’index, le long doigt ou le doigt du milieu,
+l’annulaire, l’auriculaire ou le petit doigt. Voyez Pouce, Index, &amp;c.
+</p>
+<p>Le pouce est le plus gros de tous les doigts, après lui c’est le troisieme ; le second &amp; le quatrieme sont moins longs &amp; presque égaux, 
+mais le quatrieme est un peu moins long que le second ; le cinquieme est le plus petit de tous. Leur rapport, leurs proportions, &amp; leurs beautés perfectionnées par l’art, 
+brillent dans les tableaux de Vandyck ; mais leur structure anatomique est représentée dans les planches d’Eustachi &amp; de Vesale : 
 c’est à ces planches que nous renvoyons le lecteur, car nous ne sommes ici qu’anatomistes.
 </p>
 <p>En cette qualité nous remarquons d’abord que les doigts représentent comme autant de pyramides osseuses, composées, longues, menues, convexes d’un côté, 
-legerement caves de l’autre, attachées par leur base au carpe & au métacarpe, d’où elles​ vont ensuite en diminuant aboutir à une espece de petite tête.
+legerement caves de l’autre, attachées par leur base au carpe &amp; au métacarpe, d’où elles​ vont ensuite en diminuant aboutir à une espece de petite tête.
 </p>
 <p>Les os des doigts sont au nombre de quinze, trois à chaque doigt ; ces os sont disposés en trois ordres, qui portent le nom de phalanges. Voyez Phalange.
 </p>
 <p>A l’extrémité de la derniere phalange de chaque doigt, il y a une petite tubérosité qui sert à appuyer l’ongle. Voyez Ongle.
 </p>
-<p>Les doigts ainsi composés de plusieurs pieces osseuses, sont rendus plus plians, & plus propres à faire différens mouvemens. 
-Ils sont convexes par-dehors, concaves en-dedans, & un peu applatis pour loger plus commodément les tendons des muscles fléchisseurs. 
+<p>Les doigts ainsi composés de plusieurs pieces osseuses, sont rendus plus plians, &amp; plus propres à faire différens mouvemens. 
+Ils sont convexes par-dehors, concaves en-dedans, &amp; un peu applatis pour loger plus commodément les tendons des muscles fléchisseurs. 
 Tout le long des côtes de leurs os, il y a une crête à laquelle est attachée une gaîne cartilagineuse qui enveloppe les tendons fléchisseurs. 
-La peau qui couvre les doigts se trouve comme collée aux endroits de la gaîne qui répondent aux articulations de la seconde phalange avec la premiere & avec la troisieme. 
-Ces os étant joints par ginglyme, c’est-à-dire par de petites têtes & de petites cavités qui se reçoivent réciproquement, ils ont le mouvement de flexion & d’extension,
- & ils sont affermis les uns avec les autres par des ligamens. Leur articulation avec le métacarpe se fait par artrodie ; 
- & cette maniere d’articulation les rend capables de se mouvoir en tout sens. Les ligamens de toutes ces articulations étant lâches & capsulaires, 
- facilitent tous leurs mouvemens. Les muscles qui y sont destinés, & qui les exécutent, ont été partagés en communs & en propres.
+La peau qui couvre les doigts se trouve comme collée aux endroits de la gaîne qui répondent aux articulations de la seconde phalange avec la premiere &amp; avec la troisieme. 
+Ces os étant joints par ginglyme, c’est-à-dire par de petites têtes &amp; de petites cavités qui se reçoivent réciproquement, ils ont le mouvement de flexion &amp; d’extension,
+&amp; ils sont affermis les uns avec les autres par des ligamens. Leur articulation avec le métacarpe se fait par artrodie ; 
+&amp; cette maniere d’articulation les rend capables de se mouvoir en tout sens. Les ligamens de toutes ces articulations étant lâches &amp; capsulaires, 
+facilitent tous leurs mouvemens. Les muscles qui y sont destinés, &amp; qui les exécutent, ont été partagés en communs &amp; en propres.
 </p>
-<p>Les muscles communs sont ceux qui meuvent les quatre derniers doigts ; & on a donné le nom de muscles propres à ceux qui font les mouvemens particuliers de certains doigts. 
-Les uns & les autres portent aussi le nom de fléchisseurs ou d’extenseurs, d’abducteurs ou d’adducteurs, selon leurs différentes fonctions. 
-Les muscles communs ont reçu les noms de sublime, profond, d’extenseurs communs, de lombricaux, & d’interosseux. V. Sublime, Profond, &c.
+<p>Les muscles communs sont ceux qui meuvent les quatre derniers doigts ; &amp; on a donné le nom de muscles propres à ceux qui font les mouvemens particuliers de certains doigts. 
+Les uns &amp; les autres portent aussi le nom de fléchisseurs ou d’extenseurs, d’abducteurs ou d’adducteurs, selon leurs différentes fonctions. 
+Les muscles communs ont reçu les noms de sublime, profond, d’extenseurs communs, de lombricaux, &amp; d’interosseux. V. Sublime, Profond, &amp;c.
 </p>
-<p>Les muscles propres des doigts appartiennent au pouce, au doigt index, & au doigt auriculaire. Voyez Pouce, Index, &c.
+<p>Les muscles propres des doigts appartiennent au pouce, au doigt index, &amp; au doigt auriculaire. Voyez Pouce, Index, &amp;c.
 </p>
 <p>Voilà comme M. Winslow divise les muscles qui servent aux mouvemens des doigts ; M. Lieutaud les distingue en muscles extenseurs, muscles fléchisseurs, 
-& muscles latéraux ; & cette derniere méthode nous paroît plus simple & plus conforme à la structure de la main. Passons aux vaisseaux & aux nerfs des doigts.
+&amp; muscles latéraux ; &amp; cette derniere méthode nous paroît plus simple &amp; plus conforme à la structure de la main. Passons aux vaisseaux &amp; aux nerfs des doigts.
 </p>
-<p>L’artere cubitale jette plusieurs rameaux le long des parties latérales des doigts, & principalement des quatre derniers. 
-L’artere radiale fournit des rameaux au pouce ; & se continuant derriere les tendons fléchisseurs des doigts, vient s’anastamoser avec un rameau de la cubitale. 
-La veine céphalique forme des aréoles qui vont au pouce, aux muscles latéraux & interosseux des doigts, & communique avec un petit rejetton de la veine basilique, 
-laquelle à l’égard des doigts suit à peu-près la route de l’artere de ce nom. Le nerf cubital, le nerf radial, & le nerf médian, 
+<p>L’artere cubitale jette plusieurs rameaux le long des parties latérales des doigts, &amp; principalement des quatre derniers. 
+L’artere radiale fournit des rameaux au pouce ; &amp; se continuant derriere les tendons fléchisseurs des doigts, vient s’anastamoser avec un rameau de la cubitale. 
+La veine céphalique forme des aréoles qui vont au pouce, aux muscles latéraux &amp; interosseux des doigts, &amp; communique avec un petit rejetton de la veine basilique, 
+laquelle à l’égard des doigts suit à peu-près la route de l’artere de ce nom. Le nerf cubital, le nerf radial, &amp; le nerf médian, 
 donnent des rameaux à tous les doigts de la main. Mais quels sont les usages des doigts ? ils sont infinis.
 </p>
 <p>Outre l’utilité perpétuelle que nous en retirons dans presque toutes les choses de la vie, outre leur secours essentiel pour faire l’appréhension, 
 ils sont le principal organe du toucher, non pas uniquement parce qu’ils ont à leur extrémité une plus grande quantité de houppes nerveuses, 
-mais encore parce que ce sont des parties toutes mobiles, toutes flexibles, toutes agissantes en même tems, & obéissantes à la volonté, 
+mais encore parce que ce sont des parties toutes mobiles, toutes flexibles, toutes agissantes en même tems, &amp; obéissantes à la volonté, 
 suivant la remarque de l’auteur de l’histoire naturelle de l’homme. Comme le tou-​cher n’est, dit-il, qu’un contact de superficie des corps, 
-les doigts ont l’avantage d’embrasser à la fois avec un sentiment exquis une plus grande partie de la superficie des corps, & de les toucher par tous leurs points. 
-Ils peuvent d’ailleurs s’étendre, se raccourcir, se plier, se séparer, se joindre, & s’ajuster à toutes sortes de surfaces, 
-autre avantage pour rendre cette partie l’organe de ce sentiment exact & précis, qui est nécessaire pour nous donner l’idée de la forme des corps.
+les doigts ont l’avantage d’embrasser à la fois avec un sentiment exquis une plus grande partie de la superficie des corps, &amp; de les toucher par tous leurs points. 
+Ils peuvent d’ailleurs s’étendre, se raccourcir, se plier, se séparer, se joindre, &amp; s’ajuster à toutes sortes de surfaces, 
+autre avantage pour rendre cette partie l’organe de ce sentiment exact &amp; précis, qui est nécessaire pour nous donner l’idée de la forme des corps.
 </p>
-<p>Si les mains des hommes avoient un plus grand nombre de doigts, ajoûte le même auteur ; si ces doigts avoient un plus grand nombre d’articulations & de mouvemens, 
+<p>Si les mains des hommes avoient un plus grand nombre de doigts, ajoûte le même auteur ; si ces doigts avoient un plus grand nombre d’articulations &amp; de mouvemens, 
 il n’est pas douteux que le sentiment du toucher ne fût plus parfait, parce que la main pourroit alors s’appliquer plus immédiatement sur les différentes surfaces des corps ; 
 il n’est pas douteux aussi que le sentiment du toucher ne fût infiniment plus délicat par la plus grande quantité de houppes nerveuses, qui seroient affectées en même tems.
 </p>
 <p>Supposons au contraire la main sans doigts, le sentiment du toucher seroit beaucoup plus grossier, 
-& nous n’aurions que des notions très-imparfaites de la forme des corps les plus palpables ; il nous faudroit beaucoup plus d’expériences & de tems pour acquérir ces notions. 
-Reconnoissons donc la bonté & la sagesse de la Providence dans ce qu’elle donne & dans ce qu’elle refuse. Quel seroit l’usage d’un toucher plus délicat que le nôtre, 
-si rendus extrêmement sensibles au moyen d’une telle organisation, les douleurs & les agonies s’introduisoient par chaque doigt. 
+&amp; nous n’aurions que des notions très-imparfaites de la forme des corps les plus palpables ; il nous faudroit beaucoup plus d’expériences &amp; de tems pour acquérir ces notions. 
+Reconnoissons donc la bonté &amp; la sagesse de la Providence dans ce qu’elle donne &amp; dans ce qu’elle refuse. Quel seroit l’usage d’un toucher plus délicat que le nôtre, 
+si rendus extrêmement sensibles au moyen d’une telle organisation, les douleurs &amp; les agonies s’introduisoient par chaque doigt. 
 Combien détesterions-nous un présent si funeste !
 </p>
 <p>On n’ignore guere que la nature exerce ici ses jeux. Il n’est pas rare de voir venir des enfans au monde avec plus de cinq doigts, soit aux mains, soit aux piés. 
 J’en tire le premier exemple de l’Ecriture-sainte. Voici le passage même : « Dans la quatrieme bataille qui se donna en Geph, 
-il s’y trouva un homme fort grand qui avoit six doigts à chaque main & à chaque pié, c’est-à-dire vingt-quatre en tout : il étoit de la lignée d’Etrapha, blasphéma Israel, 
-& fut tué par Jonathas fils de Samaa frere de David ». II. liv. des rois, ch. xxj. vers. 20 & 21.
+il s’y trouva un homme fort grand qui avoit six doigts à chaque main &amp; à chaque pié, c’est-à-dire vingt-quatre en tout : il étoit de la lignée d’Etrapha, blasphéma Israel, 
+&amp; fut tué par Jonathas fils de Samaa frere de David ». II. liv. des rois, ch. xxj. vers. 20 &amp; 21.
 </p>
-<p>Pline le naturaliste parle d’une famille où étoient deux sœurs qui avoient six doigts aux mains, & qui pour cette raison furent appellées sexdigites, liv. xj. chap. 43.
+<p>Pline le naturaliste parle d’une famille où étoient deux sœurs qui avoient six doigts aux mains, &amp; qui pour cette raison furent appellées sexdigites, liv. xj. chap. 43.
 </p>
 <p>Anne de Boulen si fameuse dans l’histoire d’Henri VIII. si séduisante par ses manieres, si pleine de charmes, 
 qu’il sembloit que tous les agrémens du monde se fussent réunis en sa personne, avoit six doigts à la main droite, une dent mal rangée à la machoire supérieure, 
-& sur l’os de la gorge une petite élévation qu’elle cachoit avec beaucoup d’art. Larrey, hist. d’Angl.
+&amp; sur l’os de la gorge une petite élévation qu’elle cachoit avec beaucoup d’art. Larrey, hist. d’Angl.
 </p>
-<p>En 1687, M. Saviard a vû à l’Hôtel-Dieu un enfant nouveau-né qui avoit dix doigts à chaque main, & autant aux piés, dont les phalanges paroissoient toutes rompues & blessées.
+<p>En 1687, M. Saviard a vû à l’Hôtel-Dieu un enfant nouveau-né qui avoit dix doigts à chaque main, &amp; autant aux piés, dont les phalanges paroissoient toutes rompues &amp; blessées.
 Saviard, observ. chirurg.
 </p>
-<p>Voici un cas plus étrange encore. Ruysch, dans le catalogue des choses rares, à la fin de son traité intitulé, observationes anatomicæ & chirurgicæ, 
-a donné la description d’un squelete qui avoit un grand nombre de doigts surnuméraires, & qu’il appelle pour cela sceleton polydactilon ; la main droite avoit sept doigts, 
-la main gauche six ; & outre cela le pouce étoit double ; le pié droit avoit huit doigts, le pié gauche neuf ; le métatarse droit six os, & le métatarse gauche sept. 
-La figure & la description du même squelete se trouvent dans le traité de Kerkringius intitulé, spicilegium anatomicum ; 
-& M. Ruysch en parle encore dans ses derniers ouvrages intitulés aversaria, decad, 1. n. 8.​
+<p>Voici un cas plus étrange encore. Ruysch, dans le catalogue des choses rares, à la fin de son traité intitulé, observationes anatomicæ &amp; chirurgicæ, 
+a donné la description d’un squelete qui avoit un grand nombre de doigts surnuméraires, &amp; qu’il appelle pour cela sceleton polydactilon ; la main droite avoit sept doigts, 
+la main gauche six ; &amp; outre cela le pouce étoit double ; le pié droit avoit huit doigts, le pié gauche neuf ; le métatarse droit six os, &amp; le métatarse gauche sept. 
+La figure &amp; la description du même squelete se trouvent dans le traité de Kerkringius intitulé, spicilegium anatomicum ; 
+&amp; M. Ruysch en parle encore dans ses derniers ouvrages intitulés aversaria, decad, 1. n. 8.​
 </p>
 <p>Mais je ne dois pas taire qu’en parcourant les fastes anatomiques, j’ai trouvé deux exemples de doigts surnuméraires sans difformité ni incommodité. 
 Ces deux exemples curieux termineront mon article.
 </p>
-<p>En 1743, MM. de l’académie des Sciences virent dans une de leurs assemblées un petit garçon âgé de seize mois, qui avoit six doigts à chaque main & à chaque pié ; 
-le sixieme doigt de la main droite étoit à côté du petit doigt, & articulé avec le même os du métacarpe, qui vers son extrémité étoit plus large qu’à l’ordinaire, 
-& s’y terminoit par deux petites éminences, dont l’une soûtenoit le petit doigt ordinaire, & l’autre le doigt surnuméraire. 
+<p>En 1743, MM. de l’académie des Sciences virent dans une de leurs assemblées un petit garçon âgé de seize mois, qui avoit six doigts à chaque main &amp; à chaque pié ; 
+le sixieme doigt de la main droite étoit à côté du petit doigt, &amp; articulé avec le même os du métacarpe, qui vers son extrémité étoit plus large qu’à l’ordinaire, 
+&amp; s’y terminoit par deux petites éminences, dont l’une soûtenoit le petit doigt ordinaire, &amp; l’autre le doigt surnuméraire. 
 A la main gauche le doigt surnuméraire étoit aussi à côté du petit doigt ordinaire, mais articulé sur un os particulier ou surnuméraire du métacarpe ; 
-le sixieme doigt de chaque pié étoit comme aux mains à côté du petit doigt, & ils avoient chacun leur os propre de métatarse ; de sorte qu’au lieu de cinq os à l’ordinaire, 
-chaque métatarse en avoit six. Cette augmentation de doigts faisoit seulement paroître un peu plus de largeur aux mains & aux piés de l’enfant, mais sans difformité,
- & même il remuoit tous les doigts surnuméraires avec la même facilité que les autres. Hist. de l’acad. année 1743.
+le sixieme doigt de chaque pié étoit comme aux mains à côté du petit doigt, &amp; ils avoient chacun leur os propre de métatarse ; de sorte qu’au lieu de cinq os à l’ordinaire, 
+chaque métatarse en avoit six. Cette augmentation de doigts faisoit seulement paroître un peu plus de largeur aux mains &amp; aux piés de l’enfant, mais sans difformité,
+&amp; même il remuoit tous les doigts surnuméraires avec la même facilité que les autres. Hist. de l’acad. année 1743.
 </p>
 <p>Thomas Bartholin dans les actes de Copenhague, rapporte un exemple tout semblable à celui-ci, d’un negre qui n’étoit point incommodé de cette multiplication de doigts, 
-& qui paroissoit au contraire, dit Bartholin, l’avoir reçu de la nature pour un plus grand avantage. Acta Hafniensia, vol. II. n. 32.
+&amp; qui paroissoit au contraire, dit Bartholin, l’avoir reçu de la nature pour un plus grand avantage. Acta Hafniensia, vol. II. n. 32.
 </p>
 <p>Cependant il ne faut pas abuser des deux cas singuliers que nous venons de citer, pour laisser les doigts surnuméraires aux enfans qui viennent au monde, 
-car il est certain qu’ils causent presque toûjours une difformité & une incommodité qui demande leur extirpation ; l’Anatomie souffre cette extirpation, 
-& la Chirurgie l’exécute avec succès. Voyez l’article suiv. Article de M. le Chev. de Jaucourt​
+car il est certain qu’ils causent presque toûjours une difformité &amp; une incommodité qui demande leur extirpation ; l’Anatomie souffre cette extirpation, 
+&amp; la Chirurgie l’exécute avec succès. Voyez l’article suiv. Article de M. le Chev. de Jaucourt​
 </p>
+</sense>
+</entry>
+</body>
 </text>
+</TEI>
+
