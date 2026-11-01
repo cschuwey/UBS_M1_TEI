@@ -5,23 +5,31 @@
             <titleStmt>
                 <title>Cerisier</title>
                 <author>Daubenton</author>
-                <author>Argenville</author>
+                <author>D'Argenville</author>
                 <author>Vandenesse</author>
+                <author>Landois</author>
             </titleStmt>
             <publicationStmt>
                 <authority>Elisa DIDOT</authority>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <title>Encyclopédie</title>
+                    <title>Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
                     <editor>Editeurs originaux</editor>
-                    <editor>DIDEROT</editor>
-                    <editor>D'ALEMBERT</editor>
+                    <editor>Diderot</editor>
+                    <editor>d'Alembert</editor>
                     <date when="1752">18ème siècle</date>
-                    <editor>Edition numérique</editor>
+                    <editor>Edition numérique n°1</editor>
                     <editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-4294-0/"/></editor>
                     <date>2021-2026</date>
+                    <title>Encyclopédie d'Yverdon</title>
+                    <editor>Fortunato De Felice</editor>
+                    <date>1770-1780</date>
                 </bibl>
+                <listWit>
+                <wit xml:id="EDA">Entrée tirée de la version de l'Encyclopédie de Diderot et d'Alemnbert disponible sur ENCCRE</wit>
+                <wit xml:id="EY">Entrée tirée de la version de l'Encyclopédie d'Yverdon</wit>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -29,17 +37,28 @@
                 <p>Encodage réalisé dans le cadre du cours de TEI de M.SCHUWEY, année scolaire 2026-2027</p>
             </projectDesc>
             <editorialDecl>
-                <p>J'ai choisi d'utiliser la balise entryFree pour respecter la forme classique d'une définition dans une dictionnaire.</p>
+                <p>J'ai choisi de respecter la mise en forme du mot Cerisier en majuscules afin de respecter le choix de l'auteur. Avec l'attribut rend caps, ce choix pourra être annulé lors de l'exportation.
+                J'ai également choisi de respecter l'abbréviation des mots masculin et singulier en m. et s., tout en utilisant l'attribut value afin de bien préciser leur valeur.
+                Idem pour l'abbreviation Hist. nat. bot. De manière plus générale, j'ai choisi de respecter la ponctuation et l'orthographe originales pour les deux textes.</p>
+                <p></p>
+                <p>Je n'ai pas utilisé la balise lem car je suis partie du principe que la définition récupérée sur Yverdon n'est pas une amélioration la définition encodée en premier (ENCCRE) car les auteurs ne sont pas les mêmes (Daubeton, D'Argenville et Vandenesse VS. Landois). 
+                De plus elles diffèrent de par leur taille, leur exhaustivité et leur contenu, meme si elles ont quelques points communs.</p>
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <date>Mercredi 07 novembre 2026</date>
-            <p>Travail en cours puis à la BU : remplissage de la partie métadonnées, début du travail sur l'article.</p>
+        <list>
+        <item><date when="07-10-2026">Mercredi 07 octobre 2026</date>Travail en cours puis à la BU : d'abord sur la partie métadonnées, puis début du travail sur l'article.</item>
+        <item><date when="26-10-2026">Lundi 26 octobre 2026</date>Correction du balisage des paragraphes : j'ai remplaçé les balises p par des balises sens.</item>
+        <item><date when="27-10-2026">Mardi 27 octobre 2026</date>Début du travail sur l'encodage de la deuxième version de la notice (version Yverdon).</item>
+        <item><date when="01-11-2026">Dimanche 1er novembre 2026</date>Ajout des balises abbr pour indiquer des différentes signatures.</item>
+        </list>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <entryFree>
+                <app>
+                <rdg wit="EDA">
                 <form><orth rend="caps">Cerisier</orth>, </form>
                 <etym>cerasus</etym>, 
                 <gramGrp>
@@ -47,36 +66,100 @@
                     <gen value="masculine">m.</gen>
                     <usg type="dom" rend="italic">Hist. nat. bot.</usg>
                 </gramGrp>
-                <sense>
-                    <cit type="sense">
-                        <quote>genre d'arbre à fleur en rose composée de plusieurs pétales disposés en rond. Le pistil sort du calice, &amp; devient dans la suite un fruit charnu presque rond, ou en cœur, qui renferme un noyau de la même forme, dans lequel il y a une semence. Ajoûtez au caractere de ce genre le port de ses especes.</quote>    
-                        <bibl>
-                            <author xml:id="Tournefort">Tournefort</author>, 
-                            <title> Inst. rei herb.</title>
-                        </bibl>
-                    </cit>
-                    <xr><emph>Voyez</emph> <ref rend="caps">Plante</ref>.</xr>
-                    <p>Le cerisier se distingue en <emph>bigareautier</emph> &amp; en <emph>merisier</emph>.</p>
-                    <p>Le <emph>bigareautier</emph> a les mêmes feuilles &amp; le même bois que le cerisier : son fruit est quarré, plus ferme, plus croquant, &amp; d'un goût plus agréable, mais moins fondant que la cerise : il est presque blanc, mêlé d'un peu de rouge.</p>
-                    <p>Le <emph>guinier</emph> a aussi le même bois &amp; la même feuille que le <emph>cerisier</emph> : c'est un fruit précoce qui vient avant les autres especes. La guine est rouge, blanche, cendrée, moins ronde que la cerise, la chair moins ferme &amp; plus fade.</p>
-                    <p>Le <emph>merisier</emph> est un arbre sauvage.<xr> <emph>Voy.</emph> <ref rend="caps">Merisier</ref></xr></p>
-                    <p>Le <emph>griottier</emph> a de plus beau fruit que les autres. <xr><emph>Voyez</emph> <ref rend="caps">Griottier</ref></xr></p>
-                    <p>On appelle tous ces fruits <emph>des fruits rouges</emph>.</p>
-                    <p>Les belles cerises à courte queue sont bonnes à confire, &amp; elles croissent dans la vallée de Montmorency, où on les appelle <emph>cerises coulardes</emph>.</p>
-                    <p>Il y a encore une cerise appellée <emph>royale</emph> ou d'<emph>Angleterre</emph>, qui revient à celle de Montmorency ou à la griotte.</p>
-                    <p>Les <emph>cerisiers</emph> se multiplient par leurs noyaux germés &amp; par des rejettons à leur pié : mais on les greffe ordinairement sur le <emph>merisier rouge</emph>, qui est le plus abondant en seve. Quand ces rejettons sont grands, on greffe dessus de <emph>grosses griottes</emph>, qui réussissent mieux que sur le <emph>merisier</emph>.</p>
-                    <p>Il y a deux especes de <emph>cerisiers</emph> dont le fruit est d'usage en Medecine : 
+                </rdg>
+                <rdg wit="EY">
+                <form><orth rend="caps">Cerisier</orth>, </form>
+                <abbr role="author" key="Landois">R</abbr>
+                <gramGrp>
+                    <number value="singular">s.</number>
+                    <gen value="masculine">m.</gen>
+                    <usg type="dom" rend="italic">Hist. nat. bot.</usg>
+                </gramGrp>
+                </rdg>
+                </app>
+                <def>
+                <app>
+                    <rdg wit="EDA">
+                        <cit type="sense">
+                            <quote>genre d'arbre à fleur en rose composée de plusieurs pétales disposés en rond. Le pistil sort du calice, &amp; devient dans la suite un fruit charnu presque rond, ou en cœur, qui renferme un noyau de la même forme, dans lequel il y a une semence. Ajoûtez au caractere de ce genre le port de ses especes.</quote>    
+                            <bibl>
+                                <author xml:id="Tournefort">Tournefort</author>, 
+                                <title> Inst. rei herb.</title>
+                            </bibl>
+                        </cit>
+                        <xr><emph>Voyez</emph> <ref rend="caps">Plante</ref>.</xr>
+                        <abbr role="author" key="Daubenton">I</abbr></rdg>
+                    <rdg wit="EY">
+                        <p>C'est un genre d'arbre, dont il y a un très-grand nombre d'especes, qui différent par leur port, par la couleur, la forme et la saveur de leurs fruits. Ces diverses especes réunies contrasteront davantage, et leurs différences se saisiront plus facilement.</p></rdg>
+                </app>
+                </def>
+                <div type="types">
+                    <app>
+                        <rdg wit="EDA">Le cerisier se distingue en <emph>bigareautier</emph> &amp; en <emph>merisier</emph>.</rdg>
+                        <rdg wit="EY">Après la description du <emph>cerisier ordinaire à fruits doux</emph>, nous verrons les autres especes; savoir, le <emph>bigarreaudier</emph>, le <emph>bois de Sainte-Lucie</emph> ou <emph>Padas</emph>, le <emph>griottier</emph>, le <emph>guignier</emph>, le <emph>mahaleb</emph>, le <emph>mérisier</emph>, le <emph>ragouminier</emph> ou <emph>néga</emph> ou <emph>minel de Canada</emph>.<xr>On pourra voir les autres especes dans l'<ref type="Encyclopédie">Encyclopédie Œconomique<bibl>Encyclopédie Economique ou système général, 1771</bibl></ref></xr>.</rdg></app>
+                </div>
+                <div type="example">
+                    <app> <!--Question : ici dans les 2 déf il y a une espèce de liste qui énumère différentes espèces de cerisiers et leurs attributs. Ca marche si je les sépare dans une balise div avec un attribut exemple ?-->
+                        <!--Question : ici je n'ai pas de passage équivalent dans l'Encyclopédie de Diderot, est ce que je peux ne rien mettre ou bien je n'insère pas ce passage en plus ?-->
+                        <rdg wit="EY">Le <emph>cerisier</emph>, <foreign xml:lang="la">cerasus sativa, fructu rotundo, rubro</foreign> et <foreign xml:lang="la">>acido</foreign>, est un arbre dont le tronc ne vient que d'une moyenne grosseur. Il ne s'éleve pas fort haut, et est garni de beaucoup de rameaux fragiles, qui portent des feuilles dentelées à leur bord. Il fleurit des premiers: ses fleurs, qui paroissent avant les autres, ont un éclat charmant pour leur nombre et leur blancheur: elles sont en rose. A la fleur succede un fruit arrondi, rouge lorsqu'il est mûr: sa couleur contraste agréablement avec les feuilles: sa chair qui est succulente, a une saveur, en quelque maniere, vineuse. Ce fruit est aussi sain, qu'il est beau et agréable. Il y a une espece de <emph>cerisier</emph> à fruit blanc, qui n'est pas encore fort commun.
+                        En faisant fermenter le jus de cerises et leurs noyaux concassés, et y ajoutant du sucre, on obtient une liqueur fort agréable, qu'on nomme <emph>vin de cerise</emph>. Le suc des cerises prend, au moyen du sucre, autant de force qu'en a de bon vin, et fait une liqueur agréable à boire, et qui peut se conserver pendant plusieurs années. Les cerises, soit crues, soit préparées de diverses manieres, font l'ornement des tables. On tire à l'alembic une eau-de-vie de cerises fermentées, qui est très-violente. Celle qu'on nomme dans la Lorraine Allemande <foreign xml:lang="de">kirschenwasser</foreign>, est faite avec les cerises: on en distille beaucoup dans les Alpes. Cette eau pourroit bien, comme celle du laurier-cerise, avoir quelque chose de plus dangereux; on remarque qu'elle tue fort vite ceux qui en abusent.
+                        Le bois du <emph>cerisier</emph> est blanchâtre à la circonférence et rougeâtre dans le cœur. Il y a une espece de <emph>cerisier</emph> à fleur double, qui ne donne point de fruit, mais qui fait un coup d'œil admirable par la richesse de ses bouquets de fleurs. On en observe un de cette espece dans la classe des arbres, du jardin du roi de France.</rdg></app>
+                </div>
+                <div type="exemple">
+                    <app>
+                        <rdg wit="EDA">Le <emph>bigareautier</emph> a les mêmes feuilles &amp; le même bois que le cerisier : son fruit est quarré, plus ferme, plus croquant, &amp; d'un goût plus agréable, mais moins fondant que la cerise : il est presque blanc, mêlé d'un peu de rouge.</rdg>
+                        <rdg wit="EY">Le <emph>bigarreaudier</emph>, <foreign xml:lang="la">cerasus carne dura</foreign>, est garni de feuilles plus grandes que celles du cerisier ordinaire: ses fruits sont gros, oblongs, approchant en quelque maniere, de la figure d'un cœur: leur chair est blanche et rouge; ce fruit est de difficile digestion. Il est très-sujet à être piqué de vers: son bois est assez semblable à celui du mérisier, et plus dur que celui du cerisier.</rdg></app>
+                </div>
+                <div type="exemple">
+                    <app>
+                        <rdg wit="EY">Le <emph>bois de Sainte-Lucie</emph> est une espece de <emph>cerisier sauvage</emph>, dont le fruit est très-petit, et n'est point mangeable; mais son bois est très-recherché par les ébénistes, à cause de son odeur agréable. Cette espece de <emph>cerisier</emph> se couvre au mois de Mai, de belles grappes de fleurs; ce qui le rend propre à servir de décorations dans les bosquets printaniers.
+                        <!--Remarque : il faut que j'encode proprement les citations dans le passage suivant.-->
+                        Je n'ai pu m'assurer encore, dit M. Haller, si c'est le mahaleb, qu'on appelle bois de Sainte-Lucie, ou si c'est le Padus. M. Buchoz assure, que c'est le mahaleb. M. de Tschoudi, grand bailli de Metz, très-bon connoisseur en botanique, m'a assuré tout aussi fortement, que c'est le Padus, le mahaleb ne croissant pas en Lorraine. M. de Valmont paroît réunir les deux opinions.</rdg></app>
+                </div>
+                <div type="exemple">
+                    <app>
+                        <rdg wit="EY">Le <emph>griottier</emph>, <foreign xml:lang="la">cerasus sativa fructu majori</foreign>, est un arbre qui differe peu du <emph>cerisier</emph>: il s'éleve moins haut. Ses fleurs sont semblables à celles du <emph>cerisier</emph>; mais il donne de grosses cerises qui sont fermes, plus grosses et plus douces que les autres, tirant un peu sur le noir, et suspendues à une queue plus courte. On les appelle <emph>griottes</emph>. Depuis le tems de Lucullus, on cultive cet arbre dans toute l'Europe.</rdg></app>
+                </div>
+                <div type="exemple">
+                    <app>
+                        <rdg wit="EDA">Le <emph>guinier</emph> a aussi le même bois &amp; la même feuille que le <emph>cerisier</emph> : c'est un fruit précoce qui vient avant les autres especes. La guine est rouge, blanche, cendrée, moins ronde que la cerise, la chair moins ferme &amp; plus fade.</rdg>
+                        <rdg wit="EY">Le <emph>guignier</emph>, <foreign xml:lang="la">cerasus fructu aqueo</foreign>, est une espece de cerisier qui porte des fruits qui ne different des bigarreaux qu'en ce qu'ils sont plus mols, plus succulens, et d'un rouge foncé. Il y en a cependant une espece qui ressemble beaucoup aux bigarreaux; mais elles sont moins saines que les cerises, et se corrompent plus promptement.</rdg></app>
+                </div>
+                <div type="exemple">
+                    <app>
+                        <rdg wit="EDA">Le <emph>merisier</emph> est un arbre sauvage.<xr> <emph>Voy.</emph> <ref rend="caps">Merisier</ref></xr></rdg>
+                        <rdg wit="EY">Le <emph>mérisier</emph> est le grand cerisier des bois, <foreign xml:lang="la">cerasus fructu nigro</foreign>. Il porte de petites cerises noires à longue queue, que l'on nomme <emph>mérises</emph>. Elles ont un goût doux et agréable; mais elles teignent la bouche et les doigts en un noir purpurin. Il y a aussi une espece de mérisier à fleurs doubles, qui forme dans le mois de Mai, des guirlandes d'une beauté admirable. On greffe les <emph>cerisiers</emph> sur les merisiers sauvages, et ils produisent des fruits plus gros et meilleurs. On doit préférer, dit-on, les mérisiers à fruit blanc. Le bois du mérisier est très-recherché par les tourneurs, et sur-tout par les luthiers qui prétendent qu'il est sonore.</rdg></app>
+                </div>
+                <div type="exemple">
+                    <app>
+                        <rdg wit="EY">Le <emph>ragouminier</emph> ou <emph>néga</emph>, ou <emph>minel du Canada</emph>, est une espece de <emph>cerisier</emph> nain à feuilles de saules. On peut mettre ce petit arbuste dans les plates-bandes des bosquets printaniers. Mais dans les remises, ainsi que les autres especes de cerisiers, il est propre à attirer les oiseaux, quoique son fruit soit un peu âcre.
+                        Il croît encore, sur les lieux montagneux comme les Alpes et les Pyrenées, un petit <emph>cerisier</emph> appellé <emph>cerisier bas</emph>, haut de plus de deux pieds. Son fruit est une baie rouge de la grosseur d'un pois, ou une petite cerise marquée de deux points, remplie d'un suc amer et de mauvais goût. Si l'on en avale quatre ou cinq, elles excitent le vomissement, purgent très-violemment et causent des convulsions. Ce <emph>cerisier</emph> est le <emph>frole</emph> des Bourguignons, le <foreign xml:lang="la">chamæ-cerasus</foreign> des auteurs, le <emph>chevre-feuille</emph> à tige droite des Anglois, le <emph>petit bois</emph> des paysans, et le <emph>lonicera</emph> de Linné. On distingue aussi des <emph>cerisiers bas</emph> à fruit bleu et à fruit noir. Le <foreign xml:lang="la">chamæ-cerasus</foreign> n'est point un <emph>cerisier</emph> proprement dit.
+                        L'on trouve aussi aux Antilles le cerisier ordinaire, et une autre espece que les habitans du pays de Cayenne appellent cerisier cannelé; c'est le malphigia fructu cerasino sulcato, Barr. Les cerises qu'il produit ont un goût aromatique: elles sont plus grosses que les nôtres, et deviendroient bien meilleures si on les cultivoit avec soin.
+                        Il découle naturellement des <emph>cerisiers</emph> une gomme adoucissante et incrassante comme la gomme arabique. <xr>Voyez l'<ref type="Encyclopédie">Encyclopédie Œconomique<bibl>Encyclopédie Economique ou système général, 1771</bibl></ref></xr></rdg></app>
+                </div> <!--Remarque : Je me suis arrêtée ici pour l'ajout de la def de l'Encyclopédie d'Yverdon mais j'ajouterai les autres sens (culture et usages) après votre retour sur cette partie de mon travail-->
+                <div type="exemple"> <!--Question : Le paragraphe concernant le griottier dans l'Encyclopédie d'Yverdon est plus haut dans le texte. Comment je fais pour les lier ?-->
+                    <app>
+                        <rdg wit="EDA">Le <emph>griottier</emph> a de plus beau fruit que les autres. <xr><emph>Voyez</emph> <ref rend="caps">Griottier</ref></xr></rdg></app>
+                </div>
+
+                <!--Je me suis arrêtée ici dans mon travail car j'ai l'impression de faire n'importe quoi. J'attends votre retour et je vous enverrai un mail pour vous expliquer plus en détails ce qui me pose problème.-->
+                <sense>On appelle tous ces fruits <emph>des fruits rouges</emph>.</sense>
+                <sense>Les belles cerises à courte queue sont bonnes à confire, &amp; elles croissent dans la vallée de Montmorency, où on les appelle <emph>cerises coulardes</emph>.</sense>
+                <sense>Il y a encore une cerise appellée <emph>royale</emph> ou d'<emph>Angleterre</emph>, qui revient à celle de Montmorency ou à la griotte.</sense>
+                <sense>Les <emph>cerisiers</emph> se multiplient par leurs noyaux germés &amp; par des rejettons à leur pié : mais on les greffe ordinairement sur le <emph>merisier rouge</emph>, qui est le plus abondant en seve. Quand ces rejettons sont grands, on greffe dessus de <emph>grosses griottes</emph>, qui réussissent mieux que sur le <emph>merisier</emph>.
+                <abbr role="author" key="d'Argenville">K</abbr></sense>
+                <sense>Il y a deux especes de <emph>cerisiers</emph> dont le fruit est d'usage en Medecine : 
                         <cit>le cerasus sativa, fructu rotundo, rubro, &amp; acido.</cit> 
                         <author xml:id="Tournefort">Tourn.</author> 
                         <title>Inst.</title> 
-                        Sa gomme passe pour lithon-triptique, &amp; ses cerises pour plus rafraîchissantes que les noires ; elles calment la soif ; elles sont bienfaisantes à l'estomac, &amp; aiguisent l'appétit. La gomme du <emph>cerisier</emph> passe pour lithontriptique.</p>
-                    <p>Leur suc est très-résolutif ; lorsqu'on les a fait bouillir, &amp; qu'on en fait un usage fréquent, elles peuvent guérir plusieurs maladies chroniques ; &amp; emporter par la diarrhée la matiere qui faisoit obstruction.</p>
-                    <p>Le 
+                Sa gomme passe pour lithon-triptique, &amp; ses cerises pour plus rafraîchissantes que les noires ; elles calment la soif ; elles sont bienfaisantes à l'estomac, &amp; aiguisent l'appétit. La gomme du <emph>cerisier</emph> passe pour lithontriptique.</sense>
+                <sense>Leur suc est très-résolutif ; lorsqu'on les a fait bouillir, &amp; qu'on en fait un usage fréquent, elles peuvent guérir plusieurs maladies chroniques ; &amp; emporter par la diarrhée la matiere qui faisoit obstruction.</sense>
+                <sense>Le 
                     <cit>cerasus nigra</cit>, 
                     <ref>Offic. Germ. 1323.</ref> 
-                    Ses cerises sont cordiales, céphaliques &amp; salutaires dans toutes les maladies de la tête &amp; des nerfs, comme les épilepsies, les convulsions, les paralysies, &amp; autres maladies semblables.</p>
-                    <p>L'eau distillée est d'un grand usage dans les affections spasmodiques.</p>
-                </sense>
+                Ses cerises sont cordiales, céphaliques &amp; salutaires dans toutes les maladies de la tête &amp; des nerfs, comme les épilepsies, les convulsions, les paralysies, &amp; autres maladies semblables.</sense>
+                <sense>L'eau distillée est d'un grand usage dans les affections spasmodiques.<abbr role="author" key="Vandenesse">N</abbr></sense>
+                
             </entryFree>
         </body>
     </text>
