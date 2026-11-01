@@ -29,7 +29,6 @@
                 <author> Fortunato De Felice </author>
                 <date when="1770-1780"> 1770-1780 </date>
             </bibl>
-            <!---Encodage en cours de réfléxion...-->
              
          </sourceDesc>
     </fileDesc>
@@ -38,6 +37,20 @@
         <p> La notice, extraite de l'Encyclopédie, a principalement été encodée avec les éléments "div" et "p" afin que les paragraphes
         soient bien délimités et puisque la définition du terme "eau" se poursuit au fil des paragraphes.
         Aucune modernisation n'est apportée via cet encodage. </p>
+
+        <p> La deuxième notice, issue de l'Encyclopédie d'Yverdon, diffère quelque peu de la première. L'élément "app" permet 
+        de présenter les deux versions.
+        L'utilisation de "rdg" et de "lem" est privilégiée étant donné que l'Encyclopédie de Diderot, d'Alembert et de Jaucourt 
+        est antérieure à l'Encyclopédie d'Yverdon. De ce fait, on considère que la première version est celle de référence.  </p>
+
+        <p> Certains "hi" doivent être remplacés par "emph", notamment le terme "eau" qui est le sujet des notices.
+
+        <listWit>
+            <witness xml:id="1"> L'Encyclopédie </witness>
+            <witness xml:id="2"> L'Encyclopédie d'Yverdon </witness>
+        </listWit>
+        <!---Encodage en cours de réfléxion...-->
+        
     </encodingDesc>
     
 </teiHeader>
@@ -46,12 +59,31 @@
 <body>
     <div type="article">
         <p>
-        EAU, s.f.(<hi rend="italic"> Phys. </hi>) est un corps fluide, humide, visible, transparent, pesant, sans goût, sans odeur, qui éteint le feu,
-        lorsqu'on en jette dessus en une certaine quantité, &amp;c.
+        EAU,
+        <app> <lem wit="#1"> s.f. </lem> 
+              <rdg wit="#2"> (R), s.f., </rdg>  
+        </app>
+
+        <app> <lem wit="#1"> ( <hi rend="italic"> Phys. </hi> ) </lem>  
+              <rdg wit="#2"> <hi rend="italic"> Phys. et Œcon. Rust. </hi> </rdg>
+        </app>
+
+        <app> <lem wit="#1"> est un corps </lem> 
+              <rdg wit="#2"> c'est une masse </rdg> 
+        </app>
+
+        fluide, 
+
+        <app> <lem wit="#1"> humide, visible, transparent, pesant, sans goût, sans odeur, qui éteint le feu, lorsqu'on en jette dessus en une certaine quantité, &amp;c. 
         <hi rend="italic"> Voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-1052-0/"> FLUIDE </ref>, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-777-0/"> FEU </ref>, &amp;c.
         Nous disons que l'<hi rend="italic"> eau </hi> est <hi rend="italic"> fluide </hi> &amp; <hi rend="italic"> humide </hi>, car ces deux qualités ne sont pas identiques : le mercure, par exemple, est fluide sans être humide, &amp;c. 
-        <hi rend="italic"> Voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v8-1284-0/"> HUMIDE </ref>.
-        </p>
+        <hi rend="italic"> Voyez </hi> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v8-1284-0/"> HUMIDE </ref>. </lem>
+               <rdg wit="#2"> liquide, humide, insipide, sans odeur, limpide, diaphane, sans couleur, très-volatile, qui ne peut brûler dans le feu; mais au contraire qui l'éteint ordinairement. </rdg> 
+        </app>
+        </p> 
+        
+
+        <app> <lem wit="#1">
 
         <p>
         Nous ne parlerons point ici de l'utilité de ce fluide : elle est assez connue.
@@ -160,7 +192,16 @@
         Il faudroit pour que cette raison fût bonne, 1°. que l'on connût bien certainement la cause de la congelation, 2° que le repos fût un état plus naturel aux corps que le mouvement.
         <hi rend="italic"> Voy. <title> l'essai de physique </title> de M. Musschenbroeck </hi> d'où nous avons extrait la plus grande partie de cet article. 
         <author> ( <hi rend="italic"> O </hi> ) </author>
-        </p>
+        </p> </lem>
+
+        <rdg wit="#2"> 
+
+        On peut distinguer l'<hi rend="italic"> eau </hi> en six especes. I°. L'<hi rend="italic"> eau </hi> tombe à travers l'atmosphere sous la forme de pluie, de neige ou de grêle. 2°.
+        L'<hi rend="italic"> eau </hi> de fontaine. 3°. L'<hi rend="italic"> eau de fleuve. 4°. L'<hi rend="italic"> eau </hi> de puits. 5°.
+        L'<hi rend="italic"> eau </hi> de lac. 6°. L'<hi rend="italic"> eau </hi> de mer.
+        La pluie, la neige et la grêle, sont originairement de l'<hi rend="italic"> eau </hi> qui s'est élevée de la surface de la terre sous la forme de vapeurs,
+        qui ont formé ensuite des nuées d'où elle est enfin retombée sur la terre. Voyez ces mots. 
+        </rdg>
 
     </div>
 </body>
