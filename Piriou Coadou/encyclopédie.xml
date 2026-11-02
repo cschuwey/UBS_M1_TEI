@@ -7,7 +7,7 @@
                 <title>Article Loupe, terme de Chirurgie<title/>
                 <author>Antoine Louis (indiqué dans la source)</author>
                 <respStmt>
-                   <resp>Document encodé en XML/TEI par</resp>
+                   <resp>document encodé en XML/TEI par</resp>
                    <name>Line Piriou Coadou</name>
                 </respStmt>
             </titleStmt>
@@ -70,6 +70,8 @@
         <revisionDesc> 
          <change when="2026-10-21">Transcription de l'article</change>
          <change when="2026-10-22">Encodage du teiHeader</change>
+         <change when="2026-10-30">Ajout de notes pour donner la définition de certains mots</change>
+         <change when="2026-11-02">Ajout de notes pour citer la définition des renvoies de l'article original</change>
         </revisionDesc>
         <!--revision description, description des révisions) résume l’historique des révisions pour un fichier.-->
     </teiHeader>
@@ -101,7 +103,7 @@
           <p>
           <app>
           <lem wit="#Notice 1 : Article Loupe, terme de Chirurgie">Les loupes sont des humeurs enkistées, qu’on a rangées sous trois classes, relativement à la nature de l’humeur qu’elles contiennent : mais cela ne forme que des différences accidentelles, puisque, comme l’a fort bien remarqué notre célebre chirurgien françois Ambroise Paré, on ne connoit ce que contiennent ces tumeurs que lorsqu’elles sont ouvertes. 
-          Voyez les art. Enkisté, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1359-0/">Article ENKISTÉ, ÉE, terme de Chirurgie, vol. V (1755), p. 691a–b</ref> Atherome, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-3422-0/">Article ATHÉROME, en Chirurgie, vol. I (1751), p. 818a</ref> Steatome, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-1720-0/">Article STÉATOME, (Médec.), vol. XV (1765), p. 507a</ref> Meliceris <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-859-0/">Article MELICERIS, (Chirurgie.), vol. X (1765), p. 315b</ref>. 
+          Voyez les art. Enkisté,<note type="citation">adj. terme de Chirurgie​, ce qui est renfermé dans un kiste, c’est-à dire dans une membrane ou issue en forme de poche.</note> <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1359-0/">Article ENKISTÉ, ÉE, terme de Chirurgie, vol. V (1755), p. 691a–b</ref> Atherome, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-3422-0/">Article ATHÉROME, en Chirurgie, vol. I (1751), p. 818a</ref> Steatome, <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-1720-0/">Article STÉATOME, (Médec.), vol. XV (1765), p. 507a</ref> Meliceris <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-859-0/">Article MELICERIS, (Chirurgie.), vol. X (1765), p. 315b</ref>. 
           </lem>
           <rdg wit="#Notice 2 : LOUPE, (R), Chir">La chirurgie emploie quatre moyens pour guérir les loupes, I°. la résolution; 2°. la suppuration en les ouvrant; 3°. la ligature, quand la base en est étroite; 4°. enfin l'extirpation.
           </rdg>
@@ -109,7 +111,12 @@
           </p>
           <p>
           <app>
-          <lem wit="#Notice 1 : Article Loupe, terme de Chirurgie">M. Littre ajoute une quatrieme sorte de loupe formée par une graisse molle, & qu’il a nommée lipoma. Voyez Lipome <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-1659-0/">Article LIPOME, terme de Chirurgie, vol. IX (1765), p. 561a–b</ref>.</lem>
+          <lem wit="#Notice 1 : Article Loupe, terme de Chirurgie">
+          <persName>
+          <surname>Littre</surname>
+          <forename>Emile</forename>
+          M. Littre
+          </persName> ajoute une quatrieme sorte de loupe formée par une graisse molle, & qu’il a nommée lipoma. Voyez Lipome <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-1659-0/">Article LIPOME, terme de Chirurgie, vol. IX (1765), p. 561a–b</ref>.</lem>
           <rdg wit="#Notice 2 : LOUPE, (R), Chir"> Le quatrieme moyen de guérir les loupes, c'est de les extirper. On l'emploie quand les émolliens et les résolutifs ont été impuissans, et sur-tout quand la base de la tumeur est large, et qu'elle est, comme dit Dionis, enclavée, ou enfoncée dans les chairs.
           </rdg>
           </app>
@@ -126,7 +133,13 @@
           L’hémorrhagie qui suivit l’opération, fut arrêtée par le moyen de la poudre de vitriol, &amp; la plaie par des pansemens ordinaires fut guérie en six semaines. 
           </p>
           <p>Les loupes sont des maux opiniâtres, mais qui ne sont pas ordinairement dangereux, lorsqu’elles ne changent point de nature ; elles peuvent néanmoins incommoder beaucoup par leur volume ou par leur situation. 
-          On ne peut espérer de les guérir par la voie de la résolution, que quand elles sont commençantes ; &amp; les loupes graisseuses se résoudront plus facilement que les autres par des applications discussives, telles que la fumigation de vinaigre dans lequel on aura fait dissoudre de la gomme ammoniaque : les emplâtres de ciguë, de diabotanum, de vigo cum mercurio, sont fort recommandés, & ne font pas grand effet. 
+          On ne peut espérer de les guérir par la voie de la résolution, que quand elles sont commençantes ; &amp; les loupes graisseuses se résoudront plus facilement que les autres par des applications discussives 
+          <note type="gloss">Du XVIe au XIXe siècle, une substance ou une application discussive désignait un remède qui possédait la propriété de dissiper, de dissoudre ou de résoudre une tumeur, un engorgement ou une accumulation d'humeurs par application externe.
+          </note>, telles que la fumigation
+          <note type="gloss">méthode qui consiste à introduire un gaz ou une substance produisant des vapeurs dans un espace clos, le sol ou sur une partie du corps pour détruire des organismes nuisibles, désinfecter ou se soigner.
+          </note> de vinaigre dans lequel on aura fait dissoudre de la gomme ammoniaque : les emplâtres de ciguë, de diabotanum
+          <note type="gloss">emplâtre à base de plantes</note>, de vigo cum mercurio,
+          <note type="gloss">emplâtre de Jean de Vigo contenant du mercure</note> sont fort recommandés, & ne font pas grand effet. 
           </p>
           <p>
           <app>
@@ -143,7 +156,9 @@
           <lem wit="#Notice 1 : Article Loupe, terme de Chirurgie">
           Nous avons donné au mot Enkistée des regles pour l’extirpation de ces sortes de tumeurs ; mais les grands principes se tirent de l’Anatomie, qui instruit dans chaque cas particulier des parties auxquelles la tumeur a ses attaches. 
           Elle peut tenir à des tendons, à des nerfs, être sur la route de vaisseaux considérables, &amp;c. toutes ces différences font varier le traitement, ou établissent des procédés particuliers. 
-          On peut attaquer la tumeur par sa partie la plus éminente par la moyen des cathérétiques, dont on continue l’usage méthodiquement jusqu’à la parfaite éradication de la tumeur. 
+          On peut attaquer la tumeur par sa partie la plus éminente par la moyen des cathérétiques
+          <note type="gloss"> désigne des médicaments caustiques légers utilisés pour détruire les excroissances de chair ou les tissus anormaux superficiels
+          </note>, dont on continue l’usage méthodiquement jusqu’à la parfaite éradication de la tumeur. 
           Si la loupe étoit carcinomateuse, ce seroit une voie fort dangereuse ; l’extirpation par l’instrument tranchant est indispensable, si elle est possible. 
           Quand le kiste est emporté ou détruit en entier, l’ulcere est simple, &amp; se guérit aisément par les pansemens ordinaires. (Y)
           </lem>
