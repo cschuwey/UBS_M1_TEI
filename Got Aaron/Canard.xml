@@ -43,6 +43,8 @@
             référence aux valeurs notées pour les différents sens. </change>
             <change when="2026-10-29" who="AG"> Changement des balises p par des balises def pour garder les balises sense mais intégrer
             des "sous-sens". Chaque sens sont codés en fonction de leur source. </change>
+            <change when="2026-11-04" who="AG"> Ajout des balises note pour indiquer les notes de bas de page et informations
+            complémentaires. </change>
             </listChange>
             </revisionDesc>
         </fileDesc>
@@ -126,7 +128,8 @@
                     les couve : elle n’a pas la tête verte, ni de collier sur le cou ; sa tête &amp;
                     son cou ont du blanc, du brun, &amp; du roux noirâtre ; le milieu des plumes du
                     dos est d’un brun presque noir, &amp; les bords font d’un blanc roussâtre.
-                    Villughby, <quote rend="italic"> Ornith.</quote><xr> Voyez <ref>Oiseau<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v11-1292-0/"></></ref></xr>. <author>(I)</author>  <lb/>
+                    Villughby, <quote rend="italic"> Ornith.</quote><xr> Voyez <ref>Oiseau<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v11-1292-0/"/></ref></xr>.
+                     <author>(I) <note place="margin" type="gloss">La marque (I) est celle de Daubenton.</note></author>   <lb/>
             </def>
             </sense>
             <sense n="c">
@@ -148,7 +151,8 @@
             <sense n="e">
             
             <def>
-            La graisse du <emph rend="italic">canard</emph> est adoucissante, résolutive, &amp; émolliente. <author>(N)</author> <lb/>
+            La graisse du <emph rend="italic">canard</emph> est adoucissante, résolutive, &amp; émolliente. 
+            <author>(N)<note place="margin" type="gloss" > La marque (N) est celle de Vandenesse. </note></author> <lb/>
             </def>
             </sense>
             </sense>
