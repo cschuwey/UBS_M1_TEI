@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Médecin</title>
+            </titleStmt>
+            <publicationStmt><authority>Clara Diguet</authority></publicationStmt>
+            <sourceDesc>
+            <bibl>
+            <title>Encyclopédie</title>
+            <editor>Diderot</editor>
+            <editor>d'Alembert</editor>
+            <date when="1765">XVIIIe siècle </date>
+            <editor>Enccre<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-721-0/"/> </editor>
+            <title>dictionnaire de l'académie française 9e édition</title>
+            <editor>académie française<link target="https://www.cnrtl.fr/definition/academie9/médecin"/></editor>
+            <date when="2011">1992-2024</date>
+            <!--J'ai fait mes recherches via le site Lexilogos, et j'ai pu trouver cette définition de l'académie française, je me suis donc renseignée sur les dates. -->
+            </bibl>
+            <listWit>
+             <wit xml:id="diderot">définition tirée de l'encyclopédie de Diderot et d'Alembert dans l'édition originale</wit> 
+             <wit xml:id="académie">définition tirée de la 9e édition du dictionnaire de l'académie française</wit>
+            </listWit>
+            </sourceDesc>
+        </fileDesc> 
+        <encodingDesc><p>Pour le nombre et le genre, j'ai choisi de respecter les abréviations originales(respectivement s. et m.)tout en précisant leur sense. Pour certains éléments en italique dans le texte, j'ai choisi d'utiliser la balise emph afin de respecter la volonté de l'auteur qui était de mettre en valeur ces mots.  </p></encodingDesc>
+        <revisionDesc>
+         <list>
+  <item>
+   <date when="13-10-2026">13 octobre 2026</date>rattrapge du cours de TEI et encodage du mot Automne
+   <date when="04-11-2026"> 4 novembre 2026</date> changement de définition, et choix du mot médecin au lieu du mot automne, car impossible de trouver une autre définition correcte de automne. Donc début de l'encodage du mot médecin sur deux encyclopédies différentes.
+   <date when="04-11-2026"> 6 novembre 2026</date>je continue à encoder les deux définitions différentes, mais à la fin je me perds dans les balises, je n'arrive pas à faire la différence entre chacunes d'elles.</item> 
+
+        </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+    <body>       
+    <entry>
+        <app>
+         <lem wit="diderot">
+            <orth rend="caps">Medecin</orth>
+            <gramGrp>
+            <number value="singular">s.</number>
+            <gen value="masculine">m.</gen>
+            <usg type="dom" rend="italic">(Med.)</usg></gramGrp></lem> 
+         <rdg wit="académie"></rdg> 
+        <!--J'ai préféré laisser les balises du deuxième witness même si elles sont vides pour mieux m'y retrouver dans le découpage + bien faire la différence entre les deux def--> 
+        </app>
+    </entry>
+    <def>
+        <app>
+            <lem wit="diderot">est celui qui professe &amp; qui exerce la Médecine après des études convenables de cette science ; c’est par-là qu’il est distingué d’un charlatan.
+            <xr><emph>Voyez</emph><ref rend="caps">Charlatan</ref><emph>&amp;</emph><ref rend="caps">Médecine</ref>.</xr></lem>
+            <rdg wit="académie">Personne qui exerce la médecine, qui est habilitée à l'exercer.</rdg>
+        </app>  
+    </def>
+    <entry>
+
+    <app>
+    <lem wit="diderot"></lem>
+    <rdg wit="académie">
+        <!-- je ne suis pas sur qu'ici l'utilisation de la balise hi correspond... sinon example? ou alors sens?-->
+    <hi rend="italic">Médecin de la Faculté de Paris. Médecin des hôpitaux. Médecin généraliste. Médecin spécialiste. Médecin consultant. Médecin traitant. Médecin expert. Médecin biologiste,</hi></rdg>
+    </app>
+    </entry>
+    <entry>
+    <sense>
+    <app>
+     <lem wit="diderot">On distingue les medecins en anciens &amp; en modernes.<xr><emph>Voyez</emph><ref rend="caps">Médecins anciens</ref>,</xr>car les modernes sont assez connus.<emph>(D. J.)</emph></lem>
+    <rdg wit="académie">spécialisé dans les analyses de laboratoire.</rdg>
+    </app> 
+    </sense>
+</entry>
+<entry>
+    <app>
+    <lem wit="diderot"></lem>
+    <rdg wit="académie"><hi rend="italic">Médecin de ville, de campagne. Le médecin de famille. Médecin du travail. Médecin légiste,</hi></rdg>
+    <sense>
+    <lem wit="diderot"></lem>
+    <rdg wit="académie">chargé des expertises en médecine légale.</rdg> 
+    <!-- en y repensant, je ne suis pas sûre que garder les deux balises witness était une bonne idée...  --> 
+    </sense>
+</app>
+</entry>
+<entry>
+<app>
+    <rdg wit="académie"><hi rend="italic">Médecin des armées. Médecin militaire. Médecin-major,</hi><xr> voir <ref><emph>Major</emph></ref>.</xr></rdg>   
+</app>
+</entry>
+<!--Je n'ai pas encore terminé ma définition mais je pense que je me suis perdue à la fin avec les balises. lesquelles mettre? et lesquelles sont cohérentes? -->
+    </body>
+    </text>
+    </TEI>
