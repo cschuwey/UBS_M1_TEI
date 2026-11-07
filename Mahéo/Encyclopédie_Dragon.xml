@@ -35,6 +35,9 @@
 <p>Pour dinstinguer les différentes versions de l'article "dragon" l'élément app a été ajouté.
 N'ayant pas trouvé d'autre version d'encyclopédie sur le site Artfl Encyclopédie les trois textes viennent tous de cette version.
 Ainsi j'ai utilisé l'élément rdg ne sachant pas quel texte est l'original</p>
+<p>Ajouts de quatres notes de deux types différents. J'ai ajouté deux notes de type historique et deux autres notes de type gloss, qui définise un mot.
+Les notes historiques je les ai ajoutées à d'Alembert et Diderot, j'ai écris une très courte présentation des auteurs.
+Et pour les deux autres notes gloss, j'ai défini les mots écliptique et lymphe.</p>
 </encodingDesc>
 <langUsage>
 <language ident="fr">Français</language>
@@ -51,11 +54,11 @@ Ainsi j'ai utilisé l'élément rdg ne sachant pas quel texte est l'original</p>
 <def>
 
 <app>
-<rdg wit="d'Alembert">
+<rdg wit="d'Alembert"><note place="bottom" type="historical" n="1">Jean Le Rond d'Alembert, est un mathématicien, physicien, philosophe et encyclopédiste français, né le 16 novembre 1717 à Paris où il est mort le 29 octobre 1783.</note>
 <link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/5/497"/>
 <p n="1">
 Dragon, <hi rend="italic">terme d'Astronomie</hi>. La tête &amp; la queue du dragon, <language ident="la">caput &amp; cauda draconis</language>, sont les noeuds ou les deux points d'intersection de l'écliptique &amp; de 
-l'orbite de la Lune, qui fait avec l'écliptique un angle d'environ cinq degrés. Voyez Orbite &amp; Noeud.
+l'orbite de la Lune, qui fait avec l'écliptique<note place="bottom" type="gloss" n="2">est le plan dans lequel s’effectue l'orbite de la Terre autour du Soleil, en supposant l’orbite plane (orbite moyenne) et le Soleil immobile.</note> un angle d'environ cinq degrés. Voyez Orbite &amp; Noeud.
 </p>
 
 <p n="2">
@@ -78,7 +81,7 @@ dénomination ; aussi les astronomes modernes l'ont abandonné,
 </p>
 </rdg>
 
-<rdg wit="Diderot">
+<rdg wit="Diderot"><note place="bottom" type="historical" n="3">Denis Diderot, né le 5 octobre 1713 à Langres et mort le 31 juillet 1784 à Paris, est un écrivain, philosophe et encyclopédiste français des Lumières</note>
 <link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/5/500"/>
 <p>
 * Dragon, (Hist. mod.) ce fut une enseigne militaire des Perses, des Daces, des Parthes, &amp; même des Romains ; &amp; ce fut de-là qu'on appella Draconains c eux qui la portoient.
@@ -90,7 +93,7 @@ dénomination ; aussi les astronomes modernes l'ont abandonné,
 <p>
 Dragon, (Maréchall.) les Maréchaux appellent ainsi une maladie qui vient aux yeux des chevaux, &amp; qui consiste en une tache blanche au fond de la 
 prunelle : elle n'est pas au commencement plus grosse que la tête d'une épingle ; mais elle croît peu-à-peu au point de couvrir toute la prunelle. Le 
-<hi rend="italic">dragon</hi> vient d'obstruction &amp; de l'engorgement d'une lymphe trop épaissie. Ce mal est incurable.
+<hi rend="italic">dragon</hi> vient d'obstruction &amp; de l'engorgement d'une lymphe<note place="bottom" type="gloss" n="4">La lymphe est un liquide biologique blanchâtre ou jaunâtre, transporté par le système lymphatique.</note> trop épaissie. Ce mal est incurable.
 </p>
 </rdg>
 
