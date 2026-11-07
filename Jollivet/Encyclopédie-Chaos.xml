@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
             <title rend="caps">
-            Encyclopédie, ou dctionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres. 
+            Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres. 
             </title>
             <editor><surname>Diderot</surname><name>Denis</name></editor> 
             <editor>Le Rond d'Alembert<name>Jean</name></editor>
@@ -50,9 +50,7 @@
       Vocabulaire tei : les articles ont été structurés selon les recommandations du vocabulaire TEI dédiées
       à l'encodage des dictionnaires (telles qu'elles sont définies dans le module Dictionaries des Guidelines de la TEI.). 
 
-     Comparaison des éditions/apparat critique : L’édition de l’ENCCRE a été choisie comme texte de base. L’édition d’Yverdon, qui est une version critique de l’Encyclopédie de Diderot avec des commentaires en plus, est utilisée comme apparat critique. La balise ' app' regroupe les différences entre les deux éditions, 'lem' indique le texte de base de l’ENCCRE et 'rdg' présente les ajouts ou les différences de l’édition d’Yverdon. L’attribut wit précise l’édition concernée.
-          
-    Balises provisoires : certaines balises ont été utilisées de manière provisoire, afin de quand même distinguer des éléments du corps de la définition, dans l'attente d'un encodage plus précis et mieux adapté à leur nature. Il s'agit notamment des balises 'note'.
+     Comparaison des éditions/apparat critique : L'édition de l'ENCCRE a été retenue comme texte de base tandis que l’édition d’Yverdon, qui est une version critique de l’Encyclopédie de Diderot (avec des commentaires en plus), est utilisée comme apparat critique. Les variantes de l'édition d'Yverdon sont intégrées au moyen des balises app, lem et rdg, afin de faire apparaître les différences entre les deux témoins sans reproduire deux fois les passages identiques. La balise ' app' regroupe les différences entre les deux éditions, 'lem' indique le texte de base de l’ENCCRE et 'rdg' présente les ajouts ou les différences de l’édition d’Yverdon. L’attribut wit précise l’édition concernée.
 
       Normalisation de l'orthographe :   L’orthographe originale du XVIIIe siècle est conservée. Lorsqu’un mot est normalisé, 
       ses deux formes sont indiquées avec la balise 'choice' : la forme originale dans la balise 'orig' et l'équivalent moderne/la forme normalisée dans la balise 'reg'.</p>
@@ -63,7 +61,7 @@
     
     <text>
         <front>
-            <head> Encyclopédie, ou dctionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres.</head>
+            <head> Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres.</head>
         </front>
         <body>
               <div1 type="volume" n="3">  
@@ -87,13 +85,19 @@
                                 c'est le terme dont les plus anciens auteurs se sont servis pour désigner l'état primitif de la matiere, avant qu'elle eût reçu sa forme.
                                  Il a été employé par Hésiode, Théogon. II6, Sanchoniaton, Orphée, Menandre, Euripide, Aristophane, Diodore de Sicile, Plutarque, et
                                   par les auteurs latins, Ennius, Varron, Lucrece, Virgile, Ovide. C'est ce dernier qui en a déterminé le sens de la maniere la plus
-                                 claire. Metam. I.</rdg> </app>  </def>
+                                 claire. <seg>Metam. I.
+                                 <note type="source">
+                                 Métamorphoses d'Ovide, livre I.
+                                </note>
+                                </seg></rdg> </app>  </def>
 
                         <def>
                             
                              <p n="1"><app>
-                             <lem wit="enccre">Le Chaos en Mythologie, est <choice><orig>pere</orig><reg>père</reg></choice> de l’Erebe &amp; de la Nuit<choice><orig>mere</orig><reg>mère</reg></choice>  des dieux.</lem>
+                             <lem wit="enccre">Le Chaos en Mythologie, est <choice><orig>pere</orig><reg>père</reg></choice> de l’<seg>Erebe<note type="gloss">L'Érèbe est, dans la mythologie grecque, la personnification des ténèbres infernales.
+                                </note></seg> &amp; de la Nuit<choice><orig>mere</orig><reg>mère</reg></choice>  des dieux.</lem>
                              <rdg wit="yverdon">
+                             <seg>
                                 <quote xml:lang="lat">
                              Ante mare et terras, et quod tegit omnia cœlum,
                             Unus erat toto naturæ vultus in orbe
@@ -101,117 +105,88 @@
                             Nec quicquam nisi pondus iners congestaque eodem
                             Non bene junctarum discordia semina rerum.
                                  </quote>
-                                 <note type="references">Voyez Burnet, archaiol. Philos., Grotius, de verit. rel. Christ.</note>
-                            </rdg>
+                                 <note type="traduction">Avant la mer et la terre, et le ciel qui couvre tout, il n’y avait qu’un seul aspect de la nature dans l’univers, que l’on a appelé chaos, une masse informe et indigeste, et rien d’autre que le poids inerte et les graines discordantes des choses mal jointes.</note>
+                                 <note type="source">Ovide, Métamorphoses, livre I, vers 5-9.</note>
+                                 </seg>
+                                 <ref target="#article-Burnet">Voyez Burnet, archaiol. Philos., Grotius, de verit. rel. Christ.</ref>
+                            </rdg></app>
                             
-                             <lem wit="enccre"> 
-                             Les anciens philosophes ont entendu par ce mot, un <choice><orig>mêlange</orig><reg>mélange</reg></choice> confus de particules de toute <choice><orig>espece</orig><reg>espèce</reg></choice>, 
-                             sans forme ni régularité, auquel ils supposent le mouvement essentiel, lui attribuant en conséquence la 
+                             Les anciens philosophes ont entendu par <app><lem wit="enccre">ce mot, </lem><rdg wit="yverdon">le chaos, une matiere premiere et éternelle, qui n'<choice><orig>étoit</orig><reg>était</reg></choice> qu'</rdg></app>un <choice><orig>mêlange</orig><reg>mélange</reg></choice> confus de particules de toute <choice><orig>espece</orig><reg>espèce</reg></choice>, 
+                             sans forme ni régularité, <app><lem wit="enccre">auquel ils supposent le</lem><rdg wit="yverdon">mais avec un</rdg></app> mouvement essentiel<app><lem wit="enccre">, lui attribuant en conséquence la 
                              formation de l’univers. Ce système est chez eux un corollaire d’un axiome excellent en lui-même, mais qu’ils généralisent
-                              un peu trop ; savoir, que rien ne se fait de rien ; ex nihilo nihil fit : au lieu de restraindre ce principe aux effets,
+                              un peu trop ; savoir, que rien ne se fait de rien ; <seg>ex nihilo nihil fit<note type="commentaire">
+Locution latine signifiant 'rien ne naît de rien'. Elle résume un principe fondamental de plusieurs philosophies antiques, selon lequel rien ne peut être produit à partir du néant.
+</note></seg> : au lieu de <choice><orig>restraindre</orig><reg>restreindre</reg></choice> ce principe aux effets,
                                ils l’étendent jusqu’à la cause efficiente, &amp; regardent la création comme une idée chimérique &amp; contradictoire. 
                                <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-1016-0/"><hi rend="italic">Voyez</hi> <ref target="#article-creation">Création</ref></link>.</lem>
-                               
-                               <rdg wit="yverdon">
-                                Les anciens philosophes ont donc entendu par le chaos, une matiere premiere et éternelle, qui n'<choice><orig>étoit</orig><reg>était</reg></choice> qu'un <choice><orig>mêlange</orig><reg>mélange</reg></choice> confus de particules de toute <choice><orig>espece</orig><reg>espèce</reg></choice>,
-                             sans forme ni régularité, mais avec un mouvement essentiel; un tout, en un mot, indigeste, dans lequel les principes de tous les
+                               <rdg wit="yverdon">; un tout, en un mot, indigeste, dans lequel les principes de tous les
                               êtres se <choice><orig>trouvoient</orig><reg>trouvaient</reg></choice> rassemblés et <choice><orig>mêlangés</orig><reg>mélangés</reg></choice> sans aucun ordre, et auquel il <choice><orig>falloit</orig><reg>fallait</reg></choice> rapporter la formation de cet univers. 
                               Hesiode <choice><orig>ajoûte</orig><reg>ajoute</reg></choice> que ce chaos engendra l'Erebe de la nuit, <choice><orig>mere</orig><reg>mère</reg></choice> des dieux, pour marquer que cette <choice><orig>matiere premiere étoit</orig><reg>matière première était</reg></choice> 
                               originairement dans les <choice><orig>ténébres</orig><reg>ténèbres</reg></choice>.
                               Ce systême <choice><orig>étoit</orig><reg>était</reg></choice> chez ces philosophes une conséquence de leur opinion erronée sur la création, qu'ils <choice><orig>regardoient</orig><reg>regardaient</reg></choice>
-                               comme une idée chymérique et contradictoire. <note type="references">v. CRÉATION. (C C.)</note>
+                               comme une idée <choice><orig>chymérique</orig><reg>chimérique</reg></choice> et contradictoire. <ref target="#article-Création">Voyez Création</ref>
                                 </rdg>
                                 </app>
                                </p>
                 
-                        <p n="2"><app><lem wit="enccre">Anciennement les Sophistes, les Sages du paganisme, les Naturalistes, les Théologiens, &amp; les <choice><orig>Poëtes</orig><reg>Poètes</reg></choice>,
-                         ont embrassé la même opinion. Le chaos est pour eux le plus ancien des êtres ; l’<choice><orig>Étre</orig><reg>Être</reg></choice> éternel, le premier des 
-                         principes &amp; le berceau de l’univers. Les Barbares, les Phéniciens, les Egyptiens, les Perses, &amp;c. ont
-                          rapporté l’origine du monde à une masse informe &amp; confuse de <choice><orig>matieres</orig><reg>matières</reg></choice> entassées pêle-mêle, &amp; mûes en
-                           tout sens les unes sur les autres. Aristophane, Euripide, &amp;c. les philosophes Ioniques &amp; Platoniciens,
-                            &amp;c. les Stoïciens même, partent du chaos, &amp; regardent ses périodes &amp; ses révolutions comme des 
-                            passages successifs d’un chaos dans un autre, jusqu’à ce qu’enfin les lois du mouvement, &amp; les 
-                            différentes combinaisons, aient amené l’ordre des choses qui constituent cet univers.</lem>
-                            <rdg wit="yverdon">
-                            Anciennement les sophistes, les sages du paganisme, les naturalistes, les théologiens et les <choice><orig>poêtes</orig><reg>poètes</reg></choice>, ont embrassé la même
-                             opinion. Le chaos est pour eux le plus ancien des êtres, l'être éternel, le premier des principes et le berceau de l'univers.
-                              Les Barbares, les Phéniciens, les Egyptiens, les Perses, etc., ont rapporté l'origine du monde à une masse informe et confuse
-                               de <choice><orig>matieres</orig><reg>matières</reg></choice> entassées pêle-mêle, et mûes en tous sens les unes sur les autres. Aristophane, Euripide, etc., les philosophes 
-                               Ioniques et Platoniciens, etc., les Stoïciens même, partent du chaos, et regardent ses périodes et ses révolutions comme 
-                               des passages successifs d'un chaos dans un autre, jusqu'à ce qu'enfin les <choice><orig>loix</orig><reg>lois</reg></choice> du mouvement, et les différentes combinaisons,
-                                aient <choice><orig>améné</orig><reg>amené</reg></choice> l'ordre des choses qui constituent cet univers.
-                            </rdg>
-                            </app>
+                        <p n="2">Anciennement les <app><lem wit="enccre"><hi rend="uppercase">s</hi></lem><rdg wit="yverdon">s</rdg></app>ophistes, les 
+                        <app><lem wit="enccre"><hi rend="uppercase">s</hi></lem><rdg wit="yverdon">s</rdg></app>ages du paganisme, 
+                        les <app><lem wit="enccre"><hi rend="uppercase">n</hi></lem><rdg wit="yverdon">n</rdg></app>aturalistes,
+                         les <app><lem wit="enccre"><hi rend="uppercase">t</hi></lem><rdg wit="yverdon">t</rdg></app>héologiens,
+                          <app><lem wit="enccre">&amp; les <choice><orig>Poëtes</orig><reg>Poètes</reg></choice></lem><rdg wit="yverdon">et les <choice><orig>poêtes</orig><reg>poètes</reg></choice></rdg></app>,
+                         ont embrassé la même opinion. Le chaos est pour eux le plus ancien des êtres ; l’<app><lem wit="enccre"><choice><orig>Étre</orig><reg>Être</reg></choice></lem><rdg wit="yverdon">être</rdg></app> éternel, le premier des 
+                         principes <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> le berceau de l’univers. 
+                         Les Barbares, les Phéniciens, les Egyptiens, les Perses, <app><lem wit="enccre">&amp;c.</lem><rdg wit="yverdon">etc.,</rdg></app> ont
+                          rapporté l’origine du monde à une masse informe <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> confuse de <choice><orig>matieres</orig><reg>matières</reg></choice> entassées pêle-mêle, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> mûes en
+                           tout sens les unes sur les autres.
+                           
+                            Aristophane, Euripide, <app><lem wit="enccre">&amp;c.</lem><rdg wit="yverdon">etc.,</rdg></app> les philosophes Ioniques <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> Platoniciens,
+                            <app><lem wit="enccre">&amp;c.</lem><rdg wit="yverdon">etc.,</rdg></app> les Stoïciens même, partent du chaos, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> regardent ses périodes <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> ses révolutions comme des 
+                            passages successifs d’un chaos dans un autre, jusqu’à ce qu’enfin les <app><lem wit="enccre">lois</lem><rdg wit="yverdon"><choice><orig>loix</orig><reg>lois</reg></choice></rdg></app> du mouvement, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> les 
+                            différentes combinaisons, aient <app><lem wit="enccre">amené</lem><rdg wit="yverdon"><choice><orig>améné</orig><reg>amené</reg></choice></rdg></app> l’ordre des choses qui constituent cet univers.
+
                             </p>
                 
-                            <p n="3"><app><lem wit="enccre">Chez les Latins, Ennius, Varron, Ovide, Lucrece, Stace, &amp;c. n’ont point eu d’autre sentiment.
-                             L’opinion de l’éternité &amp; de la fécondité du chaos a commencé chez les Barbares, d’où elle a passé aux 
-                             Grecs, &amp; des Grecs aux Romains &amp; aux autres nations,  
-                             qu’il est incertain si elle a été plus ancienne que générale.</lem>
-                             
-                             <rdg wit="yverdon">Selon Ovide, la nature, sans rien créer, ne fit que débrouiller le chaos, en séparant les <choice><orig>élémens</orig><reg>éléments</reg></choice>, 
-                             et donnant à chaque corps qui en fut composé, la place qui lui <choice><orig>convenoit</orig><reg>convenait</reg></choice>. (C. C.)
-                              <lb/>L'opinion de l'éternité et de la fécondité du chaos a commencé chez les Barbares, d'où elle a passé aux Grecs, et des Grecs
-                               aux Romains et aux autres nations, <choice><orig>ensorte</orig><reg>en sorte</reg></choice> qu'il est incertain si elle a été plus ancienne que générale.
-                            </rdg>
-                            </app> </p>
+                            <p n="3"><app><lem wit="enccre">Chez les Latins, Ennius, Varron, Ovide, Lucrece, Stace, &amp;c. n’ont point eu d’autre sentiment.</lem><rdg wit="yverdon">Selon Ovide, la nature, sans rien créer, ne fit que débrouiller le chaos, en séparant les <choice><orig>élémens</orig><reg>éléments</reg></choice>, 
+                             et donnant à chaque corps qui en fut composé, la place qui lui <choice><orig>convenoit</orig><reg>convenait</reg></choice>. (C. C.)</rdg></app>
+                            
+                             <app><lem wit="enccre"/><rdg wit="yverdon"><lb/></rdg></app>L’opinion de l’éternité <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> de la fécondité du chaos a commencé chez les Barbares, d’où elle a passé aux 
+                             Grecs, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> des Grecs aux Romains <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> aux autres nations,  
+                             <choice><orig>ensorte</orig><reg>en sorte</reg></choice>qu’il est incertain si elle a été plus ancienne que générale.
+                              </p>
                 
-                            <p n="4"><app><lem wit="enccre">Le docteur Burnet assûre avec raison, que si l’on en excepte Aristote &amp; les Pythagoriciens,
-                             personne n’a jamais <choice><orig>soûtenu</orig><reg>soutenu</reg></choice> que notre monde ait eu de toute éternité la même forme que nous lui voyons ;
+                            <p n="4">Le docteur Burnet assûre avec raison, que si l’on en excepte Aristote <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> les Pythagoriciens,
+                             personne n’a jamais <choice><orig>soûtenu</orig><reg>soutenu</reg></choice> que notre monde ait eu de toute éternité la même forme que nous lui voyons<app><lem/><rdg> </rdg></app>;
                               mais que suivant l’opinion constante des sages de tous les <choice><orig>tems</orig><reg>temps</reg></choice>, ce que nous appellons maintenant le globe
-                               terrestre, n’<choice><orig>étoit</orig><reg>était</reg></choice> dans son origine qu’une masse informe, contenant les principes &amp; les matériaux du
-                                monde tel que nous le voyons. <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1742-0/">Voyez <ref target="#article-monde">Monde</ref></link>. Le même auteur conjecture que les Théologiens <choice><orig>payens</orig><reg>païens</reg></choice> qui ont
-                                 écrit de la Théogonie, ont imité dans leur système celui des Philosophes, en déduisant l’origine des 
-                                 dieux du principe universel d’où les Philosophes <choice><orig>déduisoient</orig><reg>déduisaient</reg></choice> tous les êtres.</lem>
+                               terrestre, n’<choice><orig>étoit</orig><reg>était</reg></choice> dans son origine qu’une masse informe, contenant les principes <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> les matériaux du
+                                monde tel que nous le voyons. <app><lem wit="enccre"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1742-0/">Voyez <ref target="#article-monde">Monde</ref></link></lem><rdg wit="yverdon"> <ref target="#article-monde">v. MONDE</ref></rdg></app>. Le même auteur conjecture que les Théologiens <choice><orig>payens</orig><reg>païens</reg></choice> qui ont
+                                 écrit de la <app><lem wit="enccre"><hi rend="uppercase">t</hi></lem><rdg>t</rdg></app>héogonie, ont imité dans leur <app><lem wit="enccre">système</lem><rdg wit="yverdon"><choice><orig>systême</orig><reg>système</reg></choice></rdg></app> celui des <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg>p</rdg></app>hilosophes, en déduisant l’origine des 
+                                 dieux du principe universel d’où les <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg>p</rdg></app>hilosophes <choice><orig>déduisoient</orig><reg>déduisaient</reg></choice> tous les êtres.
                                  
-                                 <rdg wit="yverdon">
-                                 Le docteur Burnet assûre avec raison, que si l'on en excepte Aristote et les Pythagoriciens, personne 
-                                 n'a jamais <choice><orig>soûtenu</orig><reg>soutenu</reg></choice> que notre monde ait eu de toute éternité la même forme que nous lui voyons; mais 
-                                 que suivant l'opinion constante des sages de tous <choice><orig>tems</orig><reg>temps</reg></choice>, ce que nous appellons maintenant le globe
-                                  terrestre, n'<choice><orig>étoit</orig><reg>était</reg></choice> dans son origine qu'une masse informe, contenant les principes et les matériaux du
-                                   monde tel que nous le voyons. <note type="references">v. MONDE</note>. Le même auteur conjecture que les théologiens <choice><orig>payens</orig><reg>païens</reg></choice> qui ont 
-                                   écrit de la théogonie, ont imité dans leur <choice><orig>systême</orig><reg>système</reg></choice> celui des philosophes, en déduisant l'origine des 
-                                   dieux du principe universel d'où les philosophes <choice><orig>déduisoient</orig><reg>déduisaient</reg></choice> tous les êtres.
-
-                              </rdg>
-                                 </app></p>
+                            </p>
                 
-                             <p n="5"><app><lem wit="enccre">Quoiqu’on puisse assûrer que la <choice><orig>premiere</orig><reg>première</reg></choice> idée du chaos ait été très-générale &amp; très-ancienne,
+                             <p n="5">Quoiqu’on puisse assûrer que la <choice><orig>premiere</orig><reg>première</reg></choice> idée du chaos ait été très-générale <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> très-ancienne,
                               il n’est cependant pas impossible de déterminer quel est le premier à qui il faut l’attribuer. <choice><orig>Moyse</orig><reg>Moïse</reg></choice>,
                                le plus ancien des écrivains, représente au commencement de son histoire le monde comme n’ayant été 
-                               d’abord qu’une masse informe, ou les élémens <choice><orig>étoient</orig><reg>étaient</reg></choice> sans ordre &amp; confondus ; &amp; c’est 
-                               vraissemblablement de-là que les Philosophes Grecs &amp; Barbares ont emprunté la premiere notion de leur
-                                chaos : en effet, selon <choice><orig>Moyse</orig><reg>Moïse</reg></choice>, cette masse <choice><orig>étoit</orig><reg>était</reg></choice> couverte d’eau ; &amp; plusieurs d’entre les Philosophes
+                               d’abord qu’une masse informe, <app><lem wit="enccre"><choice><orig>ou</orig><reg>où</reg></choice></lem><rdg wit="yverdon">où</rdg></app> les <choice><orig>élémens</orig><reg>éléments</reg></choice> <choice><orig>étoient</orig><reg>étaient</reg></choice> sans ordre <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> confondus ; <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> c’est 
+                               <choice><orig>vraissemblablement</orig><reg>vraisemblablement</reg></choice> de-là que les <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg wit="yverdon">p</rdg></app>hilosophes Grecs <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app>
+                                Barbares ont emprunté la <choice><orig>premiere</orig><reg>première</reg></choice> notion de leur
+                                chaos<app><lem wit="enccre"> </lem><rdg wit="yverdon"/></app>: en effet, selon <choice><orig>Moyse</orig><reg>Moïse</reg></choice>, cette masse <choice><orig>étoit</orig><reg>était</reg></choice> couverte d’eau ; <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> plusieurs d’entre les <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg wit="yverdon">p</rdg></app>hilosophes
                                  anciens ont prétendu que le chaos n’<choice><orig>étoit</orig><reg>était</reg></choice> qu’une masse d’eau : ce qu’il ne faut entendre ni de l’océan, 
-                                 ni d’une eau élémentaire &amp; pure ; mais d’une <choice><orig>espece</orig><reg>espèce</reg></choice> de bourbier, dont la fermentation <choice><orig>devoit</orig><reg>devait</reg></choice> 
-                                 produire cet univers dans le <choice><orig>tems</orig><reg>temps</reg></choice>.</lem>
+                                 ni d’une eau élémentaire <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> pure ; mais d’une <choice><orig>espece</orig><reg>espèce</reg></choice> de bourbier, dont la fermentation <choice><orig>devoit</orig><reg>devait</reg></choice> 
+                                 produire cet univers dans le <choice><orig>tems</orig><reg>temps</reg></choice>.
                                  
-                                 <rdg wit="yverdon">
-                                 Quoiqu'on puisse assûrer que la <choice><orig>premiere</orig><reg>première</reg></choice> idée du chaos ait été très-générale et très-ancienne, il n'est cependant pas
-                                  impossible de déterminer quel est le premier à qui il faut l'attribuer. <choice><orig>Moyse</orig><reg>Moïse</reg></choice>, le plus ancien des écrivains, représente 
-                                  au commencement de son histoire le monde comme n'ayant été d'abord qu'une masse informe, où les élemens <choice><orig>étoient</orig><reg>étaient</reg></choice> sans 
-                                  ordre et confondus; et c'est vraisemblablement de-là que les philosophes Grecs et Barbares ont emprunté la <choice><orig>premiere</orig><reg>première</reg></choice> 
-                                  notion de leur chaos: en effet, selon <choice><orig>Moyse</orig><reg>Moïse</reg></choice>, cette masse <choice><orig>étoit</orig><reg>était</reg></choice> couverte d'eau; et plusieurs d'entre les philosophes 
-                                  anciens ont prétendu que le chaos n'<choice><orig>étoit</orig><reg>était</reg></choice> qu'une masse d'eau: ce qu'il ne faut entendre ni de l'océan, ni d'une eau 
-                                  élémentaire et pure; mais d'une <choice><orig>espece</orig><reg>espèce</reg></choice> de bourbier, dont la fermentation <choice><orig>devoit</orig><reg>devait</reg></choice> produire cet univers dans le <choice><orig>tems</orig><reg>temps</reg></choice>.
-                                 </rdg></app></p>
+                            </p>
                 
-                             <p n="6"><app><lem wit="enccre">Cudworth, Grotius, Schmid, Dickinson, &amp; d’autres, <choice><orig>achevent</orig><reg>achèvent</reg></choice> de confirmer cette prétention, en insistant sur
-                              l’analogie qu’il y a entre l’esprit de Dieu que <choice><orig>Moyse</orig><reg>Moïse</reg></choice> nous représente porté sur les eaux, &amp; l’amour que les
-                               Mythologistes ont occupé à débrouiller le chaos : ils ajoûtent encore qu’un sentiment très-ancien, soit en Philosophie,
-                                soit en Mythologie, c’est qu’il y a un esprit dans les eaux, aqua per spiritum movetur ; d’où ils concluent que les 
-                                anciens Philosophes ont tiré des ouvrages de <choice><orig>Moyse</orig><reg>Moïse</reg></choice> &amp; ce sentiment, &amp; la notion de chaos, qu’ils ont ensuite
-                                 altérée comme il leur a <choice><orig>plû</orig><reg>plu</reg></choice>.</lem>
-                                 
-                                 <rdg wit="yverdon">
-                                 Cudworth, Grotius, Schmid, Dickinson et d'autres, <choice><orig>achevent</orig><reg>achèvent</reg></choice> de confirmer cette prétention, en insistant 
-                                 sur l'analogie qu'il y a entre l'esprit de Dieu que <choice><orig>Moyse</orig><reg>Moïse</reg></choice> nous représente porté sur les eaux, et l'amour
-                                  que les mythologistes ont occupé à débrouiller le chaos: ils <choice><orig>ajoûtent</orig><reg>ajoutent</reg></choice> encore qu'un sentiment très-ancien,
-                                   soit en philosophie, soit en mythologie, c'est qu'il y a un esprit dans les eaux, aqua per spiritum movetur;
-                                    d'où ils concluent que les anciens philosophes ont tiré des ouvrages de <choice><orig>Moyse</orig><reg>Moïse</reg></choice> et ce sentiment, et la notion de
-                                     chaos, qu'ils ont ensuite altérée comme il leur a <choice><orig>plû</orig><reg>plu</reg></choice>.
-
-                                 </rdg></app></p>
+                             <p n="6">
+                             Cudworth, Grotius, Schmid, Dickinson, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> d’autres, <choice><orig>achevent</orig><reg>achèvent</reg></choice> de confirmer cette prétention, en insistant sur
+                              l’analogie qu’il y a entre l’esprit de Dieu que <choice><orig>Moyse</orig><reg>Moïse</reg></choice> nous représente porté sur les eaux, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> l’amour que les
+                               <app><lem wit="enccre"><hi rend="uppercase">M</hi></lem><rdg wit="yverdon">m</rdg></app>ythologistes ont occupé à débrouiller le chaos<app><lem wit="enccre"> </lem><rdg wit="yverdon"/></app>: ils <choice><orig>ajoûtent</orig><reg>ajoutent</reg></choice> encore qu’un sentiment très-ancien, soit en <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg wit="yverdon">p</rdg></app>hilosophie,
+                                soit en <app><lem wit="enccre"><hi rend="uppercase">m</hi></lem><rdg wit="yverdon">m</rdg></app>ythologie, c’est qu’il y a un esprit dans les eaux, <seg>aqua per spiritum movetur<note type="traduction">l’eau est mue par l’esprit</note></seg><app><lem wit="enccre"> </lem><rdg wit="yverdon"/></app>; d’où ils concluent que les 
+                                anciens <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg wit="yverdon">p</rdg></app>hilosophes ont tiré des ouvrages de <choice><orig>Moyse</orig><reg>Moïse</reg></choice> <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> ce sentiment, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> la notion de chaos, qu’ils ont ensuite
+                                 altérée comme il leur a <choice><orig>plû</orig><reg>plu</reg></choice>.
+                                
+                            </p>
                         </def>
                        </sense>
                     </entry>
