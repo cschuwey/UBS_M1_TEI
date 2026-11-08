@@ -52,10 +52,13 @@
         <revisionDesc>
             <list>
                 <item>
-                    <date when="2026-30-10">27 avril 2026</date>Modification de l'encodage de l'article ENCCRE et début de l'ajout et des comparatifs avec un second article d'une autre encyclopédie du XVIIIe siècle.
+                    <date when="11-08-2026">08 novembre 2026</date>Essai de comprendre la balise note et de l'ajouter, mais je ne suis pas sûr de l'avoir comprise.
                 </item>
                 <item>
-                    <date when="2026-19-10">19 avril 2026</date>Encodage de l'article ENCCRE.
+                    <date when="30-10-2026">27 octobre 2026</date>Modification de l'encodage de l'article ENCCRE et début de l'ajout et des comparatifs avec un second article d'une autre encyclopédie du XVIIIe siècle.
+                </item>
+                <item>
+                    <date when="19-10-2026">19 octobre 2026</date>Encodage de l'article ENCCRE.
                 </item>
             </list>
         </revisionDesc>
@@ -105,54 +108,34 @@
                 <p>
                     <app>
                         <rdg source="#Ed_Diderot"/>
-                        <rdg source="#Ed_DeFelice" corresp="#P2_DeFelice">Il paroît de cette étymologie, qu'originairement l'exorcisme étoit une invocation solennelle à la Divinité, pour l'engager à user de son autorité, pour écarter du suppliant les malins esprits qui auroient pû nuire à lui ou à ceux pour qui il s'intéressoit, ou en général pour le mettre à couvert de quelque danger de la part des êtres malfaisans.
-                        </rdg>
+                        <rdg source="#Ed_DeFelice" corresp="#P2_DeFelice"/>
                     </app>
                 </p>
 
                 <p>
                     <app>
                         <rdg source="#Ed_Diderot"/>
-                        <rdg source="#Ed_DeFelice" corresp="#P3_DeFelice">L'exorcisme a toujours été fondé sur la supposition, d'un côté, qu'il y avoit des esprits qui pouvoient influer sur le sort des hommes, qui avoient un grand pouvoir sur les êtres physiques de ce monde, et peu de bonne volonté pour les hommes; et de l'autre qu'il y avoit quelque puissance supérieure à ces esprits, à laquelle ils étoient assujettis, et dont la volonté étoit pour eux une regle qu'ils n'auroient osé transgresser. 
-                        L'homme superstitieux se persuada d'assez bonne heure, que presque toutes les parties de la nature qui sont en mouvement, étoient animées et dirigées par des esprits ou démons. Il en supposa dans l'air qui présidoient aux vents, aux orages, aux tonnerres; dans l'eau, dans la terre, dans les plantes, etc. 
-                        Plusieurs accidens occasionnés ou produits immédiatement par les causes secondes physiques, lui parurent les effets de la mauvaise volonté des génies mal-faisans ou des démons; il crut qu'il seroit heureux s'il pouvoit s'en concilier la bienveillance, ou se les assujettir. 
-                        Tantôt il crut qu'ils relevoient immédiatement de l'empire du Maître de l'univers, et que sans sa permission, ou contre ses ordres ils ne pouvoient nuire à l'homme. Tantôt ayant cru appercevoir que certaines causes physiques, dont le méchanisme ne lui étoit pas connu, avoient produit des effets désirés, il se persuada que ces causes mises en action à propos, agissoient physiquement sur les démons qui présidoient selon lui à telles parties de la nature. 
-                        De-là deux moyens d'exorcismes, l'invocation de la Divinité, dont on imploroit l'assistance spéciale contre les esprits mal-faisans, et les cérémonies corporelles, les sacrifices, les fumigations, les aspersions ou oblations, les mouvemens du corps, les signes et les caracteres tracés, les mots prononcés et considérés comme moyens physiques, de prévenir les effets de la mauvaise volonté des démons, et de les éloigner des lieux où l'on redoutoit l'influence funeste de leur pouvoir. 
-                        L'on employoit quelquefois ces moyens séparément, plus souvent encore on les réunissoit.
-                        </rdg>
+                        <rdg source="#Ed_DeFelice" corresp="#P3_DeFelice"/>
                     </app>
                 </p>
 
                 <p>
                     <app>
                         <rdg source="#Ed_Diderot"/>
-                        <rdg source="#Ed_DeFelice" corresp="#P4_DeFelice">Il est aisé de comprendre comment d'habiles fourbes ont pu abuser à cet égard de la crédulité du vulgaire superstitieux, en se vantant de connoître mieux que d'autres les moyens de se soumettre les démons ou de les empêcher de nuire. 
-                    De-là le crédit des exorcistes ou magiciens ou sorciers; de-là le soin qu'ont pris quelques-uns d'entr'eux de dresser des formules d'exorcismes, qui ordinairement renferment et la conjuration, c'est-à-dire, les termes dont il faut se servir pour invoquer la puissance qui domine sur les esprits subalternes, et les cérémonies qui donnent plus d'efficace à la conjuration, ou qui agissent physiquement sur ces esprits redoutés. 
-                    Le mot exorcisme désigne l'une et l'autre partie de ces pratiques. Les Payens avoient trouvé dans cette doctrine des esprits inférieurs, la source de leur polythéisme. La superstition des Gentils donna lieu à la magie et aux sortileges: toute personne qui avoit beaucoup d'adresse pour tromper le peuple superstitieux, et de connoissances d'histoire naturelle et de pharmacie, put se faire passer pour connoître les exorcismes efficaces, et pour avoir une grande puissance sur les esprits mal-faisans ou benins. 
-                    Les Juifs autorisés par leurs livres sacrés, ne purent s'empêcher de croire que sous les ordres de Dieu il y avoit des esprits subalternes, supérieurs aux hommes, qui exécutoient les volontés du Maître de l'univers; mais on a lieu d'être surpris qu'ils aient eu tant de croyance au pouvoir des esprits mal-faisans, qui se plaisent à nuire aux hommes: cette opinion que leurs écrits sacrés ne favorisoient que très-indirectement, avoit la plus grande vogue vers le commencement de l'ère chrétienne, et tous les accidens fâcheux et imprévus, toutes les maladies extraordinaires et incurables pour eux, étoient regardées comme des effets du pouvoir du diable. 
-                    Du moment que de telles opinions sont répandues chez un peuple, il commence à désirer de trouver des personnes qui puissent le délivrer de la crainte de ces êtres mal-faisans, et comme il n'est pas assez éclairé pour juger de la doctrine touchant les esprits, ni assez trompeur naturellement pour se défier de ceux qui se vantent d'un pouvoir efficace sur ces causes cachées et invisibles de maux funestes, conduit par la crainte et la crédulité, il donne sans examen sa confiance à quiconque s'annonce à lui, comme un défenseur ou un libérateur contre ce qu'il redoute sans le connoître: aussi vit-on d'abord chez les Gentils des magiciens ou sorciers qui passoient pour avoir les génies mal-faisans sous leurs pouvoir, qui les enchaînoient pour les empêcher de nuire, qui les assujettissoient à leurs ordres pour les faire agir pour ou contre ceux, au sort de qui ils prenoient intérêt. 
-                    Chez les Juifs on eut plusieurs exorcistes qui se vantoient d'écarter les démons, d'en délivrer ceux qui s'en croyoient possedés, et de protéger les hommes contr'eux. Mais tandis que les Gentils employoient plutôt des fumigations, des aspersions d'eaux préparées selon certaines regles, et avec certains mêlanges d'herbes, des sacrifices souvent barbares et horribles, et des conjurations adressées aux seuls Dieux infernaux, les exorcistes Juifs n'employoient guere que des paroles composées des noms de la Divinité, des signes et des caracteres, dans lesquels entroient les lettres du nom de Dieu: paroles et caracteres au son ou à la présence desquels ils attribuoient une efficace physique et mystérieuse, dont la cabale s'efforçoit de donner l'explication.
-                        </rdg>
+                        <rdg source="#Ed_DeFelice" corresp="#P4_DeFelice"/>
                     </app>
                 </p>
                 <p>
                     <app>
                         <rdg source="#Ed_Diderot"/>
-                        <rdg source="#Ed_DeFelice" corresp="#P5_DeFelice">Lorsque Jésus-Christ vint au monde et y travailla à reformer le genre-humain, il y parut revêtu d'un pouvoir sans exemple sur ces maladies et accidens, regardés comme l'effet des obsessions des malins esprits; sans heurter de front les préjugés trop enracinés à cet égard, il se contenta de prouver sa puissance sur toutes ces causes cachées des maux des hommes, en les détruisant par sa parole. 
-                    Il ne mit en œuvre ni cérémonies, ni paroles magiques, ni caracteres mystérieux, ni conjurations extraordinaires, tout comme pour rendre la parole à un muet, il ordonna à sa langue de se délier; aux oreilles d'un sourd de s'ouvrir; à un impotent qui ne pouvoit marcher de se lever, de prendre son lit sur ses épaules et de s'en aller dans sa maison; il ordonna aux esprits malins de sortir des possedés, c'étoit ordonner à la cause de la maladie de cesser d'être; il ne prescrivit à ses disciples, en leur communiquant ce même pouvoir miraculeux, aucune formule, aucune cérémonie d'exorcisme, nulle préparation d'encens, d'ablution ou d'aspersion; si dans une occasion il recommande à ses disciples le jeûne et la priere, comme nécessaires pour opérer ces guérisons surnaturelles, ce n'est pas comme moyen immédiat de guérison, mais comme un moyen de continuer à être dignes que Dieu se serve de leur ministere pour le bien des hommes. 
-                    Il apperçut que ses disciples se relâchoient à l'égard des vertus essentielles à leur état, en particulier à l'égard de l'humanité1; s'élevoient par orgueil, et sembloient rapporter à eux-mêmes et à leur mérite, pour en tirer une gloire personnelle, une puissance qu'ils ne tenoient que de Dieu, et dont ils devoient rapporter l'usage aux seules fins que Dieu s'étoit proposées en la leur confiant. On ne sauroit trouver dans l'Evangile ni dans le Vieux Testament aucun précepte qui autorise ceux qui ne sont pas revêtus d'un pouvoir miraculeux, à pratiquer aucune sorte d'exorcisme. On n'y sauroit trouver aucun établissement tendant à ce but, ni aucune démarche de laquelle on puisse espérer les effets que l'on attend des exorcismes. 
-                    Tout ce donc que l'église chrétienne ou ce que l'église juive avant elle a pratiqué, autorisé, enseigné et prescrit à cet égard, est d'invention purement humaine, fruit de la superstition, de l'ignorance, de la crédulité, souvent de la fourberie et de l'impiété. 
-                    On ne sauroit sans injustice l'attribuer et l'imputer ni aux prophêtes Juifs, ni à Jesus-Christ, ni à ses apôtres; nous l'abandonnons en conséquence à toutes les attaques auxquelles il est exposé de la part des amis du vrai; aussi-bien que de la part des ennemis de la révélation.
-                        </rdg>
+                        <rdg source="#Ed_DeFelice" corresp="#P5_DeFelice"/>
                     </app>
                 </p>
 
                 <p>
                     <app>
                         <rdg source="#Ed_Diderot"/>
-                        <rdg source="#Ed_DeFelice" corresp="#P6_DeFelice">Il est surprenant après cela que l'exorcisme ait été dans l'église juive, et ensuite dans l'église chrétienne, un objet dont on se soit tant occupé.
-
-                        </rdg>
+                        <rdg source="#Ed_DeFelice" corresp="#P6_DeFelice"/>
                     </app>
                 </p>
                     
@@ -190,24 +173,21 @@
                 <p>
                     <app>
                         <rdg source="#Ed_Diderot"/>
-                        <rdg source="#Ed_DeFelice" corresp="#P10_DeFelice">
-                        </rdg>
+                        <rdg source="#Ed_DeFelice" corresp="#P10_DeFelice"/>
                     </app>
                 </p>
 
                 <p>
                     <app>
                         <rdg source="#Ed_Diderot"/>
-                        <rdg source="#Ed_DeFelice" corresp="#P11_DeFelice">
-                        </rdg>
+                        <rdg source="#Ed_DeFelice" corresp="#P11_DeFelice"/>
                     </app>
                 </p>
 
                 <p>
                     <app>
                         <rdg source="#Ed_Diderot"/>
-                        <rdg source="#Ed_DeFelice" corresp="#P12_DeFelice">
-                        </rdg>
+                        <rdg source="#Ed_DeFelice" corresp="#P12_DeFelice"/>
                     </app>
                 </p>
 
@@ -217,8 +197,8 @@
         <standOff>
                 <p xml:id="P1_DeFelice">
                     <seg xml:id="P1_seg1">EXORCISME, (R), s.m., Théol. et Hist. Ecclés., cérémonie dont on se sert pour exorciser, c'est-à-dire, pour chasser les démons des corps des personnes qu'on en croit possédées, ou des lieux dans lesquels on craint qu'ils ne naissent. v. DÉMON,</seg> ESPRIT MALIN. 
-                    Ce mot est tiré du mot grec <seg xml:id="P1_seg2">o&#125;rkoÖ, jusjurandum, juramentum, un serment, un jurement, d'où s'est formé le verbe o&#123;rkizw, jurejurando obstringo, j'oblige par le serment; de-là aussi le verbe exorkizw, caveo ab aliquo jurejurando, j'employe le serment ou l'invocation du nom de la Divinité, pour me mettre à couvert de mal de la part de quelqu'un. 
-                    De ce verbe s'est formé le substantif exorkivsmoÖ, exorcismus, jusjurandum adhibitum ad aliquem obstringendum. Exorcisme, invocation sermentale, pour se mettre à couvert de quelque mal.</seg>
+                    <etym>Ce mot est tiré du mot grec <seg xml:id="P1_seg2"><etym><mentioned type="translation" xml:lang="grc">o&#125;rkoÖ</mentioned>, <mentioned rend="italic" type="translation" xml:lang="la">jusjurandum</mentioned>, <mentioned rend="italic" type="translation" xml:lang="la">juramentum</mentioned>, un serment, un jurement, d'où s'est formé le verbe <mentioned type="translation" xml:lang="grc">o&#123;rkizw</mentioned>, <mentioned rend="italic" type="translation" xml:lang="la">jurejurando obstringo</mentioned>, <mentioned rend="italic" type="translation" xml:lang="fr">j'oblige par le serment</mentioned>; de-là aussi le verbe <mentioned type="translation" xml:lang="grc">exorkizw</mentioned>, <mentioned rend="italic" type="translation" xml:lang="la">caveo ab aliquo jurejurando</mentioned>, j'employe le serment ou l'invocation du nom de la Divinité, pour me mettre à couvert de mal de la part de quelqu'un. 
+                    De ce verbe s'est formé le substantif exorkivsmoÖ, exorcismus, jusjurandum adhibitum ad aliquem obstringendum. Exorcisme, invocation sermentale, pour se mettre à couvert de quelque mal.</etym></seg>
                 </p>
                 <p xml:id="P2_DeFelice">
                     Il paroît de cette étymologie, qu'originairement l'exorcisme étoit une invocation solennelle à la Divinité, pour l'engager à user de son autorité, pour écarter du suppliant les malins esprits qui auroient pû nuire à lui ou à ceux pour qui il s'intéressoit, ou en général pour le mettre à couvert de quelque danger de la part des êtres malfaisans.
@@ -240,52 +220,52 @@
                     Chez les Juifs on eut plusieurs exorcistes qui se vantoient d'écarter les démons, d'en délivrer ceux qui s'en croyoient possedés, et de protéger les hommes contr'eux. Mais tandis que les Gentils employoient plutôt des fumigations, des aspersions d'eaux préparées selon certaines regles, et avec certains mêlanges d'herbes, des sacrifices souvent barbares et horribles, et des conjurations adressées aux seuls Dieux infernaux, les exorcistes Juifs n'employoient guere que des paroles composées des noms de la Divinité, des signes et des caracteres, dans lesquels entroient les lettres du nom de Dieu: paroles et caracteres au son ou à la présence desquels ils attribuoient une efficace physique et mystérieuse, dont la cabale s'efforçoit de donner l'explication.
                 </p>
                 <p xml:id="P5_DeFelice">
-                    Lorsque Jésus-Christ vint au monde et y travailla à reformer le genre-humain, il y parut revêtu d'un pouvoir sans exemple sur ces maladies et accidens, regardés comme l'effet des obsessions des malins esprits; sans heurter de front les préjugés trop enracinés à cet égard, il se contenta de prouver sa puissance sur toutes ces causes cachées des maux des hommes, en les détruisant par sa parole. 
+                    Lorsque <persName type="biblical_figure">Jésus-Christ</persName> vint au monde et y travailla à reformer le genre-humain, il y parut revêtu d'un pouvoir sans exemple sur ces maladies et accidens, regardés comme l'effet des obsessions des malins esprits; sans heurter de front les préjugés trop enracinés à cet égard, il se contenta de prouver sa puissance sur toutes ces causes cachées des maux des hommes, en les détruisant par sa parole. 
                     Il ne mit en œuvre ni cérémonies, ni paroles magiques, ni caracteres mystérieux, ni conjurations extraordinaires, tout comme pour rendre la parole à un muet, il ordonna à sa langue de se délier; aux oreilles d'un sourd de s'ouvrir; à un impotent qui ne pouvoit marcher de se lever, de prendre son lit sur ses épaules et de s'en aller dans sa maison; il ordonna aux esprits malins de sortir des possedés, c'étoit ordonner à la cause de la maladie de cesser d'être; il ne prescrivit à ses disciples, en leur communiquant ce même pouvoir miraculeux, aucune formule, aucune cérémonie d'exorcisme, nulle préparation d'encens, d'ablution ou d'aspersion; si dans une occasion il recommande à ses disciples le jeûne et la priere, comme nécessaires pour opérer ces guérisons surnaturelles, ce n'est pas comme moyen immédiat de guérison, mais comme un moyen de continuer à être dignes que Dieu se serve de leur ministere pour le bien des hommes. 
                     Il apperçut que ses disciples se relâchoient à l'égard des vertus essentielles à leur état, en particulier à l'égard de l'humanité1; s'élevoient par orgueil, et sembloient rapporter à eux-mêmes et à leur mérite, pour en tirer une gloire personnelle, une puissance qu'ils ne tenoient que de Dieu, et dont ils devoient rapporter l'usage aux seules fins que Dieu s'étoit proposées en la leur confiant. On ne sauroit trouver dans l'Evangile ni dans le Vieux Testament aucun précepte qui autorise ceux qui ne sont pas revêtus d'un pouvoir miraculeux, à pratiquer aucune sorte d'exorcisme. On n'y sauroit trouver aucun établissement tendant à ce but, ni aucune démarche de laquelle on puisse espérer les effets que l'on attend des exorcismes. 
                     Tout ce donc que l'église chrétienne ou ce que l'église juive avant elle a pratiqué, autorisé, enseigné et prescrit à cet égard, est d'invention purement humaine, fruit de la superstition, de l'ignorance, de la crédulité, souvent de la fourberie et de l'impiété. 
-                    On ne sauroit sans injustice l'attribuer et l'imputer ni aux prophêtes Juifs, ni à Jesus-Christ, ni à ses apôtres; nous l'abandonnons en conséquence à toutes les attaques auxquelles il est exposé de la part des amis du vrai; aussi-bien que de la part des ennemis de la révélation.
+                    On ne sauroit sans injustice l'attribuer et l'imputer ni aux prophêtes Juifs, ni à <persName type="biblical_figure">Jesus-Christ</persName>, ni à ses apôtres; nous l'abandonnons en conséquence à toutes les attaques auxquelles il est exposé de la part des amis du vrai; aussi-bien que de la part des ennemis de la révélation.
                 </p>
                 <p xml:id="P6_DeFelice">
                     Il est surprenant après cela que l'exorcisme ait été dans l'église juive, et ensuite dans l'église chrétienne, un objet dont on se soit tant occupé.
                 </p>
                 <p xml:id="P7_DeFelice">
-                    <seg xml:id="P7_seg1">Si l'on en croit Josephe, Salomon avoit composé des charmes et des exorcismes très-puissans, contre toutes sortes de maux</seg>, <seg xml:id="P7_seg2">et les magiciens Juifs regardent Salomon comme ayant eu un pouvoir prodigieux sur les esprits mal-faisans, sur les puissances de l'air; 
+                    <seg xml:id="P7_seg1">Si l'on en croit Josephe, <persName type="biblical_figure">Salomon</persName> avoit composé des charmes et des exorcismes très-puissans, <note type="utilisation">contre toutes sortes de maux</note></seg>, <seg xml:id="P7_seg2">et les magiciens Juifs regardent <persName type="biblical_figure">Salomon</persName> comme ayant eu un pouvoir prodigieux sur les esprits mal-faisans, sur les puissances de l'air; 
                     aussi son cachet et son nom sont employés par eux dans leurs exorcismes; mais le silence de l'écriture à cet égard est une preuve plus forte contre cette prétention, que le témoignage de Josephe n'est puissant en sa faveur, outre ce que la nature même de la chose fournit de raisons victorieuses, pour regarder tout ce qu'on en dit comme fabuleux.</seg>
                 </p>
                 <p xml:id="P8_DeFelice">
                     <seg xml:id="P8_seg1">Les préjugés juifs à cet égard se transmirent aux chrétiens; les erreurs des platoniciens de l'école d'Alexandrie augmenterent encore ces préjugés dans l'église, et les chrétiens furent presque aussi crédules sur ce sujet que l'étoient les Gentils. 
                     Ils crurent à la magie, à l'effet des charmes et des conjurations; ils eurent des exorcistes en titre, les rituels fixerent la forme des exorcismes. On les prescrivit comme cérémonies nécessaires dans tous les actes de la religion, ils firent partie de la plupart des cérémonies civiles; on les regarda comme des préservatifs et des remedes contre tous les maux moraux ou physiques. 
                     L'univers paroissoit peuplé d'esprits mal-faisans et redoutés, que l'on faisoit fuir par des paroles de conjuration, ou par des parfums d'encens, par des aspersions d'eaux, par le son des cloches, etc. </seg>
-                    <seg xml:id="P8_seg2">M. Thiers dans son Traité des superstitions, rapporte différentes formules d'exorcismes, et cite en particulier l'exemple de S. Grat, qui, par le moyen de ses exorcismes, obtint de Dieu qu'il n'y auroit plus de rats dans le pays d'Aost, ni trois milles à la ronde. 
+                    <seg xml:id="P8_seg2"><persName type="historian">M. Thiers</persName> dans son <cit rend="italic" type="title">traité des superstitions</cit>, rapporte différentes formules d'exorcismes, et cite en particulier l'exemple de <persName type="historical_figure">S. Grat</persName>, qui, par le moyen de ses exorcismes, obtint de Dieu qu'il n'y auroit plus de rats dans le pays d'Aost, ni trois milles à la ronde. 
                     Le même auteur pense qu'on peut encore aujourd'hui se servir d'exorcismes pour une bonne fin, comme contre les rats, les souris, les chenilles, les sauterelles, le tonnerre, etc. mais il assûre que pour cela il faut avoir le caractere requis et approuvé par l'église, se servir des mots et des prieres qu'elle autorise, sans quoi ces exorcismes sont des abus et des superstitions. </seg>
                     <seg xml:id="P8_seg3">C'est là supposer I°. qu'il y a un accord entre les esprits mal-faisans et l'église, par lequel les premiers n'ont promis de céder qu'à certaines formes de charmes et de conjuration, et non à d'autres, et de n'y céder que quand ceux qui les employent en auront reçu de l'église une commission expresse. 
                     Mais quand, où, et de quelle maniere s'est fait cet accord? C'est supposer 2°. que le caractere moral, et l'intention réelle ne donnent point à l'homme de pouvoir sur les esprits, que cette puissance de les chasser est toute physique, résidant dans le son et l'arrangement des mots, et dans les qualités corporelles des charmes. 
                     Mais quelle est la nature de ces esprits, sur qui les seules forces corporelles agissent? C'est supposer 3°. que les rats, les souris, les chenilles, les sauterelles, le tonnerre, etc. sont ou des esprits mal-faisans comme le pere Bougeant l'avoit dit dans un badinage qu'on l'a forcé de retracter, v. BÊTES, ou bien qu'ils sont le domaine, et sous la puissance immédiate de ces esprits; ce qui revient au même, mais l'église romaine a condamné la pensée de cet auteur badin.</seg>
                 </p>
                 <p xml:id="P9_DeFelice">
-                    <seg xml:id="P9_seg1">On employoit les exorcismes dans les tems où l'on décidoit du droit par les combats singuliers ou par les épreuves. 
-                    On exorcisoit l'eau, le fer, le pain, avec lesquels on faisoit ces épreuves, les armes des combattans, etc. </seg>
+                    <seg xml:id="P9_seg1"><note type="utilisation">On employoit les exorcismes dans les tems où l'on décidoit du droit par les combats singuliers ou par les épreuves. 
+                    On exorcisoit l'eau, le fer, le pain, avec lesquels on faisoit ces épreuves, les armes des combattans, etc. </note></seg>
                     <seg xml:id="P9_seg2">On trouve dans Delrio Disquisitiones magicæ, les formules des exorcismes usités en pareils cas.</seg>
                 </p>
                 <p xml:id="P10_DeFelice">
                     L'église romaine approuvoit alors tous ces usages barbares et insensés, et présidoit à ces moyens bizarres et superstitieux, de juger du droit des parties. 
                     Ces sortes de jugemens se sont enfin abolis, et l'église elle-même les a condamnés, mais elle a conservé les exorcismes qui les accompagnoient, et les idées qui leur servoient de fondement, savoir la croyance du pouvoir des esprits malins, de leur présence par-tout, et de l'efficace de ces exorcismes pour les chasser. 
                     <seg xml:id="P10_seg1">En conséquence les exorcismes sont encore en usage dans l'église romaine, qui en distingue d'ordinaires et d'extraordinaires. Les premiers sont ceux qui ont lieu journellement dans toutes les cérémonies religieuses, comme dans la messe, le baptême, les mariages, et les enterremens, la bénédiction de l'eau nommée bénite, chaque dimanche, celle des cloches, des terres, des arbres, des maisons, etc. </seg>
-                    Ces exorcismes consistent dans des fumigations d'encens, des aspersions d'eau bénite, des signes de croix, des prieres latines. Il y en a d'extraordinaires qui ne sont en usage que dans les cas où l'on suppose une obsession, ou la présence et l'action visible de quelque démon, soit dans les personnes, soit dans les animaux, soit dans les choses inanimées; alors les rituels romains prescrivent les formes de l'exorcisme dans un grand détail. v. OBSESSION, POSSEDÉS.
+                    Ces exorcismes consistent dans des fumigations d'encens, des aspersions d'eau bénite, des signes de croix, des prieres latines. Il y en a d'extraordinaires qui ne sont en usage que dans les cas où l'on suppose une obsession, ou la présence et l'action visible de quelque démon, soit dans les personnes, soit dans les animaux, soit dans les choses inanimées; alors les rituels romains prescrivent les formes de l'exorcisme dans un grand détail. <hi rend="italic">v. <xr type="see"><ref target="#Démon">OBSESSION</ref><link target="#"></link></xr>, <xr type="see"><ref target="#Démon">POSSEDÉS</ref><link target="#"></link></xr></hi>.
                 </p>
                 <p xml:id="P11_DeFelice">
                     L'exorcisme est encore en usage dans quelques églises protestantes, lorsqu'on administre les sacremens; mais cet exorcisme ne consiste que dans la simple conjuration, ou la priere par laquelle on demande à Dieu d'écarter le diable d'auprès de ses élus, et de les soustraire à sa puissance. 
-                    Les églises reformées en ont absolument abandonné l'usage comme superstitieux, quoique la plupart des reformés non-instruits, croient encore aux obsessions, à la puissance du diable, et à la réalité de la magie et de la sorcellerie, et que le peuple ait souvent recours aux charmes et contre-charmes. v. MAGIE, SORCIERS.
+                    Les églises reformées en ont absolument abandonné l'usage comme superstitieux, quoique la plupart des reformés non-instruits, croient encore aux obsessions, à la puissance du diable, et à la réalité de la magie et de la sorcellerie, et que le peuple ait souvent recours aux charmes et contre-charmes. <note type="renvoi">v. MAGIE, SORCIERS.</note>
                 </p>
                 <p xml:id="P12_DeFelice">
                     Il est étonnant que l'on ne soit pas guéri encore de cette superstition, par les faits qu'on a chaque jour sous les yeux. 
                     D'un côté, les faits qu'on allegue en faveur de la nécessité et de l'efficace des exorcismes, n'ont jamais lieu chez les personnes instruites, dans les maisons de gens éclairés. 
                     D'un autre côté, jamais ces faits n'ont été examinés par des gens non-superstitieux et non-prévenus, sans qu'on ait démontré, qu'ils n'étoient dûs qu'à la fourberie de quelques imposteurs qui abusoient de la crédulité et de la foi-blesse de gens ignorans, esclaves de préjugés, et pusillanimes, qui s'effraient comme les enfans, et qui troublés par la peur, voient et entendent tout ce que des fourbes méchans veulent leur faire voir et entendre. 
-                    Enfin des gens qui en matiere de religion ne veulent prendre pour appui que l'évangile, auroient dû faire attention que jamais Jésus-Christ ni ses apôtres n'ont prescrit à leurs disciples aucun exorcisme, n'ont établi des exorcistes, n'ont parlé de magie et de sorciers. 
-                    Ils se sont bornés à parler du diable comme du principe vicieux qui nous porte au mal, et nous ont donné à son égard cette regle simple si sage, résistez au diable et il s'enfuira de vous, c'est-à-dire, résistez à vos penchans vicieux, ne cédez pas à vos passions déréglées, et vous ne serez pas entraînés au mal. 
-                    Chacun est tenté et amorcé par sa propre convoitise, dit l'apôtre S. Jacques; si vous vous laissez aller à cette convoitise, elle vous portera au mal. Résister à sa convoitise, est le vrai exorcisme pour chasser le diable; et le moyen de résister à ses convoitises, c'est de se bien instruire de nos devoirs, de bien connoître nos obligations, de respecter par dessus tout les loix divines, et de suivre toujours religieusement les décisions de notre conscience; 
-                    alors nos cérémonies religieuses n'auront nul besoin d'exorcisme, les démons n'en altereront pas la pureté, notre culte plaira à Dieu; la vraye piété, la droiture des intentions, le désir sincere de remplir les devoirs que Dieu nous impose, tiendront lieu de fumigations, d'aspersions, de signes de croix, et de conjurations: notre culte sera dépouillé de superstition, et n'aura plus un air de magie. v. CONSCIENCE, CULTE, DEVOIR. (<signed who="#Mingard">G. M.</signed>) 
+                    Enfin des gens qui en matiere de religion ne veulent prendre pour appui que l'évangile, auroient dû faire attention que jamais <persName type="biblical_figure">Jésus-Christ</persName> ni ses apôtres n'ont prescrit à leurs disciples aucun exorcisme, n'ont établi des exorcistes, n'ont parlé de magie et de sorciers. 
+                    Ils se sont bornés à parler du diable comme du principe vicieux qui nous porte au mal, et nous ont donné à son égard cette regle simple si sage, <cit rend="italic">résistez au diable</cit> et <cit rend="italic">il s'enfuira de vous</cit>, c'est-à-dire, résistez à vos penchans vicieux, ne cédez pas à vos passions déréglées, et vous ne serez pas entraînés au mal. 
+                    <cit rend="italic" who="#Jacques"><quote>Chacun est tenté et amorcé par sa propre convoitise</quote>, <bibl>dit l'apôtre <persName xml:id="Jacques">S. Jacques</persName></bibl>; <quote>si vous vous laissez aller à cette convoitise, elle vous portera au mal.</quote></cit> Résister à sa convoitise, est le vrai exorcisme pour chasser le diable; et le moyen de résister à ses convoitises, c'est de se bien instruire de nos devoirs, de bien connoître nos obligations, de respecter par dessus tout les loix divines, et de suivre toujours religieusement les décisions de notre conscience; 
+                    alors nos cérémonies religieuses n'auront nul besoin d'exorcisme, les démons n'en altereront pas la pureté, notre culte plaira à Dieu; la vraye piété, la droiture des intentions, le désir sincere de remplir les devoirs que Dieu nous impose, tiendront lieu de fumigations, d'aspersions, de signes de croix, et de conjurations: notre culte sera dépouillé de superstition, et n'aura plus un air de magie. <note type="renvoi">v. CONSCIENCE, CULTE, DEVOIR.</note> (<note type="signature" who="#Mingard">G. M.</note>) 
                 </p>
         </standOff>
     </text>
