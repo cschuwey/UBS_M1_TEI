@@ -37,8 +37,6 @@
             de la seconde source.</p>
             <p>La segmentation est effectuée par unités de sens : la définition générale, la classification des types de magie, puis le sens figuré. Le sens figuré de 
             1932-1935 n’ayant pas d’équivalent dans la notice de 1765, est encodé dans un app ne contenant qu’un rdg, sans lem correspondant. Les exemples associés à chaque définition sont conservés dans la lecture de la source de 1935.</p>
-
-
         </editorialDesc>
     </encodingDesc>
     <profileDesc>
@@ -51,6 +49,7 @@
         <change n="1" when="2026-10-19">Le TEI Header a été complété.</change>
         <change n="2" when="2026-10-19">Les éléments d'encodage d'un article d'encyclopédie ont été ajoutés.</change>
         <change n="3" when="2026-11-02">La notice du Dictionnaire de l’Académie française (8e édition, 1932-1935) a été intégrée au moyen d’un appareil critique.</change>
+        <change n="4" when="2026-11-08">Ajout de quatre notes (explicative, historique, identification de personnes et de lieux) et encodage  de concepts.</change>
     </revisionDesc>
 </teiHeader>
 <text>
@@ -74,7 +73,8 @@
                     : pour lors elle se prenoit en bonne part, mais il est rare que l'homme se renferme dans les bornes du vrai, 
                     il est trop simple pour lui. Il est presqu'impossible qu'un petit nombre de gens instruits, dans un siecle
                     &amp; dans un pays en proie à une crasse ignorance, ne succombent bien-tôt à la tentation de passer pour extraordinaires
-                    &amp; plus  qu'humains : ainsi les mages de Chaldée &amp; de tout l'orient, ou plutôt leurs disciples (car c'est de ceux-ci 
+                    &amp; plus  qu'humains : ainsi les mages de <placeName>Chaldée</placeName><note type="historique" place="inline">Ancienne région située dans le 
+                    sud de la Mésopotamie, correspondant approximativement à une partie de l'Irak actuel.</note> &amp; de tout l'orient, ou plutôt leurs disciples (car c'est de ceux-ci 
                     que vient d'ordinaire la dépravation dans les idées), les mages, dis-je, s'attacherent à l'astrologie, 
                     aux divinations, aux enchantemens, aux maléfices ; &amp; bientôt le terme de magie devint odieux, &amp; ne servit 
                     plus dans la suite qu'à désigner une science également illusoire &amp; méprisable : fille de l'ignorance 
@@ -154,7 +154,9 @@
                         l'évocation des morts ou des malins esprits ; la découverte des trésors cachés, des plus grands secrets ; la divination, le don 
                         de prophétie, celui de guérir par des pratiques mystérieuses les maladies les plus opiniâtres ; la fréquentation du sabbat, &c. 
                         De quels travers n'est pas capable l'esprit humain! On a donné dans toutes ces réveries ; c'est le dernier effort de la Philosophie 
-                        d'avoir enfin desabusé l'humanité de ces humiliantes chimeres ; elle a eu à combattre la superstition, &amp; même la Théologie qui 
+                        d'avoir enfin desabusé l'humanité de ces humiliantes chimeres ; elle a eu à combattre la <term>superstition</term><note type="explication">Croyance 
+                        fondée sur la peur, l'ignorance ou l'attribution de pouvoirs surnaturels à certains phénomènes ou pratiques.</note>, &amp; même la 
+                        <term type="religion">Théologie</term><note>Discipline qui étudie les questions relatives à la religion et aux croyances.</note> qui 
                         ne fait que trop souvent cause commune avec elle. Mais enfin dans les pays où l'on sait penser, réfléchir &amp; douter, le démon 
                         fait un petit rôle, &amp; la <hi rend="italic">magie<hi> diabolique reste sans estime &amp; crédit.</def>                  
                     </sense>
@@ -191,7 +193,8 @@
                     philosophie n'a pu les mettre à l'abri de cette grossiere superstition, que la <hi rend="italic">magie</hi> tient par la main. Je n'en citairai 
                     d'autre exemple que Caton. Il étoit dans l'idée qu'on peut guérir les maladies les plus sérieuses par des paroles enchantées: voici les paroles 
                     barbares, au moyen desquelles suivant lui on a une recette très-assurée pour remettre les membres démis :  <cit><language ident="la" rend="italic">Incipe 
-                    cantare in alto S: F. motas danata dardaries astotaries, dic una parite usque dum coeant,&c.</language></cit> C'est l'édition d'Alde Manuce que 
+                    cantare in alto S: F. motas danata dardaries astotaries, dic una parite usque dum coeant,&c.</language></cit> C'est l'édition d'<persName>Alde Manuce</persName>
+                    <note place="foot">De son nom Aldus Manutius (vers 1450-1515), c'est un imprimeur, éditeur, humaniste italien connupour ses textes antiques grecs et latins.</note> que 
                     je lis ; car celle d'Henri Estienne, revûe &amp; corrigée par Victorius, a été fort changée sur un point où la grande obscurité du texte ouvre un 
                     vaste champ à la manie des critiques.</def>
 
