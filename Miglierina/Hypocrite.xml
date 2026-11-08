@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-      
+
+
 <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -58,6 +59,9 @@
            <hi rend="caps">HYPOCRITE</hi>
            </ref>
         , s. m. (<hi rend="italic">Morale</hi>)</term>. 
+
+        <ref target="#com-hypocrite">[voir commentaire]</ref>
+
         C'est un homme qui se montre avec un <app><lem wit="#1">caractere</lem><rdg wit="#2">caractère</rdg></app> qui n'est pas le sien : 
         les distinctions flatteuses &amp; l'estime du public qu'obtient une sorte de mérite ; la nécessité de <app><lem wit="#1">paroître</lem>
         <rdg wit="#2">paraître</rdg></app>, la difficulté d'être, la force des <app><lem wit="#1">penchans</lem><rdg wit="#2">penchants</rdg>
@@ -71,11 +75,37 @@
         vertus &amp; l'amour de la religion ; ils sont zélés pour se dispenser d'être honnêtes ; héros ou saints, pour se dispenser d'être bons. 
         Des fanges du vice ils <app> <lem wit="#1">élevent</lem><rdg wit="#2">élèvent</rdg></app> une voix respectée pour accuser le mérite ou de crime ou d'impiété.</p>
 
-        <quote><hi rend="italic">Le ciel est dans leurs yeux, l'enfer est dans leurs cœurs.</hi></quote>
+        <quote><hi rend="italic">Le ciel est dans leurs yeux, l'enfer est dans leurs cœurs.
+        <note type="source" place="foot"> Vers extrait du chant VII de <hi rend="italic">La Henriade</hi> 
+        (1723) de Voltaire.</note></hi></quote>
 
         </div>
 
       </body>
+
+      <back>
+
+        <div xml:id="com-hypocrite" type="commentaire">
+
+            <head>Commentaires sur l'origine et l'évolution du mot [hypocrite] : </head>
+
+            <note type="etymologie">
+            En grec ancien un hupokritês, ὑποκριτής (hypo = sous, en dessous; -crite = interpréter) était un acteur, celui qui donne la réplique.</note>
+
+            <note type="historique">
+            Au théâtre antique, l'hupokritês était l'acteur qui jouait sous un masque et « répondait » au chœur. Il ne s'agissait pas encore d'un sens péjoratif, 
+            mais d'une description technique du métier d'interprète. </note>
+
+            <note type="sémantique">
+            Par glissement sémantique, l'idée de jouer un personnage sur une scène a évolué vers celle de feindre, 
+            de porter un « masque » dans la vie courante pour dissimuler ses vraies pensées ou ses intentions. </note>
+
+            <note type="origine">
+            Le mot apparaît vers le XIIe siècle (sous la forme ipocrite) emprunté au bas latin hypocrita, pour désigner
+             une personne fausse qui simule des sentiments vertueux. </note>
+        </div>
+
+      </back>
 
    </text>
 
