@@ -1,0 +1,66 @@
+<TEI xmlnx="https://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>ELYSEES (Champs)</title>
+            <author><surname>Jaucourt</surname></author>
+            <author><surname>Mallet</surname></author>
+            <editor><surname>Diderot</surname><forename>Denis</forename></editor>
+            <editor><surname>d'Alembert</surname><forename>Jean le Rond</forename></editor>
+        </titleStmt>
+        <publicationStmt>
+            <authority>G.Maury</authority>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl>
+                <author><surname>Jaucourt</surname></author>
+                <author><surname>Mallet</surname></author>
+                <editor><surname>Diderot</surname>, <forename>Denis</forename></editor>
+                <editor><surname>d'Alembert</surname>, <forename>Jean le Rond</forename></editor>
+                <title>Encyclopédie</title>
+                <date>1765</date>
+                <editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-918-0/?query="></link></editor>
+            </bibl>
+            <bibl xml:id="Enfer">
+                <editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1283-0/"></link></editor>
+            </bibl>
+            <bibl xml:id="Métempsycose">
+                <editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1183-0/"></link></editor>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p>Encodage d'un article d'encyclopedie</p>
+        </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="fr">Français</language>
+            <language ident="lat">Latin</language>
+        </langUsage>    
+    </profileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div>
+            <entry xml:type="Mythologie" xml:id="Elysées">
+                <form><orth>ÉLYSÉES</orth> (Champs)</form>
+                <def>
+                    <p>Mythol.<note place="margin" type="editorial">Du désignant au domaine (travail critique). Le désignant a été explicité si nécessaire (forme explicitée ), puis rattaché à un ou plusieurs domaines : Forme explicitée : Mythologie ; Domaine : Mythologie</note> en latin <language ident="lat">elysium, elysii, elysii campi</language>(que Virgile caractérise si bien en deux mots, quand il les appelle <language ident="lat">locos lætos, sedesque beatas</language>), étoient selon la théologie payenne, un lieu dans les enfers, plein de campagnes admirables, de prairies charmantes, &amp; de bois délicieux, qui faisoient la demeure des gens de bien après leur mort. Orphée, Hercule, Enée, eurent le bonheur pendant leur vie, de voir une fois ce beau séjour.</p>
+                    <p>A la droite du Tartare, disent les Poëtes, se trouve un chemin qui conduit aux champs élysées, dans ces îles fortunées, où les ames de ceux qui ont bien vécu pendant cette vie, joüissent d’une paix profonde, &amp; des plaisirs innocens.</p>
+                    <p>Tout ce qui peut entrer dans les descriptions les plus brillantes &amp; les plus fleuries, est peut-être rassemblé dans la peinture des champs élysées faite par Pindare ; du moins Anacréon &amp; Sapho, Moschus &amp; Bion, dont les écrits sont pleins d’images douces &amp; riantes, n’ont rien qui soit au-dessus du tableau du poëte lyrique de la Grece ; cependant Homere a donné le premier modele de toutes les descriptions de l’élysée, qu’ont fait depuis sous différentes peintures Virgile, Ovide, Tibulle, Lucain, &amp; Claudien.</p>
+                    <p>Reste à savoir en quel endroit du monde étoit cette demeure fortunée, son origine, &amp; l’espace de tems que les ames habitoient ce séjour délicieux. Mais c’est sur quoi les sentimens sont fort partagés.</p>
+                    <p>Les uns établissent l’élysée au milieu des airs ; d’autres, comme Plutarque, dans la lune ou dans le soleil ; &amp; d’autres au centre de la terre ; Platon le met sous la terre, c’est-à-dire dans l’hémisphere de la terre diamétralement opposé au nôtre, ou pour le dire en d’autres termes, aux antipodes. Homere semble placer les champs élysées au pays des Cymmériens, que M. le Clerc croit être l’Epire ; Virgile les met en Italie ; quelques modernes entendent par les îles fortunées, celles que nous appellons aujourd’hui les Canaries ; mais elles n’étoient pas connues des anciens, qui n’osoient passer le détroit, &amp; qui ne perdoient point les côtes de vûe.</p>
+                    <p>Si l’on en croit quelques autres, l’élysée étoit le charmant pays de la Bétique (aujourd’hui la Grena​/<note place="margin" type="editorial">p.533</note> &amp; l’Andalousie), tout y quadre, selon Bochart, à la description des Poëtes.</p>
+                    <p>Le plus important est de découvrir l’origine de leurs fables, touchant le séjour des ames après la mort. On ne peut douter ici que la premiere notion des champs élysées, de même que celle de l’enfer, ne soit venue d’Egypte. Voyez<xr>Enfer<ptr target="#Enfer"/></xr>.</p>
+                    <p>Consultez Vossius, le Clerc, &amp; autres ; voyez aussi <ref target="Winder">Jacques Winder, <language ident="lat">de vitâ functorum statu, apud Ethnicos</language>.</ref></p>
+                    <p>M. Pluche, dans son histoire du ciel, donne à cette fable une explication assez simple. Diodore de Sicile dit que la sépulture commune des Egyptiens étoit au-delà d’un lac nommé Acherusie : que le mort étoit apporté sur le bord de ce lac, au pié d’un tribunal composé de plusieurs juges, qui informoient de ses vie &amp; mœurs. S’il n’avoit pas été fidele aux lois, on jettoit le corps dans une fosse ou espece de voyerie qu’on nommoit le Tartare. S’il avoit été vertueux, un batelier conduisoit le corps au-delà du lac dans une plaine embellie de prairies, de ruisseaux, de bosquets, &amp; de tous les agrémens champêtres. Ce lieu se nommoit élisout ou les champs élysées, c’est-à-dire pleine satisfaction, séjour de repos ou de joie. Hist. du ciel, tom. I. pag. 124 &amp; 126. (G)<note place="bottom" type="editorial">La marque (G) est celle de Mallet.</note></p>
+                    <p>Au reste si les Poëtes ont varié sur la situation des champs élysées, ils ne sont pas plus d’accord sur le tems que les ames y doivent demeurer. Anchise semble insinuer à Enée son fils, qu’après une révolution de mille ans, les ames bûvoient de l’eau du fleuve Léthé, &amp; venoient dans d’autres corps ; en quoi Virgile adopte en quelque maniere la fameuse opinion de la métempsycose qui a eu tant de partisans, &amp; qui devoit encore son origine aux Egyptiens. Voy. <ref target="#Métempsycose">Métempsycose.</ref> Add. de M. le Chev. de Jaucourt​3​.</p>
+                </def>
+            </entry>
+        </div>
+    </body>
+</text>    
+</TEI>
