@@ -43,7 +43,7 @@
         L'utilisation de "rdg" et de "lem" est privilégiée étant donné que l'Encyclopédie de Diderot, d'Alembert et de Jaucourt 
         est antérieure à l'Encyclopédie d'Yverdon. De ce fait, on considère que la première version est celle de référence.  </p>
 
-        <p> Certains "hi" doivent être remplacés par "emph", notamment le terme "eau" qui est le sujet des notices.
+        <p> Certains "hi" doivent être remplacés par "emph", notamment pour le terme "eau" qui est le sujet des notices.
 
         <listWit>
             <witness xml:id="1"> L'Encyclopédie </witness>
@@ -89,7 +89,7 @@
         Nous ne parlerons point ici de l'utilité de ce fluide : elle est assez connue.
         L'<hi rend="italic"> eau </hi> étoit un des quatre éléments des anciens, <hi rend="italic"> voyez </hi>
         <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-851-3/"> ELÉMENS </ref> ; &amp; Thalès la regardoit comme le principe de toutes choses.
-        Cette opinion de Thalès étoit même plus ancienne que lui ; &amp; M.l'abbé de Canaye a prouvé, dans une excellente dissertation,
+        Cette opinion de Thalès étoit même plus ancienne que lui ; &amp; M.l'abbé de Canaye <note> L'abbé de Canaye était un ecclésiastique et ami de d'Alembert </note> a prouvé, dans une excellente dissertation,
         <title> tome X. des mém. de l'académie des Belles-lettres </title> , que le mot grec ἀρχὴ, dont les parti-<pb n="187" break="no"/> sans de cette opinion
         se servoient pour désigner cette propriété prétendue de l' <hi rend="italic"> eau </hi>, signifie, non un principe purement mécanique
         &amp; physique, mais une <hi rend="italic"> cause efficiente &amp; primitive </hi>. 
@@ -197,10 +197,10 @@
         <rdg wit="#2"> 
 
         <p>
-        On peut distinguer l'<hi rend="italic"> eau </hi> en six especes. I°. L'<hi rend="italic"> eau </hi> tombe à travers l'atmosphere sous la forme de pluie, de neige ou de grêle. 2°.
-        L'<hi rend="italic"> eau </hi> de fontaine. 3°. L'<hi rend="italic"> eau de fleuve. 4°. L'<hi rend="italic"> eau </hi> de puits. 5°.
-        L'<hi rend="italic"> eau </hi> de lac. 6°. L'<hi rend="italic"> eau </hi> de mer.
-        La pluie, la neige et la grêle, sont originairement de l'<hi rend="italic"> eau </hi> qui s'est élevée de la surface de la terre sous la forme de vapeurs,
+        On peut distinguer l'<emph> eau </emph> en six especes. I°. L'<emph> eau </emph> tombe à travers l'atmosphere sous la forme de pluie, de neige ou de grêle. 2°.
+        L'<emph> eau </emph> de fontaine. 3°. L'<emph> eau </emph> de fleuve. 4°. L'<emph> eau </emph> de puits. 5°.
+        L'<emph> eau </emph> de lac. 6°. L'<emph> eau </emph> de mer.
+        La pluie, la neige et la grêle, sont originairement de l'<emph> eau </emph> qui s'est élevée de la surface de la terre sous la forme de vapeurs,
         qui ont formé ensuite des nuées d'où elle est enfin retombée sur la terre. Voyez ces mots. 
         </p>
 
