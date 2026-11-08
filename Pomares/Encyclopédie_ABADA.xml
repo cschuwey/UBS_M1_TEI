@@ -16,7 +16,7 @@ type="application/xml"
             </titleStmt>
 
             <publicationStmt>
-                <p>Encodage réalisé dans le cadre du TD4 puis TD5.</p>
+                <p>Encodage réalisé dans le cadre du TD4 puis TD5 et TD6.</p>
             </publicationStmt>
 
             <sourceDesc>
@@ -36,6 +36,10 @@ type="application/xml"
             rdg puisque je n'ai pas compris comment déterminer, de façon cohérente, quel article devait être considéré comme
             la "meilleure" version. Rdg me semblait mettre les deux édition sur un même plan. De plus, je n'ai pas bien compris le fonctionnement de wit. <lb/>
             J'avoue n'avoir pas très bien compris à quel endroit et comment noter les différences entre les deux versions de l'article. </p>
+            <p> TD6-Les notes servet à ajouter des précisions sans modifier le texte étudié. Ce sont des annotations. On peut retranscrire 
+            une note présente dans le texte original ou en rédiger une. <lb/>
+            L'attribut type permet de préciser la nature de la note et l'attribut target permet d'identifier dans quel segment se trouve le mot ou le passage
+             nécessitant une annotation. </p>
         </encodingDesc>
 
         <revisionDesc>
@@ -44,6 +48,9 @@ type="application/xml"
             </change>
             <change when="2026-10-30">
                 Encodage de la deuxième édition de l'article ABADA pour le TD5 et essai de comparaison.
+            </change>
+            <change when="2026-11-08">
+                Ajout de notes avec les attributs type et target et l'identification des segment par xml:id. Ajout de certaines balises. TD6
             </change>
         </revisionDesc>
     </teiHeader>
@@ -64,7 +71,10 @@ type="application/xml"
 
                     <sense>
                         c’est, dit-on,
-                        <def>un animal qui se trouve sur la côte méridionale de <placeName>Bengale</placeName></def>,
+                        <def>un animal qui se trouve sur la côte méridionale de <placeName xml:id="lieuBengale">Bengale</placeName>
+                        <note type="geographie" target="#lieuBengale"> Le Bengale est une vaste région située à l'Est du sous-continent
+                        indien, partagée aujourd'hui entre l'Inde et le Bangladesh. Cette zone est célèbre pour son delta formé par le Gange
+                        et le Brahmapoutre. </note> </def>,
                         <seg type="description_physique">qui a deux cornes, l’une sur le front, l’autre sur la nuque du cou ;
                         qui est de la grosseur d’un <term>poulain</term> de deux ans, &amp; qui a la queue
                         d’un <term>bœuf</term>, mais un peu moins longue ; le crin &amp; la tête d’un <term>cheval</term>,
@@ -77,8 +87,10 @@ type="application/xml"
                         de l’animal, mais qu’elle se recourbe en-devant ; &amp; que celle de
                         la nuque du cou est plus courte &amp; plus plate. </seg>
 
-                        <seg type="anecdote">Les Negres le tuent pour lui enlever ses cornes, qu’ils regardent
-                        comme un spécifique, non dans plusieurs maladies, ainsi qu’on lit
+                        <seg type="anecdote"> <rs type="groupe_humain" xml:id="contextualisation">Les Negres </rs> <note type="explication" target="#contextualisation"> Terme
+                         historique aujourd'hui considéré comme offensant. </note> le tuent pour lui enlever ses cornes, qu’ils regardent
+                        comme <seg xml:id="explicationlexicale">un spécifique </seg> <note type="lexicale" target="#explicationlexicale">
+                        Dans ce passage, le terme "spécifique" évoque un remède. </note>, non dans plusieurs maladies, ainsi qu’on lit
                         dans quelques auteurs, mais en général contre les venins &amp; les
                         poisons. </seg>
 
@@ -88,7 +100,9 @@ type="application/xml"
                         instruit &amp; fidele, ou si par hasard tout ceci ne seroit appuyé
                         que sur le témoignage de quelque voyageur. </seg>
 
-                        Voyez <ref><name>Vallisneri</name>, tom. III. p. 367</ref>.
+                        Voyez <ref><name xml:id="personne">Vallisneri</name>, tom. III. p. 367</ref> <note type="historique" target="#personne">
+                        Antonio Vallisneri (1661-1730) était un médecin et naturaliste italien qui s'intéresait à l'étude des animaux et à l'histoire
+                        naturelle. </note>.
                     </sense>
 
                     <!--J'ai recommencé le travail du TD4 en changeant l'article. L'article
