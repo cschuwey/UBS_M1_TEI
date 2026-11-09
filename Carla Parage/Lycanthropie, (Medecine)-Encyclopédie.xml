@@ -2,21 +2,22 @@
 <TEI xmlns="https://tei-c.org">
     <teiHeader>
 	    <fileDesc>
-		    <titleStmt>
-			    <title>LYCANTHROPIE, (Medecine).</title>
+		    <titleStmt> 
+				 <title>LYCANTHROPIE, (Medecine).</title>
                 <author> L'Encyclopédie (1751-1772)</author>
                 <respStmt> 
-                    <resp> Annontation et édition critique</resp>
-                    <name xml:id="HugoMarques> Hugo Marques </name>
-                </respStmt>
-		    </titleStmt>
+					<resp> Annontation et édition critique</resp>
+                    <name xml:id="HugoMarques> Hugo Marques>
+				</respStmt>
+			</titleStmt>
 		    <publicationStmt>
-                <publisher> Enccre (Edition Numérique Collaborative et Critique de l'Encyclopédie)</publisher>
+				 <publisher> Enccre (Edition Numérique Collaborative et Critique de l'Encyclopédie)</publisher>
                 <date when="2024-11-29"> 29 Novembre 2024 </date>
                 <id type="Schwab"> vol. IX, n°3470 </id>
-                <id type="url"> https://enccre.academie-sciences.fr/encyclopedie/article/v9-2134-0/ </id>  
-		    </publicationStmt>
-		    <sourceDesc>
+                <id type="url"> https://enccre.academie-sciences.fr/encyclopedie/article/v9-2134-0/ </id> 
+			</publicationStmt>
+		    <sourceDesc> 
+				</sourcesDesc>
               <listWit>
             	<!--Témoin principal Enccre-->
                 <witness xml:id="Enccre">    
@@ -36,8 +37,8 @@
 						<id type="url">https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/9/3584 </id>
 					</bibl>
 				 </witness>
-			  </listWit>	
-		    </sourceDesc>
+			  </listWit>
+			</sourceDesc>
 	    </fileDesc>
 
         <encodingDesc>
@@ -74,7 +75,7 @@
                     <change when="2026-10-21"> Remplissage teiHeader et intégration de encodingDesc.</change>
                     <change when="2026-10-21"> Réalisation de l'encodage de l'article LYCANTHROPIE de l'Encyclopédie.</change>
 					<change when="2026-10-30"> Incorporer les 2 éditions de l'article et mise en place des attributs wit, app, lem, rdg et du foreign pour la langue.</change>
-                	<change when="2026-11-09"> Intégration de 3 notes critiques diversifiée : Oribaze; terme ​spécifique​​ et abréviation "synops, lib. IX. c. x. "</change>
+					<change when="2026-11-09"> Intégration de 3 notes critiques diversifiée : Oribaze; terme ​spécifique​​ et abréviation "synops, lib. IX. c. x. "</change>
 				</listchange>
             </revisionDesc>
     </teiHeader>   
