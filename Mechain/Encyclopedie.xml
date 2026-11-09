@@ -30,10 +30,11 @@
             </encodingDesc>
         </fileDesc>
     </teiHeader>
-    
+
     <!-- la suite de mon travail sera d'encoder tous les différents homonymes de "fantasie", en utilisant la balise 'hom', ce qui me permet, au passage, de régler le problème du placement de "(morale)" dans le nom de l'entrée. -->
     <!-- de plus, je pourrais dater l'entrée, et définir son registre dans la balise 'usg' avec l'attribut 'reg' -->
     <!-- certaine erreurs de recopie doivent aussi être corrigées -->
+    <!-- je n'ai pas encore réussi à intégrer de manière satisfaisante, et claire à mes yeux, les balises app -->
     <text>
         <front>
         </front>
