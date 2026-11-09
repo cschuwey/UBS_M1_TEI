@@ -49,6 +49,7 @@
 			<change n="1" when="2026-10-19">Le TEI Header a été complété.</change>
 			<change n="2" when="2026-10-19">Les éléments d'encodage d'un article d'encyclopédie ont été ajoutés.</change>
 			<change n="3" when="2026-10-30">Les éléments d'ecnodage de l'article d'Yverdon ont été ajoutés.</change>
+			<change n="4" when="2026-11-08">Quatre notes ont été ajoutées.</change>
 		</revisionDesc>
 	</teiHeader>
 
@@ -154,8 +155,8 @@
 					<hi rend="italic">artifices</hi>, il faut avoir certaines commodités, 
                     qu'on ne trouve pas indifféremment dans toutes les maisons. 
                     Premierement, le grand bruit qu'on est obligé de faire pour charger les fusées volantes à grands coups de maillet, 
-                    réitérés pendant long-tems, demande une petite chambre sur terre ferme qui en amortisse le retentissement : 
-                    par la même raison, à peu près, qu'on place ainsi les enclumes des forgerons, auxquels on peut comparer les billots de bois, 
+                    réitérés pendant <note type="orthographe" place="in line"><orth>long-tems</orth>Ancienne orthographe de l'adverbe lonngtemps.</note>, demande une petite chambre sur terre ferme qui en amortisse le retentissement : 
+                    par la même raison, à peu près, qu'on place ainsi les enclumes des forgerons, auxquels on peut comparer les <note type="explication" place="in line"><objet>billots</objet>Gros bloc de bois ou de métal compact façonné pour préésenter une surface plane à hauteur d'appui.</note> de bois, 
                     sur lesquels on pose les moules ou culots des fusées pour les charger. 
                     Le même billot doit aussi servir de base aux mortiers de fonte destinés à piler les matieres dures.
 				</p>
@@ -163,7 +164,7 @@
 				<p n="3">
 					Il faut de plus avoir en lieu sec une chambre séparée de celle qu'on habite, 
                     pour y faire les ouvrages moins bruyans ; comme broyer, tamiser &amp; mêler les matieres, 
-                    faire les cartouches, les étrangler, faire les étoupilles &amp; les petits
+                    faire les cartouches, les étrangler, faire les <note type="explication" place="in line"><objet>étoupilles</objet>Dispositif ou composant pyrotechnique servant à déclancher l'inflammation d'un explosif.</note> &amp; les petits
 					<hi rend="italic">artifices</hi>. Il convient d'avoir dans celle-ci un poële à l'allemande, 
                     auquel on met le feu par une chambre voisine, sur-tout si l'on est obligé de travailler l'hyver, 
                     ou de coller &amp; faire sécher les cartouches pendant les tems humides.
@@ -187,7 +188,7 @@
 					Le principal meuble de cet attelier est une table de bois dur de deux ou trois piés en quarré, 
                     garnie d'une tringle arrondie débordant d'un pouce au-dessus, 
                     pour y broyer la poudre &amp; le charbon, sans que la poussiere se répande par les bords. 
-                    Pour cet effet on se sert d'une mollette ou paumette de bois dur, faite à peu près comme une mollette à broyer les couleurs.
+                    Pour cet effet on se sert d'une <note type="explication" place="in line"><objet>maulette ou paumette de bois dur</objet>Plus courament appelé paumelle de bois et qui permeet la rotation d'une porte ou d'une fenêtre fabriqué dans un bois dur.</note> de bois dur, faite à peu près comme une mollette à broyer les couleurs.
 				</p>
 			</def>
 		</entry>
