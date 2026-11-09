@@ -33,6 +33,8 @@
             <change n="2" when="2026-10-15">Les éléments d'encodage d'un article d'encyclopédie ont été ajoutés.</change>
             <change n="3" when="2026-10-24">Encodage de l'article de l'encyclopédie Garnier.</change>
             <change n="4" when="2026-10-24">Mise à jour du TEI Header avec les informations relatives à l'article Garnier.</change>
+            <change n="5" when="2026-10-28">Ajout de la deuxième verison de l'article (version Yverdon) au fichier.</change>
+            <change n="6" when="2026-11-09">Ajout de notes.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -41,7 +43,8 @@
                 <app>
                 <lem wit="ENCCRE">
                 <entry>
-                    <form><orth>PLANETE</orth></form>, <gramGrp><pos>s.</pos> <gen>f.</gen></gramGrp> <sense><p>en Astronomie​​, c’est un corps céleste, qui fait sa révolution autour du Soleil comme centre, &amp; qui change continuellement de position par rapport aux autres étoiles.</p>
+                    <form><orth>PLANETE</orth></form>, <gramGrp><pos>s.</pos> <gen>f.</gen></gramGrp> <sense><p><annotated><text>en Astronomie</text><note n="1" type="editorial" anchored="true">Forme explicitée : Astronomie. Domaine : Astronomie.</note>​</annotated>​,
+                    c’est un corps céleste, qui fait sa révolution autour du Soleil comme centre, &amp; qui change continuellement de position par rapport aux autres étoiles.</p>
         
        <p>C’est de là que lui est venu le nom de <language ident="ag">πλανήτης</language>, errant, par opposition aux étoiles fixes ; aussi les planetes s’appellent-elles quelquefois étoiles errantes. 
         Voyez<ref target="article_etoile"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-96-0/"/>Etoile</ref>.</p>
@@ -74,7 +77,7 @@
         <p>Les planetes supérieures sont celles qui sont plus éloignées du Soleil que notre Terre : telles sont Mars, Jupiter &amp; Saturne.</p>
         
         <p>Les planetes inférieures sont celles qui sont plus proches du Soleil que notre Terre, &amp; situées entre la Terre &amp; le Soleil, comme Vénus &amp; Mercure. Voyez l’ordre, la position, etc. des planetes
-            dans les Pl. d’Astron. <ref target="fig44">fig. 44</ref>.</p>
+            dans les Pl. d’Astron. <ref target="fig44">fig. 44</ref> <note n="2" type="info" anchored="true">La figure 44 n'apparaît pas dans la page de l'encyclopédie.</note>.</p>
         
         <p>Cette figure représente la disposition des planetes dans le système de Copernic ; système qui est le plus ancien de tous, &amp; qui a été enseigné autrefois par Pythagore &amp; ses disciples. Ce philosophe
             qui l’avoit appris dans l’Orient, le répandit bientôt dans la Grece ; mais le commun des Philosophes embrasserent long-tems après un autre système, qui supposoit la Terre immobile, &amp; qui attribuoit
@@ -131,8 +134,9 @@
              les quatre satellites de Jupiter et les cinq satellites de Saturne.</p>
         <p>Les planetes principales se distinguent en planetes supérieures et inférieures. Les supérieures, Mars, Jupiter et Saturne, sont plus éloignées du soleil que la
              terre; les inférieures en sont plus près; c'est Mercure et Vénus. v. <ref target="article_systeme">SYSTÊME</ref>.</p>
-        <p>Les caracteres, par lesquels on représente les planetes et que nous joignons <ref target="fig">ici</ref>, sont relatifs aux noms de divinités qu'on leur a données.</p>
-        <p>Scaliger, dans ses notes sur Manilius, dit qu'on les voit sur plusieurs pierres très-anciennes. Pour la lune, c'est un croissant, pour Mercure, un caducée, pour
+        <p>Les caracteres, par lesquels on représente les planetes et que nous joignons <ref target="fig">ici</ref>, sont relatifs aux noms de divinités qu'on leur a données.
+        <note n="3" type ="info" anchored="true">Un tableau est joint à ce paragraphe dans le texte.</note></p>
+        <p>Scaliger <note n="4" type="info" anchored="true">Erudit français du XVIe siècle.</note>, dans ses notes sur Manilius, dit qu'on les voit sur plusieurs pierres très-anciennes. Pour la lune, c'est un croissant, pour Mercure, un caducée, pour
              Vénus, un miroir avec son manche, pour Mars, une flêche et un bouclier, pour Jupiter, la premiere lettre du nom qu'il porte en grec ZEUS, avec une intersection,
              pour Saturne, la faux qui en étoit l'attribut. On peut voir à ce sujet la dissertation de M. Goguet, dans son livre de l'origine des loix, tom. II. p. 427. édit. 
              in-4°. il y traite aussi de l'origine des noms des planetes.</p>
