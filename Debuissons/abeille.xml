@@ -17,7 +17,7 @@
 					<date when="1752">18ème siècle</date>
 					<editor>Edition numérique</editor>
 					<editor>ENCCRE<link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/1/166"/></editor>
-					<date>2021-2026</date>
+					<date when="1751">1751</date>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
@@ -25,6 +25,9 @@
 			<projectDesc>
 				<p>Encodage réalisé dans le cadre du cours de TEI de M.SCHUWEY, </p>
 			</projectDesc>
+			<editorialDec1>
+			<p>Au vu de la longueur de la défintion, j'ai décidé de m'arrêter au dicième paragraphe</p>
+			</editorialDec1>
 		</encodingDesc>
 		<revisionDesc>
 		<list>
@@ -34,7 +37,7 @@
 		</list>
 		</revisionDesc>
 
-		
+
 	</teiHeader>
 	<text>
 		<body>
