@@ -8,10 +8,12 @@
 				<author>Argenville</author>
 				<author>Vandenesse</author>
 			</titleStmt>
-			<publicationStmt> <authority>Clara Debuissons</authority> </publicationStmt>
+			<publicationStmt>
+				<authority>Clara Debuissons</authority>
+			</publicationStmt>
 			<sourceDesc>
 				<bibl>
-					<title>Encyclopédie</title>
+					<title> Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers </title>
 					<date when="1752">18ème siècle</date>
 					<editor>Edition numérique</editor>
 					<editor>ENCCRE<link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/1/166"/></editor>
@@ -25,9 +27,14 @@
 			</projectDesc>
 		</encodingDesc>
 		<revisionDesc>
-			<date>Du mercredi 07 novembre 2026 au dimanche 25 octobre 2026 </date>
-			<p>Travail en cours puis chez moi.</p>
+		<list>
+		<item><date when="07-10-2026">Mercredi 07 octobre 2026</date>Travail en cours</item>
+		<item><date when="25-10-2026">Dimanche 25 octobre 2026</date>Travail chez moi sur l'encodage</item>
+		<item><date when="08-11-2026">Dimanche 08  novembre 2026</date>Correction et ajouts de balises</item>
+		</list>
 		</revisionDesc>
+
+		
 	</teiHeader>
 	<text>
 		<body>
