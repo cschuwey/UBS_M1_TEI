@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ébauche : édition numérique et comparaison de deux articles encyclopédiques</title>
+        <respStmt>
+          <resp>Transcription, encodage TEI-XML et comparaison des deux articles</resp>
+          <name ref="#maina">Maina Ruellan</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Document de travail universitaire.</p>
+      </publicationStmt>
+      <!-- SOURCE : cette partie indique d’où viennent les deux textes. Les identifiants source1751 et source1788 permettent de retrouver chaque notice bibliographique. --><sourceDesc>
+        <listBibl>
+          <biblStruct xml:id="source1751">
+            <analytic>
+              <author>
+                <persName>Diderot</persName>
+              </author>
+              <author>
+                <persName>Blondel</persName>
+              </author>
+              <author>
+                <persName>Landois</persName>
+              </author>
+              <title level="a">EBAUCHE, ESQUISSE</title>
+            </analytic>
+            <monogr>
+              <title level="m">Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
+              <imprint>
+                <date when="1751">1751</date>
+                </imprint>
+            <biblScope unit="volume">V</biblScope>
+                <biblScope unit="page" to="213" from="212">212-213</biblScope>
+              </monogr>
+            <note>Les noms Diderot, Blondel et Landois apparaissent dans les informations de la transcription sur Wikisource. Je les ai donc indiqués ici, mais cette attribution reste à vérifier dans la source. <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/EBAUCHE,_ESQUISSE">Consulter la transcription de l’article sur Wikisource</ref></note>
+          </biblStruct>
+          <biblStruct xml:id="source1788">
+            <analytic>
+              <author>
+                <persName>M. Levesque</persName>
+              </author>
+              <title level="a">ÉBAUCHE</title>
+            </analytic>
+            <monogr>
+              <title level="m">Encyclopédie méthodique. Beaux-Arts</title>
+              <imprint>
+                <pubPlace>Paris</pubPlace>
+                <publisher>Panckoucke</publisher>
+                <date when="1788">1788</date>
+                </imprint>
+            <biblScope unit="volume">I</biblScope>
+                <biblScope unit="page" to="207" from="206">206-207</biblScope>
+              </monogr>
+            <note>L’article se termine par la signature « Article de M. Levesque ». J’ai donc indiqué M. Levesque comme auteur de la notice. Wikisource mentionne aussi Claude-Henri Watelet dans les informations générales du volume, mais cela ne veut pas dire qu’il a écrit cet article. <ref target="https://fr.wikisource.org/wiki/Encyclop%C3%A9die_m%C3%A9thodique/Beaux-Arts/%C3%89bauche">Consulter la transcription de l’article sur Wikisource</ref></note>
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <!-- CHOIX D’ENCODAGE : les choix que j’ai faits pour organiser et transcrire les textes. --><encodingDesc>
+      <projectDesc>
+        <p>Ce fichier rassemble deux articles qui parlent de l’ébauche : celui de l’Encyclopédie de 1751 et celui de l’Encyclopédie méthodique de 1788.</p>
+        <p>J’ai séparé les deux articles, car ils ne sont pas deux versions du même texte. Ils parlent du même sujet, mais leur contenu et leur organisation sont assez différents. Je peux donc les comparer, sans les présenter comme des variantes d’un seul texte.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>J’ai gardé autant que possible l’orthographe, la ponctuation et les formulations des textes anciens. Je n’ai pas essayé de moderniser toutes les expressions, pour rester au plus près des transcriptions de départ.</p>
+        <p>J’ai comparé les transcriptions avec les pages Wikisource. Celle de 1751 est indiquée comme corrigée et conforme au fac-similé. Pour celle de 1788, Wikisource indique qu’elle est encore à relire. J’ai donc gardé le texte de travail, mais il faudra vérifier certains détails sur l’image de la page avant de considérer la transcription comme définitive.</p>
+        <p>La comparaison à la fin du fichier est un commentaire que j’ai ajouté. Elle ne fait pas partie des articles d’origine.</p>
+      </editorialDecl>
+      <refsDecl>
+        <p>Dans le texte de 1751, « Voyez Esquisse » renvoie à l’article « ESQUISSE » de la même Encyclopédie. J’ai ajouté le lien vers cet article. Pour « Voyez Masses », je n’ai pas encore retrouvé la bonne destination : j’ai donc laissé le renvoi sans lien plutôt que de risquer de mettre une mauvaise adresse.</p>
+      </refsDecl>
+    </encodingDesc>
+    <!-- INFORMATIONS SUR LE DOCUMENT : langUsage indique la langue. listPerson sert à déclarer les personnes auxquelles je fais référence plus loin. --><profileDesc>
+      <langUsage>
+        <language ident="fr">Français</language>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="maina">
+            <persName>Maina Ruellan</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <!-- HISTORIQUE : chaque change correspond à une étape du travail. La date est écrite au format année-mois-jour. --><revisionDesc>
+      <change when="2026-10-26">
+        <p>TD4-TD5 : ajout de la deuxième source et première mise en place de la comparaison.</p>
+      </change>
+      <change when="2026-11-10">
+        <p>J’ai repris la structure du fichier, séparé les deux articles et revu les informations sur les sources et les renvois. J’ai aussi ajouté un commentaire pour expliquer leur point commun et leurs différences.</p>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <!-- ARTICLE DE 1751 : j’utilise un div pour regrouper les éléments qui appartiennent à cet article. Chaque p correspond à un paragraphe. --><div type="article" xml:id="ebauche1751">
+        <head>EBAUCHE, ESQUISSE (1751)</head>
+        <!-- xml:id donne un identifiant unique au paragraphe. corresp indique qu’il est lié au paragraphe p1788-1. Ce lien signale un sujet commun, pas une identité entre les deux passages. --><p xml:id="p1751-1" corresp="#p1788-1">EBAUCHE, ESQUISSE, s. f. termes techniques. L’ébauche est la premiere forme qu’on a
+              donnée à un ouvrage ; l’esquisse n’est qu’un modele incorrect de l’ouvrage même qu’on
+              a tracé légerement, qui ne contient que l’esprit de l’ouvrage qu’on se propose
+              d’exécuter, &amp; qui ne montre aux connoisseurs que la pensée de l’ouvrier. Donnez à
+              l’esquisse toute la perfection possible, &amp; vous en ferez un modele achevé. Donnez
+              à l’ébauche toute la perfection possible, &amp; l’ouvrage même sera fini. Ainsi quand
+              on dit d’un tableau, j’en ai vû l’esquisse, on fait entendre qu’on en a vû le premier
+              trait au crayon que le peintre avoit jetté sur le papier ; &amp; quand on dit, j’en ai
+              vû l’ébauche, on fait entendre qu’on a vû le commencement de son exécution en couleur,
+              que le peintre en avoit formée sur la toile. D’ailleurs le mot d’esquisse ne s’employe
+              guere que dans les Arts où l’on passe du modele à l’ouvrage ; au lieu que celui
+              d’ébauche est plus général, puisqu’il est applicable à tout ouvrage commencé, &amp;
+              qui doit s’avancer de l’état d’ébauche à l’état de perfection. Esquisse dit toûjours
+              moins qu’ébauche, quoiqu’il soit peut-être moins facile de juger de l’ouvrage sur
+              l’ébauche que sur l’esquisse. <!-- ref sert à encoder un renvoi. target indique l’adresse de l’article vers lequel le lecteur est envoyé. --><ref type="crossRef" target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/ESQUISSE">Voyez Esquisse.</ref></p>
+        <p xml:id="p1751-2">Ebauche, en Architecture ; c’est la premiere forme qu’on donne à un quartier de
+              pierre ou à un bloc de marbre avec le ciseau, après qu’il est dégrossi à la scie &amp;
+              à la pointe, suivant un modele ou un profil. C’est aussi un petit modele de terre ou
+              de cire taillé au premier coup avec l’ébauchoir, pour en voir l’effet avant de le
+              terminer. (P)</p>
+        <p xml:id="p1751-3">Ebauche, ébauches en Gravûre, c’est l’action de préparer &amp; de mettre par masses
+              les ouvrages de gravûre au premier trait de burin. <!-- Je laisse ce renvoi sans target tant que je n’ai pas retrouvé sa destination exacte. Il vaut mieux ne pas inventer de lien. --><ref type="crossRef">Voyez Masses.</ref></p>
+        <p xml:id="p1751-4">Ebauche, ébaucher en Peinture, c’est disposer avec des couleurs les objets qu’on
+              s’est proposé de représenter dans un tableau, &amp; qui sont déjà dessinés sur une
+              toile imprimée, sans donner à chacun le degré de perfection qu’on se croit capable de
+              leur donner, en les finissant. Les peintres ébauchent plus ou moins arrêté ; il y en a
+              qui ne sont qu’un leger lavis de couleur &amp; de térébenthine, ou même de grisaille
+              ou camayeu. Les Sculpteurs disent aussi, ébaucher une figure, un bas-relief. (R)</p>
+      </div>
+      <!-- ARTICLE DE 1788 : il est dans un deuxième div pour bien le distinguer de celui de 1751. Les paragraphes gardent leur ordre dans la source. --><div type="article" xml:id="ebauche1788">
+        <head>ÉBAUCHE (1788)</head>
+        <p xml:id="p1788-1" corresp="#p1751-1">ÉBAUCHE, (sust. fém.) ce terme n’est pas synonyme d’esquisse. L’esquisse est la
+              première pensée du tableau, exprimée d’une manière plus ou moins terminée, &amp;
+              jettée sur un papier ou sur une toile séparée. Les figures, les accessoires, le site,
+              l’effet y sont indiqués ; mais rien n’y est rendu, rien n’y est arrêté. C’est pour le
+              peintre ce que seroit le plan d’un ouvrage pour un écrivain. L’ébauche est le premier
+              travail du tableau même : elle doit être couverte dans la suite par d’autres travaux ;
+              mais cependant elle doit subsister, &amp; même, si elle est savamment faite, les
+              couleurs en doivent servir &amp; concourir à l’effet de celles qui les couvriront,
+              sur-tout dans les ombres qui doivent toujours être légères de couleur. Par conséquent
+              dès l’ébauche, les formes doivent être arrêtées, sans quoi elle ne serviroit pas,
+              puisqu’il faudroit l’effacer par les couches supérieures ; elle seroit même nuisible,
+              car les couleurs du dessous percent avec le tems. Il est donc utile de prévoir, en
+              établissant les teintes de l’ébauche, celles qu’on mettra par dessus.</p>
+        <p xml:id="p1788-2">Tous les peintres ne suivent pas la même méthode dans leurs ébauche. Il y en a de qui
+              l’ébauche offre déjà, mais d’une teinte plus foible, l’effet qu’ils se proposent de
+              produire dans le fini. D’autres ne font qu’un léger lavis de couleur, &amp; leur
+              tableau ébauches ne présente qu’une grisaille. Rubens pensoit, en ébauchant, à tirer
+              parti, non-seulement de son ébauche mais même des tons de l’impression de la toile.</p>
+        <p xml:id="p1788-3">Suivant Lairesse, la meilleure méthode, quand il doit y avoir du paysage dans le
+              tableau, est de commencer l’ébauche par le fond, parce que c’est d’après la clarté ou
+              l’obscurité du ciel qu’il faut disposer toutes les autres parties &amp; régler toutes
+              les teintes des objets.</p>
+        <p xml:id="p1788-4">Mais si ce sont des figures ou d’autres grands objets qui forment la principale
+              partie du tableau, il croit qu’alors il faut commencer par l’endroit où doit être
+              employée la plus grande force. Il recommande, pour ne pas faire un travail inutile,
+              d’observer dès l’ébauche la perspective aerienne, &amp; de disposer les couleurs &amp;
+              les teintes de maniere qu’en regardant le tableau à un certain éloignement, il y ait
+              déjà un parfait accord dans l’ensemble. Il juge avec raison que cette méthode
+              procurera beaucoup de facilité pour la suite du travail.</p>
+        <p xml:id="p1788-5">Il blâme sur-tout les peintres qui ne suivent que le caprice dans le choix de la
+              partie du tableau par laquelle ils commencent leur ébauche ; qui, si leur imaginaion
+              est flattée de la représentation d’un vase d’or, commenceront par ce vase, pour
+              passer, ensuite sans un dessein bien déterminé &amp; bien réfléchi, à une draperie
+              bleue, puis à une draperie rouge, &amp;c. Il trouve le même inconvénient à peindre
+              d’abord &amp; à terminer entièrement le nud, pour passer ensuite aux draperies &amp; à
+              tous les accessoires. Les ouvrages, commencés par cette méthode vicieuse, n’offrent,
+              suivant lui, qu’une incohérence qui embarrasse plus l’artiste que s’il n’avoit sous
+              ses yeux qu’une toile imprimée. Mais quand la disposition, le coloris, l’entente
+              générale ont été bien observés dans la première couche de couleurs qui forme
+              l’ébauche, quand tout y a été le produit de la réflexion sur l’ouvrage qui doit
+              suivre, l’artiste peut s’appliquer avec goût à la meilleure manière de finir ce qu’il
+              a si bien indiqué.</p>
+        <p xml:id="p1788-6">On se sert aussi du mot ébauche dans la sculpture &amp; la gravure. On dit ébaucher
+              une statue, un bas-relief, une planche : mais on dit plus volontiers esquisser un
+              dessin, quoique les premiers travaux par lesquels on établit les formes intérieures
+              &amp; le clair-obscur répondent à ceux de l’ébauche en peinture, puisqu’un dessin
+              terminé est en effet un tableau d’une seule couleur, un camayeu. <!-- signed sert à repérer la signature présente à la fin de l’article. Je garde les mots de la source au lieu de remplacer la signature par une simple mention dans le Header. --><signed>(Article de M. Levesque).</signed></p>
+      </div>
+      <!-- MON COMMENTAIRE : cette partie est ajoutée pour expliquer ce que j’ai remarqué en comparant les deux articles. Elle ne vient pas des encyclopédies. --><div type="comparison" xml:id="comparison">
+        <head>Comparaison éditoriale</head>
+        <!-- type="comparison" précise qu’il s’agit d’une note de comparaison. resp="#maina" indique que c’est moi qui ai rédigé ce commentaire ; #maina renvoie à la personne déclarée dans profileDesc. --><note type="comparison" resp="#maina">Les deux articles parlent de la différence entre l’ébauche et l’esquisse. C’est pour cela que j’ai relié leurs premiers paragraphes avec corresp. En revanche, ils ne disent pas exactement la même chose. En 1751, l’article donne une définition assez générale, puis parle de l’architecture, de la gravure et de la peinture. En 1788, le texte s’intéresse surtout aux différentes façons de commencer et de construire un tableau. Il parle aussi de sculpture et de gravure à la fin. J’ai donc choisi de garder les deux articles séparés et de signaler seulement leur lien sur le sujet.</note>
+      </div>
+    </body>
+  </text>
+  <!--
+Il me reste à :
+- Ouvrir le fichier dans Oxygen et vérifier qu'il est valide avec le schéma TEI.
+- Relire la transcription de l'article de 1788 à partir du fac-similé pour vérifier la ponctuation, les espaces et les éventuelles erreurs de transcription.
+-->
+</TEI>
