@@ -7,7 +7,7 @@
             </titleStmt>
              <publicationStmt>
              <address>UBS</address>
-             <publisher>Mendrika Soahanta ANDRIAMAHEFASON</publisher>
+             <publisher xml:id="mendrika">Mendrika Soahanta ANDRIAMAHEFASON</publisher>
              <date when="2026">2026</date>
             </publicationStmt>
             <sourceDesc>
@@ -29,6 +29,13 @@
                 </editor>
                </bibl>
             </sourceDesc>
+            <profileDesc>
+              <particDesc>
+                <org xml:id="collectifENCCRE">
+                <orgName>Collectif projet ENCCRE</orgName>
+                </org>
+               </particDesc>
+            </profileDesc>
             <projetDesc><p>Encodage TEI d'un article numérisé par ENCCRE dans le cadre du cours TEI XML/XSLT en Master 1 Métiers du livre et de l'édition à l'UBS.</p>
             </projetDesc>
             <encodingDesc>
@@ -63,6 +70,9 @@
              </editorialDesc>
             </encodingDesc>
             <revisionDesc>
+             <change when="2026-11-11">
+             <p>Modifitcation du fichier dans son état T6 : application de l'élément note.</p>
+             </change>
              <change when="2026-10-31">
              <p>Quelques corrections liées aux erreurs de validation.</p>
              <p>Modification de l'encodage dans son état T5 : ajout du texte la deuxième notice, ainsi que le reste du premier article.</p>
@@ -111,13 +121,13 @@
             (car le mot hébreu <foreign rend="italic" xml:lang="hebreu">scheol</foreign> se prend indifféremment pour le lieu de la sépulture, 
             &amp; pour le lieu de supplice réservé aux réprouvés), 
             ils lui ont donné le nom de <placeName rend="italic">Gehenna</placeName> ou <placeName rend="italic">Gehinnon</placeName>, 
-            vallée près de Jérusalem, dans laquelle étoit un <foreign rend="italic">tophet</foreign> ou place 
+            vallée près de <placeName>Jérusalem<note n="1" type="geographic" resp="#mendrika">Capitale de l'état d'Israël dans le Moyen-Orient.</note></placeName>, dans laquelle étoit un <foreign rend="italic">tophet</foreign> ou place 
             où l’on entretenoit un feu perpétuel allumé par le fanatisme pour immoler des enfans à Moloch. 
             De-là vient que dans le nouveau Testament l’enfer est souvent désigné par ces mots <foreign xml:lang="latin" rend="italic">Gehenna ignis</foreign>.
             </p>
             <p n="5">5 Les principales questions qu’on peut former sur l’<hi rend="italic">enfer</hi> se réduisent à ces trois points : 
             son existence, sa localité, &amp; l’éternité des peines 
-            qu’y souffrent les réprouvés. Nous allons les examiner séparément. 
+            qu’y souffrent les réprouvés. Nous allons les examiner séparément.
             </p>
             <div type="comparaison">
             <head>La connaissance d'un état après la mort chez les anciens Hébreux.</head>
@@ -189,7 +199,7 @@
             ou que son livre ait été écrit par <person type="individual" xml:id="salomon">Salomon</person>, 
             comme le prétendent quelques critiques, il auroit vêcu, vers le tems du siege de Troye, qu’Homere n’a décrit que quatre cents ans après. 
             Isaïe, à la vérité, étoit à-peu-près contemporain d’Hésiode &amp; d’<author who="#homere">Homere</author> ; mais quelle connoissance a-t-il eu de leurs écrits,
-            dont les derniers sur-tout n’ont été recueillis que par les soins de Pisistrate, 
+            dont les derniers sur-tout n’ont été recueillis que par les soins de <person type="individual" xml:id="Pisistrate">Pisistrate</person>, 
             c’est-à-dire fort long-tems après la mort du poëte grec, &amp; celle du prophete qu’on suppose avoir été le copiste d’<author who="#homere">Homere</author>.
             </p>
             </lem>
@@ -297,7 +307,7 @@
             c’est à-dire, tout ce qui peut affliger le corps, &amp; sur-tout les douleurs cuisantes &amp; continuelles causées dans toutes ses parties par un feu inextinguible. 
             </p>
             <p n="14">14 Les fausses religions ont aussi leur <hi rend="italic">enfer</hi> : celui des <person type="collective" who="#group_payens">Payens</person>, assez connu par les descriptions qu’en ont faites <author who="#homere">Homere</author>, 
-            <author xml:id="ovide">Ovide</author> &amp; <author xml:id="virgile">Virgile</author>, est assez capable d’inspirer de l’effroi par les peintures des tourmens qu’ils y font souffrir à <person type="individual" xml:id="ixion">Ixion</person>, à <person type="individual" xml:id="promethée">Promethée</person>, aux <person type="collective" xml:id="group_danaïdes">Danaïdes</person>, aux <person type="collective" xml:id="group_lapythes">Lapythes</person>, 
+            <author xml:id="ovide">Ovide</author> &amp; <author xml:id="virgile">Virgile<note n="2" type="biographic" target="#virgile" resp="#mendrika">Poète et écrivain latin (70-19 av. J.-C.)</note></author>, est assez capable d’inspirer de l’effroi par les peintures des tourmens qu’ils y font souffrir à <person type="individual" xml:id="ixion">Ixion</person>, à <person type="individual" xml:id="promethée">Promethée</person>, aux <person type="collective" xml:id="group_danaïdes">Danaïdes</person>, aux <person type="collective" xml:id="group_lapythes">Lapythes</person>, 
             à <person type="individual" xml:id="phlégias">Phlégias</person>, &amp;c. mais parmi les <person type="collective" who="group_payens">Payens</person>, soit corruption du cœur, soit penchant à l’incrédulité, le peuple &amp;  les enfans même traitoient 
             toutes ces belles descriptions de contes &amp; de rêveries ; du moins c’est un des vices que <author xml:id="juvenal">Juvenal</author> reproche aux <person type="collective" xml:id="group_romains">Romains</person> de son siecle. 
             </p>
@@ -325,7 +335,7 @@
             <p n="17">17 Les Musulmans ont emprunté des Juifs &amp; des Chrétiens, le nom de gehennem ou gehim, pour signifier l’enfer. Gehenem, en arabe, 
             signifie un puits très-profond ; &amp; gehim, un homme laid &amp; difforme ; ben gehennem, un fils de l’enfer, un réprouvé. 
             Ils donnent le nom de thabeck à l’ange qui préside à l’enfer. D’Herbelot, Biblioth. orient. au mot Gehennem.​​</p>
-           <p n="18">18 Selon l’alcoran, au chap. de la priere, les Mahométans reconnoissent sept portes de l’enfer, ou sept degrés de peines ; 
+           <p n="18">18 Selon l’alcoran<note n="3" type="gloss" resp="#mendrika">L'alcoran est le livre sacré de l'Islam, plus communément appelé le Coran.</note>, au chap. de la priere, les Mahométans reconnoissent sept portes de l’enfer, ou sept degrés de peines ; 
            c’est aussi le sentiment de plusieurs commentateurs de l’alcoran, qui mettent au premier degré de peine, nommé gehennem, 
            les Musulmans qui auront mérité d’y tomber ; le second degré, nommé ladha, est pour les Chrétiens ; 
            le troisieme, appellé hothama, pour les Juifs ; le quatrieme, nommé saïr, est destiné aux Sabiens ; 
@@ -561,7 +571,17 @@
              réellement accomplies dans les réprouvés à la fin des siecles ; 
              ce qui prouve que la raison seule ne suffit pas pour décider cette question, 
              &amp; qu’il faut nécessairement avoir recours à la révélation, 
-             pour démontrer l’éternité &amp; la justice des peines de la vie future. (G)</p>     
+             pour démontrer l’éternité &amp; la justice des peines de la vie future. <closer><signed xml:id="auteur">(G)</signed></closer></p>     
         </body>
+        <back>
+         <note type="editorial" n="4" target="#auteur" resp="#collectifENCCRE" when="2016-05-16">
+           La marque (G) est celle de Mallet. Cette correspondance est explicitée dans :
+           <ref target="https://enccre.academie-sciences.fr/encyclopedie/page/v1-p64/">Avertissement – (vol. I)</ref>
+           <ref target="https://enccre.academie-sciences.fr/encyclopedie/page/v2-p888/">Noms des auteurs, avec la marque de leurs articles – (vol. II)</ref>
+           <ref target="https://enccre.academie-sciences.fr/encyclopedie/page/v3-p933/">Marque des Auteurs – (vol. III)</ref>
+           <ref target="https://enccre.academie-sciences.fr/encyclopedie/page/v6-p20/">Nom des Auteurs – (vol. VI)</ref>
+           <ref target="https://enccre.academie-sciences.fr/encyclopedie/page/v7-p26/">Marque des Auteurs – (vol. VII)</ref>
+         </note>
+        </back>
     </text>
 </TEI>
