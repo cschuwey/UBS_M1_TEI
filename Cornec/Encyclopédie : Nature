@@ -175,25 +175,61 @@
                                 <orth rend="caps">NATURE</orth>
                                 <gramGrp>
                                     <pos>s. f.</pos>
-                                    <note type="domain">(Philos.)</note>
+                                    <note type="domain">
+                                        (
+                                        <seg>
+                                            Philos
+                                            <note type="glossaire">
+                                                <seg>
+                                                Du désignant au domaine (travail critique).
+                                                    <note type="forme explicitée">
+                                                        
+                                                    </note>
+                                                    <note type="domaine">
+
+                                                    </note>
+                                                </seg>
+                                            </note>
+                                        </seg>
+                                        .)
+                                    </note>
                                 </gramGrp>
                             </form>
                             <p>
-                                Nature, s. f. (Philos.) est un terme dont on fait différens usages. Il y a dans Aristote​ un 
-                                chapitre entier​ sur les différens sens que les Grecs donnoient au mot 
+                                Nature, s. f. (Philos.) est un terme dont on fait différens usages. Il y a dans Aristote​ 
+                                <seg>
+                                    un chapitre entier
+                                    <note type="ponctuelle">
+                                        Référence probable au chapitre 1 du livre II de La Physique d'Aristote 
+                                        (merci à François Pépin).
+                                    </note>
+                                </seg>
+                                sur les différens sens que les Grecs donnoient au mot 
                                 <foreign xml:lang="grc">
                                     φύσις
                                 </foreign>
                                 , nature ; &amp; parmi 
                                 les Latins, ses différens sens sont en si grand nombre, qu’un auteur en compte jusqu’à 14 ou 
-                                15. M. Boyle, dans un traité exprès qu’il a fait sur les sens vulgairement attribués au mot 
-                                nature, en compte huit principaux.
+                                15. 
+                                <seg>
+                                    M. Boyle, dans un traité exprès qu’il a fait sur les sens vulgairement attribués au mot nature
+                                    <note type="bibliographique">  
+                                        Œuvre mentionnée : Robert Boyle, A Free Enquiry into the Vulgarly Received Notion of Nature, 
+                                        1ère éd., 1686.
+                                    </note>
+                                    <note type="bibliographique">
+                                        Il s'agit du traité de Robert Boyle A Free Enquiry into the Vulgarly Received Notion of Nature, 
+                                        qui avait paru en 1686 ; il n’en existait pas de traduction française.
+                                    </note>
+                                </seg>
+                                , en compte huit principaux.
                             </p>
                             <sense n="1">
                                 Nature signifie quelquefois le système du monde, la machine de l’univers, ou l’assemblage de 
                                 toutes les choses créées. Voyez 
                                 <ref target="#Système">
                                     Système
+                                    <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-2609-1/"/>
                                 </ref>
                                 .
                             </sense>
@@ -212,6 +248,7 @@
                                 créées, spirituel les &amp; corporelles. Voyez 
                                 <ref target="#Etre">
                                     Etre
+                                    <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-121-0/"/>
                                 </ref>
                                 .
                             </sense>
@@ -239,11 +276,30 @@
                                 leur nature des mains d’un autre.
                             </p>
                             <sense n="3">
-                                Nature, dans un sens encore plus limité, se dit de l’essence d’une chose, ou de ce que ​les 
-                                philosophes de l’école appellent ​sa quiddité, c’est-à-dire l’attribut qui fait qu’une chose 
+                                Nature, dans un sens encore plus limité, se dit de l’essence d’une chose, ou de ce que 
+                                <seg>
+                                    les philosophes de l’école 
+                                    <note type="ponctuelle">
+                                        On entendait par là les philosophes scolastiques. Voir l'article SCHOLASTIQUES, philosophie 
+                                        des scholastiques, (Hist. de la philos.) (t. XIV, 1765, p. 770b–777b).
+                                    </note>
+                                </seg>
+                                appellent ​sa 
+                                <seg>
+                                    quiddité
+                                    <note type="ponctuelle">
+                                        Emprunté au latin scolastique 
+                                        <foreign xml:lang="lat">
+                                            quidditas
+                                        </foreign>
+                                        , signifie « essence d'une chose ».
+                                    </note>
+                                </seg>
+                                , c’est-à-dire l’attribut qui fait qu’une chose 
                                 est telle ou telle. Voyez 
                                 <ref target="#Essence">
                                     Essence
+                                    <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1993-0/"/>
                                 </ref>
                                 .
                             </sense>
@@ -252,19 +308,23 @@
                                 nature de la matiere consiste dans l’étendue. Voyez 
                                 <ref target="#Ame">
                                     Ame
+                                    <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-1552-0/"/>
                                 </ref>
                                 , 
                                 <ref target="#Matiere"> 
                                     Matiere
+                                    <link taget="https://enccre.academie-sciences.fr/encyclopedie/article/v10-591-0/"/>
                                 </ref>
                                 , 
                                 <ref target="#Étendue">
                                     Étendue
+                                    <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-57-0/"/>
                             </ref>
                             . M. Boyle veut qu’on
                             se serve du mot essence au lieu de nature. Voyez 
                             <ref target="#Essence">
                                 Essence
+                                <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1993-0/"/>
                             </ref>
                             .
                         </p>
@@ -273,9 +333,11 @@
                             choses, la suite des causes secondes, ou les lois du mouvement que Dieu a établies. Voyez 
                             <ref target="#Causes">
                                 Causes
+                                <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-4074-0/"/>
                             </ref>
                             <ref target="#Mouvement">
                                 Mouvement
+                                <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-2168-0/"/>
                             </ref>
                             .
                     </sense>
@@ -283,7 +345,13 @@
                         C’est dans ce sens qu’on dit que les Physiciens étudient la nature.
                     </p>
                     <p>
-                        ​Saint Thomas définit la nature une sorte d’art divin communiqué aux êtres créés, pour les 
+                        <seg>
+                            Saint Thomas 
+                            <note type="ponctuelle">
+                                Thomas d'Aquin, théologien, docteur de l'Eglise, un des plus importants penseurs scolastiques.
+                            </note>
+                        </seg>
+                        définit la nature une sorte d’art divin communiqué aux êtres créés, pour les 
                         porter à la fin à laquelle ils sont destinés. La nature prise dans ce sens n’est autre chose 
                         que l’enchaînement des causes &amp; des effets, ou l’ordre que Dieu a établi dans toutes les 
                         parties du monde créé.
@@ -294,10 +362,12 @@
                         moyen des effets qui surpassent ceux que nous voyons dans le cours ordinaire des choses. Voyez 
                         <ref target="#Art">
                             Art
+                            <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-3082-0/"/>
                         </ref>
                         , 
                         <ref target="#Miracle">
                             Miracle
+                            <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1470-0/"/>
                         </ref>
                         .
                     </p>
@@ -315,6 +385,7 @@
                         sur tous les corps pour leur donner certaines propriétés ou y produire certains effets. Voyez 
                         <ref target="#Providence">
                             Providence
+                            <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v13-1118-0/"/>
                         </ref>
                         .
                     </sense>
@@ -323,6 +394,7 @@
                         chose que Dieu même, agissant suivant certaines lois qu’il a établies. Voyez 
                         <ref target="#Dieu">
                             Dieu
+                            <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-2500-0/"/>
                         </ref>
                         .
                     </p>
@@ -334,7 +406,13 @@
                         Orateurs personnifient.
                     </p>
                     <p>
-                        ​Le P. Malebranche prétend que tout ce qu’on dit dans les écoles sur la nature, est capable 
+                        <seg>
+                            Le P. Malebranche 
+                            <note type="ponctuelle">
+                                Nicolas Malebranche (1738-1715), métaphysicien, auteur de De la recherche de la vérité.
+                            </note>
+                        </seg>
+                        prétend que tout ce qu’on dit dans les écoles sur la nature, est capable 
                         de nous conduire à l’idolâtrie, attendu que par ces mots les anciens payens entendoient 
                         quelque chose qui sans être Dieu agissoit continuellement dans l’uni-​​vers. Ainsi l’idole 
                         nature devoit être selon eux un principe actuel qui étoit en concurrence avec Dieu, la cause 
@@ -372,6 +450,7 @@
                         &amp; étoit par conséquent destitué de connoissance ou de liberté. Voyez 
                         <ref target="#Fatalité">
                             Fatalité
+                            <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-592-0/"/>
                         </ref>
                         .
                     </p>
@@ -531,7 +610,7 @@
                             qui couvroient l'arche de leurs aîles, et par les deux tables de la loi données à Moyse, qui y étoient 
                             renfermées.
                         </p>
-                        <sense xml:id="3">
+                        <sense xml:id="trois">
                         <p>
                             L'unité ajoûtée au nombre deux fait trois nombres, sacré, très-puissant et parfait; et la seconde 
                             division de la nature et de son principe Dieu en trois personnes Pere, Fils, et Saint-Esprit. Le Fils 
@@ -599,7 +678,7 @@
                             réunion pour en faire l'unité; pourquoi douteroit-on donc de l'existence d'un Dieu en trois personnes?
                         </p>
                         </sense>
-                        <sense xml:id="4">
+                        <sense xml:id="quatre">
                         <p>
                             Une unité ajoutée à trois produit quatre, qui devient, selon Tycho-Brahé et plusieurs autres, le 
                             fondement de tous les nombres, la fontaine de nature, comme renfermant le nombre parfait dont tout a 
@@ -688,7 +767,7 @@
                             la vierge et le capricorne, à la terre.
                         </p>
                         </sense>
-                        <sense xml:id="5">
+                        <sense xml:id="cinq">
                         <p>
                             Le nombre cinq est consacré à Mercure, dit Tycho Brahé, et n'est pas moins mystérieux que ceux qui le 
                             précédent. On y voit l'eau, l'air, le feu et la terre dont est composé tout mixte qui fait un cinquieme 
@@ -716,7 +795,7 @@
                             Cinq parties dans les plantes: la racine, la tige, les feuilles, la fleur et la semence.
                         </p>
                         </sense>
-                        <sense xml:id="6">
+                        <sense xml:id="six">
                         <p>
                             La nature a comme reçu sa derniere perfection, par le nombre six; car le monde a été achevé le sixieme 
                             jour de la création; et ce jour-là, Dieu regarda tout ce qu'il avoit fait, et tout étoit parfaitement bon.
@@ -743,7 +822,7 @@
                             oreilles, le nez et la bouche.
                         </p>
                         </sense>
-                        <sense xml:id="7">
+                        <sense xml:id="sept">
                         <p>
                             Mais la nature semble se plaire au nombre sept plus qu'en tout autre, et les pythagoriciens, qui le 
                             regardoient comme le nombre le plus mystérieux, l'appelloient en conséquence, la voiture de la vie 
