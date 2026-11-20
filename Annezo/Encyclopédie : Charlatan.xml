@@ -5,26 +5,26 @@
             <titleStmt>
                 <title>Comparaison de l'article encyclopédique "Charlatan" dans deux ouvrages différents.</title>
             </titleStmt>
-
+            
             <publicationStmt>
                 <authority>N. Annézo</authority>
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
-                    <bibl xml:id="ENCCRE"> Encyclopédie de <editor>Diderot</editor> et <editor>D'Alembert</editor> numérisé par <editor>ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-303-0/"></editor>
-                    <title>Édition Numérique Collaborative et CRitique de l’Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers de <editor>Diderot</editor>, <editor>D'Alembert</editor> et <editor>Jaucourt</editor> (1751-1772)</title>
+                    <bibl xml:id="ENCCRE"> Encyclopédie de <editor>Diderot</editor> et <editor>D'Alembert</editor> numérisé par <editor>ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-303-0/"/></editor>
+                        <title>Édition Numérique Collaborative et CRitique de l’Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers de <ref>Diderot</ref>, <ref>D'Alembert</ref> et <ref>Jaucourt</ref> (1751-1772)</title>
                         <author></author>
                         <editor>ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-303-0/"/></editor>
-                        <editor>Diderot</editor>
+                        <editor xml:id="Diderot">Diderot</editor>
                         <editor>D'Alembert</editor>
                         <editor>Jaucourt</editor>
                         <title>Charlatan</title>
                         <date when="1751">XVIIIe</date>
                         <placeName></placeName>
                     </bibl>
-
+                    
                     <bibl xml:id="Yverdon">
-                    <title>Encyclopédie, ou Dictionnaire universel raisonné des connaissances humaines.</title>
+                        <title>Encyclopédie, ou Dictionnaire universel raisonné des connaissances humaines.</title>
                         <author>D'Alembert</author>
                         <author>Diderot</author>
                         <editor>Fortunato Bartolomeo De Felice</editor>
@@ -39,30 +39,29 @@
                         <editor>Hans-Jürgen Lüsebrink</editor>
                         <editor>Simone Zuburchen</editor>
                         <editor>Yverdon</editor>
-                        <placename></placename>
-                 </listBibl>
-                        <listWit>
-                            <witness xml:id="ENCCRE">
-                                <bibl corresp="#biblENCCRE">Notice "Charlatan" de l'Encyclopédie de Diderot et d'Alembert, attribuée au chevalier de Jaucourt.</bibl>
-                            </witness>
-                            <witness xml:id="Yverdon">
-                                <bibl corresp="#biblYverdon">Notice "Charlatan" de l'Encyclopédie d'Yverdon dirigée par Fortunato Bartolomeo De Felice.</bibl>
-                            </witness>
-                      </listWit>
-                <p>Encyclopédie numérisée dans le site de l'encyclopédie en ligne ENCCRE.</p>
+                    </bibl>
+                </listBibl>
+                <listWit>
+                    <witness corresp="#ENCCRE">
+                        <bibl corresp="#biblENCCRE">Notice "Charlatan" de l'Encyclopédie de Diderot et d'Alembert, attribuée au chevalier de Jaucourt.</bibl>
+                    </witness>
+                    <witness corresp="#Yverdon">
+                        <bibl corresp="#biblYverdon">Notice "Charlatan" de l'Encyclopédie d'Yverdon dirigée par Fortunato Bartolomeo De Felice.</bibl>
+                    </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
-
+        
         <encodingDesc>
             <projectDesc>
                 <p>Encodage de deux articles d'encyclopedies effectué par une étudiante à la faculté UBS LLSHS dans le cadre d'un cours. 
-                   Le but de cet encodage est de comparé comment le même sujet est traité par deux encyclopedies différentes.
-                   L'exercice concerne l'article "Charlatan" de l'encyclopédie en ligne ENCCRE ainsi que l'encyclopédie d'Yverdon.
+                    Le but de cet encodage est de comparé comment le même sujet est traité par deux encyclopedies différentes.
+                    L'exercice concerne l'article "Charlatan" de l'encyclopédie en ligne ENCCRE ainsi que l'encyclopédie d'Yverdon.
                 </p>
             </projectDesc>
-            <samplingDesc>
+            <samplingDecl>
                 <p></p>
-            </samplingDesc>
+            </samplingDecl>
             <editorialDecl>
                 <p>Pour l'article ENCCRE, le nom de l'auteur original de l'article n'est pas précisé. La décision a donc été prise de mettre les noms des éditeurs de l'encyclopedie à la place.</p>
                 <p>J'ai choisis d'utiliser le rdg/rdg plutôt que lem, lem ne correspondant pas aux format des articles. Mon fichier contient plusieurs rdg ce qui n'est pas compatible avec la balise lem. </p>
@@ -79,24 +78,24 @@
         <revisionDesc>
             <list>
                 <item>
-                    <change when="2026-10-27">
-                    Ajout et édition de l'article de l'encyclopédie d'Yverdon.</change>
-                    </item>
+                    <date when="2026-10-27">
+                        Ajout et édition de l'article de l'encyclopédie d'Yverdon.</date>
+                </item>
                 <item>
-                    <change when="2026-10-30">
-                    Modification du TEI Header, ajout informations sur l'article d'Yverdon.</change>
-                    </item>
+                    <date when="2026-10-30">
+                        Modification du TEI Header, ajout informations sur l'article d'Yverdon.</date>
+                </item>
                 <item>
-                    <change when="2026-10-31">
-                        Révision de app et rdg.</change>
-                    </item>
+                    <date when="2026-10-31">
+                        Révision de app et rdg.</date>
+                </item>
                 <item>    
-                    <change when="2026-11-09">
-                        Ajout de notes.</change>
+                    <date when="2026-11-09">
+                        Ajout de notes.</date>
                 </item>
             </list>
         </revisionDesc>
-
+        
     </teiHeader>
     
     <text>
