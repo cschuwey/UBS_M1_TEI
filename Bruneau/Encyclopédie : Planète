@@ -4,18 +4,16 @@
         <fileDesc>
             <titleStmt>
                 <title>Planète</title>
-                <author>D'Alembert</author>
-                <editor>Diderot</editor><editor>D'Alembert</editor><editor>Jaucourt</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>J. Bruneau</authority>
+                <authority>Bruneau</authority>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers de <editor>Diderot</editor>, <editor>D'Alembert</editor> et <editor>Jaucourt</editor> numérisée par <editor>ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v12-1769-0/"/></editor>
-                </bibl>
-                <bibl>Encyclopédie d'<editor>Yverdon</editor></bibl>
-                <listWit><witness xml:id="ENCCRE">Version ENCCRE</witness>
-                <witness xml:id="Yverdon">Version Yverdon</witness></listWit>
+                <listBibl><bibl xml:id="ENCCRE"><author>D'Alembert</author>, <author>Diderot</author>,<author>Jaucourt</author>, 
+                <title>Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers</title>, <place>France</place>, <date>1751-1772</date></bibl>,
+                numérisée par <editor>ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v12-1769-0/"/></editor>
+                <bibl xml:id="Yverdon"><author>De Felice</author>,<title>Encyclopédie ou Dictionnaire universel raisonné des connaissances humaines</title>, 
+                    <place>Yverdon (Suisse)</place>, <date>1770-1780</date></bibl></listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -41,7 +39,7 @@
         <text>
             <body>
                 <app>
-                <lem wit="ENCCRE">
+                <lem wit="#ENCCRE">
                 <entry>
                     <form><orth>PLANETE</orth></form>, <gramGrp><pos>s.</pos> <gen>f.</gen></gramGrp> <sense><p><annotated><text>en Astronomie</text><note n="1" type="editorial" anchored="true">Forme explicitée : Astronomie. Domaine : Astronomie.</note>​</annotated>​,
                     c’est un corps céleste, qui fait sa révolution autour du Soleil comme centre, &amp; qui change continuellement de position par rapport aux autres étoiles.</p>
@@ -119,7 +117,7 @@
             <ref target="article_lune"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-2074-0/"/>Lune</ref>, avoir une ressemblance parfaite avec notre Terre, d’où il suit que les planetes sont aussi des corps opaques, sphériques, etc. de même que la Terre.</p></sense>
         </entry>
         </lem>
-        <rdg wit="Yverdon">
+        <rdg wit="#Yverdon">
         <entry>
         <form><orth>PLANETE, (R)</orth></form>, <gramGrp><pos>s.</pos> <gen>f.</gen></gramGrp>, <usg type="dom">Astron.</usg>,<sense><p>astre qui change de place, ou qui
              décrit un orbite: 
