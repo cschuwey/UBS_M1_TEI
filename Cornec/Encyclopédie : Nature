@@ -127,13 +127,105 @@
                     </item>
                 </list>
             </projectDesc>
+            <editorialDecl>
+                <p>
+                    Décision de revenir sur la troisième version qui devait rassembler les deux versions de l'article
+                    et de l'enlever, puisque les deux articles n'ont pas de similitudes, à part des thèmes qui sont 
+                    abordés de différentes manière par article. 
+                </p>
+            </editorialDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="fr">Français</language>
                 <language ident="grc">Grec ancien</language>
                 <language ident="lat">Latin</language>
+                <language ident="ang">Anglais</language>
             </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="robert_boyle">
+                        <persName>
+                            <forename>Robert</forename>
+                            <surname>Boyle</surname>
+                            <roleName>Chimiste et physicien irlandais</roleName>
+                        </persName>
+                    </person>
+                    <person xml:id="aristote">
+                        <persName>
+                            <name>Aristote</name>
+                            <roleName>Philosophe grec</roleName>
+                        </persName>
+                    </person>
+                    <person xml:id="saint_thomas">
+                        <persName>
+                            <name>Saint Thomas</name>
+                            <forename>Thomas</forename>
+                            <surname>d'Aquin</surname>
+                            <roleName>Théologien, docteur de l'Eglise, un des plus importants penseurs scolastiques</roleName>
+                        </persName>
+                    </person>
+                    <person xml:id="malebranche">
+                        <persName>
+                            <forename>Nicolas</forename>
+                            <surname>Malebranche</surname>
+                            <roleName>Métaphysicien, auteur de De la recherche de la vérité</roleName>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listPerson>
+                    <personGroup xml:id="grecs">
+                        <persName>
+                            <persName>les Grecs</persName>
+                        </persName>
+                    </personGroup>
+                    <personGroup xml:id="latins">
+                        <persName>
+                            <persName>les Latins</persName>
+                        </persName>
+                    </personGroup>
+                    <personGroup xml:id="theologiens">
+                        <persName>
+                            <persName>les Théologiens</persName>
+                        </persName>
+                    </personGroup>
+                    <personGroup xml:id="cartesiens">
+                        <persName>
+                            <persName>les Cartésiens</persName>
+                        </persName>
+                    </personGroup>
+                    <personGroup xml:id="physiciens">
+                        <persName>
+                            <persName>les Physiciens</persName>
+                        </persName>
+                    </personGroup>
+                    <personGroup xml:id="medecins">
+                        <persName>
+                            <persName>les Médecins</persName>
+                        </persName>
+                    </personGroup>
+                    <personGroup xml:id="poetes">
+                        <persName>
+                            <persName>les Poètes</persName>
+                        </persName>
+                    </personGroup>
+                    <personGroup xml:id="orateurs">
+                        <persName>
+                            <persName>les Orateurs</persName>
+                        </persName>
+                    </personGroup>
+                    <personGroup xml:id="peripateticiens">
+                        <persName>
+                            <persName>les Péripatéticiens</persName>
+                        </persName>
+                    </personGroup>
+                    <personGroup xml:id="stoiciens">
+                        <persName>
+                            <persName>les Stoïciens</persName>
+                        </persName>
+                    </personGroup>
+                </listPerson>
+            </particDesc>
         </profileDesc>
         <revisionDesc>
             <list>
@@ -165,10 +257,12 @@
                 </item>
                 <item>
                     <date when="2026-11-08">18 novembre 26</date>
-                    Décision de revenir sur la troisième version qui devait rassembler les deux versions de l'article
-                    et de l'enlever, puisque les deux articles n'ont pas de similitudes, à part des thèmes qui sont 
-                    abordés de différentes manière par article. 
-                    Donc ajout des balises <app/>, <lem/> et <rdg/>.
+                    Ajout des balises <app/>, <lem/> et <rdg/>, pour la nouvelle version du document.
+                </item>
+                <item>
+                    <date when="2026-11-08">18 novembre 26</date>
+                    Ajout de la balise des listes de groupes et personnes pour la version d'ENCCRE.
+                    Ajout des mots en italique.
                 </item>
             </list>
         </revisionDesc>
@@ -178,7 +272,6 @@
             <div type="article" xml:id="Nature">
                 <app>
                     <lem source="#ENCCRE">
-                    <!-- type="version" n="1" xml:id="ENCCRE" -->
                         <head>Nature</head>
                         <entry>
                             <form>
@@ -188,7 +281,9 @@
                                     <note type="domain">
                                         (
                                         <seg>
-                                            Philos
+                                                <hi rend="ital">
+                                                    Philos
+                                                </hi>
                                             <note type="glossaire">
                                                 <seg>
                                                 Du désignant au domaine (travail critique).
@@ -206,37 +301,80 @@
                                 </gramGrp>
                             </form>
                             <p>
-                                Nature, s. f. (Philos.) est un terme dont on fait différens usages. Il y a dans Aristote​ 
+                                Nature, s. f. (
+                                <hi rend="ital">
+                                    Philos
+                                </hi>
+                                .) est un terme dont on fait différens usages. Il y a dans 
+                                <name type="person" ref="aristote">
+                                    Aristote
+                                </name>
                                 <seg>
                                     un chapitre entier
                                     <note type="ponctuelle">
-                                        Référence probable au chapitre 1 du livre II de La Physique d'Aristote 
+                                        Référence probable au chapitre 1 du livre II de La Physique d'
+                                        <name type="person" ref="aristote">
+                                            Aristote
+                                        </name>
                                         (merci à François Pépin).
                                     </note>
                                 </seg>
-                                sur les différens sens que les Grecs donnoient au mot 
+                                sur les différens sens que 
+                                <name type="person" ref="grecs">
+                                    les Grecs
+                                </name>
+                                donnoient au mot 
                                 <foreign xml:lang="grc">
                                     φύσις
                                 </foreign>
                                 , nature ; &amp; parmi 
-                                les Latins, ses différens sens sont en si grand nombre, qu’un auteur en compte jusqu’à 14 ou 
+                                <name type="person" ref="latins">
+                                    les Latins
+                                </name>
+                                , ses différens sens sont en si grand nombre, qu’un auteur en compte jusqu’à 14 ou 
                                 15. 
                                 <seg>
-                                    M. Boyle, dans un traité exprès qu’il a fait sur les sens vulgairement attribués au mot nature
+                                    M. 
+                                    <name type="person" ref="robert_boyle">
+                                        Boyle
+                                    </name>
+                                    , dans un traité exprès qu’il a fait sur les sens vulgairement attribués au mot 
+                                    <hi rend="ital">
+                                        nature
+                                    </hi>
+                                    ,
                                     <note type="bibliographique">  
-                                        Œuvre mentionnée : Robert Boyle, A Free Enquiry into the Vulgarly Received Notion of Nature, 
+                                        Œuvre mentionnée : 
+                                        <name type="person" ref="robert_boyle">
+                                            Robert Boyle
+                                        </name>
+                                        , 
+                                        <title>
+                                            A Free Enquiry into the Vulgarly Received Notion of Nature
+                                        </title>
+                                        , 
                                         1ère éd., 1686.
                                     </note>
                                     <note type="bibliographique">
-                                        Il s'agit du traité de Robert Boyle A Free Enquiry into the Vulgarly Received Notion of Nature, 
+                                        Il s'agit du traité de 
+                                        <name type="person" ref="robert_boyle">
+                                            Robert Boyle
+                                        </name>
+                                         A Free Enquiry into the Vulgarly Received Notion of Nature, 
                                         qui avait paru en 1686 ; il n’en existait pas de traduction française.
                                     </note>
                                 </seg>
                                 , en compte huit principaux.
                             </p>
                             <sense n="1">
-                                Nature signifie quelquefois le système du monde, la machine de l’univers, ou l’assemblage de 
-                                toutes les choses créées. Voyez 
+                                <hi rend="ital">
+                                    Nature
+                                </hi>
+                                signifie quelquefois le système du monde, la machine de l’univers, ou l’assemblage de 
+                                toutes les choses créées. 
+                                <hi rend="ital">
+                                    Voyez
+                                </hi>
                                 <ref target="#Système">
                                     Système
                                     <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v15-2609-1/"/>
@@ -244,18 +382,51 @@
                                 .
                             </sense>
                             <p>
-                                C’est dans ce sens que nous disons l’auteur de la nature, que nous appellons le soleil l’œil 
-                                de la nature, à cause qu’il éclaire l’univers, et le pere de la nature, parce qu’il rend la 
-                                terre fertile en l’échauffant : de même nous disons du phénix ou de la chimere, qu’il n’y en 
-                                a point dans la nature.​
+                                C’est dans ce sens que nous disons l’auteur de la 
+                                <hi rend="ital">
+                                    nature
+                                </hi>
+                                , que nous appellons le soleil l’œil 
+                                de la 
+                                <hi rend="ital">
+                                    nature
+                                </hi>
+                                , à cause qu’il éclaire l’univers, et le pere de la 
+                                <hi rend="ital">
+                                    nature
+                                </hi>
+                                , parce qu’il rend la 
+                                <hi rend="ital">
+                                    nature
+                                </hi>
+                                fertile en l’échauffant : de même nous disons du phénix ou de la chimere, qu’il n’y en 
+                                a point dans la 
+                                <hi rend="ital">
+                                    nature
+                                </hi>
+                                .​
                             </p>
                             <p>
-                                M. Boyle veut qu’au lieu d’employer le mot de nature en ce sens, on se serve, pour éviter 
+                                M. 
+                                <name type="person" ref="robert_boyle">
+                                    Boyle
+                                </name>
+                                veut qu’au lieu d’employer le mot de 
+                                <hi rend="ital">
+                                    nature
+                                </hi>
+                                en ce sens, on se serve, pour éviter 
                                 l’ambiguité ou l’abus qu’on peut faire de ce terme, du mot de monde ou d’univers.
                             </p>
                             <sense n="2">
-                                Nature s’applique dans un sens moins étendu à chacune des différentes choses créées ou non 
-                                créées, spirituel les &amp; corporelles. Voyez 
+                                <hi rend="ital">
+                                    Nature
+                                </hi>
+                                s’applique dans un sens moins étendu à chacune des différentes choses créées ou non 
+                                créées, spirituel les &amp; corporelles. 
+                                <hi rend="ital">
+                                    Voyez
+                                </hi>
                                 <ref target="#Etre">
                                     Etre
                                     <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-121-0/"/>
@@ -263,9 +434,24 @@
                                 .
                             </sense>
                             <p>
-                                C’est dans ce sens que nous disons la nature humaine, entendant par-là généralement tous les 
-                                hommes qui ont une ame spirituelle &amp; raisonnable. Nous disons aussi nature des anges, nature 
-                                divine. C’est dans ce même sens que les Théologiens disent
+                                C’est dans ce sens que nous disons la 
+                                <hi rend="ital">
+                                    nature humaine
+                                </hi>
+                                , entendant par-là généralement tous les 
+                                hommes qui ont une ame spirituelle &amp; raisonnable. Nous disons aussi 
+                                <hi rend="ital">
+                                    nature des anges
+                                </hi>
+                                , 
+                                <hi rend="ital">
+                                    nature divine
+                                </hi>
+                                . C’est dans ce même sens que 
+                                <name type="person" ref="theologiens">
+                                    les Théologiens
+                                </name>
+                                disent
                                 <foreign xml:lang="lat">
                                    natura naturans 
                                 </foreign> 
@@ -283,10 +469,17 @@
                                     natura naturata
                                 </foreign>
                                 , parce qu’elles ont reçu 
-                                leur nature des mains d’un autre.
+                                leur 
+                                <hi rend="ital">
+                                    nature
+                                </hi>
+                                des mains d’un autre.
                             </p>
                             <sense n="3">
-                                Nature, dans un sens encore plus limité, se dit de l’essence d’une chose, ou de ce que 
+                                <hi rend="ital">
+                                    Nature
+                                </hi>
+                                , dans un sens encore plus limité, se dit de l’essence d’une chose, ou de ce que 
                                 <seg>
                                     les philosophes de l’école 
                                     <note type="ponctuelle">
@@ -296,7 +489,9 @@
                                 </seg>
                                 appellent ​sa 
                                 <seg>
-                                    quiddité
+                                    <hi rend="ital">
+                                        quiddité
+                                    </hi>
                                     <note type="ponctuelle">
                                         Emprunté au latin scolastique 
                                         <foreign xml:lang="lat">
@@ -306,7 +501,10 @@
                                     </note>
                                 </seg>
                                 , c’est-à-dire l’attribut qui fait qu’une chose 
-                                est telle ou telle. Voyez 
+                                est telle ou telle. 
+                                <hi rend="ital">
+                                    Voyez
+                                </hi>
                                 <ref target="#Essence">
                                     Essence
                                     <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1993-0/"/>
@@ -314,8 +512,22 @@
                                 .
                             </sense>
                             <p>
-                                C’est dans ce sens que les Cartésiens disent que la nature de l’ame est de penser, &amp; que la 
-                                nature de la matiere consiste dans l’étendue. Voyez 
+                                C’est dans ce sens que 
+                                <name type="person" ref="cartesiens">
+                                    les Cartésiens
+                                </name>
+                                disent que la 
+                                <hi rend="ital">
+                                    nature
+                                </hi>
+                                de l’ame est de penser, &amp; que la 
+                                <hi rend="ital">
+                                    nature
+                                </hi>
+                                de la matiere consiste dans l’étendue. 
+                                <hi rend="ital">
+                                    Voyez
+                                </hi>
                                 <ref target="#Ame">
                                     Ame
                                     <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-1552-0/"/>
@@ -330,8 +542,23 @@
                                     Étendue
                                     <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-57-0/"/>
                             </ref>
-                            . M. Boyle veut qu’on
-                            se serve du mot essence au lieu de nature. Voyez 
+                            . M. 
+                            <name type="person" ref="robert_boyle">
+                                Boyle
+                            </name>
+                            veut qu’on
+                            se serve du mot 
+                            <hi rend="ital">
+                                essence
+                            </hi>
+                            au lieu de 
+                            <hi rend="ital">
+                                nature
+                            </hi>
+                            . 
+                            <hi rend="ital">
+                                Voyez
+                            </hi>
                             <ref target="#Essence">
                                 Essence
                                 <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-1993-0/"/>
@@ -339,8 +566,14 @@
                             .
                         </p>
                         <sense n="4">
-                            Nature est plus particulierement en usage pour signifier l’ordre &amp; le cours naturel des 
-                            choses, la suite des causes secondes, ou les lois du mouvement que Dieu a établies. Voyez 
+                            <hi rend="ital">
+                                Nature
+                            </hi>
+                            est plus particulierement en usage pour signifier l’ordre &amp; le cours naturel des 
+                            choses, la suite des causes secondes, ou les lois du mouvement que Dieu a établies. 
+                            <hi rend="ital">
+                                Voyez
+                            </hi>
                             <ref target="#Causes">
                                 Causes
                                 <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v2-4074-0/"/>
@@ -352,91 +585,189 @@
                             .
                     </sense>
                     <p>
-                        C’est dans ce sens qu’on dit que les Physiciens étudient la nature.
+                        C’est dans ce sens qu’on dit que 
+                        <name type="person" ref="physiciens">
+                            les Physiciens
+                        </name>
+                        étudient la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        .
                     </p>
                     <p>
                         <seg>
-                            Saint Thomas 
+                            <name type="person" ref="saint_Thomas">
+                                Saint Thomas
+                            </name>
                             <note type="ponctuelle">
                                 Thomas d'Aquin, théologien, docteur de l'Eglise, un des plus importants penseurs scolastiques.
                             </note>
                         </seg>
-                        définit la nature une sorte d’art divin communiqué aux êtres créés, pour les 
-                        porter à la fin à laquelle ils sont destinés. La nature prise dans ce sens n’est autre chose 
+                        définit la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        une sorte d’art divin communiqué aux êtres créés, pour les 
+                        porter à la fin à laquelle ils sont destinés. La 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        prise dans ce sens n’est autre chose 
                         que l’enchaînement des causes &amp; des effets, ou l’ordre que Dieu a établi dans toutes les 
                         parties du monde créé.
                     </p>
                     <p>
-                        C’est aussi dans ce sens qu’on dit que les miracles sont au-dessus du pouvoir de la nature ; 
-                        que l’art force ou surpasse la nature par le moyen des machines, lorsqu’il produit par ce 
-                        moyen des effets qui surpassent ceux que nous voyons dans le cours ordinaire des choses. Voyez 
+                        C’est aussi dans ce sens qu’on dit que les miracles sont au-dessus du pouvoir de la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        ; 
+                        que l’art force ou surpasse la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        par le moyen des machines, lorsqu’il produit par ce 
+                        moyen des effets qui surpassent ceux que nous voyons dans le cours ordinaire des choses. 
+                        <hi rend="ital">
+                            Voyez
+                        </hi>
                         <ref target="#Art">
-                            Art
+                                Art
                             <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-3082-0/"/>
                         </ref>
                         , 
                         <ref target="#Miracle">
-                            Miracle
+                                Miracle
                             <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1470-0/"/>
                         </ref>
                         .
                     </p>
                     <sense n="5">
-                        Nature se dit aussi de la réunion des puissances ou facultés d’un corps, sur-tout d’un corps 
+                        <hi rend="ital">
+                            Nature
+                        </hi>
+                        se dit aussi de la réunion des puissances ou facultés d’un corps, sur-tout d’un corps 
                         vivant.
                     </sense>
                     <p>
-                        C’est dans ce sens que les Medecins disent que la nature est forte, foible ou usée, ou que 
-                        dans certaines maladies la nature abandonnée à elle-même en opere la guérison.
+                        C’est dans ce sens que 
+                        <name type="person" ref="medecins">
+                            les Medecins
+                        </name>
+                        disent que la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        est forte, foible ou usée, ou que 
+                        dans certaines maladies la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        abandonnée à elle-même en opere la guérison.
                     </p>
                     <sense n="6">
-                        Nature se prend encore en un sens moins étendu, pour signifier l’action de la providence, le 
+                        <hi rend="ital">
+                            Nature
+                        </hi>
+                        se prend encore en un sens moins étendu, pour signifier l’action de la providence, le 
                         principe de toutes choses, c’est-à-dire cette puissance ou être spirituel qui agit &amp; opere 
-                        sur tous les corps pour leur donner certaines propriétés ou y produire certains effets. Voyez 
+                        sur tous les corps pour leur donner certaines propriétés ou y produire certains effets. 
+                        <hi rend="ital">
+                            Voyez
+                        </hi>
                         <ref target="#Providence">
-                            Providence
+                                Providence
                             <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v13-1118-0/"/>
                         </ref>
                         .
                     </sense>
                     <p>
-                        La nature prise dans ce sens, qui est celui que M. Boyle adopte par préférence, n’est autre 
-                        chose que Dieu même, agissant suivant certaines lois qu’il a établies. Voyez 
+                        La 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        prise dans ce sens, qui est celui que M. 
+                        <name type="person" ref="robert_boyle">
+                            Boyle
+                        </name>
+                        adopte par préférence, n’est autre 
+                        chose que Dieu même, agissant suivant certaines lois qu’il a établies. 
+                        <hi rend="ital">
+                            Voyez
+                        </hi>
                         <ref target="#Dieu">
-                            Dieu
+                                Dieu
                             <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-2500-0/"/>
                         </ref>
                         .
                     </p>
                     <p>
-                        Ce qui paroît s’accorder assez avec l’opinion où étoient plusieurs anciens, que la nature 
+                        Ce qui paroît s’accorder assez avec l’opinion où étoient plusieurs anciens, que la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
                         étoit le dieu de l’univers, le τὸ πᾶν qui présidoit à tout &amp; gouvernoit tout, quoique d’autres 
-                        regardassent cet être prétendu comme imaginaire, n’entendant autre chose par le mot de nature 
-                        que les qualités ou vertus que Dieu a données à ses créatures, &amp; que les Poëtes &amp; les 
-                        Orateurs personnifient.
+                        regardassent cet être prétendu comme imaginaire, n’entendant autre chose par le mot de 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                         que les qualités ou vertus que Dieu a données à ses créatures, &amp; que 
+                        <name type="person" ref="poetes">
+                            les Poëtes
+                        </name>
+                         &amp; les
+                        <name type="person" ref="orateurs">
+                            Orateurs
+                        </name>
+                        personnifient.
                     </p>
                     <p>
                         <seg>
-                            Le P. Malebranche 
+                            <name type="person" ref="malebranche">
+                                Le P. Malebranche
+                            </name>
                             <note type="ponctuelle">
                                 Nicolas Malebranche (1738-1715), métaphysicien, auteur de De la recherche de la vérité.
                             </note>
                         </seg>
-                        prétend que tout ce qu’on dit dans les écoles sur la nature, est capable 
+                        <hi rend="ital">
+                            prétend
+                        </hi>
+                        que tout ce qu’on dit dans les écoles sur la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        , est capable 
                         de nous conduire à l’idolâtrie, attendu que par ces mots les anciens payens entendoient 
                         quelque chose qui sans être Dieu agissoit continuellement dans l’uni-​​vers. Ainsi l’idole 
-                        nature devoit être selon eux un principe actuel qui étoit en concurrence avec Dieu, la cause 
+                        
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                         devoit être selon eux un principe actuel qui étoit en concurrence avec Dieu, la cause 
                         seconde &amp; immédiate de tous les changemens qui arrivent à la matiere. Ce qui paroît rentrer 
                         dans le sentiment de ceux qui admettoient 
                         <foreign xml:lang="lat">
                             l’anima mundi
                         </foreign>
-                        , regardant la nature comme un 
+                        , regardant la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                         comme un 
                         substitut de la divinité, une cause collatérale, une espece d’être moyen entre Dieu &amp; les 
                         créatures.
                     </p>
                     <p>
-                        Aristote définit la nature,
+                        <name type="person" ref="aristote">
+                            Aristote
+                        </name>
+                        définit la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        ,
                         <foreign xml:lang="lat"> 
                             principium 
                         </foreign>
@@ -456,46 +787,102 @@
                         commentateurs, aucun d’eux n’a pu parvenir à la rendre intelligible.
                     </p>
                     <p>
-                        Ce principe, que les Péripatéticiens appelloient nature, agissoit, selon eux, nécessairement, 
-                        &amp; étoit par conséquent destitué de connoissance ou de liberté. Voyez 
+                        Ce principe, que 
+                        <name type="person" ref="peripateticiens">
+                            les Péripatéticiens
+                        </name>
+                        appelloient nature, agissoit, selon eux, nécessairement, 
+                        &amp; étoit par conséquent destitué de connoissance ou de liberté. 
+                        <hi rend="ital">
+                            Voyez
+                        </hi>
                         <ref target="#Fatalité">
-                            Fatalité
+                                Fatalité
                             <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v6-592-0/"/>
                         </ref>
                         .
                     </p>
                     <p>
-                        Les Stoïciens concevoient aussi la nature comme un certain esprit ou vertu répandue dans 
+                        <name type="person" ref="stoiciens">
+                            Les Stoïciens
+                        </name>
+                        concevoient aussi la nature comme un certain esprit ou vertu répandue dans 
                         l’univers, qui donnoit à chaque chose son mouvement ; de sorte que tout étoit forcé par 
-                        l’ordre invariable d’une nature aveugle &amp; par une nécessité inévitable.
+                        l’ordre invariable d’une 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                         aveugle &amp; par une nécessité inévitable.
                     </p>
                     <p>
-                        Quand on parle de l’action de la nature, on n’entend plus autre chose que l’action des corps 
+                        Quand on parle de l’action de la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        , on n’entend plus autre chose que l’action des corps 
                         les uns sur les autres, conforme aux lois du mouvement établies par le Créateur.
                     </p>
                     <p>
                         C’est en cela que consiste tout le sens de ce mot, qui n’est qu’une façon abrégée d’exprimer 
-                        l’action des corps, &amp; qu’on exprimeroit peut-être mieux par le mot de méchanisme des corps.
+                        l’action des corps, &amp; qu’on exprimeroit peut-être mieux par le mot de 
+                        <hi rend="ital">
+                            méchanisme
+                        </hi>
+                         des corps.
                     </p>
                     <p>
-                        Il y en a, selon l’observation de M. Boyle, qui n’entendent par le mot de nature que la loi 
+                        Il y en a, selon l’observation de M. 
+                        <name type="person" ref="robert_boyle">
+                            Boyle
+                        </name>
+                        , qui n’entendent par le mot de 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        que la loi 
                         que chaque chose a reçue du Créateur, &amp; suivant laquelle elle agit dans toutes les occasions ; 
-                        mais ce sens attaché au mot nature, est impropre &amp; figuré.
+                        mais ce sens attaché au mot 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        , est impropre &amp; figuré.
                     </p>
                     <p>
-                        Le même auteur propose une définition du mot de nature plus juste &amp; plus exacte, selon lui, 
+                        Le même auteur propose une définition du mot de 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        plus juste &amp; plus exacte, selon lui, 
                         que toutes les autres, &amp; en vertu de laquelle on peut entendre facilement tous les axiomes &amp;
-                        expressions qui ont rapport à ce mot. Pour cela il distingue entre nature particuliere &amp; 
-                        nature générale.
+                        expressions qui ont rapport à ce mot. Pour cela il distingue entre 
+                        <hi rend="ital">
+                            nature particuliere
+                        </hi>
+                         &amp; 
+                        <hi rend="ital">
+                            nature générale
+                        </hi>
+                        .
                     </p>
                     <p>
-                        Il définit la nature générale l’assemblage des corps qui constituent l’état présent du monde, 
+                        Il définit la 
+                        <hi rend="ital">
+                            nature générale
+                        </hi>
+                         l’assemblage des corps qui constituent l’état présent du monde, 
                         considéré comme un principe par la vertu duquel ils agissent &amp; reçoivent l’action selon les 
                         lois du mouvement établies par l’auteur de toutes choses.
                     </p>
                     <p>
-                        La nature particuliere d’un être subordonné ou individuel, n’est que la nature générale 
-                        appliquée à quelque portion distincte de l’univers : c’est un assemblage des propriétés 
+                        La 
+                        <hi rend="ital">
+                            nature particuliere
+                        </hi>
+                         d’un être subordonné ou individuel, n’est que la 
+                        <hi rend="ital">
+                            nature
+                        </hi>
+                        générale appliquée à quelque portion distincte de l’univers : c’est un assemblage des propriétés 
                         méchaniques (comme grandeur, figure, ordre, situation &amp; mouvement local) convenables &amp; 
                         suffisantes pour constituer l’espece &amp; la dénomination d’une chose ou d’un corps particulier, 
                         le concours de tous les êtres étant consideré comme le principe du mouvement, du repos, &amp;c.
@@ -838,7 +1225,11 @@
                             regardoient comme le nombre le plus mystérieux, l'appelloient en conséquence, la voiture de la vie 
                             humaine. La vertu de ce nombre, disoient-ils, se manifeste dans toutes les générations de la nature, 
                             et sert particulierement pour la génération de la nature humaine. Elle sert à le composer, à le faire 
-                            concevoir, à le former, à l'enfanter, à le nourrir et à le faire vivre. Aristote dit qu'il y a sept 
+                            concevoir, à le former, à l'enfanter, à le nourrir et à le faire vivre. 
+                            <name type="person" ref="aristote">
+                                Aristote
+                            </name>
+                            dit qu'il y a sept 
                             cellules dans la matrice, si la semence y demeure sept heures, la conception se fait, les premiers 
                             sept jours elle devient propre à recevoir la figure humaine; l'enfant est parfait, naît et vit quand 
                             il vient au monde à sept mois; après sept jours, il jette le superflu de son nombril; après deux fois 
