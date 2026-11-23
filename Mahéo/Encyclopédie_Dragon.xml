@@ -1,104 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tei xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 
 <teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Dragon</title>
-<author>d'Alembert</author>
-<author>Diderot</author>
-<author>Maréchallerie</author>
-</titleStmt>
+    <fileDesc>
+        <titleStmt>
+            <title>Dragon</title>
+            <author>d'Alembert</author>
+            <author>Diderot</author>
+            <author>Maréchallerie</author>
+        </titleStmt>
 
-<publicationStmt>
-<date>2026</date>
-<placeName>Kervignac</placeName>
-<publisher>M.MAHEO</publisher>
-</publicationStmt>
+        <publicationStmt>
+            <publisher>M.MAHEO</publisher>
+            <placeName>Kervignac</placeName>
+            <date>2026</date>
+        </publicationStmt>
 
-<sourceDesc>
-<bibl>
-<title>Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers,</title>
-<editor>Diderot</editor>
-<editor>d'Alembert</editor>
-<biblScope unit="volume">v</biblScope>
-<editor>ARTFL Encyclopédie <link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/bibliography?results_per_page=25&amp;head=dragon"/> </editor>
-</bibl>
-</sourceDesc>
+        <sourceDesc>
+            <bibl>
+                <title>Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers,</title>
+                <editor>Diderot</editor>
+                <editor>d'Alembert</editor>
+                <biblScope unit="volume">v</biblScope>
+                <editor>ARTFL Encyclopédie <ref target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/bibliography?results_per_page=25&amp;head=dragon"/> </editor>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+        <projectDesc>
+            <p>Encoder un article de l'encyclopédie</p>
+            <p>Dans ce codage je ne vais faire aucune modifications des textes, juste des copier-coller</p>
+            <p>Pour dinstinguer les différentes versions de l'article "dragon" l'élément app a été ajouté.
+            N'ayant pas trouvé d'autre version d'encyclopédie sur le site Artfl Encyclopédie les trois textes viennent tous de cette version.
+            Ainsi j'ai utilisé l'élément rdg ne sachant pas quel texte est l'original</p>
+            <p>Ajouts de quatre notes de deux type différente. J'ai ajouté deux notes de type historique et deux autres note de type gloss, qui définise un mot.
+            Les notes historique je l'ai est ajouté à d'Alembert et Diderot, j'ai écrit une très courte présentation des auteurs.
+            Et pour les deux autres notes gloss, j'ai définie les mots écliptique et lymphe.</p>
+        </projectDesc>
+    </encodingDesc>
 
-</fileDesc>
-<encodingDesc>
-<projetDesc>
-<p>Encoder un artcile de l'encyclopédie</p>
-<p>Dans ce codage je ne vais faire aucune modifications des textes, juste des copier-coller</p>
-</projetDesc>
-<p>Pour dinstinguer les différentes versions de l'article "dragon" l'élément app a été ajouté.
-N'ayant pas trouvé d'autre version d'encyclopédie sur le site Artfl Encyclopédie les trois textes viennent tous de cette version.
-Ainsi j'ai utilisé l'élément rdg ne sachant pas quel texte est l'original</p>
-<p>Ajouts de quatres notes de deux types différents. J'ai ajouté deux notes de type historique et deux autres notes de type gloss, qui définise un mot.
-Les notes historiques je les ai ajoutées à d'Alembert et Diderot, j'ai écris une très courte présentation des auteurs.
-Et pour les deux autres notes gloss, j'ai défini les mots écliptique et lymphe.</p>
-</encodingDesc>
-<langUsage>
-<language ident="fr">Français</language>
-<language ident="la">Latin</language>
-</langUsage>
+    <profileDesc>
+        <langUsage>
+            <language ident="fr">Français</language>
+            <language ident="la">Latin</language>
+        </langUsage>
+    </profileDesc>
 </teiHeader>
 
 <text>
-<body>
-<div type="article">
-<form>
-<orth>Dragon</orth>
-</form>
-<def>
+    <body>
+        <div type="article">
+            <form>
+                <orth>Dragon</orth>
+            </form>
+            <def>
+                <app>
+                    <rdg wit="d'Alembert"><note place="bottom" type="historical" n="1">Jean Le Rond d'Alembert, est un mathématicien, physicien, philosophe et encyclopédiste français, né le 16 novembre 1717 à Paris où il est mort le 29 octobre 1783.</note>
+                    <link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/5/497"/>
+                    <p n="1">
+                    Dragon, <hi rend="italic">terme d'Astronomie</hi>. La tête &amp; la queue du dragon, <foreign xml:lang="la">caput &amp; cauda draconis</foreign>, sont les noeuds ou les deux points d'intersection de l'écliptique &amp; de 
+                    l'orbite de la Lune, qui fait avec l'écliptique<note place="bottom" type="gloss" n="2">est le plan dans lequel s’effectue l'orbite de la Terre autour du Soleil, en supposant l’orbite plane (orbite moyenne) et le Soleil immobile.</note> un angle d'environ cinq degrés. Voyez Orbite &amp; Noeud.
+                    </p>
 
-<app>
-<rdg wit="d'Alembert"><note place="bottom" type="historical" n="1">Jean Le Rond d'Alembert, est un mathématicien, physicien, philosophe et encyclopédiste français, né le 16 novembre 1717 à Paris où il est mort le 29 octobre 1783.</note>
-<link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/5/497"/>
-<p n="1">
-Dragon, <hi rend="italic">terme d'Astronomie</hi>. La tête &amp; la queue du dragon, <language ident="la">caput &amp; cauda draconis</language>, sont les noeuds ou les deux points d'intersection de l'écliptique &amp; de 
-l'orbite de la Lune, qui fait avec l'écliptique<note place="bottom" type="gloss" n="2">est le plan dans lequel s’effectue l'orbite de la Terre autour du Soleil, en supposant l’orbite plane (orbite moyenne) et le Soleil immobile.</note> un angle d'environ cinq degrés. Voyez Orbite &amp; Noeud.
-</p>
+                    <p n="2">
+                    Il faut remarquer que ces points ne sont pas toûjours au même endroit ; qu'ils ont un mouvement propre dans le Zodiaque, par lequel ils retrogradent 
+                    très-sensiblement, parcourant le cercle entier dans l'espace d'environ dix-neuf ans.
+                    </p>
 
-<p n="2">
-Il faut remarquer que ces points ne sont pas toûjours au même endroit ; qu'ils ont un mouvement propre dans le Zodiaque, par lequel ils retrogradent 
-très-sensiblement, parcourant le cercle entier dans l'espace d'environ dix-neuf ans.
-</p>
+                    <p n="3">
+                    C'est dans ces points d'intersection, ou proche de ces points, que se font toutes les éclipses. <hi rend="italic">Voyez</hi> Eclipse.
+                    </p>
 
-<p n="3">
-C'est dans ces points d'intersection, ou proche de ces points, que se font toutes les éclipses. <hi rend="italic">Voyez</hi> Eclipse.
-</p>
+                    <p n="4">
+                    On les marque ordinairement par ces caracteres, , tête du <hi rend="italic">dragon,</hi> &amp; , queue du <hi rend="italic">dragon.</hi>
+                    </p>
 
-<p n="4">
-On les marque ordinairement par ces caracteres, , tête du <hi rend="italic">dragon,</hi> &amp; , queue du <hi rend="italic">dragon.</hi>
-</p>
+                    <p n="5">
+                    L'un de ces points, appellé <hi rend="italic">tête du dragon,</hi> est celui par lequel la Lune passe pour entrer dans la partie septentrionale de son orbite ; l'autre appellé 
+                    <hi rend="italic">queue du dragon,</hi> est celui par lequel la Lune passe pour entrer dans la partie méridionale de son orbite. On ne voit pas de trop bonnes raisons de cette 
+                    dénomination ; aussi les astronomes modernes l'ont abandonné, 
+                    </p>
+                    </rdg>
 
-<p n="5">
-L'un de ces points, appellé <hi rend="italic">tête du dragon,</hi> est celui par lequel la Lune passe pour entrer dans la partie septentrionale de son orbite ; l'autre appellé 
-<hi rend="italic">queue du dragon,</hi> est celui par lequel la Lune passe pour entrer dans la partie méridionale de son orbite. On ne voit pas de trop bonnes raisons de cette 
-dénomination ; aussi les astronomes modernes l'ont abandonné, 
-</p>
-</rdg>
+                    <rdg wit="Diderot"><note place="bottom" type="historical" n="3">Denis Diderot, né le 5 octobre 1713 à Langres et mort le 31 juillet 1784 à Paris, est un écrivain, philosophe et encyclopédiste français des Lumières</note>
+                    <link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/5/500"/>
+                    <p>
+                    * Dragon, (Hist. mod.) ce fut une enseigne militaire des Perses, des Daces, des Parthes, &amp; même des Romains ; &amp; ce fut de-là qu'on appella Draconains ceux qui la portoient.
+                    </p>
+                    </rdg>
 
-<rdg wit="Diderot"><note place="bottom" type="historical" n="3">Denis Diderot, né le 5 octobre 1713 à Langres et mort le 31 juillet 1784 à Paris, est un écrivain, philosophe et encyclopédiste français des Lumières</note>
-<link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/5/500"/>
-<p>
-* Dragon, (Hist. mod.) ce fut une enseigne militaire des Perses, des Daces, des Parthes, &amp; même des Romains ; &amp; ce fut de-là qu'on appella Draconains c eux qui la portoient.
-</p>
-</rdg>
-
-<rdg wit="Maréchallerie">
-<link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/5/505"/>
-<p>
-Dragon, (Maréchall.) les Maréchaux appellent ainsi une maladie qui vient aux yeux des chevaux, &amp; qui consiste en une tache blanche au fond de la 
-prunelle : elle n'est pas au commencement plus grosse que la tête d'une épingle ; mais elle croît peu-à-peu au point de couvrir toute la prunelle. Le 
-<hi rend="italic">dragon</hi> vient d'obstruction &amp; de l'engorgement d'une lymphe<note place="bottom" type="gloss" n="4">La lymphe est un liquide biologique blanchâtre ou jaunâtre, transporté par le système lymphatique.</note> trop épaissie. Ce mal est incurable.
-</p>
-</rdg>
-
-</def>
-</div>
-</app>
-</body>
+                    <rdg wit="Maréchallerie">
+                    <link target="https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/5/505"/>
+                    <p>
+                    Dragon, (Maréchall.) les Maréchaux appellent ainsi une maladie qui vient aux yeux des chevaux, &amp; qui consiste en une tache blanche au fond de la 
+                    prunelle : elle n'est pas au commencement plus grosse que la tête d'une épingle ; mais elle croît peu-à-peu au point de couvrir toute la prunelle. Le 
+                    <hi rend="italic">dragon</hi> vient d'obstruction &amp; de l'engorgement d'une lymphe<note place="bottom" type="gloss" n="4">La lymphe est un liquide biologique blanchâtre ou jaunâtre, transporté par le système lymphatique.</note> trop épaissie. Ce mal est incurable.
+                    </p>
+                    </rdg>
+                </app>
+            </def>
+        </div>
+    </body>
 </text>
+</TEI>
