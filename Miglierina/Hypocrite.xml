@@ -57,7 +57,7 @@
         <revisionDesc> <!-- historique de mise à jour de l'encodage -->
             <change when="2026-10-31"> Amélioration de l'encodingDesc et renvoie au site ENCCRE.</change>
 
-            <change when="2026-11-08"> Ajout de notes (etymologie, historique, sémantique, origine) dans une div de commentaire sur le mot 
+            <change when="2026-11-08"> Ajout de notes (etymologique, historique, sémantique, origine) dans une div de commentaire sur le mot 
             [HYPOCRITE] en lui-même sans lien direct avec la définition de l'Encyclopédie. Ajout de note pour la source bibliographique de 
             la citation en fin de définition.</change>
             
@@ -83,7 +83,7 @@
 
                         <!-- ajout des notes -->
 
-                        <note type="etymologie">
+                        <note type="etymologique">
                             En grec ancien, <hi rend="italic">hupokritês</hi> (ὑποκριτής) désignait un acteur, celui qui donne la réplique. 
                             Le terme est formé de <hi rend="italic">hypo</hi> (« sous ») et d'un verbe signifiant « interpréter ».
                         </note>
