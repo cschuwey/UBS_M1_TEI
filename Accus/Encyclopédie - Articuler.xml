@@ -33,13 +33,16 @@
 				<p>Encodage d'un article d'encyclopédie dans le cadre du cours xml/tei, afin de s'entraîner à la numérisation de textes.</p>
 			</projectDesc>
 			<editorialDecl>
-				<p>L'orthographe ainsi que la ponctuation ont été conservés. 
-                L'article présente la définition du verbe articuler avec ses deux sens, ainsi que la définition du mot artifice.</p>
-				<p>Ajout de la version de l'encyclopédie d'Yverdon. 
-                Application des balises lem et rdg pour faciliter la compréhension de l'encodage. 
-                Avec ces balises, nous savons exactement ce qui était présent dans le texte source et ce qui a été modifié dans l'autre version. 
-                Utilisation de l'attribut wit afin de distinguer la version de Enccre et celle d'Yverdon.
+			    <p>L'orthographe ainsi que la ponctuation des textes sources ont été conservées.
+       			L'article présente la définition du verbe articuler avec ses deux sens, ainsi que la définition du mot artifice.
+   				</p>
+				<p>Ajout de la version de l'encyclopédie d'Yverdon afin de la comparer avec le texte source issu de l'Encyclopédie numérisée d'Enccre.
+                Application des balises "lem" pour le texte source d'ENCCRE et "rdg" pour la version d'Yverdon. 
+                Avec ces balises, nous savons exactement ce qui était présent dans le texte source et les différences entre les deux versions, 
+				cela facilite la compréhension de l'encodage. Utilisation de l'attribut wit afin de distinguer la version de d'Enccre et celle d'Yverdon.
 				</p>
+				<p>Les variantes ont été encodées au plus près des différences entre les deux versions. Justement, certains passages présents uniquement dans la version d'Yverdon
+    			sont encodés à l'aide de l'élément "rdg", sans élément "lem", afin de signaler leur absence dans le texte de référence d'Enccre.</p>
 			</editorialDecl>
 		</encodingDesc>
 		<profileDesc>
@@ -49,7 +52,9 @@
 			<change n="1" when="2026-10-19">Le TEI Header a été complété.</change>
 			<change n="2" when="2026-10-19">Les éléments d'encodage d'un article d'encyclopédie ont été ajoutés.</change>
 			<change n="3" when="2026-10-30">Les éléments d'ecnodage de l'article d'Yverdon ont été ajoutés.</change>
-			<change n="4" when="2026-11-08">Quatre notes ont été ajoutées.</change>
+			<change n="4" when="2026-10-30">Les éléments "lem" et "rdg" ont été ajoutées pour faciliter la compréhension de l'encodage entre le texte source et la version d'Yverdon.</change>
+			<change n="5" when="2026-11-30">Ségmentation plus précise des variantes entre les versions d'Enccre et de Yverdon, notamment au niveau de la ponctuation et de l'emploi de l'esperluette.
+			Et modification de l'editorialDecs.</change>
 		</revisionDesc>
 	</teiHeader>
 
@@ -125,10 +130,14 @@
 					<hi rend="italic">articulées</hi>
 					lorsqu'elles sont bien prononcées,
 
+					c'est-à-dire<app> 
+						<lem wit="#Enccre"></lem>
+						<rdg wit="#Yverdon">,</rdg>
+					</app>que tout y est certain,
 					<app>
-						<lem wit="#Enccre">c'est-à-dire que tout y est certain, &amp; non exprimé</lem>
-						<rdg wit="#Yverdon">c'est-à-dire, que tout y est certain, et non exprimé</rdg>
-					</app>
+						<lem wit="#Enccre">&amp;</lem>
+						<rdg wit="#Yverdon">et</rdg>
+					</app>non exprimé.
 
 					d'une maniere équivoque. Il faut
 					<hi rend="italic">articuler</hi> 
