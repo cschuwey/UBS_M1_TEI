@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+
+    type="application/xml" 
+
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+ <title>Appropriation </title>
+        <author>Toussaint, François-Vincent</author>
+</titleStmt>
+<publicationStmt>
+<Exercice pour les TD />
+</publicationStmt>
+<sourceDesc>
+<Encyclopédie ARTFL/>
+<Encyclopédie d’Yverdon/>
+<pubPlace>Paris</pubPlace>
+<biblStruct>
+
+<biblScope unit="page"P1:558 > <biblScope/>
+
+<biblStruct/>
+
+
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+
+<text>
+<body>
+
+<head> Appropriation  </head>
+<div  Definition Encyclopédie ARTFL>
+
+<p  xml:id="p1" >
+<seg xml:id="a1"> Appropriation, s. f. terme de Jurisprudence canonique, est l’application d’un bénéfice ecclésiastique, qui
+de sa propre nature est de droit divin,</seg> &amp;<seg xml:id="a2"> non point un patrimoine personnel, à l’usage propre</seg> &amp; <seg xml:id="a3">
+Approprié.</seg>
+</p>
+<p  xml:id="p2" >
+Il y a appropriation, quand le titre &amp; les revenus d’une cure sont donnés à un évêché, à une maison
+Religieuse, à un collége, &amp; c. &amp; à leurs successeurs ; &amp; que quelqu’un des membres de ce corps fait
+l’office divin, en qualité de vicaire. <hi rend="italic">voyez</hi> Guérison &amp; Vicariat.
+</p>
+<p  xml:id="p3" >
+Pour faire une appropriation, après en avoir obtenu la permission du Roi en chancellerie ; il est
+nécessaire d’avoir le consentement de l’évêque du diocèse, du patron &amp; du bénéficier, si l’église ou le
+bénéfice est rempli ; s’il ne l’est pas, l’évêque du Diocèse &amp; le patron peuvent le faire avec la permission
+du Roi.
+</p>
+<p  xml:id="p4" >
+Pour dissoudre une appropriation, il suffit de présenter un clerc à l’évêque, &amp; qu’il l’institue &amp; le mette
+en possession ; car cela une fois fait, le bénéfice revient à sa premiere nature. Cet acte s’appelle une
+dépossession.
+</p>
+<p  xml:id="p5" >
+L’appropriation est la même chose que ce qu’on appelle autrement en droit canonique, Union. <hi rend="italic">voyez</hi>
+Union. (H)
+</p>
+</div>
+<div Definition <Encyclopédie d’Yverdon/>>
+<p corresp="#p1">
+<seg sameAs="#a1"/>et<seg sameAs="#a2"/>et<seg sameAs="#a3"/>
+</p>
+<p corresp="#p2"> 
+Il y a appropriation, quand le titre et; les revenus d’une cure sont donnés à un évêché, à une maison
+Religieuse, à un collége, et; c. et; à leurs successeurs ; et; que quelqu’un des membres de ce corps fait
+l’office divin, en qualité de vicaire. <hi rend="italic">voyez</hi> Guérison et; Vicariat.
+</p>
+<p corresp="#p3" >
+Pour faire une appropriation, après en avoir obtenu la permission du Souverain; il est
+nécessaire d’avoir le consentement de l’évêque du diocèse, du patron et; du bénéficier, si l’église ou le
+bénéfice est rempli ; s’il ne l’est pas, l’évêque du Diocèse et; le patron peuvent le faire avec la permission
+du Roi.
+
+<p  corresp="#p4" >
+Pour dissoudre une appropriation, il suffit de présenter un clerc à l’évêque,et
+; qu’il l’institue et; le mette
+en possession ; car cela une fois fait, le bénéfice revient à sa premiere nature. Cet acte s’appelle une
+dépossession.
+</p>
+<p sameAs="#p5"/>
+<p xml:id="p6">
+
+APPROPRIATION, (N), s6ubst. f., Gramm. Logiq. _ico_ficheident.jpg On nomme
+ainsi le changement que l'on fait subir au sens d'un mot, lorsque de son
+emploi naturel à désigner une chose d'un certain genre, on le fait servir
+à en désigner une autre d'un genre différent. C'est ainsi que presque
+tous nos termes, employés d'abord à désigner des êtres physiques, sont
+devenus par appropriations des termes métaphysiques, ceux qui ne
+marquoient que les actes du corps, ont été employés pour exprimer
+ceux de l'ame; ce qui se disoit des hommes, a pu se dire de Dieu. Ainsi
+un mot propre à une idée, est devenu par l'appropriation, propre à une
+idée de nature toute différente. Pour que cette appropriation des termes
+n'induise pas une erreur, il faut avoir grand soin par des définitions ou
+des explications, de déterminer dans quel sens on rend un tel mot
+propre à désigner une autre chose. (G. M.)
+
+</p>
+
+</div>
+
+
+</body>
+ </text>
+
+
+</TEI>
