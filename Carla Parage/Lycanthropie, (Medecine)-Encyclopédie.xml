@@ -1,86 +1,96 @@
 <xml version="1.0" encoding="UTF-8">
-<TEI xmlns="https://tei-c.org">
+<TEI xmlns="http://tei-c.org">
     <teiHeader>
-	    <fileDesc>
-		    <titleStmt> 
-				 <title>LYCANTHROPIE, (Medecine).</title>
+        <fileDesc>
+            <titleStmt>
+                <title>LYCANTHROPIE, (Medecine).</title>
                 <author>L'Encyclopédie (1751-1772)</author>
-                <respStmt> 
-					<resp>Annontation et édition critique</resp>
-                    <name xml:id="Hugo Marques">Hugo Marques</name>
-				</respStmt>
-			</titleStmt>
-		    <publicationStmt>
-				<publisher>Enccre (Edition Numérique Collaborative et Critique de l'Encyclopédie)</publisher>
-                <date when="2024-11-29"> 29 Novembre 2024 </date>
-                <id type="Schwab"> vol. IX, n°3470 </id>
-                <id type="url">https://enccre.academie-sciences.fr/encyclopedie/article/v9-2134-0/</id> 
-			</publicationStmt>
-		    <sourceDesc> 
-            	<listBibl>
-           		<!--Témoin principal Enccre-->
-                	<bibl xml:id="Enccre">     
-                 		<title>Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
-                 		<biblScope unit="volume" n="9">IX</biblScope>
-                       	<biblScope unit="page">772a</biblScope>
-                       	<date> 1765 </date>
-					   	<note type="edition">Edition Numérique Collaborative et Critique de l'Encyclopédie (ENCCRE)</note> 	
-               		</bibl>
-				 	<!--Témoin Secondaire ARTFL-->
-				 	<bible xml:id="Artfl">
-						<title>ARTFL Encyclopedie Project (PhiloLogic5)</title>
-						<publisher>University of Chicago</publisher>
-						<id type="url"> https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/9/3584 </id>
-					</bibl>
-				</listBibl>
-			</sourceDesc>
-	    </fileDesc>
+                <respStmt>
+                    <resp>Annotation et édition critique</resp>
+                    <name xml:id="HugoMarques">Hugo Marques</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Enccre (Edition Numérique Collaborative et Critique de l'Encyclopédie)</publisher>
+                <date when="2024-11-29">29 Novembre 2024</date>
+                <id type="Schwab">vol. IX, n°3470</id>
+                <id type="url">https://enccre.academie-sciences.fr/encyclopedie/article/v9-2134-0/</id>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <!-- Source principale Enccre -->
+                    <bibl xml:id="Enccre">
+                        <title>Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
+                        <biblScope unit="volume" n="9">IX</biblScope>
+                        <biblScope unit="page">772a</biblScope>
+                        <date>1765</date>
+                        <note type="edition">Edition Numérique Collaborative et Critique de l'Encyclopédie (ENCCRE)</note>
+                    </bibl>
+                    <!-- Source secondaire ARTFL -->
+                    <bibl xml:id="Artfl">
+                        <title>ARTFL Encyclopedie Project (PhiloLogic5)</title>
+                        <publisher>University of Chicago</publisher>
+                        <id type="url">https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/9/3584</id>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
 
         <encodingDesc>
-		  <variantEncoding method="parallel-segmentation" location="internal"/>
-            <projectDesc>Travail à réaliser pour un cours TD TEI</projectDesc>
-            <samplingDecl>
-				<p>
-					J'ai encodé le texte par phrase et pas par ligne
-				</p> 
-			</samplingDecl>
-            <editorialDecl> 
-                <interpretation>Interpréter l'article LYCANTHROPIE,</interpretation> 
-                <quotation> 
-					<p>
-						J'ai fait des citations d'éléments qui ce situe dans d'autres articles de l'Encyclopédie,
-					</p>
-				</quotation> 
-                <normalization> 
-					<p>
-						J'ai réalisé des modifications de certains mots du à la langue orignale du texte et son temps afin de moderniser leurs sens.
-					</p>
-				</normalization> 
-				<p n="Justification-wit">J'ai utilisé 
-					<gi>listBibl</gi> 
-					et l'attribut <att>source</att> 
-					plutôt que <gi>listWit</gi> et
-					<att>wit</att>
-					car l'ENCCRE et ARTFL ne sont pas des témoins manuscrits distinct d'une ancienne version textuelle mais il s'agit plutôt de 2 éditions numériques modernes,(source bibliographiques inscrite dans <gi>sourceDesc</gi>).
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+            <projectDesc>
+                <p>
+					Travail à réaliser pour un cours TD TEI
 				</p>
-				<p n="Justification-structure"> J'ai choisi la structure 
-					<gi>lem</gi> et 
-					<gi>rdg</gi> 
-					car l'édition de l'Enccre est vérifiée sur l'exemplaire physique de la Bibliothèque Mazarine (référence = le lemme), ARTFL fournit la variante secondaire (la leçon).
-				</p> 
+            </projectDesc>
+            <samplingDecl>
+                <p>
+					J'ai encodé le texte par phrase et pas par ligne.
+				</p>
+            </samplingDecl>
+            <editorialDecl>
+                <!-- Les balises <p> générales doivent toujours être placées AVANT <normalization>, <quotation>, <interpretation> -->
+                <p n="Justification-source">J'ai utilisé 
+                    <gi>listBibl</gi> 
+                    et l'attribut <att>source</att> 
+                    plutôt que <gi>listWit</gi> et
+                    <att>wit</att>
+                    car l'ENCCRE et ARTFL ne sont pas des témoins manuscrits distincts d'une ancienne version textuelle, mais il s'agit plutôt de 2 éditions numériques modernes (sources bibliographiques inscrites dans <gi>sourceDesc</gi>).
+                </p>
+                <p n="Justification-structure">J'ai choisi la structure 
+                    <gi>lem</gi> et 
+                    <gi>rdg</gi> 
+                    car l'édition de l'Enccre est vérifiée sur l'exemplaire physique de la Bibliothèque Mazarine (référence = le lemme), tandis qu'ARTFL fournit la variante secondaire (la leçon).
+                </p>
+                <normalization>
+                    <p>
+						J'ai réalisé des modifications de certains mots dues à la langue originale du texte et à son époque afin de moderniser leur sens.
+					</p>
+                </normalization>
+                <quotation>
+                    <p>
+						J'ai fait des citations d'éléments qui se situent dans d'autres articles de l'Encyclopédie.
+					</p>
+                </quotation>
+                <interpretation>
+                    <p>
+						Interpréter l'article LYCANTHROPIE.
+					</p>
+                </interpretation>
             </editorialDecl>
-			<!-- J'ai inséré la balise <classDecl> afin de pouvoir catégoriser les mots "Médecine" et "Mélancolie"-->
-			<classDecl>
-				<taxonomy xml:id="encyclopedie"> <!--Cet attribut me permet de répertorier le système de classement par rapport au texte "lycanthropie" dans l'encyclopédie-->
-					<category xml:id="medecine">
-						<catDesc>Médecine</catDesc>
-					</category>
-					<category xml:id="melancholie">
-						<catDesc>Mélancolie</catDesc>
-					</category>
-				</taxonomy>
-			</classDecl>
-		</encodingDesc>
+            <!-- J'ai inséré la balise <classDecl> afin de pouvoir catégoriser les mots "Médecine" et "Mélancolie" -->
+            <classDecl>
+                <taxonomy xml:id="encyclopedie">
+                    <!-- Cet attribut me permet de répertorier le système de classement par rapport au texte "lycanthropie" dans l'encyclopédie -->
+                    <category xml:id="medecine">
+                        <catDesc>Médecine</catDesc>
+                    </category>
+                    <category xml:id="melancholie">
+                        <catDesc>Mélancolie</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
 
         <profileDesc> 
             <!--langue utilisé dans l'article-->
@@ -91,7 +101,7 @@
 
                 <!--Classification thématique de l'article et application <classDecl>-->
                 <textClass>
-                    <catRef target="#medecine #melancholie"</catRef>
+                    <catRef target="#medecine #melancholie"/>
                     <keywords scheme="encyclopedie">
                         <term>Médecine</term>
                         <term>Mélancolie</term>
@@ -99,7 +109,7 @@
                 </textClass>
         </profileDesc>
         <revisionDesc>
-            <listchange>
+            <listChange>
                 <change when="2026-10-21"> Remplissage <gi>teiHeader</gi> et intégration de <gi>encodingDesc</gi>.</change>
                 <change when="2026-10-21"> Réalisation de l'encodage de l'article LYCANTHROPIE de l'Encyclopédie.</change>
 				<change when="2026-10-30"> Incorporer les 2 éditions de l'article et mise en place des attributs 
@@ -116,114 +126,106 @@
 					<att>source</att> dans 
 					<gi>sourceDesc</gi>.
 				</change>
-            </listchange>
+            </listChange>
         </revisionDesc>
     </teiHeader>   
 
-    <text>
+     <text>
         <body>
             <pb n="772"/>
             <entry xml:id="v9-2134-0">
                 <form>
-                    <orth extent="full" type="head"> LYCANTHROPIE </orth>
-                    <gramgrp>
+                    <orth extent="full" type="head">LYCANTHROPIE</orth>
+                    <gramGrp>
                         <pos>s.</pos>
                         <gen>f.</gen>
-                    </gramgrp>
+                    </gramGrp>
                 </form>
 
-                <usg type="domain"> Médecine. 
-					<note n="1" type="critic"> Note sur le désignant "(Médecine)"</note>
-				</usg>
+                <usg type="domain">Médecine. 
+                    <note n="1" type="critic" resp="#HugoMarques">Note sur le désignant "(Médecine)"</note>
+                </usg>
 
                 <etym>
-                    <foreign xml:lang="grc">λυκανθρωπiα </foreign>, nom entierement grec formé de
-                    <foreign xml:lang="grc">λύκος>/foreign>,
-						<gloss>loup</gloss>, &amp;
+                    <foreign xml:lang="grc">λυκανθρωπία</foreign>, nom entierement grec formé de
+                    <foreign xml:lang="grc">λύκος</foreign>,
+                    <gloss>loup</gloss>, &amp;
                     <foreign xml:lang="grc">ἄνθρωπος</foreign>,
-						<gloss>homme</gloss>:
+                    <gloss>homme</gloss> :
                     suivant son étymologie, il signifie un loup qui est homme.
                 </etym>
 
                 <def>
-                	<p> 
-						Il est employé en Médecine, pour designer cette espece de 
-						<app>
-							<lem source="#Enccre">
-								<choice>
-									<orig>mélancholie</orig>
-									<reg>mélancolie</reg>
-								</choice>
-							</lem>
-							<rdg wit="#Artfl">Mélancolie</rdg> 
-						</app>  
-					  	dans laquelle les hommes se croyent transformés en loups ; &amp; en conséquence, ils en imitent toutes les actions ; ils sortent à leur exemple de leurs maisons la nuit ; ils vont roder autour des tombeaux ; ils s’y enferment, se mêlent &amp; se battent avec les bêtes féroces, &amp; risquent souvent leur vie, leur santé dans ces sortes de combats.
-					</p>
-                  	<p> 
-						<persName> Actuarius​ </persName> 
-						remarque qu’après qu’ils ont passé la nuit dans cet état, ils retournent au point du jour chez eux, &amp; reprennent leur bon sens ; ce qui n’est pas constant : mais alors même ils sont rêveurs, tristes, misantropes ; ils ont le visage pâle, les yeux enfoncés, la 
-						<choice>
-							<orig>vûe</orig>
-							<reg>vue</reg>
-						</choice>
-						égarée, la langue &amp; la bouche seches, une soif immodérée, quelquefois aussi les jambes meurtries, déchirées, fruits de leurs débats nocturnes.
-					</p>
+                    <p>Il est employé en Médecine, pour designer cette espece de 
+                        <app>
+                            <lem source="#Enccre">
+                                <choice>
+                                    <orig>mélancholie</orig>
+                                    <reg>mélancolie</reg>
+                                </choice>
+                            </lem>
+                            <rdg source="#Artfl">Mélancolie</rdg>
+                        </app>  
+                        dans laquelle les hommes se croyent transformés en loups ; &amp; en conséquence, ils en imitent toutes les actions ; ils sortent à leur exemple de leurs maisons la nuit ; ils vont roder autour des tombeaux ; ils s’y enferment, se mêlent &amp; se battent avec les bêtes féroces, &amp; risquent souvent leur vie, leur santé dans ces sortes de combats.
+                    </p>
+					
+                  	<p>
+						<persName>Actuarius</persName> remarque qu’après qu’ils ont passé la nuit dans cet état, ils retournent au point du jour chez eux, &amp; reprennent leur bon sens ; ce qui n’est pas constant : mais alors même ils sont rêveurs, tristes, misantropes ; ils ont le visage pâle, les yeux enfoncés, la 
+                        <choice>
+                            <orig>vûe</orig>
+                            <reg>vue</reg>
+                        </choice>
+                        égarée, la langue &amp; la bouche seches, une soif immodérée, quelquefois aussi les jambes meurtries, déchirées, fruits de leurs débats nocturnes.
+                    </p>
                   
-				  	<p> 
+				  	<p>
 						Cette maladie, si l’on en croit quelques voyageurs, est assez commune dans la 
-						<placeName> ​Livonie​</placeName>​ &amp;
-						<placeName>l’Irlande</placeName>.
-					</p>
+                        <placeName>Livonie</placeName> &amp;
+                        <placeName>l’Irlande</placeName>.
+                    </p>
                   
-				  	<p> 
-						<persName>Donatus Ab alto mari​</persName>
-						dit en avoir vû lui-même deux exemples ; &amp; 
-						<persName>Forestus</persName> 
-						raconte qu’un lycanthrope qu’il a observé, étoit 
-						<choice>
-							<orig>sur-tout</orig>
-							<reg>surtout</reg>
-						</choice> 
-						dans le 
-						<choice>
-							<orig>printems</orig>
-							<reg>printemps</reg>
-						</choice>
-						toujours à rouler dans les cimetieres, 
-						<cit>
-							<bibl>lib. X. observ. 25​</bibl>
-						</cit>​.
-					</p> 
+				  	<p>
+						<persName>Donatus Ab alto mari</persName> dit en avoir vû lui-même deux exemples ; &amp; 
+                        <persName>Forestus</persName> raconte qu’un lycanthrope qu’il a observé, étoit 
+                        <choice>
+                            <orig>sur-tout</orig>
+                            <reg>surtout</reg>
+                        </choice> 
+                        dans le 
+                        <choice>
+                            <orig>printems</orig>
+                            <reg>printemps</reg>
+                        </choice>
+                        toujours à rouler dans les cimetieres, 
+                        <bibl>lib. X. observ. 25</bibl>.
+                    </p> 
                   
-				  	<p> 
-						Le démoniaque dont il est parlé dans l’Ecriture-sainte (
-						<title>S. Marc</title>, 
-						<bibl> chap. v </bibl>​​),
-						qui se plaisoit à habiter les tombeaux, qui couroit 
-						<choice>
-							<orig>tout nud</orig>
-							<reg>tout nu</reg>
-						</choice>, 
-						poussoit sans cesse des cris effrayans, &amp;c. &amp; le
-						<persName type="myth"> Lycaon</persName>,
-						célebre dans la fable​, ne paroissent être que des 
-						<choice>
-							<orig>mélancholiques</orig>
-							<reg>mélancoliques</reg>
-						</choice> 
-						de cette espece, c’est-à-dire des ​lycantropes
-					​</p>
+				  	<p>
+						Le démoniaque dont il est parlé dans l’Ecriture-sainte (<title>S. Marc</title>, 
+						<bibl>chap. v</bibl>), qui se plaisoit à habiter les tombeaux, qui couroit 
+                        <choice>
+                            <orig>tout nud</orig>
+                            <reg>tout nu</reg>
+                        </choice>, 
+                        poussoit sans cesse des cris effrayans, &amp;c. &amp; le 
+						<persName type="myth">Lycaon</persName>, 
+						célebre dans la fable, ne paroissent être que des 
+                        <choice>
+                            <orig>mélancholiques</orig>
+                            <reg>mélancoliques</reg>
+                        </choice> 
+                        de cette espece, c’est-à-dire des lycantropes.
+                    </p>
                   
-				 	 <p> 
-						 Nous passons sous silence les causes, la curation, &amp;c. de cette maladie, parce qu’elles sont absolument les mêmes que dans la 
-						 <choice>
-							 <orig>mélancholie</orig>
-							 <reg>mélancolie</reg>
-						 </choice>, 
-						 dont nous traiterons plus bas.
-                    	<ref type="crossref" target="https://enccre.academie-sciences.f"> Voyez Mélancholie
-						</ref>.
-					 </p>
+				 	<p>
+						Nous passons sous silence les causes, la curation, &amp;c. de cette maladie, parce qu’elles sont absolument les mêmes que dans la 
+                        <choice>
+                            <orig>mélancholie</orig>
+                            <reg>mélancolie</reg>
+                        </choice>, 
+                        dont nous traiterons plus bas.
+                        <ref type="crossref" target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-826-3/">Voyez Mélancholie</ref>.
+                    </p>
                   
 				  	<p> 
 						Nous remarquerons seulement quant à la curation, qu’il faut 
@@ -234,19 +236,19 @@
 						donner à ces malades des alimens de bon suc ​analyptiques​​, pendant l’accès les saigner abondamment.
 					</p>
                   
-				  	<p> 
+				  	<p>
 						<persName>Oribaze</persName> 
-				 		<!--je veux montrer que le texte initial ne cite que le nom d'Oribaze. La note apporte la preuve que cette autorité médicale par la même occasion, de redonner son véritable titre à son œuvre majeure, les *Collections médicales*=<bibl>synops, lib. IX. c. x.​</bibl>-->
-				  		<note type="critic" resp="#HugoMarques">
-					  	Oribaze (v. 325-403) est un médecin grec dont les compilations les <title>Collections médicales</title>ont permis de transmettre de nombreux fragments de textes médicaux antiques perdus, notamment sur la mélancolie.
-                  		</note> 
-					  	recommande comme un ​spécifique​​.
-					</p>
+                        <!-- je veux montrer que le texte initial ne cite que le nom d'Oribaze. La note apporte la preuve que cette autorité médicale par la même occasion, de redonner son véritable titre à son œuvre majeure, les *Collections médicales*=<bibl>synops, lib. IX. c. x.</bibl> -->
+                        <note type="critic" resp="#HugoMarques">
+                            Oribaze (v. 325-403) est un médecin grec dont les compilations, les 
+							<title>Collections médicales</title>, 
+							ont permis de transmettre de nombreux fragments de textes médicaux antiques perdus, notamment sur la mélancolie.
+                        </note> 
+                        recommande comme un spécifique
 					
-					<p>
                         <!-- je veux montrer que le mot "spécifique" possède au XVIIIe siècle un sens technique très précis en médecine humorale : Il s’agit d’un traitement ciblant spécifiquement une pathologie précise-->
-                        <note type="critic" resp="#Hugo Marques"> 
-                        Au début XVIIIe siècle, un remède "spéciale" désigne une substance qui guérit une maladie par une propriété propre et exclusive, et non pas seulement en modifiant les humeurs générales du corps.
+                        <note type="critic" resp="#HugoMarques"> 
+                        	Au début XVIIIe siècle, un remède "spéciale" désigne une substance qui guérit une maladie par une propriété propre et exclusive, et non pas seulement en modifiant les humeurs générales du corps.
                         </note>
                         lorsque l’accès est sur le point de se décider, de leur arroser la tête avec de l’eau bien froide ou des décoctions 
                         <choice>
@@ -254,20 +256,12 @@
                             <reg>somnifères</reg>
                         </choice>; 
                         &amp; lorsqu’ils sont endormis, de leur frotter les oreilles &amp; les narines avec.
-                    </p> 
-					
-					<p>
+
 						<!--je veux montrer le décryptage philologique des conventions de citation de l'époque.Par rapport au titre exact du traité) et la structure de l'œuvre-->
-				  		l’opium (
-						<cit>
-							<bibl>synops, lib. IX. c. x.​</bibl>
-						</cit>​​) 
+				  		l’opium (<bibl>synops, lib. IX. c. x.​</bibl>)
 				  		<note type="critic" resp="#HugoMarques">
-					  	La référence abrégée renvoie au traité <title>Synopsis ad Eustathium filium</title>, dont le livre IX est consacré aux affections de la tête et aux troubles mélancoliques.
+					  		La référence abrégée renvoie au traité <title>Synopsis ad Eustathium filium</title>, dont le livre IX est consacré aux affections de la tête et aux troubles mélancoliques.
 				  		</note>.
-					</p>
-					
-					<p>
 				  		Il faut aussi avoir attention de les enchaîner pour les empêcher de sortir la nuit, &amp; d’aller risquer leur vie parmi les animaux les plus féroces, si l’on n’a pas d’autre moyen de les contenir.
 					</p>
                 </def>
