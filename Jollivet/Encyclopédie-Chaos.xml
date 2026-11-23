@@ -1,203 +1,397 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-            <title rend="caps">
-            Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres. 
-            </title>
-            <editor><surname>Diderot</surname><name>Denis</name></editor> 
-            <editor>Le Rond d'Alembert<name>Jean</name></editor>
-           <!-- Choix méthodologique : le fichier étant conçu comme pour accueillir l'ensemble de l'Encyclopédie, j'ai décidé de ne pas lister tous les auteurs/contributeurs de l'Encyclopédie dans l'en-tête en partant du principe qu'ils'seront précisés au niveau de leur(s) article(s) respectif(s). -->
-            </titleStmt>
-            
-            <publicationStmt> 
-            <authority> <surname>JOLLIVET </surname> <name>Maëva</name></authority> 
-            <p> Encodage numérique de l'Encyclopédie, ou dictionnaire raisonné
-            des sciences, des arts et des métiers, dirigée par Diderot et
-            d'Alembert, réalisé dans le cadre du cours de XML-TEI
-            sous la supervision de <name>Christophe</name><surname>Schuwey</surname>.</p>
-            <pubPlace>Université Bretagne Sud</pubPlace>
-            <date when="2026-10-07">7 octobre 2026</date>
-            </publicationStmt>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title rend="caps">
+					Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres.
+				</title>
+				<editor><surname>Diderot</surname><name>Denis</name></editor>
+				<editor><surname>Le Rond d'Alembert</surname><name>Jean</name></editor>
+			</titleStmt>
+			<publicationStmt>
+				<authority> <surname>JOLLIVET </surname> <name>Maëva</name></authority>
+				<p>
+					Encodage numérique de l'Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers, dirigée par Diderot et d'Alembert, réalisé dans le cadre du cours de XML-TEI sous la supervision de
+				<name>Christophe</name><surname>Schuwey</surname>.</p>
+				<pubPlace>Université Bretagne Sud</pubPlace>
+				<date from="2026-10-07" to="2026-11-23">Du 7 octobre 2026 au 23 novembre 2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<wit xml:id="enccre">
+					<bibl>
+						<editor><surname>Diderot</surname><name>Denis</name></editor>
+						<editor><surname>Le Rond d'Alembert</surname><name>Jean</name></editor>
+						<title>Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres.</title>
+						<date when="1753"><choice><orig>M. DCC. LIII.</orig><reg>1753</reg></choice></date>
+						
+      <ref type="digitalEditor"><link target="https://enccre.academie-sciences.fr/encyclopedie/">Enccre</link></ref>
+					</bibl>
+				</wit>
+				<wit xml:id="yverdon">
+					<bibl>
+						<editor>Fortunato-Bartolomeo De Felice</editor>
+						<title>Encyclopédie, ou Dictionnaire universel raisonné des connoissances humaines</title>
+						<pubPlace>Yverdon</pubPlace>
+						<date notBefore="1770" notAfter="1780">1770-1780</date>
+						<seg><ref type="digitalEditor"><link target="https://classiques-garnier.com/encyclopedie-d-yverdon.html">Classiques Garnier</link></ref>
+					<note>
+            Témoin indirect : le texte est établi à partir de la transcription communiquée par mail par<name>Christophe</name><surname>Schuwey</surname>, sans consultation directe de l'édition numérique de classique garnier.(faute de parvenir à y accéder)
+                    </note></seg>
+                    </bibl>
+				</wit>
+			</listWit>
+		</sourceDesc>
+		<encodingDesc>
+			<projectDesc><p>Encodage réalisé dans le cadre du cours XML/TEI.</p></projectDesc>
+			<samplingDecl>
+				<p>L'article n'est pas encodé dans son intégralité.</p>
+			</samplingDecl>
+			
+			<editorialDecl>
+				<p>
+				Vocabulaire tei : les articles ont été structurés selon les recommandations du vocabulaire TEI dédiées à l'encodage des dictionnaires (telles qu'elles sont définies dans le module Dictionaries des Guidelines de la TEI.).
+                Comparaison des éditions/apparat critique : L'édition de l'ENCCRE a été retenue comme texte de base tandis que l'édition d'Yverdon, qui est une version critique de l'Encyclopédie de Diderot (avec des commentaires en plus), est utilisée comme apparat critique. Les variantes de l'édition d'Yverdon sont intégrées au moyen des balises app, lem et rdg, afin de faire apparaître les différences entre les deux témoins sans reproduire deux fois les passages identiques. La balise 'app' regroupe les différences entre les deux éditions, 'lem' indique le texte de base de l'ENCCRE et 'rdg' présente les ajouts ou les différences de l'édition d'Yverdon. L'attribut wit précise l'édition concernée. Les ajouts propres à l'une des deux éditions sont signalés par un élément 'app' contenant un élément 'lem' ou 'rdg' vide, selon le témoin auquel appartient l'ajout. La balise vide indique ainsi que le passage est absent de l'autre édition. 
+                Normalisation de l'orthographe : L'orthographe originale du XVIIIe siècle est conservée. Lorsqu'un mot est normalisé, ses deux formes sont indiquées avec la balise 'choice' : la forme originale dans la balise 'orig' et l'équivalent moderne/la forme normalisée dans la balise 'reg'. 
+                Références internes à des articles absent du fichier : Les références target, comme target="#article-Burnet" anticipent un encodage global de l'Encyclopédie et renvoient à des articles qui seraient présents dans une version complète, mais qui ne sont pas encodés dans cet exercice. Ces références sont donc des liens internes vers des articles qui ne sont pas inclus dans le fichier XML fourni, mais qui pourraient être présents dans une version complète de l'Encyclopédie.
+				</p>
+			</editorialDecl>
 
-            <sourceDesc>
-            <listWit>
-            <wit xml:id="enccre">
-            <bibl>
-                <editor>Diderot</editor><editor>D'alembert</editor>
-                <title>Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres.</title>
-                <date when="1753">M. DCC. LIII.</date>
-                <editor>Enccre<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-230-0/"></link></editor>
-            </bibl></wit>
-            
-            <wit xml:id="yverdon">
-        <bibl>
-            <editor>Fortunato-Bartolomeo De Felice</editor>
-            <title>Encyclopédie, ou Dictionnaire universel raisonné des connoissances humaines</title>
-            <pubPlace>Yverdon</pubPlace>
-            <date notBefore="1770" notAfter="1780">1770-1780</date>
-            <editor>Classiques Garnier<link target="https://classiques-garnier.com/encyclopedie-d-yverdon.html"></link></editor>
-        </bibl>
-            </wit>
-            </listWit>
-            </sourceDesc>
-            
-        <encodingDesc>
-      <p>Encodage réalisé dans le cadre du cours XML/TEI.
-     <samplingDecl><p>L'article n'est pas encodé dans son intégralité.</p>
- </samplingDecl>
-      Vocabulaire tei : les articles ont été structurés selon les recommandations du vocabulaire TEI dédiées
-      à l'encodage des dictionnaires (telles qu'elles sont définies dans le module Dictionaries des Guidelines de la TEI.). 
+			 <classDecl>
+         <interpGrp type="remaniement">
+            <interp xml:id="R">
+               La marque (R) signale un article remanié par rapport à sa source
+            </interp>
+         </interpGrp>
+      
+<interpGrp type="contribution">
+         <interp xml:id="chavannes">
+           Probablement une marque de contribution attribuée à Alexandre César Chavannes qui indiquerait sa responsabilité intellectuelle dans le passage concerné sans permettre d'affirmer qu'il en est le rédacteur.
+         </interp>
+      </interpGrp>
+	  </classDecl>
+		</encodingDesc>
+	</fileDesc>
+	<revisionDesc>
+	 <change when="2026-10-15">
+        Création du fichier XML-TEI et premier encodage de l'article
+        « Chaos » à partir de l'édition numérique ENCCRE.
+        Mise en place du teiHeader et structuration de l'article
+        selon les recommandations TEI relatives aux dictionnaires.
+    </change>
 
-     Comparaison des éditions/apparat critique : L'édition de l'ENCCRE a été retenue comme texte de base tandis que l’édition d’Yverdon, qui est une version critique de l’Encyclopédie de Diderot (avec des commentaires en plus), est utilisée comme apparat critique. Les variantes de l'édition d'Yverdon sont intégrées au moyen des balises app, lem et rdg, afin de faire apparaître les différences entre les deux témoins sans reproduire deux fois les passages identiques. La balise ' app' regroupe les différences entre les deux éditions, 'lem' indique le texte de base de l’ENCCRE et 'rdg' présente les ajouts ou les différences de l’édition d’Yverdon. L’attribut wit précise l’édition concernée.
+    <change when="2026-10-23">
+        Ajout d'un second témoin du XVIIIe siècle,
+        l'édition d'Yverdon, et identification des variantes textuelles.
+        Enrichissement du teiHeader avec les informations relatives
+        à cette seconde source.
+    </change>
 
-      Normalisation de l'orthographe :   L’orthographe originale du XVIIIe siècle est conservée. Lorsqu’un mot est normalisé, 
-      ses deux formes sont indiquées avec la balise 'choice' : la forme originale dans la balise 'orig' et l'équivalent moderne/la forme normalisée dans la balise 'reg'.</p>
- 
-  </encodingDesc>
-        </fileDesc>
-    </teiHeader>
-    
-    <text>
-        <front>
-            <head> Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres.</head>
-        </front>
-        <body>
-              <div1 type="volume" n="3">  
-                  <div2 type="article" xml:id="Chaos">
-                  <entry xml:id="Chaos">
-                     <byline>
-                            <docAuthor><surname>Diderot</surname><name>Denis</name></docAuthor>
-                        </byline>
-                      <head>1 CHAOS,  <gramGrp> <pos type="substantif">s.</pos> <gen type="masculin">m.</gen> </gramGrp> (Philos.2 &amp; Myth.3)</head>
-                        <usg type="domain">Philosophie</usg>
-                        <usg type="domain">Mythologie</usg>
+    <change from="2026-10-25" to="2026-10-29">
+        Intégration des variantes de l'édition d'Yverdon dans le texte
+        de base de l'ENCCRE au moyen des éléments app, lem et rdg.
+        Définition des principes de segmentation et d'attribution
+        des témoins à l'aide des attributs wit et source.
+        Encodage des renvois bibliographiques et des liens vers ENCCRE.
+        Ajout de quatre notes de différents types et encodage
+        de passages présentant des concepts, des personnages
+        et des références remarquables.
+    </change>
 
-                            
+    <change when="2026-11-07">
+        Correction des fautes d'orthographe dans le titre et dans différentes sections.
+    </change>
 
+<change when="2026-11-23">
+    Refonte de la structure de l'article « Chaos » :
+    amélioration de l'encodage du titre, des indications
+    grammaticales et des domaines.
 
+    Développement de l'apparat critique par l'intégration
+    plus systématique des variantes de l'édition d'Yverdon
+    au moyen des éléments app, lem et rdg.
 
-                     <sense n="1">
-                        <def><app>
-                         <lem wit="#enccre"/>
-                        <rdg wit="yverdon">CHAOS, (R),du grec cavoÖ, synonyme avec cavsma, hiatus, du verbe cavw, hiare, ouverture, abysme, amas confus de matiere;
-                                c'est le terme dont les plus anciens auteurs se sont servis pour désigner l'état primitif de la matiere, avant qu'elle eût reçu sa forme.
-                                 Il a été employé par Hésiode, Théogon. II6, Sanchoniaton, Orphée, Menandre, Euripide, Aristophane, Diodore de Sicile, Plutarque, et
-                                  par les auteurs latins, Ennius, Varron, Lucrece, Virgile, Ovide. C'est ce dernier qui en a déterminé le sens de la maniere la plus
-                                 claire. <seg>Metam. I.
-                                 <note type="source">
-                                 Métamorphoses d'Ovide, livre I.
-                                </note>
-                                </seg></rdg> </app>  </def>
+    Enrichissement de l'encodage des citations, des références
+    bibliographiques et des renvois hypertextes vers ENCCRE.
+</change>
 
-                        <def>
-                            
-                             <p n="1"><app>
-                             <lem wit="enccre">Le Chaos en Mythologie, est <choice><orig>pere</orig><reg>père</reg></choice> de l’<seg>Erebe<note type="gloss">L'Érèbe est, dans la mythologie grecque, la personnification des ténèbres infernales.
-                                </note></seg> &amp; de la Nuit<choice><orig>mere</orig><reg>mère</reg></choice>  des dieux.</lem>
-                             <rdg wit="yverdon">
-                             <seg>
-                                <quote xml:lang="lat">
-                             Ante mare et terras, et quod tegit omnia cœlum,
-                            Unus erat toto naturæ vultus in orbe
-                            Quem dixere chaos, rudis indigestaque moles,
-                            Nec quicquam nisi pondus iners congestaque eodem
-                            Non bene junctarum discordia semina rerum.
-                                 </quote>
-                                 <note type="traduction">Avant la mer et la terre, et le ciel qui couvre tout, il n’y avait qu’un seul aspect de la nature dans l’univers, que l’on a appelé chaos, une masse informe et indigeste, et rien d’autre que le poids inerte et les graines discordantes des choses mal jointes.</note>
-                                 <note type="source">Ovide, Métamorphoses, livre I, vers 5-9.</note>
-                                 </seg>
-                                 <ref target="#article-Burnet">Voyez Burnet, archaiol. Philos., Grotius, de verit. rel. Christ.</ref>
-                            </rdg></app>
-                            
-                             Les anciens philosophes ont entendu par <app><lem wit="enccre">ce mot, </lem><rdg wit="yverdon">le chaos, une matiere premiere et éternelle, qui n'<choice><orig>étoit</orig><reg>était</reg></choice> qu'</rdg></app>un <choice><orig>mêlange</orig><reg>mélange</reg></choice> confus de particules de toute <choice><orig>espece</orig><reg>espèce</reg></choice>, 
-                             sans forme ni régularité, <app><lem wit="enccre">auquel ils supposent le</lem><rdg wit="yverdon">mais avec un</rdg></app> mouvement essentiel<app><lem wit="enccre">, lui attribuant en conséquence la 
-                             formation de l’univers. Ce système est chez eux un corollaire d’un axiome excellent en lui-même, mais qu’ils généralisent
-                              un peu trop ; savoir, que rien ne se fait de rien ; <seg>ex nihilo nihil fit<note type="commentaire">
-Locution latine signifiant 'rien ne naît de rien'. Elle résume un principe fondamental de plusieurs philosophies antiques, selon lequel rien ne peut être produit à partir du néant.
-</note></seg> : au lieu de <choice><orig>restraindre</orig><reg>restreindre</reg></choice> ce principe aux effets,
-                               ils l’étendent jusqu’à la cause efficiente, &amp; regardent la création comme une idée chimérique &amp; contradictoire. 
-                               <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-1016-0/"><hi rend="italic">Voyez</hi> <ref target="#article-creation">Création</ref></link>.</lem>
-                               <rdg wit="yverdon">; un tout, en un mot, indigeste, dans lequel les principes de tous les
-                              êtres se <choice><orig>trouvoient</orig><reg>trouvaient</reg></choice> rassemblés et <choice><orig>mêlangés</orig><reg>mélangés</reg></choice> sans aucun ordre, et auquel il <choice><orig>falloit</orig><reg>fallait</reg></choice> rapporter la formation de cet univers. 
-                              Hesiode <choice><orig>ajoûte</orig><reg>ajoute</reg></choice> que ce chaos engendra l'Erebe de la nuit, <choice><orig>mere</orig><reg>mère</reg></choice> des dieux, pour marquer que cette <choice><orig>matiere premiere étoit</orig><reg>matière première était</reg></choice> 
-                              originairement dans les <choice><orig>ténébres</orig><reg>ténèbres</reg></choice>.
-                              Ce systême <choice><orig>étoit</orig><reg>était</reg></choice> chez ces philosophes une conséquence de leur opinion erronée sur la création, qu'ils <choice><orig>regardoient</orig><reg>regardaient</reg></choice>
-                               comme une idée <choice><orig>chymérique</orig><reg>chimérique</reg></choice> et contradictoire. <ref target="#article-Création">Voyez Création</ref>
-                                </rdg>
-                                </app>
-                               </p>
-                
-                        <p n="2">Anciennement les <app><lem wit="enccre"><hi rend="uppercase">s</hi></lem><rdg wit="yverdon">s</rdg></app>ophistes, les 
-                        <app><lem wit="enccre"><hi rend="uppercase">s</hi></lem><rdg wit="yverdon">s</rdg></app>ages du paganisme, 
-                        les <app><lem wit="enccre"><hi rend="uppercase">n</hi></lem><rdg wit="yverdon">n</rdg></app>aturalistes,
-                         les <app><lem wit="enccre"><hi rend="uppercase">t</hi></lem><rdg wit="yverdon">t</rdg></app>héologiens,
-                          <app><lem wit="enccre">&amp; les <choice><orig>Poëtes</orig><reg>Poètes</reg></choice></lem><rdg wit="yverdon">et les <choice><orig>poêtes</orig><reg>poètes</reg></choice></rdg></app>,
-                         ont embrassé la même opinion. Le chaos est pour eux le plus ancien des êtres ; l’<app><lem wit="enccre"><choice><orig>Étre</orig><reg>Être</reg></choice></lem><rdg wit="yverdon">être</rdg></app> éternel, le premier des 
-                         principes <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> le berceau de l’univers. 
-                         Les Barbares, les Phéniciens, les Egyptiens, les Perses, <app><lem wit="enccre">&amp;c.</lem><rdg wit="yverdon">etc.,</rdg></app> ont
-                          rapporté l’origine du monde à une masse informe <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> confuse de <choice><orig>matieres</orig><reg>matières</reg></choice> entassées pêle-mêle, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> mûes en
-                           tout sens les unes sur les autres.
-                           
-                            Aristophane, Euripide, <app><lem wit="enccre">&amp;c.</lem><rdg wit="yverdon">etc.,</rdg></app> les philosophes Ioniques <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> Platoniciens,
-                            <app><lem wit="enccre">&amp;c.</lem><rdg wit="yverdon">etc.,</rdg></app> les Stoïciens même, partent du chaos, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> regardent ses périodes <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> ses révolutions comme des 
-                            passages successifs d’un chaos dans un autre, jusqu’à ce qu’enfin les <app><lem wit="enccre">lois</lem><rdg wit="yverdon"><choice><orig>loix</orig><reg>lois</reg></choice></rdg></app> du mouvement, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> les 
-                            différentes combinaisons, aient <app><lem wit="enccre">amené</lem><rdg wit="yverdon"><choice><orig>améné</orig><reg>amené</reg></choice></rdg></app> l’ordre des choses qui constituent cet univers.
+<change from="2026-11-10" to="2026-11-23">
+    Ajout et typologie des notes (sources, traductions,
+    gloses et commentaires), identification des signatures/marques.
 
-                            </p>
-                
-                            <p n="3"><app><lem wit="enccre">Chez les Latins, Ennius, Varron, Ovide, Lucrece, Stace, &amp;c. n’ont point eu d’autre sentiment.</lem><rdg wit="yverdon">Selon Ovide, la nature, sans rien créer, ne fit que débrouiller le chaos, en séparant les <choice><orig>élémens</orig><reg>éléments</reg></choice>, 
-                             et donnant à chaque corps qui en fut composé, la place qui lui <choice><orig>convenoit</orig><reg>convenait</reg></choice>. (C. C.)</rdg></app>
-                            
-                             <app><lem wit="enccre"/><rdg wit="yverdon"><lb/></rdg></app>L’opinion de l’éternité <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> de la fécondité du chaos a commencé chez les Barbares, d’où elle a passé aux 
-                             Grecs, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> des Grecs aux Romains <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> aux autres nations,  
-                             <choice><orig>ensorte</orig><reg>en sorte</reg></choice>qu’il est incertain si elle a été plus ancienne que générale.
-                              </p>
-                
-                            <p n="4">Le docteur Burnet assûre avec raison, que si l’on en excepte Aristote <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> les Pythagoriciens,
-                             personne n’a jamais <choice><orig>soûtenu</orig><reg>soutenu</reg></choice> que notre monde ait eu de toute éternité la même forme que nous lui voyons<app><lem/><rdg> </rdg></app>;
-                              mais que suivant l’opinion constante des sages de tous les <choice><orig>tems</orig><reg>temps</reg></choice>, ce que nous appellons maintenant le globe
-                               terrestre, n’<choice><orig>étoit</orig><reg>était</reg></choice> dans son origine qu’une masse informe, contenant les principes <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> les matériaux du
-                                monde tel que nous le voyons. <app><lem wit="enccre"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1742-0/">Voyez <ref target="#article-monde">Monde</ref></link></lem><rdg wit="yverdon"> <ref target="#article-monde">v. MONDE</ref></rdg></app>. Le même auteur conjecture que les Théologiens <choice><orig>payens</orig><reg>païens</reg></choice> qui ont
-                                 écrit de la <app><lem wit="enccre"><hi rend="uppercase">t</hi></lem><rdg>t</rdg></app>héogonie, ont imité dans leur <app><lem wit="enccre">système</lem><rdg wit="yverdon"><choice><orig>systême</orig><reg>système</reg></choice></rdg></app> celui des <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg>p</rdg></app>hilosophes, en déduisant l’origine des 
-                                 dieux du principe universel d’où les <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg>p</rdg></app>hilosophes <choice><orig>déduisoient</orig><reg>déduisaient</reg></choice> tous les êtres.
-                                 
-                            </p>
-                
-                             <p n="5">Quoiqu’on puisse assûrer que la <choice><orig>premiere</orig><reg>première</reg></choice> idée du chaos ait été très-générale <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> très-ancienne,
-                              il n’est cependant pas impossible de déterminer quel est le premier à qui il faut l’attribuer. <choice><orig>Moyse</orig><reg>Moïse</reg></choice>,
-                               le plus ancien des écrivains, représente au commencement de son histoire le monde comme n’ayant été 
-                               d’abord qu’une masse informe, <app><lem wit="enccre"><choice><orig>ou</orig><reg>où</reg></choice></lem><rdg wit="yverdon">où</rdg></app> les <choice><orig>élémens</orig><reg>éléments</reg></choice> <choice><orig>étoient</orig><reg>étaient</reg></choice> sans ordre <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> confondus ; <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> c’est 
-                               <choice><orig>vraissemblablement</orig><reg>vraisemblablement</reg></choice> de-là que les <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg wit="yverdon">p</rdg></app>hilosophes Grecs <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app>
-                                Barbares ont emprunté la <choice><orig>premiere</orig><reg>première</reg></choice> notion de leur
-                                chaos<app><lem wit="enccre"> </lem><rdg wit="yverdon"/></app>: en effet, selon <choice><orig>Moyse</orig><reg>Moïse</reg></choice>, cette masse <choice><orig>étoit</orig><reg>était</reg></choice> couverte d’eau ; <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> plusieurs d’entre les <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg wit="yverdon">p</rdg></app>hilosophes
-                                 anciens ont prétendu que le chaos n’<choice><orig>étoit</orig><reg>était</reg></choice> qu’une masse d’eau : ce qu’il ne faut entendre ni de l’océan, 
-                                 ni d’une eau élémentaire <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> pure ; mais d’une <choice><orig>espece</orig><reg>espèce</reg></choice> de bourbier, dont la fermentation <choice><orig>devoit</orig><reg>devait</reg></choice> 
-                                 produire cet univers dans le <choice><orig>tems</orig><reg>temps</reg></choice>.
-                                 
-                            </p>
-                
-                             <p n="6">
-                             Cudworth, Grotius, Schmid, Dickinson, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> d’autres, <choice><orig>achevent</orig><reg>achèvent</reg></choice> de confirmer cette prétention, en insistant sur
-                              l’analogie qu’il y a entre l’esprit de Dieu que <choice><orig>Moyse</orig><reg>Moïse</reg></choice> nous représente porté sur les eaux, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> l’amour que les
-                               <app><lem wit="enccre"><hi rend="uppercase">M</hi></lem><rdg wit="yverdon">m</rdg></app>ythologistes ont occupé à débrouiller le chaos<app><lem wit="enccre"> </lem><rdg wit="yverdon"/></app>: ils <choice><orig>ajoûtent</orig><reg>ajoutent</reg></choice> encore qu’un sentiment très-ancien, soit en <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg wit="yverdon">p</rdg></app>hilosophie,
-                                soit en <app><lem wit="enccre"><hi rend="uppercase">m</hi></lem><rdg wit="yverdon">m</rdg></app>ythologie, c’est qu’il y a un esprit dans les eaux, <seg>aqua per spiritum movetur<note type="traduction">l’eau est mue par l’esprit</note></seg><app><lem wit="enccre"> </lem><rdg wit="yverdon"/></app>; d’où ils concluent que les 
-                                anciens <app><lem wit="enccre"><hi rend="uppercase">p</hi></lem><rdg wit="yverdon">p</rdg></app>hilosophes ont tiré des ouvrages de <choice><orig>Moyse</orig><reg>Moïse</reg></choice> <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> ce sentiment, <app><lem wit="enccre">&amp;</lem><rdg wit="yverdon">et</rdg></app> la notion de chaos, qu’ils ont ensuite
-                                 altérée comme il leur a <choice><orig>plû</orig><reg>plu</reg></choice>.
-                                
-                            </p>
-                        </def>
-                       </sense>
-                    </entry>
-                    <app>
+    Mise en place de correspondances entre différents
+    passages à l'aide des attributs xml:id et corresp.
+    Précision des choix de segmentation et systématisation
+    de la normalisation orthographique.
+</change>
+
+	</revisionDesc>
+</teiHeader>
+<text>
+	<front>
+		<head>
+		Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers, par une société de gens de lettres.</head>
+	</front>
+	<body>
+		<div1 type="volume" n="3">
+			<div2 type="article" xml:id="article_Chaos">
+				<entry xml:id="Chaos">
+
+					<app><lem wit="#enccre"><byline>
+						<docAuthor><surname>Diderot</surname><name>Denis</name></docAuthor>
+					</byline>
+					<head><orth><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-230-0/">CHAOS</link></orth>,
+						<gramGrp>
+							<pos type="substantif">s.</pos>
+							<gen type="masculin">m.</gen>
+						</gramGrp>
+					<seg>(Philos.2 &amp; Myth.3)
+					<usg type="domain">Philosophie</usg>
+					<usg type="domain">Mythologie</usg></seg></head></lem>
+
+					
+								<rdg wit="#yverdon"><p><head>CHAOS, <note type="editorial" ana="#R">(R)</note>, 
+								<pos type="substantif">s.</pos>
+							<gen type="masculin">m.</gen>, 
+							<seg>Phil., Théol., Myth.,
+							<usg type="domain">Philosophie</usg>
+         					<usg type="domain">Théologie</usg>
+        					<usg type="domain">Mythologie</usg>
+							</seg>du grec cavoÖ, synonyme avec cavsma, hiatus, du verbe cavw, hiare, ouverture, <choice><orig>abysme</orig><reg>abîme</reg></choice>, amas confus de <choice><orig>matiere</orig><reg>matière</reg></choice>; c'est le terme dont les plus anciens auteurs se sont servis pour désigner l'état primitif de la <choice><orig>matiere</orig><reg>matière</reg></choice>, avant qu'elle eût reçu sa forme. Il a été employé par Hésiode, <seg>Théogon. II6<note type="source">
+      Théogonie d'Hésiode, livre II, section 6.
+   </note>
+</seg>, Sanchoniaton, Orphée, Menandre, Euripide, Aristophane, Diodore de Sicile, Plutarque, et par les auteurs latins, Ennius, Varron, Lucrece, Virgile, Ovide. C'est ce dernier qui en a déterminé le sens de la <choice><orig>maniere</orig><reg>manière</reg></choice> la plus claire.
+									<seg>Metam. I. <note type="source"> Métamorphoses d'Ovide, livre I.</note></seg></head>
+
+									<seg>
+										<quote xml:lang="lat">
+											<lg>
+												<l>Ante mare et terras, et quod tegit omnia cœlum,</l>
+												<l>Unus erat toto naturæ vultus in orbe</l>
+												<l>Quem dixere chaos, rudis indigestaque moles,</l>
+												<l>Nec quicquam nisi pondus iners congestaque eodem</l>
+												<l>Non bene junctarum discordia semina rerum.</l>
+											</lg>
+										</quote>
+										<note type="traduction">Avant la mer et la terre, et le ciel qui couvre tout, il n'y avait qu'un seul aspect de la nature dans l'univers, que l'on a appelé chaos, une masse informe et indigeste, et rien d'autre que le poids inerte et les graines discordantes des choses mal jointes.</note>
+										<note type="source">Ovide, Métamorphoses, livre I, vers 5-9.</note>
+									</seg>
+									 Voyez
+   <bibl>
+      <ref target="#article-Burnet">Burnet</ref>, archaiol. Philos.
+      <note type="source">
+         Thomas Burnet, <title>Archaeologia Philosophica</title>.
+      </note>
+   </bibl>,
+   <bibl>
+      <ref target="#article-Grotius">Grotius</ref>, de verit. rel. Christ.
+      <note type="source">
+         Hugo Grotius, <title>De veritate religionis Christianae</title>.
+      </note>
+   </bibl>.
+								</p></rdg>
+							</app>
+						
 
 
-
-                    </app>
-            
-                </div2>
-            </div1>
-        </body>
-    </text>
+					<sense n="1">
+						
+					<def>
+						<p n="1">
+							<app><lem wit="#enccre"><seg xml:id="reference_à_erebe">Le Chaos en Mythologie, est
+								<choice><orig>pere</orig><reg>père</reg></choice>
+								de l'<seg>Erebe<note type="gloss">L'Érèbe est, dans la mythologie grecque, la personnification des ténèbres infernales.
+							</note>
+						</seg>
+						&amp; de la Nuit<choice><orig>mere</orig><reg>mère</reg></choice>
+					des dieux.</seg></lem><rdg wit="#yverdon"/></app>
+					Les anciens philosophes ont entendu par
+					<app><lem wit="#enccre">ce mot, </lem>
+				<rdg wit="#yverdon">le chaos, une matiere premiere et éternelle, qui n'<choice><orig>étoit</orig><reg>était</reg></choice>
+				qu'</rdg></app>un
+				<choice><orig>mêlange</orig><reg>mélange</reg></choice>
+				confus de particules de toute
+				<choice><orig>espece</orig><reg>espèce</reg></choice>, sans forme ni régularité,
+				<app><lem wit="#enccre">auquel ils supposent le</lem><rdg wit="#yverdon">mais avec un</rdg></app>
+				mouvement essentiel<app><lem wit="#enccre">, lui attribuant en conséquence la formation de l'univers. Ce système est chez eux un corollaire d'un axiome excellent en lui-même, mais qu'ils généralisent un peu trop ; savoir, que rien ne se fait de rien ;
+					<seg>ex nihilo nihil fit
+					<note type="commentaire">
+						Locution latine signifiant 'rien ne naît de rien'. Elle résume un principe fondamental de plusieurs philosophies antiques, selon lequel rien ne peut être produit à partir du néant.
+					</note>
+				</seg>
+				: au lieu de
+				<choice><orig>restraindre</orig><reg>restreindre</reg></choice>
+				ce principe aux effets, ils l'étendent jusqu'à la cause efficiente, &amp; regardent la création comme une idée chimérique &amp; contradictoire.
+			<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v4-1016-0/"><hi rend="italic">Voyez</hi>
+			<ref target="#article-Création">Création</ref></link>.</lem>
+				<rdg wit="#yverdon">; un tout, en un mot, indigeste, dans lequel les principes de tous les êtres se
+					<choice><orig>trouvoient</orig><reg>trouvaient</reg></choice>
+					rassemblés et
+					<choice><orig>mêlangés</orig><reg>mélangés</reg></choice>
+					sans aucun ordre, et auquel il
+					<choice><orig>falloit</orig><reg>fallait</reg></choice>
+					rapporter la formation de cet univers. Hesiode
+					<choice><orig>ajoûte</orig><reg>ajoute</reg></choice>
+					que
+					<seg corresp="#reference_à_erebe">
+						ce chaos engendra l'Erebe de la nuit,
+						<choice><orig>mere</orig><reg>mère</reg></choice>
+						des dieux, pour marquer que cette
+						<choice><orig>matiere premiere étoit</orig><reg>matière première était</reg></choice>
+						originairement dans les
+					<choice><orig>ténébres</orig><reg>ténèbres</reg></choice></seg>. Ce systême
+					<choice><orig>étoit</orig><reg>était</reg></choice>
+					chez ces philosophes une conséquence de leur opinion erronée sur la création, qu'ils
+					<choice><orig>regardoient</orig><reg>regardaient</reg></choice>
+					comme une idée
+					<choice><orig>chymérique</orig><reg>chimérique</reg></choice>
+					et contradictoire.
+					<ref target="#article-Création">v. CRÉATION.</ref><seg type="signature" ana="#chavannes">(C C.)</seg>
+				</rdg>
+			</app>
+		</p>
+		<p n="2">Anciennement les
+			<app><lem wit="#enccre"><hi rend="uppercase">s</hi></lem><rdg wit="#yverdon">s</rdg></app>ophistes, les
+			<app><lem wit="#enccre"><hi rend="uppercase">s</hi></lem><rdg wit="#yverdon">s</rdg></app>ages du paganisme, les
+			<app><lem wit="#enccre"><hi rend="uppercase">n</hi></lem><rdg wit="#yverdon">n</rdg></app>aturalistes, les
+			<app><lem wit="#enccre"><hi rend="uppercase">t</hi></lem><rdg wit="#yverdon">t</rdg></app>héologiens,
+			<app><lem wit="#enccre">&amp; les
+			<choice><orig>Poëtes</orig><reg>Poètes</reg></choice></lem><rdg wit="#yverdon">et les
+			<choice><orig>poêtes</orig><reg>poètes</reg></choice></rdg></app>, ont embrassé la même opinion. Le chaos est pour eux le plus ancien des êtres ; l'<app><lem wit="#enccre"><choice><orig>Étre</orig><reg>Être</reg></choice></lem><rdg wit="#yverdon">être</rdg></app>
+			éternel, le premier des principes
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			le berceau de l'univers. Les Barbares, les Phéniciens, les Egyptiens, les Perses,
+			<app><lem wit="#enccre"><choice><orig>&amp;c.</orig><reg>etc.</reg></choice></lem><rdg wit="#yverdon">etc.,</rdg></app>
+			ont rapporté l'origine du monde à une masse informe
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			confuse de
+			<choice><orig>matieres</orig><reg>matières</reg></choice>
+			entassées pêle-mêle,
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			mûes en tout sens les unes sur les autres. Aristophane, Euripide,
+			<app><lem wit="#enccre"><choice><orig>&amp;c.</orig><reg>etc.</reg></choice></lem><rdg wit="#yverdon">etc.,</rdg></app>
+			les philosophes Ioniques
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			Platoniciens,
+			<app><lem wit="#enccre"><choice><orig>&amp;c.</orig><reg>etc.</reg></choice></lem><rdg wit="#yverdon">etc.,</rdg></app>
+			les Stoïciens même, partent du chaos,
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			regardent ses périodes
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			ses révolutions comme des passages successifs d'un chaos dans un autre, jusqu'à ce qu'enfin les
+			<app><lem wit="#enccre">lois</lem><rdg wit="#yverdon"><choice><orig>loix</orig><reg>lois</reg></choice></rdg></app>
+			du mouvement,
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			les différentes combinaisons, aient
+			<app><lem wit="#enccre">amené</lem><rdg wit="#yverdon"><choice><orig>améné</orig><reg>amené</reg></choice></rdg></app>
+			l'ordre des choses qui constituent cet univers.
+		</p>
+		<p n="3"><app><lem wit="#enccre">Chez les Latins, Ennius, Varron, Ovide, Lucrece, Stace, <choice><orig>&amp;c.</orig><reg>etc.</reg></choice> n'ont point eu d'autre sentiment.</lem><rdg wit="#yverdon">Selon Ovide, la nature, sans rien créer, ne fit que débrouiller le chaos, en séparant les
+			<choice><orig>élémens</orig><reg>éléments</reg></choice>, et donnant à chaque corps qui en fut composé, la place qui lui
+		<choice><orig>convenoit</orig><reg>convenait</reg></choice>. <seg type="signature" ana="#chavannes">(C. C.)</seg></rdg></app>
+			<app><lem wit="#enccre" /><rdg wit="#yverdon"><lb /></rdg></app>L'opinion de l'éternité
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			de la fécondité du chaos a commencé chez les Barbares, d'où elle a passé aux Grecs,
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			des Grecs aux Romains
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			aux autres nations,
+			<choice><orig>ensorte</orig><reg>en sorte</reg></choice>qu'il est incertain si elle a été plus ancienne que générale.
+		</p>
+		<p n="4">Le docteur Burnet assûre avec raison, que si l'on en excepte Aristote
+			<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+			les Pythagoriciens, personne n'a jamais
+			<choice><orig>soûtenu</orig><reg>soutenu</reg></choice>
+			que notre monde ait eu de toute éternité la même forme que nous lui voyons
+			<app> <lem wit="#enccre" /> <rdg wit="#yverdon"> </rdg> </app>
+		; mais que suivant l'opinion constante des sages de tous les
+		<choice><orig>tems</orig><reg>temps</reg></choice>, ce que nous appellons maintenant le globe terrestre, n'<choice><orig>étoit</orig><reg>était</reg></choice>
+		dans son origine qu'une masse informe, contenant les principes
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		les matériaux du monde tel que nous le voyons.
+		<app><lem wit="#enccre"><link target="https://enccre.academie-sciences.fr/encyclopedie/article/v10-1742-0/">Voyez
+		<ref target="#article-Monde">Monde</ref></link></lem>
+		<rdg wit="#yverdon"> <ref target="#article-Monde">v. MONDE</ref></rdg></app>. Le même auteur conjecture que les Théologiens
+		<choice><orig>payens</orig><reg>païens</reg></choice>
+		qui ont écrit de la
+		<app><lem wit="#enccre"><hi rend="uppercase">t</hi></lem><rdg wit="#yverdon">t</rdg></app>héogonie, ont imité dans leur
+		<app><lem wit="#enccre">système</lem><rdg wit="#yverdon"><choice><orig>systême</orig><reg>système</reg></choice></rdg></app>
+		celui des
+		<app><lem wit="#enccre"><hi rend="uppercase">p</hi></lem><rdg wit="#yverdon">p</rdg></app>hilosophes, en déduisant l'origine des dieux du principe universel d'où les
+		<app><lem wit="#enccre"><hi rend="uppercase">p</hi></lem><rdg wit="#yverdon">p</rdg></app>hilosophes
+		<choice><orig>déduisoient</orig><reg>déduisaient</reg></choice>
+		tous les êtres.
+	</p>
+	<p n="5">Quoiqu'on puisse assûrer que la
+		<choice><orig>premiere</orig><reg>première</reg></choice>
+		idée du chaos ait été très-générale
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		très-ancienne, il n'est cependant pas impossible de déterminer quel est le premier à qui il faut l'attribuer.
+		<choice><orig>Moyse</orig><reg>Moïse</reg></choice>, le plus ancien des écrivains, représente au commencement de son histoire le monde comme n'ayant été d'abord qu'une masse informe,
+		<app><lem wit="#enccre"><choice><orig>ou</orig><reg>où</reg></choice></lem><rdg wit="#yverdon">où</rdg></app>
+		les
+		<choice><orig>élémens</orig><reg>éléments</reg></choice>
+		<choice><orig>étoient</orig><reg>étaient</reg></choice>
+		sans ordre
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		confondus ;
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		c'est
+		<choice><orig>vraissemblablement</orig><reg>vraisemblablement</reg></choice>
+		de-là que les
+		<app><lem wit="#enccre"><hi rend="uppercase">p</hi></lem><rdg wit="#yverdon">p</rdg></app>hilosophes Grecs
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		Barbares ont emprunté la
+		<choice><orig>premiere</orig><reg>première</reg></choice>
+		notion de leur chaos
+		<app> <lem wit="#enccre"> </lem> <rdg wit="#yverdon" /></app>: en effet, selon
+		<choice><orig>Moyse</orig><reg>Moïse</reg></choice>, cette masse
+		<choice><orig>étoit</orig><reg>était</reg></choice>
+		couverte d'eau ;
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		plusieurs d'entre les
+		<app><lem wit="#enccre"><hi rend="uppercase">p</hi></lem><rdg wit="#yverdon">p</rdg></app>hilosophes anciens ont prétendu que le chaos n'<choice><orig>étoit</orig><reg>était</reg></choice>
+		qu'une masse d'eau : ce qu'il ne faut entendre ni de l'océan, ni d'une eau élémentaire
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		pure ; mais d'une
+		<choice><orig>espece</orig><reg>espèce</reg></choice>
+		de bourbier, dont la fermentation
+		<choice><orig>devoit</orig><reg>devait</reg></choice>
+		produire cet univers dans le
+		<choice><orig>tems</orig><reg>temps</reg></choice>.
+	</p>
+	<p n="6">
+		Cudworth, Grotius, Schmid, Dickinson,
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		d'autres,
+		<choice><orig>achevent</orig><reg>achèvent</reg></choice>
+		de confirmer cette prétention, en insistant sur l'analogie qu'il y a entre l'esprit de Dieu que
+		<choice><orig>Moyse</orig><reg>Moïse</reg></choice>
+		nous représente porté sur les eaux,
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		l'amour que les
+		<app><lem wit="#enccre"><hi rend="uppercase">M</hi></lem><rdg wit="#yverdon">m</rdg></app>ythologistes ont occupé à débrouiller le chaos
+		<app> <lem wit="#enccre"> </lem> <rdg wit="#yverdon" /></app>: ils
+		<choice><orig>ajoûtent</orig><reg>ajoutent</reg></choice>
+		encore qu'un sentiment très-ancien, soit en
+		<app><lem wit="#enccre"><hi rend="uppercase">p</hi></lem><rdg wit="#yverdon">p</rdg></app>hilosophie, soit en
+		<app><lem wit="#enccre"><hi rend="uppercase">m</hi></lem><rdg wit="#yverdon">m</rdg></app>ythologie, c'est qu'il y a un esprit dans les eaux,
+		<seg>aqua per spiritum movetur<note type="traduction">l'eau est mue par l'esprit</note></seg>
+		<app> <lem wit="#enccre"> </lem> <rdg wit="#yverdon" /></app>; d'où ils concluent que les anciens
+		<app><lem wit="#enccre"><hi rend="uppercase">p</hi></lem><rdg wit="#yverdon">p</rdg></app>hilosophes ont tiré des ouvrages de
+		<choice><orig>Moyse</orig><reg>Moïse</reg></choice>
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		ce sentiment,
+		<app><lem wit="#enccre">&amp;</lem><rdg wit="#yverdon">et</rdg></app>
+		la notion de chaos, qu'ils ont ensuite altérée comme il leur a
+		<choice><orig>plû</orig><reg>plu</reg></choice>.
+	</p>
+</def>
+</sense>
+</entry>
+</div2>
+</div1>
+</body>
+</text>
 </TEI>
