@@ -55,6 +55,14 @@
         
     </encodingDesc>
     
+<revisionDesc>
+     <change who="#FK" when="2026-10-17" status="created"> Encodage de la notice de l'Encyclopédie portant sur l'eau. </change>
+     <change who="#FK" when="2026-10-30" status="modified"> Ajout des variations dûes à l'encodage de la notice de l'Encyclopédie d'Yverdon </change>
+     <change who="#FK" when="2026-11-08" status="modified"> Modifications diverses et ajout de quelques notes. </change>
+     <change who="#FK" when="2026-11-10" status="modified"> Un revisionDesc a été rajouté pour permettre de suivre l'évolution du fichier. Supression des balises app redondantes concernant le premier paragraphe. </change>
+     <change who="#FK" when="2026-11-23" status="modified"> Vérification de l'ensemble du fichier et modifications diverses. </change>
+</revisionDesc>
+    
 </teiHeader>
 
 <text>
