@@ -11,26 +11,26 @@
 				</respStmt>
 			</titleStmt>
 		    <publicationStmt>
-				<publisher> Enccre (Edition Numérique Collaborative et Critique de l'Encyclopédie)</publisher>
+				<publisher>Enccre (Edition Numérique Collaborative et Critique de l'Encyclopédie)</publisher>
                 <date when="2024-11-29"> 29 Novembre 2024 </date>
                 <id type="Schwab"> vol. IX, n°3470 </id>
-                <id type="url"> https://enccre.academie-sciences.fr/encyclopedie/article/v9-2134-0/</id> 
+                <id type="url">https://enccre.academie-sciences.fr/encyclopedie/article/v9-2134-0/</id> 
 			</publicationStmt>
 		    <sourceDesc> 
             	<listBibl>
            		<!--Témoin principal Enccre-->
                 	<bibl xml:id="Enccre">     
-                 		<title> Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers </title>
-                 		<biblScope unit="volume" n="9">IX </biblScope>
-                       	<biblScope unit="page"> 772a </biblScope>
+                 		<title>Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
+                 		<biblScope unit="volume" n="9">IX</biblScope>
+                       	<biblScope unit="page">772a</biblScope>
                        	<date> 1765 </date>
-					   	<note type="edition"> Edition Numérique Collaborative et Critique de l'Encyclopédie (ENCCRE)</note> 	
+					   	<note type="edition">Edition Numérique Collaborative et Critique de l'Encyclopédie (ENCCRE)</note> 	
                		</bibl>
-				 <!--Témoin Secondaire ARTFL-->
+				 	<!--Témoin Secondaire ARTFL-->
 				 	<bible xml:id="Artfl">
-						<title> ARTFL Encyclopedie Project (PhiloLogic5)</title>
-						<publisher> University of Chicago </publisher>
-						<id type="url">https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/9/3584 </id>
+						<title>ARTFL Encyclopedie Project (PhiloLogic5)</title>
+						<publisher>University of Chicago</publisher>
+						<id type="url"> https://artflsrv04.uchicago.edu/philologic5/encyclopedie0226/navigate/9/3584 </id>
 					</bibl>
 				</listBibl>
 			</sourceDesc>
@@ -40,7 +40,9 @@
 		  <variantEncoding method="parallel-segmentation" location="internal"/>
             <projectDesc>Travail à réaliser pour un cours TD TEI</projectDesc>
             <samplingDecl>
-				<p> J'ai encodé le texte par phrase et pas par ligne</p> 
+				<p>
+					J'ai encodé le texte par phrase et pas par ligne
+				</p> 
 			</samplingDecl>
             <editorialDecl> 
                 <interpretation>Interpréter l'article LYCANTHROPIE,</interpretation> 
@@ -100,9 +102,20 @@
             <listchange>
                 <change when="2026-10-21"> Remplissage <gi>teiHeader</gi> et intégration de <gi>encodingDesc</gi>.</change>
                 <change when="2026-10-21"> Réalisation de l'encodage de l'article LYCANTHROPIE de l'Encyclopédie.</change>
-				<change when="2026-10-30"> Incorporer les 2 éditions de l'article et mise en place des attributs <gi>wit</gi>, <gi>lem</gi>, <gi>rdg</gi>et du<gi>foreign</gi>pour la langue.</change>
+				<change when="2026-10-30"> Incorporer les 2 éditions de l'article et mise en place des attributs 
+					<gi>wit</gi>, 
+					<gi>lem</gi>, 
+					<gi>rdg</gi>et du
+					<gi>foreign</gi>pour la langue.
+				</change>
 				<change when="2026-11-09"> intégration de 3 notes critiques diversifiée : Oribaze; terme ​spécifique​​ et abréviation "synops, lib. IX. c. x. "</change>
-				<change when="2026-11-23"> Modification du code suite à votre retour avec le remplacement du <gi>listWit</gi> et <att>wit</att> par <gi>listBibl</gi> et <att>source</att> dans <gi>sourceDesc</gi>.</change>
+				<change when="2026-11-23"> Modification du code suite à votre retour avec le remplacement du 
+					gi>listWit</gi> et 
+					<att>wit</att> par 
+					<gi>listBibl</gi> et 
+					<att>source</att> dans 
+					<gi>sourceDesc</gi>.
+				</change>
             </listchange>
         </revisionDesc>
     </teiHeader>   
@@ -127,7 +140,7 @@
                     <foreign xml:lang="grc">λυκανθρωπiα </foreign>, nom entierement grec formé de
                     <foreign xml:lang="grc">λύκος>/foreign>,
 						<gloss>loup</gloss>, &amp;
-                    <foreign xml:lang="grc">ἄνθρωπος </foreign>,
+                    <foreign xml:lang="grc">ἄνθρωπος</foreign>,
 						<gloss>homme</gloss>:
                     suivant son étymologie, il signifie un loup qui est homme.
                 </etym>
@@ -197,7 +210,8 @@
 						<choice>
 							<orig>mélancholiques</orig>
 							<reg>mélancoliques</reg>
-						</choice> de cette espece, c’est-à-dire des ​lycantropes
+						</choice> 
+						de cette espece, c’est-à-dire des ​lycantropes
 					​</p>
                   
 				 	 <p> 
