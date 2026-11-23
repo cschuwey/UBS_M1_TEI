@@ -1,5 +1,7 @@
+Bonsoir Monsieur, vous m'aviez parlé des balises <app> qui n'étaient pas bien placées mais vous écrit qu'on reverrait ça en classe. J'ai essayé de chercher une solution de mon côté, mais je ne trouve aucune idée pour le corriger. Bonne soirée.
+
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlnx="https://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
         <titleStmt>
@@ -11,13 +13,13 @@
             <authority>M.Champroux</authority>
         </publicationStmt>
         <sourceDesc>
-            <bibl xml:id="ENCCRE">
+            <bibl xml:id="#ENCCRE">
                 <editor>Non renseigné</editor>
                 <title>Encyclopédie</title>
                 <date>1765</date>
                 <editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v9-2385-0/"></link></editor>
             </bibl>
-            <bibl xml:id="Dictionnaire de l'Académie française">
+            <bibl xml:id="#Dictionnaire_de_l'Académie_française">
                 <author>Académie française</author>
                 <title>Dictionnaire de l'Académie française</title>
                 <edition>8e edition</edition>
@@ -27,7 +29,7 @@
     </fileDesc>
     <encodingDesc>
         <projectDesc>
-            <p>Encodage d'un article d'encyclopedie<p>
+            <p>Encodage d'un article d'encyclopedie</p>
             <p>Intégration d'une seconde notice lexicographique</p>
         </projectDesc>
         <editorialDesc>
@@ -36,14 +38,16 @@
             du même mot. Le choix de la structure lem/rdg permet donc de conserver la notice de 1765 comme texte de référence tout en rendant visibles les formulations 
             de la seconde source.</p>
             <p>La segmentation est effectuée par unités de sens : la définition générale, la classification des types de magie, puis le sens figuré. Le sens figuré de 
-            1932-1935 n’ayant pas d’équivalent dans la notice de 1765, est encodé dans un app ne contenant qu’un rdg, sans lem correspondant. Les exemples associés à chaque définition sont conservés dans la lecture de la source de 1935.</p>
+            1932-1935 n’ayant pas d’équivalent dans la notice de 1765, est encodé dans un app ne contenant qu’un rdg, sans lem correspondant. Les exemples associés à 
+            chaque définition sont conservés dans la lecture de la source de 1935.</p>
         </editorialDesc>
     </encodingDesc>
     <profileDesc>
         <langUsage>
             <language ident="fr">Français</language>
             <language ident="la">Latin</language>
-            <language ident="ag">Grec ancien</language>
+            <language ident="grc">Grec ancien</language>
+        </langUsage>
     </profileDesc>
     <revisionDesc>
         <change n="1" when="2026-10-19">Le TEI Header a été complété.</change>
@@ -56,20 +60,16 @@
     <body>
         <div>
             <entry xml:id="unclassified">
-               <form><orth>MAGIE</orth></form>
+               <form><orth>MAGIE</orth></form> 
                     <def>
                         <app type="definition">
-                            <lem source="ENCCRE">
-                    </def> 
-                    <def>
-                        <app type="definition">
-                            <lem wit="ENCCRE">science ou art occulte qui apprend à faire des choses qui paroissent au-dessus du pouvoir humain.</rdg>
-                            <rdg wit="Dictionnaire de l'Académie française">Art prétendu auquel on attribue le pouvoir d'opérer, par des moyens occultes, 
-                            des effets surprenants et merveilleux. <hi rend="italic">Opération de magie. Plusieurs inventeurs oont été accusés de magie.</hi></rdg>
+                            <lem wit="#ENCCRE">science ou art occulte qui apprend à faire des choses qui paroissent au-dessus du pouvoir humain.</lem>
+                            <rdg wit="#Dictionnaire de l'Académie française">Art prétendu auquel on attribue le pouvoir d'opérer, par des moyens occultes, 
+                            des effets surprenants et merveilleux.<hi rend="italic">Opération de magie. Plusieurs inventeurs ont été accusés de magie.</hi></rdg>
                         </app>
                     </def>
                    
-                    <def>La <hi rend="italic">magie<hi>, considérée comme la science des premiers mages, ne fut autre chose que l'étude de la sagesse
+                    <def>La <hi rend="italic">magie</hi>, considérée comme la science des premiers mages, ne fut autre chose que l'étude de la sagesse
                     : pour lors elle se prenoit en bonne part, mais il est rare que l'homme se renferme dans les bornes du vrai, 
                     il est trop simple pour lui. Il est presqu'impossible qu'un petit nombre de gens instruits, dans un siecle
                     &amp; dans un pays en proie à une crasse ignorance, ne succombent bien-tôt à la tentation de passer pour extraordinaires
@@ -81,17 +81,17 @@
                     &amp; de l'orgueil, cette science a dû être des plus anciennes ; il seroit difficile de déterminer le tems 
                     de son origine, ayant pour objet d'alleger les peines de l'humanité, elle a pris naissance avec nos miseres. 
                     Comme c'est une science ténébreuse, elle est sur son trône dans les pays où regnent la barbarie &amp; la grossiereté. 
-                    Les Lapons, &amp; en général les peuples sauvages cultivent la <hi rend="italic">magie<hi>, &amp; en font grand cas.</def>
+                    Les Lapons, &amp; en général les peuples sauvages cultivent la <hi rend="italic">magie</hi>, &amp; en font grand cas.</def>
                     
-                    <def>Pour faire un traité complet de <hi rend="italic">magie<hi>, à la considérer dans le sens le plus étendu, c'est-à-dire dans tout ce qu'elle 
-                    peut avoir de bon &amp; de mauvais, on devroit la distinguer en <app><lem wit="ENCCRE"><hi rend="italic">magie<hi> divine, <hi rend="italic">magie<hi> naturelle 
-                    &amp; <hi rend="italic">magie<hi> surnaturelle.</rdg><rdg wit="Dictionnaire de l'Académie française"><hi rend="italic">Magie naturelle</hi> ou <hi rend="italic">Magie blanche</hi>, Celle qui, 
+                    <def>Pour faire un traité complet de <hi rend="italic">magie</hi>, à la considérer dans le sens le plus étendu, c'est-à-dire dans tout ce qu'elle 
+                    peut avoir de bon &amp; de mauvais, on devroit la distinguer en <app><lem wit="ENCCRE"><hi rend="italic">magie</hi> divine, <hi rend="italic">magie</hi> naturelle 
+                    &amp; <hi rend="italic">magie</hi> surnaturelle.</rdg><rdg wit="Dictionnaire de l'Académie française"><hi rend="italic">Magie naturelle</hi> ou <hi rend="italic">Magie blanche</hi>, Celle qui, 
                     par des moyens naturels, mais inconnus au vulgaire, produit des effets surnaturels et merveilleux ; par opposition à <hi rend="italic">Magie noire</hi>, 
-                    Celle qui est censée opérer des effets vraiment surnatuels, avec le secours des êtres infernaux, et qui est la <hi rend="italic">Magie</hi>proprement 
+                    Celle qui est censée opérer des effets vraiment surnaturels, avec le secours des êtres infernaux, et qui est la <hi rend="italic">Magie</hi>proprement 
                     dite</rdg></app></def>
 
                     <sense>
-                        <def>La <hi rend="italic">magie<hi> divine n'est autre chose que cette connoissance particuliere des plans, des vûes de la souveraine sagesse, 
+                        <def>La <hi rend="italic">magie</hi> divine n'est autre chose que cette connoissance particuliere des plans, des vûes de la souveraine sagesse, 
                         que Dieu dans sa grace revele aux saints hommes animés de son esprit, ce pouvoir surnaturel qu'il leur accorde de prédire 
                         l'avenir, de faire des miracles, &amp; de lire, pour ainsi dire, dans le coeur de ceux à qui ils ont à faire. Il fut de 
                         tels dons, nous devons le croire ; si même la Philosophie ne s'en fait aucune idée juste, éclairée par la foi, elle les 
@@ -100,16 +100,16 @@
                     </sense>
 
                     <sense>
-                        <def>Par la <hi rend="italic">magie<hi> naturelle, on entend l'étude un peu approfondie de la nature, les admirables secrets 
+                        <def>Par la <hi rend="italic">magie</hi> naturelle, on entend l'étude un peu approfondie de la nature, les admirables secrets 
                         qu'on y découvre ; les avantages inestimables que cette étude a apportés à l'humanité dans presque tous les arts &amp; toutes 
                         les sciences ; Physique, Astronomie, Médecine, Agriculture, Navigation, Méchanique, je dirai même Éloquence ; car c'est à la 
                         connoissance de la nature &amp; de l'esprit humain en particulier &amp; des ressorts qui le remuent, que les grands maîtres 
                         sont redevables de l'impression qu'ils font sur leurs auditeurs, des passions qu'ils excitent chez eux, des larmes qu'ils 
                         leur arrachent, &c. &c. &c.</def>
                         
-                        <def>Cette <hi rend="italic">magie<hi> très-louable en elle-même, fut poussée assez loin dans l'antiquité: il paroît même par 
+                        <def>Cette <hi rend="italic">magie</hi> très-louable en elle-même, fut poussée assez loin dans l'antiquité: il paroît même par 
                         le feu grégeois, &amp; quelques autres découvertes dont les auteurs nous parlent, qu'à divers égards les anciens nous ont 
-                        surpassés dans cette espece de <hi rend="italic">magie<hi> ; mais les invasions des peuples du Nord lui firent éprouver les plus funestes révolutions, 
+                        surpassés dans cette espece de <hi rend="italic">magie</hi> ; mais les invasions des peuples du Nord lui firent éprouver les plus funestes révolutions, 
                         &amp; la replongerent dans cet affreux cahos dont les sciences &amp; les beaux arts avoient eu tant de peine à sortir dans notre Europe.</def>
                         
                         <def>Ainsi, bien des siecles après la sphere de verre d'Archimede, la colombe de bois volante d'Architras, les oiseaux d'or 
@@ -120,12 +120,12 @@
                         comme nous en avons tant vûs dans la suite, eut la douleur en Espagne de voir mettre à l'inquisition un animal qui faisoit 
                         toute sa ressource, &amp; eut assez de peine à se tirer lui-même d'affaire. On pourroit multiplier sans nombre les exemples 
                         de choses toutes naturelles, que l'ignorance a voulu criminaliser &amp; faire passer pour les actes d'une magie noire &amp; 
-                        diabolique : à quoi ne furent pas exposés ceux qui les premiers oserent parler d'antipodes &amp: d'un nouveau monde?</def>
+                        diabolique : à quoi ne furent pas exposés ceux qui les premiers oserent parler d'antipodes &amp; d'un nouveau monde?</def>
                         
                         <def>Mais nous reprenons insensiblement le dessus, &amp; l'on peut dire qu'aux yeux mêmes de la multitude, les bornes de 
                         cette prétendue magie naturelle se rétrécissent tous les jours ; parce qu'éclairés du flambeau de la Philosophie, nous 
                         faisons tous les jours d'heureuses découvertes dans les secrets de la nature, &amp; que de bons systèmes soutenus par 
-                        une multitude de belles expériences annoncent à l'humanité dequoi elle peut être capable par elle-même &amp; sans <hi rend="italic">magie<hi>. 
+                        une multitude de belles expériences annoncent à l'humanité de quoi elle peut être capable par elle-même &amp; sans <hi rend="italic">magie</hi>. 
                         Ainsi la boussole, les thélescopes, les microscopes, &c. &amp; de nos jours, les polypes, l'électricité; dans la Chimie, 
                         dans la Méchanique &amp; la Statique, les découvertes les plus belles &amp; les plus utiles, vont immortaliser notre siecle 
                         ; &amp; si l'Europe retomboit jamais dans la barbarie dont elle est enfin sortie, nous passerons chez de barbares successeurs 
@@ -133,19 +133,19 @@
                     </sense>
 
                     <sense>
-                        <def>La <language ident="la" rend="italic"> surnaturelle est la <hi rend="italic">magie<hi> proprement dite, cette <hi rend="italic">magie<hi> noire qui se prend toujours 
+                        <def>La <hi rend="italic">magie</hi> surnaturelle est la <hi rend="italic">magie</hi> proprement dite, cette <hi rend="italic">magie</hi> noire qui se prend toujours 
                         en mauvaise part, que produisent l'orgueil, l'ignorance &amp; le manque de Philosophie : c'est elle qu'Agrippa comprend sous 
-                        les noms de <language ident="la" rend="italic">coelestialis & ceremonialis</language> ; elle n'a de science que le nom, &amp; 
+                        les noms de <language ident="la" rend="italic">coelestialis &amp; ceremonialis</language> ; elle n'a de science que le nom, &amp; 
                         n'est autre chose que l'amas confus de principes obscurs, incertains &amp; non démontrés, de pratiques la plûpart arbitraires, 
                         puériles, &amp; dont l'inéfficace se prouve par la nature des choses.</def>
 
-                        <def>Agrippa aussi peu philosophe que magicien, entend par la <hi rend="italic">magie<hi> qu'il appelle <language ident="la" rend="italic">coelestialis</language>, 
+                        <def>Agrippa aussi peu philosophe que magicien, entend par la <hi rend="italic">magie</hi> qu'il appelle <language ident="la" rend="italic">coelestialis</language>, 
                         l'astrologie judiciaire qui attribue à des esprits une certaine domination sur les planetes, &amp; aux planetes sur les hommes, 
                         &amp; qui prétend que les diverses constellations influent sur les inclinations, le sort, la bonne ou mauvaise fortune des humains ; 
-                        amp;& sur ces foibles fondemens bâtit un système ridicule, mais qui n'ose paroître aujourd'hui que dans l'almanach de Liege 
+                        &amp; sur ces foibles fondemens bâtit un système ridicule, mais qui n'ose paroître aujourd'hui que dans l'almanach de Liege 
                         &amp; autres livres semblables ; tristes dépôts des matériaux qui servent à nourrir des préjugés &amp; des erreurs populaires.</def>
 
-                        <def>La <hi rend="italic">magie<hi> <language ident="la" rend="italic">ceremonialis</language>, suivant Agrippa, est bien sans contredit ce qu'il y a de 
+                        <def>La <hi rend="italic">magie</hi> <language ident="la" rend="italic">ceremonialis</language>, suivant Agrippa, est bien sans contredit ce qu'il y a de 
                         plus odieux dans ces vaines sciences : elle consiste dans l'invocation des démons, &amp; s'arroge ensuite d'un pacte exprès ou 
                         tacite fait avec les puissances infernales, le prétendu pouvoir de nuire à leurs ennemis, de produire des effets mauvais &amp; 
                         pernicieux, que ne sauroient éviter les malheureuses victimes de leur fureur.</def>
@@ -158,7 +158,7 @@
                         fondée sur la peur, l'ignorance ou l'attribution de pouvoirs surnaturels à certains phénomènes ou pratiques.</note>, &amp; même la 
                         <term type="religion">Théologie</term><note>Discipline qui étudie les questions relatives à la religion et aux croyances.</note> qui 
                         ne fait que trop souvent cause commune avec elle. Mais enfin dans les pays où l'on sait penser, réfléchir &amp; douter, le démon 
-                        fait un petit rôle, &amp; la <hi rend="italic">magie<hi> diabolique reste sans estime &amp; crédit.</def>                  
+                        fait un petit rôle, &amp; la <hi rend="italic">magie</hi> diabolique reste sans estime &amp; crédit.</def>                  
                     </sense>
                
                     <def>Mais ne tirons pas vanité de notre façon de penser ; nous y sommes venus un peu tard ; ouvrez les registres de la plus petite cour 
@@ -188,13 +188,13 @@
                     doute tenir compte à Gabriel Naudé, d'avoir pris généreusement la défense des grands hommes accusés de <hi rend="italic">magie</hi> ; mais je 
                     pense qu'ils ont plus d'obligations à ce goût de Philosophie qui a fait sentir toute la vanité de cette accusation, qu'au zele de leur avocat 
                     qui a peut-être marqué plus de courage dans son entreprise que d'habileté dans l'exécution &amp; de forces dans les raisonnemens qu'il emploie. 
-                    Si Naudé a pu justifier bien des grands hommes d'une imputation qui aux yeux du bons sens &amp; de la raison se détruit d'elle-même : malgré 
+                    Si Naudé a pu justifier bien des grands hommes d'une imputation qui aux yeux du bon sens &amp; de la raison se détruit d'elle-même : malgré 
                     tout son zele il eût sans doute échoué, s'il eût entrepris d'innocenter entierement à cet égard les sages de l'antiquité, puisque toute leur 
                     philosophie n'a pu les mettre à l'abri de cette grossiere superstition, que la <hi rend="italic">magie</hi> tient par la main. Je n'en citairai 
                     d'autre exemple que Caton. Il étoit dans l'idée qu'on peut guérir les maladies les plus sérieuses par des paroles enchantées: voici les paroles 
                     barbares, au moyen desquelles suivant lui on a une recette très-assurée pour remettre les membres démis :  <cit><language ident="la" rend="italic">Incipe 
                     cantare in alto S: F. motas danata dardaries astotaries, dic una parite usque dum coeant,&c.</language></cit> C'est l'édition d'<persName>Alde Manuce</persName>
-                    <note place="foot">De son nom Aldus Manutius (vers 1450-1515), c'est un imprimeur, éditeur, humaniste italien connupour ses textes antiques grecs et latins.</note> que 
+                    <note place="foot">De son nom Aldus Manutius (vers 1450-1515), c'est un imprimeur, éditeur, humaniste italien connu pour ses textes antiques grecs et latins.</note> que 
                     je lis ; car celle d'Henri Estienne, revûe &amp; corrigée par Victorius, a été fort changée sur un point où la grande obscurité du texte ouvre un 
                     vaste champ à la manie des critiques.</def>
 
