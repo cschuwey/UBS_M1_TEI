@@ -22,7 +22,7 @@
                 <author> Jaucourt </author>
                 <biblScope unit="volume"> V </biblScope>
                 <date when="1755"> 1755 </date>
-                <editor> ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-396-0/"/>
+                <editor> ENCCRE <link target="https://enccre.academie-sciences.fr/encyclopedie/article/v5-396-0/"/> </editor>
             </bibl>
             <bibl> 
                 <title> L'Encyclopédie d'Yverdon ou Dictionnaire raisonné des connoissances humaines </title>
@@ -43,7 +43,7 @@
         L'utilisation de "rdg" et de "lem" est privilégiée étant donné que l'Encyclopédie de Diderot, d'Alembert et de Jaucourt 
         est antérieure à l'Encyclopédie d'Yverdon. De ce fait, on considère que la première version est celle de référence.  </p>
 
-        <p> Certains "hi" doivent être remplacés par "emph", notamment pour le terme "eau" qui est le sujet des notices.
+        <p> Certains "hi" doivent être remplacés par "emph", notamment pour le terme "eau" qui est le sujet des notices. </p>
 
         <listWit>
             <witness xml:id="1"> L'Encyclopédie </witness>
@@ -132,7 +132,7 @@
         <ref target="https://enccre.academie-sciences.fr/encyclopedie/article/v3-1387-0/"> COHÉSION </ref>, <hi rend="italic"> &amp; <title> les mém.de l'ac. </title> de 1731 : </hi> c'est pour cela que des feuilles de métal appliquées sur la surface 
         de l'<hi rend="italic"> eau </hi>, ne descendent point, parce que la résistance des particules de l'<hi rend="italic"> eau </hi> à être divisées, est plus grande 
         que l'excès de pesanteur spécifique de ces feuilles sur celle d'un pareil volume d'<hi rend="italic"> eau </hi>. 
-        M.Musschenbroek, <hi rend="italic"> <title> article 607 de son essai de physique <title> </hi>, rapporte une expérience qui prouve qu'un morceau de bois d'un pouce quarré,
+        M.Musschenbroek, <hi rend="italic"> <title> article 607 de son essai de physique </title> </hi>, rapporte une expérience qui prouve qu'un morceau de bois d'un pouce quarré,
         est attiré par l'<hi rend="italic"> eau </hi> avec une force de 50 grains <note> Ancienne unité de mesure. 1 grain est plus ou moins égal à 0,0648 g. Ainsi, 50 grains correspondent à 3,24 g. </note> .
         </p>
         
