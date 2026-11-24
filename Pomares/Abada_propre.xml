@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Encyclopédie, tome I, Abada</title>
+                <respStmt>
+                    <resp>Encodage XML-TEI par</resp>
+                    <name>POMARES Luna</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>Encodage réalisé dans le cadre du TD4 puis TD5 et TD6.</p>
+            </publicationStmt>
+
+            <sourceDesc>
+   <p xml:id="edition1751"> <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/ABADA">
+     Wikisource, extrait de l'Encyclopédie, tome I, 1re édition de Diderot et d'Alembert. Article ABADA
+    </ref> </p>
+    <p xml:id="edition1777"> <ref target="https://www.e-rara.ch/gep_r/content/pagetext/6571593"> Encyclopédie, nouvelle édition, à Genève, premier tome. Article "Abada" avec un ajout d'Adanson, 1777 </ref> </p>
+            </sourceDesc>
+        </fileDesc>
+<encodingDesc>
+<p>Mise au propre du TD6, avec les balises app et rdg. </p>
+</encodingDesc>
+<revisionDesc>
+<change when="2026-11-24"> Mise au propre
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text>
+        <body>
+            <div>
+                <entry>
+                    <form>
+                        <orth>ABADA</orth>
+                    </form>
+
+                    <gramGrp>
+                        <gram type="pos">s.</gram>
+                        <gram type="genre">m.</gram>
+                    </gramGrp>
+
+                    <p> c’est, dit-on, un animal qui se trouve sur la côte méridionale de Bengale, qui a deux cornes, l’une sur le front, l’autre sur la nuque du cou ;
+                        qui est de la grosseur d’un poulain de deux ans, &amp; qui a la queue
+                        d’un bœuf, mais un peu moins longue ; le crin &amp; la tête d’un cheval,
+                        mais le crin plus épais &amp; plus rude, &amp; la tête plus plate &amp; plus
+                        courte ; les pieds du cerf, fendus, mais plus gros. </p>
+
+                    <p> On <app> <rdg source="#edition1777">ajoute</rdg> <rdg source="#edition1751">ajoûte</rdg> </app> que de ces deux cornes, celle du front est longue
+                        de trois ou quatre piés, mince, de l’épaisseur de la jambe humaine vers la racine ; qu’elle est aiguë par la pointe, &amp; droite dans la jeunesse
+                        de l’animal, mais qu’elle se recourbe en-devant ; &amp; que celle de
+                        la nuque du cou est plus courte &amp; plus plate. </p>
+
+                    <p>Les Negres le tuent pour lui enlever ses cornes, qu’ils regardent
+                        comme un spécifique, non dans plusieurs maladies, ainsi qu’on lit
+                        dans quelques auteurs, mais en général contre les venins &amp; les
+                        poisons. </p>
+
+                    <p>Il y auroit de la témérité sur une pareille description à douter que
+                        l’abada ne soit un animal réel
+                        <app> <rdg source="#edition1751"> ; reste à savoir s’il en est fait mention dans quelque Naturaliste moderne,
+                        instruit &amp; fidele, ou si par hasard tout ceci ne seroit appuyé
+                        que sur le témoignage de quelque voyageur.</rdg>
+                        <rdg source="#edition1777">. On sait aujourd’hui que ce nom a été employé de tout temps dans le royaume de Bengale, à Patana,
+                        à Java, &amp;c. pour désigner le rhinocéros ; ainsi la description incertaine &amp; chancelante que Vallisnieri a faite sous ce nom,
+                        sans pouvoir en faire l’application, doit être rapportée entièrement à cet animal. Voyez RHINOCEROS,
+                        dans ce Dict. ; dans le Dict. des Animaux ; &amp; celui d’Hist. Nat. par M. Valmont de Bomare. (M. ADANSON.) </rdg> </app> </p>
+                    <p> Voyez Vallisneri, tom. III. p. 367. </p>
+                        </entry>
+        </div>
+        </body>
+    </text>
+
+</TEI>
