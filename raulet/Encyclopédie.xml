@@ -14,13 +14,17 @@
 </publicationStmt>
 <sourceDesc> 
 <listBibl>
+<app>    
 <bibl>
+<lem>
 <title>Encyclopedie</title>
 <date>18e</date>
 <note>Edition numéro X, Article "Doigt", volume X, page X</note>
 <author>Denis Diderot</author>
 <author>Jean le Rond d’Alembert</author>
 </bibl>
+</lem>
+    <rdg>
 <bibl>
 <title>Encyclopedie</title>
 <date>18e</date>
@@ -28,7 +32,9 @@
 <author>Denis Diderot</author>
 <author>Jean le Rond d’Alembert</author>
 </bibl>
+    </rdg>
 </listBibl>
+</app>
 </sourceDesc>
 </fileDesc>
 <encodingDesc>J'ai décidé de conserver le style et l'orthographe du texte en ajoutant des descriptions sur la nature du mot doigt.
