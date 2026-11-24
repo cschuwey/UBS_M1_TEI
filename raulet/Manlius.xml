@@ -1,99 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Manlius</title>
+                <title>Doigt</title>
+                <respStmt>
+                    <resp>Encodage TEI</resp>
+                    <name>Elodie Raulet</name>
+                </respStmt>
             </titleStmt>
-            <publicationStmt> </publicationStmt>
-            <sourceDesc> <author>Villedieu Marie-Catherine-Hortense</author>
+            <publicationStmt>
+                <p>Encodage de l'Encyclopedie pour les td 3,4 et 5 de TEI</p>
+            </publicationStmt>
+            <sourceDesc> 
+                <listBibl>
+                  <bibl>  
+                      <app>    
+                            <lem>
+                                <title>Encyclopedie</title>
+                                <date>18e</date>
+                                <note> Première édition, Article "Doigt", volume 5, page 13</note>
+                                <author>Denis Diderot</author>
+                                <author>Jean le Rond d’Alembert</author>
+                            </lem> 
+                      </app>
+                  </bibl>
+                            <bibl>
+                                <app>
+                                <rdg>
+                                <title>Encyclopedie</title>
+                                <date>1687</date>
+                                <note>Avant première 3, Article "Doigt", volume 3</note>
+                                <author>Denis Diderot</author>
+                                <author>Jean le Rond d’Alembert</author>
+                         </rdg>  
+                      </app>
+                            </bibl>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>J'ai décidé de conserver le style et l'orthographe du texte en ajoutant des descriptions sur la nature du mot doigt.
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2026-10-31">
+                Correction du XML et ajout de sources et des balises encodingDesc et revisionDesc
+            </change>
+        </revisionDesc>
     </teiHeader>
-    <text xml:lang="fr"> 
-        <front>
-                    <castList>
-                        <castItem xml:id="torquatus"><roleName>Torquatus</roleName>, <roleDesc>Consul Romain</roleDesc><role gender="M"/></castItem>
-                        <castItem xml:id="omphale"><roleName>Omphale</roleName>, <roleDesc>Princesse d'Epire, captive des Romains </roleDesc><role gender="F"/></castItem>
-                        <castItem xml:id="phenice"> <roleName>Phenice</roleName>, <roleDesc>Suivante d'Omphale</roleDesc><role gender="F"/></castItem><!--Est-ce qu'on pourrait ajouter quelque chose après Omphale pour renvoyer à elle ?-->
-<castItem xml:id="manlius"><roleName>Manlius</roleName>, <roleDesc>Fils du consul</roleDesc><role gender="M"/></castItem><!--Pareil ici, on pourrait renvoyer à Torquatus-->
-<castItem xml:id="camille"><roleName>Camille</roleName>, <roleDesc>Veuve de Decius</roleDesc><role gender="F"/></castItem>
-<castItem xml:id="junius"><roleName>Junius</roleName>, <roleDesc>Ami de Torquatus</roleDesc><role gender="M"/></castItem>
-<castItem xml:id="pison"><roleName>Pison</roleName>, <roleDesc>Litteur</roleDesc><role gender="M"/></castItem>
-                    </castList>
-                    <set>
-                        <p>La pièce est située blablabla</p>
-                    </set>
-                </front>
+    <text xml:lang="fr">
+        <!--Honnetement, je suis un peu perdue, je ne sais plus quels TDs j'ai fait et lesquels j'ai à faire, les cours en autonomie et à distance me perturbent-->
         <body>
-            <div>
-                <> Acte 
-                <head n="5">Scène V.</head>
-                <stage type="setting" rend="caps"><castList>Torquatus, Omphale, Phenice</castList></stage>
-                <sp who="#torquatus" toWhom="#omphale">
-                    <speaker>Torquatus</speaker>
-                        <l> Quel sujet dans ce lieu vous amène ?</l>
-                        <l>Est-ce pitié, Madame, est-ce amour, est-ce haine ?</l>
-                </sp>
-                    <sp who="#omphale" toWhom="#torquatus"><speaker>Omphale</speaker>
-                   <lg> <l>C'est l'estime, Seigneur, que conservent entre eux</l>
-                    <l>Les plus grands ennemis, quand ils sont généreux.</l>
-                    <l>De l'injuste destin, la fière Barbarie</l>
-                    <l>Me forçant malgré moi d'être votre ennemie,</l>
-                    <l>Votre vertu m'empêche au moins de vous haïr</l>
-                    <l>Jusqu'à vouloir vous perdre, ou jusqu'à vous trahir</l>
-                    <l>Apprenez donc, Seigneur, que tout le Camp murmure,</l>
-                    <l>Et que votre fils la funeste aventure</l>
-                    <l>Jette tant de fureur dans l'âme des soldats,</l>
-                    <l>Que votre gloire et vous, ne s'en sauveront pas</l>
-                   </lg> </sp>
-                    <sp who="#torquatus" toWhom="#omphale"><speaker>Torquatus</speaker>
-                   <lg> <l>Quoi, la Princesse Omphale est sensible à ma gloire ?</l></lg>
-                    </sp>
-                    <sp who="#omphale" toWhom="#torquatus"><speaker>Omphale</speaker>
-                    <lg><l>Je l'ai toujours été; si j'en crois ma mémoire,</l>
-                    <l>Et c'est par ce motif, que j'ai tant combattu,</l>
-                    <l>Un amour dont l'effet blesse votre vertu</l></lg>
-                    </sp>
-                    <sp who="#torquatus" toWhom="#omphale"><speaker>Torquatus</speaker>
-                    <lg><l>Peut-être cet orgueil a-t-il une autre cause,</l>
-                    <l>Car de tous vos secrets, nous savons quelque chose,</l>
-                    <l>Mon fils vous fait pitié, vous craignez son trépas</l></lg></sp>
-                <sp who="#omphale" toWhom="#torquatus"><speaker>Omphale</speaker>
-                <lg><l>Il est vrai, je le crains; je ne m'en défends pas;</l>
-                <l>Si je plains d'un héros la triste destinée,</l>
-                <l>Une pitié si noble, est d'une âme bien née;</l>
-                <l>Et quand ce motif se me force d'agir,</l>
-                <l>Ce n'est pas un secret dont je dois rougir:</l>
-                <l>Un si beau mouvement ne serait pas un crime.</l></lg></sp>
-                <sp who="#torquatus" toWhom="#omphale"><speaker>Torquatus</speaker>
-                <lg><l>Pourquoi donc le cacher, s'il est si légitime ?</l>
-                <l>Pourquoi l'envelopper d'une sainte terreur,</l>
-                <l>Et donner des avis d'une fausse rumeur ?</l>
-                <l>Que ne me dites-vous, je crains pour ce que j'aime ?</l>
-                <l>Accordez Manlius à mon amour extrême,</l> <!--Est-ce qu'on pourrait avoir quelque chose du type "ofWhom" pour montrer qui parle de qui à qui ?-->
-                <l>Faites-moi ce présent.</l></lg>
-                </sp>
-                <sp who="#omphale" toWhom="#torquatus"><speaker>Omphale</speaker>
-                <lg><l>Pour conserver les jours</l><!--alinea?-->
-                <l>Une telle pierre est un faible recours:</l>
-                <l>La mort de ce Héros n'est que trop assurée,</l>
-                <l>Mes malheurs, votre amour et le sort l'ont jurée,</l>
-                <l>Je vois bien que je fais un inutile effort.</l>
-                <l>Hélas! il perira.</l></lg></sp>
-                <sp who="#torquatus" toWhom="#omphale"><speaker>Torquatus</speaker>
-                <lg><l>Moderez ce transport.</l><!--alinea?-->
-                <l>Vous pourrez le sauver, si son trépas vous touche;</l>
-                <l>Son arrêt lui sera donné par votre bouche:</l>
-                <l>Tout mon Rival qu'il est, sa mort dépend de vous</l>
-                <l>Je vous laisse y penser. Camille vient à nous,</l>
-                <l>Un pareil entretien doit finir auprès d'elle.</l></lg></sp>
-                <stage type="departure">
-                <move who="#torquatus" type="leave"/>
-                </stage>
-           <head/>
-            </> Acte
-            </div>
+            <entry>
+                <form>
+                    <orth>Doigt</orth>
+                    <pron>dwa</pron>
+                </form>
+                <gramGrp>
+                    <pos>nom</pos>
+                    <gen>masculin</gen>
+                    <number>singulier</number>
+                </gramGrp>
+                <usg>Anat.</usg>
+                <lem>
+                    <sense>
+                        ​<p>Les doigts forment les dernieres parties de la main. Ils sont naturellement au nombre de cinq à chaque main, nommés le pouce, l’index, le long doigt ou le doigt du milieu,
+                            l’annulaire, l’auriculaire ou le petit doigt. Voyez Pouce, Index, &amp;c.
+                        </p>
+                        <p>Le pouce est le plus gros de tous les doigts, après lui c’est le troisieme ; le second &amp; le quatrieme sont moins longs &amp; presque égaux, 
+                            mais le quatrieme est un peu moins long que le second ; le cinquieme est le plus petit de tous. Leur rapport, leurs proportions, &amp; leurs beautés perfectionnées par l’art, 
+                            brillent dans les tableaux de Vandyck ; mais leur structure anatomique est représentée dans les planches d’Eustachi &amp; de Vesale : 
+                            c’est à ces planches que nous renvoyons le lecteur, car nous ne sommes ici qu’anatomistes.
+                        </p>
+                        <p>En cette qualité nous remarquons d’abord que les doigts représentent comme autant de pyramides osseuses, composées, longues, menues, convexes d’un côté, 
+                            legerement caves de l’autre, attachées par leur base au carpe &amp; au métacarpe, d’où elles​ vont ensuite en diminuant aboutir à une espece de petite tête.
+                        </p>
+                        <p>Les os des doigts sont au nombre de quinze, trois à chaque doigt ; ces os sont disposés en trois ordres, qui portent le nom de phalanges. Voyez Phalange.
+                        </p>
+                        <p>A l’extrémité de la derniere phalange de chaque doigt, il y a une petite tubérosité qui sert à appuyer l’ongle. Voyez Ongle.
+                        </p>
+                        <p>Les doigts ainsi composés de plusieurs pieces osseuses, sont rendus plus plians, &amp; plus propres à faire différens mouvemens. 
+                            Ils sont convexes par-dehors, concaves en-dedans, &amp; un peu applatis pour loger plus commodément les tendons des muscles fléchisseurs. 
+                            Tout le long des côtes de leurs os, il y a une crête à laquelle est attachée une gaîne cartilagineuse qui enveloppe les tendons fléchisseurs. 
+                            La peau qui couvre les doigts se trouve comme collée aux endroits de la gaîne qui répondent aux articulations de la seconde phalange avec la premiere &amp; avec la troisieme. 
+                            Ces os étant joints par ginglyme, c’est-à-dire par de petites têtes &amp; de petites cavités qui se reçoivent réciproquement, ils ont le mouvement de flexion &amp; d’extension,
+                            &amp; ils sont affermis les uns avec les autres par des ligamens. Leur articulation avec le métacarpe se fait par artrodie ; 
+                            &amp; cette maniere d’articulation les rend capables de se mouvoir en tout sens. Les ligamens de toutes ces articulations étant lâches &amp; capsulaires, 
+                            facilitent tous leurs mouvemens. Les muscles qui y sont destinés, &amp; qui les exécutent, ont été partagés en communs &amp; en propres.
+                        </p>
+                        <p>Les muscles communs sont ceux qui meuvent les quatre derniers doigts ; &amp; on a donné le nom de muscles propres à ceux qui font les mouvemens particuliers de certains doigts. 
+                            Les uns &amp; les autres portent aussi le nom de fléchisseurs ou d’extenseurs, d’abducteurs ou d’adducteurs, selon leurs différentes fonctions. 
+                            Les muscles communs ont reçu les noms de sublime, profond, d’extenseurs communs, de lombricaux, &amp; d’interosseux. V. Sublime, Profond, &amp;c.
+                        </p>
+                        <p>Les muscles propres des doigts appartiennent au pouce, au doigt index, &amp; au doigt auriculaire. Voyez Pouce, Index, &amp;c.
+                        </p>
+                        <p>Voilà comme M. Winslow divise les muscles qui servent aux mouvemens des doigts ; M. Lieutaud les distingue en muscles extenseurs, muscles fléchisseurs, 
+                            &amp; muscles latéraux ; &amp; cette derniere méthode nous paroît plus simple &amp; plus conforme à la structure de la main. Passons aux vaisseaux &amp; aux nerfs des doigts.
+                        </p>
+                        <p>L’artere cubitale jette plusieurs rameaux le long des parties latérales des doigts, &amp; principalement des quatre derniers. 
+                            L’artere radiale fournit des rameaux au pouce ; &amp; se continuant derriere les tendons fléchisseurs des doigts, vient s’anastamoser avec un rameau de la cubitale. 
+                            La veine céphalique forme des aréoles qui vont au pouce, aux muscles latéraux &amp; interosseux des doigts, &amp; communique avec un petit rejetton de la veine basilique, 
+                            laquelle à l’égard des doigts suit à peu-près la route de l’artere de ce nom. Le nerf cubital, le nerf radial, &amp; le nerf médian, 
+                            donnent des rameaux à tous les doigts de la main. Mais quels sont les usages des doigts ? ils sont infinis.
+                        </p>
+                        <p>Outre l’utilité perpétuelle que nous en retirons dans presque toutes les choses de la vie, outre leur secours essentiel pour faire l’appréhension, 
+                            ils sont le principal organe du toucher, non pas uniquement parce qu’ils ont à leur extrémité une plus grande quantité de houppes nerveuses, 
+                            mais encore parce que ce sont des parties toutes mobiles, toutes flexibles, toutes agissantes en même tems, &amp; obéissantes à la volonté, 
+                            suivant la remarque de l’auteur de l’histoire naturelle de l’homme. Comme le tou-​cher n’est, dit-il, qu’un contact de superficie des corps, 
+                            les doigts ont l’avantage d’embrasser à la fois avec un sentiment exquis une plus grande partie de la superficie des corps, &amp; de les toucher par tous leurs points. 
+                            Ils peuvent d’ailleurs s’étendre, se raccourcir, se plier, se séparer, se joindre, &amp; s’ajuster à toutes sortes de surfaces, 
+                            autre avantage pour rendre cette partie l’organe de ce sentiment exact &amp; précis, qui est nécessaire pour nous donner l’idée de la forme des corps.
+                        </p>
+                        <p>Si les mains des hommes avoient un plus grand nombre de doigts, ajoûte le même auteur ; si ces doigts avoient un plus grand nombre d’articulations &amp; de mouvemens, 
+                            il n’est pas douteux que le sentiment du toucher ne fût plus parfait, parce que la main pourroit alors s’appliquer plus immédiatement sur les différentes surfaces des corps ; 
+                            il n’est pas douteux aussi que le sentiment du toucher ne fût infiniment plus délicat par la plus grande quantité de houppes nerveuses, qui seroient affectées en même tems.
+                        </p>
+                        <p>Supposons au contraire la main sans doigts, le sentiment du toucher seroit beaucoup plus grossier, 
+                            &amp; nous n’aurions que des notions très-imparfaites de la forme des corps les plus palpables ; il nous faudroit beaucoup plus d’expériences &amp; de tems pour acquérir ces notions. 
+                            Reconnoissons donc la bonté &amp; la sagesse de la Providence dans ce qu’elle donne &amp; dans ce qu’elle refuse. Quel seroit l’usage d’un toucher plus délicat que le nôtre, 
+                            si rendus extrêmement sensibles au moyen d’une telle organisation, les douleurs &amp; les agonies s’introduisoient par chaque doigt. 
+                            Combien détesterions-nous un présent si funeste !
+                        </p>
+                        <p>On n’ignore guere que la nature exerce ici ses jeux. Il n’est pas rare de voir venir des enfans au monde avec plus de cinq doigts, soit aux mains, soit aux piés. 
+                            J’en tire le premier exemple de l’Ecriture-sainte. Voici le passage même : « Dans la quatrieme bataille qui se donna en Geph, 
+                            il s’y trouva un homme fort grand qui avoit six doigts à chaque main &amp; à chaque pié, c’est-à-dire vingt-quatre en tout : il étoit de la lignée d’Etrapha, blasphéma Israel, 
+                            &amp; fut tué par Jonathas fils de Samaa frere de David ». II. liv. des rois, ch. xxj. vers. 20 &amp; 21.
+                        </p>
+                        <p>Pline le naturaliste parle d’une famille où étoient deux sœurs qui avoient six doigts aux mains, &amp; qui pour cette raison furent appellées sexdigites, liv. xj. chap. 43.
+                        </p>
+                        <p>Anne de Boulen si fameuse dans l’histoire d’Henri VIII. si séduisante par ses manieres, si pleine de charmes, 
+                            qu’il sembloit que tous les agrémens du monde se fussent réunis en sa personne, avoit six doigts à la main droite, une dent mal rangée à la machoire supérieure, 
+                            &amp; sur l’os de la gorge une petite élévation qu’elle cachoit avec beaucoup d’art. Larrey, hist. d’Angl.
+                        </p>
+                        <p>En 1687, M. Saviard a vû à l’Hôtel-Dieu un enfant nouveau-né qui avoit dix doigts à chaque main, &amp; autant aux piés, dont les phalanges paroissoient toutes rompues &amp; blessées.
+                            Saviard, observ. chirurg.
+                        </p>
+                        <p>Voici un cas plus étrange encore. Ruysch, dans le catalogue des choses rares, à la fin de son traité intitulé, observationes anatomicæ &amp; chirurgicæ, 
+                            a donné la description d’un squelete qui avoit un grand nombre de doigts surnuméraires, &amp; qu’il appelle pour cela sceleton polydactilon ; la main droite avoit sept doigts, 
+                            la main gauche six ; &amp; outre cela le pouce étoit double ; le pié droit avoit huit doigts, le pié gauche neuf ; le métatarse droit six os, &amp; le métatarse gauche sept. 
+                            La figure &amp; la description du même squelete se trouvent dans le traité de Kerkringius intitulé, spicilegium anatomicum ; 
+                            &amp; M. Ruysch en parle encore dans ses derniers ouvrages intitulés aversaria, decad, 1. n. 8.​
+                        </p>
+                        <p>Mais je ne dois pas taire qu’en parcourant les fastes anatomiques, j’ai trouvé deux exemples de doigts surnuméraires sans difformité ni incommodité. 
+                            Ces deux exemples curieux termineront mon article.
+                        </p>
+                        <p>En 1743, MM. de l’académie des Sciences virent dans une de leurs assemblées un petit garçon âgé de seize mois, qui avoit six doigts à chaque main &amp; à chaque pié ; 
+                            le sixieme doigt de la main droite étoit à côté du petit doigt, &amp; articulé avec le même os du métacarpe, qui vers son extrémité étoit plus large qu’à l’ordinaire, 
+                            &amp; s’y terminoit par deux petites éminences, dont l’une soûtenoit le petit doigt ordinaire, &amp; l’autre le doigt surnuméraire. 
+                            A la main gauche le doigt surnuméraire étoit aussi à côté du petit doigt ordinaire, mais articulé sur un os particulier ou surnuméraire du métacarpe ; 
+                            le sixieme doigt de chaque pié étoit comme aux mains à côté du petit doigt, &amp; ils avoient chacun leur os propre de métatarse ; de sorte qu’au lieu de cinq os à l’ordinaire, 
+                            chaque métatarse en avoit six. Cette augmentation de doigts faisoit seulement paroître un peu plus de largeur aux mains &amp; aux piés de l’enfant, mais sans difformité,
+                            &amp; même il remuoit tous les doigts surnuméraires avec la même facilité que les autres. Hist. de l’acad. année 1743.
+                        </p>
+                        <p>Thomas Bartholin dans les actes de Copenhague, rapporte un exemple tout semblable à celui-ci, d’un negre qui n’étoit point incommodé de cette multiplication de doigts, 
+                            &amp; qui paroissoit au contraire, dit Bartholin, l’avoir reçu de la nature pour un plus grand avantage. Acta Hafniensia, vol. II. n. 32.
+                        </p>
+                        <p>Cependant il ne faut pas abuser des deux cas singuliers que nous venons de citer, pour laisser les doigts surnuméraires aux enfans qui viennent au monde, 
+                            car il est certain qu’ils causent presque toûjours une difformité &amp; une incommodité qui demande leur extirpation ; l’Anatomie souffre cette extirpation, 
+                            &amp; la Chirurgie l’exécute avec succès. Voyez l’article suiv. Article de M. le Chev. de Jaucourt​
+                        </p>
+                    </sense>
+                </lem>
+                <rdg>
+                    <sense>
+                        <p>Partie de la main, ou du pied de l'homme. Doigts longs, courts, menus etc. les cinq doigts de la main. les doigts du pied. le gros doigt. le petit doigt. le doigt du milieu. les ongles des doigts. les jointures des doigts. remuer les doigts. faire craquer les doigts. il a une bague au doigt. compter par ses doigts. compter sur ses doigts. je voudrois qu'il m'en eust cousté un doigt de la main. il ne s'en faloit qu'un travers de doigt que le coup ne fust au cœur. ce mets est excellent, on s'en lesche les doigts.
+                            Il se dit de quelques animaux. La main, les doigts du singe.
+                        </p>
+                        <p>DOIGT se prend aussi pour marquer une petite mesure; qui contient à peu prés l'espaisseur d'un pouce. Il ne s'en faut que deux doigts qu'il n'y en ait une aulne. l'espée luy entra deux doigts dans le corps. la riviere est crüe, est plus haute qu'elle n'estoit hier de quatre doigts. En ce sens on dit, Un doit de vin, un petit doigt de vin. donnez-moy du vin, mais je n'en veux qu'un petit doigt. donnez m'en encore un doigt
+                        </p>
+                        <p>On dit prov. et fig. Toucher au doigt. faire toucher au doigt, pour dire, Voir evidemment, faire voir evidemment. On dit aussi prov. et fig. d'Un homme dont on se moque publiquement, qu'On le montre au doigt. On dit prov. et fig. Toucher à quelque chose du bout du doigt, pour dire, En estre bien proche. On dit dans le mesme sens, Estre à deux doigts de sa ruine, pour dire, Estre proche de sa ruine. On dit prov. et fig. Donner sur les doigts, pour dire, Chastier, faire souffrir quelque peine, quelque dommage,quelque confusion. On dit au mesme sens, Il a eu sur les doigts. On dit prov. et fig. S'en mordre les doigts, pour dire, S'en repentir. On dit prov. et fig. Avoir de l'esprit au bout des doigts, pour dire, Estre ingenieux aux ouvrages de la main; Et, cet homme a de l'esprit jusques au bout des doigts, pour dire, qu'Il fait paroistre de l'esprit jusques dans les plus petites choses.
+                        </p>
+                        <p>On dit prov. et fig. à une personne qui a descouvert, deviné, rencontré quelque chose dont on estoit en doute, qu'on ne sçavoit pas etc. Vous avez mis le doigt dessus.
+                        </p>
+                        <p>On dit, Le doigt de Dieu est icy, en termes de l'Escriture sainte, quand il arrive quelque evenement extraordinaire et singulier, par la permission particuliere de Dieu.
+                        </p>
+                        <p>On dit pr. et fig. de deux personnes extremement unies d'amitié, Ils sont comme les deux doigts de la main.
+                        </p>
+                        <p>On dit prov. et fig. Il ne faut pas mettre le doigt entre le bois et l'ecorce, pour dire, qu'Il ne faut pas trop s'ingerer dans les demeslez entre proches, comme mary et femme, frere et sœur.
+                        </p>
+                        <p>On dit prov. d'Un homme qui ne travaille point, qu'Il ne fait œuvre de ses dix doigts.
+                        </p>
+                        <p>On dit prov. et fig. d'Un homme qui sçait fort bien quelque chose par memoire, qu'Il le sçait sur le bout du doigt
+                        </p>
+                        <p>On dit fig. Estre servi au doigt et à l'œil, pour dire, Estre servy ponctuellement, avec grande exactitude.
+                        </p>
+                        <p>On dit prov. et fig. pour affirmer une chose dont on est tres-certain, J'en mettrois le doigt au feu, Et au contraire, Je n'en mettrois pas le doigt au feu.
+                        </p>
+                    </sense>
+                </rdg>
+            </entry>
         </body>
     </text>
 </TEI>
