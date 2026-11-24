@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Animaux</title>
+        <author>Daubenton, Louis Jean-Marie</author>
+      </titleStmt>
+      <publicationStmt>
+      <p>Encodage numérique</p>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl xml:id="src_lexilogos">
+            <title>Encyclopédie</title>
+            <editor>Denis Diderot et d'Alembert</editor>
+            <pubPlace>Paris</pubPlace>
+         </bibl>
+        </listBibl>
+      </sourceDesc>
+       
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+<body>
+<div type="animaux" xml:id="Encyclopédie ARTFL">
+
+     <p>
+         Les Animaux, dit M. d'Aubenton, tiennent la premiere place dans la division générale de l'Histoire
+         naturelle.<note> D'Aubenton (1716-1800), naturaliste français, collaborateur de Buffon .</note> On a distribué tous les objets que cette science comprend en trois classes que l'on appelle
+         <hi rend ="italic">regnes</hi>: le premier est le regne animal ; nous avons mis les animaux dans ce rang, parce qu'ils ont plus
+         de rapport avec nous que les végétaux, qui sont renfermés dans le second regne ; &amp;  les minéraux en
+         ayant encore moins, sont dans le troisieme. Dans plusieurs ouvrages d'Histoire naturelle, on trouve
+         cependant le regne minéral le premier, &amp;.  le regne animal le dernier. Les Auteurs ont crû devoir
+         commencer par les objets les plus simples, qui sont les minéraux, &amp; s'élever ensuite comme par degrés
+         en parcourant le regne végétal, pour arriver aux objets les plus composés, qui sont les animaux.
+     </p>
+
+     <p>
+         Les Anciens ont divisé les animaux en deux classes ; la premiere comprend ceux qui ont du sang,&amp; la
+         seconde ceux qui n'ont point de sang. Cette méthode étoit connue du <choice>
+          <orig>tems</orig>
+          <reg>temps</reg>
+        </choice> d'Aristote <note> Aristote (384-322 av. J.-C.) est un philosophe grec de l'Antiquité</note>, &amp; peut-être 
+          <choice>
+          <orig>long-tems</orig>
+          <reg>longtemps</reg>
+          </choice>avant ce grand Philosophe ; &amp; elle a été adoptée presque généralement jusqu'à présent. On a
+         objecté contre cette division, que tous les animaux ont du sang, puisqu ils ont tous une liqueur qui
+         entretient la vie, en circulant dans tout le corps ; que l'essence du sang ne consiste pas dans sa couleur
+         rouge,. ces objections ne prouvent rien contre la méthode dont il s'agit. Que tous les animaux ayent
+         du sang, ou qu'il n'y en ait qu'une partie ; que le nom de sang convienne, ou non, à la liqueur qui
+         circule dans le corps de ceux-ci, il suffit que cette liqueur ne soit pas rouge, pour qu'elle soit différente
+         du sang des autres animaux, au moins par la couleur ; cette différence est donc un moyen de les
+         distinguer les uns des autres, &amp;: fait un caractere pour chacune de ces classes : mais il y a une autre
+         objection à laquelle on ne peut répondre. Parmi les animaux que l'on dit n'avoir point de sang, ou au
+         moins n'avoir point de sang rouge, il s'en trouve qui ont du sang, &amp; du sang bien rouge ; ce sont les vers
+         de terre. Voilà. un fait qui met la méthode en défaut: cependant elle peut encore être meilleure que
+         bien d'autres.
+     </p>
+
+     <p>
+         La premiere classe, qui est celle des animaux qui ont du sang, est soûdivisée en deux autres, dont l'une
+         comprend les animaux qui ont un poumon pour organe de la respiration, &amp; l'autre, ceux qui n'ont que
+         des  <choice>
+          <orig>oüies</orig>
+          <reg>ouïes</reg>
+        </choice>.<note>Les ouïes, organes respiratoires des animaux aquatiques(branchies).</note>.
+     </p>
+
+     <p>
+         Le coeur des animaux qui ont un poumon a deux  ventricules, ou n'a qu'un seul ventricule ; ceux dont
+         le coeur a deux ventricules sont vivipares  ,<hi rend="italic">voyez</hi> 
+         <choice>
+          <orig>Voyez</orig>
+          <reg>V.</reg>
+        </choice> Vivipare <note>donnent naissance à des petits déjà formés après un développement dans le ventre de la mère.</note> ; <hi rend="italic">ou</hi>  Ovipares <note>pondent des œufs où se développent les petits</note>, <hi rend="italic">voyez</hi> 
+        <choice>
+          <orig>Voyez</orig>
+          <reg>V.</reg>
+        </choice> Ovipare. Les vivipares
+         sont terrestres ou aquatiques ; les premiers sont les quadrupedes vivipares. <hi rend="italic">voyez</hi>
+         <choice>
+          <orig>Voyez</orig>
+          <reg>V.</reg>
+        </choice> Quadrupede. Les
+         aquatiques sont les poissons cétacées. V. Poisson. Les ovipares dont le coeur a deux ventricules, sont
+         les oiseaux.
+     </p>
+
+     <p>
+         Les animaux dont le coeur n'a qu'un ventricule, sont les quadrupedes ovipares &amp; les serpens.<hi rend="italic">voyez</hi>
+         <choice>
+          <orig>Voyez</orig>
+          <reg>V.</reg>
+        </choice>
+         Quadrupede, Serpent.
+     </p>
+
+     <p>
+         Les animaux qui ont des oüies, sont tous les poissons, à l'exception des cétacées. <hi rend="italic">voyez</hi> Poisson.
+     </p>
+
+     <p>
+         On distingue les animaux qui n'ont point de sang en grands &amp; en petits.
+     </p>
+
+     <p>
+         Les grands sont divisés én trois sortes : 1°. les animaux mous qui ont une substance molle à l'extérieur,
+         &amp; une autre substance dure à l'intérieur, comme le polype, la seiche, le calemar <note> ancienne écriture de calmar </note>.<hi rend="italic">voyez</hi> Polype, Seiche,
+         Calemar. 2°. Les crustacées. V. Crustacée. 3°. Les testacéés. <hi rend="italic">voyez</hi> Testacées.
+     </p>
+
+    
+
+     <p>
+         On a fait d'autres distributions des animaux qui sont moins compliquées ; on les a divisés en
+         quadrupedes <note>partager en quatre parties égales</note>, oiseaux, poissons, &amp; insectes. Les serpens sont compris avec les quadrupedes, parce
+         qu'on a crû qu'ils n'étoient pas fort différens des lésards, quoiqu'ils n'eussent point de piés. Une des
+         principales objections que l'on ait faites contre cette méthode, est qu'on rapporte au même genre des
+         vivipares &amp; des ovipares.
+     </p>
+
+     <p>
+         On a aussi divisé les animaux en terrestres, aquatiques, &amp; amphibies <note>un animal pouvant vivre dans l'eau comme dans l'air</note> : mais on s'est récrié contre cette
+         distribution, parce qu'on met des animaux vivipares dans des classes différentes, &amp; qu'il se trouve des
+         vivipares &amp; des ovipares dans une même classe ; les insectes terrestres étant dans une classe, &amp; les
+         insectes d'eau dans une autre,.
+     </p>
+
+     <p>
+         On peut s'assûrer par un examen détaillé, qu'il y a quantité d'autres exceptions aux regles établies par
+         ces méthodes : mais après ce que nous avons dit ci-devant, on ne doit pas s'attendre à avoir une
+         méthode arbitraire qui soit parfaitement conforme à la nature ; ainsi il n'est question que de choisir
+         celles qui sont le moins défectueuses, parce qu'elles le sont toutes plus ou moins. <hi rend="italic">voyez</hi> Methode.
+      </p>
+
+      <p>
+          Les animaux prennent de l'accroissement, ont de la vie, &amp; sont 
+          <choice>
+          <orig>doüés</orig>
+          <reg>doués</reg>
+        </choice> de sentiment : par cette définition M. Linnaeus <note>Carl von Linné (1707‑1778), naturaliste suédois fondateur de la taxonomie moderne et de la nomenclature binomiale</note> les distingue des végétaux qui croissent &amp; vivent sans avoir de sentiment, &amp; des
+          minéraux qui croissent sans vie ni sentiment. Le même Auteur divise les animaux en six classes : la
+          premiere comprend les quadrupedes ; la seconde, les oiseaux ; la troisieme, les amphibies ; la
+          quatrieme, les poissons ; la cinquieme, les insectes ; &amp; la sixieme, les vers. <hi rend="italic"> Syst. nat.voyez</hi> Quadrupede
+          , Oiseau, Amphibie, Insecte, Ver. <hi rend="italic">(I)</hi>
+     </p>
+     </div>
+
+    <div type="animaux" xml:id="Encyclopédie d'Yverdon">
+     
+     <div type="section" n="1">
+     <head>Droit Naturel</head>
+     <p>
+     les Loix Romaines et celles de quelques autres peuples, 
+     <choice>
+          <orig>ordonnoient</orig>
+          <reg>ordonnaient</reg>
+          </choice> que <hi rend="italic">le fruit des
+     animaux suivît le ventre</hi> . Cette maxime cependant n'est de droit Naturel, que lorsqu'on ne
+     <choice>
+          <orig>connoît</orig>
+          <reg>connaît</reg>
+          </choice>  pas le Pere. Car puisque le mâle a 
+     soin de ses petits aussi bien que la femelle, il s'ensuit naturellement que le fruit qui naît de leur union, appartient également au 
+     pere et à la mere: de sorte que sans les loix civiles, il devroit suivre le Pere aussi bien que la mere. <quote xml:lang="la"> Sed quomodo patri matrique 
+     communes liberi sunt; quibuscum duo sunt, non singuli singulos habent, sed singuli binos. Seneque, de Beneficiis</quote>. Lib. VIII. Cap.
+     XII. (D. F.) 
+     </p>
+      </div>
+       <div type="section" n="2">
+      <head>Mythologie</head>
+      <p>
+      Il n'est pas douteux que les Egyptiens n'aient honoré les animaux d'un culte public, et
+      autorisé par les loix du pays: leurs Temples 
+      <choice>
+          <orig> étoient</orig>
+          <reg> étaient</reg>
+          </choice> remplis des figures de presque tous les animaux que 
+          <choice>
+          <orig> produisoit</orig>
+          <reg> produisait</reg>
+          </choice> l'Egypte; les 
+      animaux étoient logés et nourris avec un soin particulier: on les embaumoit après leur mort, et on les enterroit honorablement dans 
+      les catacombes qui leur étoient destinées; on apportoit même des pays étrangers des <hi rend="italic">animaux</hi> morts, pour leur procurer en Egypte une 
+      sépulture honorable: enfin on punissoit de mort quiconque avoit tué quelqu'un des animaux sacrés <note>En Egypte, chaquez divinité avait son animal sacré </note>. Mais ce culte étoit-il un culte de
+      latrie? non; mais seulement un culte relatif, les animaux n'étoient que des symboles, qui représentoient la divinité; et ce culte 
+      étoit fondé premiérement, sur celui qu'on rendit d'abord aux astres, auxquels on donna des noms d'animaux; secondement sur une 
+      tradition égyptienne, savoir, que les Dieux ayant été autrefois poursuivis par Typhon, s'étoient cachés sous les figures de différens 
+      animaux; en troisieme lieu sur le dogme de la métempsycose<note>La métempsycose :Réincarnation successive de l'âme dans plusieurs autres corps</note>, suivant lequel il se fait une circulation continuelle des ames dans
+      différens corps d'hommes ou d'animaux; et enfin sur l'utilité que recevoient les Egyptiens de certains animaux. Ainsi ils avoient de
+      la vénération pour l'ibis, parce qu'il détruisoit les serpens; l'ichneumon, parce qu'il empêchoit les crocodiles de trop multiplier, 
+      en cassant leurs œufs, et ainsi des autres.
+      </p>
+
+      <p>
+      Disons encore que chaque Dieu 
+      <choice>
+          <orig>avoit</orig>
+          <reg> avait</reg>
+          </choice> son animal favori, qui lui étoit consacré: ainsi le lion étoit consacré à Vulcain, le 
+      loup et l'épervier à Appollon, parce qu'ils ont la vue fine et perçante<note>Vulcain:le dieu romain du feu, de la forge, des volcans et des métaux, équivalent du dieu grec Héphaïstos et Appollon:  le dieu grec du Soleil, de la lumière, de la musique, de la prophétie et de la guérison, fils de Zeus et de Leto, surnommé « le grand » ou « le brillant » </note>; le corbeau, la corneille et le cygne au même, parce qu'ils
+      ont, disoit-on, un instinct naturel pour prédire l'avenir; le coq au même, parce qu'il annonce par son chant le lever du soleil; le 
+      chien aux Dieux lares; le taureau, à Neptune, à cause du mugissement des flots qu'on veut marquer par celui de cet animal; le Dragon, 
+      à Bacchus et à Minerve; les griffons, à Apollon; les serpens, à Esculape; le cerf à Hercule; l'agneau, à Junon; le cheval, à Mars; la 
+      génisse, à Isis; l'aigle, à Jupiter; le paon, à Junon; la chouette, à Minerve; le vautour, à Mars; la colombe et le moineau à Venus; 
+      les alcions, à Thétis; le phénix, au soleil; etc.
+      </p>
+
+      <div type="section" n="3">
+      <head>Histoire Sacrée</head>
+      <p>
+      Ce que l'Ecriture nous dit de leur création, de leurs différentes especes, de leur 
+      assujettissement à l'homme, de leur entrée dans l'Arche de Noë, de la permission de manger de leur chair, sera expliqué dans les 
+      articles CRÉATION, HISTOIRE NATURELLE, ETAT D'INNOCENCE, ARCHE, PATRIARCHES.
+      </p>
+    
+      <p>
+       Les Déistes et les curieux demandent comment Dieu put faire venir tous les animaux auprès d'Adam, Gen. II. I9. 20. J'ignore 
+       s'il l'a fait immédiatement par lui même, ou médiatement par le ministere des Anges; mais ce que je sais, c'est que cela ne lui étoit 
+       pas plus difficile que de les créer. A quoi bon, dit-on encore, ce cérémoniel inutile? Je réponds qu'il n'étoit point inutile à Adam 
+       de connoître des animaux destinés à le servir et d'apprendre à les distinguer. Cela pouvoit même servir à mieux l'instruire des 
+       obligations qu'il avoit à son Créateur, en lui découvrant sa supériorité sur une multitude de créatures, dont aucune ne se trouvoit 
+       digne de lui servir de compagne. Mais comment, ajoûte-t-on, Adam a-t-il pu dans ce tems là connoître assez le fond du naturel de 
+       chaque animal, pour donner à chacun son vrai nom? Je réponds, qu'il a suffi pour cela, qu'il connût quelqu'une de ses qualités 
+       sensibles, la plus propre à le faire distinguer des autres, comme, par exemple la taille, la couleur, le son de sa voix, etc. et 
+       qu'il pût trouver un nom propre à l'exprimer; ce qui n'étoit pas bien difficile à un homme, qui savoit parler une langue, peut-être
+       plus riche, et plus féconde en termes pareils, que toutes nos langues modernes. Il est bon d'observer encore que ce que Moïse dit des 
+       animaux, il ne l'entend ni des huîtres, ni du ciron, ni de la mite; mais de ceux qui pouvoient marcher ou voler, et dont Adam pouvoit 
+       retirer quelque avantage, pour ses besoins et ses plaisirs.
+       </p>
+      
+       <p>
+       On demande ce que Moïse a voulu dire, en distinguant les animaux purs et impurs, Gen. VII. 2. 3. Quelques interprêtes veulent
+       qu'écrivant ceci après la promulgation de la Loi, il n'ait emploié cette distinction que pour les Juifs et par égard à la Loi, qui
+       leur défendoit l'usage de certaines viandes. D'autres et avec plus de fondement, prétendent que cette distinction regardoit Noë, et
+       portoit sur celle des animaux, qu'il étoit permis ou défendu d'offrir à Dieu en sacrifice dans les tems qui ont précédé le déluge.
+       Noë, suivant eux, a pu apprendre à distinguer les animaux purs et impurs par la même voie, qui a appris aux hommes de ces premieres 
+       tems à offrir à Dieu des sacrifices, c'est-à-dire par ces instructions célestes dont les Patriarches étoient très-fréquemment 
+       honorés. v. SACRIFICES.
+       </p>
+
+       <p>
+       Autre question. Pourquoi Dieu a-t-il interdit aux Juifs l'usage de certaines viandes comme étant d'animaux impurs? Si cette 
+       question nous étoit adressée par des gens sages et modestes, il nous suffiroit de leur répondre qu'il n'appartient ni à eux, ni à 
+       nous de rendre raison de toutes les Loix positives, que Dieu a jugé à propos de prescrire aux Hébreux. Mais les curieux et ceux qui 
+       aiment à contester ne se contentent pas de pareilles raisons; chacune des Loix de Dieu doit être examinée à leur Tribunal, et aucune 
+       n'y doit paroître sans apologie.
+        </p>
+
+        <p>
+         Nous leur avouons que toutes les raisons de la Loi dont il s'agit, proposées par les divers interprêtes, ne sont pas 
+         également satisfaisantes. Maimonides n'a apperçu dans cette Loi que des raisons de santé, comme si la chair des animaux défendus 
+         étoit plus mal saine que celle des autres, ou que les Juifs n'eussent pas eu l'estomac assez bon pour la digérer. Josephe d'après les
+         Pharisiens s'est figuré que certais animaux avoient été interdits comme impurs, parce que l'usage de leur chair pouvoit nuire 
+         immédiatement à la pureté de l'ame; mais ce sentiment s'accorde aussi peu avec l'expérience que le précédent. Des Peres passionnés 
+         pour l'allégorie ont cru voir dans le détail de ces animaux purs et impurs, autant de symboles de vertus et de vices: le lievre, par 
+         exemple, suivant eux, ne signifioit que l'impudicité; le pourceau, que la gourmandise, etc. Mais il faut avouer que si tout le chap 
+         XI. du Levit. n'étoit qu'une allégorie, ce seroit une allégorie bien extraordinaire et bien difficile à digérer. Tertullien n'a 
+         apperçu dans l'interdiction de certains animaux, d'autre but que d'exercer les Israélites à la tempérance; mais on ne voit pas qu'il 
+         y eut bien de la tempérance à s'abstenir de la chair de cygne ou de jeune chameau. Justin Martyr paroît aussi peu fondé quand il dit,
+         que Dieu a voulu simplement par là tenir les Hébreux sous une discipline sévere. Marsham prétend qu'il n'a eu d'autre intention que 
+         de condescendre à certains préjugés populaires, que les Hébreux avoient contractés chez les Egyptiens, qui tenoient plusieurs animaux
+         pour immondes. Spencer semble avoir eu plus de raison de supposer le contraire, c'est-à-dire, que Dieu ne défendit aux Juifs certains
+         animaux, que par opposition aux usages superstitieux des Egyptiens, et d'autres nations qui regardoient ces mêmes animaux comme 
+         sacrés, ou leur rendoient un culte. Cependant avec ce sentiment on n'expliquera jamais pourquoi Dieu a mis le bœuf et le bélier dans 
+         la classe des animaux purs, puisque ces deux especes avoient le plus de part à la vénération des Egyptiens. D'ailleurs le principe 
+         que Moïse pose, pour établir la distinction des animaux purs et impurs, paroît absolument indépendant de tout usage religieux des 
+         autres nations.
+         </p>
+
+         <p>
+          C'est donc ici une Loi positive, arbitraire quant à l'object, mais non quant à l'intention; puisque Dieu ne prescrit rien 
+          sans raison et qui ne soit utile. Une Loi de cette nature a pu servir I°. à séparer entiérement les Hébreux des autres nations par un 
+          usage qui ne leur permît pas de se lier avec elles, Lev. XX. 24-26.: 2°. à leur rappeller l'obligation de se purifier à l'égard des 
+          choses même qui pouvoient leur paroître de la plus petite importance, Ex. XXII. 3I. Deut. XIV. 2. 3. 2I.: 3°. peut-être enfin à 
+          figurer la distinction des Juifs et des Gentils pour un tems, après lequel et la distinction et la Loi seroient également abolies,
+          Act. X. II-26. Consultez Grotius et le Clerc. Marsham Chron. p. 205. Bochart Hierosoic. Spencer de Leg. Hebr. rit. L. I. Bible de 
+          Chaiss. v. LOI CÉRÉMONIELLE, SACRIFICES. (C. C.)
+          </p>
+      </div>
+
+ </div>
+
+
+    </div>
+
+
+
+  </body>
+ </text>
+</TEI>
