@@ -47,34 +47,33 @@ type="application/xml"
                         <gram type="pos">s.</gram>
                         <gram type="genre">m.</gram>
                     </gramGrp>
-<sense>
-                    <p> c’est, dit-on, un animal qui se trouve sur la côte méridionale de Bengale, qui a deux cornes, l’une sur le front, l’autre sur la nuque du cou ;
-                        qui est de la grosseur d’un poulain de deux ans, &amp; qui a la queue
-                        d’un bœuf, mais un peu moins longue ; le crin &amp; la tête d’un cheval,
-                        mais le crin plus épais &amp; plus rude, &amp; la tête plus plate &amp; plus
-                        courte ; les pieds du cerf, fendus, mais plus gros. </p>
-
-                    <p> On <app> <rdg source="#edition1777">ajoute</rdg> <rdg source="#edition1751">ajoûte</rdg> </app> que de ces deux cornes, celle du front est longue
-                        de trois ou quatre piés, mince, de l’épaisseur de la jambe humaine vers la racine ; qu’elle est aiguë par la pointe, &amp; droite dans la jeunesse
-                        de l’animal, mais qu’elle se recourbe en-devant ; &amp; que celle de
-                        la nuque du cou est plus courte &amp; plus plate. </p>
-
-                    <p>Les Negres le tuent pour lui enlever ses cornes, qu’ils regardent
-                        comme un spécifique, non dans plusieurs maladies, ainsi qu’on lit
-                        dans quelques auteurs, mais en général contre les venins &amp; les
-                        poisons. </p>
-
-                    <p>Il y auroit de la témérité sur une pareille description à douter que
-                        l’abada ne soit un animal réel
-                        <app> <rdg source="#edition1751"> ; reste à savoir s’il en est fait mention dans quelque Naturaliste moderne,
-                        instruit &amp; fidele, ou si par hasard tout ceci ne seroit appuyé
-                        que sur le témoignage de quelque voyageur.</rdg>
-                        <rdg source="#edition1777">. On sait aujourd’hui que ce nom a été employé de tout temps dans le royaume de Bengale, à Patana,
-                        à Java, &amp;c. pour désigner le rhinocéros ; ainsi la description incertaine &amp; chancelante que Vallisnieri a faite sous ce nom,
-                        sans pouvoir en faire l’application, doit être rapportée entièrement à cet animal. Voyez RHINOCEROS,
-                        dans ce Dict. ; dans le Dict. des Animaux ; &amp; celui d’Hist. Nat. par M. Valmont de Bomare. (M. ADANSON.) </rdg> </app> </p>
-                    <p> Voyez Vallisneri, tom. III. p. 367. </p>
-</sense>
+ <seg xml:id="parag1" type="paragraph"> c’est, dit-on, un animal qui se trouve sur la côte méridionale de Bengale, qui a deux cornes, l’une sur le front, l’autre sur la nuque du cou ;
+                            qui est de la grosseur d’un poulain de deux ans, &amp; qui a la queue
+                            d’un bœuf, mais un peu moins longue ; le crin &amp; la tête d’un cheval,
+                            mais le crin plus épais &amp; plus rude, &amp; la tête plus plate &amp; plus
+                            courte ; les pieds du cerf, fendus, mais plus gros. </seg>
+                        
+                        <seg xml:id="parag2" type="paragraph"> On <app> <rdg source="#edition1777">ajoute</rdg> <rdg source="#edition1751">ajoûte</rdg> </app> que de ces deux cornes, celle du front est longue
+                            de trois ou quatre piés, mince, de l’épaisseur de la jambe humaine vers la racine ; qu’elle est aiguë par la pointe, &amp; droite dans la jeunesse
+                            de l’animal, mais qu’elle se recourbe en-devant ; &amp; que celle de
+                            la nuque du cou est plus courte &amp; plus plate. </seg>
+                        
+                        <seg xml:id="parag3" type="paragraph"> Les Negres le tuent pour lui enlever ses cornes, qu’ils regardent
+                            comme un spécifique, non dans plusieurs maladies, ainsi qu’on lit
+                            dans quelques auteurs, mais en général contre les venins &amp; les
+                            poisons. </seg>
+                        
+                        <seg xml:id="parag4" type="paragraph"> Il y auroit de la témérité sur une pareille description à douter que
+                            l’abada ne soit un animal réel
+                            <app> <rdg source="#edition1751"> ; reste à savoir s’il en est fait mention dans quelque Naturaliste moderne,
+                                instruit &amp; fidele, ou si par hasard tout ceci ne seroit appuyé
+                                que sur le témoignage de quelque voyageur.</rdg>
+                                <rdg source="#edition1777">. On sait aujourd’hui que ce nom a été employé de tout temps dans le royaume de Bengale, à Patana,
+                                    à Java, &amp;c. pour désigner le rhinocéros ; ainsi la description incertaine &amp; chancelante que Vallisnieri a faite sous ce nom,
+                                    sans pouvoir en faire l’application, doit être rapportée entièrement à cet animal. Voyez RHINOCEROS,
+                                    dans ce Dict. ; dans le Dict. des Animaux ; &amp; celui d’Hist. Nat. par M. Valmont de Bomare. (M. ADANSON.) </rdg> </app> </seg>
+                           Voyez Vallisneri, tom. III. p. 367. 
+                    </sense>
                         </entry>
         </div>
         </body>
