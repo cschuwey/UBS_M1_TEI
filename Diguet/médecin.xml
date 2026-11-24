@@ -19,77 +19,47 @@
             <!--J'ai fait mes recherches via le site Lexilogos, et j'ai pu trouver cette définition de l'académie française, je me suis donc renseignée sur les dates. -->
             </bibl>
             <listWit>
-             <wit xml:id="diderot">définition tirée de l'encyclopédie de Diderot et d'Alembert dans l'édition originale</wit> 
-             <wit xml:id="académie">définition tirée de la 9e édition du dictionnaire de l'académie française</wit>
+             <witness xml:id="diderot">définition tirée de l'encyclopédie de Diderot et d'Alembert dans l'édition originale</witness> 
+             <witness xml:id="académie">définition tirée de la 9e édition du dictionnaire de l'académie française</witness>
             </listWit>
             </sourceDesc>
         </fileDesc> 
-        <encodingDesc><p>Pour le nombre et le genre, j'ai choisi de respecter les abréviations originales(respectivement s. et m.)tout en précisant leur sense. Pour certains éléments en italique dans le texte, j'ai choisi d'utiliser la balise emph afin de respecter la volonté de l'auteur qui était de mettre en valeur ces mots.  </p></encodingDesc>
+        <encodingDesc><p>Pour le nombre et le genre, j'ai choisi de respecter les abréviations originales(respectivement s. et m.)tout en précisant leur sense. Pour certains éléments en italique dans le texte, j'ai choisi d'utiliser la balise emph afin de respecter la volonté de l'auteur qui était de mettre en valeur ces mots. Pour l'encodage j'ai choisi ici de plutôt prendre les deux définitions comme deux définitions différentes en faisant leur encodage séparemment.</p></encodingDesc>
         <revisionDesc>
          <list>
   <item>
-   <date when="13-10-2026">13 octobre 2026</date>rattrapge du cours de TEI et encodage du mot Automne
-   <date when="04-11-2026"> 4 novembre 2026</date> changement de définition, et choix du mot médecin au lieu du mot automne, car impossible de trouver une autre définition correcte de automne. Donc début de l'encodage du mot médecin sur deux encyclopédies différentes.
-   <date when="04-11-2026"> 6 novembre 2026</date>je continue à encoder les deux définitions différentes, mais à la fin je me perds dans les balises, je n'arrive pas à faire la différence entre chacunes d'elles.</item> 
-
+   <date when="2026-10-13">13 octobre 2026</date>rattrapge du cours de TEI et encodage du mot Automne
+   <date when="2026-11-04"> 4 novembre 2026</date> changement de définition, et choix du mot médecin au lieu du mot automne, car impossible de trouver une autre définition correcte de automne. Donc début de l'encodage du mot médecin sur deux encyclopédies différentes.
+   <date when="2026-11-04"> 6 novembre 2026</date>je continue à encoder les deux définitions différentes, mais à la fin je me perds dans les balises, je n'arrive pas à faire la différence entre chacunes d'elles.
+   <date when="2026-11-19"> 19 novembre 2026</date> je recommence l'encodage différemment en prenant les deux définitions comme deux définitions opposées
+   <date when="2026-11-21"> 21 novembre 2026</date> je reprends l'encodage en finissant la partie étymologique de la deuxième définition</item> 
         </list>
         </revisionDesc>
     </teiHeader>
-    <text>
-    <body>       
-    <entry>
-        <app>
-         <lem wit="diderot">
-            <orth rend="caps">Medecin</orth>
-            <gramGrp>
-            <number value="singular">s.</number>
-            <gen value="masculine">m.</gen>
-            <usg type="dom" rend="italic">(Med.)</usg></gramGrp></lem> 
-         <rdg wit="académie"></rdg> 
-        <!--J'ai préféré laisser les balises du deuxième witness même si elles sont vides pour mieux m'y retrouver dans le découpage + bien faire la différence entre les deux def--> 
-        </app>
-    </entry>
-    <def>
-        <app>
-            <lem wit="diderot">est celui qui professe &amp; qui exerce la Médecine après des études convenables de cette science ; c’est par-là qu’il est distingué d’un charlatan.
-            <xr><emph>Voyez</emph><ref rend="caps">Charlatan</ref><emph>&amp;</emph><ref rend="caps">Médecine</ref>.</xr></lem>
-            <rdg wit="académie">Personne qui exerce la médecine, qui est habilitée à l'exercer.</rdg>
-        </app>  
-    </def>
-    <entry>
-
-    <app>
-    <lem wit="diderot"></lem>
-    <rdg wit="académie">
-        <!-- je ne suis pas sur qu'ici l'utilisation de la balise hi correspond... sinon example? ou alors sens?-->
-    <hi rend="italic">Médecin de la Faculté de Paris. Médecin des hôpitaux. Médecin généraliste. Médecin spécialiste. Médecin consultant. Médecin traitant. Médecin expert. Médecin biologiste,</hi></rdg>
-    </app>
-    </entry>
-    <entry>
-    <sense>
-    <app>
-     <lem wit="diderot">On distingue les medecins en anciens &amp; en modernes.<xr><emph>Voyez</emph><ref rend="caps">Médecins anciens</ref>,</xr>car les modernes sont assez connus.<emph>(D. J.)</emph></lem>
-    <rdg wit="académie">spécialisé dans les analyses de laboratoire.</rdg>
-    </app> 
-    </sense>
-</entry>
-<entry>
-    <app>
-    <lem wit="diderot"></lem>
-    <rdg wit="académie"><hi rend="italic">Médecin de ville, de campagne. Le médecin de famille. Médecin du travail. Médecin légiste,</hi></rdg>
-    <sense>
-    <lem wit="diderot"></lem>
-    <rdg wit="académie">chargé des expertises en médecine légale.</rdg> 
-    <!-- en y repensant, je ne suis pas sûre que garder les deux balises witness était une bonne idée...  --> 
-    </sense>
-</app>
-</entry>
-<entry>
-<app>
-    <rdg wit="académie"><hi rend="italic">Médecin des armées. Médecin militaire. Médecin-major,</hi><xr> voir <ref><emph>Major</emph></ref>.</xr></rdg>   
-</app>
-</entry>
-<!--Je n'ai pas encore terminé ma définition mais je pense que je me suis perdue à la fin avec les balises. lesquelles mettre? et lesquelles sont cohérentes? -->
-    </body>
-    </text>
-    </TEI>
+    <texte>
+        <body>
+            <entry>
+                <orth rend="caps">MEDECIN</orth>
+                <app>
+                    <rdg wit="diderot"> 
+                    <number value="singular">,s.</number> 
+                    <gen value="masculine">m.</gen> 
+                    <usg type="dom" rend="italic">(Med.)</usg> 
+                    <def>est celui qui professe &amp; qui exerce la Médecine après des études convenables de cette science ; c’est par-là qu’il est distingué d’un charlatan. <xr><emph>Voyez</emph> <ref rend="caps">Charlatan</ref> &amp; <ref rend="caps">Médecine</ref>.</xr> On distingue les medecins en anciens &amp; en modernes. <xr><emph>Voyez</emph> <ref rend="caps">Médecins anciens</ref>, car les modernes sont assez connus. <emph>(D. J.)</emph></xr></def></rdg>
+                     
+                    <rdg wit="académie">
+                    <def>Personne qui exerce la médecine, qui est habilitée à l'exercer. <ref rend="italic">Médecin de la Faculté de Paris. Médecin des hôpitaux. Médecin généraliste. Médecin spécialiste. Médecin consultant. Médecin traitant. Médecin expert. Médecin biologiste,</ref> spécialisé dans les analyses de laboratoire. <ref rend="italic">Médecin de ville, de campagne. Le médecin de famille. Médecin du travail. Médecin légiste,</ref> chargé des expertises en médecine légale. <ref rend="italic">Médecin des armées. Médecin militaire. Médecin-major,</ref> <xr>voir <ref rend="italic">Major</ref></xr>. <ref rend="italic">Médecin-chef,</ref> dans un corps de troupe, une unité militaire, nom donné au médecin placé à la tête d'un service de santé. <ref rend="italic">Médecin-conseil</ref>, attaché à un organisme institutionnel ou privé.
+                        <list rend="bulleted">
+                        <item type="literal">S'emploie couramment sans épithète ni complément. <ref rend="italic">Appeler le médecin. Aller chez le médecin. Par ordonnance du médecin.</ref> En apposition. <ref rend="italic">>Une femme médecin.</ref></item>
+                        <item type="figurative">Figuré. <ref rend="italic">Médecin de l'âme,</ref> directeur de conscience, confesseur ou, plus généralement, personne qui soulage les peines du cœur, de l'esprit.</item>
+                        <item>Titres célèbres : <ref rend="italic" type="title">Le Médecin malgré lui,</ref> de <author>Molière</author> (<date>1666</date>) ; <ref rend="italic" type="title">Le Médecin de campagne</ref>, de <author>Balzac</author> (<date>1833</date>).</item>
+                        </list>
+<etym>Étymologie
+<date when="14e siècle"></date>XIVe siècle, <mentionned>medechin</mentionned>. Probablement dérivé régressif de l'ancien verbe médeciner, « soigner, guérir », lui-même dérivé de médecine.</etym>
+                    </def>
+                    </rdg>   
+                </app>
+        </entry>
+      </body>
+    </texte>
+</TEI>
