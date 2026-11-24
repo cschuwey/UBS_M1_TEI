@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
 type="application/xml"
             schematypens="http://relaxng.org/ns/structure/1.0"?>
@@ -40,6 +40,7 @@ type="application/xml"
             une note présente dans le texte original ou en rédiger une. <lb/>
             L'attribut type permet de préciser la nature de la note et l'attribut target permet d'identifier dans quel segment se trouve le mot ou le passage
              nécessitant une annotation. </p>
+             <p> TD6-mise au propre. J'ai recommencé le paragraphe de comparaison qui n'était pas formé correctement. Cependant je ne sais pas si il faut garder les précédents paragraphes. </p>
         </encodingDesc>
 
         <revisionDesc>
@@ -52,12 +53,15 @@ type="application/xml"
             <change when="2026-11-08">
                 Ajout de notes avec les attributs type et target et l'identification des segment par xml:id. Ajout de certaines balises. TD6
             </change>
+            <change when="2026-11-24">
+            Ajout du paragraphe de comparaison. TD6-mise au propre.
+            </change>
         </revisionDesc>
     </teiHeader>
 
     <text>
         <body>
-            <div type="edition1">
+            <div type="edition1751">
             <!--Première édition de l'encyclopédie de 1751 par Diderot et d'Alembert, Paris-->
                 <entry>
                     <form>
@@ -69,7 +73,7 @@ type="application/xml"
                         <gram type="genre">m.</gram>
                     </gramGrp>
 
-                    <sense>
+                    <sense >
                         c’est, dit-on,
                         <def>un animal qui se trouve sur la côte méridionale de <placeName xml:id="lieuBengale">Bengale</placeName>
                         <note type="geographie" target="#lieuBengale"> Le Bengale est une vaste région située à l'Est du sous-continent
@@ -112,7 +116,7 @@ type="application/xml"
                     uniquement une référence à une autre oeuvre mais il y a un renvoi dans la seconde édition. J'espère que cela fonctionne quand même.-->
                 </entry>
             </div>
-            <div type="edition2">
+            <div type="edition1777">
             <!--Nouvelle édition de l'encyclopédie, par Diderot et d'Alembert avec l'ajout d'Adanson, 1777, Genève-->
                <entry>
                     <form>
@@ -133,7 +137,8 @@ type="application/xml"
                         mais le crin plus épais &amp; plus rude, &amp; la tête plus plate &amp; plus
                         courte ; les pieds du <term>cerf</term>, fendus, mais plus gros.
 
-                        On <app> <rdg source="edition1777">ajoute</rdg> <rdg source="edition1751">ajoûte</rdg> </app> que de ces deux cornes, celle du front est longue de <measure unit="pied"> trois
+                        On <app> <rdg source="edition1777">ajoute</rdg> <rdg source="edition1751">ajoûte</rdg> </app> que de ces deux cornes, celle du front est longue
+                        de <measure unit="pied"> trois
                         ou quatre <choice><orig>piés</orig><reg>pieds</reg></choice> </measure>, mince, de l’épaisseur de la jambe humaine vers la
                         racine ; qu’elle est aiguë par la pointe, &amp; droite dans la jeunesse
                         de l’animal, mais qu’elle se recourbe en-devant ; &amp; que celle de
@@ -152,13 +157,67 @@ type="application/xml"
                         à <placeName>Java</placeName>, &amp;c. pour désigner le <term>rhinocéros</term> ; ainsi la description
                         incertaine &amp; chancelante que <name>Vallisnieri</name> a faite sous ce nom,
                         sans pouvoir en faire l’application, doit être rapportée entièrement
-                        à cet animal. Voyez <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/RHINOCEROS">RHINOCEROS</ref>, dans ce Dict. ; dans le <bibl>Dict. des
+                        à cet animal. Voyez <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/RHINOCEROS">RHINOCEROS</ref>,
+                        dans ce Dict. ; dans le <bibl>Dict. des
                         Animaux</bibl> ; &amp; celui d’<bibl>Hist. Nat</bibl>. par M. <name>Valmont de Bomare</name>.
                         (M. <name>ADANSON</name>.) Voyez <ref> <name>VALLISNIERI</name>, tom. III. p. 367.</ref>
                         </seg>
                     </sense>
                     </entry>
             </div>
+
+            <div xml:id="comparaison">
+             <entry>
+                    <form>
+                        <orth>ABADA</orth>
+                    </form>
+
+                    <gramGrp>
+                        <gram type="pos">s.</gram>
+                        <gram type="genre">m.</gram>
+                    </gramGrp>
+
+                    <sense>
+                        c’est, dit-on,
+                        <def>un animal qui se trouve sur la côte méridionale de <placeName>Bengale</placeName></def>,
+                        <seg type="description_physique">qui a deux cornes, l’une sur le front, l’autre sur la nuque du cou ;
+                        qui est de la grosseur d’un <term>poulain</term> de deux ans, &amp; qui a la queue
+                        d’un <term>bœuf</term>, mais un peu moins longue ; le crin &amp; la tête d’un <term>cheval</term>,
+                        mais le crin plus épais &amp; plus rude, &amp; la tête plus plate &amp; plus
+                        courte ; les pieds du <term>cerf</term>, fendus, mais plus gros.
+
+                        On <app> <rdg source="#edition1777">ajoute</rdg> <rdg source="#edition1751">ajoûte</rdg> </app> que de ces deux cornes, celle du front est longue
+                        de <measure unit="pied"> trois
+                        ou quatre <choice><orig>piés</orig><reg>pieds</reg></choice> </measure>, mince, de l’épaisseur de la jambe humaine vers la
+                        racine ; qu’elle est aiguë par la pointe, &amp; droite dans la jeunesse
+                        de l’animal, mais qu’elle se recourbe en-devant ; &amp; que celle de
+                        la nuque du cou est plus courte &amp; plus plate. </seg>
+
+                        <seg type="anecdote">Les Negres le tuent pour lui enlever ses cornes, qu’ils regardent
+                        comme un spécifique, non dans plusieurs maladies, ainsi qu’on lit
+                        dans quelques auteurs, mais en général contre les venins &amp; les
+                        poisons. </seg>
+
+                        <seg type="critique_véracité">Il y <choice><orig>auroit</orig><reg>aurait</reg></choice> de la témérité sur une pareille description à douter que
+                        l’<term>abada</term> ne soit un animal réel </seg>
+                        <app> <rdg source="#edition1751"> ; reste à savoir s’il en est fait mention dans quelque Naturaliste moderne,
+                        instruit &amp; fidele, ou si par hasard tout ceci ne seroit appuyé
+                        que sur le témoignage de quelque voyageur. </seg> </rdg>
+                        <rdg source="#edition1777">  <seg type="identification">On sait aujourd’hui que ce nom a
+                        été employé de tout temps dans le royaume de <placeName>Bengale</placeName>, à <placeName>Patana</placeName>,
+                        à <placeName>Java</placeName>, &amp;c. pour désigner le <term>rhinocéros</term> ; ainsi la description
+                        incertaine &amp; chancelante que <name>Vallisnieri</name> a faite sous ce nom,
+                        sans pouvoir en faire l’application, doit être rapportée entièrement
+                        à cet animal. Voyez <ref target="https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/RHINOCEROS">RHINOCEROS</ref>,
+                        dans ce Dict. ; dans le <bibl>Dict. des
+                        Animaux</bibl> ; &amp; celui d’<bibl>Hist. Nat</bibl>. par M. <name>Valmont de Bomare</name>.
+                        (M. <name>ADANSON</name>.) </rdg> </app>
+                         Voyez <ref><name xml:id="personne">Vallisneri</name>, tom. III. p. 367</ref> <note type="historique" target="#personne">
+                        Antonio Vallisneri (1661-1730) était un médecin et naturaliste italien qui s'intéresait à l'étude des animaux et à l'histoire
+                        naturelle. </note>.
+                        </sense>
+                        </entry>
+        </div>
         </body>
     </text>
 
