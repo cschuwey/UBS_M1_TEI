@@ -9,229 +9,308 @@
                 <author>Vandenesse</author>
             </titleStmt>
             <publicationStmt>
-                <author>Clara Debuissons</author>
+                <authority>Clara Debuissons</authority>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <title>Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers</title>
+                    <title>Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des
+                        métiers</title>
                     <date when="1752">18ème siècle</date>
                     <editor>Edition numérique</editor>
-                    <editor>ENCCRE<link target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-102-0/"/></editor>
+                    <editor>ENCCRE<link
+                            target="https://enccre.academie-sciences.fr/encyclopedie/article/v1-102-0/"
+                        /></editor>
                     <date>2021-2026</date>
                     <title>Encyclopédie d'Yverdon</title>
                 </bibl>
                 <listWit>
-                    <wit xml:id="ENCCRE">Notice tirée de la version de l'Encyclopédie de Diderot et d'Alembert disponible sur ENCCRE</wit>
-                    <wit xml:id="YVERDON">Notice tirée de la version de l'Encyclopédie d'Yverdon</wit>
+                    <witness xml:id="ENCCRE">Notice tirée de la version de l'Encyclopédie de Diderot
+                        et d'Alembert disponible sur ENCCRE</witness>
+                    <witness xml:id="YVERDON">Notice tirée de la version de l'Encyclopédie
+                        d'Yverdon</witness>
                 </listWit>
-             </sourceDesc>
+            </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Encodage réalisé dans le cadre du cours de TEI de M.SCHUWEY, en première année de Master Métiers du Livre et de l'Edition, année 2026-2027</p>
+                <p>Encodage réalisé dans le cadre du cours de TEI de M.SCHUWEY, en première année de
+                    Master Métiers du Livre et de l'Edition, année 2026-2027</p>
             </projectDesc>
             <editorialDec1>
-                <p> Au vu de la longueur de la page, j'ai décidé de me concentrer uniquement sur les dix premiers paragraphes. </p>
-                <p>Pardonnez moi du retard de mes rendus, j'ai beaucoup de mal à suivre les cours en distanciel.</p>
+                <p> Au vu de la longueur de la page, j'ai décidé de me concentrer uniquement sur les
+                    dix premiers paragraphes. </p>
+                <p> Pardonnez moi du retard de mes rendus, j'ai beaucoup de mal à suivre les cours
+                    en distanciel.</p>
             </editorialDec1>
         </encodingDesc>
         <revisionDesc>
             <list>
-                <item><date when="07-10-2026">Mercredi 07 octobre 2026</date>Travail en cours</item>
-                <item><date when="25-10-2026">Dimanche 25 octobre 2026</date>Travail chez moi sur l'encodage</item>
-                <item><date when="08-11-2026">Dimanche 08  novembre 2026</date>Correction et ajouts de balises note</item>
-                <item><date when="13-11-2026">Vendredi 13 novembre 2026</date>Ajout des variantes de textes de l'encyclopédie d'Yverdon</item>
+                <item><date when="2026-10-07">Mercredi 07 octobre 2026</date>Travail en cours</item>
+                <item><date when="2026-10-25">Dimanche 25 octobre 2026</date>Travail chez moi sur
+                    l'encodage</item>
+                <item><date when="2026-11-08">Dimanche 08 novembre 2026</date>Correction et ajouts
+                    de balises note</item>
+                <item><date when="2026-11-13">Vendredi 13 novembre 2026</date>Ajout des variantes de
+                    textes de l'encyclopédie d'Yverdon</item>
             </list>
         </revisionDesc>
     </teiHeader>
-    
+
     <text>
         <body>
             <entry>
-                <app>
-                    <rdg wit="ENCCRE">
-                        <form><orth rend="caps">Abeille
-                            <note type="critic" resp="#StéphaneSchmitt">Il s'agit du premier de deux articles consacrés aux abeilles,
-                            respectivement du point de vue de l'histoire et de l'économie rustique pour l'un, de la mythologie pour l'autre.
-                            </note>
-                        </orth>,</form>
-                        <gramGrp>
-                            <number value="singular">s.</number>
-                            <gen value="feminine">f.</gen>
-                        </gramGrp>
-                    </rdg>
-                    <rdg wit="YVERDON">
-                        <form><orth rend="caps">Abeille</orth>,</form>
-                        <abbr role="author" key="Landois">R</abbr>
-                        <gramGrp>
-                            <number value="singular">s.</number>
-                            <gen value="feminine">f.</gen>
-                            <usg type="dom" rend="italic">Hist. Nat.</usg>
-                        </gramGrp>
-                    </rdg>
-                </app>
+                <form>
+                    <orth rend="caps">Abeille <app>
+                            <rdg wit="ENCCRE"/>
+                            <note type="critic" resp="#StéphaneSchmitt">Il s'agit du premier de deux
+                                articles consacrés aux abeilles, respectivement du point de vue de
+                                l'histoire et de l'économie rustique pour l'un, de la mythologie
+                                pour l'autre. </note>
+                        </app>
+                    </orth>, <gramGrp>
+                        <number value="singular">s.</number>
+                        <gen value="feminine">f.</gen>
+                        <usg type="dom">
+                            <app>
+                                <rdg wit="YVERDON">Hist. Nat.</rdg>
+                            </app>
+                        </usg>
+                    </gramGrp>
+                </form>
+
                 <def>
                     <app>
                         <rdg wit="ENCCRE">
                             <cit type="sense">
-                                <quote>insecte de l'espece des mouches
-                                    <note type="critic" resp="#StéphaneSchmitt">Le terme « mouche » peut désigner, au XVIIIe siècle, à peu près tout insecte ailé.</note>.
-                                    Il y en a de trois sortes : la premiere &amp; la plus nombreuse des trois est l'<emph>abeille commune</emph> : la seconde est moins abondante ; ce sont les <emph>faux bourdons</emph> ou <emph>mâles</emph> : enfin la troisieme est la plus rare, ce sont les <emph>femelles</emph>.
-                                </quote>
+                                <quote>insecte de l'espece des mouches <note type="critic"
+                                        resp="#StéphaneSchmitt">Le terme « mouche » peut désigner,
+                                        au XVIIIe siècle, à peu près tout insecte ailé.</note>. Il y
+                                    en a de trois sortes : la premiere &amp; la plus nombreuse des
+                                    trois est l'<emph>abeille commune</emph> : la seconde est moins
+                                    abondante ; ce sont les <emph>faux bourdons</emph> ou
+                                        <emph>mâles</emph> : enfin la troisieme est la plus rare, ce
+                                    sont les <emph>femelles</emph>. </quote>
                             </cit>
                         </rdg>
                         <rdg wit="YVERDON">
                             <cit type="sense">
-                                <quote>genre d'insecte, de l'ordre de ceux qui ont quatre ailes membraneuses. Outre l'espece si connue par son utilité, ce genre 
-                                    en renferme plusieurs qui, quoique moins précieuses, méritent cependant notre attention par l'industrie qu'elles nous font voir. 
-                                    Tous ces insectes ont pour caractere générique le corps sensiblement velu, les antennes brisées, comme si elles n'étoient que de 
-                                    deux pieces, la bouche munie de deux machoires horizontales, et d'une trompe, trois petits yeux lisses sur le derriere de la tête, 
-                                    outre les deux grandes masses d'yeux à réseau, et un aiguillon à la partie postérieure du corps, à l'exception des mâles, qui en sont 
-                                    dépourvus.
-                                </quote>
+                                <quote>genre d'insecte, de l'ordre de ceux qui ont quatre ailes
+                                    membraneuses. Outre l'espece si connue par son utilité, ce genre
+                                    en renferme plusieurs qui, quoique moins précieuses, méritent
+                                    cependant notre attention par l'industrie qu'elles nous font
+                                    voir. Tous ces insectes ont pour caractere générique le corps
+                                    sensiblement velu, les antennes brisées, comme si elles
+                                    n'étoient que de deux pieces, la bouche munie de deux machoires
+                                    horizontales, et d'une trompe, trois petits yeux lisses sur le
+                                    derriere de la tête, outre les deux grandes masses d'yeux à
+                                    réseau, et un aiguillon à la partie postérieure du corps, à
+                                    l'exception des mâles, qui en sont dépourvus. </quote>
                             </cit>
                         </rdg>
                     </app>
                 </def>
-                
+
                 <!--Bon là c'est le début de la galère. Vu que les deux textes n'ont absolument rien à voir, j'ai pris la décision de regrouper ça par paragraphe (même si on ne parle pas de la même choses).Histoire de vous montrer que j'ai compris la balise rdg-->
                 <div>
                     <app>
                         <rdg wit="YVERDON">
-                            <p> De cette notion générale passons au détail, non de toutes, mais des principales especes.<p>
+                            <p> De cette notion générale passons au détail, non de toutes, mais des
+                                principales especes.</p>
                         </rdg>
                     </app>
                 </div>
-                
+
                 <div>
                     <app>
                         <rdg wit="ENCCRE">
-                            <p>Les abeilles que l'on appelle <emph>reines</emph> ou <emph>meres abeilles</emph>,
-                                étoient connues des Anciens sour le nom de <emph>Rois des abeilles</emph>, parce qu'autrefois
-                                on n'avoit pas distingué leur sexe : mais aujourd'hui il n'est plus équivoque.
-                                <note type="critic" resp="#StephaneSchmitt">Les travaux de Jan Swammerdam (1637-1680), puis ceux de Réaumur (1683-1757), qui est la source principale ici (voir le dossier critique), ont à peu près définitivement établi ce point, qui trouvera cependant des opposants jusque vers la fin du XVIIIe siècle.
-                                </note>
-                                On les a vû pondre des oeufs, &amp; on en trouve aussi en grande quantité dans leur corps. Il n'y a ordinairement qu'une <emph>Reine</emph>
-                                dans une ruche ; ainsi il est très-difficile de la voir : cependant on pourroit la reconnoître assez aisément,
-                                parce qu'elle est plus grande que les autres ; sa tête est plus allongée, &amp; ses ailes sont très-courtes
-                                par rapport à son corps ; elles n'en couvrent guere que la moitié ; au contraire celles des autres abeilles
-                                couvrent le corps en entier. La Reine est plus longue que les mâles : mais elle n'est pas aussi grosse.
-                                On a prétendu autrefois qu'elle n'avoit point d'aiguillon : cependant Aristote le connoissoit ; mais il
-                                croyoit qu'elle ne s'en servoit jamais. Il est aujourd’hui très-certain que les abeilles femelles ont un
-                                aiguillon même plus long que celui des ouvrieres ; cet aiguillon est recourbé. Il faut avoüer qu'elles
-                                s'en servent fort rarement, ce n'est qu'après avoir été irritées pendant long-tems : mais alors elles
-                                piquent avec leur aiguillon, &amp; la piquûre est accompagnée de venin comme celle des abeilles communes.
-                                Il ne paroît pas que la mere abeille ait d'autre emploi dans la ruche que celui de multiplier l'espece,
-                                ce qu'elle fait par une ponte fort abondante ; car elle produit dix à douze mille œufs en sept semaines,
-                                &amp; communément trente à quarante mille par an.
-                            </p>
+                            <p>Les abeilles que l'on appelle <emph>reines</emph> ou <emph>meres
+                                    abeilles</emph>, étoient connues des Anciens sour le nom de
+                                    <emph>Rois des abeilles</emph>, parce qu'autrefois on n'avoit
+                                pas distingué leur sexe : mais aujourd'hui il n'est plus équivoque.
+                                    <note type="critic" resp="#StephaneSchmitt">Les travaux de Jan
+                                    Swammerdam (1637-1680), puis ceux de Réaumur (1683-1757), qui
+                                    est la source principale ici (voir le dossier critique), ont à
+                                    peu près définitivement établi ce point, qui trouvera cependant
+                                    des opposants jusque vers la fin du XVIIIe siècle. </note> On
+                                les a vû pondre des oeufs, &amp; on en trouve aussi en grande
+                                quantité dans leur corps. Il n'y a ordinairement qu'une
+                                    <emph>Reine</emph> dans une ruche ; ainsi il est très-difficile
+                                de la voir : cependant on pourroit la reconnoître assez aisément,
+                                parce qu'elle est plus grande que les autres ; sa tête est plus
+                                allongée, &amp; ses ailes sont très-courtes par rapport à son corps
+                                ; elles n'en couvrent guere que la moitié ; au contraire celles des
+                                autres abeilles couvrent le corps en entier. La Reine est plus
+                                longue que les mâles : mais elle n'est pas aussi grosse. On a
+                                prétendu autrefois qu'elle n'avoit point d'aiguillon : cependant
+                                Aristote le connoissoit ; mais il croyoit qu'elle ne s'en servoit
+                                jamais. Il est aujourd’hui très-certain que les abeilles femelles
+                                ont un aiguillon même plus long que celui des ouvrieres ; cet
+                                aiguillon est recourbé. Il faut avoüer qu'elles s'en servent fort
+                                rarement, ce n'est qu'après avoir été irritées pendant long-tems :
+                                mais alors elles piquent avec leur aiguillon, &amp; la piquûre est
+                                accompagnée de venin comme celle des abeilles communes. Il ne paroît
+                                pas que la mere abeille ait d'autre emploi dans la ruche que celui
+                                de multiplier l'espece, ce qu'elle fait par une ponte fort abondante
+                                ; car elle produit dix à douze mille œufs en sept semaines, &amp;
+                                communément trente à quarante mille par an. </p>
                         </rdg>
                         <rdg wit="YVERDON">
-                            <p>Celle qui nous intéresse le plus est l'<emph>abeille</emph> domestique ou <emph>mouche-à-miel</emph>, (<emph>apis gregaria</emph>). Elle forme de grands corps de sociétés, dont la fin paroît être l'éducation des petits. Dans son état primitif et sauvage elle habite dans les forêts, logée dans des arbres creux ou dans des trous de rochers. C'est ainsi qu'on en trouve dans les vastes forêts de la Pologne, de la Moscovie, etc. L'homme a soumis ces insectes à son domaine, et les loge dans des ruches pour profiter de leurs travaux.</p>
+                            <p>Celle qui nous intéresse le plus est l'<emph>abeille</emph>
+                                domestique ou <emph>mouche-à-miel</emph>, (<emph>apis
+                                    gregaria</emph>). Elle forme de grands corps de sociétés, dont
+                                la fin paroît être l'éducation des petits. Dans son état primitif et
+                                sauvage elle habite dans les forêts, logée dans des arbres creux ou
+                                dans des trous de rochers. C'est ainsi qu'on en trouve dans les
+                                vastes forêts de la Pologne, de la Moscovie, etc. L'homme a soumis
+                                ces insectes à son domaine, et les loge dans des ruches pour
+                                profiter de leurs travaux. </p>
                         </rdg>
                     </app>
                 </div>
-                
+
                 <div>
                     <app>
                         <rdg wit="YVERDON">
-                            <p>  Chaque peuple ou société d'abeilles contient trois sortes d'individus, les <emph>ouvrieres</emph>, les <emph>faux bourdons</emph>,
-                            et les <emph>femelles</emph>.
-                            <p>
+                            <p> Chaque peuple ou société d'abeilles contient trois sortes
+                                d'individus, les <emph>ouvrieres</emph>, les <emph>faux
+                                    bourdons</emph>, et les <emph>femelles</emph>. </p>
                         </rdg>
                     </app>
                 </div>
-                
+
                 <div>
                     <app>
                         <rdg wit="ENCCRE">
-                            <p>On appelle les abeilles mâles <emph>faux bourdons</emph> pour les distinguer de certaines mouches que l'on connoît sous le nom de 
-                                <emph>bourdons</emph>.
-                                <xr><emph>Voyez</emph> <ref rend="caps">Bourdon</ref>.</xr>
+                            <p>On appelle les abeilles mâles <emph>faux bourdons</emph> pour les
+                                distinguer de certaines mouches que l'on connoît sous le nom de
+                                    <emph>bourdons</emph>. <xr><emph>Voyez</emph>
+                                    <ref rend="caps">Bourdon</ref>.</xr>
                             </p>
                         </rdg>
                         <rdg wit="YVERDON">
-                            <p> Les premieres sont celles que tout le monde connoît: on les appelle aussi <emph>abeilles communes</emph>, parce qu'elles sont
-                                en beaucoup plus grand nombre que les autres. Il y en a dans une seule ruche jusqu'à quinze ou seize mille. C'est sur elles que
-                                roule tout le travail nécessaire pour le bien de la communauté, la récolte de la cire et du miel, la construction des alvéoles,
-                                le soin des petits; enfin elles tiennent la ruche propre, et elles écartent les animaux qui pourroient être nuisibles. C'est ce
-                                qui leur a fait donner le nom d'<emph>ouvrieres</emph>. On leur donne aussi celui de <emph>mulets</emph> ou de <emph>neutres</emph>,
-                                parce qu'en les disséquant on n'a jamais trouvé dans leur corps aucun des organes de la génération.
-                            </p>
+                            <p> Les premieres sont celles que tout le monde connoît: on les appelle
+                                aussi <emph>abeilles communes</emph>, parce qu'elles sont en
+                                beaucoup plus grand nombre que les autres. Il y en a dans une seule
+                                ruche jusqu'à quinze ou seize mille. C'est sur elles que roule tout
+                                le travail nécessaire pour le bien de la communauté, la récolte de
+                                la cire et du miel, la construction des alvéoles, le soin des
+                                petits; enfin elles tiennent la ruche propre, et elles écartent les
+                                animaux qui pourroient être nuisibles. C'est ce qui leur a fait
+                                donner le nom d'<emph>ouvrieres</emph>. On leur donne aussi celui de
+                                    <emph>mulets</emph> ou de <emph>neutres</emph>, parce qu'en les
+                                disséquant on n'a jamais trouvé dans leur corps aucun des organes de
+                                la génération. </p>
                         </rdg>
                     </app>
                 </div>
-                
+
                 <div>
-                    <p>On ne trouve ordinairement des mâles dans les ruches que depuis le commencement ou le milieu du mois de Mai jusque vers la fin du mois de Juillet ; 
-                        leur nombre se multiplie de jour en jour pendant ce tems, à la fin duquel ils périssent subitement de mort violente, comme on le verra dans la suite.
+                    <p>On ne trouve ordinairement des mâles dans les ruches que depuis le
+                        commencement ou le milieu du mois de Mai jusque vers la fin du mois de
+                        Juillet ; leur nombre se multiplie de jour en jour pendant ce tems, à la fin
+                        duquel ils périssent subitement de mort violente, comme on le verra dans la
+                        suite. </p>
+                </div>
+
+                <div>
+                    <p>Les mâles sont moins grands que la Reine, &amp; plus grands que les ouvrieres
+                        ; ils ont la tête plus ronde, ils ne vivent que de miel, au lieu que les
+                        ouvrieres mangent souvent de la cire brute. Dès que l'aurore paroit,
+                        celles-ci partent pour aller travailler, les mâles sortent bien plus tard,
+                        &amp; c'est seulement pour voltiger autour de la ruche, sans travailler. Ils
+                        rentrent avant le serein &amp; la fraîcheur du soir ; ils n'ont ni
+                        aiguillon, ni patelles, ni dents saillantes comme les ouvrieres. Leurs dents
+                        sont petites, plates &amp; cachées, leur trompe est aussi plus courte &amp;
+                        plus déliée : mais leurs yeux sont plus grands &amp; beaucoup plus gros que
+                        ceux des ouvrieres : ils couvrent tout le dessus de la partie supérieure de
+                        la tête, au lieu que les yeux des autres forment simplement une espece de
+                        bourlet de chaque côté. </p>
+                </div>
+
+                <div>
+                    <p>On trouve dans certains tems des faux bourdons qui ont à leur extrémité
+                        postérieure deux cornes charnues aussi longues que le tiers ou la moitié de
+                        leur corps : il paroît aussi quelquefois entre ces deux cornes un corps
+                        charnu qui se recourbe en haut. Si ces parties ne sont pas apparentes au
+                        dehors, on peut les faire sortir en pressant le ventre du faux bourdon ; si
+                        on l'ouvre, on voit dans des vaisseaux &amp; dans des réservoirs une liqueur
+                        laiteuse, qui est vraissemblablement la liqueur séminale. On croit que
+                        toutes ces parties sont celles de la génération ; car on ne les trouve pas
+                        dans les abeilles meres, ni dans les ouvrieres. L'unique emploi que l'on
+                        connoisse aux mâles, est de féconder la Reine ; aussi dès que la ponte est
+                        finie, les abeilles ouvrieres les chassent &amp; les tuent. </p>
+                </div>
+
+                <div>
+                    <p>Il y a des abeilles qui n'ont point de sexe. En les disséquant on n'a jamais
+                        trouvé dans leurs corps aucune partie qui eût quelquefois rapport avec
+                        celles qui caractérisent les abeilles mâles ou les femelles. On les appelle
+                            <emph>mulets</emph> ou <emph>abeilles communes</emph>,parce qu'elles
+                        sont en beaucoup plus grand nombre que celles qui ont un sexe. Il y en a
+                        dans une seule ruche jusqu'à quinze ou seize mille, &amp; plus, tandis qu'on
+                        n'y trouve quelquefois que deux ou trois cent mâles, quelquefois sept ou
+                        huit, ou mille ou plus. </p>
+                </div>
+
+                <div>
+                    <p> On désigne aussi les abeilles communes par le nom d'<emph>ouvrieres</emph>,
+                        parce qu'elles font tout l'ouvrage qui est nécessaire pour l'entretien de la
+                        ruche, soit la récolte du miel &amp; de la cire, soit la construction des
+                        alvéoles ; elles soignent les petites abeilles ; enfin elles tiennent la
+                        ruche propre, &amp; elles écartent tous les animaux étrangers qui pourroient
+                        être nuisibles. La tête des abeilles communes est triangulaire ; la pointe
+                        du triangle est formée par la rencontre de deux dents posées horisontalement
+                        l'une à côté de l'autre, longues, saillantes &amp; mobiles. Ces dents
+                        servent à la construction des alvéoles : aussi sont-elles plus fortes dans
+                        les abeilles ouvrieres que dans les autres. Si on écarte ces deux dents, on
+                        voit qu'elles sont comme des especes de cuillieres dont la concavité est
+                        en-dedans. Les abeilles ont quatre ailes, deux grandes &amp; deux petites ;
+                        en les levant, on trouve de chaque côté auprès de l'origine de l'aile de
+                        dessous en tirant vers l'estomac, une ouverture ressemblante à une bouche ;
+                        c'est l'ouverture de l'un des poumons : il y en a une autre sous chacune des
+                        premieres jambes, desorte qu'il y a quatre ouvertures sur le corcelet
+                                (<xr><emph>V.</emph>
+                            <ref rend="caps">Corcelet</ref></xr>) &amp; douze autres de part &amp;
+                        d'autre sur les six anneaux qui composent le corps: ces ouvertures sont
+                        nommées <emph>stigmates</emph>.<xr><emph>Voyez</emph>
+                            <ref rend="caps">Srigmates</ref>.</xr>
                     </p>
                 </div>
-                
+
                 <div>
-                    <p>Les mâles sont moins grands que la Reine, &amp; plus grands que les ouvrieres ; ils ont la tête plus ronde,
-                        ils ne vivent que de miel, au lieu que les ouvrieres mangent souvent de la cire brute. Dès que l'aurore paroit,
-                        celles-ci partent pour aller travailler, les mâles sortent bien plus tard, &amp; c'est seulement pour voltiger
-                        autour de la ruche, sans travailler. Ils rentrent avant le serein &amp; la fraîcheur du soir ; ils n'ont ni aiguillon,
-                        ni patelles, ni dents saillantes comme les ouvrieres. Leurs dents sont petites, plates &amp; cachées, leur trompe est
-                        aussi plus courte &amp; plus déliée : mais leurs yeux sont plus grands &amp; beaucoup plus gros que ceux des ouvrieres :
-                        ils couvrent tout le dessus de la partie supérieure de la tête, au lieu que les yeux des autres forment simplement une
-                        espece de bourlet de chaque côté.
-                    </p>
+                    <p>L'air entre par ces stigmates, &amp; circule dans le corps par le moyen d'un
+                        grand nombre de petits canaux ; enfin il en sort par les pores de la peau.
+                        Si on tiraille un peu la tête de l'abeille, on voit qu'elle ne tient à la
+                        poitrine ou corcelet que par un cou très court, &amp; le corcelet ne tient
+                        au corps que par un filet très-mince. Le corps est couvert en entier par six
+                        grandes pièces écailleuses, qui portent en recouvrement l'une sur l'autre
+                        &amp; forment six anneaux qui laissent au corps toute sa souplesse. On
+                        appelle <emph>antennes</emph>
+                        (<xr><emph>Voyez</emph><ref rend="caps">Antennes</ref></xr>
+                        ces especes de cornes mobiles &amp;
+                        articulées qui sont sur la tête, une de chaque côté; les antennes des mâles
+                        n'ont que douze articulations, celles des autres en ont quinze. </p>
                 </div>
-                
+
                 <div>
-                    <p>On trouve dans certains tems des faux bourdons qui ont à leur extrémité postérieure deux cornes charnues aussi longues
-                        que le tiers ou la moitié de leur corps : il paroît aussi quelquefois entre ces deux cornes un corps charnu qui se recourbe
-                        en haut. Si ces parties ne sont pas apparentes au dehors, on peut les faire sortir en pressant le ventre du faux bourdon ;
-                        si on l'ouvre, on voit dans des vaisseaux &amp; dans des réservoirs une liqueur laiteuse, qui est vraissemblablement la liqueur
-                        séminale. On croit que toutes ces parties sont celles de la génération ; car on ne les trouve pas dans les abeilles meres,
-                        ni dans les ouvrieres. L'unique emploi que l'on connoisse aux mâles, est de féconder la Reine ; aussi dès que la ponte est finie,
-                        les abeilles ouvrieres les chassent &amp; les tuent.
-                    </p>
+                    <p>L'abeille a six jambes placées deux à deux en trois rangs ; chaque jambe est
+                        garnie à l'exprémité de deux grands ongles &amp; de deux petits, entre
+                        lesquels il y a une partie molle &amp; charnue. La jambe est composée de
+                        cinq pièces, les deux premieres sont garnies de poils ; la quatrième pièce
+                        de la seconde &amp; de la troisieme paire est appellée <emph>la
+                            brosse</emph>: cette partie est quarrée, sa face extérieure est rase
+                        &amp; lisse, l'intérieure est plus chargée de poils que nos brosses ne le
+                        sont ordinairement, &amp; ces poils sont disposés de la même façon. C'est
+                        avec ces sortes de brosses que l'abeille ramasse les poussieres des étamines
+                        qui tombent sur son corps, lorsqu'elle est sur une fleur pour faire la
+                        récolte de la cire. <xr><emph>Voyez</emph>
+                            <ref rend="caps">Cire</ref>.</xr>Elle en fait de petites pelotes qu'elle
+                        transporte à l'aide de ses jambes sur la palette qui est la troisieme partie
+                        des jambes de la troisieme paire. Les jambes de devant transportent à celles
+                        du milieu ces petites masses ; celles-ci les placent &amp; les empilent sur
+                        la palette des jambes de derriere. </p>
                 </div>
-                
-                <div>
-                    <p>Il y a des abeilles qui n'ont point de sexe. En les disséquant on n'a jamais trouvé dans leurs corps aucune partie qui eût quelquefois
-                        rapport avec celles qui caractérisent les abeilles mâles ou les femelles. On les appelle <emph>mulets</emph> ou <emph>abeilles
-                            communes</emph>,parce qu'elles sont en beaucoup plus grand nombre que celles qui ont un sexe. Il y en a dans une seule ruche jusqu'à
-                        quinze ou seize mille, &amp; plus, tandis qu'on n'y trouve quelquefois que deux ou trois cent mâles, quelquefois sept ou huit, ou mille ou plus.
-                    </p>
-                </div>
-                
-                <div>
-                    <p>On désigne aussi les abeilles communes par le nom d'<emp>ouvrieres</emph>, parce qu'elles font tout l'ouvrage qui est nécessaire pour l'entretien
-                        de la ruche, soit la récolte du miel &amp; de la cire, soit la construction des alvéoles ; elles soignent les petites abeilles ; enfin elles tiennent
-                        la ruche propre, &amp; elles écartent tous les animaux étrangers qui pourroient être nuisibles. La tête des abeilles communes est triangulaire ; la pointe
-                        du triangle est formée par la rencontre de deux dents posées horisontalement l'une à côté de l'autre, longues, saillantes &amp; mobiles. Ces dents servent
-                        à la construction des alvéoles : aussi sont-elles plus fortes dans les abeilles ouvrieres que dans les autres. Si on écarte ces deux dents, on voit qu'elles
-                        sont comme des especes de cuillieres dont la concavité est en-dedans. Les abeilles ont quatre ailes, deux grandes &amp; deux petites ; en les levant, on trouve 
-                        de chaque côté auprès de l'origine de l'aile de dessous en tirant vers l'estomac, une ouverture ressemblante à une bouche ; c'est l'ouverture de l'un des poumons :
-                        il y en a une autre sous chacune des premieres jambes, desorte qu'il y a quatre ouvertures sur le corcelet (<xr><emph>V.</emph> <ref rend="caps">Corcelet</ref></xr>)
-                        &amp; douze autres de part &amp; d'autre sur les six anneaux qui composent le corps: ces ouvertures sont nommées <emph>stigmates</emph>.<xr><emph>Voyez</emph> <ref rend="caps">Srigmates</ref>.</xr>
-                    </p>
-                </div>
-                
-                <div>
-                    <p>L'air entre par ces stigmates, &amp; circule dans le corps par le moyen d'un grand nombre de petits canaux ; enfin il en sort par les pores de la peau. Si on tiraille
-                        un peu la tête de l'abeille, on voit qu'elle ne tient à la poitrine ou corcelet que par un cou très court, &amp; le corcelet ne tient au corps que par un filet très-mince.
-                        Le corps est couvert en entier par six grandes pièces écailleuses, qui portent en recouvrement l'une sur l'autre &amp; forment six anneaux qui laissent au corps toute
-                        sa souplesse. On appelle <emph>antennes<emph>(<xr><emph>Voyez</emph> <ref rend"caps">Antennes</ref></xr>)ces especes de cornes mobiles &amp; articulées qui sont sur la
-                        tête, une de chaque côté; les antennes des mâles n'ont que douze articulations, celles des autres en ont quinze.
-                    </p>
-                </div>
-                
-                <div>
-                    <p>L'abeille a six jambes placées deux à deux en trois rangs ; chaque jambe est garnie à l'exprémité de deux grands ongles &amp; de deux petits, entre lesquels il y a une
-                        partie molle &amp; charnue. La jambe est composée de cinq pièces, les deux premieres sont garnies de poils ; la quatrième pièce de la seconde &amp; de la troisieme
-                        paire est appellée <emph>la brosse</emph>: cette partie est quarrée, sa face extérieure est	rase &amp; lisse, l'intérieure est plus chargée de poils que nos brosses ne le
-                        sont ordinairement, &amp; ces poils sont disposés de la même façon. C'est avec ces sortes de brosses que l'abeille ramasse les poussieres des étamines qui tombent sur son
-                        corps, lorsqu'elle est sur une fleur pour faire la récolte de la cire. <xr><emph>Voyez</emph> <ref rend="caps">Cire</ref>.</xr>Elle en fait de petites pelotes qu'elle transporte
-                        à l'aide de ses jambes sur la palette qui est la troisieme partie des jambes de la troisieme paire. Les jambes de devant transportent à celles du milieu ces petites masses ;
-                        celles-ci les placent &amp; les empilent sur la palette des jambes de derriere.
-                    </p>
-                </div>
-                
+
             </entry>
         </body>
     </text>
