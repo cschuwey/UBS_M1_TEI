@@ -111,16 +111,16 @@
                 </def>
 
                 <!--Bon là c'est le début de la galère. Vu que les deux textes n'ont absolument rien à voir, j'ai pris la décision de regrouper ça par paragraphe (même si on ne parle pas de la même choses).Histoire de vous montrer que j'ai compris la balise rdg-->
-                <div>
+                <div1>
                     <app>
                         <rdg wit="YVERDON">
                             <p> De cette notion générale passons au détail, non de toutes, mais des
                                 principales especes.</p>
                         </rdg>
                     </app>
-                </div>
+                </div1>
 
-                <div>
+                <div2>
                     <app>
                         <rdg wit="ENCCRE">
                             <p>Les abeilles que l'on appelle <emph>reines</emph> ou <emph>meres
@@ -166,9 +166,9 @@
                                 profiter de leurs travaux. </p>
                         </rdg>
                     </app>
-                </div>
+                </div2>
 
-                <div>
+                <div3>
                     <app>
                         <rdg wit="YVERDON">
                             <p> Chaque peuple ou société d'abeilles contient trois sortes
@@ -176,9 +176,9 @@
                                     bourdons</emph>, et les <emph>femelles</emph>. </p>
                         </rdg>
                     </app>
-                </div>
+                </div3>
 
-                <div>
+                <div4>
                     <app>
                         <rdg wit="ENCCRE">
                             <p>On appelle les abeilles mâles <emph>faux bourdons</emph> pour les
@@ -202,17 +202,17 @@
                                 la génération. </p>
                         </rdg>
                     </app>
-                </div>
+                </div4>
 
-                <div>
+                <div5>
                     <p>On ne trouve ordinairement des mâles dans les ruches que depuis le
                         commencement ou le milieu du mois de Mai jusque vers la fin du mois de
                         Juillet ; leur nombre se multiplie de jour en jour pendant ce tems, à la fin
                         duquel ils périssent subitement de mort violente, comme on le verra dans la
                         suite. </p>
-                </div>
+                </div5>
 
-                <div>
+                <div6>
                     <p>Les mâles sont moins grands que la Reine, &amp; plus grands que les ouvrieres
                         ; ils ont la tête plus ronde, ils ne vivent que de miel, au lieu que les
                         ouvrieres mangent souvent de la cire brute. Dès que l'aurore paroit,
@@ -225,9 +225,9 @@
                         ceux des ouvrieres : ils couvrent tout le dessus de la partie supérieure de
                         la tête, au lieu que les yeux des autres forment simplement une espece de
                         bourlet de chaque côté. </p>
-                </div>
+                </div6>
 
-                <div>
+                <div7>
                     <p>On trouve dans certains tems des faux bourdons qui ont à leur extrémité
                         postérieure deux cornes charnues aussi longues que le tiers ou la moitié de
                         leur corps : il paroît aussi quelquefois entre ces deux cornes un corps
@@ -239,9 +239,9 @@
                         dans les abeilles meres, ni dans les ouvrieres. L'unique emploi que l'on
                         connoisse aux mâles, est de féconder la Reine ; aussi dès que la ponte est
                         finie, les abeilles ouvrieres les chassent &amp; les tuent. </p>
-                </div>
+                </div7>
 
-                <div>
+                <div8>
                     <p>Il y a des abeilles qui n'ont point de sexe. En les disséquant on n'a jamais
                         trouvé dans leurs corps aucune partie qui eût quelquefois rapport avec
                         celles qui caractérisent les abeilles mâles ou les femelles. On les appelle
@@ -250,9 +250,9 @@
                         dans une seule ruche jusqu'à quinze ou seize mille, &amp; plus, tandis qu'on
                         n'y trouve quelquefois que deux ou trois cent mâles, quelquefois sept ou
                         huit, ou mille ou plus. </p>
-                </div>
+                </div8>
 
-                <div>
+                <div9>
                     <p> On désigne aussi les abeilles communes par le nom d'<emph>ouvrieres</emph>,
                         parce qu'elles font tout l'ouvrage qui est nécessaire pour l'entretien de la
                         ruche, soit la récolte du miel &amp; de la cire, soit la construction des
@@ -273,11 +273,11 @@
                             <ref rend="caps">Corcelet</ref></xr>) &amp; douze autres de part &amp;
                         d'autre sur les six anneaux qui composent le corps: ces ouvertures sont
                         nommées <emph>stigmates</emph>.<xr><emph>Voyez</emph>
-                            <ref rend="caps">Srigmates</ref>.</xr>
+                            <ref rend="caps">Stigmates</ref>.</xr>
                     </p>
-                </div>
+                </div9>
 
-                <div>
+                <div10>
                     <p>L'air entre par ces stigmates, &amp; circule dans le corps par le moyen d'un
                         grand nombre de petits canaux ; enfin il en sort par les pores de la peau.
                         Si on tiraille un peu la tête de l'abeille, on voit qu'elle ne tient à la
@@ -290,9 +290,9 @@
                         ces especes de cornes mobiles &amp;
                         articulées qui sont sur la tête, une de chaque côté; les antennes des mâles
                         n'ont que douze articulations, celles des autres en ont quinze. </p>
-                </div>
+                </div10>
 
-                <div>
+                <div11>
                     <p>L'abeille a six jambes placées deux à deux en trois rangs ; chaque jambe est
                         garnie à l'exprémité de deux grands ongles &amp; de deux petits, entre
                         lesquels il y a une partie molle &amp; charnue. La jambe est composée de
@@ -309,7 +309,7 @@
                         des jambes de la troisieme paire. Les jambes de devant transportent à celles
                         du milieu ces petites masses ; celles-ci les placent &amp; les empilent sur
                         la palette des jambes de derriere. </p>
-                </div>
+                </div11>
 
             </entry>
         </body>
